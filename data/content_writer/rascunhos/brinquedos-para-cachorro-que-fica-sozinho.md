@@ -1,19 +1,21 @@
 ---
 titulo: 'Brinquedos para cachorro que fica sozinho: o MC Rex solta o hit da diversão'
-meta_description: 'MC Rex seleciona os brinquedos certos pro cachorro que fica sozinho em casa, pra reduzir o tédio e a ansiedade na sua ausência.'
+meta_description: MC Rex seleciona os brinquedos certos pro cachorro que fica sozinho
+  em casa, pra reduzir o tédio e a ansiedade na sua ausência.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: brinquedos-para-cachorro-que-fica-sozinho
 termo_origem: brinquedos para cachorro que fica sozinho
 pilar: produtos_compras
 intencao_busca: informacional
-persona: 'MC Rex (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: MC Rex (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: pergunta_retorica
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Brinquedos para cachorro que fica sozinho: o MC Rex solta o hit da diversão

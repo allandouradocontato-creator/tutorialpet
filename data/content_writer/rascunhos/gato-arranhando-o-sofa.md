@@ -1,19 +1,21 @@
 ---
 titulo: 'Gato arranhando o sofá: a Zuza Pimentel investiga o "crime" da sala'
-meta_description: 'Zuza Pimentel investiga por que o gato arranha o sofá e traz o veredito: como redirecionar esse comportamento sem punir o bichano.'
+meta_description: 'Zuza Pimentel investiga por que o gato arranha o sofá e traz o
+  veredito: como redirecionar esse comportamento sem punir o bichano.'
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: gato-arranhando-o-sofa
 termo_origem: gato arranhando o sofá
 pilar: comportamento
 intencao_busca: informacional
-persona: 'Zuza Pimentel (personagem 100% fictícia, sem relação com pessoa real)'
-autor: ''
+persona: Zuza Pimentel (personagem 100% fictícia, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: preview_lista
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Gato arranhando o sofá: a Zuza Pimentel investiga o "crime" da sala

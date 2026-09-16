@@ -1,19 +1,21 @@
 ---
 titulo: 'Enxoval para filhote de cachorro: a Dona Fifi Marreco faz a lista (com classe)'
-meta_description: 'Dona Fifi Marreco monta, com todo o glamour, a lista de enxoval essencial pro filhote de cachorro — sem gastar com o que não precisa.'
+meta_description: Dona Fifi Marreco monta, com todo o glamour, a lista de enxoval
+  essencial pro filhote de cachorro — sem gastar com o que não precisa.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: enxoval-para-filhote-de-cachorro
 termo_origem: enxoval para filhote de cachorro
 pilar: primeiros_passos_filhotes
 intencao_busca: transacional
-persona: 'Dona Fifi Marreco (personagem 100% fictícia, sem relação com pessoa real)'
-autor: ''
+persona: Dona Fifi Marreco (personagem 100% fictícia, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: preview_lista
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Enxoval para filhote de cachorro: a Dona Fifi Marreco faz a lista (com classe)

@@ -9,7 +9,7 @@ termo_origem: quantas vezes por dia alimentar gato
 pilar: alimentacao
 intencao_busca: informacional
 persona: Nanda Confete (personagem 100% fictícia, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false

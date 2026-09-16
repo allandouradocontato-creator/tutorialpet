@@ -9,7 +9,7 @@ slug: como-cortar-unha-de-cachorro
 termo_origem: como cortar unha de cachorro
 pilar: cuidados_diarios
 intencao_busca: informacional
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T20:00:04+00:00'
 aviso_saude_aplicavel: false

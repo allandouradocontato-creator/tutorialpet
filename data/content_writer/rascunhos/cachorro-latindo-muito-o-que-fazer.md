@@ -1,19 +1,22 @@
 ---
-titulo: 'Cachorro latindo muito, o que fazer? O Seu Trombone (que também é barulhento) explica'
-meta_description: 'Seu Trombone, o vizinho mais barulhento do quarteirão, ensina por que o cachorro late tanto e o que fazer pra reduzir os latidos sem gritaria.'
+titulo: Cachorro latindo muito, o que fazer? O Seu Trombone (que também é barulhento)
+  explica
+meta_description: Seu Trombone, o vizinho mais barulhento do quarteirão, ensina por
+  que o cachorro late tanto e o que fazer pra reduzir os latidos sem gritaria.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: cachorro-latindo-muito-o-que-fazer
 termo_origem: cachorro latindo muito o que fazer
 pilar: comportamento
 intencao_busca: informacional
-persona: 'Seu Trombone (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Seu Trombone (personagem 100% fictício, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: direto_ao_topico
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Cachorro latindo muito, o que fazer? O Seu Trombone (que também é barulhento) explica

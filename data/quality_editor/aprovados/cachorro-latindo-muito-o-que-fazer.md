@@ -10,7 +10,7 @@ termo_origem: cachorro latindo muito o que fazer
 pilar: comportamento
 intencao_busca: informacional
 persona: Seu Trombone (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false

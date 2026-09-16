@@ -10,7 +10,7 @@ termo_origem: como trocar a ração do cachorro
 pilar: alimentacao
 intencao_busca: informacional
 persona: Beto Trapalhão (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false

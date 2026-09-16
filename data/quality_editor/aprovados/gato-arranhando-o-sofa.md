@@ -9,7 +9,7 @@ termo_origem: gato arranhando o sofá
 pilar: comportamento
 intencao_busca: informacional
 persona: Zuza Pimentel (personagem 100% fictícia, sem relação com pessoa real)
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false

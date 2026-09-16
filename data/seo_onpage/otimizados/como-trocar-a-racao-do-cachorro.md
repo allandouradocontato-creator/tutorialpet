@@ -10,7 +10,7 @@ termo_origem: como trocar a ração do cachorro
 pilar: alimentacao
 intencao_busca: informacional
 persona: Beto Trapalhão (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
@@ -23,7 +23,7 @@ checagens_qualidade: []
 titulo_seo: Como trocar a ração do cachorro sem virar bagunça (o Beto
 keyword_density: 0.0115
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:27:06+00:00'
+otimizado_em: '2026-09-16T01:49:12+00:00'
 checagens_seo:
 - título original (86 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.

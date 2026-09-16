@@ -1,19 +1,21 @@
 ---
 titulo: 'Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete'
-meta_description: 'Nanda Confete organiza a "festa da comida" do seu gato: quantas vezes alimentar por dia, porção certa e como evitar o bicho gordinho demais.'
+meta_description: 'Nanda Confete organiza a "festa da comida" do seu gato: quantas
+  vezes alimentar por dia, porção certa e como evitar o bicho gordinho demais.'
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: quantas-vezes-por-dia-alimentar-gato
 termo_origem: quantas vezes por dia alimentar gato
 pilar: alimentacao
 intencao_busca: informacional
-persona: 'Nanda Confete (personagem 100% fictícia, sem relação com pessoa real)'
-autor: ''
+persona: Nanda Confete (personagem 100% fictícia, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: preview_lista
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete

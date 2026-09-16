@@ -1,19 +1,22 @@
 ---
-titulo: 'Como ensinar cachorro a fazer xixi no lugar certo: o drama (e a solução) com Dona Fifi Marreco'
-meta_description: 'Dona Fifi Marreco dramatiza (com razão) sobre os acidentes de xixi do cachorro e ensina, com calma, como treinar o lugar certo.'
+titulo: 'Como ensinar cachorro a fazer xixi no lugar certo: o drama (e a solução)
+  com Dona Fifi Marreco'
+meta_description: Dona Fifi Marreco dramatiza (com razão) sobre os acidentes de xixi
+  do cachorro e ensina, com calma, como treinar o lugar certo.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
 termo_origem: como ensinar cachorro a fazer xixi no lugar certo
 pilar: comportamento
 intencao_busca: informacional
-persona: 'Dona Fifi Marreco (personagem 100% fictícia, sem relação com pessoa real)'
-autor: ''
+persona: Dona Fifi Marreco (personagem 100% fictícia, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: direto_ao_topico
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Como ensinar cachorro a fazer xixi no lugar certo: o drama (e a solução) com Dona Fifi Marreco

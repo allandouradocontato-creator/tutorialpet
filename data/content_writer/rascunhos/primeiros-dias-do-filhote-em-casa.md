@@ -1,19 +1,21 @@
 ---
 titulo: 'Primeiros dias do filhote em casa: a Tia Zulmira do Zap dá as boas-vindas'
-meta_description: 'Tia Zulmira do Zap manda um áudio (grande, como sempre) contando como preparar a casa e a família pros primeiros dias do filhote.'
+meta_description: Tia Zulmira do Zap manda um áudio (grande, como sempre) contando
+  como preparar a casa e a família pros primeiros dias do filhote.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: primeiros-dias-do-filhote-em-casa
 termo_origem: primeiros dias do filhote em casa
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-persona: 'Tia Zulmira do Zap (personagem 100% fictícia, sem relação com pessoa real)'
-autor: ''
+persona: Tia Zulmira do Zap (personagem 100% fictícia, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: preview_lista
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Primeiros dias do filhote em casa: a Tia Zulmira do Zap dá as boas-vindas

@@ -9,7 +9,7 @@ termo_origem: quantas vezes por dia alimentar gato
 pilar: alimentacao
 intencao_busca: informacional
 persona: Nanda Confete (personagem 100% fictícia, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
@@ -29,7 +29,7 @@ checagens_qualidade:
 titulo_seo: 'Quantas vezes por dia alimentar gato: a festa da comida com'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:27:06+00:00'
+otimizado_em: '2026-09-16T01:49:13+00:00'
 checagens_seo:
 - título original (73 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.

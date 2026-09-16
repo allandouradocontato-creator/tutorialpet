@@ -1,19 +1,22 @@
 ---
-titulo: 'Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você)'
-meta_description: 'Beto Trapalhão conta os tropeços que já deu trocando a ração do cachorro, pra você aprender o jeito certo de fazer a transição sem sustos.'
+titulo: Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou
+  por você)
+meta_description: Beto Trapalhão conta os tropeços que já deu trocando a ração do
+  cachorro, pra você aprender o jeito certo de fazer a transição sem sustos.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-trocar-a-racao-do-cachorro
 termo_origem: como trocar a ração do cachorro
 pilar: alimentacao
 intencao_busca: informacional
-persona: 'Beto Trapalhão (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Beto Trapalhão (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: pergunta_retorica
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você)

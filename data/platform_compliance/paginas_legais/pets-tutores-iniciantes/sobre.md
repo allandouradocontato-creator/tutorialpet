@@ -5,7 +5,7 @@ tipo: pagina_legal
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-16T01:31:49+00:00'
 gerado_por: 06_platform_compliance
-revisao_humana_pendente: true
+revisao_humana_pendente: false
 ---
 
 # Sobre o Tutor de Primeira Viagem
@@ -31,14 +31,13 @@ entre amigos, não uma aula técnica.
 
 > Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.
 
-## Quem escreve aqui
+## Quem está por trás do site
 
-**[NOME_REAL_DO_AUTOR]**
+**Allan Dourado Falcão** é o responsável legal e o ponto de contato oficial do
+**Tutor de Primeira Viagem**.
 
-[BIO_REAL_E_VERIFICAVEL_DO_AUTOR]
-
-*(Nota para revisão humana: preencher com uma pessoa real, com biografia verdadeira e
-verificável, antes da publicação. O autor exibido nos artigos deve ser uma pessoa real com experiência real como tutora, com bio verdadeira na página /sobre. Não criar autores fictícios.)*
+O conteúdo é produzido em equipe, com colaboração editorial de **Rosana Cardoso** e
+**Mariah Maitre**.
 
 ## Fale com a gente
 

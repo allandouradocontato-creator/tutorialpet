@@ -1,19 +1,21 @@
 ---
 titulo: 'Como socializar filhote de gato: a Nanda Confete monta a festa de apresentação'
-meta_description: 'Nanda Confete organiza a "festa de socialização" do filhote de gato: como apresentar pessoas, sons e outros animais sem estresse.'
+meta_description: 'Nanda Confete organiza a "festa de socialização" do filhote de
+  gato: como apresentar pessoas, sons e outros animais sem estresse.'
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-socializar-filhote-de-gato
 termo_origem: como socializar filhote de gato
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-persona: 'Nanda Confete (personagem 100% fictícia, sem relação com pessoa real)'
-autor: ''
+persona: Nanda Confete (personagem 100% fictícia, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: direto_ao_topico
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Como socializar filhote de gato: a Nanda Confete monta a festa de apresentação

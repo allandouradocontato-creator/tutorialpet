@@ -9,7 +9,7 @@ termo_origem: enxoval para filhote de cachorro
 pilar: primeiros_passos_filhotes
 intencao_busca: transacional
 persona: Dona Fifi Marreco (personagem 100% fictícia, sem relação com pessoa real)
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false

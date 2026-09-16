@@ -1,19 +1,22 @@
 ---
-titulo: 'Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado (várias vezes)'
-meta_description: 'Beto Trapalhão conta os arranhadores que comprou errado pro gato, pra você acertar de primeira: tipo, material e altura ideal.'
+titulo: Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado
+  (várias vezes)
+meta_description: 'Beto Trapalhão conta os arranhadores que comprou errado pro gato,
+  pra você acertar de primeira: tipo, material e altura ideal.'
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: arranhador-para-gato-qual-escolher
 termo_origem: arranhador para gato qual escolher
 pilar: produtos_compras
 intencao_busca: transacional
-persona: 'Beto Trapalhão (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Beto Trapalhão (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: direto_ao_topico
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado (várias vezes)

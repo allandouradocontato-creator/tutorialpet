@@ -1,19 +1,21 @@
 ---
-titulo: 'Coleira ou peitoral para cachorro? O Comandante Focinho decide a farda oficial'
-meta_description: 'Comandante Focinho compara coleira e peitoral pra cachorro e ajuda a decidir qual equipamento é mais seguro pro seu cão.'
+titulo: Coleira ou peitoral para cachorro? O Comandante Focinho decide a farda oficial
+meta_description: Comandante Focinho compara coleira e peitoral pra cachorro e ajuda
+  a decidir qual equipamento é mais seguro pro seu cão.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: coleira-ou-peitoral-para-cachorro
 termo_origem: coleira ou peitoral para cachorro
 pilar: produtos_compras
 intencao_busca: transacional
-persona: 'Comandante Focinho (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Comandante Focinho (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: pergunta_retorica
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Coleira ou peitoral para cachorro? O Comandante Focinho decide a farda oficial

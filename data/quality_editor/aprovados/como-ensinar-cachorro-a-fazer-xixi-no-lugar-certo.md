@@ -10,7 +10,7 @@ termo_origem: como ensinar cachorro a fazer xixi no lugar certo
 pilar: comportamento
 intencao_busca: informacional
 persona: Dona Fifi Marreco (personagem 100% fictícia, sem relação com pessoa real)
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false

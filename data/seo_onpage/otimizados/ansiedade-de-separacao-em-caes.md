@@ -10,7 +10,7 @@ termo_origem: ansiedade de separação em cães
 pilar: comportamento
 intencao_busca: informacional
 persona: Doutor Bagunça (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: true
@@ -32,7 +32,7 @@ checagens_qualidade:
 titulo_seo: 'Ansiedade de separação em cães: o Doutor Bagunça explica'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:28:40+00:00'
+otimizado_em: '2026-09-16T01:49:11+00:00'
 checagens_seo:
 - título original (77 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.

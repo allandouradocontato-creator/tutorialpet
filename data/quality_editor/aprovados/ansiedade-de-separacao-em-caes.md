@@ -9,7 +9,7 @@ termo_origem: ansiedade de separação em cães
 pilar: comportamento
 intencao_busca: informacional
 persona: Doutor Bagunça (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: true

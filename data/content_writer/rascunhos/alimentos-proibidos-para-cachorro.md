@@ -1,19 +1,21 @@
 ---
 titulo: 'Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta'
-meta_description: 'Comandante Focinho lista os alimentos proibidos para cachorro que todo tutor precisa conhecer, e o que fazer se o cão ingerir algo perigoso.'
+meta_description: Comandante Focinho lista os alimentos proibidos para cachorro que
+  todo tutor precisa conhecer, e o que fazer se o cão ingerir algo perigoso.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: alimentos-proibidos-para-cachorro
 termo_origem: alimentos proibidos para cachorro
 pilar: alimentacao
 intencao_busca: informacional
-persona: 'Comandante Focinho (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Comandante Focinho (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: true
 estrutura_abertura: direto_ao_topico
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação. Tópico YMYL: humor contido conforme instrução do projeto.'
+nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação. Tópico YMYL: humor contido conforme instrução do projeto.'
 ---
 
 # Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta

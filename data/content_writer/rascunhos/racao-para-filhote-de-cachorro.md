@@ -1,19 +1,21 @@
 ---
 titulo: 'Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça'
-meta_description: 'Vavá Cordeiro explica como escolher a ração certa pro filhote, quantas vezes alimentar e como fazer a transição sem drama nenhum.'
+meta_description: Vavá Cordeiro explica como escolher a ração certa pro filhote, quantas
+  vezes alimentar e como fazer a transição sem drama nenhum.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: racao-para-filhote-de-cachorro
 termo_origem: ração para filhote de cachorro
 pilar: alimentacao
 intencao_busca: informacional
-persona: 'Vavá Cordeiro (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Vavá Cordeiro (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: pergunta_retorica
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação — ver conversa do projeto.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação — ver conversa do projeto.
 ---
 
 # Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça

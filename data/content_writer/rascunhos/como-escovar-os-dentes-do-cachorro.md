@@ -1,19 +1,21 @@
 ---
 titulo: 'Como escovar os dentes do cachorro: o Vavá Cordeiro ensina o jeito manso'
-meta_description: 'Vavá Cordeiro ensina como escovar os dentes do cachorro sem luta, com que frequência fazer e o que usar (e nunca usar) na escovação.'
+meta_description: Vavá Cordeiro ensina como escovar os dentes do cachorro sem luta,
+  com que frequência fazer e o que usar (e nunca usar) na escovação.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-escovar-os-dentes-do-cachorro
 termo_origem: como escovar os dentes do cachorro
 pilar: cuidados_diarios
 intencao_busca: informacional
-persona: 'Vavá Cordeiro (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Vavá Cordeiro (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: direto_ao_topico
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Como escovar os dentes do cachorro: o Vavá Cordeiro ensina o jeito manso

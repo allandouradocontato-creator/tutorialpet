@@ -1,19 +1,21 @@
 ---
-titulo: 'Como limpar a caixa de areia do gato sem o Seu Trombone reclamar do cheiro'
-meta_description: 'Seu Trombone ensina a frequência certa de limpeza da caixa de areia do gato e como evitar aquele cheiro que incomoda a casa toda.'
+titulo: Como limpar a caixa de areia do gato sem o Seu Trombone reclamar do cheiro
+meta_description: Seu Trombone ensina a frequência certa de limpeza da caixa de areia
+  do gato e como evitar aquele cheiro que incomoda a casa toda.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-limpar-caixa-de-areia-do-gato
 termo_origem: como limpar caixa de areia do gato
 pilar: cuidados_diarios
 intencao_busca: informacional
-persona: 'Seu Trombone (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Seu Trombone (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: pergunta_retorica
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Como limpar a caixa de areia do gato sem o Seu Trombone reclamar do cheiro

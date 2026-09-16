@@ -1,19 +1,21 @@
 ---
 titulo: 'Ansiedade de separação em cães: o Doutor Bagunça explica com o devido cuidado'
-meta_description: 'Doutor Bagunça (que não é veterinário de verdade) explica os sinais de ansiedade de separação em cães e quando buscar ajuda profissional.'
+meta_description: Doutor Bagunça (que não é veterinário de verdade) explica os sinais
+  de ansiedade de separação em cães e quando buscar ajuda profissional.
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: ansiedade-de-separacao-em-caes
 termo_origem: ansiedade de separação em cães
 pilar: comportamento
 intencao_busca: informacional
-persona: 'Doutor Bagunça (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: Doutor Bagunça (personagem 100% fictício, sem relação com pessoa real)
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: true
 estrutura_abertura: pergunta_retorica
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação. Tópico YMYL: humor contido conforme instrução do projeto.'
+nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação. Tópico YMYL: humor contido conforme instrução do projeto.'
 ---
 
 # Ansiedade de separação em cães: o Doutor Bagunça explica com o devido cuidado

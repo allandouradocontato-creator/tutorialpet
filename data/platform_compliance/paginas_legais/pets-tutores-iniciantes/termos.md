@@ -5,7 +5,7 @@ tipo: pagina_legal
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-16T01:31:49+00:00'
 gerado_por: 06_platform_compliance
-revisao_humana_pendente: true
+revisao_humana_pendente: false
 ---
 
 # Termos de Uso — Tutor de Primeira Viagem
@@ -30,7 +30,7 @@ não é permitida.
 ## 3. Propriedade intelectual
 
 Textos, imagens e demais materiais publicados no site são de propriedade de
-[NOME_OU_RAZAO_SOCIAL_DO_RESPONSAVEL] ou usados sob licença, salvo indicação contrária.
+Allan Dourado Falcão ou usados sob licença, salvo indicação contrária.
 
 ## 4. Isenção de responsabilidade
 
@@ -60,4 +60,4 @@ Estes termos são regidos pelas leis da República Federativa do Brasil.
 
 ## 9. Contato
 
-Dúvidas sobre estes Termos de Uso podem ser enviadas para [EMAIL_DE_CONTATO].
+Dúvidas sobre estes Termos de Uso podem ser enviadas para allandouradocontato@gmail.com.

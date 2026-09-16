@@ -10,7 +10,7 @@ termo_origem: coleira ou peitoral para cachorro
 pilar: produtos_compras
 intencao_busca: transacional
 persona: Comandante Focinho (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
@@ -34,7 +34,7 @@ checagens_qualidade:
 titulo_seo: Coleira ou peitoral para cachorro? O Comandante Focinho
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:27:05+00:00'
+otimizado_em: '2026-09-16T01:49:12+00:00'
 checagens_seo:
 - título original (78 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.

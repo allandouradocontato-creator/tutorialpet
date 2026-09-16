@@ -10,7 +10,7 @@ termo_origem: ração para filhote de cachorro
 pilar: alimentacao
 intencao_busca: informacional
 persona: Vavá Cordeiro (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
@@ -32,7 +32,7 @@ checagens_qualidade:
 titulo_seo: 'Ração para filhote de cachorro: o Vavá Cordeiro ensina do'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:27:06+00:00'
+otimizado_em: '2026-09-16T01:49:13+00:00'
 checagens_seo:
 - título original (68 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.

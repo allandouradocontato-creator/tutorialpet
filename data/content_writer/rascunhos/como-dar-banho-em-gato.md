@@ -1,19 +1,21 @@
 ---
 titulo: 'Como dar banho em gato: o MC Rex solta o batidão da hora do banho'
-meta_description: 'MC Rex ensina no ritmo certo como dar banho em gato sem guerra: quando é preciso, produtos certos e como deixar o processo tranquilo.'
+meta_description: 'MC Rex ensina no ritmo certo como dar banho em gato sem guerra:
+  quando é preciso, produtos certos e como deixar o processo tranquilo.'
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-dar-banho-em-gato
 termo_origem: como dar banho em gato
 pilar: cuidados_diarios
 intencao_busca: informacional
-persona: 'MC Rex (personagem 100% fictício, sem relação com pessoa real)'
-autor: ''
+persona: MC Rex (personagem 100% fictício, sem relação com pessoa real)
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: preview_lista
-nota_interna: 'Rascunho de teste de persona, escrito manualmente (sem LLM externo) para avaliação.'
+nota_interna: Rascunho de teste de persona, escrito manualmente (sem LLM externo)
+  para avaliação.
 ---
 
 # Como dar banho em gato: o MC Rex solta o batidão da hora do banho

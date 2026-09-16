@@ -5,7 +5,7 @@ tipo: pagina_legal
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-16T01:31:49+00:00'
 gerado_por: 06_platform_compliance
-revisao_humana_pendente: true
+revisao_humana_pendente: false
 ---
 
 # Política de Privacidade — Tutor de Primeira Viagem
@@ -18,10 +18,10 @@ Proteção de Dados (LGPD — Lei nº 13.709/2018).
 
 ## 1. Quem é o responsável pelo site
 
-- Responsável: [NOME_OU_RAZAO_SOCIAL_DO_RESPONSAVEL]
-- Documento (CPF/CNPJ): [CPF_OU_CNPJ_DO_RESPONSAVEL]
-- Localização: [CIDADE_UF_DO_RESPONSAVEL]
-- Contato: [EMAIL_DE_CONTATO]
+- Responsável: Allan Dourado Falcão
+- Documento (CPF/CNPJ): 765.289.603-72
+- Localização: Fortaleza, CE
+- Contato: allandouradocontato@gmail.com
 
 ## 2. Quais dados coletamos
 
@@ -71,7 +71,7 @@ Você pode, a qualquer momento, solicitar:
 - Exclusão dos dados pessoais que você nos forneceu diretamente;
 - Informações sobre com quem compartilhamos seus dados.
 
-Para exercer esses direitos, entre em contato pelo e-mail [EMAIL_DE_CONTATO].
+Para exercer esses direitos, entre em contato pelo e-mail allandouradocontato@gmail.com.
 
 ## 7. Alterações a esta política
 
@@ -81,4 +81,4 @@ página.
 
 ## 8. Contato
 
-Dúvidas sobre esta Política de Privacidade podem ser enviadas para [EMAIL_DE_CONTATO].
+Dúvidas sobre esta Política de Privacidade podem ser enviadas para allandouradocontato@gmail.com.

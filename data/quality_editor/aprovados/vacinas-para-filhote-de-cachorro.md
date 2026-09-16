@@ -10,7 +10,7 @@ slug: vacinas-para-filhote-de-cachorro
 termo_origem: vacinas para filhote de cachorro
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-autor: ''
+autor: Mariah Maitre
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T20:04:26+00:00'
 aviso_saude_aplicavel: true

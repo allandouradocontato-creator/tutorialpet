@@ -9,7 +9,7 @@ termo_origem: brinquedos para cachorro que fica sozinho
 pilar: produtos_compras
 intencao_busca: informacional
 persona: MC Rex (personagem 100% fictício, sem relação com pessoa real)
-autor: ''
+autor: Rosana Cardoso
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
