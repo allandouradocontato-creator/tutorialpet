@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como limpar a caixa de areia do gato sem o Seu Trombone reclamar do cheiro",
+    "description": "Como limpar a caixa de areia do gato sem o Seu Trombone reclamar do cheiro. Já entrou numa casa e sentiu aquele \"perfume\" característico de caixa de...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/como-limpar-caixa-de-areia-do-gato",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-limpar-caixa-de-areia-do-gato"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar qualquer produto de limpeza na caixa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evite produtos com cheiro forte ou à base de amônia — muitos gatos rejeitam a caixa depois disso. Água e detergente neutro costumam bastar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu gato para de usar a caixa depois que eu troco de areia, por quê?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gatos são bem sensíveis a mudança de textura e cheiro. Se for trocar de marca ou tipo, faça a transição misturando aos poucos com a areia antiga."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência trocar a areia por completo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do tipo de areia e do número de gatos, mas o sinal mais claro é observar o cheiro e a aparência — se já não fica limpa só com a remoção diária, é hora da troca completa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mudança de hábito na caixa pode ser sinal de doença?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, sim — se o gato passar a evitar a caixa, fazer xixi com muita frequência ou parecer desconfortável, vale uma consulta veterinária para descartar causas de saúde."
+        }
+      }
+    ]
+  }
+}

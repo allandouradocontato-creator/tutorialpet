@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem",
+    "description": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem. Quase todo tutor de primeira viagem passa por isso e se sente meio...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/caixa-de-transporte-para-gato",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/caixa-de-transporte-para-gato"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Vale a pena comprar o produto mais caro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nem sempre — preço alto não é garantia de qualidade. O que importa é adequação ao porte e à necessidade real do seu pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber o tamanho certo para o meu pet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Meça o pet (ou consulte a faixa de peso/altura típica da raça) e compare com a tabela de medidas do fabricante antes de decidir — evita trocas e desperdício."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Produtos importados são sempre melhores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente — o que importa é a qualidade do material e a adequação ao uso, não a origem do produto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Onde é mais seguro comprar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prefira vendedores com boas avaliações e política de troca clara — isso reduz o risco de ficar com um produto que não serve ou não tem a qualidade esperada."
+        }
+      }
+    ]
+  }
+}

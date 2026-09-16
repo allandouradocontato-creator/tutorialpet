@@ -1,0 +1,88 @@
+site_id: pets-tutores-iniciantes
+nome: "Tutor de Primeira Viagem"            # nome provisório
+dominio: "https://tutorialpet.com.br"
+idioma: pt-BR
+nicho: "Cuidados e comportamento de cães e gatos para tutores de primeira viagem"
+
+google_ads:
+  language_constant_id: 1014        # Português
+  geo_target_constant_ids: [2076]   # Brasil
+
+# 20 termos-semente, 4 por pilar. "sensivel: true" = tema com componente de saúde/segurança (YMYL):
+# o redator deve orientar a procurar um veterinário e o editor deve revisar com rigor extra.
+pilares:
+  alimentacao: "Alimentação"
+  comportamento: "Comportamento"
+  cuidados_diarios: "Cuidados diários"
+  primeiros_passos_filhotes: "Primeiros passos com filhotes"
+  produtos_compras: "Produtos e compras"
+
+termos_semente:
+  - { pilar: alimentacao, termo: "ração para filhote de cachorro" }
+  - { pilar: alimentacao, termo: "quantas vezes por dia alimentar gato" }
+  - { pilar: alimentacao, termo: "alimentos proibidos para cachorro", sensivel: true }
+  - { pilar: alimentacao, termo: "como trocar a ração do cachorro" }
+
+  - { pilar: comportamento, termo: "cachorro latindo muito o que fazer" }
+  - { pilar: comportamento, termo: "gato arranhando o sofá" }
+  - { pilar: comportamento, termo: "como ensinar cachorro a fazer xixi no lugar certo" }
+  - { pilar: comportamento, termo: "ansiedade de separação em cães", sensivel: true }
+
+  - { pilar: cuidados_diarios, termo: "como dar banho em gato" }
+  - { pilar: cuidados_diarios, termo: "como escovar os dentes do cachorro" }
+  - { pilar: cuidados_diarios, termo: "como cortar unha de cachorro" }
+  - { pilar: cuidados_diarios, termo: "como limpar caixa de areia do gato" }
+
+  - { pilar: primeiros_passos_filhotes, termo: "primeiros dias do filhote em casa" }
+  - { pilar: primeiros_passos_filhotes, termo: "vacinas para filhote de cachorro", sensivel: true }
+  - { pilar: primeiros_passos_filhotes, termo: "como socializar filhote de gato" }
+  - { pilar: primeiros_passos_filhotes, termo: "enxoval para filhote de cachorro" }
+
+  - { pilar: produtos_compras, termo: "caixa de transporte para gato" }
+  - { pilar: produtos_compras, termo: "arranhador para gato qual escolher" }
+  - { pilar: produtos_compras, termo: "coleira ou peitoral para cachorro" }
+  - { pilar: produtos_compras, termo: "brinquedos para cachorro que fica sozinho" }
+
+# Ideias da API que contenham estes sinais também são marcadas como sensíveis.
+sinais_ymyl: [vacina, doenca, sintoma, remedio, veneno, intoxic, toxico, proibido, vermifug, castracao, alergia, ansiedade, diarreia, vomit]
+
+persona_editorial:
+  voz: "Tutor experiente conversando com um amigo que acabou de adotar o primeiro pet"
+  tom: [caloroso, prático, acolhedor, não-técnico, honesto]
+  faz:
+    - "Explica o porquê de cada recomendação com linguagem simples"
+    - "Compartilha situações do dia a dia e erros comuns de iniciantes"
+    - "Dá passos concretos e checklists que o leitor aplica hoje"
+    - "Diz com clareza quando o assunto exige avaliação de um médico-veterinário"
+  nao_faz:
+    - "Não alega ser veterinário, adestrador certificado ou ter qualquer credencial profissional"
+    - "Não prescreve medicamentos, doses ou tratamentos"
+    - "Não inventa estudos, estatísticas, depoimentos ou experiências pessoais"
+    - "Não usa alarmismo nem culpa o tutor"
+  autoria: >
+    O autor exibido nos artigos deve ser uma pessoa real com experiência real como tutora,
+    com bio verdadeira na página /sobre. Não criar autores fictícios.
+
+monetizacao:
+  # Preenchido manualmente conforme o processo real avança. O agente 09 só sai do modo
+  # "aguardando aprovação" quando status_adsense passar para "aprovado" — e mesmo assim
+  # nunca insere código de anúncio de verdade, só planeja.
+  status_adsense: nao_aplicado   # nao_aplicado | aguardando_analise | aprovado | reprovado
+  publisher_id: null             # preencher só depois da aprovação real (pub-XXXXXXXXXXXXXXXX)
+  data_aprovacao: null
+
+compliance:
+  politicas_ref: config/policies.yaml     # criado junto com os agentes 06/10
+  paginas_obrigatorias:
+    - { slug: /sobre, titulo: "Sobre" }
+    - { slug: /contato, titulo: "Contato" }
+    - { slug: /politica-de-privacidade, titulo: "Política de Privacidade" }
+    - { slug: /termos, titulo: "Termos de Uso" }
+  arquivos_obrigatorios: [/robots.txt, /sitemap.xml, /ads.txt]
+  ads_txt_placeholder: "google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0"   # trocar pelo pub-ID real após aprovação
+  aviso_saude: >
+    Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.
+  human_in_the_loop:
+    aprovacao_pauta: true
+    aprovacao_publicacao: true
+    aprovacao_candidatura_adsense: true

@@ -1,0 +1,29 @@
+# Filtros e pesos de score usados pelo agente 01_niche_research.
+# "default" vale para todos os sites; "sites.<site_id>" sobrescreve apenas as chaves informadas.
+# CPC é expresso na moeda da conta Google Ads usada na consulta (ex.: BRL).
+
+default:
+  volume_mensal_minimo: 100          # buscas/mês (em faixas do Keyword Planner, usa-se o limite inferior)
+  cpc_medio_minimo: 0.30             # média entre lance baixo e alto da parte superior da página
+  concorrencia_aceita: [BAIXA, MEDIA, DESCONHECIDA]   # valores possíveis: BAIXA, MEDIA, ALTA, DESCONHECIDA
+  max_ideias_por_pilar: 40           # ideias da API mantidas por pilar (termos-semente sempre ficam)
+
+  # Termos que contenham estes trechos são descartados (comparação sem acento/maiúsculas).
+  excluir_contendo: []
+
+  score:
+    peso_volume: 0.55
+    peso_cpc: 0.45
+    volume_referencia: 50000         # volume que vale nota máxima (escala logarítmica)
+    cpc_referencia: 3.00             # CPC que vale nota máxima
+    fator_concorrencia:              # multiplicador final: menos concorrência = mais oportunidade
+      BAIXA: 1.0
+      MEDIA: 0.75
+      ALTA: 0.45
+      DESCONHECIDA: 0.6
+
+sites:
+  pets-tutores-iniciantes:
+    cpc_medio_minimo: 0.20
+    # Dosagem de medicamentos é YMYL: fora do escopo de um site sem veterinário responsável.
+    excluir_contendo: ["dosagem", "dose de", "quantas gotas", "remedio caseiro", "receita de remedio"]

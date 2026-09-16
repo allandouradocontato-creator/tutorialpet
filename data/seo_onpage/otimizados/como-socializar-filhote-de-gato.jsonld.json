@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como socializar filhote de gato: a Nanda Confete monta a festa de apresentação",
+    "description": "Como socializar filhote de gato: a Nanda Confete monta a festa de apresentação. Gente, socializar o filhote de gato é tipo organizar a festa de...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/como-socializar-filhote-de-gato",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-socializar-filhote-de-gato"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Existe uma \"janela\" de idade melhor pra socializar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As primeiras semanas de vida costumam ser uma fase mais sensível pra isso, mas isso não significa que filhotes mais velhos não possam ser socializados com sucesso — só exige mais paciência."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu filhote se esconde de tudo, isso é normal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode ser só timidez natural dele. O importante é não forçar a exposição — vá criando experiências positivas no ritmo que ele aceitar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso apresentar meu filhote a outros gatos de fora de casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Com bastante cautela — apresentações mal planejadas com gatos desconhecidos podem gerar estresse e até risco de briga. Priorize introduções controladas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo leva pra um filhote ficar bem socializado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Varia de gato pra gato — alguns se adaptam rápido, outros levam mais tempo. Consistência nas experiências positivas é mais importante que velocidade."
+        }
+      }
+    ]
+  }
+}

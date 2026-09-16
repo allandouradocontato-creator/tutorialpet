@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem",
+    "description": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem. Se você chegou até aqui é porque provavelmente está no meio dessa...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/como-cortar-unha-de-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-cortar-unha-de-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Meu pet fica muito estressado durante o cuidado, o que fazer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reduza a duração da sessão, aumente as recompensas e vá com mais calma na progressão. Se o estresse continuar intenso, um profissional pode ajudar a dessensibilizar o pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Existe idade certa para começar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quanto mais cedo o pet se acostuma com o manuseio, mais fácil tende a ser — mas nunca é tarde para começar, só exige mais paciência e passos menores."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar produtos feitos para humanos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em geral não é recomendado: a pele e o organismo de cães e gatos reagem diferente da gente. Prefira produtos formulados especificamente para pets."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência devo repetir esse cuidado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Isso varia conforme o pet e o tipo de cuidado — observe o resultado e ajuste o intervalo aos poucos, sem forçar uma frequência rígida sem necessidade."
+        }
+      }
+    ]
+  }
+}

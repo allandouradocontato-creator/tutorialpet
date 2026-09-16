@@ -1,0 +1,33 @@
+# Limites dentro dos quais o agente 13 (Supervisor) pode ajustar parâmetros sozinho
+# (Nível 1). Qualquer valor fora daqui nunca é aplicado automaticamente — o supervisor
+# recusa o ajuste e, se achar que o limite em si precisa mudar, isso vira uma sugestão de
+# Nível 2 (aprovação humana), nunca uma edição direta deste arquivo.
+
+# Tamanho mínimo de amostra antes de qualquer ajuste automático. Abaixo disso, o
+# supervisor só relata — nunca aplica, mesmo que o valor calculado caia dentro dos limites.
+amostras_minimas:
+  execucoes_pipeline_para_ajustar_cadencia: 5     # nº de rodadas completas do orchestrator
+  termos_avaliados_para_ajustar_filtros_keyword: 100   # nº de termos já passados pelo agente 01
+  gates_para_estatistica_confiavel: 10            # nº de decisões de gate (qualquer gate)
+
+keyword_filters:
+  # Chaves ajustáveis em config/keyword_filters.yaml → default (ou sites.<id>, se o site
+  # tiver override próprio).
+  volume_mensal_minimo: {min: 50, max: 500, passo: 25}
+  cpc_medio_minimo: {min: 0.10, max: 1.00, passo: 0.05}
+
+publishing_schedule:
+  # Chaves ajustáveis em config/publishing_schedule.yaml → default (ou sites.<id>).
+  artigos_por_semana_min: {min: 1, max: 7, passo: 1}
+  artigos_por_semana_max: {min: 1, max: 10, passo: 1}
+
+# Nenhum agente deste projeto faz uma chamada de LLM de verdade ainda (todos são
+# determinísticos — ver prompt.md de cada agente para o desenho de integração futura).
+# Esta seção é preparatória: passa a valer quando essa integração existir.
+model_routing:
+  agentes_llm_futuros: [02_trend_hunter, 03_content_writer, 04_quality_editor, 10_policy_guardian]
+  modelos_permitidos: [haiku, sonnet, opus]
+  modelo_padrao: sonnet
+  regra_upgrade_para_opus: >
+    Pauta com score_prioridade >= 85 (decisão editorial de alto impacto) ou artigo
+    marcado sensivel_ymyl=true — nesses casos, preferir o modelo mais capaz disponível.

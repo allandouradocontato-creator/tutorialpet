@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Primeiros dias do filhote em casa: a Tia Zulmira do Zap dá as boas-vindas",
+    "description": "Primeiros dias do filhote em casa: a Tia Zulmira do Zap dá as boas-vindas. Oi, meu bem, chegou o filhote novo aí em casa?? Ai que alegria, deixa eu te...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/primeiros-dias-do-filhote-em-casa",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/primeiros-dias-do-filhote-em-casa"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto tempo leva pra ele se adaptar totalmente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma levar de uma a poucas semanas, mas cada filhote tem seu próprio tempo — o importante é manter a rotina consistente durante esse período."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar ele dormir na minha cama desde o primeiro dia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, se for essa a sua escolha, mas define isso desde já — mudar a regra depois costuma confundir mais do que ajudar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É normal ele não comer direito nos primeiros dias?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Uma redução leve de apetite é comum pela mudança de ambiente. Se ele recusar comida por mais de um dia, o ideal é procurar um veterinário, principalmente sendo filhote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quando posso levar ele pra rua pela primeira vez?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Isso depende do calendário de vacinas dele — o veterinário é quem vai dizer o momento certo pra começar os passeios externos."
+        }
+      }
+    ]
+  }
+}

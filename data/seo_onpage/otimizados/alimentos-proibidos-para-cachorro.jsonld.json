@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta",
+    "description": "Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta. Sentido, tutores! Aqui é o Comandante Focinho, e essa aqui é uma missão séria:...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/alimentos-proibidos-para-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/alimentos-proibidos-para-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Uma quantidade pequena desses alimentos já faz mal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, em vários casos (como uva, passas e xilitol) mesmo pouca quantidade já é motivo de preocupação e de contato imediato com um veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu cachorro comeu chocolate e está bem agora, posso relaxar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Os sintomas podem demorar para aparecer. O mais seguro é sempre entrar em contato com um veterinário para avaliar o caso, mesmo sem sinais imediatos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Existe alimento humano que seja seguro para dividir com o cão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Alguns alimentos em quantidade pequena e sem tempero são geralmente tolerados, mas o ideal é sempre confirmar com um veterinário antes de introduzir qualquer novidade na dieta dele."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso induzir o vômito em casa se ele comer algo da lista?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não faça isso sem orientação profissional — em algumas situações, induzir vômito pode causar mais dano do que ajudar. Ligue primeiro para um veterinário."
+        }
+      }
+    ]
+  }
+}

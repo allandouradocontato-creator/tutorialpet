@@ -1,0 +1,23 @@
+# Cadência de publicação usada pelo agente 07_publisher para sugerir um calendário
+# espaçado de artigos prontos — não é um bloqueio de publicação, só uma sugestão de ritmo.
+# "default" vale para todos os sites; "sites.<site_id>" sobrescreve apenas as chaves informadas.
+
+default:
+  artigos_por_semana_min: 3
+  artigos_por_semana_max: 5
+  # Dias da semana preferidos para publicar (sem acento, minúsculas). O agente distribui
+  # os artigos nesses dias; se a quantidade por semana exigir mais dias que os listados
+  # aqui, os dias que sobrarem são preenchidos na ordem normal do calendário.
+  dias_preferidos: [segunda, quarta, sexta]
+  # Artigos marcados como sensivel_ymyl (YMYL) vão para o fim da fila — o site publica
+  # primeiro o conteúdo de menor risco, até ter algum histórico.
+  priorizar_nao_sensiveis_primeiro: true
+  # Mínimo de artigos otimizados (data/seo_onpage/otimizados/) exigido pelo agente 14 antes
+  # de gerar e-books/calendário social/sugestões de CTA — catálogo pequeno demais ainda não
+  # vale a pena empacotar em produto derivado.
+  minimo_artigos_para_distribuicao: 15
+
+sites:
+  pets-tutores-iniciantes:
+    artigos_por_semana_min: 3
+    artigos_por_semana_max: 4

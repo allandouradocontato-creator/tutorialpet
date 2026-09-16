@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado (várias vezes)",
+    "description": "Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado (várias vezes). Já perdi as contas de quantos arranhadores eu comprei que meu...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/arranhador-para-gato-qual-escolher",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/arranhador-para-gato-qual-escolher"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Vale a pena comprar o arranhador mais caro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nem sempre — o que importa é estabilidade, altura adequada e material resistente, não o preço em si."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu gato ignora o arranhador novo, o que fazer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tenta reposicionar pra perto de onde ele já arranha por instinto, e usa erva-de-gato ou petisco pra criar associação positiva com o objeto novo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Um arranhador é suficiente pra casa toda?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do tamanho da casa e da quantidade de gatos — ter mais de um espalhado em pontos estratégicos costuma funcionar melhor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso fazer um arranhador caseiro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, desde que seja estável e com material seguro (sisal é uma boa opção pra enrolar numa base firme) — só cuidar pra não usar material que solte fiapos fáceis de engolir."
+        }
+      }
+    ]
+  }
+}

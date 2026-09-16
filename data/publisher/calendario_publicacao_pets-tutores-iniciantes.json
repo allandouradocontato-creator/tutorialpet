@@ -1,0 +1,14 @@
+{
+  "site_id": "pets-tutores-iniciantes",
+  "gerado_em": "2026-09-15T19:10:23+00:00",
+  "data_inicio": "2026-09-15",
+  "artigos_por_semana": "3-4",
+  "calendario": [
+    {
+      "ordem": 1,
+      "slug": "como-cortar-unha-de-cachorro",
+      "sensivel_ymyl": false,
+      "data_sugerida": "2026-09-16"
+    }
+  ]
+}

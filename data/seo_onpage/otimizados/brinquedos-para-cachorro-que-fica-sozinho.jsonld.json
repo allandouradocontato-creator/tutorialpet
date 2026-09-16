@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Brinquedos para cachorro que fica sozinho: o MC Rex solta o hit da diversão",
+    "description": "Brinquedos para cachorro que fica sozinho: o MC Rex solta o hit da diversão. Seu cachorro fica de cara amarrada quando você sai de casa? Chegou a hora...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/brinquedos-para-cachorro-que-fica-sozinho",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/brinquedos-para-cachorro-que-fica-sozinho"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Brinquedo resolve ansiedade de separação?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ajuda a reduzir o tédio, mas não substitui um manejo mais completo se o quadro for de ansiedade real — nesse caso, vale ver nosso artigo específico sobre o assunto e considerar apoio profissional."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar vários brinquedos disponíveis o tempo todo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, mas o efeito de novidade some rápido — o rodízio costuma manter o interesse por mais tempo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual brinquedo é bom pra cachorro que destrói tudo rápido?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Procure opções descritas como resistentes/indestrutíveis pro porte e força de mordida dele, e sempre supervisione o uso nas primeiras vezes pra ver como ele reage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Osso de verdade é uma boa opção de brinquedo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ossos cozidos podem lascar e machucar — se for oferecer algo do tipo, prefira opções seguras indicadas por um veterinário, não ossos de churrasco da geladeira."
+        }
+      }
+    ]
+  }
+}

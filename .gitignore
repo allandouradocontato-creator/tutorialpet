@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+logs/*
+!logs/.gitkeep
+data/runs/
+data/keyword_research/*/

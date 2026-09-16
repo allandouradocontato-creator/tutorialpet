@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você)",
+    "description": "Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você). Confesso: da primeira vez que troquei a ração do meu cachorro,...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/como-trocar-a-racao-do-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-trocar-a-racao-do-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso trocar de ração mais rápido se estiver com pressa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não recomendo — apressar a transição é exatamente o tipo de erro que eu já cometi e que gera mais transtorno (literalmente) do que economiza tempo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O cachorro pode recusar a ração nova durante a mistura?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode acontecer. Se for só desconfiança no começo, costuma passar. Se a recusa persistir por dias, vale conversar com um veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência é normal trocar de ração?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não existe uma regra fixa de tempo — a troca acontece por necessidade (fase de vida, indicação profissional), não por calendário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É normal meu cachorro comer mais devagar durante a transição?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, é comum, principalmente se o cheiro ou textura da ração nova for bem diferente. Só fique de olho se ele parar de comer completamente."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça",
+    "description": "Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça. Ô sô, sentou pra ler sobre ração de filhote? Pois senta com calma que o Vavá vai...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/racao-para-filhote-de-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/racao-para-filhote-de-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso misturar a ração de filhote com a de adulto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Melhor não virar mistureba sem necessidade — se for pra fazer transição de fase, faz aos poucos e do jeito certo (ver o artigo sobre trocar a ração), sempre de olho na orientação de um veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Até que idade eu dou ração de filhote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Varia com o porte e a raça — cachorro pequeno amadurece mais rápido que os de porte grande. Quem define certinho essa transição é o veterinário, que conhece o seu bichano."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhote pode comer petisco à vontade?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, viu, petisco é mimo, não é refeição. Usa com moderação, senão desanda o apetite dele pra ração de verdade."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "E se ele recusar a ração?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Recusa passageira pode ser coisa besta, mas se persistir por mais de um dia, principalmente em filhote, é sinal de ir ao veterinário sem enrolar."
+        }
+      }
+    ]
+  }
+}

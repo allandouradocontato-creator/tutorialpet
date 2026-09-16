@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Gato arranhando o sofá: a Zuza Pimentel investiga o \"crime\" da sala",
+    "description": "Gato arranhando o sofá: a Zuza Pimentel investiga o \"crime\" da sala. Segura essa fofoca, gente: seu sofá está sendo \"atacado\" todo santo dia e você já...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/gato-arranhando-o-sofa",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/gato-arranhando-o-sofa"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Cortar a unha do gato resolve o problema?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ajuda a reduzir o estrago, mas não substitui o arranhador — o gato ainda precisa satisfazer o instinto de arranhar em algum lugar apropriado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Todo gato precisa de arranhador?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, é uma necessidade comportamental normal, não um capricho — melhor oferecer a opção certa do que tentar impedir o comportamento em si."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo leva pra ele trocar o sofá pelo arranhador?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Varia de gato pra gato — alguns aceitam em dias, outros levam semanas. Consistência no reforço positivo é o segredo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Arranhador vertical ou horizontal, faz diferença?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cada gato tem preferência própria — alguns preferem esticar pra cima, outros preferem se espreguiçar na horizontal. Vale observar o comportamento dele pra escolher o formato certo."
+        }
+      }
+    ]
+  }
+}

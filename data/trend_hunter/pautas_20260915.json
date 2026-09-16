@@ -1,0 +1,341 @@
+{
+  "agent": "02_trend_hunter",
+  "schema_version": "1.0",
+  "site_id": "pets-tutores-iniciantes",
+  "gerado_em": "2026-09-15T20:04:26+00:00",
+  "status": "ok",
+  "mes_referencia": 9,
+  "total_oportunidades_avaliadas": 20,
+  "perguntas_manuais_usadas": 0,
+  "pautas": [
+    {
+      "termo_origem": "como cortar unha de cachorro",
+      "titulo": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem",
+      "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 59.6,
+      "pilar": "cuidados_diarios",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 1
+    },
+    {
+      "termo_origem": "brinquedos para cachorro que fica sozinho",
+      "titulo": "Brinquedos para cachorro que fica sozinho sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 50.9,
+      "pilar": "produtos_compras",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 2
+    },
+    {
+      "termo_origem": "cachorro latindo muito o que fazer",
+      "titulo": "Cachorro latindo muito o que fazer sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 47.5,
+      "pilar": "comportamento",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 3
+    },
+    {
+      "termo_origem": "como trocar a ração do cachorro",
+      "titulo": "Como lidar com como trocar a ração do cachorro: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 45.6,
+      "pilar": "alimentacao",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 4
+    },
+    {
+      "termo_origem": "como dar banho em gato",
+      "titulo": "Como dar banho em gato: guia passo a passo para tutores de primeira viagem",
+      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 44.9,
+      "pilar": "cuidados_diarios",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 5
+    },
+    {
+      "termo_origem": "quantas vezes por dia alimentar gato",
+      "titulo": "Como lidar com quantas vezes por dia alimentar gato: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 44.1,
+      "pilar": "alimentacao",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 6
+    },
+    {
+      "termo_origem": "como escovar os dentes do cachorro",
+      "titulo": "Como escovar os dentes do cachorro: guia passo a passo para tutores de primeira viagem",
+      "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 43.4,
+      "pilar": "cuidados_diarios",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 7
+    },
+    {
+      "termo_origem": "caixa de transporte para gato",
+      "titulo": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem",
+      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 43.2,
+      "pilar": "produtos_compras",
+      "sensivel_ymyl": false,
+      "sazonalidade": {
+        "motivo": "Viagens de fim de ano aumentam buscas por transporte e cuidados veterinários do pet",
+        "meses_pico": [
+          12,
+          1
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 8
+    },
+    {
+      "termo_origem": "gato arranhando o sofá",
+      "titulo": "Como lidar com gato arranhando o sofá: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 42.6,
+      "pilar": "comportamento",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 9
+    },
+    {
+      "termo_origem": "coleira ou peitoral para cachorro",
+      "titulo": "Como lidar com coleira ou peitoral para cachorro: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "MEDIA",
+      "score_prioridade": 41.5,
+      "pilar": "produtos_compras",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 10
+    },
+    {
+      "termo_origem": "enxoval para filhote de cachorro",
+      "titulo": "Como lidar com enxoval para filhote de cachorro: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 39.8,
+      "pilar": "primeiros_passos_filhotes",
+      "sensivel_ymyl": false,
+      "sazonalidade": {
+        "motivo": "Alta de adoções de filhotes nas festas de fim de ano e início do ano",
+        "meses_pico": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 11
+    },
+    {
+      "termo_origem": "ração para filhote de cachorro",
+      "titulo": "Ração para filhote de cachorro sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 36.5,
+      "pilar": "alimentacao",
+      "sensivel_ymyl": false,
+      "sazonalidade": {
+        "motivo": "Alta de adoções de filhotes nas festas de fim de ano e início do ano",
+        "meses_pico": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 12
+    },
+    {
+      "termo_origem": "como ensinar cachorro a fazer xixi no lugar certo",
+      "titulo": "Como ensinar cachorro a fazer xixi no lugar certo sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 35.3,
+      "pilar": "comportamento",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 13
+    },
+    {
+      "termo_origem": "primeiros dias do filhote em casa",
+      "titulo": "Primeiros dias do filhote em casa sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 34.8,
+      "pilar": "primeiros_passos_filhotes",
+      "sensivel_ymyl": false,
+      "sazonalidade": {
+        "motivo": "Alta de adoções de filhotes nas festas de fim de ano e início do ano",
+        "meses_pico": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 14
+    },
+    {
+      "termo_origem": "vacinas para filhote de cachorro",
+      "titulo": "Como lidar com vacinas para filhote de cachorro: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 32.0,
+      "pilar": "primeiros_passos_filhotes",
+      "sensivel_ymyl": true,
+      "sazonalidade": {
+        "motivo": "Alta de adoções de filhotes nas festas de fim de ano e início do ano",
+        "meses_pico": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 15
+    },
+    {
+      "termo_origem": "como limpar caixa de areia do gato",
+      "titulo": "Como limpar caixa de areia do gato sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 31.4,
+      "pilar": "cuidados_diarios",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 16
+    },
+    {
+      "termo_origem": "como socializar filhote de gato",
+      "titulo": "Como socializar filhote de gato sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 31.0,
+      "pilar": "primeiros_passos_filhotes",
+      "sensivel_ymyl": false,
+      "sazonalidade": {
+        "motivo": "Alta de adoções de filhotes nas festas de fim de ano e início do ano",
+        "meses_pico": [
+          11,
+          12,
+          1,
+          2
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 17
+    },
+    {
+      "termo_origem": "arranhador para gato qual escolher",
+      "titulo": "Arranhador para gato qual escolher? Veja o que realmente importa antes de decidir",
+      "angulo_gancho": "Prateleira cheia de opções, promessas bonitas na embalagem e nenhuma explicação clara de qual realmente funciona? Vamos comparar na prática o que faz diferença de verdade.",
+      "intencao_busca": "transacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 30.0,
+      "pilar": "produtos_compras",
+      "sensivel_ymyl": false,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 18
+    },
+    {
+      "termo_origem": "alimentos proibidos para cachorro",
+      "titulo": "Como lidar com alimentos proibidos para cachorro: o que todo tutor iniciante precisa saber",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 17.1,
+      "pilar": "alimentacao",
+      "sensivel_ymyl": true,
+      "sazonalidade": null,
+      "perguntas_relacionadas": [],
+      "id": 19
+    },
+    {
+      "termo_origem": "ansiedade de separação em cães",
+      "titulo": "Ansiedade de separação em cães sem sofrimento: um guia prático e sem enrolação",
+      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "intencao_busca": "informacional",
+      "prioridade": "BAIXA",
+      "score_prioridade": 16.0,
+      "pilar": "comportamento",
+      "sensivel_ymyl": true,
+      "sazonalidade": {
+        "motivo": "Volta à rotina de trabalho/escola após as férias aumenta os casos de ansiedade de separação",
+        "meses_pico": [
+          1,
+          2
+        ],
+        "ativo_no_mes": false,
+        "boost_aplicado": 0
+      },
+      "perguntas_relacionadas": [],
+      "id": 20
+    }
+  ],
+  "pendencias_humanas": [
+    "Escolher UMA pauta (gate 'aprovacao_pauta', campo 'pauta_id_selecionada') antes do agente 03."
+  ]
+}

@@ -1,0 +1,2 @@
+PyYAML>=6.0
+google-ads>=27.0.0   # opcional: sem ela o agente 01 usa o fallback manual

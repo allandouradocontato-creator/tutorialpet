@@ -1,0 +1,18 @@
+# Cadastro manual de produtos/protocolos existentes e os tópicos/palavras-chave a que se
+# relacionam. O agente 14 usa isso só para SUGERIR onde um CTA discreto para esse produto
+# faria sentido dentro de um artigo — ele NUNCA insere nada automaticamente no artigo; a
+# decisão e a edição continuam sempre humanas.
+#
+# Formato esperado (descomente e preencha com produtos reais):
+#
+# produtos:
+#   - nome: "Protocolo 14 dias — Ansiedade de Separação"
+#     palavras_chave: ["ansiedade de separação", "separação", "sozinho em casa"]
+#     descricao: "Guia passo a passo de 14 dias para reduzir a ansiedade de separação do cão."
+#     link: "[PREENCHER_LINK_REAL_DO_PRODUTO]"
+#   - nome: "E-book: Primeiros 30 dias com o filhote"
+#     palavras_chave: ["filhote", "primeiros dias", "enxoval"]
+#     descricao: "E-book com checklist e cronograma para as primeiras semanas do filhote em casa."
+#     link: "[PREENCHER_LINK_REAL_DO_PRODUTO]"
+
+produtos: []

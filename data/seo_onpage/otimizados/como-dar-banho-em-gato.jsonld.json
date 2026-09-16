@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como dar banho em gato: o MC Rex solta o batidão da hora do banho",
+    "description": "MC Rex ensina no ritmo certo como dar banho em gato sem guerra: quando é preciso, produtos certos e como deixar o processo tranquilo.",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/como-dar-banho-em-gato",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-dar-banho-em-gato"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar shampoo de bebê no meu gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendado — a pele do gato tem um pH diferente da nossa. O ideal é usar produto formulado especificamente pra gatos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu gato entra em pânico total na água, e agora?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vai com calma, em sessões curtas, e considera técnicas de dessensibilização gradual. Em casos muito difíceis, um banho profissional (petshop especializado) pode ser mais seguro pra todo mundo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência posso dar banho no gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não existe uma regra fixa — a maioria dos gatos não precisa de banho regular. Frequência excessiva pode até ressecar a pele. Na dúvida, pergunta pro veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gato filhote pode tomar banho normalmente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filhotes muito novos exigem mais cuidado com temperatura e tempo de exposição — se for realmente necessário, o ideal é confirmar com um veterinário antes."
+        }
+      }
+    ]
+  }
+}

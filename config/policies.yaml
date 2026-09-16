@@ -1,0 +1,60 @@
+# Regras de compliance do AdSense e de qualidade de conteúdo (Google Helpful Content),
+# usadas pelo agente 10_policy_guardian para auditar o site periodicamente.
+#
+# Isto é uma referência prática, escrita a partir das políticas públicas do Google
+# AdSense e das diretrizes de conteúdo útil — não é um documento jurídico nem uma cópia
+# literal dos termos do Google, que mudam com frequência. Revise contra as políticas
+# oficiais (support.google.com/adsense/answer/48182) antes de qualquer candidatura real.
+
+paginas_obrigatorias: [sobre, contato, politica-de-privacidade, termos]
+arquivos_obrigatorios: [robots.txt, sitemap.xml, ads.txt]
+requisitos_tecnicos:
+  https_obrigatorio: true
+
+limites_anuncios:
+  # O Google não publica mais um número fixo de anúncios por página, mas a política de
+  # "conteúdo valioso" continua proibindo páginas dominadas por anúncios. Usamos um limite
+  # de referência conservador, não um valor exato do Google.
+  max_anuncios_por_pagina_referencia: 3
+  exigir_mais_conteudo_que_anuncio: true
+  proibir_anuncio_em_pop_up_intersticial_agressivo: true
+  proibir_clique_incentivado: true  # nunca pedir/induzir clique em anúncio
+
+conteudo_proibido:
+  - "conteúdo adulto ou sexualmente explícito"
+  - "violência gráfica ou conteúdo chocante"
+  - "discurso de ódio ou discriminação"
+  - "venda de produtos falsificados ou pirataria"
+  - "promoção de atividades perigosas ou ilegais"
+  - "conteúdo enganoso ou clickbait sem substância real"
+  - "excesso de anúncios em detrimento do conteúdo"
+  - "alegação de credencial profissional (médica/veterinária) não verificável"
+  - "conteúdo em tópicos sensíveis (YMYL) sem indicação clara de buscar um profissional"
+
+requisitos_conteudo:
+  minimo_palavras_artigo: 500
+  exigir_autor_declarado: true
+  exigir_data_publicacao: true
+  exigir_aviso_saude_em_topicos_sensiveis: true
+  exigir_meta_description: true
+
+# Sinais de risco para o Google Helpful Content / Core Updates — heurísticas de alerta,
+# não uma lista exaustiva nem uma fórmula oficial de ranqueamento.
+helpful_content:
+  sinais_de_risco:
+    - "conteúdo gerado em massa sem revisão humana"
+    - "conteúdo duplicado ou quase idêntico entre páginas do mesmo site"
+    - "conteúdo criado principalmente para ranquear, não para responder a uma necessidade real"
+    - "título que promete algo que o conteúdo não entrega (clickbait)"
+    - "ausência de experiência/especialidade demonstrada no texto (E-E-A-T)"
+    - "catálogo de conteúdo muito pequeno para o nicho proposto"
+  boas_praticas:
+    - "conteúdo revisado por um humano antes de publicar"
+    - "informação original, não um resumo de outras páginas"
+    - "resposta direta e completa à intenção de busca do termo"
+    - "autor real e identificável, com bio verdadeira"
+    - "atualização periódica de artigos que perdem relevância ou posição"
+
+auditoria:
+  frequencia_recomendada_dias: 30
+  minimo_artigos_para_baixo_risco_estrutural: 15  # abaixo disso, o site é considerado "catálogo jovem"

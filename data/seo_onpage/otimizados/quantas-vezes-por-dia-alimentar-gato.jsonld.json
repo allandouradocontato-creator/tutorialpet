@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete",
+    "description": "Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete. Gente, EU AMO uma rotina bem organizadinha, e a hora da comida do gato...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/quantas-vezes-por-dia-alimentar-gato",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quantas-vezes-por-dia-alimentar-gato"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Meu gato mia muito perto do horário da comida, é normal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bem comum, principalmente se ele já aprendeu a associar aquele horário com a chegada do prato — só cuidado pra não ceder e alimentar fora de hora toda vez, senão a \"plateia\" vira manha."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar ração seca à vontade e só controlar a úmida?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dá pra fazer, mas ainda assim vale ficar de olho na quantidade total do dia — ração seca também tem calorias, e o excesso conta."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gato idoso come menos vezes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode variar — alguns preferem porções menores e mais frequentes conforme envelhecem. O ideal é ajustar com orientação veterinária."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se a porção está certa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O peso corporal estável e a disposição normal do gato são bons sinais. Se notar mudança de peso perceptível, vale reavaliar com um veterinário."
+        }
+      }
+    ]
+  }
+}

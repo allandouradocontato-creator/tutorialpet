@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escovar os dentes do cachorro: o Vavá Cordeiro ensina o jeito manso",
+    "description": "Vavá Cordeiro ensina como escovar os dentes do cachorro sem luta, com que frequência fazer e o que usar (e nunca usar) na escovação.",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/como-escovar-os-dentes-do-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escovar-os-dentes-do-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Petisco dental substitui a escovação?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ajuda como complemento, mas não substitui — a escovação regular ainda é o jeito mais eficaz de prevenir o acúmulo de tártaro."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu cachorro não deixa de jeito nenhum, o que fazer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vai com calma, em sessões bem curtas no começo, aumentando aos poucos. Se a resistência continuar forte, um veterinário pode indicar outras formas de cuidado bucal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como sei se ele já tem problema nos dentes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mau hálito muito forte, dificuldade de mastigar, ou dente visivelmente sujo/inflamado são sinais de ir ao veterinário, não de esperar passar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso começar a escovar em cachorro já adulto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode sim, nunca é tarde — só exige mais paciência pra criar o hábito do que em um filhote que já cresce acostumado."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como lidar com vacinas para filhote de cachorro: o que todo tutor iniciante precisa saber",
+    "description": "Como lidar com vacinas para filhote de cachorro: o que todo tutor iniciante precisa saber. Se você chegou até aqui é porque provavelmente está no meio...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/vacinas-para-filhote-de-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/vacinas-para-filhote-de-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto tempo leva para o filhote se adaptar totalmente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma levar de uma a poucas semanas para a adaptação inicial, mas cada filhote tem seu próprio ritmo — o importante é manter a rotina consistente durante esse período."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É normal o filhote não comer direito nos primeiros dias?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Uma pequena redução de apetite é comum pela mudança de ambiente, mas recusa completa por mais de um dia merece atenção de um médico-veterinário, especialmente em filhotes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso levar o filhote para passear na rua imediatamente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do estágio do calendário de cuidados preventivos — converse com um médico-veterinário sobre o momento adequado para começar os passeios externos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como apresentar o filhote a outros animais da casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Com calma, em sessões curtas e supervisionadas, sem forçar contato — deixe que o reconhecimento aconteça no ritmo dos animais envolvidos."
+        }
+      }
+    ]
+  }
+}

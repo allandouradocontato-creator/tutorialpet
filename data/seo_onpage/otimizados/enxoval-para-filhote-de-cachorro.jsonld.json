@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Enxoval para filhote de cachorro: a Dona Fifi Marreco faz a lista (com classe)",
+    "description": "Enxoval para filhote de cachorro: a Dona Fifi Marreco faz a lista (com classe). Ai, meu coração se enche de alegria só de pensar em montar um enxoval!...",
+    "datePublished": "2026-09-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/enxoval-para-filhote-de-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/enxoval-para-filhote-de-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Preciso comprar cama grande desde o início?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se o seu filhote for de raça de porte grande, vale considerar uma cama intermediária ou já pensar na troca futura — cama pequena demais vira desperdício rápido."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vale a pena comprar roupinha pro filhote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É opcional, mais estético que necessário na maioria dos casos — só é realmente importante em climas muito frios ou por indicação específica."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar itens de segunda mão no enxoval?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, desde que estejam em bom estado e bem higienizados — cama, comedouro e caixa de transporte usados, limpos direito, funcionam bem."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quando comprar a coleira e a guia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode comprar já, mas o uso pra passeio externo só deve começar quando o veterinário liberar, conforme o calendário de vacinas do filhote."
+        }
+      }
+    ]
+  }
+}
