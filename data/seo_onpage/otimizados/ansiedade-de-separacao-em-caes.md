@@ -54,6 +54,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\ansiedade-de-separacao-em-caes.jsonld.json
+imagem_capa: imagens/ansiedade-de-separacao-em-caes.jpg
+imagem_fonte: pexels
+imagem_fotografo: Diana ✨
+imagem_fotografo_url: https://www.pexels.com/@didsss
+imagem_url_pagina: https://www.pexels.com/photo/dog-behind-pane-18065206/
+imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
 ---
 
 # Ansiedade de separação em cães: o Doutor Bagunça explica com o devido cuidado

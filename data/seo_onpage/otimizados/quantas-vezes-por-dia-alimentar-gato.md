@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: como trocar a ração do cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\quantas-vezes-por-dia-alimentar-gato.jsonld.json
+imagem_capa: imagens/quantas-vezes-por-dia-alimentar-gato.jpg
+imagem_fonte: pexels
+imagem_fotografo: Engin Akyurt
+imagem_fotografo_url: https://www.pexels.com/@enginakyurt
+imagem_url_pagina: https://www.pexels.com/photo/cat-sitting-by-bowls-with-food-on-ground-18418977/
+imagem_selecionada_em: '2026-09-17T22:19:17+00:00'
 ---
 
 # Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete

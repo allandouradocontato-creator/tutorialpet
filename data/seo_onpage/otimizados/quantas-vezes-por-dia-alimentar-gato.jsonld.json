@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quantas-vezes-por-dia-alimentar-gato"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/quantas-vezes-por-dia-alimentar-gato.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -44,6 +44,12 @@ sugestoes_links_internos:
   ancora_sugerida: como trocar a ração do cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\alimentos-proibidos-para-cachorro.jsonld.json
+imagem_capa: imagens/alimentos-proibidos-para-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: cottonbro studio
+imagem_fotografo_url: https://www.pexels.com/@cottonbro
+imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/
+imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
 ---
 
 # Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta

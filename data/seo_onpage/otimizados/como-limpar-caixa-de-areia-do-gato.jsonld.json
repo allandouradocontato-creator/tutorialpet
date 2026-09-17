@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-limpar-caixa-de-areia-do-gato"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-limpar-caixa-de-areia-do-gato.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

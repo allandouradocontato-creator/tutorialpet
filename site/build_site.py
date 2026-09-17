@@ -252,11 +252,13 @@ def run(site_id: str) -> dict:
         imagens_dst = BUILD_DIR / "imagens"
         imagens_dst.mkdir(parents=True, exist_ok=True)
         for fm, _, _ in artigos:
-            if not fm.get("imagem_capa"):
+            imagem_capa = fm.get("imagem_capa")
+            if not imagem_capa:
                 continue
-            origem = imagens_src / f"{fm['slug']}.png"
+            nome_arquivo = Path(imagem_capa).name
+            origem = imagens_src / nome_arquivo
             if origem.exists():
-                (imagens_dst / f"{fm['slug']}.png").write_bytes(origem.read_bytes())
+                (imagens_dst / nome_arquivo).write_bytes(origem.read_bytes())
                 n_imagens += 1
 
     (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar), encoding="utf-8")

@@ -54,6 +54,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\como-limpar-caixa-de-areia-do-gato.jsonld.json
+imagem_capa: imagens/como-limpar-caixa-de-areia-do-gato.jpg
+imagem_fonte: pexels
+imagem_fotografo: 大 董
+imagem_fotografo_url: https://www.pexels.com/@724211268
+imagem_url_pagina: https://www.pexels.com/photo/ginger-tabby-cat-sitting-indoors-with-boxes-39501015/
+imagem_selecionada_em: '2026-09-17T22:15:29+00:00'
 ---
 
 # Como limpar a caixa de areia do gato sem o Seu Trombone reclamar do cheiro

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-socializar-filhote-de-gato"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-socializar-filhote-de-gato.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

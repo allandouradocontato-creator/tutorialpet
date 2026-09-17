@@ -41,6 +41,12 @@ sugestoes_links_internos:
   ancora_sugerida: brinquedos para cachorro que fica sozinho
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\caixa-de-transporte-para-gato.jsonld.json
+imagem_capa: imagens/caixa-de-transporte-para-gato.jpg
+imagem_fonte: pexels
+imagem_fotografo: Bunkac Bebec
+imagem_fotografo_url: https://www.pexels.com/@bunkac-bebec-2157950757
+imagem_url_pagina: https://www.pexels.com/photo/adorable-kitten-resting-inside-wicker-basket-carrier-35173632/
+imagem_selecionada_em: '2026-09-17T22:14:07+00:00'
 ---
 
 # Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem

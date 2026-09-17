@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/gato-arranhando-o-sofa"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/gato-arranhando-o-sofa.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

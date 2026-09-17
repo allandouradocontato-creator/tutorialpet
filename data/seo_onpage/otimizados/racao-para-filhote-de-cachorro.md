@@ -52,6 +52,12 @@ sugestoes_links_internos:
   ancora_sugerida: como trocar a ração do cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\racao-para-filhote-de-cachorro.jsonld.json
+imagem_capa: imagens/racao-para-filhote-de-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: MART  PRODUCTION
+imagem_fotografo_url: https://www.pexels.com/@mart-production
+imagem_url_pagina: https://www.pexels.com/photo/brown-dog-eating-8434676/
+imagem_selecionada_em: '2026-09-17T22:19:17+00:00'
 ---
 
 # Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça

@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: como limpar caixa de areia do gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\como-dar-banho-em-gato.jsonld.json
+imagem_capa: imagens/como-dar-banho-em-gato.jpg
+imagem_fonte: pexels
+imagem_fotografo: Nadejda Bostanova
+imagem_fotografo_url: https://www.pexels.com/@farfalina
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-a-maine-coon-cat-outdoors-36284256/
+imagem_selecionada_em: '2026-09-17T22:14:25+00:00'
 ---
 
 # Como dar banho em gato: o MC Rex solta o batidão da hora do banho

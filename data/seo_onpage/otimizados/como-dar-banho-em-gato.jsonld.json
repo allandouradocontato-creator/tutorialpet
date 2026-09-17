@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-dar-banho-em-gato"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-dar-banho-em-gato.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

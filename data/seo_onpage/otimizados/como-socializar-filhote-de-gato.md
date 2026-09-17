@@ -42,6 +42,12 @@ sugestoes_links_internos:
   ancora_sugerida: enxoval para filhote de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\como-socializar-filhote-de-gato.jsonld.json
+imagem_capa: imagens/como-socializar-filhote-de-gato.jpg
+imagem_fonte: pexels
+imagem_fotografo: Alexey Demidov
+imagem_fotografo_url: https://www.pexels.com/@alexeydemidov
+imagem_url_pagina: https://www.pexels.com/photo/black-and-white-photo-of-kittens-11458665/
+imagem_selecionada_em: '2026-09-17T22:14:54+00:00'
 ---
 
 # Como socializar filhote de gato: a Nanda Confete monta a festa de apresentação

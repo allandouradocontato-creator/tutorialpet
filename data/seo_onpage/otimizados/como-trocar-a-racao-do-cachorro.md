@@ -43,6 +43,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\como-trocar-a-racao-do-cachorro.jsonld.json
+imagem_capa: imagens/como-trocar-a-racao-do-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: Mathew Coulton
+imagem_fotografo_url: https://www.pexels.com/@mathew-coulton-2358287
+imagem_url_pagina: https://www.pexels.com/photo/overhead-shot-of-dog-food-in-a-white-and-blue-bowl-4432260/
+imagem_selecionada_em: '2026-09-17T22:15:29+00:00'
 ---
 
 # Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você)

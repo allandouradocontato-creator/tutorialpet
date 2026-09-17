@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/ansiedade-de-separacao-em-caes"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/ansiedade-de-separacao-em-caes.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

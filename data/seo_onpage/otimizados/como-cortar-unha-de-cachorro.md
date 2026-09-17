@@ -47,6 +47,12 @@ sugestoes_links_internos:
   ancora_sugerida: como limpar caixa de areia do gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\como-cortar-unha-de-cachorro.jsonld.json
+imagem_capa: imagens/como-cortar-unha-de-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: Inge Van den Heuvel
+imagem_fotografo_url: https://www.pexels.com/@inge-van-den-heuvel-173188442
+imagem_url_pagina: https://www.pexels.com/photo/brown-short-coated-dog-lying-on-floor-11497271/
+imagem_selecionada_em: '2026-09-17T22:14:25+00:00'
 ---
 
 # Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem

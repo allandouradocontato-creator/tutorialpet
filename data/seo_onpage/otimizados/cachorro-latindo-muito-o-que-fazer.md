@@ -50,6 +50,12 @@ sugestoes_links_internos:
   ancora_sugerida: ansiedade de separação em cães
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data\seo_onpage\otimizados\cachorro-latindo-muito-o-que-fazer.jsonld.json
+imagem_capa: imagens/cachorro-latindo-muito-o-que-fazer.jpg
+imagem_fonte: pexels
+imagem_fotografo: JacLou- DL
+imagem_fotografo_url: https://www.pexels.com/@jaclou-dl
+imagem_url_pagina: https://www.pexels.com/photo/alert-shetland-sheepdog-in-lush-green-field-28895797/
+imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
 ---
 
 # Cachorro latindo muito, o que fazer? O Seu Trombone (que também é barulhento) explica
