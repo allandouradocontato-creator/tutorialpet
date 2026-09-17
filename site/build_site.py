@@ -123,8 +123,14 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 
     imagem_capa = fm.get("imagem_capa")
     og_image = f"{dominio}/{imagem_capa}" if imagem_capa else ""
-    hero_img = (f'<img class="hero-img" src="/{imagem_capa}" alt="{html_lib.escape(fm["titulo"])}">'
-                if imagem_capa else "")
+    hero_img = ""
+    if imagem_capa:
+        hero_img = f'<img class="hero-img" src="/{imagem_capa}" alt="{html_lib.escape(fm["titulo"])}">'
+        fotografo, fonte_url = fm.get("imagem_fotografo"), fm.get("imagem_fotografo_url")
+        if fotografo and fonte_url:
+            fonte_nome = (fm.get("imagem_fonte") or "").capitalize()
+            hero_img += (f'<p class="image-credit">Foto: <a href="{html_lib.escape(fonte_url)}">'
+                         f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}</p>')
 
     body_html = md_to_html(body)
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '

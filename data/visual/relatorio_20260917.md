@@ -1,15 +1,14 @@
 # Agente 15 — aguardando credenciais
 
-- **Gerado em:** 2026-09-17T17:40:17+00:00
+- **Gerado em:** 2026-09-17T22:07:20+00:00
 - **Status:** ⛔ aguardando_credenciais
-- **Motivo:** OPENAI_API_KEY não configurada em .env — nenhuma chamada de API foi feita.
+- **Motivo:** Nem PEXELS_API_KEY nem PIXABAY_API_KEY estão configuradas em .env.
 - **Artigos no catálogo:** 20
-- **Imagens já geradas anteriormente:** 0
 
 ## Como destravar
 
-1. Gere uma chave em platform.openai.com (Settings → API keys).
-2. Adicione `OPENAI_API_KEY=<sua chave>` no arquivo `.env` na raiz do projeto (nunca no `.env.example`, e nunca cole a chave direto no chat).
-3. Rode este agente de novo.
+1. Crie uma conta gratuita em pexels.com/api (ou pixabay.com/api/docs) — aprovação é instantânea.
+2. Adicione `PEXELS_API_KEY=<chave>` e/ou `PIXABAY_API_KEY=<chave>` no `.env` (nunca no `.env.example`, e nunca cole a chave direto no chat).
+3. Rode este agente de novo com `--fetch-candidatos`.
 
-Nenhuma chamada de API foi feita nem nenhum custo gerado até este ponto.
+Nenhuma chamada de API foi feita até este ponto.

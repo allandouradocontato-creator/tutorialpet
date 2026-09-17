@@ -1,21 +1,14 @@
-# Configuração do agente 15 (geração de imagem por IA) — nenhum valor aqui é uma credencial;
-# a chave de API vem só de OPENAI_API_KEY no .env, nunca deste arquivo.
+# Configuração do agente 15 (imagem de capa via banco de imagens). Nenhuma credencial fica
+# aqui — as chaves vêm só de PEXELS_API_KEY / PIXABAY_API_KEY no .env.
+#
+# Decisão revista: geração por IA (OpenAI) trocada por banco de imagens (Pexels/Pixabay),
+# para não depender de billing e ter imagem publicável no mesmo dia. Regra inegociável:
+# toda foto tem que mostrar só o animal, nunca uma pessoa/tutor visível — por isso a
+# seleção final é sempre revisada visualmente antes de publicar (ver agents/15_visual/agent.py).
 
-# gpt-image-1 entra em depreciação em 23/10/2026 (aviso da própria OpenAI) — usamos o
-# sucessor atual. Trocar aqui é a única mudança necessária se a OpenAI migrar de novo.
-modelo: gpt-image-1.5
-qualidade: high        # low | medium | high — "high" é o mínimo aceitável para o padrão
-                        # editorial pedido (nunca usar "low"/"medium" para o site publicado)
-tamanho: "1024x1024"
-custo_estimado_por_imagem_usd: 0.133   # referência de set/2026 — conferir preço real antes
-                                        # de lotes grandes, preços de API de imagem mudam com frequência
+candidatos_por_busca: 5   # quantas fotos candidatas baixar por artigo, para dar opção de escolha
+licencas_aceitas: [pexels, pixabay]   # ambas: uso comercial livre, sem exigência formal de atribuição
 
-# Prefixo de estilo aplicado a TODA imagem, para manter as ~20+ imagens com a mesma
-# identidade visual (evita o efeito "banco de imagem aleatório" que motivou esta fase).
-prefixo_estilo: >
-  Ilustração digital estilizada, traço limpo e profissional, paleta de cores verde-escuro
-  (#2f4538) e terracota (#c9723c), cena aconchegante e afetiva entre tutor e pet, sem texto
-  nem letras na imagem, estilo editorial de blog premium sobre pets — nunca fotorrealista,
-  nunca clipart genérico, nunca com aparência de banco de imagem estoque.
-
-diretorio_saida: data/visual/imagens
+# Mesmo sem exigência formal de atribuição, aplicamos crédito ao fotógrafo como boa prática
+# editorial (também ajuda a mostrar transparência numa eventual revisão do AdSense).
+aplicar_credito_fotografo: true
