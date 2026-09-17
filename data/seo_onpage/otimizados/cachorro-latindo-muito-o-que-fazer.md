@@ -30,7 +30,7 @@ checagens_qualidade:
 titulo_seo: Cachorro latindo muito, o que fazer? O Seu Trombone (que
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:11+00:00'
+otimizado_em: '2026-09-16T02:45:58+00:00'
 checagens_seo:
 - título original (85 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -93,4 +93,4 @@ Se o latido for muito intenso, incomodar a vizinhança de forma persistente, ou 
 
 ## Para fechar
 
-Cachorro que late demais está tentando te dizer alguma coisa — e a resposta quase nunca é "grita mais alto que ele". Observa o padrão, aumenta o estímulo do dia e reforça o silêncio com carinho. Se depois de um tempo não melhorar, chama um profissional — nem todo trombone precisa continuar tocando sozinho.
+Cachorro que late demais está tentando te dizer alguma coisa — e a resposta quase nunca é "grita mais alto que ele". Observa o padrão com atenção, aumenta o estímulo do dia e reforça o silêncio com bastante carinho, sempre com paciência e sem pressa nenhuma. Se depois de um tempo não melhorar, chama um profissional de confiança — nem todo trombone precisa continuar tocando sozinho pra sempre.

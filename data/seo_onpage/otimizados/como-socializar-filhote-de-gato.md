@@ -22,7 +22,7 @@ checagens_qualidade: []
 titulo_seo: 'Como socializar filhote de gato: a Nanda Confete monta a'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:12+00:00'
+otimizado_em: '2026-09-16T02:45:57+00:00'
 checagens_seo:
 - título original (78 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -83,6 +83,10 @@ Com bastante cautela — apresentações mal planejadas com gatos desconhecidos 
 **Quanto tempo leva pra um filhote ficar bem socializado?**
 
 Varia de gato pra gato — alguns se adaptam rápido, outros levam mais tempo. Consistência nas experiências positivas é mais importante que velocidade.
+
+**Preciso convidar visitas só pra socializar o filhote?**
+
+Não precisa virar evento oficial — aproveitar as visitas que já acontecem naturalmente em casa, com calma e sem forçar contato, já é uma ótima oportunidade de socialização sem gastar nenhum confete a mais.
 
 ## Para fechar
 

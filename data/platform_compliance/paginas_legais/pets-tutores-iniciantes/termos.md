@@ -3,14 +3,14 @@ titulo: Termos de Uso
 slug: termos
 tipo: pagina_legal
 site_id: pets-tutores-iniciantes
-gerado_em: '2026-09-16T01:31:49+00:00'
+gerado_em: '2026-09-17T12:07:21+00:00'
 gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---
 
 # Termos de Uso — Tutor de Primeira Viagem
 
-*Última atualização: 16/09/2026*
+*Última atualização: 17/09/2026*
 
 Ao acessar e usar o site **Tutor de Primeira Viagem** (https://tutorialpet.com.br), você concorda com os termos descritos
 abaixo. Se não concordar com algum ponto, recomendamos não utilizar o site.

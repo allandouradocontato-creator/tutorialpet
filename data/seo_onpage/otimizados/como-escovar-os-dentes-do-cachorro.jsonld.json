@@ -51,6 +51,14 @@
           "@type": "Answer",
           "text": "Pode sim, nunca é tarde — só exige mais paciência pra criar o hábito do que em um filhote que já cresce acostumado."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar gaze em vez de escova?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, sô, principalmente no começo — enrola a gaze no dedo, passa a pasta canina e esfrega de leve. É um jeito bom de ir acostumando o cachorro antes de trazer a escova de verdade."
+        }
       }
     ]
   }

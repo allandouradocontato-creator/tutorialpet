@@ -32,7 +32,7 @@ checagens_qualidade:
 titulo_seo: 'Brinquedos para cachorro que fica sozinho: o MC Rex solta o'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:11+00:00'
+otimizado_em: '2026-09-16T02:45:57+00:00'
 checagens_seo:
 - título original (75 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -93,6 +93,10 @@ Procure opções descritas como resistentes/indestrutíveis pro porte e força d
 **Osso de verdade é uma boa opção de brinquedo?**
 
 Ossos cozidos podem lascar e machucar — se for oferecer algo do tipo, prefira opções seguras indicadas por um veterinário, não ossos de churrasco da geladeira.
+
+**Filhote também pode usar brinquedo recheável?**
+
+Pode sim, com moderação e sempre de olho no tamanho da peça pro focinho dele — filhote em fase de troca de dente costuma curtir ainda mais esse tipo de brinquedo, porque ajuda a aliviar o incômodo da gengiva enquanto o novo dentinho nasce.
 
 ## Para fechar
 

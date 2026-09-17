@@ -31,7 +31,7 @@ checagens_qualidade:
 titulo_seo: Arranhador para gato, qual escolher? O Beto Trapalhão já
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:11+00:00'
+otimizado_em: '2026-09-16T02:45:57+00:00'
 checagens_seo:
 - título original (88 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -96,6 +96,10 @@ Depende do tamanho da casa e da quantidade de gatos — ter mais de um espalhado
 **Posso fazer um arranhador caseiro?**
 
 Pode, desde que seja estável e com material seguro (sisal é uma boa opção pra enrolar numa base firme) — só cuidar pra não usar material que solte fiapos fáceis de engolir.
+
+**Posso trocar o material do arranhador depois?**
+
+Pode, e às vezes vale a pena mesmo — se o gato ignorar o material escolhido, troca sem culpa nenhuma. Eu já troquei duas vezes até achar o que o meu realmente usava de verdade.
 
 ## Para fechar
 

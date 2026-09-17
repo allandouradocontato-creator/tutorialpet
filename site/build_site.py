@@ -27,6 +27,7 @@ if str(ROOT) not in sys.path:
 
 from core.config import load_env_file, load_site  # noqa: E402
 from core.markdown import MarkdownError, read_markdown  # noqa: E402
+from core.theme import BASE_CSS, GOOGLE_FONT_HEAD, PILAR_VISUAL, PILAR_VISUAL_PADRAO  # noqa: E402
 
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
@@ -48,41 +49,16 @@ def load_agent07_markdown_converter():
     return module.markdown_to_html_body
 
 
-CSS = """
-:root { color-scheme: light; }
-body { margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #fafaf7; color: #262220; }
-header.site { background: #2f4538; color: #fff; padding: 14px 20px; }
-header.site a { color: #fff; text-decoration: none; font-weight: 600; }
-header.site nav { margin-top: 6px; font-size: 14px; }
-header.site nav a { margin-right: 14px; opacity: 0.9; }
-.breadcrumb { max-width: 760px; margin: 16px auto 0; padding: 0 20px; font-size: 13px; color: #6b645f; }
-.breadcrumb a { color: #2f4538; }
-main.article, main.legal { max-width: 760px; margin: 0 auto; padding: 16px 20px 48px; }
-main.home { max-width: 960px; margin: 0 auto; padding: 24px 20px 48px; }
-h1 { font-size: 1.9rem; line-height: 1.25; }
-h2 { font-size: 1.35rem; margin-top: 2em; }
-h3 { font-size: 1.1rem; margin-top: 1.4em; }
-p { line-height: 1.7; font-size: 1.05rem; }
-blockquote { border-left: 4px solid #d99a2b; background: #fff8ec; margin: 1.5em 0; padding: 0.8em 1.2em; font-size: 0.98rem; }
-ul { line-height: 1.7; }
-.byline { font-size: 0.9rem; color: #6b645f; margin-top: -0.5em; }
-.pilar-section { margin-top: 2.5em; }
-.pilar-section h2 { border-bottom: 2px solid #e5e0d8; padding-bottom: 6px; }
-.pilar-section ul { list-style: none; padding: 0; }
-.pilar-section li { padding: 8px 0; border-bottom: 1px solid #efece5; }
-.pilar-section a { color: #2f4538; text-decoration: none; font-size: 1.05rem; }
-.pilar-section a:hover { text-decoration: underline; }
-footer.site { max-width: 960px; margin: 32px auto 0; padding: 20px 20px 40px; font-size: 0.85rem; color: #6b645f; border-top: 1px solid #e5e0d8; }
-footer.site a { color: #6b645f; margin-right: 12px; }
-.hero { padding: 40px 0 10px; }
-.hero p { font-size: 1.1rem; color: #4a453f; }
-"""
+# CSS unificado em core/theme.py (paleta de marca + tipografia), compartilhado com o
+# agente 07 — antes cada um tinha sua própria cópia quase idêntica, que podia divergir
+# sem ninguém perceber.
+CSS = BASE_CSS
 
 
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
     links = "".join(f'<a href="/#{key}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items())
     return f"""<header class="site">
-<a href="/">{html_lib.escape(site_nome)}</a>
+<a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
 </header>"""
 
@@ -111,6 +87,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <meta property="og:description" content="{html_lib.escape(meta_description)}">
 <meta property="og:url" content="{html_lib.escape(canonical)}">
 <meta property="og:locale" content="pt_BR">
+{GOOGLE_FONT_HEAD}
 {extra_head}
 <style>{CSS}</style>
 </head>
@@ -143,11 +120,15 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                   f'<a href="/#{pilar_key}">{html_lib.escape(pilar_titulo)}</a> &gt; {html_lib.escape(fm["titulo"])}</div>')
 
     body_html = md_to_html(body)
+    cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
+           f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
+           f'<a class="btn" href="/#{pilar_key}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
     main = f"""{render_header(site["nome"], pilares)}
 {breadcrumb}
 <main class="article">
 {byline}
 {body_html}
+{cta}
 </main>
 {render_footer()}"""
     return page_shell(titulo_seo, fm.get("meta_description", ""), canonical, "article", main, jsonld_scripts)
@@ -172,10 +153,19 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
         itens = artigos_por_pilar.get(pilar_key, [])
         if not itens:
             continue
-        links = "".join(
-            f'<li><a href="/{fm["slug"]}">{html_lib.escape(fm["titulo"])}</a></li>' for fm in itens
+        visual = PILAR_VISUAL.get(pilar_key, PILAR_VISUAL_PADRAO)
+        cards = "".join(
+            f'<div class="card"><a class="card-link" href="/{fm["slug"]}">'
+            f'<div class="card-cover" style="background:{visual["bg"]}">{visual["emoji"]}</div>'
+            f'<div class="card-body"><div class="card-title">{html_lib.escape(fm["titulo"])}</div></div>'
+            f'</a></div>'
+            for fm in itens
         )
-        sections.append(f'<section class="pilar-section" id="{pilar_key}"><h2>{html_lib.escape(titulo)}</h2><ul>{links}</ul></section>')
+        sections.append(
+            f'<section class="pilar-section" id="{pilar_key}">'
+            f'<h2>{html_lib.escape(titulo)} <span class="pilar-tag">{len(itens)} artigo(s)</span></h2>'
+            f'<div class="card-grid">{cards}</div></section>'
+        )
 
     main = f"""{render_header(site["nome"], pilares)}
 <main class="home">

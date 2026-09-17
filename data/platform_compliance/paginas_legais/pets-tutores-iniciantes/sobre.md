@@ -3,7 +3,7 @@ titulo: Sobre
 slug: sobre
 tipo: pagina_legal
 site_id: pets-tutores-iniciantes
-gerado_em: '2026-09-16T01:31:49+00:00'
+gerado_em: '2026-09-17T12:07:21+00:00'
 gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---

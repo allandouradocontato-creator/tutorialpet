@@ -35,6 +35,7 @@ from core.config import load_env_file, load_publishing_schedule, load_site  # no
 from core.io import normalize_term, now_iso, read_json, write_json  # noqa: E402
 from core.log import get_logger  # noqa: E402
 from core.markdown import MarkdownError, read_markdown, write_markdown  # noqa: E402
+from core.theme import BASE_CSS, GOOGLE_FONT_HEAD  # noqa: E402
 
 AGENT_NAME = "07_publisher"
 SCHEMA_VERSION = "1.0"
@@ -256,18 +257,12 @@ def markdown_to_html_body(body: str) -> str:
 
 
 # --------------------------------------------------------------------------- HTML final
-PREVIEW_CSS = """
-:root { color-scheme: light; }
-body { margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #fafaf7; color: #262220; }
+# CSS base compartilhado com o site real (core/theme.py) — antes esta era uma cópia quase
+# idêntica da folha de estilo de site/build_site.py, que podia divergir sem ninguém notar.
+# Só a faixa de aviso de "modo simulação" é específica desta prévia.
+PREVIEW_CSS = BASE_CSS + """
 .preview-banner { background: #fff3cd; color: #6b5300; padding: 10px 16px; font-size: 13px; text-align: center; border-bottom: 1px solid #e8d68a; }
 main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
-h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 0.3em; }
-h2 { font-size: 1.35rem; margin-top: 2em; }
-h3 { font-size: 1.1rem; margin-top: 1.4em; }
-p { line-height: 1.7; font-size: 1.05rem; }
-blockquote { border-left: 4px solid #d99a2b; background: #fff8ec; margin: 1.5em 0; padding: 0.8em 1.2em; font-size: 0.98rem; }
-ul { line-height: 1.7; }
-footer { max-width: 720px; margin: 0 auto; padding: 0 20px 48px; font-size: 0.85rem; color: #6b645f; border-top: 1px solid #e5e0d8; padding-top: 16px; }
 """
 
 
@@ -311,6 +306,7 @@ def build_preview_html(front_matter: dict, body: str, structured_data: dict, sit
 <meta property="og:url" content="{html_lib.escape(url)}">
 <meta property="og:locale" content="{idioma.replace('-', '_')}">
 {jsonld_scripts}
+{GOOGLE_FONT_HEAD}
 <style>{PREVIEW_CSS}</style>
 <!--
 front-matter original (referência para quem for publicar manualmente):

@@ -88,17 +88,22 @@ def count_quality_editor_outcomes() -> dict[str, int]:
 # --------------------------------------------------------------------------- agentes 06/10 (pendências)
 STATUS_LINE_RE = re.compile(r"\*\*Status:\*\*\s*(.+)")
 RISCO_LINE_RE = re.compile(r"\*\*Risco geral:\*\*\s*(\S+)")
+PENDENCIA_ITEM_RE = re.compile(r"^- \[ \] (.+)$", re.MULTILINE)
 
 
 def scan_compliance_reports() -> list[dict]:
+    """Cada item inclui as `pendencias` (itens da seção '## Pendências' do relatório do
+    agente 06) para permitir montar um resumo dinâmico do que falta, em vez de uma string
+    fixa que desatualiza conforme as pendências reais mudam."""
     if not COMPLIANCE_DIR.exists():
         return []
     resultado = []
-    for path in sorted(COMPLIANCE_DIR.glob("relatorio_prontidao_*.md")):
+    for path in sorted(COMPLIANCE_DIR.glob("relatorio_prontidao*.md")):
         texto = path.read_text(encoding="utf-8")
         m = STATUS_LINE_RE.search(texto)
         pronto = bool(m and "PRONTO" in m.group(1).upper())
-        resultado.append({"arquivo": str(path.relative_to(ROOT)), "pronto": pronto})
+        pendencias = PENDENCIA_ITEM_RE.findall(texto)
+        resultado.append({"arquivo": str(path.relative_to(ROOT)), "pronto": pronto, "pendencias": pendencias})
     return resultado
 
 

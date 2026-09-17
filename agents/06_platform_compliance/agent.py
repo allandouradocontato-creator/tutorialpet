@@ -148,8 +148,15 @@ def check_https(dominio: str) -> dict:
         return {"checado": False, "ok": None, "motivo": "domínio ainda é um placeholder — configure o domínio real e rode este agente de novo."}
     if not dominio.startswith("https://"):
         return {"checado": True, "ok": False, "motivo": f"domínio configurado sem https:// ({dominio})."}
+    # Alguns WAFs (ex.: Cloudflare) bloqueiam com 403 o User-Agent padrão do urllib
+    # (identificado como bot) mesmo com o site no ar — usar um User-Agent de navegador evita
+    # esse falso-positivo.
+    req = urllib.request.Request(dominio, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                      "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+    })
     try:
-        with urllib.request.urlopen(dominio, timeout=5) as resp:
+        with urllib.request.urlopen(req, timeout=5) as resp:
             final_url = resp.geturl()
         return {"checado": True, "ok": final_url.startswith("https://"), "motivo": f"resposta HTTP {getattr(resp, 'status', '200')}."}
     except (urllib.error.URLError, socket.timeout, ssl.SSLError, ValueError) as ex:
@@ -262,8 +269,7 @@ def run(context: dict) -> dict:
     }
     relatorio_md, pronto, pendencias = build_readiness_report(site, contexto)
 
-    date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
-    report_path = COMPLIANCE_DIR / f"relatorio_prontidao_{date_str}.md"
+    report_path = COMPLIANCE_DIR / "relatorio_prontidao.md"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(relatorio_md, encoding="utf-8")
 

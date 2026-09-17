@@ -1,6 +1,6 @@
 # Relatório de prontidão para AdSense — pets-tutores-iniciantes
 
-- **Gerado em:** 2026-09-16T01:31:50+00:00
+- **Gerado em:** 2026-09-17T12:07:23+00:00
 - **Domínio:** https://tutorialpet.com.br
 - **Status:** ⛔ PENDÊNCIAS ENCONTRADAS
 
@@ -8,7 +8,7 @@
 
 | Artigos otimizados | Mínimo recomendado | Páginas legais | Arquivos técnicos | Pares duplicados | HTTPS |
 |---|---|---|---|---|---|
-| 20 | 15 | 4/4 | 3/3 | 0 | ⛔ |
+| 20 | 15 | 4/4 | 3/3 | 0 | ✅ |
 
 ## Performance (Lighthouse)
 
@@ -17,7 +17,6 @@
 ## Pendências
 
 - [ ] ads.txt ainda usa o Publisher ID placeholder — atualizar com o pub-id real após a aprovação no AdSense (nunca antes: o AdSense é quem gera esse dado).
-- [ ] HTTPS não confirmado: não foi possível conectar: <urlopen error [Errno 11001] getaddrinfo failed>
 
 ## Lembrete importante
 

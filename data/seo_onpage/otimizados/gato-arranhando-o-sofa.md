@@ -30,7 +30,7 @@ checagens_qualidade:
 titulo_seo: 'Gato arranhando o sofá: a Zuza Pimentel investiga o "crime"'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:13+00:00'
+otimizado_em: '2026-09-16T02:45:58+00:00'
 checagens_seo:
 - título original (67 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -101,4 +101,4 @@ Cada gato tem preferência própria — alguns preferem esticar pra cima, outros
 
 ## Para fechar
 
-Mistério resolvido, gente: o gato não é vilão nenhum, só está seguindo o instinto dele — e a solução é dar um lugar melhor pra esse instinto acontecer. Guarda essas dicas, redireciona com paciência, e conta aqui depois se o sofá finalmente teve paz.
+Mistério resolvido, gente: o gato não é vilão nenhum, só está seguindo o instinto natural dele — e a solução de verdade é dar um lugar melhor e mais atrativo pra esse instinto acontecer. Guarda essas dicas, redireciona com bastante paciência, e conta aqui depois nos comentários se o seu sofá finalmente teve paz.

@@ -56,4 +56,4 @@ Pode, sim — se o gato passar a evitar a caixa, fazer xixi com muita frequênci
 
 ## Para fechar
 
-Limpeza diária, quantidade certa de caixas e um cantinho tranquilo resolvem 90% dos "perfumes" indesejados lá em casa. Guarda essa receita simples e, se mesmo assim o cheiro (ou o comportamento do gato) continuar estranho, chama um veterinário pra investigar — Seu Trombone garante que sua casa agradece.
+Limpeza diária, quantidade certa de caixas e um cantinho tranquilo resolvem 90% dos "perfumes" indesejados lá em casa. Guarda essa receita simples e, se mesmo assim o cheiro (ou o comportamento do gato) continuar estranho, chama um veterinário pra investigar — Seu Trombone garante que sua casa, suas visitas e seu nariz sensível agradecem.

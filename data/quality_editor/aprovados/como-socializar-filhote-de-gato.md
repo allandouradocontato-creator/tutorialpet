@@ -61,6 +61,10 @@ Com bastante cautela — apresentações mal planejadas com gatos desconhecidos 
 
 Varia de gato pra gato — alguns se adaptam rápido, outros levam mais tempo. Consistência nas experiências positivas é mais importante que velocidade.
 
+**Preciso convidar visitas só pra socializar o filhote?**
+
+Não precisa virar evento oficial — aproveitar as visitas que já acontecem naturalmente em casa, com calma e sem forçar contato, já é uma ótima oportunidade de socialização sem gastar nenhum confete a mais.
+
 ## Para fechar
 
 Uma boa socialização é o presente de longo prazo mais bonito que você pode dar pro seu filhote — calma, reforço positivo e ritmo respeitado fazem toda a diferença. Guarda esse roteiro de festa e comemora cada pequena conquista dele pelo caminho.

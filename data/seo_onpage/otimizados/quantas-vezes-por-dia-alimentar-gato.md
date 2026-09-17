@@ -29,7 +29,7 @@ checagens_qualidade:
 titulo_seo: 'Quantas vezes por dia alimentar gato: a festa da comida com'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:13+00:00'
+otimizado_em: '2026-09-16T02:45:58+00:00'
 checagens_seo:
 - título original (73 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -88,7 +88,7 @@ Pode variar — alguns preferem porções menores e mais frequentes conforme env
 
 **Como saber se a porção está certa?**
 
-O peso corporal estável e a disposição normal do gato são bons sinais. Se notar mudança de peso perceptível, vale reavaliar com um veterinário.
+O peso corporal estável, o pelo com aparência saudável e brilhante e a disposição normal e animada do gato no dia a dia são bons sinais. Se notar qualquer mudança de peso mais perceptível, vale reavaliar a porção com calma junto de um veterinário de confiança.
 
 ## Para fechar
 

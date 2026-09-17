@@ -3,14 +3,14 @@ titulo: Política de Privacidade
 slug: politica-de-privacidade
 tipo: pagina_legal
 site_id: pets-tutores-iniciantes
-gerado_em: '2026-09-16T01:31:49+00:00'
+gerado_em: '2026-09-17T12:07:21+00:00'
 gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---
 
 # Política de Privacidade — Tutor de Primeira Viagem
 
-*Última atualização: 16/09/2026*
+*Última atualização: 17/09/2026*
 
 Esta Política de Privacidade explica como o site **Tutor de Primeira Viagem** (https://tutorialpet.com.br) coleta, usa e
 protege informações de quem visita nossas páginas, em conformidade com a Lei Geral de

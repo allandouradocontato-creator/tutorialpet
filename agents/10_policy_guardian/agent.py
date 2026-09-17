@@ -2,8 +2,13 @@
 
 Audita periodicamente o site contra config/policies.yaml (regras de compliance do
 AdSense + sinais de risco de Helpful Content), comparando as regras com o estado atual
-dos artigos publicados (data/publisher/simulado/) e da infraestrutura legal/técnica
+dos artigos do catálogo (data/seo_onpage/otimizados/) e da infraestrutura legal/técnica
 gerada pelo agente 06 — sinalizando risco antes que vire penalização.
+
+Audita data/seo_onpage/otimizados/ (o catálogo "pronto"), não data/publisher/simulado/:
+na prática deste projeto, o agente 07 (publicação) só processou 1 dos 20 artigos até
+agora, então auditar só o que passou por ele deixaria os outros 19 de fora — o risco de
+política precisa ser visto antes de publicar, não só depois.
 
 Uso isolado:
     python agents/10_policy_guardian/agent.py --site pets-tutores-iniciantes
@@ -28,11 +33,12 @@ from core.config import load_env_file, load_site, load_yaml, CONFIG_DIR  # noqa:
 from core.io import now_iso  # noqa: E402
 from core.log import get_logger  # noqa: E402
 from core.markdown import MarkdownError, read_markdown, strip_markdown_plain  # noqa: E402
+from core.text_checks import find_unnegated_matches  # noqa: E402
 
 AGENT_NAME = "10_policy_guardian"
 SCHEMA_VERSION = "1.0"
 
-PUBLISHED_DIR = ROOT / "data" / "publisher" / "simulado"
+ARTICLES_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
 GUARDIAN_DIR = ROOT / "data" / "policy_guardian"
@@ -68,19 +74,32 @@ def check_catalogo_pequeno(n_artigos: int, policies: dict, findings: list[dict])
 
 
 def check_conteudo_duplicado(articles: list[tuple[dict, str]], findings: list[dict]) -> None:
-    corpora = {fm.get("slug", "?"): strip_markdown_plain(body)[:5000] for fm, body in articles}
-    for (slug_a, text_a), (slug_b, text_b) in combinations(corpora.items(), 2):
+    """Compara todo par de artigos por similaridade de texto. Quando um dos dois não tem
+    campo 'persona' no front-matter, é sinal de que ainda usa os blocos fixos de pilar do
+    agente 03 (content_blocks.py) em vez de texto escrito por persona — a causa mais comum
+    de falso-positivo/duplicação real observada neste projeto."""
+    dados = {fm.get("slug", "?"): (strip_markdown_plain(body)[:5000], fm.get("persona")) for fm, body in articles}
+    for (slug_a, (text_a, persona_a)), (slug_b, (text_b, persona_b)) in combinations(dados.items(), 2):
         ratio = difflib.SequenceMatcher(None, text_a, text_b).ratio()
-        if ratio >= DUPLICATE_SIMILARITY_THRESHOLD:
-            add_finding(findings, "helpful_content", "critico",
-                        f"'{slug_a}' e '{slug_b}' têm {ratio:.0%} de similaridade — risco de conteúdo "
-                        "duplicado/quase-duplicado dentro do próprio site.", f"{slug_a} / {slug_b}")
+        if ratio < DUPLICATE_SIMILARITY_THRESHOLD:
+            continue
+        sem_persona = [s for s, p in ((slug_a, persona_a), (slug_b, persona_b)) if not p]
+        origem = (f" — {', '.join(sem_persona)} ainda usa o bloco fixo de pilar do agente 03 (sem persona), "
+                  "causa mais provável da similaridade." if sem_persona else
+                  " — os dois já têm persona própria; similaridade alta aqui seria um problema real, não um "
+                  "artefato de template.")
+        add_finding(findings, "helpful_content", "critico",
+                    f"'{slug_a}' e '{slug_b}' têm {ratio:.0%} de similaridade — risco de conteúdo "
+                    f"duplicado/quase-duplicado dentro do próprio site.{origem}", f"{slug_a} / {slug_b}")
 
 
 # --------------------------------------------------------------------------- checagens por artigo
 CREDENTIAL_CLAIM_PATTERNS = [
     r"sou veterinari[ao]", r"como veterinari[ao]", r"meu crmv", r"minha clinica veterinaria",
 ]
+# A checagem de negação ("não sou veterinário" não é a alegação "sou veterinário") vive em
+# core/text_checks.py — extraída de lá justamente porque este agente e o 04 tinham cada um
+# sua própria cópia dessa lógica, e só uma delas tinha sido corrigida.
 
 
 def _norm(text: str) -> str:
@@ -112,7 +131,7 @@ def check_article(fm: dict, body: str, policies: dict, site: dict, findings: lis
             add_finding(findings, "conteudo_proibido", "critico",
                         f"'{slug}' é YMYL mas não contém o aviso de saúde do site no corpo do texto.", slug)
 
-    hits = [p for p in CREDENTIAL_CLAIM_PATTERNS if re.search(p, _norm(body_plain))]
+    hits = find_unnegated_matches(CREDENTIAL_CLAIM_PATTERNS, _norm(body_plain))
     if hits:
         add_finding(findings, "conteudo_proibido", "critico",
                     f"'{slug}' contém possível alegação de credencial veterinária — proibido pela política do site.", slug)
@@ -127,7 +146,30 @@ def check_article(fm: dict, body: str, policies: dict, site: dict, findings: lis
 
 
 # --------------------------------------------------------------------------- relatório
-def render_report(site_id: str, findings: list[dict], n_artigos: int, policies: dict) -> str:
+def per_article_risk(articles: list[tuple[dict, str]], findings: list[dict]) -> list[dict]:
+    """Risco por artigo: um finding cujo 'alvo' cita o slug (sozinho ou num par 'a / b',
+    caso de duplicidade) conta pra ele. ALTO se tem crítico, MÉDIO se só atenção, BAIXO
+    se nenhum achado o cita."""
+    linhas = []
+    for fm, _ in articles:
+        slug = fm.get("slug", "?")
+        achados_do_artigo = [f for f in findings if f.get("alvo") and slug in f["alvo"].split(" / ")]
+        criticos = sum(1 for f in achados_do_artigo if f["severidade"] == "critico")
+        atencao = sum(1 for f in achados_do_artigo if f["severidade"] == "atencao")
+        risco = "ALTO" if criticos else ("MÉDIO" if atencao else "BAIXO")
+        persona = fm.get("persona")
+        linhas.append({
+            "slug": slug, "pilar": fm.get("pilar", "?"),
+            "origem": persona.split(" (")[0] if persona else "bloco fixo (agente 03)",
+            "risco": risco, "criticos": criticos, "atencao": atencao,
+        })
+    ordem = {"ALTO": 0, "MÉDIO": 1, "BAIXO": 2}
+    linhas.sort(key=lambda l: (ordem[l["risco"]], l["slug"]))
+    return linhas
+
+
+def render_report(site_id: str, findings: list[dict], n_artigos: int, policies: dict,
+                   risco_por_artigo: list[dict] | None = None) -> str:
     criticos = [f for f in findings if f["severidade"] == "critico"]
     atencao = [f for f in findings if f["severidade"] == "atencao"]
     risco = "ALTO" if criticos else ("MÉDIO" if atencao else "BAIXO")
@@ -143,6 +185,14 @@ def render_report(site_id: str, findings: list[dict], n_artigos: int, policies: 
         "## Resumo", "",
         f"| Achados críticos | Achados de atenção |", "|---|---|", f"| {len(criticos)} | {len(atencao)} |", "",
     ]
+    if risco_por_artigo:
+        L += ["## Risco por artigo", "",
+              "| Artigo | Pilar | Origem do texto | Risco | Críticos | Atenção |", "|---|---|---|---|---|---|"]
+        for linha in risco_por_artigo:
+            emoji = {"ALTO": "🔴", "MÉDIO": "🟡", "BAIXO": "🟢"}[linha["risco"]]
+            L.append(f"| {linha['slug']} | {linha['pilar']} | {linha['origem']} | {emoji} {linha['risco']} | "
+                      f"{linha['criticos']} | {linha['atencao']} |")
+        L.append("")
     if criticos:
         L += ["## 🔴 Achados críticos (risco de penalização/reprovação)", ""]
         L += [f"- **[{f['area']}]** {f['descricao']}" for f in criticos]
@@ -175,7 +225,7 @@ def run(context: dict) -> dict:
     check_paginas_e_arquivos(site_id, policies, findings)
 
     articles = []
-    for path in sorted(PUBLISHED_DIR.glob("*.md")):
+    for path in sorted(ARTICLES_DIR.glob("*.md")):
         try:
             fm, body = read_markdown(path)
         except MarkdownError:
@@ -185,8 +235,9 @@ def run(context: dict) -> dict:
 
     check_catalogo_pequeno(len(articles), policies, findings)
     check_conteudo_duplicado(articles, findings)
+    risco_por_artigo = per_article_risk(articles, findings)
 
-    relatorio_md = render_report(site_id, findings, len(articles), policies)
+    relatorio_md = render_report(site_id, findings, len(articles), policies, risco_por_artigo)
     date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
     out_path = GUARDIAN_DIR / f"auditoria_{date_str}.md"
     out_path.parent.mkdir(parents=True, exist_ok=True)

@@ -216,6 +216,79 @@ def estimate_cost(n_llm_calls: int, n_artigos: int) -> dict:
     }
 
 
+# --------------------------------------------------------------------------- status.json
+def generate_status_json(site_id: str, ctx: dict) -> dict:
+    """Gera um JSON simples com o estado atual do projeto para uso externo."""
+    policy_audits = ctx.get("policy_audits", [])
+    risco_atual = policy_audits[-1]["risco"] if policy_audits else None
+
+    compliance_reports = ctx.get("compliance_reports", [])
+    compliance_pronto = sum(1 for r in compliance_reports if r.get("pronto"))
+
+    bloqueado = False
+    motivo_bloqueio = None
+
+    # Heurística: bloqueado se compliance = 0 de N ou risco > MÉDIO
+    if compliance_reports and compliance_pronto == 0:
+        bloqueado = True
+        motivo_bloqueio = f"Compliance não está pronto (0 de {len(compliance_reports)} relatórios pronto)"
+    if risco_atual == "ALTO":
+        bloqueado = True
+        if motivo_bloqueio:
+            motivo_bloqueio += "; Risco de política alto"
+        else:
+            motivo_bloqueio = "Risco de política alto"
+
+    # Determinar se aguarda aprovação externa (DNS, AdSense, etc.)
+    aguardando_externa = True  # por padrão, sempre aguardando DNS ou integração com plataforma
+
+    # Modelo predominante: como não há chamadas reais de LLM, omitir
+    # (no futuro, derivar de config/supervisor_limits.yaml → model_routing)
+    modelo_em_uso = None
+
+    # Tarefas repetitivas de baixa complexidade: baseado em durations (agentes 07, 08, 09)
+    durations = ctx.get("durations", {})
+    agentes_repetitivos = ["07_publisher", "08_analytics", "09_monetization"]
+    tem_tarefas_repetitivas = any(a in durations for a in agentes_repetitivos)
+
+    qualidade = ctx.get("qualidade", {})
+    n_artigos = qualidade.get("aprovados", 0)
+
+    # Resumo de compliance montado a partir das pendências reais do relatório mais recente do
+    # agente 06 (não uma string fixa), para não desatualizar conforme o que falta muda (ex.:
+    # DNS resolvido, mas ainda aguardando aprovação do AdSense para o ads.txt).
+    ultimo_compliance = compliance_reports[-1] if compliance_reports else None
+    if ultimo_compliance is None:
+        compliance_resumo = "compliance ainda não verificado"
+    elif ultimo_compliance["pronto"]:
+        compliance_resumo = "compliance pronto para aplicar ao AdSense"
+    else:
+        pendencias_texto = "; ".join(ultimo_compliance.get("pendencias") or []) or "pendências não detalhadas no relatório"
+        compliance_resumo = f"compliance pendente ({pendencias_texto})"
+
+    status = {
+        "resumo": f"Site em construção: {n_artigos} artigos publicados; {compliance_resumo}",
+        "bloqueado": bloqueado,
+        "aguardando_aprovacao_externa": aguardando_externa,
+        "tarefas_repetitivas_baixa_complexidade": tem_tarefas_repetitivas,
+    }
+
+    if motivo_bloqueio:
+        status["motivo_bloqueio"] = motivo_bloqueio
+    if modelo_em_uso:
+        status["modelo_ia_em_uso"] = modelo_em_uso
+
+    return status
+
+
+def write_status_json(status: dict) -> Path:
+    """Escreve o status.json em data/supervisor/status.json."""
+    status_path = SUPERVISOR_DIR / "status.json"
+    SUPERVISOR_DIR.mkdir(parents=True, exist_ok=True)
+    status_path.write_text(json.dumps(status, ensure_ascii=False, indent=2), encoding="utf-8")
+    return status_path
+
+
 # --------------------------------------------------------------------------- relatório
 def render_report(site_id: str, ctx: dict) -> str:
     L = [f"# Relatório do Supervisor — {site_id}", "", f"- **Gerado em:** {now_iso()}", ""]
@@ -249,10 +322,16 @@ def render_report(site_id: str, ctx: dict) -> str:
 
     L += ["## 3. Taxa de aprovação/reprovação (gates)", ""]
     if ctx["gate_stats"]:
-        L += ["| Gate | Aprovado | Simulado | Pendente | Rejeitado |", "|---|---|---|---|---|"]
+        # Colunas descobertas dinamicamente (não fixas em aprovado/simulado/pendente/rejeitado):
+        # rodadas fora do orchestrator.py (ex.: lotes externos) podem registrar status próprios
+        # (ex.: 'selecionado_manualmente_lote_fase8') — uma tabela com colunas fixas os esconderia.
+        canonicos = ["aprovado", "simulado", "pendente", "rejeitado"]
+        vistos = {status for contagem in ctx["gate_stats"].values() for status in contagem}
+        colunas = [s for s in canonicos if s in vistos] + sorted(vistos - set(canonicos))
+        L += ["| Gate | " + " | ".join(colunas) + " |", "|---|" + "---|" * len(colunas)]
         for gate_id, contagem in ctx["gate_stats"].items():
-            L.append(f"| {gate_id} | {contagem.get('aprovado', 0)} | {contagem.get('simulado', 0)} | "
-                      f"{contagem.get('pendente', 0)} | {contagem.get('rejeitado', 0)} |")
+            valores = " | ".join(str(contagem.get(c, 0)) for c in colunas)
+            L.append(f"| {gate_id} | {valores} |")
     else:
         L.append("Sem decisões de gate registradas ainda.")
     L.append("")
@@ -337,6 +416,9 @@ def run(context: dict) -> dict:
     LOG_ACOES_PATH.parent.mkdir(parents=True, exist_ok=True)
     LOG_ACOES_PATH.touch(exist_ok=True)
 
+    status = generate_status_json(site_id, ctx)
+    status_path = write_status_json(status)
+
     pendencias = list(motivos_nivel1)
     if sugestoes_geradas:
         pendencias.append(f"{len(sugestoes_geradas)} nova(s) sugestão(ões) de Nível 2 aguardando aprovação "
@@ -346,10 +428,12 @@ def run(context: dict) -> dict:
         "agent": AGENT_NAME, "schema_version": SCHEMA_VERSION, "site_id": site_id, "gerado_em": now_iso(),
         "status": "ok", "n_pipeline_runs": len(runs), "n_acoes_nivel1_aplicadas": len(acoes_nivel1),
         "n_sugestoes_nivel2_geradas": len(sugestoes_geradas), "relatorio": str(out_path.relative_to(ROOT)),
+        "status_json": str(status_path.relative_to(ROOT)),
         "pendencias_humanas": pendencias,
     }
     log.info(f"[{AGENT_NAME}] rodadas={len(runs)} nivel1_aplicadas={len(acoes_nivel1)} "
-              f"nivel2_novas={len(sugestoes_geradas)} → {out_path.relative_to(ROOT)}")
+              f"nivel2_novas={len(sugestoes_geradas)} → {out_path.relative_to(ROOT)}, "
+              f"status → {status_path.relative_to(ROOT)}")
     return output
 
 

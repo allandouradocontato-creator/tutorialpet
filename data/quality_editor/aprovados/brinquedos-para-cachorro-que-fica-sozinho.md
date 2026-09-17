@@ -70,6 +70,10 @@ Procure opções descritas como resistentes/indestrutíveis pro porte e força d
 
 Ossos cozidos podem lascar e machucar — se for oferecer algo do tipo, prefira opções seguras indicadas por um veterinário, não ossos de churrasco da geladeira.
 
+**Filhote também pode usar brinquedo recheável?**
+
+Pode sim, com moderação e sempre de olho no tamanho da peça pro focinho dele — filhote em fase de troca de dente costuma curtir ainda mais esse tipo de brinquedo, porque ajuda a aliviar o incômodo da gengiva enquanto o novo dentinho nasce.
+
 ## Para fechar
 
 Brinquedo certo, rodízio esperto e um pouco de energia gasta antes de sair — essa é a receita pra deixar o cachorro entretido e reduzir o tédio da ausência. Bota esse repertório pra rodar e olha o resultado na próxima vez que você voltar pra casa.

@@ -34,7 +34,7 @@ checagens_qualidade:
 titulo_seo: Coleira ou peitoral para cachorro? O Comandante Focinho
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:12+00:00'
+otimizado_em: '2026-09-16T02:45:57+00:00'
 checagens_seo:
 - título original (78 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -97,6 +97,10 @@ Pode usar, sim — a decisão depende mais do comportamento do cão na guia (se 
 **Com que frequência devo checar o ajuste?**
 
 Sempre que o cão crescer ou mudar de peso, e periodicamente no dia a dia — o ajuste que era perfeito num mês pode não servir mais depois.
+
+**Cinto de segurança pro carro conta como peitoral?**
+
+Não confunda os dois, soldado: peitoral de passeio e cinto de segurança veicular são equipamentos diferentes, cada um projetado pra um tipo de impacto — use o específico pra cada situação.
 
 ## Para fechar
 

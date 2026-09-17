@@ -51,6 +51,14 @@
           "@type": "Answer",
           "text": "Filhotes muito novos exigem mais cuidado com temperatura e tempo de exposição — se for realmente necessário, o ideal é confirmar com um veterinário antes."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso secar o gato com secador de cabelo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Só se ele aceitar bem o barulho, e sempre no ar morno, longe da pele — muitos gatos odeiam esse som, então toalha e ambiente aquecido costumam ser bem mais tranquilos pro show todo terminar em paz."
+        }
       }
     ]
   }

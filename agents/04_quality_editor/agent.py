@@ -26,6 +26,7 @@ from core.config import load_env_file, load_site  # noqa: E402
 from core.io import now_iso  # noqa: E402
 from core.log import get_logger  # noqa: E402
 from core.markdown import MarkdownError, read_markdown, write_markdown  # noqa: E402
+from core.text_checks import find_unnegated_matches  # noqa: E402
 
 AGENT_NAME = "04_quality_editor"
 SCHEMA_VERSION = "1.0"
@@ -69,12 +70,9 @@ CREDENTIAL_CLAIM_PATTERNS = [
     r"\bprescrevo\b", r"\breceito\b",
 ]
 
-# Palavras que, aparecendo pouco antes de uma alegação de credencial, indicam que a frase é uma
-# NEGAÇÃO da credencial (disclaimer de segurança — o projeto exige isso, ex.: "não sou
-# veterinário de verdade"), não uma alegação real. Ex.: "sou veterinari[ao]" por si só bate como
-# substring dentro de "não sou veterinário", então o match cru precisa ser filtrado por contexto.
-NEGATION_WORDS = {"nao", "nunca", "jamais"}
-NEGATION_WINDOW = 5  # nº de palavras antes do match onde a negação ainda "conta"
+# A checagem de negação ("não sou veterinário" não é a alegação "sou veterinário") vive em
+# core/text_checks.py — compartilhada com o agente 10, que tinha o mesmo bug numa cópia própria
+# desta lógica antes dessa extração.
 
 
 def _norm(text: str) -> str:
@@ -88,27 +86,6 @@ def _find_matches(patterns: list[str], text_norm: str) -> list[str]:
         m = re.search(pat, text_norm, flags=re.MULTILINE)
         if m:
             found.append(m.group(0))
-    return found
-
-
-def _has_negation_before(text_norm: str, match_start: int, window: int = NEGATION_WINDOW) -> bool:
-    """True se alguma das últimas `window` palavras antes de match_start for uma negação
-    ("não", "nunca", "jamais") — usado só para alegação de credencial, onde negar a frase
-    inverte completamente o sentido (disclaimer vs. alegação real)."""
-    palavras_antes = re.findall(r"[a-z0-9]+", text_norm[:match_start])
-    return any(p in NEGATION_WORDS for p in palavras_antes[-window:])
-
-
-def _find_unnegated_matches(patterns: list[str], text_norm: str) -> list[str]:
-    """Como _find_matches, mas ignora ocorrências claramente negadas pouco antes (ver
-    _has_negation_before) — evita marcar um disclaimer de segurança como se fosse a alegação
-    que ele nega."""
-    found = []
-    for pat in patterns:
-        for m in re.finditer(pat, text_norm, flags=re.MULTILINE):
-            if not _has_negation_before(text_norm, m.start()):
-                found.append(m.group(0))
-                break  # uma ocorrência não-negada já basta pra sinalizar o padrão
     return found
 
 
@@ -193,7 +170,7 @@ def check_autoria_e_credencial(front_matter: dict, body_norm: str, problemas: li
         add_problem(problemas, "autor_preenchido", "bloqueante",
                     f"Campo 'autor' não está em branco ('{autor}') — só um humano pode preenchê-lo, com uma "
                     "pessoa real cadastrada em /sobre.")
-    hits = _find_unnegated_matches(CREDENTIAL_CLAIM_PATTERNS, body_norm)
+    hits = find_unnegated_matches(CREDENTIAL_CLAIM_PATTERNS, body_norm)
     if hits:
         add_problem(problemas, "alegacao_credencial", "bloqueante",
                     "Texto alega credencial veterinária real, o que é proibido pela persona editorial.", hits)

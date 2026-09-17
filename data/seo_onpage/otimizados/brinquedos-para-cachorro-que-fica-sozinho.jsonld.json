@@ -51,6 +51,14 @@
           "@type": "Answer",
           "text": "Ossos cozidos podem lascar e machucar — se for oferecer algo do tipo, prefira opções seguras indicadas por um veterinário, não ossos de churrasco da geladeira."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhote também pode usar brinquedo recheável?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode sim, com moderação e sempre de olho no tamanho da peça pro focinho dele — filhote em fase de troca de dente costuma curtir ainda mais esse tipo de brinquedo, porque ajuda a aliviar o incômodo da gengiva enquanto o novo dentinho nasce."
+        }
       }
     ]
   }

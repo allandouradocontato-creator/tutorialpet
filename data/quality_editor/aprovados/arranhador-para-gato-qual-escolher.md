@@ -71,6 +71,10 @@ Depende do tamanho da casa e da quantidade de gatos — ter mais de um espalhado
 
 Pode, desde que seja estável e com material seguro (sisal é uma boa opção pra enrolar numa base firme) — só cuidar pra não usar material que solte fiapos fáceis de engolir.
 
+**Posso trocar o material do arranhador depois?**
+
+Pode, e às vezes vale a pena mesmo — se o gato ignorar o material escolhido, troca sem culpa nenhuma. Eu já troquei duas vezes até achar o que o meu realmente usava de verdade.
+
 ## Para fechar
 
 Aprendi (do jeito difícil) que altura, material e posicionamento fazem toda a diferença na hora de escolher um arranhador que o gato realmente use. Guarda essas dicas e poupa seu sofá — e sua paciência — dos meus tropeços de compra.

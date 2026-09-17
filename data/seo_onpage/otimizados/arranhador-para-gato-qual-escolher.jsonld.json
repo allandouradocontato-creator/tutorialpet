@@ -51,6 +51,14 @@
           "@type": "Answer",
           "text": "Pode, desde que seja estável e com material seguro (sisal é uma boa opção pra enrolar numa base firme) — só cuidar pra não usar material que solte fiapos fáceis de engolir."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso trocar o material do arranhador depois?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, e às vezes vale a pena mesmo — se o gato ignorar o material escolhido, troca sem culpa nenhuma. Eu já troquei duas vezes até achar o que o meu realmente usava de verdade."
+        }
       }
     ]
   }

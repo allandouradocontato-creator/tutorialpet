@@ -55,7 +55,7 @@ Pode variar — alguns preferem porções menores e mais frequentes conforme env
 
 **Como saber se a porção está certa?**
 
-O peso corporal estável e a disposição normal do gato são bons sinais. Se notar mudança de peso perceptível, vale reavaliar com um veterinário.
+O peso corporal estável, o pelo com aparência saudável e brilhante e a disposição normal e animada do gato no dia a dia são bons sinais. Se notar qualquer mudança de peso mais perceptível, vale reavaliar a porção com calma junto de um veterinário de confiança.
 
 ## Para fechar
 

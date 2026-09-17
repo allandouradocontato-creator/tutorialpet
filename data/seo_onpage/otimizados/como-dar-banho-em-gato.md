@@ -31,7 +31,7 @@ checagens_qualidade:
 titulo_seo: 'Como dar banho em gato: o MC Rex solta o batidão da hora do'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:12+00:00'
+otimizado_em: '2026-09-16T02:45:57+00:00'
 checagens_seo:
 - título original (65 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -99,6 +99,10 @@ Não existe uma regra fixa — a maioria dos gatos não precisa de banho regular
 **Gato filhote pode tomar banho normalmente?**
 
 Filhotes muito novos exigem mais cuidado com temperatura e tempo de exposição — se for realmente necessário, o ideal é confirmar com um veterinário antes.
+
+**Posso secar o gato com secador de cabelo?**
+
+Só se ele aceitar bem o barulho, e sempre no ar morno, longe da pele — muitos gatos odeiam esse som, então toalha e ambiente aquecido costumam ser bem mais tranquilos pro show todo terminar em paz.
 
 ## Para fechar
 

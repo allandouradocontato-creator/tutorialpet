@@ -58,6 +58,10 @@ Pode usar, sim — a decisão depende mais do comportamento do cão na guia (se 
 
 Sempre que o cão crescer ou mudar de peso, e periodicamente no dia a dia — o ajuste que era perfeito num mês pode não servir mais depois.
 
+**Cinto de segurança pro carro conta como peitoral?**
+
+Não confunda os dois, soldado: peitoral de passeio e cinto de segurança veicular são equipamentos diferentes, cada um projetado pra um tipo de impacto — use o específico pra cada situação.
+
 ## Para fechar
 
 Missão cumprida: agora você tem os dados pra decidir entre coleira e peitoral com base na segurança real do seu cão, não só na aparência. Ajuste certo, supervisão sempre, e — se tiver dúvida sobre alguma reação física dele ao equipamento — reporte ao veterinário sem demora.

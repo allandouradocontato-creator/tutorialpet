@@ -75,4 +75,4 @@ Cada gato tem preferência própria — alguns preferem esticar pra cima, outros
 
 ## Para fechar
 
-Mistério resolvido, gente: o gato não é vilão nenhum, só está seguindo o instinto dele — e a solução é dar um lugar melhor pra esse instinto acontecer. Guarda essas dicas, redireciona com paciência, e conta aqui depois se o sofá finalmente teve paz.
+Mistério resolvido, gente: o gato não é vilão nenhum, só está seguindo o instinto natural dele — e a solução de verdade é dar um lugar melhor e mais atrativo pra esse instinto acontecer. Guarda essas dicas, redireciona com bastante paciência, e conta aqui depois nos comentários se o seu sofá finalmente teve paz.

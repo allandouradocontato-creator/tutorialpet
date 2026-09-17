@@ -61,6 +61,10 @@ Mau hálito muito forte, dificuldade de mastigar, ou dente visivelmente sujo/inf
 
 Pode sim, nunca é tarde — só exige mais paciência pra criar o hábito do que em um filhote que já cresce acostumado.
 
+**Posso usar gaze em vez de escova?**
+
+Pode, sô, principalmente no começo — enrola a gaze no dedo, passa a pasta canina e esfrega de leve. É um jeito bom de ir acostumando o cachorro antes de trazer a escova de verdade.
+
 ## Para fechar
 
 Escovar o dente do cachorro é rotina simples que evita dor de cabeça (e de dente) lá na frente. Começa devagar, usa o material certo, e com o tempo vira parte natural do dia, que nem cuidar de qualquer outro bichinho da nossa vida.

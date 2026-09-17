@@ -60,4 +60,4 @@ Se o latido for muito intenso, incomodar a vizinhança de forma persistente, ou 
 
 ## Para fechar
 
-Cachorro que late demais está tentando te dizer alguma coisa — e a resposta quase nunca é "grita mais alto que ele". Observa o padrão, aumenta o estímulo do dia e reforça o silêncio com carinho. Se depois de um tempo não melhorar, chama um profissional — nem todo trombone precisa continuar tocando sozinho.
+Cachorro que late demais está tentando te dizer alguma coisa — e a resposta quase nunca é "grita mais alto que ele". Observa o padrão com atenção, aumenta o estímulo do dia e reforça o silêncio com bastante carinho, sempre com paciência e sem pressa nenhuma. Se depois de um tempo não melhorar, chama um profissional de confiança — nem todo trombone precisa continuar tocando sozinho pra sempre.

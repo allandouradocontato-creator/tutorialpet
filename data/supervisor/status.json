@@ -1,0 +1,7 @@
+{
+  "resumo": "Site em construção: 20 artigos publicados; compliance pendente (ads.txt ainda usa o Publisher ID placeholder — atualizar com o pub-id real após a aprovação no AdSense (nunca antes: o AdSense é quem gera esse dado).)",
+  "bloqueado": true,
+  "aguardando_aprovacao_externa": true,
+  "tarefas_repetitivas_baixa_complexidade": true,
+  "motivo_bloqueio": "Compliance não está pronto (0 de 1 relatórios pronto)"
+}

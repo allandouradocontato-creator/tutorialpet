@@ -67,6 +67,10 @@ Não existe uma regra fixa — a maioria dos gatos não precisa de banho regular
 
 Filhotes muito novos exigem mais cuidado com temperatura e tempo de exposição — se for realmente necessário, o ideal é confirmar com um veterinário antes.
 
+**Posso secar o gato com secador de cabelo?**
+
+Só se ele aceitar bem o barulho, e sempre no ar morno, longe da pele — muitos gatos odeiam esse som, então toalha e ambiente aquecido costumam ser bem mais tranquilos pro show todo terminar em paz.
+
 ## Para fechar
 
 Banho de gato não precisa ser batalha, moçada — com preparo, calma e o produto certo, o show passa tranquilo. Guarda esse roteiro no repertório e, se rolar dúvida sobre a real necessidade do banho, chama o veterinário pra confirmar o compasso.

@@ -1,21 +1,27 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contato</title>
-<meta name="description" content="Cuidados e comportamento de cães e gatos para tutores de primeira viagem">
-<link rel="canonical" href="https://tutorialpet.com.br/contato">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Contato">
-<meta property="og:description" content="Cuidados e comportamento de cães e gatos para tutores de primeira viagem">
-<meta property="og:url" content="https://tutorialpet.com.br/contato">
-<meta property="og:locale" content="pt_BR">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+"""Tema visual compartilhado do site publicado — antes desta extração, o CSS existia
+duplicado em `site/build_site.py` (site real) e `agents/07_publisher/agent.py` (prévia de
+simulação), cada um podendo divergir sem ninguém perceber. Agora os dois importam daqui;
+cada consumidor só acrescenta as regras específicas que fazem sentido pra ele (ex.: a
+faixa de aviso de prévia do agente 07).
 
-<style>
+Paleta e tipografia pensadas para "carinho e afetividade com os animais" (referência de
+princípio: fotografia real e calor visual de sites como petz.com.br — nunca a estrutura de
+e-commerce deles, que não se aplica a um blog editorial).
+"""
+from __future__ import annotations
+
+# --------------------------------------------------------------------------- fonte de marca
+# Fredoka: sans-serif arredondada e amigável, usada só em títulos — o corpo do texto continua
+# em fonte de sistema (zero requisição extra, melhor performance de leitura em bloco de texto).
+GOOGLE_FONT_HEAD = (
+    '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
+    '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
+    '<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" '
+    'rel="stylesheet">'
+)
+
+# --------------------------------------------------------------------------- tokens de marca
+TOKENS = """
 :root {
   --color-primary: #2f4538;
   --color-primary-dark: #1c2921;
@@ -35,7 +41,10 @@
   --radius-sm: 8px;
   --shadow-card: 0 1px 3px rgba(47, 69, 56, 0.08), 0 1px 2px rgba(47, 69, 56, 0.06);
 }
+"""
 
+# --------------------------------------------------------------------------- base compartilhada
+BASE_CSS = TOKENS + """
 * { box-sizing: border-box; }
 body { margin: 0; font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); }
 
@@ -94,22 +103,15 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
 footer.site { max-width: 1080px; margin: 40px auto 0; padding: 22px 20px 44px; font-size: 0.85rem;
   color: var(--color-text-muted); border-top: 1px solid var(--color-border); }
 footer.site a { color: var(--color-text-muted); margin-right: 14px; }
-</style>
-</head>
-<body>
-<header class="site">
-<a href="/" class="brand">Tutor de Primeira Viagem</a>
-<nav><a href="/#alimentacao">Alimentação</a><a href="/#comportamento">Comportamento</a><a href="/#cuidados_diarios">Cuidados diários</a><a href="/#primeiros_passos_filhotes">Primeiros passos com filhotes</a><a href="/#produtos_compras">Produtos e compras</a></nav>
-</header>
-<main class="legal">
-<h1>Contato</h1>
-<p>Quer tirar uma dúvida, sugerir um assunto para o <strong>Tutor de Primeira Viagem</strong> ou avisar sobre algo que precisa de correção? Ficamos felizes em ouvir você.</p>
-<ul>
-<li><strong>E-mail</strong>: allandouradocontato@gmail.com</li>
-</ul>
-<p>*(Nota para revisão humana: um formulário de contato pode ser adicionado aqui futuramente; por enquanto, o e-mail acima é o canal oficial.)*</p>
-<p>Respondemos o mais rápido possível, dentro do horário comercial.</p>
-</main>
-<footer class="site"><a href="/sobre">Sobre</a><a href="/contato">Contato</a><a href="/politica-de-privacidade">Política de Privacidade</a><a href="/termos">Termos de Uso</a><p>© 2026 Tutor de Primeira Viagem — conteúdo informativo, não substitui orientação veterinária profissional.</p></footer>
-</body>
-</html>
+"""
+
+# Cor de fundo do "card-cover" (placeholder até o agente de imagem existir) e emoji temático
+# por pilar — trocar pelo <img> real assim que a Fase 2 (agente de imagem) estiver pronta.
+PILAR_VISUAL = {
+    "alimentacao": {"bg": "#f3e6d8", "emoji": "🍖"},
+    "comportamento": {"bg": "#e4ecf6", "emoji": "🐾"},
+    "cuidados_diarios": {"bg": "#e3f0e8", "emoji": "🛁"},
+    "primeiros_passos_filhotes": {"bg": "#fbe8ec", "emoji": "🐶"},
+    "produtos_compras": {"bg": "#eee6f6", "emoji": "🛍️"},
+}
+PILAR_VISUAL_PADRAO = {"bg": "#efece5", "emoji": "🐾"}

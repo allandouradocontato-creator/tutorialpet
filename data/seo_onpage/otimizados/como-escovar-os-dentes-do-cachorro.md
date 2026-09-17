@@ -29,7 +29,7 @@ checagens_qualidade:
 titulo_seo: 'Como escovar os dentes do cachorro: o Vavá Cordeiro ensina'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-09-16T01:49:12+00:00'
+otimizado_em: '2026-09-16T02:45:57+00:00'
 checagens_seo:
 - título original (72 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -91,6 +91,10 @@ Mau hálito muito forte, dificuldade de mastigar, ou dente visivelmente sujo/inf
 **Posso começar a escovar em cachorro já adulto?**
 
 Pode sim, nunca é tarde — só exige mais paciência pra criar o hábito do que em um filhote que já cresce acostumado.
+
+**Posso usar gaze em vez de escova?**
+
+Pode, sô, principalmente no começo — enrola a gaze no dedo, passa a pasta canina e esfrega de leve. É um jeito bom de ir acostumando o cachorro antes de trazer a escova de verdade.
 
 ## Para fechar
 
