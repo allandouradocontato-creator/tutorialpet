@@ -73,7 +73,8 @@ def render_footer() -> str:
 
 
 def page_shell(title: str, meta_description: str, canonical: str, og_type: str, body_html: str,
-               extra_head: str = "") -> str:
+               extra_head: str = "", og_image: str = "") -> str:
+    og_image_tag = f'<meta property="og:image" content="{html_lib.escape(og_image)}">' if og_image else ""
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -87,6 +88,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <meta property="og:description" content="{html_lib.escape(meta_description)}">
 <meta property="og:url" content="{html_lib.escape(canonical)}">
 <meta property="og:locale" content="pt_BR">
+{og_image_tag}
 {GOOGLE_FONT_HEAD}
 {extra_head}
 <style>{CSS}</style>
@@ -119,6 +121,11 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
     breadcrumb = (f'<div class="breadcrumb"><a href="/">Início</a> &gt; '
                   f'<a href="/#{pilar_key}">{html_lib.escape(pilar_titulo)}</a> &gt; {html_lib.escape(fm["titulo"])}</div>')
 
+    imagem_capa = fm.get("imagem_capa")
+    og_image = f"{dominio}/{imagem_capa}" if imagem_capa else ""
+    hero_img = (f'<img class="hero-img" src="/{imagem_capa}" alt="{html_lib.escape(fm["titulo"])}">'
+                if imagem_capa else "")
+
     body_html = md_to_html(body)
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
@@ -126,12 +133,14 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
     main = f"""{render_header(site["nome"], pilares)}
 {breadcrumb}
 <main class="article">
+{hero_img}
 {byline}
 {body_html}
 {cta}
 </main>
 {render_footer()}"""
-    return page_shell(titulo_seo, fm.get("meta_description", ""), canonical, "article", main, jsonld_scripts)
+    return page_shell(titulo_seo, fm.get("meta_description", ""), canonical, "article", main, jsonld_scripts,
+                       og_image=og_image)
 
 
 def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, md_to_html) -> str:
@@ -156,8 +165,10 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
         visual = PILAR_VISUAL.get(pilar_key, PILAR_VISUAL_PADRAO)
         cards = "".join(
             f'<div class="card"><a class="card-link" href="/{fm["slug"]}">'
-            f'<div class="card-cover" style="background:{visual["bg"]}">{visual["emoji"]}</div>'
-            f'<div class="card-body"><div class="card-title">{html_lib.escape(fm["titulo"])}</div></div>'
+            + (f'<img class="card-cover" src="/{fm["imagem_capa"]}" alt="{html_lib.escape(fm["titulo"])}">'
+               if fm.get("imagem_capa") else
+               f'<div class="card-cover" style="background:{visual["bg"]}">{visual["emoji"]}</div>')
+            + f'<div class="card-body"><div class="card-title">{html_lib.escape(fm["titulo"])}</div></div>'
             f'</a></div>'
             for fm in itens
         )
@@ -229,6 +240,19 @@ def run(site_id: str) -> dict:
         (BUILD_DIR / f"{slug}.html").write_text(html_out, encoding="utf-8")
         legal_gerados.append(slug)
 
+    n_imagens = 0
+    imagens_src = ROOT / "data" / "visual" / "imagens"
+    if imagens_src.exists():
+        imagens_dst = BUILD_DIR / "imagens"
+        imagens_dst.mkdir(parents=True, exist_ok=True)
+        for fm, _, _ in artigos:
+            if not fm.get("imagem_capa"):
+                continue
+            origem = imagens_src / f"{fm['slug']}.png"
+            if origem.exists():
+                (imagens_dst / f"{fm['slug']}.png").write_bytes(origem.read_bytes())
+                n_imagens += 1
+
     (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar), encoding="utf-8")
     (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos]), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
@@ -241,7 +265,7 @@ def run(site_id: str) -> dict:
                                             encoding="utf-8")
 
     return {
-        "n_artigos": len(artigos), "n_paginas_legais": len(legal_gerados),
+        "n_artigos": len(artigos), "n_paginas_legais": len(legal_gerados), "n_imagens": n_imagens,
         "arquivos_gerados": sorted(p.name for p in BUILD_DIR.iterdir()),
         "build_dir": str(BUILD_DIR.relative_to(ROOT)),
     }
@@ -259,6 +283,7 @@ def main() -> int:
     print(f"Site montado em {resultado['build_dir']}")
     print(f"  Artigos: {resultado['n_artigos']}")
     print(f"  Páginas legais: {resultado['n_paginas_legais']}")
+    print(f"  Imagens publicadas: {resultado['n_imagens']}")
     print(f"  Arquivos: {', '.join(resultado['arquivos_gerados'])}")
     return 0
 

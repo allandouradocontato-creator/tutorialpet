@@ -92,7 +92,8 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
   overflow: hidden; box-shadow: var(--shadow-card); transition: transform 0.15s ease, box-shadow 0.15s ease; }
 .card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(47, 69, 56, 0.12); }
 .card a.card-link { text-decoration: none; color: inherit; display: block; }
-.card-cover { height: 120px; display: flex; align-items: center; justify-content: center; font-size: 2.4rem; }
+.card-cover { height: 120px; width: 100%; display: flex; align-items: center; justify-content: center; font-size: 2.4rem; object-fit: cover; }
+.hero-img { width: 100%; max-height: 320px; object-fit: cover; border-radius: var(--radius); margin: 4px 0 20px; display: block; }
 .card-body { padding: 14px 16px 18px; }
 .card-body .card-title { font-family: var(--font-heading); font-weight: 500; font-size: 1rem; line-height: 1.35; color: var(--color-primary-dark); }
 

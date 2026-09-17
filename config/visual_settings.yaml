@@ -1,0 +1,21 @@
+# Configuração do agente 15 (geração de imagem por IA) — nenhum valor aqui é uma credencial;
+# a chave de API vem só de OPENAI_API_KEY no .env, nunca deste arquivo.
+
+# gpt-image-1 entra em depreciação em 23/10/2026 (aviso da própria OpenAI) — usamos o
+# sucessor atual. Trocar aqui é a única mudança necessária se a OpenAI migrar de novo.
+modelo: gpt-image-1.5
+qualidade: high        # low | medium | high — "high" é o mínimo aceitável para o padrão
+                        # editorial pedido (nunca usar "low"/"medium" para o site publicado)
+tamanho: "1024x1024"
+custo_estimado_por_imagem_usd: 0.133   # referência de set/2026 — conferir preço real antes
+                                        # de lotes grandes, preços de API de imagem mudam com frequência
+
+# Prefixo de estilo aplicado a TODA imagem, para manter as ~20+ imagens com a mesma
+# identidade visual (evita o efeito "banco de imagem aleatório" que motivou esta fase).
+prefixo_estilo: >
+  Ilustração digital estilizada, traço limpo e profissional, paleta de cores verde-escuro
+  (#2f4538) e terracota (#c9723c), cena aconchegante e afetiva entre tutor e pet, sem texto
+  nem letras na imagem, estilo editorial de blog premium sobre pets — nunca fotorrealista,
+  nunca clipart genérico, nunca com aparência de banco de imagem estoque.
+
+diretorio_saida: data/visual/imagens
