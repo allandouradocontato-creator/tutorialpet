@@ -196,7 +196,9 @@ def write_calendar(site_id: str, calendario: list[dict], data_inicio: date, sche
 # --------------------------------------------------------------------------- markdown → HTML
 def _inline_md(text: str) -> str:
     escaped = html_lib.escape(text)
-    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
+    escaped = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", escaped)
+    escaped = re.sub(r"\[(.+?)\]\((.+?)\)", r'<a href="\2">\1</a>', escaped)
+    return escaped
 
 
 def markdown_to_html_body(body: str) -> str:
