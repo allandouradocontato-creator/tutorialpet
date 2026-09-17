@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 37240071,
+    "url_download": "https://images.pexels.com/photos/37240071/pexels-photo-37240071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/woman-and-dog-enjoying-sunny-day-in-seattle-park-37240071/",
+    "fotografo": "Vatsal Patni",
+    "fotografo_url": "https://www.pexels.com/@vatsal-patni-2160106206",
+    "query": "dog wearing harness",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\coleira-ou-peitoral-para-cachorro\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20692269,
+    "url_download": "https://images.pexels.com/photos/20692269/pexels-photo-20692269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/three-small-dogs-sitting-in-a-park-20692269/",
+    "fotografo": "Ayyeee Ayyeee",
+    "fotografo_url": "https://www.pexels.com/@ayyeee-ayyeee-434363205",
+    "query": "dog wearing harness",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\coleira-ou-peitoral-para-cachorro\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15347392,
+    "url_download": "https://images.pexels.com/photos/15347392/pexels-photo-15347392.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dogs-in-colorful-harnesses-sitting-on-snow-in-mountains-15347392/",
+    "fotografo": "Stephanie Casanova",
+    "fotografo_url": "https://www.pexels.com/@8zampeontheroad",
+    "query": "dog wearing harness",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\coleira-ou-peitoral-para-cachorro\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5255580,
+    "url_download": "https://images.pexels.com/photos/5255580/pexels-photo-5255580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-woman-stroking-purebred-puppy-sitting-on-green-grass-5255580/",
+    "fotografo": "Samson Katt",
+    "fotografo_url": "https://www.pexels.com/@samson-katt",
+    "query": "dog wearing harness",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\coleira-ou-peitoral-para-cachorro\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16168081,
+    "url_download": "https://images.pexels.com/photos/16168081/pexels-photo-16168081.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dogs-sitting-with-rocks-behind-16168081/",
+    "fotografo": "Stephanie Casanova",
+    "fotografo_url": "https://www.pexels.com/@8zampeontheroad",
+    "query": "dog wearing harness",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\coleira-ou-peitoral-para-cachorro\\4.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 6568950,
+    "url_download": "https://images.pexels.com/photos/6568950/pexels-photo-6568950.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-dog-eating-6568950/",
+    "fotografo": "cottonbro studio",
+    "fotografo_url": "https://www.pexels.com/@cottonbro",
+    "query": "dog sniffing food",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\alimentos-proibidos-para-cachorro\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34182718,
+    "url_download": "https://images.pexels.com/photos/34182718/pexels-photo-34182718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/curious-brown-dog-sniffing-ground-outdoors-34182718/",
+    "fotografo": "Meaw  Zara",
+    "fotografo_url": "https://www.pexels.com/@elizara",
+    "query": "dog sniffing food",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\alimentos-proibidos-para-cachorro\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 770363,
+    "url_download": "https://images.pexels.com/photos/770363/pexels-photo-770363.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-dalmatian-dog-eating-fruits-770363/",
+    "fotografo": "Rarnie McCudden",
+    "fotografo_url": "https://www.pexels.com/@rarnie-mccudden",
+    "query": "dog sniffing food",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\alimentos-proibidos-para-cachorro\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10117827,
+    "url_download": "https://images.pexels.com/photos/10117827/pexels-photo-10117827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/greyhound-sniffing-cakes-10117827/",
+    "fotografo": "Ron Lach",
+    "fotografo_url": "https://www.pexels.com/@ron-lach",
+    "query": "dog sniffing food",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\alimentos-proibidos-para-cachorro\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4750264,
+    "url_download": "https://images.pexels.com/photos/4750264/pexels-photo-4750264.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-brown-dog-smelling-strawberries-on-a-woman-s-hands-4750264/",
+    "fotografo": "https://kaboompics.com/",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "query": "dog sniffing food",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\alimentos-proibidos-para-cachorro\\4.jpg"
+  }
+]

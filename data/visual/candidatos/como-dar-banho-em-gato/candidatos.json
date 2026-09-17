@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7224653,
+    "url_download": "https://images.pexels.com/photos/7224653/pexels-photo-7224653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-person-bathing-a-gray-cat-7224653/",
+    "fotografo": "Karin Chantanaprayura",
+    "fotografo_url": "https://www.pexels.com/@karin-chantanaprayura-35125407",
+    "query": "wet cat",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\como-dar-banho-em-gato\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36284256,
+    "url_download": "https://images.pexels.com/photos/36284256/pexels-photo-36284256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-maine-coon-cat-outdoors-36284256/",
+    "fotografo": "Nadejda Bostanova",
+    "fotografo_url": "https://www.pexels.com/@farfalina",
+    "query": "wet cat",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\como-dar-banho-em-gato\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37988098,
+    "url_download": "https://images.pexels.com/photos/37988098/pexels-photo-37988098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-wet-feline-with-intense-gaze-37988098/",
+    "fotografo": "Nadejda Bostanova",
+    "fotografo_url": "https://www.pexels.com/@farfalina",
+    "query": "wet cat",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\como-dar-banho-em-gato\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7224649,
+    "url_download": "https://images.pexels.com/photos/7224649/pexels-photo-7224649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grey-and-white-cat-in-close-up-photography-7224649/",
+    "fotografo": "Karin Chantanaprayura",
+    "fotografo_url": "https://www.pexels.com/@karin-chantanaprayura-35125407",
+    "query": "wet cat",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\como-dar-banho-em-gato\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37988095,
+    "url_download": "https://images.pexels.com/photos/37988095/pexels-photo-37988095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/wet-fluffy-cat-resting-outdoors-on-concrete-37988095/",
+    "fotografo": "Nadejda Bostanova",
+    "fotografo_url": "https://www.pexels.com/@farfalina",
+    "query": "wet cat",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\como-dar-banho-em-gato\\4.jpg"
+  }
+]

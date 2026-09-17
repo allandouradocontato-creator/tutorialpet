@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 11458665,
+    "url_download": "https://images.pexels.com/photos/11458665/pexels-photo-11458665.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-photo-of-kittens-11458665/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "query": "kittens playing together",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\como-socializar-filhote-de-gato\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27723963,
+    "url_download": "https://images.pexels.com/photos/27723963/pexels-photo-27723963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-pile-of-wood-27723963/",
+    "fotografo": "Natalia Sevruk",
+    "fotografo_url": "https://www.pexels.com/@natalia-sevruk-636238602",
+    "query": "kittens playing together",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\como-socializar-filhote-de-gato\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11577757,
+    "url_download": "https://images.pexels.com/photos/11577757/pexels-photo-11577757.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/two-cats-on-the-carpet-11577757/",
+    "fotografo": "Maria Luiza  Melo",
+    "fotografo_url": "https://www.pexels.com/@amaria",
+    "query": "kittens playing together",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\como-socializar-filhote-de-gato\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1416792,
+    "url_download": "https://images.pexels.com/photos/1416792/pexels-photo-1416792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-photo-of-silver-tabby-cat-and-kittens-1416792/",
+    "fotografo": "EVG Kowalievska",
+    "fotografo_url": "https://www.pexels.com/@kowalievska",
+    "query": "kittens playing together",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\como-socializar-filhote-de-gato\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6864674,
+    "url_download": "https://images.pexels.com/photos/6864674/pexels-photo-6864674.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/orange-tabby-cat-on-penny-board-6864674/",
+    "fotografo": "cottonbro studio",
+    "fotografo_url": "https://www.pexels.com/@cottonbro",
+    "query": "kittens playing together",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\como-socializar-filhote-de-gato\\4.jpg"
+  }
+]

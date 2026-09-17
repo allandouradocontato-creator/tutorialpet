@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 18418977,
+    "url_download": "https://images.pexels.com/photos/18418977/pexels-photo-18418977.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-sitting-by-bowls-with-food-on-ground-18418977/",
+    "fotografo": "Engin Akyurt",
+    "fotografo_url": "https://www.pexels.com/@enginakyurt",
+    "query": "cat eating food bowl",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\quantas-vezes-por-dia-alimentar-gato\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5822458,
+    "url_download": "https://images.pexels.com/photos/5822458/pexels-photo-5822458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-cat-5822458/",
+    "fotografo": "Romina BM",
+    "fotografo_url": "https://www.pexels.com/@hubiita",
+    "query": "cat eating food bowl",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\quantas-vezes-por-dia-alimentar-gato\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35030848,
+    "url_download": "https://images.pexels.com/photos/35030848/pexels-photo-35030848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-cat-eating-from-bowl-on-urban-street-35030848/",
+    "fotografo": "Eyüpcan Timur",
+    "fotografo_url": "https://www.pexels.com/@eyupcan-timur-424989336",
+    "query": "cat eating food bowl",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\quantas-vezes-por-dia-alimentar-gato\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 38356202,
+    "url_download": "https://images.pexels.com/photos/38356202/pexels-photo-38356202.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calico-cat-eating-from-a-bowl-in-sunlit-shadows-38356202/",
+    "fotografo": "roselino rocha",
+    "fotografo_url": "https://www.pexels.com/@roselino-rocha-2162013129",
+    "query": "cat eating food bowl",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\quantas-vezes-por-dia-alimentar-gato\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11435532,
+    "url_download": "https://images.pexels.com/photos/11435532/pexels-photo-11435532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-cat-eating-11435532/",
+    "fotografo": "itsmeseher",
+    "fotografo_url": "https://www.pexels.com/@itsmeseher-42035630",
+    "query": "cat eating food bowl",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\quantas-vezes-por-dia-alimentar-gato\\4.jpg"
+  }
+]

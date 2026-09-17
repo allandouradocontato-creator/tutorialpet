@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 1674724,
+    "url_download": "https://images.pexels.com/photos/1674724/pexels-photo-1674724.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-cat-scratching-the-stool-1674724/",
+    "fotografo": "Craig Adderley",
+    "fotografo_url": "https://www.pexels.com/@thatguycraig000",
+    "query": "cat scratching furniture",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\gato-arranhando-o-sofa\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10292641,
+    "url_download": "https://images.pexels.com/photos/10292641/pexels-photo-10292641.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-cat-lying-down-on-a-scratching-post-10292641/",
+    "fotografo": "Huy Phan",
+    "fotografo_url": "https://www.pexels.com/@huy-phan-316220",
+    "query": "cat scratching furniture",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\gato-arranhando-o-sofa\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16222017,
+    "url_download": "https://images.pexels.com/photos/16222017/pexels-photo-16222017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cats-on-and-near-couch-16222017/",
+    "fotografo": "Huy Phan",
+    "fotografo_url": "https://www.pexels.com/@huy-phan-316220",
+    "query": "cat scratching furniture",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\gato-arranhando-o-sofa\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32588276,
+    "url_download": "https://images.pexels.com/photos/32588276/pexels-photo-32588276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-cat-relaxing-indoors-on-scratching-pad-32588276/",
+    "fotografo": "Orange Ocean",
+    "fotografo_url": "https://www.pexels.com/@orange-ocean-243774902",
+    "query": "cat scratching furniture",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\gato-arranhando-o-sofa\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6151,
+    "url_download": "https://images.pexels.com/photos/6151/animal-cute-fur-white.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-cat-6151/",
+    "fotografo": "Karolina Grabowska www.kaboompics.com",
+    "fotografo_url": "https://www.pexels.com/@karola-g2",
+    "query": "cat scratching furniture",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\gato-arranhando-o-sofa\\4.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 14084426,
+    "url_download": "https://images.pexels.com/photos/14084426/pexels-photo-14084426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/",
+    "fotografo": "Barnabas Davoti",
+    "fotografo_url": "https://www.pexels.com/@barnabas-davoti-31615494",
+    "query": "puppy with toys",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\enxoval-para-filhote-de-cachorro\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35371502,
+    "url_download": "https://images.pexels.com/photos/35371502/pexels-photo-35371502.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-with-plush-toy-on-orange-blanket-35371502/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "query": "puppy with toys",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\enxoval-para-filhote-de-cachorro\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29923798,
+    "url_download": "https://images.pexels.com/photos/29923798/pexels-photo-29923798.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-puppy-relaxing-by-festive-christmas-tree-29923798/",
+    "fotografo": "Jenna Hamra",
+    "fotografo_url": "https://www.pexels.com/@jenna-hamra-248942",
+    "query": "puppy with toys",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\enxoval-para-filhote-de-cachorro\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29923799,
+    "url_download": "https://images.pexels.com/photos/29923799/pexels-photo-29923799.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-labrador-puppy-with-christmas-decor-29923799/",
+    "fotografo": "Jenna Hamra",
+    "fotografo_url": "https://www.pexels.com/@jenna-hamra-248942",
+    "query": "puppy with toys",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\enxoval-para-filhote-de-cachorro\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11908217,
+    "url_download": "https://images.pexels.com/photos/11908217/pexels-photo-11908217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-puppy-on-the-grass-11908217/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "query": "puppy with toys",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\enxoval-para-filhote-de-cachorro\\4.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 14084426,
+    "url_download": "https://images.pexels.com/photos/14084426/pexels-photo-14084426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/",
+    "fotografo": "Barnabas Davoti",
+    "fotografo_url": "https://www.pexels.com/@barnabas-davoti-31615494",
+    "query": "dog playing toy alone",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\brinquedos-para-cachorro-que-fica-sozinho\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 22133530,
+    "url_download": "https://images.pexels.com/photos/22133530/pexels-photo-22133530.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/poodle-running-with-a-lilac-ring-on-green-grass-22133530/",
+    "fotografo": "Natalia Sevruk",
+    "fotografo_url": "https://www.pexels.com/@natalia-sevruk-636238602",
+    "query": "dog playing toy alone",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\brinquedos-para-cachorro-que-fica-sozinho\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35285289,
+    "url_download": "https://images.pexels.com/photos/35285289/pexels-photo-35285289.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/energetic-border-collie-playing-outdoors-35285289/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "query": "dog playing toy alone",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\brinquedos-para-cachorro-que-fica-sozinho\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8434625,
+    "url_download": "https://images.pexels.com/photos/8434625/pexels-photo-8434625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-man-playing-with-his-dog-8434625/",
+    "fotografo": "MART  PRODUCTION",
+    "fotografo_url": "https://www.pexels.com/@mart-production",
+    "query": "dog playing toy alone",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\brinquedos-para-cachorro-que-fica-sozinho\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5942488,
+    "url_download": "https://images.pexels.com/photos/5942488/pexels-photo-5942488.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-playing-with-toy-5942488/",
+    "fotografo": "https://kaboompics.com/",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "query": "dog playing toy alone",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\brinquedos-para-cachorro-que-fica-sozinho\\4.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 3860304,
+    "url_download": "https://images.pexels.com/photos/3860304/pexels-photo-3860304.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-puppy-lying-on-wooden-floor-3860304/",
+    "fotografo": "Tanya Gorelova",
+    "fotografo_url": "https://www.pexels.com/@tanya-gorelova-2199357",
+    "query": "puppy indoors floor",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3860312,
+    "url_download": "https://images.pexels.com/photos/3860312/pexels-photo-3860312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cute-dog-sleeping-on-a-wooden-floor-3860312/",
+    "fotografo": "Tanya Gorelova",
+    "fotografo_url": "https://www.pexels.com/@tanya-gorelova-2199357",
+    "query": "puppy indoors floor",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5724971,
+    "url_download": "https://images.pexels.com/photos/5724971/pexels-photo-5724971.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/husky-puppies-with-a-person-near-wall-windows-5724971/",
+    "fotografo": "Antonio Prado",
+    "fotografo_url": "https://www.pexels.com/@antonio-prado-1050855",
+    "query": "puppy indoors floor",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "query": "puppy indoors floor",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4453058,
+    "url_download": "https://images.pexels.com/photos/4453058/pexels-photo-4453058.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-long-coat-small-dog-on-brown-wooden-floor-4453058/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "query": "puppy indoors floor",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo\\4.jpg"
+  }
+]

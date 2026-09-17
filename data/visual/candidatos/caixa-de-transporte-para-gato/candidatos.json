@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35173632,
+    "url_download": "https://images.pexels.com/photos/35173632/pexels-photo-35173632.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-kitten-resting-inside-wicker-basket-carrier-35173632/",
+    "fotografo": "Bunkac Bebec",
+    "fotografo_url": "https://www.pexels.com/@bunkac-bebec-2157950757",
+    "query": "cat pet carrier",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\caixa-de-transporte-para-gato\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10861502,
+    "url_download": "https://images.pexels.com/photos/10861502/pexels-photo-10861502.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-tabby-cat-on-a-backpack-10861502/",
+    "fotografo": "Marek Kupiec",
+    "fotografo_url": "https://www.pexels.com/@marek-kupiec-1696944",
+    "query": "cat pet carrier",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\caixa-de-transporte-para-gato\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 21767483,
+    "url_download": "https://images.pexels.com/photos/21767483/pexels-photo-21767483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-white-and-orange-cat-21767483/",
+    "fotografo": "Batuhan Küçükdemir",
+    "fotografo_url": "https://www.pexels.com/@getrumaska",
+    "query": "cat pet carrier",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\caixa-de-transporte-para-gato\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4074726,
+    "url_download": "https://images.pexels.com/photos/4074726/pexels-photo-4074726.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/person-holding-white-black-and-brown-cat-4074726/",
+    "fotografo": "freestocks.org",
+    "fotografo_url": "https://www.pexels.com/@freestocks",
+    "query": "cat pet carrier",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\caixa-de-transporte-para-gato\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20400802,
+    "url_download": "https://images.pexels.com/photos/20400802/pexels-photo-20400802.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/luca-s-first-hike-was-a-loop-around-emerald-lake-in-yoho-national-park-20400802/",
+    "fotografo": "Ali Kazal",
+    "fotografo_url": "https://www.pexels.com/@lureofadventure",
+    "query": "cat pet carrier",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\caixa-de-transporte-para-gato\\4.jpg"
+  }
+]

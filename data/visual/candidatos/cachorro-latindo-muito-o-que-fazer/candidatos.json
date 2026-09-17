@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 28895797,
+    "url_download": "https://images.pexels.com/photos/28895797/pexels-photo-28895797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/alert-shetland-sheepdog-in-lush-green-field-28895797/",
+    "fotografo": "JacLou- DL",
+    "fotografo_url": "https://www.pexels.com/@jaclou-dl",
+    "query": "dog barking",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\cachorro-latindo-muito-o-que-fazer\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37118959,
+    "url_download": "https://images.pexels.com/photos/37118959/pexels-photo-37118959.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/fluffy-pekingese-dog-barking-outdoors-37118959/",
+    "fotografo": "Joaquin Reyes Ramos",
+    "fotografo_url": "https://www.pexels.com/@joaquinrr",
+    "query": "dog barking",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\cachorro-latindo-muito-o-que-fazer\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10515718,
+    "url_download": "https://images.pexels.com/photos/10515718/pexels-photo-10515718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-dog-on-snow-covered-ground-beside-brown-tree-trunk-10515718/",
+    "fotografo": "Dmitry Egorov",
+    "fotografo_url": "https://www.pexels.com/@egorov",
+    "query": "dog barking",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\cachorro-latindo-muito-o-que-fazer\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15359229,
+    "url_download": "https://images.pexels.com/photos/15359229/pexels-photo-15359229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/head-of-white-poodle-15359229/",
+    "fotografo": "Grish Petrosyan",
+    "fotografo_url": "https://www.pexels.com/@grish-petrosyan-3756797",
+    "query": "dog barking",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\cachorro-latindo-muito-o-que-fazer\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6610120,
+    "url_download": "https://images.pexels.com/photos/6610120/pexels-photo-6610120.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-dog-on-snow-6610120/",
+    "fotografo": "https://kaboompics.com/",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "query": "dog barking",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\cachorro-latindo-muito-o-que-fazer\\4.jpg"
+  }
+]

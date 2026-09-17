@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 38239755,
+    "url_download": "https://images.pexels.com/photos/38239755/pexels-photo-38239755.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-dog-paws-in-black-and-white-38239755/",
+    "fotografo": "Plato Terentev",
+    "fotografo_url": "https://www.pexels.com/@plato-terentev-3804555",
+    "query": "dog paw close up",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\como-cortar-unha-de-cachorro\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11497271,
+    "url_download": "https://images.pexels.com/photos/11497271/pexels-photo-11497271.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-short-coated-dog-lying-on-floor-11497271/",
+    "fotografo": "Inge Van den Heuvel",
+    "fotografo_url": "https://www.pexels.com/@inge-van-den-heuvel-173188442",
+    "query": "dog paw close up",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\como-cortar-unha-de-cachorro\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7516173,
+    "url_download": "https://images.pexels.com/photos/7516173/pexels-photo-7516173.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-s-paws-in-close-up-photography-7516173/",
+    "fotografo": "RDNE Stock project",
+    "fotografo_url": "https://www.pexels.com/@rdne",
+    "query": "dog paw close up",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\como-cortar-unha-de-cachorro\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 25078644,
+    "url_download": "https://images.pexels.com/photos/25078644/pexels-photo-25078644.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/paws-of-dog-lying-down-25078644/",
+    "fotografo": "Su La Pyae",
+    "fotografo_url": "https://www.pexels.com/@su-la-pyae-54514809",
+    "query": "dog paw close up",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\como-cortar-unha-de-cachorro\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8673772,
+    "url_download": "https://images.pexels.com/photos/8673772/pexels-photo-8673772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-dog-s-paw-on-sand-8673772/",
+    "fotografo": "Griffin Wooldridge",
+    "fotografo_url": "https://www.pexels.com/@griffinw",
+    "query": "dog paw close up",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\como-cortar-unha-de-cachorro\\4.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35983414,
+    "url_download": "https://images.pexels.com/photos/35983414/pexels-photo-35983414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-puppies-sleeping-on-furry-blanket-35983414/",
+    "fotografo": "Kally Dru",
+    "fotografo_url": "https://www.pexels.com/@kallydru",
+    "query": "puppy blanket bed",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\primeiros-dias-do-filhote-em-casa\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34544577,
+    "url_download": "https://images.pexels.com/photos/34544577/pexels-photo-34544577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cozy-terrier-puppy-resting-on-blanket-34544577/",
+    "fotografo": "Lorna Pauli",
+    "fotografo_url": "https://www.pexels.com/@lorna-pauli-1320744316",
+    "query": "puppy blanket bed",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\primeiros-dias-do-filhote-em-casa\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5420821,
+    "url_download": "https://images.pexels.com/photos/5420821/pexels-photo-5420821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-on-bed-5420821/",
+    "fotografo": "https://kaboompics.com/",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "query": "puppy blanket bed",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\primeiros-dias-do-filhote-em-casa\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9191504,
+    "url_download": "https://images.pexels.com/photos/9191504/pexels-photo-9191504.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-brown-poodle-puppy-9191504/",
+    "fotografo": "Anna Bondarenko",
+    "fotografo_url": "https://www.pexels.com/@aaa333",
+    "query": "puppy blanket bed",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\primeiros-dias-do-filhote-em-casa\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6235,
+    "url_download": "https://images.pexels.com/photos/6235/bed-dog-cute-lying.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/lazy-puppy-laying-on-a-couch-6235/",
+    "fotografo": "Karolina Grabowska www.kaboompics.com",
+    "fotografo_url": "https://www.pexels.com/@karola-g2",
+    "query": "puppy blanket bed",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\primeiros-dias-do-filhote-em-casa\\4.jpg"
+  }
+]

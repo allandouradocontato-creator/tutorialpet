@@ -1,0 +1,57 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 18065206,
+    "url_download": "https://images.pexels.com/photos/18065206/pexels-photo-18065206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-behind-pane-18065206/",
+    "fotografo": "Diana ✨",
+    "fotografo_url": "https://www.pexels.com/@didsss",
+    "query": "dog alone window sad",
+    "indice": 0,
+    "arquivo": "data\\visual\\candidatos\\ansiedade-de-separacao-em-caes\\0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5704331,
+    "url_download": "https://images.pexels.com/photos/5704331/pexels-photo-5704331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-dog-behind-the-car-window-watching-the-rain-5704331/",
+    "fotografo": "Eliab Mendez",
+    "fotografo_url": "https://www.pexels.com/@eliab-mendez-3845400",
+    "query": "dog alone window sad",
+    "indice": 1,
+    "arquivo": "data\\visual\\candidatos\\ansiedade-de-separacao-em-caes\\1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27583440,
+    "url_download": "https://images.pexels.com/photos/27583440/pexels-photo-27583440.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-black-and-white-photo-of-a-dog-looking-out-of-a-window-27583440/",
+    "fotografo": "Diana ✨",
+    "fotografo_url": "https://www.pexels.com/@didsss",
+    "query": "dog alone window sad",
+    "indice": 2,
+    "arquivo": "data\\visual\\candidatos\\ansiedade-de-separacao-em-caes\\2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35099696,
+    "url_download": "https://images.pexels.com/photos/35099696/pexels-photo-35099696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-portrait-of-dog-looking-out-window-35099696/",
+    "fotografo": "Alexander Tisko",
+    "fotografo_url": "https://www.pexels.com/@alexander-tisko-2156743736",
+    "query": "dog alone window sad",
+    "indice": 3,
+    "arquivo": "data\\visual\\candidatos\\ansiedade-de-separacao-em-caes\\3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2877177,
+    "url_download": "https://images.pexels.com/photos/2877177/pexels-photo-2877177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-cute-white-puppy-2877177/",
+    "fotografo": "Alex Hrek",
+    "fotografo_url": "https://www.pexels.com/@lxe00",
+    "query": "dog alone window sad",
+    "indice": 4,
+    "arquivo": "data\\visual\\candidatos\\ansiedade-de-separacao-em-caes\\4.jpg"
+  }
+]

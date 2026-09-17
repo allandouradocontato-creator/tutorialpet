@@ -55,6 +55,14 @@ CANDIDATOS_DIR = VISUAL_DIR / "candidatos"
 IMAGENS_DIR = VISUAL_DIR / "imagens"
 PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
 PIXABAY_SEARCH_URL = "https://pixabay.com/api/"
+# Pexels (via proteção tipo Cloudflare) devolve 403 pro User-Agent padrão do urllib, por
+# parecer bot. Um User-Agent de navegador comum resolve — usado em toda chamada HTTP deste
+# agente (busca e download de imagem), por segurança.
+USER_AGENT = "Mozilla/5.0 (compatible; blog-factory-agent15/1.0)"
+
+
+def _request(url: str, headers: dict | None = None) -> urllib.request.Request:
+    return urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
 
 
 def load_visual_settings() -> dict:
@@ -73,7 +81,7 @@ def check_credenciais() -> tuple[bool, str, dict]:
 # --------------------------------------------------------------------------- busca
 def search_pexels(query: str, api_key: str, per_page: int = 5) -> list[dict]:
     url = f"{PEXELS_SEARCH_URL}?{urllib.parse.urlencode({'query': query, 'per_page': per_page, 'orientation': 'landscape'})}"
-    req = urllib.request.Request(url, headers={"Authorization": api_key})
+    req = _request(url, {"Authorization": api_key})
     with urllib.request.urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read().decode("utf-8"))
     return [{
@@ -86,7 +94,7 @@ def search_pixabay(query: str, api_key: str, per_page: int = 5) -> list[dict]:
     params = {"key": api_key, "q": query, "image_type": "photo", "safesearch": "true",
               "orientation": "horizontal", "per_page": max(per_page, 3)}
     url = f"{PIXABAY_SEARCH_URL}?{urllib.parse.urlencode(params)}"
-    with urllib.request.urlopen(url, timeout=30) as resp:
+    with urllib.request.urlopen(_request(url), timeout=30) as resp:
         data = json.loads(resp.read().decode("utf-8"))
     return [{
         "fonte": "pixabay", "id": h["id"], "url_download": h["largeImageURL"],
@@ -119,6 +127,7 @@ def fetch_candidates_for_article(slug: str, chaves: dict, settings: dict, log) -
         candidatos = search_candidates(query, chaves, settings.get("candidatos_por_busca", 5))
         for c in candidatos:
             if "erro" in c:
+                log.error(f"[{AGENT_NAME}] busca falhou para '{slug}' (query '{query}'): {c['erro']}")
                 continue
             candidatos_final.append({**c, "query": query})
         if len(candidatos_final) >= settings.get("candidatos_por_busca", 5):
@@ -127,7 +136,7 @@ def fetch_candidates_for_article(slug: str, chaves: dict, settings: dict, log) -
     manifest = []
     for i, c in enumerate(candidatos_final):
         try:
-            with urllib.request.urlopen(c["url_download"], timeout=30) as resp:
+            with urllib.request.urlopen(_request(c["url_download"]), timeout=30) as resp:
                 img_bytes = resp.read()
         except urllib.error.URLError as ex:
             log.error(f"[{AGENT_NAME}] falha ao baixar candidato {i} de '{slug}': {ex}")
