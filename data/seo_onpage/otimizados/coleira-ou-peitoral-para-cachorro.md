@@ -78,6 +78,8 @@ A coleira é prática pra pendurar identificação e pode dar mais controle dire
 
 **Exemplo prático:** um filhote ainda aprendendo a andar na guia tende a puxar bastante — nesse período, o peitoral costuma ser a escolha mais segura, reservando a coleira (com identificação) pra uso dentro de casa ou quando ele já estiver mais experiente no passeio.
 
+Equipamento confortável facilita manter o passeio em dia — e passeio regular ajuda a gastar energia e reduzir a ansiedade da rotina. Quando isso não é suficiente e o cão sofre mesmo assim ao ficar sozinho, o [Sozinho em Casa](https://sozinho-em-casa.netlify.app/) complementa com um protocolo específico pra isso.
+
 ## Ajuste correto: aqui não tem meio-termo
 
 Seja qual for a escolha, o ajuste precisa ser preciso: **a régua tática é de dois dedos de folga** entre o equipamento e o corpo do cão — nem apertado a ponto de machucar, nem frouxo a ponto dele conseguir escapar.

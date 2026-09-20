@@ -86,7 +86,7 @@ Deixar rádio ou som ambiente ligado baixinho, um cheiro familiar por perto, e g
 
 **Brinquedo resolve ansiedade de separação?**
 
-Ajuda a reduzir o tédio, mas não substitui um manejo mais completo se o quadro for de ansiedade real — nesse caso, vale ver nosso artigo específico sobre o assunto e considerar apoio profissional.
+Ajuda a reduzir o tédio, mas se a reação ao ficar sozinho for de pânico e não só tédio, vale ver nosso artigo específico sobre o assunto, considerar o [Sozinho em Casa](https://sozinho-em-casa.netlify.app/) (protocolo prático de 14 dias) e, se precisar, apoio profissional.
 
 **Posso deixar vários brinquedos disponíveis o tempo todo?**
 

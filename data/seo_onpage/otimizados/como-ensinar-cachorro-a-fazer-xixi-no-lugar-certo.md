@@ -78,6 +78,8 @@ Leve o cachorro para o local certo (área externa ou tapete higiênico) nos mome
 
 **Exemplo prático:** toda vez que ele fizer no lugar certo, elogie com aquela alegria toda — voz animada, petisco, festa mesmo. Esse é o momento que ensina de verdade, muito mais do que qualquer bronca depois de um acidente.
 
+Se os "acidentes" só acontecem quando você sai de casa, minha filha, pode não ser sobre treino — vale descartar ansiedade de separação com a ajuda do [Sozinho em Casa](https://sozinho-em-casa.netlify.app/).
+
 ## O que fazer quando o acidente já aconteceu
 
 Aqui, minha filha, respira: **repreender depois do fato não ensina nada**, porque o cachorro não consegue associar a bronca com algo que já aconteceu minutos atrás. Ele só aprende a ter medo de você por um motivo que ele nem entende mais. Limpe o local bem (produtos próprios ajudam a tirar o cheiro que atrai ele a repetir ali) e siga reforçando a rotina certa.

@@ -83,6 +83,8 @@ Eu sei que a vontade é gigante de mostrar o filhote pra família toda, pros viz
 
 Mesmo sendo tudo novo, tenta já criar uma rotina de horários pra comer, dormir e ir ao lugar certo fazer as necessidades. Filhote aprende rápido quando a rotina é constante — é tipo criança pequena, gente, eles gostam de saber o que vem depois.
 
+Aproveita essas primeiras semanas também pra ensinar ele, aos poucos, a ficar sozinho por curtos períodos — isso evita que a ansiedade de separação se instale mais tarde. O [Sozinho em Casa](https://sozinho-em-casa.netlify.app/) tem um protocolo pra isso, se quiser um passo a passo.
+
 ### Alimentação nos primeiros dias
 
 Se possível, mantenha a mesma ração que ele já comia antes de chegar na sua casa, pelo menos nos primeiros dias — trocar tudo de uma vez, junto com a mudança de ambiente, pode deixar a barriguinha dele mais sensível.

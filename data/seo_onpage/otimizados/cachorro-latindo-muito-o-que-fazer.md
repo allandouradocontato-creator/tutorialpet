@@ -95,7 +95,7 @@ Algumas raças têm mais tendência a vocalizar, sim, mas isso não significa qu
 
 **Quando devo procurar ajuda profissional?**
 
-Se o latido for muito intenso, incomodar a vizinhança de forma persistente, ou vier acompanhado de outros sinais de sofrimento, vale buscar um médico-veterinário comportamentalista ou adestrador qualificado.
+Se o latido for muito intenso, incomodar a vizinhança de forma persistente, ou vier acompanhado de outros sinais de sofrimento, vale buscar um médico-veterinário comportamentalista ou adestrador qualificado. Quando o gatilho é claramente a ansiedade de ficar sozinho, o [Sozinho em Casa](https://sozinho-em-casa.netlify.app/) explica como identificar e tratar essa causa específica.
 
 ## Para fechar
 

@@ -85,6 +85,8 @@ Mudanças bruscas de rotina, apego excessivo desde filhote sem momentos de indep
 - Ofereça enriquecimento ambiental (brinquedos que ocupam a cabeça dele) durante sua ausência.
 - Mantenha uma rotina previsível de rotina geral (alimentação, passeio, sono).
 
+Se o comportamento persistir mesmo depois de ajustes na rotina, vale conhecer o [Sozinho em Casa](https://sozinho-em-casa.netlify.app/), um protocolo prático de 14 dias focado especificamente nisso.
+
 ### Quando buscar ajuda profissional
 
 Se os sinais forem intensos, persistentes, ou colocarem o bem-estar do cachorro (ou a segurança da casa) em risco, a orientação de um médico-veterinário comportamentalista é o caminho — em alguns casos, o tratamento pode envolver acompanhamento especializado que vai além do que qualquer ajuste caseiro consegue resolver sozinho.
