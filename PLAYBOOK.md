@@ -26,7 +26,7 @@ Objetivo: transformar artigos do blog em Reels narrados (pt-BR) e agendar em Ins
 
    👉 Guia completo no blog: <url do artigo>
 
-   🐾 Conheça o app Sozinho em Casa — de R$ 37 por apenas R$ 9,90: https://pay.kiwify.com.br/3JprCCK
+   🐾 Conheça o app Sozinho em Casa — de R$ 37 por apenas R$ 9,90: https://pay.kiwify.com.br/NcQChat
    ```
    Regras de copy: nunca "testa/teste" junto de preço; link do produto em TODO post; preço real R$ 9,90 (R$ 37 é só âncora).
 8. Marcar itens como `feito` em `fila_videos.json`, commit + push no branch `fabrica`.
