@@ -72,10 +72,22 @@ def frame(fi):
     SCENES = CFG['scenes']; TOTAL = CFG['total']
     img = Image.new("RGB", (W, H), CREAM)
     d = ImageDraw.Draw(img)
-    bg(d, t)
+    P = CFG.get('photo_img')
+    if P is not None:
+        img.paste(P, (0, 0))
+    else:
+        bg(d, t)
     sc = next(s for s in SCENES if s[0] <= t < s[1]) if t < TOTAL else SCENES[-1]
     st, en, kind, badge, lines = sc
     tl = t - st
+    if P is not None:
+        if kind == "end":
+            veil = Image.new("RGBA", (W, H), CREAM + (215,)); img.paste(veil, (0, 0), veil)
+        else:
+            pa = ease(tl / 0.35)
+            panel = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            ImageDraw.Draw(panel).rounded_rectangle([60, 540, W - 60, 1240], radius=56, fill=CREAM + (int(238 * pa),))
+            img.paste(panel, (0, 0), panel)
     # progress bar
     d.rounded_rectangle([60, 70, W - 60, 90], radius=10, fill=SAND)
     d.rounded_rectangle([60, 70, 60 + int((W - 120) * t / TOTAL), 90], radius=10, fill=TERRA)
@@ -133,6 +145,13 @@ def render(spec_path, out, voz="pf_dora"):
     spec = json.load(open(spec_path, encoding="utf-8"))
     tmp = os.path.splitext(out)[0] + "_tmp"
     os.makedirs(tmp, exist_ok=True)
+    CFG['photo_img'] = None
+    foto = spec.get("foto")
+    if foto:
+        from PIL import Image as _I
+        cand = foto if os.path.isfile(foto) else os.path.join(os.path.dirname(os.path.abspath(__file__)), "fotos_9x16", foto + ".jpg")
+        if os.path.isfile(cand):
+            CFG['photo_img'] = _I.open(cand).convert("RGB").resize((W, H))
     narrar = None
     if any(sc.get("fala") for sc in spec["scenes"]):
         from voz import narrar

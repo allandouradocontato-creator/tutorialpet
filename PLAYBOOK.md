@@ -17,6 +17,7 @@ Objetivo: transformar artigos do blog em Reels narrados (pt-BR) e agendar em Ins
    - cena `hook` (gancho 2-3 s), 3 cenas `point` (badge "1","2","3", linhas curtas), cena `end`.
    - `lines`: 2 linhas título + 2 linhas apoio (curtas); `fala`: frase natural para narrar (informal, sem prometer cura; comportamento/saúde só com tom informativo).
    - Total alvo: 15-30 s.
+   - Adicione no spec o campo `"foto": "<slug-do-artigo>"`: usa `fotos_9x16/<slug>.jpg` como fundo (foto real do artigo, licença Pexels, créditos em `fotos_9x16/manifest.csv`). Sem esse campo, o vídeo usa o fundo ilustrado.
 5. `python3 render_video.py spec.json videoN.mp4` (N = próximo número livre no branch `media`). Conferir com ffprobe: tem vídeo e áudio, duração 12-40 s.
 6. Copiar para o branch `media`, commit + push (nunca mexer em `main`).
 7. Agendar no Metricool (blogId 7123441, fuso America/Fortaleza): Instagram REEL + Facebook REEL, mesmo vídeo, horários 12:00 e 18:00 no próximo dia livre (checar getScheduledPosts para não colidir). Legenda-padrão:
@@ -34,4 +35,4 @@ Objetivo: transformar artigos do blog em Reels narrados (pt-BR) e agendar em Ins
 ## Limitações conhecidas
 - Qualidade da voz não foi auditada por ouvido — pedir ao dono feedback no primeiro vídeo.
 - Vídeos 3 e 4 (29/09) foram publicados mudos; podem ser refeitos com voz.
-- Sem imagens reais de cachorro ainda: cenas são ilustrações simples. Próxima melhoria: fundo com foto do artigo (`site/build/imagens` no branch main, licença Pexels) ou clipe de banco livre.
+- Fundo com foto do artigo já disponível (campo `foto`). Melhoria futura: clipes de vídeo de banco livre em vez de foto estática.
