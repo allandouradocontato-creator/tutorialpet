@@ -1,0 +1,4 @@
+{"scenes":[
+{"kind":"hook","lines":["Seu cachorro","fica sozinho?","Cuidado com o","tédio!"],"fala":"Seu cachorro fica sozinho em casa? Cuidado com o tédio!"},
+{"kind":"point","badge":"1","lines":["Brinquedo","recheável","ocupa a mente","dele"],"fala":"Primeiro: brinquedo recheável. Ele passa um tempão tentando tirar o petisco."},
+{"kind":"end","lines":["Continue lendo","no blog","Tutorial Pet"],"fala":"Continue lendo no blog Tutorial Pet."}]}
