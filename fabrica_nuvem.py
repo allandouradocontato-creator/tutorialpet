@@ -30,14 +30,22 @@ def main() -> int:
     if len(sys.argv) < 2:
         sys.exit("uso: python fabrica_nuvem.py <pasta_saida>")
     saida = Path(sys.argv[1])
-    antes = {p.name for p in RASC.glob("*.md")} if RASC.exists() else set()
-    run([sys.executable, "rotina_diaria.py"], {"WRITER_MODE": "llm"})
-    novos = [p for p in RASC.glob("*.md") if p.name not in antes]
-    if not novos:
-        print("nenhum artigo novo produzido")
-        return 1
-    artigo = max(novos, key=lambda p: p.stat().st_mtime)
-    slug = artigo.stem
+    pronto = ROOT / "config" / "fabrica_pronto.txt"  # modo teste: usa artigo+roteiro ja prontos, sem Gemini
+    if pronto.exists() and pronto.read_text(encoding="utf-8").strip():
+        slug = pronto.read_text(encoding="utf-8").strip()
+        artigo = RASC / f"{slug}.md"
+        print(f"MODO PRONTO: usando artigo e roteiro existentes de {slug}", flush=True)
+        if not artigo.exists():
+            raise SystemExit(f"artigo pronto nao encontrado: {artigo}")
+    else:
+        antes = {p.name for p in RASC.glob("*.md")} if RASC.exists() else set()
+        run([sys.executable, "rotina_diaria.py"], {"WRITER_MODE": "llm"})
+        novos = [p for p in RASC.glob("*.md") if p.name not in antes]
+        if not novos:
+            print("nenhum artigo novo produzido")
+            return 1
+        artigo = max(novos, key=lambda p: p.stat().st_mtime)
+        slug = artigo.stem
     roteiro = ROOT / "data" / "social" / "roteiros" / f"{slug}.json"
     if not roteiro.exists():
         raise SystemExit(f"roteiro não gerado: {roteiro}")
