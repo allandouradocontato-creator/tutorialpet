@@ -37,6 +37,15 @@ GA_TAG = (
     f"gtag('js',new Date());gtag('config','{GA_ID}');</script>"
 )
 
+# Microsoft Clarity (projeto Tutorial Pet, criado em 06/10/2026)
+CLARITY_ID = "ytjlk68nn4"
+CLARITY_TAG = (
+    '<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};'
+    't=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;'
+    'y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);'
+    f'}})(window,document,"clarity","script","{CLARITY_ID}");</script>'
+)
+
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
@@ -99,7 +108,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <meta property="og:locale" content="pt_BR">
 {og_image_tag}
 {GOOGLE_FONT_HEAD}
-{GA_TAG}
+{GA_TAG}{CLARITY_TAG}
 {extra_head}
 <style>{CSS}</style>
 </head>
