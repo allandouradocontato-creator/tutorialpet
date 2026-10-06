@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quanto tempo um cachorro pode ficar sozinho: guia prático",
+    "description": "Descubra quanto tempo um cachorro pode ficar sozinho de acordo com a idade e veja um passo a passo prático para acostumar seu pet sem estresse.",
+    "datePublished": "2026-10-06",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quanto-tempo-um-cachorro-pode-ficar-sozinho.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Deixar a TV ou rádio ligado ajuda o cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma ajudar cães sensíveis a barulhos externos do corredor ou da rua, pois o som abafa ruídos repentinos e quebra o silêncio da casa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dois cachorros sofrem menos com a solidão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Eles têm companhia física, mas adotar uma segunda carga de responsabilidade não cura ansiedade de separação preexistente. Às vezes, o animal mais ansioso apenas ensina hábitos ruins ao outro."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar comida à vontade enquanto estiver fora?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é o ideal. Alimento livre perde o valor de atratividade. Prefira usar comedouros lentos, quebra-cabeças ou brinquedos recheados oferecidos no instante da saída."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O uso de câmera de monitoramento com microfone vale a pena?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Serve bem para acompanhar o comportamento, mas evite falar pelo microfone se isso deixar o pet desorientado procurando você pelos cantos da casa.  ---"
+        }
+      }
+    ]
+  }
+}
