@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 144608,
+    "url_download": "https://images.pexels.com/photos/144608/pexels-photo-144608.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/",
+    "fotografo": "Suvan Chowdhury",
+    "fotografo_url": "https://www.pexels.com/@suvan-chowdhury-37305",
+    "largura": 2048,
+    "altura": 1365,
+    "query": "dog close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/com-quantos-meses-o-cachorro-pode-sair-na-rua/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12584231,
+    "url_download": "https://images.pexels.com/photos/12584231/pexels-photo-12584231.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-dog-12584231/",
+    "fotografo": "Edgar Almeida",
+    "fotografo_url": "https://www.pexels.com/@edgaralmeida",
+    "largura": 4845,
+    "altura": 3230,
+    "query": "dog close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/com-quantos-meses-o-cachorro-pode-sair-na-rua/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 19907136,
+    "url_download": "https://images.pexels.com/photos/19907136/pexels-photo-19907136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-dog-eye-and-head-19907136/",
+    "fotografo": "BenWithLana 小豆包妈妈 Lana",
+    "fotografo_url": "https://www.pexels.com/@benwithlana-lana-498258353",
+    "largura": 5104,
+    "altura": 3270,
+    "query": "dog close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/com-quantos-meses-o-cachorro-pode-sair-na-rua/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30210734,
+    "url_download": "https://images.pexels.com/photos/30210734/pexels-photo-30210734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-dog-s-nose-macrophotography-30210734/",
+    "fotografo": "Beth Fitzpatrick",
+    "fotografo_url": "https://www.pexels.com/@beth-fitzpatrick-742222899",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/com-quantos-meses-o-cachorro-pode-sair-na-rua/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5420744,
+    "url_download": "https://images.pexels.com/photos/5420744/pexels-photo-5420744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/nose-of-dog-5420744/",
+    "fotografo": "https://kaboompics.com/",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "dog close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/com-quantos-meses-o-cachorro-pode-sair-na-rua/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16634309,
+    "url_download": "https://images.pexels.com/photos/16634309/pexels-photo-16634309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/french-bulldogs-resting-on-the-ground-16634309/",
+    "fotografo": "Marco Biribò",
+    "fotografo_url": "https://www.pexels.com/@marco-biribo-472749168",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog resting indoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/com-quantos-meses-o-cachorro-pode-sair-na-rua/5.jpg"
+  }
+]
