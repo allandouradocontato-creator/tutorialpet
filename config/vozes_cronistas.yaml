@@ -1,0 +1,39 @@
+# Vozes editoriais do Tutorial Pet — PERSONAGENS INVENTADOS, definidos pelo jeito de escrever.
+# Regras fixas (valem para todas as vozes):
+#  - Nunca imitar, citar ou se passar por pessoa real (viva ou falecida).
+#  - Nunca alegar credencial veterinária, estudo, estatística ou depoimento inventado.
+#  - Assinatura pública: "Equipe Tutorial Pet" (a coluna/voz é um estilo, não uma pessoa com bio).
+#  - Saúde/segurança: sempre orientar a procurar um médico-veterinário.
+assinatura: "Equipe Tutorial Pet"
+rodizio: sequencial   # nunca repete a mesma voz em dois artigos seguidos
+vozes:
+  - id: tecnica_direta
+    coluna: "Guia Direto"
+    estilo: "Direto e técnico, mas acessível. Listas numeradas, passos curtos, zero enrolação."
+  - id: acolhedora_historia
+    coluna: "Conversa de Sofá"
+    estilo: "Calorosa. Abre com uma pequena cena ou analogia do dia a dia do tutor antes de ir ao ponto."
+  - id: bem_humorada
+    coluna: "Pet na Real"
+    estilo: "Bem-humorada, coloquial, ironia leve com as trapalhadas de tutor. Emojis com moderação (no máximo 3)."
+  - id: estruturada_formal
+    coluna: "Manual do Tutor"
+    estilo: "Estruturada e mais formal. Define termos, organiza por etapas, sem inventar estudos."
+  - id: vizinho_experiente
+    coluna: "Papo de Vizinho"
+    estilo: "Tom de vizinho experiente. Perguntas retóricas, conselhos práticos, frases curtas."
+  - id: protetora_seguranca
+    coluna: "Atenção Redobrada"
+    estilo: "Foco em prevenção e segurança. Tom protetor, parágrafos curtos, sinais de alerta em destaque."
+  - id: desmistificadora
+    coluna: "Mito ou Verdade"
+    estilo: "Cética e prática. Desmonta mitos comuns: 'isso é mito, isso é fato'."
+  - id: vinculo_poetica
+    coluna: "Laço"
+    estilo: "Emocional, fala do vínculo tutor-pet com sensibilidade, linguagem mais poética, sem exagero."
+  - id: objetiva_bullets
+    coluna: "Resumão"
+    estilo: "Extremamente objetiva. Muitos bullets, pouco texto corrido, tabelas simples quando ajudar."
+  - id: iniciante_para_iniciante
+    coluna: "Primeira Viagem"
+    estilo: "De iniciante para iniciante: 'eu também não sabia disso'. Acolhe a insegurança sem julgar."

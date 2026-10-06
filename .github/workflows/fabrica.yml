@@ -1,0 +1,62 @@
+name: Fabrica Tutorial Pet
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 06:00 em Fortaleza (UTC-3)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  produzir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Codigo da fabrica
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias
+        run: |
+          pip install pyyaml requests edge-tts
+          if [ -f requirements.txt ]; then pip install -r requirements.txt || true; fi
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - name: Pasta de entrega (branch media)
+        run: |
+          git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+
+      - name: Produzir artigo, roteiro e video
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          WRITER_MODE: llm
+        run: python fabrica_nuvem.py /tmp/media
+
+      - name: Entregar pacote (branch media)
+        run: |
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add -A
+          git commit -m "pacote diario $(date -u +%F)" || echo "nada a commitar"
+          git push origin media
+
+      - name: Guardar fila e rascunhos (main)
+        run: |
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add config/fila_temas.yaml data/content_writer data/social/roteiros || true
+          git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || echo "nada a commitar"
+          git push origin main || echo "push main ignorado"

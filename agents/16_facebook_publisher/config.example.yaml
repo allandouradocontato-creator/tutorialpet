@@ -1,0 +1,22 @@
+# Template genérico de configuração do Agente 16 — copie para config/facebook_publisher/<cliente>.yaml
+# e preencha. Nada de nome de página, link ou horário fica no código do agente: tudo vem daqui.
+
+pagina_esperada: "Nome Exato da Página"   # confirmado contra a Graph API antes de qualquer post
+fuso_horario: "America/Fortaleza"         # qualquer nome de fuso IANA valido (zoneinfo)
+hora_publicacao: "21:00"                  # HH:MM, no fuso acima
+fila: "data/social/facebook/fila.json"    # caminho do arquivo de fila deste cliente
+max_posts_por_dia: 1                      # trava dura — nunca mais que isso agendado por dia civil
+tolerancia_horas: 3                       # atraso <= isso, mesmo dia, trava permitindo: publica na
+                                           # recuperação. Maior que isso, ou virou o dia: reagenda pro
+                                           # fim da fila (nunca em rajada). Opcional, padrão 3 se omitido.
+
+# Opcional: horário variado por dia, sorteado dentro de janelas (em vez de um rodízio fixo
+# que repete sempre a mesma sequência e fica identificável como automação). N janelas ==
+# max_posts_por_dia. Sem esta seção, todo post cai em hora_publicacao, todo dia.
+# janelas_horarios:
+#   manha: ["08:00", "11:00"]
+#   noite: ["18:00", "21:00"]
+#
+# semente_aleatoria: registrada aqui, não no código — pra o sorteio ser auditável/reproduzível
+# em vez de puramente imprevisível pra quem opera também.
+# semente_aleatoria: 20260921

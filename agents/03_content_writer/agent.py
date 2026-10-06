@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -177,7 +178,14 @@ def run(context: dict) -> dict:
     faq = build_faq(pauta, blocks)
     meta_description = build_meta_description(pauta)
     opening_idx = _pick_index(pauta["termo_origem"] + "#estrutura", len(OPENING_STRUCTURES))
-    body_md = render_article_body(pauta, site, blocks, faq, opening_idx, sensivel)
+    voz_usada = None
+    if os.environ.get("WRITER_MODE", "").lower() == "llm":
+        from escritor_llm import escrever_corpo  # noqa: E402
+        body_md, voz_usada = escrever_corpo(pauta, site, sensivel)
+        if voz_usada.get("meta"):
+            meta_description = voz_usada["meta"]
+    else:
+        body_md = render_article_body(pauta, site, blocks, faq, opening_idx, sensivel)
 
     slug = slugify(pauta["termo_origem"])
     front_matter = {
@@ -194,6 +202,9 @@ def run(context: dict) -> dict:
         "gerado_em": now_iso(),
         "aviso_saude_aplicavel": sensivel,
         "estrutura_abertura": OPENING_STRUCTURES[opening_idx],
+        "voz": voz_usada["id"] if voz_usada else None,
+        "coluna": voz_usada["coluna"] if voz_usada else None,
+        "assinatura": "Equipe Tutorial Pet",
     }
     full_md = render_front_matter(front_matter) + body_md
 

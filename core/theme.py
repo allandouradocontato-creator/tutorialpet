@@ -82,6 +82,14 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
   border-radius: var(--radius); text-align: center; }
 .cta-box p { margin: 0 0 14px; color: var(--color-primary-dark); font-size: 1.05rem; }
 
+/* faixa do produto — no começo e no fim de todo artigo */
+.produto-topo { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  margin: 0 0 20px; padding: 14px 18px; background: var(--color-primary-soft);
+  border: 1px solid var(--color-border); border-radius: var(--radius); }
+.produto-topo-texto { margin: 0; flex: 1 1 260px; font-weight: 600; font-size: 1rem; line-height: 1.4;
+  color: var(--color-primary-dark); }
+.produto-topo .btn { padding: 10px 18px; white-space: nowrap; }
+
 /* grid de cards da home — cada pilar vira uma seção, cada artigo um card */
 .pilar-section { margin-top: 2.8em; }
 .pilar-section h2 { display: flex; align-items: center; gap: 10px; border-bottom: 2px solid var(--color-border); padding-bottom: 10px; }

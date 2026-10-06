@@ -9,6 +9,12 @@
 candidatos_por_busca: 5   # quantas fotos candidatas baixar por artigo, para dar opção de escolha
 licencas_aceitas: [pexels, pixabay]   # ambas: uso comercial livre, sem exigência formal de atribuição
 
+# Caminho absoluto do pack compartilhado packs/marketing-autonomo (core/imagens), que faz
+# a busca/download real nos provedores. Deixado vazio de propósito — cada máquina/projeto
+# aponta pro seu próprio caminho aqui, ou via variável de ambiente MARKETING_AUTONOMO_CORE_PATH
+# (que tem prioridade sobre este valor, e não deveria ser versionada por ficar em .env).
+pack_core_imagens: ""
+
 # Mesmo sem exigência formal de atribuição, aplicamos crédito ao fotógrafo como boa prática
 # editorial (também ajuda a mostrar transparência numa eventual revisão do AdSense).
 aplicar_credito_fotografo: true

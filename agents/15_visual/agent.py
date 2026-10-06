@@ -25,12 +25,11 @@ Uso:
 from __future__ import annotations
 
 import argparse
+import importlib.util
 import json
 import os
 import sys
 import urllib.error
-import urllib.parse
-import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -47,22 +46,51 @@ from core.markdown import MarkdownError, read_markdown, write_markdown  # noqa: 
 from stock_queries import queries_for  # noqa: E402
 
 AGENT_NAME = "15_visual"
-SCHEMA_VERSION = "1.0"
+SCHEMA_VERSION = "1.1"
 
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 VISUAL_DIR = ROOT / "data" / "visual"
 CANDIDATOS_DIR = VISUAL_DIR / "candidatos"
 IMAGENS_DIR = VISUAL_DIR / "imagens"
-PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
-PIXABAY_SEARCH_URL = "https://pixabay.com/api/"
-# Pexels (via proteção tipo Cloudflare) devolve 403 pro User-Agent padrão do urllib, por
-# parecer bot. Um User-Agent de navegador comum resolve — usado em toda chamada HTTP deste
-# agente (busca e download de imagem), por segurança.
-USER_AGENT = "Mozilla/5.0 (compatible; blog-factory-agent15/1.0)"
 
 
-def _request(url: str, headers: dict | None = None) -> urllib.request.Request:
-    return urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
+class PackIndisponivel(RuntimeError):
+    pass
+
+
+def _pack_core_imagens_path(settings: dict) -> str:
+    """Prioridade: variável de ambiente (não versionada) > config/visual_settings.yaml.
+    Nenhum caminho de máquina específica fica hardcoded no código do agente."""
+    return os.environ.get("MARKETING_AUTONOMO_CORE_PATH", "").strip() or settings.get("pack_core_imagens", "").strip()
+
+
+def load_core_imagens(settings: dict):
+    """Importa packs/marketing-autonomo/core/imagens sob demanda (nunca no topo do módulo),
+    porque o caminho vem de config/env e pode não estar configurado ainda — nesse caso o
+    agente deve cair em 'aguardando_dependencia', não quebrar na importação.
+
+    Importa por caminho de arquivo, com nome de módulo próprio, em vez de inserir o pack no
+    sys.path: o pack também tem um pacote de topo chamado `core`, igual ao deste projeto —
+    inserir no sys.path faria a segunda importação de `core` colidir com a primeira (o
+    Python já teria `core` em cache apontando pro core/ do blog-factory)."""
+    caminho = _pack_core_imagens_path(settings)
+    if not caminho:
+        raise PackIndisponivel(
+            "pack_core_imagens não configurado (nem MARKETING_AUTONOMO_CORE_PATH no .env, "
+            "nem pack_core_imagens em config/visual_settings.yaml).")
+    pack_dir = Path(caminho)
+    init_path = pack_dir / "core" / "imagens" / "__init__.py"
+    if not init_path.exists():
+        raise PackIndisponivel(f"packs/marketing-autonomo não encontrado em '{pack_dir}' "
+                                "(esperava core/imagens/__init__.py ali dentro).")
+
+    nome_modulo = "marketing_autonomo_core_imagens"
+    spec = importlib.util.spec_from_file_location(
+        nome_modulo, init_path, submodule_search_locations=[str(init_path.parent)])
+    modulo = importlib.util.module_from_spec(spec)
+    sys.modules[nome_modulo] = modulo
+    spec.loader.exec_module(modulo)
+    return modulo.get_provider, modulo.Provider.baixar
 
 
 def load_visual_settings() -> dict:
@@ -79,52 +107,32 @@ def check_credenciais() -> tuple[bool, str, dict]:
 
 
 # --------------------------------------------------------------------------- busca
-def search_pexels(query: str, api_key: str, per_page: int = 5) -> list[dict]:
-    url = f"{PEXELS_SEARCH_URL}?{urllib.parse.urlencode({'query': query, 'per_page': per_page, 'orientation': 'landscape'})}"
-    req = _request(url, {"Authorization": api_key})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    return [{
-        "fonte": "pexels", "id": p["id"], "url_download": p["src"]["large"],
-        "url_pagina": p["url"], "fotografo": p["photographer"], "fotografo_url": p["photographer_url"],
-    } for p in data.get("photos", [])]
-
-
-def search_pixabay(query: str, api_key: str, per_page: int = 5) -> list[dict]:
-    params = {"key": api_key, "q": query, "image_type": "photo", "safesearch": "true",
-              "orientation": "horizontal", "per_page": max(per_page, 3)}
-    url = f"{PIXABAY_SEARCH_URL}?{urllib.parse.urlencode(params)}"
-    with urllib.request.urlopen(_request(url), timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    return [{
-        "fonte": "pixabay", "id": h["id"], "url_download": h["largeImageURL"],
-        "url_pagina": h["pageURL"], "fotografo": h["user"], "fotografo_url": f"https://pixabay.com/users/{h['user']}-{h['user_id']}/",
-    } for h in data.get("hits", [])[:per_page]]
-
-
-def search_candidates(query: str, chaves: dict, per_page: int) -> list[dict]:
+# A busca/download em si (Pexels/Pixabay) vive no core compartilhado
+# packs/marketing-autonomo/core/imagens — este agente só orquestra: várias queries por
+# artigo, fallback de provedor, e o limite de candidatos por artigo.
+def search_candidates(get_provider, query: str, chaves: dict, per_page: int) -> list[dict]:
     resultados = []
     if chaves.get("pexels"):
         try:
-            resultados += search_pexels(query, chaves["pexels"], per_page)
+            resultados += get_provider("pexels", chaves["pexels"]).search(query, per_page)
         except (urllib.error.URLError, KeyError, ValueError) as ex:
             resultados.append({"erro": f"pexels: {ex}"})
     if chaves.get("pixabay") and len(resultados) < per_page:
         try:
-            resultados += search_pixabay(query, chaves["pixabay"], per_page - len(resultados))
+            resultados += get_provider("pixabay", chaves["pixabay"]).search(query, per_page - len(resultados))
         except (urllib.error.URLError, KeyError, ValueError) as ex:
             resultados.append({"erro": f"pixabay: {ex}"})
     return resultados
 
 
 # --------------------------------------------------------------------------- etapa 1: candidatos
-def fetch_candidates_for_article(slug: str, chaves: dict, settings: dict, log) -> dict:
+def fetch_candidates_for_article(get_provider, baixar, slug: str, chaves: dict, settings: dict, log) -> dict:
     out_dir = CANDIDATOS_DIR / slug
     out_dir.mkdir(parents=True, exist_ok=True)
     candidatos_final: list[dict] = []
 
     for query in queries_for(slug):
-        candidatos = search_candidates(query, chaves, settings.get("candidatos_por_busca", 5))
+        candidatos = search_candidates(get_provider, query, chaves, settings.get("candidatos_por_busca", 5))
         for c in candidatos:
             if "erro" in c:
                 log.error(f"[{AGENT_NAME}] busca falhou para '{slug}' (query '{query}'): {c['erro']}")
@@ -136,8 +144,7 @@ def fetch_candidates_for_article(slug: str, chaves: dict, settings: dict, log) -
     manifest = []
     for i, c in enumerate(candidatos_final):
         try:
-            with urllib.request.urlopen(_request(c["url_download"]), timeout=30) as resp:
-                img_bytes = resp.read()
+            img_bytes = baixar(c["url_download"])
         except urllib.error.URLError as ex:
             log.error(f"[{AGENT_NAME}] falha ao baixar candidato {i} de '{slug}': {ex}")
             continue
@@ -250,11 +257,19 @@ def run(context: dict) -> dict:
                 "status": "aguardando_credenciais", "n_artigos": len(artigos),
                 "relatorio": str(out_path.relative_to(ROOT)), "pendencias_humanas": [motivo]}
 
+    try:
+        get_provider, baixar = load_core_imagens(settings)
+        log.info(f"[{AGENT_NAME}] core de imagens carregado de '{_pack_core_imagens_path(settings)}'")
+    except PackIndisponivel as ex:
+        log.warning(f"[{AGENT_NAME}] modo aguardando_dependencia: {ex}")
+        return {"agent": AGENT_NAME, "schema_version": SCHEMA_VERSION, "site_id": site_id, "gerado_em": now_iso(),
+                "status": "aguardando_dependencia", "n_artigos": len(artigos), "pendencias_humanas": [str(ex)]}
+
     alvo = [fm for fm in artigos if not context.get("slug") or fm["slug"] == context["slug"]]
     if not context.get("forcar"):
         alvo = [fm for fm in alvo if not fm.get("imagem_capa")]
 
-    resultados = [fetch_candidates_for_article(fm["slug"], chaves, settings, log) for fm in alvo]
+    resultados = [fetch_candidates_for_article(get_provider, baixar, fm["slug"], chaves, settings, log) for fm in alvo]
     relatorio_md = render_candidates_report(resultados)
     out_path = VISUAL_DIR / f"relatorio_{date_str}.md"
     out_path.write_text(relatorio_md, encoding="utf-8")
@@ -286,7 +301,7 @@ def main() -> int:
     if args.selecionar:
         context["selecionar"] = (args.selecionar[0], int(args.selecionar[1]))
     output = run(context)
-    return 0 if output["status"] in ("ok", "aguardando_credenciais") else 2
+    return 0 if output["status"] in ("ok", "aguardando_credenciais", "aguardando_dependencia") else 2
 
 
 if __name__ == "__main__":

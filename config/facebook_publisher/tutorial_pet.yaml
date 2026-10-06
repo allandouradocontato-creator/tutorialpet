@@ -1,0 +1,25 @@
+pagina_esperada: "Tutorial Pet"
+fuso_horario: "America/Fortaleza"
+hora_publicacao: "21:00"          # fallback de emergência só se scheduled_publish_time_unix faltar
+fila: "data/social/facebook/fila.json"
+max_posts_por_dia: 2
+tolerancia_horas: 3   # atraso recuperável: publica na recuperação se <= isso e mesmo dia e a trava permitir
+
+# Horário variado por dia (não mais um rodízio fixo, que repetia sempre a mesma sequência
+# e ficava previsível/identificável como automação). Cada dia sorteia 1 horário dentro de
+# cada janela abaixo, em passos de 5 min — nunca a mesma hora dois dias seguidos por
+# coincidência de rodízio.
+#
+# Janelas mantidas como pedido (08h-11h / 18h-21h, antes de dormir/depois do trabalho —
+# senso comum de horário de pico em redes sociais no Brasil). NÃO ajustei com base em dado
+# real de audiência do nicho pet: o Agente 08 (analytics) ainda não rodou pra esta página,
+# então não existe dado de engajamento real pra justificar outra janela. Revisar quando
+# houver.
+janelas_horarios:
+  manha: ["08:00", "11:00"]
+  noite: ["18:00", "21:00"]
+
+# Semente-base do sorteio: registrada aqui (não no código) para auditoria — a mesma semente
+# sempre reproduz os mesmos horários para as mesmas posições da fila. Formula exata em
+# agent.py: horario_aleatorio_na_janela() usa random.Random(semente_aleatoria + dia_index*10 + slot_index).
+semente_aleatoria: 20260921
