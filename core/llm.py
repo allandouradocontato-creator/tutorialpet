@@ -71,7 +71,8 @@ def gerar_texto(prompt: str, sistema: str = "", temperatura: float = 0.8, max_to
         # Modelo principal + reservas (GEMINI_FALLBACK_MODELS, separadas por vírgula).
         # Se o principal estiver sobrecarregado (503) ou sem cota (429), tenta o próximo.
         reservas = [m.strip() for m in os.environ.get(
-            "GEMINI_FALLBACK_MODELS", "gemini-3.8-flash-lite,gemini-3.5-flash").split(",") if m.strip()]
+            "GEMINI_FALLBACK_MODELS",
+            "gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-3.7-flash,gemini-3.6-flash").split(",") if m.strip()]
         modelos = [modelo] + [m for m in reservas if m != modelo]
         dados = None
         ultimo_erro = None
