@@ -1,0 +1,67 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 18065206,
+    "url_download": "https://images.pexels.com/photos/18065206/pexels-photo-18065206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-behind-pane-18065206/",
+    "fotografo": "Diana ✨",
+    "fotografo_url": "https://www.pexels.com/@didsss",
+    "largura": 5864,
+    "altura": 3909,
+    "query": "sad dog waiting",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quanto-tempo-um-cachorro-pode-ficar-sozinho/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 38398105,
+    "url_download": "https://images.pexels.com/photos/38398105/pexels-photo-38398105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/lonely-white-dog-behind-iron-fence-38398105/",
+    "fotografo": "Yaşar Başkurt",
+    "fotografo_url": "https://www.pexels.com/@yasar-baskurt-706180077",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "sad dog waiting",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quanto-tempo-um-cachorro-pode-ficar-sozinho/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12195421,
+    "url_download": "https://images.pexels.com/photos/12195421/pexels-photo-12195421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-dog-behind-the-fence-12195421/",
+    "fotografo": "Mia X",
+    "fotografo_url": "https://www.pexels.com/@sims1217",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "sad dog waiting",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quanto-tempo-um-cachorro-pode-ficar-sozinho/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29359650,
+    "url_download": "https://images.pexels.com/photos/29359650/pexels-photo-29359650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-dog-lying-under-rusty-metal-outdoors-29359650/",
+    "fotografo": "JOAO PEDRO SCARPA BALESTRIEIRO",
+    "fotografo_url": "https://www.pexels.com/@joao-pedro-scarpa-balestrieiro-1351706869",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "sad dog waiting",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quanto-tempo-um-cachorro-pode-ficar-sozinho/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10145167,
+    "url_download": "https://images.pexels.com/photos/10145167/pexels-photo-10145167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/an-elderly-man-sitting-on-the-front-door-steps-while-looking-at-the-dog-beside-him-10145167/",
+    "fotografo": "Claudio Mota",
+    "fotografo_url": "https://www.pexels.com/@claudio-mota-105200226",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "sad dog waiting",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quanto-tempo-um-cachorro-pode-ficar-sozinho/4.jpg"
+  }
+]

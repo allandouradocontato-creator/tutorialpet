@@ -1,0 +1,65 @@
+name: Publicar Blog Tutorial Pet
+
+# Dispara quando o Publicador (Claude) grava "<slug> <indice_da_foto>" em config/blog_aprovados.txt,
+# ou à mão (Run workflow). Roda editor de qualidade -> SEO -> capa -> site/build e publica na main
+# (o Cloudflare Pages publica o site a partir da main).
+on:
+  push:
+    branches: [main]
+    paths: ["config/blog_aprovados.txt"]
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "slug do artigo"
+        required: false
+      indice:
+        description: "indice da foto candidata (0, 1, 2...)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Codigo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias
+        run: pip install pyyaml
+
+      - name: Fotos candidatas (branch media)
+        run: git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+
+      - name: Publicar artigo no site
+        env:
+          SLUG: ${{ github.event.inputs.slug }}
+          INDICE: ${{ github.event.inputs.indice }}
+        run: |
+          if [ -n "$SLUG" ] && [ -n "$INDICE" ]; then
+            python blog_publicar_nuvem.py /tmp/media "$SLUG" "$INDICE"
+          else
+            python blog_publicar_nuvem.py /tmp/media
+          fi
+
+      - name: Gravar na main (Cloudflare publica)
+        run: |
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add site/build data/quality_editor data/seo_onpage data/visual
+          git commit -m "blog: publica artigo $(date -u +%F)" || echo "nada a commitar"
+          git pull --rebase origin main
+          git push origin main

@@ -60,6 +60,14 @@ def main() -> int:
     shutil.copy(roteiro, pkg / "roteiro.json")
     shutil.copy(video, pkg / "video.mp4")
     shutil.copy(legenda, pkg / "legenda.txt")
+    # Fotos candidatas para a capa do artigo no blog (a escolha, só animal, é do Publicador)
+    try:
+        run([sys.executable, "blog_imagens_nuvem.py", slug])
+        cand = ROOT / "data" / "visual" / "candidatos" / slug
+        if cand.exists():
+            shutil.copytree(cand, pkg / "imagens_candidatas", dirs_exist_ok=True)
+    except SystemExit as exc:
+        print("AVISO: sem fotos candidatas:", exc, flush=True)
     (pkg / "manifest.json").write_text(json.dumps({
         "slug": slug, "status": "aguardando_revisao",
         "criado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
