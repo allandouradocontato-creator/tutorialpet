@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from core.config import load_env_file, load_site  # noqa: E402
+from core.config import load_env_file, load_site, load_yaml  # noqa: E402
 from core.markdown import MarkdownError, read_markdown  # noqa: E402
 from core.theme import BASE_CSS, GOOGLE_FONT_HEAD, PILAR_VISUAL, PILAR_VISUAL_PADRAO  # noqa: E402
 
@@ -33,6 +33,7 @@ OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
 BUILD_DIR = ROOT / "site" / "build"
+PRODUTOS_PATH = ROOT / "config" / "produtos_relacionados.yaml"
 
 LEGAL_PAGES_ORDER = ["sobre", "contato", "politica-de-privacidade", "termos"]
 LEGAL_PAGES_TITULOS = {"sobre": "Sobre", "contato": "Contato",
@@ -68,7 +69,7 @@ def render_footer() -> str:
         f'<a href="/{slug}">{LEGAL_PAGES_TITULOS[slug]}</a>' for slug in LEGAL_PAGES_ORDER
     )
     ano = datetime.now(timezone.utc).year
-    return (f'<footer class="site">{links}<p>© {ano} Tutor de Primeira Viagem — conteúdo informativo, '
+    return (f'<footer class="site">{links}<p>© {ano} Tutorial Pet — conteúdo informativo, '
             f'não substitui orientação veterinária profissional.</p></footer>')
 
 
@@ -98,6 +99,30 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 </body>
 </html>
 """
+
+
+def load_produto_destaque(fm: dict) -> dict | None:
+    """Escolhe o produto cadastrado em config/produtos_relacionados.yaml que mais combina com o
+    artigo (por palavras-chave); empate ou nenhuma palavra casando cai no primeiro produto."""
+    try:
+        cfg = load_yaml(PRODUTOS_PATH) or {}
+    except Exception:
+        return None
+    produtos = [p for p in (cfg.get("produtos") or []) if p.get("link")]
+    if not produtos:
+        return None
+    texto = " ".join(str(fm.get(k, "")) for k in ("slug", "titulo", "titulo_seo", "meta_description")).lower()
+    return max(produtos, key=lambda p: sum(1 for kw in (p.get("palavras_chave") or []) if str(kw).lower() in texto))
+
+
+def render_produto_topo(produto: dict | None) -> str:
+    """Faixa do produto, usada NO COMEÇO e no fim de todo artigo (regra de 05/10/2026)."""
+    if not produto:
+        return ""
+    chamada = produto.get("chamada_topo") or f"Conheça {produto['nome']}"
+    botao = produto.get("botao_topo") or "Conhecer"
+    return (f'<aside class="produto-topo"><p class="produto-topo-texto">🐾 {html_lib.escape(chamada)}</p>'
+            f'<a class="btn" rel="noopener" href="{html_lib.escape(produto["link"])}">{html_lib.escape(botao)}</a></aside>')
 
 
 def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, pilares: dict,
@@ -133,15 +158,18 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                          f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}</p>')
 
     body_html = md_to_html(body)
+    produto_faixa = render_produto_topo(load_produto_destaque(fm))
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
            f'<a class="btn" href="/#{pilar_key}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
     main = f"""{render_header(site["nome"], pilares)}
 {breadcrumb}
 <main class="article">
+{produto_faixa}
 {hero_img}
 {byline}
 {body_html}
+{produto_faixa}
 {cta}
 </main>
 {render_footer()}"""

@@ -68,7 +68,25 @@ def gerar_texto(prompt: str, sistema: str = "", temperatura: float = 0.8, max_to
         }
         if sistema:
             payload["systemInstruction"] = {"parts": [{"text": sistema}]}
-        dados = _post(GEMINI_URL.format(model=modelo), payload, {"x-goog-api-key": chave})
+        # Modelo principal + reservas (GEMINI_FALLBACK_MODELS, separadas por vírgula).
+        # Se o principal estiver sobrecarregado (503) ou sem cota (429), tenta o próximo.
+        reservas = [m.strip() for m in os.environ.get(
+            "GEMINI_FALLBACK_MODELS", "gemini-3.8-flash-lite,gemini-3.5-flash").split(",") if m.strip()]
+        modelos = [modelo] + [m for m in reservas if m != modelo]
+        dados = None
+        ultimo_erro = None
+        for n, m in enumerate(modelos):
+            try:
+                dados = _post(GEMINI_URL.format(model=m), payload, {"x-goog-api-key": chave},
+                              tentativas=4 if n < len(modelos) - 1 else 7)
+                break
+            except LLMError as exc:
+                ultimo_erro = exc
+                if n < len(modelos) - 1:
+                    print(f"[llm] {m} falhou ({str(exc)[:80]}); tentando {modelos[n + 1]}")
+                    continue
+        if dados is None:
+            raise ultimo_erro or LLMError("Gemini indisponível")
         try:
             partes = dados["candidates"][0]["content"]["parts"]
             return "".join(p.get("text", "") for p in partes).strip()
