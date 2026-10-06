@@ -1,0 +1,285 @@
+name: Teste de ferramentas de audio e video
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Codigo
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Preparar pastas de saida
+        run: mkdir -p artifacts/audio artifacts/subtitles artifacts/video artifacts/hyperframes artifacts/logs
+
+      - name: Gerar audio edge-tts pt-BR
+        id: edge_tts
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p artifacts/logs artifacts/audio
+          start=$SECONDS
+          set +e
+          {
+            set -euo pipefail
+            python -m pip install --disable-pip-version-check edge-tts
+            python -m edge_tts \
+              --voice pt-BR-FranciscaNeural \
+              --text "Seu cachorro pode sair na rua? Espere a vacinação completa." \
+              --write-media artifacts/audio/edge-tts.mp3
+          } 2>&1 | tee artifacts/logs/edge-tts.log
+          rc=${PIPESTATUS[0]}
+          echo "seconds=$((SECONDS-start))" >> "$GITHUB_OUTPUT"
+          exit "$rc"
+
+      - name: Gerar audio Kokoro-82M lang_code p
+        id: kokoro
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p artifacts/logs artifacts/audio
+          start=$SECONDS
+          set +e
+          {
+            set -euo pipefail
+            sudo apt-get update
+            sudo apt-get install -y espeak-ng
+            python -m pip install --disable-pip-version-check kokoro soundfile numpy
+            python - <<'PY'
+          import numpy as np
+          import soundfile as sf
+          from kokoro import KPipeline
+
+          text = "Seu cachorro pode sair na rua? Espere a vacinação completa."
+          pipeline = KPipeline(lang_code="p")
+          chunks = [audio for _, _, audio in pipeline(text, voice="pf_dora")]
+          if not chunks:
+              raise RuntimeError("Kokoro nao produziu nenhum trecho de audio")
+          sf.write("artifacts/audio/kokoro.wav", np.concatenate(chunks), 24000)
+          PY
+          } 2>&1 | tee artifacts/logs/kokoro.log
+          rc=${PIPESTATUS[0]}
+          echo "seconds=$((SECONDS-start))" >> "$GITHUB_OUTPUT"
+          exit "$rc"
+
+      - name: Transcrever audio edge-tts com Whisper small e gerar SRT
+        id: whisper_edge
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p artifacts/logs artifacts/subtitles
+          start=$SECONDS
+          set +e
+          {
+            set -euo pipefail
+            test -s artifacts/audio/edge-tts.mp3 || { echo "Audio edge-tts ausente ou vazio"; exit 1; }
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+            python -m pip install --disable-pip-version-check openai-whisper
+            whisper artifacts/audio/edge-tts.mp3 \
+              --model small \
+              --language Portuguese \
+              --task transcribe \
+              --output_format srt \
+              --output_dir artifacts/subtitles
+            mv artifacts/subtitles/edge-tts.srt artifacts/subtitles/edge-tts-whisper.srt
+          } 2>&1 | tee artifacts/logs/whisper-edge.log
+          rc=${PIPESTATUS[0]}
+          echo "seconds=$((SECONDS-start))" >> "$GITHUB_OUTPUT"
+          exit "$rc"
+
+      - name: Transcrever audio Kokoro com Whisper small e gerar SRT
+        id: whisper_kokoro
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p artifacts/logs artifacts/subtitles
+          start=$SECONDS
+          set +e
+          {
+            set -euo pipefail
+            test -s artifacts/audio/kokoro.wav || { echo "Audio Kokoro ausente ou vazio"; exit 1; }
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+            python -m pip install --disable-pip-version-check openai-whisper
+            whisper artifacts/audio/kokoro.wav \
+              --model small \
+              --language Portuguese \
+              --task transcribe \
+              --output_format srt \
+              --output_dir artifacts/subtitles
+            mv artifacts/subtitles/kokoro.srt artifacts/subtitles/kokoro-whisper.srt
+          } 2>&1 | tee artifacts/logs/whisper-kokoro.log
+          rc=${PIPESTATUS[0]}
+          echo "seconds=$((SECONDS-start))" >> "$GITHUB_OUTPUT"
+          exit "$rc"
+
+      - name: Renderizar MP4 vertical com HyperFrames
+        id: hyperframes
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p artifacts/logs artifacts/video artifacts/hyperframes
+          start=$SECONDS
+          set +e
+          {
+            set -euo pipefail
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg
+            cat > artifacts/hyperframes/index.html <<'HTML'
+          <!doctype html>
+          <html lang="pt-BR">
+          <head>
+            <meta charset="utf-8">
+            <style>
+              * { box-sizing: border-box; }
+              html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; }
+              #root {
+                width: 1080px; height: 1920px; display: flex; flex-direction: column;
+                align-items: center; justify-content: center; padding: 100px;
+                color: #fff; text-align: center; font-family: Arial, sans-serif;
+                background: radial-gradient(circle at 50% 30%, #274c77, #101827 70%);
+              }
+              .eyebrow { color: #a8dadc; font-size: 42px; letter-spacing: 8px; text-transform: uppercase; }
+              h1 { margin: 50px 0; font-size: 92px; line-height: 1.12; }
+              p { color: #e8edf2; font-size: 48px; line-height: 1.4; }
+            </style>
+          </head>
+          <body>
+            <main id="root" data-composition-id="main" data-start="0" data-duration="10"
+              data-fps="30" data-width="1080" data-height="1920">
+              <section class="clip" data-start="0" data-duration="10" data-track-index="0">
+                <div class="eyebrow">Saude do seu pet</div>
+                <h1>Seu cachorro pode sair na rua?</h1>
+                <p>Espere a vacinação completa.</p>
+              </section>
+            </main>
+          </body>
+          </html>
+          HTML
+            npx --yes hyperframes browser ensure
+            npx --yes hyperframes render \
+              -c artifacts/hyperframes/index.html \
+              -o artifacts/video/hyperframes.mp4
+          } 2>&1 | tee artifacts/logs/hyperframes.log
+          rc=${PIPESTATUS[0]}
+          echo "seconds=$((SECONDS-start))" >> "$GITHUB_OUTPUT"
+          exit "$rc"
+
+      - name: Renderizar MP4 com ffmpeg zoompan xfade e legenda
+        id: ffmpeg_video
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p artifacts/logs artifacts/video artifacts/subtitles
+          start=$SECONDS
+          set +e
+          {
+            set -euo pipefail
+            sudo apt-get update
+            sudo apt-get install -y ffmpeg fonts-dejavu-core
+            cat > artifacts/subtitles/ffmpeg-caption.srt <<'SRT'
+          1
+          00:00:00,400 --> 00:00:06,800
+          Seu cachorro pode sair na rua? Espere a vacinação completa.
+          SRT
+            ffmpeg -hide_banner -y \
+              -f lavfi -i "color=c=0x101827:s=1080x1920:r=30:d=4" \
+              -f lavfi -i "color=c=0x203a43:s=1080x1920:r=30:d=4" \
+              -f lavfi -i "color=c=0x2c5364:s=1080x1920:r=30:d=4" \
+              -filter_complex "\
+                [0:v]zoompan=z='1+0.08*on/119':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,setsar=1,format=yuv420p[v0];\
+                [1:v]zoompan=z='1+0.08*on/119':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,setsar=1,format=yuv420p[v1];\
+                [2:v]zoompan=z='1+0.08*on/119':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,setsar=1,format=yuv420p[v2];\
+                [v0][v1]xfade=transition=fade:duration=1:offset=3[x1];\
+                [x1][v2]xfade=transition=fade:duration=1:offset=6,\
+                  subtitles=filename=artifacts/subtitles/ffmpeg-caption.srt:force_style='FontName=DejaVu Sans,FontSize=48,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BorderStyle=1,Outline=3,Alignment=2,MarginV=150'[vout]" \
+              -map "[vout]" -an -t 10 -c:v libx264 -preset veryfast -crf 23 \
+              -pix_fmt yuv420p -movflags +faststart artifacts/video/ffmpeg-zoompan-xfade.mp4
+          } 2>&1 | tee artifacts/logs/ffmpeg-video.log
+          rc=${PIPESTATUS[0]}
+          echo "seconds=$((SECONDS-start))" >> "$GITHUB_OUTPUT"
+          exit "$rc"
+
+      - name: Resumo dos testes
+        if: always()
+        env:
+          EDGE_RESULT: ${{ steps.edge_tts.outcome }}
+          EDGE_SECONDS: ${{ steps.edge_tts.outputs.seconds }}
+          KOKORO_RESULT: ${{ steps.kokoro.outcome }}
+          KOKORO_SECONDS: ${{ steps.kokoro.outputs.seconds }}
+          WHISPER_EDGE_RESULT: ${{ steps.whisper_edge.outcome }}
+          WHISPER_EDGE_SECONDS: ${{ steps.whisper_edge.outputs.seconds }}
+          WHISPER_KOKORO_RESULT: ${{ steps.whisper_kokoro.outcome }}
+          WHISPER_KOKORO_SECONDS: ${{ steps.whisper_kokoro.outputs.seconds }}
+          HYPERFRAMES_RESULT: ${{ steps.hyperframes.outcome }}
+          HYPERFRAMES_SECONDS: ${{ steps.hyperframes.outputs.seconds }}
+          FFMPEG_RESULT: ${{ steps.ffmpeg_video.outcome }}
+          FFMPEG_SECONDS: ${{ steps.ffmpeg_video.outputs.seconds }}
+        shell: bash
+        run: |
+          size_of() {
+            if [[ -s "$1" ]]; then
+              numfmt --to=iec --suffix=B "$(stat -c %s "$1")"
+            else
+              printf '%s' '—'
+            fi
+          }
+          reason_for() {
+            local log="$1" line
+            line="$(grep -Ei 'error|exception|failed|not found|ausente|no such file|invalid|cannot|unable' "$log" 2>/dev/null | tail -n 1 || true)"
+            if [[ -z "$line" ]]; then
+              line="$(tail -n 1 "$log" 2>/dev/null || printf 'sem detalhe no log')"
+            fi
+            printf '%s' "${line//$'\n'/ }" | tr '|' '/'
+          }
+          row() {
+            local name="$1" outcome="$2" seconds="$3" file="$4" log="$5"
+            local result reason size
+            size="$(size_of "$file")"
+            if [[ "$outcome" == "success" ]]; then
+              result="funcionou"
+              reason="—"
+            else
+              result="falhou"
+              reason="$(reason_for "$log")"
+            fi
+            printf '| %s | %s | %s | %s | %ss |\n' "$name" "$result" "$reason" "$size" "${seconds:-?}"
+          }
+          {
+            echo "### Teste de ferramentas"
+            echo
+            echo "| Ferramenta | Resultado | Motivo | Tamanho | Tempo |"
+            echo "|---|---|---|---:|---:|"
+            row "edge-tts pt-BR" "$EDGE_RESULT" "$EDGE_SECONDS" artifacts/audio/edge-tts.mp3 artifacts/logs/edge-tts.log
+            row "Kokoro-82M pt" "$KOKORO_RESULT" "$KOKORO_SECONDS" artifacts/audio/kokoro.wav artifacts/logs/kokoro.log
+            row "Whisper small (edge-tts)" "$WHISPER_EDGE_RESULT" "$WHISPER_EDGE_SECONDS" artifacts/subtitles/edge-tts-whisper.srt artifacts/logs/whisper-edge.log
+            row "Whisper small (Kokoro)" "$WHISPER_KOKORO_RESULT" "$WHISPER_KOKORO_SECONDS" artifacts/subtitles/kokoro-whisper.srt artifacts/logs/whisper-kokoro.log
+            row "HyperFrames 1080x1920" "$HYPERFRAMES_RESULT" "$HYPERFRAMES_SECONDS" artifacts/video/hyperframes.mp4 artifacts/logs/hyperframes.log
+            row "FFmpeg zoompan+xfade+legenda" "$FFMPEG_RESULT" "$FFMPEG_SECONDS" artifacts/video/ffmpeg-zoompan-xfade.mp4 artifacts/logs/ffmpeg-video.log
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Subir audios, legendas, videos e logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: teste-ferramentas-${{ github.run_id }}
+          path: artifacts/
+          if-no-files-found: warn
+          retention-days: 7
