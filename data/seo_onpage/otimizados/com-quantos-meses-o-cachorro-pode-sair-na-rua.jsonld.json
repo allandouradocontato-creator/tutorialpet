@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Com quantos meses o cachorro pode sair na rua? O que saber antes do primeiro passeio",
+    "description": "Com quantos meses o cachorro pode sair na rua? O que saber antes do primeiro passeio. A resposta curta é: **não existe uma idade certa para todo...",
+    "datePublished": "2026-10-06",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Person",
+      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+    },
+    "url": "https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua"
+    },
+    "image": "https://tutorialpet.com.br/imagens/com-quantos-meses-o-cachorro-pode-sair-na-rua.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quantos meses o cachorro precisa ter para sair na rua?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não há uma idade única. O que conta é o protocolo de vacinas do seu filhote estar completo, segundo o médico-veterinário que acompanha ele."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar o filhote no quintal enquanto espero?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende de o espaço ser limpo e de ter contato com outros animais ou não. Pergunte ao veterinário o que é seguro no seu caso."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "E se eu adotei um cachorro sem histórico de vacinas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Leve ao veterinário o quanto antes. Ele vai avaliar o filhote e montar o calendário certo, em vez de você tentar adivinhar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como ajudar um filhote que tem medo da rua?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Com passos pequenos e positivos: trajetos curtos, petiscos, e voltando para casa antes que o medo aumente. Se o medo for intenso, vale conversar com o veterinário ou com um profissional de comportamento."
+        }
+      }
+    ]
+  }
+}
