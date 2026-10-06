@@ -148,9 +148,13 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
         for v in structured_data.values()
     )
 
+    jsonld_scripts = jsonld_scripts.replace(
+        '{"@type": "Person", "name": "PREENCHER_APOS_APROVACAO_HUMANA"}',
+        '{"@type": "Organization", "name": "Tutorial Pet"}')
+
     autor = (fm.get("autor") or "").strip()
     byline = (f'<p class="byline">Por {html_lib.escape(autor)}</p>' if autor
-              else '<p class="byline">Autoria: [PREENCHER — pessoa real cadastrada em /sobre antes de publicar]</p>')
+              else (f'<p class="byline">Por {html_lib.escape((fm.get("assinatura") or "Equipe Tutorial Pet").strip())}</p>'))
 
     breadcrumb = (f'<div class="breadcrumb"><a href="/">Início</a> &gt; '
                   f'<a href="/#{pilar_key}">{html_lib.escape(pilar_titulo)}</a> &gt; {html_lib.escape(fm["titulo"])}</div>')
