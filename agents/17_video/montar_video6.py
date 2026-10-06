@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import re
 import os
 import shutil
 import subprocess
@@ -113,14 +114,28 @@ def curl_bin() -> str:
     return shutil.which("curl.exe") or shutil.which("curl") or "curl"
 
 
+GENTE = {"woman", "women", "man", "men", "girl", "boy", "people", "person", "persons", "hand", "hands", "owner",
+         "owners", "child", "children", "kid", "kids", "family", "couple", "trainer", "lady", "human", "leg", "legs",
+         "feet", "foot", "baby", "toddler", "male", "female", "teen", "student", "walking-with", "holding", "petting",
+         "hugging", "playing-with", "cuddling", "yoga", "class"}
+
+
+def tem_gente(v: dict) -> bool:
+    """Pexels coloca a descricao no endereco da pagina; descarta clipes que citam pessoas ou maos."""
+    partes = re.split(r"[^a-z]+", str(v.get("url", "")).lower().split("/video/")[-1])
+    return any(p in GENTE for p in partes)
+
+
 def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str) -> list[Path]:
     url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
-        {"query": busca, "orientation": "portrait", "size": "medium", "per_page": 10})
+        {"query": busca, "orientation": "portrait", "size": "medium", "per_page": 40})
     saidas = []
     try:
         r = subprocess.run([curl_bin(), "-sS", "-m", "40", "-H", f"Authorization: {chave}", url],
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
         for v in json.loads(r.stdout).get("videos", []):
+            if tem_gente(v):
+                continue
             arqs = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and f.get("height", 0) >= 720]
             if not arqs:
                 continue

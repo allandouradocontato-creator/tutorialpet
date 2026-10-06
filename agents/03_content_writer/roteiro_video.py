@@ -24,7 +24,7 @@ O vídeo deve ILUSTRAR exatamente o que o artigo ensina — nada fora do artigo.
 Regras: sem inventar estudo ou estatística, sem credencial veterinária, orientar procurar veterinário em saúde.
 Responda SOMENTE com JSON válido (sem crases) neste formato:
 {"titulo_video": str, "gancho_3s": str,
- "cenas": [{"narracao": str, "visual_busca_banco_livre": str (termos em inglês para Pexels/Pixabay), "texto_na_tela": str}],
+ "cenas": [{"narracao": str, "visual_busca_banco_livre": str (termos em inglês para Pexels/Pixabay; SOMENTE o animal em cena, nunca pessoas, mãos, donos ou crianças: ex. "puppy chewing toy close up", "dog sleeping on floor"), "texto_na_tela": str}],
  "chamada_final": str, "hashtags": [str]}
 Use de 5 a 7 cenas, narração total até 110 palavras."""
 
@@ -57,7 +57,7 @@ def gerar(path: Path) -> Path:
     chamada = prod.get("chamada_topo", "Conheça o app Sozinho em Casa.")
     url_artigo = f"https://tutorialpet.com.br/{slug}"
     # Regra da casa: link do produto logo no começo da legenda; artigo logo abaixo.
-    legenda = f"🐾 {chamada} → {link_produto}\n\n{roteiro.get('gancho_3s', '')}\n\n📖 Artigo completo: {url_artigo}\n\n" + " ".join(roteiro.get("hashtags", []))
+    legenda = f"🐾 {chamada} → {link_produto}\n\n{roteiro.get('gancho_3s', '')}\n\n📖 Artigo completo: {url_artigo}\n\n" + " ".join("#" + str(h).strip().lstrip("#").replace(" ", "") for h in roteiro.get("hashtags", []) if str(h).strip())
     roteiro["legenda"] = legenda.strip()
     roteiro["slug"] = slug
     out = ROOT / "data" / "social" / "roteiros" / f"{slug}.json"
