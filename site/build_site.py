@@ -29,6 +29,14 @@ from core.config import load_env_file, load_site, load_yaml  # noqa: E402
 from core.markdown import MarkdownError, read_markdown  # noqa: E402
 from core.theme import BASE_CSS, GOOGLE_FONT_HEAD, PILAR_VISUAL, PILAR_VISUAL_PADRAO  # noqa: E402
 
+# Google Analytics 4 (propriedade tutorialpet.com.br, criada em 06/10/2026)
+GA_ID = "G-HP7ZXLFBXH"
+GA_TAG = (
+    f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>'
+    "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+    f"gtag('js',new Date());gtag('config','{GA_ID}');</script>"
+)
+
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
@@ -91,6 +99,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <meta property="og:locale" content="pt_BR">
 {og_image_tag}
 {GOOGLE_FONT_HEAD}
+{GA_TAG}
 {extra_head}
 <style>{CSS}</style>
 </head>
