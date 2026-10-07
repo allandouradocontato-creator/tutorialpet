@@ -8,3 +8,5 @@ data/keyword_research/*/
 
 # Marcador operacional do Agente 16 (para tudo enquanto existir) — nunca versionado
 /STOP
+
+data/acelerador/

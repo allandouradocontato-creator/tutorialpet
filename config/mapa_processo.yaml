@@ -1,0 +1,58 @@
+# Mapa do processo da fábrica Tutorial Pet (usado pelo agente 23, Acelerador de Processos).
+# Atualize quando uma etapa mudar. "medido" = número observado em rodada real; sem número = ainda não medido.
+etapas:
+  - id: 1
+    nome: Tema do dia
+    como_funciona: fila em config/fila_temas.yaml; agente 19 repõe temas com LLM
+    custo_hoje: grátis
+    gargalo_conhecido: "tema repetido reescrevia o mesmo artigo (corrigido em 07/10/2026)"
+  - id: 2
+    nome: Artigo
+    como_funciona: core/llm.py chama o Gemini (modelo principal + reservas, com novas tentativas)
+    custo_hoje: grátis (cota gratuita do Gemini)
+    gargalo_conhecido: "escrita levou 12,5 min em 07/10/2026 (medido); causa ainda a confirmar nos novos logs"
+  - id: 3
+    nome: Roteiro do vídeo
+    como_funciona: agents/03_content_writer/roteiro_video.py; agente 20 (Duda) existe mas não está ligado
+    custo_hoje: grátis
+    gargalo_conhecido: "gancho do produto não muda com o tema (legenda de cachorro em vídeo de gato)"
+  - id: 4
+    nome: Vídeo
+    como_funciona: montar_video6.py com edge-tts, clipes Pexels e ffmpeg
+    custo_hoje: grátis
+    gargalo_conhecido: "vídeo grátis de 06/10 saiu ok mas sem atrair cliques; fase 2 busca ferramenta melhor"
+  - id: 5
+    nome: Pacote e saúde
+    como_funciona: agente 18 confere o pacote e abre issue se falhar
+    custo_hoje: grátis
+    gargalo_conhecido: ""
+  - id: 6
+    nome: Publicação
+    como_funciona: Metricool (Instagram e Facebook Reels); agente 21 monta o pedido mas não envia
+    custo_hoje: grátis
+    gargalo_conhecido: "envio ainda depende de sessão do Claude, falta token da API"
+  - id: 7
+    nome: Landing page
+    como_funciona: landing/index.html no repositório sozinho-em-casa-app, deploy automático na Vercel
+    custo_hoje: grátis
+    gargalo_conhecido: "página feita à mão; sem mapa de calor"
+  - id: 8
+    nome: Anúncio
+    como_funciona: rascunho da campanha na Meta; agente 22 confere antes de publicar
+    custo_hoje: gasto de anúncio só quando o usuário autoriza
+    gargalo_conhecido: ""
+  - id: 9
+    nome: Checkout e entrega
+    como_funciona: Kiwify com Área de Membros
+    custo_hoje: taxa por venda
+    gargalo_conhecido: "sem order bump"
+  - id: 10
+    nome: Leitura de resultado
+    como_funciona: Auditor de Anúncios ainda não construído
+    custo_hoje: grátis
+    gargalo_conhecido: "resultado lido à mão"
+regras_fixas:
+  - grátis primeiro; compra só com o sistema fechado
+  - nunca copiar código, texto ou marca de terceiros; só a função que é pública
+  - nunca reaproveitar vídeo de terceiros; recriar o formato
+  - foco: fábrica diária e landing do Sozinho em Casa vêm antes de qualquer ideia nova
