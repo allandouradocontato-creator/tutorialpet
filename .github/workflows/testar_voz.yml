@@ -15,6 +15,11 @@ on:
         required: false
         default: ""
 
+      modelo:
+        description: "id do modelo (vazio usa o config)"
+        required: false
+        default: ""
+
 permissions:
   contents: read
 
@@ -36,6 +41,7 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
           TEXTO: ${{ github.event.inputs.texto }}
+          ELEVENLABS_MODEL: ${{ github.event.inputs.modelo }}
           ELEVENLABS_STABILITY: ${{ github.event.inputs.estabilidade }}
         run: |
           python3 - <<'PY'
