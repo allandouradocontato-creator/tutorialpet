@@ -1,0 +1,19 @@
+# Regras de gasto da Meta para campanhas da Tutorial Pet. Lidas pelo agente 22 (Guardião de Gasto).
+# Origem: lição de 05/10/2026 — 9 checkouts, R$ 31,83 e 0 vendas, 100% vindos do Audience Network.
+orcamento_diario_max_reais: 12
+posicionamentos_permitidos:        # SÓ estes, sempre manuais
+  - facebook_feed
+  - facebook_reels
+  - facebook_stories
+  - instagram_feed
+  - instagram_reels
+  - instagram_stories
+posicionamentos_proibidos:
+  - audience_network
+  - messenger
+  - instagram_explore
+pixel_id_esperado: "2135885120651427"      # dataset "sozinhoemcasa" (conta de anúncios 1213984913380523)
+conta_anuncios_esperada: "1213984913380523"
+paises_permitidos: ["BR"]
+eventos_otimizacao_ok: ["INITIATE_CHECKOUT", "PURCHASE"]
+exigir_posicionamento_manual: true

@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: fabrica
@@ -30,7 +31,7 @@ jobs:
       - name: Dependencias
         run: |
           pip install pyyaml requests edge-tts
-          if [ -f requirements.txt ]; then pip install -r requirements.txt || true; fi
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
 
       - name: Pasta de entrega (branch media)
@@ -59,4 +60,25 @@ jobs:
           git config user.email "fabrica@tutorialpet.com.br"
           git add config/fila_temas.yaml data/content_writer data/social/roteiros || true
           git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || echo "nada a commitar"
-          git push origin main || echo "push main ignorado"
+          git push origin main || echo "::warning::push da fila no main falhou (conflito?); rascunhos nao foram guardados"
+
+      - name: Saude da fabrica (falha de verdade se o pacote estiver ruim)
+        if: always()
+        env:
+          WRITER_MODE: llm
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          set +e
+          python agents/18_saude_fabrica/agent.py /tmp/media
+          code=$?
+          [ -f data/saude/ultimo.md ] && cat data/saude/ultimo.md >> "$GITHUB_STEP_SUMMARY"
+          exit $code
+
+      - name: Alerta (abre uma issue no GitHub se qualquer passo falhou)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          corpo="A fabrica de $(date -u +%F) falhou.\n\nRodada: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\n\n$(cat data/saude/ultimo.md 2>/dev/null)"
+          gh issue create --title "Fabrica falhou em $(date -u +%F)" --body "$(printf '%b' "$corpo")" || echo "::warning::nao consegui abrir a issue"
