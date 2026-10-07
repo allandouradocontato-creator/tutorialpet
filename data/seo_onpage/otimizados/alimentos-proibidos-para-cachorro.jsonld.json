@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta",
-    "description": "Alimentos proibidos para cachorro: o Comandante Focinho dá o alerta. Sentido, tutores! Aqui é o Comandante Focinho, e essa aqui é uma missão séria:...",
+    "headline": "Alimentos proibidos para cachorro",
+    "description": "Descubra quais alimentos proibidos para cachorro colocam a saúde do seu pet em risco e saiba como manter sua cozinha segura.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/alimentos-proibidos-para-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/alimentos-proibidos-para-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/alimentos-proibidos-para-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Uma quantidade pequena desses alimentos já faz mal?",
+        "name": "O meu cachorro comeu um pedaço pequeno de cebola, o que devo fazer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, em vários casos (como uva, passas e xilitol) mesmo pouca quantidade já é motivo de preocupação e de contato imediato com um veterinário."
+          "text": "Mesmo em pequenas quantidades, a cebola pode afetar o sangue. Monitore o pet de perto e consulte um médico-veterinário para avaliar a necessidade de exames preventivos."
         }
       },
       {
         "@type": "Question",
-        "name": "Meu cachorro comeu chocolate e está bem agora, posso relaxar?",
+        "name": "Cachorro pode comer abacate?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Os sintomas podem demorar para aparecer. O mais seguro é sempre entrar em contato com um veterinário para avaliar o caso, mesmo sem sinais imediatos."
+          "text": "Não. O abacate contém persina, uma substância tóxica para os cães que pode causar vômitos, diarreia e problemas respiratórios."
         }
       },
       {
         "@type": "Question",
-        "name": "Existe alimento humano que seja seguro para dividir com o cão?",
+        "name": "O que fazer se o cachorro comer doce com adoçante xilitol?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Alguns alimentos em quantidade pequena e sem tempero são geralmente tolerados, mas o ideal é sempre confirmar com um veterinário antes de introduzir qualquer novidade na dieta dele."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso induzir o vômito em casa se ele comer algo da lista?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não faça isso sem orientação profissional — em algumas situações, induzir vômito pode causar mais dano do que ajudar. Ligue primeiro para um veterinário."
+          "text": "O xilitol causa uma queda drástica na glicemia e falência hepática rápida. Trata-se de uma emergência veterinária absoluta; leve o animal ao atendimento imediatamente."
         }
       }
     ]

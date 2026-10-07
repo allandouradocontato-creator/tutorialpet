@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como ensinar gato a usar a caixa de areia: guia prático",
+    "description": "Aprenda como ensinar gato a usar a caixa de areia com um guia prático, dicas de escolha do banheiro ideal e erros que atrapalham o pet.",
+    "datePublished": "2026-10-07",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-ensinar-gato-a-usar-a-caixa-de-areia",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-ensinar-gato-a-usar-a-caixa-de-areia"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que fazer se o gato fizer xixi no lugar errado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Limpe o local com produtos à base de enzimas para eliminar totalmente o odor, evitando que o cheiro atraia o animal para o mesmo ponto novamente. Nunca use cloro, pois o amoníaco presente pode lembrar o cheiro de urina e estimular o gato a repetir o ato.  * **Quantas vezes por dia devo limpar a caixa de areia?**   O ideal é remover os torrões de xixi e as fezes pelo menos duas vezes ao dia. Isso mantém o ambiente agradável para o felino e evita que o cheiro forte se espalhe pela casa.  * **Posso usar tapete higiênico para gatos?**   Alguns filhotes aceitam tapetes inicialmente, mas os gatos possuem um instinto natural de cavar e enterrar, o que torna a areia a melhor escolha a longo prazo para o comportamento saudável da espécie.  * **O gato precisa de ajuda para aprender sozinho?**   Na grande maioria das vezes, o instinto faz todo o trabalho. O papel do tutor é apenas garantir um ambiente limpo, seguro, acessível e com o tipo de areia adequado."
+        }
+      }
+    ]
+  }
+}

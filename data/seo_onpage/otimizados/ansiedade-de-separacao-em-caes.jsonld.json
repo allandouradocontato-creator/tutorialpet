@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Ansiedade de separação em cães: o Doutor Bagunça explica com o devido cuidado",
-    "description": "Ansiedade de separação em cães: o Doutor Bagunça explica com o devido cuidado. Seu cachorro vira uma bagunça só de você pegar as chaves pra sair? Pois...",
+    "headline": "Ansiedade de separação em cães: como identificar e ajudar",
+    "description": "Entenda a ansiedade de separação em cães, reconheça os sinais de sofrimento e descubra passos práticos para ajudar seu pet a ficar sozinho.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Mariah Maitre"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/ansiedade-de-separacao-em-caes",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/ansiedade-de-separacao-em-caes"
-    },
-    "image": "https://tutorialpet.com.br/imagens/ansiedade-de-separacao-em-caes.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Isso tem cura ou é pra sempre?",
+        "name": "Cães idosos podem desenvolver ansiedade de separação de repente?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Muitos cães melhoram bastante com o manejo correto e, quando necessário, acompanhamento profissional — o prognóstico varia de caso a caso, e vale conversar com um especialista sobre o quadro específico do seu cão."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Deixar outro cachorro fazer companhia resolve?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Às vezes ajuda, mas não é garantia — a ansiedade de separação está ligada ao apego com o tutor, não necessariamente à solidão física. Vale avaliar caso a caso."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Produtos calmantes naturais podem ajudar?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não use nada, nem natural, sem conversar antes com um médico-veterinário — a causa precisa ser entendida primeiro, e alguns produtos podem não ser indicados pra cada caso."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Isso pode ser confundido com falta de educação?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim, é um erro comum. Por isso observar o padrão (só acontece na ausência do tutor) é tão importante antes de rotular como birra."
+          "text": "Sim. Mudanças na rotina da casa, perda de outro animal da família ou o início de problemas cognitivos e sensoriais na velhice podem despertar esse medo repentino.  *   **Deixar a televisão ou o rádio ligados ajuda o cachorro a se sentir acompanhado?**     Para alguns cães, o som humano ajuda a abafar ruídos externos da rua, mas não resolve a raiz do problema de apego se ele não souber lidar com a solidão.  *   **Castigar o cachorro pelo estrago na porta resolve o comportamento?**     Não. A punição pós-fato apenas gera medo do tutor e aumenta ainda mais o nível geral de estresse e ansiedade do animal.  *   **Quanto tempo leva para o cão superar a ansiedade de separação?**     O tempo varia muito de acordo com o histórico e o grau de apego do pet, exigindo constância e treinos diários por semanas ou meses."
         }
       }
     ]

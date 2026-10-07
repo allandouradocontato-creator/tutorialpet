@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Pode dar sachê para gato todos os dias: guia prático",
+    "description": "Descubra se pode dar sachê para gato todos os dias, entendendo os benefícios da comida úmida, os cuidados com a saúde e a rotina ideal.",
+    "datePublished": "2026-10-07",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/pode-dar-sache-para-gato-todos-os-dias",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/pode-dar-sache-para-gato-todos-os-dias"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Dar sachê todos os dias estraga os dentes do gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente, mas a falta de mastigação de texturas mais firmes pode acelerar o acúmulo de placa bacteriana em alguns animais. A escovação dentária regular e o acompanhamento veterinário previnem o problema."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso guardar o sachê aberto na geladeira?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, você pode guardar a sobra em um pote com tampa na geladeira por em média 24 a 48 horas. Na hora de servir novamente, retire um pouco antes para que não esteja gelado, ou aqueça levemente no micro-ondas (verifique sempre a temperatura para não queimar o gato)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhotes e gatos idosos podem comer sachê diariamente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que o produto seja específico para a faixa etária correspondente (filhote, adulto ou sênior), pois as necessidades nutricionais mudam ao longo da vida do animal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Sachê engorda mais do que a ração seca?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende da quantidade e da marca. O sachê tem menos calorias por grama devido à água, mas como é muito saboroso, alguns gatos comem em excesso se o tutor não controlar as porções diárias."
+        }
+      }
+    ]
+  }
+}

@@ -1,77 +1,32 @@
-# Relatório do Curador do Blog — 07/10/2026 12:22
+# Relatório do Curador do Blog — 07/10/2026 16:30
 
-25 artigos auditados, 13 com problema bloqueante.
+26 artigos auditados, 0 com problema bloqueante.
 
-- REPROVADO | alimentos-proibidos-para-cachorro
-    - [bloqueante] conteúdo raso: 536 palavras (mínimo 850)
-    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] front-matter ainda tem 'persona' fictícia
-    - [bloqueante] persona 'Comandante Focinho' aparece no título ou no texto
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
-- REPROVADO | ansiedade-de-separacao-em-caes
-    - [bloqueante] conteúdo raso: 555 palavras (mínimo 850)
-    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] front-matter ainda tem 'persona' fictícia
-    - [bloqueante] persona 'Doutor Bagunça' aparece no título ou no texto
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
-    - [aviso] título com 77 caracteres (ideal até 70)
+- ok | alimentos-proibidos-para-cachorro
+- ok | ansiedade-de-separacao-em-caes
 - ok | arranhador-para-gato-qual-escolher
 - ok | brinquedos-para-cachorro-que-fica-sozinho
-- REPROVADO | cachorro-latindo-muito-o-que-fazer
-    - [bloqueante] conteúdo raso: 500 palavras (mínimo 850)
-    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] front-matter ainda tem 'persona' fictícia
-    - [bloqueante] persona 'Seu Trombone' aparece no título ou no texto
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [aviso] título com 85 caracteres (ideal até 70)
-- REPROVADO | caixa-de-transporte-para-gato
-    - [bloqueante] links internos insuficientes: 1 (mínimo 2)
-    - [bloqueante] link interno para página inexistente: como-ensinar-gato-a-usar-a-caixa-de-areia
-    - [aviso] título com 81 caracteres (ideal até 70)
+- ok | cachorro-latindo-muito-o-que-fazer
+- ok | caixa-de-transporte-para-gato
 - ok | coleira-ou-peitoral-para-cachorro
-- REPROVADO | com-quantos-meses-o-cachorro-pode-sair-na-rua
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [aviso] título com 84 caracteres (ideal até 70)
-- REPROVADO | com-que-frequencia-dar-banho-em-cachorro
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- ok | com-quantos-meses-o-cachorro-pode-sair-na-rua
+- ok | com-que-frequencia-dar-banho-em-cachorro
 - ok | como-cortar-unha-de-cachorro
     - [aviso] título com 80 caracteres (ideal até 70)
 - ok | como-dar-banho-em-gato
 - ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
-- REPROVADO | como-ensinar-gato-a-usar-a-caixa-de-areia
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- ok | como-ensinar-gato-a-usar-a-caixa-de-areia
 - ok | como-escovar-os-dentes-do-cachorro
-- REPROVADO | como-fazer-filhote-de-cachorro-parar-de-morder
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-- REPROVADO | como-limpar-caixa-de-areia-do-gato
-    - [bloqueante] links internos insuficientes: 1 (mínimo 2)
-    - [bloqueante] link interno para página inexistente: como-ensinar-gato-a-usar-a-caixa-de-areia
+- ok | como-fazer-filhote-de-cachorro-parar-de-morder
+    - [aviso] parágrafo acima de 130 palavras
+- ok | como-limpar-caixa-de-areia-do-gato
 - ok | como-socializar-filhote-de-gato
-- REPROVADO | como-trocar-a-racao-do-cachorro
-    - [bloqueante] conteúdo raso: 513 palavras (mínimo 850)
-    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] front-matter ainda tem 'persona' fictícia
-    - [bloqueante] persona 'Beto Trapalhão' aparece no título ou no texto
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [aviso] título com 86 caracteres (ideal até 70)
-- REPROVADO | enxoval-para-filhote-de-cachorro
-    - [bloqueante] conteúdo raso: 508 palavras (mínimo 850)
-    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] front-matter ainda tem 'persona' fictícia
-    - [bloqueante] persona 'Dona Fifi Marreco' aparece no título ou no texto
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
-    - [aviso] título com 78 caracteres (ideal até 70)
+- ok | como-trocar-a-racao-do-cachorro
+- ok | enxoval-para-filhote-de-cachorro
 - ok | gato-arranhando-o-sofa
+- ok | pode-dar-sache-para-gato-todos-os-dias
 - ok | primeiros-dias-do-filhote-em-casa
 - ok | quantas-vezes-por-dia-alimentar-gato
-- REPROVADO | quanto-tempo-um-cachorro-pode-ficar-sozinho
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
 - ok | racao-para-filhote-de-cachorro
-- REPROVADO | vacinas-para-filhote-de-cachorro
-    - [bloqueante] conteúdo raso: 534 palavras (mínimo 850)
-    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [aviso] título com 89 caracteres (ideal até 70)
+- ok | vacinas-para-filhote-de-cachorro

@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Com quantos meses o cachorro pode sair na rua? O que saber antes do primeiro passeio",
-    "description": "Com quantos meses o cachorro pode sair na rua? O que saber antes do primeiro passeio. A resposta curta é: **não existe uma idade certa para todo...",
+    "headline": "Com quantos meses o cachorro pode sair na rua? O que saber antes",
+    "description": "Descubra com quantos meses o cachorro pode sair na rua com segurança, quais vacinas são essenciais e como preparar o filhote para o passeio.",
     "datePublished": "2026-10-06",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "PREENCHER_APOS_APROVACAO_HUMANA"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua"
-    },
-    "image": "https://tutorialpet.com.br/imagens/com-quantos-meses-o-cachorro-pode-sair-na-rua.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quantos meses o cachorro precisa ter para sair na rua?",
+        "name": "Posso levar o filhote na rua se ele já tomou a primeira dose da vacina V10?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não há uma idade única. O que conta é o protocolo de vacinas do seu filhote estar completo, segundo o médico-veterinário que acompanha ele."
+          "text": "Não. A primeira dose é apenas o início do processo de estímulo imunológico. O filhote só está protegido em média após o término de todo o protocolo de vacinação e o prazo de ação estipulado pelo médico-veterinário do pet."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso deixar o filhote no quintal enquanto espero?",
+        "name": "Existe algum lugar onde o filhote pode caminhar antes dos quatro meses?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende de o espaço ser limpo e de ter contato com outros animais ou não. Pergunte ao veterinário o que é seguro no seu caso."
+          "text": "Apenas em ambientes controlados, higienizados e exclusivos para cães saudáveis e devidamente imunizados, como creches especializadas ou áreas internas livres do contato com fezes de animais desconhecidos."
         }
       },
       {
         "@type": "Question",
-        "name": "E se eu adotei um cachorro sem histórico de vacinas?",
+        "name": "Como acostumar o filhote a fazer xixi na rua se ele passa meses preso em casa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Leve ao veterinário o quanto antes. Ele vai avaliar o filhote e montar o calendário certo, em vez de você tentar adivinhar."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como ajudar um filhote que tem medo da rua?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Com passos pequenos e positivos: trajetos curtos, petiscos, e voltando para casa antes que o medo aumente. Se o medo for intenso, vale conversar com o veterinário ou com um profissional de comportamento."
+          "text": "Você pode usar tapetes higienizados em áreas internas durante a fase de isolamento e, após a liberação, reforçar positivamente com petiscos e festas sempre que ele eliminar as necessidades no solo durante os passeios."
         }
       }
     ]

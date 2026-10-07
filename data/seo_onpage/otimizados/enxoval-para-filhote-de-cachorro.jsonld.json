@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Enxoval para filhote de cachorro: a Dona Fifi Marreco faz a lista (com classe)",
-    "description": "Enxoval para filhote de cachorro: a Dona Fifi Marreco faz a lista (com classe). Ai, meu coração se enche de alegria só de pensar em montar um enxoval!...",
+    "headline": "Enxoval para filhote de cachorro",
+    "description": "Monte o enxoval para filhote de cachorro sem errar nas compras. Descubra itens essenciais de conforto, segurança e alimentação.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Mariah Maitre"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/enxoval-para-filhote-de-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/enxoval-para-filhote-de-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/enxoval-para-filhote-de-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Preciso comprar cama grande desde o início?",
+        "name": "Preciso comprar roupas para o filhote no enxoval?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Se o seu filhote for de raça de porte grande, vale considerar uma cama intermediária ou já pensar na troca futura — cama pequena demais vira desperdício rápido."
+          "text": "Em média, cães saudáveis de pelagem normal não precisam de roupas, pois o próprio pelo regula a temperatura. Consulte o médico-veterinário do pet se a raça for muito pelada ou se viver em regiões de frio extremo."
         }
       },
       {
         "@type": "Question",
-        "name": "Vale a pena comprar roupinha pro filhote?",
+        "name": "Quantos brinquedos devo comprar para começar?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "É opcional, mais estético que necessário na maioria dos casos — só é realmente importante em climas muito frios ou por indicação específica."
+          "text": "Três a quatro brinquedos de tipos diferentes costumam ser suficientes para iniciar, incluindo um mordedor resistente e um brinquedo interativo."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso usar itens de segunda mão no enxoval?",
+        "name": "Qual o melhor material para a caminha do filhote?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode, desde que estejam em bom estado e bem higienizados — cama, comedouro e caixa de transporte usados, limpos direito, funcionam bem."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Quando comprar a coleira e a guia?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pode comprar já, mas o uso pra passeio externo só deve começar quando o veterinário liberar, conforme o calendário de vacinas do filhote."
+          "text": "Tecidos impermeáveis ou fáceis de lavar na máquina são os melhores, pois filhotes frequentemente passam por pequenos escapes de xixi na fase de adaptação."
         }
       }
     ]

@@ -1,6 +1,6 @@
 ---
 data: '2026-10-07'
-status: rascunho_pendente_revisao
+status: otimizado_seo
 slug: como-ensinar-gato-a-usar-a-caixa-de-areia
 termo_origem: como ensinar gato a usar a caixa de areia
 pilar: primeiros_passos_filhotes
@@ -9,10 +9,42 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-07T13:08:38+00:00'
 aviso_saude_aplicavel: false
 titulo: 'Como ensinar gato a usar a caixa de areia: guia prático'
-meta_description: Aprenda como ensinar gato a usar a caixa de areia com um guia prático, dicas de escolha do banheiro ideal e erros que atrapalham o pet.
+meta_description: Aprenda como ensinar gato a usar a caixa de areia com um guia prático,
+  dicas de escolha do banheiro ideal e erros que atrapalham o pet.
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
+revisado_por_agente_04: true
+revisado_em: '2026-10-07T16:30:40+00:00'
+checagens_qualidade:
+- checagem: legibilidade
+  severidade: aviso
+  descricao: 2/85 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
+    — simplificar.
+  trechos:
+  - '42 palavras: "* Exemplo prático: Se o gato insiste em fazer xixi no tapete da
+    sala, observe se..."'
+  - '38 palavras: "* Exemplo prático: Um gato adulto que sempre usou a caixa perfeitamente
+    e, de re..."'
+titulo_seo: 'Como ensinar gato a usar a caixa de areia: guia prático'
+keyword_density: 0.0
+otimizado_por_agente_05: true
+otimizado_em: '2026-10-07T16:30:40+00:00'
+checagens_seo: []
+sugestoes_links_internos:
+- termo_relacionado: primeiros dias do filhote em casa
+  slug_provavel: primeiros-dias-do-filhote-em-casa
+  ancora_sugerida: primeiros dias do filhote em casa
+  aplicar_somente_se: o artigo de destino já estiver publicado no site
+- termo_relacionado: vacinas para filhote de cachorro
+  slug_provavel: vacinas-para-filhote-de-cachorro
+  ancora_sugerida: vacinas para filhote de cachorro
+  aplicar_somente_se: o artigo de destino já estiver publicado no site
+- termo_relacionado: como socializar filhote de gato
+  slug_provavel: como-socializar-filhote-de-gato
+  ancora_sugerida: como socializar filhote de gato
+  aplicar_somente_se: o artigo de destino já estiver publicado no site
+dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-gato-a-usar-a-caixa-de-areia.jsonld.json
 ---
 
 # Como ensinar gato a usar a caixa de areia: guia prático

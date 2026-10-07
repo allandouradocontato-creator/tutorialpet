@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem",
-    "description": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem. A chegada de um gatinho em casa traz muitas dúvidas, e a escolha dos...",
+    "headline": "Caixa de transporte para gato: como escolher e usar sem estresse",
+    "description": "Caixa de transporte para gato: como escolher e usar sem estresse. A escolha da caixa de transporte costuma gerar dúvidas em quem convive com felinos....",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -22,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar uma bolsa de tecido em vez da caixa rígida?",
+        "name": "Posso usar a mesma caixa para dois gatos ao mesmo tempo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, existem modelos de tecido aprovados para transporte, mas eles oferecem menos proteção contra impactos e podem ser rasgados por unhas afiadas se o gato entrar em pânico."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "É normal o gato fazer xixi na caixa durante a viagem?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pode acontecer devido ao medo ou enjoo. Por isso, coloque sempre tapetes higiênicos absorventes ou mantas fáceis de lavar no fundo do acessório."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Devo deixar a caixa de transporte sempre à mostra na casa?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Com certeza. Essa é a melhor forma de fazer com que o gato veja o objeto como parte do território dele, eliminando o trauma das saídas."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como acostumar um gato adulto que já tem pavor da caixa?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Tenha paciência extrema. Desmonte a caixa e deixe apenas a base com a caminha por alguns dias. Aos poucos, monte o restante e continue premiando o pet com petiscos."
+          "text": "Não é recomendado. Mesmo que sejam amigos em casa, o espaço reduzido e o estresse do transporte podem gerar brigas intensas e ferimentos graves. Cada gato deve ter a sua própria caixa.  * **É normal o gato fazer xixi na caixa durante o passeio?**   Sim, o medo e a ansiedade podem fazer com que o gato urine ou defequi. Por isso, coloque sempre tapetes higiênicos ou fraldas geriátricas absorventes forrando o fundo da caixa.  * **Devo tirar o gato da caixa na sala de espera do veterinário?**   Geralmente não. A sala de espera de uma clínica veterinária tem cheiros e sons de outros animais, o que deixa o gato vulnerável. O mais seguro é mantê-lo dentro da caixa, cobrindo-a com uma manta.  * **Como limpar a caixa após um incidente no transporte?**   Lave com água corrente e sabão neutro. Evite produtos com cheiro muito forte ou cloro, pois o olfato sensível do gato pode rejeitar o objeto depois."
         }
       }
     ]

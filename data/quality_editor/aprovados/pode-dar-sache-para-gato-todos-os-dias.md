@@ -1,6 +1,6 @@
 ---
 data: '2026-10-07'
-status: rascunho_pendente_revisao
+status: aprovado_qualidade
 slug: pode-dar-sache-para-gato-todos-os-dias
 termo_origem: pode dar sache para gato todos os dias
 pilar: alimentacao
@@ -9,10 +9,27 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-07T16:01:25+00:00'
 aviso_saude_aplicavel: false
 titulo: 'Pode dar sachê para gato todos os dias: guia prático'
-meta_description: Descubra se pode dar sachê para gato todos os dias, entendendo os benefícios da comida úmida, os cuidados com a saúde e a rotina ideal.
+meta_description: Descubra se pode dar sachê para gato todos os dias, entendendo os
+  benefícios da comida úmida, os cuidados com a saúde e a rotina ideal.
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
+revisado_por_agente_04: true
+revisado_em: '2026-10-07T16:30:41+00:00'
+checagens_qualidade:
+- checagem: legibilidade
+  severidade: aviso
+  descricao: 4/65 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
+    — simplificar.
+  trechos:
+  - '40 palavras: "Neste guia completo, vamos explicar o porquê de incluir esse alimento
+    no cardápi..."'
+  - '40 palavras: "*Exemplo prático:* Se o seu gato tem o hábito de ignorar o bebedouro,
+    dividir a ..."'
+  - '44 palavras: "*Exemplo prático:* Se você está mudando a alimentação do pet para
+    incluir mais s..."'
+  - '37 palavras: "Alguns tutores acreditam que a ração seca limpa os dentes, o que
+    é um mito parci..."'
 ---
 
 # Pode dar sachê para gato todos os dias: guia prático

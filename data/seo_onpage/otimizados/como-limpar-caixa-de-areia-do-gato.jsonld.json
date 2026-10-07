@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como limpar caixa de areia do gato",
-    "description": "Descubra como limpar caixa de areia do gato do jeito certo, evitando odores e mantendo seu felino feliz e saudável todos os dias.",
+    "description": "Aprenda como limpar caixa de areia do gato corretamente para manter a higiene da casa e evitar que o felino faça xixi fora do lugar.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -22,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Qual é o melhor tipo de areia para facilitar a limpeza?",
+        "name": "Posso usar creolina ou água sanitária para lavar a caixa do gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As areias aglutinantes (como as de argila bentonita ou algumas opções biodegradáveis) formam torrões firmes quando entram em contato com o líquido, facilitando muito a remoção diária com a pazinha.  * **Posso usar desinfetante com cheiro forte para lavar a caixa?** Não é recomendado. Produtos com forte fragrância ou cloro podem irritar o sistema respiratório sensível do gato e causar rejeição ao banheiro. Use sempre água e sabão neutro.  * **Com que frequência devo trocar a caixa de plástico por uma nova?** O plástico vai absorvendo odores com o tempo e sofrendo pequenas ranhuras onde bactérias se acumulam. Em média, a troca do recipiente completo ocorre uma vez por ano, mas vale confirmar com o médico-veterinário do pet.  * **Quantas caixas de areia devo ter em casa se tiver apenas um gato?** A regra básica recomendada por especialistas em comportamento felino é o número de gatos mais um. Ou seja, para um gato, o ideal são duas caixas espalhadas pela casa."
+          "text": "Não é recomendado. Produtos com cheiro muito forte, cloro puro ou amônia deixam odores que incomodam o gato e podem fazê-lo recusar a caixa ou urinar em tapetes. Prefira sabão neutro e enxágue bem.  * **Com que frequência devo trocar toda a areia da caixa?**   Em média a cada uma ou duas semanas, dependendo se você usa areia aglutinante ou não aglutinante, e de quantos gatos utilizam o mesmo recipiente. Confirme sempre a orientação ideal para o produto escolhido com o médico-veterinário do pet.  * **Por que meu gato faz xixi para fora da caixa mesmo ela estando limpa?**   Isso pode indicar desde uma preferência pelo tamanho ou formato da borda da caixa até questões médicas, como infecção urinária ou dor nas articulações ao entrar. Avalie o comportamento e consulte um médico-veterinário."
         }
       }
     ]

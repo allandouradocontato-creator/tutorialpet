@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como lidar com vacinas para filhote de cachorro: o que todo tutor iniciante precisa saber",
-    "description": "Como lidar com vacinas para filhote de cachorro: o que todo tutor iniciante precisa saber. Se você chegou até aqui é porque provavelmente está no meio...",
+    "headline": "Vacinas para filhote de cachorro: o que saber para proteger seu pet",
+    "description": "Guia completo sobre vacinas para filhote de cachorro: calendário, cuidados essenciais e orientações do médico-veterinário para proteger seu pet.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Mariah Maitre"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/vacinas-para-filhote-de-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/vacinas-para-filhote-de-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/vacinas-para-filhote-de-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto tempo leva para o filhote se adaptar totalmente?",
+        "name": "O filhote pode tomar banho no pet shop logo após a vacina?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Costuma levar de uma a poucas semanas para a adaptação inicial, mas cada filhote tem seu próprio ritmo — o importante é manter a rotina consistente durante esse período."
+          "text": "O ideal é aguardar em média alguns dias após a aplicação para evitar o estresse térmico e imunológico, sempre confirmando a recomendação com o médico-veterinário."
         }
       },
       {
         "@type": "Question",
-        "name": "É normal o filhote não comer direito nos primeiros dias?",
+        "name": "O que fazer se eu esquecer a data do reforço da vacina?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Uma pequena redução de apetite é comum pela mudança de ambiente, mas recusa completa por mais de um dia merece atenção de um médico-veterinário, especialmente em filhotes."
+          "text": "Entre em contato com o médico-veterinário o quanto antes. Dependendo do tempo de atraso, pode ser necessário reiniciar algumas etapas do protocolo para garantir a eficácia."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso levar o filhote para passear na rua imediatamente?",
+        "name": "Cachorros adultos que nunca foram vacunados precisam de quantas doses?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende do estágio do calendário de cuidados preventivos — converse com um médico-veterinário sobre o momento adequado para começar os passeios externos."
+          "text": "Animais adultos sem histórico vacinal também precisam de um protocolo de imunização adaptado, que costuma envolver doses iniciais e reforços avaliados pelo profissional."
         }
       },
       {
         "@type": "Question",
-        "name": "Como apresentar o filhote a outros animais da casa?",
+        "name": "Posso dar remédio para dor por conta própria se o filhote ficar manhoso?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Com calma, em sessões curtas e supervisionadas, sem forçar contato — deixe que o reconhecimento aconteça no ritmo dos animais envolvidos."
+          "text": "Nunca dê medicamentos humanos ou analgésicos sem prescrição veterinária, pois muitas substâncias comuns são altamente tóxicas para cães."
         }
       }
     ]

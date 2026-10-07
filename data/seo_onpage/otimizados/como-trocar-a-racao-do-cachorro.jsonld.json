@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você)",
-    "description": "Como trocar a ração do cachorro sem virar bagunça (o Beto Trapalhão já errou por você). Confesso: da primeira vez que troquei a ração do meu cachorro,...",
+    "headline": "Como trocar a ração do cachorro sem bagunça no estômago",
+    "description": "Aprenda como trocar a ração do cachorro de forma segura e sem causar problemas intestinais com um passo a passo simples e prático.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/como-trocar-a-racao-do-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-trocar-a-racao-do-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-trocar-a-racao-do-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso trocar de ração mais rápido se estiver com pressa?",
+        "name": "O que fazer se o meu cachorro recusar a mistura e catar só a ração velha?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não recomendo — apressar a transição é exatamente o tipo de erro que eu já cometi e que gera mais transtorno (literalmente) do que economiza tempo."
+          "text": "Alguns cães são verdadeiros especialistas em separar os grãos. Para resolver isso, você pode umedecer levemente a mistura com água morna ou caldo de carne sem tempero e sal, formando uma papa homogênea que impede a seleção."
         }
       },
       {
         "@type": "Question",
-        "name": "O cachorro pode recusar a ração nova durante a mistura?",
+        "name": "Posso trocar a ração de um dia para o outro se for uma emergência?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode acontecer. Se for só desconfiança no começo, costuma passar. Se a recusa persistir por dias, vale conversar com um veterinário."
+          "text": "Não é o ideal, pois o risco de diarreia e vômito é alto. Se a ração antiga acabou e você precisa usar outra urgentemente, tente misturar um pouco de frango cozido desfiado sem tempero com arroz papinha para suavizar o impacto no estômago até conseguir a ração correta."
         }
       },
       {
         "@type": "Question",
-        "name": "Com que frequência é normal trocar de ração?",
+        "name": "Cachorros idosos precisam de um tempo maior de transição?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não existe uma regra fixa de tempo — a troca acontece por necessidade (fase de vida, indicação profissional), não por calendário."
+          "text": "Sim, costumam precisar. Com o avançar da idade, o metabolismo e a capacidade digestiva ficam mais lentos. O ideal é estender o cronograma de mistura para até duas semanas, sempre com acompanhamento veterinário."
         }
       },
       {
         "@type": "Question",
-        "name": "É normal meu cachorro comer mais devagar durante a transição?",
+        "name": "Filhotes podem comer qualquer ração na transição?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, é comum, principalmente se o cheiro ou textura da ração nova for bem diferente. Só fique de olho se ele parar de comer completamente."
+          "text": "Não. Filhotes exigem nutrientes específicos para o crescimento ósseo e muscular. Se você estiver adotando um novo pet, confira nossas dicas sobre os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) para garantir que a alimentação esteja adequada à idade dele."
         }
       }
     ]

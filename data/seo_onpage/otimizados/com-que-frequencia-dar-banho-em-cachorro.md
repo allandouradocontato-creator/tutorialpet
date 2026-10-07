@@ -1,6 +1,6 @@
 ---
 data: '2026-10-07'
-status: rascunho_pendente_revisao
+status: otimizado_seo
 slug: com-que-frequencia-dar-banho-em-cachorro
 termo_origem: com que frequencia dar banho em cachorro
 pilar: cuidados_diarios
@@ -9,10 +9,44 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-07T13:45:57+00:00'
 aviso_saude_aplicavel: false
 titulo: 'Com que frequencia dar banho em cachorro: guia prático'
-meta_description: Descubra com que frequência dar banho em cachorro sem prejudicar a pele e a pelagem do pet. Guia prático com dicas essenciais para tutores.
+meta_description: Descubra com que frequência dar banho em cachorro sem prejudicar
+  a pele e a pelagem do pet. Guia prático com dicas essenciais para tutores.
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
+revisado_por_agente_04: true
+revisado_em: '2026-10-07T16:30:40+00:00'
+checagens_qualidade:
+- checagem: legibilidade
+  severidade: aviso
+  descricao: 3/72 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
+    — simplificar.
+  trechos:
+  - '37 palavras: "Se você está adaptando a rotina da casa, vale a pena conferir dicas
+    sobre [como ..."'
+  - '39 palavras: "Exemplo prático: Para um cão de pelagem média que passeia diariamente
+    na coleira..."'
+  - '39 palavras: "Exemplo prático: Se um cão de pelo curto começa a se coçar logo
+    após o banho qui..."'
+titulo_seo: 'Com que frequencia dar banho em cachorro: guia prático'
+keyword_density: 0.0
+otimizado_por_agente_05: true
+otimizado_em: '2026-10-07T16:30:40+00:00'
+checagens_seo: []
+sugestoes_links_internos:
+- termo_relacionado: como dar banho em gato
+  slug_provavel: como-dar-banho-em-gato
+  ancora_sugerida: como dar banho em gato
+  aplicar_somente_se: o artigo de destino já estiver publicado no site
+- termo_relacionado: como escovar os dentes do cachorro
+  slug_provavel: como-escovar-os-dentes-do-cachorro
+  ancora_sugerida: como escovar os dentes do cachorro
+  aplicar_somente_se: o artigo de destino já estiver publicado no site
+- termo_relacionado: como cortar unha de cachorro
+  slug_provavel: como-cortar-unha-de-cachorro
+  ancora_sugerida: como cortar unha de cachorro
+  aplicar_somente_se: o artigo de destino já estiver publicado no site
+dados_estruturados_arquivo: data/seo_onpage/otimizados/com-que-frequencia-dar-banho-em-cachorro.jsonld.json
 ---
 
 # Com que frequencia dar banho em cachorro: guia prático

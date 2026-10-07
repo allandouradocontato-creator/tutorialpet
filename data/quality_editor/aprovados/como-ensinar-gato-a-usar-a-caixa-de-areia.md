@@ -1,6 +1,6 @@
 ---
 data: '2026-10-07'
-status: rascunho_pendente_revisao
+status: aprovado_qualidade
 slug: como-ensinar-gato-a-usar-a-caixa-de-areia
 termo_origem: como ensinar gato a usar a caixa de areia
 pilar: primeiros_passos_filhotes
@@ -9,10 +9,23 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-07T13:08:38+00:00'
 aviso_saude_aplicavel: false
 titulo: 'Como ensinar gato a usar a caixa de areia: guia prático'
-meta_description: Aprenda como ensinar gato a usar a caixa de areia com um guia prático, dicas de escolha do banheiro ideal e erros que atrapalham o pet.
+meta_description: Aprenda como ensinar gato a usar a caixa de areia com um guia prático,
+  dicas de escolha do banheiro ideal e erros que atrapalham o pet.
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
+revisado_por_agente_04: true
+revisado_em: '2026-10-07T16:30:40+00:00'
+checagens_qualidade:
+- checagem: legibilidade
+  severidade: aviso
+  descricao: 2/85 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
+    — simplificar.
+  trechos:
+  - '42 palavras: "* Exemplo prático: Se o gato insiste em fazer xixi no tapete da
+    sala, observe se..."'
+  - '38 palavras: "* Exemplo prático: Um gato adulto que sempre usou a caixa perfeitamente
+    e, de re..."'
 ---
 
 # Como ensinar gato a usar a caixa de areia: guia prático

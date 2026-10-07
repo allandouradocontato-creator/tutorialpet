@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Cachorro latindo muito, o que fazer? O Seu Trombone (que também é barulhento) explica",
-    "description": "Cachorro latindo muito, o que fazer? O Seu Trombone (que também é barulhento) explica. Olha, eu sou conhecido no bairro inteiro por falar alto —...",
+    "headline": "Cachorro latindo muito o que fazer",
+    "description": "Descubra por que o cachorro latindo muito o que fazer exige entender o motivo do barulho e aplicar técnicas simples de manejo e paciência.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Mariah Maitre"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/cachorro-latindo-muito-o-que-fazer",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/cachorro-latindo-muito-o-que-fazer"
-    },
-    "image": "https://tutorialpet.com.br/imagens/cachorro-latindo-muito-o-que-fazer.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Bronca ajuda a parar o latido?",
+        "name": "Por que meu cachorro late para o nada?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Raramente resolve de forma duradoura — o cachorro aprende a temer a bronca, não necessariamente entende o que deveria fazer diferente."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Em quanto tempo o latido excessivo melhora?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Depende muito da causa. Ajustes de rotina costumam mostrar sinais em poucas semanas; casos mais intensos podem levar mais tempo e se beneficiar de ajuda profissional."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Existe raça que late mais que outra?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Algumas raças têm mais tendência a vocalizar, sim, mas isso não significa que o latido excessivo não possa ser trabalhado com rotina e estímulo adequados."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Quando devo procurar ajuda profissional?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Se o latido for muito intenso, incomodar a vizinhança de forma persistente, ou vier acompanhado de outros sinais de sofrimento, vale buscar um médico-veterinário comportamentalista ou adestrador qualificado."
+          "text": "Muitas vezes o cão ouve sons que nós não captamos, como tubulações na parede ou animais distantes, ou pode estar lidando com dor e desorientação.  * **Dar bronca resolve o problema do latido excessivo?**   Não. Gritar com o cão geralmente faz com que ele ache que você está participando da festa, aumentando a excitação e os latidos.  * **Castigar o cachorro funciona para fazê-lo parar de latir?**   Punições geram medo e estresse, o que costuma agravar o comportamento barulhento e prejudicar a relação de confiança entre vocês.  * **Quanto tempo leva para o cão aprender a latir menos?**   O tempo varia conforme a idade, o histórico do animal e a consistência da família, exigindo em média semanas de treino diário. Confirme sempre orientações específicas com o médico-veterinário do pet."
         }
       }
     ]

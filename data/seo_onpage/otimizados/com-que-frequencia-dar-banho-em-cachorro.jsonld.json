@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Com que frequencia dar banho em cachorro: guia prático",
+    "description": "Descubra com que frequência dar banho em cachorro sem prejudicar a pele e a pelagem do pet. Guia prático com dicas essenciais para tutores.",
+    "datePublished": "2026-10-07",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/com-que-frequencia-dar-banho-em-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/com-que-frequencia-dar-banho-em-cachorro"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar banho no cachorro toda semana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, banhos semanais só são recomendados sob prescrição veterinária para tratamento de doenças de pele. Para cães saudáveis, o ideal costuma ser a cada três ou quatro semanas, para não remover a proteção natural da pele. Lembre-se de confirmar com o médico-veterinário do pet.  * **O uso de shampoo humano faz mal para o cão?** Sim. O pH da pele humana é diferente do canino, e os produtos para humanos removem a camada protetora natural do pelo do cachorro, causando ressecamento, coceira e descamação.  * **O que fazer se o cachorro sujar apenas as patas na rua?** Em vez de dar um banho completo, o recomendado é lavar apenas as patas com água e sabonete próprio para pets ou usar lenços umedecidos específicos, secando bem em seguida.  * **Cães de pelo curto precisam de menos banhos?** Eles podem tomar banho no mesmo intervalo médio (a cada três ou quatro semanas), mas a vantagem é que acumulam menos nós e exigem menos manutenção diária com escovação comparados aos de pelo longo."
+        }
+      }
+    ]
+  }
+}
