@@ -1,0 +1,38 @@
+name: Video de abertura (roteiro avulso)
+# Monta UM video a partir de data/social/roteiros/<slug>.json com o mesmo codigo da fabrica (voz da Duda, carimbo, musica).
+# Nao publica nada: so guarda o mp4 como artefato para o Allan ver. Gasta creditos do ElevenLabs (~1 por caractere).
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "slug do roteiro"
+        required: false
+        default: "tutorial-pet-abertura"
+permissions:
+  contents: read
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencias
+        run: |
+          pip install pyyaml requests edge-tts
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Montar video
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+        run: python agents/17_video/montar_video6.py data/social/roteiros/${{ github.event.inputs.slug }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ github.event.inputs.slug }}-${{ github.run_id }}
+          path: data/social/videos/${{ github.event.inputs.slug }}_v2.mp4
+          retention-days: 7

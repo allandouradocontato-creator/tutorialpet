@@ -1,0 +1,36 @@
+{
+  "slug": "tutorial-pet-abertura",
+  "titulo_video": "Tutorial Pet: a gente cresce junto",
+  "gancho_3s": "Com quantos anos você descobriu que o seu pet também te ensina?",
+  "cenas": [
+    {
+      "narracao": "[warmly] Com quantos anos você descobriu que o seu pet também te ensina?",
+      "visual_busca_banco_livre": "puppy looking up at camera close up",
+      "texto_na_tela": "Seu pet também te ensina"
+    },
+    {
+      "narracao": "[smiling] Porque cuidar de um pet é, sem perceber, um treino. Treino de disciplina, de paciência e de tolerância.",
+      "visual_busca_banco_livre": "golden retriever puppy playing in garden",
+      "texto_na_tela": "Disciplina, paciência, tolerância"
+    },
+    {
+      "narracao": "Cada tentativa que não dá certo ensina você a continuar. [short pause] E o amor, aqui, vira músculo: quanto mais você pratica, mais forte ele fica.",
+      "visual_busca_banco_livre": "cat sleeping in sunlight cozy",
+      "texto_na_tela": "O amor vira músculo"
+    },
+    {
+      "narracao": "[warmly] Seu pet aprende com você, e você aprende com ele. A gente cresce junto.",
+      "visual_busca_banco_livre": "cat and dog together on sofa",
+      "texto_na_tela": "A gente cresce junto"
+    }
+  ],
+  "chamada_final": "[smiling] Por isso o Tutorial Pet tem manuais, apps e vídeos pra caminhar do seu lado. Segue a gente aqui e em tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#pets",
+    "#cachorro",
+    "#gato",
+    "#tutordepet"
+  ],
+  "legenda": "Seu pet também te ensina. 🐾 A gente cresce junto. Conheça o blog: https://tutorialpet.com.br\\n\\n#tutorialpet #pets #cachorro #gato #tutordepet"
+}

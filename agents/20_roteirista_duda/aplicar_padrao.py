@@ -122,6 +122,12 @@ def main() -> int:
             continue
         erros = validar(cand, d, g)
         if not erros:
+            # o gancho precisa ser FALADO (cena 0) e aparecer na tela sem as tags de emoção
+            gancho_tela = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", cand["gancho_3s"])).strip()
+            cand["cenas"].insert(0, {"narracao": cand["gancho_3s"],
+                                     "visual_busca_banco_livre": cand["cenas"][0].get("visual_busca_banco_livre", "cute puppy close up"),
+                                     "texto_na_tela": gancho_tela})
+            cand["gancho_3s"] = gancho_tela
             shutil.copy(rot, rot.with_suffix(".original.json"))
             rot.write_text(json.dumps(cand, ensure_ascii=False, indent=2), encoding="utf-8")
             print(f"PADRÃO APLICADO ({molde['id']}, registro {'sério' if saude else 'alegre'}): {cand['gancho_3s']}")
