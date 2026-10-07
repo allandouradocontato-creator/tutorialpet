@@ -140,6 +140,12 @@ def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str)
     if not saidas:  # busca eliminada pelo filtro de estilo: refaz com o animal em cena fofa
         animal = "cat" if re.search(r"\b(cat|kitten|gato)", busca.lower()) else "puppy" if "puppy" in busca.lower() else "dog"
         saidas = _pexels_videos(f"cute {animal} playing", chave, quantos, destino, tag)
+    if len(saidas) < quantos:  # biblioteca de mídia: completa com outras fontes grátis (Pixabay)
+        try:
+            from core.biblioteca_midia import videos_pixabay
+            saidas += videos_pixabay(busca, quantos - len(saidas), destino, tag, tem_gente)
+        except Exception as exc:  # noqa: BLE001
+            print("  biblioteca:", exc)
     return saidas
 
 
