@@ -384,11 +384,16 @@ def main() -> int:
             musicas = sorted((ROOT / "data" / "social" / "musica").glob("*.mp3"))
         if musicas:
             faixa = musicas[sum(map(ord, slug)) % len(musicas)]
-            vol_m = float(_EV.get("musica", {}).get("volume_sob_narracao", 0.22))
-            print("música de fundo:", faixa.name, "volume", vol_m)
+            vol_db = float(_EV.get("musica", {}).get("volume_db", -7))  # nível da música em relação a -14 LUFS (voz)
+            print("música de fundo:", faixa.name, "nível", vol_db, "dB (normalizada, com ducking sob a voz)")
+            # 1) normaliza a faixa (as da biblioteca variam de -8 a -16 LUFS); 2) abaixa quando a Duda fala (sidechain)
+            # e sobe nas pausas, o que dá energia sem encobrir a voz
             sh(["ffmpeg", "-y", "-i", str(bruto), "-stream_loop", "-1", "-i", str(faixa), "-filter_complex",
-                f"[1:a]volume={vol_m},afade=t=in:d=1.0[m];[0:a][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,alimiter=limit=0.95[a]",
-                "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", str(final)])
+                f"[1:a]loudnorm=I=-14:TP=-1.5:LRA=11,volume={vol_db}dB,afade=t=in:d=1.0[m];"
+                "[0:a]asplit=2[v][vsc];"
+                "[m][vsc]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350:makeup=1[duck];"
+                "[v][duck]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,alimiter=limit=0.95[a]",
+                "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", str(final)])
         else:
             shutil.copy(bruto, final)
     (out_dir / f"{slug}_v2.legenda.txt").write_text(rot.get("legenda", ""), encoding="utf-8")

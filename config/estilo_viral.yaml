@@ -34,7 +34,8 @@ cortes:
 musica:
   bpm_alvo: [100, 125]
   energia: media_alta    # leve/brincalhona; instrumental ou som original sob a narração
-  volume_sob_narracao: 0.14
+  volume_sob_narracao: 0.14   # antigo (ganho cru); a fábrica agora usa volume_db
+  volume_db: -7            # música normalizada (-14 LUFS) menos 7 dB; abaixa sozinha quando a Duda fala (ducking) e sobe nas pausas
 gancho:
   primeiros_segundos: "close do bicho fofo olhando/mexendo na câmera no 1º segundo + texto de até 6 palavras em forma de pergunta/promessa/alerta de fofura ('nível de fofura perigoso', 'seu cachorro faz isso?'); vídeo total de 10 a 12s (máx. 15s); plano único ou 2 cortes; tom alegre (evitar filhote de rua/triste); CTA de compartilhar ('manda pro seu papai') na legenda"
 fechar_ciclo:
