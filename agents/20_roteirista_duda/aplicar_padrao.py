@@ -28,7 +28,9 @@ SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|
 
 def escolher_molde(g: dict, slug: str) -> dict:
     estado = ROOT / "data" / "social" / "duda" / "_ultimo_gancho.txt"
-    ids = [m["id"] for m in g["moldes"] if m["tipo"] != "quebra_de_padrao"]
+    # só moldes que NÃO prometem resultado/prazo (evita alegação de saúde inventada)
+    seguros = {"dor", "contrario", "pergunta", "identidade", "situacao_familiar", "lista_numerada", "pov", "laco_aberto", "aviso_de_erro"}
+    ids = [m["id"] for m in g["moldes"] if m["tipo"] in seguros]
     ultimo = estado.read_text(encoding="utf-8").strip() if estado.exists() else ""
     prox = ids[(ids.index(ultimo) + 1) % len(ids)] if ultimo in ids else ids[0]
     estado.parent.mkdir(parents=True, exist_ok=True)
@@ -53,6 +55,10 @@ def validar(r: dict, d: dict, g: dict) -> list[str]:
         erros.append("gancho com mais de 14 palavras")
     if sum(t.count("[excited]") for t in textos) > 1:
         erros.append("mais de um [excited]")
+    if re.search(r"\[[^\]]*\]", r.get("gancho_3s", "")) and "[excited]" in r.get("gancho_3s", ""):
+        erros.append("gancho sem [excited]")
+    if re.search(r"em \d+ dias|em poucos dias|resultado garantido|cura|garant", norm(r.get("gancho_3s", ""))):
+        erros.append("gancho promete resultado/prazo")
     if "[laughs]" in " ".join(textos):
         erros.append("risada proibida")
     return erros
@@ -81,7 +87,7 @@ def main() -> int:
             "Não invente fatos, números, estudos nem alegue ser veterinária.\n"
             f"CTA: 1 frase curta no estilo de um destes: {g['cta_moldes']}; depois a assinatura \"{d['assinatura']}\".\n"
             f"TAGS de emoção (ElevenLabs): só entre {d['tags_elevenlabs_permitidas']}. Registro: {registro}. "
-            "No máximo UM [excited] no vídeo inteiro; sem risadas; sem tom triste ou dramático. Use as tags com economia (1 por trecho).\n"
+            "No máximo UM [excited] no vídeo inteiro, e NUNCA no gancho (só perto do fim); o gancho NÃO promete resultado, prazo nem cura de saúde; sem risadas; sem tom triste ou dramático. Use as tags com economia (1 por trecho).\n"
             + (f"A versão anterior foi recusada: {falha}. Corrija.\n" if falha else "")
             + f"\nROTEIRO:\n{json.dumps(base, ensure_ascii=False)}\n\n"
             'Responda SÓ com JSON: {"gancho_3s": "...", "cenas": ["narração da cena 1", ...], "chamada_final": "..."}')
