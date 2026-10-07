@@ -1,0 +1,32 @@
+# GANCHOS UNIVERSAIS (independem do nicho) - pedido do Allan em 07/10/2026.
+# Regra: o gancho serve só para RETENÇÃO; o nicho (pet) entra DEPOIS, no conteúdo. Não inventar gancho novo: usar estes moldes já testados.
+# Estrutura obrigatória de todo vídeo:  GANCHO (0-3 s)  ->  CONTEÚDO (entrega o que o gancho prometeu)  ->  CTA (chamada para ação, 1 frase).
+# Fontes iniciais (07/10/2026): postlinkapp.com/blog/hook-examples-for-social-media-videos e socialync.io/viral-hooks-library.
+# O Caçador de referências deve VALIDAR/ATUALIZAR esta lista com os ganchos mais usados nos vídeos mais vistos do TikTok (qualquer nicho) e anotar métricas.
+estrutura:
+  gancho: "0-3 s, até ~12 palavras faladas; texto na tela desde o 1º quadro; promete algo e NÃO entrega ainda (laço aberto)"
+  conteudo: "entrega o que foi prometido, direto, sem contexto longo; o nicho (pet) aparece aqui"
+  cta: "1 frase: salvar / compartilhar / seguir / link no primeiro comentário; a Duda assina 'Aqui é a Duda, do Tutorial Pet.'"
+moldes:   # [colchetes] = preencher com o assunto do dia
+  - {id: abertura_lacuna, tipo: lacuna_de_curiosidade, molde: "[Resultado surpreendente] em [prazo], e eu vou te mostrar como."}
+  - {id: abertura_dor, tipo: dor, molde: "Se [frustração específica] continua acontecendo com você, começa por aqui."}
+  - {id: abertura_pare, tipo: contrario, molde: "Para de [hábito comum]. Isso tá atrapalhando o seu [objetivo]."}
+  - {id: abertura_promessa, tipo: promessa, molde: "Em [prazo curto] você vai aprender [resultado específico]."}
+  - {id: abertura_transformacao, tipo: transformacao, molde: "Há [tempo] eu estava [ponto de partida]. Hoje, [resultado]."}
+  - {id: abertura_lista, tipo: lista_numerada, molde: "[Número] [coisas] que [resultado] (a número [N] muda tudo)."}
+  - {id: abertura_situacao, tipo: situacao_familiar, molde: "Aquele momento em que [frustração familiar] acontece de novo."}
+  - {id: abertura_chamada_direta, tipo: identidade, molde: "Se você é [perfil] e quer [objetivo], assiste isso."}
+  - {id: abertura_pergunta, tipo: pergunta, molde: "O que mudaria se você conseguisse [resultado] em [prazo]?"}
+  - {id: abertura_pov, tipo: pov, molde: "POV: você acabou de descobrir [descoberta]."}
+  - {id: abertura_laco_aberto, tipo: laco_aberto, molde: "Descobri o [truque] por trás de [resultado], e não é o que você pensa."}
+  - {id: abertura_confissao, tipo: confissao, molde: "Eu errei em [erro] por [tempo] até descobrir isso."}
+  - {id: abertura_erro, tipo: aviso_de_erro, molde: "Esse erro tá silenciosamente atrapalhando todo [perfil]."}
+  - {id: abertura_perdendo, tipo: aversao_a_perda, molde: "Se você parar de [fazer isso], você vai perder [coisa valiosa]."}
+  - {id: abertura_idade, tipo: aversao_a_perda, molde: "Com quantos anos você descobriu que [verdade incômoda]?"}
+  - {id: abertura_quebra, tipo: quebra_de_padrao, molde: "Visual inesperado no 1º quadro + texto na tela de até 6 palavras."}
+os_mais_fortes_nos_testes_das_fontes: [identidade, contrario, laco_aberto, confissao]
+cta_moldes:
+  - "Salva esse vídeo pra não esquecer."
+  - "Manda pra quem tem um pet em casa."
+  - "Segue o Tutorial Pet pra mais dicas assim."
+  - "O guia completo está no primeiro comentário."
