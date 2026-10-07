@@ -10,6 +10,11 @@ on:
         required: false
         default: "Oi! Aqui é a Duda, do Tutorial Pet. Hoje vou te contar um segredinho sobre o banho do seu cachorro."
 
+      estabilidade:
+        description: "0.0 (mais emocao) a 1.0 (mais firme); vazio usa o config"
+        required: false
+        default: ""
+
 permissions:
   contents: read
 
@@ -31,6 +36,7 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
           TEXTO: ${{ github.event.inputs.texto }}
+          ELEVENLABS_STABILITY: ${{ github.event.inputs.estabilidade }}
         run: |
           python3 - <<'PY'
           import importlib.util, os, sys
@@ -47,6 +53,6 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: amostra-duda
+          name: amostra-duda-${{ github.run_id }}
           path: amostra_duda.mp3
           retention-days: 3

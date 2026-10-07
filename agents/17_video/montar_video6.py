@@ -108,6 +108,8 @@ def _tts_elevenlabs(texto: str, saida: Path):
     import urllib.request
     modelo = os.environ.get("ELEVENLABS_MODEL") or cfgv.get("model_id") or "eleven_multilingual_v2"
     dados = {"text": texto, "model_id": modelo}
+    if os.environ.get("ELEVENLABS_STABILITY"):  # só para testes de voz
+        cfgv["stability"] = float(os.environ["ELEVENLABS_STABILITY"])
     if cfgv.get("stability") is not None:  # padrão da Duda: estabilidade baixa (Criativo) = mais emoção
         dados["voice_settings"] = {"stability": float(cfgv["stability"]),
                                    "similarity_boost": float(cfgv.get("similarity_boost", 0.75)),
