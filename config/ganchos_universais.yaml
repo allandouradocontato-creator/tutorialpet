@@ -1,32 +1,74 @@
-# GANCHOS UNIVERSAIS (independem do nicho) - pedido do Allan em 07/10/2026.
+# GANCHOS UNIVERSAIS (independem do nicho) - pedido do Allan em 07/10/2026. Versão 2 (validada no TikTok em 07/10/2026).
 # Regra: o gancho serve só para RETENÇÃO; o nicho (pet) entra DEPOIS, no conteúdo. Não inventar gancho novo: usar estes moldes já testados.
 # Estrutura obrigatória de todo vídeo:  GANCHO (0-3 s)  ->  CONTEÚDO (entrega o que o gancho prometeu)  ->  CTA (chamada para ação, 1 frase).
-# Fontes iniciais (07/10/2026): postlinkapp.com/blog/hook-examples-for-social-media-videos e socialync.io/viral-hooks-library.
-# O Caçador de referências deve VALIDAR/ATUALIZAR esta lista com os ganchos mais usados nos vídeos mais vistos do TikTok (qualquer nicho) e anotar métricas.
+# Fontes iniciais: postlinkapp.com/blog/hook-examples-for-social-media-videos e socialync.io/viral-hooks-library.
+# VALIDAÇÃO TikTok (07/10/2026): buscas "com quantos anos você descobriu que", "para de fazer isso você vai perder", "ninguém te conta isso",
+# "stop doing this you are losing" e "o erro que todo mundo comete" (filtro 30 dias quando disponível). Fala do 1º segundo lida das legendas automáticas de cada vídeo
+# (paráfrase abaixo); métricas lidas da página do vídeo. AMOSTRA PEQUENA: ~16 vídeos com legenda legível, só 8 deles com até 30 dias; tratar como indício, não como prova.
+# Limites: busca por frase pega vídeos antigos (muitos >300 dias, listados só como evergreen); legendas ausentes em vários vídeos; não medimos retenção real (só views/curtidas/shares/salvamentos).
+# Leitura do desempenho: shares/views >= 1% é bom (gera seguidor); curtidas/views >= 8% é bom; salvamentos mostram utilidade.
 estrutura:
-  gancho: "0-3 s, até ~12 palavras faladas; texto na tela desde o 1º quadro; promete algo e NÃO entrega ainda (laço aberto)"
+  gancho: "0-3 s, até ~12 palavras faladas; texto na tela desde o 1º quadro (igual à fala); promete algo e NÃO entrega ainda (laço aberto)"
   conteudo: "entrega o que foi prometido, direto, sem contexto longo; o nicho (pet) aparece aqui"
   cta: "1 frase: salvar / compartilhar / seguir / link no primeiro comentário; a Duda assina 'Aqui é a Duda, do Tutorial Pet.'"
-moldes:   # [colchetes] = preencher com o assunto do dia
-  - {id: abertura_lacuna, tipo: lacuna_de_curiosidade, molde: "[Resultado surpreendente] em [prazo], e eu vou te mostrar como."}
-  - {id: abertura_dor, tipo: dor, molde: "Se [frustração específica] continua acontecendo com você, começa por aqui."}
-  - {id: abertura_pare, tipo: contrario, molde: "Para de [hábito comum]. Isso tá atrapalhando o seu [objetivo]."}
-  - {id: abertura_promessa, tipo: promessa, molde: "Em [prazo curto] você vai aprender [resultado específico]."}
-  - {id: abertura_transformacao, tipo: transformacao, molde: "Há [tempo] eu estava [ponto de partida]. Hoje, [resultado]."}
-  - {id: abertura_lista, tipo: lista_numerada, molde: "[Número] [coisas] que [resultado] (a número [N] muda tudo)."}
-  - {id: abertura_situacao, tipo: situacao_familiar, molde: "Aquele momento em que [frustração familiar] acontece de novo."}
-  - {id: abertura_chamada_direta, tipo: identidade, molde: "Se você é [perfil] e quer [objetivo], assiste isso."}
-  - {id: abertura_pergunta, tipo: pergunta, molde: "O que mudaria se você conseguisse [resultado] em [prazo]?"}
-  - {id: abertura_pov, tipo: pov, molde: "POV: você acabou de descobrir [descoberta]."}
-  - {id: abertura_laco_aberto, tipo: laco_aberto, molde: "Descobri o [truque] por trás de [resultado], e não é o que você pensa."}
-  - {id: abertura_confissao, tipo: confissao, molde: "Eu errei em [erro] por [tempo] até descobrir isso."}
-  - {id: abertura_erro, tipo: aviso_de_erro, molde: "Esse erro tá silenciosamente atrapalhando todo [perfil]."}
-  - {id: abertura_perdendo, tipo: aversao_a_perda, molde: "Se você parar de [fazer isso], você vai perder [coisa valiosa]."}
-  - {id: abertura_idade, tipo: aversao_a_perda, molde: "Com quantos anos você descobriu que [verdade incômoda]?"}
-  - {id: abertura_quebra, tipo: quebra_de_padrao, molde: "Visual inesperado no 1º quadro + texto na tela de até 6 palavras."}
-os_mais_fortes_nos_testes_das_fontes: [identidade, contrario, laco_aberto, confissao]
-cta_moldes:
+  duracao_ideal: "os de melhor taxa de share na amostra têm 8-10 s (anahaitama 10 s: 7,7% shares); os de 60-290 s têm shares/views de 0,3-1,2%"
+moldes:   # ordenados por desempenho/frequência na validação; [colchetes] = preencher com o assunto do dia
+  - id: abertura_idade
+    tipo: aversao_a_perda / curiosidade
+    molde: "Com quantos anos você descobriu que [verdade/truque do dia a dia]?"
+    status: VALIDADO (o mais frequente: 12 vídeos na busca, 5 com até 30 dias)
+    fala_1s: "pergunta 'com quantos anos você descobriu que...' seguida da revelação curta em uma frase"
+    texto_na_tela: "a própria pergunta, igual à fala e repetida na legenda ('Com quantos anos você descobriu isso?')"
+    metricas: "recentes (<=30d): anahaitama 2,2M views, 509,6k curtidas (23%), 169,7k shares (7,7%), 10 s; leocosvi 29,7k views, 343 shares (1,15%), 9 s; josealvarengan 197k views, 1,7k shares (0,87%), 25 s; dicas.geniais77 369,8k views, 1,7k shares (0,46%), 6,2k salvamentos, 74 s; soumrp 19,2k views, 28 shares (0,15%), 8 s. Evergreen: drlainemoser 693k views, 11,2k shares (1,6%), 112 s"
+    leitura: "funciona melhor curto (8-25 s) e com revelação surpreendente e visual; o que perde é a versão longa de 60 s+ e a revelação fraca"
+  - id: abertura_erro
+    tipo: aviso_de_erro
+    molde: "Esse erro tá silenciosamente atrapalhando todo [perfil]. / O cara que não sabe isso pode ter [perda]."
+    status: VALIDADO (indício; 1 vídeo com legenda)
+    fala_1s: "aviso dramático de que quem não sabe algo vai sofrer uma perda, depois lista de sinais"
+    metricas: "clipadas.brabo 987k views, 24,9k curtidas (2,5%), 8k shares (0,81%), 3,5k salvamentos, 66 s, 45 dias"
+  - id: abertura_perdendo
+    tipo: aversao_a_perda + lista
+    molde: "[Número] coisas que, se você faz, você vai perder [coisa valiosa]."
+    status: VALIDADO (indício; 1 vídeo)
+    fala_1s: "'coisas que se você faz você vai perder [algo importante]' e já entra na lista"
+    metricas: "o__maloqueiro 391,7k views, 57k curtidas (14,5%), 4,6k shares (1,17%), 6,1k salvamentos, 74 s"
+  - id: abertura_lista_ninguem_conta
+    tipo: lista_numerada + segredo
+    molde: "[Número] coisas que ninguém te conta sobre [assunto]."
+    status: VALIDADO COM RESSALVA (muita curtida, pouco share)
+    metricas: "sah.lives 554,1k views, 125,8k curtidas (22,7%), 1,9k shares (0,34%), 7,9k salvamentos, 292 s; 'o que não te falaram sobre...' (mundodasofertas48) 357,9k views, 228 shares (0,06%), 20 s. Retém atenção mas gera pouco compartilhamento"
+  - id: abertura_pare
+    tipo: contrario
+    molde: "Para de [hábito comum]. Isso tá atrapalhando o seu [objetivo]."
+    status: SEM EVIDÊNCIA SUFICIENTE nesta rodada (busca em inglês 'stop doing this': seviionata 224,7k views, 60,7k curtidas (27%), 2,5k shares (1,1%), 22 s, mas sem legenda legível; gancho exato não confirmado)
+  - id: abertura_pensar
+    tipo: reflexao / emocional
+    molde: "Você já parou pra pensar que [afirmação que mexe com a pessoa]?"
+    status: VALIDADO (indício; 1 vídeo)
+    metricas: "max.pinheiroo 20,6k views, 406 shares (2,0%), 36 s; CTA explícito no fim (ver cta_observados)"
+  # moldes da lista inicial NÃO testados nesta rodada (mantidos como hipótese das fontes iniciais; usar com menos prioridade):
+  - {id: abertura_lacuna, tipo: lacuna_de_curiosidade, molde: "[Resultado surpreendente] em [prazo], e eu vou te mostrar como.", status: "NÃO TESTADO"}
+  - {id: abertura_dor, tipo: dor, molde: "Se [frustração específica] continua acontecendo com você, começa por aqui.", status: "NÃO TESTADO"}
+  - {id: abertura_promessa, tipo: promessa, molde: "Em [prazo curto] você vai aprender [resultado específico].", status: "NÃO TESTADO"}
+  - {id: abertura_transformacao, tipo: transformacao, molde: "Há [tempo] eu estava [ponto de partida]. Hoje, [resultado].", status: "NÃO TESTADO"}
+  - {id: abertura_lista, tipo: lista_numerada, molde: "[Número] [coisas] que [resultado] (a número [N] muda tudo).", status: "parcialmente validado pela lista 'coisas que...' acima"}
+  - {id: abertura_situacao, tipo: situacao_familiar, molde: "Aquele momento em que [frustração familiar] acontece de novo.", status: "NÃO TESTADO"}
+  - {id: abertura_chamada_direta, tipo: identidade, molde: "Se você é [perfil] e quer [objetivo], assiste isso.", status: "NÃO TESTADO"}
+  - {id: abertura_pergunta, tipo: pergunta, molde: "O que mudaria se você conseguisse [resultado] em [prazo]?", status: "NÃO TESTADO; a pergunta de descoberta (abertura_idade) é a que funcionou"}
+  - {id: abertura_pov, tipo: pov, molde: "POV: você acabou de descobrir [descoberta].", status: "NÃO TESTADO"}
+  - {id: abertura_laco_aberto, tipo: laco_aberto, molde: "Descobri o [truque] por trás de [resultado], e não é o que você pensa.", status: "NÃO TESTADO"}
+  - {id: abertura_confissao, tipo: confissao, molde: "Eu errei em [erro] por [tempo] até descobrir isso.", status: "NÃO TESTADO"}
+  - {id: abertura_quebra, tipo: quebra_de_padrao, molde: "Visual inesperado no 1º quadro + texto na tela de até 6 palavras.", status: "NÃO TESTADO aqui, mas coerente com os vídeos pet de maior share"}
+ordem_de_uso_recomendada: [abertura_idade, abertura_perdendo, abertura_erro, abertura_pensar, abertura_lista_ninguem_conta]
+os_mais_fortes_nos_testes_das_fontes: [identidade, contrario, laco_aberto, confissao]   # das fontes iniciais; não confirmados nesta rodada
+cta_observados:   # últimas falas dos vídeos validados; a maioria TERMINA NA ENTREGA, sem CTA explícito (legendas lidas: 1 de ~8 com CTA falado)
+  - {cta: "compartilha essa mensagem pra todo mundo e me segue pra mais", desempenho: "2,0% shares/views (n=1, 36 s)"}
+  - {cta: "fecho por identificação ('se você se identificou com isso, ...')", desempenho: "0,81% shares/views (n=1, 66 s)"}
+  - {cta: "sem CTA: termina na revelação", desempenho: "inclui o melhor da amostra (anahaitama, 7,7% shares, 10 s) -> em vídeo de 8-10 s o CTA falado pode ser dispensado e vir só na legenda/comentário"}
+cta_moldes:   # mantidos; usar 1 frase curta
   - "Salva esse vídeo pra não esquecer."
   - "Manda pra quem tem um pet em casa."
   - "Segue o Tutorial Pet pra mais dicas assim."
   - "O guia completo está no primeiro comentário."
+  - "Compartilha com quem precisa ouvir isso e me segue pra mais."   # adaptação do CTA observado (compartilhar + seguir na mesma frase)
