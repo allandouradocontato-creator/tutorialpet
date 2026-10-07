@@ -1,0 +1,19 @@
+# Fontes GRATUITAS de vídeo, imagem e áudio da biblioteca da fábrica (regra da casa: grátis primeiro, pago só depois
+# de o sistema estar fechado e auditado). Os caçadores e o montador de vídeo consultam esta lista.
+# status: ligada = já usada no código | chave_ok = chave cadastrada, falta ligar | a_ligar = tem API, falta chave/código
+#         manual = sem API: o Allan baixa e coloca na pasta | conferir = licença ainda não verificada por nós
+video_imagem:
+  - {nome: Pexels,   tipo: [video, foto], api: true,  chave: PEXELS_API_KEY,  status: ligada,   licenca: "uso comercial livre, sem atribuição obrigatória"}
+  - {nome: Pixabay,  tipo: [video, foto], api: true,  chave: PIXABAY_API_KEY, status: ligada,   licenca: "Content License, uso comercial; pede mostrar a origem; sem download em massa"}
+  - {nome: Unsplash, tipo: [foto],        api: true,  chave: UNSPLASH_ACCESS_KEY, status: a_ligar, licenca: "uso comercial; só foto (serve ao blog)"}
+  - {nome: Openverse, tipo: [foto, audio], api: true, chave: nenhuma, status: a_ligar, licenca: "mistura de licenças CC: usar só CC0 e CC-BY com crédito", conferir: true}
+audio:
+  - {nome: "Pixabay Music", api: false, status: manual, licenca: "livre para uso comercial", como: "Allan baixa 2 a 3 faixas instrumentais animadas e coloca em data/social/musica/"}
+  - {nome: "Biblioteca de Áudio do YouTube", api: false, status: manual, licenca: "varia por faixa (algumas pedem atribuição)", conferir: true}
+  - {nome: Mixkit, api: false, status: manual, licenca: "Mixkit License, uso comercial", conferir: true}
+  - {nome: Freesound, api: true, chave: FREESOUND_API_KEY, status: a_ligar, licenca: "usar só CC0", conferir: true}
+  - {nome: "Áudio nativo do Instagram (via Metricool audioConfiguration)", api: true, status: a_ligar, licenca: "biblioteca da Meta; conta comercial tem restrições"}
+descartadas:
+  - {nome: "Coverr API", motivo: "versão grátis proíbe uso comercial e exige logotipo"}
+pagas_para_depois:
+  - {nome: "Envato Elements", motivo: "assinatura; vídeos, músicas e modelos. Avaliar licença e comparar com as grátis depois que o sistema fechar"}
