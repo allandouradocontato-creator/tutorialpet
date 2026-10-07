@@ -31,6 +31,31 @@ def run(cmd: list[str], env_extra: dict | None = None, limite_s: int = 720) -> N
         raise SystemExit(f"falhou ({r.returncode}): {' '.join(cmd)}")
 
 
+def garantir_links_legenda(texto: str, slug: str) -> str:
+    """Garante, por código, o link do produto (landing com UTM) e o link do artigo na legenda.
+
+    O gerador de texto às vezes esquece o link do produto; o teste de saúde reprovava a rodada (07/10/2026).
+    O Publicador depois move esses links para o primeiro comentário.
+    """
+    import yaml
+    link_produto = ""
+    cfg = ROOT / "config" / "produtos_relacionados.yaml"
+    if cfg.exists():
+        dados = yaml.safe_load(cfg.read_text(encoding="utf-8")) or {}
+        for p in dados.get("produtos", []):
+            if str(p.get("link", "")).startswith("http"):
+                link_produto = p["link"]
+                break
+    texto = texto.strip()
+    if link_produto and link_produto not in texto:
+        texto = ("🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, "
+                 f"de R$ 37 por apenas R$ 9,90. → {link_produto}\n\n{texto}")
+    url_artigo = f"https://tutorialpet.com.br/{slug}"
+    if url_artigo not in texto:
+        texto += f"\n\n📖 Artigo completo: {url_artigo}"
+    return texto + "\n"
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         sys.exit("uso: python fabrica_nuvem.py <pasta_saida>")
@@ -65,7 +90,8 @@ def main() -> int:
     shutil.copy(artigo, pkg / "artigo.md")
     shutil.copy(roteiro, pkg / "roteiro.json")
     shutil.copy(video, pkg / "video.mp4")
-    shutil.copy(legenda, pkg / "legenda.txt")
+    (pkg / "legenda.txt").write_text(
+        garantir_links_legenda(legenda.read_text(encoding="utf-8"), slug), encoding="utf-8")
     # Fotos candidatas para a capa do artigo no blog (a escolha, só animal, é do Publicador)
     try:
         run([sys.executable, "blog_imagens_nuvem.py", slug])
