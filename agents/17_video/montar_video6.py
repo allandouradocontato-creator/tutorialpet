@@ -67,12 +67,74 @@ async def _tts(texto: str, saida: Path) -> list[tuple[float, float, str]]:
     return palavras
 
 
+def _palavras_do_alinhamento(chars, inicios, fins) -> list[tuple[float, float, str]]:
+    """Converte o alinhamento por caractere da ElevenLabs em (início, fim, palavra)."""
+    palavras, atual, t0, t1 = [], [], None, 0.0
+    for c, a, b in zip(chars, inicios, fins):
+        if c.isspace():
+            if atual:
+                palavras.append((t0, t1, "".join(atual)))
+                atual, t0 = [], None
+            continue
+        if t0 is None:
+            t0 = a
+        atual.append(c)
+        t1 = b
+    if atual:
+        palavras.append((t0, t1, "".join(atual)))
+    return palavras
+
+
+def _tts_elevenlabs(texto: str, saida: Path):
+    """Narra com a ElevenLabs (plano pago do Allan). Devolve as palavras com tempos, ou None se não for possível.
+
+    Precisa de ELEVENLABS_API_KEY e ELEVENLABS_VOICE_ID no ambiente (secrets do GitHub). Sem eles, ou se a
+    chamada falhar duas vezes, devolve None e a fábrica usa o edge-tts como antes. A chave nunca é impressa.
+    """
+    chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
+    voz_id = os.environ.get("ELEVENLABS_VOICE_ID", "").strip()
+    if not chave or not voz_id:
+        return None
+    import base64
+    import urllib.error
+    import urllib.request
+    corpo = json.dumps({"text": texto,
+                        "model_id": os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")}).encode()
+    req = urllib.request.Request(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voz_id}/with-timestamps", data=corpo, method="POST",
+        headers={"xi-api-key": chave, "Content-Type": "application/json"})
+    for tentativa in (1, 2):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                d = json.load(r)
+            saida.write_bytes(base64.b64decode(d["audio_base64"]))
+            al = d.get("alignment") or {}
+            print(f"  ElevenLabs: {len(texto)} caracteres narrados (~{len(texto)} créditos)", flush=True)
+            return _palavras_do_alinhamento(al.get("characters", []), al.get("character_start_times_seconds", []),
+                                            al.get("character_end_times_seconds", []))
+        except urllib.error.HTTPError as e:
+            print(f"  ElevenLabs: HTTP {e.code} (tentativa {tentativa})", flush=True)
+            if e.code in (401, 403, 404, 422):  # chave, voz ou plano inválidos: repetir não ajuda
+                break
+        except Exception as e:  # rede, prazo, JSON
+            print(f"  ElevenLabs: {type(e).__name__} (tentativa {tentativa})", flush=True)
+    print("  ElevenLabs indisponível: usando a voz grátis (edge-tts)", flush=True)
+    return None
+
+
 def narrar(texto: str, saida: Path, offline: bool):
     if offline:
         n = max(2.0, len(texto.split()) / 2.5)
         sh(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=300:duration={n}", str(saida)])
         ws = texto.split()
         return [(i * n / len(ws), (i + 1) * n / len(ws), w) for i, w in enumerate(ws)]
+    pal_el = _tts_elevenlabs(texto, saida)
+    if pal_el is not None:
+        if not pal_el:  # sem alinhamento: distribui igualmente
+            n = duracao(saida)
+            ws = texto.split()
+            pal_el = [(i * n / len(ws), (i + 1) * n / len(ws), w) for i, w in enumerate(ws)]
+        return pal_el
     # Prazo na voz: o edge-tts pode ficar mudo a partir de IP de nuvem; 90 s por trecho, 2 tentativas.
     palavras = None
     for _ in range(2):
