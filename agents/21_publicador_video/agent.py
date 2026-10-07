@@ -51,17 +51,33 @@ def proximo_slot(agenda: dict, a_partir_de: date, agora: datetime | None = None)
     raise SystemExit("sem horário livre nos próximos 60 dias")
 
 
+def separar_links(legenda: str) -> tuple[str, str]:
+    """Regra de alcance (06/10/2026): link no texto derruba o alcance. Linhas com URL vao para o
+    PRIMEIRO COMENTARIO; o texto fica so com gancho e hashtags."""
+    texto, comentario = [], []
+    for linha in legenda.splitlines():
+        (comentario if "http" in linha else texto).append(linha)
+    corpo = "\n".join(texto).strip()
+    # hashtags ficam por ultimo, depois do aviso
+    tags = [l for l in corpo.splitlines() if l.strip().startswith("#")]
+    sem_tags = "\n".join(l for l in corpo.splitlines() if not l.strip().startswith("#")).strip()
+    final = sem_tags + "\n\n👇 Link no primeiro comentário" + ("\n\n" + " ".join(tags) if tags else "")
+    return final.strip(), "\n".join(l.strip() for l in comentario).strip()
+
+
 def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, hora: str) -> dict:
-    legenda = (pkg / "legenda.txt").read_text(encoding="utf-8").strip()
+    legenda_completa = (pkg / "legenda.txt").read_text(encoding="utf-8").strip()
+    legenda, primeiro_comentario = separar_links(legenda_completa)
     return {
         "brand_id": BRAND_ID,
         "timezone": FUSO,
         "agendar_para": f"{dia}T{hora}:00",
         "redes": ["instagram_reel", "facebook_reel"],
         "legenda": legenda,
+        "primeiro_comentario": primeiro_comentario,
         "video_url_publica": f"https://raw.githubusercontent.com/{repo}/media/pacotes/{slug}/video.mp4",
         "slug": slug,
-        "regra": "máx. 2 posts/dia; legenda DEVE ter link do produto e do artigo (conferido pelo agente 18)",
+        "regra": "máx. 2 posts/dia; links do produto (landing) e do artigo vao no PRIMEIRO COMENTARIO, nunca no texto (conferido pelo agente 18 em legenda.txt)",
     }
 
 

@@ -15,6 +15,8 @@ analytics, monetização, guardião de política, supervisor, social/produtos, v
 | 21 | Publicador de Vídeo | **PARCIAL** | Monta o pedido do Metricool (IG Reel + FB Reel), respeitando 2 posts/dia (12h e 20h) e só para pacote `aprovado`; não duplica. | **Não envia.** O envio segue sendo feito por sessão do Claude com o conector do Metricool até existir token de API. |
 | 22 | Guardião de Gasto | **PRONTO** | Confere o rascunho da campanha da Meta contra `config/regras_gasto.yaml` (posicionamento manual só FB/IG, sem Audience Network, teto R$ 12/dia, pixel, conta, país, erro de pagamento). | Lê o rascunho em YAML; não consulta a Meta sozinho. |
 
+**Regra de alcance (06/10/2026):** link no texto do post derruba o alcance. O agente 21 separa a legenda: texto = gancho + hashtags; links (landing e artigo) = primeiro comentário. Link do produto = landing page, nunca o checkout direto.
+
 ## Ainda a construir (ESPECIFICADOS)
 - **Diretor de Criativos completo:** usar o Banco de Referências de Vídeo (alimentado pelo Caçador, ter/sex 07:20) para escolher a estrutura por dado, não por rodízio.
 - **Escritor de e-book + validador de tema de produto.**
