@@ -29,6 +29,7 @@ jobs:
           busca = (os.environ.get("BUSCA") or "Marianne").strip().lower()
           if not chave:
               raise SystemExit("sem chave nos secrets (TUTORIALPETELEVENLABS / ELEVENLABS_API_KEY)")
+          print(f"chave: comeca com sk_? {chave.startswith('sk_')} | tamanho={len(chave)} | tem espaco/quebra de linha? {any(c.isspace() for c in chave)}")
           achou = False
           for url in ("https://api.elevenlabs.io/v2/voices?page_size=100&search=" + busca,
                       "https://api.elevenlabs.io/v1/voices"):
@@ -37,7 +38,12 @@ jobs:
                   with urllib.request.urlopen(req, timeout=30) as r:
                       d = json.load(r)
               except urllib.error.HTTPError as e:
-                  print(f"{url.split('?')[0]} -> HTTP {e.code} (a chave talvez nao tenha permissao de leitura de vozes)")
+                  corpo = ""
+                  try:
+                      corpo = e.read().decode("utf-8", "replace")[:300].replace(chave, "***")
+                  except Exception:
+                      pass
+                  print(f"{url.split('?')[0]} -> HTTP {e.code} | motivo: {corpo}")
                   continue
               except Exception as e:
                   print(f"{url.split('?')[0]} -> {type(e).__name__}")
