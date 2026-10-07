@@ -74,7 +74,7 @@ jobs:
         run: |
           git config user.name "Fabrica Tutorial Pet"
           git config user.email "fabrica@tutorialpet.com.br"
-          git add config/fila_temas.yaml data/content_writer data/social/roteiros || true
+          git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca || true
           git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || echo "nada a commitar"
           git push origin main || echo "::warning::push da fila no main falhou (conflito?); rascunhos nao foram guardados"
 
