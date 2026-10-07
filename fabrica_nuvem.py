@@ -80,6 +80,10 @@ def main() -> int:
     roteiro = ROOT / "data" / "social" / "roteiros" / f"{slug}.json"
     if not roteiro.exists():
         raise SystemExit(f"roteiro não gerado: {roteiro}")
+    try:  # gancho universal -> conteudo -> CTA na voz da Duda; se falhar, segue com o roteiro original
+        run([sys.executable, "agents/20_roteirista_duda/aplicar_padrao.py", slug], limite_s=300)
+    except (Exception, SystemExit) as e:  # noqa: BLE001
+        print(f"aviso: padrao da Duda nao aplicado ({type(e).__name__}); seguindo com o roteiro original", flush=True)
     run([sys.executable, "agents/17_video/montar_video6.py", str(roteiro)])
     video = ROOT / "data" / "social" / "videos" / f"{slug}_v2.mp4"
     legenda = ROOT / "data" / "social" / "videos" / f"{slug}_v2.legenda.txt"

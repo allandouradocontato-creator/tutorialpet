@@ -150,10 +150,11 @@ def _tts_elevenlabs(texto: str, saida: Path):
 
 
 def narrar(texto: str, saida: Path, offline: bool):
+    sem_tags = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", texto)).strip()  # tags de emoção só servem à ElevenLabs
     if offline:
-        n = max(2.0, len(texto.split()) / 2.5)
+        n = max(2.0, len(sem_tags.split()) / 2.5)
         sh(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=300:duration={n}", str(saida)])
-        ws = texto.split()
+        ws = sem_tags.split()
         return [(i * n / len(ws), (i + 1) * n / len(ws), w) for i, w in enumerate(ws)]
     pal_el = _tts_elevenlabs(texto, saida)
     if pal_el is not None:
@@ -166,7 +167,7 @@ def narrar(texto: str, saida: Path, offline: bool):
     palavras = None
     for _ in range(2):
         try:
-            palavras = asyncio.run(asyncio.wait_for(_tts(texto, saida), timeout=90))
+            palavras = asyncio.run(asyncio.wait_for(_tts(sem_tags, saida), timeout=90))
             break
         except asyncio.TimeoutError:
             print("  edge-tts: sem resposta em 90 s, tentando de novo", flush=True)
@@ -174,7 +175,7 @@ def narrar(texto: str, saida: Path, offline: bool):
         raise RuntimeError("edge-tts não respondeu (2 tentativas de 90 s)")
     if not palavras:  # fallback: distribui igualmente
         n = duracao(saida)
-        ws = texto.split()
+        ws = sem_tags.split()
         palavras = [(i * n / len(ws), (i + 1) * n / len(ws), w) for i, w in enumerate(ws)]
     return palavras
 
