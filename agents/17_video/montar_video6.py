@@ -85,6 +85,19 @@ def _palavras_do_alinhamento(chars, inicios, fins) -> list[tuple[float, float, s
     return palavras
 
 
+def _normalizar_volume(arq: Path, alvo_lufs: float = -14.0) -> None:
+    """O Eleven v4 sai ~5 dB mais baixo que o v3 (-19 LUFS). Sobe a narração para -14 LUFS (padrão de Reels/TikTok),
+    sem mudar duração nem tom. Se o ffmpeg falhar, mantém o áudio original."""
+    tmp = arq.with_suffix(".norm.mp3")
+    try:
+        sh(["ffmpeg", "-y", "-i", str(arq), "-af", f"loudnorm=I={alvo_lufs}:TP=-1.5:LRA=7", "-ar", "44100", "-b:a", "192k", str(tmp)])
+        if tmp.exists() and tmp.stat().st_size > 1000:
+            tmp.replace(arq)
+    except Exception as e:  # noqa: BLE001
+        print(f"  aviso: normalização de volume falhou ({type(e).__name__}); mantendo o áudio original", flush=True)
+        tmp.unlink(missing_ok=True)
+
+
 def _tts_elevenlabs(texto: str, saida: Path):
     """Narra com a ElevenLabs (plano pago do Allan). Devolve as palavras com tempos, ou None se não for possível.
 
@@ -124,6 +137,7 @@ def _tts_elevenlabs(texto: str, saida: Path):
             with urllib.request.urlopen(req, timeout=60) as r:
                 d = json.load(r)
             saida.write_bytes(base64.b64decode(d["audio_base64"]))
+            _normalizar_volume(saida)
             al = d.get("alignment") or {}
             print(f"  ElevenLabs ({modelo}): {len(texto)} caracteres narrados (~{len(texto)} créditos)", flush=True)
             ch, ini, fim = [], [], []
