@@ -1,16 +1,16 @@
-# Relatório do Curador do Blog — 07/10/2026 12:13
+# Relatório do Curador do Blog — 07/10/2026 12:22
 
 25 artigos auditados, 13 com problema bloqueante.
 
 - REPROVADO | alimentos-proibidos-para-cachorro
-    - [bloqueante] conteúdo raso: 536 palavras (mínimo 900)
+    - [bloqueante] conteúdo raso: 536 palavras (mínimo 850)
     - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
     - [bloqueante] front-matter ainda tem 'persona' fictícia
     - [bloqueante] persona 'Comandante Focinho' aparece no título ou no texto
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
     - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
 - REPROVADO | ansiedade-de-separacao-em-caes
-    - [bloqueante] conteúdo raso: 555 palavras (mínimo 900)
+    - [bloqueante] conteúdo raso: 555 palavras (mínimo 850)
     - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
     - [bloqueante] front-matter ainda tem 'persona' fictícia
     - [bloqueante] persona 'Doutor Bagunça' aparece no título ou no texto
@@ -20,7 +20,7 @@
 - ok | arranhador-para-gato-qual-escolher
 - ok | brinquedos-para-cachorro-que-fica-sozinho
 - REPROVADO | cachorro-latindo-muito-o-que-fazer
-    - [bloqueante] conteúdo raso: 500 palavras (mínimo 900)
+    - [bloqueante] conteúdo raso: 500 palavras (mínimo 850)
     - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
     - [bloqueante] front-matter ainda tem 'persona' fictícia
     - [bloqueante] persona 'Seu Trombone' aparece no título ou no texto
@@ -32,18 +32,15 @@
     - [aviso] título com 81 caracteres (ideal até 70)
 - ok | coleira-ou-peitoral-para-cachorro
 - REPROVADO | com-quantos-meses-o-cachorro-pode-sair-na-rua
-    - [bloqueante] conteúdo raso: 894 palavras (mínimo 900)
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
     - [aviso] título com 84 caracteres (ideal até 70)
 - REPROVADO | com-que-frequencia-dar-banho-em-cachorro
-    - [bloqueante] conteúdo raso: 864 palavras (mínimo 900)
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
 - ok | como-cortar-unha-de-cachorro
     - [aviso] título com 80 caracteres (ideal até 70)
 - ok | como-dar-banho-em-gato
 - ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
 - REPROVADO | como-ensinar-gato-a-usar-a-caixa-de-areia
-    - [bloqueante] conteúdo raso: 875 palavras (mínimo 900)
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
 - ok | como-escovar-os-dentes-do-cachorro
 - REPROVADO | como-fazer-filhote-de-cachorro-parar-de-morder
@@ -53,14 +50,14 @@
     - [bloqueante] link interno para página inexistente: como-ensinar-gato-a-usar-a-caixa-de-areia
 - ok | como-socializar-filhote-de-gato
 - REPROVADO | como-trocar-a-racao-do-cachorro
-    - [bloqueante] conteúdo raso: 513 palavras (mínimo 900)
+    - [bloqueante] conteúdo raso: 513 palavras (mínimo 850)
     - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
     - [bloqueante] front-matter ainda tem 'persona' fictícia
     - [bloqueante] persona 'Beto Trapalhão' aparece no título ou no texto
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
     - [aviso] título com 86 caracteres (ideal até 70)
 - REPROVADO | enxoval-para-filhote-de-cachorro
-    - [bloqueante] conteúdo raso: 508 palavras (mínimo 900)
+    - [bloqueante] conteúdo raso: 508 palavras (mínimo 850)
     - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
     - [bloqueante] front-matter ainda tem 'persona' fictícia
     - [bloqueante] persona 'Dona Fifi Marreco' aparece no título ou no texto
@@ -74,7 +71,7 @@
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
 - ok | racao-para-filhote-de-cachorro
 - REPROVADO | vacinas-para-filhote-de-cachorro
-    - [bloqueante] conteúdo raso: 534 palavras (mínimo 900)
+    - [bloqueante] conteúdo raso: 534 palavras (mínimo 850)
     - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
     - [aviso] título com 89 caracteres (ideal até 70)
