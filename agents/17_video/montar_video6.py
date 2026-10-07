@@ -136,13 +136,22 @@ def tem_gente(v: dict) -> bool:
 
 
 def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str) -> list[Path]:
+    saidas = _pexels_videos(busca, chave, quantos, destino, tag)
+    if not saidas:  # busca eliminada pelo filtro de estilo: refaz com o animal em cena fofa
+        animal = "cat" if re.search(r"\b(cat|kitten|gato)", busca.lower()) else "puppy" if "puppy" in busca.lower() else "dog"
+        saidas = _pexels_videos(f"cute {animal} playing", chave, quantos, destino, tag)
+    return saidas
+
+
+def _pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str) -> list[Path]:
     url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
         {"query": busca, "orientation": "portrait", "size": "medium", "per_page": 40})
     saidas = []
     try:
         r = subprocess.run([curl_bin(), "-sS", "-m", "40", "-H", f"Authorization: {chave}", url],
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
-        for v in json.loads(r.stdout).get("videos", []):
+        from core.estilo_visual import ordenar  # só vídeo fofo e atraente, nunca triste/doente/bagunçado
+        for v in ordenar(json.loads(r.stdout).get("videos", [])):
             if tem_gente(v):
                 continue
             arqs = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and f.get("height", 0) >= 720]

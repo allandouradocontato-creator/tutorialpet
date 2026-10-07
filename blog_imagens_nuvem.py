@@ -47,11 +47,12 @@ def buscar(query: str, chave: str, n: int) -> list[dict]:
     req = urllib.request.Request(url, headers={**UA, "Authorization": chave})
     with urllib.request.urlopen(req, timeout=60) as r:
         dados = json.loads(r.read().decode("utf-8"))
+    from core.estilo_visual import ordenar
     return [{
         "fonte": "pexels", "id": p["id"], "url_download": p["src"]["large"], "url_pagina": p["url"],
         "fotografo": p["photographer"], "fotografo_url": p["photographer_url"],
         "largura": p["width"], "altura": p["height"], "query": query,
-    } for p in dados.get("photos", [])]
+    } for p in ordenar(dados.get("photos", []), "url", "alt")]
 
 
 def main() -> int:
