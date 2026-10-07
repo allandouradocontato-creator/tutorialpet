@@ -1,0 +1,20 @@
+# Guia de estilo viral — alimentado pelo "Caçador de estilo viral" (agente de referências) a partir dos Reels/TikToks
+# de pet que MAIS engajam. Valores iniciais = padrão provisório (07/10/2026) até o primeiro estudo ser concluído.
+# A fábrica de vídeo (agents/17_video/montar_video6.py) lê estes números; o caçador só atualiza este arquivo.
+versao: 0
+atualizado_em: "2026-10-07"
+cor:
+  saturacao: 1.18        # 1.0 = original; vídeos virais de pet costumam ser mais vivos
+  brilho: 0.03           # leve clareada (rosto do bicho bem iluminado)
+  contraste: 1.06
+  temperatura: quente    # quente | neutra | fria (só referência para o caçador; ainda não aplicada)
+cortes:
+  cortes_por_cena: 3     # quantos clipes por cena (mais cortes = mais ritmo)
+  duracao_media_corte_s: 1.6
+musica:
+  bpm_alvo: [110, 130]
+  energia: alta          # animada, enérgica, sem letra (instrumental) por baixo da narração
+  volume_sob_narracao: 0.20
+gancho:
+  primeiros_segundos: "bicho fofo em movimento + frase de curiosidade na tela nos primeiros 2s"
+referencias: []          # o caçador preenche: [{rede, perfil, link, views, o_que_replicar}]

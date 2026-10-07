@@ -129,6 +129,20 @@ GENTE = {"woman", "women", "man", "men", "girl", "boy", "people", "person", "per
          "hugging", "playing-with", "cuddling", "yoga", "class"}
 
 
+def _estilo_viral() -> dict:
+    try:
+        import yaml
+        return yaml.safe_load((ROOT / "config" / "estilo_viral.yaml").read_text(encoding="utf-8")) or {}
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+_EV = _estilo_viral()
+_COR = _EV.get("cor", {})
+EQ_COR = f"eq=saturation={_COR.get('saturacao', 1.1)}:brightness={_COR.get('brilho', 0)}:contrast={_COR.get('contraste', 1.0)}"
+CORTES_POR_CENA = int(_EV.get("cortes", {}).get("cortes_por_cena", 2))
+
+
 def tem_gente(v: dict) -> bool:
     """Pexels coloca a descricao no endereco da pagina; descarta clipes que citam pessoas ou maos."""
     partes = re.split(r"[^a-z]+", str(v.get("url", "")).lower().split("/video/")[-1])
@@ -194,14 +208,14 @@ def montar_cena(i: int, cena: dict, tmp: Path, chave: str, offline: bool, primei
             sh(["ffmpeg", "-y", "-f", "lavfi", "-i", f"testsrc2=size={W}x{H}:rate=30:duration=6", str(f)])
             fundos.append(f)
     elif chave:
-        fundos = pexels_videos(cena.get("visual_busca_banco_livre", "dog home"), chave, 2, tmp, f"f{i}")
+        fundos = pexels_videos(cena.get("visual_busca_banco_livre", "dog home"), chave, CORTES_POR_CENA, tmp, f"f{i}")
     partes = []
     base = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,setsar=1"
     if fundos:
         seg = dur / len(fundos)
         for k, f in enumerate(fundos):
             p = tmp / f"p{i}_{k}.mp4"
-            sh(["ffmpeg", "-y", "-stream_loop", "-1", "-i", str(f), "-t", f"{seg:.2f}", "-vf", base + ",eq=saturation=1.1",
+            sh(["ffmpeg", "-y", "-stream_loop", "-1", "-i", str(f), "-t", f"{seg:.2f}", "-vf", base + "," + EQ_COR,
                 "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p", str(p)])
             partes.append(p)
     else:
