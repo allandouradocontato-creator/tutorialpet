@@ -1,20 +1,32 @@
 # Guia de estilo viral — alimentado pelo "Caçador de estilo viral" (agente de referências) a partir dos Reels/TikToks
-# de pet que MAIS engajam. Valores iniciais = padrão provisório (07/10/2026) até o primeiro estudo ser concluído.
+# de pet que MAIS engajam. Estudo 1 (07/10/2026): metadados de ~24 vídeos do TikTok #cachorrofofo (views/curtidas/shares/duração/música).
+# Instagram: logado, mas sem views públicas nos Reels; TikTok bloqueou outras hashtags (Access Denied) — não contornado.
+# Cor/iluminação NÃO foram medidas por vídeo (só metadados): ajustes de cor são conservadores. Rever no próximo estudo.
 # A fábrica de vídeo (agents/17_video/montar_video6.py) lê estes números; o caçador só atualiza este arquivo.
-versao: 0
+versao: 1
 atualizado_em: "2026-10-07"
 cor:
-  saturacao: 1.18        # 1.0 = original; vídeos virais de pet costumam ser mais vivos
-  brilho: 0.03           # leve clareada (rosto do bicho bem iluminado)
+  saturacao: 1.15        # 1.0 = original; leve aumento (vídeos virais de pet: cores vivas, pelagem em destaque)
+  brilho: 0.04           # rosto do bicho bem iluminado, luz natural/contraluz suave
   contraste: 1.06
   temperatura: quente    # quente | neutra | fria (só referência para o caçador; ainda não aplicada)
 cortes:
-  cortes_por_cena: 3     # quantos clipes por cena (mais cortes = mais ritmo)
-  duracao_media_corte_s: 1.6
+  cortes_por_cena: 3     # padrão da moda: vídeos curtos (7-10s) de ~1 enquadramento + 2-3 cortes
+  duracao_media_corte_s: 1.5
 musica:
-  bpm_alvo: [110, 130]
-  energia: alta          # animada, enérgica, sem letra (instrumental) por baixo da narração
-  volume_sob_narracao: 0.20
+  bpm_alvo: [100, 125]
+  energia: media_alta    # leve/animada; instrumental ou som original por baixo da narração (top vídeos usam som original ou instrumental suave)
+  volume_sob_narracao: 0.18
 gancho:
-  primeiros_segundos: "bicho fofo em movimento + frase de curiosidade na tela nos primeiros 2s"
-referencias: []          # o caçador preenche: [{rede, perfil, link, views, o_que_replicar}]
+  primeiros_segundos: "close do bicho fofo olhando/mexendo na câmera no 1º segundo + frase curta de curiosidade ou alerta de fofura na tela (até 6 palavras) nos primeiros 2s; vídeo total de 7 a 10s rende mais compartilhamentos"
+referencias:
+  - {rede: tiktok, perfil: "@wanderingpixels", link: "https://www.tiktok.com/@wanderingpixels/video/7669864743720471830", views: 2400000, o_que_replicar: "10s, filhote passando em plano único limpo, luz natural, legenda curta; 46k shares"}
+  - {rede: tiktok, perfil: "@oakley.thedachshund", link: "https://www.tiktok.com/@oakley.thedachshund/video/7666737672949402912", views: 2100000, o_que_replicar: "7s, 354k curtidas, 157k shares; música instrumental suave (Bibio), close afetivo"}
+  - {rede: tiktok, perfil: "@weenieboyralphie", link: "https://www.tiktok.com/@weenieboyralphie/video/7680615372386471199", views: 1700000, o_que_replicar: "7s, bichinho com roupinha, legenda curta de gancho, 267k curtidas"}
+  - {rede: tiktok, perfil: "@amapamusic", link: "https://www.tiktok.com/@amapamusic/video/7672452170087763221", views: 1200000, o_que_replicar: "pergunta no título como gancho (Qual o latido mais fofo?), formato de compilação 60s"}
+  - {rede: tiktok, perfil: "@shihtzumarrom", link: "https://www.tiktok.com/@shihtzumarrom/video/7691640237281299733", views: 989200, o_que_replicar: "9s, postado em 01/10/2026, CTA de compartilhar na legenda (manda pro seu papai)"}
+  - {rede: tiktok, perfil: "@coco.thefluffypom", link: "https://www.tiktok.com/@coco.thefluffypom/video/7669090080325176598", views: 933100, o_que_replicar: "12s, tema sazonal (verão/sorvete), pet fofo com cenário colorido, 40k shares"}
+  - {rede: tiktok, perfil: "@biluwthedog", link: "https://www.tiktok.com/@biluwthedog/video/7678762819449294100", views: 864800, o_que_replicar: "10s, 210k curtidas, taxa de curtida alta (24%); plano único afetivo"}
+  - {rede: tiktok, perfil: "@petsdobrasil", link: "https://www.tiktok.com/@petsdobrasil/video/7671292617434483989", views: 373700, o_que_replicar: "8s, 31k curtidas, trilha instrumental delicada (Music Box Lullaby), só hashtag como legenda"}
+  - {rede: tiktok, perfil: "@catiorineosfofineos", link: "https://www.tiktok.com/@catiorineosfofineos/video/7270650730627861766", views: 7400000, o_que_replicar: "evergreen (2023): 15s, 1,3M curtidas, 201k shares; reação engraçada/fofa do bicho"}
+  - {rede: instagram, perfil: "@comandocanino10", link: "https://www.instagram.com/p/Co91g4VNPrf/", views: null, o_que_replicar: "1M curtidas (2023): gancho de interação 'aperte duas vezes na tela' + transformação filhote; usar só como ideia de gancho"}

@@ -1,0 +1,9 @@
+# Faixas em alta em vídeos de pet (TikTok #cachorrofofo, estudo de 2026-10-07). Para o Publicador usar via audioConfiguration (Metricool).
+# Observação: os vídeos de maior sucesso usam principalmente "som original"; trilhas abaixo são as que apareceram nos vídeos com alto engajamento ou recentes.
+atualizado_em: "2026-10-07"
+faixas:
+  - {titulo: "Funk do Patinho (feat. Lara Santoro)", artista: "Bento e Totó", tipo: "com letra", motivo: "animada, infantil, em vídeo de pet brasileiro (jun/2026)", termo_de_busca_metricool: "Funk do Patinho"}
+  - {titulo: "I'm A Believer", artista: "Smash Mouth", tipo: "com letra", motivo: "animada/energética, usada em compilação fofa de pet com ~965k views", termo_de_busca_metricool: "I'm A Believer Smash Mouth"}
+  - {titulo: "Tiny Moments", artista: "Portiz Music", tipo: "instrumental", motivo: "leve e fofa, boa sob narração; usada em vídeo de filhote (mai/2026)", termo_de_busca_metricool: "Tiny Moments Portiz Music"}
+  - {titulo: "Lovers' Carvings", artista: "Bibio", tipo: "instrumental", motivo: "trilha do vídeo de dachshund com 2,1M views e 157k shares (jul/2026); mais calma que as demais", termo_de_busca_metricool: "Lovers Carvings Bibio"}
+  - {titulo: "Alecrim", artista: "Paulo Freire", tipo: "com letra", motivo: "violão brasileiro suave em vídeo de salsicha com 2,1M views (2023); usar baixo", termo_de_busca_metricool: "Alecrim Paulo Freire"}
