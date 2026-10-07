@@ -1,9 +1,9 @@
-# Faixas em alta em vídeos de pet (TikTok #cachorrofofo, estudo de 2026-10-07). Para o Publicador usar via audioConfiguration (Metricool).
-# Observação: os vídeos de maior sucesso usam principalmente "som original"; trilhas abaixo são as que apareceram nos vídeos com alto engajamento ou recentes.
+# Faixas em alta em vídeos de pet (TikTok #cachorrofofo/#gatofofo, estudo de 2026-10-07, 2ª rodada). Para o Publicador usar via audioConfiguration (Metricool).
+# Observação: a maioria dos vídeos de maior sucesso usa "som original"; as faixas abaixo são as que apareceram em vídeos de alto engajamento ou recentes.
 atualizado_em: "2026-10-07"
 faixas:
-  - {titulo: "Funk do Patinho (feat. Lara Santoro)", artista: "Bento e Totó", tipo: "com letra", motivo: "animada, infantil, em vídeo de pet brasileiro (jun/2026)", termo_de_busca_metricool: "Funk do Patinho"}
-  - {titulo: "I'm A Believer", artista: "Smash Mouth", tipo: "com letra", motivo: "animada/energética, usada em compilação fofa de pet com ~965k views", termo_de_busca_metricool: "I'm A Believer Smash Mouth"}
-  - {titulo: "Tiny Moments", artista: "Portiz Music", tipo: "instrumental", motivo: "leve e fofa, boa sob narração; usada em vídeo de filhote (mai/2026)", termo_de_busca_metricool: "Tiny Moments Portiz Music"}
-  - {titulo: "Lovers' Carvings", artista: "Bibio", tipo: "instrumental", motivo: "trilha do vídeo de dachshund com 2,1M views e 157k shares (jul/2026); mais calma que as demais", termo_de_busca_metricool: "Lovers Carvings Bibio"}
-  - {titulo: "Alecrim", artista: "Paulo Freire", tipo: "com letra", motivo: "violão brasileiro suave em vídeo de salsicha com 2,1M views (2023); usar baixo", termo_de_busca_metricool: "Alecrim Paulo Freire"}
+  - {titulo: "Clumsy Tunes", artista: "Eitan Epstein Music", tipo: "instrumental", motivo: "brincalhona/energética; trilha de gatinho com 6,5M views e 85k shares (mai/2026)", termo_de_busca_metricool: "Clumsy Tunes Eitan Epstein"}
+  - {titulo: "Cute Pets Routine", artista: "Eitan Epstein Music", tipo: "instrumental", motivo: "leve e animada, ótima sob narração; vídeo de gato com 6,9M views", termo_de_busca_metricool: "Cute Pets Routine Eitan Epstein"}
+  - {titulo: "Music Box Lullaby", artista: "Madeline Sprocket", tipo: "instrumental", motivo: "delicada, usada em vídeo BR de filhote com 373k views (ago/2026); mais calma", termo_de_busca_metricool: "Music Box Lullaby Madeline Sprocket"}
+  - {titulo: "Bobbie Goods", artista: "Mc Bringel & Lukão Mec & Lado Sul", tipo: "com letra", motivo: "funk infantil brasileiro animado em vídeo de gatinhos com 2,5M views; usar baixo", termo_de_busca_metricool: "Bobbie Goods Mc Bringel"}
+  - {titulo: "Funk do Patinho (feat. Lara Santoro)", artista: "Bento e Totó", tipo: "com letra", motivo: "animada, infantil, em vídeo de pet brasileiro (jun/2026); engajamento modesto, usar com cautela", termo_de_busca_metricool: "Funk do Patinho"}
