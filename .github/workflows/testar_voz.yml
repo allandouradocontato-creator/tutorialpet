@@ -1,0 +1,52 @@
+name: Testar voz da Duda (ElevenLabs)
+
+# Gera uma frase curta com a voz de config/voz_elevenlabs.yaml usando o MESMO codigo da fabrica
+# e guarda o mp3 como artefato para o Allan ouvir. Gasta ~100 creditos. A chave nunca e impressa.
+on:
+  workflow_dispatch:
+    inputs:
+      texto:
+        description: "frase de teste"
+        required: false
+        default: "Oi! Aqui é a Duda, do Tutorial Pet. Hoje vou te contar um segredinho sobre o banho do seu cachorro."
+
+permissions:
+  contents: read
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias
+        run: pip install pyyaml
+
+      - name: Gerar amostra com o codigo da fabrica
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          TEXTO: ${{ github.event.inputs.texto }}
+        run: |
+          python3 - <<'PY'
+          import importlib.util, os, sys
+          from pathlib import Path
+          sys.path.insert(0, "agents/17_video")
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          saida = Path("amostra_duda.mp3")
+          pal = m._tts_elevenlabs(os.environ["TEXTO"], saida)
+          if pal is None:
+              raise SystemExit("ElevenLabs nao gerou o audio (veja as linhas acima)")
+          print(f"OK: {saida.stat().st_size} bytes, {len(pal)} palavras com tempo; ultima termina em {pal[-1][1]:.1f}s")
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: amostra-duda
+          path: amostra_duda.mp3
+          retention-days: 3

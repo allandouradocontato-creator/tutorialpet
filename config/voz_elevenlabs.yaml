@@ -1,5 +1,5 @@
-# Voz da ElevenLabs usada na narração dos vídeos (plano Starter do Allan).
-# O ID da voz NÃO é segredo. Para achar: ElevenLabs > Voices > a voz escolhida > "Copy voice ID".
-# Enquanto estiver vazio (ou sem chave), a fábrica narra com a voz grátis (edge-tts).
+# Voz da ElevenLabs usada na narração dos vídeos (plano Starter do Allan): a voz da Duda.
+# O ID da voz NÃO é segredo. Informado pelo Allan em 07/10/2026 (a confirmar pelo áudio de teste).
+# Se ficar vazio (ou sem chave), a fábrica narra com a voz grátis (edge-tts).
 # A chave fica só no GitHub: secret TUTORIALPETELEVENLABS (ou ELEVENLABS_API_KEY).
-voice_id: ""
+voice_id: "iScHbNW8K33gNo3lGgbo"
