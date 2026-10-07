@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Pode dar sachê para gato todos os dias?",
+  "gancho_3s": "Quer dar sachê para o seu gato todo dia? Cuidado para não errar a mão!",
+  "cenas": [
+    {
+      "narracao": "Sim, você pode dar sachê diariamente, mas precisa escolher opções completas e balanceadas.",
+      "visual_busca_banco_livre": "cat eating wet food from pouch close up",
+      "texto_na_tela": "Pode dar sachê todo dia?"
+    },
+    {
+      "narracao": "A comida úmida é excelente para a hidratação, já que muitos gatos bebem pouca água.",
+      "visual_busca_banco_livre": "cat drinking water from bowl",
+      "texto_na_tela": "Superpoder: hidratação!"
+    },
+    {
+      "narracao": "Cuidado para não exagerar nas calorias e transformar o bichano em uma versão redonda de si mesmo.",
+      "visual_busca_banco_livre": "chubby cat sitting on floor",
+      "texto_na_tela": "Cuidado com o peso"
+    },
+    {
+      "narracao": "Calcule as porções diárias e combine o sachê com a ração seca para manter o equilíbrio.",
+      "visual_busca_banco_livre": "cat food bowl dry and wet food",
+      "texto_na_tela": "Equilíbrio na dieta"
+    },
+    {
+      "narracao": "Nunca deixe o sachê aberto no prato por mais de uma hora para evitar bactérias.",
+      "visual_busca_banco_livre": "cat smelling food in bowl",
+      "texto_na_tela": "Máximo 1 hora no prato"
+    },
+    {
+      "narracao": "Consulte sempre o médico-veterinário para definir a quantidade ideal para a saúde do seu pet.",
+      "visual_busca_banco_livre": "healthy cat sitting looking at camera",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Leia o artigo completo no blog para mais dicas de cuidados felinos!",
+  "hashtags": [
+    "#gatos",
+    "#sacheparagato",
+    "#alimentacaofelina",
+    "#gato",
+    "#saudefelina"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer dar sachê para o seu gato todo dia? Cuidado para não errar a mão!\n\n📖 Artigo completo: https://tutorialpet.com.br/pode-dar-sache-para-gato-todos-os-dias\n\n#gatos #sacheparagato #alimentacaofelina #gato #saudefelina",
+  "slug": "pode-dar-sache-para-gato-todos-os-dias"
+}
