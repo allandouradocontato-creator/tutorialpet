@@ -93,20 +93,27 @@ def _tts_elevenlabs(texto: str, saida: Path):
     """
     chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     voz_id = os.environ.get("ELEVENLABS_VOICE_ID", "").strip()
-    if not voz_id:  # o ID da voz não é segredo: pode ficar em config/voz_elevenlabs.yaml
-        try:
-            import yaml
-            cfg = ROOT / "config" / "voz_elevenlabs.yaml"
-            voz_id = str((yaml.safe_load(cfg.read_text(encoding="utf-8")) or {}).get("voice_id") or "").strip()
-        except Exception:
-            voz_id = ""
+    cfgv = {}
+    try:  # o ID da voz e os ajustes de emoção não são segredo: ficam em config/voz_elevenlabs.yaml
+        import yaml
+        cfgv = yaml.safe_load((ROOT / "config" / "voz_elevenlabs.yaml").read_text(encoding="utf-8")) or {}
+    except Exception:
+        cfgv = {}
+    if not voz_id:
+        voz_id = str(cfgv.get("voice_id") or "").strip()
     if not chave or not voz_id:
         return None
     import base64
     import urllib.error
     import urllib.request
-    corpo = json.dumps({"text": texto,
-                        "model_id": os.environ.get("ELEVENLABS_MODEL", "eleven_multilingual_v2")}).encode()
+    modelo = os.environ.get("ELEVENLABS_MODEL") or cfgv.get("model_id") or "eleven_multilingual_v2"
+    dados = {"text": texto, "model_id": modelo}
+    if cfgv.get("stability") is not None:  # padrão da Duda: estabilidade baixa (Criativo) = mais emoção
+        dados["voice_settings"] = {"stability": float(cfgv["stability"]),
+                                   "similarity_boost": float(cfgv.get("similarity_boost", 0.75)),
+                                   "style": float(cfgv.get("style", 0.0)),
+                                   "use_speaker_boost": True}
+    corpo = json.dumps(dados).encode()
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{voz_id}/with-timestamps", data=corpo, method="POST",
         headers={"xi-api-key": chave, "Content-Type": "application/json"})
@@ -116,9 +123,20 @@ def _tts_elevenlabs(texto: str, saida: Path):
                 d = json.load(r)
             saida.write_bytes(base64.b64decode(d["audio_base64"]))
             al = d.get("alignment") or {}
-            print(f"  ElevenLabs: {len(texto)} caracteres narrados (~{len(texto)} créditos)", flush=True)
-            return _palavras_do_alinhamento(al.get("characters", []), al.get("character_start_times_seconds", []),
-                                            al.get("character_end_times_seconds", []))
+            print(f"  ElevenLabs ({modelo}): {len(texto)} caracteres narrados (~{len(texto)} créditos)", flush=True)
+            ch, ini, fim = [], [], []
+            dentro = False  # tira as tags de emoção [warmly] das legendas
+            for c, a, b in zip(al.get("characters", []), al.get("character_start_times_seconds", []),
+                               al.get("character_end_times_seconds", [])):
+                if c == "[":
+                    dentro = True
+                    continue
+                if c == "]":
+                    dentro = False
+                    continue
+                if not dentro:
+                    ch.append(c); ini.append(a); fim.append(b)
+            return _palavras_do_alinhamento(ch, ini, fim)
         except urllib.error.HTTPError as e:
             print(f"  ElevenLabs: HTTP {e.code} (tentativa {tentativa})", flush=True)
             if e.code in (401, 403, 404, 422):  # chave, voz ou plano inválidos: repetir não ajuda

@@ -1,5 +1,10 @@
 # Voz da ElevenLabs usada na narração dos vídeos (plano Starter do Allan): a voz da Duda.
-# O ID da voz NÃO é segredo. Informado pelo Allan em 07/10/2026 (a confirmar pelo áudio de teste).
+# O ID da voz NÃO é segredo. Informado pelo Allan em 07/10/2026.
+# Padrão da Duda (aprovado em 06/10): Marianne, Eleven v4, Estabilidade perto de 25% (lado "Criativo") e tags de emoção no texto.
 # Se ficar vazio (ou sem chave), a fábrica narra com a voz grátis (edge-tts).
 # A chave fica só no GitHub: secret TUTORIALPETELEVENLABS (ou ELEVENLABS_API_KEY).
 voice_id: "iScHbNW8K33gNo3lGgbo"
+model_id: "eleven_v3"      # id de API do modelo expressivo (o "Eleven v4" da tela); ajustar se o teste acusar HTTP 422
+stability: 0.25
+similarity_boost: 0.75
+style: 0.0
