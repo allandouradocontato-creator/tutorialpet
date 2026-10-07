@@ -47,6 +47,14 @@ jobs:
           set -o pipefail
           python fabrica_nuvem.py /tmp/media 2>&1 | tee /tmp/producao.log
 
+      - name: Repor fila de temas (agente 19; nao derruba a fabrica se falhar)
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python agents/19_validador_tema/agent.py --repor 5 || echo "::warning::reposicao de temas falhou; fila segue como estava"
+
       - name: Entregar pacote (branch media)
         run: |
           cd /tmp/media
