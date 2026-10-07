@@ -1,0 +1,24 @@
+name: Listar modelos ElevenLabs (uso unico)
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  listar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error
+          chave = os.environ["ELEVENLABS_API_KEY"].strip()
+          try:
+              req = urllib.request.Request("https://api.elevenlabs.io/v1/models", headers={"xi-api-key": chave})
+              d = json.load(urllib.request.urlopen(req, timeout=30))
+              for m in d:
+                  print("MODELO:", m.get("model_id"), "|", m.get("name"), "| tts:", m.get("can_do_text_to_speech"))
+          except urllib.error.HTTPError as e:
+              print("HTTP", e.code, e.read().decode()[:200].replace(chave, "***"))
+          PY
