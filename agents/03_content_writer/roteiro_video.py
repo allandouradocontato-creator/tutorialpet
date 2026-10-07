@@ -55,6 +55,10 @@ def gerar(path: Path) -> Path:
     prod = produto_principal()
     link_produto = prod.get("link", "")
     chamada = prod.get("chamada_topo", "Conheça o app Sozinho em Casa.")
+    # Gancho segue o tema: artigo sobre gato (sem citar cachorro) não abre falando do cachorro do leitor.
+    ref = f"{slug} {fm.get('title', '')} {fm.get('titulo', '')}".lower()
+    if re.search(r"\b(gato|gata|gatos|felino)", ref) and not re.search(r"cachorr|c[aã]o\b|c[aã]es", ref):
+        chamada = prod.get("chamada_topo_outros", chamada)
     url_artigo = f"https://tutorialpet.com.br/{slug}"
     # Regra da casa: link do produto logo no começo da legenda; artigo logo abaixo.
     legenda = f"🐾 {chamada} → {link_produto}\n\n{roteiro.get('gancho_3s', '')}\n\n📖 Artigo completo: {url_artigo}\n\n" + " ".join("#" + str(h).strip().lstrip("#").replace(" ", "") for h in roteiro.get("hashtags", []) if str(h).strip())
