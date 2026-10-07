@@ -17,7 +17,8 @@ temas:
   data: '2026-10-07'
 - termo: pode dar sache para gato todos os dias
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-07'
 - termo: como fazer o gato beber mais agua
   pilar: cuidados_diarios
   status: pendente
@@ -40,5 +41,14 @@ temas:
   pilar: primeiros_passos_filhotes
   status: pendente
 - termo: com que frequência escovar os dentes do cachorro
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como evitar que o filhote chore à noite
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: por que o gato esconde a comida na tigela
+  pilar: comportamento
+  status: pendente
+- termo: como acostumar o cachorro a cortar as unhas
   pilar: cuidados_diarios
   status: pendente

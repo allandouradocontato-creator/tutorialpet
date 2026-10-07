@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Pode dar sachê para gato todos os dias?",
+  "gancho_3s": "Afinal, pode dar sachê para gato todos os dias?",
+  "cenas": [
+    {
+      "narracao": "Sim, na maioria das vezes o sachê pode fazer parte da rotina diária do seu gato.",
+      "visual_busca_banco_livre": "cat eating wet food from bowl close up",
+      "texto_na_tela": "Pode dar sachê todo dia?"
+    },
+    {
+      "narracao": "O grande segredo do sachê é a quantidade de água escondida ali dentro, o que ajuda muito na hidratação.",
+      "visual_busca_banco_livre": "cat drinking water macro",
+      "texto_na_tela": "Ajuda na hidratação"
+    },
+    {
+      "narracao": "Mas cuidado: o sachê não é completo em calorias se comparado à ração seca. Equilíbrio é essencial para o gato não engordar.",
+      "visual_busca_banco_livre": "fat cat sitting on floor",
+      "texto_na_tela": "Cuidado com o peso"
+    },
+    {
+      "narracao": "Você pode dividir o pacotinho ao longo do dia, misturando com a ração seca e reduzindo a quantidade dela.",
+      "visual_busca_banco_livre": "cat dry food in bowl top view",
+      "texto_na_tela": "Divida a porção"
+    },
+    {
+      "narracao": "Se o sachê ficar na tigela e o gato não comer, recolha em até meia hora para evitar que estrague.",
+      "visual_busca_banco_livre": "cat sniffing food walking away",
+      "texto_na_tela": "Não deixe sobrando"
+    }
+  ],
+  "chamada_final": "Consulte sempre o médico-veterinário para alinhar a quantidade exata para o seu pet!",
+  "hashtags": [
+    "#gatos",
+    "#sacheparagato",
+    "#cuidadoscomgatos",
+    "#alimentacaofelina",
+    "#tutorialpet"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nAfinal, pode dar sachê para gato todos os dias?\n\n📖 Artigo completo: https://tutorialpet.com.br/pode-dar-sache-para-gato-todos-os-dias\n\n#gatos #sacheparagato #cuidadoscomgatos #alimentacaofelina #tutorialpet",
+  "slug": "pode-dar-sache-para-gato-todos-os-dias"
+}
