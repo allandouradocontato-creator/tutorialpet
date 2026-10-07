@@ -93,3 +93,9 @@ a_fabrica_produz:
     - {item: financeiro (custo por venda, lucro por produto), situacao: falta}
     - {item: saúde e manutenção da própria fábrica, situacao: existe}
     - {item: pipeline de novos produtos e novos nichos (a holding), situacao: parcial}
+
+# Auditor de Processo (agente 25), criado em 07/10/2026: roda ao fim de cada rodada da fábrica e mede o pacote
+# contra o padrão (volume, gancho falado, CTA, tags, legenda, créditos de voz). Relatório em data/auditoria/ultimo.md.
+auditoria:
+  agente: 25_auditor_processo
+  quando: "ao fim de cada rodada da fábrica (aviso, não derruba)"

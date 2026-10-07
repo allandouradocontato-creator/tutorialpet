@@ -63,6 +63,12 @@ jobs:
         run: |
           python agents/24_curador_blog/agent.py | head -40
 
+      - name: Auditoria do processo (agente 25; so avisa, nao derruba a rodada)
+        continue-on-error: true
+        run: |
+          python agents/25_auditor_processo/agent.py /tmp/media | tee /tmp/auditoria.md
+          [ -f data/auditoria/ultimo.md ] && cat data/auditoria/ultimo.md >> "$GITHUB_STEP_SUMMARY"
+
       - name: Entregar pacote (branch media)
         run: |
           cd /tmp/media
@@ -76,7 +82,7 @@ jobs:
         run: |
           git config user.name "Fabrica Tutorial Pet"
           git config user.email "fabrica@tutorialpet.com.br"
-          git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca || true
+          git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria || true
           git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || echo "nada a commitar"
           git pull --rebase -X theirs origin main || git rebase --abort || true
           git push origin main || echo "::warning::push da fila no main falhou (conflito?); rascunhos nao foram guardados"

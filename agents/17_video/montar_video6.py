@@ -383,7 +383,10 @@ def main() -> int:
         if not musicas and (ROOT / "data" / "social" / "musica").exists():
             musicas = sorted((ROOT / "data" / "social" / "musica").glob("*.mp3"))
         if musicas:
-            faixa = musicas[sum(map(ord, slug)) % len(musicas)]
+            # só faixas ENERGÉTICAS (config/estilo_viral.yaml -> musica.faixas_energeticas); alterna pelo slug
+            prefer = [m for m in musicas if m.name in (_EV.get("musica", {}).get("faixas_energeticas") or [])]
+            pool = prefer or musicas
+            faixa = pool[sum(map(ord, slug)) % len(pool)]
             vol_db = float(_EV.get("musica", {}).get("volume_db", -7))  # nível da música em relação a -14 LUFS (voz)
             print("música de fundo:", faixa.name, "nível", vol_db, "dB (normalizada, com ducking sob a voz)")
             # 1) normaliza a faixa (as da biblioteca variam de -8 a -16 LUFS); 2) abaixa quando a Duda fala (sidechain)
