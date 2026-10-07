@@ -56,5 +56,10 @@ jobs:
           git config user.email "fabrica@tutorialpet.com.br"
           git add data/content_writer/rascunhos site/build data/quality_editor data/seo_onpage data/curador_blog
           git commit -m "blog: reforco de artigos $(date -u +%F-%H%M)" || echo "nada a commitar"
-          git pull --rebase origin main
-          git push origin main
+          # arquivos gerados: em conflito vale a versao desta execucao (-X theirs no rebase); tenta 3 vezes
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push origin main && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          exit 1
