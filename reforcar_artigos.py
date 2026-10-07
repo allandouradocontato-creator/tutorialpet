@@ -27,6 +27,7 @@ curador = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(curador)
 
 EXTRA = """
+LINHA EDITORIAL (07/10/2026): o público é TODO tutor de cães e gatos, não só iniciantes. Remova "tutor de primeira viagem" do título e do texto (salvo se o tema for chegada do pet) e escreva para quem lê o tema, seja novato ou experiente.
 REFORÇO DE QUALIDADE (este artigo precisa passar na revisão do Google AdSense):
 - Assinatura da equipe: nenhuma voz de personagem, nenhum nome de pessoa, nenhuma "coluna". Tom: claro, acolhedor e direto, de equipe que pesquisa e explica.
 - Profundidade e rigor técnico: explique o PORQUÊ (comportamento ou fisiologia do animal) antes de cada recomendação, dê passos numerados, erros comuns, sinais de alerta e quando procurar o médico-veterinário. Sem inventar estudo, número exato ou estatística.

@@ -2,7 +2,7 @@ site_id: pets-tutores-iniciantes
 nome: "Tutorial Pet"            # definitivo
 dominio: "https://tutorialpet.com.br"
 idioma: pt-BR
-nicho: "Cuidados e comportamento de cães e gatos para tutores de primeira viagem"
+nicho: "Cuidados e comportamento de cães e gatos para todo tipo de tutor (do primeiro pet à casa com vários)"
 
 google_ads:
   language_constant_id: 1014        # Português

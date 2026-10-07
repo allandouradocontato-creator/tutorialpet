@@ -17,7 +17,8 @@ from core.llm import gerar_texto  # noqa: E402
 VOZES_PATH = ROOT / "config" / "vozes_cronistas.yaml"
 ESTADO_PATH = ROOT / "data" / "content_writer" / "estado_rotacao.json"
 
-SISTEMA = """Você escreve artigos de blog em português do Brasil para a marca Tutorial Pet (tutores de primeira viagem).
+SISTEMA = """Você escreve artigos de blog em português do Brasil para a marca Tutorial Pet (todos os tutores de cães e gatos: de quem está chegando com o primeiro pet a quem já tem vários; filhote, adulto e idoso).
+LINHA EDITORIAL (07/10/2026): não escreva só para iniciantes. Escolha o leitor pelo tema (iniciante, experiente, família com crianças, tutor de idoso, multi-pet) e não use "tutor de primeira viagem" no título nem repita isso no texto, salvo quando o tema for mesmo de chegada do pet.
 REGRAS INEGOCIÁVEIS:
 - Texto 100% original. Nunca copie nem parafraseie de perto nenhuma fonte.
 - Nunca diga que é veterinário nem alegue credencial. Fale como tutor experiente aconselhando um amigo.

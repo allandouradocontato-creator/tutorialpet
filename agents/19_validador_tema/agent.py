@@ -82,7 +82,7 @@ def status() -> int:
 def pedir_ao_llm(n: int, existentes: list[str], pilares: list[str]) -> list[dict]:
     from core.llm import gerar_texto
     prompt = (
-        f"Sugira {n} temas NOVOS de artigo para um blog brasileiro para tutores iniciantes de cães e gatos.\n"
+        f"Sugira {n} temas NOVOS de artigo para um blog brasileiro para tutores de cães e gatos de TODOS os perfis (iniciantes e experientes, filhote, adulto e idoso, multi-pet, família). No máximo 1 em cada 4 temas pode ser de iniciante.\n"
         f"Cada tema deve ser um termo de busca real em português (pergunta ou long tail), com 4 a 10 palavras.\n"
         f"Pilares permitidos: {', '.join(pilares)}. Distribua entre os pilares.\n"
         "PROIBIDO: diagnóstico, doses, remédios, tratamentos. Foque em rotina, comportamento, enxoval, alimentação "

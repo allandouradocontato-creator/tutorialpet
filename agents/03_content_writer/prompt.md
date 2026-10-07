@@ -51,7 +51,7 @@ Um arquivo `data/content_writer/rascunhos/<slug>.md`, com front-matter YAML:
 
 ```yaml
 ---
-titulo: "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem"
+titulo: "Como cortar unha de cachorro: guia passo a passo"
 meta_description: "..."
 data: "2026-09-15"
 status: rascunho_pendente_revisao
