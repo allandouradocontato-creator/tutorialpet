@@ -3,19 +3,18 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem",
-    "description": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem. Se você chegou até aqui é porque provavelmente está no meio dessa...",
+    "description": "Aprenda como cortar unha de cachorro em casa sem medo. Guia passo a passo para tutores de primeira viagem com dicas simples e seguras.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/como-cortar-unha-de-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-cortar-unha-de-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-cortar-unha-de-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Meu pet fica muito estressado durante o cuidado, o que fazer?",
+        "name": "Com que frequência devo cortar a unha do meu cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Reduza a duração da sessão, aumente as recompensas e vá com mais calma na progressão. Se o estresse continuar intenso, um profissional pode ajudar a dessensibilizar o pet."
+          "text": "Em média, o corte costuma ser necessário a cada duas ou quatro semanas, dependendo do quanto ele gasta a unha em pisos ásperos. Confirme sempre com o médico-veterinário do seu pet."
         }
       },
       {
         "@type": "Question",
-        "name": "Existe idade certa para começar?",
+        "name": "O que fazer se o meu cachorro não deixar eu tocar nas patas dele?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Quanto mais cedo o pet se acostuma com o manuseio, mais fácil tende a ser — mas nunca é tarde para começar, só exige mais paciência e passos menores."
+          "text": "Faça trechos curtos de acostumamento diário: toque na pata, dê um petisco. Repita até que ele entenda que o toque não machuca."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso usar produtos feitos para humanos?",
+        "name": "Posso usar cortador de unha humano?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em geral não é recomendado: a pele e o organismo de cães e gatos reagem diferente da gente. Prefira produtos formulados especificamente para pets."
+          "text": "Não é recomendado. O formato do cortador humano achata a unha em vez de fazer um corte limpo, o que pode causar rachaduras dolorosas."
         }
       },
       {
         "@type": "Question",
-        "name": "Com que frequência devo repetir esse cuidado?",
+        "name": "E se a unha do esporão (unha do lobinho) estiver muito grande?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Isso varia conforme o pet e o tipo de cuidado — observe o resultado e ajuste o intervalo aos poucos, sem forçar uma frequência rígida sem necessidade."
+          "text": "O esporão fica na parte interna da pata dianteira e não encosta no chão, logo ele cresce em formato de gancho e pode encarnar. Corte com cuidado extra ou peça ajuda ao veterinário."
         }
       }
     ]

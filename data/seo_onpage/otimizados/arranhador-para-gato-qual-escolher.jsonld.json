@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado (várias vezes)",
-    "description": "Arranhador para gato, qual escolher? O Beto Trapalhão já comprou o errado (várias vezes). Já perdi as contas de quantos arranhadores eu comprei que meu...",
+    "headline": "Arranhador para gato, qual escolher",
+    "description": "Arranhador para gato, qual escolher. Quem divide a casa com um felino sabe que a energia acumulada precisa de um destino. Se você já encontrou marcas...",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/arranhador-para-gato-qual-escolher",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/arranhador-para-gato-qual-escolher"
-    },
-    "image": "https://tutorialpet.com.br/imagens/arranhador-para-gato-qual-escolher.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,42 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Vale a pena comprar o arranhador mais caro?",
+        "name": "O que fazer se o gato ignorar completamente o arranhador novo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nem sempre — o que importa é estabilidade, altura adequada e material resistente, não o preço em si."
+          "text": "Você pode usar um pouco de catnip (erva-do-gato) em pó ou spray na base para despertar o interesse natural do animal pela textura e pelo cheiro."
         }
       },
       {
         "@type": "Question",
-        "name": "Meu gato ignora o arranhador novo, o que fazer?",
+        "name": "Posso ter apenas um arranhador para dois gatos em casa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Tenta reposicionar pra perto de onde ele já arranha por instinto, e usa erva-de-gato ou petisco pra criar associação positiva com o objeto novo."
+          "text": "O ideal é ter pelo menos um arranhador por gato, somado a um extra, para evitar disputas de território e estresse entre os animais da casa."
         }
       },
       {
         "@type": "Question",
-        "name": "Um arranhador é suficiente pra casa toda?",
+        "name": "Qual é a vida útil média de um arranhador de sisal?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende do tamanho da casa e da quantidade de gatos — ter mais de um espalhado em pontos estratégicos costuma funcionar melhor."
+          "text": "Em média, costuma durar de alguns meses a alguns anos, dependendo da intensidade do uso. Lembre-se de confirmar a durabilidade ideal com o médico-veterinário do pet caso note desgaste excessivo."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso fazer um arranhador caseiro?",
+        "name": "Gatos filhotes precisam de arranhadores especiais?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode, desde que seja estável e com material seguro (sisal é uma boa opção pra enrolar numa base firme) — só cuidar pra não usar material que solte fiapos fáceis de engolir."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso trocar o material do arranhador depois?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pode, e às vezes vale a pena mesmo — se o gato ignorar o material escolhido, troca sem culpa nenhuma. Eu já troquei duas vezes até achar o que o meu realmente usava de verdade."
+          "text": "Sim, filhotes precisam de modelos mais baixos, leves e acessíveis, pois suas articulações ainda estão em desenvolvimento e a coordenação motora é menor."
         }
       }
     ]

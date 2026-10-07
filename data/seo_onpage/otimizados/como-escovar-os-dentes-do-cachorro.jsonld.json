@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como escovar os dentes do cachorro: o Vavá Cordeiro ensina o jeito manso",
-    "description": "Vavá Cordeiro ensina como escovar os dentes do cachorro sem luta, com que frequência fazer e o que usar (e nunca usar) na escovação.",
+    "headline": "Como escovar os dentes do cachorro",
+    "description": "Aprenda como escovar os dentes do cachorro sem estresse. Guia prático com passo a passo para tutores iniciantes manterem o hálito fresco.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/como-escovar-os-dentes-do-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escovar-os-dentes-do-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-escovar-os-dentes-do-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,42 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Petisco dental substitui a escovação?",
+        "name": "Posso usar bicarbonato de sódio para limpar os dentes do meu cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ajuda como complemento, mas não substitui — a escovação regular ainda é o jeito mais eficaz de prevenir o acúmulo de tártaro."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Meu cachorro não deixa de jeito nenhum, o que fazer?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Vai com calma, em sessões bem curtas no começo, aumentando aos poucos. Se a resistência continuar forte, um veterinário pode indicar outras formas de cuidado bucal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como sei se ele já tem problema nos dentes?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Mau hálito muito forte, dificuldade de mastigar, ou dente visivelmente sujo/inflamado são sinais de ir ao veterinário, não de esperar passar."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso começar a escovar em cachorro já adulto?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pode sim, nunca é tarde — só exige mais paciência pra criar o hábito do que em um filhote que já cresce acostumado."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso usar gaze em vez de escova?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pode, sô, principalmente no começo — enrola a gaze no dedo, passa a pasta canina e esfrega de leve. É um jeito bom de ir acostumando o cachorro antes de trazer a escova de verdade."
+          "text": "Não. O bicarbonato é abrasivo demais para o esmalte dos dentes caninos e pode causar irritações graves no estômago se engolido.  * **Com que frequência devo escovar os dentes do meu cachorro?** O ideal é fazer a escovação diariamente. Em média, os veterinários recomendam pelo menos três vezes por semana para manter o tártaro afastado, mas consulte sempre o profissional que acompanha seu pet.  * **O que fazer se o meu cachorro não aceitar a escova de jeito nenhum?** Tenha paciência e volte etapas no treinamento. Se persistir a resistência, existem no mercado enxágues bucais próprios para água e petiscos funcionais que ajudam na limpeza, mas converse com o veterinário sobre alternativas.  * **Cachorros filhotes também precisam de escovação?** Sim, começar nos primeiros meses, logo após os cuidados iniciais como [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro), ajuda o animal a achar a rotina algo totalmente natural na vida adulta."
         }
       }
     ]

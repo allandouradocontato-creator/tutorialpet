@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como dar banho em gato: o MC Rex solta o batidão da hora do banho",
-    "description": "MC Rex ensina no ritmo certo como dar banho em gato sem guerra: quando é preciso, produtos certos e como deixar o processo tranquilo.",
+    "headline": "Como dar banho em gato",
+    "description": "Aprenda como dar banho em gato sem estresse. Guia prático com dicas essenciais para tutores de primeira viagem cuidarem do felino.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/como-dar-banho-em-gato",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-dar-banho-em-gato"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-dar-banho-em-gato.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,42 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar shampoo de bebê no meu gato?",
+        "name": "Com que frequência devo dar banho em gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não é recomendado — a pele do gato tem um pH diferente da nossa. O ideal é usar produto formulado especificamente pra gatos."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Meu gato entra em pânico total na água, e agora?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Vai com calma, em sessões curtas, e considera técnicas de dessensibilização gradual. Em casos muito difíceis, um banho profissional (petshop especializado) pode ser mais seguro pra todo mundo."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Com que frequência posso dar banho no gato?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não existe uma regra fixa — a maioria dos gatos não precisa de banho regular. Frequência excessiva pode até ressecar a pele. Na dúvida, pergunta pro veterinário."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Gato filhote pode tomar banho normalmente?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Filhotes muito novos exigem mais cuidado com temperatura e tempo de exposição — se for realmente necessário, o ideal é confirmar com um veterinário antes."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso secar o gato com secador de cabelo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Só se ele aceitar bem o barulho, e sempre no ar morno, longe da pele — muitos gatos odeiam esse som, então toalha e ambiente aquecido costumam ser bem mais tranquilos pro show todo terminar em paz."
+          "text": "Na maioria das vezes, os gatos não precisam de banho com água, pois fazem a própria higiene. Banhos costumam ser pontuais, apenas em casos de sujeira extrema ou recomendação médica. Confirme sempre com o médico-veterinário.  * **Posso usar shampoo humano ou de cachorro no gato?**   Não. O pH da pele humana e a formulação de produtos para cães podem causar alergias graves e intoxicação nos felinos. Use apenas produtos específicos para gatos.  * **O que fazer se o gato ficar muito agressivo no banho?**   Interrompa imediatamente para evitar machucar você ou o animal. Enrole-o na toalha, deixe-o ir para um local seguro e procure orientação profissional de um banhista especializado ou do médico-veterinário."
         }
       }
     ]

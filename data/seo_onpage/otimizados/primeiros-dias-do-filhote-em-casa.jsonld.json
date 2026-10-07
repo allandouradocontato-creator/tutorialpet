@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Primeiros dias do filhote em casa: a Tia Zulmira do Zap dá as boas-vindas",
-    "description": "Primeiros dias do filhote em casa: a Tia Zulmira do Zap dá as boas-vindas. Oi, meu bem, chegou o filhote novo aí em casa?? Ai que alegria, deixa eu te...",
+    "headline": "Primeiros dias do filhote em casa",
+    "description": "Primeiros dias do filhote em casa: dicas práticas e essenciais para tutores iniciantes receberem o novo pet com tranquilidade.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Mariah Maitre"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/primeiros-dias-do-filhote-em-casa",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/primeiros-dias-do-filhote-em-casa"
-    },
-    "image": "https://tutorialpet.com.br/imagens/primeiros-dias-do-filhote-em-casa.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto tempo leva pra ele se adaptar totalmente?",
+        "name": "O filhote pode dormir na mesma cama que o tutor nos primeiros dias?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Costuma levar de uma a poucas semanas, mas cada filhote tem seu próprio tempo — o importante é manter a rotina consistente durante esse período."
+          "text": "Embora seja tentador, o ideal é acostumá-lo à caminha própria ou caixa de transporte desde o início para evitar choros noturnos futuros e ensinar independência gradual."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso deixar ele dormir na minha cama desde o primeiro dia?",
+        "name": "Quanto tempo o filhote pode ficar sozinho em casa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode, se for essa a sua escolha, mas define isso desde já — mudar a regra depois costuma confundir mais do que ajudar."
+          "text": "Nos primeiros dias, o ideal é evitar longos períodos de ausência. Para entender os limites saudáveis de permanência solitária, confira nosso conteúdo sobre [quanto tempo um cachorro pode ficar sozinho](/quanto-tempo-um-cachorro-pode-ficar-sozinho)."
         }
       },
       {
         "@type": "Question",
-        "name": "É normal ele não comer direito nos primeiros dias?",
+        "name": "Como agir quando o filhote morde as mãos e os móveis o tempo todo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Uma redução leve de apetite é comum pela mudança de ambiente. Se ele recusar comida por mais de um dia, o ideal é procurar um veterinário, principalmente sendo filhote."
+          "text": "Morder faz parte da exploração e da troca de dentição. Direcione as mordidas para brinquedos apropriados e mantenha a calma."
         }
       },
       {
         "@type": "Question",
-        "name": "Quando posso levar ele pra rua pela primeira vez?",
+        "name": "Quando poderei levar o filhote para passear na rua pela primeira vez?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Isso depende do calendário de vacinas dele — o veterinário é quem vai dizer o momento certo pra começar os passeios externos."
+          "text": "Somente após a liberação do médico-veterinário, que avalia o término do protocolo de proteção."
         }
       }
     ]

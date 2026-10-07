@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça",
-    "description": "Ração para filhote de cachorro: o Vavá Cordeiro ensina do jeito roça. Ô sô, sentou pra ler sobre ração de filhote? Pois senta com calma que o Vavá vai...",
+    "headline": "Ração para filhote de cachorro",
+    "description": "Guia completo sobre ração para filhote de cachorro: escolha ideal, quantidade correta, erros comuns e dicas para tutores de primeira viagem.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/racao-para-filhote-de-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/racao-para-filhote-de-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/racao-para-filhote-de-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso misturar a ração de filhote com a de adulto?",
+        "name": "Com quantos meses o cachorro pode parar de comer ração de filhote?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Melhor não virar mistureba sem necessidade — se for pra fazer transição de fase, faz aos poucos e do jeito certo (ver o artigo sobre trocar a ração), sempre de olho na orientação de um veterinário."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Até que idade eu dou ração de filhote?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Varia com o porte e a raça — cachorro pequeno amadurece mais rápido que os de porte grande. Quem define certinho essa transição é o veterinário, que conhece o seu bichano."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Filhote pode comer petisco à vontade?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não, viu, petisco é mimo, não é refeição. Usa com moderação, senão desanda o apetite dele pra ração de verdade."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "E se ele recusar a ração?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Recusa passageira pode ser coisa besta, mas se persistir por mais de um dia, principalmente em filhote, é sinal de ir ao veterinário sem enrolar."
+          "text": "Em média, cães de pequeno porte mudam para a fase adulta aos 12 meses, enquanto raças grandes podem precisar da ração de filhote até os 18 meses, sempre com aval do médico-veterinário.  *   **Posso misturar comida caseira na ração do filhote?**     Misturas sem orientação podem desbalancear os nutrientes essenciais. Consulte um médico-veterinário antes de adicionar qualquer ingrediente caseiro.  *   **O filhote pode comer ração de gato?**     Não. A ração de felinos tem níveis de proteína e gordura inadequados para cães, o que pode sobrecarregar os órgãos do filhote.  *   **Quanto tempo dura um pacote aberto de ração?**     O ideal é consumir em poucas semanas e manter o pacote bem fechado em local fresco para preservar o sabor e evitar umidade."
         }
       }
     ]

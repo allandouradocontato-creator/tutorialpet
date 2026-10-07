@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Gato arranhando o sofá: a Zuza Pimentel investiga o \"crime\" da sala",
-    "description": "Gato arranhando o sofá: a Zuza Pimentel investiga o \"crime\" da sala. Segura essa fofoca, gente: seu sofá está sendo \"atacado\" todo santo dia e você já...",
+    "headline": "Gato arranhando o sofá",
+    "description": "Gato arranhando o sofá. Ver o seu móvel favorito virando alvo das garras do felino é um dos maiores sustos para quem acabou de adotar. A boa notícia é...",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Mariah Maitre"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/gato-arranhando-o-sofa",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/gato-arranhando-o-sofa"
-    },
-    "image": "https://tutorialpet.com.br/imagens/gato-arranhando-o-sofa.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Cortar a unha do gato resolve o problema?",
+        "name": "Por que o gato ignora o arranhador novo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ajuda a reduzir o estrago, mas não substitui o arranhador — o gato ainda precisa satisfazer o instinto de arranhar em algum lugar apropriado."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Todo gato precisa de arranhador?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim, é uma necessidade comportamental normal, não um capricho — melhor oferecer a opção certa do que tentar impedir o comportamento em si."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Quanto tempo leva pra ele trocar o sofá pelo arranhador?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Varia de gato pra gato — alguns aceitam em dias, outros levam semanas. Consistência no reforço positivo é o segredo."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Arranhador vertical ou horizontal, faz diferença?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Cada gato tem preferência própria — alguns preferem esticar pra cima, outros preferem se espreguiçar na horizontal. Vale observar o comportamento dele pra escolher o formato certo."
+          "text": "Pode ser pelo tamanho inadequado, instabilidade ou localização ruim. Gatos preferem locais estratégicos e de grande circulação.  *   **Posso borrifar vinagre ou limão no sofá?**     Odores fortes podem afastar o gato temporariamente, mas não resolvem a causa raiz e podem apenas fazê-lo procurar outro móvel.  *   **Como proteger o sofá enquanto o gato aprende?**     Use capas protetoras de tecido liso, fitas dupla face próprias para pets ou mantas grossas que não facilitem a enfiada de unhas.  *   **Cortar as unhas do gato resolve o problema?**     Ajuda a diminuir os danos físicos, mas não elimina a necessidade instintiva de arranhar. O arranhador continua sendo obrigatório."
         }
       }
     ]

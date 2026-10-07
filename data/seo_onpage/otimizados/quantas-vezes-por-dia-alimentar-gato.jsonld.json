@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete",
-    "description": "Quantas vezes por dia alimentar gato: a festa da comida com Nanda Confete. Gente, EU AMO uma rotina bem organizadinha, e a hora da comida do gato...",
+    "headline": "Quantas vezes por dia alimentar gato",
+    "description": "Descubra quantas vezes por dia alimentar gato de forma saudável, entendendo a rotina ideal para filhotes e adultos sem erros.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/quantas-vezes-por-dia-alimentar-gato",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quantas-vezes-por-dia-alimentar-gato"
-    },
-    "image": "https://tutorialpet.com.br/imagens/quantas-vezes-por-dia-alimentar-gato.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Meu gato mia muito perto do horário da comida, é normal?",
+        "name": "Posso deixar ração à vontade o dia todo para o meu gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Bem comum, principalmente se ele já aprendeu a associar aquele horário com a chegada do prato — só cuidado pra não ceder e alimentar fora de hora toda vez, senão a \"plateia\" vira manha."
+          "text": "Alguns gatos conseguem autorregular o consumo, mas a maioria acaba comendo por tédio, o que leva facilmente à obesidade. O ideal é porcionar a comida."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso deixar ração seca à vontade e só controlar a úmida?",
+        "name": "Quantas vezes por dia devo dar sachê para o meu gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Dá pra fazer, mas ainda assim vale ficar de olho na quantidade total do dia — ração seca também tem calorias, e o excesso conta."
+          "text": "O sachê pode ser oferecido em média uma vez ao dia, complementando a ração seca e ajudando na hidratação, sempre confirmando com o médico-veterinário do pet."
         }
       },
       {
         "@type": "Question",
-        "name": "Gato idoso come menos vezes?",
+        "name": "Por que meu gato mia tanto perto do pote de comida?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode variar — alguns preferem porções menores e mais frequentes conforme envelhecem. O ideal é ajustar com orientação veterinária."
+          "text": "Muitas vezes o gato mia por tédio, ansiedade ou porque aprendeu que o miado resulta em atenção e petiscos extras, e não necessariamente por fome real."
         }
       },
       {
         "@type": "Question",
-        "name": "Como saber se a porção está certa?",
+        "name": "O horário das refeições faz diferença para o gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O peso corporal estável, o pelo com aparência saudável e brilhante e a disposição normal e animada do gato no dia a dia são bons sinais. Se notar qualquer mudança de peso mais perceptível, vale reavaliar a porção com calma junto de um veterinário de confiança."
+          "text": "Sim. Os felinos adoram rotina e previsibilidade. Horários fixos ajudam a reduzir a ansiedade e organizam o metabolismo do animal."
         }
       }
     ]

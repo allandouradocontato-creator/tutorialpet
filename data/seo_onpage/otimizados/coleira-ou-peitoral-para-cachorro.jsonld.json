@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Coleira ou peitoral para cachorro? O Comandante Focinho decide a farda oficial",
-    "description": "Coleira ou peitoral para cachorro? O Comandante Focinho decide a farda oficial. Qual equipamento oficial seu cão deve usar em serviço: coleira ou...",
+    "headline": "Coleira ou peitoral para cachorro: qual escolher no passeio?",
+    "description": "Descubra se deve usar coleira ou peitoral para cachorro. Guia completo para tutores iniciantes escolherem o acessório ideal para o passeio.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/coleira-ou-peitoral-para-cachorro",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/coleira-ou-peitoral-para-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/coleira-ou-peitoral-para-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,42 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar coleira e peitoral ao mesmo tempo?",
+        "name": "Posso deixar o acessório de passeio no cachorro dentro de casa o dia todo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Alguns tutores usam os dois — peitoral conectado à guia e coleira só pra identificação. É uma estratégia segura e bastante comum."
+          "text": "Não é recomendado. O uso contínuo pode emaranhar o pelo, causar atrito na pele e prender o animal em móveis por descuido. Deixe apenas a identificação básica."
         }
       },
       {
         "@type": "Question",
-        "name": "Peitoral incomoda o cão pra andar?",
+        "name": "Qual opção é melhor para ensinar o cachorro a não puxar?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Um peitoral bem ajustado e do modelo adequado não deve incomodar a movimentação — se notar que ele anda estranho ou evita se mexer, revise o ajuste ou o modelo escolhido."
+          "text": "O modelo de tórax protege a traqueia, mas o treino de obediência e paciência é o que realmente ensina o cão a caminhar junto sem fazer força excessiva."
         }
       },
       {
         "@type": "Question",
-        "name": "Cão de porte grande deve usar peitoral também?",
+        "name": "Como saber se o equipamento está muito apertado?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode usar, sim — a decisão depende mais do comportamento do cão na guia (se puxa muito ou não) do que só do porte."
+          "text": "Em média, você deve conseguir passar dois dedos entre a fita do acessório e o corpo do animal, garantindo firmeza sem restringir a circulação ou a respiração."
         }
       },
       {
         "@type": "Question",
-        "name": "Com que frequência devo checar o ajuste?",
+        "name": "Filhotes podem usar qualquer modelo desde o primeiro passeio?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sempre que o cão crescer ou mudar de peso, e periodicamente no dia a dia — o ajuste que era perfeito num mês pode não servir mais depois."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Cinto de segurança pro carro conta como peitoral?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não confunda os dois, soldado: peitoral de passeio e cinto de segurança veicular são equipamentos diferentes, cada um projetado pra um tipo de impacto — use o específico pra cada situação."
+          "text": "Eles devem usar equipamentos proporcionais ao tamanho atual. Consulte sempre o médico-veterinário do pet para orientações sobre o peso adequado e o momento ideal para iniciar as saídas."
         }
       }
     ]

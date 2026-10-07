@@ -2,20 +2,19 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Brinquedos para cachorro que fica sozinho: o MC Rex solta o hit da diversão",
-    "description": "Brinquedos para cachorro que fica sozinho: o MC Rex solta o hit da diversão. Seu cachorro fica de cara amarrada quando você sai de casa? Chegou a hora...",
+    "headline": "Brinquedos para cachorro que fica sozinho",
+    "description": "Brinquedos para cachorro que fica sozinho. Deixar o cão sozinho em casa gera preocupação em muitos tutores de primeira viagem. O silêncio da ausência...",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/brinquedos-para-cachorro-que-fica-sozinho",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/brinquedos-para-cachorro-que-fica-sozinho"
-    },
-    "image": "https://tutorialpet.com.br/imagens/brinquedos-para-cachorro-que-fica-sozinho.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,42 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Brinquedo resolve ansiedade de separação?",
+        "name": "Posso deixar qualquer pelúcia com o meu cão quando eu sair?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ajuda a reduzir o tédio, mas não substitui um manejo mais completo se o quadro for de ansiedade real — nesse caso, vale ver nosso artigo específico sobre o assunto e considerar apoio profissional."
+          "text": "Não. Pelúcias comuns contêm enchimento de fibra e olhos de plástico que podem ser engolidos facilmente, causando engasgos ou obstrução intestinal grave. Prefira apenas itens supervisionados ou específicos e ultra resistentes."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso deixar vários brinquedos disponíveis o tempo todo?",
+        "name": "O que fazer se o cão destruir o brinquedo em poucos minutos?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode, mas o efeito de novidade some rápido — o rodízio costuma manter o interesse por mais tempo."
+          "text": "Isso indica que o material é fraco para a força da mandíbula dele. Recolha os pedaços imediatamente para evitar acidentes e invista em opções feitas de borracha maciça de alta durabilidade."
         }
       },
       {
         "@type": "Question",
-        "name": "Qual brinquedo é bom pra cachorro que destrói tudo rápido?",
+        "name": "Brinquedo cansa o cão o suficiente para ele dormir o dia todo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Procure opções descritas como resistentes/indestrutíveis pro porte e força de mordida dele, e sempre supervisione o uso nas primeiras vezes pra ver como ele reage."
+          "text": "Sim, especialmente os modelos que exigem raciocínio lógico ou esforço de lambedura. O gasto mental esgota a energia do animal de maneira muito parecida com o exercício físico."
         }
       },
       {
         "@type": "Question",
-        "name": "Osso de verdade é uma boa opção de brinquedo?",
+        "name": "Existe algum risco em congelar o recheio do brinquedo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ossos cozidos podem lascar e machucar — se for oferecer algo do tipo, prefira opções seguras indicadas por um veterinário, não ossos de churrasco da geladeira."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Filhote também pode usar brinquedo recheável?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pode sim, com moderação e sempre de olho no tamanho da peça pro focinho dele — filhote em fase de troca de dente costuma curtir ainda mais esse tipo de brinquedo, porque ajuda a aliviar o incômodo da gengiva enquanto o novo dentinho nasce."
+          "text": "Geralmente não, desde que os ingredientes usados sejam totalmente seguros para cães e oferecidos em porções moderadas. Em caso de dúvidas sobre a dieta, consulte sempre o médico-veterinário."
         }
       }
     ]
