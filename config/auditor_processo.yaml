@@ -1,0 +1,44 @@
+# AUDITOR DE PROCESSO (agente 25) — habilidades, escopo e regras. Criado em 07/10/2026 a pedido do Allan.
+# Papel: acompanhar o desenvolvimento do processo (não só reagir), medir cada etapa contra um padrão, achar o gargalo,
+# propor a solução com custo, e fechar cada fase com um RELATÓRIO feito junto com o Claude. Só sugere; nunca compra,
+# nunca publica, nunca mexe em conta de terceiros. Decisão sempre do Allan (Painel de Decisões, terça e sexta).
+modo_de_trabalho:
+  durante_desenvolvimento: "ao fim de cada etapa construída ou corrigida: o que mudou, o que mediu, o que ainda está fraco, próximo passo"
+  a_cada_rodada_da_fabrica: "agents/25_auditor_processo/agent.py mede o pacote do dia (relatório em data/auditoria/ultimo.md)"
+  terca_e_sexta: "rotina na nuvem 'Auditor de Processo' lê o diário e os relatórios, cruza com métricas e escreve data/auditoria/semanal.md com 3 sugestões no máximo"
+  regra_de_sugestao: "só sugere quando achou o gargalo E a solução; toda sugestão traz custo, ganho esperado, como testar de graça e veredito com data"
+  ordem_das_ferramentas: "grátis primeiro; paga só depois do sistema fechado (regra do Allan)"
+dominios:       # habilidades por área; status: ativo (já mede) | a_construir
+  - area: Vídeo e voz (Duda)
+    status: ativo
+    audita: [volume geral -17 a -12 LUFS, gancho falado e sem promessa, CTA variado com assinatura, tags de emoção, só uma [excited], música energética audível, créditos de voz]
+    gargalos_ja_achados: [música a -32 LUFS inaudível, gancho só em texto, modelo eleven_v3 em vez de v4, volume do v4 5 dB baixo, tags aparecendo na tela, narração por cena corta a melodia]
+    proximo: "narrar o vídeo inteiro em um trecho só; testar nuances (pausa, tom sério, risada leve) uma por vez"
+  - area: Artigo e blog (conteúdo e SEO)
+    status: a_construir
+    audita: [artigo novo por dia, título e meta, links internos, imagem só de animal sem mão, curadoria (agente 24), tema repetido, tempo de escrita e cota do Gemini]
+  - area: Design do blog para o Google AdSense
+    status: a_construir
+    audita: [banner de cookies/consentimento, política de privacidade e termos, página sobre e contato, velocidade e layout mobile (Core Web Vitals), vídeos incorporados nos artigos, Search Console e sitemap, espaço para anúncios, número e qualidade de páginas]
+    prioridade: alta   # Allan, 07/10/2026
+  - area: Produto (e-book) e esteira
+    status: a_construir
+    audita: [promessa e público, estrutura e capa, linguagem afetiva ("pet"), pagamento único, entrega na Área de Membros, nome de arquivo limpo, prova social]
+  - area: Aplicativo (Sozinho em Casa e próximos)
+    status: a_construir
+    audita: [onboarding em 3 passos, gamificação leve (streak, badges), telas no formato antes/depois, usabilidade no celular real, velocidade, acesso/segurança, retenção e conclusão do protocolo]
+    prioridade: alta   # Allan, 07/10/2026: melhorar design e aplicabilidade
+  - area: Marketing e distribuição
+    status: a_construir
+    audita: [postagem em Facebook+Instagram+TikTok juntos, link no primeiro comentário, horário, alcance e compartilhamentos por post, gancho e CTA que mais retêm, frequência (máx. 2/dia)]
+  - area: Funil, landing e tráfego pago
+    status: a_construir
+    audita: [landing única como destino de todo link, Pixel e eventos, posicionamentos só Facebook+Instagram, custo por clique e por checkout, campanhas ativas gastando, Audience Network proibido]
+  - area: Processo, custo e confiabilidade
+    status: parcial
+    audita: [rodada diária passou, tempo por etapa, cota do Gemini, créditos ElevenLabs/orçamento, falhas de push, YAML inválido, segredos expostos, issues abertas]
+backlog_inicial_aprovado:   # primeira fila de melhoria (07/10/2026), na ordem pedida pelo Allan
+  - "1. Voz da Duda: nuances por tags e narração contínua (em andamento)"
+  - "2. Design do blog para AdSense (cookies, privacidade, vídeos nos artigos, Search Console) — auditar e propor"
+  - "3. Aplicativo Sozinho em Casa: design e aplicabilidade — auditar o app real no celular e propor melhorias grátis"
+  - "4. Ferramentas pagas: só depois do sistema fechado (lista da Ferramentaria)"
