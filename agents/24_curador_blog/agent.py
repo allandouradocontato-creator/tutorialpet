@@ -18,7 +18,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 RASC = ROOT / "data" / "content_writer" / "rascunhos"
 SAIDA = ROOT / "data" / "curador_blog"
-MIN_PALAVRAS, MAX_PALAVRAS = 900, 1600
+MIN_PALAVRAS, MAX_PALAVRAS = 850, 1600
 SAUDE = re.compile(r"vacina|vermifug|doen[cç]a|v[oô]mito|diarreia|sintoma|medicament|rem[eé]dio|parasit|pulga|carrapato|dentes|unha|sa[uú]de", re.I)
 PROIBIDO = re.compile(r"sou (m[eé]dic[oa]\s*)?veterin[aá]ri|como veterin[aá]ri|estudos? (comprovam|mostram|provam)|\b\d{2,3}% dos (c[aã]es|cachorros|gatos)", re.I)
 

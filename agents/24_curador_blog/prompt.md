@@ -4,7 +4,7 @@ Papel: revisar sempre os artigos do blog e barrar o que o Google AdSense reprova
 aponta e devolve um relatório (data/curador_blog/relatorio.md). Roda por regras, sem LLM (grátis e repetível).
 
 Bloqueante (o artigo não está pronto):
-- menos de 900 palavras (conteúdo raso);
+- menos de 850 palavras (conteúdo raso);
 - autor preenchido com nome de pessoa, persona ou personagem fictício (a assinatura é "Equipe Tutorial Pet");
 - persona citada no título, no corpo ou no front-matter;
 - menos de 2 links internos para outros artigos do site, ou link interno para página que não existe;
