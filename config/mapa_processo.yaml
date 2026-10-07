@@ -56,3 +56,40 @@ regras_fixas:
   - nunca copiar código, texto ou marca de terceiros; só a função que é pública
   - nunca reaproveitar vídeo de terceiros; recriar o formato
   - foco: fábrica diária e landing do Sozinho em Casa vêm antes de qualquer ideia nova
+
+# O que a fábrica PRODUZ (definição de 07/10/2026; situação: existe | parcial | falta)
+a_fabrica_produz:
+  conteudo:
+    - {item: artigos do blog (SEO), situacao: existe}
+    - {item: vídeos curtos para Reels e TikTok, situacao: parcial}
+    - {item: legendas, hashtags e primeiro comentário com link, situacao: existe}
+    - {item: posts para Facebook e Instagram (só vídeo), situacao: parcial}
+  produto:
+    - {item: e-book / manual, situacao: parcial}
+    - {item: aplicativo (protocolo de 14 dias), situacao: parcial}
+    - {item: order bump, upsell e bônus, situacao: falta}
+  oferta_e_venda:
+    - {item: pesquisa de tema, nicho e referências virais, situacao: parcial}
+    - {item: oferta (promessa, preço, garantia), situacao: parcial}
+    - {item: copy (títulos, argumentos, objeções), situacao: parcial}
+    - {item: landing page, situacao: existe}
+    - {item: VSL (vídeo de vendas), situacao: falta}
+    - {item: checkout e entrega (Kiwify e Área de Membros), situacao: parcial}
+    - {item: e-mail e WhatsApp (carrinho abandonado, pós-venda), situacao: falta}
+  trafego:
+    - {item: criativos de anúncio (vídeo), situacao: falta}
+    - {item: gestão de tráfego (campanha, orçamento, públicos, pixel), situacao: parcial}
+    - {item: guardião de gasto, situacao: existe}
+  medicao:
+    - {item: mapa de calor e gravação de sessão (Clarity), situacao: existe}
+    - {item: leitura de resultado e auditoria de anúncios, situacao: falta}
+    - {item: dashboard da fábrica, situacao: falta}
+    - {item: testes A/B de gancho, capa e página, situacao: falta}
+  alem_do_que_foi_listado:
+    - {item: identidade de marca e persona (Duda), situacao: parcial}
+    - {item: regras de plataforma e saúde animal (compliance), situacao: parcial}
+    - {item: privacidade, termos e LGPD (inclui cookies do Clarity), situacao: parcial}
+    - {item: atendimento, suporte e reembolso, situacao: falta}
+    - {item: financeiro (custo por venda, lucro por produto), situacao: falta}
+    - {item: saúde e manutenção da própria fábrica, situacao: existe}
+    - {item: pipeline de novos produtos e novos nichos (a holding), situacao: parcial}
