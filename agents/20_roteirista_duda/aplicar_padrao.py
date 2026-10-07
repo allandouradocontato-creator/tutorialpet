@@ -28,14 +28,28 @@ SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|
 
 def escolher_molde(g: dict, slug: str) -> dict:
     estado = ROOT / "data" / "social" / "duda" / "_ultimo_gancho.txt"
-    # só moldes que NÃO prometem resultado/prazo (evita alegação de saúde inventada)
-    seguros = {"dor", "contrario", "pergunta", "identidade", "situacao_familiar", "lista_numerada", "pov", "laco_aberto", "aviso_de_erro"}
-    ids = [m["id"] for m in g["moldes"] if m["tipo"] in seguros]
+    # só moldes validados que NÃO prometem resultado/prazo (evita alegação de saúde inventada); ordem = mais fortes primeiro
+    seguros = ["abertura_idade", "abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
+               "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov"]
+    existentes = {m["id"] for m in g["moldes"]}
+    ids = [i for i in seguros if i in existentes]
     ultimo = estado.read_text(encoding="utf-8").strip() if estado.exists() else ""
     prox = ids[(ids.index(ultimo) + 1) % len(ids)] if ultimo in ids else ids[0]
     estado.parent.mkdir(parents=True, exist_ok=True)
     estado.write_text(prox, encoding="utf-8")
     return next(m for m in g["moldes"] if m["id"] == prox)
+
+
+def escolher_cta(g: dict) -> str:
+    estado = ROOT / "data" / "social" / "duda" / "_ultimo_cta.txt"
+    ctas = g["cta_moldes"]
+    try:
+        i = (int(estado.read_text(encoding="utf-8").strip()) + 1) % len(ctas)
+    except (OSError, ValueError):
+        i = 0
+    estado.parent.mkdir(parents=True, exist_ok=True)
+    estado.write_text(str(i), encoding="utf-8")
+    return ctas[i]
 
 
 def validar(r: dict, d: dict, g: dict) -> list[str]:
@@ -71,6 +85,7 @@ def main() -> int:
     d = yaml.safe_load((ROOT / "config" / "duda.yaml").read_text(encoding="utf-8"))
     g = yaml.safe_load((ROOT / "config" / "ganchos_universais.yaml").read_text(encoding="utf-8"))
     molde = escolher_molde(g, slug)
+    cta = escolher_cta(g)
     saude = bool(SAUDE.search(json.dumps(r, ensure_ascii=False)))
     registro = d["registros_de_voz"]["serio" if saude else "alegre"]
     from core.llm import gerar_texto
@@ -85,7 +100,7 @@ def main() -> int:
             f"GANCHO: use este molde, preenchendo com o assunto do vídeo, até 12 palavras faladas: \"{molde['molde']}\"\n"
             f"CONTEÚDO: mantenha EXATAMENTE os mesmos fatos e a mesma ordem das cenas ({len(r['cenas'])} cenas); só deixe a fala natural e curta. "
             "Não invente fatos, números, estudos nem alegue ser veterinária.\n"
-            f"CTA: 1 frase curta no estilo de um destes: {g['cta_moldes']}; depois a assinatura \"{d['assinatura']}\".\n"
+            f"CTA (chamada para ação, obrigatória, sempre no fim): use ESTA, com as suas palavras mas o mesmo pedido: \"{cta}\"; depois a assinatura \"{d['assinatura']}\". Dita com sorriso, [smiling] ou [warmly].\n"
             f"TAGS de emoção (ElevenLabs): só entre {d['tags_elevenlabs_permitidas']}. Registro: {registro}. "
             "No máximo UM [excited] no vídeo inteiro, e NUNCA no gancho (só perto do fim); o gancho NÃO promete resultado, prazo nem cura de saúde; sem risadas; sem tom triste ou dramático. Use as tags com economia (1 por trecho).\n"
             + (f"A versão anterior foi recusada: {falha}. Corrija.\n" if falha else "")
