@@ -95,6 +95,12 @@ def main() -> int:
         repor_fila(fila)
     except (LLMError, ValueError) as exc:
         log(f"AVISO: não consegui repor a fila ({exc})")
+    # Pula tema "pendente" que já tem rascunho pronto (evita reescrever o mesmo artigo todo dia)
+    existentes = slugs_existentes()
+    for t in fila["temas"]:
+        if t.get("status") == "pendente" and slugify(t["termo"]) in existentes:
+            t["status"] = "rascunho_pronto"
+            log(f"tema já tinha rascunho, marcado como pronto: {t['termo']}")
     proximo = next((t for t in fila["temas"] if t.get("status") == "pendente"), None)
     if not proximo:
         log("ERRO: fila vazia e sem como repor. Nada produzido.")
@@ -111,6 +117,7 @@ def main() -> int:
                        "--termo", proximo["termo"], "--pilar", proximo["pilar"]], {"WRITER_MODE": "llm"})
     slug = slugify(proximo["termo"])
     arquivo = RASCUNHOS / f"{slug}.md"
+    log("saída do escritor (fim): " + " | ".join(out.strip().splitlines()[-6:])[:600])
     if code != 0 or not arquivo.exists():
         proximo["status"] = "erro"
         proximo["erro"] = out[-300:]

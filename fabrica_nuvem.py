@@ -10,6 +10,7 @@ import json
 import shutil
 import subprocess
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -42,9 +43,10 @@ def main() -> int:
         if not artigo.exists():
             raise SystemExit(f"artigo pronto nao encontrado: {artigo}")
     else:
-        antes = {p.name for p in RASC.glob("*.md")} if RASC.exists() else set()
-        run([sys.executable, "rotina_diaria.py"], {"WRITER_MODE": "llm"}, limite_s=900)
-        novos = [p for p in RASC.glob("*.md") if p.name not in antes]
+        inicio = time.time() - 2
+        run([sys.executable, "rotina_diaria.py"], {"WRITER_MODE": "llm"}, limite_s=1500)
+        # artigo produzido nesta rodada = arquivo novo OU reescrito depois do início
+        novos = [p for p in RASC.glob("*.md") if p.stat().st_mtime >= inicio]
         if not novos:
             print("nenhum artigo novo produzido")
             return 1
