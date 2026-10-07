@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-07T16:30:40+00:00'
+revisado_em: '2026-10-07T19:13:13+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -31,7 +31,7 @@ checagens_qualidade:
 titulo_seo: 'Com que frequencia dar banho em cachorro: guia prático'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-07T16:30:40+00:00'
+otimizado_em: '2026-10-07T19:13:14+00:00'
 checagens_seo: []
 sugestoes_links_internos:
 - termo_relacionado: como dar banho em gato
@@ -47,6 +47,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/com-que-frequencia-dar-banho-em-cachorro.jsonld.json
+imagem_capa: imagens/com-que-frequencia-dar-banho-em-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: Adrian Frentescu
+imagem_fotografo_url: https://www.pexels.com/@frentescuphotography
+imagem_url_pagina: https://www.pexels.com/photo/yorkshire-terrier-in-bath-6222967/
+imagem_selecionada_em: '2026-10-07T19:13:14+00:00'
 ---
 
 # Com que frequencia dar banho em cachorro: guia prático

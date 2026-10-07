@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/com-que-frequencia-dar-banho-em-cachorro"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/com-que-frequencia-dar-banho-em-cachorro.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
