@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-ensinar-gato-a-usar-a-caixa-de-areia"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-ensinar-gato-a-usar-a-caixa-de-areia.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

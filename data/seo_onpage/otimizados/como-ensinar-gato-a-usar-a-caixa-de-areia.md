@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-07T16:30:40+00:00'
+revisado_em: '2026-10-07T19:13:50+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -29,7 +29,7 @@ checagens_qualidade:
 titulo_seo: 'Como ensinar gato a usar a caixa de areia: guia prático'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-07T16:30:40+00:00'
+otimizado_em: '2026-10-07T19:13:50+00:00'
 checagens_seo: []
 sugestoes_links_internos:
 - termo_relacionado: primeiros dias do filhote em casa
@@ -45,6 +45,12 @@ sugestoes_links_internos:
   ancora_sugerida: como socializar filhote de gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-gato-a-usar-a-caixa-de-areia.jsonld.json
+imagem_capa: imagens/como-ensinar-gato-a-usar-a-caixa-de-areia.jpg
+imagem_fonte: pexels
+imagem_fotografo: Qing Luo
+imagem_fotografo_url: https://www.pexels.com/@luoqing
+imagem_url_pagina: https://www.pexels.com/photo/cute-kitten-peeking-from-cardboard-box-31080156/
+imagem_selecionada_em: '2026-10-07T19:13:50+00:00'
 ---
 
 # Como ensinar gato a usar a caixa de areia: guia prático

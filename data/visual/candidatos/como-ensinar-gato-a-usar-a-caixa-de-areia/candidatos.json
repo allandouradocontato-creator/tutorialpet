@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 26596977,
+    "url_download": "https://images.pexels.com/photos/26596977/pexels-photo-26596977.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-kitten-sitting-in-a-cardboard-box-26596977/",
+    "fotografo": "MuffinLand",
+    "fotografo_url": "https://www.pexels.com/@muffinlandge",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute cat using litter box",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-ensinar-gato-a-usar-a-caixa-de-areia/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39501015,
+    "url_download": "https://images.pexels.com/photos/39501015/pexels-photo-39501015.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/ginger-tabby-cat-sitting-indoors-with-boxes-39501015/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "cute cat using litter box",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-ensinar-gato-a-usar-a-caixa-de-areia/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7726316,
+    "url_download": "https://images.pexels.com/photos/7726316/pexels-photo-7726316.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-and-orange-cat-in-brown-cardboard-box-7726316/",
+    "fotografo": "Arina Krasnikova",
+    "fotografo_url": "https://www.pexels.com/@arina-krasnikova",
+    "largura": 4000,
+    "altura": 2670,
+    "query": "cute cat using litter box",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-ensinar-gato-a-usar-a-caixa-de-areia/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31080156,
+    "url_download": "https://images.pexels.com/photos/31080156/pexels-photo-31080156.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-kitten-peeking-from-cardboard-box-31080156/",
+    "fotografo": "Qing Luo",
+    "fotografo_url": "https://www.pexels.com/@luoqing",
+    "largura": 8256,
+    "altura": 5504,
+    "query": "cute cat using litter box",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-ensinar-gato-a-usar-a-caixa-de-areia/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7168874,
+    "url_download": "https://images.pexels.com/photos/7168874/pexels-photo-7168874.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-british-shorthair-cat-lying-on-top-of-a-cardboard-box-7168874/",
+    "fotografo": "Tranmautritam",
+    "fotografo_url": "https://www.pexels.com/@tranmautritam",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute cat using litter box",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-ensinar-gato-a-usar-a-caixa-de-areia/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14371480,
+    "url_download": "https://images.pexels.com/photos/14371480/pexels-photo-14371480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-sitting-in-purple-box-14371480/",
+    "fotografo": "𝗛&𝗖𝗢 　",
+    "fotografo_url": "https://www.pexels.com/@hngstrm",
+    "largura": 4896,
+    "altura": 3264,
+    "query": "cat in litter box studio background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-ensinar-gato-a-usar-a-caixa-de-areia/5.jpg"
+  }
+]
