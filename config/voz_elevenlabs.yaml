@@ -1,10 +1,12 @@
-# Voz da ElevenLabs usada na narração dos vídeos (plano Starter do Allan): a voz da Duda.
-# O ID da voz NÃO é segredo. Informado pelo Allan em 07/10/2026.
-# Padrão da Duda (aprovado em 06/10): Marianne, Eleven v4, Estabilidade perto de 25% (lado "Criativo") e tags de emoção no texto.
-# Se ficar vazio (ou sem chave), a fábrica narra com a voz grátis (edge-tts).
-# A chave fica só no GitHub: secret TUTORIALPETELEVENLABS (ou ELEVENLABS_API_KEY).
+# VOZ DA DUDA - REFERENCIA OFICIAL (confirmada pelo Allan em 07/10/2026 ouvindo o audio original de 06/10).
+# NAO MUDAR a textura da voz. O humor (mais alegre / mais serio) muda SO pelas tags de emocao no texto, nunca pelos botoes.
+# Original: Marianne - Sweet, Calm and Clear, modelo Eleven v4, Estabilidade ~0.30 (lado Criativo), Similaridade ~0.83.
+# Texto de referencia: "[warmly] Oi, eu sou a Duda, do Tutorial Pet! [smiling] Sabe aquele filhotinho que acabou de chegar
+#  em casa? Calma, que eu te ajudo. Aqui eu te explico tudo, passo a passo e sem complicacao. [excited] Bora cuidar bem dele juntos?"
+#  (228 caracteres, ~14 s: ritmo calmo e caloroso; so UMA tag forte no fim).
+# O ID da voz NAO e segredo. A chave fica so no GitHub: secret TUTORIALPETELEVENLABS (ou ELEVENLABS_API_KEY).
 voice_id: "iScHbNW8K33gNo3lGgbo"
-model_id: "eleven_v3"      # id de API do modelo expressivo (o "Eleven v4" da tela); ajustar se o teste acusar HTTP 422
-stability: 0.4
-similarity_boost: 0.75
-style: 0.1
+model_id: "eleven_v3"      # id de API do "Eleven v4" da tela; se der HTTP 422, ajustar so o nome do modelo
+stability: 0.30
+similarity_boost: 0.83
+style: 0.0

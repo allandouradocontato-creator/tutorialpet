@@ -37,3 +37,11 @@ ganchos_exemplo:
   - "Você sabia que o seu pet está treinando VOCÊ?"
   - "Tem uma coisa que ninguém te conta sobre ter um pet."
   - "Eu demorei pra entender isso: quem estava aprendendo era eu."
+
+# Coerencia da voz (regra do Allan, 07/10/2026): a textura da Duda e fixa (ver config/voz_elevenlabs.yaml).
+# Registros permitidos variam so pelas TAGS, nunca por estabilidade/estilo:
+registros_de_voz:
+  alegre:   "abre com [warmly] ou [smiling]; no maximo UM [excited] por video, perto do fim; frases curtas"
+  neutro:   "[warmly] no inicio e [smiling] no meio; sem [excited]"
+  serio:    "[thoughtful] ou [softly] para assuntos de saude/seguranca; [short pause] antes da orientacao; fecha com [warmly]"
+proibido_na_voz: "[laughs], risadas, varios [excited] seguidos, gritar, tom triste/dramatico; a Duda e jovem, simpatica e natural"
