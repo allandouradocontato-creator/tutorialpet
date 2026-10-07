@@ -3,19 +3,18 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem",
-    "description": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem. Quase todo tutor de primeira viagem passa por isso e se sente meio...",
+    "description": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem. A chegada de um gatinho em casa traz muitas dúvidas, e a escolha dos...",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
-      "@type": "Person",
-      "name": "Rosana Cardoso"
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
     },
     "url": "https://tutorialpet.com.br/caixa-de-transporte-para-gato",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/caixa-de-transporte-para-gato"
-    },
-    "image": "https://tutorialpet.com.br/imagens/caixa-de-transporte-para-gato.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Vale a pena comprar o produto mais caro?",
+        "name": "Posso usar uma bolsa de tecido em vez da caixa rígida?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nem sempre — preço alto não é garantia de qualidade. O que importa é adequação ao porte e à necessidade real do seu pet."
+          "text": "Sim, existem modelos de tecido aprovados para transporte, mas eles oferecem menos proteção contra impactos e podem ser rasgados por unhas afiadas se o gato entrar em pânico."
         }
       },
       {
         "@type": "Question",
-        "name": "Como saber o tamanho certo para o meu pet?",
+        "name": "É normal o gato fazer xixi na caixa durante a viagem?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Meça o pet (ou consulte a faixa de peso/altura típica da raça) e compare com a tabela de medidas do fabricante antes de decidir — evita trocas e desperdício."
+          "text": "Pode acontecer devido ao medo ou enjoo. Por isso, coloque sempre tapetes higiênicos absorventes ou mantas fáceis de lavar no fundo do acessório."
         }
       },
       {
         "@type": "Question",
-        "name": "Produtos importados são sempre melhores?",
+        "name": "Devo deixar a caixa de transporte sempre à mostra na casa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não necessariamente — o que importa é a qualidade do material e a adequação ao uso, não a origem do produto."
+          "text": "Com certeza. Essa é a melhor forma de fazer com que o gato veja o objeto como parte do território dele, eliminando o trauma das saídas."
         }
       },
       {
         "@type": "Question",
-        "name": "Onde é mais seguro comprar?",
+        "name": "Como acostumar um gato adulto que já tem pavor da caixa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Prefira vendedores com boas avaliações e política de troca clara — isso reduz o risco de ficar com um produto que não serve ou não tem a qualidade esperada."
+          "text": "Tenha paciência extrema. Desmonte a caixa e deixe apenas a base com a caminha por alguns dias. Aos poucos, monte o restante e continue premiando o pet com petiscos."
         }
       }
     ]

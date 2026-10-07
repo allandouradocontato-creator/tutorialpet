@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 07/10/2026 11:22
+# Relatório do Curador do Blog — 07/10/2026 14:24
 
-25 artigos auditados, 25 com problema bloqueante.
+25 artigos auditados, 23 com problema bloqueante.
 
 - REPROVADO | alimentos-proibidos-para-cachorro
     - [bloqueante] conteúdo raso: 536 palavras (mínimo 900)
@@ -38,10 +38,7 @@
     - [bloqueante] persona 'Seu Trombone' aparece no título ou no texto
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
     - [aviso] título com 85 caracteres (ideal até 70)
-- REPROVADO | caixa-de-transporte-para-gato
-    - [bloqueante] conteúdo raso: 508 palavras (mínimo 900)
-    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- ok | caixa-de-transporte-para-gato
     - [aviso] título com 81 caracteres (ideal até 70)
 - REPROVADO | coleira-ou-peitoral-para-cachorro
     - [bloqueante] conteúdo raso: 509 palavras (mínimo 900)
@@ -91,13 +88,7 @@
     - [aviso] título com 72 caracteres (ideal até 70)
 - REPROVADO | como-fazer-filhote-de-cachorro-parar-de-morder
     - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-- REPROVADO | como-limpar-caixa-de-areia-do-gato
-    - [bloqueante] conteúdo raso: 493 palavras (mínimo 900)
-    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
-    - [bloqueante] front-matter ainda tem 'persona' fictícia
-    - [bloqueante] persona 'Seu Trombone' aparece no título ou no texto
-    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
-    - [aviso] título com 74 caracteres (ideal até 70)
+- ok | como-limpar-caixa-de-areia-do-gato
 - REPROVADO | como-socializar-filhote-de-gato
     - [bloqueante] conteúdo raso: 490 palavras (mínimo 900)
     - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
