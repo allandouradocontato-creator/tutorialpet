@@ -5,6 +5,6 @@
 # A chave fica só no GitHub: secret TUTORIALPETELEVENLABS (ou ELEVENLABS_API_KEY).
 voice_id: "iScHbNW8K33gNo3lGgbo"
 model_id: "eleven_v3"      # id de API do modelo expressivo (o "Eleven v4" da tela); ajustar se o teste acusar HTTP 422
-stability: 0.25
+stability: 0.0
 similarity_boost: 0.75
-style: 0.0
+style: 0.4
