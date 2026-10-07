@@ -252,6 +252,13 @@ def main() -> int:
         lista.write_text("".join(f"file '{p.as_posix()}'\n" for p in partes), encoding="utf-8")
         bruto = tmp / "bruto.mp4"
         sh(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lista), "-c", "copy", str(bruto)])
+        carimbo = ROOT / "assets" / "carimbo_tutorialpet.png"  # patinha + "Tutorial Pet" em TODO vídeo (regra 07/10/2026)
+        if carimbo.exists():
+            com_carimbo = tmp / "bruto_carimbo.mp4"
+            sh(["ffmpeg", "-y", "-i", str(bruto), "-i", str(carimbo), "-filter_complex",
+                "[0:v][1:v]overlay=x=44:y=150:format=auto[v]", "-map", "[v]", "-map", "0:a?", "-c:v", "libx264",
+                "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "copy", str(com_carimbo)])
+            bruto = com_carimbo
         musicas = sorted((ROOT / "data" / "social" / "musica").glob("*.mp3")) if (ROOT / "data" / "social" / "musica").exists() else []
         if musicas:
             print("música de fundo:", musicas[0].name)
