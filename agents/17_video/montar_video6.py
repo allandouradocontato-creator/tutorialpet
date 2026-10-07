@@ -273,11 +273,17 @@ def main() -> int:
                 "[0:v][1:v]overlay=x=44:y=150:format=auto[v]", "-map", "[v]", "-map", "0:a?", "-c:v", "libx264",
                 "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "copy", str(com_carimbo)])
             bruto = com_carimbo
-        musicas = sorted((ROOT / "data" / "social" / "musica").glob("*.mp3")) if (ROOT / "data" / "social" / "musica").exists() else []
+        # biblioteca de música (Pixabay Music, licença livre): uma faixa por vídeo, escolhida pelo slug para variar
+        pasta_m = ROOT / "biblioteca" / "musica"
+        musicas = sorted(pasta_m.glob("*.mp3")) if pasta_m.exists() else []
+        if not musicas and (ROOT / "data" / "social" / "musica").exists():
+            musicas = sorted((ROOT / "data" / "social" / "musica").glob("*.mp3"))
         if musicas:
-            print("música de fundo:", musicas[0].name)
-            sh(["ffmpeg", "-y", "-i", str(bruto), "-stream_loop", "-1", "-i", str(musicas[0]), "-filter_complex",
-                "[1:a]volume=0.55,afade=t=in:d=1.5[m];[0:a][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,alimiter=limit=0.95[a]",
+            faixa = musicas[sum(map(ord, slug)) % len(musicas)]
+            vol_m = float(_EV.get("musica", {}).get("volume_sob_narracao", 0.22))
+            print("música de fundo:", faixa.name, "volume", vol_m)
+            sh(["ffmpeg", "-y", "-i", str(bruto), "-stream_loop", "-1", "-i", str(faixa), "-filter_complex",
+                f"[1:a]volume={vol_m},afade=t=in:d=1.0[m];[0:a][m]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,alimiter=limit=0.95[a]",
                 "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", str(final)])
         else:
             shutil.copy(bruto, final)
