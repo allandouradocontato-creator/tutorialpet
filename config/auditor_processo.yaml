@@ -11,32 +11,32 @@ modo_de_trabalho:
 dominios:       # habilidades por área; status: ativo (já mede) | a_construir
   - area: Vídeo e voz (Duda)
     status: ativo
-    audita: [volume geral -17 a -12 LUFS, gancho falado e sem promessa, CTA variado com assinatura, tags de emoção, só uma [excited], música energética audível, créditos de voz]
-    gargalos_ja_achados: [música a -32 LUFS inaudível, gancho só em texto, modelo eleven_v3 em vez de v4, volume do v4 5 dB baixo, tags aparecendo na tela, narração por cena corta a melodia]
+    audita: "volume geral -17 a -12 LUFS, gancho falado e sem promessa, CTA variado com assinatura, tags de emoção, só uma [excited], música energética audível, créditos de voz"
+    gargalos_ja_achados: "música a -32 LUFS inaudível, gancho só em texto, modelo eleven_v3 em vez de v4, volume do v4 5 dB baixo, tags aparecendo na tela, narração por cena corta a melodia"
     proximo: "narrar o vídeo inteiro em um trecho só; testar nuances (pausa, tom sério, risada leve) uma por vez"
   - area: Artigo e blog (conteúdo e SEO)
     status: a_construir
-    audita: [artigo novo por dia, título e meta, links internos, imagem só de animal sem mão, curadoria (agente 24), tema repetido, tempo de escrita e cota do Gemini]
+    audita: "artigo novo por dia, título e meta, links internos, imagem só de animal sem mão, curadoria (agente 24), tema repetido, tempo de escrita e cota do Gemini"
   - area: Design do blog para o Google AdSense
     status: a_construir
-    audita: [banner de cookies/consentimento, política de privacidade e termos, página sobre e contato, velocidade e layout mobile (Core Web Vitals), vídeos incorporados nos artigos, Search Console e sitemap, espaço para anúncios, número e qualidade de páginas]
+    audita: "banner de cookies/consentimento, política de privacidade e termos, página sobre e contato, velocidade e layout mobile (Core Web Vitals), vídeos incorporados nos artigos, Search Console e sitemap, espaço para anúncios, número e qualidade de páginas"
     prioridade: alta   # Allan, 07/10/2026
   - area: Produto (e-book) e esteira
     status: a_construir
-    audita: [promessa e público, estrutura e capa, linguagem afetiva ("pet"), pagamento único, entrega na Área de Membros, nome de arquivo limpo, prova social]
+    audita: "promessa e público, estrutura e capa, linguagem afetiva ('pet'), pagamento único, entrega na Área de Membros, nome de arquivo limpo, prova social"
   - area: Aplicativo (Sozinho em Casa e próximos)
     status: a_construir
-    audita: [onboarding em 3 passos, gamificação leve (streak, badges), telas no formato antes/depois, usabilidade no celular real, velocidade, acesso/segurança, retenção e conclusão do protocolo]
+    audita: "onboarding em 3 passos, gamificação leve (streak, badges), telas no formato antes/depois, usabilidade no celular real, velocidade, acesso/segurança, retenção e conclusão do protocolo"
     prioridade: alta   # Allan, 07/10/2026: melhorar design e aplicabilidade
   - area: Marketing e distribuição
     status: a_construir
-    audita: [postagem em Facebook+Instagram+TikTok juntos, link no primeiro comentário, horário, alcance e compartilhamentos por post, gancho e CTA que mais retêm, frequência (máx. 2/dia)]
+    audita: "postagem em Facebook+Instagram+TikTok juntos, link no primeiro comentário, horário, alcance e compartilhamentos por post, gancho e CTA que mais retêm, frequência (máx. 2/dia)"
   - area: Funil, landing e tráfego pago
     status: a_construir
-    audita: [landing única como destino de todo link, Pixel e eventos, posicionamentos só Facebook+Instagram, custo por clique e por checkout, campanhas ativas gastando, Audience Network proibido]
+    audita: "landing única como destino de todo link, Pixel e eventos, posicionamentos só Facebook+Instagram, custo por clique e por checkout, campanhas ativas gastando, Audience Network proibido"
   - area: Processo, custo e confiabilidade
     status: parcial
-    audita: [rodada diária passou, tempo por etapa, cota do Gemini, créditos ElevenLabs/orçamento, falhas de push, YAML inválido, segredos expostos, issues abertas]
+    audita: "rodada diária passou, tempo por etapa, cota do Gemini, créditos ElevenLabs/orçamento, falhas de push, YAML inválido, segredos expostos, issues abertas"
 backlog_inicial_aprovado:   # primeira fila de melhoria (07/10/2026), na ordem pedida pelo Allan
   - "1. Voz da Duda: nuances por tags e narração contínua (em andamento)"
   - "2. Design do blog para AdSense (cookies, privacidade, vídeos nos artigos, Search Console) — auditar e propor"
