@@ -17,11 +17,15 @@ ROOT = Path(__file__).resolve().parent
 RASC = ROOT / "data" / "content_writer" / "rascunhos"
 
 
-def run(cmd: list[str], env_extra: dict | None = None) -> None:
+def run(cmd: list[str], env_extra: dict | None = None, limite_s: int = 720) -> None:
     import os
     env = {**os.environ, "PYTHONIOENCODING": "utf-8", **(env_extra or {})}
     print("$", " ".join(cmd), flush=True)
-    r = subprocess.run(cmd, cwd=ROOT, env=env)
+    try:
+        # Prazo por etapa: se travar (API fora, TTS parado), vira erro com log em vez de rodada pendurada.
+        r = subprocess.run(cmd, cwd=ROOT, env=env, timeout=limite_s)
+    except subprocess.TimeoutExpired:
+        raise SystemExit(f"TRAVOU: passou de {limite_s}s sem terminar: {' '.join(cmd)}")
     if r.returncode != 0:
         raise SystemExit(f"falhou ({r.returncode}): {' '.join(cmd)}")
 
@@ -39,7 +43,7 @@ def main() -> int:
             raise SystemExit(f"artigo pronto nao encontrado: {artigo}")
     else:
         antes = {p.name for p in RASC.glob("*.md")} if RASC.exists() else set()
-        run([sys.executable, "rotina_diaria.py"], {"WRITER_MODE": "llm"})
+        run([sys.executable, "rotina_diaria.py"], {"WRITER_MODE": "llm"}, limite_s=900)
         novos = [p for p in RASC.glob("*.md") if p.name not in antes]
         if not novos:
             print("nenhum artigo novo produzido")

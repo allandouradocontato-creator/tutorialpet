@@ -73,7 +73,16 @@ def narrar(texto: str, saida: Path, offline: bool):
         sh(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=300:duration={n}", str(saida)])
         ws = texto.split()
         return [(i * n / len(ws), (i + 1) * n / len(ws), w) for i, w in enumerate(ws)]
-    palavras = asyncio.run(_tts(texto, saida))
+    # Prazo na voz: o edge-tts pode ficar mudo a partir de IP de nuvem; 90 s por trecho, 2 tentativas.
+    palavras = None
+    for _ in range(2):
+        try:
+            palavras = asyncio.run(asyncio.wait_for(_tts(texto, saida), timeout=90))
+            break
+        except asyncio.TimeoutError:
+            print("  edge-tts: sem resposta em 90 s, tentando de novo", flush=True)
+    if palavras is None:
+        raise RuntimeError("edge-tts não respondeu (2 tentativas de 90 s)")
     if not palavras:  # fallback: distribui igualmente
         n = duracao(saida)
         ws = texto.split()
