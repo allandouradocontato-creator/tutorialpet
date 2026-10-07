@@ -41,8 +41,11 @@ def titulo_limpo(fm: dict) -> str:
     return re.sub(r"\s*[:\-–]\s*(a|o)\s+[A-ZÀ-Ú].*$", "", str(fm.get("titulo") or "")).strip() or str(fm.get("termo_origem"))
 
 
-def precisa(fm: dict) -> bool:
-    return not fm.get("revisao_profunda")
+def precisa(path: Path) -> bool:
+    fm, body = curador.ler(path)
+    if not fm.get("revisao_profunda"):
+        return True
+    return any(n == "bloqueante" for n, _ in curador.auditar(path.stem, fm, body, curador.todos_slugs()))
 
 
 def reescrever(path: Path, slugs_info: list[tuple[str, str]], site: dict) -> bool:
@@ -95,11 +98,13 @@ def main() -> int:
     ap.add_argument("--dry", action="store_true")
     a = ap.parse_args()
     arquivos = sorted(RASC.glob("*.md"), key=lambda p: len(p.read_text(encoding="utf-8")))
+    no_ar = curador.todos_slugs()
     infos = []
     for p in arquivos:
         fm, _ = curador.ler(p)
-        infos.append((p.stem, titulo_limpo(fm)))
-    alvos = [RASC / f"{a.slug}.md"] if a.slug else [p for p in arquivos if precisa(curador.ler(p)[0])][: a.lote]
+        if p.stem in no_ar:
+            infos.append((p.stem, titulo_limpo(fm)))
+    alvos = [RASC / f"{a.slug}.md"] if a.slug else [p for p in arquivos if precisa(p)][: a.lote]
     print("alvos:", [p.stem for p in alvos], flush=True)
     if a.dry:
         return 0

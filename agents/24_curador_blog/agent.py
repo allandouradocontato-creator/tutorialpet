@@ -30,7 +30,9 @@ def ler(path: Path) -> tuple[dict, str]:
 
 
 def todos_slugs() -> set[str]:
-    return {p.stem for p in RASC.glob("*.md")}
+    """Slugs que já estão NO AR (site/build/<slug>.html): link interno só vale para página publicada."""
+    build = ROOT / "site" / "build"
+    return {p.stem for p in RASC.glob("*.md") if (build / f"{p.stem}.html").exists()}
 
 
 def auditar(slug: str, fm: dict, body: str, slugs: set[str]) -> list[tuple[str, str]]:
