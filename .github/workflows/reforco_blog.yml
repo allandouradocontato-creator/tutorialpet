@@ -1,0 +1,60 @@
+name: Reforco do Blog Tutorial Pet
+
+# Reescreve artigos antigos (rasos, com persona fictícia, sem links internos) no padrão AdSense/E-E-A-T,
+# passa o Curador do Blog (agente 24), roda editor de qualidade + SEO e reconstrói o site. Só grava o que passar.
+on:
+  workflow_dispatch:
+    inputs:
+      lote:
+        description: "quantos artigos reescrever nesta rodada"
+        required: false
+        default: "4"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  reforcar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias
+        run: pip install pyyaml requests
+
+      - name: Reescrever artigos (Gemini)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python reforcar_artigos.py --lote "${{ github.event.inputs.lote || '4' }}" 2>&1 | tee /tmp/reforco.log
+
+      - name: Editor de qualidade + SEO nos artigos reescritos, e site
+        run: |
+          mudou=$(git diff --name-only -- data/content_writer/rascunhos | sed 's#.*/##; s#\.md$##')
+          for s in $mudou; do
+            python agents/04_quality_editor/agent.py --site pets-tutores-iniciantes --slug "$s" || echo "::warning::editor reprovou $s"
+            python agents/05_seo_onpage/agent.py --site pets-tutores-iniciantes --slug "$s" || echo "::warning::seo falhou em $s"
+          done
+          python site/build_site.py --site pets-tutores-iniciantes
+          python agents/24_curador_blog/agent.py | head -5
+
+      - name: Gravar na main (Cloudflare publica)
+        run: |
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add data/content_writer/rascunhos site/build data/quality_editor data/seo_onpage data/curador_blog
+          git commit -m "blog: reforco de artigos $(date -u +%F-%H%M)" || echo "nada a commitar"
+          git pull --rebase origin main
+          git push origin main

@@ -165,7 +165,7 @@ def build_structured_data(front_matter: dict, body: str, site: dict) -> dict:
         "description": front_matter["meta_description"],
         "datePublished": front_matter.get("data"),
         "inLanguage": site.get("idioma", "pt-BR"),
-        "author": {"@type": "Person", "name": front_matter.get("autor") or "PREENCHER_APOS_APROVACAO_HUMANA"},
+        "author": ({"@type": "Person", "name": front_matter["autor"]} if front_matter.get("autor") else {"@type": "Organization", "name": "Equipe Tutorial Pet"}),
         **({"url": url, "mainEntityOfPage": {"@type": "WebPage", "@id": url}} if url else {}),
     }
     faq_pairs = extract_faq_pairs(body)

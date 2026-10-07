@@ -1,0 +1,157 @@
+# Relatório do Curador do Blog — 07/10/2026 11:22
+
+25 artigos auditados, 25 com problema bloqueante.
+
+- REPROVADO | alimentos-proibidos-para-cachorro
+    - [bloqueante] conteúdo raso: 536 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Comandante Focinho' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
+- REPROVADO | ansiedade-de-separacao-em-caes
+    - [bloqueante] conteúdo raso: 555 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Doutor Bagunça' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
+    - [aviso] título com 77 caracteres (ideal até 70)
+- REPROVADO | arranhador-para-gato-qual-escolher
+    - [bloqueante] conteúdo raso: 505 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Beto Trapalhão' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 88 caracteres (ideal até 70)
+- REPROVADO | brinquedos-para-cachorro-que-fica-sozinho
+    - [bloqueante] conteúdo raso: 500 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'MC Rex' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 75 caracteres (ideal até 70)
+- REPROVADO | cachorro-latindo-muito-o-que-fazer
+    - [bloqueante] conteúdo raso: 500 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Seu Trombone' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 85 caracteres (ideal até 70)
+- REPROVADO | caixa-de-transporte-para-gato
+    - [bloqueante] conteúdo raso: 508 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 81 caracteres (ideal até 70)
+- REPROVADO | coleira-ou-peitoral-para-cachorro
+    - [bloqueante] conteúdo raso: 509 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Comandante Focinho' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 78 caracteres (ideal até 70)
+- REPROVADO | com-quantos-meses-o-cachorro-pode-sair-na-rua
+    - [bloqueante] conteúdo raso: 894 palavras (mínimo 900)
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 84 caracteres (ideal até 70)
+- REPROVADO | com-que-frequencia-dar-banho-em-cachorro
+    - [bloqueante] conteúdo raso: 864 palavras (mínimo 900)
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- REPROVADO | como-cortar-unha-de-cachorro
+    - [bloqueante] conteúdo raso: 529 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+    - [aviso] título com 80 caracteres (ideal até 70)
+- REPROVADO | como-dar-banho-em-gato
+    - [bloqueante] conteúdo raso: 512 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'MC Rex' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+- REPROVADO | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
+    - [bloqueante] conteúdo raso: 513 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Dona Fifi Marreco' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+    - [aviso] título com 94 caracteres (ideal até 70)
+- REPROVADO | como-ensinar-gato-a-usar-a-caixa-de-areia
+    - [bloqueante] conteúdo raso: 875 palavras (mínimo 900)
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- REPROVADO | como-escovar-os-dentes-do-cachorro
+    - [bloqueante] conteúdo raso: 517 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Vavá Cordeiro' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+    - [aviso] título com 72 caracteres (ideal até 70)
+- REPROVADO | como-fazer-filhote-de-cachorro-parar-de-morder
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- REPROVADO | como-limpar-caixa-de-areia-do-gato
+    - [bloqueante] conteúdo raso: 493 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Seu Trombone' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 74 caracteres (ideal até 70)
+- REPROVADO | como-socializar-filhote-de-gato
+    - [bloqueante] conteúdo raso: 490 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Nanda Confete' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 78 caracteres (ideal até 70)
+- REPROVADO | como-trocar-a-racao-do-cachorro
+    - [bloqueante] conteúdo raso: 513 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Beto Trapalhão' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 86 caracteres (ideal até 70)
+- REPROVADO | enxoval-para-filhote-de-cachorro
+    - [bloqueante] conteúdo raso: 508 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Dona Fifi Marreco' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+    - [aviso] título com 78 caracteres (ideal até 70)
+- REPROVADO | gato-arranhando-o-sofa
+    - [bloqueante] conteúdo raso: 500 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Zuza Pimentel' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+- REPROVADO | primeiros-dias-do-filhote-em-casa
+    - [bloqueante] conteúdo raso: 522 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Tia Zulmira do Zap' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 73 caracteres (ideal até 70)
+- REPROVADO | quantas-vezes-por-dia-alimentar-gato
+    - [bloqueante] conteúdo raso: 505 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Nanda Confete' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+    - [aviso] título com 73 caracteres (ideal até 70)
+- REPROVADO | quanto-tempo-um-cachorro-pode-ficar-sozinho
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- REPROVADO | racao-para-filhote-de-cachorro
+    - [bloqueante] conteúdo raso: 550 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Rosana Cardoso'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] front-matter ainda tem 'persona' fictícia
+    - [bloqueante] persona 'Vavá Cordeiro' aparece no título ou no texto
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- REPROVADO | vacinas-para-filhote-de-cachorro
+    - [bloqueante] conteúdo raso: 534 palavras (mínimo 900)
+    - [bloqueante] autor preenchido ('Mariah Maitre'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+    - [aviso] título com 89 caracteres (ideal até 70)
