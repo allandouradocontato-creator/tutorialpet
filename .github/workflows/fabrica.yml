@@ -55,6 +55,11 @@ jobs:
         run: |
           python agents/19_validador_tema/agent.py --repor 5 || echo "::warning::reposicao de temas falhou; fila segue como estava"
 
+      - name: Curadoria do artigo (agente 24; aviso, nao derruba a rodada)
+        continue-on-error: true
+        run: |
+          python agents/24_curador_blog/agent.py | head -40
+
       - name: Entregar pacote (branch media)
         run: |
           cd /tmp/media

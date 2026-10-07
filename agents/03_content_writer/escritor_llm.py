@@ -51,6 +51,21 @@ def escolher_voz(vozes: dict) -> dict:
     return lista[idx]
 
 
+def _bloco_links_internos() -> str:
+    """Lista dos artigos JÁ NO AR para o texto linkar (SEO interno + leitor navega para outro comportamento/tema)."""
+    import re
+    build = ROOT / "site" / "build"
+    itens = []
+    for md in sorted((ROOT / "data" / "content_writer" / "rascunhos").glob("*.md")):
+        if (build / f"{md.stem}.html").exists():
+            m = re.search(r"^titulo:\s*['\"]?(.+?)['\"]?\s*$", md.read_text(encoding="utf-8"), re.M)
+            itens.append(f"- /{md.stem} — {m.group(1) if m else md.stem}")
+    if not itens:
+        return ""
+    return ("\n\nLINKS INTERNOS (obrigatório): inclua de 3 a 4 links em Markdown no formato [texto âncora natural](/slug) para os artigos abaixo "
+            "mais ligados ao assunto, no meio do texto. Use SOMENTE slugs desta lista, sem inventar:\n" + "\n".join(itens) + "\n")
+
+
 def escrever_corpo(pauta: dict, site: dict, sensivel: bool) -> tuple[str, dict]:
     vozes = carregar_vozes()
     voz = escolher_voz(vozes)
@@ -62,6 +77,7 @@ def escrever_corpo(pauta: dict, site: dict, sensivel: bool) -> tuple[str, dict]:
         f"VOZ DESTE ARTIGO — coluna \"{voz['coluna']}\": {voz['estilo']}\n"
         "Mantenha essa voz do começo ao fim, sem citar o nome da coluna no texto."
     )
+    prompt += _bloco_links_internos()
     corpo = gerar_texto(prompt, sistema=SISTEMA, temperatura=0.9)
     voz = dict(voz)
     if corpo.lstrip().upper().startswith("META:"):
