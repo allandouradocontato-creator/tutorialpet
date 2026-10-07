@@ -28,3 +28,12 @@ estruturas:
     passos: ["gancho: o que todo mundo acha", "mas na verdade", "o que fazer", "chamada: link do guia"]
   - id: passo_a_passo_curto
     passos: ["gancho: promessa com prazo curto", "3 passos rápidos", "resultado esperado", "chamada: link do guia"]
+
+# Regra de gancho (pedida pelo Allan em 07/10/2026): os 2-3 primeiros segundos abrem CURIOSIDADE e prendem até o fim.
+# Nada de "todo mundo acha que..." como abertura. Abrir com promessa/segredo/pergunta direta ao tutor, ex.:
+# "Você sabia que seu pet está te treinando sem você perceber?" / "Vou te contar um segredo que ninguém imagina."
+# O gancho vem sempre na primeira frase, curta, e a resposta só aparece no fim (laço aberto).
+ganchos_exemplo:
+  - "Você sabia que o seu pet está treinando VOCÊ?"
+  - "Tem uma coisa que ninguém te conta sobre ter um pet."
+  - "Eu demorei pra entender isso: quem estava aprendendo era eu."
