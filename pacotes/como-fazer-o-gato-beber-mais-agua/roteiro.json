@@ -1,46 +1,46 @@
 {
   "titulo_video": "Como fazer seu gato beber mais água",
-  "gancho_3s": "Seu gato bebe pouca água? Descubra como mudar isso agora!",
+  "gancho_3s": "Com quantos anos você descobriu que gato bebe pouca água?",
   "cenas": [
     {
-      "narracao": "Muitos gatos rejeitam potes fundos de plástico porque eles encostam nos bigodes sensíveis.",
-      "visual_busca_banco_livre": "cat drinking from bowl close up",
-      "texto_na_tela": "Potes fundos incomodam"
+      "narracao": "[thoughtful] Com quantos anos você descobriu que gato bebe pouca água?",
+      "visual_busca_banco_livre": "cat looking around close up",
+      "texto_na_tela": "Com quantos anos você descobriu que gato bebe pouca água?"
     },
     {
-      "narracao": "Troque por vasilhas rasas de cerâmica ou vidro, que são mais fáceis de higienizar.",
+      "narracao": "[softly] Gatos herdam instintos dos ancestrais e costumam manifestar pouca sede, o que exige atenção.",
+      "visual_busca_banco_livre": "cat looking around close up",
+      "texto_na_tela": "Gatos bebem pouca água"
+    },
+    {
+      "narracao": "[short pause] Multiplique os pontos de hidratação espalhando potes pela casa, longe da areia e da comida.",
+      "visual_busca_banco_livre": "cat drinking water from bowl",
+      "texto_na_tela": "Espalhe potes pela casa"
+    },
+    {
+      "narracao": "[warmly] Evite potes de plástico que acumulam odores e prefira recipientes largos de cerâmica ou inox.",
       "visual_busca_banco_livre": "cat eating from ceramic bowl",
-      "texto_na_tela": "Use cerâmica ou vidro"
+      "texto_na_tela": "Use cerâmica ou inox"
     },
     {
-      "narracao": "Na natureza, gatos evitam beber água perto de onde comem ou usam a caixa de areia.",
-      "visual_busca_banco_livre": "cat walking away from food bowl",
-      "texto_na_tela": "Longe da ração e da areia"
-    },
-    {
-      "narracao": "Espalhe tigelas frescas pelos cômodos mais frequentados da casa.",
-      "visual_busca_banco_livre": "cat looking at water bowl",
-      "texto_na_tela": "Espalhe pela casa"
-    },
-    {
-      "narracao": "O instinto felino adora água em movimento, como a das fontes elétricas.",
-      "visual_busca_banco_livre": "cat drinking running water fountain",
+      "narracao": "[happy] Invista em água fresca e em movimento, pois fontes elétricas atraem muito a atenção deles.",
+      "visual_busca_banco_livre": "cat drinking running water",
       "texto_na_tela": "Água em movimento"
     },
     {
-      "narracao": "Se notar qualquer alteração drástica na sede do pet, consulte o médico-veterinário.",
-      "visual_busca_banco_livre": "cat resting looking at camera",
-      "texto_na_tela": "Consulte o veterinário"
+      "narracao": "[thoughtful] Adicione sachês na rotina e consulte o médico-veterinário para orientações de saúde.",
+      "visual_busca_banco_livre": "cat eating wet food from pouch",
+      "texto_na_tela": "Alimentação úmida"
     }
   ],
-  "chamada_final": "Leia o artigo completo no blog para mais dicas de hidratação!",
+  "chamada_final": "[smiling] Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
   "hashtags": [
-    "#gatos",
-    "#gato",
-    "#saudefelina",
-    "#gatoshidratados",
-    "#amogatos"
+    "gatos",
+    "gato",
+    "saudefelina",
+    "gatoshidratados",
+    "dicapet"
   ],
-  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato bebe pouca água? Descubra como mudar isso agora!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua\n\n#gatos #gato #saudefelina #gatoshidratados #amogatos",
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato bebe pouca água? Descubra como mudar isso hoje!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua\n\n#gatos #gato #saudefelina #gatoshidratados #dicapet",
   "slug": "como-fazer-o-gato-beber-mais-agua"
 }
