@@ -13,7 +13,8 @@ temas:
   data: '2026-10-07'
 - termo: com que frequencia dar banho em cachorro
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-07'
 - termo: pode dar sache para gato todos os dias
   pilar: alimentacao
   status: pendente
@@ -25,4 +26,19 @@ temas:
   status: pendente
 - termo: melhor areia para gato como escolher
   pilar: produtos_compras
+  status: pendente
+- termo: qual a melhor ração para filhote de cachorro
+  pilar: alimentacao
+  status: pendente
+- termo: como acostumar gato adulto com novo comedouro
+  pilar: comportamento
+  status: pendente
+- termo: melhores brinquedos interativos para cães ansiosos sozinhos
+  pilar: produtos_compras
+  status: pendente
+- termo: o que comprar antes de adotar um gatinho
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: com que frequência escovar os dentes do cachorro
+  pilar: cuidados_diarios
   status: pendente

@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Com que frequência dar banho em cachorro",
+  "gancho_3s": "Seu cachorro tomou banho ontem e já está com cheirinho forte?",
+  "cenas": [
+    {
+      "narracao": "A pele dos cães tem uma camada natural que protege contra bactérias e ressecamento.",
+      "visual_busca_banco_livre": "dog skin close up fur",
+      "texto_na_tela": "Proteção natural da pele"
+    },
+    {
+      "narracao": "Dar banho com muita frequência pode remover essa proteção e causar irritação.",
+      "visual_busca_banco_livre": "dog scratching skin close up",
+      "texto_na_tela": "Cuidado com o excesso"
+    },
+    {
+      "narracao": "O tipo de pelagem faz diferença: pelos curtos precisam de intervalos maiores, enquanto os longos exigem mais manutenção.",
+      "visual_busca_banco_livre": "short haired dog portrait",
+      "texto_na_tela": "Pelo curto x Pelo longo"
+    },
+    {
+      "narracao": "Para a maioria dos cães saudáveis, o intervalo ideal varia entre quinze e trinta dias.",
+      "visual_busca_banco_livre": "dog resting comfortably",
+      "texto_na_tela": "Intervalo ideal: 15 a 30 dias"
+    },
+    {
+      "narracao": "Entre um banho e outro, priorize a escovação para remover pelos mortos e espalhar a oleosidade natural.",
+      "visual_busca_banco_livre": "dog brushing fur close up",
+      "texto_na_tela": "Escovação regular"
+    },
+    {
+      "narracao": "Confirme sempre com o médico-veterinário a frequência ideal para a pele do seu pet.",
+      "visual_busca_banco_livre": "dog looking at camera cute",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Leia o artigo completo no blog para ver o guia prático!",
+  "hashtags": [
+    "#cachorro",
+    "#banhodecachorro",
+    "#cuidadospet",
+    "#dicapet",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro tomou banho ontem e já está com cheirinho forte?\n\n📖 Artigo completo: https://tutorialpet.com.br/com-que-frequencia-dar-banho-em-cachorro\n\n#cachorro #banhodecachorro #cuidadospet #dicapet #dicaspet",
+  "slug": "com-que-frequencia-dar-banho-em-cachorro"
+}
