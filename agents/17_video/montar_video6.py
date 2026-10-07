@@ -93,6 +93,13 @@ def _tts_elevenlabs(texto: str, saida: Path):
     """
     chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     voz_id = os.environ.get("ELEVENLABS_VOICE_ID", "").strip()
+    if not voz_id:  # o ID da voz não é segredo: pode ficar em config/voz_elevenlabs.yaml
+        try:
+            import yaml
+            cfg = ROOT / "config" / "voz_elevenlabs.yaml"
+            voz_id = str((yaml.safe_load(cfg.read_text(encoding="utf-8")) or {}).get("voice_id") or "").strip()
+        except Exception:
+            voz_id = ""
     if not chave or not voz_id:
         return None
     import base64
