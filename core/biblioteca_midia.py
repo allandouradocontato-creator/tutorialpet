@@ -55,7 +55,10 @@ def videos_pixabay(busca: str, quantos: int, destino: Path, tag: str, tem_gente=
                 continue
             pontuados.append((n, h))
         pontuados.sort(key=lambda x: -x[0])
-        for _, h in pontuados:
+        from core import guardiao_variedade as gv  # variedade: não repetir clipe (agente 26)
+        inedito = [x for x in pontuados if gv.pode_usar("pixabay", x[1].get("id"))]
+        repetido = [x for x in pontuados if x not in inedito and gv._chave("pixabay", x[1].get("id")) not in gv._ids_rodada]
+        for _, h in inedito + repetido:
             if tem_gente and tem_gente({"url": h.get("tags", "")}):
                 continue
             opcoes = h.get("videos", {})
@@ -66,6 +69,7 @@ def videos_pixabay(busca: str, quantos: int, destino: Path, tag: str, tem_gente=
             r = _curl(["-o", str(out), alvo["url"]], saida=False)
             if r.returncode == 0 and out.exists() and out.stat().st_size > 10000:
                 saidas.append(out)
+                gv.marcar("pixabay", h.get("id"), reuso=(_, h) in repetido)
                 registrar("pixabay", h.get("id"), h.get("pageURL", ""), h.get("tags", ""), h.get("user", ""), out.name, busca)
             if len(saidas) >= quantos:
                 break

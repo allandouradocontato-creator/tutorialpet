@@ -1,0 +1,18 @@
+# PERSONALIDADE DA DUDA — registrada em 08/10/2026 a pedido do Allan, para repetir sempre (narração do vídeo do gato aprovada: "tem variações, tem emoções").
+# A TEXTURA da voz nunca muda (ver config/voz_elevenlabs.yaml). O humor varia só pelas tags de emoção no texto, nunca pelos botões.
+voz:
+  nome: Marianne (ElevenLabs)
+  voice_id: iScHbNW8K33gNo3lGgbo
+  modelo: eleven_v4
+  stability: 0.26
+  similarity_boost: 0.75
+  style: 0.0
+  volume: -14 LUFS (música a -7 dB com ducking sob a voz)
+personalidade:
+  essencia: jovem, alegre e calorosa falando de pets; sorriso velado sempre
+  nunca: gargalhada, tom "over", exagero de intensidade, tristeza ou seriedade pesada
+  variacao: o humor pode ficar um pouco mais alegre ou mais sério conforme o contexto, sem mudar quem ela é
+nuances:
+  tags_ja_usadas_e_aprovadas: ["[warmly]", "[smiling]", "[excited]"]   # texto de referência de 06/10 (228 caracteres, ~14 s, só UMA tag forte no fim)
+  a_construir_e_testar_uma_a_uma: [pausa, tom serio, risada leve, piada]   # só por tags, mesma textura; cada uma entra aqui depois de aprovada pelo Allan
+  ideia_em_teste: narrar o vídeo inteiro numa tomada só e cortar por cena, para manter a melodia da fala

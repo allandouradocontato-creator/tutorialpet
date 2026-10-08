@@ -46,6 +46,7 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
           WRITER_MODE: llm
+          CLIPS_REGISTRO: /tmp/media/clips_usados.json   # variedade: clipes e músicas já usados (fica na branch media)
         run: |
           set -o pipefail
           python fabrica_nuvem.py /tmp/media 2>&1 | tee /tmp/producao.log
@@ -68,6 +69,14 @@ jobs:
         run: |
           python agents/25_auditor_processo/agent.py /tmp/media | tee /tmp/auditoria.md
           [ -f data/auditoria/ultimo.md ] && cat data/auditoria/ultimo.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardião de marca e variedade (agente 26; só avisa e marca o pacote, não derruba a rodada)
+        continue-on-error: true
+        env:
+          CLIPS_REGISTRO: /tmp/media/clips_usados.json
+        run: |
+          python agents/26_guardiao_marca/agent.py /tmp/media | tee /tmp/guardiao.md
+          [ -f data/auditoria/guardiao.md ] && cat data/auditoria/guardiao.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Entregar pacote (branch media)
         run: |

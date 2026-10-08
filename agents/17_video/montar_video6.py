@@ -270,22 +270,31 @@ def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str)
 def _pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str) -> list[Path]:
     url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
         {"query": busca, "orientation": "portrait", "size": "medium", "per_page": 40})
-    saidas = []
+    saidas: list[Path] = []
     try:
         r = subprocess.run([curl_bin(), "-sS", "-m", "40", "-H", f"Authorization: {chave}", url],
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
         from core.estilo_visual import ordenar  # só vídeo fofo e atraente, nunca triste/doente/bagunçado
-        for v in ordenar(json.loads(r.stdout).get("videos", [])):
-            if tem_gente(v):
-                continue
-            arqs = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and f.get("height", 0) >= 720]
-            if not arqs:
-                continue
-            arqs.sort(key=lambda f: abs(f.get("height", 0) - 1920))
-            out = destino / f"{tag}_{len(saidas)}.mp4"
-            d = subprocess.run([curl_bin(), "-sS", "-L", "-m", "120", "-o", str(out), arqs[0]["link"]], capture_output=True)
-            if d.returncode == 0 and out.exists() and out.stat().st_size > 10000:
-                saidas.append(out)
+        from core import guardiao_variedade as gv  # variedade: não repetir clipe (agente 26)
+        ordenados = [v for v in ordenar(json.loads(r.stdout).get("videos", [])) if not tem_gente(v)]
+        # 1ª passada: só clipes inéditos (nem nos últimos vídeos, nem neste). 2ª: se faltar, reaproveita e o
+        # Guardião marca o pacote para revisão em vez de derrubar a fábrica.
+        for reuso in (False, True):
+            for v in ordenados:
+                if len(saidas) >= quantos:
+                    break
+                k = gv._chave("pexels", v.get("id"))
+                if k in gv._ids_rodada or (not reuso and not gv.pode_usar("pexels", v.get("id"))):
+                    continue
+                arqs = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and f.get("height", 0) >= 720]
+                if not arqs:
+                    continue
+                arqs.sort(key=lambda f: abs(f.get("height", 0) - 1920))
+                out = destino / f"{tag}_{len(saidas)}.mp4"
+                d = subprocess.run([curl_bin(), "-sS", "-L", "-m", "120", "-o", str(out), arqs[0]["link"]], capture_output=True)
+                if d.returncode == 0 and out.exists() and out.stat().st_size > 10000:
+                    saidas.append(out)
+                    gv.marcar("pexels", v.get("id"), reuso=reuso)
             if len(saidas) >= quantos:
                 break
     except Exception as exc:  # noqa: BLE001
@@ -360,6 +369,9 @@ def main() -> int:
     out_dir = ROOT / "data" / "social" / "videos"
     out_dir.mkdir(parents=True, exist_ok=True)
     final = out_dir / f"{slug}_v2.mp4"
+    from core import guardiao_variedade as gv
+    gv.iniciar_video(slug)
+    faixa_usada = ""
     with tempfile.TemporaryDirectory() as t:
         tmp = Path(t)
         partes = []
@@ -386,7 +398,10 @@ def main() -> int:
             # só faixas ENERGÉTICAS (config/estilo_viral.yaml -> musica.faixas_energeticas); alterna pelo slug
             prefer = [m for m in musicas if m.name in (_EV.get("musica", {}).get("faixas_energeticas") or [])]
             pool = prefer or musicas
+            recentes = gv.musicas_recentes()
+            pool = [m for m in pool if m.name not in recentes] or pool  # alterna: não repete as últimas faixas
             faixa = pool[sum(map(ord, slug)) % len(pool)]
+            faixa_usada = faixa.name
             vol_db = float(_EV.get("musica", {}).get("volume_db", -7))  # nível da música em relação a -14 LUFS (voz)
             print("música de fundo:", faixa.name, "nível", vol_db, "dB (normalizada, com ducking sob a voz)")
             # 1) normaliza a faixa (as da biblioteca variam de -8 a -16 LUFS); 2) abaixa quando a Duda fala (sidechain)
@@ -399,6 +414,7 @@ def main() -> int:
                 "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", str(final)])
         else:
             shutil.copy(bruto, final)
+    gv.finalizar_video(faixa_usada)
     (out_dir / f"{slug}_v2.legenda.txt").write_text(rot.get("legenda", ""), encoding="utf-8")
     print("vídeo pronto:", final, f"({duracao(final):.0f}s)")
     return 0
