@@ -1,43 +1,43 @@
 {
   "slug": "qual-a-melhor-tigela-anti-voracidade-para-caes-ansiosos",
   "titulo_video": "Melhor tigela anti voracidade",
-  "gancho_3s": "3 coisas que ninguém te conta sobre tigela anti voracidade.",
+  "gancho_3s": "Aquele momento em que o comedouro vazio acontece de novo.",
   "cenas": [
     {
-      "narracao": "[warmly] 3 coisas que ninguém te conta sobre tigela anti voracidade.",
-      "visual_busca_banco_livre": "cute golden retriever puppy looking curious",
-      "texto_na_tela": "3 coisas que ninguém te conta sobre tigela anti voracidade."
+      "narracao": "[warmly] Aquele momento em que o comedouro vazio acontece de novo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Aquele momento em que o comedouro vazio acontece de novo."
     },
     {
-      "narracao": "[smiling] Comer rápido faz mal para a barriga do pet.",
-      "visual_busca_banco_livre": "hungry beagle dog eating dry food",
+      "narracao": "[smiling] Comer rápido demais faz mal pra digestão do pet.",
+      "visual_busca_banco_livre": "golden retriever eating slowly from bowl",
       "texto_na_tela": "Comer rápido faz mal"
     },
     {
-      "narracao": "A tigela labirinto ajuda a desacelerar.",
-      "visual_busca_banco_livre": "puppy eating slowly from slow feeder bowl",
-      "texto_na_tela": "Tigela labirinto ajuda"
+      "narracao": "A tigela anti voracidade tem divisões internas.",
+      "visual_busca_banco_livre": "dog food in slow feeder bowl",
+      "texto_na_tela": "Divisões internas"
     },
     {
-      "narracao": "O cão gasta energia pensando para comer.",
-      "visual_busca_banco_livre": "cute pug dog focused on food puzzle",
-      "texto_na_tela": "Gasta energia pensando"
+      "narracao": "Isso obriga o cão a pegar porções menores.",
+      "visual_busca_banco_livre": "happy puppy licking slow feeder",
+      "texto_na_tela": "Porções menores"
     },
     {
-      "narracao": "[excited] Escolha o modelo ideal para o tamanho dele.",
-      "visual_busca_banco_livre": "happy french bulldog looking at camera",
-      "texto_na_tela": "Escolha o tamanho ideal"
+      "narracao": "[excited] O pet come devagar e fica bem calmo.",
+      "visual_busca_banco_livre": "cute beagle resting on floor",
+      "texto_na_tela": "Pet mais calmo"
     }
   ],
   "chamada_final": "Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
   "hashtags": [
     "#tutorialpet",
-    "#caes",
-    "#ansiedadecanina",
-    "#dicaspet"
+    "#cachorro",
+    "#dicaspet",
+    "#cuidadospet"
   ],
-  "legenda": "3 coisas que ninguém te conta sobre tigela anti voracidade.\n\n#tutorialpet #caes #ansiedadecanina #dicaspet",
-  "molde_gancho": "abertura_lista_ninguem_conta",
+  "legenda": "Aquele momento em que o comedouro vazio acontece de novo.\n\n#tutorialpet #cachorro #dicaspet #cuidadospet",
+  "molde_gancho": "abertura_situacao",
   "cta_indice": 6,
   "registro_voz": "alegre",
   "ordem_no_lote": 23,

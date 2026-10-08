@@ -2,7 +2,7 @@
 
 | # | Tema | Gancho (molde) | CTA | Registro |
 |---|---|---|---|---|
-| 1 | como fazer filhote de cachorro parar de morder | Esse erro tá silenciosamente atrapalhando todo dono de pet. (abertura_erro) | #1 | alegre |
+| 1 | como fazer filhote de cachorro parar de morder | Seu cachorro vive mordendo tudo pela casa? (abertura_problema_pet) | #1 | alegre |
 | 2 | com quantos meses o cachorro pode sair na rua | Esse erro tá silenciosamente atrapalhando todo tutor novato. (abertura_erro) | #2 | alegre |
 | 3 | como ensinar gato a usar a caixa de areia | Você já parou pra pensar que os gatos são super higiênicos por natureza? (abertura_pensar) | #3 | alegre |
 | 4 | com que frequencia dar banho em cachorro | 3 coisas que ninguém te conta sobre banho em cachorro. (abertura_lista_ninguem_conta) | #4 | alegre |
@@ -13,7 +13,7 @@
 | 9 | qual a melhor ração para filhote de cachorro | POV: você acabou de descobrir o segredo da ração certa. (abertura_pov) | #1 | alegre |
 | 10 | como acostumar gato adulto com novo comedouro | Descobri o truque por trás dessa mudança, e não é o que você pensa. (abertura_laco_aberto) | #2 | alegre |
 | 11 | melhores brinquedos interativos para cães ansiosos sozinhos | Eu errei em dar atenção toda hora por anos até descobrir isso. (abertura_confissao) | #3 | alegre |
-| 12 | o que comprar antes de adotar um gatinho | Você já parou pra pensar que preparar a casa muda tudo? (abertura_pensar) | #4 | alegre |
+| 12 | o que comprar antes de adotar um gatinho | Se a ansiedade antes da adoção continua acontecendo com você, começa por aqui. (abertura_dor) | #4 | alegre |
 | 13 | com que frequência escovar os dentes do cachorro | Esse erro tá silenciosamente atrapalhando todo tutor. (abertura_erro) | #5 | alegre |
 | 14 | como evitar que o filhote chore à noite | Você já parou pra pensar que a solidão assusta tanto o seu filhote? (abertura_pensar) | #6 | alegre |
 | 15 | por que o gato esconde a comida na tigela | 3 coisas que ninguém te conta sobre o seu gatinho. (abertura_lista_ninguem_conta) | #7 | alegre |
@@ -24,7 +24,7 @@
 | 20 | como montar um ambiente enriquecido para gatos idosos | POV: você acabou de descobrir que seu gato idoso muda de rotina. (abertura_pov) | #4 | alegre |
 | 21 | cuidados essenciais com os dentes do gato idoso | Descobri o truque por trás desse cuidado, e não é o que você pensa. (abertura_laco_aberto) | #5 | alegre |
 | 22 | como evitar que o cachorro destrua os moveis | Eu errei em rasgar sofás por meses até descobrir isso. (abertura_confissao) | #6 | alegre |
-| 23 | qual a melhor tigela anti voracidade para cães ansiosos | 3 coisas que ninguém te conta sobre tigela anti voracidade. (abertura_lista_ninguem_conta) | #7 | alegre |
+| 23 | qual a melhor tigela anti voracidade para cães ansiosos | Aquele momento em que o comedouro vazio acontece de novo. (abertura_situacao) | #7 | alegre |
 | 24 | como adaptar a rotina do gato com a chegada do bebe | Esse erro tá silenciosamente atrapalhando todo tutor de gato. (abertura_erro) | #8 | alegre |
 | 25 | por que meu cachorro come grama durante o passeio | Você já parou pra pensar que seu doguinho adora uma saladinha? (abertura_pensar) | #1 | alegre |
 | 26 | como aliviar o estio do cachorro em dias muito quentes | Três coisas que ninguém te conta sobre o calor do seu cão. (abertura_lista_ninguem_conta) | #2 | alegre |
@@ -34,7 +34,6 @@
 | 30 | importancia de criar uma rotina de escovacao para gatos peludos | Se você é tutor de gato e quer cuidar bem dele, assiste isso. (abertura_chamada_direta) | #6 | alegre |
 
 ## Variedade do lote
-- moldes usados: {'abertura_erro': 4, 'abertura_pensar': 4, 'abertura_lista_ninguem_conta': 4, 'abertura_pare': 3, 'abertura_dor': 3, 'abertura_situacao': 3, 'abertura_chamada_direta': 3, 'abertura_pov': 2, 'abertura_laco_aberto': 2, 'abertura_confissao': 2}
-- ATENÇÃO: moldes iguais seguidos: como-fazer-filhote-de-cachorro-parar-de-morder e com-quantos-meses-o-cachorro-pode-sair-na-rua
-- ATENÇÃO: busca de imagem repetida 9x no lote: 'cute puppy looking at camera' (clipes diferentes, mas o visual tende a se parecer)
-- ATENÇÃO: busca de imagem repetida 7x no lote: 'cute kitten looking at camera' (clipes diferentes, mas o visual tende a se parecer)
+- moldes usados: {'abertura_problema_pet': 1, 'abertura_erro': 3, 'abertura_pensar': 3, 'abertura_lista_ninguem_conta': 3, 'abertura_pare': 3, 'abertura_dor': 4, 'abertura_situacao': 4, 'abertura_chamada_direta': 3, 'abertura_pov': 2, 'abertura_laco_aberto': 2, 'abertura_confissao': 2}
+- ATENÇÃO: busca de imagem repetida 10x no lote: 'cute puppy looking at camera' (clipes diferentes, mas o visual tende a se parecer)
+- ATENÇÃO: busca de imagem repetida 8x no lote: 'cute kitten looking at camera' (clipes diferentes, mas o visual tende a se parecer)

@@ -1,43 +1,43 @@
 {
   "slug": "como-fazer-filhote-de-cachorro-parar-de-morder",
-  "titulo_video": "Como fazer filhote parar de morder",
-  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo dono de pet.",
+  "titulo_video": "Como parar mordidas de filhote",
+  "gancho_3s": "Seu cachorro vive mordendo tudo pela casa?",
   "cenas": [
     {
-      "narracao": "[smiling] Esse erro tá silenciosamente atrapalhando todo dono de pet.",
-      "visual_busca_banco_livre": "cute golden retriever puppy tilting head curiosity",
-      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo dono de pet."
+      "narracao": "[smiling] Seu cachorro vive mordendo tudo pela casa?",
+      "visual_busca_banco_livre": "cute fluffy puppy looking curious close up",
+      "texto_na_tela": "Seu cachorro vive mordendo tudo pela casa?"
     },
     {
-      "narracao": "[warmly] Filhotes exploram o mundo usando a boca.",
-      "visual_busca_banco_livre": "small puppy chewing soft toy happily",
-      "texto_na_tela": "Explorando com a boca"
+      "narracao": "[warmly] É normal eles morderem para explorar o mundo.",
+      "visual_busca_banco_livre": "small golden retriever puppy playing with toy",
+      "texto_na_tela": "Explorando o mundo"
     },
     {
-      "narracao": "Quando ele morder sua pele, pare a brincadeira na hora.",
-      "visual_busca_banco_livre": "cute little puppy sitting looking around",
+      "narracao": "[softly] Quando ele morder sua mão, pare a brincadeira.",
+      "visual_busca_banco_livre": "cute little puppy sitting on soft rug",
       "texto_na_tela": "Pare a brincadeira"
     },
     {
-      "narracao": "Diga um 'não' firme e ignore o bichinho por um minuto.",
-      "visual_busca_banco_livre": "playful beagle puppy resting on floor",
-      "texto_na_tela": "Diga não firme"
+      "narracao": "[happy] Diga não firme e dê um brinquedo apropriado.",
+      "visual_busca_banco_livre": "happy puppy chewing rubber bone toy",
+      "texto_na_tela": "Ofereça brinquedos"
     },
     {
-      "narracao": "[excited] Ofereça um brinquedo adequado para ele morder.",
-      "visual_busca_banco_livre": "happy puppy playing with rubber bone",
-      "texto_na_tela": "Dê o brinquedo certo"
+      "narracao": "[excited] Tenha paciência que essa fase passa logo.",
+      "visual_busca_banco_livre": "adorable puppy sleeping peacefully cozy bed",
+      "texto_na_tela": "Muita paciência"
     }
   ],
   "chamada_final": "Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
   "hashtags": [
     "#tutorialpet",
-    "#filhote",
-    "#cachorro",
-    "#adestramento"
+    "#filhotes",
+    "#cachorros",
+    "#adestramentosuave"
   ],
-  "legenda": "Esse erro tá silenciosamente atrapalhando todo dono de pet.\n\n#tutorialpet #filhote #cachorro #adestramento",
-  "molde_gancho": "abertura_erro",
+  "legenda": "Seu cachorro vive mordendo tudo pela casa?\n\n#tutorialpet #filhotes #cachorros #adestramentosuave",
+  "molde_gancho": "abertura_problema_pet",
   "cta_indice": 0,
   "registro_voz": "alegre",
   "ordem_no_lote": 1,

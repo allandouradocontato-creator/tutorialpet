@@ -1,31 +1,31 @@
 {
   "slug": "o-que-comprar-antes-de-adotar-um-gatinho",
   "titulo_video": "O que comprar antes de adotar um gatinho",
-  "gancho_3s": "Você já parou pra pensar que preparar a casa muda tudo?",
+  "gancho_3s": "Se a ansiedade antes da adoção continua acontecendo com você, começa por aqui.",
   "cenas": [
     {
-      "narracao": "[smiling] Você já parou pra pensar que preparar a casa muda tudo?",
-      "visual_busca_banco_livre": "curious fluffy kitten looking up close",
-      "texto_na_tela": "Você já parou pra pensar que preparar a casa muda tudo?"
+      "narracao": "[warmly] Se a ansiedade antes da adoção continua acontecendo com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Se a ansiedade antes da adoção continua acontecendo com você, começa por aqui."
     },
     {
-      "narracao": "[warmly] Primeiro: caixa de areia funda e boa ração.",
-      "visual_busca_banco_livre": "cute little kitten eating dry food",
-      "texto_na_tela": "Compre ração certa"
+      "narracao": "[smiling] Caixa de areia e pás são itens essenciais.",
+      "visual_busca_banco_livre": "grey cat litter box indoor clean",
+      "texto_na_tela": "Caixa de areia"
     },
     {
-      "narracao": "[happy] Segundo: potinhos de vidro ou inox para água.",
-      "visual_busca_banco_livre": "playful kitten drinking fresh water",
-      "texto_na_tela": "Água fresca sempre"
+      "narracao": "Comedouros de cerâmica ou inox evitam acne felina.",
+      "visual_busca_banco_livre": "cute kitten eating from metal bowl",
+      "texto_na_tela": "Comedouros certos"
     },
     {
-      "narracao": "[thoughtful] Terceiro: arranhadores para proteger seus móveis.",
-      "visual_busca_banco_livre": "small kitten scratching a post",
-      "texto_na_tela": "Proteja os móveis"
+      "narracao": "Arranhadores salvam os seus móveis da casa.",
+      "visual_busca_banco_livre": "small cat scratch post modern interior",
+      "texto_na_tela": "Arranhador essencial"
     },
     {
-      "narracao": "[excited] Quarto: brinquedos para gastar toda a energia.",
-      "visual_busca_banco_livre": "happy kitten playing with toy",
+      "narracao": "[excited] Brinquedos interativos gastam a energia deles.",
+      "visual_busca_banco_livre": "playful tabby kitten chasing toy mouse",
       "texto_na_tela": "Brinquedos divertidos"
     }
   ],
@@ -36,8 +36,8 @@
     "#tutorialpet",
     "#gatinhos"
   ],
-  "legenda": "Você já parou pra pensar que preparar a casa muda tudo?\n\n#gatos #adocaoresponsavel #tutorialpet #gatinhos",
-  "molde_gancho": "abertura_pensar",
+  "legenda": "Se a ansiedade antes da adoção continua acontecendo com você, começa por aqui.\n\n#gatos #adocaoresponsavel #tutorialpet #gatinhos",
+  "molde_gancho": "abertura_dor",
   "cta_indice": 3,
   "registro_voz": "alegre",
   "ordem_no_lote": 12,
