@@ -24,12 +24,24 @@ AGENT_DIR = Path(__file__).resolve().parent
 ROOT = AGENT_DIR.parents[1]
 AGENDA = ROOT / "data" / "publicador" / "agenda.json"
 BRAND_ID = 7123441
-SLOTS = ["09:00", "12:00", "17:00", "20:00"]  # 4 posts/dia (decisao do Allan 08/10/2026: volume p/ analise por ~3 dias)
-LIMITE_DIA = 4
 FUSO = "America/Fortaleza"
-import os
-REDES = ["instagram_reel", "facebook_reel"] + (["tiktok"] if os.environ.get("TIKTOK_ATIVO") == "1" or (ROOT / "config" / "tiktok_ativo.txt").exists() else [])  # TikTok entra criando config/tiktok_ativo.txt apos aprovacao da conta
 REPO_PADRAO = "allandouradocontato-creator/tutorialpet"
+# Decisão do Allan (08/10/2026), seguindo o Especialista TikTok: 2 vídeos por dia, ESCALONADOS por rede
+# (um mesmo vídeo não sai nas 3 redes ao mesmo tempo; assim dá para ler o efeito do horário). Evitar 21h+.
+TURNOS = {
+    "A": {"facebook": "10:00", "tiktok": "12:00", "instagram": "14:00"},
+    "B": {"facebook": "17:00", "tiktok": "18:00", "instagram": "20:00"},
+}
+LIMITE_DIA = len(TURNOS)
+import os
+TIKTOK_ATIVO = os.environ.get("TIKTOK_ATIVO") == "1" or (ROOT / "config" / "tiktok_ativo.txt").exists()
+REDES = ["facebook", "instagram"] + (["tiktok"] if TIKTOK_ATIVO else [])
+
+
+def agora_fortaleza() -> datetime:
+    """Hora local de Fortaleza sem fuso (a nuvem roda em UTC; usar datetime.now() puro erraria o slot em 3h)."""
+    from zoneinfo import ZoneInfo
+    return datetime.now(ZoneInfo(FUSO)).replace(tzinfo=None)
 
 
 def carregar_agenda() -> dict:
@@ -38,19 +50,19 @@ def carregar_agenda() -> dict:
     return {}
 
 
-def proximo_slot(agenda: dict, a_partir_de: date, agora: datetime | None = None) -> tuple[str, str]:
-    """Primeiro (dia, hora) livre, no futuro, respeitando LIMITE_DIA por dia."""
-    agora = agora or datetime.now()
+def proximo_turno(agenda: dict, a_partir_de: date, agora: datetime | None = None) -> tuple[str, str]:
+    """Primeiro (dia, turno) livre cujo primeiro horário ainda está pelo menos 30 min no futuro (hora de Fortaleza)."""
+    agora = agora or agora_fortaleza()
     for delta in range(0, 60):
         dia = a_partir_de + timedelta(days=delta)
-        usados = set(agenda.get(dia.isoformat(), []))
-        for hora in SLOTS:
-            if hora in usados or len(usados) >= LIMITE_DIA:
+        usados = {x for x in agenda.get(dia.isoformat(), []) if x in TURNOS}
+        for turno, horas in TURNOS.items():
+            if turno in usados or len(usados) >= LIMITE_DIA:
                 continue
-            quando = datetime.fromisoformat(f"{dia.isoformat()}T{hora}:00")
-            if quando > agora + timedelta(minutes=30):
-                return dia.isoformat(), hora
-    raise SystemExit("sem horário livre nos próximos 60 dias")
+            primeira = min(datetime.fromisoformat(f"{dia.isoformat()}T{h}:00") for h in horas.values())
+            if primeira > agora + timedelta(minutes=30):
+                return dia.isoformat(), turno
+    raise SystemExit("sem turno livre nos próximos 60 dias")
 
 
 def separar_links(legenda: str) -> tuple[str, str]:
@@ -67,19 +79,43 @@ def separar_links(legenda: str) -> tuple[str, str]:
     return final.strip(), "\n".join(l.strip() for l in comentario).strip()
 
 
-def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, hora: str) -> dict:
+def legenda_tiktok(pkg: Path) -> str:
+    """TikTok (playbook): 1 pergunta + 'veja o artigo no perfil' (sem prometer link clicável) + 2-3 hashtags de nicho."""
+    import re
+    r = json.loads((pkg / "roteiro.json").read_text(encoding="utf-8"))
+    gancho = re.sub(r"\[[^\]]*\]", "", r.get("gancho_3s", "")).strip()
+    tags = [t for t in r.get("hashtags", []) if t.lower() not in ("#tutorialpet", "#pets", "#pet")][:3] or r.get("hashtags", [])[:3]
+    return f"{gancho} Veja o artigo no perfil. " + " ".join(tags)
+
+
+def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, turno: str) -> dict:
     legenda_completa = (pkg / "legenda.txt").read_text(encoding="utf-8").strip()
     legenda, primeiro_comentario = separar_links(legenda_completa)
+    r = json.loads((pkg / "roteiro.json").read_text(encoding="utf-8")) if (pkg / "roteiro.json").exists() else {}
+    titulo = r.get("titulo_video") or slug.replace("-", " ").capitalize()
+    posts = []
+    for rede in REDES:
+        hora = TURNOS[turno][rede]
+        post = {"rede": rede, "agendar_para": f"{dia}T{hora}:00"}
+        if rede == "tiktok":
+            post.update({"legenda": legenda_tiktok(pkg), "primeiro_comentario": "",
+                         "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": titulo[:90], "isAigc": True,
+                                        "commercialContentOwnBrand": True}})
+        elif rede == "facebook":
+            post.update({"legenda": legenda, "primeiro_comentario": primeiro_comentario,
+                         "facebookData": {"type": "REEL", "title": titulo}})
+        else:
+            post.update({"legenda": legenda, "primeiro_comentario": primeiro_comentario,
+                         "instagramData": {"type": "REEL", "showReelOnFeed": True, "isAiGenerated": True}})
+        posts.append(post)
     return {
         "brand_id": BRAND_ID,
         "timezone": FUSO,
-        "agendar_para": f"{dia}T{hora}:00",
-        "redes": REDES,
-        "legenda": legenda,
-        "primeiro_comentario": primeiro_comentario,
+        "turno": turno,
+        "posts": posts,
         "video_url_publica": f"https://raw.githubusercontent.com/{repo}/media/pacotes/{slug}/video.mp4",
         "slug": slug,
-        "regra": "máx. 4 posts/dia; links do produto (landing) e do artigo vao no PRIMEIRO COMENTARIO, nunca no texto (conferido pelo agente 18 em legenda.txt)",
+        "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário",
     }
 
 
@@ -88,7 +124,7 @@ def main() -> int:
     ap.add_argument("media")
     ap.add_argument("slug")
     ap.add_argument("--repo", default=REPO_PADRAO)
-    ap.add_argument("--dia", default=date.today().isoformat())
+    ap.add_argument("--dia", default="")
     a = ap.parse_args()
     pkg = Path(a.media) / "pacotes" / a.slug
     if not pkg.exists():
@@ -100,13 +136,14 @@ def main() -> int:
         sys.exit("este pacote já tem pedido de agendamento (evita postar duas vezes)")
 
     agenda = carregar_agenda()
-    dia, hora = proximo_slot(agenda, date.fromisoformat(a.dia))
-    pedido = montar_pedido(pkg, a.slug, a.repo, dia, hora)
+    dia, turno = proximo_turno(agenda, date.fromisoformat(a.dia) if a.dia else agora_fortaleza().date())
+    pedido = montar_pedido(pkg, a.slug, a.repo, dia, turno)
     (pkg / "pedido_metricool.json").write_text(json.dumps(pedido, ensure_ascii=False, indent=2), encoding="utf-8")
-    agenda.setdefault(dia, []).append(hora)
+    agenda.setdefault(dia, []).append(turno)
     AGENDA.parent.mkdir(parents=True, exist_ok=True)
     AGENDA.write_text(json.dumps(agenda, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Pedido pronto para {dia} {hora} ({FUSO}): {pkg / 'pedido_metricool.json'}")
+    quando = ", ".join(f"{p['rede']} {p['agendar_para'][11:16]}" for p in pedido["posts"])
+    print(f"Pedido pronto para {dia}, turno {turno} ({quando}; {FUSO}): {pkg / 'pedido_metricool.json'}")
     return 0
 
 

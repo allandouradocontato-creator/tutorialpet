@@ -2,10 +2,8 @@ name: Fabrica Tutorial Pet
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 06:00 em Fortaleza (UTC-3)
-    - cron: "0 13 * * *"  # 10:00 em Fortaleza: 2a rodada (volume 4/dia; decisao do Allan 08/10/2026)
-    - cron: "0 18 * * *"  # 15:00 em Fortaleza: 3a rodada
-    - cron: "0 21 * * *"  # 18:00 em Fortaleza: 4a rodada
+    - cron: "0 9 * * *"   # 06:00 em Fortaleza: pacote do turno A (publica 10h FB, 12h TikTok, 14h IG)
+    - cron: "0 15 * * *"  # 12:00 em Fortaleza: pacote do turno B (publica 17h FB, 18h TikTok, 20h IG). 2 vídeos/dia: decisão do Allan 08/10/2026 (recomendação do Especialista TikTok)
   workflow_dispatch: {}
 
 permissions:
