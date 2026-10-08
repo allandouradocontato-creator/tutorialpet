@@ -1,6 +1,6 @@
 {
   "slug": "como-fazer-o-gato-beber-mais-agua",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-08T21:21:07+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua",
   "guardiao": {
@@ -17,5 +17,8 @@
     ],
     "em": "2026-10-08T21:22:03+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-08T19:19:00-03:00",
+  "agendado_por": "Claude (a pedido do Allan, antecipado para 19:35)",
+  "metricool_post_id": 391590272
 }
