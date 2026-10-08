@@ -5,3 +5,4 @@ Em andamento: conferir se o Agendador de Posts (Metricool) das 19:15 agendou os 
 - Falcão: confirmar se o produto Kiwify cb529db0 é sobra de teste.
 Feito hoje: roteiros 12 e 13 refeitos (lote 30/30); teste da fábrica aprovado.
 Otimizador 08/10 19:11: Agendador das 19:15 ainda não tinha agendado nada após 12:00 de hoje; blog: 28 artigos têm foto em site/build/imagens mas sem imagem_capa (build deve ligar por slug); Allan decide cortar para 2 rodadas/dia e libera URLs + repo do app para o Otimizador.
+- TikTok (08/10, Especialista): Allan — verificar negócio no TikTok for Business com o CNPJ (só conta Comercial Verificada exibe link na bio/vídeo; 2 dos 3 vídeos dizem 'link na bio'); decidir rótulo 'gerado por IA' e toggle 'Sua marca' no Agendador. Claude — trocar UTM do TikTok para utm_source=tiktok.
