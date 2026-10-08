@@ -4,3 +4,4 @@ Em andamento: conferir se o Agendador de Posts (Metricool) das 19:15 agendou os 
 - Claude: confirmar se o Jev funcionou na nuvem (resultado fica na sessão da Triagem, que o Claude não lê daqui); capas/imagens nos artigos antigos do blog (só 3 de 31 páginas têm <img>); medir TikTok x Instagram x Facebook após 3 dias de posts.
 - Falcão: confirmar se o produto Kiwify cb529db0 é sobra de teste.
 Feito hoje: roteiros 12 e 13 refeitos (lote 30/30); teste da fábrica aprovado.
+Otimizador 08/10 19:11: Agendador das 19:15 ainda não tinha agendado nada após 12:00 de hoje; blog: 28 artigos têm foto em site/build/imagens mas sem imagem_capa (build deve ligar por slug); Allan decide cortar para 2 rodadas/dia e libera URLs + repo do app para o Otimizador.
