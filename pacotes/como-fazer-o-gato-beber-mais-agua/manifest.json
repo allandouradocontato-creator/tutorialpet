@@ -1,6 +1,21 @@
 {
   "slug": "como-fazer-o-gato-beber-mais-agua",
-  "status": "aguardando_revisao",
-  "criado_em": "2026-10-08T09:20:56+00:00",
-  "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua"
+  "status": "aprovado",
+  "criado_em": "2026-10-08T16:29:37+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua",
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_idade)",
+      "voz da Duda no padrão (eleven_v4, estabilidade 0.26)"
+    ],
+    "em": "2026-10-08T16:30:18+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)"
 }

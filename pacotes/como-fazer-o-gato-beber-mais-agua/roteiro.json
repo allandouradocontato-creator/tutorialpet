@@ -1,46 +1,53 @@
 {
-  "titulo_video": "Como fazer o gato beber mais água",
-  "gancho_3s": "Com quantos anos você descobriu que gato quase não toma água?",
+  "titulo_video": "Como fazer seu gato beber mais água",
+  "gancho_3s": "Com quantos anos você descobriu que gatos preferem água longe da comida?",
   "cenas": [
     {
-      "narracao": "[thoughtful] Com quantos anos você descobriu que gato quase não toma água?",
-      "visual_busca_banco_livre": "cat looking at water bowl close up",
-      "texto_na_tela": "Com quantos anos você descobriu que gato quase não toma água?"
+      "narracao": "[thoughtful] Com quantos anos você descobriu que gatos preferem água longe da comida?",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Com quantos anos você descobriu que gatos preferem água longe da comida?"
     },
     {
-      "narracao": "[softly] Isso é um instinto natural deles, mas pode acabar prejudicando os rins.",
-      "visual_busca_banco_livre": "cat looking at water bowl close up",
-      "texto_na_tela": "Gato não bebe água?"
+      "narracao": "[softly] Espalhe vários potes de água pela casa, bem longe da comida e da caixa de areia.",
+      "visual_busca_banco_livre": "cat drinking water from bowl",
+      "texto_na_tela": "Espalhe vários potes"
     },
     {
-      "narracao": "[short pause] Espalhe tigelas largas de cerâmica ou inox pela casa, longe da comida e da areia.",
-      "visual_busca_banco_livre": "cat drinking water from ceramic bowl floor",
-      "texto_na_tela": "Vários potes espalhados"
+      "narracao": "Prefira recipientes largos de vidro, cerâmica ou inox para evitar odores ruins.",
+      "visual_busca_banco_livre": "ceramic bowl close up",
+      "texto_na_tela": "Vidro, cerâmica ou inox"
     },
     {
-      "narracao": "[smiling] Fontes de água corrente ajudam muito, porque eles amam água fresca em movimento.",
-      "visual_busca_banco_livre": "cat drinking from pet water fountain",
-      "texto_na_tela": "Fontes de água corrente"
+      "narracao": "[short pause] Gatos adoram água em movimento, então vale investir em uma fonte automática.",
+      "visual_busca_banco_livre": "cat drinking from automatic water fountain",
+      "texto_na_tela": "Fontes automáticas"
     },
     {
-      "narracao": "[happy] Vale apostar em sachês com um pouquinho de água pra reforçar a hidratação.",
+      "narracao": "Troque a água dos potes pelo menos duas vezes ao dia para garantir que esteja fresquinha.",
+      "visual_busca_banco_livre": "fresh water pouring into bowl",
+      "texto_na_tela": "Água sempre fresca"
+    },
+    {
+      "narracao": "Adicione alimentos úmidos na rotina para ajudar a complementar a hidratação diária.",
       "visual_busca_banco_livre": "cat eating wet food from bowl",
-      "texto_na_tela": "Sachês e comida úmida"
+      "texto_na_tela": "Alimento úmido"
     },
     {
-      "narracao": "[thoughtful] E consulte o veterinário pra entender a quantidade ideal pro seu felino.",
-      "visual_busca_banco_livre": "healthy cute cat resting calm",
+      "narracao": "[thoughtful] Em caso de dúvidas sobre a saúde do seu pet, consulte sempre o médico-veterinário.",
+      "visual_busca_banco_livre": "cute cat sitting on floor",
       "texto_na_tela": "Consulte o veterinário"
     }
   ],
   "chamada_final": "[warmly] Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
   "hashtags": [
-    "gatos",
-    "saudefelina",
-    "dicasdegato",
-    "felinos",
-    "cuidadoscomgatos"
+    "#gatos",
+    "#gato",
+    "#hidratacaofelina",
+    "#gatosaudavel",
+    "#dicaspet"
   ],
-  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato quase não bebe água da tigela?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua\n\n#gatos #saudefelina #dicasdegato #felinos #cuidadoscomgatos",
-  "slug": "como-fazer-o-gato-beber-mais-agua"
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato bebe pouca água? Descubra como mudar isso hoje!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua\n\n#gatos #gato #hidratacaofelina #gatosaudavel #dicaspet",
+  "slug": "como-fazer-o-gato-beber-mais-agua",
+  "molde_gancho": "abertura_idade",
+  "cta_indice": 0
 }
