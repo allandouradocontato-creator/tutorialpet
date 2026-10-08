@@ -1,4 +1,4 @@
-# Auditoria semanal — 2026-10-08 (Otimizador de Processo)
+# Auditoria semanal — 2026-10-08 (Otimizador de Processo; rodada de teste 12:47)
 Limites: site e app ao vivo NÃO abriram (5ª vez; permissão de URL sem resposta) e o repo do app não está liberado nesta rotina (add_repo indisponível). Site auditado pelo código/build; app sem evidência.
 
 ## O que está bom
@@ -16,11 +16,19 @@ Limites: site e app ao vivo NÃO abriram (5ª vez; permissão de URL sem respost
 - Postar 1x por artigo (foto OU link), não 2x: corta 50% dos posts e do ruído sem perder alcance (já é ~0).
 - Auditor 2x/semana sem URL liberada repete o mesmo texto: gasto de tokens sem dado novo.
 
-## Comprar x produzir
+## Comprar x produzir (PLR)
 - PLR traduzido: NÃO para o blog (AdSense reprova texto não original; Gemini grátis já gera 1 artigo/dia). Só vale para a esteira (2º e-book pet) depois do sistema fechado; estimativa US$ 10–40 por pacote, 2–3 dias para traduzir/adaptar contra ~1–2 semanas produzindo. Veredito: adiar; reavaliar 24/10/2026.
-## Ferramentas
-- Assinar agora: nenhuma. Grátis a ativar: Search Console, PageSpeed Insights, Bing Webmaster, Clarity (já ligado após cookies).
-- Dispensar/pausar: gasto de ElevenLabs em rodadas de teste; anúncios só quando houver landing única e orgânico >0 (regra do Guardião de Gasto).
+## Ferramentas: assinar x dispensar
+- Assinar agora: nenhuma paga. Ativar grátis: Search Console, PageSpeed Insights, Bing Webmaster (Clarity já ligado após cookies). Ganho: indexação e velocidade medidas.
+- Dispensar/pausar: ElevenLabs/Gemini em rodadas de teste; anúncios até haver landing única e orgânico >0 (regra do Guardião de Gasto).
+
+## O que me impede de auditar site e app ao vivo
+1. WebFetch pede permissão por URL e ninguém responde na rotina: pré-aprovar tutorialpet.com.br e sozinho-em-casa.streamlit.app.
+2. Repo do app (sozinho-em-casa-app) fora do escopo desta rotina e add_repo indisponível: liberar leitura.
+3. Sem Search Console/AdSense/PageSpeed conectados.
+
+## Nota da minha capacidade de auditar: 5/10 (com 1 e 2 liberados: ~7)
+Forte: Actions, Metricool, código do site, causa raiz. Fraco: ver o produto real no celular, medir velocidade, ler Search Console.
 
 ## Sugestões (máx. 3, custo R$ 0)
 1. Landing única + 1 post por artigo: publicador usa só sozinhoemcasa-kohl.vercel.app?utm_… no 1º comentário e remove o duplicado foto+link. Ganho: dados limpos de clique e metade dos posts. Teste: 6 posts, cliques por UTM em 7 dias. Veredito 15/10/2026.
