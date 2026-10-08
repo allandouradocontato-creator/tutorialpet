@@ -47,6 +47,7 @@ jobs:
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
           WRITER_MODE: llm
           CLIPS_REGISTRO: /tmp/media/clips_usados.json   # variedade: clipes e músicas já usados (fica na branch media)
+          DUDA_ESTADO: /tmp/media/estado_duda   # rodízio de ganchos e CTAs (fica na branch media; antes recomeçava do zero todo dia)
         run: |
           set -o pipefail
           python fabrica_nuvem.py /tmp/media 2>&1 | tee /tmp/producao.log

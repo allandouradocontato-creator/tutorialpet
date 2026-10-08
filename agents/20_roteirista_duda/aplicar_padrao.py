@@ -26,30 +26,40 @@ from agent import BLOQUEIO_TOM, norm  # noqa: E402
 SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|vomit|diarre|intoxic", re.I)
 
 
+def _pasta_estado() -> Path:
+    """Na nuvem a pasta do repositório nasce limpa a cada rodada; o estado do rodízio vive na branch media (DUDA_ESTADO)."""
+    import os
+    return Path(os.environ.get("DUDA_ESTADO") or ROOT / "data" / "social" / "duda")
+
+
 def escolher_molde(g: dict, slug: str) -> dict:
-    estado = ROOT / "data" / "social" / "duda" / "_ultimo_gancho.txt"
+    estado = _pasta_estado() / "_ultimo_gancho.txt"
     # só moldes validados que NÃO prometem resultado/prazo (evita alegação de saúde inventada); ordem = mais fortes primeiro
     seguros = ["abertura_idade", "abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
-               "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov"]
+               "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov",
+               "abertura_laco_aberto", "abertura_confissao"]
     existentes = {m["id"] for m in g["moldes"]}
     ids = [i for i in seguros if i in existentes]
     ultimo = estado.read_text(encoding="utf-8").strip() if estado.exists() else ""
     prox = ids[(ids.index(ultimo) + 1) % len(ids)] if ultimo in ids else ids[0]
-    estado.parent.mkdir(parents=True, exist_ok=True)
-    estado.write_text(prox, encoding="utf-8")
-    return next(m for m in g["moldes"] if m["id"] == prox)
+    return next(m for m in g["moldes"] if m["id"] == prox)   # o estado só é gravado quando o padrão é aplicado
 
 
-def escolher_cta(g: dict) -> str:
-    estado = ROOT / "data" / "social" / "duda" / "_ultimo_cta.txt"
+def escolher_cta(g: dict) -> tuple[str, int]:
+    estado = _pasta_estado() / "_ultimo_cta.txt"
     ctas = g["cta_moldes"]
     try:
         i = (int(estado.read_text(encoding="utf-8").strip()) + 1) % len(ctas)
     except (OSError, ValueError):
         i = 0
-    estado.parent.mkdir(parents=True, exist_ok=True)
-    estado.write_text(str(i), encoding="utf-8")
-    return ctas[i]
+    return ctas[i], i
+
+
+def gravar_estado(molde_id: str, cta_idx: int) -> None:
+    pasta = _pasta_estado()
+    pasta.mkdir(parents=True, exist_ok=True)
+    (pasta / "_ultimo_gancho.txt").write_text(molde_id, encoding="utf-8")
+    (pasta / "_ultimo_cta.txt").write_text(str(cta_idx), encoding="utf-8")
 
 
 def validar(r: dict, d: dict, g: dict) -> list[str]:
@@ -85,7 +95,7 @@ def main() -> int:
     d = yaml.safe_load((ROOT / "config" / "duda.yaml").read_text(encoding="utf-8"))
     g = yaml.safe_load((ROOT / "config" / "ganchos_universais.yaml").read_text(encoding="utf-8"))
     molde = escolher_molde(g, slug)
-    cta = escolher_cta(g)
+    cta, cta_idx = escolher_cta(g)
     saude = bool(SAUDE.search(json.dumps(r, ensure_ascii=False)))
     registro = d["registros_de_voz"]["serio" if saude else "alegre"]
     from core.llm import gerar_texto
@@ -124,12 +134,17 @@ def main() -> int:
         if not erros:
             # o gancho precisa ser FALADO (cena 0) e aparecer na tela sem as tags de emoção
             gancho_tela = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", cand["gancho_3s"])).strip()
+            primeira = str(cand["cenas"][0].get("visual_busca_banco_livre", "")).lower()
+            animal = "kitten" if re.search(r"\b(cat|kitten|gato)", primeira) else "puppy"
             cand["cenas"].insert(0, {"narracao": cand["gancho_3s"],
-                                     "visual_busca_banco_livre": cand["cenas"][0].get("visual_busca_banco_livre", "cute puppy close up"),
+                                     "visual_busca_banco_livre": f"cute {animal} looking at camera",  # distinta da cena 1
                                      "texto_na_tela": gancho_tela})
+            cand["molde_gancho"] = molde["id"]
+            cand["cta_indice"] = cta_idx
             cand["gancho_3s"] = gancho_tela
             shutil.copy(rot, rot.with_suffix(".original.json"))
             rot.write_text(json.dumps(cand, ensure_ascii=False, indent=2), encoding="utf-8")
+            gravar_estado(molde["id"], cta_idx)
             print(f"PADRÃO APLICADO ({molde['id']}, registro {'sério' if saude else 'alegre'}): {cand['gancho_3s']}")
             return 0
         falha = "; ".join(erros)

@@ -112,6 +112,18 @@ def main() -> int:
     elif cta:
         ok.append("CTA diferente dos últimos vídeos")
 
+    # 5b) gancho repetido (mesmo molde de um dos últimos vídeos ou mesmas primeiras palavras)
+    molde = roteiro.get("molde_gancho", "")
+    ant = []
+    for v in anteriores[-ULTIMOS_CTA:]:
+        r = _json(media / "pacotes" / str(v.get("slug")) / "roteiro.json", {})
+        ant.append((r.get("molde_gancho", ""), " ".join(re.sub(r"\W+", " ", str(r.get("gancho_3s", "")).lower()).split()[:4])))
+    abre = " ".join(re.sub(r"\W+", " ", str(roteiro.get("gancho_3s", "")).lower()).split()[:4])
+    if (molde and molde in [m for m, _ in ant]) or (abre and abre in [a for _, a in ant]):
+        problemas.append(f"gancho repetido de um dos últimos {ULTIMOS_CTA} vídeos ({molde or abre})")
+    elif abre:
+        ok.append(f"gancho diferente dos últimos vídeos ({molde or abre})")
+
     # 6) voz da Duda
     pv = _voz_ok()
     problemas += pv
