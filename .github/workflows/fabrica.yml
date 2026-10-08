@@ -3,6 +3,7 @@ name: Fabrica Tutorial Pet
 on:
   schedule:
     - cron: "0 9 * * *"   # 06:00 em Fortaleza (UTC-3)
+    - cron: "0 21 * * *"  # 18:00 em Fortaleza: 2a rodada do dia (segundo pacote artigo+video; decisao do Allan 08/10/2026)
   workflow_dispatch: {}
 
 permissions:
