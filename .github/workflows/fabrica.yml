@@ -110,8 +110,22 @@ jobs:
           git config user.email "fabrica@tutorialpet.com.br"
           git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria || true
           git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || echo "nada a commitar"
-          git pull --rebase -X theirs origin main || git rebase --abort || true
-          git push origin main || echo "::warning::push da fila no main falhou (conflito?); rascunhos nao foram guardados"
+          ok=0
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase -X theirs origin/main; then :; else
+              git rebase --abort || true
+              rm -rf /tmp/fila_bak && mkdir -p /tmp/fila_bak
+              cp -r --parents config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria /tmp/fila_bak/ 2>/dev/null || true
+              git reset -q --hard origin/main
+              cp -r /tmp/fila_bak/. . 2>/dev/null || true
+              git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria || true
+              git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || true
+            fi
+            if git push origin HEAD:main; then ok=1; break; fi
+            sleep $((i*5))
+          done
+          [ "$ok" = 1 ] || { echo "::error::push da fila no main falhou 5x"; exit 1; }
 
       - name: Saude da fabrica (falha de verdade se o pacote estiver ruim)
         if: always()
