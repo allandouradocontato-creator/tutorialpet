@@ -46,6 +46,37 @@ CLARITY_TAG = (
     f'}})(window,document,"clarity","script","{CLARITY_ID}");</script>'
 )
 
+# Banner de consentimento (LGPD): Analytics e Clarity só carregam depois do "Aceitar".
+CONSENT_TAG = (
+    "<script>(function(){var K='tp_consent';"
+    "function load(){if(window.__tpLoaded)return;window.__tpLoaded=1;"
+    "var g=document.createElement('script');g.async=1;g.src='https://www.googletagmanager.com/gtag/js?id=" + GA_ID + "';document.head.appendChild(g);"
+    "window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag('js',new Date());gtag('config','" + GA_ID + "');"
+    "(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;"
+    "t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})"
+    "(window,document,'clarity','script','" + CLARITY_ID + "');}"
+    "var v=null;try{v=localStorage.getItem(K);}catch(e){}"
+    "if(v==='granted'){load();return;}"
+    "if(v==='denied'){return;}"
+    "document.addEventListener('DOMContentLoaded',function(){"
+    "var b=document.getElementById('tp-consent');if(!b)return;b.hidden=false;"
+    "function set(x){try{localStorage.setItem(K,x);}catch(e){}b.hidden=true;if(x==='granted')load();}"
+    "document.getElementById('tp-aceitar').onclick=function(){set('granted');};"
+    "document.getElementById('tp-recusar').onclick=function(){set('denied');};});"
+    "})();</script>"
+)
+CONSENT_HTML = (
+    '<div id="tp-consent" hidden role="dialog" aria-label="Aviso de cookies" style="position:fixed;left:12px;right:12px;bottom:12px;'
+    'z-index:9999;max-width:560px;margin:0 auto;background:#fff;color:#1d2433;border:1px solid #d9dde6;border-radius:12px;'
+    'padding:14px 16px;box-shadow:0 8px 28px rgba(0,0,0,.18);font:15px/1.45 system-ui,sans-serif">'
+    '<p style="margin:0 0 10px">Usamos cookies de medição (Google Analytics e Microsoft Clarity) para entender como o site é usado. '
+    'Só ativamos se você aceitar. <a href="/politica-de-privacidade.html" style="color:#a95716">Política de privacidade</a>.</p>'
+    '<div style="display:flex;gap:8px;flex-wrap:wrap"><button id="tp-aceitar" type="button" style="min-height:44px;padding:8px 16px;'
+    'border:0;border-radius:8px;background:#a95716;color:#fff;font:inherit;font-weight:700;cursor:pointer">Aceitar</button>'
+    '<button id="tp-recusar" type="button" style="min-height:44px;padding:8px 16px;border:1px solid #c9ced9;border-radius:8px;'
+    'background:#fff;color:#1d2433;font:inherit;cursor:pointer">Recusar</button></div></div>'
+)
+
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
@@ -108,12 +139,13 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <meta property="og:locale" content="pt_BR">
 {og_image_tag}
 {GOOGLE_FONT_HEAD}
-{GA_TAG}{CLARITY_TAG}
+{CONSENT_TAG}
 {extra_head}
 <style>{CSS}</style>
 </head>
 <body>
 {body_html}
+{CONSENT_HTML}
 </body>
 </html>
 """
