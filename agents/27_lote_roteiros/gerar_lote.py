@@ -174,7 +174,8 @@ def main() -> int:
     so = [x.strip() for x in a.so.split("|") if x.strip()]
     if so:
         fila = yaml.safe_load((ROOT / "config" / "fila_temas.yaml").read_text(encoding="utf-8")) or {}
-        temas = [t for t in fila.get("temas", []) if t.get("termo") in so]
+        na_fila = {t.get("termo"): t for t in fila.get("temas", [])}
+        temas = [na_fila.get(x, {"termo": x}) for x in so]   # tema que já saiu da fila também pode ser refeito
         ordens = [int(x) for x in a.ordem.split(",") if x.strip()]
     else:
         temas = carregar_temas(a.n)

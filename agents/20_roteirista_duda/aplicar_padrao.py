@@ -24,7 +24,8 @@ import yaml  # noqa: E402
 from agent import BLOQUEIO_TOM, norm  # noqa: E402
 
 # ordem = mais fortes primeiro; usada também pelo gerador de lote (agente 27)
-MOLDES_SEGUROS = ["abertura_idade", "abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
+# abertura_idade PAUSADO em 08/10/2026 (resultado fraco no nosso perfil; ver config/ganchos_universais.yaml); reativar só com revelação concreta e curta
+MOLDES_SEGUROS = ["abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
                   "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov",
                   "abertura_laco_aberto", "abertura_confissao"]
 

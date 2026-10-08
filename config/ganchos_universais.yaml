@@ -16,7 +16,7 @@ moldes:   # ordenados por desempenho/frequência na validação; [colchetes] = p
   - id: abertura_idade
     tipo: "aversao_a_perda / curiosidade"
     molde: "Com quantos anos você descobriu que [verdade/truque do dia a dia]?"
-    status: "VALIDADO (o mais frequente: 12 vídeos na busca, 5 com até 30 dias)"
+    status: "PAUSADO 08/10/2026: validado nas referências virais, mas no NOSSO perfil o vídeo 'Com quantos anos você descobriu que o seu pet também te ensina?' (07/10 18:40, voz da Duda) teve TikTok 105 views/3 curtidas, Facebook 51 views/4 curtidas, Instagram alcance ~0; o vídeo de problema concreto do banho (07/10 16:10) teve TikTok 766 views/39 curtidas. Hipótese (1 amostra): revelação abstrata, sem problema concreto. Reativar só com revelação concreta e curta, como teste isolado."
     fala_1s: "pergunta 'com quantos anos você descobriu que...' seguida da revelação curta em uma frase"
     texto_na_tela: "a própria pergunta, igual à fala e repetida na legenda ('Com quantos anos você descobriu isso?')"
     metricas: "recentes (<=30d): anahaitama 2,2M views, 509,6k curtidas (23%), 169,7k shares (7,7%), 10 s; leocosvi 29,7k views, 343 shares (1,15%), 9 s; josealvarengan 197k views, 1,7k shares (0,87%), 25 s; dicas.geniais77 369,8k views, 1,7k shares (0,46%), 6,2k salvamentos, 74 s; soumrp 19,2k views, 28 shares (0,15%), 8 s. Evergreen: drlainemoser 693k views, 11,2k shares (1,6%), 112 s"
@@ -60,7 +60,7 @@ moldes:   # ordenados por desempenho/frequência na validação; [colchetes] = p
   - {id: abertura_laco_aberto, tipo: laco_aberto, molde: "Descobri o [truque] por trás de [resultado], e não é o que você pensa.", status: "NÃO TESTADO"}
   - {id: abertura_confissao, tipo: confissao, molde: "Eu errei em [erro] por [tempo] até descobrir isso.", status: "NÃO TESTADO"}
   - {id: abertura_quebra, tipo: quebra_de_padrao, molde: "Visual inesperado no 1º quadro + texto na tela de até 6 palavras.", status: "NÃO TESTADO aqui, mas coerente com os vídeos pet de maior share"}
-ordem_de_uso_recomendada: [abertura_idade, abertura_perdendo, abertura_erro, abertura_pensar, abertura_lista_ninguem_conta]
+ordem_de_uso_recomendada: [abertura_perdendo, abertura_erro, abertura_pensar, abertura_lista_ninguem_conta]
 os_mais_fortes_nos_testes_das_fontes: [identidade, contrario, laco_aberto, confissao]   # das fontes iniciais; não confirmados nesta rodada
 cta_observados:   # últimas falas dos vídeos validados; a maioria TERMINA NA ENTREGA, sem CTA explícito (legendas lidas: 1 de ~8 com CTA falado)
   - {cta: "compartilha essa mensagem pra todo mundo e me segue pra mais", desempenho: "2,0% shares/views (n=1, 36 s)"}
