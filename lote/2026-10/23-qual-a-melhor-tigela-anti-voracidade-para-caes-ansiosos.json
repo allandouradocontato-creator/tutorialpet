@@ -1,42 +1,43 @@
 {
   "slug": "qual-a-melhor-tigela-anti-voracidade-para-caes-ansiosos",
   "titulo_video": "Melhor tigela anti voracidade",
-  "gancho_3s": "Com quantos anos você descobriu que comer rápido demais faz mal para o cão?",
+  "gancho_3s": "3 coisas que ninguém te conta sobre tigela anti voracidade.",
   "cenas": [
     {
-      "narracao": "[smiling] Com quantos anos você descobriu que comer rápido demais faz mal para o cão?",
-      "visual_busca_banco_livre": "cute puppy looking at camera",
-      "texto_na_tela": "Com quantos anos você descobriu que comer rápido demais faz mal para o cão?"
+      "narracao": "[warmly] 3 coisas que ninguém te conta sobre tigela anti voracidade.",
+      "visual_busca_banco_livre": "cute golden retriever puppy looking curious",
+      "texto_na_tela": "3 coisas que ninguém te conta sobre tigela anti voracidade."
     },
     {
-      "narracao": "[warmly] Comer em segundos causa engasgos e gases.",
-      "visual_busca_banco_livre": "happy beagle dog eating kibble",
+      "narracao": "[smiling] Comer rápido faz mal para a barriga do pet.",
+      "visual_busca_banco_livre": "hungry beagle dog eating dry food",
       "texto_na_tela": "Comer rápido faz mal"
     },
     {
-      "narracao": "[softly] A tigela anti voracidade tem divisões internas.",
-      "visual_busca_banco_livre": "slow feeder dog bowl top view",
-      "texto_na_tela": "Divisões internas"
+      "narracao": "A tigela labirinto ajuda a desacelerar.",
+      "visual_busca_banco_livre": "puppy eating slowly from slow feeder bowl",
+      "texto_na_tela": "Tigela labirinto ajuda"
     },
     {
-      "narracao": "[happy] Isso obriga o pet a comer bem devagar.",
-      "visual_busca_banco_livre": "cute pug dog eating slowly",
-      "texto_na_tela": "Coma devagar"
+      "narracao": "O cão gasta energia pensando para comer.",
+      "visual_busca_banco_livre": "cute pug dog focused on food puzzle",
+      "texto_na_tela": "Gasta energia pensando"
     },
     {
-      "narracao": "[excited] Na dúvida, consulte o médico-veterinário.",
-      "visual_busca_banco_livre": "healthy french bulldog looking happy",
-      "texto_na_tela": "Consulte o veterinário"
+      "narracao": "[excited] Escolha o modelo ideal para o tamanho dele.",
+      "visual_busca_banco_livre": "happy french bulldog looking at camera",
+      "texto_na_tela": "Escolha o tamanho ideal"
     }
   ],
   "chamada_final": "Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
   "hashtags": [
     "#tutorialpet",
-    "#cachorros",
+    "#caes",
+    "#ansiedadecanina",
     "#dicaspet"
   ],
-  "legenda": "Com quantos anos você descobriu que comer rápido demais faz mal para o cão?\n\n#tutorialpet #cachorros #dicaspet",
-  "molde_gancho": "abertura_idade",
+  "legenda": "3 coisas que ninguém te conta sobre tigela anti voracidade.\n\n#tutorialpet #caes #ansiedadecanina #dicaspet",
+  "molde_gancho": "abertura_lista_ninguem_conta",
   "cta_indice": 6,
   "registro_voz": "alegre",
   "ordem_no_lote": 23,

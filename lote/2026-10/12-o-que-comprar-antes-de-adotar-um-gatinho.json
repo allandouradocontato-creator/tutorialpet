@@ -1,32 +1,32 @@
 {
   "slug": "o-que-comprar-antes-de-adotar-um-gatinho",
   "titulo_video": "O que comprar antes de adotar um gatinho",
-  "gancho_3s": "Com quantos anos você descobriu que adotar exige preparo?",
+  "gancho_3s": "Você já parou pra pensar que preparar a casa muda tudo?",
   "cenas": [
     {
-      "narracao": "[warmly] Com quantos anos você descobriu que adotar exige preparo?",
-      "visual_busca_banco_livre": "cute curious ginger kitten close up",
-      "texto_na_tela": "Com quantos anos você descobriu que adotar exige preparo?"
+      "narracao": "[smiling] Você já parou pra pensar que preparar a casa muda tudo?",
+      "visual_busca_banco_livre": "curious fluffy kitten looking up close",
+      "texto_na_tela": "Você já parou pra pensar que preparar a casa muda tudo?"
     },
     {
-      "narracao": "[smiling] Caixinha de areia e pazinha são essenciais.",
-      "visual_busca_banco_livre": "small cat litter box indoors",
-      "texto_na_tela": "Caixa de areia"
+      "narracao": "[warmly] Primeiro: caixa de areia funda e boa ração.",
+      "visual_busca_banco_livre": "cute little kitten eating dry food",
+      "texto_na_tela": "Compre ração certa"
     },
     {
-      "narracao": "Compre potinhos de vidro ou inox para a ração.",
-      "visual_busca_banco_livre": "metal cat food bowls floor",
-      "texto_na_tela": "Potinhos certos"
+      "narracao": "[happy] Segundo: potinhos de vidro ou inox para água.",
+      "visual_busca_banco_livre": "playful kitten drinking fresh water",
+      "texto_na_tela": "Água fresca sempre"
     },
     {
-      "narracao": "Arranhadores salvam seus móveis da diversão.",
-      "visual_busca_banco_livre": "fluffy kitten scratching post modern",
-      "texto_na_tela": "Arranhador bom"
+      "narracao": "[thoughtful] Terceiro: arranhadores para proteger seus móveis.",
+      "visual_busca_banco_livre": "small kitten scratching a post",
+      "texto_na_tela": "Proteja os móveis"
     },
     {
-      "narracao": "[excited] E brinque muito para gastar a energia dele.",
-      "visual_busca_banco_livre": "playful tabby kitten chasing toy",
-      "texto_na_tela": "Hora de brincar"
+      "narracao": "[excited] Quarto: brinquedos para gastar toda a energia.",
+      "visual_busca_banco_livre": "happy kitten playing with toy",
+      "texto_na_tela": "Brinquedos divertidos"
     }
   ],
   "chamada_final": "Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
@@ -36,8 +36,8 @@
     "#tutorialpet",
     "#gatinhos"
   ],
-  "legenda": "Com quantos anos você descobriu que adotar exige preparo?\n\n#gatos #adocaoresponsavel #tutorialpet #gatinhos",
-  "molde_gancho": "abertura_idade",
+  "legenda": "Você já parou pra pensar que preparar a casa muda tudo?\n\n#gatos #adocaoresponsavel #tutorialpet #gatinhos",
+  "molde_gancho": "abertura_pensar",
   "cta_indice": 3,
   "registro_voz": "alegre",
   "ordem_no_lote": 12,
