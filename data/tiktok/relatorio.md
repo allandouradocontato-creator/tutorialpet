@@ -2,12 +2,13 @@ Dados até 2026-10-08 19:29 (Fortaleza) — Metricool brandId 7123441, TikTok @t
 ## (a) Nossos números (3 vídeos; todos com menos de 48h = recente/parcial)
 | Vídeo | Postado (idade) | Dur. | Views | Curt. | Coment. | Shares |
 |---|---|---|---|---|---|---|
-| Banho de cachorro (dica, pergunta de dor, "link na bio") | 07/10 19:10 (24h) | 44s | 766 | 39 (5,1%) | 0 | 1 |
-| Abertura Tutorial Pet (emocional, "link no 1º comentário") | 07/10 21:42 (22h) | 42s | 105 | 3 | 0 | 0 |
-| Gato bebe pouca água (dica, "link na bio") | 08/10 15:06 (4h, parcial) | 38s | 25 | 3 | 0 | 0 |
+| Banho de cachorro (dica, pergunta de dor, "link na bio") | 07/10 16:10 (27h) | 44s | 766 | 39 (5,1%) | 0 | 1 |
+| Abertura Tutorial Pet (emocional, "link no 1º comentário") | 07/10 18:42 (25h) | 42s | 105 | 3 | 0 | 0 |
+| Gato bebe pouca água (dica, "link na bio") | 08/10 12:06 (7h, parcial) | 38s | 25 | 3 | 0 | 0 |
+- Horários do Metricool vêm em UTC; já convertidos para Fortaleza (-3h).
 - Retenção (TKPO13/15/16) vem vazia no Metricool: ainda não dá para medir quanto tempo assistem nem origem Para Você.
-- Campeão (banho, roteiro da fábrica 07/10): único com gancho de dor do dia a dia ("já está com cheirinho forte?"), tema buscado, postado no pico de 18h (índice ~1.390 na quarta) e com hashtag de nicho (#banhodecachorro). NÃO foi o mais curto (44s, contra 8-15s das referências) nem o de música/corte diferente que eu consiga provar: n=3, tudo é hipótese.
-- O vídeo emocional/de marca (21h40, horário fraco ~580) teve 7x menos views. Os 3 vídeos têm 38-44s; nenhum no formato curto de 8-15s do estilo_viral.yaml.
+- Campeão (banho, roteiro da fábrica 07/10): único com gancho de dor do dia a dia ("já está com cheirinho forte?"), tema buscado e hashtag de nicho (#banhodecachorro). Horário não explica: postou às 16h (índice médio ~1.100 na quarta) e o de 18h42 (pico) foi o pior. Também NÃO foi o mais curto (44s, contra 8-15s das referências); música/cortes não consigo provar: n=3, tudo é hipótese.
+- O vídeo emocional/de marca (18h42, horário de pico) teve 7x menos views: gancho institucional perde para gancho de dor. Os 3 vídeos têm 38-44s; nenhum no formato curto de 8-15s do estilo_viral.yaml.
 - Melhores horários (Metricool, TikTok, Fortaleza): picos ~10h, 12h e 18h, mais fortes quarta/quinta/sexta (10h quinta 1.471; 18h quarta 1.386); piores 21h em diante.
 ## (b) Regras que valem para nós + riscos (fontes oficiais lidas hoje)
 1. Divulgação comercial: postou promovendo marca/produto/serviço (inclui o Sozinho em Casa) → ligar "Sua marca" (rótulo "Conteúdo comercial"); sem isso o post pode ser removido ou ter alcance limitado. [ads.tiktok.com/help/article/how-to-turn-on-the-commercial-content-disclosure-setting-in-tiktok?lang=pt, pág. de jan/2026]. Nos 3 vídeos atuais a legenda só fala de blog (risco baixo); o pacote da fábrica traz CTA do app com preço → ligar o toggle (Metricool: commercialContentOwnBrand).
@@ -24,7 +25,7 @@ Dados até 2026-10-08 19:29 (Fortaleza) — Metricool brandId 7123441, TikTok @t
 5. Receita/número fechado ("3 passos"): @rodrigomundopet, 576k views, 3,2% shares, 24s — molde para a série do Sozinho em Casa (gancho nº 3 e nº 2 em ganchos_universais.yaml).
 ## (d) Testes grátis para as próximas 4 rodadas
 T1 Curto de fofura: 1 vídeo 8-12s, close no 1º segundo, sem lista, legenda "manda pro seu papai". Hipótese: share >=0,5% (hoje 0,1%). Medir: views em 24h/48h, shares/views, tempo assistido (quando o Metricool preencher).
-T2 Horário: mesmo tipo de vídeo às 10h/12h/18h (quarta a sexta) em vez de 15h/21h. Hipótese: 2x views de 24h do vídeo das 21h. Medir: views em 24h por horário de postagem.
+T2 Horário: mesmo tipo de vídeo às 10h/12h/18h (quarta a sexta) em vez de 14h-15h/21h+. Hipótese: horário de pico dá mais views que 15h/21h (nossos 3 posts, 12h/16h/18h, não mostram efeito; testar com o mesmo tipo de vídeo). Medir: views em 24h por horário de postagem.
 T3 Série Sozinho (gancho 2/3): "Seu cachorro chora quando você sai? 3 passos", 15-20s, toggle "Sua marca" ligado, CTA falado "link no perfil" só se a pendência 1 estiver feita. Medir: cliques com UTM (abaixo) e vendas no Kiwify.
 ## (e) Plano de vendas
 - Funil: Parte 1 problema (cachorro sozinho) → Parte 2 3 passos → Parte 3 protocolo/app; 3 vídeos/semana, fofura entre eles. Comentário fixado: "Parte 2 no perfil" + pergunta (responder comentários com vídeo curto).
