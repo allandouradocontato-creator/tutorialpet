@@ -10,3 +10,5 @@
 - 2026-10-08 Prioridade: fechar linha de produto (e-book/PLR e app) e upsell antes de novos anúncios.
 - 2026-10-08 Teste da fábrica (run 37808384924) OK: pacote como-fazer-o-gato-beber-mais-agua aprovado sozinho pelo Guardião (auto). Primeiros posts publicados nas 3 redes (FB, IG, TikTok) via Metricool.
 - 2026-10-08 Lote de roteiros 2026-10 fechado em 30/30 (gerador agora repara tag com erro de digitação e aceita refazer só temas específicos).
+- 2026-10-08 Gancho 'Com quantos anos você descobriu que...' (abertura_idade) PAUSADO: no nosso perfil teve resultado fraco nas 3 redes (TikTok 105 views x 766 do vídeo de problema concreto). Sai da rotação da fábrica; reativar só como teste isolado com revelação concreta e curta. Roteiros 1, 12 e 23 do lote refeitos com outro molde.
+- 2026-10-08 Criado o Especialista TikTok (rotina seg/qui 08:13); os horários de postagem passam a seguir a recomendação dele (hoje: slots 09:00, 12:00, 17:00, 20:00).
