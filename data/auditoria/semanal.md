@@ -1,4 +1,5 @@
 # Auditoria semanal — 2026-10-08 (Otimizador de Processo; rodada de teste 12:47)
+CORREÇÃO 08/10 19:05 (dados Metricool até 08/10 19:00): o gargalo 1 abaixo foi escrito com posts só até 06/10 (o prompt ignorava posts com menos de 48h). Dados corretos: TikTok TEM posts e é a única rede com sinal (07/10: 766 views, 39 curtidas, 1 compartilhamento; 08/10: 105 e 25 views); Facebook Reels 10 a 317 views e até 10 curtidas (alcance vem 0 por limite da API); Instagram alcance 0 a 11, 0 curtidas. Amostra ainda pequena (3 dias).
 Limites: site e app ao vivo NÃO abriram (5ª vez; permissão de URL sem resposta) e o repo do app não está liberado nesta rotina (add_repo indisponível). Site auditado pelo código/build; app sem evidência.
 
 ## O que está bom
@@ -6,7 +7,7 @@ Limites: site e app ao vivo NÃO abriram (5ª vez; permissão de URL sem respost
 - Já mesclado: cookies LGPD (PR #3), vídeo opcional no artigo (PR #4). Sobre, Contato, Privacidade, Termos, sitemap e robots existem.
 
 ## 3 maiores gargalos (causa raiz)
-1. Alcance quase zero em todas as redes (20/09–06/10): Facebook 21 posts, alcance 0–4, 0 compartilhamentos; Instagram 6 reels, alcance 0–4; TikTok sem nenhum post no Metricool. Causa: contas novas sem audiência e conteúdo = link de artigo; nenhum gancho/CTA se destacou (amostra pequena, nada >4). Único sinal: 2 posts de foto de 06/10 tiveram 2–3 cliques (podem ser cliques do próprio Allan).
+1. Alcance quase zero em todas as redes (20/09–06/10): Facebook 21 posts, alcance 0–4, 0 compartilhamentos; Instagram 6 reels, alcance 0–4; (corrigido acima: TikTok tem posts desde 07/10). Causa: contas novas sem audiência e conteúdo = link de artigo; nenhum gancho/CTA se destacou (amostra pequena, nada >4). Único sinal: 2 posts de foto de 06/10 tiveram 2–3 cliques (podem ser cliques do próprio Allan).
 2. Destino do link inconsistente: o CTA de venda aponta para 3 lugares (checkout Kiwify NcQChat, checkout 3JprCCK, app streamlit que dorme) e não para a landing vercel, contrariando a regra "landing única". Em 06/10 cada artigo saiu 2x (foto + link) com texto igual, no mesmo minuto. Causa: texto e link montados em dois pontos diferentes, sem checagem de destino.
 3. Blog ainda não pronto para AdSense: ads.txt com ID placeholder (pub-000…), sem meta do Search Console, só 3 das 31 páginas têm <img> (artigos sem imagem no corpo, sem lazy-load), vídeo no corpo depende de preenchimento manual. Causa: build_site.py não puxa imagem nem video_url do pacote da fábrica.
 

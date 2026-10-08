@@ -9,3 +9,5 @@ Toda rodada:
 5. Economia: apontar onde se gasta crédito/tokens à toa e como gastar menos sem perder qualidade.
 6. Entregar curto: o que mudar, custo, ganho, veredito e data. Quem decide é o Allan.
 7. Atualizar as notas ao final (decisões, erros, pendências).
+
+Regra de dados frescos (08/10/2026): o Otimizador tem que estar adiantado, nunca atrasado. Primeira linha do relatório: 'Dados até AAAA-MM-DD HH:MM'. Métricas do Metricool vão de 20/09 até AGORA, incluindo posts com menos de 48h (marcados 'recente (parcial)'), uma rede por vez (IGRE/FBRE/TKPO). Nunca afirmar 'rede sem posts' sem conferir no Metricool; antes de commitar, conferir se algum número contradiz o Metricool de agora.
