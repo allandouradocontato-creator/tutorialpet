@@ -88,6 +88,17 @@ LEGAL_PAGES_TITULOS = {"sobre": "Sobre", "contato": "Contato",
                         "politica-de-privacidade": "Política de Privacidade", "termos": "Termos de Uso"}
 
 
+def _load_videos_artigos() -> dict:
+    f = ROOT / "config" / "sites" / "videos_artigos.json"
+    try:
+        return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+    except Exception:
+        return {}
+
+
+VIDEOS_ARTIGOS = _load_videos_artigos()
+
+
 def load_agent07_markdown_converter():
     """Importa agents/07_publisher/agent.py só para reaproveitar markdown_to_html_body —
     não instancia nem chama nada que dependa do gate de aprovação do agente 07."""
@@ -211,6 +222,14 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
             hero_img += (f'<p class="image-credit">Foto: <a href="{html_lib.escape(fonte_url)}">'
                          f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}</p>')
 
+    video_html = ""
+    video_url = fm.get("video_url") or VIDEOS_ARTIGOS.get(slug)
+    if video_url:
+        poster = f' poster="/{imagem_capa}"' if imagem_capa else ""
+        video_html = (f'<figure class="article-video"><video controls playsinline preload="none"{poster} '
+                      f'src="{html_lib.escape(video_url)}" style="width:100%;max-width:420px;display:block;margin:12px auto"></video>'
+                      f'<figcaption style="text-align:center;font-size:.9rem">Veja em vídeo (30 segundos)</figcaption></figure>')
+
     body_html = md_to_html(body)
     produto_faixa = render_produto_topo(load_produto_destaque(fm))
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
@@ -222,6 +241,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {produto_faixa}
 {hero_img}
 {byline}
+{video_html}
 {body_html}
 {produto_faixa}
 {cta}
