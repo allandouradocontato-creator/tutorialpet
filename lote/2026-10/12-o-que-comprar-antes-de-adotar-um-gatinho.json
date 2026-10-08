@@ -1,0 +1,45 @@
+{
+  "slug": "o-que-comprar-antes-de-adotar-um-gatinho",
+  "titulo_video": "O que comprar antes de adotar um gatinho",
+  "gancho_3s": "Com quantos anos você descobriu que adotar exige preparo?",
+  "cenas": [
+    {
+      "narracao": "[warmly] Com quantos anos você descobriu que adotar exige preparo?",
+      "visual_busca_banco_livre": "cute curious ginger kitten close up",
+      "texto_na_tela": "Com quantos anos você descobriu que adotar exige preparo?"
+    },
+    {
+      "narracao": "[smiling] Caixinha de areia e pazinha são essenciais.",
+      "visual_busca_banco_livre": "small cat litter box indoors",
+      "texto_na_tela": "Caixa de areia"
+    },
+    {
+      "narracao": "Compre potinhos de vidro ou inox para a ração.",
+      "visual_busca_banco_livre": "metal cat food bowls floor",
+      "texto_na_tela": "Potinhos certos"
+    },
+    {
+      "narracao": "Arranhadores salvam seus móveis da diversão.",
+      "visual_busca_banco_livre": "fluffy kitten scratching post modern",
+      "texto_na_tela": "Arranhador bom"
+    },
+    {
+      "narracao": "[excited] E brinque muito para gastar a energia dele.",
+      "visual_busca_banco_livre": "playful tabby kitten chasing toy",
+      "texto_na_tela": "Hora de brincar"
+    }
+  ],
+  "chamada_final": "Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#adocaoresponsavel",
+    "#tutorialpet",
+    "#gatinhos"
+  ],
+  "legenda": "Com quantos anos você descobriu que adotar exige preparo?\n\n#gatos #adocaoresponsavel #tutorialpet #gatinhos",
+  "molde_gancho": "abertura_idade",
+  "cta_indice": 3,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 12,
+  "tema": "o que comprar antes de adotar um gatinho"
+}
