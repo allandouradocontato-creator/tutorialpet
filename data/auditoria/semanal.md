@@ -1,5 +1,5 @@
-# Auditoria semanal — 2026-10-08, 2ª rodada (Auditor de Processo)
-Limite (2ª rodada seguida): site e app ao vivo NÃO abriram (permissão de leitura de URL sem resposta); nada foi buscado por outro meio. Site auditado pelo código (site/build) — sem mudança desde a rodada anterior; app Sozinho em Casa SEM evidência. Sugestões 1–3 seguem sem decisão do Allan.
+# Auditoria semanal — 2026-10-08, 3ª rodada (Auditor de Processo)
+Sem mudança desde a 2ª rodada: nenhuma execução nova (#18 segue a última) e métricas FB idênticas (14 posts, alcance 1–3, 0 shares). Limite (3ª rodada seguida): site e app ao vivo NÃO abriram (permissão de leitura de URL sem resposta); nada foi buscado por outro meio. Site auditado pelo código (site/build) — sem mudança desde a rodada anterior; app Sozinho em Casa SEM evidência. Sugestões 1–3 seguem sem decisão do Allan.
 
 ## O que está bom
 - Fábrica: 5/5 últimas execuções OK (#14–#18). Última (#18, 08/10): 15m23s total; vídeo+artigo 12m15s (80%), repor fila 2m, dependências 36s. Sem avisos, alerta pulado.
