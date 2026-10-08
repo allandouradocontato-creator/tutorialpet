@@ -141,6 +141,8 @@ def main() -> int:
     ap.add_argument("--n", type=int, default=30)
     ap.add_argument("--mes", default=datetime.now().strftime("%Y-%m"))
     ap.add_argument("--simulado", action="store_true")
+    ap.add_argument("--so", default="", help="refaz só estes temas (termos separados por |), sem mexer nos roteiros já prontos")
+    ap.add_argument("--ordem", default="", help="posições no lote para os temas de --so (ex.: 12,13)")
     a = ap.parse_args()
 
     padrao = _padrao()
@@ -149,17 +151,29 @@ def main() -> int:
     por_id = {m["id"]: m for m in g["moldes"]}
     moldes = [i for i in padrao.MOLDES_SEGUROS if i in por_id]
     ctas = g["cta_moldes"]
-    temas = carregar_temas(a.n)
+    so = [x.strip() for x in a.so.split("|") if x.strip()]
+    if so:
+        fila = yaml.safe_load((ROOT / "config" / "fila_temas.yaml").read_text(encoding="utf-8")) or {}
+        temas = [t for t in fila.get("temas", []) if t.get("termo") in so]
+        ordens = [int(x) for x in a.ordem.split(",") if x.strip()]
+    else:
+        temas = carregar_temas(a.n)
+        ordens = []
     if not temas:
         print("sem temas: nada a gerar")
         return 1
     plano = distribuir(len(temas), moldes, ctas)
+    if so and len(ordens) == len(temas):
+        # mantém o molde e o CTA que a posição teria no lote completo (variedade já planejada)
+        completo = distribuir(max(ordens), moldes, ctas)
+        plano = [completo[o - 1] for o in ordens]
     pasta = Path(a.saida) / "lote" / a.mes
     pasta.mkdir(parents=True, exist_ok=True)
 
     from core.llm import gerar_texto
     roteiros, falhas = [], []
-    for i, (t, (molde_id, cta_idx)) in enumerate(zip(temas, plano), 1):
+    posicoes = ordens if (so and len(ordens) == len(temas)) else list(range(1, len(temas) + 1))
+    for i, (t, (molde_id, cta_idx)) in zip(posicoes, zip(temas, plano)):
         tema = t["termo"]
         molde, cta = por_id[molde_id], ctas[cta_idx]
         saude = bool(padrao.SAUDE.search(tema))
@@ -192,13 +206,16 @@ def main() -> int:
         if r and not erros:
             (pasta / f"{i:02d}-{r['slug']}.json").write_text(json.dumps(r, ensure_ascii=False, indent=2), encoding="utf-8")
             roteiros.append(r)
-            print(f"[{i}/{len(temas)}] ok  {molde_id:30s} {r['gancho_3s']}", flush=True)
+            print(f"[{i}] ok  {molde_id:30s} {r['gancho_3s']}", flush=True)
         else:
             falhas.append((tema, erro))
-            print(f"[{i}/{len(temas)}] FALHOU {tema}: {erro}", flush=True)
+            print(f"[{i}] FALHOU {tema}: {erro}", flush=True)
         if not a.simulado:
             time.sleep(2)  # respeita a cota grátis do Gemini
 
+    if so:
+        roteiros = [json.loads(f.read_text(encoding="utf-8")) for f in sorted(pasta.glob("[0-9][0-9]-*.json"))]
+        roteiros.sort(key=lambda r: r["ordem_no_lote"])
     avisos = validar_lote(roteiros)
     linhas = [f"# Lote de roteiros {a.mes} — {len(roteiros)} prontos, {len(falhas)} com falha", "",
               "| # | Tema | Gancho (molde) | CTA | Registro |", "|---|---|---|---|---|"]

@@ -11,6 +11,12 @@ on:
       mes:
         description: "Pasta do lote (AAAA-MM)"
         default: ""
+      so:
+        description: "Refazer só estes temas (separados por |); vazio = lote completo"
+        default: ""
+      ordem:
+        description: "Posições no lote dos temas de 'so' (ex.: 12,13)"
+        default: ""
 
 permissions:
   contents: write
@@ -49,7 +55,7 @@ jobs:
         run: |
           MES="${{ github.event.inputs.mes }}"
           [ -z "$MES" ] && MES="$(TZ=America/Fortaleza date +%Y-%m)"
-          python agents/27_lote_roteiros/gerar_lote.py /tmp/media --n "${{ github.event.inputs.n }}" --mes "$MES" 2>&1 | tee /tmp/lote.log
+          python agents/27_lote_roteiros/gerar_lote.py /tmp/media --n "${{ github.event.inputs.n }}" --mes "$MES" --so "${{ github.event.inputs.so }}" --ordem "${{ github.event.inputs.ordem }}" 2>&1 | tee /tmp/lote.log
           echo "LOTE_MES=$MES" >> "$GITHUB_ENV"
           cat "/tmp/media/lote/$MES/indice.md" >> "$GITHUB_STEP_SUMMARY"
 
