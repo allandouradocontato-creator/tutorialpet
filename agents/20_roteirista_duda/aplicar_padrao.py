@@ -25,9 +25,9 @@ from agent import BLOQUEIO_TOM, norm  # noqa: E402
 
 # ordem = mais fortes primeiro; usada também pelo gerador de lote (agente 27)
 # abertura_idade PAUSADO em 08/10/2026 (resultado fraco no nosso perfil; ver config/ganchos_universais.yaml); reativar só com revelação concreta e curta
-MOLDES_SEGUROS = ["abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
-                  "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov",
-                  "abertura_laco_aberto", "abertura_confissao"]
+# Rotação de teste (08/10/2026): só ganchos que abrem com um PROBLEMA concreto, espelhando os vídeos que mais performaram.
+MOLDES_SEGUROS = ["abertura_problema_pet", "abertura_dor", "abertura_situacao", "abertura_erro", "abertura_pare"]
+# fora da rotação por ora: abertura_pensar, abertura_lista_ninguem_conta, abertura_chamada_direta, abertura_pov, abertura_laco_aberto, abertura_confissao
 
 SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|vomit|diarre|intoxic", re.I)
 
