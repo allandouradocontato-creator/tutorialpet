@@ -1,0 +1,45 @@
+{
+  "slug": "como-ensinar-gato-a-usar-a-caixa-de-areia",
+  "titulo_video": "Caixa de areia limpa",
+  "gancho_3s": "Você já parou pra pensar que os gatos são super higiênicos por natureza?",
+  "cenas": [
+    {
+      "narracao": "[warmly] Você já parou pra pensar que os gatos são super higiênicos por natureza?",
+      "visual_busca_banco_livre": "cute curious cat looking closely camera",
+      "texto_na_tela": "Você já parou pra pensar que os gatos são super higiênicos por natureza?"
+    },
+    {
+      "narracao": "[smiling] Eles adoram um cantinho sossego e privado para fazer as necessidades.",
+      "visual_busca_banco_livre": "fluffy cat relaxing quiet corner",
+      "texto_na_tela": "Cantinho sossegado"
+    },
+    {
+      "narracao": "Coloque a caixa de areia longe da comida e da água deles, tá?",
+      "visual_busca_banco_livre": "cat litter box in cozy room",
+      "texto_na_tela": "Longe da comida"
+    },
+    {
+      "narracao": "Mantenha a areia sempre limpinha tirando os torrões todos os dias.",
+      "visual_busca_banco_livre": "clean white sand pet box",
+      "texto_na_tela": "Areia limpinha"
+    },
+    {
+      "narracao": "[excited] Se ele errar o lugar, não brigue, só mostre o caminho com carinho.",
+      "visual_busca_banco_livre": "happy healthy cat stretching paws",
+      "texto_na_tela": "Sem brigas"
+    }
+  ],
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#dicaspet",
+    "#gato"
+  ],
+  "legenda": "Você já parou pra pensar que os gatos são super higiênicos por natureza?\n\n#gatos #tutorialpet #dicaspet #gato",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 2,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 3,
+  "tema": "como ensinar gato a usar a caixa de areia"
+}

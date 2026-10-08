@@ -1,0 +1,45 @@
+{
+  "slug": "melhor-areia-para-gato-como-escolher",
+  "titulo_video": "Como escolher a areia certa para o seu gato",
+  "gancho_3s": "Se você é tutor de gato e quer acertar na areia, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Se você é tutor de gato e quer acertar na areia, assiste isso.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Se você é tutor de gato e quer acertar na areia, assiste isso."
+    },
+    {
+      "narracao": "[warmly] Os gatos são limpinhos por natureza.",
+      "visual_busca_banco_livre": "fluffy cat licking its paw cute",
+      "texto_na_tela": "Gatos são limpinhos"
+    },
+    {
+      "narracao": "Por isso, a textura faz toda a diferença.",
+      "visual_busca_banco_livre": "grey kitten sitting on soft blanket",
+      "texto_na_tela": "Textura importa"
+    },
+    {
+      "narracao": "[thoughtful] Prefira as opções sem cheiro forte.",
+      "visual_busca_banco_livre": "cute ginger cat smelling something nice",
+      "texto_na_tela": "Sem cheiro forte"
+    },
+    {
+      "narracao": "[excited] E mantenha a caixa sempre limpinha.",
+      "visual_busca_banco_livre": "playful cat running in living room",
+      "texto_na_tela": "Caixa limpinha"
+    }
+  ],
+  "chamada_final": "Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#dicapet",
+    "#amogatos"
+  ],
+  "legenda": "Se você é tutor de gato e quer acertar na areia, assiste isso.\n\n#gatos #tutorialpet #dicapet #amogatos",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 7,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 8,
+  "tema": "melhor areia para gato como escolher"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "qual-a-melhor-racao-para-filhote-de-cachorro",
+  "titulo_video": "Qual a melhor ração para filhote",
+  "gancho_3s": "POV: você acabou de descobrir o segredo da ração certa.",
+  "cenas": [
+    {
+      "narracao": "[smiling] POV: você acabou de descobrir o segredo da ração certa.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "POV: você acabou de descobrir o segredo da ração certa."
+    },
+    {
+      "narracao": "[warmly] Filhotes gastam muita energia e precisam de nutrição reforçada.",
+      "visual_busca_banco_livre": "playful small puppy running on grass",
+      "texto_na_tela": "Energia de sobra"
+    },
+    {
+      "narracao": "[smiling] A ração deve ser específica para a idade deles.",
+      "visual_busca_banco_livre": "puppy eating from colorful dog bowl",
+      "texto_na_tela": "Ração para filhotes"
+    },
+    {
+      "narracao": "[warmly] Grãos menores ajudam na mastigação e digestão do pequeno.",
+      "visual_busca_banco_livre": "happy beagle puppy sitting indoors",
+      "texto_na_tela": "Grãos adaptados"
+    },
+    {
+      "narracao": "[excited] Na dúvida sobre a quantidade, consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "cute little pug puppy looking up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#filhotes",
+    "#cachorro",
+    "#dicapet"
+  ],
+  "legenda": "POV: você acabou de descobrir o segredo da ração certa.\n\n#tutorialpet #filhotes #cachorro #dicapet",
+  "molde_gancho": "abertura_pov",
+  "cta_indice": 0,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 9,
+  "tema": "qual a melhor ração para filhote de cachorro"
+}

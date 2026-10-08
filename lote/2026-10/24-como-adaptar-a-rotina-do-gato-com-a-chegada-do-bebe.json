@@ -1,0 +1,44 @@
+{
+  "slug": "como-adaptar-a-rotina-do-gato-com-a-chegada-do-bebe",
+  "titulo_video": "Gato e bebê em harmonia",
+  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo tutor de gato."
+    },
+    {
+      "narracao": "[warmly] Cheiro novo assusta o gato. Deixe o body do bebê para ele cheirar antes.",
+      "visual_busca_banco_livre": "ginger cat sniffing baby clothes gently",
+      "texto_na_tela": "Apresente o cheiro"
+    },
+    {
+      "narracao": "[softly] Mantenha a caixinha de areia longe do berço num lugar bem calmo.",
+      "visual_busca_banco_livre": "fluffy cat resting quiet corner room",
+      "texto_na_tela": "Espaço seguro"
+    },
+    {
+      "narracao": "[happy] Reserve um tempinho todo dia só para brincar com seu gatinho.",
+      "visual_busca_banco_livre": "playful cat chasing feather toy indoors",
+      "texto_na_tela": "Tempo de atenção"
+    },
+    {
+      "narracao": "[excited] Mudanças bruscas exigem paciência. Se notar estresse, consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "relaxed tabby cat sleeping sunlight floor",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "[warmly] Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#maesepets"
+  ],
+  "legenda": "Esse erro tá silenciosamente atrapalhando todo tutor de gato.\n\n#gatos #tutorialpet #maesepets",
+  "molde_gancho": "abertura_erro",
+  "cta_indice": 7,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 24,
+  "tema": "como adaptar a rotina do gato com a chegada do bebe"
+}

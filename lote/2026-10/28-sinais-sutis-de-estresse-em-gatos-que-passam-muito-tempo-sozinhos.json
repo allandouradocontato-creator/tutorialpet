@@ -1,0 +1,45 @@
+{
+  "slug": "sinais-sutis-de-estresse-em-gatos-que-passam-muito-tempo-sozinhos",
+  "titulo_video": "Sinais sutis de estresse em gatos sozinhos",
+  "gancho_3s": "Se deixar o gatinho sozinho o dia todo te preocupa, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Se deixar o gatinho sozinho o dia todo te preocupa, começa por aqui.",
+      "visual_busca_banco_livre": "cute curious cat looking closely camera",
+      "texto_na_tela": "Se deixar o gatinho sozinho o dia todo te preocupa, começa por aqui."
+    },
+    {
+      "narracao": "[smiling] Gatos sozinhos podem lamber demais as patinhas.",
+      "visual_busca_banco_livre": "orange tabby cat licking paw softly",
+      "texto_na_tela": "Lamber as patas"
+    },
+    {
+      "narracao": "[thoughtful] Outro sinal é usar a caixinha menos que o normal.",
+      "visual_busca_banco_livre": "grey cat sitting near litter box",
+      "texto_na_tela": "Mudança no xixi"
+    },
+    {
+      "narracao": "[softly] Eles também podem miar mais quando você chega.",
+      "visual_busca_banco_livre": "cute black cat meowing close up",
+      "texto_na_tela": "Miados excessivos"
+    },
+    {
+      "narracao": "[happy] Se notar mudanças estranhas, consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "healthy fluffy cat resting indoors",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "[excited] Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. [short pause] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#tutorialpet",
+    "#bemestaranimal"
+  ],
+  "legenda": "Se deixar o gatinho sozinho o dia todo te preocupa, começa por aqui.\n\n#gatos #comportamentofelino #tutorialpet #bemestaranimal",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 3,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 28,
+  "tema": "sinais sutis de estresse em gatos que passam muito tempo sozinhos"
+}

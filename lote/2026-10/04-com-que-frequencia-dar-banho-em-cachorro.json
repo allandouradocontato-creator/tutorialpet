@@ -1,0 +1,46 @@
+{
+  "slug": "com-que-frequencia-dar-banho-em-cachorro",
+  "titulo_video": "Frequência certa de banho no pet",
+  "gancho_3s": "3 coisas que ninguém te conta sobre banho em cachorro.",
+  "cenas": [
+    {
+      "narracao": "3 coisas que ninguém te conta sobre banho em cachorro.",
+      "visual_busca_banco_livre": "cute puppy head tilt closeup",
+      "texto_na_tela": "3 coisas que ninguém te conta sobre banho em cachorro."
+    },
+    {
+      "narracao": "[warmly] Muita gente acha que quanto mais banho, melhor.",
+      "visual_busca_banco_livre": "golden retriever puppy sitting outdoors",
+      "texto_na_tela": "Banho demais faz mal"
+    },
+    {
+      "narracao": "[smiling] Mas lavar com muita frequência tira a proteção natural da pele.",
+      "visual_busca_banco_livre": "wet fluffy dog shaking water",
+      "texto_na_tela": "Proteção da pele"
+    },
+    {
+      "narracao": "[thoughtful] Em geral, banhos mensais bastam para a maioria dos pets.",
+      "visual_busca_banco_livre": "happy puppy running in grass",
+      "texto_na_tela": "Uma vez por mês"
+    },
+    {
+      "narracao": "[excited] Tem dúvidas sobre a saúde dele? Consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "cute little puppy looking up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#banhodepet",
+    "#dicaspet",
+    "#petlovers"
+  ],
+  "legenda": "3 coisas que ninguém te conta sobre banho em cachorro.\n\n#tutorialpet #cachorro #banhodepet #dicaspet #petlovers",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 3,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 4,
+  "tema": "com que frequencia dar banho em cachorro"
+}

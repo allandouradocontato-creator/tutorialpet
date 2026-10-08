@@ -1,0 +1,45 @@
+{
+  "slug": "como-aliviar-o-estio-do-cachorro-em-dias-muito-quentes",
+  "titulo_video": "Como aliviar o calor do seu pet",
+  "gancho_3s": "Três coisas que ninguém te conta sobre o calor do seu cão.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Três coisas que ninguém te conta sobre o calor do seu cão.",
+      "visual_busca_banco_livre": "cute golden retriever panting close up",
+      "texto_na_tela": "Três coisas que ninguém te conta sobre o calor do seu cão."
+    },
+    {
+      "narracao": "[warmly] Ofereça água fresca sempre.",
+      "visual_busca_banco_livre": "dog drinking fresh water bowl",
+      "texto_na_tela": "Água fresca sempre"
+    },
+    {
+      "narracao": "[softly] Use tapetes gelados em casa.",
+      "visual_busca_banco_livre": "puppy lying on cooling mat",
+      "texto_na_tela": "Tapete gelado"
+    },
+    {
+      "narracao": "[thoughtful] Passeie só nos horários frescos.",
+      "visual_busca_banco_livre": "dog walking in shade park",
+      "texto_na_tela": "Horários frescos"
+    },
+    {
+      "narracao": "[happy] Molhe só as patinhas dele.",
+      "visual_busca_banco_livre": "cute dog cooling paws water",
+      "texto_na_tela": "Molhar patinhas"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorro",
+    "#calor",
+    "#tutorialpet",
+    "#dicaspet"
+  ],
+  "legenda": "Três coisas que ninguém te conta sobre o calor do seu cão.\n\n#cachorro #calor #tutorialpet #dicaspet",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 1,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 26,
+  "tema": "como aliviar o estio do cachorro em dias muito quentes"
+}

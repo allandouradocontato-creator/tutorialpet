@@ -1,0 +1,45 @@
+{
+  "slug": "como-evitar-que-o-cachorro-destrua-os-moveis",
+  "titulo_video": "Como salvar seus móveis",
+  "gancho_3s": "Eu errei em rasgar sofás por meses até descobrir isso.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Eu errei em rasgar sofás por meses até descobrir isso.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Eu errei em rasgar sofás por meses até descobrir isso."
+    },
+    {
+      "narracao": "[smiling] Eles roem porque precisam gastar energia.",
+      "visual_busca_banco_livre": "golden retriever puppy running in park",
+      "texto_na_tela": "Gaste a energia dele"
+    },
+    {
+      "narracao": "[softly] Brinquedos certos salvam os seus móveis.",
+      "visual_busca_banco_livre": "puppy chewing a rope toy happy",
+      "texto_na_tela": "Ofereça brinquedos"
+    },
+    {
+      "narracao": "[happy] Esconda sapatos e objetos fáceis de destruir.",
+      "visual_busca_banco_livre": "cute little dog sleeping on rug",
+      "texto_na_tela": "Proteja a casa"
+    },
+    {
+      "narracao": "[excited] Tenha paciência e ensine o jeito certo.",
+      "visual_busca_banco_livre": "adorable puppy tilting its head sideways",
+      "texto_na_tela": "Tenha paciência"
+    }
+  ],
+  "chamada_final": "Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorros",
+    "#dicapet",
+    "#comportamentocanino"
+  ],
+  "legenda": "Eu errei em rasgar sofás por meses até descobrir isso.\n\n#tutorialpet #cachorros #dicapet #comportamentocanino",
+  "molde_gancho": "abertura_confissao",
+  "cta_indice": 5,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 22,
+  "tema": "como evitar que o cachorro destrua os moveis"
+}

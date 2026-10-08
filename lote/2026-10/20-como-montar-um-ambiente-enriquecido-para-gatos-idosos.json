@@ -1,0 +1,45 @@
+{
+  "slug": "como-montar-um-ambiente-enriquecido-para-gatos-idosos",
+  "titulo_video": "Ambiente para gatos idosos",
+  "gancho_3s": "POV: você acabou de descobrir que seu gato idoso muda de rotina.",
+  "cenas": [
+    {
+      "narracao": "[warmly] POV: você acabou de descobrir que seu gato idoso muda de rotina.",
+      "visual_busca_banco_livre": "cute senior cat looking curious close up",
+      "texto_na_tela": "POV: você acabou de descobrir que seu gato idoso muda de rotina."
+    },
+    {
+      "narracao": "[smiling] Eles adoram lugares fáceis de alcançar.",
+      "visual_busca_banco_livre": "old cat climbing soft bed gently",
+      "texto_na_tela": "Acesso fácil"
+    },
+    {
+      "narracao": "[softly] Rampas ajudam muito nas articulações.",
+      "visual_busca_banco_livre": "senior tabby cat resting cozy blanket",
+      "texto_na_tela": "Rampas úteis"
+    },
+    {
+      "narracao": "[happy] Deixe água e comida pertinho dele.",
+      "visual_busca_banco_livre": "elderly cat drinking fresh water bowl",
+      "texto_na_tela": "Água perto"
+    },
+    {
+      "narracao": "[excited] Consulte o médico-veterinário sempre.",
+      "visual_busca_banco_livre": "cute healthy senior cat stretching portrait",
+      "texto_na_tela": "Cuide bem"
+    }
+  ],
+  "chamada_final": "[warmly] Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#gatoidoso",
+    "#tutorialpet",
+    "#pets"
+  ],
+  "legenda": "POV: você acabou de descobrir que seu gato idoso muda de rotina.\n\n#gatos #gatoidoso #tutorialpet #pets",
+  "molde_gancho": "abertura_pov",
+  "cta_indice": 3,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 20,
+  "tema": "como montar um ambiente enriquecido para gatos idosos"
+}

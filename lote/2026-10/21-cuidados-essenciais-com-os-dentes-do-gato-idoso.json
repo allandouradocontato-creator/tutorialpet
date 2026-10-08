@@ -1,0 +1,45 @@
+{
+  "slug": "cuidados-essenciais-com-os-dentes-do-gato-idoso",
+  "titulo_video": "Cuidado com o dente do gato idoso",
+  "gancho_3s": "Descobri o truque por trás desse cuidado, e não é o que você pensa.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Descobri o truque por trás desse cuidado, e não é o que você pensa.",
+      "visual_busca_banco_livre": "cute senior cat face close up",
+      "texto_na_tela": "Descobri o truque por trás desse cuidado, e não é o que você pensa."
+    },
+    {
+      "narracao": "[smiling] Gatinhos velhinhos precisam de atenção extra na boquinha.",
+      "visual_busca_banco_livre": "old cat relaxing on cozy blanket",
+      "texto_na_tela": "Gatos idosos"
+    },
+    {
+      "narracao": "[softly] O tártaro pode causar dor e outros problemas graves.",
+      "visual_busca_banco_livre": "gray cat yawning showing teeth clearly",
+      "texto_na_tela": "Cuidado com tártaro"
+    },
+    {
+      "narracao": "[thoughtful] Escovar os dentes com pasta própria faz toda a diferença.",
+      "visual_busca_banco_livre": "cute tabby cat resting head paw",
+      "texto_na_tela": "Higiene bucal"
+    },
+    {
+      "narracao": "[happy] Na dúvida, consulte sempre o seu médico-veterinario.",
+      "visual_busca_banco_livre": "happy fluffy cat looking up curious",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#gatoidoso",
+    "#saudefelino"
+  ],
+  "legenda": "Descobri o truque por trás desse cuidado, e não é o que você pensa.\n\n#gatos #tutorialpet #gatoidoso #saudefelino",
+  "molde_gancho": "abertura_laco_aberto",
+  "cta_indice": 4,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 21,
+  "tema": "cuidados essenciais com os dentes do gato idoso"
+}

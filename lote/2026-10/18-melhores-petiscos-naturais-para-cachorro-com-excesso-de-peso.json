@@ -1,0 +1,45 @@
+{
+  "slug": "melhores-petiscos-naturais-para-cachorro-com-excesso-de-peso",
+  "titulo_video": "Petiscos naturais para pets gordinhos",
+  "gancho_3s": "Aquele momento em que a dieta do doguinho falha acontece de novo.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Aquele momento em que a dieta do doguinho falha acontece de novo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Aquele momento em que a dieta do doguinho falha acontece de novo."
+    },
+    {
+      "narracao": "[warmly] Trocar industrializados por cenoura ou chuchu ajuda muito.",
+      "visual_busca_banco_livre": "happy dog eating healthy vegetable snack",
+      "texto_na_tela": "Legumes frescos"
+    },
+    {
+      "narracao": "[softly] Maçã sem semente também é ótima, mas com moderação.",
+      "visual_busca_banco_livre": "cute puppy biting green apple piece",
+      "texto_na_tela": "Pedaços de maçã"
+    },
+    {
+      "narracao": "[happy] Frutas e legumes têm poucas calorias e saciam bem.",
+      "visual_busca_banco_livre": "healthy dog sitting waiting for treat",
+      "texto_na_tela": "Poucas calorias"
+    },
+    {
+      "narracao": "[excited] Para mudar a dieta com segurança, consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "active dog playing in green grass",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#petiscosnaturais",
+    "#dicaspet"
+  ],
+  "legenda": "Aquele momento em que a dieta do doguinho falha acontece de novo.\n\n#tutorialpet #cachorro #petiscosnaturais #dicaspet",
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 1,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 18,
+  "tema": "melhores petiscos naturais para cachorro com excesso de peso"
+}

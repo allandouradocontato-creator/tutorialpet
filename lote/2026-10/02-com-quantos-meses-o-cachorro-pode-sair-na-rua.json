@@ -1,0 +1,45 @@
+{
+  "slug": "com-quantos-meses-o-cachorro-pode-sair-na-rua",
+  "titulo_video": "Quando o cachorro pode passear na rua?",
+  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo tutor novato.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Esse erro tá silenciosamente atrapalhando todo tutor novato.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo tutor novato."
+    },
+    {
+      "narracao": "[warmly] Filhotes curiosos querem explorar o mundo logo.",
+      "visual_busca_banco_livre": "golden retriever puppy sitting on floor",
+      "texto_na_tela": "Hora do passeio"
+    },
+    {
+      "narracao": "[softly] Mas a imunidade deles ainda está em formação.",
+      "visual_busca_banco_livre": "small puppy resting on blanket",
+      "texto_na_tela": "Cuidado com a saúde"
+    },
+    {
+      "narracao": "[thoughtful] Geralmente é liberado após o ciclo de vacinas.",
+      "visual_busca_banco_livre": "puppy looking out window happily",
+      "texto_na_tela": "Ciclo de vacinas"
+    },
+    {
+      "narracao": "[happy] Consulte sempre o médico-veterinário para confirmar.",
+      "visual_busca_banco_livre": "happy beagle puppy running outside",
+      "texto_na_tela": "Fale com o vet"
+    }
+  ],
+  "chamada_final": "[excited] Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#filhote",
+    "#cachorro",
+    "#dicaspet"
+  ],
+  "legenda": "Esse erro tá silenciosamente atrapalhando todo tutor novato.\n\n#tutorialpet #filhote #cachorro #dicaspet",
+  "molde_gancho": "abertura_erro",
+  "cta_indice": 1,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 2,
+  "tema": "com quantos meses o cachorro pode sair na rua"
+}

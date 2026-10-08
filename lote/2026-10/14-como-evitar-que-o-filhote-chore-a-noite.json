@@ -1,0 +1,46 @@
+{
+  "slug": "como-evitar-que-o-filhote-chore-a-noite",
+  "titulo_video": "Como acalmar o filhote à noite",
+  "gancho_3s": "Você já parou pra pensar que a solidão assusta tanto o seu filhote?",
+  "cenas": [
+    {
+      "narracao": "[warmly] Você já parou pra pensar que a solidão assusta tanto o seu filhote?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Você já parou pra pensar que a solidão assusta tanto o seu filhote?"
+    },
+    {
+      "narracao": "[smiling] À noite, a casa fica quieta e ele sente falta dos irmãos.",
+      "visual_busca_banco_livre": "small puppy sleeping alone cozy bed",
+      "texto_na_tela": "Solidão noturna"
+    },
+    {
+      "narracao": "[softly] Deixar a caminha dele pertinho de você traz muita segurança.",
+      "visual_busca_banco_livre": "puppy resting near wooden bedroom floor",
+      "texto_na_tela": "Por perto"
+    },
+    {
+      "narracao": "[thoughtful] Um paninho com o cheiro da mãe também ajuda a acalmar.",
+      "visual_busca_banco_livre": "cute fluffy puppy snuggling soft blanket",
+      "texto_na_tela": "Cheiro familiar"
+    },
+    {
+      "narracao": "[happy] Tenha paciência nessa fase de adaptação, tá bom?",
+      "visual_busca_banco_livre": "happy golden retriever puppy portrait sunshine",
+      "texto_na_tela": "Muita paciência"
+    }
+  ],
+  "chamada_final": "Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#filhote",
+    "#cachorro",
+    "#tutorialpet",
+    "#dicaspet",
+    "#maedepet"
+  ],
+  "legenda": "Você já parou pra pensar que a solidão assusta tanto o seu filhote?\n\n#filhote #cachorro #tutorialpet #dicaspet #maedepet",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 5,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 14,
+  "tema": "como evitar que o filhote chore à noite"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "como-fazer-filhote-de-cachorro-parar-de-morder",
+  "titulo_video": "Como fazer filhote parar de morder",
+  "gancho_3s": "Com quantos anos você descobriu que filhotes mordem tanto para explorar?",
+  "cenas": [
+    {
+      "narracao": "[smiling] Com quantos anos você descobriu que filhotes mordem tanto para explorar?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Com quantos anos você descobriu que filhotes mordem tanto para explorar?"
+    },
+    {
+      "narracao": "[warmly] É o jeito deles de conhecer o mundo.",
+      "visual_busca_banco_livre": "small fluffy puppy sniffing the floor",
+      "texto_na_tela": "Explorando o mundo"
+    },
+    {
+      "narracao": "[softly] Quando ele morder sua mão, pare a brincadeira na hora.",
+      "visual_busca_banco_livre": "playful french bulldog puppy sitting alone",
+      "texto_na_tela": "Pare a brincadeira"
+    },
+    {
+      "narracao": "[thoughtful] Diga um 'não' firme e ignore o pet por alguns segundos.",
+      "visual_busca_banco_livre": "cute small puppy looking curious indoors",
+      "texto_na_tela": "Diga não firme"
+    },
+    {
+      "narracao": "[excited] E ofereça um brinquedo apropriado para ele morder.",
+      "visual_busca_banco_livre": "happy puppy chewing rubber toy",
+      "texto_na_tela": "Ofereça brinquedos"
+    }
+  ],
+  "chamada_final": "[happy] Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#filhotes",
+    "#cachorros",
+    "#dicaspet"
+  ],
+  "legenda": "Com quantos anos você descobriu que filhotes mordem tanto para explorar?\n\n#tutorialpet #filhotes #cachorros #dicaspet",
+  "molde_gancho": "abertura_idade",
+  "cta_indice": 0,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 1,
+  "tema": "como fazer filhote de cachorro parar de morder"
+}

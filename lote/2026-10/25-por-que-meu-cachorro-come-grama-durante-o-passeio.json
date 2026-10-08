@@ -1,0 +1,45 @@
+{
+  "slug": "por-que-meu-cachorro-come-grama-durante-o-passeio",
+  "titulo_video": "Por que o cachorro come grama",
+  "gancho_3s": "Você já parou pra pensar que seu doguinho adora uma saladinha?",
+  "cenas": [
+    {
+      "narracao": "[warmly] Você já parou pra pensar que seu doguinho adora uma saladinha?",
+      "visual_busca_banco_livre": "cute curious puppy looking sideways close up",
+      "texto_na_tela": "Você já parou pra pensar que seu doguinho adora uma saladinha?"
+    },
+    {
+      "narracao": "[smiling] É bem comum ver eles beliscando a grama na rua.",
+      "visual_busca_banco_livre": "dog eating grass in sunny park",
+      "texto_na_tela": "Comendo grama"
+    },
+    {
+      "narracao": "[thoughtful] Muitas vezes é só curiosidade ou o gosto mesmo.",
+      "visual_busca_banco_livre": "golden retriever puppy sniffing green grass",
+      "texto_na_tela": "Curiosidade natural"
+    },
+    {
+      "narracao": "[softly] Mas pode ser falta de fibras na rotina.",
+      "visual_busca_banco_livre": "cute small dog resting on lawn",
+      "texto_na_tela": "Falta de fibras"
+    },
+    {
+      "narracao": "[happy] Se notar excesso, consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "happy puppy playing outdoors summer day",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "[excited] Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#dicapet",
+    "#petlovers"
+  ],
+  "legenda": "Você já parou pra pensar que seu doguinho adora uma saladinha?\n\n#tutorialpet #cachorro #dicapet #petlovers",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 0,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 25,
+  "tema": "por que meu cachorro come grama durante o passeio"
+}
