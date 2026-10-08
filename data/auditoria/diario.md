@@ -10,3 +10,6 @@ Formato: data | etapa | o que aconteceu | causa raiz | correção | como evitar 
 - 2026-10-07 | fábrica | push da fila falhou por conflito | commits paralelos no main durante a rodada | pull --rebase antes do push | passo sai em aviso, não some
 - 2026-10-07 | ganchos | arquivo YAML do agente de referência inválido | campo com ": " sem aspas | aspas nos campos | validar YAML ao carregar (a fábrica cai no original se falhar)
 - 2026-10-07 | artigo | Gemini estourou a cota (429) | cota gratuita | modelo reserva já responde | auditor registra tempo e uso
+- 2026-10-08 | auditoria | app Sozinho em Casa e site ao vivo não puderam ser abertos | rotina sem ninguém: permissão de leitura de URL não respondida | auditado o código-fonte do site; app fica sem evidência | liberar os domínios tutorialpet.com.br e sozinho-em-casa.streamlit.app para a rotina ou colar o texto das telas
+- 2026-10-08 | marketing | alcance de 1–3 por post no Facebook, 0 compartilhamentos | post-link com CTA de venda na abertura, texto duplicado photo+link | (sugestão 3 pendente de decisão) | auditor mede alcance por tipo de post
+- 2026-10-08 | blog | ads.txt com ID placeholder; sem banner de cookies; artigos sem imagem/vídeo no corpo | build_site.py sem essas etapas | (sugestões 1 e 2 pendentes) | checagem AdSense no auditor
