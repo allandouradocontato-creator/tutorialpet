@@ -23,6 +23,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import yaml  # noqa: E402
 from agent import BLOQUEIO_TOM, norm  # noqa: E402
 
+# ordem = mais fortes primeiro; usada também pelo gerador de lote (agente 27)
+MOLDES_SEGUROS = ["abertura_idade", "abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
+                  "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov",
+                  "abertura_laco_aberto", "abertura_confissao"]
+
 SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|vomit|diarre|intoxic", re.I)
 
 
@@ -34,10 +39,7 @@ def _pasta_estado() -> Path:
 
 def escolher_molde(g: dict, slug: str) -> dict:
     estado = _pasta_estado() / "_ultimo_gancho.txt"
-    # só moldes validados que NÃO prometem resultado/prazo (evita alegação de saúde inventada); ordem = mais fortes primeiro
-    seguros = ["abertura_idade", "abertura_erro", "abertura_pensar", "abertura_lista_ninguem_conta", "abertura_pare",
-               "abertura_dor", "abertura_situacao", "abertura_chamada_direta", "abertura_pov",
-               "abertura_laco_aberto", "abertura_confissao"]
+    seguros = MOLDES_SEGUROS  # só moldes que NÃO prometem resultado/prazo (evita alegação de saúde inventada)
     existentes = {m["id"] for m in g["moldes"]}
     ids = [i for i in seguros if i in existentes]
     ultimo = estado.read_text(encoding="utf-8").strip() if estado.exists() else ""

@@ -1,0 +1,63 @@
+name: Lote de roteiros Tutorial Pet
+
+# Gera um lote de roteiros (padrão 30) para o Allan avaliar. Só texto: não renderiza, não agenda, não publica.
+# Disparo manual: Actions > Lote de roteiros > Run workflow (ou workflow_dispatch pela API).
+on:
+  workflow_dispatch:
+    inputs:
+      n:
+        description: "Quantidade de roteiros"
+        default: "30"
+      mes:
+        description: "Pasta do lote (AAAA-MM)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: lote
+  cancel-in-progress: false
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Codigo da fabrica
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias
+        run: |
+          pip install pyyaml requests
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Pasta de entrega (branch media)
+        run: |
+          git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+
+      - name: Gerar lote de roteiros (agente 27)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          MES="${{ github.event.inputs.mes }}"
+          [ -z "$MES" ] && MES="$(TZ=America/Fortaleza date +%Y-%m)"
+          python agents/27_lote_roteiros/gerar_lote.py /tmp/media --n "${{ github.event.inputs.n }}" --mes "$MES" 2>&1 | tee /tmp/lote.log
+          echo "LOTE_MES=$MES" >> "$GITHUB_ENV"
+          cat "/tmp/media/lote/$MES/indice.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Entregar lote (branch media)
+        run: |
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add -A
+          git commit -m "lote de roteiros $LOTE_MES" || echo "nada a commitar"
+          git push origin media
