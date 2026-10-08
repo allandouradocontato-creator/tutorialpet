@@ -1,48 +1,48 @@
 {
   "titulo_video": "Como fazer seu gato beber mais água",
-  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo dono de gato.",
+  "gancho_3s": "Você já parou pra pensar que seu gato bebe pouca água?",
   "cenas": [
     {
-      "narracao": "Esse erro tá silenciosamente atrapalhando todo dono de gato. [thoughtful]",
+      "narracao": "[thoughtful] Você já parou pra pensar que seu gato bebe pouca água?",
       "visual_busca_banco_livre": "cute kitten looking at camera",
-      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo dono de gato."
+      "texto_na_tela": "Você já parou pra pensar que seu gato bebe pouca água?"
     },
     {
-      "narracao": "Por herança dos ancestrais no deserto, os gatos costumam demonstrar pouco interesse instintivo em beber água no pote.",
-      "visual_busca_banco_livre": "cat drinking water from bowl close up",
-      "texto_na_tela": "Gatos bebem pouca água"
+      "narracao": "[softly] Por herança ancestral, muitos gatos demonstram pouco interesse por potes de água parada.",
+      "visual_busca_banco_livre": "cat looking at water bowl close up",
+      "texto_na_tela": "Gatos evitam água parada"
     },
     {
-      "narracao": "A primeira etapa é espalhar potes pela casa, bem longe da caixa de areia e do comedouro para evitar contaminações.",
-      "visual_busca_banco_livre": "cat walking in apartment interior",
-      "texto_na_tela": "Espalhe potes pela casa"
+      "narracao": "Afaste o pote de água da ração em pelo menos dois metros para evitar contaminações.",
+      "visual_busca_banco_livre": "cat eating dry food from bowl",
+      "texto_na_tela": "Afaste o pote da ração"
     },
     {
-      "narracao": "Dê preferência a recipientes de vidro, cerâmica ou inox com bocas largas, para os bigodes não encostarem nas bordas.",
-      "visual_busca_banco_livre": "cat looking at ceramic bowl",
-      "texto_na_tela": "Escolha o pote ideal"
+      "narracao": "Substitua potes de plástico por opções de vidro, cerâmica ou inox que não acumulam odores.",
+      "visual_busca_banco_livre": "ceramic water bowl for cat",
+      "texto_na_tela": "Troque o pote de plástico"
     },
     {
-      "narracao": "Aposte também em fontes de água corrente. [short pause] O movimento atrai a atenção dos felinos pela visão e pelo som.",
-      "visual_busca_banco_livre": "cat drinking from pet water fountain",
-      "texto_na_tela": "Use fontes de água"
+      "narracao": "A água em movimento atrai muito mais a atenção dos gatos do que a água estagnada.",
+      "visual_busca_banco_livre": "cat drinking from running water fountain",
+      "texto_na_tela": "Aposte em fontes de água"
     },
     {
-      "narracao": "Você também pode adicionar alimentos úmidos à rotina ou misturar um pouco de água morna no sachê.",
-      "visual_busca_banco_livre": "cat eating wet food from bowl",
-      "texto_na_tela": "Adicione umidade na dieta"
+      "narracao": "[thoughtful] Confirme a quantidade ideal de água com o médico-veterinário do pet para garantir a saúde dele.",
+      "visual_busca_banco_livre": "healthy cat sitting on floor",
+      "texto_na_tela": "Consulte o veterinário"
     }
   ],
-  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet. [smiling]",
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet. [warmly]",
   "hashtags": [
     "#gatos",
-    "#gato",
-    "#hidratacaofelina",
+    "#gatedeestimulacao",
     "#saudefelina",
-    "#dicaspet"
+    "#gato",
+    "#hidratacaofelina"
   ],
-  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato bebe pouca água? Descubra como resolver isso agora!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua\n\n#gatos #gato #hidratacaofelina #saudefelina #dicaspet",
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato bebe pouca água? Descubra como mudar isso hoje!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua\n\n#gatos #gatedeestimulacao #saudefelina #gato #hidratacaofelina",
   "slug": "como-fazer-o-gato-beber-mais-agua",
-  "molde_gancho": "abertura_erro",
-  "cta_indice": 1
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 2
 }
