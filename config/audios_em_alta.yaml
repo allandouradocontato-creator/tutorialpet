@@ -1,9 +1,10 @@
-# Faixas em alta em vídeos de pet (TikTok #cachorrofofo/#gatofofo/#cachorrosfofos, estudo de 2026-10-07, 3ª rodada). Para o Publicador usar via audioConfiguration (Metricool).
+# Faixas em alta em vídeos de pet (TikTok #cachorrofofo/#gatofofo/#cachorrosfofos, estudo de 2026-10-08, 4ª rodada). Para o Publicador usar via audioConfiguration (Metricool).
 # Observação: a maioria dos vídeos de maior sucesso usa "som original"; as faixas abaixo são as que apareceram em vídeos de alto engajamento ou recentes.
-atualizado_em: "2026-10-07"
+# Se o termo de busca não achar exatamente 1 faixa no catálogo do Instagram, o Metricool rejeita: nesse caso publicar sem áudio (ou usar o próximo da lista).
+atualizado_em: "2026-10-08"
 faixas:
   - {titulo: "Clumsy Tunes", artista: "Eitan Epstein Music", tipo: "instrumental", motivo: "brincalhona/energética; trilha de gatinho com 6,5M views e 85k shares (mai/2026)", termo_de_busca_metricool: "Clumsy Tunes Eitan Epstein"}
   - {titulo: "Cute Pets Routine", artista: "Eitan Epstein Music", tipo: "instrumental", motivo: "leve e animada, ótima sob narração; vídeo de gato com 6,9M views", termo_de_busca_metricool: "Cute Pets Routine Eitan Epstein"}
   - {titulo: "Tiny Moments", artista: "Portiz Music", tipo: "instrumental", motivo: "leve e fofa; vídeo BR de mini pinscher com 223k views e gancho 'Atenção:' (mai/2026)", termo_de_busca_metricool: "Tiny Moments Portiz Music"}
-  - {titulo: "Music Box Lullaby", artista: "Madeline Sprocket", tipo: "instrumental", motivo: "delicada, usada em vídeo BR de filhote com 374k views (ago/2026); mais calma", termo_de_busca_metricool: "Music Box Lullaby Madeline Sprocket"}
+  - {titulo: "A cute and elegant girl's everyday life: piano waltz", artista: "hinatani", tipo: "instrumental", motivo: "piano em valsa, calma e curta; vídeo de filhote com 718k views, 9,2% shares e conta de 863 seguidores (set/2026); usar baixo sob a narração", termo_de_busca_metricool: "piano waltz hinatani"}
   - {titulo: "Bobbie Goods", artista: "Mc Bringel & Lukão Mec & Lado Sul", tipo: "com letra", motivo: "funk infantil brasileiro animado em vídeo de gatinhos com 2,5M views; usar baixo", termo_de_busca_metricool: "Bobbie Goods Mc Bringel"}
