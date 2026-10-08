@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 5779348,
+    "url_download": "https://images.pexels.com/photos/5779348/pexels-photo-5779348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cat-having-a-treat-5779348/",
+    "fotografo": "Anjie Qiu",
+    "fotografo_url": "https://www.pexels.com/@anjie-qiu-3417659",
+    "largura": 6821,
+    "altura": 5304,
+    "query": "cat eating toxic plant",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/plantas-toxicas-para-gatos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32868292,
+    "url_download": "https://images.pexels.com/photos/32868292/pexels-photo-32868292.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-grooming-near-potted-plant-in-rize-32868292/",
+    "fotografo": "Yeşim Çolak",
+    "fotografo_url": "https://www.pexels.com/@yesimcolak",
+    "largura": 4000,
+    "altura": 2667,
+    "query": "cat eating toxic plant",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/plantas-toxicas-para-gatos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17675782,
+    "url_download": "https://images.pexels.com/photos/17675782/pexels-photo-17675782.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-with-long-fur-17675782/",
+    "fotografo": "Susanne Jutzeler, suju-foto",
+    "fotografo_url": "https://www.pexels.com/@suju",
+    "largura": 7336,
+    "altura": 4611,
+    "query": "sick cat looking away",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/plantas-toxicas-para-gatos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39495647,
+    "url_download": "https://images.pexels.com/photos/39495647/pexels-photo-39495647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-a-cat-in-front-of-vietnamese-sign-39495647/",
+    "fotografo": "FOX ^.ᆽ.^= ∫",
+    "fotografo_url": "https://www.pexels.com/@fox-58267",
+    "largura": 5477,
+    "altura": 3192,
+    "query": "sick cat looking away",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/plantas-toxicas-para-gatos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4074742,
+    "url_download": "https://images.pexels.com/photos/4074742/pexels-photo-4074742.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-black-and-brown-cat-lying-on-pink-and-white-textile-4074742/",
+    "fotografo": "freestocks.org",
+    "fotografo_url": "https://www.pexels.com/@freestocks",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "sick cat looking away",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/plantas-toxicas-para-gatos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13615108,
+    "url_download": "https://images.pexels.com/photos/13615108/pexels-photo-13615108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-tabby-cat-13615108/",
+    "fotografo": "Purvesh Photography",
+    "fotografo_url": "https://www.pexels.com/@purvesh-photography-34809134",
+    "largura": 5770,
+    "altura": 3921,
+    "query": "sick cat looking away",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/plantas-toxicas-para-gatos/5.jpg"
+  }
+]
