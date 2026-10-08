@@ -37,5 +37,5 @@
 - ATENÇÃO: busca de imagem repetida 7x no lote: 'cute kitten looking at camera' (clipes diferentes, mas o visual tende a se parecer)
 
 ## Falhas (precisam de nova tentativa)
-- o que comprar antes de adotar um gatinho: tag não permitida: [thoughtly]; fala longa demais (486 caracteres; máximo 480)
-- com que frequência escovar os dentes do cachorro: gancho com mais de 14 palavras
+- o que comprar antes de adotar um gatinho: tag não permitida: [thoughtly]; fala longa demais (512 caracteres; máximo 480)
+- com que frequência escovar os dentes do cachorro: gancho com mais de 14 palavras; fala longa demais (522 caracteres; máximo 480)
