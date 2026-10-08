@@ -1,6 +1,6 @@
-# Pendências (08/10/2026, 13:15)
-Em andamento: Triagem de hoje (com Jev) rodando; ao terminar, o resultado vai para o Painel de Decisões.
-- Allan (só ele pode): apagar chaves ElevenLabs expostas; compra de teste real no Kiwify; aprovação TikTok (CNPJ); cadastros de afiliado; verificação Meta; ler o Painel de Decisões e decidir.
+# Pendências (08/10/2026, 19:15)
+Em andamento: conferir se o Agendador de Posts (Metricool) das 19:15 agendou os posts (id trig_01Lm67mHusJ7o9iEBGU6Uj8g). Meta: 3 a 4 posts/dia por ~3 dias nas 3 redes para ter dados no Analytics e no Clarity.
+- Allan (só ele pode): apagar chaves ElevenLabs expostas; compra de teste real no Kiwify; aprovação TikTok pelo CNPJ (conta tutorialpetbr já conectada ao Metricool); IDs reais do ads.txt (AdSense) e do Search Console; cadastro de afiliados; verificação Meta; ler o Painel de Decisões (sexta 09/10, 11:11) e decidir.
+- Claude: confirmar se o Jev funcionou na nuvem (resultado fica na sessão da Triagem, que o Claude não lê daqui); capas/imagens nos artigos antigos do blog (só 3 de 31 páginas têm <img>); medir TikTok x Instagram x Facebook após 3 dias de posts.
 - Falcão: confirmar se o produto Kiwify cb529db0 é sobra de teste.
-- Claude: auditar o app pelo código; 2º vídeo diário 18:00; ads.txt e Search Console (precisam de IDs reais); copiar achados dos caçadores para as notas.
-- Confirmar: o Jev funciona na nuvem (resultado sai no painel da Triagem).
+Feito hoje: roteiros 12 e 13 refeitos (lote 30/30); teste da fábrica aprovado.
