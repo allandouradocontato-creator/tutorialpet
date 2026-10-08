@@ -83,8 +83,8 @@ def prompt_roteiro(tema: str, molde: dict, cta: str, d: dict, saude: bool) -> st
         "Você escreve um roteiro de vídeo curto (25 a 35 s) do Tutorial Pet, narrado pela Duda (jovem brasileira, simpática, natural).\n"
         f"TEMA: {tema}\n"
         "ESTRUTURA FIXA: GANCHO -> CONTEÚDO -> CTA. O gancho só retém; o assunto (pet) entra no conteúdo.\n"
-        f"GANCHO: use este molde, preenchido com o assunto, até 12 palavras faladas: \"{molde['molde']}\"\n"
-        "CONTEÚDO: 4 cenas com fatos corretos, simples e conhecidos de cuidado com pets; fala natural e curta (uma ideia por cena). TOTAL de fala (gancho + cenas + CTA) de no máximo 420 caracteres, sem as tags. "
+        f"GANCHO: use este molde, preenchido com o assunto, até 12 palavras faladas (conte; se o assunto for longo, resuma-o em até 3 palavras dentro do gancho): \"{molde['molde']}\"\n"
+        "CONTEÚDO: 4 cenas com fatos corretos, simples e conhecidos de cuidado com pets; fala natural e curta (uma ideia por cena). TOTAL de fala (gancho + cenas + CTA) de no máximo 400 caracteres, sem as tags (conte: cada cena até 70 caracteres, CTA e assinatura curtos). "
         "Não invente números, estudos nem diga que é veterinária. Se tocar em saúde, diga para consultar o médico-veterinário.\n"
         f"CTA (sempre no fim, com as suas palavras mas o mesmo pedido): \"{cta}\"; depois a assinatura \"{d['assinatura']}\".\n"
         f"TAGS de emoção (ElevenLabs): só entre {d['tags_elevenlabs_permitidas']}. Registro: {registro}. No máximo UM [excited] no vídeo, "
@@ -95,6 +95,26 @@ def prompt_roteiro(tema: str, molde: dict, cta: str, d: dict, saude: bool) -> st
         'Responda SÓ com JSON: {"titulo_video": "...", "gancho_3s": "...", "visual_gancho": "...", "cenas": [{"narracao": "...", "visual_busca_banco_livre": "...", '
         '"texto_na_tela": "até 4 palavras"}], "chamada_final": "...", "hashtags": ["#..."]}'
     )
+
+
+def reparar_tags(bruto: dict, d: dict) -> None:
+    """Corrige tag de emoção com erro de digitação para a permitida mais parecida; remove a que não se parece com nenhuma."""
+    import difflib
+    permitidas = [t.lower() for t in d["tags_elevenlabs_permitidas"]]
+
+    def _fix(txt: str) -> str:
+        def sub(m):
+            t = m.group(1).strip().lower()
+            if t in permitidas:
+                return m.group(0)
+            achou = difflib.get_close_matches(t, permitidas, n=1, cutoff=0.7)
+            return f"[{achou[0]}]" if achou else ""
+        return re.sub(r"\[([^\]]*)\]", sub, txt or "")
+
+    bruto["gancho_3s"] = _fix(bruto.get("gancho_3s", ""))
+    bruto["chamada_final"] = _fix(bruto.get("chamada_final", ""))
+    for c in bruto.get("cenas", []):
+        c["narracao"] = _fix(c.get("narracao", ""))
 
 
 def roteiro_simulado(tema: str, molde: dict, cta: str, d: dict, i: int) -> dict:
@@ -178,15 +198,16 @@ def main() -> int:
         molde, cta = por_id[molde_id], ctas[cta_idx]
         saude = bool(padrao.SAUDE.search(tema))
         erro, r, erros = "", None, []
-        for tentativa in range(3):
+        for tentativa in range(5):
             try:
                 if a.simulado:
                     bruto = roteiro_simulado(tema, molde, cta, d, i)
                 else:
                     txt = gerar_texto(prompt_roteiro(tema, molde, cta, d, saude) + (f"\nA versão anterior foi recusada: {erro}. Corrija.\n" if erro else ""),
                                       sistema="Você escreve falas curtas, calorosas e honestas em pt-BR. Responde só JSON.",
-                                      temperatura=0.8, max_tokens=1800)
+                                      temperatura=(0.8 if not erro else 0.4), max_tokens=1800)
                     bruto = json.loads(re.search(r"\{.*\}", txt, re.S).group(0))
+                reparar_tags(bruto, d)
                 r = montar(tema, bruto, molde, cta_idx, i, saude)
                 erros = padrao.validar(r, d, g)
                 chars = sum(len(re.sub(r"\[[^\]]*\]", "", c["narracao"])) for c in r["cenas"]) + len(r["chamada_final"])
