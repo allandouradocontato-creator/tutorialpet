@@ -1,4 +1,4 @@
-# Lote de roteiros 2026-10 — 29 prontos, 1 com falha
+# Lote de roteiros 2026-10 — 30 prontos, 0 com falha
 
 | # | Tema | Gancho (molde) | CTA | Registro |
 |---|---|---|---|---|
@@ -14,6 +14,7 @@
 | 10 | como acostumar gato adulto com novo comedouro | Descobri o truque por trás dessa mudança, e não é o que você pensa. (abertura_laco_aberto) | #2 | alegre |
 | 11 | melhores brinquedos interativos para cães ansiosos sozinhos | Eu errei em dar atenção toda hora por anos até descobrir isso. (abertura_confissao) | #3 | alegre |
 | 12 | o que comprar antes de adotar um gatinho | Com quantos anos você descobriu que adotar exige preparo? (abertura_idade) | #4 | alegre |
+| 13 | com que frequência escovar os dentes do cachorro | Esse erro tá silenciosamente atrapalhando todo tutor. (abertura_erro) | #5 | alegre |
 | 14 | como evitar que o filhote chore à noite | Você já parou pra pensar que a solidão assusta tanto o seu filhote? (abertura_pensar) | #6 | alegre |
 | 15 | por que o gato esconde a comida na tigela | 3 coisas que ninguém te conta sobre o seu gatinho. (abertura_lista_ninguem_conta) | #7 | alegre |
 | 16 | como acostumar o cachorro a cortar as unhas | Para de correr com a tesoura. Isso tá atrapalhando o seu momento de cuidado. (abertura_pare) | #8 | alegre |
@@ -33,9 +34,6 @@
 | 30 | importancia de criar uma rotina de escovacao para gatos peludos | Se você é tutor de gato e quer cuidar bem dele, assiste isso. (abertura_chamada_direta) | #6 | alegre |
 
 ## Variedade do lote
-- moldes usados: {'abertura_idade': 3, 'abertura_erro': 2, 'abertura_pensar': 3, 'abertura_lista_ninguem_conta': 3, 'abertura_pare': 3, 'abertura_dor': 3, 'abertura_situacao': 3, 'abertura_chamada_direta': 3, 'abertura_pov': 2, 'abertura_laco_aberto': 2, 'abertura_confissao': 2}
+- moldes usados: {'abertura_idade': 3, 'abertura_erro': 3, 'abertura_pensar': 3, 'abertura_lista_ninguem_conta': 3, 'abertura_pare': 3, 'abertura_dor': 3, 'abertura_situacao': 3, 'abertura_chamada_direta': 3, 'abertura_pov': 2, 'abertura_laco_aberto': 2, 'abertura_confissao': 2}
 - ATENÇÃO: busca de imagem repetida 11x no lote: 'cute puppy looking at camera' (clipes diferentes, mas o visual tende a se parecer)
 - ATENÇÃO: busca de imagem repetida 7x no lote: 'cute kitten looking at camera' (clipes diferentes, mas o visual tende a se parecer)
-
-## Falhas (precisam de nova tentativa)
-- com que frequência escovar os dentes do cachorro: gancho com mais de 14 palavras

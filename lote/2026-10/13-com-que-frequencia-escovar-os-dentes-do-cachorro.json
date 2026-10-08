@@ -1,0 +1,45 @@
+{
+  "slug": "com-que-frequencia-escovar-os-dentes-do-cachorro",
+  "titulo_video": "Frequência certa da escovação canina",
+  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo tutor.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Esse erro tá silenciosamente atrapalhando todo tutor.",
+      "visual_busca_banco_livre": "cute golden retriever puppy tilting head",
+      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo tutor."
+    },
+    {
+      "narracao": "[warmly] O ideal é escovar os dentes do seu pet todo santo dia.",
+      "visual_busca_banco_livre": "happy small dog panting outdoors",
+      "texto_na_tela": "Escove todo dia"
+    },
+    {
+      "narracao": "[thoughtful] Mas se a rotina for corrida, três vezes na semana já ajuda muito.",
+      "visual_busca_banco_livre": "cute french bulldog sitting calmly",
+      "texto_na_tela": "Três vezes na semana"
+    },
+    {
+      "narracao": "[softly] Use sempre pasta própria pra cachorros, viu?",
+      "visual_busca_banco_livre": "cute beagle puppy looking up",
+      "texto_na_tela": "Use pasta pet"
+    },
+    {
+      "narracao": "[excited] Notou bafo forte? Consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "cute poodle smiling at camera",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#saudepet",
+    "#dicaspet"
+  ],
+  "legenda": "Esse erro tá silenciosamente atrapalhando todo tutor.\n\n#tutorialpet #cachorro #saudepet #dicaspet",
+  "molde_gancho": "abertura_erro",
+  "cta_indice": 4,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 13,
+  "tema": "com que frequência escovar os dentes do cachorro"
+}
