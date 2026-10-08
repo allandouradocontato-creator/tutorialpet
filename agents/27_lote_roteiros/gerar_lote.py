@@ -83,7 +83,7 @@ def prompt_roteiro(tema: str, molde: dict, cta: str, d: dict, saude: bool) -> st
         "Você escreve um roteiro de vídeo curto (25 a 35 s) do Tutorial Pet, narrado pela Duda (jovem brasileira, simpática, natural).\n"
         f"TEMA: {tema}\n"
         "ESTRUTURA FIXA: GANCHO -> CONTEÚDO -> CTA. O gancho só retém; o assunto (pet) entra no conteúdo.\n"
-        f"GANCHO: use este molde, preenchido com o assunto, até 12 palavras faladas (conte; se o assunto for longo, resuma-o em até 3 palavras dentro do gancho): \"{molde['molde']}\"\n"
+        f"GANCHO: use este molde, preenchido com o assunto, até 12 palavras faladas (conte; se o assunto for longo, resuma-o em até 3 palavras dentro do gancho; se o molde tiver partes separadas por ' / ', são ALTERNATIVAS: use só UMA, nunca as duas): \"{molde['molde']}\"\n"
         "CONTEÚDO: 4 cenas com fatos corretos, simples e conhecidos de cuidado com pets; fala natural e curta (uma ideia por cena). TOTAL de fala (gancho + cenas + CTA) de no máximo 400 caracteres, sem as tags (conte: cada cena até 70 caracteres, CTA e assinatura curtos). "
         "Não invente números, estudos nem diga que é veterinária. Se tocar em saúde, diga para consultar o médico-veterinário.\n"
         f"CTA (sempre no fim, com as suas palavras mas o mesmo pedido): \"{cta}\"; depois a assinatura \"{d['assinatura']}\".\n"
