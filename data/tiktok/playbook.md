@@ -6,6 +6,7 @@ Regras (fontes em relatorio.md):
 - "Link na bio" só vale se a conta for Comercial Verificada; enquanto não houver confirmação do Allan, o CTA falado é "veja o artigo no perfil" sem prometer link clicável. Não prometer link clicável em comentário.
 - Sem prometer prazo/resultado garantido; manter "consulte o veterinário"; o que o vídeo promete tem de bater com a landing.
 Formato: 8-15s fofura (close no 1º segundo, plano único, 0-2 cortes) 3 em cada 4 vídeos; dica/série Sozinho 15-20s no máximo 1 em 4. Gancho: pergunta de identidade ou dor do dia a dia; CTA de compartilhar ("manda pro seu papai").
-Horário (Metricool, Fortaleza): 10h, 12h e 18h, de quarta a sexta; evitar 21h+.
+Horário (Fortaleza; detalhe em rodada_extra_2026-10-08.md): TikTok 12h e 18h; Facebook 10h e 17h; Instagram 14h e 20h (sem dado nosso ainda); 2 vídeos/dia, escalonados entre as redes; evitar 21h+. Metricool devolve horário em UTC (-3h).
+Gancho: problema concreto e tema buscado antes de conceito/marca; legenda de 1 pergunta, 2-3 hashtags de nicho.
 UTM TikTok: ?utm_source=tiktok&utm_medium=bio&utm_campaign=sozinho_serie&utm_content=<slug>
 Medir: views/shares em 24h e 48h (Metricool TKPO07/TKPO10), cliques na landing, vendas Kiwify.
