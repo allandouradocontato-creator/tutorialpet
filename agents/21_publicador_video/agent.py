@@ -24,9 +24,11 @@ AGENT_DIR = Path(__file__).resolve().parent
 ROOT = AGENT_DIR.parents[1]
 AGENDA = ROOT / "data" / "publicador" / "agenda.json"
 BRAND_ID = 7123441
-SLOTS = ["12:00", "20:00"]
-LIMITE_DIA = 2
+SLOTS = ["09:00", "12:00", "17:00", "20:00"]  # 4 posts/dia (decisao do Allan 08/10/2026: volume p/ analise por ~3 dias)
+LIMITE_DIA = 4
 FUSO = "America/Fortaleza"
+import os
+REDES = ["instagram_reel", "facebook_reel"] + (["tiktok"] if os.environ.get("TIKTOK_ATIVO") == "1" or (ROOT / "config" / "tiktok_ativo.txt").exists() else [])  # TikTok entra criando config/tiktok_ativo.txt apos aprovacao da conta
 REPO_PADRAO = "allandouradocontato-creator/tutorialpet"
 
 
@@ -72,12 +74,12 @@ def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, hora: str) -> dict:
         "brand_id": BRAND_ID,
         "timezone": FUSO,
         "agendar_para": f"{dia}T{hora}:00",
-        "redes": ["instagram_reel", "facebook_reel"],
+        "redes": REDES,
         "legenda": legenda,
         "primeiro_comentario": primeiro_comentario,
         "video_url_publica": f"https://raw.githubusercontent.com/{repo}/media/pacotes/{slug}/video.mp4",
         "slug": slug,
-        "regra": "máx. 2 posts/dia; links do produto (landing) e do artigo vao no PRIMEIRO COMENTARIO, nunca no texto (conferido pelo agente 18 em legenda.txt)",
+        "regra": "máx. 4 posts/dia; links do produto (landing) e do artigo vao no PRIMEIRO COMENTARIO, nunca no texto (conferido pelo agente 18 em legenda.txt)",
     }
 
 

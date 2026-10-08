@@ -3,7 +3,9 @@ name: Fabrica Tutorial Pet
 on:
   schedule:
     - cron: "0 9 * * *"   # 06:00 em Fortaleza (UTC-3)
-    - cron: "0 21 * * *"  # 18:00 em Fortaleza: 2a rodada do dia (segundo pacote artigo+video; decisao do Allan 08/10/2026)
+    - cron: "0 13 * * *"  # 10:00 em Fortaleza: 2a rodada (volume 4/dia; decisao do Allan 08/10/2026)
+    - cron: "0 18 * * *"  # 15:00 em Fortaleza: 3a rodada
+    - cron: "0 21 * * *"  # 18:00 em Fortaleza: 4a rodada
   workflow_dispatch: {}
 
 permissions:
@@ -79,6 +81,21 @@ jobs:
         run: |
           python agents/26_guardiao_marca/agent.py /tmp/media | tee /tmp/guardiao.md
           [ -f data/auditoria/guardiao.md ] && cat data/auditoria/guardiao.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Aprovar sozinho o pacote que o Guardiao liberou (sem Guardiao ok, fica aguardando revisao)
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json, glob, os
+          ultimo = max(glob.glob("/tmp/media/pacotes/*/manifest.json"), key=os.path.getmtime)
+          m = json.load(open(ultimo, encoding="utf-8"))
+          if (m.get("guardiao") or {}).get("status") == "ok" and m.get("status") == "aguardando_revisao":
+              m["status"] = "aprovado"; m["aprovado_por"] = "auto (Guardiao ok)"
+              json.dump(m, open(ultimo, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+              print("aprovado:", ultimo)
+          else:
+              print("NAO aprovado automaticamente:", (m.get("guardiao") or {}).get("status"), m.get("status"))
+          PY
 
       - name: Entregar pacote (branch media)
         run: |
