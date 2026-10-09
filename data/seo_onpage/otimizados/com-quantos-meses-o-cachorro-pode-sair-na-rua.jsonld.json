@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/com-quantos-meses-o-cachorro-pode-sair-na-rua.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
