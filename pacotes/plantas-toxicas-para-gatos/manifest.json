@@ -1,6 +1,6 @@
 {
   "slug": "plantas-toxicas-para-gatos",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-09T15:18:59+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/plantas-toxicas-para-gatos",
   "guardiao": {
@@ -17,5 +17,14 @@
     ],
     "em": "2026-10-09T15:19:48+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "fb_ig": "2026-10-09T17:00-03:00",
+    "tiktok": "2026-10-09T18:00-03:00",
+    "metricool_ids": [
+      392206086,
+      392206110
+    ],
+    "por": "Claude (sessão 09/10)"
+  }
 }
