@@ -1,53 +1,53 @@
 {
-  "titulo_video": "Cuidado com plantas tóxicas para gatos",
-  "gancho_3s": "Se o seu gato mastigar plantas continua acontecendo com você, começa por aqui.",
+  "titulo_video": "Plantas Tóxicas para Gatos: Guia Prático de Segurança",
+  "gancho_3s": "Aquele momento em que seu gato cisma com uma planta proibida de novo.",
   "cenas": [
     {
-      "narracao": "Se o seu gato mastigar plantas continua acontecendo com você, começa por aqui.",
+      "narracao": "Aquele momento em que seu gato cisma com uma planta proibida de novo.",
       "visual_busca_banco_livre": "cute kitten looking at camera",
-      "texto_na_tela": "Se o seu gato mastigar plantas continua acontecendo com você, começa por aqui."
+      "texto_na_tela": "Aquele momento em que seu gato cisma com uma planta proibida de novo."
     },
     {
-      "narracao": "Gatinho adora explorar folhas e morder os vasinhos de casa, né?",
-      "visual_busca_banco_livre": "cat biting green leaf close up",
-      "texto_na_tela": "Gatos adoram mastigar folhas"
+      "narracao": "[softly] Gatos são curiosos por natureza e adoram cheirar ou mastigar folhas pela casa.",
+      "visual_busca_banco_livre": "curious cat looking around indoor",
+      "texto_na_tela": "Gatos investigam tudo"
     },
     {
-      "narracao": "Várias plantas populares têm substâncias que fazem mal pra saúde deles.",
-      "visual_busca_banco_livre": "curious cat looking at houseplant",
-      "texto_narracao": "Plantas podem ser perigosas"
+      "narracao": "Primeiro passo: mapeie todas as plantas que você tem nos ambientes internos e externos.",
+      "visual_busca_banco_livre": "cat walking near houseplants",
+      "texto_na_tela": "1. Mapeie as plantas"
     },
     {
-      "narracao": "Eles mordem a folha, liberam a seiva e ainda podem se lamber depois.",
-      "visual_busca_banco_livre": "cat licking fur close up",
-      "texto_na_tela": "Risco ao se lamber"
+      "narracao": "[thoughtful] Espécies como comigo-ninguém-pode e lírios podem causar irritações ou problemas bem sérios.",
+      "visual_busca_banco_livre": "close up of indoor houseplant leaves",
+      "texto_na_tela": "Espécies perigosas"
     },
     {
-      "narracao": "Espécies como comigo-ninguém-pode, copo-de-leite e jiboia exigem cuidado redobrado.",
-      "visual_busca_banco_livre": "cat sitting near indoor plants",
-      "texto_na_tela": "Especies toxicas comuns"
+      "narracao": "[short pause] O segundo passo é tirar os lírios na hora e isolar outras plantas onde ele não alcance.",
+      "visual_busca_banco_livre": "cat looking up high shelf",
+      "texto_na_tela": "2. Isole ou remova"
     },
     {
-      "narracao": "Dá uma olhada nas plantas da sua casa e afaste as perigosas deles.",
-      "visual_busca_banco_livre": "cat jumping on shelf indoor",
-      "texto_na_tela": "Afaste o perigo"
+      "narracao": "Depois, troque por opções seguras, como marantas ou a clássica graminha para gatos.",
+      "visual_busca_banco_livre": "cat eating grass plant close up",
+      "texto_na_tela": "3. Substitua por seguras"
     },
     {
-      "narracao": "[thoughtful] Viu algum sinal de apatia ou salivação? É hora de procurar um veterinário.",
-      "visual_busca_banco_livre": "sad cat resting on floor",
-      "texto_na_tela": "Busque veterinario"
+      "narracao": "[thoughtful] Se suspeitar que ele mastigou algo tóxico, tire os restos da boca e procure um médico-veterinário.",
+      "visual_busca_banco_livre": "worried cat sitting on floor",
+      "texto_na_tela": "Procure o veterinário"
     }
   ],
-  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. [smiling] Aqui é a Duda, do Tutorial Pet.",
+  "chamada_final": "[warmly] Manda esse vídeo pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
   "hashtags": [
-    "gatos",
-    "plantastoxicas",
-    "saudefelina",
-    "gatonosegredo",
-    "cuidadoscomgatos"
+    "#gatos",
+    "#plantastoxicas",
+    "#instagatos",
+    "#gatosfofos",
+    "#segurancapet"
   ],
-  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSua planta favorita pode ser um perigo invisível para o seu gato!\n\n📖 Artigo completo: https://tutorialpet.com.br/plantas-toxicas-para-gatos\n\n#gatos #plantastoxicas #saudefelina #gatonosegredo #cuidadoscomgatos",
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSua casa tem plantas? Cuidado, algumas podem ser tóxicas para seu gato!\n\n📖 Artigo completo: https://tutorialpet.com.br/plantas-toxicas-para-gatos\n\n#gatos #plantastoxicas #instagatos #gatosfofos #segurancapet",
   "slug": "plantas-toxicas-para-gatos",
-  "molde_gancho": "abertura_dor",
-  "cta_indice": 4
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 5
 }
