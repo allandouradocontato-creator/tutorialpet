@@ -1,0 +1,101 @@
+# Estratégia social (Estrategista de Redes Sociais, 09/10/2026). Dados até 2026-10-09 13:52 (Fortaleza).
+# Para Agendador de Posts e Publicador. Só recomendação: nada aqui publica ou agenda sozinho.
+# Amostra pequena (contas novas, 0-942 views). Horários em America/Fortaleza. Fonte dos horários: Metricool getBestTimeToPostByNetwork (10-16/10).
+versao: 1
+atualizado_em: "2026-10-09"
+horarios:
+  regra: "escalonar: nunca as 3 redes na mesma hora (FB :00, IG :00 em outra hora, TikTok :20). Instagram sem dado = horários de teste, trocar após 6 posts por horário."
+  facebook:
+    seg: ["10:00", "12:00"]
+    ter: ["10:00", "12:00"]
+    qua: ["12:00", "10:00"]
+    qui: ["10:00", "12:00"]
+    sex: ["10:00", "12:00"]
+    sab: ["10:00", "12:00"]
+    dom: ["10:00", "12:00"]
+  instagram:   # SEM DADO no Metricool; teste
+    seg: ["11:00", "19:00"]
+    ter: ["11:00", "19:00"]
+    qua: ["11:00", "19:00"]
+    qui: ["11:00", "19:00"]
+    sex: ["11:00", "19:00"]
+    sab: ["11:00", "19:00"]
+    dom: ["11:00", "19:00"]
+  tiktok:
+    seg: ["10:20", "18:20"]
+    ter: ["10:20", "18:20"]
+    qua: ["10:20", "18:20"]
+    qui: ["10:20", "18:20"]
+    sex: ["10:20", "18:20"]   # 12h (1251) e 18h (1222) empatam; 18h espaça do FB
+    sab: ["10:20", "12:20"]
+    dom: ["10:20", "12:20"]
+hashtags:
+  quantidade: {instagram: "3-5", tiktok: "3-5", facebook: "0-3"}   # recomendação Metricool 29/06/2026, não regra das redes
+  gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]
+  cachorro: ["#cachorro", "#cachorros", "#cuidadospet", "#dicaspet", "#tutorialpet"]
+  filhote: ["#filhotes", "#filhotedecachorro", "#primeirospassos", "#cachorros", "#tutorialpet"]
+  ansiedade_separacao: ["#ansiedadedeseparacao", "#comportamentocanino", "#cachorrosozinho", "#cachorro", "#tutorialpet"]
+  saude_alimentacao: ["#saudepet", "#alimentacaopet", "#cuidadospet", "#pets", "#tutorialpet"]
+  nota: "amplas (#pet #pets #cachorro #cachorros) vêm de Buzzmonitor abr/2024; nicho vem do nosso histórico. Usar 1-2 amplas + 2-3 nicho; no Facebook só 3. Hashtag do animal tem de bater com o tema do artigo."
+cta_artigo: "Confira o artigo completo em tutorialpet.com.br"
+cta_regras: "Link clicável só no PRIMEIRO COMENTÁRIO (FB/IG). TikTok: digitar o domínio sem prometer 'link na bio' até a conta Comercial Verificada. Sem alegação médica; saúde = consulte o veterinário."
+modelos_legenda:   # {gancho}=pergunta do vídeo; {valor}=1 linha de utilidade; {pergunta}=ver perguntas_interacao
+  facebook:
+    - "{gancho}\n{valor}\n{pergunta}\n{cta_artigo}\n{hashtags_ate_3}"
+    - "{gancho}\nSalve para ver depois: {valor}\nVocê já passou por isso? Conta aqui.\n{cta_artigo}\n{hashtags_ate_3}"
+    - "{gancho}\n{valor}\nMarque quem tem um {animal} assim.\n{cta_artigo}\n{hashtags_ate_3}"
+  instagram:
+    - "{gancho} {emoji}\n\n{valor}\n\n{pergunta}\n\n{cta_artigo}\n\n{hashtags_3a5}"
+    - "{gancho}\n\n{valor} Salva esse Reels para lembrar.\n\nQual dessas opções é a do seu {animal}? Responde nos comentários.\n\n{cta_artigo}\n\n{hashtags_3a5}"
+    - "{gancho}\n\n{valor}\n\nManda para quem cuida de um {animal} com você.\n\n{cta_artigo}\n\n{hashtags_3a5}"
+  tiktok:
+    - "{gancho} {valor_curto} {pergunta_curta} {cta_artigo} {hashtags_3a5}"
+    - "{gancho} Salva esse vídeo. {pergunta_curta} {cta_artigo} {hashtags_3a5}"
+    - "{gancho} {valor_curto} Manda pra quem precisa ver. {cta_artigo} {hashtags_3a5}"
+  tiktok_opcoes: {isAigc: true, commercialContentOwnBrand: "ligar quando o vídeo citar o Sozinho em Casa"}   # ver data/tiktok/relatorio.md
+perguntas_interacao:
+  gato:
+    - "Seu gato prefere água corrente ou da tigela?"
+    - "Qual é o esconderijo preferido do seu gato: caixa, armário ou cama?"
+    - "Quantos gatos moram com você?"
+    - "Seu gato é do tipo que acorda você de manhã? Sim ou não?"
+    - "Qual planta da sua casa seu gato mais tenta morder?"
+  cachorro:
+    - "Seu cachorro prefere passeio de manhã ou de tarde?"
+    - "Qual é o brinquedo favorito do seu cachorro?"
+    - "Banho em casa ou no pet shop: qual você escolhe?"
+    - "Seu cachorro dorme na cama, no chão ou na caminha?"
+    - "Qual comando seu cachorro obedece melhor?"
+  filhote:
+    - "Qual foi a maior bagunça do seu filhote até agora?"
+    - "Seu filhote já aprendeu a fazer xixi no lugar certo? Sim ou ainda não?"
+    - "Como se chama o seu filhote?"
+    - "Quantos meses tem o seu filhote?"
+    - "Qual foi a primeira coisa que seu filhote destruiu?"
+  ansiedade_separacao:
+    - "Seu cachorro percebe quando você pega a chave? Sim ou não?"
+    - "Quanto tempo seu cachorro fica sozinho por dia?"
+    - "Seu cachorro late ou chora quando você sai? Conta aqui."
+    - "O que ajuda mais: brinquedo recheável, passeio antes de sair ou música?"
+    - "Qual horário do dia é o mais difícil para vocês?"
+  saude_alimentacao:
+    - "Você já conferiu a lista de alimentos proibidos para o seu pet? Sim ou não?"
+    - "Seu pet come ração seca, úmida ou os dois?"
+    - "Quantas vezes por dia você alimenta o seu pet?"
+    - "Qual dúvida sobre cuidado com o pet você mais tem? Conta aqui."
+    - "Seu pet já foi ao veterinário este ano? Só pergunta, sem julgamento."
+isca_digital:
+  status: "PROPOSTA, aguardando decisão do Allan (nada ativado)"
+  fase1: "Instagram, ManyChat grátis (25 contatos/mês, 4 automações): comentar CHECKLIST -> resposta no comentário + 1 DM com o link do checklist no blog. Sem coletar e-mail."
+  regras: "1 resposta privada por comentário, até 7 dias; sem DM frio; TikTok não permite DM a quem comentou (a pessoa envia a 1ª mensagem). Conferir texto oficial da Meta antes de ligar (não lido nesta rodada). E-mail só com consentimento claro e política de privacidade (LGPD)."
+  venda: "Sozinho em Casa só na DM/depois que a pessoa responder, 1 linha, sem pressão."
+regras_teste:
+  fator_por_vez: true
+  n_posts_por_variacao: {horario: 6, gancho: 6, cta: 8}
+  trocar_se: "mediana de views 24h da variação >= 1,5x a da atual, com tema (gato/cachorro) equilibrado; senão manter e continuar medindo"
+  posts_recentes: "menos de 48h entram como parciais, nunca ficam de fora"
+  metas_2_semanas:   # hipóteses a partir dos números de 09/10, não promessas
+    tiktok: {views_24h_mediana: 300, curtidas_por_view: 0.05, comentarios_terceiros_por_post: 1}
+    facebook: {views_24h_mediana: 300, reacoes_por_view: 0.01, comentarios_terceiros_por_semana: 1}
+    instagram: {alcance_mediana: 50, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}
+  utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1º comentário"
