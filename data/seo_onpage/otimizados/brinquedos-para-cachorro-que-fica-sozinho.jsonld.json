@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/brinquedos-para-cachorro-que-fica-sozinho"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/brinquedos-para-cachorro-que-fica-sozinho.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

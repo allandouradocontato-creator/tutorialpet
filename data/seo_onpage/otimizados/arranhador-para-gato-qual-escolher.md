@@ -45,6 +45,12 @@ sugestoes_links_internos:
   ancora_sugerida: brinquedos para cachorro que fica sozinho
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/arranhador-para-gato-qual-escolher.jsonld.json
+imagem_capa: imagens/arranhador-para-gato-qual-escolher.jpg
+imagem_fonte: pexels
+imagem_fotografo: Melike  B
+imagem_fotografo_url: https://www.pexels.com/@mlkbnl
+imagem_url_pagina: https://www.pexels.com/photo/a-brown-kitten-lying-next-to-a-scratching-post-16564705/
+imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
 ---
 
 # Arranhador para gato, qual escolher

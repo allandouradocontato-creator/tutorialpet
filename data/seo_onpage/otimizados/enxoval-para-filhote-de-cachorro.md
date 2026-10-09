@@ -38,6 +38,12 @@ sugestoes_links_internos:
   ancora_sugerida: como socializar filhote de gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/enxoval-para-filhote-de-cachorro.jsonld.json
+imagem_capa: imagens/enxoval-para-filhote-de-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: Erwin Bosman
+imagem_fotografo_url: https://www.pexels.com/@erwin-bosman-118283
+imagem_url_pagina: https://www.pexels.com/photo/yorkshire-terrier-with-plush-toy-on-orange-blanket-35371502/
+imagem_selecionada_em: '2026-09-17T22:15:29+00:00'
 ---
 
 # Enxoval para filhote de cachorro

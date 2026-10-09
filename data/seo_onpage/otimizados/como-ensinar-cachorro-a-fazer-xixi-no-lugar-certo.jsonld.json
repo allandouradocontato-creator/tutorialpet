@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

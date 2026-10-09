@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/arranhador-para-gato-qual-escolher"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/arranhador-para-gato-qual-escolher.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

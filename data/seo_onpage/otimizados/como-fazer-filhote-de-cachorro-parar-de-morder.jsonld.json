@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-fazer-filhote-de-cachorro-parar-de-morder"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-filhote-de-cachorro-parar-de-morder.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

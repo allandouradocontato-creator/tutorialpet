@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/primeiros-dias-do-filhote-em-casa"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/primeiros-dias-do-filhote-em-casa.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

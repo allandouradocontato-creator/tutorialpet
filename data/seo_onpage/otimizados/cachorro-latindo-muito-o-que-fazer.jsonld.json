@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/cachorro-latindo-muito-o-que-fazer"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/cachorro-latindo-muito-o-que-fazer.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

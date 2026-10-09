@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/caixa-de-transporte-para-gato"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/caixa-de-transporte-para-gato.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

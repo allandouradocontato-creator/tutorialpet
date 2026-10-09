@@ -53,6 +53,35 @@ jobs:
           set -o pipefail
           python fabrica_nuvem.py /tmp/media 2>&1 | tee /tmp/producao.log
 
+      - name: Fotos candidatas para artigos publicados sem capa (ate 4 por rodada; o Publicador escolhe)
+        continue-on-error: true
+        timeout-minutes: 8
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import re, subprocess, shutil, sys
+          from pathlib import Path
+          sem = []
+          for md in sorted(Path("data/seo_onpage/otimizados").glob("*.md")):
+              if "imagem_capa" not in md.read_text(encoding="utf-8")[:4000]:
+                  sem.append(md.stem)
+          feitos = 0
+          for slug in sem:
+              dest = Path("/tmp/media/fotos_pendentes") / slug
+              if dest.exists() or Path("/tmp/media/pacotes", slug).exists():
+                  continue
+              if feitos >= 4:
+                  break
+              r = subprocess.run([sys.executable, "blog_imagens_nuvem.py", slug])
+              cand = Path("data/visual/candidatos") / slug
+              if r.returncode == 0 and cand.exists():
+                  shutil.copytree(cand, dest)
+                  feitos += 1
+          print("artigos sem capa:", len(sem), "| candidatos gerados agora:", feitos)
+          PY
+
       - name: Repor fila de temas (agente 19; nao derruba a fabrica se falhar)
         continue-on-error: true
         timeout-minutes: 8

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/coleira-ou-peitoral-para-cachorro"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/coleira-ou-peitoral-para-cachorro.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

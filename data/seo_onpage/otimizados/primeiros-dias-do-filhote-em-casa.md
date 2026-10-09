@@ -43,6 +43,12 @@ sugestoes_links_internos:
   ancora_sugerida: enxoval para filhote de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/primeiros-dias-do-filhote-em-casa.jsonld.json
+imagem_capa: imagens/primeiros-dias-do-filhote-em-casa.jpg
+imagem_fonte: pexels
+imagem_fotografo: Kally Dru
+imagem_fotografo_url: https://www.pexels.com/@kallydru
+imagem_url_pagina: https://www.pexels.com/photo/adorable-puppies-sleeping-on-furry-blanket-35983414/
+imagem_selecionada_em: '2026-09-17T22:19:17+00:00'
 ---
 
 # Primeiros dias do filhote em casa

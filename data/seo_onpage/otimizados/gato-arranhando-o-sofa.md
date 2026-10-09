@@ -39,6 +39,12 @@ sugestoes_links_internos:
   ancora_sugerida: ansiedade de separação em cães
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/gato-arranhando-o-sofa.jsonld.json
+imagem_capa: imagens/gato-arranhando-o-sofa.jpg
+imagem_fonte: pexels
+imagem_fotografo: Craig Adderley
+imagem_fotografo_url: https://www.pexels.com/@thatguycraig000
+imagem_url_pagina: https://www.pexels.com/photo/close-up-photo-of-cat-scratching-the-stool-1674724/
+imagem_selecionada_em: '2026-09-17T22:19:17+00:00'
 ---
 
 # Gato arranhando o sofá

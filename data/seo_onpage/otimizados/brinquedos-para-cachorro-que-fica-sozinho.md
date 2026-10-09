@@ -51,6 +51,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/brinquedos-para-cachorro-que-fica-sozinho.jsonld.json
+imagem_capa: imagens/brinquedos-para-cachorro-que-fica-sozinho.jpg
+imagem_fonte: pexels
+imagem_fotografo: Barnabas Davoti
+imagem_fotografo_url: https://www.pexels.com/@barnabas-davoti-31615494
+imagem_url_pagina: https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/
+imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
 ---
 
 # Brinquedos para cachorro que fica sozinho

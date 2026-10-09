@@ -43,6 +43,12 @@ sugestoes_links_internos:
   ancora_sugerida: ansiedade de separação em cães
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo.jsonld.json
+imagem_capa: imagens/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo.jpg
+imagem_fonte: pexels
+imagem_fotografo: Tanya Gorelova
+imagem_fotografo_url: https://www.pexels.com/@tanya-gorelova-2199357
+imagem_url_pagina: https://www.pexels.com/photo/a-puppy-lying-on-wooden-floor-3860304/
+imagem_selecionada_em: '2026-09-17T22:14:07+00:00'
 ---
 
 # Como ensinar cachorro a fazer xixi no lugar certo
