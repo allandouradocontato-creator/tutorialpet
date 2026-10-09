@@ -1,53 +1,41 @@
 {
-  "titulo_video": "Plantas Tóxicas para Gatos: Guia Prático de Segurança",
-  "gancho_3s": "Aquele momento em que seu gato cisma com uma planta proibida de novo.",
+  "titulo_video": "Plantas Tóxicas Para Gatos: O Que Você Precisa Saber",
+  "gancho_3s": "Seu gato morde plantas em casa? Isso pode ser fatal!",
   "cenas": [
     {
-      "narracao": "Aquele momento em que seu gato cisma com uma planta proibida de novo.",
-      "visual_busca_banco_livre": "cute kitten looking at camera",
-      "texto_na_tela": "Aquele momento em que seu gato cisma com uma planta proibida de novo."
+      "narracao": "Seu gato costuma mordiscar folhas pela casa? Cuidado com o perigo invisível nos vasos.",
+      "visual_busca_banco_livre": "curious cat sniffing green houseplant indoors close up",
+      "texto_na_tela": "Plantas perigosas para gatos"
     },
     {
-      "narracao": "[softly] Gatos são curiosos por natureza e adoram cheirar ou mastigar folhas pela casa.",
-      "visual_busca_banco_livre": "curious cat looking around indoor",
-      "texto_na_tela": "Gatos investigam tudo"
+      "narracao": "Os lírios são extremamente perigosos. Até o pólen lambido do pelo pode provocar falência renal aguda.",
+      "visual_busca_banco_livre": "cat licking fur grooming clean on floor",
+      "texto_na_tela": "Lírios: perigo renal extremo"
     },
     {
-      "narracao": "Primeiro passo: mapeie todas as plantas que você tem nos ambientes internos e externos.",
-      "visual_busca_banco_livre": "cat walking near houseplants",
-      "texto_na_tela": "1. Mapeie as plantas"
+      "narracao": "Jiboia, comigo-ninguém-pode e espada-de-são-jorge causam dor, queimação na boca e vômitos.",
+      "visual_busca_banco_livre": "cat lying on living room floor looking tired",
+      "texto_na_tela": "Jiboia e comigo-ninguém-pode machucam"
     },
     {
-      "narracao": "[thoughtful] Espécies como comigo-ninguém-pode e lírios podem causar irritações ou problemas bem sérios.",
-      "visual_busca_banco_livre": "close up of indoor houseplant leaves",
-      "texto_na_tela": "Espécies perigosas"
+      "narracao": "Retire essas plantas do alcance e ofereça opções seguras, como graminha de aveia e calatéias.",
+      "visual_busca_banco_livre": "cat eating green cat grass indoors close up",
+      "texto_na_tela": "Troque por plantas seguras"
     },
     {
-      "narracao": "[short pause] O segundo passo é tirar os lírios na hora e isolar outras plantas onde ele não alcance.",
-      "visual_busca_banco_livre": "cat looking up high shelf",
-      "texto_na_tela": "2. Isole ou remova"
-    },
-    {
-      "narracao": "Depois, troque por opções seguras, como marantas ou a clássica graminha para gatos.",
-      "visual_busca_banco_livre": "cat eating grass plant close up",
-      "texto_na_tela": "3. Substitua por seguras"
-    },
-    {
-      "narracao": "[thoughtful] Se suspeitar que ele mastigou algo tóxico, tire os restos da boca e procure um médico-veterinário.",
-      "visual_busca_banco_livre": "worried cat sitting on floor",
-      "texto_na_tela": "Procure o veterinário"
+      "narracao": "Se houver ingestão acidental, tire uma foto da planta e procure atendimento veterinário imediatamente.",
+      "visual_busca_banco_livre": "alert cat looking directly at camera close up",
+      "texto_na_tela": "Procure o veterinário com urgência"
     }
   ],
-  "chamada_final": "[warmly] Manda esse vídeo pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "chamada_final": "Salve este vídeo e proteja seu felino!",
   "hashtags": [
-    "#gatos",
-    "#plantastoxicas",
-    "#instagatos",
-    "#gatosfofos",
-    "#segurancapet"
+    "gatos",
+    "saudefelina",
+    "plantastoxicas",
+    "cuidadoscomgatos",
+    "gatossaudavers"
   ],
-  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSua casa tem plantas? Cuidado, algumas podem ser tóxicas para seu gato!\n\n📖 Artigo completo: https://tutorialpet.com.br/plantas-toxicas-para-gatos\n\n#gatos #plantastoxicas #instagatos #gatosfofos #segurancapet",
-  "slug": "plantas-toxicas-para-gatos",
-  "molde_gancho": "abertura_situacao",
-  "cta_indice": 5
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato morde plantas em casa? Isso pode ser fatal!\n\n📖 Artigo completo: https://tutorialpet.com.br/plantas-toxicas-para-gatos\n\n#gatos #saudefelina #plantastoxicas #cuidadoscomgatos #gatossaudavers",
+  "slug": "plantas-toxicas-para-gatos"
 }
