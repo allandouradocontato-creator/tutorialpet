@@ -1,0 +1,50 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como fazer o gato beber mais agua: guia prático",
+    "description": "Como fazer o gato beber mais agua: guia prático. Manter o felino bem hidratado é um dos maiores desafios na rotina de quem convive com esses animais....",
+    "datePublished": "2026-10-08",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-o-gato-beber-mais-agua.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual é a quantidade ideal de água que um gato deve beber por dia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, um gato precisa ingerir cerca de 50 a 60 mililitros de água por quilo de peso corporal diariamente, mas lembre-se de confirmar com o médico-veterinário do pet o volume exato adequado para a idade e o estado de saúde dele."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar gelo na água do gato para refrescar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, alguns gatos gostam de água bem gelada, especialmente nos dias mais quentes. Um cubo de gelo flutuante também serve como objeto de curiosidade."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Onde devo colocar a tigela de água em relação à comida?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O ideal é manter a água separada da comida e da caixa de areia. Na natureza, os felinos evitam beber perto de onde comem ou eliminam resíduos."
+        }
+      }
+    ]
+  }
+}

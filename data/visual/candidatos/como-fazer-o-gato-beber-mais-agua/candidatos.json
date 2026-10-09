@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 37096981,
+    "url_download": "https://images.pexels.com/photos/37096981/pexels-photo-37096981.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-cat-drinking-water-outdoors-37096981/",
+    "fotografo": "Iqbal farooz",
+    "fotografo_url": "https://www.pexels.com/@wanderinglenses",
+    "largura": 9504,
+    "altura": 6336,
+    "query": "cat drinking water close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-beber-mais-agua/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17341895,
+    "url_download": "https://images.pexels.com/photos/17341895/pexels-photo-17341895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-drinking-water-17341895/",
+    "fotografo": "Aibek Skakov",
+    "fotografo_url": "https://www.pexels.com/@aibek-skakov-418917601",
+    "largura": 3024,
+    "altura": 3023,
+    "query": "cat drinking water close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-beber-mais-agua/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31036237,
+    "url_download": "https://images.pexels.com/photos/31036237/pexels-photo-31036237.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-tabby-cat-drinking-at-a-natural-pond-31036237/",
+    "fotografo": "Engin Akyurt",
+    "fotografo_url": "https://www.pexels.com/@enginakyurt",
+    "largura": 9774,
+    "altura": 7331,
+    "query": "cat drinking water close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-beber-mais-agua/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39284647,
+    "url_download": "https://images.pexels.com/photos/39284647/pexels-photo-39284647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-heterochromia-cat-drinking-water-39284647/",
+    "fotografo": "HAMZA YAICH",
+    "fotografo_url": "https://www.pexels.com/@hamza-yaich-1076080225",
+    "largura": 4898,
+    "altura": 3265,
+    "query": "cat drinking water close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-beber-mais-agua/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 28429108,
+    "url_download": "https://images.pexels.com/photos/28429108/pexels-photo-28429108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-drinking-28429108/",
+    "fotografo": "Mahmoud Yahyaoui",
+    "fotografo_url": "https://www.pexels.com/@mahmoud-yahyaoui",
+    "largura": 6016,
+    "altura": 3574,
+    "query": "cat drinking water close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-beber-mais-agua/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35279529,
+    "url_download": "https://images.pexels.com/photos/35279529/pexels-photo-35279529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/ginger-cat-drinking-by-a-tranquil-pond-35279529/",
+    "fotografo": "Alexander Popadin",
+    "fotografo_url": "https://www.pexels.com/@irrabagon",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "thirsty cat drinking from bowl",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-beber-mais-agua/5.jpg"
+  }
+]
