@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Plantas toxicas para gatos: guia prático",
+    "description": "Conheça as principais plantas tóxicas para gatos, aprenda a identificar espécies perigosas e veja como proteger seu felino em um passo a passo prático.",
+    "datePublished": "2026-10-09",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/plantas-toxicas-para-gatos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/plantas-toxicas-para-gatos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/plantas-toxicas-para-gatos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Colocar a planta em um local alto impede o gato de alcançá-la?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Felinos são animais ágeis e conseguem saltar facilmente distâncias verticais consideráveis. Vasos suspensos só são seguros se não houver superfícies próximas que sirvam de apoio intermediário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gatos sabem instintivamente quais plantas são venenosas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O instinto silvestre não se aplica plenamente ao ambiente doméstico, onde as plantas ornamentais introduzidas pertencem a ecossistemas aos quais os gatos não foram adaptados evolutivamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Água parada do prato de uma planta tóxica pode fazer mal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Certas substâncias ativas e toxinas hidrossolúveis são lixiviadas para o prato coletor de água durante as regas, tornando a ingestão desse líquido perigosa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Graminhas vendidas em pet shops são totalmente seguras?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que cultivadas a partir de sementes orgânicas (aveia, trigo ou cevada) e livres de fertilizantes químicos ou pesticidas."
+        }
+      }
+    ]
+  }
+}
