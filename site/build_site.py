@@ -363,6 +363,20 @@ def run(site_id: str) -> dict:
                 (imagens_dst / nome_arquivo).write_bytes(origem.read_bytes())
                 n_imagens += 1
 
+    # 404 de verdade: o Cloudflare Pages só devolve status 404 se existir 404.html na raiz (sem ele, qualquer
+    # endereço inexistente respondia 200 com a página inicial: soft-404 ruim para SEO e AdSense).
+    dominio_404 = site["dominio"].rstrip("/")
+    corpo_404 = f"""{render_header(site["nome"], pilares)}
+<main class="legal">
+<h1>Página não encontrada</h1>
+<p>Não achamos esse endereço. Ele pode ter mudado ou nunca ter existido.</p>
+<p><a href="/">Voltar para a página inicial</a> e escolher um guia para o seu pet.</p>
+</main>
+{render_footer()}"""
+    (BUILD_DIR / "404.html").write_text(
+        page_shell("Página não encontrada | " + site["nome"], "Página não encontrada.", dominio_404 + "/", "website",
+                   corpo_404, extra_head='<meta name="robots" content="noindex">'), encoding="utf-8")
+
     (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar), encoding="utf-8")
     (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos]), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
