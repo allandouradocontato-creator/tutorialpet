@@ -1,8 +1,8 @@
-Dados até 2026-10-09 14:45 (Fortaleza) — Metricool 7123441, 20/09 a agora. 2ª edição (anterior: 09/10 13:52). Horários do Metricool vêm em UTC; convertidos (-3h).
+Dados até 2026-10-09 15:00 (Fortaleza) — Metricool 7123441, 20/09 a agora. 3ª edição (revisão da noite pedida pelo Allan; anterior 09/10 14:45). Horários do Metricool vêm em UTC; convertidos (-3h).
 ## 0. O que mudou desde a 1ª edição
 - Nenhum post novo foi publicado desde 08/10 19:35: os números dos posts continuam os mesmos (idades subiram). Novo: Instagram agora mostra "taxa de views 3s+" (IGRE28), FB mostra tempo médio assistido (FBRE13); TikTok % assistido/Para Você segue vazio.
 - Regra nova encontrada: o Instagram limitou a 5 hashtags por post/Reels em 18/12/2025 (antes 30) e diz que hashtags genéricas (#explorar #reels #viral) não ajudam [tecnoblog.net/noticias/instagram-limita-numero-de-hashtags-em-posts]. Nossos 5 estão no limite.
-- Agenda mudou: o Reels do IG de hoje deixou de ser rascunho (autoPublish=true). Hoje: gato plantas tóxicas FB 17:00, TikTok 18:20, IG 19:00; gato água FB 20:30, TikTok 20:00, IG 21:00.
+- REVISÃO 09/10 (Allan): a grade passou a incluir a NOITE como braço de teste A/B de 14 dias (seção 2). Agenda: o Reels do IG de hoje deixou de ser rascunho (autoPublish=true). Hoje: gato plantas tóxicas FB 17:00, TikTok 18:20, IG 19:00; gato água FB 20:30, TikTok 20:00, IG 21:00.
 ## 1. Nossos números (TUDO amostra pequena; contas novas)
 | Post (Fortaleza, idade) | TikTok views/curt | Facebook views/reações/tempo | Instagram alcance/curt (views 3s+) |
 |---|---|---|---|
@@ -17,17 +17,15 @@ Dados até 2026-10-09 14:45 (Fortaleza) — Metricool 7123441, 20/09 a agora. 2�
 - Medianas (posts de vídeo desde 06/10): TikTok 105 views (n=3); FB 220 (n=7); IG alcance 5 (n=7). Comentários de terceiros = 0 nas 3 redes (o "1" do IG/FB é o nosso 1º comentário). IG: 0 seguidores ganhos (IGEV43 vazio), alcance da conta 114 no dia 08/10.
 - O que apareceu (n pequeno, sem causa provada): o mesmo tema rende diferente por rede (banho = TikTok 766 mas FB 28; gato água = FB 942/728 mas TikTok 25 e IG 20-32); gancho abstrato foi o pior nas 3; legenda com link e preço (28-30/09) ficou em 0-221 no FB e 0-1 no IG; tempo médio assistido no FB é 3-9s de ~40s e no IG 4-8s: o vídeo perde gente nos primeiros segundos nas duas redes.
 - Sem dado: TikTok % assistido/Para Você (TKPO13/15/16 vazios), retenção IG (IGRE27 vazia), alcance de Reels FB (vem 0), cliques do 1º comentário (sem UTM por rede), horário do IG.
-## 2. Grade de horários (Fortaleza; Metricool 10-16/10; FB e TikTok medidos, IG sem dado)
-| Dia | Facebook | TikTok | Instagram (teste) |
+## 2. Grade de horários — REVISADA 09/10 (pedido do Allan: incluir a noite). Fortaleza.
+| Dia | Facebook | TikTok | Instagram |
 |---|---|---|---|
-| seg | 10:00, 12:00 | 10:20, 18:20 | 11:00, 19:00 |
-| ter | 10:00, 12:00 | 10:20, 18:20 | 11:00, 19:00 |
-| qua | 12:00, 10:00 | 10:20, 18:20 | 11:00, 19:00 |
-| qui | 10:00, 12:00 | 10:20, 18:20 | 11:00, 19:00 |
-| sex | 10:00, 12:00 | 10:20, 18:20 (12h empata; 18h espaça do FB) | 11:00, 19:00 |
-| sáb-dom | 10:00, 12:00 | 10:20, 12:20 | 11:00, 19:00 |
-- FB: pico 10h/12h (seg-qua ~15k; qui-sex ~12k; fim de semana 8-9k). TikTok: pico 10h e 18h (qua/qui 1.4k). IG: tudo zero = "sem dado"; teste 11h e 19h; trocar após 6 posts por horário. Nunca as 3 redes na mesma hora.
-- Alerta: os agendamentos de hoje à noite (TikTok 20:00, FB 20:30, IG 21:00) caem em horário fraco (FB 20h ~6,7k contra 12,2k às 12h; TikTok 20h 689 contra 1.222 às 18h). Não mexi.
+| todos os dias (teste A/B, ver abaixo) | manhã 10:00 / noite 19:00 | manhã 10:20 / noite 20:20 | manhã 11:00 / noite 20:00 |
+- DADO NOSSO (Metricool, só FB e TikTok; IG vem zerado = sem dado): FB pico 10h-12h (seg-qua ~15k), 2º pico 17-18h (~80% do pico), 19h ~70-85%, 20h ~60%. TikTok pico 10h e 18h (qua/qui ~1.4k), 19h ~70%, 20h ~60%, 21h ~45%. A origem do cálculo do Metricool não é documentada; trate como indício.
+- DADO NOSSO (posts reais, confundido com tema/gancho, n minúsculo): noite (18:40-19:35) FB 56/130/728 views, IG alcance 76/32/0, TikTok 105; dia (12:06-16:30) FB 942/325/220/28, IG 20/5/5/4, TikTok 766 e 25. IG: 3 melhores alcances saíram à noite (76, 32) contra 5-20 de dia; FB e TikTok: o dia ganhou, mas o TikTok de 16h tinha o gancho forte e o da noite era o gancho abstrato. Conclusão: NÃO dá para decidir com isso.
+- BENCHMARK (outros públicos, não é nosso): Metricool (estudo de 11/06/2026, 2,3 mi posts, TikTok, fuso e país não informados): pico 19h-20h todos os dias, 6-8 PM concentra as views [metricool.com/best-time-post-tiktok]. Metricool PT (29/07/2026; IG 24 mi posts/375 mil contas; TikTok 2,3 mi; fuso/país não informados): IG melhor às 20h, janela 18-21h; TikTok 18-21h, pico 20h; Facebook posts seg/qua 10-14h, Reels sex/sáb à meia-noite [metricool.com/pt/melhor-horario-para-postar-nas-redes-sociais]. Loggi (09/02/2026, "Brasil", fuso de Brasília, método não informado): TikTok noite forte (seg 18/20/22h, qua 17/19/21h, sáb-dom 19h; após 22h cai) [loggi.com/conteudos/empreendedorismo/melhores-horarios-postar-no-tiktok]. Reportei: sem dado do Brasil (cita Hootsuite/SocialPilot de outros países), noite só TikTok 19-23h [reportei.com/melhores-horarios-para-postar]. Sprout, Rock Content e Hootsuite: páginas não abriram (listagem ou permissão), não usados. Os benchmarks discordam entre si por dia da semana (Metricool: TikTok seg/ter, evitar sex/sáb; Loggi: qua), então a grade não varia por dia até termos dado nosso.
+- Leitura: IG e TikTok têm apoio externo para a noite (18-21h); Facebook tem apoio externo para o dia (10-14h) e nosso Metricool dá ~70-85% às 18-19h. A noite entra como braço de teste nas 3 redes. Nunca as 3 redes na mesma hora; sáb/dom seguem a mesma grade.
+- PLANO A/B (14 dias, 10-23/10): por rede, 1 vídeo de manhã e 1 à noite por dia (14 pares). Pares do mesmo tipo (mesmo animal e molde de gancho; artigos diferentes, nunca repetir o mesmo vídeo); a cada dia troca quem vai de manhã e quem vai à noite. Medir no mesmo relógio (24h e 48h): TikTok views, curtidas/views, compartilhamentos; FB views, tempo assistido, reações; IG alcance, taxa de views 3s+. Decisão no dia 14: a noite vence se ganhar em ≥9 dos 14 pares E a mediana for ≥1,5× e a diferença passar de 100 views (FB/TikTok) ou 20 de alcance (IG); empate = manter os 2 horários e testar 12:00/18:00. Parar antes só se um braço render 0 em 5 pares seguidos. Só o horário muda; CTA e legenda ficam fixos.
 ## 3. Hashtags e legenda (fontes lidas hoje)
 - Quantidade: Instagram máx. 5 (limite oficial) e poucas, específicas; TikTok 3-5, #fyp/#viral não dão impulso [go-viral.app, cita o suporte do TikTok; o "3-5" não tem link oficial]; Facebook 3 (Metricool 29/06/2026; um blog diz 3-5, sem fonte oficial) [metadatareactor.com/blog/facebook-engagement-guide]. Estrutura: 1 de marca + 1 do tema + 1-2 de nicho + 1 ampla (só IG/TikTok).
 - Conjuntos por tema no YAML (gato, cachorro, filhote, ansiedade de separação, saúde/alimentação). Ampla de pet no IG vem de dado antigo (Buzzmonitor, abr/2024): sem dado novo de hashtag por página.
@@ -48,4 +46,4 @@ Dados até 2026-10-09 14:45 (Fortaleza) — Metricool 7123441, 20/09 a agora. 2�
 ## 6. Decisões do Allan (máx. 3)
 1. Piloto de isca digital só no Instagram, ManyChat grátis, palavra "CHECKLIST", entrega por link do blog, sem coletar e-mail. Motivo: a regra oficial do IG permite; o grátis cobre 25 contatos; TikTok/FB só depois de checar a regra.
 2. Textos de hoje: tirar "link no perfil" do TikTok (sem conta Comercial Verificada não há link) e, em vídeo de gato, trocar o app de cachorro do 1º comentário só pelo link do artigo. Motivo: regra (f) e CTA que leva a lugar nenhum.
-3. Hoje às 20:00-21:00 o gato água sai pela 3ª vez em 2 dias (artigo já postado 08/10 12:06 e 19:35) e em horário fraco. Recomendo trocar por tema de cachorro (banho/sozinho) em pico (amanhã 10:00 FB, 10:20 TikTok, 11:00 IG) e equilibrar gato/cachorro. Motivo: repetição derruba alcance e o cachorro foi o melhor no TikTok (n=1).
+3. Hoje às 20:00-21:00 o gato água sai pela 3ª vez em 2 dias (artigo já postado 08/10 12:06 e 19:35). O horário noturno em si está dentro do teste; o problema é a repetição. Recomendo trocar por tema de cachorro (banho/sozinho) e equilibrar gato/cachorro. Motivo: repetição derruba alcance e o cachorro foi o melhor no TikTok (n=1). Também: aprovar o plano A/B da seção 2.
