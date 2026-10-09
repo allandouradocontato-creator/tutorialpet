@@ -33,7 +33,30 @@ TURNOS = {
     "B": {"facebook": "17:00", "tiktok": "18:00", "instagram": "20:00"},
 }
 LIMITE_DIA = len(TURNOS)
+ESTRATEGIA = ROOT / "config" / "estrategia_social.yaml"
+DIAS_SEMANA = ["seg", "ter", "qua", "qui", "sex", "sab", "dom"]
 import os
+
+
+def turnos_do_dia(dia: date) -> dict:
+    """Horários do Estrategista de Redes Sociais para o dia da semana (config/estrategia_social.yaml).
+
+    Turno A = o horário mais cedo de cada rede; turno B = o mais tarde. Se o arquivo faltar ou estiver
+    inválido, cai nos TURNOS fixos acima (nunca deixa o dia sem agendar).
+    """
+    try:
+        import yaml
+        h = (yaml.safe_load(ESTRATEGIA.read_text(encoding="utf-8")) or {})["horarios"]
+        d = DIAS_SEMANA[dia.weekday()]
+        a, b = {}, {}
+        for rede in ("facebook", "instagram", "tiktok"):
+            hs = sorted(str(x) for x in h[rede][d])
+            a[rede], b[rede] = hs[0], hs[-1]
+        if all(a[r] != b[r] for r in a):
+            return {"A": a, "B": b}
+    except Exception:  # noqa: BLE001
+        pass
+    return TURNOS
 TIKTOK_ATIVO = os.environ.get("TIKTOK_ATIVO") == "1" or (ROOT / "config" / "tiktok_ativo.txt").exists()
 REDES = ["facebook", "instagram"] + (["tiktok"] if TIKTOK_ATIVO else [])
 
@@ -56,7 +79,7 @@ def proximo_turno(agenda: dict, a_partir_de: date, agora: datetime | None = None
     for delta in range(0, 60):
         dia = a_partir_de + timedelta(days=delta)
         usados = {x for x in agenda.get(dia.isoformat(), []) if x in TURNOS}
-        for turno, horas in TURNOS.items():
+        for turno, horas in turnos_do_dia(dia).items():
             if turno in usados or len(usados) >= LIMITE_DIA:
                 continue
             primeira = min(datetime.fromisoformat(f"{dia.isoformat()}T{h}:00") for h in horas.values())
@@ -95,7 +118,7 @@ def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, turno: str) -> dict
     titulo = r.get("titulo_video") or slug.replace("-", " ").capitalize()
     posts = []
     for rede in REDES:
-        hora = TURNOS[turno][rede]
+        hora = turnos_do_dia(date.fromisoformat(dia))[turno][rede]
         post = {"rede": rede, "agendar_para": f"{dia}T{hora}:00"}
         if rede == "tiktok":
             post.update({"legenda": legenda_tiktok(pkg), "primeiro_comentario": "",
