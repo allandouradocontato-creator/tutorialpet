@@ -365,7 +365,13 @@ def main() -> int:
     if rot.get("gancho_3s") and cenas:
         cenas[0] = dict(cenas[0], texto_na_tela=cenas[0].get("texto_na_tela") or rot["gancho_3s"])
     if rot.get("chamada_final"):
-        cenas.append({"narracao": rot["chamada_final"], "visual_busca_banco_livre": "happy dog owner home", "texto_na_tela": ""})
+        # CTA acompanha o animal do tema: artigo de gato nao pode fechar com cachorro (erro de 09/10/2026)
+        _buscas = " ".join(str(c.get("visual_busca_banco_livre", "")) for c in cenas).lower()
+        _tema = (str(rot.get("titulo_video", "")) + " " + str(rot.get("slug", ""))).lower()
+        _gato = len(re.findall(r"\b(cat|cats|kitten|gato|gatos|felino|felinos)\b", _buscas + " " + _tema))
+        _cao = len(re.findall(r"\b(dog|dogs|puppy|cachorro|cachorros|cao|caes|filhote)\b", _buscas + " " + _tema))
+        _busca_cta = "cute cat at home" if _gato > _cao else "happy dog home"
+        cenas.append({"narracao": rot["chamada_final"], "visual_busca_banco_livre": _busca_cta, "texto_na_tela": ""})
     out_dir = ROOT / "data" / "social" / "videos"
     out_dir.mkdir(parents=True, exist_ok=True)
     final = out_dir / f"{slug}_v2.mp4"
