@@ -108,7 +108,11 @@ jobs:
         run: |
           git config user.name "Fabrica Tutorial Pet"
           git config user.email "fabrica@tutorialpet.com.br"
-          git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria || true
+          # git add com UM caminho inexistente falha inteiro e nao adiciona nada (bug de 08-09/10: data/biblioteca nao existe).
+          # Por isso adiciona caminho a caminho, so os que existem.
+          for d in config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria; do
+            [ -e "$d" ] && git add "$d"
+          done
           git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || echo "nada a commitar"
           ok=0
           for i in 1 2 3 4 5; do
@@ -119,7 +123,9 @@ jobs:
               cp -r --parents config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria /tmp/fila_bak/ 2>/dev/null || true
               git reset -q --hard origin/main
               cp -r /tmp/fila_bak/. . 2>/dev/null || true
-              git add config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria || true
+              for d in config/fila_temas.yaml data/content_writer data/social/roteiros data/biblioteca data/auditoria; do
+                [ -e "$d" ] && git add "$d"
+              done
               git commit -m "fabrica: fila e rascunhos $(date -u +%F)" || true
             fi
             if git push origin HEAD:main; then ok=1; break; fi
@@ -136,7 +142,8 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           set +e
-          python agents/18_saude_fabrica/agent.py /tmp/media
+          # --max-idade-h 3: o pacote tem de ser DESTA rodada (antes aceitava ate 36h e a rodada vazia passava como ok)
+          python agents/18_saude_fabrica/agent.py /tmp/media --max-idade-h 3
           code=$?
           [ -f data/saude/ultimo.md ] && cat data/saude/ultimo.md >> "$GITHUB_STEP_SUMMARY"
           exit $code
