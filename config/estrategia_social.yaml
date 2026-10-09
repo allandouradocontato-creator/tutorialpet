@@ -1,7 +1,7 @@
-# Estratégia social (Estrategista de Redes Sociais, 09/10/2026). Dados até 2026-10-09 13:52 (Fortaleza).
+# Estratégia social (Estrategista de Redes Sociais, 09/10/2026). Dados até 2026-10-09 14:45 (Fortaleza).
 # Para Agendador de Posts e Publicador. Só recomendação: nada aqui publica ou agenda sozinho.
 # Amostra pequena (contas novas, 0-942 views). Horários em America/Fortaleza. Fonte dos horários: Metricool getBestTimeToPostByNetwork (10-16/10).
-versao: 1
+versao: 2
 atualizado_em: "2026-10-09"
 horarios:
   regra: "escalonar: nunca as 3 redes na mesma hora (FB :00, IG :00 em outra hora, TikTok :20). Instagram sem dado = horários de teste, trocar após 6 posts por horário."
@@ -30,7 +30,8 @@ horarios:
     sab: ["10:20", "12:20"]
     dom: ["10:20", "12:20"]
 hashtags:
-  quantidade: {instagram: "3-5", tiktok: "3-5", facebook: "0-3"}   # recomendação Metricool 29/06/2026, não regra das redes
+  quantidade: {instagram: "3-5 (máximo 5 = limite oficial do Instagram desde 18/12/2025)", tiktok: "3-5 (#fyp/#viral não dão impulso)", facebook: "3 (Metricool 29/06/2026; fonte não oficial)"}
+  estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla só IG/TikTok); nunca genéricas tipo #explorar #reels #viral #fyp"
   gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]
   cachorro: ["#cachorro", "#cachorros", "#cuidadospet", "#dicaspet", "#tutorialpet"]
   filhote: ["#filhotes", "#filhotedecachorro", "#primeirospassos", "#cachorros", "#tutorialpet"]
@@ -43,7 +44,7 @@ modelos_legenda:   # {gancho}=pergunta do vídeo; {valor}=1 linha de utilidade; 
   facebook:
     - "{gancho}\n{valor}\n{pergunta}\n{cta_artigo}\n{hashtags_ate_3}"
     - "{gancho}\nSalve para ver depois: {valor}\nVocê já passou por isso? Conta aqui.\n{cta_artigo}\n{hashtags_ate_3}"
-    - "{gancho}\n{valor}\nMarque quem tem um {animal} assim.\n{cta_artigo}\n{hashtags_ate_3}"
+    - "{gancho}\n{valor}\nQual é o maior desafio com o seu {animal} nisso? Conta aqui.\n{cta_artigo}\n{hashtags_ate_3}"   # evitar 'marque/curta/compartilhe' como pedido principal (possível isca de engajamento)
   instagram:
     - "{gancho} {emoji}\n\n{valor}\n\n{pergunta}\n\n{cta_artigo}\n\n{hashtags_3a5}"
     - "{gancho}\n\n{valor} Salva esse Reels para lembrar.\n\nQual dessas opções é a do seu {animal}? Responde nos comentários.\n\n{cta_artigo}\n\n{hashtags_3a5}"
@@ -87,15 +88,15 @@ perguntas_interacao:
 isca_digital:
   status: "PROPOSTA, aguardando decisão do Allan (nada ativado)"
   fase1: "Instagram, ManyChat grátis (25 contatos/mês, 4 automações): comentar CHECKLIST -> resposta no comentário + 1 DM com o link do checklist no blog. Sem coletar e-mail."
-  regras: "1 resposta privada por comentário, até 7 dias; sem DM frio; TikTok não permite DM a quem comentou (a pessoa envia a 1ª mensagem). Conferir texto oficial da Meta antes de ligar (não lido nesta rodada). E-mail só com consentimento claro e política de privacidade (LGPD)."
+  regras: "INSTAGRAM (página oficial da Meta lida 09/10): resposta privada ao comentário em até 7 dias (Reels/posts), 1 mensagem por comentário, conversa só segue se a pessoa responder (24h); permissões instagram_business_manage_messages; revisão de app não consta na página (confirmar com a ferramenta). TIKTOK: DM automática só por API oficial, iniciada pela pessoa, janela 48h, sem suporte garantido no Brasil (fonte: blog de fornecedor, não oficial) -> não automatizar. FACEBOOK: não pesquisado. LGPD: texto da lei não abriu (permissão); e-mail só com consentimento claro e política de privacidade."
   venda: "Sozinho em Casa só na DM/depois que a pessoa responder, 1 linha, sem pressão."
 regras_teste:
   fator_por_vez: true
-  n_posts_por_variacao: {horario: 6, gancho: 6, cta: 8}
-  trocar_se: "mediana de views 24h da variação >= 1,5x a da atual, com tema (gato/cachorro) equilibrado; senão manter e continuar medindo"
+  n_posts_por_variacao: {horario: 6, gancho: 6, cta: 8}   # ~2 vídeos/dia por rede = ~3 dias por variação
+  trocar_se: "mediana de views 24h da variação >= 1,5x a da atual E diferença > 100 views (FB/TikTok) ou > 20 de alcance (IG), com tema (gato/cachorro) equilibrado; senão manter e continuar medindo"
   posts_recentes: "menos de 48h entram como parciais, nunca ficam de fora"
   metas_2_semanas:   # hipóteses a partir dos números de 09/10, não promessas
-    tiktok: {views_24h_mediana: 300, curtidas_por_view: 0.05, comentarios_terceiros_por_post: 1}
-    facebook: {views_24h_mediana: 300, reacoes_por_view: 0.01, comentarios_terceiros_por_semana: 1}
-    instagram: {alcance_mediana: 50, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}
+    tiktok: {views_24h_mediana: 200, curtidas_por_view: 0.05, comentarios_terceiros_por_post: 1}   # hoje 105 (n=3)
+    facebook: {views_24h_mediana: 300, reacoes_por_view: 0.01, tempo_medio_assistido_s: 8, comentarios_terceiros_por_semana: 1}   # hoje 220, 3-9s (n=7)
+    instagram: {alcance_mediana: 30, taxa_views_3s: 0.5, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}   # hoje 5, 25-40% (n=7)
   utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1º comentário"
