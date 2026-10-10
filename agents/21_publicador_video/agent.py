@@ -38,6 +38,32 @@ DIAS_SEMANA = ["seg", "ter", "qua", "qui", "sex", "sab", "dom"]
 import os
 
 
+def _ler_horarios() -> dict:
+    """Lê os horários de config/estrategia_social.yaml SEM depender do PyYAML (a rotina na nuvem pode não ter;
+    em 10/10/2026 o agente caiu nos turnos fixos antigos sem avisar). Aceita os 2 formatos do Estrategista:
+    v3: `facebook: {manha: "10:00", noite: "19:00"}` (mesmo todo dia) e v2: `seg: ["10:00", "12:00"]` por dia.
+    Devolve {rede: {dia: [h1, h2]}}."""
+    import re
+    texto = ESTRATEGIA.read_text(encoding="utf-8")
+    bloco = texto.split("\nhorarios:", 1)[1]
+    bloco = re.split(r"\n[a-z_]+:", bloco, maxsplit=1)[0]
+    out: dict = {}
+    rede = None
+    for linha in bloco.splitlines():
+        m = re.match(r'^  (facebook|instagram|tiktok):\s*\{manha:\s*"(\d\d:\d\d)",\s*noite:\s*"(\d\d:\d\d)"', linha)
+        if m:
+            out[m.group(1)] = {d: [m.group(2), m.group(3)] for d in DIAS_SEMANA}
+            rede = None
+            continue
+        m = re.match(r"^  (facebook|instagram|tiktok):\s*$", linha)
+        if m:
+            rede = m.group(1); out[rede] = {}; continue
+        m = re.match(r"^    (seg|ter|qua|qui|sex|sab|dom):\s*\[(.*?)\]", linha)
+        if m and rede:
+            out[rede][m.group(1)] = re.findall(r"\d\d:\d\d", m.group(2))
+    return out
+
+
 def turnos_do_dia(dia: date) -> dict:
     """Horários do Estrategista de Redes Sociais para o dia da semana (config/estrategia_social.yaml).
 
@@ -45,17 +71,16 @@ def turnos_do_dia(dia: date) -> dict:
     inválido, cai nos TURNOS fixos acima (nunca deixa o dia sem agendar).
     """
     try:
-        import yaml
-        h = (yaml.safe_load(ESTRATEGIA.read_text(encoding="utf-8")) or {})["horarios"]
+        h = _ler_horarios()
         d = DIAS_SEMANA[dia.weekday()]
         a, b = {}, {}
         for rede in ("facebook", "instagram", "tiktok"):
-            hs = sorted(str(x) for x in h[rede][d])
+            hs = sorted(h[rede][d])
             a[rede], b[rede] = hs[0], hs[-1]
         if all(a[r] != b[r] for r in a):
             return {"A": a, "B": b}
-    except Exception:  # noqa: BLE001
-        pass
+    except Exception as exc:  # noqa: BLE001
+        print(f"AVISO: horarios do Estrategista indisponiveis ({type(exc).__name__}: {exc}); usando turnos fixos", file=sys.stderr)
     return TURNOS
 TIKTOK_ATIVO = os.environ.get("TIKTOK_ATIVO") == "1" or (ROOT / "config" / "tiktok_ativo.txt").exists()
 REDES = ["facebook", "instagram"] + (["tiktok"] if TIKTOK_ATIVO else [])
@@ -88,6 +113,9 @@ def proximo_turno(agenda: dict, a_partir_de: date, agora: datetime | None = None
     raise SystemExit("sem turno livre nos próximos 60 dias")
 
 
+CTA_ARTIGO = "Confira o artigo completo em tutorialpet.com.br"  # regra do Allan 09/10/2026: toda legenda chama para o artigo
+
+
 def separar_links(legenda: str) -> tuple[str, str]:
     """Regra de alcance (06/10/2026): link no texto derruba o alcance. Linhas com URL vao para o
     PRIMEIRO COMENTARIO; o texto fica so com gancho e hashtags."""
@@ -98,7 +126,7 @@ def separar_links(legenda: str) -> tuple[str, str]:
     # hashtags ficam por ultimo, depois do aviso
     tags = [l for l in corpo.splitlines() if l.strip().startswith("#")]
     sem_tags = "\n".join(l for l in corpo.splitlines() if not l.strip().startswith("#")).strip()
-    final = sem_tags + "\n\n👇 Link no primeiro comentário" + ("\n\n" + " ".join(tags) if tags else "")
+    final = sem_tags + "\n\n📖 " + CTA_ARTIGO + " (link no primeiro comentário)" + ("\n\n" + " ".join(tags) if tags else "")
     return final.strip(), "\n".join(l.strip() for l in comentario).strip()
 
 
@@ -107,8 +135,9 @@ def legenda_tiktok(pkg: Path) -> str:
     import re
     r = json.loads((pkg / "roteiro.json").read_text(encoding="utf-8"))
     gancho = re.sub(r"\[[^\]]*\]", "", r.get("gancho_3s", "")).strip()
-    tags = [t for t in r.get("hashtags", []) if t.lower() not in ("#tutorialpet", "#pets", "#pet")][:3] or r.get("hashtags", [])[:3]
-    return f"{gancho} Veja o artigo no perfil. " + " ".join(tags)
+    bruto = [("#" + t.lstrip("#")) for t in r.get("hashtags", [])]
+    tags = [t for t in bruto if t.lower() not in ("#tutorialpet", "#pets", "#pet")][:3] or bruto[:3]
+    return f"{gancho} {CTA_ARTIGO} (link no perfil). " + " ".join(tags + ["#tutorialpet"])
 
 
 def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, turno: str) -> dict:
@@ -122,8 +151,7 @@ def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, turno: str) -> dict
         post = {"rede": rede, "agendar_para": f"{dia}T{hora}:00"}
         if rede == "tiktok":
             post.update({"legenda": legenda_tiktok(pkg), "primeiro_comentario": "",
-                         "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": titulo[:90], "isAigc": True,
-                                        "commercialContentOwnBrand": True}})
+                         "tiktokData": {"privacyOption": "PUBLIC_TO_EVERYONE", "title": titulo[:90], "isAigc": True}})  # 'Sua marca' só quando o vídeo citar o Sozinho em Casa (Estrategista)
         elif rede == "facebook":
             post.update({"legenda": legenda, "primeiro_comentario": primeiro_comentario,
                          "facebookData": {"type": "REEL", "title": titulo}})
