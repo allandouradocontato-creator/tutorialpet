@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32269523,
+    "url_download": "https://images.pexels.com/photos/32269523/pexels-photo-32269523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-shih-tzu-puppy-with-pink-collar-32269523/",
+    "fotografo": "jeroen van Wouden",
+    "fotografo_url": "https://www.pexels.com/@jeroen-van-wouden-903000958",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "happy dog portrait",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-trocar-a-racao-do-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30586500,
+    "url_download": "https://images.pexels.com/photos/30586500/pexels-photo-30586500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-happy-dog-outdoors-30586500/",
+    "fotografo": "Fernanda Leticia",
+    "fotografo_url": "https://www.pexels.com/@fernanda-leticia-536417725",
+    "largura": 2560,
+    "altura": 1706,
+    "query": "happy dog portrait",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-trocar-a-racao-do-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 25786020,
+    "url_download": "https://images.pexels.com/photos/25786020/pexels-photo-25786020.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-dog-lying-down-in-grass-25786020/",
+    "fotografo": "Genadi Yakovlev",
+    "fotografo_url": "https://www.pexels.com/@gy1610",
+    "largura": 5355,
+    "altura": 4016,
+    "query": "happy dog portrait",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-trocar-a-racao-do-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9455270,
+    "url_download": "https://images.pexels.com/photos/9455270/pexels-photo-9455270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dogs-lying-on-grass-9455270/",
+    "fotografo": "Renato Rocca",
+    "fotografo_url": "https://www.pexels.com/@renato-rocca-2397962",
+    "largura": 6240,
+    "altura": 3510,
+    "query": "happy dog portrait",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-trocar-a-racao-do-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20696401,
+    "url_download": "https://images.pexels.com/photos/20696401/pexels-photo-20696401.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/australian-shepherd-in-a-snowy-clearing-20696401/",
+    "fotografo": "Alberto Calleja",
+    "fotografo_url": "https://www.pexels.com/@albertocallejabuendia",
+    "largura": 5416,
+    "altura": 3506,
+    "query": "happy dog portrait",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-trocar-a-racao-do-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14084426,
+    "url_download": "https://images.pexels.com/photos/14084426/pexels-photo-14084426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/",
+    "fotografo": "Barnabas Davoti",
+    "fotografo_url": "https://www.pexels.com/@barnabas-davoti-31615494",
+    "largura": 7712,
+    "altura": 5144,
+    "query": "cute dog playing",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-trocar-a-racao-do-cachorro/5.jpg"
+  }
+]

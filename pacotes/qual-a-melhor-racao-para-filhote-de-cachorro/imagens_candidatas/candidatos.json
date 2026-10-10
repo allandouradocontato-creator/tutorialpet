@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 38344785,
+    "url_download": "https://images.pexels.com/photos/38344785/pexels-photo-38344785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-curious-brown-puppy-38344785/",
+    "fotografo": "Yunus  Kılıç",
+    "fotografo_url": "https://www.pexels.com/@yunus-kilic-55235055",
+    "largura": 5146,
+    "altura": 3431,
+    "query": "puppy close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/qual-a-melhor-racao-para-filhote-de-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 616,
+    "url_download": "https://images.pexels.com/photos/616/animal-dog-pet-bulldog.jpg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/animal-dog-pet-bulldog-616/",
+    "fotografo": "ClickerHappy",
+    "fotografo_url": "https://www.pexels.com/@clickerhappy",
+    "largura": 4004,
+    "altura": 2966,
+    "query": "puppy close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/qual-a-melhor-racao-para-filhote-de-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5372606,
+    "url_download": "https://images.pexels.com/photos/5372606/pexels-photo-5372606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-view-of-puppy-5372606/",
+    "fotografo": "Michael Kucharski",
+    "fotografo_url": "https://www.pexels.com/@michael-kucharski-3590665",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "puppy close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/qual-a-melhor-racao-para-filhote-de-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7256826,
+    "url_download": "https://images.pexels.com/photos/7256826/pexels-photo-7256826.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-puppies-7256826/",
+    "fotografo": "Alireza Zohoor Parvaz",
+    "fotografo_url": "https://www.pexels.com/@alireza-zohoor-parvaz-38715730",
+    "largura": 5902,
+    "altura": 4070,
+    "query": "puppy close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/qual-a-melhor-racao-para-filhote-de-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12727640,
+    "url_download": "https://images.pexels.com/photos/12727640/pexels-photo-12727640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-rottweiler-12727640/",
+    "fotografo": "Erik Mclean",
+    "fotografo_url": "https://www.pexels.com/@introspectivedsgn",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "puppy close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/qual-a-melhor-racao-para-filhote-de-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3860313,
+    "url_download": "https://images.pexels.com/photos/3860313/pexels-photo-3860313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cute-dog-sleeping-on-the-floor-3860313/",
+    "fotografo": "Tanya Gorelova",
+    "fotografo_url": "https://www.pexels.com/@tanya-gorelova-2199357",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "puppy resting indoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/qual-a-melhor-racao-para-filhote-de-cachorro/5.jpg"
+  }
+]

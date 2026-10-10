@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 34242930,
+    "url_download": "https://images.pexels.com/photos/34242930/pexels-photo-34242930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/",
+    "fotografo": "Alexas Fotos",
+    "fotografo_url": "https://www.pexels.com/@alexasfotos",
+    "largura": 3605,
+    "altura": 2403,
+    "query": "dog smiling teeth",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escovar-os-dentes-do-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17628647,
+    "url_download": "https://images.pexels.com/photos/17628647/pexels-photo-17628647.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-a-dog-on-a-street-17628647/",
+    "fotografo": "Михаил Крамор",
+    "fotografo_url": "https://www.pexels.com/@vantik93",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog smiling teeth",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escovar-os-dentes-do-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9635031,
+    "url_download": "https://images.pexels.com/photos/9635031/pexels-photo-9635031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-long-coated-dog-9635031/",
+    "fotografo": "Alexas Fotos",
+    "fotografo_url": "https://www.pexels.com/@alexasfotos",
+    "largura": 4419,
+    "altura": 2946,
+    "query": "dog smiling teeth",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-escovar-os-dentes-do-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 144608,
+    "url_download": "https://images.pexels.com/photos/144608/pexels-photo-144608.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/",
+    "fotografo": "Suvan Chowdhury",
+    "fotografo_url": "https://www.pexels.com/@suvan-chowdhury-37305",
+    "largura": 2048,
+    "altura": 1365,
+    "query": "dog smiling teeth",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-escovar-os-dentes-do-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7032355,
+    "url_download": "https://images.pexels.com/photos/7032355/pexels-photo-7032355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-dog-with-red-collar-7032355/",
+    "fotografo": "Mariana Tribu",
+    "fotografo_url": "https://www.pexels.com/@mariana-tribu-31930679",
+    "largura": 4724,
+    "altura": 3150,
+    "query": "dog smiling teeth",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-escovar-os-dentes-do-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9582974,
+    "url_download": "https://images.pexels.com/photos/9582974/pexels-photo-9582974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-yawning-in-close-up-photography-9582974/",
+    "fotografo": "Pragyan Bezbaruah",
+    "fotografo_url": "https://www.pexels.com/@pragyanbezbo",
+    "largura": 3936,
+    "altura": 2624,
+    "query": "dog mouth open teeth",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-escovar-os-dentes-do-cachorro/5.jpg"
+  }
+]
