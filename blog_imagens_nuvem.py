@@ -37,10 +37,13 @@ def consultas(slug: str) -> list[str]:
         for l in txt.splitlines():
             l = l.strip(" -*\"'`")
             # ignora preambulo do LLM ("Here are 2 search queries for...:") e linhas com ':' ou muito longas
-            if not l or ":" in l or "quer" in l.lower() or len(l.split()) > 6 or not re.fullmatch(r"[A-Za-z0-9 ,'\-]+", l):
+            if (not l or ":" in l or len(l.split()) > 6 or len(l.split()) < 2 or not re.fullmatch(r"[A-Za-z0-9 ,'\-]+", l)
+                    or set(l.lower().split()) & {"here", "search", "terms", "queries", "query", "sure", "english", "photo", "pexels", "stock"}):
                 continue
             linhas.append(l)
         linhas = linhas[:2]
+        if len(linhas) < 2:
+            linhas = []
         if linhas:
             return linhas
     except Exception as exc:  # noqa: BLE001
