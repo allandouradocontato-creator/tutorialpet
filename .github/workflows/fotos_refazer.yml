@@ -1,0 +1,46 @@
+name: Refazer fotos candidatas
+
+# Disparo sem token: acrescentar "<slug>" em config/fotos_refazer.txt e dar push na main.
+# Gera de novo as fotos candidatas do pacote (branch media) e substitui imagens_candidatas.
+on:
+  push:
+    branches: [main]
+    paths: ["config/fotos_refazer.txt"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: Branch media
+        run: git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+      - name: Refazer candidatas dos slugs da ultima linha nova
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          slug=$(grep -v '^#' config/fotos_refazer.txt | grep -v '^$' | tail -1 | awk '{print $1}')
+          echo "slug: $slug"
+          python blog_imagens_nuvem.py "$slug"
+          dest=/tmp/media/pacotes/$slug/imagens_candidatas
+          [ -d /tmp/media/pacotes/$slug ] || { echo "pacote inexistente"; exit 1; }
+          rm -rf "$dest"; cp -r data/visual/candidatos/$slug "$dest"
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "fotos candidatas refeitas: $slug" || echo "nada a commitar"
+          git push origin media

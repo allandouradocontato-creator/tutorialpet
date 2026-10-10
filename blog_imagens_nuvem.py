@@ -32,7 +32,15 @@ def consultas(slug: str) -> list[str]:
             f"Artigo de blog de pets: '{slug.replace('-', ' ')}'. Dê 2 buscas curtas em inglês para um banco de fotos "
             "(Pexels) que retornem SÓ o animal, sem pessoa visível. Uma por linha, sem numeração, sem aspas.",
             temperatura=0.3, max_tokens=60)
-        linhas = [l.strip(" -*\"'") for l in txt.splitlines() if l.strip()][:2]
+        import re
+        linhas = []
+        for l in txt.splitlines():
+            l = l.strip(" -*\"'`")
+            # ignora preambulo do LLM ("Here are 2 search queries for...:") e linhas com ':' ou muito longas
+            if not l or ":" in l or "quer" in l.lower() or len(l.split()) > 6 or not re.fullmatch(r"[A-Za-z0-9 ,'\-]+", l):
+                continue
+            linhas.append(l)
+        linhas = linhas[:2]
         if linhas:
             return linhas
     except Exception as exc:  # noqa: BLE001
