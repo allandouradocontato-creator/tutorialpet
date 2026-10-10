@@ -1,0 +1,1 @@
+disparo manual 2026-10-10T09:45Z (rodada das 06:00 nao disparou; ver commit)
