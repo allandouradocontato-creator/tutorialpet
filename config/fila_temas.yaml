@@ -29,7 +29,8 @@ temas:
   data: '2026-10-09'
 - termo: melhor areia para gato como escolher
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-10'
 - termo: qual a melhor ração para filhote de cachorro
   pilar: alimentacao
   status: pendente
@@ -53,4 +54,19 @@ temas:
   status: pendente
 - termo: como acostumar o cachorro a cortar as unhas
   pilar: cuidados_diarios
+  status: pendente
+- termo: como fazer cachorro idoso aceitar um filhote novo
+  pilar: comportamento
+  status: pendente
+- termo: como adaptar a casa para um cachorro idoso
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como misturar racao seca e umida para cachorro corretamente
+  pilar: alimentacao
+  status: pendente
+- termo: como escolher tapete higienico lavavel para cachorro em apartamento
+  pilar: produtos_compras
+  status: pendente
+- termo: como limpar orelha de cachorro em casa sem machucar
+  pilar: saude_basica
   status: pendente
