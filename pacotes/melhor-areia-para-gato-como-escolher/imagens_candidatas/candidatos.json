@@ -1,0 +1,67 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 6986455,
+    "url_download": "https://images.pexels.com/photos/6986455/pexels-photo-6986455.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/google-browser-on-laptop-6986455/",
+    "fotografo": "cottonbro studio",
+    "fotografo_url": "https://www.pexels.com/@cottonbro",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "queries for",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15368258,
+    "url_download": "https://images.pexels.com/photos/15368258/pexels-photo-15368258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/where-text-on-white-background-15368258/",
+    "fotografo": "Ann H",
+    "fotografo_url": "https://www.pexels.com/@ann-h-45017",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "queries for",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11022636,
+    "url_download": "https://images.pexels.com/photos/11022636/pexels-photo-11022636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sign-typography-information-cardboard-11022636/",
+    "fotografo": "Ann H",
+    "fotografo_url": "https://www.pexels.com/@ann-h-45017",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "queries for",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31984642,
+    "url_download": "https://images.pexels.com/photos/31984642/pexels-photo-31984642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/wooden-when-letters-on-burlap-background-31984642/",
+    "fotografo": "Ann H",
+    "fotografo_url": "https://www.pexels.com/@ann-h-45017",
+    "largura": 5922,
+    "altura": 3948,
+    "query": "queries for",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5841807,
+    "url_download": "https://images.pexels.com/photos/5841807/pexels-photo-5841807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cutout-paper-composition-of-bacteria-on-green-background-5841807/",
+    "fotografo": "Monstera Production",
+    "fotografo_url": "https://www.pexels.com/@gabby-k",
+    "largura": 8000,
+    "altura": 4500,
+    "query": "queries for",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/4.jpg"
+  }
+]

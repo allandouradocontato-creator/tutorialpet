@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 9635029,
+    "url_download": "https://images.pexels.com/photos/9635029/pexels-photo-9635029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-white-coated-dog-9635029/",
+    "fotografo": "Alexas Fotos",
+    "fotografo_url": "https://www.pexels.com/@alexasfotos",
+    "largura": 4474,
+    "altura": 2983,
+    "query": "cute dog curious",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/alimentos-proibidos-para-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 19905781,
+    "url_download": "https://images.pexels.com/photos/19905781/pexels-photo-19905781.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-dog-19905781/",
+    "fotografo": "FurtherMore Studio",
+    "fotografo_url": "https://www.pexels.com/@bobo",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute dog curious",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/alimentos-proibidos-para-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35285315,
+    "url_download": "https://images.pexels.com/photos/35285315/pexels-photo-35285315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-border-collie-in-a-garden-35285315/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "cute dog curious",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/alimentos-proibidos-para-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15284017,
+    "url_download": "https://images.pexels.com/photos/15284017/pexels-photo-15284017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dog-looking-at-camera-15284017/",
+    "fotografo": "Hope Pontifex",
+    "fotografo_url": "https://www.pexels.com/@animalsofbne",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute dog curious",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/alimentos-proibidos-para-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7339554,
+    "url_download": "https://images.pexels.com/photos/7339554/pexels-photo-7339554.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-and-white-short-coated-dog-7339554/",
+    "fotografo": "Alessandro Ceracchi",
+    "fotografo_url": "https://www.pexels.com/@alessandro-ceracchi-41033393",
+    "largura": 4272,
+    "altura": 2848,
+    "query": "cute dog curious",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/alimentos-proibidos-para-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32269523,
+    "url_download": "https://images.pexels.com/photos/32269523/pexels-photo-32269523.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-shih-tzu-puppy-with-pink-collar-32269523/",
+    "fotografo": "jeroen van Wouden",
+    "fotografo_url": "https://www.pexels.com/@jeroen-van-wouden-903000958",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "happy dog portrait",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/alimentos-proibidos-para-cachorro/5.jpg"
+  }
+]
