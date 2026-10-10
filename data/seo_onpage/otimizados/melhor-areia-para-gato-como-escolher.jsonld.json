@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Melhor areia para gato como escolher: guia prático",
+    "description": "Melhor areia para gato como escolher: guia prático. A escolha do substrato sanitário é uma das decisões mais importantes na rotina de convivência com...",
+    "datePublished": "2026-10-10",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/melhor-areia-para-gato-como-escolher",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/melhor-areia-para-gato-como-escolher"
+    },
+    "image": "https://tutorialpet.com.br/imagens/melhor-areia-para-gato-como-escolher.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual é a profundidade ideal de areia na caixa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A camada recomendada costuma ficar entre 5 e 7 centímetros de altura, em média. Esse volume garante que o animal consiga cavar e enterrar seus dejetos sem que os líquidos cheguem facilmente ao fundo plástico da bacia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Areia para gato com perfume faz mal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, pode causar incômodo respiratório e levar à rejeição da bandeja. O olfato apurado dos felinos faz com que aromas artificiais intensos funcionem como um repelente natural, aumentando o estresse do pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso jogar areia aglomerante no vaso sanitário?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Apenas quando o fabricante explicitar na embalagem que o produto é biodegradável e solúvel em água, como ocorre com certas opções vegetais. Areias minerais ou de bentonita nunca devem ser descartadas na rede de esgoto, pois causam entupimentos graves."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantas caixas de areia devo ter em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A regra clássica de manejo felino orienta manter o número de caixas correspondente ao total de gatos mais uma unidade adicional (N+1). Para um gato, costuma ser ideal disponibilizar duas caixas em cômodos diferentes."
+        }
+      }
+    ]
+  }
+}

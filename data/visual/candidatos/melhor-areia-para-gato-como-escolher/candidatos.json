@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 10043596,
+    "url_download": "https://images.pexels.com/photos/10043596/pexels-photo-10043596.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-snout-of-a-cat-10043596/",
+    "fotografo": "Yulia Ilina",
+    "fotografo_url": "https://www.pexels.com/@yuuilina",
+    "largura": 2560,
+    "altura": 1920,
+    "query": "cat close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37143684,
+    "url_download": "https://images.pexels.com/photos/37143684/pexels-photo-37143684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-cat-s-face-with-focus-on-fur-and-eyes-37143684/",
+    "fotografo": "Reinis Brūzītis",
+    "fotografo_url": "https://www.pexels.com/@reinis-bruzitis-2153679369",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cat close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29296243,
+    "url_download": "https://images.pexels.com/photos/29296243/pexels-photo-29296243.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/",
+    "fotografo": "mohamed abdelghaffar",
+    "fotografo_url": "https://www.pexels.com/@moh-adbelghaffar",
+    "largura": 6192,
+    "altura": 4128,
+    "query": "cat close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32694104,
+    "url_download": "https://images.pexels.com/photos/32694104/pexels-photo-32694104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-ginger-cat-s-eyes-capturing-detail-32694104/",
+    "fotografo": "Tibor Szabo",
+    "fotografo_url": "https://www.pexels.com/@tibszabo",
+    "largura": 4276,
+    "altura": 1627,
+    "query": "cat close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39626,
+    "url_download": "https://images.pexels.com/photos/39626/cat-head-female-cat-face-39626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-and-black-tabby-cat-39626/",
+    "fotografo": "Pixabay",
+    "fotografo_url": "https://www.pexels.com/@pixabay",
+    "largura": 3695,
+    "altura": 2792,
+    "query": "cat close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35224529,
+    "url_download": "https://images.pexels.com/photos/35224529/pexels-photo-35224529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-gray-cat-relaxing-indoors-on-colorful-blanket-35224529/",
+    "fotografo": "Rino Adamo",
+    "fotografo_url": "https://www.pexels.com/@rinoadamo",
+    "largura": 9026,
+    "altura": 5156,
+    "query": "cat resting indoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/melhor-areia-para-gato-como-escolher/5.jpg"
+  }
+]
