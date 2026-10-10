@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como Escolher a Ração Certa para Filhote",
+  "gancho_3s": "Perdido no corredor de ração para filhote?",
+  "cenas": [
+    {
+      "narracao": "Perdido na hora de escolher a ração do seu filhote? Não complique.",
+      "visual_busca_banco_livre": "cute puppy tilting head looking at camera close up",
+      "texto_na_tela": "Qual a melhor ração?"
+    },
+    {
+      "narracao": "A ração super premium tem ingredientes nobres: o pet come menos gramas e aproveita melhor os nutrientes.",
+      "visual_busca_banco_livre": "puppy eating dry kibble close up",
+      "texto_na_tela": "Mais absorção, menos fezes"
+    },
+    {
+      "narracao": "Leia o rótulo! O primeiro ingrediente precisa ser proteína animal, e fuja de corantes artificiais.",
+      "visual_busca_banco_livre": "puppy sniffing dog bowl close up",
+      "texto_na_tela": "Primeiro item: proteína animal"
+    },
+    {
+      "narracao": "Respeite o porte: cães pequenos precisam de grãos fáceis de mastigar; os grandes precisam proteger as articulações.",
+      "visual_busca_banco_livre": "tiny puppy chewing kibble on floor",
+      "texto_na_tela": "Atenção ao porte do filhote"
+    },
+    {
+      "narracao": "Pese a quantidade indicada no pacote e divida em três a quatro refeições ao dia.",
+      "visual_busca_banco_livre": "hungry puppy waiting patiently looking up",
+      "texto_na_tela": "Divida em 3 a 4 porções"
+    },
+    {
+      "narracao": "Para acertar na dieta com total segurança, consulte sempre o médico-veterinário.",
+      "visual_busca_banco_livre": "happy healthy puppy looking at camera outdoors",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salve para não errar no pet shop e siga para mais dicas!",
+  "hashtags": [
+    "filhotedecachorro",
+    "racaodecachorro",
+    "cuidadoscompet",
+    "dicaspet",
+    "filhotes"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nPerdido no corredor de ração para filhote?\n\n📖 Artigo completo: https://tutorialpet.com.br/qual-a-melhor-racao-para-filhote-de-cachorro\n\n#filhotedecachorro #racaodecachorro #cuidadoscompet #dicaspet #filhotes",
+  "slug": "qual-a-melhor-racao-para-filhote-de-cachorro"
+}

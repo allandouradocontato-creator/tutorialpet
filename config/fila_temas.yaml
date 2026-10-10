@@ -33,7 +33,8 @@ temas:
   data: '2026-10-10'
 - termo: qual a melhor ração para filhote de cachorro
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-10'
 - termo: como acostumar gato adulto com novo comedouro
   pilar: comportamento
   status: pendente
@@ -68,5 +69,20 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: como limpar orelha de cachorro em casa sem machucar
+  pilar: saude_basica
+  status: pendente
+- termo: como acostumar gato e cachorro a conviverem em paz
+  pilar: comportamento
+  status: pendente
+- termo: quais frutas cachorro pode comer no verao com seguranca
+  pilar: alimentacao
+  status: pendente
+- termo: como evitar bola de pelo em gato com escovacao
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher rampa pet para sofa e cama alta
+  pilar: produtos_compras
+  status: pendente
+- termo: como saber se o asfalto esta quente para passear
   pilar: saude_basica
   status: pendente
