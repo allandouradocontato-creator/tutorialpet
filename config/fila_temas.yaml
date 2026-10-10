@@ -37,7 +37,8 @@ temas:
   data: '2026-10-10'
 - termo: como acostumar gato adulto com novo comedouro
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-10'
 - termo: melhores brinquedos interativos para cães ansiosos sozinhos
   pilar: produtos_compras
   status: pendente
@@ -85,4 +86,19 @@ temas:
   status: pendente
 - termo: como saber se o asfalto esta quente para passear
   pilar: saude_basica
+  status: pendente
+- termo: como organizar a rotina de alimentacao de caes e gatos juntos
+  pilar: alimentacao
+  status: pendente
+- termo: sinais de envelhecimento em gatos senior que passam despercebidos
+  pilar: saude_basica
+  status: pendente
+- termo: como enriquecer o ambiente para caes idosos com mobilidade reduzida
+  pilar: comportamento
+  status: pendente
+- termo: melhores tipos de comedouros slow feed para caes ansiosos
+  pilar: produtos_compras
+  status: pendente
+- termo: cuidados essenciais com as patas de caes no inverno
+  pilar: cuidados_diarios
   status: pendente

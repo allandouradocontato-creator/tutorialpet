@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como Acostumar Gato com Comedouro Novo",
+  "gancho_3s": "Seu gato recusou o pote novo de ração?",
+  "cenas": [
+    {
+      "narracao": "Gatos detestam mudanças bruscas, e o jejum prolongado pode causar problemas graves no fígado.",
+      "visual_busca_banco_livre": "cat smelling food bowl cautiously",
+      "texto_na_tela": "Jejum em gatos é perigoso!"
+    },
+    {
+      "narracao": "Primeiro, lave o comedouro com sabão neutro e deixe-o vazio por perto para ele explorar e cheirar.",
+      "visual_busca_banco_livre": "cat rubbing cheek on object close up",
+      "texto_na_tela": "Passo 1: Apresentação neutra"
+    },
+    {
+      "narracao": "Depois, use prato duplo: mantenha a ração no prato antigo e coloque um petisco atrativo no novo.",
+      "visual_busca_banco_livre": "cat licking wet food close up",
+      "texto_na_tela": "Passo 2: Técnica do prato duplo"
+    },
+    {
+      "narracao": "Assim que ele aceitar, transfira a ração aos poucos até retirar o comedouro antigo por completo.",
+      "visual_busca_banco_livre": "cat eating dry food from ceramic bowl",
+      "texto_na_tela": "Passo 3: Migração gradual"
+    },
+    {
+      "narracao": "Se ele ficar mais de doze horas sem comer, volte ao prato antigo e consulte o veterinário.",
+      "visual_busca_banco_livre": "cat looking around attentive indoors",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salve este vídeo para fazer a troca com segurança!",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#cuidadoscomgatos",
+    "#saudefelina",
+    "#dicasparagatos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato recusou o pote novo de ração?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-acostumar-gato-adulto-com-novo-comedouro\n\n#gatos #comportamentofelino #cuidadoscomgatos #saudefelina #dicasparagatos",
+  "slug": "como-acostumar-gato-adulto-com-novo-comedouro"
+}
