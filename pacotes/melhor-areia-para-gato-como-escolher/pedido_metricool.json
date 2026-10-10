@@ -1,0 +1,43 @@
+{
+  "brand_id": 7123441,
+  "timezone": "America/Fortaleza",
+  "turno": "A",
+  "posts": [
+    {
+      "rede": "facebook",
+      "agendar_para": "2026-10-10T10:00:00",
+      "legenda": "Seu gato anda evitando a caixa de areia?\n\n👇 Link no primeiro comentário\n\n#gatos #cuidadoscomgatos #areiaparagato #bemestaranimal #felinos",
+      "primeiro_comentario": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/melhor-areia-para-gato-como-escolher",
+      "facebookData": {
+        "type": "REEL",
+        "title": "Como escolher a areia ideal para seu gato"
+      }
+    },
+    {
+      "rede": "instagram",
+      "agendar_para": "2026-10-10T14:00:00",
+      "legenda": "Seu gato anda evitando a caixa de areia?\n\n👇 Link no primeiro comentário\n\n#gatos #cuidadoscomgatos #areiaparagato #bemestaranimal #felinos",
+      "primeiro_comentario": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/melhor-areia-para-gato-como-escolher",
+      "instagramData": {
+        "type": "REEL",
+        "showReelOnFeed": true,
+        "isAiGenerated": true
+      }
+    },
+    {
+      "rede": "tiktok",
+      "agendar_para": "2026-10-10T12:00:00",
+      "legenda": "Esse erro tá silenciosamente atrapalhando todo tutor de gato. Veja o artigo no perfil. gatos cuidadoscomgatos areiaparagato",
+      "primeiro_comentario": "",
+      "tiktokData": {
+        "privacyOption": "PUBLIC_TO_EVERYONE",
+        "title": "Como escolher a areia ideal para seu gato",
+        "isAigc": true,
+        "commercialContentOwnBrand": true
+      }
+    }
+  ],
+  "video_url_publica": "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/melhor-areia-para-gato-como-escolher/video.mp4",
+  "slug": "melhor-areia-para-gato-como-escolher",
+  "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário"
+}
