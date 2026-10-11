@@ -41,7 +41,8 @@ temas:
   data: '2026-10-10'
 - termo: melhores brinquedos interativos para cães ansiosos sozinhos
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-11'
 - termo: o que comprar antes de adotar um gatinho
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -101,4 +102,19 @@ temas:
   status: pendente
 - termo: cuidados essenciais com as patas de caes no inverno
   pilar: cuidados_diarios
+  status: pendente
+- termo: como fazer o gato parar de arranhar o sofa
+  pilar: comportamento
+  status: pendente
+- termo: como escolher a melhor guia e peitoral para cachorro
+  pilar: produtos_compras
+  status: pendente
+- termo: quais legumes cachorro pode comer cozidos sem tempero
+  pilar: alimentacao
+  status: pendente
+- termo: como escovar pelo de gato que nao gosta de escova
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como evitar a obesidade em gatos castrados de apartamento
+  pilar: saude_basica
   status: pendente
