@@ -1,6 +1,6 @@
 {
   "slug": "qual-a-melhor-racao-para-filhote-de-cachorro",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-10T15:07:54+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/qual-a-melhor-racao-para-filhote-de-cachorro",
   "guardiao": {
@@ -17,5 +17,10 @@
     ],
     "em": "2026-10-10T15:09:51+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "metricool_ids": {
+    "facebook": 393226496,
+    "tiktok": 393226503,
+    "instagram": 393226515
+  }
 }
