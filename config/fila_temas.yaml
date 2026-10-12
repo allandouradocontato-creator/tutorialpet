@@ -45,7 +45,8 @@ temas:
   data: '2026-10-11'
 - termo: o que comprar antes de adotar um gatinho
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-12'
 - termo: com que frequência escovar os dentes do cachorro
   pilar: cuidados_diarios
   status: pendente
@@ -116,5 +117,20 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: como evitar a obesidade em gatos castrados de apartamento
+  pilar: saude_basica
+  status: pendente
+- termo: como introduzir um segundo gato na casa sem brigas
+  pilar: comportamento
+  status: pendente
+- termo: como fazer caldo de ossos caseiro para cachorro
+  pilar: alimentacao
+  status: pendente
+- termo: como limpar manchas de lagrima acida em cachorro branco
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher caixa de transporte para viagem de aviao
+  pilar: produtos_compras
+  status: pendente
+- termo: como saber se o cachorro esta acima do peso ideal
   pilar: saude_basica
   status: pendente
