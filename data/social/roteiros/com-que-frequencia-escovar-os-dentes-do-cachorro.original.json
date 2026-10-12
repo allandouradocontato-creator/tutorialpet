@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Frequência certa para escovar os dentes do cachorro",
+  "gancho_3s": "Com que frequência você escova os dentes do seu cão?",
+  "cenas": [
+    {
+      "narracao": "Com que frequência você realmente precisa escovar os dentes do seu cachorro?",
+      "visual_busca_banco_livre": "dog yawning showing teeth close up",
+      "texto_na_tela": "Com que frequência escovar?"
+    },
+    {
+      "narracao": "O ideal absoluto é uma vez ao dia, já que a placa pode endurecer em até quarenta e oito horas.",
+      "visual_busca_banco_livre": "golden retriever panting happy close up",
+      "texto_na_tela": "Ideal: 1 vez ao dia"
+    },
+    {
+      "narracao": "O mínimo aceitável são três vezes por semana. Cães pequenos e de focinho curto precisam de escovação diária.",
+      "visual_busca_banco_livre": "yorkshire terrier sitting looking at camera",
+      "texto_na_tela": "Mínimo: 3x por semana"
+    },
+    {
+      "narracao": "Use apenas pasta de dente veterinária, pois opções humanas contêm substâncias tóxicas para cães.",
+      "visual_busca_banco_livre": "pug licking mouth close up",
+      "texto_na_tela": "Apenas pasta veterinária"
+    },
+    {
+      "narracao": "Se notar tártaro, mau hálito persistente ou gengiva sangrando, consulte o médico-veterinário para avaliar a saúde bucal.",
+      "visual_busca_banco_livre": "dog chewing stick on grass",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "Consulte o veterinário e crie uma rotina saudável para seu pet!",
+  "hashtags": [
+    "saudecanina",
+    "higienebucalpet",
+    "cuidadoscomcachorro",
+    "bemestaranimal",
+    "dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nCom que frequência você escova os dentes do seu cão?\n\n📖 Artigo completo: https://tutorialpet.com.br/com-que-frequencia-escovar-os-dentes-do-cachorro\n\n#saudecanina #higienebucalpet #cuidadoscomcachorro #bemestaranimal #dicaspet",
+  "slug": "com-que-frequencia-escovar-os-dentes-do-cachorro"
+}

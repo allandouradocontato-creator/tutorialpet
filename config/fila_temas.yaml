@@ -49,7 +49,8 @@ temas:
   data: '2026-10-12'
 - termo: com que frequência escovar os dentes do cachorro
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-12'
 - termo: como evitar que o filhote chore à noite
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -133,4 +134,19 @@ temas:
   status: pendente
 - termo: como saber se o cachorro esta acima do peso ideal
   pilar: saude_basica
+  status: pendente
+- termo: por que o gato morde do nada durante o carinho
+  pilar: comportamento
+  status: pendente
+- termo: como escolher cinto de seguranca pet para carro
+  pilar: produtos_compras
+  status: pendente
+- termo: quais petiscos naturais posso dar para o gato
+  pilar: alimentacao
+  status: pendente
+- termo: como tirar cheiro de xixi de cachorro do quintal
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como ensinar filhote a fazer xixi no tapete higienico
+  pilar: primeiros_passos_filhotes
   status: pendente
