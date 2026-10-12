@@ -1,0 +1,42 @@
+{
+  "brand_id": 7123441,
+  "timezone": "America/Fortaleza",
+  "turno": "A",
+  "posts": [
+    {
+      "rede": "facebook",
+      "agendar_para": "2026-10-12T10:00:00",
+      "legenda": "Vai adotar um gatinho? Monte este enxoval antes da chegada!\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#adocaodegatos #filhotesdegato #enxovaldepet #cuidadoscomgatos #gatos",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/o-que-comprar-antes-de-adotar-um-gatinho",
+      "facebookData": {
+        "type": "REEL",
+        "title": "O Que Comprar Antes de Adotar um Gatinho"
+      }
+    },
+    {
+      "rede": "instagram",
+      "agendar_para": "2026-10-12T11:00:00",
+      "legenda": "Vai adotar um gatinho? Monte este enxoval antes da chegada!\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#adocaodegatos #filhotesdegato #enxovaldepet #cuidadoscomgatos #gatos",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/o-que-comprar-antes-de-adotar-um-gatinho",
+      "instagramData": {
+        "type": "REEL",
+        "showReelOnFeed": true,
+        "isAiGenerated": true
+      }
+    },
+    {
+      "rede": "tiktok",
+      "agendar_para": "2026-10-12T10:20:00",
+      "legenda": "Aquele momento em que falta tudo pro gatinho acontece de novo. Confira o artigo completo em tutorialpet.com.br (link no perfil). #adocaodegatos #filhotesdegato #enxovaldepet #tutorialpet",
+      "primeiro_comentario": "",
+      "tiktokData": {
+        "privacyOption": "PUBLIC_TO_EVERYONE",
+        "title": "O Que Comprar Antes de Adotar um Gatinho",
+        "isAigc": true
+      }
+    }
+  ],
+  "video_url_publica": "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/o-que-comprar-antes-de-adotar-um-gatinho/video.mp4",
+  "slug": "o-que-comprar-antes-de-adotar-um-gatinho",
+  "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário"
+}

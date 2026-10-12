@@ -1,6 +1,6 @@
 {
   "slug": "o-que-comprar-antes-de-adotar-um-gatinho",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-12T11:28:54+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/o-que-comprar-antes-de-adotar-um-gatinho",
   "guardiao": {
@@ -17,5 +17,10 @@
     ],
     "em": "2026-10-12T11:31:00+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "metricool_ids": {
+    "facebook": 393942293,
+    "instagram": 393942310,
+    "tiktok": 393942339
+  }
 }
