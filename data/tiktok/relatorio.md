@@ -1,39 +1,40 @@
-Dados até 2026-10-08 19:29 (Fortaleza) — Metricool brandId 7123441, TikTok @tutorialpetbr, 20/09 a agora. 1ª edição (sem relatório anterior para comparar).
-## (a) Nossos números (3 vídeos; todos com menos de 48h = recente/parcial)
-| Vídeo | Postado (idade) | Dur. | Views | Curt. | Coment. | Shares |
+Dados até 2026-10-12 11:14 (Fortaleza) — Metricool brandId 7123441, TikTok @tutorialpetbr, 20/09 a agora; horários do Metricool em UTC já convertidos (-3h). Anterior: 08/10 19:29.
+ALERTA: desde 11/10 todos os posts (TikTok 10:20 e 20:20, FB, IG) deram ERRO "You have reached your Metricool account limit" (getScheduledPosts); último TikTok publicado: 10/10 10:20. Nada saiu em 11/10 nem hoje cedo.
+## (a) Nossos números (6 vídeos, total 2.318 views, 122 curtidas, 2 comentários, 3 shares; retenção TKPO13/15/16 segue vazia no Metricool)
+| Vídeo (gancho · CTA) | Postado (idade) | Dur. | Views | Curt. | Com. | Sh. |
 |---|---|---|---|---|---|---|
-| Banho de cachorro (dica, pergunta de dor, "link na bio") | 07/10 16:10 (27h) | 44s | 766 | 39 (5,1%) | 0 | 1 |
-| Abertura Tutorial Pet (emocional, "link no 1º comentário") | 07/10 18:42 (25h) | 42s | 105 | 3 | 0 | 0 |
-| Gato bebe pouca água (dica, "link na bio") | 08/10 12:06 (7h, parcial) | 38s | 25 | 3 | 0 | 0 |
-- Horários do Metricool vêm em UTC; já convertidos para Fortaleza (-3h).
-- Retenção (TKPO13/15/16) vem vazia no Metricool: ainda não dá para medir quanto tempo assistem nem origem Para Você.
-- Campeão (banho, roteiro da fábrica 07/10): único com gancho de dor do dia a dia ("já está com cheirinho forte?"), tema buscado e hashtag de nicho (#banhodecachorro). Horário não explica: postou às 16h (índice médio ~1.100 na quarta) e o de 18h42 (pico) foi o pior. Também NÃO foi o mais curto (44s, contra 8-15s das referências); música/cortes não consigo provar: n=3, tudo é hipótese.
-- O vídeo emocional/de marca (18h42, horário de pico) teve 7x menos views: gancho institucional perde para gancho de dor. Os 3 vídeos têm 38-44s; nenhum no formato curto de 8-15s do estilo_viral.yaml.
-- Melhores horários (Metricool, TikTok, Fortaleza; tabela por rede e comparação abertura x banho em data/tiktok/rodada_extra_2026-10-08.md): picos ~10h, 12h e 18h, mais fortes quarta/quinta/sexta (10h quinta 1.471; 18h quarta 1.386); piores 21h em diante.
-## (b) Regras que valem para nós + riscos (fontes oficiais lidas hoje)
-1. Divulgação comercial: postou promovendo marca/produto/serviço (inclui o Sozinho em Casa) → ligar "Sua marca" (rótulo "Conteúdo comercial"); sem isso o post pode ser removido ou ter alcance limitado. [ads.tiktok.com/help/article/how-to-turn-on-the-commercial-content-disclosure-setting-in-tiktok?lang=pt, pág. de jan/2026]. Nos 3 vídeos atuais a legenda só fala de blog (risco baixo); o pacote da fábrica traz CTA do app com preço → ligar o toggle (Metricool: commercialContentOwnBrand).
-2. Link na bio: só conta Comercial Verificada (VBA) exibe link no perfil e links de destino nos vídeos; conta geral não [ads.tiktok.com/help/article/about-tiktok-account-entitlements, mai/2026; .../tiktok-business-account-features, jun/2026]. Risco ALTO: 2 dos 3 vídeos mandam "link na bio"; se a bio não mostra link, o CTA leva a lugar nenhum. Link colado em comentário não é clicável (não confirmei em fonte oficial nesta rodada).
-3. Música: empresa não pode usar a biblioteca geral/sons em alta em atividade comercial; usar a Biblioteca de Música Comercial (CML, grátis) ou áudio próprio [ads.tiktok.com/resources/help/article/commercial-music-library?lang=pt, jul/2025]. Nossa trilha vai embutida no vídeo (faixas livres); NÃO usar no TikTok as faixas de audios_em_alta.yaml (Bobbie Goods, piano hinatani etc.) — são sons do app, valem para conta pessoal.
-4. IA: realista criado/muito editado por IA deve ser rotulado [newsroom.tiktok.com/pt-br/novos-rotulos-para-trazer-mais-contexto-ao-conteudo-gerado-por-ia, set/2023]. A voz da Duda é sintética (ElevenLabs) → recomendo marcar "gerado por IA" (Metricool isAigc=true). Em anúncios, voz/vídeo de cão muito alterado por IA exige rótulo [ads.tiktok.com/help/article/tiktok-ads-policy-misleading-and-false-content?lang=pt, abr/2026].
-5. Promessas: sem garantir prazo/resultado ("14 dias" como garantia), sem sugerir tratar problema de saúde, "antes e depois" só com ressalva; o que o vídeo promete tem de bater com a landing (mesma fonte, abr/2026; vale para anúncio, uso orgânico por cautela). Manter "consulte o veterinário".
-- Não consegui ler (tiktok.com bloqueia robôs): Diretrizes da Comunidade sobre animais e regras de link em comentário. Sem fonte, sem afirmação. Nenhuma regra "mudou" (1ª edição).
-## (c) 5 tendências aplicáveis (exemplos reais já medidos pelo Caçador, estilo_viral.yaml/ganchos_universais.yaml; busca web só devolveu links, não reli os vídeos)
-1. Fofura de 7-15s, plano único, close olhando a câmera: @oakley.thedachshund 7s, 7,5% shares/views; @sunithedapple 15s, 6,2%. Nós ainda não testamos.
-2. Transformação em 8s com trilha calma: @norcianic (filhote crescendo, 9,2% shares, conta de 863 seguidores). Não testado.
-3. Pergunta de identidade + CTA de compartilhar: @melzinhaapronta ("quem mais tem um gato assim?", 5,8M views), @shihtzumarrom ("manda pro seu papai", 1,0% shares). Não testado.
-4. Dica curta com dor no 1º quadro (10s): @monkeydogshop, 207k views, 0,67% shares — dica rende menos share que fofura; 1 vídeo de dica a cada 4.
-5. Receita/número fechado ("3 passos"): @rodrigomundopet, 576k views, 3,2% shares, 24s — molde para a série do Sozinho em Casa (gancho nº 3 e nº 2 em ganchos_universais.yaml).
-## (d) Testes grátis para as próximas 4 rodadas
-T1 Curto de fofura: 1 vídeo 8-12s, close no 1º segundo, sem lista, legenda "manda pro seu papai". Hipótese: share >=0,5% (hoje 0,1%). Medir: views em 24h/48h, shares/views, tempo assistido (quando o Metricool preencher).
-T2 Horário: mesmo tipo de vídeo às 10h/12h/18h (quarta a sexta) em vez de 14h-15h/21h+. Hipótese: horário de pico dá mais views que 15h/21h (nossos 3 posts, 12h/16h/18h, não mostram efeito; testar com o mesmo tipo de vídeo). Medir: views em 24h por horário de postagem.
-T3 Série Sozinho (gancho 2/3): "Seu cachorro chora quando você sai? 3 passos", 15-20s, toggle "Sua marca" ligado, CTA falado "link no perfil" só se a pendência 1 estiver feita. Medir: cliques com UTM (abaixo) e vendas no Kiwify.
+| Banho cachorro (pergunta de dor · link na bio) | qua 07/10 16:10 (112h) | 44s | 843 | 43 (5,1%) | 0 | 1 |
+| Gato/água v1 (pergunta de dor · link na bio) | qui 08/10 12:06 (92h) | 38s | 577 | 30 (5,2%) | 1 | 0 |
+| Plantas tóxicas (alerta "pode ser fatal" · link no perfil) | sex 09/10 18:20 (62h) | 40s | 301 | 18 (6,0%) | 1 | 2 |
+| Gato/água v2 (pergunta · link no perfil) | sex 09/10 20:03 (60h) | 52s | 278 | 19 (6,8%) | 0 | 0 |
+| Areia "esse erro…" (abertura_erro · link no perfil) | sáb 10/10 10:20 (46h, recente/parcial) | 54s | 188 | 9 (4,8%) | 0 | 0 |
+| Abertura emocional "anos" (link no 1º comentário) | qua 07/10 18:42 (110h) | 42s | 131 | 3 (2,3%) | 0 | 0 |
+- Correção ao relatório anterior: gato/água v1 tinha 25 views com 7h e hoje tem 577; o banho subiu 766→843. Parcial subestima muito: só julgar gancho com 72h+.
+- Campeão (banho): gancho de dor concreta em pergunta + tema buscado + hashtag de nicho (#banhodecachorro), cachorro. Cachorro/gato com pergunta de dor (843, 577) > alerta (301) > "esse erro" (188) > emocional (131). Duração não separa (38-44s no topo; 52-54s mais fracos, n pequeno); música e cortes não provados (trilhas livres variam por pacote); horário: topo às 16h e 12h, baixo às 10h20/18h20/20h, então horário sozinho não explica.
+- Melhor horário (Metricool TikTok, Fortaleza): picos 10h (1.089-1.471), 12h (1.050-1.359) e 18h (1.096-1.386), mais fortes qua/qui/sex; mínimos de 0h às 5h; sáb/dom ~40% menores.
+## (b) Regras que valem para nós + riscos (mudou desde 08/10: nada confirmado em fonte oficial; 2 pontos novos abaixo)
+1. "Sua marca" (conteúdo comercial) quando o vídeo promove produto/serviço, senão risco de remoção/alcance [ads.tiktok.com/help/article/how-to-turn-on-the-commercial-content-disclosure-setting-in-tiktok?lang=pt, jan/2026]. Os 2 posts de TikTok agendados para 11/10 (falharam) levam o toggle; os 6 publicados não (legendas só citam blog: risco baixo).
+2. IA: realista criado/muito editado por IA deve ser rotulado; o agendador já manda isAigc=true nos posts novos (areia, 11/10) [newsroom.tiktok.com/pt-br (set/2023); resumo 2026 em cinerads.com, jul/2026, fonte secundária]. Banho, gato/água e plantas foram sem rótulo (voz da Duda é sintética): risco médio.
+3. Link: 08/10 eu disse "só conta Comercial Verificada". NOVO (fonte secundária, rocketlink.io, 10/07/2026): link no perfil também liberado com 1.000+ seguidores; texto oficial NÃO lido. Verificação de CNPJ existe: o cadastro tem de bater com a Receita [ads.tiktok.com/help/article/about-tax-id-verification?lang=en, abr/2025; a página não diz o que libera]. Risco ALTO atual: 5 de 6 legendas dizem "link na bio/perfil" e o Allan não confirmou que o link aparece; link em comentário não é clicável (sem fonte oficial).
+4. Música: conta comercial só usa Biblioteca de Música Comercial ou áudio próprio [ads.tiktok.com/resources/help/article/commercial-music-library?lang=pt, jul/2025]. Não consegui reabrir a página hoje (permissão sem resposta): regra de 08/10 mantida, sem fonte nova. Nossa trilha vem embutida (faixas livres); não usar audios_em_alta.yaml no TikTok.
+5. Promessas e saúde: sem garantir resultado/prazo, manter "consulte o veterinário" [ads.tiktok.com/help/article/tiktok-ads-policy-misleading-and-false-content?lang=pt, abr/2026]. Atenção: "isso pode ser fatal" (plantas) e "isso tá atrapalhando o crescimento do filhote" (ração) afirmam dano sem ressalva na legenda: risco baixo-médio, suavizar.
+- Sem fonte (tiktok.com bloqueado): Diretrizes sobre animais e link em comentário.
+## (c) 5 tendências aplicáveis (fonte: Metricool "TikTok Trends 2026", 2,3 mi de posts, atual. 03/08/2026; não achei dado específico de pet BR)
+1. Para Você = 73% das views e vídeo rende 5x as views de carrossel: seguir só vídeo, gancho no 1º segundo.
+2. Pergunta gera +26% comentários; pedir comentário +14%, pedir curtida -60% de interação. Nosso 0,09% de comentário: testar pergunta em vez de "curta". 1-5 hashtags específicas (+5% views).
+3. 96% das views em 10 dias e subida lenta (nosso gato/água 25→577): não apagar nem julgar cedo.
+4. Série repetível de nicho favorece conta pequena: problema → 3 passos → protocolo.
+5. Fofura curta 7-15s, close, plano único (@oakley.thedachshund 7s, 7,5% shares; @norcianic 8s, 9,2% shares: medidos pelo Caçador, estilo_viral.yaml). Ainda não testado por nós.
+## (d) Testes grátis (próximas 4 rodadas)
+T1 Fofura 8-12s sem lista, close no 1º segundo. Hipótese: shares/views ≥0,5% (hoje 0,13%). Mudar: roteiro de 1-2 cenas, sem voz longa. Medir: views 72h, shares/views.
+T2 Pergunta de comentário: legenda "Seu cachorro faz isso? Conta aqui" + 2-3 hashtags, tirar "curta". Hipótese: ≥3 comentários/1.000 views em 72h (hoje 0,9). Medir TKPO09/TKPO07.
+T3 Série Sozinho 3 partes 15-20s ("cachorro chora quando você sai?" → 3 passos → protocolo), "Sua marca" ligado, CTA "artigo no blog" até o link ser confirmado. Medir: cliques UTM e vendas Kiwify.
 ## (e) Plano de vendas
-- Funil: Parte 1 problema (cachorro sozinho) → Parte 2 3 passos → Parte 3 protocolo/app; 3 vídeos/semana, fofura entre eles. Comentário fixado: "Parte 2 no perfil" + pergunta (responder comentários com vídeo curto).
-- Link: bio (precisa VBA); depois link de destino no vídeo. Não prometer link clicável em comentário. Blog: link do artigo na bio alterna com a landing (1 destino por vez).
-- UTM novo (hoje usa utm_source=tutorialpet, não separa TikTok): ?utm_source=tiktok&utm_medium=bio&utm_campaign=sozinho_serie&utm_content=<slug>; blog com utm_source=tiktok&utm_medium=bio. Medir: cliques/visitas na landing, vendas Kiwify (conferir se a venda traz o utm), views/shares no Metricool.
-- Meta de teste (hipótese, não previsão): 10 vídeos em 4 rodadas, 1 vídeo >=2.000 views, >=30 cliques da bio, 1ª venda atribuída.
-- TikTok Shop/afiliado: cadastro exige telefone/e-mail único e residir no país [ads.tiktok.com/help/article/requirements-to-register-as-a-seller-on-tiktok-shop?lang=pt, ago/2025]; página não detalha CNPJ/categorias, e não verifiquei se aceita produto digital. Não recomendo agora.
+- Funil: parte 1 dor → 2 passos → 3 protocolo/app, 3/semana + fofura; comentário fixado "parte 2 no perfil" e responder comentário com vídeo (recurso nativo, newsroom.tiktok.com).
+- Link: perfil (se liberar), alternando landing e artigo; nada de link no comentário. UTM novo: ?utm_source=tiktok&utm_medium=bio&utm_campaign=sozinho_serie&utm_content=<slug> (hoje todos usam utm_source=tutorialpet, não separa o TikTok).
+- Meta (hipótese): 10 vídeos em 4 rodadas, 1 ≥1.500 views em 72h, ≥30 cliques da bio, 1ª venda atribuída. Medir: Metricool + visitas na landing + Kiwify (conferir se a venda traz o utm).
+- TikTok Shop/afiliado: exige verificação de identidade e pagamento; produto digital não confirmado (viniensina.com.br, jul/2026, secundária). Não recomendo agora.
 ## (f) Pendências do Allan
-1. Verificação de negócio no TikTok for Business com o CNPJ da Dourado Falcão (libera link na bio e no vídeo) e confirmar que o link aparece no perfil @tutorialpetbr.
-2. Autorizar rótulo "gerado por IA" nos vídeos com a voz da Duda e toggle "Sua marca" nos vídeos com o app (Agendador).
-3. Liberar leitura das páginas tiktok.com para este especialista (Diretrizes/animais/link em comentário ficaram sem fonte).
+1. URGENTE: limite da conta Metricool estourado: posts de TikTok/FB/IG de 11/10 e 12/10 falharam; ver plano/limite em Metricool e reagendar.
+2. Abrir no app Perfil > Editar perfil > Links: se aparecer "Adicionar", cadastrar a landing; senão, verificar o negócio (CNPJ Dourado Falcão). Até lá trocar "link na bio/perfil" por "busque no blog".
+3. Decidir rótulo de IA nos vídeos já postados e liberar leitura de tiktok.com e ads.tiktok.com (música).
