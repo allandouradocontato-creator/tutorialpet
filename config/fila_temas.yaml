@@ -57,7 +57,8 @@ temas:
   data: '2026-10-13'
 - termo: por que o gato esconde a comida na tigela
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-13'
 - termo: como acostumar o cachorro a cortar as unhas
   pilar: cuidados_diarios
   status: pendente
@@ -150,4 +151,16 @@ temas:
   status: pendente
 - termo: como ensinar filhote a fazer xixi no tapete higienico
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como montar um cronograma de enriquecimento ambiental para cães sozinhos
+  pilar: comportamento
+  status: pendente
+- termo: como escolher comedouro duplo elevado para gatos idosos
+  pilar: produtos_compras
+  status: pendente
+- termo: como acostumar gato filhote a usar a escova de dentes
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como organizar a rotina de passeios para cães de diferentes idades
+  pilar: cuidados_diarios
   status: pendente

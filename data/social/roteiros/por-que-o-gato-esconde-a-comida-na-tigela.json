@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Por que seu gato tenta enterrar a comida?",
+  "gancho_3s": "Para de ignorar esse sinal. Isso tá atrapalhando o seu gatinho.",
+  "cenas": [
+    {
+      "narracao": "Para de ignorar esse sinal. Isso tá atrapalhando o seu gatinho.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Para de ignorar esse sinal. Isso tá atrapalhando o seu gatinho."
+    },
+    {
+      "narracao": "Seu gato raspa o chão depois de comer? Isso é instinto puro, sabia?",
+      "visual_busca_banco_livre": "cat scratching floor near food bowl",
+      "texto_na_tela": "Por que ele enterra a comida?"
+    },
+    {
+      "narracao": "Na natureza, esconder o rastro evita atrair predadores perigosos.",
+      "visual_busca_banco_livre": "cat sniffing food close up",
+      "texto_na_tela": "Camuflagem de odor"
+    },
+    {
+      "narracao": "Ele também pode tentar guardar a comida para mais tarde.",
+      "visual_busca_banco_livre": "cat looking at food bowl",
+      "texto_na_tela": "Reserva de alimento"
+    },
+    {
+      "narracao": "Mas se ele rejeita a comida, o cheiro pode ter mudado.",
+      "visual_busca_banco_livre": "cat smelling food and turning away",
+      "texto_na_tela": "Aversão ou alimento velho"
+    },
+    {
+      "narracao": "Barulho ou tigelas fundas que tocam nos bigodes geram estresse.",
+      "visual_busca_banco_livre": "cat eating from bowl close up",
+      "texto_na_tela": "Estresse e fadiga de bigodes"
+    },
+    {
+      "narracao": "Por isso, divida as porções e tire as sobras rapidinho.",
+      "visual_busca_banco_livre": "cat eating dry food",
+      "texto_na_tela": "Como ajustar a rotina"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. [short pause] Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#gato",
+    "#instintofelino",
+    "#saudefelina"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato raspa o chão depois de comer? Descubra o porquê!\n\n📖 Artigo completo: https://tutorialpet.com.br/por-que-o-gato-esconde-a-comida-na-tigela\n\n#gatos #comportamentofelino #gato #instintofelino #saudefelina",
+  "slug": "por-que-o-gato-esconde-a-comida-na-tigela",
+  "molde_gancho": "abertura_pare",
+  "cta_indice": 4
+}
