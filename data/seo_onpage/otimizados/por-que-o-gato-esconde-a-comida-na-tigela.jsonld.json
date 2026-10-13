@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Por que o gato esconde a comida na tigela: guia prático",
+    "description": "Por que o gato esconde a comida na tigela: guia prático. Se você já viu seu gato terminar de comer — ou mal tocar no prato — e começar a raspar o chão...",
+    "datePublished": "2026-10-13",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/por-que-o-gato-esconde-a-comida-na-tigela",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/por-que-o-gato-esconde-a-comida-na-tigela"
+    },
+    "image": "https://tutorialpet.com.br/imagens/por-que-o-gato-esconde-a-comida-na-tigela.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O gato está dizendo que a comida é ruim quando arranha o chão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nem sempre. Se ele comeu bastante antes de raspar, ele está apenas guardando a sobra. Se ele nem tocou na comida e começou a cavar na hora, aí sim indica rejeição ao sabor, textura, frescor ou ao cheiro do prato."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo colocar um pano sobre a tigela para ajudá-lo a cobrir?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendável. Isso valida a ansiedade em torno da sobra e pode fazer com que o gato passe a puxar outros tecidos da casa para o chão. A conduta correta é simplesmente recolher o comedouro assim que ele terminar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Raspar o chão estraga as unhas do gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dificilmente causa ferimentos, mas se o piso for áspero ou se ele fizer isso com muita força e frequência compulsiva, pode desgastar as almofadas plantares. A remoção rápida do prato resolve o problema na raiz."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Esse comportamento indica alguma doença?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Geralmente não, mas se o animal de repente parar de comer, apresentar náuseas (salivação excessiva antes de cavar) ou tentar enterrar tudo o que vê pela frente de forma obsessiva, leve-o ao médico-veterinário para descartar problemas digestivos, renais ou orais.  ---"
+        }
+      }
+    ]
+  }
+}
