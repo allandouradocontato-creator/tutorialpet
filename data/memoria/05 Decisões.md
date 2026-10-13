@@ -19,3 +19,4 @@
 - 2026-10-09 Otimizador (10:50): Facebook passou a liderar (12 reels, 2.888 views; gato/água 942 em 23h); gancho de pergunta curta de problema do pet segue vencedor; publicação com buraco (nada agendado depois de 08/10 19:35). Aguarda Allan: conferir Agendador, Search Console e ID real do ads.txt.
 - 2026-10-13 Otimizador: propõe pausar o turno B (vídeo) da fábrica e cortar Instagram para 1 post/dia enquanto o limite do Metricool não for resolvido (IG = 4% das views). Aguarda decisão do Allan.
 - 2026-10-13 | Divisão de trabalho: Allan = estratégia e criação; Claude/agentes = toda a parte burocrática. Otimizador mede e propõe como agilizar (nota 11).
+- 2026-10-13 Otimizador (16:30): propõe (1) Guardião retroativo nos 9 pacotes parados e pular vídeo novo enquanto o estoque agendado for ≥5 dias; (2) recriar Conferente, Estrategista e Especialista TikTok com Zernio+Buffer; (3) AdSense/foto por slug/headers/trava do app por token. Aguarda OK do Allan.
