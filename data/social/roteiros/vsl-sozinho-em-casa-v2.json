@@ -1,0 +1,35 @@
+{
+  "slug": "vsl-sozinho-em-casa-v2",
+  "titulo_video": "Sozinho em Casa: protocolo de 14 dias",
+  "gancho_3s": "O vizinho reclamou de novo?",
+  "cenas": [
+    {
+      "narracao": "[concerned] Você chega em casa e o vizinho já avisou: seu cachorro latiu o dia inteiro.",
+      "visual_busca_banco_livre": "sad dog looking at front door waiting",
+      "texto_na_tela": "O vizinho reclamou de novo?"
+    },
+    {
+      "narracao": "TV ligada, petisco, brinquedo... [short pause] você já tentou de tudo, e nada resolveu.",
+      "visual_busca_banco_livre": "dog chewing sofa at home",
+      "texto_na_tela": "TV? Petisco? Brinquedo?"
+    },
+    {
+      "narracao": "[warmly] Calma. Ele não é mal-educado, e você não é um mau tutor. Ele só nunca aprendeu a ficar sozinho.",
+      "visual_busca_banco_livre": "calm dog lying down relaxed at home",
+      "texto_na_tela": "Não é culpa sua. Nem dele."
+    },
+    {
+      "narracao": "[smiling] O Sozinho em Casa é um protocolo de catorze dias: um passo por dia, poucos minutos, sem grito e sem punição. Manual baseado em evidências, e um app pra acompanhar cada etapa.",
+      "visual_busca_banco_livre": "happy dog playing with owner",
+      "texto_na_tela": "14 dias · 1 passo por dia"
+    },
+    {
+      "narracao": "[excited] Hoje, de trinta e sete reais por nove e noventa. Cerca de setenta centavos por dia.",
+      "visual_busca_banco_livre": "happy dog relaxed on sofa",
+      "texto_na_tela": "De R$ 37 por R$ 9,90"
+    }
+  ],
+  "chamada_final": "[smiling] Toque no botão e comece o dia um. Se o caso for grave, procure também um veterinário ou adestrador. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": ["#sozinhoemcasa", "#cachorro", "#ansiedadedeseparacao", "#tutorialpet"],
+  "legenda": "Seu cachorro sofre quando fica sozinho? Protocolo de 14 dias, de R$ 37 por R$ 9,90: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=vsl"
+}

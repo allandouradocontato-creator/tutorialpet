@@ -16,7 +16,7 @@ Regras: sem prova social inventada, sem promessa de cura, sem alegação veterin
 | 4-11 s | Tentei de tudo | "TV ligada, petisco, brinquedo... você já tentou de tudo e nada resolveu." | "TV? Petisco? Brinquedo?" |
 | 11-19 s | Troca de culpa | "Ele não é mal-educado e você não é um mau tutor. Ele só nunca aprendeu a ficar sozinho." | "Não é culpa sua. Nem dele." |
 | 19-33 s | Mecanismo + produto | "O Sozinho em Casa é um protocolo de 14 dias: um passo por dia, poucos minutos, sem grito e sem punição. Manual baseado em evidências e app para acompanhar cada etapa." | "14 dias · 1 passo por dia" |
-| 33-43 s | Preço por dia | "Hoje de R$ 37 por R$ 9,90. Menos de R$ 0,70 por dia." | "R$ 37 → R$ 9,90" |
+| 33-43 s | Preço por dia | "Hoje de R$ 37 por R$ 9,90. Cerca de R$ 0,70 por dia." | "R$ 37 → R$ 9,90" |
 | 43-50 s | CTA + ressalva | "Toque no botão e comece o dia 1. Se o caso for grave, procure também um veterinário ou adestrador." | "Comece o Dia 1" |
 
 Ganchos A/B (só muda 0-4 s): A vizinho (acima); B "Cada vez que você sai, ele sofre. E não é falta de educação."; C "Seu cachorro não precisa sofrer toda vez que você sai."
