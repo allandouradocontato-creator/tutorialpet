@@ -1,49 +1,50 @@
-Dados até 2026-10-09 15:00 (Fortaleza) — Metricool 7123441, 20/09 a agora. 3ª edição (revisão da noite pedida pelo Allan; anterior 09/10 14:45). Horários do Metricool vêm em UTC; convertidos (-3h).
-## 0. O que mudou desde a 1ª edição
-- Nenhum post novo foi publicado desde 08/10 19:35: os números dos posts continuam os mesmos (idades subiram). Novo: Instagram agora mostra "taxa de views 3s+" (IGRE28), FB mostra tempo médio assistido (FBRE13); TikTok % assistido/Para Você segue vazio.
-- Regra nova encontrada: o Instagram limitou a 5 hashtags por post/Reels em 18/12/2025 (antes 30) e diz que hashtags genéricas (#explorar #reels #viral) não ajudam [tecnoblog.net/noticias/instagram-limita-numero-de-hashtags-em-posts]. Nossos 5 estão no limite.
-- REVISÃO 09/10 (Allan): a grade passou a incluir a NOITE como braço de teste A/B de 14 dias (seção 2). Agenda: o Reels do IG de hoje deixou de ser rascunho (autoPublish=true). Hoje: gato plantas tóxicas FB 17:00, TikTok 18:20, IG 19:00; gato água FB 20:30, TikTok 20:00, IG 21:00.
-## 1. Nossos números (TUDO amostra pequena; contas novas)
-| Post (Fortaleza, idade) | TikTok views/curt | Facebook views/reações/tempo | Instagram alcance/curt (views 3s+) |
-|---|---|---|---|
-| Gato água #2, 08/10 19:35 (19h, parcial) | — | 728 / 3 / 4s | 32 / 0 (34%) |
-| Gato água #1, 08/10 12:06 (27h, parcial) | 25 / 3 | 942 / 12 / 5s | 20 / 0 (25%) |
-| Gato caixa de areia, 07/10 18:50 (44h, parcial) | — | 130 / 6 / 4s | 76 / 4, 1 salvo, 1 compart. (37%) |
-| Abertura "Com quantos anos…", 07/10 18:40 (44h, parcial) | 105 / 3 | 56 / 4 / 3s | 0 / 0 |
-| Banho cachorro, 07/10 15:04-16:10 (46-48h, parcial) | 766 / 39 | 28 / 2 / 6s | 5 / 0 |
-| Cachorro sozinho, 07/10 12:31 (50h) | — | 325 / 8 / 9s | 5 / 0 (40%) |
-| Filhote sai na rua, 06/10 16:30 (70h) | — | 220 / 2 / 4s | 4 / 0 (80%) |
-| 12 posts antigos 20-30/09 (foto/link, legenda com link e preço) | — | 0-221 | 0-1 |
-- Medianas (posts de vídeo desde 06/10): TikTok 105 views (n=3); FB 220 (n=7); IG alcance 5 (n=7). Comentários de terceiros = 0 nas 3 redes (o "1" do IG/FB é o nosso 1º comentário). IG: 0 seguidores ganhos (IGEV43 vazio), alcance da conta 114 no dia 08/10.
-- O que apareceu (n pequeno, sem causa provada): o mesmo tema rende diferente por rede (banho = TikTok 766 mas FB 28; gato água = FB 942/728 mas TikTok 25 e IG 20-32); gancho abstrato foi o pior nas 3; legenda com link e preço (28-30/09) ficou em 0-221 no FB e 0-1 no IG; tempo médio assistido no FB é 3-9s de ~40s e no IG 4-8s: o vídeo perde gente nos primeiros segundos nas duas redes.
-- Sem dado: TikTok % assistido/Para Você (TKPO13/15/16 vazios), retenção IG (IGRE27 vazia), alcance de Reels FB (vem 0), cliques do 1º comentário (sem UTM por rede), horário do IG.
-## 2. Grade de horários — REVISADA 09/10 (pedido do Allan: incluir a noite). Fortaleza.
+Dados até 2026-10-13 10:30 (Fortaleza) — Metricool 7123441, 20/09 a agora; horários do Metricool vêm em UTC, convertidos (-3h). 4ª edição (anterior 09/10 15:00).
+ALERTA: desde 10/10 11:00 NADA foi publicado: 13 posts (FB/IG/TikTok de 10/10 IG, 11/10, 12/10 e hoje FB 10:00 e TikTok 10:20) estão em ERRO "You have reached your Metricool account limit" (getScheduledPosts). Hoje o IG 11:00 ainda consta PENDING e deve falhar igual. Causa provável (fonte: help.metricool.com, plano grátis): 20 posts publicados por mês, 1 marca; planos pagos sem teto mensal. Push enviado ao Allan às 10:25.
+## 0. O que mudou desde 09/10
+- Plano A/B de horários (10-23/10) ficou sem pares: só 09/10 e 10/10 saíram. Recomendo reiniciar a contagem quando o Metricool voltar (decisão 1).
+- Números amadureceram: TikTok mediana 294 views (n=6; era 105, n=3), FB mediana 319 (n=9; era 220), IG alcance mediana 22 (n=9; era 5). Melhor IG de todos: água 09/10 21:02, alcance 95 (noite).
+- Fontes novas: Metricool PT (jul/2026) recomenda 3 a 5 hashtags por post [metricool.com/pt/hashtags-no-instagram]; limite do plano grátis acima.
+## 1. Nossos números (amostra pequena; contas novas; idade em horas até 13/10 10:30)
+| Post (Fortaleza) · tema | Idade | TikTok views/curt/com/shares | FB views/reações | IG alcance/curt/salvos/shares · tempo médio |
+|---|---|---|---|---|
+| 10/10 10:03 areia gato (FB 10:03, TT 10:20; IG falhou) | 72h | 190/10/0/0 | 271/1 | — (não saiu) |
+| 09/10 21:02 água gato (noite) | 61h | 281/19/0/0 (20:03) | 488/6 (20:30) | 95/2/0/0 · 3,1s |
+| 09/10 19:03 plantas gato (noite) | 63h | 306/19/1/2 (18:20) | 319/2 (17:02) | 25/0/0/0 · 3,0s |
+| 08/10 19:36 água gato #2 (noite) | 87h | — | 747/5 | 44/0/0/0 · 4,0s |
+| 08/10 12:08 água gato #1 (dia) | 94h | 577/30/1/0 | 949/12 | 22/0/0/0 · 4,5s |
+| 07/10 18:52 caixa de areia gato (noite) | 112h | — | 137/6 | 76/4/1/1 · 4,4s |
+| 07/10 18:42 abertura emocional | 112h | 131/3/0/0 | 58/4 | 0 |
+| 07/10 15:05 banho cachorro | 115h | 848/43/0/1 | 30/2 | 5/0 · 4,9s |
+| 07/10 12:32 cachorro sozinho | 118h | — | 327/8 | 5/0 · 6,2s |
+- Sem recente (<48h): nenhum post novo. Posts antigos 20-30/09 (foto/link/preço) e 06/10 (com preço e link no texto): FB 0-221, IG 0-4.
+- O que funcionou (sem causa provada): cachorro com pergunta de dor no TikTok (banho 848); gato água no FB (949/747) e no IG à noite (95, 76, 44). O que não: gancho abstrato (131 TikTok, 58 FB, 0 IG); IG de dia (4-22). TikTok: pergunta de dor 577-848 > alerta 306 > "esse erro" 190.
+- Tema: desde 08/10 só gato (6 vídeos seguidos), cachorro (campeão no TikTok) sumiu. Tempo médio assistido: FB 3-9s e IG 3-6s de ~40-50s: perde gente no 1º segundo. Comentários de terceiros: 0 nas 3 redes (os "1" são o nosso 1º comentário).
+- Sem dado: TikTok % assistido e Para Você (TKPO13/15/16 vazios), retenção IG (IGRE27 vazia), alcance de Reels no FB (vem 0; uso views), cliques do 1º comentário, seguidores ganhos.
+## 2. Horários (Metricool getBestTimeToPost, 14-20/10, Fortaleza; escalonado, nunca 3 redes juntas)
 | Dia | Facebook | TikTok | Instagram |
 |---|---|---|---|
-| todos os dias (teste A/B, ver abaixo) | manhã 10:00 / noite 19:00 | manhã 10:20 / noite 20:20 | manhã 11:00 / noite 20:00 |
-- DADO NOSSO (Metricool, só FB e TikTok; IG vem zerado = sem dado): FB pico 10h-12h (seg-qua ~15k), 2º pico 17-18h (~80% do pico), 19h ~70-85%, 20h ~60%. TikTok pico 10h e 18h (qua/qui ~1.4k), 19h ~70%, 20h ~60%, 21h ~45%. A origem do cálculo do Metricool não é documentada; trate como indício.
-- DADO NOSSO (posts reais, confundido com tema/gancho, n minúsculo): noite (18:40-19:35) FB 56/130/728 views, IG alcance 76/32/0, TikTok 105; dia (12:06-16:30) FB 942/325/220/28, IG 20/5/5/4, TikTok 766 e 25. IG: 3 melhores alcances saíram à noite (76, 32) contra 5-20 de dia; FB e TikTok: o dia ganhou, mas o TikTok de 16h tinha o gancho forte e o da noite era o gancho abstrato. Conclusão: NÃO dá para decidir com isso.
-- BENCHMARK (outros públicos, não é nosso): Metricool (estudo de 11/06/2026, 2,3 mi posts, TikTok, fuso e país não informados): pico 19h-20h todos os dias, 6-8 PM concentra as views [metricool.com/best-time-post-tiktok]. Metricool PT (29/07/2026; IG 24 mi posts/375 mil contas; TikTok 2,3 mi; fuso/país não informados): IG melhor às 20h, janela 18-21h; TikTok 18-21h, pico 20h; Facebook posts seg/qua 10-14h, Reels sex/sáb à meia-noite [metricool.com/pt/melhor-horario-para-postar-nas-redes-sociais]. Loggi (09/02/2026, "Brasil", fuso de Brasília, método não informado): TikTok noite forte (seg 18/20/22h, qua 17/19/21h, sáb-dom 19h; após 22h cai) [loggi.com/conteudos/empreendedorismo/melhores-horarios-postar-no-tiktok]. Reportei: sem dado do Brasil (cita Hootsuite/SocialPilot de outros países), noite só TikTok 19-23h [reportei.com/melhores-horarios-para-postar]. Sprout, Rock Content e Hootsuite: páginas não abriram (listagem ou permissão), não usados. Os benchmarks discordam entre si por dia da semana (Metricool: TikTok seg/ter, evitar sex/sáb; Loggi: qua), então a grade não varia por dia até termos dado nosso.
-- Leitura: IG e TikTok têm apoio externo para a noite (18-21h); Facebook tem apoio externo para o dia (10-14h) e nosso Metricool dá ~70-85% às 18-19h. A noite entra como braço de teste nas 3 redes. Nunca as 3 redes na mesma hora; sáb/dom seguem a mesma grade.
-- PLANO A/B (14 dias, 10-23/10): por rede, 1 vídeo de manhã e 1 à noite por dia (14 pares). Pares do mesmo tipo (mesmo animal e molde de gancho; artigos diferentes, nunca repetir o mesmo vídeo); a cada dia troca quem vai de manhã e quem vai à noite. Medir no mesmo relógio (24h e 48h): TikTok views, curtidas/views, compartilhamentos; FB views, tempo assistido, reações; IG alcance, taxa de views 3s+. Decisão no dia 14: a noite vence se ganhar em ≥9 dos 14 pares E a mediana for ≥1,5× e a diferença passar de 100 views (FB/TikTok) ou 20 de alcance (IG); empate = manter os 2 horários e testar 12:00/18:00. Parar antes só se um braço render 0 em 5 pares seguidos. Só o horário muda; CTA e legenda ficam fixos.
-## 3. Hashtags e legenda (fontes lidas hoje)
-- Quantidade: Instagram máx. 5 (limite oficial) e poucas, específicas; TikTok 3-5, #fyp/#viral não dão impulso [go-viral.app, cita o suporte do TikTok; o "3-5" não tem link oficial]; Facebook 3 (Metricool 29/06/2026; um blog diz 3-5, sem fonte oficial) [metadatareactor.com/blog/facebook-engagement-guide]. Estrutura: 1 de marca + 1 do tema + 1-2 de nicho + 1 ampla (só IG/TikTok).
-- Conjuntos por tema no YAML (gato, cachorro, filhote, ansiedade de separação, saúde/alimentação). Ampla de pet no IG vem de dado antigo (Buzzmonitor, abr/2024): sem dado novo de hashtag por página.
-- Página pet BR de referência lida: Petlove (@petlovebrasil, 1,9M, ER 5,34%, 67 comentários/post, HypeAuditor out/2026), mas HypeAuditor esconde hashtags e legendas (relatório pago) e é marca grande: NÃO serve de molde de legenda; sem lista de páginas modelo.
-- Legenda: gancho (a pergunta do vídeo) → 1 linha de valor → pergunta específica → CTA fixo "Confira o artigo completo em tutorialpet.com.br". Link clicável só no 1º comentário. Evitar "curta/compartilhe/marque" como pedido principal (pode contar como isca de engajamento; fonte não oficial). 3 modelos por rede no YAML.
+| seg e ter | 10:00 · 12:00 | 10:20 · 18:20 | sem dado: teste 11:40 · 20:00 |
+| qua e qui | 10:00 · 12:00 | 10:20 · 18:20 | sem dado: teste 11:40 · 20:00 |
+| sex | 10:00 · 12:00 | 10:20 · 12:20 | sem dado: teste 11:40 · 20:00 |
+| sáb | 10:00 · 12:00 | 10:20 · 12:20 | sem dado: teste 11:40 · 20:00 |
+| dom | 10:00 · 18:00 | 10:20 · 12:20 | sem dado: teste 11:40 · 20:00 |
+- Instagram veio zerado no Metricool = "sem dado"; os 2 horários de teste (11:40 e 20:00) seguem o benchmark Metricool PT (IG pico 20h) e nosso melhor alcance (21:02, 95). Trocar depois de 6 posts por horário.
+- FB: 10h e 12h têm quase o mesmo valor (seg 15,2k e 14,8k); 18h ~80% do pico (seg 12,5k). TikTok: 10h é o pico todo dia; 12h e 18h empatam (qua 1.359 vs 1.386).
+- A grade do A/B aprovado em 09/10 (manhã e noite) continua no YAML (chave teste_horarios); a coluna acima é o dado novo do Metricool. Não decidir antes de 14 pares completos.
+## 3. Hashtags e legenda
+- Quantidade: IG 3-5 (Metricool PT jul/2026: 3 a 5, limite técnico 30; Tecnoblog dez/2025 disse 5 como limite; ficamos em ≤5), TikTok 3-5, FB 3 (fontes na edição anterior, não oficiais).
+- Amplas de pet BR da lista Metricool (jul/2026): #petsbrasil, #gatosdobrasil, #cachorrodobrasil, #vidadepet, #petcare, #adestramento. Entraram no YAML. Páginas pet BR de bom engajamento: sem fonte aberta (HypeAuditor esconde legendas); sem modelo copiado.
+- Modelo fixo: gancho (pergunta de dor concreta) → 1 linha de valor → pergunta de interação → "Confira o artigo completo em tutorialpet.com.br" → hashtags. 3 modelos por rede no YAML. Link só no 1º comentário.
 ## 4. Interação e isca digital
-- Perguntas por tema: 5 por tema no YAML (específicas, de resposta curta; ex.: "Seu gato prefere água corrente ou da tigela?").
-- Instagram (regra OFICIAL lida hoje): resposta privada ao comentário em até 7 dias (Reels/posts), 1 mensagem por comentário, a conversa só continua se a pessoa responder (aí vale 24h); precisa de app com permissões instagram_business_manage_messages [developers.secure.facebook.com/docs/instagram/messaging-api/private-replies]. Se a revisão de app é exigida: não consta na página (a ferramenta de terceiros cuida; confirmar).
-- TikTok: DM automática só por API oficial, iniciada pela pessoa, janela de 48h, sem suporte garantido no Brasil; fonte é blog de fornecedor (InstantDM, ago/2026), não a regra oficial. Facebook: não pesquisado. LGPD (planalto.gov.br): não abriu, ficou sem fonte; por isso sem coletar e-mail na fase 1.
-- Grátis para testar: ManyChat Free, 25 contatos ativos/mês e 4 automações (lido 09/10); Pro US$29/mês (2.500 contatos): pagar só quando passar de 25 contatos/mês e com o fluxo medido.
-- Passo a passo (IG): vídeo com CTA falado "comente CHECKLIST" → resposta no comentário + 1 DM com o link do checklist (página do blog) → só se a pessoa responder, 1 linha sobre o Sozinho em Casa. Checklist em 1 página por tema, sem alegação de saúde, "consulte o veterinário".
-## 5. Painel semanal (metas de 2 semanas = hipóteses a partir das medianas atuais, não promessa)
-- TikTok: views 24h mediana ≥200 (hoje 105); curtidas/views ≥5%; compartilhamentos ≥1 a cada 2 posts; comentários de terceiros ≥1/post; % assistido (quando o Metricool preencher); seguidores novos/semana.
-- Facebook: views 24h mediana ≥300 (hoje 220); reações/views ≥1%; tempo médio assistido ≥8s (hoje 3-9s); comentários de terceiros ≥1/semana; compartilhamentos.
-- Instagram: alcance mediana ≥30 (hoje 5); taxa de views 3s+ ≥50% (hoje 25-40%); curtidas ≥2/post; salvamentos+compartilhamentos ≥1/semana; comentários de terceiros ≥1/semana; seguidores ganhos.
-- Todas: cliques do 1º comentário por rede (UTM utm_source=facebook|instagram|tiktok).
-- Troca: 1 fator por vez; N=6 posts por variação (horário, gancho), N=8 (CTA); trocar só se a mediana for ≥1,5× melhor E a diferença passar de 100 views (FB/TikTok) ou 20 de alcance (IG), com gato/cachorro equilibrados. Com ~2 vídeos/dia por rede, 6 posts levam ~3 dias por variação. Posts <48h entram como parciais.
+- 5 perguntas por tema no YAML (inalteradas). Meta: ≥1 comentário de terceiro por post em 2 semanas.
+- Regras (terceiro, messengerbot.app, 2026): resposta privada a comentário = 1 mensagem por comentário, prazo de 7 dias, janela de 24h só abre se a pessoa interagir; sem sequência de envios. A página oficial da Meta (lida 09/10) confirma 7 dias e 1 mensagem. TikTok: não automatizar (sem fonte oficial). FB: não pesquisado.
+- Piloto IG grátis: ManyChat Free (25 contatos/mês), "comente CHECKLIST", entrega = link do checklist no blog, sem e-mail; Sozinho em Casa em 1 linha só depois da resposta. Pagar só depois de passar de 25 contatos/mês.
+## 5. Painel semanal (metas de 2 semanas = hipóteses, não promessa)
+- TikTok: views em 72h mediana ≥350 (hoje 294); curtidas/views ≥5%; shares ≥1 a cada 2 posts; comentários de terceiros ≥1/post; seguidores novos.
+- Facebook: views 72h mediana ≥400 (hoje 319); reações/views ≥1%; tempo médio ≥8s (hoje 3-9s); comentários de terceiros ≥1/semana.
+- Instagram: alcance mediana ≥30 (hoje 22); curtidas ≥2/post; salvos+shares ≥1/semana; tempo médio ≥5s; seguidores ganhos.
+- Todas: posts publicados vs agendados (erros = 0) e cliques do 1º comentário (UTM por rede). Troca de horário/gancho/CTA: N=6 posts por variação (CTA 8), mediana ≥1,5× melhor E diferença >100 views (FB/TikTok) ou >20 de alcance (IG); 1 fator por vez; <48h = parcial.
 ## 6. Decisões do Allan (máx. 3)
-1. Piloto de isca digital só no Instagram, ManyChat grátis, palavra "CHECKLIST", entrega por link do blog, sem coletar e-mail. Motivo: a regra oficial do IG permite; o grátis cobre 25 contatos; TikTok/FB só depois de checar a regra.
-2. Textos de hoje: tirar "link no perfil" do TikTok (sem conta Comercial Verificada não há link) e, em vídeo de gato, trocar o app de cachorro do 1º comentário só pelo link do artigo. Motivo: regra (f) e CTA que leva a lugar nenhum.
-3. Hoje às 20:00-21:00 o gato água sai pela 3ª vez em 2 dias (artigo já postado 08/10 12:06 e 19:35). O horário noturno em si está dentro do teste; o problema é a repetição. Recomendo trocar por tema de cachorro (banho/sozinho) e equilibrar gato/cachorro. Motivo: repetição derruba alcance e o cachorro foi o melhor no TikTok (n=1). Também: aprovar o plano A/B da seção 2.
+1. URGENTE, Metricool: plano grátis (20 posts/mês) estourou e nada sai desde 10/10. Recomendo assinar o plano pago mais barato (sem teto mensal; preço não consegui abrir, ver na página de preços) porque a fábrica toda agenda e mede por ele; alternativa: publicar nativo no app e esperar o dia 1º. Depois, reagendar os 13 posts parados (ou descartar os velhos).
+2. Piloto da isca digital no Instagram (ManyChat grátis, "CHECKLIST", sem e-mail): aprovar ou não. Motivo: regra Meta permite; custo zero; só mede interação se houver posts saindo.
+3. Retomada: tirar "link no perfil" das legendas do TikTok (link no perfil não confirmado) e intercalar cachorro (campeão banho 848) com gato; reiniciar a contagem do A/B no 1º dia em que os posts saírem.

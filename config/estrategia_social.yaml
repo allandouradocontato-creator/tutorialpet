@@ -1,8 +1,15 @@
-# Estratégia social (Estrategista de Redes Sociais, 09/10/2026). Dados até 2026-10-09 14:45 (Fortaleza).
+# Estratégia social (Estrategista de Redes Sociais, 13/10/2026). Dados até 2026-10-13 10:30 (Fortaleza).
 # Para Agendador de Posts e Publicador. Só recomendação: nada aqui publica ou agenda sozinho.
 # Amostra pequena (contas novas, 0-942 views). Horários em America/Fortaleza. Fonte dos horários: Metricool getBestTimeToPostByNetwork (10-16/10).
-versao: 3
-atualizado_em: "2026-10-09"
+versao: 4
+atualizado_em: "2026-10-13"
+status_publicacao:
+  alerta: "Desde 10/10 11:00 todos os posts agendados estao em ERRO 'You have reached your Metricool account limit' (plano gratis = 20 posts/mes, help.metricool.com). Agendador/Publicador: conferir getScheduledPosts (status ERROR) antes de agendar mais; nao agendar ate o Allan decidir."
+  teste_horarios_ab: "sem pares completos desde 11/10; reiniciar a contagem quando os posts voltarem a sair"
+grade_metricool_14a20_out:   # getBestTimeToPost, Fortaleza; Instagram veio zerado = sem dado (teste 11:40 e 20:00); nao substitui o A/B ate haver 14 pares
+  facebook: {seg: ["10:00","12:00"], ter: ["10:00","12:00"], qua: ["10:00","12:00"], qui: ["10:00","12:00"], sex: ["10:00","12:00"], sab: ["10:00","12:00"], dom: ["10:00","18:00"]}
+  tiktok: {seg: ["10:20","18:20"], ter: ["10:20","18:20"], qua: ["10:20","18:20"], qui: ["10:20","18:20"], sex: ["10:20","12:20"], sab: ["10:20","12:20"], dom: ["10:20","12:20"]}
+  instagram: {todos: ["11:40","20:00"], nota: "sem dado; melhor alcance nosso 95 as 21:02; trocar apos 6 posts por horario"}
 horarios:
   regra: "REVISADO 09/10 (pedido do Allan: incluir a noite). Cada rede tem 2 slots: manha e noite, MESMOS todos os dias (benchmarks discordam por dia da semana). Nunca as 3 redes na mesma hora. Em teste A/B de 14 dias (10-23/10): ver teste_horarios. Nao vale como conclusao."
   facebook: {manha: "10:00", noite: "19:00"}
@@ -22,14 +29,15 @@ teste_horarios:
 hashtags:
   quantidade: {instagram: "3-5 (máximo 5 = limite oficial do Instagram desde 18/12/2025)", tiktok: "3-5 (#fyp/#viral não dão impulso)", facebook: "3 (Metricool 29/06/2026; fonte não oficial)"}
   estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla só IG/TikTok); nunca genéricas tipo #explorar #reels #viral #fyp"
-  gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]
+  gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]   # troca opcional de 1 por ampla BR: #gatosdobrasil
   cachorro: ["#cachorro", "#cachorros", "#cuidadospet", "#dicaspet", "#tutorialpet"]
   filhote: ["#filhotes", "#filhotedecachorro", "#primeirospassos", "#cachorros", "#tutorialpet"]
   ansiedade_separacao: ["#ansiedadedeseparacao", "#comportamentocanino", "#cachorrosozinho", "#cachorro", "#tutorialpet"]
   saude_alimentacao: ["#saudepet", "#alimentacaopet", "#cuidadospet", "#pets", "#tutorialpet"]
+  amplas_br_metricool_jul2026: ["#petsbrasil", "#gatosdobrasil", "#cachorrodobrasil", "#vidadepet", "#petcare", "#adestramento"]   # metricool.com/pt/hashtags-no-instagram: recomenda 3-5 por post
   nota: "amplas (#pet #pets #cachorro #cachorros) vêm de Buzzmonitor abr/2024; nicho vem do nosso histórico. Usar 1-2 amplas + 2-3 nicho; no Facebook só 3. Hashtag do animal tem de bater com o tema do artigo."
 cta_artigo: "Confira o artigo completo em tutorialpet.com.br"
-cta_regras: "Link clicável só no PRIMEIRO COMENTÁRIO (FB/IG). TikTok: digitar o domínio sem prometer 'link na bio' até a conta Comercial Verificada. Sem alegação médica; saúde = consulte o veterinário."
+cta_regras: "Link clicável só no PRIMEIRO COMENTÁRIO (FB/IG). TikTok: digitar o domínio e NAO escrever 'link no perfil/na bio' (link no perfil nao confirmado). Sem alegação médica; saúde = consulte o veterinário."
 modelos_legenda:   # {gancho}=pergunta do vídeo; {valor}=1 linha de utilidade; {pergunta}=ver perguntas_interacao
   facebook:
     - "{gancho}\n{valor}\n{pergunta}\n{cta_artigo}\n{hashtags_ate_3}"
@@ -86,7 +94,7 @@ regras_teste:
   trocar_se: "mediana de views 24h da variação >= 1,5x a da atual E diferença > 100 views (FB/TikTok) ou > 20 de alcance (IG), com tema (gato/cachorro) equilibrado; senão manter e continuar medindo"
   posts_recentes: "menos de 48h entram como parciais, nunca ficam de fora"
   metas_2_semanas:   # hipóteses a partir dos números de 09/10, não promessas
-    tiktok: {views_24h_mediana: 200, curtidas_por_view: 0.05, comentarios_terceiros_por_post: 1}   # hoje 105 (n=3)
-    facebook: {views_24h_mediana: 300, reacoes_por_view: 0.01, tempo_medio_assistido_s: 8, comentarios_terceiros_por_semana: 1}   # hoje 220, 3-9s (n=7)
-    instagram: {alcance_mediana: 30, taxa_views_3s: 0.5, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}   # hoje 5, 25-40% (n=7)
+    tiktok: {views_72h_mediana: 350, curtidas_por_view: 0.05, comentarios_terceiros_por_post: 1}   # hoje 294 (n=6, 13/10)
+    facebook: {views_72h_mediana: 400, reacoes_por_view: 0.01, tempo_medio_assistido_s: 8, comentarios_terceiros_por_semana: 1}   # hoje 319, 3-9s (n=9, 13/10)
+    instagram: {alcance_mediana: 30, tempo_medio_s: 5, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}   # hoje 22, 3-6s (n=9, 13/10)
   utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1º comentário"
