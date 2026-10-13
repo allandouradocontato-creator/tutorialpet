@@ -20,3 +20,4 @@
 - 2026-10-13 Otimizador: propõe pausar o turno B (vídeo) da fábrica e cortar Instagram para 1 post/dia enquanto o limite do Metricool não for resolvido (IG = 4% das views). Aguarda decisão do Allan.
 - 2026-10-13 | Divisão de trabalho: Allan = estratégia e criação; Claude/agentes = toda a parte burocrática. Otimizador mede e propõe como agilizar (nota 11).
 - 2026-10-13 Otimizador (16:30): propõe (1) Guardião retroativo nos 9 pacotes parados e pular vídeo novo enquanto o estoque agendado for ≥5 dias; (2) recriar Conferente, Estrategista e Especialista TikTok com Zernio+Buffer; (3) AdSense/foto por slug/headers/trava do app por token. Aguarda OK do Allan.
+- 2026-10-13 Otimizador (rodada 16:41): propõe ligar aprovação de artigo à aprovação do pacote (Agendador/Conferente), recriar 3 rotinas com Zernio+Buffer e pular vídeo enquanto estoque ≥5 dias. Aguarda OK do Allan.
