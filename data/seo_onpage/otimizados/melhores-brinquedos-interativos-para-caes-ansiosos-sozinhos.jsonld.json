@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Melhores brinquedos interativos para cães ansiosos sozinhos: guia prático",
+    "description": "Melhores brinquedos interativos para cães ansiosos sozinhos: guia prático. Se você já voltou para casa e encontrou o sofá destruído ou os vizinhos...",
+    "datePublished": "2026-10-11",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso deixar meu cão sozinho com qualquer brinquedo recheável?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. É preciso escolher o tamanho correto para o porte do animal e materiais atóxicos e altamente resistentes para evitar que ele engula pedaços. Confirme sempre a segurança do produto com o médico-veterinário do pet.  * **O que colocar dentro do brinquedo interativo?**   Ração seca, pasta de frutas permitidas, patê ou sachê. Evite alimentos gordurosos em excesso e verifique listas de itens perigosos para garantir que nada faz mal à saúde dele.  * **O cão perdeu o interesse no brinquedo, o que fazer?**   Isso acontece se o desafio for fácil demais ou se o objeto ficar sempre disponível. Guarde o brinquedo e ofereça apenas nos momentos em que você realmente for sair de casa.  * **Meu cão ignora o brinquedo quando estou fora, por quê?**   Provavelmente o nível de ansiedade dele é alto demais naquele momento, bloqueando o interesse por comida. Nesses casos, o treino de dessensibilização à saída precisa ser ajustado com calma."
+        }
+      }
+    ]
+  }
+}

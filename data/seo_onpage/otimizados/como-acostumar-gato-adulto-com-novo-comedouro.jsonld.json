@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como acostumar gato adulto com novo comedouro: guia prático",
+    "description": "Veja como acostumar gato adulto com novo comedouro de forma segura e sem estresse. Passo a passo prático para proteger a rotina do felino.",
+    "datePublished": "2026-10-10",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-acostumar-gato-adulto-com-novo-comedouro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-acostumar-gato-adulto-com-novo-comedouro"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-acostumar-gato-adulto-com-novo-comedouro.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto tempo costuma demorar para um gato aceitar o comedouro novo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, leva de 3 a 7 dias em um processo gradual, mas gatos mais medrosos ou idosos podem precisar de até duas semanas. Respeite sempre o tempo do animal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Por que meu gato tem medo da tigela de inox?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O aço inox reflete sombras e emite ruídos metálicos quando a coleira encosta ou quando a ração bate no fundo, assustando felinos mais sensíveis a barulhos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comedouro elevado é realmente necessário para gato adulto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma ser muito benéfico, pois reduz a compressão no esôfago e poupa as articulações da coluna e dos membros anteriores, principalmente em animais adultos ou idosos. Confirme a altura ideal com o veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso lavar o pote novo com detergente perfumado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O olfato dos gatos é apuradíssimo e o cheiro residual de sabão cítrico ou floral no fundo da tigela causa repulsa imediata à comida. Use sempre sabão neutro e enxágue muito bem."
+        }
+      }
+    ]
+  }
+}

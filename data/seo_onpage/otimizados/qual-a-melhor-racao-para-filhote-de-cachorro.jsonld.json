@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Qual a melhor ração para filhote de cachorro: guia prático",
+    "description": "Descubra qual a melhor ração para filhote de cachorro com um guia prático, direto ao ponto e focado na saúde do seu novo companheiro.",
+    "datePublished": "2026-10-10",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/qual-a-melhor-racao-para-filhote-de-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/qual-a-melhor-racao-para-filhote-de-cachorro"
+    },
+    "image": "https://tutorialpet.com.br/imagens/qual-a-melhor-racao-para-filhote-de-cachorro.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Até quantos meses devo dar ração de filhote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, cães de pequeno e médio porte comem ração de filhote até os 10 ou 12 meses. Já raças grandes e gigantes costumam fazer essa transição mais tarde, entre 15 e 24 meses. Confirme sempre o momento da troca com o médico-veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso misturar água morna na ração seca?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, isso costuma ajudar bastante na fase do desmame ou quando os dentes de leite estão caindo. Apenas não deixe a mistura úmida no prato por mais de 30 minutos, pois ela azeda rápido."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ração com grãos ou ração grain free: qual é a melhor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende de cada animal. Cães saudáveis digerem bem grãos de qualidade, como arroz integral e aveia. Rações sem grãos são úteis caso o cão tenha alguma sensibilidade específica, algo que só o veterinário pode avaliar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se a ração fez bem para o meu cão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Olhe para o próprio animal. Fezes firmes e fáceis de recolher, pelos brilhantes, disposição para brincar e ganho de peso constante na balança são os melhores sinais de que o alimento está cumprindo o papel.  ---"
+        }
+      }
+    ]
+  }
+}
