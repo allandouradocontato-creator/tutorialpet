@@ -1,6 +1,6 @@
 {
   "slug": "como-evitar-que-o-filhote-chore-a-noite",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-13T11:33:19+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-evitar-que-o-filhote-chore-a-noite",
   "guardiao": {
@@ -17,5 +17,10 @@
     ],
     "em": "2026-10-13T11:36:17+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "metricool_ids": {
+    "facebook": 394858074,
+    "tiktok": 394858116,
+    "instagram": 394858083
+  }
 }
