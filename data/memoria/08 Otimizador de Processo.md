@@ -11,3 +11,5 @@ Toda rodada:
 7. Atualizar as notas ao final (decisões, erros, pendências).
 
 Regra de dados frescos (08/10/2026): o Otimizador tem que estar adiantado, nunca atrasado. Primeira linha do relatório: 'Dados até AAAA-MM-DD HH:MM'. Métricas do Metricool vão de 20/09 até AGORA, incluindo posts com menos de 48h (marcados 'recente (parcial)'), uma rede por vez (IGRE/FBRE/TKPO). Nunca afirmar 'rede sem posts' sem conferir no Metricool; antes de commitar, conferir se algum número contradiz o Metricool de agora.
+
+Atualização 13/10/2026: ler também [[11 Operação e agilidade]]. Medir toda semana quantas tarefas burocráticas foram devolvidas ao Allan (meta zero; regra: ele só decide estratégia e criação) e propor como agilizar. Atenção: os posts agora saem por Zernio (Facebook/Instagram) e Buffer (TikTok), não mais pelo Metricool; sem leitura dessas fontes o dado de desempenho fica incompleto e deve ser marcado assim.

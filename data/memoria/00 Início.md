@@ -11,5 +11,6 @@ Memória compartilhada entre Claude, Falcão e Allan. Cada nota = um assunto. Le
 - [[08 Otimizador de Processo]]
 - [[09 Mapa da fábrica]]
 - [[10 Política de modelos]]
+- [[11 Operação e agilidade]]
 
 Regra de ouro: conferir a informação na fonte antes de repassar; erro de agente = falha de processo (Auditor corrige).

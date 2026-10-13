@@ -8,3 +8,4 @@
 - Toda conversa termina lembrando o foco e as rotinas de terça e sexta.
 - Sonar dois bips ao terminar fase (bip no PC).
 - ESPELHAR, NÃO INVENTAR (08/10/2026): vídeo novo copia a estrutura de um vídeo que já funcionou (nosso campeão ou referência viral) em vez de criar do zero. Hoje o modelo é o campeão do nosso perfil: abre com um problema concreto em pergunta ('Seu cachorro tomou banho ontem e já está com cheirinho forte?'), 6 cenas, ~700 caracteres de fala. Gancho abstrato/emocional ('Com quantos anos você descobriu...') está pausado. Agentes que pesquisam (caçadores, Especialista TikTok) entregam fichas de vídeos de referência para espelhar.
+- 13/10/2026: o Allan decide só estratégia e criação; toda burocracia (uploads, cadastros, configurações em plataformas) é feita por Claude/agentes. Só autorizações pontuais voltam para ele.
