@@ -6,6 +6,10 @@ Dados até 2026-10-13 16:41 (Fortaleza) — Zernio (FB/IG), Buffer (TikTok/estoq
 - Conferente (07:47), Estrategista e Especialista TikTok continuam SÓ com Metricool+Windsor (sem Zernio/Buffer). Conferente de amanhã vai contar estoque às cegas e pode disparar fábrica (~538 créditos) sem necessidade. Só Agendador e Otimizador têm Zernio+Buffer.
 - Erros de publicação: nenhum (posts_list_failed vazio). Posts de teste ("Teste Buffer" TikTok, "Teste Zernio" FB+IG) seguem públicos, duplicando o real das 11:20.
 
+## Rodada extra 16:42 (pedido do Allan): por que só 3 vídeos e nada hoje à noite
+- Divergência: "10 vídeos em 5 dias" era a META do adendo do Agendador, não o agendado. Em 13/10 11:17 só 3 pacotes estavam prontos (ração, brinquedos, enxoval) e foram agendados; dos 16 pacotes, 8 estão "aguardando_revisao" (sem Guardião) e 1 aprovado sem artigo no ar. Hoje à noite (FB 19:00/TikTok 20:20) ficou vazio porque o pacote do turno B não existia a tempo e o aprovado das 13:12 travou no 404. Zernio e Buffer reconferidos agora: iguais ao que o Allan vê (3 + 3).
+- Correção: (1) publicar o artigo de hoje e deixar o Agendador agendar o pacote (slot livre mais próximo); (2) rodar Guardião retroativo nos 8 parados; (3) Conferente/Estrategista/Especialista TikTok confirmados só com Metricool+Windsor — recriar com Zernio+Buffer; nota 11 corrigida.
+
 ## O que está bom
 - Fábrica 5/5 verdes (#39–#43): só #40 (17m30) e #41 (16m) produziram; #39/#42/#43 saíram em ~8 s pela trava de 4 h (economia). Custo hoje ≈ 2 × 538 = ~1.076 créditos ElevenLabs. publicar_blog 5/5 verdes (45 s; 5 artigos aprovados hoje). lote 5/5 verdes (último 08/10).
 - Guardião aprovou o pacote de hoje (gancho abertura_pare, 16 clipes inéditos, eleven_v4). Publicação normalizada desde 13/10 11:20 após 73 h parada. Agendador saudável e Metricool de agendamento desativado.

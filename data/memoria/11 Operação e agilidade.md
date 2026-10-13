@@ -2,7 +2,7 @@
 Atualizado em 13/10/2026. Papel do Allan: SÓ decisões estratégicas e de criação. Toda burocracia (uploads, cadastros, trocas de arquivo, configurações em plataformas) é executada por Claude/agentes; ao Allan sobram só autorizações pontuais (um clique de login, liberar pasta). O Otimizador deve medir quantas vezes o Allan teve que executar algo manual e propor como zerar isso.
 
 ## O que foi feito em 13/10/2026 (pedido do Allan)
-- Fábrica fechada: 5 artigos publicados (ração filhote, brinquedos interativos, enxoval gatinho, escovar dentes, comedouro gato); 10 vídeos agendados 5 dias à frente; lote antecipado disparado.
+- Fábrica fechada: 5 artigos publicados (ração filhote, brinquedos interativos, enxoval gatinho, escovar dentes, comedouro gato); 3 vídeos agendados por rede (meta de 10/5 dias NÃO atingida; conferido em 13/10 no Zernio e no Buffer); lote antecipado disparado.
 - Agendamento trocou do Metricool (limite de 20 posts/mês estourado) para Zernio (Facebook + Instagram, com primeiro comentário) + Buffer (TikTok). Rotina Agendador de Posts (Zernio + Buffer) às 08:15 e 15:15; Conferente de Estoque às 07:47 (vídeo e artigos, mínimo 5 dias à frente).
 - Produto Sozinho em Casa otimizado por referências: app redesenhado, novo e-book de 53 páginas (Parte 1 Manual, Parte 2 Fundamentação, fotos sem repetição, capa C), landing com capa nova, texto "baseado em evidências" (nunca "comprovado").
 - E-book e capa trocados na Kiwify pelo próprio Claude (ver passo a passo abaixo).
