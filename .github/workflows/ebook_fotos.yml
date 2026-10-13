@@ -1,0 +1,56 @@
+name: Fotos do e-book
+
+# Disparo sem token: dar push em config/ebook_fotos.txt (uma consulta por linha).
+# Baixa até 8 candidatas de cada consulta do Pexels para a branch media em ebook_fotos/.
+on:
+  push:
+    branches: [main]
+    paths: ["config/ebook_fotos.txt"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ebook-fotos
+  cancel-in-progress: false
+
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Branch media
+        run: git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+      - name: Baixar candidatas
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os, re, json, requests, pathlib
+          key = os.environ["PEXELS_API_KEY"]
+          out = pathlib.Path("/tmp/media/ebook_fotos"); out.mkdir(exist_ok=True)
+          for q in [l.strip() for l in open("config/ebook_fotos.txt", encoding="utf-8") if l.strip() and not l.startswith("#")]:
+              slug = re.sub(r"[^a-z0-9]+", "-", q.lower()).strip("-")[:60]
+              d = out / slug; d.mkdir(exist_ok=True)
+              r = requests.get("https://api.pexels.com/v1/search", headers={"Authorization": key},
+                               params={"query": q, "per_page": 8, "orientation": "landscape", "size": "large"}, timeout=30)
+              meta = []
+              for i, p in enumerate(r.json().get("photos", [])):
+                  img = requests.get(p["src"]["large"], timeout=60).content
+                  (d / f"{i}.jpg").write_bytes(img)
+                  meta.append({"i": i, "id": p["id"], "fotografo": p["photographer"], "url": p["url"], "alt": p.get("alt", "")})
+              (d / "creditos.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
+              print(q, len(meta))
+          PY
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "fotos do e-book (Pexels)" || echo "nada a commitar"
+          git push origin media
