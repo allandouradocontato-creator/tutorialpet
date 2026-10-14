@@ -430,7 +430,8 @@ def montar_cena(i: int, cena: dict, tmp: Path, chave: str, offline: bool, primei
         # imagem do produto (capa, etc.) sobre o fundo, com entrada suave (pedido do Allan 13/10/2026)
         com_ov = tmp / f"mo{i}.mp4"
         sh(["ffmpeg", "-y", "-i", str(mudo), "-loop", "1", "-i", str(ROOT / ov), "-filter_complex",
-            "[1:v]scale=860:-1,format=rgba,fade=t=in:st=0.2:d=0.4:alpha=1[o];"
+            "[1:v]scale=860:-1,format=rgba,fade=t=in:st=0.2:d=0.4:alpha=1" + (
+                f",fade=t=out:st={float(cena['overlay_dur']) - 0.4:.2f}:d=0.4:alpha=1" if cena.get("overlay_dur") else "") + "[o];"
             "[0:v][o]overlay=(W-w)/2:330:shortest=1,format=yuv420p[v]",
             "-map", "[v]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", str(com_ov)])
         mudo = com_ov

@@ -29,7 +29,8 @@
       ],
       "texto_na_tela": "Protocolo de 14 dias · sem grito",
       "overlay_imagem": "assets/vsl/capa.png",
-      "permitir_gente": true
+      "permitir_gente": true,
+      "overlay_dur": 2.8
     },
     {
       "narracao": "[warmly] Um manual feito com base em evidências e um app que guia você todos os dias.",
@@ -49,7 +50,8 @@
       ],
       "texto_na_tela": "7 dias de garantia",
       "overlay_imagem": "assets/vsl/card_preco.png",
-      "permitir_gente": true
+      "permitir_gente": true,
+      "overlay_dur": 2.8
     }
   ],
   "chamada_final": "[reassuring] Toque no botão e veja como é possível.",

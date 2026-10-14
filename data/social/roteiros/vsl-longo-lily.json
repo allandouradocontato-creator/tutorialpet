@@ -29,7 +29,8 @@
       ],
       "texto_na_tela": "Protocolo de 14 dias · sem grito",
       "overlay_imagem": "assets/vsl/capa.png",
-      "permitir_gente": true
+      "permitir_gente": true,
+      "overlay_dur": 2.8
     },
     {
       "narracao": "[warmly] Ele não é mal-educado, e você não é um mau tutor. Ele só nunca aprendeu a ficar sozinho.",
@@ -48,10 +49,11 @@
       ],
       "texto_na_tela": "Manual baseado em evidências",
       "overlay_imagem": "assets/vsl/capa.png",
-      "permitir_gente": true
+      "permitir_gente": true,
+      "overlay_dur": 2.8
     },
     {
-      "narracao": "[warmly] E você acompanha tudo no app, dia após dia: diagnóstico, protocolo diário, rotina antes de sair e diário. Uma meta curta por dia, no seu ritmo.",
+      "narracao": "[warmly] E você acompanha tudo no app, dia após dia: diagnóstico, protocolo diário e rotina antes de sair. Uma meta curta por dia, no seu ritmo.",
       "visual_busca_banco_livre": [
         "woman using smartphone with cute dog home",
         "happy dog owner tablet sofa golden retriever"
@@ -68,7 +70,8 @@
       ],
       "texto_na_tela": "De R$ 37 por R$ 9,90",
       "overlay_imagem": "assets/vsl/card_preco.png",
-      "permitir_gente": true
+      "permitir_gente": true,
+      "overlay_dur": 2.8
     },
     {
       "narracao": "[reassuring] E o risco é zero: você tem sete dias de garantia. Se não gostar, devolvemos todo o seu dinheiro.",
@@ -78,7 +81,8 @@
       ],
       "texto_na_tela": "7 dias de garantia",
       "overlay_imagem": "assets/vsl/card_garantia.png",
-      "permitir_gente": true
+      "permitir_gente": true,
+      "overlay_dur": 2.8
     }
   ],
   "chamada_final": "[warmly] Toque no botão e comece o dia um hoje. Aqui é o Tutorial Pet, cuidando de vocês dois.",
