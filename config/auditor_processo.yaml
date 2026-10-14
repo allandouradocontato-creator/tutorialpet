@@ -42,3 +42,13 @@ backlog_inicial_aprovado:   # primeira fila de melhoria (07/10/2026), na ordem p
   - "2. Design do blog para AdSense (cookies, privacidade, vídeos nos artigos, Search Console) — auditar e propor"
   - "3. Aplicativo Sozinho em Casa: design e aplicabilidade — auditar o app real no celular e propor melhorias grátis"
   - "4. Ferramentas pagas: só depois do sistema fechado (lista da Ferramentaria)"
+
+# Meta de tempo de ciclo (ordem do Allan, 14/10/2026)
+tempo_de_ciclo:
+  objetivo: "produto novo + estoque de 5 dias (10 vídeos x 3 redes, 10 artigos) + landing + agendamento tudo pronto em ~3 dias; reduzir sempre"
+  medir_a_cada_rodada:
+    - "horas do pedido do produto até a landing no ar com checkout"
+    - "horas do tema aprovado até artigo no ar (200) e vídeo agendado"
+    - "dias de estoque de vídeo e de artigo no momento da medição"
+    - "horas gastas esperando o Allan (meta: só decisões estratégicas)"
+  relatar: "etapa mais lenta, por que, e como cortar; guardar a série em data/auditoria/ciclo.csv (data,etapa,horas)"
