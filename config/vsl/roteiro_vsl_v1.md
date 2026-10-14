@@ -18,4 +18,4 @@ Ganchos para teste A/B (só muda o 0-4 s):
 - B: "Cada vez que você sai, ele sofre. E não é falta de educação."
 - C: "Seu cachorro não precisa sofrer toda vez que você sai."
 
-Landing: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=vsl
+Landing: https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=vsl

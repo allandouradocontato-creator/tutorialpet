@@ -21,7 +21,7 @@ Regras: sem prova social inventada, sem promessa de cura, sem alegação veterin
 
 Ganchos A/B (só muda 0-4 s): A vizinho (acima); B "Cada vez que você sai, ele sofre. E não é falta de educação."; C "Seu cachorro não precisa sofrer toda vez que você sai."
 Versão curta (15-20 s) para anúncio: gancho + troca de culpa + preço + CTA.
-Landing: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=vsl
+Landing: https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=vsl
 
 
 ## v2.1 (pedido do Allan 13/10 21:51)
