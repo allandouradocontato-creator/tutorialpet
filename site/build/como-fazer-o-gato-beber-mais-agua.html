@@ -44,11 +44,11 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); }
 
-header.site { background: var(--color-primary); color: #fff; padding: 16px 24px; border-bottom: 5px solid var(--color-sun); }
+header.site { background: linear-gradient(100deg, #6b46c1 0%, #8b68dd 55%, #ad8eeb 100%); color: #fff; padding: 16px 24px; border-bottom: 5px solid var(--color-sun); }
 header.site .brand { font-family: var(--font-heading); font-weight: 600; font-size: 1.25rem; }
 header.site a { color: #fff; text-decoration: none; }
 header.site nav { margin-top: 8px; font-size: 0.9rem; }
-header.site nav a { margin-right: 16px; opacity: 0.88; padding-bottom: 2px; border-bottom: 2px solid transparent; }
+header.site nav a { margin-right: 16px; opacity: 0.95; padding-bottom: 2px; border-bottom: 2px solid transparent; }
 header.site nav a:hover { opacity: 1; border-bottom-color: var(--color-sun); }
 
 .breadcrumb { max-width: 760px; margin: 18px auto 0; padding: 0 20px; font-size: 0.8rem; color: var(--color-text-muted); }
@@ -129,7 +129,7 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
 
 /* Rádio Tutorial Pet: player opcional, começa desligado */
 .radio { position: fixed; left: 14px; bottom: 14px; z-index: 900; font-family: var(--font-body); }
-.radio-btn { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px 8px 12px; border: 0; border-radius: 999px; background: var(--color-primary); color: #fff; font-weight: 700; font-size: .9rem; cursor: pointer; box-shadow: 0 6px 18px rgba(20,28,48,.3); }
+.radio-btn { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px 8px 12px; border: 0; border-radius: 999px; background: linear-gradient(100deg, #6b46c1, #ad8eeb); color: #fff; font-weight: 700; font-size: .9rem; cursor: pointer; box-shadow: 0 6px 18px rgba(107,70,193,.35); }
 .radio-ico { width: 28px; height: 28px; border-radius: 50%; background: var(--color-sun); color: var(--color-primary-dark); display: grid; place-items: center; font-size: 1.1rem; }
 .radio.tocando .radio-ico { animation: radio-pulsa 1s ease-in-out infinite; }
 @keyframes radio-pulsa { 50% { transform: scale(1.18); } }
