@@ -1,0 +1,71 @@
+name: Capas em lote (artigos sem foto)
+
+# modo=buscar : baixa 4 fotos candidatas (so animal) para cada artigo sem capa e guarda na branch media (capas_lote/<slug>/)
+# modo=aplicar: aplica as escolhas "slug:indice slug:indice ..." e republica o site na main
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "buscar ou aplicar"
+        required: true
+        default: "buscar"
+      escolhas:
+        description: "aplicar: 'slug:indice slug:indice ...'"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  capas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: Branch media
+        run: git clone --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+      - name: Buscar candidatas
+        if: ${{ github.event.inputs.modo == 'buscar' }}
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          mkdir -p /tmp/media/capas_lote
+          for f in data/seo_onpage/otimizados/*.md; do
+            slug=$(basename "$f" .md)
+            grep -q '^imagem_capa:' "$f" && continue
+            echo "== $slug"
+            python blog_imagens_nuvem.py "$slug" || continue
+            rm -rf /tmp/media/capas_lote/$slug
+            cp -r data/visual/candidatos/$slug /tmp/media/capas_lote/$slug
+          done
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "capas em lote: candidatas" || echo "nada"
+          git push origin media
+      - name: Aplicar escolhas
+        if: ${{ github.event.inputs.modo == 'aplicar' }}
+        env:
+          ESC: ${{ github.event.inputs.escolhas }}
+        run: |
+          for par in $ESC; do
+            slug=${par%%:*}; idx=${par##*:}
+            mkdir -p data/visual/candidatos
+            rm -rf data/visual/candidatos/$slug
+            cp -r /tmp/media/capas_lote/$slug data/visual/candidatos/$slug
+            python agents/15_visual/agent.py --site pets-tutores-iniciantes --selecionar "$slug" "$idx"
+          done
+          python site/build_site.py --site pets-tutores-iniciantes
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "blog: capas em lote aplicadas" || echo "nada"
+          git pull --rebase origin main; git push origin HEAD:main
