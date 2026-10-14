@@ -1,0 +1,50 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como misturar racao seca e umida para cachorro corretamente: guia prático",
+    "description": "Como misturar racao seca e umida para cachorro corretamente: guia prático. Sabe aquela hora em que a gente olha para o potinho do cachorro e percebe...",
+    "datePublished": "2026-10-14",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-misturar-racao-seca-e-umida-para-cachorro-corretamente",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-misturar-racao-seca-e-umida-para-cachorro-corretamente"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-misturar-racao-seca-e-umida-para-cachorro-corretamente.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso misturar ração seca e úmida em todas as refeições?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, você pode fazer isso todos os dias, desde que mantenha o controle das calorias totais para evitar o ganho de peso excessivo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Preciso aquecer a ração úmida antes de misturar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é obrigatório, mas tirar a comida da geladeira e deixá-la em temperatura ambiente ajuda a liberar o aroma, o que atrai ainda mais o cão para o prato."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que fazer se o cachorro continuar rejeitando a comida?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se mesmo com a mistura ele recusar o alimento, pode ser um sinal de enjoo ou dor de dente. Observe o comportamento e procure orientação profissional."
+        }
+      }
+    ]
+  }
+}
