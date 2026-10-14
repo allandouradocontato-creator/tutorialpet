@@ -1,18 +1,18 @@
-# Auditoria do processo — 2026-10-14 18:26 UTC
+# Auditoria do processo — 2026-10-14 20:33 UTC
 
-Pacote: `como-fazer-cachorro-idoso-aceitar-um-filhote-novo` — 0 aviso(s)
+Pacote: `como-adaptar-a-casa-para-um-cachorro-idoso` — 1 aviso(s)
 
-- **OK ** duração 48 s (padrão: 15 a 60 s)
+- **OK ** duração 46 s (padrão: 15 a 60 s)
 - **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 12 palavras (padrão: até ~12)
+- **OK ** gancho com 13 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
-- **OK ** tags usadas: ['short pause', 'smiling', 'thoughtful', 'warmly']
+- **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
 - **OK ** sem risada e no máximo um [excited]
 - **OK ** narração tem tags de emoção (a Duda sorri pela tag)
 - **OK ** CTA presente (seguir, comentar, compartilhar, salvar ou blog)
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
-- **OK ** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~651 (saldo do plano: ver painel)
+- **AVISO** legenda com o link do produto (landing)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~616 (saldo do plano: ver painel)

@@ -69,7 +69,8 @@ temas:
   data: '2026-10-14'
 - termo: como adaptar a casa para um cachorro idoso
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-14'
 - termo: como misturar racao seca e umida para cachorro corretamente
   pilar: alimentacao
   status: pendente
@@ -192,4 +193,19 @@ temas:
   status: pendente
 - termo: como estimular o olfato de caes idosos dentro de casa
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como criar rotina de exercicios para caes braquicefalicos no calor
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como ensinar filhote de gato a interagir com caes adultos
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como escolher fonte de agua ideal para gatos que tem medo
+  pilar: produtos_compras
+  status: pendente
+- termo: como identificar sinais de estresse em caes multicaes em espaco pequeno
+  pilar: comportamento
+  status: pendente
+- termo: como calcular a quantidade certa de petiscos naturais na dieta diaria
+  pilar: alimentacao
   status: pendente
