@@ -129,6 +129,15 @@ def _tts_elevenlabs(texto: str, saida: Path):
                                    "style": float(cfgv.get("style", 0.0)),
                                    "use_speaker_boost": True}
     corpo = json.dumps(dados).encode()
+    # CACHE de voz (economiza créditos): mesma frase + voz + modelo + ajustes = reaproveita o áudio já pago
+    import hashlib
+    pasta_cache = ROOT / "biblioteca" / "voz_cache"
+    chave_cache = hashlib.sha1(corpo + voz_id.encode()).hexdigest()[:20]
+    c_mp3, c_json = pasta_cache / f"{chave_cache}.mp3", pasta_cache / f"{chave_cache}.json"
+    if c_mp3.exists() and c_json.exists():
+        shutil.copy(c_mp3, saida)
+        print("  ElevenLabs: áudio reaproveitado do cache (0 créditos)", flush=True)
+        return [tuple(x) for x in json.loads(c_json.read_text(encoding="utf-8"))]
     req = urllib.request.Request(
         f"https://api.elevenlabs.io/v1/text-to-speech/{voz_id}/with-timestamps", data=corpo, method="POST",
         headers={"xi-api-key": chave, "Content-Type": "application/json"})
@@ -152,7 +161,14 @@ def _tts_elevenlabs(texto: str, saida: Path):
                     continue
                 if not dentro:
                     ch.append(c); ini.append(a); fim.append(b)
-            return _palavras_do_alinhamento(ch, ini, fim)
+            palavras_ok = _palavras_do_alinhamento(ch, ini, fim)
+            try:
+                pasta_cache.mkdir(parents=True, exist_ok=True)
+                shutil.copy(saida, c_mp3)
+                c_json.write_text(json.dumps(palavras_ok), encoding="utf-8")
+            except Exception:  # noqa: BLE001
+                pass
+            return palavras_ok
         except urllib.error.HTTPError as e:
             print(f"  ElevenLabs: HTTP {e.code} (tentativa {tentativa})", flush=True)
             if e.code in (401, 403, 404, 422):  # chave, voz ou plano inválidos: repetir não ajuda
