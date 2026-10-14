@@ -30,7 +30,7 @@ não é permitida.
 ## 3. Propriedade intelectual
 
 Textos, imagens e demais materiais publicados no site são de propriedade de
-Allan Dourado Falcão ou usados sob licença, salvo indicação contrária.
+Dourado Falcão Educação Corporativa LTDA ou usados sob licença, salvo indicação contrária.
 
 ## 4. Isenção de responsabilidade
 

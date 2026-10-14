@@ -33,7 +33,7 @@ entre amigos, não uma aula técnica.
 
 ## Quem está por trás do site
 
-**Allan Dourado Falcão** é o responsável legal e o ponto de contato oficial do
+**Dourado Falcão Educação Corporativa LTDA** (CNPJ 65.211.970/0001-81) é a empresa responsável e o ponto de contato oficial do
 **Tutor de Primeira Viagem**.
 
 O conteúdo é produzido em equipe, com colaboração editorial de **Rosana Cardoso** e

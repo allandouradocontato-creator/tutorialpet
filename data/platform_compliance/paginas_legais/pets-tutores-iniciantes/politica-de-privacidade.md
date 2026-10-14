@@ -18,8 +18,8 @@ Proteção de Dados (LGPD — Lei nº 13.709/2018).
 
 ## 1. Quem é o responsável pelo site
 
-- Responsável: Allan Dourado Falcão
-- Documento (CPF/CNPJ): 765.289.603-72
+- Responsável: DOURADO FALCAO EDUCACAO CORPORATIVA LTDA (nome fantasia: Dourado Falcão)
+- CNPJ: 65.211.970/0001-81
 - Localização: Fortaleza, CE
 - Contato: allandouradocontato@gmail.com
 
