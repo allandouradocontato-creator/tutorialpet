@@ -45,7 +45,7 @@ imagem_fonte: pexels
 imagem_fotografo: Gustavo Fring
 imagem_fotografo_url: https://www.pexels.com/@gustavo-fring
 imagem_url_pagina: https://www.pexels.com/photo/cute-girl-with-funny-little-spitz-4241321/
-imagem_selecionada_em: '2026-10-14T22:44:28+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:32+00:00'
 ---
 
 # Com quantos meses o cachorro pode sair na rua? O que saber antes

@@ -52,7 +52,7 @@ imagem_fonte: pexels
 imagem_fotografo: David Kanigan
 imagem_fotografo_url: https://www.pexels.com/@david-kanigan-239927285
 imagem_url_pagina: https://www.pexels.com/photo/woman-grooming-french-bulldog-indoors-34807744/
-imagem_selecionada_em: '2026-10-14T22:44:28+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:33+00:00'
 ---
 
 # Como acostumar o cachorro a cortar as unhas: guia prático

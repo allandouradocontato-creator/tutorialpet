@@ -55,7 +55,7 @@ imagem_fonte: pexels
 imagem_fotografo: Lívia Bittencourt
 imagem_fotografo_url: https://www.pexels.com/@livia-bittencourt-2662507
 imagem_url_pagina: https://www.pexels.com/photo/girl-playing-with-a-puppy-10408278/
-imagem_selecionada_em: '2026-10-14T22:44:30+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:33+00:00'
 ---
 
 # Como fazer filhote de cachorro parar de morder: guia prático

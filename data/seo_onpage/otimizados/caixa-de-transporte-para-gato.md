@@ -54,7 +54,7 @@ imagem_fonte: pexels
 imagem_fotografo: Japheth Mast
 imagem_fotografo_url: https://www.pexels.com/@japheth
 imagem_url_pagina: https://www.pexels.com/photo/selective-focus-photography-of-woman-wearing-purple-sweater-holding-silver-tabby-cat-569170/
-imagem_selecionada_em: '2026-10-14T22:44:27+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:32+00:00'
 ---
 
 # Caixa de transporte para gato: como escolher e usar sem estresse

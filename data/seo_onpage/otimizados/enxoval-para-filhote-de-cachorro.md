@@ -43,7 +43,7 @@ imagem_fonte: pexels
 imagem_fotografo: Samson Katt
 imagem_fotografo_url: https://www.pexels.com/@samson-katt
 imagem_url_pagina: https://www.pexels.com/photo/smiling-black-woman-with-dog-on-bed-5255608/
-imagem_selecionada_em: '2026-10-14T22:44:30+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:34+00:00'
 ---
 
 # Enxoval para filhote de cachorro

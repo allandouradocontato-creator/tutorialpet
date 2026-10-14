@@ -50,7 +50,7 @@ imagem_fonte: pexels
 imagem_fotografo: Helena Lopes
 imagem_fotografo_url: https://www.pexels.com/@helenalopes
 imagem_url_pagina: https://www.pexels.com/photo/casual-indoor-moment-with-pet-and-book-27175957/
-imagem_selecionada_em: '2026-10-14T22:44:27+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:32+00:00'
 ---
 
 # Arranhador para gato, qual escolher

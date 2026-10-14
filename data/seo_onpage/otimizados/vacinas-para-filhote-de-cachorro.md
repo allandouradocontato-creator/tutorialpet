@@ -52,7 +52,7 @@ imagem_fonte: pexels
 imagem_fotografo: Sharon  Snider
 imagem_fotografo_url: https://www.pexels.com/@sharon-snider-2339082
 imagem_url_pagina: https://www.pexels.com/photo/a-woman-holding-her-puppy-15175667/
-imagem_selecionada_em: '2026-10-14T22:44:31+00:00'
+imagem_selecionada_em: '2026-10-14T22:47:34+00:00'
 ---
 
 # Vacinas para filhote de cachorro: o que saber para proteger seu pet
