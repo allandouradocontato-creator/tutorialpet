@@ -6,9 +6,10 @@
     {
       "narracao": "Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? [short pause] Você não aguenta mais isso?",
       "visual_busca_banco_livre": [
-        "dog barking at front door",
-        "dog howling alone window home",
-        "woman frustrated dog barking messy home"
+        "dog barking at window indoors home",
+        "woman hands on head stressed",
+        "puppy barking inside living room",
+        "man frustrated hand on forehead"
       ],
       "texto_na_tela": "Cansou do seu cachorro sofrendo sozinho?",
       "permitir_gente": true,
