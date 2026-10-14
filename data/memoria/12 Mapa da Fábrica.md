@@ -13,3 +13,15 @@ Modelo: um NICHO (hoje pet) com guarda-chuva Tutorial Pet. A fábrica = produtos
 | Estrategista de redes | rotina recriada com Zernio+Buffer, 1ª rodada v2 sexta | ligar as recomendações ao Agendador; engajamento (comentários, isca digital) sem decisão |
 | Sistema de venda | landing, Kiwify, anúncios Meta (64 campanhas, a limpar) | Auditor de Anúncios, order bump, conta de anúncios com verificação pendente |
 | Medição | Otimizador mede tempo de ciclo | série em data/auditoria/ciclo.csv ainda vazia |
+
+## Fluxo completo: da dor do tutor à venda (14/10/2026, ordem do Allan)
+1. AGENTE DE MARKETING DE PRODUTO (NOVO, falta criar): escolhe a dor/assunto pensando em venda. Para cada assunto decide: produto próprio (e-book + app) ou produto de afiliado Shopee. Pontua por dor, intenção de compra, comissão e preço. Acompanha o resultado em dinheiro e realimenta a escolha.
+2. BLOG escolhe assuntos já ligados a um produto (tabela tema -> produto -> link -> CTA). Ex.: xixi no lugar certo -> tapete higiênico/educador; conforto e lugar seguro para dormir -> caminha.
+3. FÁBRICA DE E-BOOK/MANUAL (parcial): cada manual vira
+4. FÁBRICA DE APLICATIVO (NOVA, falta criar: hoje só o app do Sozinho em Casa, feito à mão), e
+5. FÁBRICA DE LANDING (NOVA, falta criar: hoje feita à mão), com
+6. APRIMORADOR DE LANDING (NOVO: lê cliques/vendas e propõe mudança de texto, oferta e ordem; teste A/B grátis primeiro).
+7. Checkout (Kiwify, cadastro hoje manual) e afiliado (Shopee: link com sub_id por artigo).
+8. Posts/vídeos e Buscador de cortes virais puxam audiência para o artigo; Estrategista otimiza.
+9. Auditor mede venda por etapa; Otimizador mede tempo de ciclo (meta ~3 dias por produto).
+Ordem de construção proposta: (a) catálogo tema->produto Shopee/e-book e links nos artigos; (b) Agente de Marketing de Produto; (c) Fábrica de landing + aprimorador; (d) Fábrica de app; (e) Buscador de cortes virais.
