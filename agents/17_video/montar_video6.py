@@ -340,6 +340,15 @@ def montar_cena(i: int, cena: dict, tmp: Path, chave: str, offline: bool, primei
     lst.write_text("".join(f"file '{p.as_posix()}'\n" for p in partes), encoding="utf-8")
     mudo = tmp / f"m{i}.mp4"
     sh(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(mudo)])
+    ov = cena.get("overlay_imagem")
+    if ov and (ROOT / ov).exists():
+        # imagem do produto (capa, etc.) sobre o fundo, com entrada suave (pedido do Allan 13/10/2026)
+        com_ov = tmp / f"mo{i}.mp4"
+        sh(["ffmpeg", "-y", "-i", str(mudo), "-loop", "1", "-i", str(ROOT / ov), "-filter_complex",
+            "[1:v]scale=860:-1,format=rgba,fade=t=in:st=0.2:d=0.4:alpha=1[o];"
+            "[0:v][o]overlay=(W-w)/2:330:shortest=1,format=yuv420p[v]",
+            "-map", "[v]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", str(com_ov)])
+        mudo = com_ov
     saida = tmp / f"cena{i}.mp4"
     # legendas queimadas: ASS no diretório temporário (evita problemas de caminho do Windows)
     sh(["ffmpeg", "-y", "-i", mudo.name, "-i", voz.name, "-vf", f"subtitles={ass.name}",

@@ -11,7 +11,8 @@
     {
       "narracao": "[confident] Existe um jeito. O Sozinho em Casa: protocolo de catorze dias, um passo por dia, sem grito e sem punição.",
       "visual_busca_banco_livre": "dog chewing sofa at home",
-      "texto_na_tela": "Protocolo de 14 dias · sem grito"
+      "texto_na_tela": "Protocolo de 14 dias · sem grito",
+      "overlay_imagem": "assets/vsl/capa.png"
     },
     {
       "narracao": "[warmly] Ele não é mal-educado, e você não é um mau tutor. Ele só nunca aprendeu a ficar sozinho.",
@@ -21,12 +22,14 @@
     {
       "narracao": "[smiling] São poucos minutos por dia, com manual baseado em evidências e um app pra acompanhar cada etapa.",
       "visual_busca_banco_livre": "happy dog playing with owner",
-      "texto_na_tela": "Manual + app"
+      "texto_na_tela": "Manual + app",
+      "overlay_imagem": "assets/vsl/capa.png"
     },
     {
       "narracao": "[excited] Hoje, de trinta e sete reais por nove e noventa. Cerca de setenta centavos por dia.",
       "visual_busca_banco_livre": "happy dog relaxed on sofa",
-      "texto_na_tela": "De R$ 37 por R$ 9,90"
+      "texto_na_tela": "De R$ 37 por R$ 9,90",
+      "overlay_imagem": "assets/vsl/capa.png"
     }
   ],
   "chamada_final": "[smiling] Toque no botão e comece o dia um. Se o caso for grave, procure também um veterinário ou adestrador. Aqui é a Duda, do Tutorial Pet.",
