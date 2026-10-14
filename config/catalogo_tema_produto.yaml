@@ -1,0 +1,22 @@
+# Catálogo tema -> produto (ordem do Allan, 14/10/2026). Todo artigo/post novo nasce ligado a um produto.
+# tipo: proprio (e-book+app, Kiwify) | afiliado (Shopee). O Agente de Marketing de Produto e o Buscador de Ofertas preenchem.
+# status: ideia -> ofertas_buscadas -> link_gerado -> no_artigo
+temas:
+  - tema: "cachorro fazer xixi no lugar certo"
+    artigo_existente: como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
+    dor: "tapete sujo, xixi fora do lugar"
+    produtos:
+      - {tipo: afiliado, busca_shopee: "tapete higienico cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "educador sanitario cachorro spray", status: ideia}
+  - tema: "lugar seguro e confortável para dormir (caminha)"
+    artigo_existente: null
+    dor: "cão ou gato sem lugar próprio, ansioso, dorme mal"
+    produtos:
+      - {tipo: afiliado, busca_shopee: "caminha cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "caminha gato", status: ideia}
+  - tema: "cachorro sozinho em casa"
+    artigo_existente: quanto-tempo-um-cachorro-pode-ficar-sozinho
+    dor: "ansiedade de separação"
+    produtos:
+      - {tipo: proprio, nome: "Sozinho em Casa", link: "https://sozinho.tutorialpet.com.br", status: no_artigo}
+      - {tipo: afiliado, nome: "Câmera Wi-Fi pet R$79,99", link: "https://s.shopee.com.br/80DRRwgNte", status: link_gerado}

@@ -25,3 +25,6 @@ Modelo: um NICHO (hoje pet) com guarda-chuva Tutorial Pet. A fábrica = produtos
 8. Posts/vídeos e Buscador de cortes virais puxam audiência para o artigo; Estrategista otimiza.
 9. Auditor mede venda por etapa; Otimizador mede tempo de ciclo (meta ~3 dias por produto).
 Ordem de construção proposta: (a) catálogo tema->produto Shopee/e-book e links nos artigos; (b) Agente de Marketing de Produto; (c) Fábrica de landing + aprimorador; (d) Fábrica de app; (e) Buscador de cortes virais.
+
+## Buscador de Ofertas (agente 28, criado 14/10/2026)
+Cloud: páginas da Shopee exigem JavaScript (WebFetch não lê). Caminho que funciona em nuvem: API aberta de Afiliados da Shopee (productOfferV2) rodando no GitHub Actions (buscar_ofertas.yml, segundas 06:17 Fortaleza), com segredos SHOPEE_APP_ID e SHOPEE_SECRET (só o Allan cria/cadastra). Sem a chave, o navegador do computador do Allan (portal de afiliados) cobre, só com o computador ligado. Catálogo: config/catalogo_tema_produto.yaml.
