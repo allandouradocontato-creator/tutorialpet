@@ -1,6 +1,6 @@
 {
   "slug": "por-que-o-gato-esconde-a-comida-na-tigela",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-13T16:12:35+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/por-que-o-gato-esconde-a-comida-na-tigela",
   "guardiao": {
@@ -17,5 +17,6 @@
     ],
     "em": "2026-10-13T16:14:19+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "obs": "ja publicado em 13/10 nas 3 redes (Zernio FB 6ace8aa85ac5916016617b84, IG 6ace8aaa5ac5916016617b90, Buffer TikTok 6ace8aaccb3665561f63f6b5); nao reagendar"
 }

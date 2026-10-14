@@ -1,6 +1,6 @@
 {
   "slug": "como-adaptar-a-casa-para-um-cachorro-idoso",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-14T20:32:37+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-adaptar-a-casa-para-um-cachorro-idoso",
   "guardiao": {
@@ -17,5 +17,16 @@
     ],
     "em": "2026-10-14T20:33:24+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-14",
+  "agendado_ids": {
+    "zernio_facebook": "6acff31ee1deeadb85b6daf3",
+    "zernio_instagram": "6acff3200b134cf63a93c079",
+    "buffer_tiktok": "6acff323ac16d08dd4dc3c1c"
+  },
+  "agendado_para": {
+    "facebook": "2026-10-17T19:00-03:00",
+    "instagram": "2026-10-17T20:00-03:00",
+    "tiktok": "2026-10-17T20:20-03:00"
+  }
 }
