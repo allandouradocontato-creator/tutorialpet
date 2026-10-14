@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/pode-dar-sache-para-gato-todos-os-dias.jsonld.json
 imagem_capa: imagens/pode-dar-sache-para-gato-todos-os-dias.jpg
 imagem_fonte: pexels
-imagem_fotografo: cottonbro studio
-imagem_fotografo_url: https://www.pexels.com/@cottonbro
-imagem_url_pagina: https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/
-imagem_selecionada_em: '2026-10-14T22:41:02+00:00'
+imagem_fotografo: mohamed abdelghaffar
+imagem_fotografo_url: https://www.pexels.com/@moh-adbelghaffar
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/
+imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
 ---
 
 # Pode dar sachê para gato todos os dias: guia prático

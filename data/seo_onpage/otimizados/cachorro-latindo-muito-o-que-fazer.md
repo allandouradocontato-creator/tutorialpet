@@ -40,10 +40,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/cachorro-latindo-muito-o-que-fazer.jsonld.json
 imagem_capa: imagens/cachorro-latindo-muito-o-que-fazer.jpg
 imagem_fonte: pexels
-imagem_fotografo: Samson Katt
-imagem_fotografo_url: https://www.pexels.com/@samson-katt
-imagem_url_pagina: https://www.pexels.com/photo/smiling-black-lady-training-dog-in-green-park-5255554/
-imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
+imagem_fotografo: JacLou- DL
+imagem_fotografo_url: https://www.pexels.com/@jaclou-dl
+imagem_url_pagina: https://www.pexels.com/photo/alert-shetland-sheepdog-in-lush-green-field-28895797/
+imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
 ---
 
 # Cachorro latindo muito o que fazer

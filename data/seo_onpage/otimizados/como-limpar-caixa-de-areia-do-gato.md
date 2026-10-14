@@ -47,10 +47,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-limpar-caixa-de-areia-do-gato.jsonld.json
 imagem_capa: imagens/como-limpar-caixa-de-areia-do-gato.jpg
 imagem_fonte: pexels
-imagem_fotografo: Sam Lion
-imagem_fotografo_url: https://www.pexels.com/@sam-lion
-imagem_url_pagina: https://www.pexels.com/photo/cheerful-woman-with-cat-on-window-with-vintage-turntable-6002001/
-imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
+imagem_fotografo: Alina Vilchenko
+imagem_fotografo_url: https://www.pexels.com/@monstera
+imagem_url_pagina: https://www.pexels.com/photo/close-up-photo-of-cat-2698519/
+imagem_selecionada_em: '2026-10-14T18:45:11+00:00'
 ---
 
 # Como limpar caixa de areia do gato

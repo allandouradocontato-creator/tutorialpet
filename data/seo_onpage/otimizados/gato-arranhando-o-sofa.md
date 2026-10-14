@@ -41,10 +41,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/gato-arranhando-o-sofa.jsonld.json
 imagem_capa: imagens/gato-arranhando-o-sofa.jpg
 imagem_fonte: pexels
-imagem_fotografo: Helena Lopes
-imagem_fotografo_url: https://www.pexels.com/@helenalopes
-imagem_url_pagina: https://www.pexels.com/photo/a-woman-petting-her-cats-at-home-8076730/
-imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
+imagem_fotografo: Craig Adderley
+imagem_fotografo_url: https://www.pexels.com/@thatguycraig000
+imagem_url_pagina: https://www.pexels.com/photo/close-up-photo-of-cat-scratching-the-stool-1674724/
+imagem_selecionada_em: '2026-09-17T22:19:17+00:00'
 ---
 
 # Gato arranhando o sofá

@@ -38,10 +38,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/racao-para-filhote-de-cachorro.jsonld.json
 imagem_capa: imagens/racao-para-filhote-de-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Sarah  Chai
-imagem_fotografo_url: https://www.pexels.com/@sarah-chai
-imagem_url_pagina: https://www.pexels.com/photo/mother-feeding-her-child-7282222/
-imagem_selecionada_em: '2026-10-14T22:41:03+00:00'
+imagem_fotografo: Yunus  Kılıç
+imagem_fotografo_url: https://www.pexels.com/@yunus-kilic-55235055
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-a-curious-brown-puppy-38344785/
+imagem_selecionada_em: '2026-10-14T18:45:13+00:00'
 ---
 
 # Ração para filhote de cachorro

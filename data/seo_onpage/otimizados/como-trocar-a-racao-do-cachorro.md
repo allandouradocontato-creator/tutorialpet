@@ -48,10 +48,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-trocar-a-racao-do-cachorro.jsonld.json
 imagem_capa: imagens/como-trocar-a-racao-do-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Yaroslav Shuraev
-imagem_fotografo_url: https://www.pexels.com/@yaroslav-shuraev
-imagem_url_pagina: https://www.pexels.com/photo/woman-feeding-dog-near-grass-field-9631835/
-imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
+imagem_fotografo: Genadi Yakovlev
+imagem_fotografo_url: https://www.pexels.com/@gy1610
+imagem_url_pagina: https://www.pexels.com/photo/black-and-white-dog-lying-down-in-grass-25786020/
+imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
 ---
 
 # Como trocar a ração do cachorro sem bagunça no estômago

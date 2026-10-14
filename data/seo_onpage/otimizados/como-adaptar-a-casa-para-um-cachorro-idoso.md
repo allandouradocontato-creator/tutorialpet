@@ -53,10 +53,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-adaptar-a-casa-para-um-cachorro-idoso.jsonld.json
 imagem_capa: imagens/como-adaptar-a-casa-para-um-cachorro-idoso.jpg
 imagem_fonte: pexels
-imagem_fotografo: Centre for Ageing Better
-imagem_fotografo_url: https://www.pexels.com/@centre-for-ageing-better-55954677
-imagem_url_pagina: https://www.pexels.com/photo/elderly-man-in-polo-shirt-holding-dog-in-hands-15377731/
-imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
+imagem_fotografo: Rufina Rusakova
+imagem_fotografo_url: https://www.pexels.com/@ranevskaja
+imagem_url_pagina: https://www.pexels.com/photo/peaceful-brown-dog-relaxing-in-sunlit-room-35038689/
+imagem_selecionada_em: '2026-10-14T21:19:35+00:00'
 ---
 
 # Como adaptar a casa para um cachorro idoso: guia prático

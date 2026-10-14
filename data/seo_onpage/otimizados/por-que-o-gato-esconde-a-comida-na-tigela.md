@@ -54,10 +54,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/por-que-o-gato-esconde-a-comida-na-tigela.jsonld.json
 imagem_capa: imagens/por-que-o-gato-esconde-a-comida-na-tigela.jpg
 imagem_fonte: pexels
-imagem_fotografo: Helena Lopes
-imagem_fotografo_url: https://www.pexels.com/@helenalopes
-imagem_url_pagina: https://www.pexels.com/photo/woman-hugging-black-and-white-cat-7980681/
-imagem_selecionada_em: '2026-10-14T22:41:02+00:00'
+imagem_fotografo: 大 董
+imagem_fotografo_url: https://www.pexels.com/@724211268
+imagem_url_pagina: https://www.pexels.com/photo/cute-fluffy-cat-hiding-underneath-cozy-blanket-34548171/
+imagem_selecionada_em: '2026-10-13T19:46:58+00:00'
 ---
 
 # Por que o gato esconde a comida na tigela: guia prático
