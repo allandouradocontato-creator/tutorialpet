@@ -15,15 +15,13 @@ jobs:
           python3 - <<'PY'
           import json, os, urllib.request
           k = os.environ["K"].strip()
-          for q in ("language=pt&gender=female&age=middle_aged&page_size=30&sort=usage_character_count_7d",
-                    "language=pt&gender=female&age=middle_aged&use_cases=narrative_story&page_size=15",
-                    "language=pt&gender=female&age=middle_aged&use_cases=advertisement&page_size=15"):
-              try:
-                  r = urllib.request.Request("https://api.elevenlabs.io/v1/shared-voices?" + q, headers={"xi-api-key": k})
-                  d = json.load(urllib.request.urlopen(r, timeout=30))
-              except Exception as e:
-                  print("erro", q, e); continue
-              print("== ", q)
-              for v in d.get("voices", []):
-                  print(v.get("voice_id"), "|", v.get("name"), "|", v.get("accent"), "|", v.get("age"), "|", v.get("descriptive"), "|", v.get("use_case"), "|", (v.get("description") or "")[:110], "| usos7d", v.get("usage_character_count_7d"))
+          try:
+              r = urllib.request.Request("https://api.elevenlabs.io/v1/voices", headers={"xi-api-key": k})
+              d = json.load(urllib.request.urlopen(r, timeout=30))
+          except Exception as e:
+              print("erro", e); d = {}
+          for v in d.get("voices", []):
+              l = v.get("labels") or {}
+              if l.get("gender") == "female":
+                  print(v.get("voice_id"), "|", v.get("name"), "|", l.get("age"), "|", l.get("accent"), "|", l.get("descriptive") or l.get("descriptions"), "|", l.get("use_case"), "|", v.get("category"))
           PY
