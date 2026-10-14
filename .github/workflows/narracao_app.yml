@@ -1,0 +1,45 @@
+name: Narracao do video do app (voz da Duda)
+# Gera um mp3 por fala de data/video_app/falas.json com a voz oficial (config/voz_elevenlabs.yaml), com o tempo de cada palavra,
+# e guarda na branch media em video_app/narracao/. Gasta ~1 credito por caractere. A chave nunca e impressa.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  narrar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: Gerar falas
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import importlib.util, json, os, sys
+          from pathlib import Path
+          sys.path.insert(0, "agents/17_video")
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          falas = json.load(open("data/video_app/falas.json"))
+          out = Path("narracao"); out.mkdir(exist_ok=True)
+          tempos = {}
+          for k, texto in falas.items():
+              pal = m._tts_elevenlabs(texto, out / f"fala_{k}.mp3")
+              if pal is None:
+                  raise SystemExit(f"falhou na fala {k}")
+              tempos[k] = pal
+              print("ok", k, len(texto), "caracteres")
+          json.dump(tempos, open(out / "tempos.json", "w"), ensure_ascii=False)
+          PY
+      - name: Guardar na branch media
+        run: |
+          git config user.name "fabrica"; git config user.email "fabrica@users.noreply.github.com"
+          git fetch origin media
+          git checkout -f media
+          mkdir -p video_app/narracao && cp narracao/* video_app/narracao/
+          git add video_app && git commit -m "narracao do video do app (voz da Duda)" && git push origin media
