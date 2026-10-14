@@ -25,7 +25,7 @@ jobs:
           }
           for nome, q in qs.items():
               u = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": q, "per_page": 15, "orientation": "portrait" if nome in ("hero",) else "landscape"})
-              r = urllib.request.Request(u, headers={"Authorization": key})
+              r = urllib.request.Request(u, headers={"Authorization": key, "User-Agent": "Mozilla/5.0"})
               vids = json.load(urllib.request.urlopen(r))["videos"]
               feito = 0
               for v in vids:
@@ -33,7 +33,11 @@ jobs:
                   fs = sorted([f for f in v["video_files"] if f["file_type"] == "video/mp4" and f.get("width", 0) >= 640], key=lambda f: f["width"])
                   if not fs or v.get("duration", 0) < 4: continue
                   src = f"out/{nome}_{feito}_src.mp4"
-                  urllib.request.urlretrieve(fs[0]["link"], src)
+                  try:
+                      rq = urllib.request.Request(fs[0]["link"], headers={"User-Agent": "Mozilla/5.0"})
+                      open(src, "wb").write(urllib.request.urlopen(rq).read())
+                  except Exception as e:
+                      print("falhou", nome, e, flush=True); continue
                   dst = f"out/{nome}_{feito}.mp4"
                   subprocess.run(["ffmpeg","-y","-i",src,"-t","8","-an","-vf","scale=720:-2","-c:v","libx264","-crf","30","-preset","veryfast","-movflags","+faststart","-pix_fmt","yuv420p",dst],capture_output=True)
                   os.remove(src)
