@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{titulo_pagina}}</title>
+<meta name="description" content="{{descricao}}">
+<!--IF favicon--><link rel="icon" type="image/png" href="{{favicon}}"><!--/IF favicon-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#FFF8F0;--ink:#1E2A44;--soft:#4A5672;--line:#EBDFD0;--cta:#E8590C;--cta-dark:#C44A08;--green:#2F8F5B;--card:#FFFFFF;--sun:#FFE0B8;--navy:#1E2A44;--cream:#FFEFD9;
+--display:"Fraunces",Georgia,serif;--body:"Karla",system-ui,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:84px}
+h1,h2,h3{font-family:var(--display);line-height:1.12;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:560px;margin:0 auto;padding:0 20px}
+/* botao pilula, grande, cor unica em toda a pagina */
+.cta{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:62px;padding:16px 24px;border-radius:999px;background:var(--cta);color:#fff;font-weight:700;font-size:1.12rem;text-decoration:none;text-align:center;box-shadow:0 6px 0 var(--cta-dark),0 12px 24px rgba(232,89,12,.25);transition:transform .08s,box-shadow .08s}
+.cta:active{transform:translateY(4px);box-shadow:0 2px 0 var(--cta-dark)}
+.micro{font-size:.88rem;color:var(--soft);text-align:center;margin-top:12px}
+/* hero: foto de tela cheia + titulo sobre ela */
+.hero{position:relative;min-height:80svh;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:#1b1f2a;padding-bottom:28px}
+.hero::before{content:"";position:absolute;inset:0 0 auto 0;height:68%;background:linear-gradient(180deg,rgba(27,31,42,.05) 0%,rgba(27,31,42,.35) 55%,#1b1f2a 100%),var(--hero-img,none) 35% 30%/cover no-repeat}
+.hero .wrap{position:relative;display:flex;flex-direction:column;gap:18px}
+.brand{position:absolute;top:18px;left:20px;font-weight:700;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.5);z-index:2}
+.hero h1{font-size:clamp(2.1rem,9vw,3.1rem);font-weight:700;letter-spacing:-.02em;text-shadow:0 2px 14px rgba(0,0,0,.45)}
+.hero .sub{font-size:1.12rem;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.hero .micro{color:#fff;opacity:.9;text-shadow:0 1px 6px rgba(0,0,0,.5)}
+.sec{padding:52px 0}
+.sec.alt{background:var(--cream);border-block:1px solid var(--line)}
+.sec.dark{background:var(--navy);color:#fff}
+.sec.dark .lede{color:#E8ECF5}
+.sec.dark .eyebrow{color:#FFB366}
+.sec.sun{background:var(--sun)}
+.eyebrow{font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cta-dark);margin-bottom:10px}
+h2{font-size:clamp(1.65rem,6.5vw,2.2rem);font-weight:700;letter-spacing:-.01em;margin-bottom:16px}
+.lede{color:var(--soft);font-size:1.1rem}
+/* video */
+.video{margin-top:22px;border-radius:24px;overflow:hidden;background:#000;box-shadow:0 14px 34px rgba(30,42,68,.2);aspect-ratio:9/16;max-height:78svh;margin-inline:auto;max-width:360px}
+.video video{width:100%;height:100%;object-fit:cover;display:block}
+/* beneficios */
+.benefits{display:grid;gap:14px;margin-top:22px}
+.benefit{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px}
+.benefit .ic{flex:none;width:48px;height:48px;border-radius:16px;background:var(--sun);display:grid;place-items:center;font-size:1.5rem}
+.benefit h3{font-size:1.12rem;margin-bottom:4px}
+.benefit p{color:var(--soft);font-size:1rem}
+/* passos */
+.steps{display:grid;gap:12px;margin-top:22px;counter-reset:s}
+.step{display:flex;gap:14px;align-items:center;background:#fff;border-radius:18px;padding:16px 18px;border:1px solid var(--line)}
+.step::before{counter-increment:s;content:counter(s);flex:none;width:38px;height:38px;border-radius:50%;background:var(--cta);color:#fff;font-weight:700;display:grid;place-items:center}
+.step b{display:block} .step span{color:var(--soft);font-size:.97rem}
+/* foto larga */
+.photo{margin:24px 0 0;border-radius:24px;overflow:hidden}
+.photo img{width:100%;display:block;aspect-ratio:4/3;object-fit:cover}
+/* confianca */
+.trust{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.trust div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center;font-weight:700;font-size:.95rem}
+.trust small{display:block;font-weight:400;color:var(--soft);margin-top:4px}
+.trust .big{font-size:1.5rem;display:block;margin-bottom:4px}
+/* oferta */
+.offer{padding-top:70px!important;margin-top:-60px;background:#fff;border:2px solid var(--cta);border-radius:28px;padding:28px 22px;text-align:center;box-shadow:0 14px 34px rgba(232,89,12,.15)}
+.price{font-family:var(--display);font-size:3rem;font-weight:700;color:var(--cta-dark);line-height:1;margin:10px 0 4px}
+.offer ul{list-style:none;padding:0;margin:18px 0 22px;display:grid;gap:10px;text-align:left}
+.offer li::before{content:"✓";color:var(--green);font-weight:700;margin-right:10px}
+/* faq */
+details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:0;margin-top:10px}
+summary{cursor:pointer;list-style:none;padding:16px 18px;font-weight:700;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.4rem;line-height:1;color:var(--cta)}
+details[open] summary::after{content:"–"}
+details p{padding:0 18px 16px;color:var(--soft);font-size:1rem}
+footer{padding:34px 20px 40px;text-align:center;color:var(--soft);font-size:.85rem}
+footer a{color:var(--soft)}
+/* barra fixa no celular */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(255,248,240,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s}
+.sticky.on{transform:none}
+.sticky .cta{min-height:54px;font-size:1.05rem}
+.band{position:relative;min-height:340px;display:flex;align-items:flex-end;color:#fff;background:#333 var(--img) center/cover no-repeat}
+.band::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,20,30,0) 30%,rgba(20,20,30,.78))}
+.band .wrap{position:relative;padding-block:28px;width:100%}
+.band h2{margin:0;text-shadow:0 2px 12px rgba(0,0,0,.45)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:22px}
+.grid2 img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;display:block}
+.grid2 img:nth-child(1){border-radius:20px 20px 6px 20px}.grid2 img:nth-child(4){border-radius:20px 6px 20px 20px}
+.dogcircle{display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;margin:0 auto;position:relative;z-index:2;border:5px solid #fff;box-shadow:0 8px 20px rgba(30,42,68,.25)}
+@media (min-width:700px){.hero{min-height:80vh}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header class="hero"<!--IF hero_img--> style="--hero-img:url('{{hero_img}}')"<!--/IF hero_img-->>
+  <div class="brand">{{nome}}</div>
+  <div class="wrap">
+    <h1>{{promessa}}</h1>
+    <p class="sub">{{subpromessa}}</p>
+    <a class="cta" href="{{cta_topo}}" data-origem="topo">{{cta_texto_topo}}</a>
+    <p class="micro">{{micro_topo}}</p>
+  </div>
+</header>
+
+<!--IF video-->
+<section class="sec dark">
+  <div class="wrap">
+    <p class="eyebrow">{{video_eyebrow}}</p>
+    <h2>{{video_titulo}}</h2>
+    <p class="lede">{{video_texto}}</p>
+    <div class="video">
+      <video controls playsinline preload="metadata"<!--IF video_poster--> poster="{{video_poster}}"<!--/IF video_poster-->><source src="{{video}}" type="video/mp4"></video>
+    </div>
+  </div>
+</section>
+<!--/IF video-->
+
+<!--IF secao_dores-->
+<section class="sec">
+  <div class="wrap">
+    <p class="eyebrow">{{dores_eyebrow}}</p>
+    <h2>{{dores_titulo}}</h2>
+    <div class="benefits">
+<!--EACH dores--><div class="benefit"><div class="ic">{{item.icone}}</div><div><h3>{{item.titulo}}</h3><p>{{item.texto}}</p></div></div>
+<!--/EACH dores-->    </div>
+  </div>
+</section>
+<!--/IF secao_dores-->
+
+<section class="sec alt">
+  <div class="wrap">
+    <p class="eyebrow">O que você leva</p>
+    <h2>O que você recebe</h2>
+    <div class="benefits">
+<!--EACH beneficios--><div class="benefit"><div class="ic">{{item.icone}}</div><div><h3>{{item.titulo}}</h3><p>{{item.texto}}</p></div></div>
+<!--/EACH beneficios-->    </div>
+  </div>
+</section>
+
+<!--IF galeria-->
+<section class="sec">
+  <div class="wrap">
+    <p class="eyebrow">{{galeria_eyebrow}}</p>
+    <h2>{{galeria_titulo}}</h2>
+    <p class="lede">{{galeria_texto}}</p>
+    <div class="grid2">
+<!--EACH galeria--><img src="{{item.src}}" alt="{{item.alt}}" loading="lazy">
+<!--/EACH galeria-->    </div>
+  </div>
+</section>
+<!--/IF galeria-->
+
+<section class="sec sun">
+  <div class="wrap">
+    <p class="eyebrow">Como funciona</p>
+    <h2>{{passos_titulo}}</h2>
+    <div class="steps">
+<!--EACH passos--><div class="step"><div><b>{{item.titulo}}</b><span>{{item.texto}}</span></div></div>
+<!--/EACH passos-->    </div>
+<!--IF foto_passos--><figure class="photo"><img src="{{foto_passos}}" alt="{{foto_passos_alt}}" loading="lazy"></figure>
+<!--/IF foto_passos-->    <a class="cta" href="{{cta_meio}}" data-origem="meio" style="margin-top:26px">{{cta_texto_meio}}</a>
+  </div>
+</section>
+
+<!--IF faixa_img-->
+<section class="band" style="--img:url('{{faixa_img}}')">
+  <div class="wrap"><h2>{{faixa_titulo}}</h2></div>
+</section>
+<!--/IF faixa_img-->
+
+<!--IF prova_social-->
+<section class="sec">
+  <div class="wrap">
+    <p class="eyebrow">Quem já usou</p>
+    <h2>O que dizem</h2>
+    <div class="benefits">
+<!--EACH prova_social--><div class="benefit"><div class="ic">💬</div><div><h3>{{item.nome}}</h3><p>{{item.texto}}</p></div></div>
+<!--/EACH prova_social-->    </div>
+  </div>
+</section>
+<!--/IF prova_social-->
+
+<section class="sec alt">
+  <div class="wrap">
+    <p class="eyebrow">Sem risco</p>
+    <h2>Compre tranquilo</h2>
+    <div class="trust">
+      <div><span class="big">{{garantia_dias}} dias</span>de garantia<small>devolvemos o valor inteiro</small></div>
+      <div><span class="big">⚡</span>Acesso imediato<small>depois da compra</small></div>
+      <div><span class="big">{{preco_por}}</span>pagamento único<small>sem mensalidade</small></div>
+      <div><span class="big">🔒</span>Compra segura<small>processada pela {{plataforma}}</small></div>
+    </div>
+    <p class="micro" style="margin-top:18px">{{aviso_conteudo}}</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <p class="eyebrow">Dúvidas comuns</p>
+    <h2>Antes de decidir</h2>
+<!--EACH faq--><details><summary>{{item.pergunta}}</summary><p>{{item.resposta}}</p></details>
+<!--/EACH faq-->  </div>
+</section>
+
+<section class="sec sun" id="oferta">
+  <div class="wrap">
+<!--IF foto_oferta-->    <img class="dogcircle" src="{{foto_oferta}}" alt="{{foto_oferta_alt}}" loading="lazy">
+<!--/IF foto_oferta-->    <div class="offer offer-box">
+      <p class="eyebrow">{{nome}}</p>
+      <h2 style="margin-bottom:6px">{{oferta_titulo}}</h2>
+<!--IF preco_de-->      <p class="micro" style="margin:0"><s>De {{preco_de}}</s></p>
+<!--/IF preco_de-->      <div class="price">{{preco_por}}</div>
+      <p class="micro" style="margin-top:0">pagamento único</p>
+      <ul>
+<!--EACH itens_oferta-->        <li>{{item}}</li>
+<!--/EACH itens_oferta-->      </ul>
+      <a class="cta" href="{{cta_oferta}}" data-origem="oferta">{{cta_texto_oferta}}</a>
+      <p class="micro">Acesso imediato depois da compra</p>
+    </div>
+<!--IF afiliado_url-->    <p class="micro" style="margin-top:18px;text-align:center">{{afiliado_chamada}} <a href="{{afiliado_url}}" target="_blank" rel="sponsored noopener">{{afiliado_texto}}</a> <span style="opacity:.7">(link de afiliado)</span></p>
+<!--/IF afiliado_url-->  </div>
+</section>
+
+<footer>
+  {{empresa}}<br>
+  {{contato_texto}}<br>
+  <a href="{{privacidade_url}}">Política de privacidade</a> · <a href="{{termos_url}}">Termos de uso</a>
+</footer>
+
+<div class="sticky" id="barra"><a class="cta" href="{{cta_barra}}" data-origem="barra" tabindex="-1">{{cta_texto_barra}}</a></div>
+<script>
+(function(){
+  var b=document.getElementById("barra"),hero=document.querySelector(".hero"),of=document.getElementById("oferta"),a=b.querySelector("a");
+  var hv=true,ov=false;
+  function upd(){var on=!hv&&!ov;b.classList.toggle("on",on);a.tabIndex=on?0:-1;}
+  if("IntersectionObserver" in window){
+    new IntersectionObserver(function(e){hv=e[0].isIntersecting;upd();},{threshold:.25}).observe(hero);
+    new IntersectionObserver(function(e){ov=e[0].isIntersecting;upd();},{threshold:.2}).observe(of);
+  }
+})();
+</script>
+
+<!--IF clarity_id-->
+<!-- Microsoft Clarity: mapa de calor e gravacao de sessoes (gratis) -->
+<script>
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window,document,"clarity","script","{{clarity_id}}");
+</script>
+<!--/IF clarity_id-->
+
+<!--IF meta_pixel_id-->
+<!-- InitiateCheckout NAO e disparado aqui: a Kiwify ja dispara ao abrir o checkout (evita contar duas vezes). -->
+<script>
+  const META_PIXEL_ID = "{{meta_pixel_id}}";
+  !(function(f, b, e, v, n, t, s) {
+    if (f.fbq) return;
+    n = f.fbq = function() { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+    if (!f._fbq) f._fbq = n;
+    n.push = n; n.loaded = true; n.version = "2.0"; n.queue = [];
+    t = b.createElement(e); t.async = true; t.src = v;
+    s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+  })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
+  fbq("init", META_PIXEL_ID);
+  fbq("track", "PageView");
+  const oferta = document.querySelector(".offer");
+  if (oferta && "IntersectionObserver" in window) {
+    const observador = new IntersectionObserver(function(entradas) {
+      if (entradas.some(function(e) { return e.isIntersecting; })) {
+        fbq("track", "ViewContent", { content_name: "oferta" });
+        observador.disconnect();
+      }
+    }, { threshold: 0.5 });
+    observador.observe(oferta);
+  }
+</script>
+<!--/IF meta_pixel_id-->
+
+</body>
+</html>

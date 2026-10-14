@@ -1,0 +1,83 @@
+# Produto: Sozinho em Casa. Gerado a partir de /sozinho-em-casa-app/landing/index.html (14/10/2026).
+# Campos de imagem/vídeo são caminhos relativos ao deploy da landing (pasta fotos/ do repo da landing).
+slug: sozinho-em-casa
+nome: Sozinho em Casa
+titulo_pagina: Sozinho em Casa — protocolo de 14 dias
+descricao: "Seu cão sofre quando você sai? Um protocolo de 14 dias, passo a passo, para ele aprender que ficar sozinho é seguro. R$ 9,90, acesso imediato, garantia de 7 dias."
+promessa: Seu cachorro pode aprender a ficar sozinho com calma
+subpromessa: Um protocolo de 14 dias, passo a passo, para ele relaxar quando você sai e a sua casa ficar mais leve.
+micro_topo: Acesso imediato · Garantia de 7 dias
+dores:
+  - {icone: "🔔", titulo: "O vizinho já reclamou", texto: "Latido e choro quando você sai deixam todo mundo no limite."}
+  - {icone: "🛋️", titulo: "Você já tentou de tudo", texto: "TV ligada, petisco e brinquedo ajudam pouco quando o problema é ficar sozinho."}
+secao_dores: false   # true para exibir a seção de dores (teste de variante)
+passos_titulo: Simples de seguir
+passos:
+  - {titulo: Observe, texto: "Entenda o que acontece quando você sai (dias 1–2)."}
+  - {titulo: Prepare, texto: "Quebre a ligação entre “vou sair” e o aperto dele."}
+  - {titulo: Avance aos poucos, texto: "Aumente o tempo sozinho, de segundos a períodos maiores."}
+beneficios:
+  - {icone: "📘", titulo: "Manual prático, do dia 1 ao 14", texto: "Você coloca o protocolo em prática desde o primeiro dia, passo a passo, no ritmo do seu cão."}
+  - {icone: "🧠", titulo: "Base teórica que explica o porquê", texto: "Entenda por que cada passo funciona, para não seguir receita às cegas."}
+  - {icone: "📱", titulo: "Aplicativo para acompanhar", texto: "Diagnóstico, registro do progresso de cada dia, diário digital e diploma para baixar."}
+  - {icone: "🛡️", titulo: "Garantia de 7 dias", texto: "Se não for para vocês, devolvemos o valor inteiro."}
+oferta:
+  titulo: Comece hoje
+  preco_de: ""            # a landing atual não mostra o "de"; o VSL usa R$ 37. Preencha para exibir.
+  preco_por: "R$ 9,90"
+  itens:
+    - Manual prático do protocolo de 14 dias
+    - "Base teórica: o porquê de cada passo"
+    - Aplicativo com registro diário e diploma
+    - Garantia de 7 dias
+garantia_dias: 7
+plataforma: Kiwify
+checkout_url: https://pay.kiwify.com.br/NcQChat
+link_afiliado_opcional:
+  url: https://s.shopee.com.br/80DRRwgNte
+  chamada: "Quer ver seu cão de longe?"
+  texto: Câmera Wi-Fi para pet na Shopee
+utm:
+  source: tutorialpet
+  medium: landing
+  campaign: sozinho-em-casa
+faq:
+  - {pergunta: "Já levei num adestrador e não resolveu.", resposta: "Adestramento comum ensina comandos. Ficar sozinho com calma é outro assunto e pede um protocolo próprio, que é o que você encontra aqui."}
+  - {pergunta: "Meu cachorro é velho. Ainda dá certo?", resposta: "Cães mais velhos costumam responder mais devagar. O manual explica o que esperar em cada caso e como ajustar o ritmo."}
+  - {pergunta: "Quanto tempo leva?", resposta: "O protocolo tem 14 dias. Cada cão tem seu ritmo, e o material mostra como adaptar o passo."}
+  - {pergunta: "Como recebo?", resposta: "Logo após o pagamento você recebe o acesso por e-mail, em PDF para ler no celular e imprimir as fichas."}
+  - {pergunta: "E se não gostar?", resposta: "Você tem 7 dias para pedir o reembolso integral pela própria Kiwify, sem precisar justificar."}
+aviso_conteudo: Material educativo sobre comportamento animal. Não substitui avaliação veterinária.
+empresa: Dourado Falcão · Manuais práticos
+contato_texto: Dúvidas antes de comprar? Responda o e-mail de contato na página de checkout.
+privacidade_url: privacidade.html
+termos_url: termos.html   # ATENÇÃO: termos.html ainda não existe no repo da landing (só privacidade.html)
+midia:
+  favicon: favicon.png
+  hero_img: fotos/cao-sorriso.jpg
+  video: video-boas-vindas.mp4
+  video_poster: video-poster.jpg
+  video_eyebrow: Bem-vindo
+  video_titulo: Dá uma olhada, são 35 segundos
+  video_texto: Parabéns por estar aqui. Veja o que você recebe e como o Sozinho em Casa guia vocês dois.
+  galeria_eyebrow: Para todo tipo de cão
+  galeria_titulo: Pequenos, grandes, filhotes e veteranos
+  galeria_texto: Cada cão tem seu ritmo. O protocolo mostra como ajustar o passo ao do seu.
+  galeria:
+    - {src: fotos/cao-sorriso.jpg, alt: Cachorro branco sorrindo}
+    - {src: fotos/filhote-brinquedo.jpg, alt: Filhote brincando com um brinquedo}
+    - {src: fotos/cao-grama.jpg, alt: Cachorro deitado na grama, feliz}
+    - {src: fotos/cao-poodle.jpg, alt: Cachorro de pelo claro com a língua de fora}
+  foto_passos: fotos/passeio.jpg
+  foto_passos_alt: Tutora caminhando com seu cachorro ao pôr do sol
+  faixa_img: fotos/cao-janela.jpg
+  faixa_titulo: Sair de casa com o coração mais leve
+  foto_oferta: fotos/filhote-marrom.jpg
+  foto_oferta_alt: Filhote de pelo marrom olhando para a câmera
+analytics:
+  clarity_id: yu0lsk0a6n
+  meta_pixel_id: "2135885120651427"
+# Prova social: só depoimentos REAIS e autorizados. Vazio = seção não aparece.
+prova_social: []
+# Variantes para teste A/B grátis (o Aprimorador preenche). Cada variante sobrescreve campos do topo.
+variantes: {}
