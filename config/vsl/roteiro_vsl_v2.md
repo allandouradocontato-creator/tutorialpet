@@ -1,4 +1,4 @@
-# VSL Sozinho em Casa — roteiro v2 (13/10/2026) — AGUARDANDO APROVAÇÃO DO ALLAN
+# VSL Sozinho em Casa — roteiro v2.1 (13/10/2026, gancho direto no problema + solução nos primeiros 10 s)
 
 Formato: vertical 9:16, ~50 s, voz da Duda (Marianne), carimbo Tutorial Pet, música que abaixa na narração.
 Regras: sem prova social inventada, sem promessa de cura, sem alegação veterinária; caso grave = procurar veterinário/adestrador.
@@ -22,3 +22,7 @@ Regras: sem prova social inventada, sem promessa de cura, sem alegação veterin
 Ganchos A/B (só muda 0-4 s): A vizinho (acima); B "Cada vez que você sai, ele sofre. E não é falta de educação."; C "Seu cachorro não precisa sofrer toda vez que você sai."
 Versão curta (15-20 s) para anúncio: gancho + troca de culpa + preço + CTA.
 Landing: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=vsl
+
+
+## v2.1 (pedido do Allan 13/10 21:51)
+Gancho direto: "Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Você não aguenta mais isso?" e logo em seguida a solução: "Existe um jeito. O Sozinho em Casa: protocolo de 14 dias, um passo por dia, sem grito e sem punição." Depois troca de culpa, manual+app, preço, CTA.
