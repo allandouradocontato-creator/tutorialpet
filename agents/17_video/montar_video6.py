@@ -208,7 +208,7 @@ def efeito_commons(termo: str, saida: Path) -> bool:
                 lf = saida.with_name("lst.txt")
                 lf.write_text("".join(f"file '{x.as_posix()}'\n" for x in lst), encoding="utf-8")
                 sh(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lf), "-af",
-                    "lowpass=f=2600,aecho=0.7:0.6:60:0.25,volume=1.4", "-ar", "44100", "-ac", "2", str(saida)])
+                    "highpass=f=150,aecho=0.6:0.5:40:0.2,volume=2.2,alimiter=limit=0.95", "-ar", "44100", "-ac", "2", str(saida)])
             except Exception as e:  # noqa: BLE001
                 print("  sequência de latidos falhou, usando o latido simples:", str(e)[:80], flush=True)
             return saida.exists() and saida.stat().st_size > 1000
