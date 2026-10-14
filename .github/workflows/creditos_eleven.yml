@@ -1,0 +1,25 @@
+name: Creditos ElevenLabs (uso unico)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - env:
+          K: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request, urllib.error, datetime
+          k = os.environ["K"].strip()
+          try:
+              r = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": k})
+              d = json.load(urllib.request.urlopen(r, timeout=30))
+              print("plano:", d.get("tier"), "| usados:", d.get("character_count"), "| limite:", d.get("character_limit"),
+                    "| restantes:", (d.get("character_limit") or 0) - (d.get("character_count") or 0),
+                    "| renova em:", datetime.datetime.utcfromtimestamp(d.get("next_character_count_reset_unix", 0)).isoformat())
+          except urllib.error.HTTPError as e:
+              print("erro", e.code, e.read()[:200])
+          PY
