@@ -1,0 +1,44 @@
+name: landing_videos
+on: workflow_dispatch
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          sudo apt-get install -y ffmpeg >/dev/null 2>&1 || true
+          mkdir -p out
+          python3 - <<'PY'
+          import os, json, subprocess, urllib.request, urllib.parse
+          key = os.environ["PEXELS_API_KEY"]
+          qs = {
+           "hero": "happy dog playing with owner living room",
+           "abraco": "woman hugging dog on sofa at home",
+           "brincar": "man playing with dog toy living room",
+           "espera": "dog waiting at front door indoors",
+           "calmo": "dog relaxing on sofa at home",
+           "filhote": "cute puppy playing indoors",
+           "estresse": "woman stressed hands on head dog home",
+           "tutor": "woman petting golden retriever home",
+          }
+          for nome, q in qs.items():
+              u = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": q, "per_page": 15, "orientation": "portrait" if nome in ("hero",) else "landscape"})
+              r = urllib.request.Request(u, headers={"Authorization": key})
+              vids = json.load(urllib.request.urlopen(r))["videos"]
+              feito = 0
+              for v in vids:
+                  if feito >= 2: break
+                  fs = sorted([f for f in v["video_files"] if f["file_type"] == "video/mp4" and f.get("width", 0) >= 640], key=lambda f: f["width"])
+                  if not fs or v.get("duration", 0) < 4: continue
+                  src = f"out/{nome}_{feito}_src.mp4"
+                  urllib.request.urlretrieve(fs[0]["link"], src)
+                  dst = f"out/{nome}_{feito}.mp4"
+                  subprocess.run(["ffmpeg","-y","-i",src,"-t","8","-an","-vf","scale=720:-2","-c:v","libx264","-crf","30","-preset","veryfast","-movflags","+faststart","-pix_fmt","yuv420p",dst],capture_output=True)
+                  os.remove(src)
+                  print(nome, feito, v["url"], os.path.getsize(dst)//1024, "KB", flush=True)
+                  feito += 1
+          PY
+      - uses: actions/upload-artifact@v4
+        with: {name: landing-videos, path: out}
