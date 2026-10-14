@@ -26,3 +26,5 @@ Landing: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_mediu
 
 ## v2.1 (pedido do Allan 13/10 21:51)
 Gancho direto: "Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Você não aguenta mais isso?" e logo em seguida a solução: "Existe um jeito. O Sozinho em Casa: protocolo de 14 dias, um passo por dia, sem grito e sem punição." Depois troca de culpa, manual+app, preço, CTA.
+
+v2.2 (Allan 13/10 21:54): cena de garantia de 7 dias após o preço ("Se não gostar, devolvemos todo o seu dinheiro"); capa do produto sobreposta; vídeo do app em uso a incluir.
