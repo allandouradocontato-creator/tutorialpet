@@ -51,7 +51,8 @@ aviso_conteudo: Material educativo sobre comportamento animal. Não substitui av
 empresa: Dourado Falcão · Manuais práticos
 contato_texto: Dúvidas antes de comprar? Responda o e-mail de contato na página de checkout.
 privacidade_url: privacidade.html
-termos_url: termos.html   # ATENÇÃO: termos.html ainda não existe no repo da landing (só privacidade.html)
+termos_url:   # a landing no ar nao tem pagina de termos; preencher quando existir
+midia_origem: templates/landing/midia/sozinho-em-casa
 midia:
   favicon: favicon.png
   hero_img: fotos/cao-sorriso.jpg

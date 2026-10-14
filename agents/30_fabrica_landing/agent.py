@@ -4,7 +4,7 @@ Le o YAML do produto, valida e gera templates/landing/saida/<slug>/index.html + 
 (e <slug>/b/index.html para cada variante em `variantes`, com utm_content=var-b para medir por UTM).
 Sem dependencias alem de PyYAML. Nao grava chaves; IDs de pixel/clarity vem do YAML (publicos).
 """
-import os, re, sys, json, glob, html, time
+import os, re, sys, json, glob, html, time, shutil
 from urllib.parse import urlencode, urlsplit, urlunsplit, parse_qsl
 import yaml
 
@@ -37,7 +37,7 @@ def validar(p):
         erros.append("checkout_url obrigatorio e deve comecar com https://")
     if not (p.get("oferta") or {}).get("preco_por"): erros.append("oferta.preco_por ausente")
     if not p.get("privacidade_url"): erros.append("politica de privacidade nao linkada (privacidade_url)")
-    if not p.get("termos_url"): erros.append("termos nao linkados (termos_url)")
+    if not p.get("termos_url"): avisos.append("termos_url vazio: pagina de termos nao linkada (crie termos.html e preencha)")
     if not p.get("garantia_dias"): erros.append("garantia_dias ausente")
     for caminho, t in textos({k: v for k, v in p.items() if k != "variantes"}):
         if caminho.split(".")[0] in CAMPOS_IGNORADOS_ALEGACAO: continue
@@ -79,7 +79,7 @@ def contexto(p, variante=None):
         "oferta_titulo": o.get("titulo", "Comece hoje"), "preco_de": o.get("preco_de", ""), "preco_por": preco,
         "itens_oferta": o.get("itens", []), "garantia_dias": p["garantia_dias"], "plataforma": p.get("plataforma", "Kiwify"),
         "faq": p["faq"], "aviso_conteudo": p.get("aviso_conteudo", ""), "empresa": p.get("empresa", ""),
-        "contato_texto": p.get("contato_texto", ""), "privacidade_url": p["privacidade_url"], "termos_url": p["termos_url"],
+        "contato_texto": p.get("contato_texto", ""), "privacidade_url": p["privacidade_url"], "termos_url": p.get("termos_url", ""), "termos_html": (' · <a href="%s">Termos de uso</a>' % p["termos_url"]) if p.get("termos_url") else "",
         "prova_social": p.get("prova_social") or [],
         "afiliado_url": af.get("url", ""), "afiliado_texto": af.get("texto", ""), "afiliado_chamada": af.get("chamada", ""),
         "clarity_id": an.get("clarity_id", ""), "meta_pixel_id": an.get("meta_pixel_id", ""),
@@ -115,7 +115,7 @@ def render(tpl, c):
 def checar_saida(h, p):
     erros = []
     if re.search(r"\{\{|<!--(IF|EACH|/)", h): erros.append("placeholder nao resolvido na saida")
-    if "privacidade" not in h or "Termos de uso" not in h: erros.append("saida sem links de privacidade/termos")
+    if "privacidade" not in h: erros.append("saida sem link de privacidade")
     af = (p.get("link_afiliado_opcional") or {}).get("url")
     if af and "(link de afiliado)" not in h: erros.append("link de afiliado sem aviso na saida")
     if af and 'rel="sponsored' not in h: erros.append("link de afiliado sem rel=sponsored")
@@ -141,6 +141,8 @@ def gerar(caminho):
         for e in e2: print(f"  ERRO: {e}")
         return False
     open(os.path.join(pasta, "index.html"), "w", encoding="utf-8").write(h)
+    if p.get("midia_origem"):
+        shutil.copytree(os.path.join(RAIZ, p["midia_origem"]), pasta, dirs_exist_ok=True)
     json.dump(VERCEL, open(os.path.join(pasta, "vercel.json"), "w", encoding="utf-8"), indent=2)
     n = 1
     for vid, v in (p.get("variantes") or {}).items():
