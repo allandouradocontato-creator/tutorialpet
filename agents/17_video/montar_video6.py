@@ -571,6 +571,13 @@ def main() -> int:
                 "[0:v][1:v]overlay=x=44:y=150:format=auto[v]", "-map", "[v]", "-map", "0:a?", "-c:v", "libx264",
                 "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "copy", str(com_carimbo)])
             bruto = com_carimbo
+        faixa = ROOT / rot["faixa_cta"] if rot.get("faixa_cta") else None  # selo discreto "Toque em Saiba mais" (botão real = o da Meta/landing)
+        if faixa and faixa.exists():
+            com_faixa = tmp / "bruto_faixa.mp4"
+            sh(["ffmpeg", "-y", "-i", str(bruto), "-i", str(faixa), "-filter_complex",
+                "[0:v][1:v]overlay=x=(W-w)/2:y=1560:format=auto[v]", "-map", "[v]", "-map", "0:a?", "-c:v", "libx264",
+                "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "copy", str(com_faixa)])
+            bruto = com_faixa
         # biblioteca de música (Pixabay Music, licença livre): uma faixa por vídeo, escolhida pelo slug para variar
         pasta_m = ROOT / "biblioteca" / "musica"
         musicas = sorted(pasta_m.glob("*.mp3")) if pasta_m.exists() else []
