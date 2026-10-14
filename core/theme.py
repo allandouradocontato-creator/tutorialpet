@@ -132,6 +132,20 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
 .hero h1 { font-size: 2.5rem; }
 .hero p { font-size: 1.15rem; color: var(--color-text-muted); max-width: 640px; }
 
+/* Rádio Tutorial Pet: player opcional, começa desligado */
+.radio { position: fixed; left: 14px; bottom: 14px; z-index: 900; font-family: var(--font-body); }
+.radio-btn { display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px 8px 12px; border: 0; border-radius: 999px; background: var(--color-primary); color: #fff; font-weight: 700; font-size: .9rem; cursor: pointer; box-shadow: 0 6px 18px rgba(20,28,48,.3); }
+.radio-ico { width: 28px; height: 28px; border-radius: 50%; background: var(--color-sun); color: var(--color-primary-dark); display: grid; place-items: center; font-size: 1.1rem; }
+.radio.tocando .radio-ico { animation: radio-pulsa 1s ease-in-out infinite; }
+@keyframes radio-pulsa { 50% { transform: scale(1.18); } }
+.radio-painel { margin-bottom: 8px; width: min(300px, calc(100vw - 28px)); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 16px; padding: 12px 14px; box-shadow: 0 10px 28px rgba(20,28,48,.22); position: absolute; bottom: 52px; left: 0; }
+.radio-faixa { font-weight: 700; font-size: .92rem; color: var(--color-primary-dark); margin-bottom: 8px; }
+.radio-ctl { display: flex; align-items: center; gap: 6px; }
+.radio-ctl button { width: 40px; height: 40px; border: 0; border-radius: 50%; background: var(--color-primary-soft); color: var(--color-primary-dark); font-size: 1rem; cursor: pointer; }
+.radio-ctl input { flex: 1; min-width: 0; accent-color: var(--color-accent); }
+.radio-cred { margin-top: 8px; font-size: .72rem; color: var(--color-text-muted); line-height: 1.35; }
+@media (prefers-reduced-motion: reduce) { .radio.tocando .radio-ico { animation: none; } }
+
 footer.site { max-width: 1080px; margin: 40px auto 0; padding: 22px 20px 44px; font-size: 0.85rem;
   color: var(--color-text-muted); border-top: 1px solid var(--color-border); }
 footer.site a { color: var(--color-text-muted); margin-right: 14px; }

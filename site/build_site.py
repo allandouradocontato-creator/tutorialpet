@@ -100,6 +100,42 @@ CARROSSEL_JS = (
     "m();a();})();</script>"
 )
 
+RADIO_HTML = (
+    '<div id="tp-radio" class="radio" hidden>'
+    '<button type="button" class="radio-btn" id="tp-radio-play" aria-label="Ligar a Rádio Tutorial Pet" aria-pressed="false"><span class="radio-ico" aria-hidden="true">\u266a</span><span class="radio-txt">Rádio Tutorial Pet</span></button>'
+    '<div class="radio-painel" id="tp-radio-painel" hidden>'
+    '<div class="radio-faixa" id="tp-radio-faixa" aria-live="polite">—</div>'
+    '<div class="radio-ctl"><button type="button" id="tp-radio-prev" aria-label="Faixa anterior">\u23ee</button>'
+    '<button type="button" id="tp-radio-pp" aria-label="Pausar">\u23f8</button>'
+    '<button type="button" id="tp-radio-next" aria-label="Próxima faixa">\u23ed</button>'
+    '<input type="range" id="tp-radio-vol" min="0" max="100" value="35" aria-label="Volume"></div>'
+    '<div class="radio-cred">Músicas livres de direitos autorais (licença Pixabay). Créditos: <span id="tp-radio-cred"></span></div>'
+    '</div></div>'
+)
+RADIO_JS = (
+    "<script>(function(){var w=document.getElementById('tp-radio');if(!w)return;w.hidden=false;"
+    "var K='tp_radio',S={};try{S=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}"
+    "var a=null,L=null,i=S.i||0,b=document.getElementById('tp-radio-play'),p=document.getElementById('tp-radio-painel'),"
+    "pp=document.getElementById('tp-radio-pp'),f=document.getElementById('tp-radio-faixa'),v=document.getElementById('tp-radio-vol');"
+    "v.value=S.v==null?35:S.v;"
+    "function sv(){try{localStorage.setItem(K,JSON.stringify({on:!!(a&&!a.paused),i:i,t:a?a.currentTime:0,v:+v.value,open:!p.hidden}))}catch(e){}}"
+    "function ui(){var on=a&&!a.paused;b.setAttribute('aria-pressed',on?'true':'false');w.classList.toggle('tocando',!!on);pp.textContent=on?'\\u23f8':'\\u25b6';pp.setAttribute('aria-label',on?'Pausar':'Tocar')}"
+    "function load(cb){if(L){cb();return}fetch('/radio/faixas.json').then(function(r){return r.json()}).then(function(j){L=j;"
+    "document.getElementById('tp-radio-cred').textContent=j.map(function(x){return x.autor}).filter(function(x,k,r){return r.indexOf(x)===k}).join(', ');cb()}).catch(function(){})}"
+    "function set(k,t,go){i=(k+L.length)%L.length;if(!a){a=new Audio();a.preload='none';a.addEventListener('ended',function(){set(i+1,0,true)});"
+    "a.addEventListener('pause',function(){ui();sv()});a.addEventListener('play',ui);setInterval(function(){if(a&&!a.paused)sv()},4000)}"
+    "a.src=L[i].arquivo;a.volume=v.value/100;f.textContent=L[i].titulo+' \\u2014 '+L[i].autor;"
+    "if(t){a.addEventListener('loadedmetadata',function h(){try{a.currentTime=t}catch(e){}a.removeEventListener('loadedmetadata',h)})}"
+    "if(go){var r=a.play();if(r&&r.catch)r.catch(function(){ui()})}ui();sv()}"
+    "b.onclick=function(){load(function(){if(!a){p.hidden=false;set(i,S.t||0,true)}else if(a.paused){p.hidden=false;a.play()}else{a.pause();p.hidden=true}sv()})};"
+    "pp.onclick=function(){if(!a)return;if(a.paused)a.play();else a.pause()};"
+    "document.getElementById('tp-radio-next').onclick=function(){load(function(){set(i+1,0,true)})};"
+    "document.getElementById('tp-radio-prev').onclick=function(){load(function(){set(i-1,0,true)})};"
+    "v.oninput=function(){if(a)a.volume=v.value/100;sv()};"
+    "addEventListener('pagehide',sv);if(S.on){load(function(){p.hidden=false;set(i,S.t||0,true)})}"
+    "})();</script>"
+)
+
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
@@ -181,6 +217,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <body>
 {body_html}
 {CONSENT_HTML}
+{RADIO_HTML}{RADIO_JS}
 </body>
 </html>
 """
@@ -438,6 +475,13 @@ def run(site_id: str) -> dict:
     ads_txt_src = TECH_DIR / site_id / "ads.txt"
     if ads_txt_src.exists():
         (BUILD_DIR / "ads.txt").write_text(ads_txt_src.read_text(encoding="utf-8"), encoding="utf-8")
+
+    radio_src = ROOT / "site" / "radio"
+    if radio_src.exists():
+        radio_dst = BUILD_DIR / "radio"
+        radio_dst.mkdir(parents=True, exist_ok=True)
+        for arq in radio_src.iterdir():
+            (radio_dst / arq.name).write_bytes(arq.read_bytes())
 
     (BUILD_DIR / "vercel.json").write_text(json.dumps({"cleanUrls": True, "trailingSlash": False}, indent=2),
                                             encoding="utf-8")
