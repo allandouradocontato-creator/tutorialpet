@@ -166,52 +166,65 @@ def _tts_elevenlabs(texto: str, saida: Path):
 
 
 def efeito_commons(termo: str, saida: Path) -> bool:
-    """Plano B grátis: áudio de domínio público/CC0 do Wikimedia Commons (sem exigir atribuição)."""
+    """Plano B grátis: áudio de domínio público/CC0 do Wikimedia Commons (sem exigir atribuição).
+    Baixa vários candidatos, escolhe o mais forte e longo, normaliza o volume e, se for curto, monta uma sequência."""
     import urllib.parse
     import urllib.request
     api = "https://commons.wikimedia.org/w/api.php?"
     hdr = {"User-Agent": "TutorialPetFabrica/1.0 (contato: tutorialpet.com.br)"}
     try:
         q = urllib.parse.urlencode({"action": "query", "generator": "search", "gsrsearch": f"{termo} filetype:audio",
-                                    "gsrnamespace": 6, "gsrlimit": 30, "prop": "imageinfo",
+                                    "gsrnamespace": 6, "gsrlimit": 40, "prop": "imageinfo",
                                     "iiprop": "url|extmetadata|size|mime", "format": "json"})
         d = json.load(urllib.request.urlopen(urllib.request.Request(api + q, headers=hdr), timeout=40))
+        cands = []
         for pg in (d.get("query", {}).get("pages", {}) or {}).values():
             ii = (pg.get("imageinfo") or [{}])[0]
             lic = str((ii.get("extmetadata") or {}).get("LicenseShortName", {}).get("value", "")).lower()
             if not ("cc0" in lic or "public domain" in lic or lic == "pd"):
                 continue
-            url = ii.get("url", "")
-            if not url or ii.get("size", 0) > 6_000_000:
-                continue
-            bruto = saida.with_suffix(".src")
-            bruto.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=60).read())
+            if ii.get("url") and ii.get("size", 0) <= 8_000_000:
+                cands.append((pg.get("title"), ii["url"], lic))
+        print(f"  Commons: {len(cands)} candidatos livres", flush=True)
+        melhores = []
+        for k, (titulo, url, lic) in enumerate(cands[:10]):
             try:
-                sh(["ffmpeg", "-y", "-i", str(bruto), "-t", "12", "-ar", "44100", "-ac", "2", str(saida)])
-            except Exception:  # noqa: BLE001
-                continue
-            print(f"  latido (Commons, {lic}): {pg.get('title')}", flush=True)
-            if not (saida.exists() and saida.stat().st_size > 1000):
-                continue
-            try:  # monta uma sequência de latidos (tons e pausas variados), abafada como se viesse de trás da porta
-                base = saida.with_suffix(".wav")
-                sh(["ffmpeg", "-y", "-i", str(saida), "-t", "1.6", "-ar", "44100", "-ac", "1", str(base)])
-                tons = [1.0, 0.92, 1.07, 0.97, 1.1, 0.95, 1.03, 0.9, 1.06, 0.98]
-                pausas = [0.35, 0.8, 0.25, 0.6, 0.3, 1.0, 0.4, 0.5, 0.7, 0.3]
-                parts, lst = [], []
-                for k, (t, ps) in enumerate(zip(tons, pausas)):
-                    a = saida.with_name(f"lt{k}.wav")
-                    sh(["ffmpeg", "-y", "-i", str(base), "-af", f"asetrate=44100*{t},aresample=44100", str(a)])
-                    g = saida.with_name(f"lg{k}.wav")
-                    sh(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(ps), str(g)])
-                    lst += [a, g]
-                lf = saida.with_name("lst.txt")
-                lf.write_text("".join(f"file '{x.as_posix()}'\n" for x in lst), encoding="utf-8")
-                sh(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lf), "-af",
-                    "highpass=f=150,aecho=0.6:0.5:40:0.2,volume=2.2,alimiter=limit=0.95", "-ar", "44100", "-ac", "2", str(saida)])
+                src = saida.with_name(f"c{k}.src")
+                src.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=60).read())
+                wav = saida.with_name(f"c{k}.wav")
+                sh(["ffmpeg", "-y", "-i", str(src), "-t", "12", "-ar", "44100", "-ac", "1", str(wav)])
+                dur = duracao(wav)
+                r = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "volumedetect", "-f", "null", "-"],
+                                   capture_output=True, text=True, errors="replace")
+                m = re.search(r"mean_volume:\s*(-?[\d.]+)", r.stderr)
+                media = float(m.group(1)) if m else -99.0
+                print(f"    {titulo} | {dur:.1f}s | média {media} dB | {lic}", flush=True)
+                melhores.append((dur >= 2.0, media, dur, titulo, wav))
             except Exception as e:  # noqa: BLE001
-                print("  sequência de latidos falhou, usando o latido simples:", str(e)[:80], flush=True)
-            return saida.exists() and saida.stat().st_size > 1000
+                print("    candidato falhou:", str(e)[:60], flush=True)
+        if not melhores:
+            return False
+        melhores.sort(key=lambda x: (x[0], x[1]), reverse=True)
+        longo, media, dur, titulo, wav = melhores[0]
+        print(f"  latido escolhido: {titulo} ({dur:.1f}s, {media} dB)", flush=True)
+        if dur >= 4.0:
+            sh(["ffmpeg", "-y", "-i", str(wav), "-af", "loudnorm=I=-10:TP=-1:LRA=7", "-ar", "44100", "-ac", "2", str(saida)])
+        else:  # latido curto: repete com tons e pausas variados
+            tons = [1.0, 0.92, 1.07, 0.97, 1.1, 0.95, 1.03, 0.9, 1.06, 0.98]
+            pausas = [0.35, 0.8, 0.25, 0.6, 0.3, 1.0, 0.4, 0.5, 0.7, 0.3]
+            lst = []
+            for k, (t, ps) in enumerate(zip(tons, pausas)):
+                a = saida.with_name(f"lt{k}.wav")
+                sh(["ffmpeg", "-y", "-i", str(wav), "-t", "1.8", "-af", f"asetrate=44100*{t},aresample=44100", str(a)])
+                g = saida.with_name(f"lg{k}.wav")
+                sh(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(ps), str(g)])
+                lst += [a, g]
+            lf = saida.with_name("lst.txt")
+            lf.write_text("".join(f"file '{x.as_posix()}'\n" for x in lst), encoding="utf-8")
+            seq = saida.with_name("seq.wav")
+            sh(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lf), str(seq)])
+            sh(["ffmpeg", "-y", "-i", str(seq), "-af", "loudnorm=I=-10:TP=-1:LRA=7", "-ar", "44100", "-ac", "2", str(saida)])
+        return saida.exists() and saida.stat().st_size > 1000
     except Exception as e:  # noqa: BLE001
         print(f"  Commons: {type(e).__name__}: {str(e)[:80]}", flush=True)
     return False
