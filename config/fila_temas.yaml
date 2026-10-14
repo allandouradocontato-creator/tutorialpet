@@ -61,7 +61,8 @@ temas:
   data: '2026-10-13'
 - termo: como acostumar o cachorro a cortar as unhas
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-14'
 - termo: como fazer cachorro idoso aceitar um filhote novo
   pilar: comportamento
   status: pendente
@@ -163,4 +164,16 @@ temas:
   status: pendente
 - termo: como organizar a rotina de passeios para cães de diferentes idades
   pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher coleira com rastreador gps para cachorro
+  pilar: produtos_compras
+  status: pendente
+- termo: como armazenar racao de cachorro para nao perder nutrientes
+  pilar: alimentacao
+  status: pendente
+- termo: como limpar as patas do cachorro depois do passeio
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como evitar choque termico em cachorros nos dias quentes
+  pilar: saude_basica
   status: pendente
