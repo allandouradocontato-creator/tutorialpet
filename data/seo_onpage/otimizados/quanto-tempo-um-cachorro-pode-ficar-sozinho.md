@@ -43,6 +43,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quanto-tempo-um-cachorro-pode-ficar-sozinho.jsonld.json
+imagem_capa: imagens/quanto-tempo-um-cachorro-pode-ficar-sozinho.jpg
+imagem_fonte: pexels
+imagem_fotografo: Tony Began
+imagem_fotografo_url: https://www.pexels.com/@tony-began-3126738
+imagem_url_pagina: https://www.pexels.com/photo/a-dog-looking-out-the-window-with-a-collar-on-it-s-neck-6468223/
+imagem_selecionada_em: '2026-10-14T18:45:13+00:00'
 ---
 
 # Quanto tempo um cachorro pode ficar sozinho: guia prático

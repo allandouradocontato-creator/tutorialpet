@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/pode-dar-sache-para-gato-todos-os-dias.jsonld.json
+imagem_capa: imagens/pode-dar-sache-para-gato-todos-os-dias.jpg
+imagem_fonte: pexels
+imagem_fotografo: mohamed abdelghaffar
+imagem_fotografo_url: https://www.pexels.com/@moh-adbelghaffar
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/
+imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
 ---
 
 # Pode dar sachê para gato todos os dias: guia prático

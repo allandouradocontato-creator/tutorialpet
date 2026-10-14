@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/pode-dar-sache-para-gato-todos-os-dias"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/pode-dar-sache-para-gato-todos-os-dias.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

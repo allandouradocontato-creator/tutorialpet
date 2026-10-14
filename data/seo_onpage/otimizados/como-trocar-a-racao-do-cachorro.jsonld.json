@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-trocar-a-racao-do-cachorro"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-trocar-a-racao-do-cachorro.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

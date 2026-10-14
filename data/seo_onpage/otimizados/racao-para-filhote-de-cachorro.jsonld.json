@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/racao-para-filhote-de-cachorro"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/racao-para-filhote-de-cachorro.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

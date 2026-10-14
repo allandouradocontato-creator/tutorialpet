@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/alimentos-proibidos-para-cachorro"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/alimentos-proibidos-para-cachorro.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -45,6 +45,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-limpar-caixa-de-areia-do-gato.jsonld.json
+imagem_capa: imagens/como-limpar-caixa-de-areia-do-gato.jpg
+imagem_fonte: pexels
+imagem_fotografo: Alina Vilchenko
+imagem_fotografo_url: https://www.pexels.com/@monstera
+imagem_url_pagina: https://www.pexels.com/photo/close-up-photo-of-cat-2698519/
+imagem_selecionada_em: '2026-10-14T18:45:11+00:00'
 ---
 
 # Como limpar caixa de areia do gato

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/quanto-tempo-um-cachorro-pode-ficar-sozinho.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -45,6 +45,12 @@ sugestoes_links_internos:
   ancora_sugerida: como limpar caixa de areia do gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escovar-os-dentes-do-cachorro.jsonld.json
+imagem_capa: imagens/como-escovar-os-dentes-do-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: Alexas Fotos
+imagem_fotografo_url: https://www.pexels.com/@alexasfotos
+imagem_url_pagina: https://www.pexels.com/photo/adorable-white-dog-in-nature-portrait-34242930/
+imagem_selecionada_em: '2026-10-14T18:45:11+00:00'
 ---
 
 # Como escovar os dentes do cachorro

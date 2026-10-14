@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-cortar-unha-de-cachorro"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-cortar-unha-de-cachorro.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
