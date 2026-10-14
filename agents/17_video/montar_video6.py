@@ -164,11 +164,44 @@ def _tts_elevenlabs(texto: str, saida: Path):
 
 
 
+
+def efeito_commons(termo: str, saida: Path) -> bool:
+    """Plano B grátis: áudio de domínio público/CC0 do Wikimedia Commons (sem exigir atribuição)."""
+    import urllib.parse
+    import urllib.request
+    api = "https://commons.wikimedia.org/w/api.php?"
+    hdr = {"User-Agent": "TutorialPetFabrica/1.0 (contato: tutorialpet.com.br)"}
+    try:
+        q = urllib.parse.urlencode({"action": "query", "generator": "search", "gsrsearch": f"{termo} filetype:audio",
+                                    "gsrnamespace": 6, "gsrlimit": 30, "prop": "imageinfo",
+                                    "iiprop": "url|extmetadata|size|mime", "format": "json"})
+        d = json.load(urllib.request.urlopen(urllib.request.Request(api + q, headers=hdr), timeout=40))
+        for pg in (d.get("query", {}).get("pages", {}) or {}).values():
+            ii = (pg.get("imageinfo") or [{}])[0]
+            lic = str((ii.get("extmetadata") or {}).get("LicenseShortName", {}).get("value", "")).lower()
+            if not ("cc0" in lic or "public domain" in lic or lic == "pd"):
+                continue
+            url = ii.get("url", "")
+            if not url or ii.get("size", 0) > 6_000_000:
+                continue
+            bruto = saida.with_suffix(".src")
+            bruto.write_bytes(urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=60).read())
+            try:
+                sh(["ffmpeg", "-y", "-i", str(bruto), "-t", "12", "-ar", "44100", "-ac", "2", str(saida)])
+            except Exception:  # noqa: BLE001
+                continue
+            print(f"  latido (Commons, {lic}): {pg.get('title')}", flush=True)
+            return saida.exists() and saida.stat().st_size > 1000
+    except Exception as e:  # noqa: BLE001
+        print(f"  Commons: {type(e).__name__}: {str(e)[:80]}", flush=True)
+    return False
+
+
 def gerar_efeito(prompt: str, seg: float, saida: Path) -> bool:
     """Efeito sonoro (ex.: cão latindo) pela ElevenLabs Sound Effects. Falhou? segue sem o efeito."""
     chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     if not chave:
-        return False
+        return efeito_commons("dog barking", saida)
     import urllib.error
     import urllib.request
     corpo = json.dumps({"text": prompt, "duration_seconds": seg, "prompt_influence": 0.6}).encode()
@@ -180,10 +213,10 @@ def gerar_efeito(prompt: str, seg: float, saida: Path) -> bool:
         print(f"  efeito sonoro gerado: {prompt[:50]}", flush=True)
         return saida.stat().st_size > 1000
     except urllib.error.HTTPError as e:
-        print(f"  efeito sonoro: HTTP {e.code} (seguindo sem ele)", flush=True)
+        print(f"  efeito sonoro: HTTP {e.code} (plano B: Commons)", flush=True)
     except Exception as e:  # noqa: BLE001
-        print(f"  efeito sonoro: {type(e).__name__} (seguindo sem ele)", flush=True)
-    return False
+        print(f"  efeito sonoro: {type(e).__name__} (plano B: Commons)", flush=True)
+    return efeito_commons("dog barking", saida)
 
 
 def narrar(texto: str, saida: Path, offline: bool):

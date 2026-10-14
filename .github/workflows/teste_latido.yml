@@ -1,0 +1,29 @@
+name: Teste do latido (Commons, sem custo)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml && sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - run: |
+          python3 - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          ok = m.efeito_commons("dog barking", Path("latido.mp3"))
+          print("RESULTADO", ok)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: latido
+          path: latido.mp3
+          retention-days: 3
