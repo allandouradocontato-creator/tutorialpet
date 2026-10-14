@@ -1,0 +1,6 @@
+# Redesign do app Sozinho em Casa (ordem do Allan, 14/10/2026)
+Objetivo: design melhor, uso mais simples, natural e intuitivo. Método igual ao da landing: espelhar apps de referência do nicho.
+Referências lidas (padrões, sem copiar): Dogo e Woofz (via screensdesign.com).
+Padrões a adotar: (1) onboarding em passos curtos, uma pergunta por tela, com tela de "montando seu plano"; (2) uma ação principal por dia, "Hoje", como tela inicial; (3) trilha linear com check de cada dia e barra de progresso; (4) passaporte com carimbos (o Diploma da Dupla vira o fim do passaporte); (5) registros diários rápidos (diário em 1 toque) e dicas dentro de cada tela; (6) salvar/carregar progresso escondido num menu, não na barra lateral.
+Hoje (app.py, 443 linhas, Streamlit): barra lateral com 8 itens, diagnóstico e perfil em formulários longos, progresso só no navegador (arquivo .json).
+Plano: 1) fundir Diagnóstico + Perfil num assistente passo a passo; 2) tela inicial "Hoje" com a meta do dia e um botão; 3) navegação por 4 abas no topo (Hoje, Meu plano, Diário, Conquistas) no lugar das 8; 4) passaporte de carimbos; 5) testar no celular com capturas antes de publicar. Trabalhar em branch "redesign" do repo sozinho-em-casa-app, sem mexer no que está no ar até o Allan aprovar a prévia. Não quebrar o progresso já salvo (manter as chaves do estado).
