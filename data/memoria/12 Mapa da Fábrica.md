@@ -28,3 +28,6 @@ Ordem de construção proposta: (a) catálogo tema->produto Shopee/e-book e link
 
 ## Buscador de Ofertas (agente 28, criado 14/10/2026)
 Cloud: páginas da Shopee exigem JavaScript (WebFetch não lê). Caminho que funciona em nuvem: API aberta de Afiliados da Shopee (productOfferV2) rodando no GitHub Actions (buscar_ofertas.yml, segundas 06:17 Fortaleza), com segredos SHOPEE_APP_ID e SHOPEE_SECRET (só o Allan cria/cadastra). Sem a chave, o navegador do computador do Allan (portal de afiliados) cobre, só com o computador ligado. Catálogo: config/catalogo_tema_produto.yaml.
+
+## Agente de Marketing de Produto (agente 29, criado 14/10/2026)
+agents/29_marketing_produto (prompt.md + agent.py, sem LLM pago). Liga cada tema da fila a produto próprio ou afiliado Shopee, pontua (dor, intenção, comissão, preço, oferta) e grava data/marketing/plano_semana.md; acrescenta temas novos ao catálogo. Falta: ler vendas (Kiwify/Shopee sub_id) para realimentar a pontuação e ligar ao fluxo diário/workflow.

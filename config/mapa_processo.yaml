@@ -1,6 +1,11 @@
 # Mapa do processo da fábrica Tutorial Pet (usado pelo agente 23, Acelerador de Processos).
 # Atualize quando uma etapa mudar. "medido" = número observado em rodada real; sem número = ainda não medido.
 etapas:
+  - id: 0
+    nome: Escolha de assunto por venda
+    como_funciona: agente 29 (agents/29_marketing_produto) liga cada tema da fila a um produto (proprio ou afiliado Shopee) usando config/catalogo_tema_produto.yaml e data/ofertas; plano em data/marketing/plano_semana.md
+    custo_hoje: grátis (sem LLM pago)
+    gargalo_conhecido: "sem ofertas reais até cadastrar SHOPEE_APP_ID/SHOPEE_SECRET; ainda não lê vendas para realimentar a pontuação"
   - id: 1
     nome: Tema do dia
     como_funciona: fila em config/fila_temas.yaml; agente 19 repõe temas com LLM

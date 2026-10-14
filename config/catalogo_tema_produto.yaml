@@ -5,18 +5,192 @@ temas:
   - tema: "cachorro fazer xixi no lugar certo"
     artigo_existente: como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
     dor: "tapete sujo, xixi fora do lugar"
+    intencao: 5
     produtos:
       - {tipo: afiliado, busca_shopee: "tapete higienico cachorro", status: ideia}
       - {tipo: afiliado, busca_shopee: "educador sanitario cachorro spray", status: ideia}
   - tema: "lugar seguro e confortável para dormir (caminha)"
     artigo_existente: null
     dor: "cão ou gato sem lugar próprio, ansioso, dorme mal"
+    intencao: 5
     produtos:
       - {tipo: afiliado, busca_shopee: "caminha cachorro", status: ideia}
       - {tipo: afiliado, busca_shopee: "caminha gato", status: ideia}
   - tema: "cachorro sozinho em casa"
     artigo_existente: quanto-tempo-um-cachorro-pode-ficar-sozinho
     dor: "ansiedade de separação"
+    intencao: 4
     produtos:
       - {tipo: proprio, nome: "Sozinho em Casa", link: "https://sozinho.tutorialpet.com.br", status: no_artigo}
       - {tipo: afiliado, nome: "Câmera Wi-Fi pet R$79,99", link: "https://s.shopee.com.br/80DRRwgNte", status: link_gerado}
+  - tema: "escolher ração para filhote de cachorro"
+    artigo_existente: qual-a-melhor-racao-para-filhote-de-cachorro
+    dor: "não sabe qual ração escolher, medo de errar"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "racao filhote cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "racao premium filhote", status: ideia}
+  - tema: "trocar a ração do cachorro sem dar diarreia"
+    artigo_existente: como-trocar-a-racao-do-cachorro
+    dor: "troca de ração que desanda; dúvida de transição"
+    intencao: 3
+    produtos:
+      - {tipo: afiliado, busca_shopee: "pote hermetico racao", status: ideia}
+      - {tipo: afiliado, busca_shopee: "racao filhote cachorro", status: ideia}
+  - tema: "comedouro e bebedouro certos para o pet"
+    artigo_existente: como-acostumar-gato-adulto-com-novo-comedouro
+    dor: "gato ou cão recusa o pote, come rápido demais"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "comedouro gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "comedouro slow feeder cachorro", status: ideia}
+  - tema: "fazer o gato beber mais água (fonte)"
+    artigo_existente: como-fazer-o-gato-beber-mais-agua
+    dor: "gato bebe pouco e o tutor se preocupa"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "fonte bebedouro gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "bebedouro eletrico pet", status: ideia}
+  - tema: "arranhador para gato"
+    artigo_existente: arranhador-para-gato-qual-escolher
+    dor: "gato arranha o sofá e a casa"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "arranhador gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "arranhador poste sisal", status: ideia}
+  - tema: "gato arranhando o sofá"
+    artigo_existente: gato-arranhando-o-sofa
+    dor: "móvel destruído"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "arranhador gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "spray anti arranhao gato", status: ideia}
+  - tema: "areia higiênica para gato"
+    artigo_existente: melhor-areia-para-gato-como-escolher
+    dor: "cheiro, poeira e gasto com areia"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "areia higienica gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "areia silica gato", status: ideia}
+  - tema: "caixa de areia do gato (montar e limpar)"
+    artigo_existente: como-limpar-caixa-de-areia-do-gato
+    dor: "caixa suja, cheiro na casa"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "caixa de areia gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "pa higienica gato", status: ideia}
+  - tema: "coleira ou peitoral para cachorro"
+    artigo_existente: coleira-ou-peitoral-para-cachorro
+    dor: "cão puxa a guia, medo de machucar o pescoço"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "peitoral cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "guia peitoral antipuxao", status: ideia}
+  - tema: "brinquedos para cachorro que fica sozinho"
+    artigo_existente: brinquedos-para-cachorro-que-fica-sozinho
+    dor: "cão entediado destrói a casa"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "brinquedo interativo cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "kong recheavel cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "mordedor cachorro", status: ideia}
+  - tema: "brinquedos interativos para cães ansiosos"
+    artigo_existente: melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
+    dor: "cão ansioso sem o que fazer"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "tapete de lamber cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "brinquedo interativo cachorro", status: ideia}
+  - tema: "caixa de transporte para gato"
+    artigo_existente: caixa-de-transporte-para-gato
+    dor: "viagem e ida ao veterinário estressantes"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "caixa transporte gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "caixa transporte pet", status: ideia}
+  - tema: "enxoval para filhote de cachorro"
+    artigo_existente: enxoval-para-filhote-de-cachorro
+    dor: "não sabe o que comprar antes do filhote chegar"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "kit filhote cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "caminha filhote", status: ideia}
+      - {tipo: afiliado, busca_shopee: "comedouro filhote", status: ideia}
+  - tema: "o que comprar antes de adotar um gatinho"
+    artigo_existente: o-que-comprar-antes-de-adotar-um-gatinho
+    dor: "lista de compras do gatinho novo"
+    intencao: 5
+    produtos:
+      - {tipo: afiliado, busca_shopee: "kit gatinho", status: ideia}
+      - {tipo: afiliado, busca_shopee: "caixa de areia gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "arranhador gato", status: ideia}
+  - tema: "cortar unha do cachorro"
+    artigo_existente: como-cortar-unha-de-cachorro
+    dor: "medo de ferir o cão"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "cortador de unha cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "lixa unha pet", status: ideia}
+  - tema: "escovar os dentes do cachorro"
+    artigo_existente: como-escovar-os-dentes-do-cachorro
+    dor: "mau hálito, tártaro (orientar veterinário)"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "escova de dente cachorro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "kit higiene bucal pet", status: ideia}
+  - tema: "banho no gato"
+    artigo_existente: como-dar-banho-em-gato
+    dor: "gato estressado no banho"
+    intencao: 3
+    produtos:
+      - {tipo: afiliado, busca_shopee: "shampoo gato", status: ideia}
+      - {tipo: afiliado, busca_shopee: "toalha microfibra pet", status: ideia}
+  - tema: "chorar à noite do filhote (lugar de dormir)"
+    artigo_existente: como-evitar-que-o-filhote-chore-a-noite
+    dor: "filhote chora à noite"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "caminha filhote", status: ideia}
+      - {tipo: afiliado, busca_shopee: "caminha cachorro", status: ideia}
+  - tema: "rampa pet para sofá e cama"
+    artigo_existente: null
+    dor: "cão idoso ou pequeno não alcança a cama"
+    intencao: 4
+    produtos:
+      - {tipo: afiliado, busca_shopee: "rampa pet", status: ideia}
+      - {tipo: afiliado, busca_shopee: "escada pet sofa", status: ideia}
+  - tema: "cinto de segurança e transporte no carro"
+    artigo_existente: null
+    dor: "viagem de carro com o pet"
+    intencao: 3
+    produtos:
+      - {tipo: afiliado, busca_shopee: "cinto seguranca pet carro", status: ideia}
+      - {tipo: afiliado, busca_shopee: "capa banco carro pet", status: ideia}
+  - tema: "melhores tipos de comedouros slow feed para caes ansiosos"
+    artigo_existente: null
+    dor: "a definir (sugerido pelo agente 29)"
+    intencao: 3
+    origem: marketing_produto
+    produtos:
+      - {tipo: afiliado, busca_shopee: "tipos comedouros slow feed", status: ideia}
+  - tema: "como escolher comedouro duplo elevado para gatos idosos"
+    artigo_existente: null
+    dor: "a definir (sugerido pelo agente 29)"
+    intencao: 3
+    origem: marketing_produto
+    produtos:
+      - {tipo: afiliado, busca_shopee: "comedouro duplo elevado gatos", status: ideia}
+  - tema: "melhores petiscos naturais mastigaveis para saude dental de caes"
+    artigo_existente: null
+    dor: "a definir (sugerido pelo agente 29)"
+    intencao: 3
+    origem: marketing_produto
+    produtos:
+      - {tipo: afiliado, busca_shopee: "petiscos naturais mastigaveis saude", status: ideia}
+  - tema: "como escolher coleira com rastreador gps para cachorro"
+    artigo_existente: null
+    dor: "a definir (sugerido pelo agente 29)"
+    intencao: 3
+    origem: marketing_produto
+    produtos:
+      - {tipo: afiliado, busca_shopee: "coleira rastreador gps cachorro", status: ideia}
