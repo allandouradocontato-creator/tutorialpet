@@ -1,0 +1,50 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como fazer cachorro idoso aceitar um filhote novo: guia prático",
+    "description": "Como fazer cachorro idoso aceitar um filhote novo: guia prático. Se você decidiu que a sua casa estava calma demais e resolveu adotar um furacão em...",
+    "datePublished": "2026-10-14",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-fazer-cachorro-idoso-aceitar-um-filhote-novo",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-fazer-cachorro-idoso-aceitar-um-filhote-novo"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O meu cachorro idoso está rosnando para o filhote. Devo brigar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Geralmente, o rousse ou o rosnado baixo é um aviso saudável de limite. O idoso está dizendo \"chega\". Só interfira e separe se houver agressão real ou se o filhote ignorar o aviso e insistir no atrito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo demora para o cão mais velho aceitar o filhote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Isso varia muito. Alguns levam poucos dias, enquanto outros precisam de semanas em média para tolerar a presença do novo morador. Tenha paciência e respeite o ritmo deles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar os dois sozinhos em casa logo na primeira semana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De jeito nenhum. Enquanto o filhote estiver na fase de bagunça e o idoso ainda estiver se adaptando, mantenha-os separados por portas ou portões quando você não estiver por perto para supervisionar."
+        }
+      }
+    ]
+  }
+}
