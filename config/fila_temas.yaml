@@ -77,7 +77,8 @@ temas:
   data: '2026-10-14'
 - termo: como escolher tapete higienico lavavel para cachorro em apartamento
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-14'
 - termo: como limpar orelha de cachorro em casa sem machucar
   pilar: saude_basica
   status: pendente
@@ -224,4 +225,13 @@ temas:
   status: pendente
 - termo: como montar um espaco de descompressao para caes agitados
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como criar um cantinho relaxante para pets em dias de tempestade
+  pilar: comportamento
+  status: pendente
+- termo: como escolher a melhor fonte de agua eletrica para gatos
+  pilar: produtos_compras
+  status: pendente
+- termo: como manter a pelagem de caes senior livre de nos sem estresse
+  pilar: cuidados_diarios
   status: pendente
