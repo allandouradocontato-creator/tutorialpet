@@ -47,10 +47,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-gato-a-usar-a-caixa-de-areia.jsonld.json
 imagem_capa: imagens/como-ensinar-gato-a-usar-a-caixa-de-areia.jpg
 imagem_fonte: pexels
-imagem_fotografo: Qing Luo
-imagem_fotografo_url: https://www.pexels.com/@luoqing
-imagem_url_pagina: https://www.pexels.com/photo/cute-kitten-peeking-from-cardboard-box-31080156/
-imagem_selecionada_em: '2026-10-07T19:13:50+00:00'
+imagem_fotografo: Farhad Irani
+imagem_fotografo_url: https://www.pexels.com/@farhadirani
+imagem_url_pagina: https://www.pexels.com/photo/smiling-woman-with-a-cat-in-her-arms-sitting-on-the-kitchen-floor-15444621/
+imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
 ---
 
 # Como ensinar gato a usar a caixa de areia: guia prático

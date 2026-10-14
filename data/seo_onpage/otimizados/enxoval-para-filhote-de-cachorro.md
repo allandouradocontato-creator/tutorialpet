@@ -40,10 +40,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/enxoval-para-filhote-de-cachorro.jsonld.json
 imagem_capa: imagens/enxoval-para-filhote-de-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Erwin Bosman
-imagem_fotografo_url: https://www.pexels.com/@erwin-bosman-118283
-imagem_url_pagina: https://www.pexels.com/photo/yorkshire-terrier-with-plush-toy-on-orange-blanket-35371502/
-imagem_selecionada_em: '2026-09-17T22:15:29+00:00'
+imagem_fotografo: Samson Katt
+imagem_fotografo_url: https://www.pexels.com/@samson-katt
+imagem_url_pagina: https://www.pexels.com/photo/smiling-black-woman-with-dog-on-bed-5255608/
+imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
 ---
 
 # Enxoval para filhote de cachorro

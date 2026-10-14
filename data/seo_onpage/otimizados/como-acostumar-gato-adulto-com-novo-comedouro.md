@@ -52,10 +52,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-acostumar-gato-adulto-com-novo-comedouro.jsonld.json
 imagem_capa: imagens/como-acostumar-gato-adulto-com-novo-comedouro.jpg
 imagem_fonte: pexels
-imagem_fotografo: mohamed abdelghaffar
-imagem_fotografo_url: https://www.pexels.com/@moh-adbelghaffar
-imagem_url_pagina: https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/
-imagem_selecionada_em: '2026-10-13T15:53:39+00:00'
+imagem_fotografo: Pitipat Usanakornkul
+imagem_fotografo_url: https://www.pexels.com/@pitipat-usanakornkul-542797332
+imagem_url_pagina: https://www.pexels.com/photo/young-asian-woman-cat-owner-giving-food-to-her-cute-domestic-cat-at-home-adorable-shorthair-cat-be-feed-by-owner-in-living-room-human-and-pet-relation-domestic-lifestyle-concept-focus-o-16597604/
+imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
 ---
 
 # Como acostumar gato adulto com novo comedouro: guia prático

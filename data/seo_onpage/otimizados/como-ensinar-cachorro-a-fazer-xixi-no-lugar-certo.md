@@ -45,10 +45,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo.jsonld.json
 imagem_capa: imagens/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo.jpg
 imagem_fonte: pexels
-imagem_fotografo: Tanya Gorelova
-imagem_fotografo_url: https://www.pexels.com/@tanya-gorelova-2199357
-imagem_url_pagina: https://www.pexels.com/photo/a-puppy-lying-on-wooden-floor-3860304/
-imagem_selecionada_em: '2026-09-17T22:14:07+00:00'
+imagem_fotografo: Anna Tarazevich
+imagem_fotografo_url: https://www.pexels.com/@anntarazevich
+imagem_url_pagina: https://www.pexels.com/photo/back-view-of-woman-carrying-a-puppy-5763556/
+imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
 ---
 
 # Como ensinar cachorro a fazer xixi no lugar certo

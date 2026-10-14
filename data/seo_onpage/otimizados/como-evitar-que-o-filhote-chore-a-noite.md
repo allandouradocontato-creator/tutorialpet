@@ -55,10 +55,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-evitar-que-o-filhote-chore-a-noite.jsonld.json
 imagem_capa: imagens/como-evitar-que-o-filhote-chore-a-noite.jpg
 imagem_fonte: pexels
-imagem_fotografo: Yunus  Kılıç
-imagem_fotografo_url: https://www.pexels.com/@yunus-kilic-55235055
-imagem_url_pagina: https://www.pexels.com/photo/close-up-of-a-curious-brown-puppy-38344785/
-imagem_selecionada_em: '2026-10-13T19:46:58+00:00'
+imagem_fotografo: Kampus Production
+imagem_fotografo_url: https://www.pexels.com/@kampus
+imagem_url_pagina: https://www.pexels.com/photo/woman-cuddling-a-puppy-while-standing-8057575/
+imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
 ---
 
 # Como evitar que o filhote chore à noite: guia prático

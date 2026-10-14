@@ -53,10 +53,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/brinquedos-para-cachorro-que-fica-sozinho.jsonld.json
 imagem_capa: imagens/brinquedos-para-cachorro-que-fica-sozinho.jpg
 imagem_fonte: pexels
-imagem_fotografo: Barnabas Davoti
-imagem_fotografo_url: https://www.pexels.com/@barnabas-davoti-31615494
-imagem_url_pagina: https://www.pexels.com/photo/retriver-dogs-playing-with-plush-monkey-14084426/
-imagem_selecionada_em: '2026-09-17T22:13:44+00:00'
+imagem_fotografo: Michał Robak
+imagem_fotografo_url: https://www.pexels.com/@michalrobak
+imagem_url_pagina: https://www.pexels.com/photo/young-woman-playing-with-dog-on-kolobrzeg-beach-36725715/
+imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
 ---
 
 # Brinquedos para cachorro que fica sozinho

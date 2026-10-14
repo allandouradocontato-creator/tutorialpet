@@ -49,10 +49,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/vacinas-para-filhote-de-cachorro.jsonld.json
 imagem_capa: imagens/vacinas-para-filhote-de-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Hannah Barata
-imagem_fotografo_url: https://www.pexels.com/@hannah-barata-776560167
-imagem_url_pagina: https://www.pexels.com/photo/terrier-puppy-playing-with-toy-25312122/
-imagem_selecionada_em: '2026-10-14T18:45:13+00:00'
+imagem_fotografo: Sharon  Snider
+imagem_fotografo_url: https://www.pexels.com/@sharon-snider-2339082
+imagem_url_pagina: https://www.pexels.com/photo/a-woman-holding-her-puppy-15175667/
+imagem_selecionada_em: '2026-10-14T22:41:03+00:00'
 ---
 
 # Vacinas para filhote de cachorro: o que saber para proteger seu pet

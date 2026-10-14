@@ -54,10 +54,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos.jsonld.json
 imagem_capa: imagens/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos.jpg
 imagem_fonte: pexels
-imagem_fotografo: Jozef Fehér
-imagem_fotografo_url: https://www.pexels.com/@jozef-feher-356581
-imagem_url_pagina: https://www.pexels.com/photo/a-cute-dalmatian-dog-looking-14336463/
-imagem_selecionada_em: '2026-10-13T15:53:38+00:00'
+imagem_fotografo: Michał Robak
+imagem_fotografo_url: https://www.pexels.com/@michalrobak
+imagem_url_pagina: https://www.pexels.com/photo/woman-playing-with-dog-on-kolobrzeg-beach-36725716/
+imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
 ---
 
 # Melhores brinquedos interativos para cães ansiosos sozinhos: guia prático

@@ -47,10 +47,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/coleira-ou-peitoral-para-cachorro.jsonld.json
 imagem_capa: imagens/coleira-ou-peitoral-para-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Ayyeee Ayyeee
-imagem_fotografo_url: https://www.pexels.com/@ayyeee-ayyeee-434363205
-imagem_url_pagina: https://www.pexels.com/photo/three-small-dogs-sitting-in-a-park-20692269/
-imagem_selecionada_em: '2026-09-17T22:14:25+00:00'
+imagem_fotografo: MART  PRODUCTION
+imagem_fotografo_url: https://www.pexels.com/@mart-production
+imagem_url_pagina: https://www.pexels.com/photo/man-walking-holding-the-leash-of-a-dog-8434708/
+imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
 ---
 
 # Coleira ou peitoral para cachorro: qual escolher no passeio?

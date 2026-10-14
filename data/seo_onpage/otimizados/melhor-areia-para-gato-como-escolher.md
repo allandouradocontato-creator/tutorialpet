@@ -63,10 +63,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/melhor-areia-para-gato-como-escolher.jsonld.json
 imagem_capa: imagens/melhor-areia-para-gato-como-escolher.jpg
 imagem_fonte: pexels
-imagem_fotografo: mohamed abdelghaffar
-imagem_fotografo_url: https://www.pexels.com/@moh-adbelghaffar
-imagem_url_pagina: https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/
-imagem_selecionada_em: '2026-10-10T13:14:40+00:00'
+imagem_fotografo: Helena Lopes
+imagem_fotografo_url: https://www.pexels.com/@helenalopes
+imagem_url_pagina: https://www.pexels.com/photo/a-woman-petting-a-kitten-in-bed-8076354/
+imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
 ---
 
 # Melhor areia para gato como escolher: guia prático

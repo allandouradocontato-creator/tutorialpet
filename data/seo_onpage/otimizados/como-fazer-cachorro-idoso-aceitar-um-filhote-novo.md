@@ -56,10 +56,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jsonld.json
 imagem_capa: imagens/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jpg
 imagem_fonte: pexels
-imagem_fotografo: Erwin Bosman
-imagem_fotografo_url: https://www.pexels.com/@erwin-bosman-118283
-imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-senior-chihuahua-resting-38783979/
-imagem_selecionada_em: '2026-10-14T20:23:42+00:00'
+imagem_fotografo: Michael Morse
+imagem_fotografo_url: https://www.pexels.com/@michael-morse
+imagem_url_pagina: https://www.pexels.com/photo/man-holding-black-and-tan-puppy-1766597/
+imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
 ---
 
 # Como fazer cachorro idoso aceitar um filhote novo: guia prático

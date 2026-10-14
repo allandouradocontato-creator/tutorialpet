@@ -42,10 +42,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/com-quantos-meses-o-cachorro-pode-sair-na-rua.jsonld.json
 imagem_capa: imagens/com-quantos-meses-o-cachorro-pode-sair-na-rua.jpg
 imagem_fonte: pexels
-imagem_fotografo: Edgar Almeida
-imagem_fotografo_url: https://www.pexels.com/@edgaralmeida
-imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-dog-12584231/
-imagem_selecionada_em: '2026-10-09T17:30:12+00:00'
+imagem_fotografo: Gustavo Fring
+imagem_fotografo_url: https://www.pexels.com/@gustavo-fring
+imagem_url_pagina: https://www.pexels.com/photo/cute-girl-with-funny-little-spitz-4241321/
+imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
 ---
 
 # Com quantos meses o cachorro pode sair na rua? O que saber antes

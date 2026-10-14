@@ -52,10 +52,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-filhote-de-cachorro-parar-de-morder.jsonld.json
 imagem_capa: imagens/como-fazer-filhote-de-cachorro-parar-de-morder.jpg
 imagem_fonte: pexels
-imagem_fotografo: Michael Kucharski
-imagem_fotografo_url: https://www.pexels.com/@michael-kucharski-3590665
-imagem_url_pagina: https://www.pexels.com/photo/close-up-view-of-puppy-5372606/
-imagem_selecionada_em: '2026-10-06T14:31:09+00:00'
+imagem_fotografo: Lívia Bittencourt
+imagem_fotografo_url: https://www.pexels.com/@livia-bittencourt-2662507
+imagem_url_pagina: https://www.pexels.com/photo/girl-playing-with-a-puppy-10408278/
+imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
 ---
 
 # Como fazer filhote de cachorro parar de morder: guia prático

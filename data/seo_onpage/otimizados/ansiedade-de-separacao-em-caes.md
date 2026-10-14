@@ -38,10 +38,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/ansiedade-de-separacao-em-caes.jsonld.json
 imagem_capa: imagens/ansiedade-de-separacao-em-caes.jpg
 imagem_fonte: pexels
-imagem_fotografo: belen capello
-imagem_fotografo_url: https://www.pexels.com/@belencapello
-imagem_url_pagina: https://www.pexels.com/photo/shih-tzu-dog-lying-on-the-sofa-near-the-window-8087823/
-imagem_selecionada_em: '2026-10-14T18:45:10+00:00'
+imagem_fotografo: https://kaboompics.com/
+imagem_fotografo_url: https://www.pexels.com/@karola-g
+imagem_url_pagina: https://www.pexels.com/photo/woman-feeding-a-short-coated-dog-5426937/
+imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
 ---
 
 # Ansiedade de separação em cães: como identificar e ajudar

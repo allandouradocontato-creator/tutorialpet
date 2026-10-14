@@ -38,10 +38,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quantas-vezes-por-dia-alimentar-gato.jsonld.json
 imagem_capa: imagens/quantas-vezes-por-dia-alimentar-gato.jpg
 imagem_fonte: pexels
-imagem_fotografo: Tuğba
-imagem_fotografo_url: https://www.pexels.com/@tugba
-imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-curious-domestic-cat-39354385/
-imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
+imagem_fotografo: Helena Lopes
+imagem_fotografo_url: https://www.pexels.com/@helenalopes
+imagem_url_pagina: https://www.pexels.com/photo/a-cat-licking-a-woman-s-finger-7980622/
+imagem_selecionada_em: '2026-10-14T22:41:02+00:00'
 ---
 
 # Quantas vezes por dia alimentar gato

@@ -53,10 +53,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-o-gato-beber-mais-agua.jsonld.json
 imagem_capa: imagens/como-fazer-o-gato-beber-mais-agua.jpg
 imagem_fonte: pexels
-imagem_fotografo: Mahmoud Yahyaoui
-imagem_fotografo_url: https://www.pexels.com/@mahmoud-yahyaoui
-imagem_url_pagina: https://www.pexels.com/photo/cat-drinking-28429108/
-imagem_selecionada_em: '2026-10-09T17:00:30+00:00'
+imagem_fotografo: cottonbro studio
+imagem_fotografo_url: https://www.pexels.com/@cottonbro
+imagem_url_pagina: https://www.pexels.com/photo/woman-in-white-sweater-holding-orange-and-white-cat-6865041/
+imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
 ---
 
 # Como fazer o gato beber mais agua: guia prático

@@ -52,10 +52,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-cortar-unha-de-cachorro.jsonld.json
 imagem_capa: imagens/como-cortar-unha-de-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Su La Pyae
-imagem_fotografo_url: https://www.pexels.com/@su-la-pyae-54514809
-imagem_url_pagina: https://www.pexels.com/photo/paws-of-dog-lying-down-25078644/
-imagem_selecionada_em: '2026-10-14T18:45:10+00:00'
+imagem_fotografo: Tima Miroshnichenko
+imagem_fotografo_url: https://www.pexels.com/@tima-miroshnichenko
+imagem_url_pagina: https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/
+imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
 ---
 
 # Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem

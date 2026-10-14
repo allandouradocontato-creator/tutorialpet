@@ -38,10 +38,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-socializar-filhote-de-gato.jsonld.json
 imagem_capa: imagens/como-socializar-filhote-de-gato.jpg
 imagem_fonte: pexels
-imagem_fotografo: Pixabay
-imagem_fotografo_url: https://www.pexels.com/@pixabay
-imagem_url_pagina: https://www.pexels.com/photo/tabby-kittens-on-floral-comforter-160755/
-imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
+imagem_fotografo: vitrindekifotograf
+imagem_fotografo_url: https://www.pexels.com/@vitrindekifotograf-3912186
+imagem_url_pagina: https://www.pexels.com/photo/children-smiling-while-holding-a-kitten-8901220/
+imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
 ---
 
 # Como socializar filhote de gato

@@ -54,10 +54,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/com-que-frequencia-escovar-os-dentes-do-cachorro.jsonld.json
 imagem_capa: imagens/com-que-frequencia-escovar-os-dentes-do-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Edgar Almeida
-imagem_fotografo_url: https://www.pexels.com/@edgaralmeida
-imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-dog-12584231/
-imagem_selecionada_em: '2026-10-13T15:53:38+00:00'
+imagem_fotografo: Gustavo Fring
+imagem_fotografo_url: https://www.pexels.com/@gustavo-fring
+imagem_url_pagina: https://www.pexels.com/photo/photo-of-woman-brushing-her-dog-4148864/
+imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
 ---
 
 # Com que frequência escovar os dentes do cachorro: guia prático

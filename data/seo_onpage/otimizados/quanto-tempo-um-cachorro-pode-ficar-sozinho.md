@@ -45,10 +45,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quanto-tempo-um-cachorro-pode-ficar-sozinho.jsonld.json
 imagem_capa: imagens/quanto-tempo-um-cachorro-pode-ficar-sozinho.jpg
 imagem_fonte: pexels
-imagem_fotografo: Tony Began
-imagem_fotografo_url: https://www.pexels.com/@tony-began-3126738
-imagem_url_pagina: https://www.pexels.com/photo/a-dog-looking-out-the-window-with-a-collar-on-it-s-neck-6468223/
-imagem_selecionada_em: '2026-10-14T18:45:13+00:00'
+imagem_fotografo: Samson Katt
+imagem_fotografo_url: https://www.pexels.com/@samson-katt
+imagem_url_pagina: https://www.pexels.com/photo/cheerful-black-woman-embracing-cute-labrador-near-window-5255256/
+imagem_selecionada_em: '2026-10-14T22:41:02+00:00'
 ---
 
 # Quanto tempo um cachorro pode ficar sozinho: guia prático

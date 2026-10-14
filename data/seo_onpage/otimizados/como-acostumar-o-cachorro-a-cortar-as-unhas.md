@@ -49,10 +49,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-acostumar-o-cachorro-a-cortar-as-unhas.jsonld.json
 imagem_capa: imagens/como-acostumar-o-cachorro-a-cortar-as-unhas.jpg
 imagem_fonte: pexels
-imagem_fotografo: Su La Pyae
-imagem_fotografo_url: https://www.pexels.com/@su-la-pyae-54514809
-imagem_url_pagina: https://www.pexels.com/photo/paws-of-dog-lying-down-25078644/
-imagem_selecionada_em: '2026-10-14T20:23:41+00:00'
+imagem_fotografo: David Kanigan
+imagem_fotografo_url: https://www.pexels.com/@david-kanigan-239927285
+imagem_url_pagina: https://www.pexels.com/photo/woman-grooming-french-bulldog-indoors-34807744/
+imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
 ---
 
 # Como acostumar o cachorro a cortar as unhas: guia prático

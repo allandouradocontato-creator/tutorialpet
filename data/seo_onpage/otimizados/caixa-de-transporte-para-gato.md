@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/caixa-de-transporte-para-gato.jsonld.json
 imagem_capa: imagens/caixa-de-transporte-para-gato.jpg
 imagem_fonte: pexels
-imagem_fotografo: Bunkac Bebec
-imagem_fotografo_url: https://www.pexels.com/@bunkac-bebec-2157950757
-imagem_url_pagina: https://www.pexels.com/photo/adorable-kitten-resting-inside-wicker-basket-carrier-35173632/
-imagem_selecionada_em: '2026-09-17T22:14:07+00:00'
+imagem_fotografo: Japheth Mast
+imagem_fotografo_url: https://www.pexels.com/@japheth
+imagem_url_pagina: https://www.pexels.com/photo/selective-focus-photography-of-woman-wearing-purple-sweater-holding-silver-tabby-cat-569170/
+imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
 ---
 
 # Caixa de transporte para gato: como escolher e usar sem estresse
