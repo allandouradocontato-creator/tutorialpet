@@ -35,12 +35,13 @@
       "narracao": "[excited] Hoje, de trinta e sete reais por nove e noventa. Cerca de setenta centavos por dia.",
       "visual_busca_banco_livre": "happy dog relaxed on sofa",
       "texto_na_tela": "De R$ 37 por R$ 9,90",
-      "overlay_imagem": "assets/vsl/capa.png"
+      "overlay_imagem": "assets/vsl/card_preco.png"
     },
     {
       "narracao": "[reassuring] E o risco é zero: você tem sete dias de garantia. Se não gostar, devolvemos todo o seu dinheiro.",
       "visual_busca_banco_livre": "happy woman hugging dog at home",
-      "texto_na_tela": "7 dias de garantia"
+      "texto_na_tela": "7 dias de garantia",
+      "overlay_imagem": "assets/vsl/card_garantia.png"
     }
   ],
   "chamada_final": "[smiling] Toque no botão e comece o dia um hoje. Aqui é a Duda, do Tutorial Pet.",
