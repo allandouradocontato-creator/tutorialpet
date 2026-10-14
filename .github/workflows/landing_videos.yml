@@ -14,22 +14,24 @@ jobs:
           import os, json, subprocess, urllib.request, urllib.parse
           key = os.environ["PEXELS_API_KEY"]
           qs = {
-           "hero": "happy dog playing with owner living room",
-           "abraco": "woman hugging dog on sofa at home",
-           "brincar": "man playing with dog toy living room",
-           "espera": "dog waiting at front door indoors",
-           "calmo": "dog relaxing on sofa at home",
-           "filhote": "cute puppy playing indoors",
-           "estresse": "woman stressed hands on head dog home",
-           "tutor": "woman petting golden retriever home",
+           "hero": "latina woman happy with fluffy dog at home",
+           "hero2": "black woman smiling hugging dog sofa home",
+           "familia": "family with kids and dog living room happy",
+           "casal": "couple playing with cute dog at home",
+           "filhotes": "cute puppies playing together",
+           "filhote2": "adorable puppy looking at camera home",
+           "crianca": "child hugging puppy at home",
+           "estresse": "stressed woman hand on forehead at home",
+           "estresse2": "man tired hand on head sofa dog barking",
+           "tutor": "woman petting dog gently at home morning",
           }
           for nome, q in qs.items():
-              u = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": q, "per_page": 15, "orientation": "portrait" if nome in ("hero",) else "landscape"})
+              u = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": q, "per_page": 25, "orientation": "portrait" if nome.startswith("hero") else "landscape"})
               r = urllib.request.Request(u, headers={"Authorization": key, "User-Agent": "Mozilla/5.0"})
               vids = json.load(urllib.request.urlopen(r))["videos"]
               feito = 0
               for v in vids:
-                  if feito >= 2: break
+                  if feito >= 3: break
                   fs = sorted([f for f in v["video_files"] if f["file_type"] == "video/mp4" and f.get("width", 0) >= 640], key=lambda f: f["width"])
                   if not fs or v.get("duration", 0) < 4: continue
                   src = f"out/{nome}_{feito}_src.mp4"
@@ -40,7 +42,7 @@ jobs:
                       print("falhou", nome, e, flush=True); continue
                   dst = f"out/{nome}_{feito}.mp4"
                   subprocess.run(["ffmpeg","-y","-i",src,"-t","8","-an","-vf","scale=720:-2","-c:v","libx264","-crf","30","-preset","veryfast","-movflags","+faststart","-pix_fmt","yuv420p",dst],capture_output=True)
-                  os.remove(src)
+                  subprocess.run(["ffmpeg","-y","-ss","1.5","-i",src,"-frames:v","1",f"out/{nome}_{feito}_hd.jpg"],capture_output=True); os.remove(src)
                   print(nome, feito, v["url"], os.path.getsize(dst)//1024, "KB", flush=True)
                   feito += 1
           PY
