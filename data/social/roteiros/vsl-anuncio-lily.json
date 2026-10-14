@@ -1,0 +1,63 @@
+{
+  "slug": "vsl-anuncio-lily",
+  "titulo_video": "Sozinho em Casa: protocolo de 14 dias",
+  "gancho_3s": "Cansou do seu cachorro sofrendo sozinho?",
+  "cenas": [
+    {
+      "narracao": "[urgent] Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Você não aguenta mais isso?",
+      "visual_busca_banco_livre": [
+        "stressed woman dog barking living room",
+        "dog destroying pillow messy living room",
+        "frustrated man dog chewing shoes home"
+      ],
+      "texto_na_tela": "Cansou do seu cachorro sofrendo sozinho?",
+      "permitir_gente": true,
+      "sem_filtro_estilo": true,
+      "efeito_sonoro": {
+        "prompt": "dog barking nonstop indoors, muffled by a closed door, anxious repeated barks and whining",
+        "duracao": 9,
+        "fade_inicio": 3,
+        "fade_duracao": 5,
+        "volume": 0.8
+      }
+    },
+    {
+      "narracao": "[confident] Existe um jeito. O Sozinho em Casa: catorze dias, um passo por dia, sem grito e sem punição.",
+      "visual_busca_banco_livre": [
+        "woman training cute dog calmly at home",
+        "happy couple with golden retriever sofa"
+      ],
+      "texto_na_tela": "Protocolo de 14 dias · sem grito",
+      "overlay_imagem": "assets/vsl/capa.png",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[warmly] Manual baseado em evidências e um app que guia você todos os dias.",
+      "visual_busca_banco_livre": [
+        "woman using smartphone with cute dog home",
+        "happy dog owner tablet sofa golden retriever"
+      ],
+      "texto_na_tela": "Manual + app",
+      "overlay_video": "assets/vsl/app_demo.mp4",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[excited] De trinta e sete por nove e noventa. Cerca de setenta centavos por dia, com sete dias de garantia.",
+      "visual_busca_banco_livre": [
+        "happy family playing with golden retriever puppy at home",
+        "woman laughing with fluffy dog"
+      ],
+      "texto_na_tela": "7 dias de garantia",
+      "overlay_imagem": "assets/vsl/card_preco.png",
+      "permitir_gente": true
+    }
+  ],
+  "chamada_final": "[reassuring] Toque no botão e veja como é possível.",
+  "hashtags": [
+    "#sozinhoemcasa",
+    "#cachorro",
+    "#ansiedadedeseparacao",
+    "#tutorialpet"
+  ],
+  "legenda": "Seu cachorro sofre quando fica sozinho? Protocolo de 14 dias, de R$ 37 por R$ 9,90: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=vsl"
+}

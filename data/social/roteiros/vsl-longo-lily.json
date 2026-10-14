@@ -1,0 +1,92 @@
+{
+  "slug": "vsl-longo-lily",
+  "titulo_video": "Sozinho em Casa: protocolo de 14 dias",
+  "gancho_3s": "Cansou do seu cachorro sofrendo sozinho?",
+  "cenas": [
+    {
+      "narracao": "[urgent] Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? [short pause] Você não aguenta mais isso?",
+      "visual_busca_banco_livre": [
+        "stressed woman dog barking living room",
+        "dog destroying pillow messy living room",
+        "frustrated man dog chewing shoes home"
+      ],
+      "texto_na_tela": "Cansou do seu cachorro sofrendo sozinho?",
+      "permitir_gente": true,
+      "sem_filtro_estilo": true,
+      "efeito_sonoro": {
+        "prompt": "dog barking nonstop indoors, muffled by a closed door, anxious repeated barks and whining",
+        "duracao": 9,
+        "fade_inicio": 3,
+        "fade_duracao": 5,
+        "volume": 0.8
+      }
+    },
+    {
+      "narracao": "[confident] Existe um jeito. O Sozinho em Casa: protocolo de catorze dias, um passo por dia, sem grito e sem punição.",
+      "visual_busca_banco_livre": [
+        "woman training cute dog calmly at home",
+        "happy couple with golden retriever sofa"
+      ],
+      "texto_na_tela": "Protocolo de 14 dias · sem grito",
+      "overlay_imagem": "assets/vsl/capa.png",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[warmly] Ele não é mal-educado, e você não é um mau tutor. Ele só nunca aprendeu a ficar sozinho.",
+      "visual_busca_banco_livre": [
+        "woman hugging cute dog affectionately",
+        "cute puppy sleeping on woman lap"
+      ],
+      "texto_na_tela": "Não é culpa sua. Nem dele.",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[calm] São poucos minutos por dia, com um manual baseado em evidências.",
+      "visual_busca_banco_livre": [
+        "woman reading book with labrador dog",
+        "cute dog resting beside owner reading"
+      ],
+      "texto_na_tela": "Manual baseado em evidências",
+      "overlay_imagem": "assets/vsl/capa.png",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[warmly] E você acompanha tudo no app, dia após dia: diagnóstico, protocolo diário, rotina antes de sair e diário. Uma meta curta por dia, no seu ritmo.",
+      "visual_busca_banco_livre": [
+        "woman using smartphone with cute dog home",
+        "happy dog owner tablet sofa golden retriever"
+      ],
+      "texto_na_tela": "O app guia você todo dia",
+      "overlay_video": "assets/vsl/app_demo.mp4",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[confident] Hoje, de trinta e sete reais por nove e noventa. Cerca de setenta centavos por dia.",
+      "visual_busca_banco_livre": [
+        "happy family playing with golden retriever puppy at home",
+        "woman laughing with fluffy dog"
+      ],
+      "texto_na_tela": "De R$ 37 por R$ 9,90",
+      "overlay_imagem": "assets/vsl/card_preco.png",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[reassuring] E o risco é zero: você tem sete dias de garantia. Se não gostar, devolvemos todo o seu dinheiro.",
+      "visual_busca_banco_livre": [
+        "woman smiling hugging happy dog",
+        "girl hugging cute dog at home"
+      ],
+      "texto_na_tela": "7 dias de garantia",
+      "overlay_imagem": "assets/vsl/card_garantia.png",
+      "permitir_gente": true
+    }
+  ],
+  "chamada_final": "[warmly] Toque no botão e comece o dia um hoje. Aqui é o Tutorial Pet, cuidando de vocês dois.",
+  "hashtags": [
+    "#sozinhoemcasa",
+    "#cachorro",
+    "#ansiedadedeseparacao",
+    "#tutorialpet"
+  ],
+  "legenda": "Seu cachorro sofre quando fica sozinho? Protocolo de 14 dias, de R$ 37 por R$ 9,90: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=vsl"
+}
