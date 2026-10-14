@@ -1,0 +1,42 @@
+{
+  "brand_id": 7123441,
+  "timezone": "America/Fortaleza",
+  "turno": "B",
+  "posts": [
+    {
+      "rede": "facebook",
+      "agendar_para": "2026-10-15T19:00:00",
+      "legenda": "Seu cão foge ao ver o cortador de unhas?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#adestramentopositivo #cuidadoscaninos #dicaspet #comportamentocanino #cachorros",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-acostumar-o-cachorro-a-cortar-as-unhas",
+      "facebookData": {
+        "type": "REEL",
+        "title": "Como Acostumar o Cachorro a Cortar as Unhas"
+      }
+    },
+    {
+      "rede": "instagram",
+      "agendar_para": "2026-10-15T20:00:00",
+      "legenda": "Seu cão foge ao ver o cortador de unhas?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#adestramentopositivo #cuidadoscaninos #dicaspet #comportamentocanino #cachorros",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-acostumar-o-cachorro-a-cortar-as-unhas",
+      "instagramData": {
+        "type": "REEL",
+        "showReelOnFeed": true,
+        "isAiGenerated": true
+      }
+    },
+    {
+      "rede": "tiktok",
+      "agendar_para": "2026-10-15T20:20:00",
+      "legenda": "Seu cachorro foge de você na hora de cortar a unha? Confira o artigo completo em tutorialpet.com.br. #adestramentopositivo #cuidadoscaninos #dicaspet #tutorialpet",
+      "primeiro_comentario": "",
+      "tiktokData": {
+        "privacyOption": "PUBLIC_TO_EVERYONE",
+        "title": "Como Acostumar o Cachorro a Cortar as Unhas",
+        "isAigc": true
+      }
+    }
+  ],
+  "video_url_publica": "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/como-acostumar-o-cachorro-a-cortar-as-unhas/video.mp4",
+  "slug": "como-acostumar-o-cachorro-a-cortar-as-unhas",
+  "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário"
+}
