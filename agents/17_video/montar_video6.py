@@ -349,6 +349,14 @@ def montar_cena(i: int, cena: dict, tmp: Path, chave: str, offline: bool, primei
             "[0:v][o]overlay=(W-w)/2:330:shortest=1,format=yuv420p[v]",
             "-map", "[v]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", str(com_ov)])
         mudo = com_ov
+    ovv = cena.get("overlay_video")
+    if ovv and (ROOT / ovv).exists():
+        # gravacao de tela do app em uso, com moldura branca, sobre o fundo (pedido do Allan 13/10/2026)
+        com_ov = tmp / f"mv{i}.mp4"
+        sh(["ffmpeg", "-y", "-i", str(mudo), "-stream_loop", "-1", "-i", str(ROOT / ovv), "-filter_complex",
+            "[1:v]pad=iw+16:ih+16:8:8:color=white[o];[0:v][o]overlay=(W-w)/2:300:shortest=1,format=yuv420p[v]",
+            "-map", "[v]", "-t", f"{dur:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", str(com_ov)])
+        mudo = com_ov
     saida = tmp / f"cena{i}.mp4"
     # legendas queimadas: ASS no diretório temporário (evita problemas de caminho do Windows)
     sh(["ffmpeg", "-y", "-i", mudo.name, "-i", voz.name, "-vf", f"subtitles={ass.name}",

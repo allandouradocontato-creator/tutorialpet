@@ -20,10 +20,16 @@
       "texto_na_tela": "Não é culpa sua. Nem dele."
     },
     {
-      "narracao": "[smiling] São poucos minutos por dia, com manual baseado em evidências e um app pra acompanhar cada etapa.",
+      "narracao": "[smiling] São poucos minutos por dia, com um manual baseado em evidências.",
       "visual_busca_banco_livre": "happy dog playing with owner",
-      "texto_na_tela": "Manual + app",
+      "texto_na_tela": "Manual baseado em evidências",
       "overlay_imagem": "assets/vsl/capa.png"
+    },
+    {
+      "narracao": "[excited] E você acompanha tudo no app, dia após dia: diagnóstico, protocolo diário, rotina antes de sair e diário. Uma meta curta por dia, no seu ritmo.",
+      "visual_busca_banco_livre": "happy dog owner using smartphone at home",
+      "texto_na_tela": "O app guia você todo dia",
+      "overlay_video": "assets/vsl/app_demo.mp4"
     },
     {
       "narracao": "[excited] Hoje, de trinta e sete reais por nove e noventa. Cerca de setenta centavos por dia.",
