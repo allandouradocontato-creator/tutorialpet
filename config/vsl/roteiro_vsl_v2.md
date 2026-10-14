@@ -29,3 +29,8 @@ Gancho direto: "Seu cachorro late, chora e destrói tudo quando você sai? O viz
 
 v2.2 (Allan 13/10 21:54): cena de garantia de 7 dias após o preço ("Se não gostar, devolvemos todo o seu dinheiro"); capa do produto sobreposta; vídeo do app em uso a incluir.
 v2.3 (Allan 13/10 21:56): ressalva de veterinário/adestrador removida do vídeo (os avisos já estão no e-book, app e política).
+
+## Referências por tempo no ar (Biblioteca de Anúncios, Brasil, vídeos ativos, 13/10/2026)
+- Universo Canino (adestramento, Florianópolis): no ar desde 18/02/2026 (~8 meses), vídeo de 25 s. Estrutura: lista de dores ("latidos sem parar, xixi no lugar errado...") → "mas calma... existe um método" → "sem gritos, sem punições, sem gastar com adestradores caros" → CTA com urgência.
+- Centro Canino Guará: no ar desde 01/03/2026 (~7,5 meses), 2 vídeos (29 s e 41 s). Estrutura: "cães ansiosos tiram a paz do tutor" → "você não está sozinha, não precisa continuar sofrendo" → "já resolvemos casos extremos" → "veja a diferença já no primeiro dia".
+- Padrão comum dos mais longevos: dor nomeada direto, solução anunciada logo em seguida, "sem grito/sem punição", vídeo curto (25-41 s), CTA direto. Todos são serviços de adestrador (WhatsApp), não produto digital; os mais antigos têm ~8 meses.
