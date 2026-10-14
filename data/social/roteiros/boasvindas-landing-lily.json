@@ -1,0 +1,34 @@
+{
+  "slug": "boasvindas-landing-lily",
+  "titulo_video": "Sozinho em Casa: boas-vindas",
+  "gancho_3s": "Que bom que você está aqui",
+  "cenas": [
+    {
+      "narracao": "[warmly] Que bom que você está aqui. Isso mostra o quanto você se importa com o seu cachorro.",
+      "visual_busca_banco_livre": ["latina woman happy with fluffy dog at home", "woman smiling hugging dog sofa home"],
+      "texto_na_tela": "Que bom que você está aqui",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[calm] Ver ele sofrer quando você sai pesa. Pesa na sua cabeça, no seu dia, e às vezes até na relação com os vizinhos.",
+      "visual_busca_banco_livre": ["dog waiting at door alone home", "woman hand on forehead tired at home"],
+      "texto_na_tela": "",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[warmly] Existe um caminho gentil: com calma, um passo por dia, ele pode aprender que ficar sozinho é seguro.",
+      "visual_busca_banco_livre": ["woman petting dog gently at home morning", "family with kids and dog living room happy"],
+      "texto_na_tela": "Um passo por dia",
+      "permitir_gente": true
+    },
+    {
+      "narracao": "[smiling] Aos poucos, ele fica mais tranquilo, e a sua casa mais leve.",
+      "visual_busca_banco_livre": ["cute puppies playing together", "adorable puppy looking at camera home"],
+      "texto_na_tela": "",
+      "permitir_gente": true
+    }
+  ],
+  "chamada_final": "[warmly] Role a página e veja como funciona o Sozinho em Casa. Você vai entender se ele é para você.",
+  "hashtags": ["#sozinhoemcasa", "#cachorro", "#tutorialpet"],
+  "legenda": "Boas-vindas ao Sozinho em Casa."
+}
