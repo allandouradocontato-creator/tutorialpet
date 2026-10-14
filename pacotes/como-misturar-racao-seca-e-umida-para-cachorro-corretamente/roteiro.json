@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como misturar ração seca e úmida sem errar",
+  "gancho_3s": "Seu cachorro torce o nariz para a ração seca?",
+  "cenas": [
+    {
+      "narracao": "Misturar ração seca e sachê deixa a refeição irresistível e garante hidratação extra para o pet.",
+      "visual_busca_banco_livre": "dog eating from bowl close up",
+      "texto_na_tela": "Ração seca + sachê!"
+    },
+    {
+      "narracao": "Mas atenção às calorias! Para não pesar na balança, o total diário não deve subir.",
+      "visual_busca_banco_livre": "dog looking at food bowl",
+      "texto_na_tela": "Cuidado com as calorias"
+    },
+    {
+      "narracao": "Se adicionar comida úmida, retire uma quantidade equivalente de ração seca.",
+      "visual_busca_banco_livre": "dog food kibble and wet food",
+      "texto_na_tela": "Equilibre as quantidades"
+    },
+    {
+      "narracao": "Amorne o sachê levemente para liberar o aroma e misture bem com um garfo para envolver todos os grãos.",
+      "visual_busca_banco_livre": "dog waiting for food hungry",
+      "texto_na_tela": "Misture muito bem"
+    },
+    {
+      "narracao": "Sobrou sachê? Guarde na geladeira em pote com tampa por até quarenta e oito horas e lave o comedouro diariamente.",
+      "visual_busca_banco_livre": "dog licking lips food",
+      "texto_na_tela": "Armazene na geladeira"
+    },
+    {
+      "narracao": "As quantidades variam conforme o peso e a fase de vida. Confirme sempre com o médico-veterinario.",
+      "visual_busca_banco_livre": "healthy happy dog portrait",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Gostou da dica? Compartilhe com quem tem cachorro!",
+  "hashtags": [
+    "#cachorro",
+    "#alimentacaocanina",
+    "#racaoseca",
+    "#racãoumida",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro torce o nariz para a ração seca?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-misturar-racao-seca-e-umida-para-cachorro-corretamente\n\n#cachorro #alimentacaocanina #racaoseca #racãoumida #dicaspet",
+  "slug": "como-misturar-racao-seca-e-umida-para-cachorro-corretamente"
+}
