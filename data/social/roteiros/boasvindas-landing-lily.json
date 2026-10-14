@@ -4,7 +4,7 @@
   "gancho_3s": "Que bom que você está aqui",
   "cenas": [
     {
-      "narracao": "[excited] Parabéns por estar aqui! Cuidar bem do seu cachorro começa por se importar com ele!",
+      "narracao": "[warmly] Que bom que você está aqui. Isso mostra o quanto você se importa com o seu cachorro.",
       "visual_busca_banco_livre": [
         "latina woman happy with fluffy dog at home",
         "woman smiling hugging dog sofa home"
@@ -13,7 +13,7 @@
       "permitir_gente": true
     },
     {
-      "narracao": "[energetic] Ele pode aprender a ficar sozinho com calma, sem sofrer e sem latir!",
+      "narracao": "[calm] Ver ele sofrer quando você sai pesa. Pesa na sua cabeça, no seu dia, e às vezes até na relação com os vizinhos.",
       "visual_busca_banco_livre": [
         "sad dog looking out window waiting alone home",
         "dog lying near front door waiting for owner"
@@ -22,16 +22,25 @@
       "permitir_gente": false
     },
     {
-      "narracao": "[happy] É um passo por dia, no ritmo dele, e a sua casa fica muito mais leve!",
+      "narracao": "[warmly] Existe um caminho gentil: com calma, um passo por dia, ele pode aprender que ficar sozinho é seguro.",
       "visual_busca_banco_livre": [
         "woman petting dog gently at home morning",
         "dog relaxing calmly on couch at home"
       ],
       "texto_na_tela": "Um passo por dia",
       "permitir_gente": true
+    },
+    {
+      "narracao": "[smiling] Aos poucos, ele fica mais tranquilo, e a sua casa mais leve.",
+      "visual_busca_banco_livre": [
+        "cute puppies playing together",
+        "adorable puppy looking at camera home"
+      ],
+      "texto_na_tela": "",
+      "permitir_gente": true
     }
   ],
-  "chamada_final": "[excited] Role a página e veja como o Sozinho em Casa te guia nesse caminho!",
+  "chamada_final": "[warmly] Role a página e veja como funciona o Sozinho em Casa. Você vai entender se ele é para você.",
   "hashtags": [
     "#sozinhoemcasa",
     "#cachorro",

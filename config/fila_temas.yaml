@@ -65,7 +65,8 @@ temas:
   data: '2026-10-14'
 - termo: como fazer cachorro idoso aceitar um filhote novo
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-14'
 - termo: como adaptar a casa para um cachorro idoso
   pilar: cuidados_diarios
   status: pendente
@@ -176,4 +177,19 @@ temas:
   status: pendente
 - termo: como evitar choque termico em cachorros nos dias quentes
   pilar: saude_basica
+  status: pendente
+- termo: como acalmar cachorro idoso assustado com fogos de artificio
+  pilar: comportamento
+  status: pendente
+- termo: melhores petiscos naturais mastigaveis para saude dental de caes
+  pilar: produtos_compras
+  status: pendente
+- termo: como montar um espaco seguro para gatos em casas pequenas
+  pilar: cuidados_diarios
+  status: pendente
+- termo: quais petiscos caseiros posso fazer para caes com sensibilidade
+  pilar: alimentacao
+  status: pendente
+- termo: como estimular o olfato de caes idosos dentro de casa
+  pilar: primeiros_passos_filhotes
   status: pendente
