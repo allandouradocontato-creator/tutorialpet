@@ -3,6 +3,11 @@ name: Narracao do video do app (voz da Duda)
 # e guarda na branch media em video_app/narracao/. Gasta ~1 credito por caractere. A chave nunca e impressa.
 on:
   workflow_dispatch:
+    inputs:
+      so:
+        description: "chaves das falas a gerar, separadas por virgula (vazio = todas)"
+        required: false
+        default: ""
 permissions:
   contents: write
 jobs:
@@ -18,6 +23,7 @@ jobs:
       - name: Gerar falas
         env:
           ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          SO: ${{ github.event.inputs.so }}
         run: |
           python3 - <<'PY'
           import importlib.util, json, os, sys
@@ -28,7 +34,10 @@ jobs:
           falas = json.load(open("data/video_app/falas.json"))
           out = Path("narracao"); out.mkdir(exist_ok=True)
           tempos = {}
+          so = [x.strip() for x in os.environ.get('SO','').split(',') if x.strip()]
+          if (out / 'tempos.json').exists(): tempos = json.load(open(out / 'tempos.json'))
           for k, texto in falas.items():
+              if so and k not in so: continue
               pal = m._tts_elevenlabs(texto, out / f"fala_{k}.mp3")
               if pal is None:
                   raise SystemExit(f"falhou na fala {k}")
@@ -39,7 +48,16 @@ jobs:
       - name: Guardar na branch media
         run: |
           git config user.name "fabrica"; git config user.email "fabrica@users.noreply.github.com"
+          mkdir -p /tmp/narracao_novo && cp narracao/fala_*.mp3 /tmp/narracao_novo/ && cp narracao/tempos.json /tmp/tempos_novo.json
           git fetch origin media
           git checkout -f media
-          mkdir -p video_app/narracao && cp narracao/* video_app/narracao/
+          mkdir -p video_app/narracao
+          python3 - <<'PY'
+          import json, os, shutil
+          novo = json.load(open('/tmp/tempos_novo.json'))
+          dest = 'video_app/narracao/tempos.json'
+          velho = json.load(open(dest)) if os.path.exists(dest) else {}
+          velho.update(novo); json.dump(velho, open(dest, 'w'), ensure_ascii=False)
+          PY
+          cp /tmp/narracao_novo/fala_*.mp3 video_app/narracao/
           git add video_app && git commit -m "narracao do video do app (voz da Duda)" && git push origin media
