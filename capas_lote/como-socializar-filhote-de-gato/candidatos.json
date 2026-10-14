@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 11458665,
+    "url_download": "https://images.pexels.com/photos/11458665/pexels-photo-11458665.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-photo-of-kittens-11458665/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 3000,
+    "altura": 2001,
+    "query": "kittens playing together",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-socializar-filhote-de-gato/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27723963,
+    "url_download": "https://images.pexels.com/photos/27723963/pexels-photo-27723963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-pile-of-wood-27723963/",
+    "fotografo": "Natalia Sevruk",
+    "fotografo_url": "https://www.pexels.com/@natalia-sevruk-636238602",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "kittens playing together",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-socializar-filhote-de-gato/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 160755,
+    "url_download": "https://images.pexels.com/photos/160755/kittens-cats-foster-playing-160755.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/tabby-kittens-on-floral-comforter-160755/",
+    "fotografo": "Pixabay",
+    "fotografo_url": "https://www.pexels.com/@pixabay",
+    "largura": 6581,
+    "altura": 4402,
+    "query": "kittens playing together",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-socializar-filhote-de-gato/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1416792,
+    "url_download": "https://images.pexels.com/photos/1416792/pexels-photo-1416792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-photo-of-silver-tabby-cat-and-kittens-1416792/",
+    "fotografo": "EVG Kowalievska",
+    "fotografo_url": "https://www.pexels.com/@kowalievska",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "kittens playing together",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-socializar-filhote-de-gato/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2532358,
+    "url_download": "https://images.pexels.com/photos/2532358/pexels-photo-2532358.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-an-orange-kitten-2532358/",
+    "fotografo": "Samer Daboul",
+    "fotografo_url": "https://www.pexels.com/@samerdaboul",
+    "largura": 4547,
+    "altura": 2784,
+    "query": "two kittens play",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-socializar-filhote-de-gato/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39705293,
+    "url_download": "https://images.pexels.com/photos/39705293/pexels-photo-39705293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-kittens-chasing-toy-in-cozy-living-room-39705293/",
+    "fotografo": "Dmytro Koplyk",
+    "fotografo_url": "https://www.pexels.com/@dmytkopl",
+    "largura": 9236,
+    "altura": 6157,
+    "query": "two kittens play",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-socializar-filhote-de-gato/5.jpg"
+  }
+]
