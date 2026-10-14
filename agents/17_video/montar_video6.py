@@ -163,6 +163,29 @@ def _tts_elevenlabs(texto: str, saida: Path):
     return None
 
 
+
+def gerar_efeito(prompt: str, seg: float, saida: Path) -> bool:
+    """Efeito sonoro (ex.: cão latindo) pela ElevenLabs Sound Effects. Falhou? segue sem o efeito."""
+    chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
+    if not chave:
+        return False
+    import urllib.error
+    import urllib.request
+    corpo = json.dumps({"text": prompt, "duration_seconds": seg, "prompt_influence": 0.6}).encode()
+    req = urllib.request.Request("https://api.elevenlabs.io/v1/sound-generation", data=corpo, method="POST",
+                                 headers={"xi-api-key": chave, "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=90) as r:
+            saida.write_bytes(r.read())
+        print(f"  efeito sonoro gerado: {prompt[:50]}", flush=True)
+        return saida.stat().st_size > 1000
+    except urllib.error.HTTPError as e:
+        print(f"  efeito sonoro: HTTP {e.code} (seguindo sem ele)", flush=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"  efeito sonoro: {type(e).__name__} (seguindo sem ele)", flush=True)
+    return False
+
+
 def narrar(texto: str, saida: Path, offline: bool):
     sem_tags = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", texto)).strip()  # tags de emoção só servem à ElevenLabs
     if offline:
@@ -253,11 +276,11 @@ def tem_gente(v: dict) -> bool:
     return any(p in GENTE for p in partes)
 
 
-def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str) -> list[Path]:
-    saidas = _pexels_videos(busca, chave, quantos, destino, tag)
+def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str, gente: bool = False, estilo: bool = True) -> list[Path]:
+    saidas = _pexels_videos(busca, chave, quantos, destino, tag, gente, estilo)
     if not saidas:  # busca eliminada pelo filtro de estilo: refaz com o animal em cena fofa
         animal = "cat" if re.search(r"\b(cat|kitten|gato)", busca.lower()) else "puppy" if "puppy" in busca.lower() else "dog"
-        saidas = _pexels_videos(f"cute {animal} playing", chave, quantos, destino, tag)
+        saidas = _pexels_videos(f"cute {animal} playing", chave, quantos, destino, tag, gente, estilo)
     if len(saidas) < quantos:  # biblioteca de mídia: completa com outras fontes grátis (Pixabay)
         try:
             from core.biblioteca_midia import videos_pixabay
@@ -267,7 +290,7 @@ def pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str)
     return saidas
 
 
-def _pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str) -> list[Path]:
+def _pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str, gente: bool = False, estilo: bool = True) -> list[Path]:
     url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
         {"query": busca, "orientation": "portrait", "size": "medium", "per_page": 40})
     saidas: list[Path] = []
@@ -276,7 +299,9 @@ def _pexels_videos(busca: str, chave: str, quantos: int, destino: Path, tag: str
                            capture_output=True, text=True, encoding="utf-8", errors="replace")
         from core.estilo_visual import ordenar  # só vídeo fofo e atraente, nunca triste/doente/bagunçado
         from core import guardiao_variedade as gv  # variedade: não repetir clipe (agente 26)
-        ordenados = [v for v in ordenar(json.loads(r.stdout).get("videos", [])) if not tem_gente(v)]
+        _lista = json.loads(r.stdout).get("videos", [])
+        # gente=True / estilo=False: cenas do VSL com pessoas e com o problema (estresse), pedido do Allan 13/10/2026
+        ordenados = [v for v in (ordenar(_lista) if estilo else _lista) if gente or not tem_gente(v)]
         # 1ª passada: só clipes inéditos (nem nos últimos vídeos, nem neste). 2ª: se faltar, reaproveita e o
         # Guardião marca o pacote para revisão em vez de derrubar a fábrica.
         for reuso in (False, True):
@@ -321,7 +346,14 @@ def montar_cena(i: int, cena: dict, tmp: Path, chave: str, offline: bool, primei
             sh(["ffmpeg", "-y", "-f", "lavfi", "-i", f"testsrc2=size={W}x{H}:rate=30:duration=6", str(f)])
             fundos.append(f)
     elif chave:
-        fundos = pexels_videos(cena.get("visual_busca_banco_livre", "dog home"), chave, CORTES_POR_CENA, tmp, f"f{i}")
+        _b = cena.get("visual_busca_banco_livre", "dog home")
+        _g = bool(cena.get("permitir_gente"))
+        _e = not cena.get("sem_filtro_estilo")
+        if isinstance(_b, list):  # uma busca por corte: mais variedade (pessoas + cães bonitos)
+            for _k, _q in enumerate(_b):
+                fundos += pexels_videos(_q, chave, 1, tmp, f"f{i}_{_k}", _g, _e)
+        else:
+            fundos = pexels_videos(_b, chave, int(cena.get("cortes", CORTES_POR_CENA)), tmp, f"f{i}", _g, _e)
     partes = []
     base = f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps=30,setsar=1"
     if fundos:
@@ -359,6 +391,21 @@ def montar_cena(i: int, cena: dict, tmp: Path, chave: str, offline: bool, primei
         mudo = com_ov
     saida = tmp / f"cena{i}.mp4"
     # legendas queimadas: ASS no diretório temporário (evita problemas de caminho do Windows)
+    efeito = cena.get("efeito_sonoro")
+    arq_ef = tmp / f"ef{i}.mp3"
+    if efeito and not offline and gerar_efeito(efeito.get("prompt", ""), float(efeito.get("duracao", 8)), arq_ef):
+        # o som (ex.: latido) começa alto e vai sumindo enquanto a narradora fala por cima (ideia do Allan 13/10/2026)
+        fade_ini = float(efeito.get("fade_inicio", 2.0))
+        fade_dur = float(efeito.get("fade_duracao", 4.0))
+        vol = float(efeito.get("volume", 0.9))
+        sh(["ffmpeg", "-y", "-i", mudo.name, "-i", voz.name, "-i", arq_ef.name, "-filter_complex",
+            f"[0:v]subtitles={ass.name}[v];[1:a]apad[va];"
+            f"[2:a]aloop=loop=-1:size=2e9,atrim=0:{dur:.2f},volume={vol},afade=t=out:st={fade_ini}:d={fade_dur}[ef];"
+            "[va][ef]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95[a]",
+            "-map", "[v]", "-map", "[a]", "-shortest", "-t", f"{dur:.2f}",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
+            "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2", saida.name], cwd=str(tmp))
+        return saida
     sh(["ffmpeg", "-y", "-i", mudo.name, "-i", voz.name, "-vf", f"subtitles={ass.name}",
         "-map", "0:v", "-map", "1:a", "-af", "apad", "-shortest", "-t", f"{dur:.2f}",
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
