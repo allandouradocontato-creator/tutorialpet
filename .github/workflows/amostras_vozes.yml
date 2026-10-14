@@ -1,0 +1,45 @@
+name: Amostras de vozes (comparar)
+# Gera a MESMA frase com varias vozes (ids separados por virgula) e guarda os mp3 como artefato. Gasta ~150 creditos por voz.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "voice ids separados por virgula (nome=id)"
+        required: true
+      texto:
+        required: false
+        default: "[warmly] Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Existe um jeito. O Sozinho em Casa é um protocolo de catorze dias, um passo por dia, sem grito e sem punição."
+permissions:
+  contents: read
+jobs:
+  amostras:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          IDS: ${{ github.event.inputs.ids }}
+          TEXTO: ${{ github.event.inputs.texto }}
+        run: |
+          mkdir -p out
+          python3 - <<'PY'
+          import importlib.util, os
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          for item in os.environ["IDS"].split(","):
+              nome, _, vid = item.strip().partition("=")
+              os.environ["ELEVENLABS_VOICE_ID"] = vid
+              r = m._tts_elevenlabs(os.environ["TEXTO"], Path(f"out/{nome}.mp3"))
+              print(nome, vid, "OK" if r else "FALHOU")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: amostras-vozes-${{ github.run_id }}
+          path: out
+          retention-days: 3
