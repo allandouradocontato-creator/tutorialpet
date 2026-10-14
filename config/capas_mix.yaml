@@ -1,0 +1,8 @@
+# Regra de variedade das capas do blog (Allan, 14/10/2026): nem só animais, nem só gente.
+# A cada lote de 20 artigos, alternar a proporção: lote A = 70% com pessoas + 30% só animal; lote B = 30% com pessoas + 70% só animal.
+# Fica variando semana a semana. O Publicador escolhe, antes de fechar cada lote, quais artigos recebem foto com pessoas
+# (os que têm uma cena natural: banho, unha, passeio, brinquedo, ração, vacina, filhote...).
+lote_tamanho: 20
+proporcoes: [[70, 30], [30, 70]]   # [com_pessoas%, so_animal%] alternando por lote
+lote_atual: {numero: 1, proporcao: [70, 30]}
+proximo_lote: {numero: 2, proporcao: [30, 70]}
