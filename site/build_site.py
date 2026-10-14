@@ -84,6 +84,22 @@ CONSENT_HTML = (
     'background:#fff;color:#1d2433;font:inherit;cursor:pointer">Recusar</button></div></div>'
 )
 
+CARROSSEL_JS = (
+    "<script>(function(){var c=document.querySelector('.carrossel');if(!c)return;var t=c.querySelector('.slides'),"
+    "s=t.children,p=c.querySelectorAll('.ponto'),n=s.length,i=0,h=0,r=matchMedia('(prefers-reduced-motion:reduce)').matches;"
+    "function w(k){return t.clientWidth*k}"
+    "function ir(k,smooth){i=(k+n)%n;t.scrollTo({left:w(i),behavior:smooth===false||r?'auto':'smooth'});m()}"
+    "function m(){for(var k=0;k<n;k++){p[k].setAttribute('aria-current',k===i?'true':'false');s[k].tabIndex=k===i?0:-1}}"
+    "function a(){if(r||h)return;clearInterval(a.t);a.t=setInterval(function(){if(!document.hidden&&!h)ir(i+1)},5500)}"
+    "c.querySelector('.ant').onclick=function(){ir(i-1);};c.querySelector('.prox').onclick=function(){ir(i+1);};"
+    "p.forEach(function(b,k){b.onclick=function(){ir(k)}});"
+    "t.addEventListener('scroll',function(){var k=Math.round(t.scrollLeft/t.clientWidth);if(k!==i){i=k;m()}},{passive:true});"
+    "['mouseenter','focusin','touchstart'].forEach(function(e){c.addEventListener(e,function(){h=1;clearInterval(a.t)},{passive:true})});"
+    "['mouseleave','focusout'].forEach(function(e){c.addEventListener(e,function(){h=0;a()})});"
+    "c.addEventListener('touchend',function(){setTimeout(function(){h=0;a()},4000)},{passive:true});"
+    "m();a();})();</script>"
+)
+
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
@@ -271,6 +287,35 @@ def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, 
     return page_shell(fm.get("titulo", slug), site["nicho"][:150], canonical, "website", main)
 
 
+def render_carrossel(artigos_por_pilar: dict) -> str:
+    """Banner rotativo no topo da home: cada slide divulga um artigo (config/home_destaques.yaml)."""
+    cfg = ROOT / "config" / "home_destaques.yaml"
+    if not cfg.exists():
+        return ""
+    por_slug = {fm["slug"]: fm for itens in artigos_por_pilar.values() for fm in itens}
+    slides = []
+    for d in (load_yaml(cfg) or {}).get("destaques", []):
+        fm = por_slug.get(d.get("slug"))
+        if not fm or not fm.get("imagem_capa"):
+            continue
+        i = len(slides)
+        slides.append(
+            f'<a class="slide" href="/{fm["slug"]}" aria-label="{html_lib.escape(fm["titulo"])}"{"" if i == 0 else " tabindex=\"-1\""}>'
+            f'<img src="/{fm["imagem_capa"]}" alt="{html_lib.escape(fm["titulo"])}"'
+            f'{"" if i == 0 else " loading=\"lazy\""} width="940" height="627">'
+            f'<span class="slide-texto"><span class="slide-rotulo">{html_lib.escape(d.get("rotulo", ""))}</span>'
+            f'<span class="slide-titulo">{html_lib.escape(d.get("chamada") or fm["titulo"])}</span>'
+            f'<span class="slide-cta">Ler o guia →</span></span></a>')
+    if len(slides) < 3:
+        return ""
+    pontos = "".join(f'<button type="button" class="ponto" aria-label="Banner {i + 1}"></button>' for i in range(len(slides)))
+    return (f'<section class="carrossel" aria-roledescription="carrossel" aria-label="Destaques do blog">'
+            f'<div class="slides">{"".join(slides)}</div>'
+            f'<button type="button" class="seta ant" aria-label="Banner anterior">‹</button>'
+            f'<button type="button" class="seta prox" aria-label="Próximo banner">›</button>'
+            f'<div class="pontos">{pontos}</div></section>' + CARROSSEL_JS)
+
+
 def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
     dominio = site["dominio"].rstrip("/")
     sections = []
@@ -296,6 +341,7 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
 
     main = f"""{render_header(site["nome"], pilares)}
 <main class="home">
+{render_carrossel(artigos_por_pilar)}
 <div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p></div>
 {''.join(sections)}
 </main>

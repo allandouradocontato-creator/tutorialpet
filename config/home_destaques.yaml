@@ -1,0 +1,8 @@
+# Banners rotativos da home do blog (propaganda dos artigos abaixo). Ordem = ordem de exibição.
+# Para trocar, edite slug/rotulo/chamada; a foto vem da capa do artigo. Mínimo 3, ideal 5.
+destaques:
+  - {slug: ansiedade-de-separacao-em-caes, rotulo: Cachorro, chamada: "Seu cão sofre quando você sai? Entenda os sinais"}
+  - {slug: plantas-toxicas-para-gatos, rotulo: Gato, chamada: "Plantas comuns que podem intoxicar seu gato"}
+  - {slug: como-adaptar-a-casa-para-um-cachorro-idoso, rotulo: Cachorro idoso, chamada: "Pequenas mudanças na casa para o cão idoso viver melhor"}
+  - {slug: como-socializar-filhote-de-gato, rotulo: Filhote de gato, chamada: "Como socializar o filhotinho de gato do jeito certo"}
+  - {slug: primeiros-dias-do-filhote-em-casa, rotulo: Filhote de cachorro, chamada: "Os primeiros dias do filhote em casa, passo a passo"}

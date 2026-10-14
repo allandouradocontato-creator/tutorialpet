@@ -107,6 +107,26 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
 .card-body { padding: 14px 16px 18px; }
 .card-body .card-title { font-family: var(--font-heading); font-weight: 500; font-size: 1rem; line-height: 1.35; color: var(--color-primary-dark); }
 
+/* carrossel de banners da home */
+.carrossel { position: relative; margin: 22px 0 6px; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow-card); background: var(--color-primary-dark); }
+.carrossel .slides { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
+.carrossel .slides::-webkit-scrollbar { display: none; }
+.carrossel .slide { position: relative; flex: 0 0 100%; scroll-snap-align: start; display: block; height: clamp(240px, 46vw, 420px); color: #fff; text-decoration: none; }
+.carrossel .slide img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.carrossel .slide::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(20,30,24,.88) 0%, rgba(20,30,24,.45) 45%, rgba(20,30,24,0) 75%); }
+.carrossel .slide-texto { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; padding: 18px 64px 40px 22px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.carrossel .slide-rotulo { background: var(--color-accent); color: #fff; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 4px 12px; border-radius: 999px; }
+.carrossel .slide-titulo { font-family: var(--font-heading); font-weight: 600; font-size: clamp(1.25rem, 3.6vw, 2.2rem); line-height: 1.2; max-width: 640px; text-shadow: 0 2px 10px rgba(0,0,0,.4); }
+.carrossel .slide-cta { font-weight: 700; font-size: .95rem; border-bottom: 2px solid var(--color-accent); }
+.carrossel .seta { position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 44px; height: 44px; border: 0; border-radius: 50%; background: rgba(255,255,255,.9); color: var(--color-primary-dark); font-size: 1.7rem; line-height: 1; cursor: pointer; }
+.carrossel .ant { left: 10px; } .carrossel .prox { right: 10px; }
+.carrossel .pontos { position: absolute; z-index: 2; left: 0; right: 0; bottom: 12px; display: flex; justify-content: center; gap: 4px; }
+.carrossel .ponto { width: 28px; height: 28px; border: 0; background: none; padding: 0; cursor: pointer; position: relative; }
+.carrossel .ponto::after { content: ""; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: rgba(255,255,255,.55); transition: all .2s; }
+.carrossel .ponto[aria-current="true"]::after { background: var(--color-accent); width: 24px; margin-left: -12px; border-radius: 6px; }
+@media (max-width: 600px) { .carrossel { border-radius: 14px; } .carrossel .seta { display: none; } .carrossel .slide-texto { padding-right: 18px; } }
+@media (prefers-reduced-motion: reduce) { .carrossel .slides { scroll-behavior: auto; } }
+
 .hero { padding: 44px 0 16px; }
 .hero h1 { font-size: 2.5rem; }
 .hero p { font-size: 1.15rem; color: var(--color-text-muted); max-width: 640px; }
