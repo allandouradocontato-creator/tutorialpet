@@ -58,7 +58,7 @@ imagem_fonte: pexels
 imagem_fotografo: Kampus Production
 imagem_fotografo_url: https://www.pexels.com/@kampus
 imagem_url_pagina: https://www.pexels.com/photo/woman-cuddling-a-puppy-while-standing-8057575/
-imagem_selecionada_em: '2026-10-14T22:41:00+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:29+00:00'
 ---
 
 # Como evitar que o filhote chore à noite: guia prático

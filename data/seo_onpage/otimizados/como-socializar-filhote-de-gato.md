@@ -41,7 +41,7 @@ imagem_fonte: pexels
 imagem_fotografo: vitrindekifotograf
 imagem_fotografo_url: https://www.pexels.com/@vitrindekifotograf-3912186
 imagem_url_pagina: https://www.pexels.com/photo/children-smiling-while-holding-a-kitten-8901220/
-imagem_selecionada_em: '2026-10-14T22:41:01+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:30+00:00'
 ---
 
 # Como socializar filhote de gato

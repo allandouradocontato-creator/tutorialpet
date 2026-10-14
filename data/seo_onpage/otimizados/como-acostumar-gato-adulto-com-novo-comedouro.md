@@ -55,7 +55,7 @@ imagem_fonte: pexels
 imagem_fotografo: Pitipat Usanakornkul
 imagem_fotografo_url: https://www.pexels.com/@pitipat-usanakornkul-542797332
 imagem_url_pagina: https://www.pexels.com/photo/young-asian-woman-cat-owner-giving-food-to-her-cute-domestic-cat-at-home-adorable-shorthair-cat-be-feed-by-owner-in-living-room-human-and-pet-relation-domestic-lifestyle-concept-focus-o-16597604/
-imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:28+00:00'
 ---
 
 # Como acostumar gato adulto com novo comedouro: guia prático

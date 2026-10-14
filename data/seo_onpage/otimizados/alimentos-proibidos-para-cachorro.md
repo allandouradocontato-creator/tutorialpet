@@ -54,7 +54,7 @@ imagem_fonte: pexels
 imagem_fotografo: Samson Katt
 imagem_fotografo_url: https://www.pexels.com/@samson-katt
 imagem_url_pagina: https://www.pexels.com/photo/cheerful-black-woman-embracing-cute-labrador-near-window-5255256/
-imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:26+00:00'
 ---
 
 > Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.

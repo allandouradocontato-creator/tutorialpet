@@ -56,7 +56,7 @@ imagem_fonte: pexels
 imagem_fotografo: Michał Robak
 imagem_fotografo_url: https://www.pexels.com/@michalrobak
 imagem_url_pagina: https://www.pexels.com/photo/young-woman-playing-with-dog-on-kolobrzeg-beach-36725715/
-imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:27+00:00'
 ---
 
 # Brinquedos para cachorro que fica sozinho

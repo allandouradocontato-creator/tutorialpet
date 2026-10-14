@@ -52,7 +52,7 @@ imagem_fonte: pexels
 imagem_fotografo: Blue Bird
 imagem_fotografo_url: https://www.pexels.com/@blue-bird
 imagem_url_pagina: https://www.pexels.com/photo/smiling-owner-taming-welsh-corgi-with-ball-in-pool-7210675/
-imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:28+00:00'
 ---
 
 # Com que frequencia dar banho em cachorro: guia prático

@@ -50,7 +50,7 @@ imagem_fonte: pexels
 imagem_fotografo: MART  PRODUCTION
 imagem_fotografo_url: https://www.pexels.com/@mart-production
 imagem_url_pagina: https://www.pexels.com/photo/man-walking-holding-the-leash-of-a-dog-8434708/
-imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:27+00:00'
 ---
 
 # Coleira ou peitoral para cachorro: qual escolher no passeio?

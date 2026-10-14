@@ -41,7 +41,7 @@ imagem_fonte: pexels
 imagem_fotografo: https://kaboompics.com/
 imagem_fotografo_url: https://www.pexels.com/@karola-g
 imagem_url_pagina: https://www.pexels.com/photo/woman-feeding-a-short-coated-dog-5426937/
-imagem_selecionada_em: '2026-10-14T22:40:58+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:26+00:00'
 ---
 
 # Ansiedade de separação em cães: como identificar e ajudar

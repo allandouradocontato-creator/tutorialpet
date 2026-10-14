@@ -56,7 +56,7 @@ imagem_fonte: pexels
 imagem_fotografo: Sarah  Chai
 imagem_fotografo_url: https://www.pexels.com/@sarah-chai
 imagem_url_pagina: https://www.pexels.com/photo/woman-with-little-baby-and-dog-in-cozy-bedroom-7282276/
-imagem_selecionada_em: '2026-10-14T22:41:02+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:30+00:00'
 ---
 
 # Qual a melhor ração para filhote de cachorro: guia prático

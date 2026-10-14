@@ -55,7 +55,7 @@ imagem_fonte: pexels
 imagem_fotografo: Tima Miroshnichenko
 imagem_fotografo_url: https://www.pexels.com/@tima-miroshnichenko
 imagem_url_pagina: https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/
-imagem_selecionada_em: '2026-10-14T22:40:59+00:00'
+imagem_selecionada_em: '2026-10-14T22:44:29+00:00'
 ---
 
 # Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem
