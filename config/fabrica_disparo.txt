@@ -7,3 +7,4 @@ disparo Agendador 2026-10-14 08:20 Fortaleza (estoque 1,5 dia; sem pacote novo a
 disparo Agendador 2026-10-14 15:20 Fortaleza (turno B; estoque 1 dia: so unhas aguardando artigo; sem pacote pronto)
 2026-10-14T20:25:24Z estoque<5 dias: dispara fabrica
 disparo Conferente 2026-10-14 17:35 Fortaleza (estoque vídeo 3,5 dias)
+2026-10-14T21:25:26Z agendador: estoque agendado ate 18/10 A; disparo da fabrica (menos de 5 dias de estoque)
