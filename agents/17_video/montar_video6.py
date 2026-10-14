@@ -165,6 +165,51 @@ def _tts_elevenlabs(texto: str, saida: Path):
 
 
 
+def efeito_pexels(termo: str, saida: Path) -> bool:
+    """Plano B1 grátis: áudio original de clipes do Pexels com cão latindo (licença Pexels, uso comercial livre)."""
+    chave = os.environ.get("PEXELS_API_KEY", "").strip()
+    if not chave:
+        return False
+    url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": termo, "per_page": 30})
+    try:
+        r = subprocess.run([curl_bin(), "-sS", "-m", "40", "-H", f"Authorization: {chave}", url],
+                           capture_output=True, text=True, encoding="utf-8", errors="replace")
+        videos = json.loads(r.stdout).get("videos", [])
+        melhores = []
+        for k, v in enumerate(videos[:12]):
+            arqs = sorted([f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4"],
+                          key=lambda f: f.get("width", 9999))
+            if not arqs:
+                continue
+            mp4 = saida.with_name(f"p{k}.mp4")
+            subprocess.run([curl_bin(), "-sS", "-L", "-m", "90", "-o", str(mp4), arqs[0]["link"]], capture_output=True)
+            if not mp4.exists() or mp4.stat().st_size < 10000:
+                continue
+            tem = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=codec_type",
+                                  "-of", "csv=p=0", str(mp4)], capture_output=True, text=True).stdout.strip()
+            if not tem:
+                continue
+            wav = saida.with_name(f"p{k}.wav")
+            sh(["ffmpeg", "-y", "-i", str(mp4), "-vn", "-t", "12", "-ar", "44100", "-ac", "1", str(wav)])
+            rr = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "volumedetect", "-f", "null", "-"],
+                                capture_output=True, text=True, errors="replace")
+            m = re.search(r"mean_volume:\s*(-?[\d.]+)", rr.stderr)
+            media = float(m.group(1)) if m else -99.0
+            print(f"    pexels {v.get('id')} | {duracao(wav):.1f}s | média {media} dB | {v.get('url', '')[-60:]}", flush=True)
+            melhores.append((media, wav, v.get("id")))
+        melhores = [x for x in melhores if x[0] > -40]
+        if not melhores:
+            return False
+        melhores.sort(key=lambda x: x[0], reverse=True)
+        media, wav, vid = melhores[0]
+        print(f"  latido escolhido (Pexels {vid}, {media} dB)", flush=True)
+        sh(["ffmpeg", "-y", "-i", str(wav), "-t", "9", "-af", "loudnorm=I=-10:TP=-1:LRA=7", "-ar", "44100", "-ac", "2", str(saida)])
+        return saida.exists() and saida.stat().st_size > 1000
+    except Exception as e:  # noqa: BLE001
+        print(f"  Pexels áudio: {type(e).__name__}: {str(e)[:80]}", flush=True)
+    return False
+
+
 def efeito_commons(termo: str, saida: Path) -> bool:
     """Plano B grátis: áudio de domínio público/CC0 do Wikimedia Commons (sem exigir atribuição).
     Baixa vários candidatos, escolhe o mais forte e longo, normaliza o volume e, se for curto, monta uma sequência."""
@@ -183,7 +228,7 @@ def efeito_commons(termo: str, saida: Path) -> bool:
             lic = str((ii.get("extmetadata") or {}).get("LicenseShortName", {}).get("value", "")).lower()
             if not ("cc0" in lic or "public domain" in lic or lic == "pd"):
                 continue
-            if ii.get("url") and ii.get("size", 0) <= 8_000_000:
+            if ii.get("url") and ii.get("size", 0) <= 8_000_000 and re.search(r"\bdog|canis|bark\b", str(pg.get("title")).lower()) and "cynomys" not in str(pg.get("title")).lower():
                 cands.append((pg.get("title"), ii["url"], lic))
         print(f"  Commons: {len(cands)} candidatos livres", flush=True)
         melhores = []
@@ -234,7 +279,7 @@ def gerar_efeito(prompt: str, seg: float, saida: Path) -> bool:
     """Efeito sonoro (ex.: cão latindo) pela ElevenLabs Sound Effects. Falhou? segue sem o efeito."""
     chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
     if not chave:
-        return efeito_commons("dog barking", saida)
+        return efeito_pexels("dog barking", saida) or efeito_commons("dog barking", saida)
     import urllib.error
     import urllib.request
     corpo = json.dumps({"text": prompt, "duration_seconds": seg, "prompt_influence": 0.6}).encode()
@@ -249,7 +294,7 @@ def gerar_efeito(prompt: str, seg: float, saida: Path) -> bool:
         print(f"  efeito sonoro: HTTP {e.code} (plano B: Commons)", flush=True)
     except Exception as e:  # noqa: BLE001
         print(f"  efeito sonoro: {type(e).__name__} (plano B: Commons)", flush=True)
-    return efeito_commons("dog barking", saida)
+    return efeito_pexels("dog barking", saida) or efeito_commons("dog barking", saida)
 
 
 def narrar(texto: str, saida: Path, offline: bool):
