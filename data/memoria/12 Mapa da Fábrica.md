@@ -31,3 +31,8 @@ Cloud: páginas da Shopee exigem JavaScript (WebFetch não lê). Caminho que fun
 
 ## Agente de Marketing de Produto (agente 29, criado 14/10/2026)
 agents/29_marketing_produto (prompt.md + agent.py, sem LLM pago). Liga cada tema da fila a produto próprio ou afiliado Shopee, pontua (dor, intenção, comissão, preço, oferta) e grava data/marketing/plano_semana.md; acrescenta temas novos ao catálogo. Falta: ler vendas (Kiwify/Shopee sub_id) para realimentar a pontuação e ligar ao fluxo diário/workflow.
+
+## Série "Pet Celebridade da Semana" (ideia do Allan, 14/10/2026)
+- Um artigo por semana sobre o pet de um artista brasileiro: raça, convivência, o que o pet mudou na vida dele.
+- Especificação em `config/serie_pet_celebridade.yaml` (regras: só fatos públicos com fonte, sem foto do artista, sem inventar fala).
+- Primeiro passo: artigo-piloto com 6 a 8 artistas; depois uma edição por semana, ligada ao catálogo tema→produto.
