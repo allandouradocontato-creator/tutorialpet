@@ -23,23 +23,24 @@ GOOGLE_FONT_HEAD = (
 # --------------------------------------------------------------------------- tokens de marca
 TOKENS = """
 :root {
-  --color-primary: #2f4538;
-  --color-primary-dark: #1c2921;
-  --color-primary-soft: #e8efe9;
-  --color-accent: #c9723c;
-  --color-accent-dark: #a85a2c;
+  --color-primary: #1e2a44;
+  --color-primary-dark: #141c30;
+  --color-primary-soft: #e9eefa;
+  --color-accent: #e8590c;
+  --color-accent-dark: #c2410c;
   --color-warning-bg: #fff8ec;
   --color-warning-border: #d99a2b;
-  --color-bg: #fdfaf5;
+  --color-bg: #fffbf2;
   --color-surface: #ffffff;
-  --color-border: #ece5da;
-  --color-text: #262220;
-  --color-text-muted: #6b645f;
+  --color-border: #f1e7d3;
+  --color-sun: #ffc93c;
+  --color-text: #1f2330;
+  --color-text-muted: #5b6272;
   --font-heading: 'Fredoka', system-ui, -apple-system, sans-serif;
   --font-body: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
   --radius: 14px;
   --radius-sm: 8px;
-  --shadow-card: 0 1px 3px rgba(47, 69, 56, 0.08), 0 1px 2px rgba(47, 69, 56, 0.06);
+  --shadow-card: 0 1px 3px rgba(30, 42, 68, 0.10), 0 1px 2px rgba(30, 42, 68, 0.06);
 }
 """
 
@@ -48,12 +49,12 @@ BASE_CSS = TOKENS + """
 * { box-sizing: border-box; }
 body { margin: 0; font-family: var(--font-body); background: var(--color-bg); color: var(--color-text); }
 
-header.site { background: var(--color-primary); color: #fff; padding: 16px 24px; }
+header.site { background: var(--color-primary); color: #fff; padding: 16px 24px; border-bottom: 5px solid var(--color-sun); }
 header.site .brand { font-family: var(--font-heading); font-weight: 600; font-size: 1.25rem; }
 header.site a { color: #fff; text-decoration: none; }
 header.site nav { margin-top: 8px; font-size: 0.9rem; }
 header.site nav a { margin-right: 16px; opacity: 0.88; padding-bottom: 2px; border-bottom: 2px solid transparent; }
-header.site nav a:hover { opacity: 1; border-bottom-color: var(--color-accent); }
+header.site nav a:hover { opacity: 1; border-bottom-color: var(--color-sun); }
 
 .breadcrumb { max-width: 760px; margin: 18px auto 0; padding: 0 20px; font-size: 0.8rem; color: var(--color-text-muted); }
 .breadcrumb a { color: var(--color-primary); text-decoration: none; }
@@ -98,7 +99,7 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
 .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; margin-top: 18px; }
 .card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius);
   overflow: hidden; box-shadow: var(--shadow-card); transition: transform 0.15s ease, box-shadow 0.15s ease; }
-.card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(47, 69, 56, 0.12); }
+.card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(30, 42, 68, 0.16); }
 .card a.card-link { text-decoration: none; color: inherit; display: block; }
 .card-cover { height: 120px; width: 100%; display: flex; align-items: center; justify-content: center; font-size: 2.4rem; object-fit: cover; }
 .hero-img { width: 100%; max-height: 320px; object-fit: cover; border-radius: var(--radius); margin: 4px 0 4px; display: block; }
@@ -113,7 +114,7 @@ blockquote { border-left: 4px solid var(--color-warning-border); background: var
 .carrossel .slides::-webkit-scrollbar { display: none; }
 .carrossel .slide { position: relative; flex: 0 0 100%; scroll-snap-align: start; display: block; height: clamp(240px, 46vw, 420px); color: #fff; text-decoration: none; }
 .carrossel .slide img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.carrossel .slide::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(20,30,24,.88) 0%, rgba(20,30,24,.45) 45%, rgba(20,30,24,0) 75%); }
+.carrossel .slide::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(20,28,48,.88) 0%, rgba(20,28,48,.45) 45%, rgba(20,28,48,0) 75%); }
 .carrossel .slide-texto { position: absolute; z-index: 1; left: 0; right: 0; bottom: 0; padding: 18px 64px 40px 22px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
 .carrossel .slide-rotulo { background: var(--color-accent); color: #fff; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; padding: 4px 12px; border-radius: 999px; }
 .carrossel .slide-titulo { font-family: var(--font-heading); font-weight: 600; font-size: clamp(1.25rem, 3.6vw, 2.2rem); line-height: 1.2; max-width: 640px; text-shadow: 0 2px 10px rgba(0,0,0,.4); }
@@ -139,10 +140,10 @@ footer.site a { color: var(--color-text-muted); margin-right: 14px; }
 # Cor de fundo do "card-cover" (placeholder até o agente de imagem existir) e emoji temático
 # por pilar — trocar pelo <img> real assim que a Fase 2 (agente de imagem) estiver pronta.
 PILAR_VISUAL = {
-    "alimentacao": {"bg": "#f3e6d8", "emoji": "🍖"},
-    "comportamento": {"bg": "#e4ecf6", "emoji": "🐾"},
-    "cuidados_diarios": {"bg": "#e3f0e8", "emoji": "🛁"},
-    "primeiros_passos_filhotes": {"bg": "#fbe8ec", "emoji": "🐶"},
-    "produtos_compras": {"bg": "#eee6f6", "emoji": "🛍️"},
+    "alimentacao": {"bg": "#ffe8cc", "emoji": "🍖"},
+    "comportamento": {"bg": "#dbe7ff", "emoji": "🐾"},
+    "cuidados_diarios": {"bg": "#d9f2e6", "emoji": "🛁"},
+    "primeiros_passos_filhotes": {"bg": "#ffe0e6", "emoji": "🐶"},
+    "produtos_compras": {"bg": "#ece2ff", "emoji": "🛍️"},
 }
 PILAR_VISUAL_PADRAO = {"bg": "#efece5", "emoji": "🐾"}

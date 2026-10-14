@@ -77,9 +77,9 @@ CONSENT_HTML = (
     'z-index:9999;max-width:560px;margin:0 auto;background:#fff;color:#1d2433;border:1px solid #d9dde6;border-radius:12px;'
     'padding:14px 16px;box-shadow:0 8px 28px rgba(0,0,0,.18);font:15px/1.45 system-ui,sans-serif">'
     '<p style="margin:0 0 10px">Usamos cookies de medição (Google Analytics e Microsoft Clarity) para entender como o site é usado. '
-    'Só ativamos se você aceitar. <a href="/politica-de-privacidade.html" style="color:#a95716">Política de privacidade</a>.</p>'
+    'Só ativamos se você aceitar. <a href="/politica-de-privacidade.html" style="color:#c2410c">Política de privacidade</a>.</p>'
     '<div style="display:flex;gap:8px;flex-wrap:wrap"><button id="tp-aceitar" type="button" style="min-height:44px;padding:8px 16px;'
-    'border:0;border-radius:8px;background:#a95716;color:#fff;font:inherit;font-weight:700;cursor:pointer">Aceitar</button>'
+    'border:0;border-radius:8px;background:#c2410c;color:#fff;font:inherit;font-weight:700;cursor:pointer">Aceitar</button>'
     '<button id="tp-recusar" type="button" style="min-height:44px;padding:8px 16px;border:1px solid #c9ced9;border-radius:8px;'
     'background:#fff;color:#1d2433;font:inherit;cursor:pointer">Recusar</button></div></div>'
 )
