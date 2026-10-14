@@ -17,7 +17,7 @@ Regras: sem prova social inventada, sem promessa de cura, sem alegação veterin
 | 11-19 s | Troca de culpa | "Ele não é mal-educado e você não é um mau tutor. Ele só nunca aprendeu a ficar sozinho." | "Não é culpa sua. Nem dele." |
 | 19-33 s | Mecanismo + produto | "O Sozinho em Casa é um protocolo de 14 dias: um passo por dia, poucos minutos, sem grito e sem punição. Manual baseado em evidências e app para acompanhar cada etapa." | "14 dias · 1 passo por dia" |
 | 33-43 s | Preço por dia | "Hoje de R$ 37 por R$ 9,90. Cerca de R$ 0,70 por dia." | "R$ 37 → R$ 9,90" |
-| 43-50 s | CTA + ressalva | "Toque no botão e comece o dia 1. Se o caso for grave, procure também um veterinário ou adestrador." | "Comece o Dia 1" |
+| 43-50 s | CTA + ressalva | "Toque no botão e comece o dia 1." | "Comece o Dia 1" |
 
 Ganchos A/B (só muda 0-4 s): A vizinho (acima); B "Cada vez que você sai, ele sofre. E não é falta de educação."; C "Seu cachorro não precisa sofrer toda vez que você sai."
 Versão curta (15-20 s) para anúncio: gancho + troca de culpa + preço + CTA.
@@ -28,3 +28,4 @@ Landing: https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_mediu
 Gancho direto: "Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Você não aguenta mais isso?" e logo em seguida a solução: "Existe um jeito. O Sozinho em Casa: protocolo de 14 dias, um passo por dia, sem grito e sem punição." Depois troca de culpa, manual+app, preço, CTA.
 
 v2.2 (Allan 13/10 21:54): cena de garantia de 7 dias após o preço ("Se não gostar, devolvemos todo o seu dinheiro"); capa do produto sobreposta; vídeo do app em uso a incluir.
+v2.3 (Allan 13/10 21:56): ressalva de veterinário/adestrador removida do vídeo (os avisos já estão no e-book, app e política).
