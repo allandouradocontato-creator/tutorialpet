@@ -606,6 +606,8 @@ def main() -> int:
             recentes = gv.musicas_recentes()
             pool = [m for m in pool if m.name not in recentes] or pool  # alterna: não repete as últimas faixas
             faixa = pool[sum(map(ord, slug)) % len(pool)]
+            if rot.get("musica") and (pasta_m / rot["musica"]).exists():  # faixa forçada pelo roteiro (ex.: landing)
+                faixa = pasta_m / rot["musica"]
             faixa_usada = faixa.name
             vol_db = float(_EV.get("musica", {}).get("volume_db", -7))  # nível da música em relação a -14 LUFS (voz)
             print("música de fundo:", faixa.name, "nível", vol_db, "dB (normalizada, com ducking sob a voz)")
