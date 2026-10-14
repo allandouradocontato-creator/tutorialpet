@@ -73,7 +73,8 @@ temas:
   data: '2026-10-14'
 - termo: como misturar racao seca e umida para cachorro corretamente
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-14'
 - termo: como escolher tapete higienico lavavel para cachorro em apartamento
   pilar: produtos_compras
   status: pendente
@@ -208,4 +209,19 @@ temas:
   status: pendente
 - termo: como calcular a quantidade certa de petiscos naturais na dieta diaria
   pilar: alimentacao
+  status: pendente
+- termo: como criar rotina de exercicios mentais para gatos idosos
+  pilar: comportamento
+  status: pendente
+- termo: quais petiscos naturais congelados posso dar no calor
+  pilar: alimentacao
+  status: pendente
+- termo: como escolher fonte bebedouro eletrica para varios pets
+  pilar: produtos_compras
+  status: pendente
+- termo: como adaptar a rotina da casa para caes e gatos seniores
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como montar um espaco de descompressao para caes agitados
+  pilar: primeiros_passos_filhotes
   status: pendente
