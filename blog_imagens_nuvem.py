@@ -23,7 +23,30 @@ from stock_queries import QUERIES, queries_for  # noqa: E402
 UA = {"User-Agent": "tutorialpet-fabrica/1.0"}
 
 
+PESSOA_TEMAS = [  # (palavra no slug, cena em inglês) — gente feliz interagindo com o pet, conforme o assunto do artigo
+    ("banho", "happy woman bathing {a}"), ("dentes", "woman brushing {a} teeth smiling"), ("unha", "woman trimming {a} nails"),
+    ("escov", "happy woman brushing {a}"), ("racao", "happy woman feeding {a}"), ("alimentar", "happy girl feeding {a}"),
+    ("comedouro", "smiling woman {a} food bowl"), ("coleira", "happy man walking {a} leash"), ("peitoral", "happy woman walking {a} harness"),
+    ("passeio", "smiling couple walking {a}"), ("rua", "happy girl walking puppy outdoors"), ("brinquedo", "happy woman playing with {a} toy"),
+    ("arranhador", "happy woman playing with cat scratching post"), ("caixa-de-transporte", "smiling woman cat carrier"),
+    ("areia", "smiling woman cat at home"), ("agua", "happy woman cat drinking water"), ("vacina", "smiling woman hugging puppy"),
+    ("idoso", "smiling senior man with old dog"), ("sozinho", "woman hugging {a} at home smiling"), ("ansiedade", "woman hugging {a} smiling"),
+    ("morder", "happy girl playing with puppy"), ("latindo", "smiling woman training {a}"), ("xixi", "happy woman puppy training"),
+    ("socializar", "happy family kittens"), ("enxoval", "happy woman puppy toys bed"), ("plantas", "smiling woman cat home plants"),
+    ("sofa", "happy woman cat sofa"), ("adotar", "happy family adopting kitten"), ("adaptar", "smiling man old dog home"),
+]
+
+
+def consultas_pessoa(slug: str) -> list[str]:
+    a = "cat" if any(p in slug for p in ("gato", "gatinho")) else "puppy" if "filhote" in slug else "dog"
+    qs = [c.format(a=a) for k, c in PESSOA_TEMAS if k in slug][:2]
+    qs += [f"happy woman hugging {a}", f"smiling man playing with {a}", f"happy family with {a} at home"]
+    return qs[:4]
+
+
 def consultas(slug: str) -> list[str]:
+    if os.environ.get("FOTO_PESSOA") == "1":
+        return consultas_pessoa(slug)
     if slug in QUERIES:
         return QUERIES[slug]
     try:  # tema novo: pede 2 buscas em inglês ao LLM (só o animal, nunca pessoa)
@@ -63,7 +86,7 @@ def buscar(query: str, chave: str, n: int) -> list[dict]:
         "fonte": "pexels", "id": p["id"], "url_download": p["src"]["large"], "url_pagina": p["url"],
         "fotografo": p["photographer"], "fotografo_url": p["photographer_url"],
         "largura": p["width"], "altura": p["height"], "query": query,
-    } for p in ordenar(dados.get("photos", []), "url", "alt")]
+    } for p in ordenar(dados.get("photos", []), "url", "alt", pessoas=os.environ.get("FOTO_PESSOA") == "1")]
 
 
 def main() -> int:
@@ -85,16 +108,16 @@ def main() -> int:
     vistos: set[int] = set()
     for q in consultas(slug):
         try:
-            for c in buscar(q, chave, 5):
+            for c in buscar(q, chave, 10 if os.environ.get('FOTO_PESSOA') == '1' else 5):
                 if c["id"] not in vistos:
                     vistos.add(c["id"])
                     achados.append(c)
         except Exception as exc:  # noqa: BLE001
             print(f"[imagens] busca '{q}' falhou: {str(exc)[:100]}")
-        if len(achados) >= 6:
+        if len(achados) >= (8 if os.environ.get('FOTO_PESSOA') == '1' else 6):
             break
     manifest = []
-    for c in achados[:6]:
+    for c in achados[:(8 if os.environ.get('FOTO_PESSOA') == '1' else 6)]:
         i = len(manifest)
         try:
             req = urllib.request.Request(c["url_download"], headers=UA)

@@ -34,11 +34,26 @@ def nota(slug_url: str, alt: str = "") -> int | None:
     return sum(v for k, v in POSITIVAS.items() if k in p)
 
 
-def ordenar(itens: list[dict], chave_url: str = "url", chave_alt: str = "alt") -> list[dict]:
+# Modo "gente feliz com o pet" (decisão do Allan, 14/10/2026: capas com pessoas interagindo com os animais).
+# Exige uma palavra de pessoa na descrição; relaxa só as eliminatórias ligadas ao tema (comida, vet, banho).
+PESSOA = {"woman", "man", "girl", "boy", "child", "children", "kid", "kids", "family", "owner", "couple", "people",
+          "person", "hug", "hugging", "kiss", "kissing", "friends", "together", "smiling", "laughing", "walking", "hand", "hands"}
+POSITIVAS_PESSOA = {"hug": 3, "hugging": 3, "kiss": 3, "kissing": 3, "smiling": 3, "laughing": 3, "together": 2, "family": 2,
+                    "woman": 1, "man": 1, "girl": 1, "boy": 1, "owner": 2, "playing": 3, "cuddling": 3, "love": 2}
+ELIMINATORIAS_PESSOA = tuple(w for w in ELIMINATORIAS if w not in {"food", "eating", "feeding", "bowl", "vet", "kibble", "cone", "alone", "lonely", "rescue", "syringe", "injection"}) + ("sad", "crying", "shelter")
+
+
+def ordenar(itens: list[dict], chave_url: str = "url", chave_alt: str = "alt", pessoas: bool = False) -> list[dict]:
     """Remove os eliminados e ordena do mais atraente para o menos (estável)."""
     pontuados = []
     for i, it in enumerate(itens):
-        n = nota(str(it.get(chave_url, "")), str(it.get(chave_alt, "")))
+        if pessoas:
+            pal = _palavras(str(it.get(chave_url, "")).replace("/", " ")) | _palavras(str(it.get(chave_alt, "")))
+            if not (pal & PESSOA) or any(w in pal for w in ELIMINATORIAS_PESSOA):
+                continue
+            n = sum(v for k, v in {**POSITIVAS, **POSITIVAS_PESSOA}.items() if k in pal)
+        else:
+            n = nota(str(it.get(chave_url, "")), str(it.get(chave_alt, "")))
         if n is not None:
             pontuados.append((-n, i, it))
     pontuados.sort(key=lambda t: (t[0], t[1]))

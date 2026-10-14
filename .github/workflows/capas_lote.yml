@@ -53,6 +53,41 @@ jobs:
           git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
           git add -A; git commit -m "capas em lote: candidatas" || echo "nada"
           git push origin media
+      - name: Buscar candidatas COM PESSOAS (todos os artigos)
+        if: ${{ github.event.inputs.modo == 'buscar_pessoas' }}
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          FOTO_PESSOA: "1"
+        run: |
+          mkdir -p /tmp/media/capas_pessoas
+          for f in data/seo_onpage/otimizados/*.md; do
+            slug=$(basename "$f" .md)
+            echo "== $slug"
+            python blog_imagens_nuvem.py "$slug" || continue
+            rm -rf /tmp/media/capas_pessoas/$slug
+            cp -r data/visual/candidatos/$slug /tmp/media/capas_pessoas/$slug
+            sleep 1
+          done
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "capas com pessoas: candidatas" || echo "nada"
+          git push origin media
+      - name: Aplicar escolhas (capas com pessoas)
+        if: ${{ github.event.inputs.modo == 'aplicar_pessoas' }}
+        env:
+          ESC: ${{ github.event.inputs.escolhas }}
+        run: |
+          for par in $ESC; do
+            slug=${par%%:*}; idx=${par##*:}
+            rm -rf data/visual/candidatos/$slug
+            mkdir -p data/visual/candidatos
+            cp -r /tmp/media/capas_pessoas/$slug data/visual/candidatos/$slug
+            python agents/15_visual/agent.py --site pets-tutores-iniciantes --selecionar "$slug" "$idx"
+          done
+          python site/build_site.py --site pets-tutores-iniciantes
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "blog: capas com pessoas aplicadas" || echo "nada"
+          git pull --rebase origin main; git push origin HEAD:main
       - name: Aplicar escolhas
         if: ${{ github.event.inputs.modo == 'aplicar' }}
         env:
