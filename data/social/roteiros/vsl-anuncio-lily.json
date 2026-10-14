@@ -4,21 +4,21 @@
   "gancho_3s": "Cansou do seu cachorro sofrendo sozinho?",
   "cenas": [
     {
-      "narracao": "[urgent] Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Você não aguenta mais isso?",
+      "narracao": "Seu cachorro late, chora e destrói tudo quando você sai? O vizinho já reclamou? Você não aguenta mais isso?",
       "visual_busca_banco_livre": [
-        "stressed woman dog barking living room",
-        "dog destroying pillow messy living room",
-        "frustrated man dog chewing shoes home"
+        "dog barking at front door",
+        "dog howling alone window home",
+        "woman frustrated dog barking messy home"
       ],
       "texto_na_tela": "Cansou do seu cachorro sofrendo sozinho?",
       "permitir_gente": true,
       "sem_filtro_estilo": true,
       "efeito_sonoro": {
-        "prompt": "dog barking nonstop indoors, muffled by a closed door, anxious repeated barks and whining",
+        "prompt": "dog barking",
         "duracao": 9,
-        "fade_inicio": 3,
-        "fade_duracao": 5,
-        "volume": 0.8
+        "fade_inicio": 1.5,
+        "fade_duracao": 4,
+        "volume": 0.55
       }
     },
     {
@@ -32,7 +32,7 @@
       "permitir_gente": true
     },
     {
-      "narracao": "[warmly] Manual baseado em evidências e um app que guia você todos os dias.",
+      "narracao": "[warmly] Um manual feito com base em evidências e um app que guia você todos os dias.",
       "visual_busca_banco_livre": [
         "woman using smartphone with cute dog home",
         "happy dog owner tablet sofa golden retriever"

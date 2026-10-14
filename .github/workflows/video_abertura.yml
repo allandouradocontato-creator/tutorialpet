@@ -8,6 +8,10 @@ on:
         description: "slug do roteiro"
         required: false
         default: "tutorial-pet-abertura"
+      estabilidade:
+        description: "estabilidade da voz (0.0 a 1.0); vazio usa o config"
+        required: false
+        default: ""
       voice_id:
         description: "voice id da ElevenLabs (vazio = voz da Duda); sufixo do arquivo de saida"
         required: false
@@ -33,6 +37,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_STABILITY: ${{ github.event.inputs.estabilidade }}
           ELEVENLABS_VOICE_ID: ${{ github.event.inputs.voice_id || secrets.ELEVENLABS_VOICE_ID }}
         run: python agents/17_video/montar_video6.py data/social/roteiros/${{ github.event.inputs.slug }}.json
       - uses: actions/upload-artifact@v4

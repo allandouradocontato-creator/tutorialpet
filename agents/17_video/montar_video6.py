@@ -191,6 +191,26 @@ def efeito_commons(termo: str, saida: Path) -> bool:
             except Exception:  # noqa: BLE001
                 continue
             print(f"  latido (Commons, {lic}): {pg.get('title')}", flush=True)
+            if not (saida.exists() and saida.stat().st_size > 1000):
+                continue
+            try:  # monta uma sequência de latidos (tons e pausas variados), abafada como se viesse de trás da porta
+                base = saida.with_suffix(".wav")
+                sh(["ffmpeg", "-y", "-i", str(saida), "-t", "1.6", "-ar", "44100", "-ac", "1", str(base)])
+                tons = [1.0, 0.92, 1.07, 0.97, 1.1, 0.95, 1.03, 0.9, 1.06, 0.98]
+                pausas = [0.35, 0.8, 0.25, 0.6, 0.3, 1.0, 0.4, 0.5, 0.7, 0.3]
+                parts, lst = [], []
+                for k, (t, ps) in enumerate(zip(tons, pausas)):
+                    a = saida.with_name(f"lt{k}.wav")
+                    sh(["ffmpeg", "-y", "-i", str(base), "-af", f"asetrate=44100*{t},aresample=44100", str(a)])
+                    g = saida.with_name(f"lg{k}.wav")
+                    sh(["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=mono", "-t", str(ps), str(g)])
+                    lst += [a, g]
+                lf = saida.with_name("lst.txt")
+                lf.write_text("".join(f"file '{x.as_posix()}'\n" for x in lst), encoding="utf-8")
+                sh(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lf), "-af",
+                    "lowpass=f=2600,aecho=0.7:0.6:60:0.25,volume=1.4", "-ar", "44100", "-ac", "2", str(saida)])
+            except Exception as e:  # noqa: BLE001
+                print("  sequência de latidos falhou, usando o latido simples:", str(e)[:80], flush=True)
             return saida.exists() and saida.stat().st_size > 1000
     except Exception as e:  # noqa: BLE001
         print(f"  Commons: {type(e).__name__}: {str(e)[:80]}", flush=True)
