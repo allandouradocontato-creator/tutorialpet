@@ -46,6 +46,13 @@ CLARITY_TAG = (
     f'}})(window,document,"clarity","script","{CLARITY_ID}");</script>'
 )
 
+# Google AdSense (conta criada em 14/10/2026; ID de editor do Allan)
+ADSENSE_PUB = "pub-7204207473239947"
+ADSENSE_TAG = (
+    f'<meta name="google-adsense-account" content="ca-{ADSENSE_PUB}">'
+    f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-{ADSENSE_PUB}" crossorigin="anonymous"></script>'
+)
+
 # Banner de consentimento (LGPD): Analytics e Clarity só carregam depois do "Aceitar".
 CONSENT_TAG = (
     "<script>(function(){var K='tp_consent';"
@@ -150,6 +157,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <meta property="og:locale" content="pt_BR">
 {og_image_tag}
 {GOOGLE_FONT_HEAD}
+{ADSENSE_TAG}
 {CONSENT_TAG}
 {extra_head}
 <style>{CSS}</style>

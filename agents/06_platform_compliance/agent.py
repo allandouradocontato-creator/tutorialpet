@@ -95,7 +95,6 @@ def render_ads_txt(site: dict) -> str:
     placeholder = site.get("compliance", {}).get("ads_txt_placeholder", "google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0")
     return (
         f"{placeholder}\n"
-        "# Substituir 'pub-0000000000000000' pelo Publisher ID real assim que a conta AdSense for aprovada.\n"
     )
 
 

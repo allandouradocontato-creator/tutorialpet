@@ -79,7 +79,7 @@ compliance:
     - { slug: /politica-de-privacidade, titulo: "Política de Privacidade" }
     - { slug: /termos, titulo: "Termos de Uso" }
   arquivos_obrigatorios: [/robots.txt, /sitemap.xml, /ads.txt]
-  ads_txt_placeholder: "google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0"   # trocar pelo pub-ID real após aprovação
+  ads_txt_placeholder: "google.com, pub-7204207473239947, DIRECT, f08c47fec0942fa0"   # ID real (14/10/2026)
   aviso_saude: >
     Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.
   human_in_the_loop:

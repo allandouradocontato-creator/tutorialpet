@@ -1,2 +1,1 @@
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
-# Substituir 'pub-0000000000000000' pelo Publisher ID real assim que a conta AdSense for aprovada.
+google.com, pub-7204207473239947, DIRECT, f08c47fec0942fa0
