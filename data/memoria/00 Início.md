@@ -14,3 +14,4 @@ Memória compartilhada entre Claude, Falcão e Allan. Cada nota = um assunto. Le
 - [[11 Operação e agilidade]]
 
 Regra de ouro: conferir a informação na fonte antes de repassar; erro de agente = falha de processo (Auditor corrige).
+- [[15 Apostila Tutorial Pet]] é o curso vivo: todo aprendizado novo entra lá no mesmo dia.
