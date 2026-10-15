@@ -2,4 +2,4 @@
 redes:
   - {nome: Instagram, url: "https://www.instagram.com/tutorialpetbr/", handle: "@tutorialpetbr"}
   - {nome: TikTok, url: "https://www.tiktok.com/@tutorialpetbr", handle: "@tutorialpetbr"}
-  - {nome: Facebook, url: "", handle: "Tutorial Pet"}   # preencher com a URL da página (pendência: confirmar com o Allan)
+  - {nome: Facebook, url: "https://www.facebook.com/profile.php?id=122123613621474828", handle: "Tutorial Pet"}
