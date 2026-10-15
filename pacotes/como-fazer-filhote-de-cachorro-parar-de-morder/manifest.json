@@ -1,6 +1,21 @@
 {
-  "slug": "como-fazer-filhote-de-cachorro-parar-de-morder",
-  "status": "aguardando_revisao",
-  "criado_em": "2026-10-06T13:20:31+00:00",
-  "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-filhote-de-cachorro-parar-de-morder"
+ "slug": "como-fazer-filhote-de-cachorro-parar-de-morder",
+ "status": "aprovado",
+ "criado_em": "2026-10-06T13:20:31+00:00",
+ "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-filhote-de-cachorro-parar-de-morder",
+ "guardiao": {
+  "status": "revisar",
+  "problemas": [
+   "vídeo sem registro de clipes (clips_usados.json): não dá para garantir variedade"
+  ],
+  "ok": [
+   "sem cenas repetidas no vídeo",
+   "carimbo da marca disponível e aplicado pela montagem",
+   "CTA diferente dos últimos vídeos",
+   "gancho diferente dos últimos vídeos (seu filhote de cachorro)",
+   "voz da Duda no padrão (eleven_v4, estabilidade 0.26)"
+  ],
+  "em": "2026-10-15T00:58:07+00:00"
+ },
+ "aprovado_por": "Claude: estoque do teste de 7 dias (unico aviso do Guardiao: sem registro de clipes, pacote antigo; tema nunca postado)"
 }

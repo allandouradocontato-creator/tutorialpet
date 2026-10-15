@@ -2,5 +2,19 @@
   "slug": "quanto-tempo-um-cachorro-pode-ficar-sozinho",
   "status": "aguardando_revisao",
   "criado_em": "2026-10-06T12:56:48+00:00",
-  "artigo_url_futura": "https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho"
+  "artigo_url_futura": "https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho",
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "vídeo sem registro de clipes (clips_usados.json): não dá para garantir variedade"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (seu cachorro aguenta quantas)",
+      "voz da Duda no padrão (eleven_v4, estabilidade 0.26)"
+    ],
+    "em": "2026-10-15T00:58:07+00:00"
+  }
 }
