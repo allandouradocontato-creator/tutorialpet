@@ -48,8 +48,8 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jsonld.json
 imagem_capa: imagens/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jpg
 imagem_fonte: pexels
-imagem_fotografo: Ajay Lamichhane
-imagem_fotografo_url: https://www.pexels.com/@azaay14
+imagem_fotografo: Alina Skazka
+imagem_fotografo_url: https://www.pexels.com/@alinaskazka/
 imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-dog-in-bibra-lake-36314934/
 imagem_selecionada_em: '2026-10-15T15:57:48+00:00'
 ---
