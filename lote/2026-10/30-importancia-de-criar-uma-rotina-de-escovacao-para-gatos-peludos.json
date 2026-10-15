@@ -1,0 +1,45 @@
+{
+  "slug": "importancia-de-criar-uma-rotina-de-escovacao-para-gatos-peludos",
+  "titulo_video": "Rotina de escovação para gatos peludos",
+  "gancho_3s": "Se você é tutor de gato e quer cuidar bem dele, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Se você é tutor de gato e quer cuidar bem dele, assiste isso.",
+      "visual_busca_banco_livre": "cute fluffy cat looking curious close up",
+      "texto_na_tela": "Se você é tutor de gato e quer cuidar bem dele, assiste isso."
+    },
+    {
+      "narracao": "[smiling] Gatos peludos precisam de ajuda com o pelo.",
+      "visual_busca_banco_livre": "fluffy persian cat sitting relaxed indoors",
+      "texto_na_tela": "Cuide do pelo"
+    },
+    {
+      "narracao": "Escovar evita que eles engulam muitos nós.",
+      "visual_busca_banco_livre": "cute longhaired cat resting on blanket",
+      "texto_na_tela": "Evita nós"
+    },
+    {
+      "narracao": "Faça isso todo dia com carinho.",
+      "visual_busca_banco_livre": "adorable fluffy kitten playing with toy",
+      "texto_na_tela": "Carinho diário"
+    },
+    {
+      "narracao": "[excited] Vira um momento gostoso de vocês.",
+      "visual_busca_banco_livre": "happy fluffy cat lying on back",
+      "texto_na_tela": "Momento especial"
+    }
+  ],
+  "chamada_final": "Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#pets",
+    "#gatosfofos"
+  ],
+  "legenda": "Se você é tutor de gato e quer cuidar bem dele, assiste isso.\n\n#gatos #tutorialpet #pets #gatosfofos",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 5,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 30,
+  "tema": "importancia de criar uma rotina de escovacao para gatos peludos"
+}

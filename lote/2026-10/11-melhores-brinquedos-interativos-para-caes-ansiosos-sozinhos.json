@@ -1,0 +1,45 @@
+{
+  "slug": "melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos",
+  "titulo_video": "Brinquedos que acalmam",
+  "gancho_3s": "Eu errei em dar atenção toda hora por anos até descobrir isso.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Eu errei em dar atenção toda hora por anos até descobrir isso.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Eu errei em dar atenção toda hora por anos até descobrir isso."
+    },
+    {
+      "narracao": "[smiling] Cães sozinhos precisam gastar energia mental.",
+      "visual_busca_banco_livre": "happy beagle sniffing yellow grass outdoors",
+      "texto_na_tela": "Gastar energia mental"
+    },
+    {
+      "narracao": "[softly] Brinquedos recheáveis ocupam bem o tempo deles.",
+      "visual_busca_banco_livre": "cute puppy licking peanut butter toy",
+      "texto_na_tela": "Brinquedos recheáveis"
+    },
+    {
+      "narracao": "[thoughtful] Colocar ração e congelar faz durar mais.",
+      "visual_busca_banco_livre": "adorable french bulldog resting head calmly",
+      "texto_na_tela": "Comida congelada"
+    },
+    {
+      "narracao": "[happy] Isso traz muita paz na rotina da casa.",
+      "visual_busca_banco_livre": "sweet cat sleeping peacefully on rug",
+      "texto_na_tela": "Mais paz em casa"
+    }
+  ],
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#ansiedadepet",
+    "#dicaspet"
+  ],
+  "legenda": "Eu errei em dar atenção toda hora por anos até descobrir isso.\n\n#tutorialpet #cachorro #ansiedadepet #dicaspet",
+  "molde_gancho": "abertura_confissao",
+  "cta_indice": 2,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 11,
+  "tema": "melhores brinquedos interativos para cães ansiosos sozinhos"
+}

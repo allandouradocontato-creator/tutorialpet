@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como ensinar seu gato a usar a caixa de areia",
+  "gancho_3s": "Quer ensinar seu gato a usar a caixa de areia no primeiro dia?",
+  "cenas": [
+    {
+      "narracao": "Escolha uma caixa com o tamanho adequado e bordas baixas para facilitar a entrada.",
+      "visual_busca_banco_livre": "kitten looking at litter box",
+      "texto_na_tela": "Caixa no tamanho certo"
+    },
+    {
+      "narracao": "Coloque a caixa em um canto calmo, longe da área de alimentação.",
+      "visual_busca_banco_livre": "cat litter box in quiet room",
+      "texto_na_tela": "Local tranquilo e longe da comida"
+    },
+    {
+      "narracao": "Prefira areia de granulação fina e sem perfumes fortes.",
+      "visual_busca_banco_livre": "fine cat litter close up",
+      "texto_na_tela": "Areia fina e sem perfume"
+    },
+    {
+      "narracao": "Limpe os dejetos de duas a três vezes por dia para manter o local convidativo.",
+      "visual_busca_banco_livre": "cleaning cat litter box scoop",
+      "texto_na_tela": "Limpeza diária"
+    },
+    {
+      "narracao": "Após as refeições, coloque o gatinho na caixa e estimule levemente a patinha.",
+      "visual_busca_banco_livre": "cute kitten in litter box",
+      "texto_na_tela": "Apresente a caixa após comer"
+    }
+  ],
+  "chamada_final": "Consulte o médico-veterinário para avaliar o modelo ideal e garantir a saúde do seu pet.",
+  "hashtags": [
+    "gatos",
+    "caixadeareia",
+    "gatedepet",
+    "cuidadoscomgatos",
+    "dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer ensinar seu gato a usar a caixa de areia no primeiro dia?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-ensinar-gato-a-usar-a-caixa-de-areia\n\n#gatos #caixadeareia #gatedepet #cuidadoscomgatos #dicaspet",
+  "slug": "como-ensinar-gato-a-usar-a-caixa-de-areia"
+}

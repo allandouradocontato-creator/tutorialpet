@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como fazer filhote parar de morder",
+  "gancho_3s": "Seu filhote de cachorro não para de te morder?",
+  "cenas": [
+    {
+      "narracao": "Seu filhote não para de te morder?",
+      "visual_busca_banco_livre": "puppy biting hand",
+      "texto_na_tela": "Filhote mordendo tudo?"
+    },
+    {
+      "narracao": "Eles mordem para aliviar a coceira. Consulte o veterinário para acompanhar a saúde bucal dele.",
+      "visual_busca_banco_livre": "puppy chewing toy",
+      "texto_na_tela": "Fase de troca de dentes"
+    },
+    {
+      "narracao": "Quando ele morder, diga 'Ai!', cruze os braços e ignore por 15 segundos.",
+      "visual_busca_banco_livre": "person ignoring puppy crossed arms",
+      "texto_na_tela": "Diga 'Ai!' e ignore"
+    },
+    {
+      "narracao": "Depois, ofereça um mordedor adequado e elogie muito quando ele brincar.",
+      "visual_busca_banco_livre": "giving toy to puppy",
+      "texto_na_tela": "Ofereça o brinquedo certo"
+    },
+    {
+      "narracao": "Gaste a energia dele com brinquedos de enriquecimento ambiental.",
+      "visual_busca_banco_livre": "puppy playing interactive toy",
+      "texto_na_tela": "Gaste a energia"
+    },
+    {
+      "narracao": "Evite gritar e nunca use as mãos para brincar de lutinha.",
+      "visual_busca_banco_livre": "petting puppy gently",
+      "texto_na_tela": "Mão não é brinquedo!"
+    }
+  ],
+  "chamada_final": "Gostou do vídeo? Siga para mais dicas de adestramento!",
+  "hashtags": [
+    "filhotes",
+    "adestramentocanino",
+    "cachorros",
+    "comportamentocanino",
+    "dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://pay.kiwify.com.br/NcQChat\n\nSeu filhote de cachorro não para de te morder?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-filhote-de-cachorro-parar-de-morder\n\nfilhotes adestramentocanino cachorros comportamentocanino dicaspet",
+  "slug": "como-fazer-filhote-de-cachorro-parar-de-morder"
+}

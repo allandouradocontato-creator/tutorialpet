@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como Acostumar o Cachorro a Cortar as Unhas",
+  "gancho_3s": "Seu cachorro foge de você na hora de cortar a unha?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro foge de você na hora de cortar a unha?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro foge de você na hora de cortar a unha?"
+    },
+    {
+      "narracao": "[softly] É normal ele se esconder só de ver ou ouvir o cortador chegando.",
+      "visual_busca_banco_livre": "scared dog looking sideways indoors",
+      "texto_na_tela": "Medo do cortador de unha?"
+    },
+    {
+      "narracao": "[thoughtful] As patinhas deles têm muitas terminações sensíveis, então o segredo é ir aos poucos.",
+      "visual_busca_banco_livre": "dog paw macro close up resting on floor",
+      "texto_na_tela": "Patas muito sensíveis"
+    },
+    {
+      "narracao": "[smiling] Comece encostando na pata de leve por dois segundos e dê um petisco logo em seguida.",
+      "visual_busca_banco_livre": "happy dog eating snack on carpet",
+      "texto_na_tela": "Toque suave + petisco"
+    },
+    {
+      "narracao": "Depois, coloque o alicate no chão com petiscos em volta [short pause] pra ele cheirar e perder o medo.",
+      "visual_busca_banco_livre": "curious dog sniffing floor close up",
+      "texto_na_tela": "Apresente o cortador no chão"
+    },
+    {
+      "narracao": "Na prática, corte só uma pontinha de unha por dia, sem pressa de fazer tudo junto.",
+      "visual_busca_banco_livre": "calm dog lying relaxed on floor",
+      "texto_na_tela": "Apenas 1 unha por dia"
+    },
+    {
+      "narracao": "[thoughtful] Nunca use força pra segurar. E se tiver dúvidas sobre a saúde das patinhas, fale com um veterinário.",
+      "visual_busca_banco_livre": "happy dog wagging tail indoors",
+      "texto_na_tela": "Sem força e com paciência"
+    }
+  ],
+  "chamada_final": "[warmly] Manda pra aquele amigo que acabou de ganhar um pet, ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#adestramentopositivo",
+    "#cuidadoscaninos",
+    "#dicaspet",
+    "#comportamentocanino",
+    "#cachorros"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cão foge ao ver o cortador de unhas?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-acostumar-o-cachorro-a-cortar-as-unhas\n\n#adestramentopositivo #cuidadoscaninos #dicaspet #comportamentocanino #cachorros",
+  "slug": "como-acostumar-o-cachorro-a-cortar-as-unhas",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 5
+}

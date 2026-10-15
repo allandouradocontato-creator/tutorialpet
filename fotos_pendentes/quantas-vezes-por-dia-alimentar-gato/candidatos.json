@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 39354385,
+    "url_download": "https://images.pexels.com/photos/39354385/pexels-photo-39354385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-curious-domestic-cat-39354385/",
+    "fotografo": "Tuğba",
+    "fotografo_url": "https://www.pexels.com/@tugba",
+    "largura": 5443,
+    "altura": 4000,
+    "query": "cute cat portrait",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-alimentar-gato/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34802423,
+    "url_download": "https://images.pexels.com/photos/34802423/pexels-photo-34802423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-relaxed-tabby-cat-on-stone-surface-34802423/",
+    "fotografo": "Regan Dsouza",
+    "fotografo_url": "https://www.pexels.com/@regan-dsouza-1315522347",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "cute cat portrait",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-alimentar-gato/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 220876,
+    "url_download": "https://images.pexels.com/photos/220876/pexels-photo-220876.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-tabby-cat-lying-down-on-bed-220876/",
+    "fotografo": "Pixabay",
+    "fotografo_url": "https://www.pexels.com/@pixabay",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute cat portrait",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-alimentar-gato/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39495643,
+    "url_download": "https://images.pexels.com/photos/39495643/pexels-photo-39495643.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-ginger-tabby-cat-39495643/",
+    "fotografo": "FOX ^.ᆽ.^= ∫",
+    "fotografo_url": "https://www.pexels.com/@fox-58267",
+    "largura": 4926,
+    "altura": 3284,
+    "query": "cute cat portrait",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-alimentar-gato/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35685839,
+    "url_download": "https://images.pexels.com/photos/35685839/pexels-photo-35685839.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-domestic-cat-outdoors-35685839/",
+    "fotografo": "Tuğba",
+    "fotografo_url": "https://www.pexels.com/@tugba",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute cat portrait",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-alimentar-gato/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7790029,
+    "url_download": "https://images.pexels.com/photos/7790029/pexels-photo-7790029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-cat-7790029/",
+    "fotografo": "Ivan Babydov",
+    "fotografo_url": "https://www.pexels.com/@babydov",
+    "largura": 5165,
+    "altura": 3443,
+    "query": "happy cat indoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-alimentar-gato/5.jpg"
+  }
+]

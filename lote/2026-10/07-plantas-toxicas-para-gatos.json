@@ -1,0 +1,45 @@
+{
+  "slug": "plantas-toxicas-para-gatos",
+  "titulo_video": "Plantas tóxicas para gatos",
+  "gancho_3s": "Aquele momento em que o vaso preferido vira bagunça acontece de novo.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Aquele momento em que o vaso preferido vira bagunça acontece de novo.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Aquele momento em que o vaso preferido vira bagunça acontece de novo."
+    },
+    {
+      "narracao": "[warmly] Pois é, algumas plantas comuns podem fazer mal pros felinos.",
+      "visual_busca_banco_livre": "cute kitten sniffing green leaves",
+      "texto_na_tela": "Plantas perigosas"
+    },
+    {
+      "narracao": "[thoughtful] Lírios e comigo-ninguém-pode são bem perigosos pra saúde deles.",
+      "visual_busca_banco_livre": "playful cat near houseplant",
+      "texto_na_tela": "Cuidado com lírios"
+    },
+    {
+      "narracao": "[softly] Se notar qualquer sintoma estranho, consulte o médico-veterinário rapidinho.",
+      "visual_busca_banco_livre": "healthy cat resting indoors",
+      "texto_na_tela": "Procure o vet"
+    },
+    {
+      "narracao": "[excited] Prefira espécies seguras como a graminha para gatos em casa!",
+      "visual_busca_banco_livre": "happy cat eating cat grass",
+      "texto_na_tela": "Espécies seguras"
+    }
+  ],
+  "chamada_final": "[happy] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#plantastoxicas",
+    "#cuidadoscomgatos"
+  ],
+  "legenda": "Aquele momento em que o vaso preferido vira bagunça acontece de novo.\n\n#gatos #tutorialpet #plantastoxicas #cuidadoscomgatos",
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 6,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 7,
+  "tema": "plantas toxicas para gatos"
+}

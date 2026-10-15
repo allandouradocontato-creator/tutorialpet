@@ -1,0 +1,45 @@
+{
+  "slug": "como-apresentar-dois-gatos-adultos-na-mesma-casa",
+  "titulo_video": "Como juntar gatos adultos",
+  "gancho_3s": "Se briga de gato continua acontecendo com você, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Se briga de gato continua acontecendo com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Se briga de gato continua acontecendo com você, começa por aqui."
+    },
+    {
+      "narracao": "[warmly] Não junte os dois de uma vez só.",
+      "visual_busca_banco_livre": "ginger cat behind glass door watching",
+      "texto_na_tela": "Separe os ambientes"
+    },
+    {
+      "narracao": "[thoughtful] Troque os cobertores deles de cômodo.",
+      "visual_busca_banco_livre": "cute fluffy cat sniffing blanket",
+      "texto_na_tela": "Troque os cheiros"
+    },
+    {
+      "narracao": "[softly] Deixe eles comerem perto da porta fechada.",
+      "visual_busca_banco_livre": "grey cat eating near closed door",
+      "texto_na_tela": "Associe comida boa"
+    },
+    {
+      "narracao": "[happy] Vá bem devagar até eles se acostumarem.",
+      "visual_busca_banco_livre": "calm cat relaxing on soft rug",
+      "texto_na_tela": "Respeite o tempo"
+    }
+  ],
+  "chamada_final": "[smiling] Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#gatosadultos",
+    "#comportamentofelino"
+  ],
+  "legenda": "Se briga de gato continua acontecendo com você, começa por aqui.\n\n#gatos #tutorialpet #gatosadultos #comportamentofelino",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 0,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 17,
+  "tema": "como apresentar dois gatos adultos na mesma casa"
+}

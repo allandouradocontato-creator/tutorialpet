@@ -1,0 +1,45 @@
+{
+  "slug": "como-fazer-o-gato-beber-mais-agua",
+  "titulo_video": "Como fazer seu gato beber mais água",
+  "gancho_3s": "Se a falta de água no pote continua acontecendo com você, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Se a falta de água no pote continua acontecendo com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Se a falta de água no pote continua acontecendo com você, começa por aqui."
+    },
+    {
+      "narracao": "[smiling] Gatos preferem água fresca e corrente.",
+      "visual_busca_banco_livre": "cat drinking from a pet fountain",
+      "texto_na_tela": "Água fresca sempre"
+    },
+    {
+      "narracao": "[softly] Espalhe potes pela casa toda.",
+      "visual_busca_banco_livre": "cute cat sitting near ceramic bowl",
+      "texto_na_tela": "Vários potes"
+    },
+    {
+      "narracao": "[thoughtful] Longe da caixa de areia é melhor.",
+      "visual_busca_banco_livre": "healthy fluffy cat resting indoors",
+      "texto_na_tela": "Longe da areia"
+    },
+    {
+      "narracao": "[excited] Mude a água todos os dias.",
+      "visual_busca_banco_livre": "playful cat licking fresh water",
+      "texto_na_tela": "Troque todo dia"
+    }
+  ],
+  "chamada_final": "Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#gato",
+    "#dicaspet"
+  ],
+  "legenda": "Se a falta de água no pote continua acontecendo com você, começa por aqui.\n\n#gatos #tutorialpet #gato #dicaspet",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 5,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 6,
+  "tema": "como fazer o gato beber mais agua"
+}

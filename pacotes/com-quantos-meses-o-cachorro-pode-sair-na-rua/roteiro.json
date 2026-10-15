@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Com quantos meses o cachorro pode sair na rua?",
+  "gancho_3s": "Com quantos meses o cachorro pode sair na rua? Não é pela idade.",
+  "cenas": [
+    {
+      "narracao": "Com quantos meses o cachorro pode sair na rua? Não é pela idade.",
+      "visual_busca_banco_livre": "puppy looking out window",
+      "texto_na_tela": "Qual a idade certa?"
+    },
+    {
+      "narracao": "O que libera o passeio é terminar o protocolo de vacinas que o veterinário indicou.",
+      "visual_busca_banco_livre": "puppy sitting calmly indoors",
+      "texto_na_tela": "Vacinas completas primeiro"
+    },
+    {
+      "narracao": "Quem confere a carteirinha e diz a hora certa é o veterinário.",
+      "visual_busca_banco_livre": "puppy resting on blanket",
+      "texto_na_tela": "O veterinário decide"
+    },
+    {
+      "narracao": "Enquanto espera, deixe ele ver a rua no colo e treine a guia dentro de casa.",
+      "visual_busca_banco_livre": "puppy in carrier bag",
+      "texto_na_tela": "Passeio no colo"
+    },
+    {
+      "narracao": "Acostume com sons de casa e ensine o básico, com petisco.",
+      "visual_busca_banco_livre": "puppy sitting waiting for treat",
+      "texto_na_tela": "Treine em casa"
+    },
+    {
+      "narracao": "No primeiro passeio, comece curto, em rua calma, e deixe ele cheirar.",
+      "visual_busca_banco_livre": "puppy sniffing grass",
+      "texto_na_tela": "Comece curto e calmo"
+    }
+  ],
+  "chamada_final": "Salve este vídeo e siga para mais dicas para tutores iniciantes!",
+  "hashtags": [
+    "filhotes",
+    "cachorros",
+    "vacinacao",
+    "primeirospassos",
+    "dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://pay.kiwify.com.br/NcQChat\n\nCom quantos meses o cachorro pode sair na rua? Não é pela idade.\n\n📖 Artigo completo: https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua\n\n#filhotes #cachorros #vacinacao #primeirospassos #dicaspet",
+  "slug": "com-quantos-meses-o-cachorro-pode-sair-na-rua"
+}

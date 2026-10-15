@@ -1,0 +1,45 @@
+{
+  "slug": "como-acostumar-o-cachorro-a-cortar-as-unhas",
+  "titulo_video": "Como cortar unha de cachorro sem estresse",
+  "gancho_3s": "Para de correr com a tesoura. Isso tá atrapalhando o seu momento de cuidado.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Para de correr com a tesoura. Isso tá atrapalhando o seu momento de cuidado.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Para de correr com a tesoura. Isso tá atrapalhando o seu momento de cuidado."
+    },
+    {
+      "narracao": "[smiling] Oi! Apresente o cortador antes de usar, deixando ele cheirar.",
+      "visual_busca_banco_livre": "golden retriever puppy smelling metal clipper",
+      "texto_na_tela": "Deixe ele cheirar"
+    },
+    {
+      "narracao": "[warmly] Toque nas patinhas com carinho todos os dias para acostumar.",
+      "visual_busca_banco_livre": "small dog paw close up cute",
+      "texto_na_tela": "Toque nas patinhas"
+    },
+    {
+      "narracao": "[softly] Corte só a pontinha, bem devagar, sem pressa.",
+      "visual_busca_banco_livre": "cute sleepy puppy lying down cozy",
+      "texto_na_tela": "Corte só a pontinha"
+    },
+    {
+      "narracao": "[excited] Dê um petisco gostoso no fim para ele associar com coisa boa.",
+      "visual_busca_banco_livre": "happy puppy eating delicious treat reward",
+      "texto_na_tela": "Recompense com petisco"
+    }
+  ],
+  "chamada_final": "Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#dicaspet",
+    "#cuidadoscompet"
+  ],
+  "legenda": "Para de correr com a tesoura. Isso tá atrapalhando o seu momento de cuidado.\n\n#tutorialpet #cachorro #dicaspet #cuidadoscompet",
+  "molde_gancho": "abertura_pare",
+  "cta_indice": 7,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 16,
+  "tema": "como acostumar o cachorro a cortar as unhas"
+}

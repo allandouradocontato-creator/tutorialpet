@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 10676906,
+    "url_download": "https://images.pexels.com/photos/10676906/pexels-photo-10676906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-little-puppies-sleeping-on-the-ground-10676906/",
+    "fotografo": "Chirag Rathod",
+    "fotografo_url": "https://www.pexels.com/@chirag-rathod-147524063",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "puppy resting calm",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/vacinas-para-filhote-de-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34154043,
+    "url_download": "https://images.pexels.com/photos/34154043/pexels-photo-34154043.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-australian-cattle-dog-puppy-resting-on-steps-34154043/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 7900,
+    "altura": 5269,
+    "query": "puppy resting calm",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/vacinas-para-filhote-de-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16299046,
+    "url_download": "https://images.pexels.com/photos/16299046/pexels-photo-16299046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-puppy-on-the-ground-16299046/",
+    "fotografo": "Sudhir Sangwan",
+    "fotografo_url": "https://www.pexels.com/@sudhirsangwan",
+    "largura": 5328,
+    "altura": 4000,
+    "query": "puppy resting calm",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/vacinas-para-filhote-de-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31016681,
+    "url_download": "https://images.pexels.com/photos/31016681/pexels-photo-31016681.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-newborn-puppies-sleeping-peacefully-31016681/",
+    "fotografo": "Shiebi AL",
+    "fotografo_url": "https://www.pexels.com/@shiebi",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "puppy resting calm",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/vacinas-para-filhote-de-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 25706756,
+    "url_download": "https://images.pexels.com/photos/25706756/pexels-photo-25706756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-puppy-sleeping-on-pillow-25706756/",
+    "fotografo": "Sean Brannon",
+    "fotografo_url": "https://www.pexels.com/@sean-brannon-762373037",
+    "largura": 5184,
+    "altura": 2916,
+    "query": "puppy resting calm",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/vacinas-para-filhote-de-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 25312122,
+    "url_download": "https://images.pexels.com/photos/25312122/pexels-photo-25312122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/terrier-puppy-playing-with-toy-25312122/",
+    "fotografo": "Hannah Barata",
+    "fotografo_url": "https://www.pexels.com/@hannah-barata-776560167",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "puppy lying down indoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/vacinas-para-filhote-de-cachorro/5.jpg"
+  }
+]

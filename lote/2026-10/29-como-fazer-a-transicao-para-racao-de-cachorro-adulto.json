@@ -1,0 +1,44 @@
+{
+  "slug": "como-fazer-a-transicao-para-racao-de-cachorro-adulto",
+  "titulo_video": "Transição para ração de adulto",
+  "gancho_3s": "Aquele momento em que o pacotinho de filhote acaba de novo.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Aquele momento em que o pacotinho de filhote acaba de novo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Aquele momento em que o pacotinho de filhote acaba de novo."
+    },
+    {
+      "narracao": "[warmly] Por volta de um ano, o cão muda de fase.",
+      "visual_busca_banco_livre": "happy golden retriever adult dog running",
+      "texto_na_tela": "Hora de mudar"
+    },
+    {
+      "narracao": "[softly] A troca da ração precisa ser lenta.",
+      "visual_busca_banco_livre": "dog food bowl kibble being filled",
+      "texto_na_tela": "Troca gradual"
+    },
+    {
+      "narracao": "[happy] Misture a nova com a antiga por sete dias.",
+      "visual_busca_banco_livre": "healthy happy dog eating from bowl",
+      "texto_na_tela": "Misture aos poucos"
+    },
+    {
+      "narracao": "[excited] Consulte o médico-veterinário se tiver dúvidas.",
+      "visual_busca_banco_livre": "cute dog smiling outdoors in park",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#dicaspet"
+  ],
+  "legenda": "Aquele momento em que o pacotinho de filhote acaba de novo.\n\n#tutorialpet #cachorro #dicaspet",
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 4,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 29,
+  "tema": "como fazer a transição para ração de cachorro adulto"
+}

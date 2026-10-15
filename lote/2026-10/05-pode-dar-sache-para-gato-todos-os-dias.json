@@ -1,0 +1,45 @@
+{
+  "slug": "pode-dar-sache-para-gato-todos-os-dias",
+  "titulo_video": "Pode dar sachê todo dia?",
+  "gancho_3s": "Para de errar na rotina. Isso tá atrapalhando o seu gatinho.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Para de errar na rotina. Isso tá atrapalhando o seu gatinho.",
+      "visual_busca_banco_livre": "cute curious cat looking closely",
+      "texto_na_tela": "Para de errar na rotina. Isso tá atrapalhando o seu gatinho."
+    },
+    {
+      "narracao": "[smiling] O sachê é ótimo porque ajuda na hidratação.",
+      "visual_busca_banco_livre": "cute cat eating wet food",
+      "texto_na_tela": "Hidratação em dia"
+    },
+    {
+      "narracao": "Mas precisa cuidar das calorias para ele não engordar.",
+      "visual_busca_banco_livre": "healthy fluffy cat sitting nicely",
+      "texto_na_tela": "Cuidado com o peso"
+    },
+    {
+      "narracao": "O ideal é combinar com a ração seca todos os dias.",
+      "visual_busca_banco_livre": "cat bowl with dry food",
+      "texto_na_tela": "Ração e sachê"
+    },
+    {
+      "narracao": "[excited] Na dúvida sobre a quantidade, consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "happy cat stretching its paws",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#tutorialpet",
+    "#alimentacaofelina",
+    "#dicapet"
+  ],
+  "legenda": "Para de errar na rotina. Isso tá atrapalhando o seu gatinho.\n\n#gatos #tutorialpet #alimentacaofelina #dicapet",
+  "molde_gancho": "abertura_pare",
+  "cta_indice": 4,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 5,
+  "tema": "pode dar sache para gato todos os dias"
+}

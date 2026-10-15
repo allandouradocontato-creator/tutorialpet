@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 20214009,
+    "url_download": "https://images.pexels.com/photos/20214009/pexels-photo-20214009.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-with-blue-eyes-20214009/",
+    "fotografo": "Alina Zahorulko",
+    "fotografo_url": "https://www.pexels.com/@alina-zahorulko-48514961",
+    "largura": 4000,
+    "altura": 3000,
+    "query": "fluffy cat portrait",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-dar-banho-em-gato/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 38687771,
+    "url_download": "https://images.pexels.com/photos/38687771/pexels-photo-38687771.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-fluffy-domestic-cat-38687771/",
+    "fotografo": "Ayşegül  Aytören",
+    "fotografo_url": "https://www.pexels.com/@aysegul-aytoren-46790226",
+    "largura": 4912,
+    "altura": 3264,
+    "query": "fluffy cat portrait",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-dar-banho-em-gato/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15830947,
+    "url_download": "https://images.pexels.com/photos/15830947/pexels-photo-15830947.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-a-gray-cat-15830947/",
+    "fotografo": "Taha Yasir Yöney",
+    "fotografo_url": "https://www.pexels.com/@tahayasiryoney",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "fluffy cat portrait",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-dar-banho-em-gato/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3318212,
+    "url_download": "https://images.pexels.com/photos/3318212/pexels-photo-3318212.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/furry-cat-sitting-beside-a-person-3318212/",
+    "fotografo": "NastyaSensei",
+    "fotografo_url": "https://www.pexels.com/@nastyasensei-66707",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "fluffy cat portrait",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-dar-banho-em-gato/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29328548,
+    "url_download": "https://images.pexels.com/photos/29328548/pexels-photo-29328548.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-relaxed-cat-in-sunlight-29328548/",
+    "fotografo": "Lexa Shep",
+    "fotografo_url": "https://www.pexels.com/@lexa-shep-1842481100",
+    "largura": 4290,
+    "altura": 2856,
+    "query": "cute cat close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-dar-banho-em-gato/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32762928,
+    "url_download": "https://images.pexels.com/photos/32762928/pexels-photo-32762928.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-ginger-tabby-cat-32762928/",
+    "fotografo": "Nathan J Hilton",
+    "fotografo_url": "https://www.pexels.com/@nathanjhilton",
+    "largura": 7008,
+    "altura": 4672,
+    "query": "cute cat close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-dar-banho-em-gato/5.jpg"
+  }
+]

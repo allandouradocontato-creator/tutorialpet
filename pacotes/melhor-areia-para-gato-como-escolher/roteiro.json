@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como escolher a areia ideal para seu gato",
+  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+  "cenas": [
+    {
+      "narracao": "Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo tutor de gato."
+    },
+    {
+      "narracao": "[thoughtful] Se o seu gato tá evitando a caixinha, o problema pode ser a textura ou o cheiro.",
+      "visual_busca_banco_livre": "cat sniffing litter box close up",
+      "texto_na_tela": "Rejeição da caixa de areia?"
+    },
+    {
+      "narracao": "Você encontra opções minerais como bentonita e sílica, ou fibras vegetais de milho e mandioca.",
+      "visual_busca_banco_livre": "cat digging in litter box indoors",
+      "texto_na_tela": "Bentonita, sílica ou vegetal"
+    },
+    {
+      "narracao": "Evite perfumes artificiais e prefira opções com baixa poeira, protegendo a respiração dele.",
+      "visual_busca_banco_livre": "cat looking around indoors close up face",
+      "texto_na_tela": "Sem perfume e sem poeira"
+    },
+    {
+      "narracao": "Grãos muito grossos machucam as patinhas, e torrões firmes ajudam demais na limpeza.",
+      "visual_busca_banco_livre": "cat paws close up walking floor",
+      "texto_na_tela": "Conforto para as patas"
+    },
+    {
+      "narracao": "Se for trocar, [short pause] faça uma transição gradual misturando as areias por sete a dez dias.",
+      "visual_busca_banco_livre": "cat entering clean litter box",
+      "texto_na_tela": "Transição em 7 a 10 dias"
+    },
+    {
+      "narracao": "[softly] Atenção: se o pet prender o xixi ou mudar de comportamento, consulte um veterinário.",
+      "visual_busca_banco_livre": "domestic cat sitting looking alert indoors",
+      "texto_na_tela": "Consulte um médico-veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente! [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "gatos",
+    "cuidadoscomgatos",
+    "areiaparagato",
+    "bemestaranimal",
+    "felinos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato anda evitando a caixa de areia?\n\n📖 Artigo completo: https://tutorialpet.com.br/melhor-areia-para-gato-como-escolher\n\n#gatos #cuidadoscomgatos #areiaparagato #bemestaranimal #felinos",
+  "slug": "melhor-areia-para-gato-como-escolher",
+  "molde_gancho": "abertura_erro",
+  "cta_indice": 6
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "como-acostumar-gato-adulto-com-novo-comedouro",
+  "titulo_video": "Como trocar o comedouro do gato adulto",
+  "gancho_3s": "Descobri o truque por trás dessa mudança, e não é o que você pensa.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Descobri o truque por trás dessa mudança, e não é o que você pensa.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Descobri o truque por trás dessa mudança, e não é o que você pensa."
+    },
+    {
+      "narracao": "[warmly] Gatos adultos estranham tigelas novas.",
+      "visual_busca_banco_livre": "tabby cat sniffing new food bowl",
+      "texto_na_tela": "Estranham tigela nova"
+    },
+    {
+      "narracao": "Coloque a comida antiga misturada na nova.",
+      "visual_busca_banco_livre": "fluffy cat eating dry food",
+      "texto_na_tela": "Misture os alimentos"
+    },
+    {
+      "narracao": "[softly] Deixe o pote em um lugar calmo.",
+      "visual_busca_banco_livre": "cute cat eating in quiet room",
+      "texto_na_tela": "Lugar bem calmo"
+    },
+    {
+      "narracao": "[excited] Tenha paciência com o seu bichinho.",
+      "visual_busca_banco_livre": "happy healthy cat resting indoor",
+      "texto_na_tela": "Tenha paciência"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#gatos",
+    "#dicaspet"
+  ],
+  "legenda": "Descobri o truque por trás dessa mudança, e não é o que você pensa.\n\n#tutorialpet #gatos #dicaspet",
+  "molde_gancho": "abertura_laco_aberto",
+  "cta_indice": 1,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 10,
+  "tema": "como acostumar gato adulto com novo comedouro"
+}

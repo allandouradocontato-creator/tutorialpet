@@ -1,0 +1,28 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 34548171,
+    "url_download": "https://images.pexels.com/photos/34548171/pexels-photo-34548171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-fluffy-cat-hiding-underneath-cozy-blanket-34548171/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 3840,
+    "altura": 2563,
+    "query": "cute cat hiding food bowl",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-esconde-a-comida-na-tigela/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6395856,
+    "url_download": "https://images.pexels.com/photos/6395856/pexels-photo-6395856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-cat-6395856/",
+    "fotografo": "Ivo Mukkulainen",
+    "fotografo_url": "https://www.pexels.com/@ivo-mukkulainen-1617629",
+    "largura": 5999,
+    "altura": 3371,
+    "query": "cute cat hiding food bowl",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-esconde-a-comida-na-tigela/1.jpg"
+  }
+]

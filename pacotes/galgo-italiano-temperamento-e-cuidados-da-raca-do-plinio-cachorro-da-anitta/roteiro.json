@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Cuidados essenciais com o Galgo Italiano",
+  "gancho_3s": "Seu cachorro treme muito e quer sempre ficar embaixo das cobertas?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro treme muito e quer sempre ficar embaixo das cobertas?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro treme muito e quer sempre ficar embaixo das cobertas?"
+    },
+    {
+      "narracao": "O galgo italiano é super sensível e ama um sofá quentinho.",
+      "visual_busca_banco_livre": "italian greyhound sleeping on sofa",
+      "texto_na_tela": "Temperamento sensível e afetuoso"
+    },
+    {
+      "narracao": "[thoughtful] Por causa dos ossos finos, use rampas para evitar saltos e fraturas.",
+      "visual_busca_banco_livre": "italian greyhound standing close up",
+      "texto_na_tela": "Proteja contra quedas"
+    },
+    {
+      "narracao": "Com pouca gordura, eles precisam de roupinhas nos dias frios.",
+      "visual_busca_banco_livre": "italian greyhound wearing sweater",
+      "texto_na_tela": "Sensíveis ao frio"
+    },
+    {
+      "narracao": "Nos passeios, prefira peitorais ergonômicos para proteger o pescoço dele.",
+      "visual_busca_banco_livre": "italian greyhound walking outdoor",
+      "texto_na_tela": "Use peitoral adequado"
+    },
+    {
+      "narracao": "[softly] Cuide bem dos dentes e faça check-ups regulares com o veterinário.",
+      "visual_busca_banco_livre": "italian greyhound close up head",
+      "texto_na_tela": "Atenção à saúde bucal"
+    }
+  ],
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "galgoitaliano",
+    "cachorros",
+    "dicaspet",
+    "amopets",
+    "cuidadoscompets"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nDescubra os segredos da raça do Plínio, o pet da Anitta!\n\n📖 Artigo completo: https://tutorialpet.com.br/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta\n\n#galgoitaliano #cachorros #dicaspet #amopets #cuidadoscompets",
+  "slug": "galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 2
+}

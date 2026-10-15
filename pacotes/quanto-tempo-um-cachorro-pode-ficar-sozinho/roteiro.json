@@ -1,0 +1,44 @@
+{
+  "slug": "quanto-tempo-um-cachorro-pode-ficar-sozinho",
+  "titulo_video": "Quanto tempo seu cachorro pode ficar sozinho?",
+  "gancho_3s": "Seu cachorro aguenta quantas horas sozinho? Depende da idade.",
+  "cenas": [
+    {
+      "narracao": "Quanto tempo seu cachorro pode ficar sozinho? Depende muito da idade dele.",
+      "visual_busca_banco_livre": "dog waiting at door",
+      "texto_na_tela": "Quanto tempo ele aguenta sozinho?"
+    },
+    {
+      "narracao": "Filhote de até três meses: de uma a duas horas. Entre três e seis meses: de duas a quatro horas.",
+      "visual_busca_banco_livre": "puppy playing",
+      "texto_na_tela": "Filhote: 1 a 4 horas"
+    },
+    {
+      "narracao": "Cachorro adulto: em média de quatro a seis horas, e o ideal é não passar disso sem interação.",
+      "visual_busca_banco_livre": "adult dog resting at home",
+      "texto_na_tela": "Adulto: 4 a 6 horas"
+    },
+    {
+      "narracao": "Idosos precisam de pausas mais frequentes, de duas a quatro horas, por causa de dores e do banheiro.",
+      "visual_busca_banco_livre": "senior dog",
+      "texto_na_tela": "Idoso: 2 a 4 horas"
+    },
+    {
+      "narracao": "Para acostumar, gaste a energia dele antes de sair, faça uma saída tranquila, sem festa e sem drama.",
+      "visual_busca_banco_livre": "dog walk park",
+      "texto_na_tela": "Passeio antes de sair"
+    },
+    {
+      "narracao": "Deixe brinquedos de enriquecimento e treine aos poucos, aumentando o tempo sozinho. Em caso de dúvida, fale com o veterinário.",
+      "visual_busca_banco_livre": "dog chewing toy",
+      "texto_na_tela": "Treine aos poucos"
+    }
+  ],
+  "chamada_final": "O guia completo de quatorze dias está no link da legenda.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#comportamentoanimal"
+  ],
+  "legenda": "🐾 Confira também: Sozinho em Casa, nosso guia de 14 dias pra cachorro que sofre sozinho em casa — de R$ 37 por apenas R$ 9,90 → https://pay.kiwify.com.br/NcQChat\n\nSeu cachorro aguenta quantas horas sozinho? Depende da idade — veja os limites e como acostumar ele.\n\n📖 Artigo completo: https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho\n\n#tutorialpet #cachorro #comportamentoanimal"
+}

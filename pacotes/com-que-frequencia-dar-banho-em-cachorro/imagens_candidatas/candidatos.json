@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 14568191,
+    "url_download": "https://images.pexels.com/photos/14568191/pexels-photo-14568191.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/bubbles-near-the-brown-and-white-long-coated-dog-14568191/",
+    "fotografo": "Alice Castro",
+    "fotografo_url": "https://www.pexels.com/@alicedecasttro",
+    "largura": 4608,
+    "altura": 3072,
+    "query": "cute fluffy dog taking a bath soap bubbles",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/com-que-frequencia-dar-banho-em-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1436139,
+    "url_download": "https://images.pexels.com/photos/1436139/pexels-photo-1436139.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cream-toy-poodle-puppy-in-bathtub-1436139/",
+    "fotografo": "Benjamin Lehman",
+    "fotografo_url": "https://www.pexels.com/@benjaminlehman",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cute fluffy dog taking a bath soap bubbles",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/com-que-frequencia-dar-banho-em-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5337589,
+    "url_download": "https://images.pexels.com/photos/5337589/pexels-photo-5337589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/rubber-duck-in-close-up-photography-5337589/",
+    "fotografo": "Ylanite Koppens",
+    "fotografo_url": "https://www.pexels.com/@nietjuhart",
+    "largura": 5785,
+    "altura": 3679,
+    "query": "cute fluffy dog taking a bath soap bubbles",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/com-que-frequencia-dar-banho-em-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6222967,
+    "url_download": "https://images.pexels.com/photos/6222967/pexels-photo-6222967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-in-bath-6222967/",
+    "fotografo": "Adrian Frentescu",
+    "fotografo_url": "https://www.pexels.com/@frentescuphotography",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute fluffy dog taking a bath soap bubbles",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/com-que-frequencia-dar-banho-em-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33067198,
+    "url_download": "https://images.pexels.com/photos/33067198/pexels-photo-33067198.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-border-collie-chasing-bubbles-in-a-garden-33067198/",
+    "fotografo": "Michal Petráš",
+    "fotografo_url": "https://www.pexels.com/@michal-petras-2152077115",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "cute fluffy dog taking a bath soap bubbles",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/com-que-frequencia-dar-banho-em-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30498522,
+    "url_download": "https://images.pexels.com/photos/30498522/pexels-photo-30498522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-small-dog-shaking-off-water-outdoors-30498522/",
+    "fotografo": "Karl  Byron",
+    "fotografo_url": "https://www.pexels.com/@karl-byron-568836130",
+    "largura": 5789,
+    "altura": 3859,
+    "query": "wet dog shaking water close up studio background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/com-que-frequencia-dar-banho-em-cachorro/5.jpg"
+  }
+]

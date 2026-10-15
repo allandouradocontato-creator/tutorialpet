@@ -1,0 +1,46 @@
+{
+  "slug": "por-que-o-gato-esconde-a-comida-na-tigela",
+  "titulo_video": "Por que o gato esconde a comida",
+  "gancho_3s": "3 coisas que ninguém te conta sobre o seu gatinho.",
+  "cenas": [
+    {
+      "narracao": "[warmly] 3 coisas que ninguém te conta sobre o seu gatinho.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "3 coisas que ninguém te conta sobre o seu gatinho."
+    },
+    {
+      "narracao": "[smiling] Já viu ele arranhando o chão perto da tigela?",
+      "visual_busca_banco_livre": "cat scratching floor near food bowl",
+      "texto_na_tela": "Arranha o chão"
+    },
+    {
+      "narracao": "[thoughtful] É um instinto de esconder a presa na natureza.",
+      "visual_busca_banco_livre": "tabby cat sniffing food bowl",
+      "texto_na_tela": "Instinto selvagem"
+    },
+    {
+      "narracao": "[softly] Ele guarda pra comer depois, bem sossegado.",
+      "visual_busca_banco_livre": "cute kitten resting near bowl",
+      "texto_na_tela": "Guarda pra depois"
+    },
+    {
+      "narracao": "[excited] Mas se mudar muito, pergunte ao médico-veterinário.",
+      "visual_busca_banco_livre": "healthy cat eating from bowl",
+      "texto_na_tela": "Fique de olho"
+    }
+  ],
+  "chamada_final": "[happy] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#tutorialpet",
+    "#dicaspet",
+    "#gato"
+  ],
+  "legenda": "3 coisas que ninguém te conta sobre o seu gatinho.\n\n#gatos #comportamentofelino #tutorialpet #dicaspet #gato",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 6,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 15,
+  "tema": "por que o gato esconde a comida na tigela"
+}

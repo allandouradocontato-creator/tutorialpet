@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Plantas Tóxicas Para Gatos: O Que Você Precisa Saber",
+  "gancho_3s": "Seu gato morde plantas em casa? Isso pode ser fatal!",
+  "cenas": [
+    {
+      "narracao": "Seu gato costuma mordiscar folhas pela casa? Cuidado com o perigo invisível nos vasos.",
+      "visual_busca_banco_livre": "curious cat sniffing green houseplant indoors close up",
+      "texto_na_tela": "Plantas perigosas para gatos"
+    },
+    {
+      "narracao": "Os lírios são extremamente perigosos. Até o pólen lambido do pelo pode provocar falência renal aguda.",
+      "visual_busca_banco_livre": "cat licking fur grooming clean on floor",
+      "texto_na_tela": "Lírios: perigo renal extremo"
+    },
+    {
+      "narracao": "Jiboia, comigo-ninguém-pode e espada-de-são-jorge causam dor, queimação na boca e vômitos.",
+      "visual_busca_banco_livre": "cat lying on living room floor looking tired",
+      "texto_na_tela": "Jiboia e comigo-ninguém-pode machucam"
+    },
+    {
+      "narracao": "Retire essas plantas do alcance e ofereça opções seguras, como graminha de aveia e calatéias.",
+      "visual_busca_banco_livre": "cat eating green cat grass indoors close up",
+      "texto_na_tela": "Troque por plantas seguras"
+    },
+    {
+      "narracao": "Se houver ingestão acidental, tire uma foto da planta e procure atendimento veterinário imediatamente.",
+      "visual_busca_banco_livre": "alert cat looking directly at camera close up",
+      "texto_na_tela": "Procure o veterinário com urgência"
+    }
+  ],
+  "chamada_final": "Salve este vídeo e proteja seu felino!",
+  "hashtags": [
+    "gatos",
+    "saudefelina",
+    "plantastoxicas",
+    "cuidadoscomgatos",
+    "gatossaudavers"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinhoemcasa-kohl.vercel.app/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato morde plantas em casa? Isso pode ser fatal!\n\n📖 Artigo completo: https://tutorialpet.com.br/plantas-toxicas-para-gatos\n\n#gatos #saudefelina #plantastoxicas #cuidadoscomgatos #gatossaudavers",
+  "slug": "plantas-toxicas-para-gatos"
+}

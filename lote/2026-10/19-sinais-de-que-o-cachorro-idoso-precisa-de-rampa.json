@@ -1,0 +1,44 @@
+{
+  "slug": "sinais-de-que-o-cachorro-idoso-precisa-de-rampa",
+  "titulo_video": "Sinais de que o pet precisa de rampa",
+  "gancho_3s": "Se você é tutor de pet e quer cuidar bem dele, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "[warmly] Se você é tutor de pet e quer cuidar bem dele, assiste isso.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Se você é tutor de pet e quer cuidar bem dele, assiste isso."
+    },
+    {
+      "narracao": "[smiling] Sabe quando o doguinho idoso hesita antes de subir no sofá?",
+      "visual_busca_banco_livre": "senior golden retriever looking at couch",
+      "texto_na_tela": "Hesita no sofá?"
+    },
+    {
+      "narracao": "[thoughtful] Ou quando ele evita descer da cama com aquela preguicinha diferente?",
+      "visual_busca_banco_livre": "old dog lying on soft bed",
+      "texto_na_tela": "Evita descer?"
+    },
+    {
+      "narracao": "[softly] Isso pode ser sinal de desgaste nas articulações, comum na idade.",
+      "visual_busca_banco_livre": "happy senior dog resting calmly",
+      "texto_na_tela": "Desgaste nas articulações"
+    },
+    {
+      "narracao": "[excited] Uma rampa ajuda muito a proteger as patinhas dele no dia a dia. Consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "cute small dog walking outdoors",
+      "texto_na_tela": "Proteja as patinhas"
+    }
+  ],
+  "chamada_final": "[happy] Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorroidoso",
+    "#tutorialpet",
+    "#cuidadoscompets"
+  ],
+  "legenda": "Se você é tutor de pet e quer cuidar bem dele, assiste isso.\n\n#cachorroidoso #tutorialpet #cuidadoscompets",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 2,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 19,
+  "tema": "sinais de que o cachorro idoso precisa de rampa"
+}

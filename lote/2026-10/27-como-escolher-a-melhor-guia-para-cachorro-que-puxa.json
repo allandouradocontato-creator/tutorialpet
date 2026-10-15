@@ -1,0 +1,45 @@
+{
+  "slug": "como-escolher-a-melhor-guia-para-cachorro-que-puxa",
+  "titulo_video": "Qual a melhor guia para cachorro que puxa",
+  "gancho_3s": "Para de sofrer no passeio. Isso tá atrapalhando o seu momento com ele.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Para de sofrer no passeio. Isso tá atrapalhando o seu momento com ele.",
+      "visual_busca_banco_livre": "cute golden retriever puppy looking curious",
+      "texto_na_tela": "Para de sofrer no passeio. Isso tá atrapalhando o seu momento com ele."
+    },
+    {
+      "narracao": "[warmly] Guia curta dá mais controle na rua.",
+      "visual_busca_banco_livre": "happy pug walking on green grass",
+      "texto_na_tela": "Guia mais curta"
+    },
+    {
+      "narracao": "[softly] Evite coleira de pescoço se ele puxa muito.",
+      "visual_busca_banco_livre": "cute beagle puppy sitting outdoors",
+      "texto_na_tela": "Proteja o pescoço"
+    },
+    {
+      "narracao": "[smiling] O peitoral anti-puxão distribui melhor a força.",
+      "visual_busca_banco_livre": "fluffy french bulldog running happily",
+      "texto_na_tela": "Peitoral adequado"
+    },
+    {
+      "narracao": "[happy] Assim o passeio fica leve pra todo mundo.",
+      "visual_busca_banco_livre": "happy border collie outdoors sunny day",
+      "texto_na_tela": "Passeio leve"
+    }
+  ],
+  "chamada_final": "[excited] Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#tutorialpet",
+    "#cachorro",
+    "#dicaspet",
+    "#passeiopet"
+  ],
+  "legenda": "Para de sofrer no passeio. Isso tá atrapalhando o seu momento com ele.\n\n#tutorialpet #cachorro #dicaspet #passeiopet",
+  "molde_gancho": "abertura_pare",
+  "cta_indice": 2,
+  "registro_voz": "alegre",
+  "ordem_no_lote": 27,
+  "tema": "como escolher a melhor guia para cachorro que puxa"
+}
