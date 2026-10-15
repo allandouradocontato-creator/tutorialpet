@@ -89,7 +89,7 @@ def montar_imagem(item: dict, media: Path) -> bool:
     (pkg / "roteiro.json").write_text(json.dumps({"titulo_video": item["topo"] + " " + item["base"], "gancho_3s": item["topo"],
         "hashtags": hashtags, "formato": "meme_imagem", "animal": item["animal"], "busca_clipe": item["busca"]}, ensure_ascii=False, indent=1), encoding="utf-8")
     (pkg / "manifest.json").write_text(json.dumps({
-        "slug": slug, "status": "aprovado", "formato": "meme_imagem", "tipo": "extra_audiencia_imagem",
+        "slug": slug, "status": "extra_pronto", "formato": "meme_imagem", "tipo": "extra_audiencia_imagem",
         "criado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "artigo_url_futura": "https://tutorialpet.com.br" + artigo if artigo else "",
         "guardiao": {"status": "ok", "ok": [f"animal da foto: {item['animal']} (busca '{item['busca']}', filtro de estilo Pexels)", "texto original; carimbo aplicado"],
@@ -146,7 +146,7 @@ def montar(item: dict, media: Path, mv6) -> bool:
         "hashtags": hashtags, "formato": "meme_identificacao", "animal": item["animal"], "busca_clipe": item["busca"],
         "origem": "Criador de Audiência (data/audiencia/ideias.md)"}, ensure_ascii=False, indent=1), encoding="utf-8")
     (pkg / "manifest.json").write_text(json.dumps({
-        "slug": slug, "status": "aprovado", "formato": "meme_identificacao", "tipo": "extra_audiencia",
+        "slug": slug, "status": "extra_pronto", "formato": "meme_identificacao", "tipo": "extra_audiencia",
         "criado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "artigo_url_futura": "https://tutorialpet.com.br" + artigo if artigo else "",
         "guardiao": {"status": "ok", "ok": [f"animal do clipe: {item['animal']} (busca '{item['busca']}', filtro de estilo Pexels)",
