@@ -1,7 +1,7 @@
-# Faixas em alta em vídeos de pet (TikTok #cachorrofofo/#gatofofo/#cachorrosfofos, estudo de 2026-10-08, 4ª rodada). Para o Publicador usar via audioConfiguration (Metricool).
-# Observação: a maioria dos vídeos de maior sucesso usa "som original"; as faixas abaixo são as que apareceram em vídeos de alto engajamento ou recentes.
+# Faixas em alta em vídeos de pet (TikTok #cachorrofofo/#gatofofo/#cachorrosfofos, estudos de 2026-10-08 e 2026-10-15). Para o Publicador usar via audioConfiguration (Metricool).
+# Observação (estudo 6, 15/10): os 3 vídeos novos de maior sucesso (1,8M, 1,8M e 438k views) usam SOM ORIGINAL; vídeo com música de biblioteca (Moonberry Carousel, music box) teve só 7k views. Nenhuma faixa nova entrou em alta: lista mantida.
 # Se o termo de busca não achar exatamente 1 faixa no catálogo do Instagram, o Metricool rejeita: nesse caso publicar sem áudio (ou usar o próximo da lista).
-atualizado_em: "2026-10-08"
+atualizado_em: "2026-10-15"
 faixas:
   - {titulo: "Clumsy Tunes", artista: "Eitan Epstein Music", tipo: "instrumental", motivo: "brincalhona/energética; trilha de gatinho com 6,5M views e 85k shares (mai/2026)", termo_de_busca_metricool: "Clumsy Tunes Eitan Epstein"}
   - {titulo: "Cute Pets Routine", artista: "Eitan Epstein Music", tipo: "instrumental", motivo: "leve e animada, ótima sob narração; vídeo de gato com 6,9M views", termo_de_busca_metricool: "Cute Pets Routine Eitan Epstein"}

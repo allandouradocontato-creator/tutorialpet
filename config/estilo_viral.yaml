@@ -1,9 +1,12 @@
 # Guia de estilo viral — alimentado pelo "Caçador de estilo viral" (agente de referências) a partir dos Reels/TikToks
-# de pet que MAIS engajam. Estudo 6 (15/10/2026): TikTok #cachorrofofo, #filhotedecachorro e busca "cachorro fofo filhote" relidos no navegador embutido (logado). NENHUM vídeo dentro de 30 dias
-# apareceu (tags mostram só conteúdo antigo ordenado por popularidade; data conferida pelo ID do vídeo) -> referências e números de cor/corte/música mantidos do estudo 5, sem entrada nova.
-# Instagram (explore/tag #cachorrofofo): logado, mas a página não entrega Reels em texto -> registrado, não contornado. Reels do Facebook: não lidos. Cor/iluminação NÃO medidas nesta rodada.
-# Chrome (extensão) estava desconectado nesta rodada; usado o navegador embutido.
+# de pet que MAIS engajam. Estudo 6 (15/10/2026): TikTok lido via busca (a página da tag #cachorrofofo só mostra vídeos de 2022-2025, sem nada recente). Instagram (tag) e Reels do Facebook: sem leitura pública/login ativo -> registrado, não contornado.
+# Cor/iluminação NÃO medidas por vídeo (só texto/métricas lidos, nenhum vídeo assistido); números de cor/corte/música mantidos do estudo 3/4/5.
 # A fábrica de vídeo (agents/17_video/montar_video6.py) lê estes números; o caçador só atualiza este arquivo.
+# Achados do estudo 6: (11) @nill.sill217 (gato, 13s, 14/10): 1,8M views, 7,3% shares/views (132k), 20,5% curtidas, 29k salvamentos, som original, vertical 1080x1920 nítido; legenda só com hashtags (#petsfofos #gatinhosfofos) -> NÃO precisa de texto longo.
+# (12) @salsisalsicha (9s, 24/09): 1,8M views, 9,6% curtidas, ~1% shares, som original, legenda 'vidão' + #fy #viral #trend; (13) @.patrulha.dos.dog (15s, 29/09, 4,7k seguidores -> 438k views = ~94x os seguidores): 1,9% shares, som original, legenda só hashtag.
+# (14) Os 3 novos são 100% SOM ORIGINAL, 9-15s, plano único, legenda mínima (só hashtags). O que tem música de biblioteca (Moonberry Carousel, music box) teve só 7k views -> música não é o motor; o bicho é.
+# (15) Contas pequenas/médias viralizam: 3 de 3 novos têm 4,7k-70k seguidores. (16) Busca recente por 'gato/cachorro fofo' traz também ADOÇÃO/DOAÇÃO (@alertabrasilbr) e vídeos de 50-61s com pessoas (@babiepaulinha, 358k views, 61s, música 'A Thousand Years'): fora do critério A/E, ignorados.
+# (17) NOSSOS vídeos no TikTok têm 38-54s (referências: 9-15s) e 191-577 views, 0-2 shares; nossos Reels do Instagram: 22-101 views, 0-3 curtidas, 0 shares. A DURAÇÃO é a maior diferença mensurável entre nós e as referências.
 # Achados do estudo 3: (1) 7-15s domina; os de maior taxa de share são curtos (oakley 7s: 7,5% shares/views; sunithedapple 15s: 6,2%);
 # (2) quase tudo é SOM ORIGINAL, plano único limpo (0-2 cortes), bicho em close olhando a câmera; (3) contas pequenas com views enormes
 # (coco.thefluffypom 5,9k seguidores -> 934k views, 4,3% shares) mostram que o vídeo viraliza, não a conta; (4) tag #gatofofo recente é dominada por
@@ -14,9 +17,6 @@
 # Achados do estudo 5: (9) @norcianic (863 seguidores!) fez 718k views em 8s com 9,2% shares/views e 17,9% curtidas/views: filhote de dachshund crescendo em time-lapse, legenda com CTA de curtir,
 # trilha instrumental lenta (piano valsa) -> prova de que ritmo visual rápido (transformação em 8s) + trilha calma e curta funciona; replicar: 8s, uma transformação visível, texto/legenda curta com CTA.
 # (10) a tag #cachorrofofo continua com a mesma "moda": filhote/cão em close, 7-15s, som original ou piano/instrumental, ganchos 'Atenção: nível de fofura', 'Já manda pro seu papai'.
-# Achados do estudo 6: (11) NOSSOS vídeos no TikTok têm 37-54s (Metricool), contra 7-15s das referências -> a fábrica precisa cortar para 8-12s; (12) mesmo com 37-54s e gancho de pergunta, os nossos de gato/banho
-# chegaram a 130-990 views no TikTok (mais que no Instagram, 0-101), com curtidas/views de 2-6% e shares/views de 0-0,65% -> há tração, falta o motivo emocional de compartilhar (fofura/transformação);
-# (13) as tags de pet em PT-BR não entregam vídeos novos de alto desempenho na leitura pública; para novas referências usar contas pequenas já mapeadas (ver referencias) ou a aba "Para você" logada.
 versao: 6
 atualizado_em: "2026-10-15"
 criterios:
@@ -36,7 +36,7 @@ cor:
   contraste: 1.06
   temperatura: quente    # quente | neutra | fria (só referência para o caçador; ainda não aplicada)
 cortes:
-  cortes_por_cena: 2     # a moda é plano único limpo ou 1-2 cortes; menos cortes = mais retenção em 10-12s
+  cortes_por_cena: 2     # a moda é plano único limpo ou 1-2 cortes; menos cortes = mais retenção em 10-12s (os 3 novos do estudo 6 são plano único)
   duracao_media_corte_s: 2.0
 musica:
   bpm_alvo: [100, 125]
@@ -49,34 +49,35 @@ musica:
     - gr0za-happy-happy-music-569345.mp3
   volume_db: -7            # música normalizada (-14 LUFS) menos 7 dB; abaixa sozinha quando a Duda fala (ducking) e sobe nas pausas
 gancho:
-  primeiros_segundos: "close do bicho fofo olhando/mexendo na câmera no 1º segundo + texto de até 6 palavras em forma de pergunta/promessa/alerta de fofura ('nível de fofura perigoso', 'seu cachorro faz isso?'); vídeo total de 8 a 12s (máx. 15s); plano único ou 2 cortes; tom alegre (evitar filhote de rua/triste); CTA de compartilhar ('manda pro seu papai') na legenda"
+  primeiros_segundos: "close do bicho fofo olhando/mexendo na câmera no 1º segundo + texto de até 6 palavras em forma de pergunta/promessa/alerta de fofura ('nível de fofura perigoso', 'seu cachorro faz isso?'); vídeo total de 8 a 12s (máx. 15s; NUNCA acima de 20s: nossos de 38-54s não passam de 577 views); plano único ou 2 cortes; tom alegre (evitar filhote de rua/triste); CTA de compartilhar ('manda pro seu papai') na legenda"
 fechar_ciclo:
   data: "2026-10-15"
-  fonte: "Metricool brandId 7123441, 28/09 a 13/10 (Instagram Reels: 16 posts; TikTok: 8 vídeos de 07 a 13/10; todos com >48h exceto os de 13/10 noite, parciais)"
-  instagram_reels: "Tração melhorou depois de 08/10 (legenda curta + link no 1º comentário): posts de 08-13/10 tiveram 22-101 views (antes 0-6), mas ainda 0-4 curtidas, 0-1 share, 0-1 salvamento. Melhores: 'Seu gato raspa o chão depois de comer?' (101 views, 3 curtidas, 3,3s assistidos), 'Seu gato bebe pouca água?' (99 views, 2 curtidas, 3,1s), 'Quer ensinar seu gato a usar a caixa de areia no primeiro dia?' (75 views, 4 curtidas, 1 share, 1 salvamento, 1 comentário, 4,3s), 'Seu filhote chora a noite toda?' (71 views, 1 curtida). Tempo médio assistido caiu para 3-5s (antes 6-9s)"
-  tiktok: "8 vídeos de 07-13/10, todos de 37 a 54s: 108-988 views, 3-57 curtidas (2-6% das views), 0-2 shares (0-0,65%). Melhores: 'Seu cachorro tomou banho ontem e já está com cheirinho forte?' (988 views, 57 curtidas, 1 share, 44s), 'Seu gato quase não bebe água da tigela?' (577 views, 30 curtidas, 38s), 'Para de ignorar esse sinal... gatinho' (525 views, 34 curtidas, 1 share, 40s), 'Seu gato morde plantas em casa?' (309 views, 19 curtidas, 2 shares = 0,65%, 40s). Piores: 'Seu filhote chora a noite toda?' (108 views, 37s) e 'Com quantos anos você descobriu...' (131 views, 42s)"
-  aproxima_das_referencias: "legenda curta em pergunta ('Seu gato bebe pouca água?', parecida com 'Voltou do passeio?'); link fora do vídeo; TikTok já passa de 500 views em vídeos de gato/banho com curtidas/views de 5-6%, perto do piso da meta (8%) das referências"
-  nao_aproxima: "duração 37-54s no TikTok (referências 7-15s); gancho é pergunta de DICA/saúde ('pouca água', 'plantas fatal'), não close de bicho fofo com emoção; shares/views 0-0,65% contra meta de 1%+; Instagram assiste só 3-5s (o gancho não segura no 1º segundo); sem trilha em alta nem transformação visual como a ref norcianic"
+  fonte: "Metricool brandId 7123441: Reels do Instagram de 08/10 a 13/10 (>48h) e vídeos TikTok @tutorialpetbr de 08-10/10 lidos na página pública"
+  instagram_reels: "6 Reels no período: views 22-101, 0-3 curtidas, 0 shares, 0 salvamentos, 0-1 comentário; tempo médio assistido 2,9-4,6s. Mais views: 'Seu gato raspa o chão depois de comer?' (101 views, 3 curtidas) e 'Seu gato bebe pouca água? Descubra como resolver isso!' (99 views, 2 curtidas). Melhor que 28/09-07/10 (0-6 views), mas ainda 0 shares"
+  tiktok: "4 vídeos de 08-10/10: 191-577 views, 10-30 curtidas, 0-2 shares, duração 38-54s (!). Melhor: 'Como fazer o gato beber mais água' (577 views, 30 curtidas, 0 shares)"
+  facebook: "Reels publicados em 08-10/10 sem leitura de métricas nesta rodada"
+  alerta_operacional: "A partir de 10/10 11:00 TODOS os posts agendados (Instagram, TikTok e Facebook de 10/10, 11/10 e 12/10) estão com status ERROR 'You have reached your Metricool account limit.' -> nada foi publicado desde 10/10; verificar plano/limite do Metricool"
+  aproxima_das_referencias: "legenda curta e só hashtags nos Reels (como as refs de 9-15s); tempo assistido ~3-4,6s no IG (a ref precisa de gancho nos 3 primeiros s); link só no 1º comentário"
+  nao_aproxima: "duração (38-54s vs 9-15s das refs) e conteúdo: nossos são dica/lista de gato com narração, as refs são o bicho em plano único com som original, sem instrução; 0 shares contra 1-7% das refs; ganchos de pergunta de dica ('Seu gato bebe pouca água?') geram 2-3 curtidas, nenhum motivo emocional de compartilhar"
   fazer_diferente_amanha:
-    - "Encurtar para 8-12s (máx. 15s): hoje o TikTok sai com 37-54s e o espectador sai antes do fim; 1 ideia por vídeo"
-    - "Close do bicho feliz/fofo já no 1º segundo + texto de até 6 palavras; manter a pergunta curta ('Seu gato bebe pouca água?'), que é o que mais teve view"
-    - "Testar 1 vídeo de transformação/ação fofa em 8s (filhote crescendo, acordando, correndo) com legenda 'manda pro seu papai', no formato da ref norcianic"
-    - "Priorizar tema gato/banho/água, que superou filhote-chora e frase de reflexão em views e curtidas; reservar dicas longas para 1 em cada 4"
-    - "Publicar o MESMO vídeo curto no TikTok, Instagram e Facebook Reels no mesmo dia; usar as faixas de audios_em_alta.yaml no Instagram (instrumental baixa sob a narração)"
+    - "Cortar a duração: vídeo de 8-12s (máx. 15s), uma ação fofa em plano único; hoje fazemos 38-54s e a retenção cai antes de 5s"
+    - "Testar 1 vídeo de gato/cachorro em close, 1080x1920 nítido, sem narração longa, legenda só com 1 linha + hashtags (estilo @nill.sill217: 7,3% shares)"
+    - "Som original/ambiente do próprio bicho ou trilha instrumental bem baixa; não depender de música em alta"
+    - "Reservar dicas (educativo) para 1 em cada 4 vídeos; priorizar rotina/comportamento fofo; CTA 'manda pro seu papai'"
+    - "Resolver o limite do Metricool (posts com ERROR desde 10/10) antes de gerar mais vídeos"
 referencias:
+  - {rede: tiktok, perfil: "@nill.sill217", link: "https://www.tiktok.com/@nill.sill217/video/7696335725641452807", views: 1800000, o_que_replicar: "13s, 14/10/2026 (1 dia); conta de 70k seguidores; 368,9k curtidas (20,5%), 132k shares (7,3%), 29,4k salvamentos; gato fofo, som original, vertical 1080x1920 nítido, legenda só hashtags; replicar estrutura (curto, plano único, sem texto longo)"}
+  - {rede: tiktok, perfil: "@salsisalsicha", link: "https://www.tiktok.com/@salsisalsicha/video/7689106271512923413", views: 1800000, o_que_replicar: "9s, 24/09/2026 (BR); 172,3k curtidas (9,6%), 17,4k shares (1,0%), 6,9k salvamentos; salsicha, som original, legenda curta ('vidão') + hashtags; replicar 9s e plano único"}
+  - {rede: tiktok, perfil: "@.patrulha.dos.dog", link: "https://www.tiktok.com/@.patrulha.dos.dog/video/7691047050301017362", views: 438500, o_que_replicar: "15s, 29/09/2026 (BR); conta de 4,7k seguidores (views ~94x os seguidores); 20,5k curtidas (4,7%), 8,2k shares (1,9%); cachorro engraçado/fofo, som original, legenda só hashtag"}
   - {rede: tiktok, perfil: "@norcianic", link: "https://www.tiktok.com/@norcianic/video/7687143994307939615", views: 717900, o_que_replicar: "8s, 19/09/2026 (dentro de 30 dias); conta de 863 seguidores; 128k curtidas (17,9%), 66,4k shares (9,2%), 6,4k salvamentos; filhote de dachshund crescendo em time-lapse, trilha instrumental de piano em valsa (lenta), legenda com CTA de curtir; replicar só a estrutura de transformação rápida + trilha calma"}
-  - {rede: tiktok, perfil: "@french.bulldog.twelve", link: "https://www.tiktok.com/@french.bulldog.twelve/video/7680349075174083871", views: 31200000, o_que_replicar: "17s, 31/08/2026 (37 dias); 4,0M curtidas (12,8%), 1,3M shares (4,2%); close com ação engraçada/fofa, som original, plano único"}
-  - {rede: tiktok, perfil: "@biluwthedog", link: "https://www.tiktok.com/@biluwthedog/video/7678762819449294100", views: 865000, o_que_replicar: "10s, 27/08/2026 (BR); 210k curtidas (24%), 18k shares (2,1%); som original, plano único limpo"}
+  - {rede: tiktok, perfil: "@french.bulldog.twelve", link: "https://www.tiktok.com/@french.bulldog.twelve/video/7680349075174083871", views: 31200000, o_que_replicar: "17s, 31/08/2026 (45 dias, evergreen); 4,0M curtidas (12,8%), 1,3M shares (4,2%); close com ação engraçada/fofa, som original, plano único"}
+  - {rede: tiktok, perfil: "@biluwthedog", link: "https://www.tiktok.com/@biluwthedog/video/7678762819449294100", views: 865000, o_que_replicar: "10s, 27/08/2026 (BR, evergreen); 210k curtidas (24%), 18k shares (2,1%); som original, plano único limpo"}
   - {rede: tiktok, perfil: "@coco.thefluffypom", link: "https://www.tiktok.com/@coco.thefluffypom/video/7669090080325176598", views: 934200, o_que_replicar: "12s, 01/08/2026, evergreen; conta de 5,9k seguidores; 40k shares (4,3%); cena de rotina (verão/sorvete), luz natural quente"}
   - {rede: tiktok, perfil: "@sunithedapple", link: "https://www.tiktok.com/@sunithedapple/video/7665865814762900749", views: 2600000, o_que_replicar: "15s, jul/2026, evergreen; conta de 3k seguidores; 658k curtidas (25%), 161k shares (6,2%); cena afetiva de rotina, som original"}
   - {rede: tiktok, perfil: "@oakley.thedachshund", link: "https://www.tiktok.com/@oakley.thedachshund/video/7666737672949402912", views: 2100000, o_que_replicar: "7s, evergreen; 354k curtidas (17%), 157k shares (7,5%); música instrumental suave (Bibio), close afetivo"}
   - {rede: tiktok, perfil: "@wanderingpixels", link: "https://www.tiktok.com/@wanderingpixels/video/7669864743720471830", views: 2400000, o_que_replicar: "10s, 03/08/2026, evergreen; 46k shares (1,9%); filhote passando em plano único limpo, luz natural, legenda curta"}
-  - {rede: tiktok, perfil: "@joe.in1025", link: "https://www.tiktok.com/@joe.in1025/video/7654741412855942430", views: 17200000, o_que_replicar: "12s, jun/2026, evergreen; 910k curtidas (5,3%), 99k shares (0,6%); filhote correndo em direção à câmera, plano curto"}
-  - {rede: tiktok, perfil: "@luna_yorkzinha", link: "https://www.tiktok.com/@luna_yorkzinha/video/7678128940711546133", views: 32800, o_que_replicar: "15s, 26/08/2026 (BR, 2k seguidores); 2,8k curtidas (8,5%), 570 shares (1,7%); york fofo, som original, hashtags em PT"}
-  - {rede: tiktok, perfil: "@sweet.kittens3", link: "https://www.tiktok.com/@sweet.kittens3/video/7685423747825700104", views: 11300, o_que_replicar: "10s, 14/09/2026 (dentro de 30 dias, BR, ~1k seguidores); curtidas 20%, shares 1,1%; gatinho, música brasileira com letra (você mudou), texto de abertura emotivo"}
-  - {rede: tiktok, perfil: "@reginashop10", link: "https://www.tiktok.com/@reginashop10/video/7640562115861859604", views: 223200, o_que_replicar: "12s, mai/2026, evergreen (BR); gancho 'Atenção: ...' com surpresa de tamanho do mini pinscher; música instrumental Tiny Moments; 1,3k shares (0,6%)"}
+  - {rede: tiktok, perfil: "@luna_yorkzinha", link: "https://www.tiktok.com/@luna_yorkzinha/video/7678128940711546133", views: 32800, o_que_replicar: "15s, 26/08/2026 (BR, 2k seguidores, evergreen); 2,8k curtidas (8,5%), 570 shares (1,7%); york fofo, som original, hashtags em PT"}
+  - {rede: tiktok, perfil: "@sweet.kittens3", link: "https://www.tiktok.com/@sweet.kittens3/video/7685423747825700104", views: 11300, o_que_replicar: "10s, 14/09/2026 (BR, ~1k seguidores); curtidas 20%, shares 1,1%; gatinho, música brasileira com letra (você mudou), texto de abertura emotivo"}
   - {rede: tiktok, perfil: "@shihtzumarrom", link: "https://www.tiktok.com/@shihtzumarrom/video/7691640237281299733", views: 990300, o_que_replicar: "9s, 01/10/2026 (BR); 10k shares (1,0%); CTA de compartilhar na legenda (manda pro seu papai)"}
-  - {rede: tiktok, perfil: "@petsdobrasil", link: "https://www.tiktok.com/@petsdobrasil/video/7671292617434483989", views: 373900, o_que_replicar: "8s, 07/08/2026 (BR); 31,7k curtidas (8,5%); trilha instrumental delicada (Music Box Lullaby), só hashtag como legenda"}
+  - {rede: tiktok, perfil: "@petsdobrasil", link: "https://www.tiktok.com/@petsdobrasil/video/7671292617434483989", views: 373900, o_que_replicar: "8s, 07/08/2026 (BR, evergreen); 31,7k curtidas (8,5%); trilha instrumental delicada (Music Box Lullaby), só hashtag como legenda"}
   - {rede: tiktok, perfil: "@wish_ai", link: "https://www.tiktok.com/@wish_ai/video/7639325409225674007", views: 6500000, o_que_replicar: "11s, mai/2026, evergreen; 85k shares (1,3%); inclinação de cabeça + piscada em close, trilha instrumental brincalhona (Clumsy Tunes)"}
-  - {rede: tiktok, perfil: "@melzinhaapronta", link: "https://www.tiktok.com/@melzinhaapronta/video/7655150217813101845", views: 5800000, o_que_replicar: "13s, jun/2026, evergreen (BR); 293k curtidas (5%); gancho em pergunta ('quem mais tem um gato assim?'), som original"}
-  - {rede: tiktok, perfil: "@monkeydogshop", link: "https://www.tiktok.com/@monkeydogshop/video/7677682731232283911", views: 206800, o_que_replicar: "10s, 24/08/2026 (BR, 15k seguidores); 2,8k curtidas (1,3%), 1,4k shares (0,67%), 696 salvamentos (0,34%); dica de rotina pós-passeio com gancho em pergunta ('Voltou do passeio?'), som original; replicar só o formato pergunta+dica curta, sem anúncio de produto"}
