@@ -81,7 +81,8 @@ temas:
   data: '2026-10-14'
 - termo: como limpar orelha de cachorro em casa sem machucar
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-15'
 - termo: como acostumar gato e cachorro a conviverem em paz
   pilar: comportamento
   status: pendente
@@ -233,5 +234,11 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: como manter a pelagem de caes senior livre de nos sem estresse
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher comedouro lento ideal para caes de focinho curto
+  pilar: produtos_compras
+  status: pendente
+- termo: cuidados diarios com o pelo de caes que nadam muito na piscina
   pilar: cuidados_diarios
   status: pendente
