@@ -1,11 +1,13 @@
 {
   "slug": "galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta",
-  "status": "aprovado",
+  "status": "aguardando_revisao",
   "criado_em": "2026-10-15T11:10:43+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta",
   "guardiao": {
-    "status": "ok",
-    "problemas": [],
+    "status": "revisar",
+    "problemas": [
+      "curadoria 15/10: o video mostra cachorros de outras racas, incluindo o primeiro; so publicar com clipes de galgo italiano (ordem do Allan)"
+    ],
     "ok": [
       "sem cenas repetidas no vídeo",
       "14 clipes, todos inéditos nos últimos 20 vídeos",
