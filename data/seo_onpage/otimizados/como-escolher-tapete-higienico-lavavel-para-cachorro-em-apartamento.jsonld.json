@@ -1,0 +1,50 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher tapete higienico lavavel para cachorro em apartamento: guia prático",
+    "description": "Como escolher tapete higienico lavavel para cachorro em apartamento: guia prático. Morar em apartamento com um cãozinho exige praticidade e atenção...",
+    "datePublished": "2026-10-14",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O tapete lavável deixa cheiro forte na casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se a escolha for por um modelo com tecnologia anti-odor e a lavagem for feita corretamente todos os dias, o cheiro costuma ser mínimo ou inexistente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantos tapetes laváveis eu preciso ter em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, o ideal é ter pelo menos dois tapetes: um em uso e outro lavando e secando. Confirme a rotina ideal de troca com o médico-veterinário do pet se houver histórico de infecções urinárias."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso colocar o tapete lavável na secadora de roupas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do fabricante. A maioria recomenda apenas secagem ao ar livre, pois o calor excessivo da secadora pode derreter a camada impermeável inferior."
+        }
+      }
+    ]
+  }
+}

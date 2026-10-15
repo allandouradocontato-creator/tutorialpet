@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 3860304,
+    "url_download": "https://images.pexels.com/photos/3860304/pexels-photo-3860304.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-puppy-lying-on-wooden-floor-3860304/",
+    "fotografo": "Tanya Gorelova",
+    "fotografo_url": "https://www.pexels.com/@tanya-gorelova-2199357",
+    "largura": 5158,
+    "altura": 3443,
+    "query": "dog indoors floor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15013953,
+    "url_download": "https://images.pexels.com/photos/15013953/pexels-photo-15013953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-with-tennis-ball-in-mouth-15013953/",
+    "fotografo": "Richard Issa Bockari",
+    "fotografo_url": "https://www.pexels.com/@richard-issa-bockari-22991987",
+    "largura": 3637,
+    "altura": 2433,
+    "query": "dog indoors floor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32468378,
+    "url_download": "https://images.pexels.com/photos/32468378/pexels-photo-32468378.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/golden-retriever-lying-on-wooden-floor-indoors-32468378/",
+    "fotografo": "Julissa Pires",
+    "fotografo_url": "https://www.pexels.com/@julissapires",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "dog indoors floor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4680381,
+    "url_download": "https://images.pexels.com/photos/4680381/pexels-photo-4680381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-down-on-floor-4680381/",
+    "fotografo": "KATRIN  BOLOVTSOVA",
+    "fotografo_url": "https://www.pexels.com/@ekaterina-bolovtsova",
+    "largura": 6477,
+    "altura": 4318,
+    "query": "dog indoors floor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27175378,
+    "url_download": "https://images.pexels.com/photos/27175378/pexels-photo-27175378.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dalmatian-dog-looking-up-27175378/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog indoors floor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8473671,
+    "url_download": "https://images.pexels.com/photos/8473671/pexels-photo-8473671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-pomeranian-puppy-sitting-beside-white-balloons-8473671/",
+    "fotografo": "Cup of  Couple",
+    "fotografo_url": "https://www.pexels.com/@cup-of-couple",
+    "largura": 5704,
+    "altura": 3803,
+    "query": "cute puppy on floor white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento/5.jpg"
+  }
+]
