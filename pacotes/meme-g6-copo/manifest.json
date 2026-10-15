@@ -1,0 +1,17 @@
+{
+ "slug": "meme-g6-copo",
+ "status": "aprovado",
+ "formato": "meme_identificacao",
+ "tipo": "extra_audiencia",
+ "criado_em": "2026-10-15T17:14:01+00:00",
+ "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua",
+ "guardiao": {
+  "status": "ok",
+  "ok": [
+   "animal do clipe: gato (busca 'cat pushing object table', filtro de estilo Pexels)",
+   "sem voz; texto original; carimbo aplicado"
+  ],
+  "em": "2026-10-15T17:14:01+00:00"
+ },
+ "aprovado_por": "Criador de Audiência: classe liberada (regra do Allan, 15/10/2026)"
+}
