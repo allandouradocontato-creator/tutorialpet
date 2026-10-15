@@ -175,7 +175,7 @@ CSS = BASE_CSS
 
 
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
-    links = "".join(f'<a href="/#{key}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items())
+    links = "".join(f'<a href="/#{key}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + '<a href="/tv">TV</a>'
     return f"""<header class="site">
 <a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
@@ -376,6 +376,88 @@ def render_ultimos(artigos_por_pilar: dict, n: int = 6) -> str:
     return f'<section class="pilar-section" id="ultimos"><h2>Últimos artigos</h2><div class="card-grid">{cards}</div></section>'
 
 
+# ---- Tutorial Pet TV (15/10/2026): playlist dos nossos proprios videos, carregada so no clique ----
+TV_JSON = ROOT / "config" / "sites" / "videos_tv.json"
+RAW_MEDIA = "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes"
+TV_STATUS_OK = {"ok", "aprovado", "agendado", "agendado_parcial", "publicado"}
+
+
+def _tv_lista(artigos_por_pilar: dict) -> list[dict]:
+    """Videos da TV, do mais novo para o mais antigo. Se a branch media estiver clonada (TV_MEDIA_DIR ou
+    /tmp/media, como no workflow publicar_blog), regrava config/sites/videos_tv.json; senao usa o json salvo."""
+    import os
+    media = Path(os.environ.get("TV_MEDIA_DIR", "/tmp/media")) / "pacotes"
+    itens = []
+    if media.exists():
+        for pasta in media.iterdir():
+            man, vid = pasta / "manifest.json", pasta / "video.mp4"
+            try:
+                m = json.loads(man.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if vid.exists() and m.get("status") in TV_STATUS_OK:
+                itens.append({"slug": pasta.name, "criado_em": str(m.get("criado_em") or "")})
+        if itens:
+            itens.sort(key=lambda x: x["criado_em"], reverse=True)
+            TV_JSON.write_text(json.dumps(itens, ensure_ascii=False, indent=1), encoding="utf-8")
+    elif TV_JSON.exists():
+        try:
+            itens = json.loads(TV_JSON.read_text(encoding="utf-8"))
+        except Exception:
+            itens = []
+    por_slug = {fm["slug"]: fm for lst in artigos_por_pilar.values() for fm in lst}
+    saida = []
+    for it in itens:  # so entra video cujo artigo ja esta no ar
+        fm = por_slug.get(it["slug"])
+        if fm:
+            saida.append({"slug": it["slug"], "titulo": fm["titulo"], "capa": fm.get("imagem_capa") or "",
+                          "video": f'{RAW_MEDIA}/{it["slug"]}/video.mp4', "data": _data_br(_data_iso(fm))})
+    return saida
+
+
+def render_tv_home(tv: list[dict]) -> str:
+    if not tv:
+        return ""
+    v = tv[0]
+    img = f'<img src="/{v["capa"]}" alt="{html_lib.escape(v["titulo"])}" loading="lazy" width="940" height="627">' if v["capa"] else ""
+    return (f'<section class="tv-home" aria-label="Tutorial Pet TV"><a href="/tv">{img}'
+            f'<span class="tv-home-texto"><span class="novo-selo">▶ Tutorial Pet TV</span>'
+            f'<span class="novo-titulo">Vídeos curtos de cuidados com cães e gatos, um atrás do outro</span>'
+            f'<span class="slide-cta">Assistir agora →</span></span></a></section>')
+
+
+TV_JS = """<script>(function(){var p=document.getElementById('tvPlayer');if(!p)return;
+var it=[].slice.call(document.querySelectorAll('.tv-item')),t=document.getElementById('tvTitulo'),l=document.getElementById('tvLer'),i=0;
+function go(n,play){i=(n+it.length)%it.length;var b=it[i];p.poster=b.getAttribute('data-capa')||'';p.src=b.getAttribute('data-video');
+t.textContent=b.getAttribute('data-titulo');l.href='/'+b.getAttribute('data-slug');it.forEach(function(x){x.classList.remove('ativo')});b.classList.add('ativo');
+if(play){var r=p.play();if(r&&r.catch)r.catch(function(){})}}
+it.forEach(function(b,k){b.addEventListener('click',function(){go(k,true);p.scrollIntoView({behavior:'smooth',block:'center'})})});
+p.addEventListener('ended',function(){go(i+1,true)});go(0,false)})();</script>"""
+
+
+def build_tv_page(site: dict, pilares: dict, tv: list[dict]) -> str:
+    dominio = site["dominio"].rstrip("/")
+    itens = "".join(
+        f'<button type="button" class="tv-item" data-slug="{v["slug"]}" data-video="{html_lib.escape(v["video"])}" '
+        f'data-capa="/{v["capa"]}" data-titulo="{html_lib.escape(v["titulo"])}">'
+        + (f'<img src="/{v["capa"]}" alt="" loading="lazy" width="160" height="107">' if v["capa"] else "")
+        + f'<span class="tv-item-texto"><span class="card-data">{html_lib.escape(v["data"])}</span>'
+          f'<span class="card-title">{html_lib.escape(v["titulo"])}</span></span></button>' for v in tv)
+    corpo = f"""{render_header(site["nome"], pilares)}
+<main class="tv">
+<h1>Tutorial Pet TV</h1>
+<p class="tv-sub">Vídeos curtos de cuidados com cães e gatos. Toque no play: ao terminar, o próximo começa sozinho.</p>
+<video id="tvPlayer" controls playsinline preload="none" style="width:100%;max-width:420px;display:block;margin:12px auto;background:#000;border-radius:12px;aspect-ratio:9/16"></video>
+<p class="tv-atual"><strong id="tvTitulo"></strong><br><a id="tvLer" href="/">Ler o artigo completo →</a></p>
+<h2>Na fila</h2>
+<div class="tv-lista">{itens}</div>
+</main>
+{render_footer()}{TV_JS}"""
+    return page_shell("Tutorial Pet TV: vídeos de cuidados com cães e gatos | " + site["nome"],
+                      "Assista aos vídeos curtos do Tutorial Pet sobre cuidados, comportamento e rotina de cães e gatos, um atrás do outro.",
+                      f"{dominio}/tv", "website", corpo)
+
+
 def render_carrossel(artigos_por_pilar: dict) -> str:
     """Banner rotativo no topo da home: cada slide divulga um artigo (config/home_destaques.yaml)."""
     cfg = ROOT / "config" / "home_destaques.yaml"
@@ -405,7 +487,7 @@ def render_carrossel(artigos_por_pilar: dict) -> str:
             f'<div class="pontos">{pontos}</div></section>' + CARROSSEL_JS)
 
 
-def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
+def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict, tv: list | None = None) -> str:
     dominio = site["dominio"].rstrip("/")
     sections = []
     for pilar_key, titulo in pilares.items():
@@ -435,16 +517,17 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
 {render_carrossel(artigos_por_pilar)}
 <div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p></div>
 {render_ultimos(artigos_por_pilar)}
+{render_tv_home(tv or [])}
 {''.join(sections)}
 </main>
 {render_footer()}"""
     return page_shell(site["nome"], site["nicho"][:155], f"{dominio}/", "website", main)
 
 
-def build_sitemap(site: dict, artigos: list[dict]) -> str:
+def build_sitemap(site: dict, artigos: list[dict], tv: bool = False) -> str:
     dominio = site["dominio"].rstrip("/")
     urls = [f"{dominio}/"] + [f"{dominio}/{slug}" for slug in LEGAL_PAGES_ORDER] + \
-           [f"{dominio}/{fm['slug']}" for fm in artigos]
+           [f"{dominio}/{fm['slug']}" for fm in artigos] + ([f"{dominio}/tv"] if tv else [])
     entries = "\n".join(f"  <url>\n    <loc>{u}</loc>\n  </url>" for u in urls)
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -523,8 +606,11 @@ def run(site_id: str) -> dict:
         page_shell("Página não encontrada | " + site["nome"], "Página não encontrada.", dominio_404 + "/", "website",
                    corpo_404, extra_head='<meta name="robots" content="noindex">'), encoding="utf-8")
 
-    (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar), encoding="utf-8")
-    (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos]), encoding="utf-8")
+    tv = _tv_lista(artigos_por_pilar)
+    if tv:
+        (BUILD_DIR / "tv.html").write_text(build_tv_page(site, pilares, tv), encoding="utf-8")
+    (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar, tv), encoding="utf-8")
+    (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos], bool(tv)), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
 
     # Cache das capas: o nome do arquivo nao muda quando a foto e trocada; sem versao, o navegador do leitor
