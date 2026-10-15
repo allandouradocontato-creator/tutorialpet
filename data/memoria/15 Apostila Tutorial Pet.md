@@ -1,4 +1,4 @@
-# Apostila Tutorial Pet (curso vivo, começou em 14/10/2026)
+# Apostila Tutorial Pet (caso-exemplo do Manual 16; curso vivo, começou em 14/10/2026)
 Pedido do Allan: registrar TUDO (processo, ferramentas, erros, correções, números) para virar uma apostila/curso quando o processo fechar. Regra: toda correção ou aprendizado novo entra aqui no mesmo dia; o Auditor consolida toda sexta; "07 Erros e lições" é o diário de erros e esta nota é o livro, organizado por capítulo.
 
 ## Capítulo 1 – A holding e a divisão do trabalho
