@@ -701,6 +701,9 @@ def run(site_id: str) -> dict:
     if ads_txt_src.exists():
         (BUILD_DIR / "ads.txt").write_text(ads_txt_src.read_text(encoding="utf-8"), encoding="utf-8")
 
+    for _g in (TECH_DIR / site_id).glob("google*.html"):
+        (BUILD_DIR / _g.name).write_text(_g.read_text(encoding="utf-8"), encoding="utf-8")
+
     radio_src = ROOT / "site" / "radio"
     if radio_src.exists():
         radio_dst = BUILD_DIR / "radio"
