@@ -35,7 +35,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           CLIPS_REGISTRO: /tmp/media/clips_usados.json
-        run: python agents/32_meme_pet/montar_meme.py /tmp/media 6
+        run: python agents/32_meme_pet/montar_meme.py /tmp/media 10
       - name: Entregar (branch media; so os pacotes meme-*)
         run: |
           cd /tmp/media
@@ -55,4 +55,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: memes
-          path: /tmp/media/pacotes/meme-*/video.mp4
+          path: |
+            /tmp/media/pacotes/meme-*/video.mp4
+            /tmp/media/pacotes/meme-*/imagem.jpg

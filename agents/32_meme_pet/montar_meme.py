@@ -39,7 +39,69 @@ def quebra(t: str, n: int) -> str:
     return "\n".join(textwrap.wrap(t, n)) or t
 
 
+def foto_pexels(busca: str, destino: Path) -> Path | None:
+    """Foto vertical fofa do Pexels (mesmo filtro de estilo dos vídeos: nada de rua, abrigo, doença)."""
+    import urllib.parse
+    from core.estilo_visual import nota
+    chave = os.environ.get("PEXELS_API_KEY", "").strip()
+    if not chave:
+        return None
+    url = "https://api.pexels.com/v1/search?" + urllib.parse.urlencode({"query": busca, "orientation": "portrait", "per_page": 40})
+    r = subprocess.run(["curl", "-sS", "-m", "40", "-H", f"Authorization: {chave}", url], capture_output=True, text=True)
+    fotos = json.loads(r.stdout).get("photos", [])
+    pont = [(nota(f.get("url", ""), f.get("alt", "")), f) for f in fotos]
+    pont = sorted([x for x in pont if x[0] is not None], key=lambda x: -x[0])
+    for _, f in pont[:5]:
+        out = destino / "foto.jpg"
+        d = subprocess.run(["curl", "-sS", "-L", "-m", "60", "-o", str(out), f["src"]["large2x"]], capture_output=True)
+        if d.returncode == 0 and out.exists() and out.stat().st_size > 20000:
+            return out
+    return None
+
+
+def montar_imagem(item: dict, media: Path) -> bool:
+    """Meme em IMAGEM (exceção do Allan, 15/10/2026: foto com bom texto também funciona, é mais barato)."""
+    slug = "meme-" + item["id"]
+    pkg = media / "pacotes" / slug
+    if (pkg / "imagem.jpg").exists():
+        return False
+    tmp = ROOT / "data" / "audiencia" / "_tmp" / slug
+    tmp.mkdir(parents=True, exist_ok=True)
+    foto = foto_pexels(item["busca"], tmp)
+    if not foto:
+        print("  sem foto para", slug)
+        return False
+    (tmp / "topo.txt").write_text(quebra(item["topo"], 17), encoding="utf-8")
+    (tmp / "base.txt").write_text(quebra(item["base"], 15), encoding="utf-8")
+    estilo = f"fontfile={FONTE}:fontcolor=white:borderw=7:bordercolor=black:line_spacing=12:fontsize=62:x=(w-text_w)/2"
+    vf = (f"scale=1080:1350:force_original_aspect_ratio=increase,crop=1080:1350,setsar=1,"
+          f"drawtext=textfile={tmp / 'topo.txt'}:{estilo}:y=190,"
+          f"drawtext=textfile={tmp / 'base.txt'}:{estilo}:fontsize=74:y=940")
+    pkg.mkdir(parents=True, exist_ok=True)
+    bruto = tmp / "meme.png"
+    sh(["ffmpeg", "-y", "-i", str(foto), "-vf", vf, "-frames:v", "1", str(bruto)])
+    carimbo = ROOT / "assets" / "carimbo_tutorialpet.png"
+    sh(["ffmpeg", "-y", "-i", str(bruto), "-i", str(carimbo), "-filter_complex", "[0:v][1:v]overlay=x=36:y=36:format=auto[v]",
+        "-map", "[v]", "-frames:v", "1", "-q:v", "2", str(pkg / "imagem.jpg")])
+    hashtags = item.get("tags", ["#tutorialpet"])
+    artigo = item.get("artigo", "")
+    (pkg / "legenda.txt").write_text(item["legenda"] + ("\nhttps://tutorialpet.com.br" + artigo if artigo else "") + "\n" + " ".join(hashtags), encoding="utf-8")
+    (pkg / "roteiro.json").write_text(json.dumps({"titulo_video": item["topo"] + " " + item["base"], "gancho_3s": item["topo"],
+        "hashtags": hashtags, "formato": "meme_imagem", "animal": item["animal"], "busca_clipe": item["busca"]}, ensure_ascii=False, indent=1), encoding="utf-8")
+    (pkg / "manifest.json").write_text(json.dumps({
+        "slug": slug, "status": "aprovado", "formato": "meme_imagem", "tipo": "extra_audiencia_imagem",
+        "criado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "artigo_url_futura": "https://tutorialpet.com.br" + artigo if artigo else "",
+        "guardiao": {"status": "ok", "ok": [f"animal da foto: {item['animal']} (busca '{item['busca']}', filtro de estilo Pexels)", "texto original; carimbo aplicado"],
+                     "em": datetime.now(timezone.utc).isoformat(timespec="seconds")},
+        "aprovado_por": "Criador de Audiência: classe liberada, imagem (exceção do Allan, 15/10/2026)"}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("pronto (imagem):", slug)
+    return True
+
+
 def montar(item: dict, media: Path, mv6) -> bool:
+    if item.get("formato") == "imagem":
+        return montar_imagem(item, media)
     slug = "meme-" + item["id"]
     pkg = media / "pacotes" / slug
     if (pkg / "video.mp4").exists():
