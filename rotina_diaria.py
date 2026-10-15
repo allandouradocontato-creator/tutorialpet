@@ -113,6 +113,11 @@ def main() -> int:
         return 0
 
     py = sys.executable
+    # trava de seguranca: pilar desconhecido pelo escritor derrubava a rodada inteira (15/10/2026, 'saude_basica')
+    _validos = {"alimentacao", "comportamento", "cuidados_diarios", "primeiros_passos_filhotes", "produtos_compras", "pauta_especifica"}
+    if proximo.get("pilar") not in _validos:
+        log(f"AVISO: pilar '{proximo.get('pilar')}' invalido; usando cuidados_diarios")
+        proximo["pilar"] = "cuidados_diarios"
     code, out = rodar([py, "agents/03_content_writer/agent.py", "--site", SITE_ID,
                        "--termo", proximo["termo"], "--pilar", proximo["pilar"]], {"WRITER_MODE": "llm"})
     slug = slugify(proximo["termo"])

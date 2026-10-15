@@ -29,7 +29,7 @@ import yaml  # noqa: E402
 
 FILA = ROOT / "config" / "fila_temas.yaml"
 PILARES_PADRAO = ["primeiros_passos_filhotes", "cuidados_diarios", "alimentacao", "comportamento",
-                  "produtos_compras", "saude_basica"]
+                  "produtos_compras"]
 # Fora de escopo: o blog não dá diagnóstico nem dose (política do projeto: sempre orientar o veterinário).
 BLOQUEADOS = ["dose", "dosagem", "remedio", "medicamento", "diagnostico", "vermifugo quanto", "tratamento caseiro",
               "receita caseira de remedio", "como curar", "cura de"]
