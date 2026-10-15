@@ -1,0 +1,17 @@
+{
+ "slug": "meme-c2-saquinho",
+ "status": "extra_pronto",
+ "formato": "meme_identificacao",
+ "tipo": "extra_audiencia",
+ "criado_em": "2026-10-15T17:27:54+00:00",
+ "artigo_url_futura": "https://tutorialpet.com.br/como-trocar-a-racao-do-cachorro",
+ "guardiao": {
+  "status": "ok",
+  "ok": [
+   "animal do clipe: cachorro (busca 'golden retriever puppy happy home', filtro de estilo Pexels)",
+   "sem voz; texto original; carimbo aplicado"
+  ],
+  "em": "2026-10-15T17:27:54+00:00"
+ },
+ "aprovado_por": "Criador de Audiência: classe liberada (regra do Allan, 15/10/2026)"
+}
