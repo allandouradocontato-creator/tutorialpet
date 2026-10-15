@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Frutas seguras para refrescar o cachorro no verão",
+  "gancho_3s": "Quer refrescar seu cachorro no calor com frutas, mas tem medo do que faz mal?",
+  "cenas": [
+    {
+      "narracao": "No calor, frutas ricas em água como melancia e melão são ótimas aliadas para a hidratação.",
+      "visual_busca_banco_livre": "dog eating watermelon close up",
+      "texto_na_tela": "Melancia e melão hidratam!"
+    },
+    {
+      "narracao": "Mas atenção: sempre retire todas as sementes, caroços e cascas grossas para evitar engasgos.",
+      "visual_busca_banco_livre": "sliced watermelon on wooden board",
+      "texto_na_tela": "Remova sementes e caroços"
+    },
+    {
+      "narracao": "Corte a polpa em cubinhos e leve ao congelador por alguns minutos para fazer um picolé natural.",
+      "visual_busca_banco_livre": "dog looking at food close up",
+      "texto_na_tela": "Picolé natural e geladinho"
+    },
+    {
+      "narracao": "Outra ideia é amassar banana com água de coco, colocar em um brinquedo interativo e congelar.",
+      "visual_busca_banco_livre": "dog playing with interactive toy",
+      "texto_na_tela": "Brinquedo recheado congelado"
+    },
+    {
+      "narracao": "Lembre-se da moderação: petiscos não devem substituir a ração e o excesso pode causar dor de barriga.",
+      "visual_busca_banco_livre": "dog waiting for food politely",
+      "texto_na_tela": "Moderação é fundamental"
+    },
+    {
+      "narracao": "Se notar alteração nas fezes ou reação alérgica, suspenda o uso e consulte o médico-veterinário.",
+      "visual_busca_banco_livre": "dog resting on floor close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Curtiu? Leia o artigo completo no blog para ver todas as dicas de verão!",
+  "hashtags": [
+    "cachorro",
+    "verãocanino",
+    "petisconatural",
+    "cuidadoscompet",
+    "alimentacaocanina"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer refrescar seu cachorro no calor com frutas, mas tem medo do que faz mal?\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca\n\n#cachorro #verãocanino #petisconatural #cuidadoscompet #alimentacaocanina",
+  "slug": "quais-frutas-cachorro-pode-comer-no-verao-com-seguranca"
+}

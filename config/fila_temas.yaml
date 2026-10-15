@@ -95,7 +95,8 @@ temas:
   data: '2026-10-15'
 - termo: quais frutas cachorro pode comer no verao com seguranca
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-15'
 - termo: como evitar bola de pelo em gato com escovacao
   pilar: cuidados_diarios
   status: pendente
@@ -314,4 +315,10 @@ temas:
   status: pendente
 - termo: como preparar a casa para a chegada de um filhote de gato
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como calcular a quantidade ideal de petiscos diarios para gatos esterilizados
+  pilar: alimentacao
+  status: pendente
+- termo: como lidar com a ansiedade de separacao em caes adultos recem adotados
+  pilar: comportamento
   status: pendente
