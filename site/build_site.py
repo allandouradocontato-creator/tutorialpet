@@ -472,6 +472,15 @@ def run(site_id: str) -> dict:
     (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos]), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
 
+    # Cache das capas: o nome do arquivo nao muda quando a foto e trocada; sem versao, o navegador do leitor
+    # (Cache-Control 4 h) e o Cloudflare seguem mostrando a capa antiga. Acrescenta ?v=<hash do arquivo> em cada <img>.
+    import hashlib, re as _re
+    _hash = {f.name: hashlib.md5(f.read_bytes()).hexdigest()[:8] for f in (BUILD_DIR / "imagens").glob("*") if f.is_file()}
+    for _h in BUILD_DIR.rglob("*.html"):
+        _t = _h.read_text(encoding="utf-8")
+        _n = _re.sub(r'(/imagens/([^"\'?\s)]+))(?=["\'\s)])', lambda m: m.group(1) + ("?v=" + _hash[m.group(2)] if m.group(2) in _hash else ""), _t)
+        if _n != _t:
+            _h.write_text(_n, encoding="utf-8")
     ads_txt_src = TECH_DIR / site_id / "ads.txt"
     if ads_txt_src.exists():
         (BUILD_DIR / "ads.txt").write_text(ads_txt_src.read_text(encoding="utf-8"), encoding="utf-8")
