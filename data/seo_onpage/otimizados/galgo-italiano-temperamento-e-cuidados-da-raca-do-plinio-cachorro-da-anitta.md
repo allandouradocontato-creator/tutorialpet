@@ -1,7 +1,6 @@
 ---
 titulo: 'Plínio, o pet da Anitta: galgo italiano, temperamento e cuidados'
-meta_description: 'Galgo italiano: temperamento e cuidados com a raça do Plínio, cachorro
-  da Anitta. Você já parou para olhar com calma um galgo italiano? As pernas finas,
+meta_description: 'Galgo italiano: temperamento e cuidados com a raça do Plínio, pet da Anitta. Você já parou para olhar com calma um galgo italiano? As pernas finas,
   o...'
 data: '2026-10-15'
 status: otimizado_seo
