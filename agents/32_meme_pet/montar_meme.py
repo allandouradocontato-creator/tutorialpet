@@ -71,8 +71,8 @@ def montar_imagem(item: dict, media: Path) -> bool:
     if not foto:
         print("  sem foto para", slug)
         return False
-    (tmp / "topo.txt").write_text(quebra(item["topo"], 17), encoding="utf-8")
-    (tmp / "base.txt").write_text(quebra(item["base"], 15), encoding="utf-8")
+    (tmp / "topo.txt").write_text(quebra(item["topo"], 24), encoding="utf-8")
+    (tmp / "base.txt").write_text(quebra(item["base"], 19), encoding="utf-8")
     estilo = f"fontfile={FONTE}:fontcolor=white:borderw=7:bordercolor=black:line_spacing=12:fontsize=62:x=(w-text_w)/2"
     vf = (f"scale=1080:1350:force_original_aspect_ratio=increase,crop=1080:1350,setsar=1,"
           f"drawtext=textfile={tmp / 'topo.txt'}:{estilo}:y=190,"
@@ -113,8 +113,8 @@ def montar(item: dict, media: Path, mv6) -> bool:
     if not clipes:
         print("  sem clipe para", slug)
         return False
-    (tmp / "topo.txt").write_text(quebra(item["topo"], 17), encoding="utf-8")
-    (tmp / "base.txt").write_text(quebra(item["base"], 15), encoding="utf-8")
+    (tmp / "topo.txt").write_text(quebra(item["topo"], 21), encoding="utf-8")
+    (tmp / "base.txt").write_text(quebra(item["base"], 17), encoding="utf-8")
     musicas = sorted((ROOT / "biblioteca" / "musica").glob("*.mp3"))
     musica = musicas[sum(map(ord, slug)) % len(musicas)] if musicas else None
     estilo = f"fontfile={FONTE}:fontcolor=white:borderw=7:bordercolor=black:line_spacing=12:fontsize=70:x=(w-text_w)/2"

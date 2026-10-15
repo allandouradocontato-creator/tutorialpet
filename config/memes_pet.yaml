@@ -1,16 +1,121 @@
-# Fila de vídeos de meme/identificação do Criador de Audiência (ideias em data/audiencia/ideias.md).
-# Um item por vídeo de 8 s: clipe do animal CERTO (busca em inglês, só gato OU só cachorro), texto grande, carimbo, música.
-# status: pendente -> o workflow 'memes' produz e muda para produzido (registro em data/audiencia/memes_feitos.txt)
-# classe: liberada = vai direto; sensivel = só com ok do Allan (não entra aqui até aprovar)
 itens:
-  - {id: g1-confia-gato, classe: liberada, animal: gato, busca: "cat staring at camera", topo: "Dizem que não dá pra confiar em gato.", base: "Você confia?", legenda: "Gato é suspeito? Quem manda na sua casa?", artigo: "/por-que-o-gato-esconde-a-comida-na-tigela", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
-  - {id: g2-3h-da-manha, classe: liberada, animal: gato, busca: "kitten running playing living room", topo: "Gato às 3h da manhã:", base: "\"Corre, tem um nada ali!\"", legenda: "Todo gato tem a sua hora do nada. Qual é a do seu?", artigo: "/como-socializar-filhote-de-gato", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
-  - {id: c2-saquinho, classe: liberada, animal: cachorro, busca: "golden retriever puppy happy home", topo: "Cachorro quando ouve o saquinho de ração:", base: "\"Eu nem tava com fome\"", legenda: "Qual som faz o seu correr?", artigo: "/como-trocar-a-racao-do-cachorro", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
-  - {id: c6-conta, classe: liberada, animal: cachorro, busca: "cute puppy looking at camera home", topo: "Cachorro olhando você comer:", base: "Quem está pagando a conta aqui?", legenda: "Seu cachorro faz esse olhar?", artigo: "/alimentos-proibidos-para-cachorro", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
-  - {id: g6-copo, classe: liberada, animal: gato, busca: "cat pushing object table", topo: "Gato derrubando o copo olhando pra você:", base: "Relação de confiança", legenda: "Seu gato já derrubou algo hoje?", artigo: "/como-fazer-o-gato-beber-mais-agua", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
-  - {id: c3-banheiro, classe: liberada, animal: cachorro, busca: "cute dog sitting indoors home", topo: "Seu cachorro te acompanha até no banheiro?", base: "Segurança ou curiosidade?", legenda: "Acompanha até lá? Conta aqui.", artigo: "/ansiedade-de-separacao-em-caes", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
-  # IMAGEM (formato: imagem) -- exceção da regra 'só vídeo' autorizada pelo Allan em 15/10/2026 para memes de foto + texto
-  - {id: i1-cargo, formato: imagem, classe: liberada, animal: cachorro, busca: "chihuahua puppy sad eyes cute", topo: "\"Qual seu cargo na empresa?\"", base: "Segurança do sofá!", legenda: "Quem mais?", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
-  - {id: i2-segunda, formato: imagem, classe: liberada, animal: gato, busca: "cat grumpy face cute", topo: "Eu na segunda-feira de manhã:", base: "Ainda não é hora", legenda: "Quem mais?", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
-  - {id: i3-dieta, formato: imagem, classe: liberada, animal: gato, busca: "cat staring camera funny", topo: "Eu: vou começar a dieta", base: "Meu gato: sei", legenda: "Tem gato que enxerga a verdade. Quem mais?", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
-  - {id: i4-fim-do-mes, formato: imagem, classe: liberada, animal: cachorro, busca: "puppy funny expression close", topo: "Eu olhando o saldo no fim do mês:", base: "Calma, respira", legenda: "Quem mais? Conta aqui.", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
+- id: g1-confia-gato
+  classe: liberada
+  animal: gato
+  busca: cat staring at camera
+  topo: Dizem que não dá pra confiar em gato.
+  base: Você confia?
+  legenda: Gato é suspeito? Quem manda na sua casa?
+  artigo: /por-que-o-gato-esconde-a-comida-na-tigela
+  tags:
+  - '#gatos'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: g2-3h-da-manha
+  classe: liberada
+  animal: gato
+  busca: kitten running playing living room
+  topo: 3h da manhã. A casa dorme.
+  base: O gato defende o corredor de ninguém.
+  legenda: Todo gato tem a sua hora do nada. Qual é a do seu?
+  artigo: /como-socializar-filhote-de-gato
+  tags:
+  - '#gatos'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: c2-saquinho
+  classe: liberada
+  animal: cachorro
+  busca: golden retriever puppy happy home
+  topo: Cachorro ouve o saquinho de ração.
+  base: '"Eu estava só passando por aqui..."'
+  legenda: Qual som faz o seu aparecer do nada?
+  artigo: /como-trocar-a-racao-do-cachorro
+  tags:
+  - '#cachorros'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: c6-conta
+  classe: liberada
+  animal: cachorro
+  busca: cute puppy looking at camera home
+  topo: Cachorro olhando você comer.
+  base: Não é pedido. É cobrança de imposto.
+  legenda: Quem aí já paga esse imposto todo dia?
+  artigo: /alimentos-proibidos-para-cachorro
+  tags:
+  - '#cachorros'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: g6-copo
+  classe: liberada
+  animal: gato
+  busca: cat pushing object table
+  topo: 'Gato empurrando o copo, olhando nos meus olhos:'
+  base: Não é maldade. É um estudo sobre gravidade.
+  legenda: Seu gato já fez ciência na sua mesa hoje?
+  artigo: /como-fazer-o-gato-beber-mais-agua
+  tags:
+  - '#gatos'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: c3-banheiro
+  classe: liberada
+  animal: cachorro
+  busca: cute dog sitting indoors home
+  topo: 'Privacidade no banheiro, segundo o cachorro:'
+  base: Conceito ultrapassado.
+  legenda: O seu também faz plantão na porta?
+  artigo: /ansiedade-de-separacao-em-caes
+  tags:
+  - '#cachorros'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: i1-cargo
+  formato: imagem
+  classe: liberada
+  animal: cachorro
+  busca: chihuahua puppy sad eyes cute
+  topo: '"Qual é o seu cargo na empresa?"'
+  base: Diretor de sonecas. Sem expediente.
+  legenda: Qual é o cargo do seu pet em casa?
+  tags:
+  - '#cachorros'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: i2-segunda
+  formato: imagem
+  classe: liberada
+  animal: gato
+  busca: cat grumpy face cute
+  topo: Segunda-feira, 6h50.
+  base: 'Eu e o gato concordamos: hoje não.'
+  legenda: Quem mais?
+  tags:
+  - '#gatos'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: i3-dieta
+  formato: imagem
+  classe: liberada
+  animal: gato
+  busca: cat staring camera funny
+  topo: 'Eu: começo a dieta na segunda.'
+  base: 'O gato, 14 segundas depois: "Aham."'
+  legenda: Tem gato que já viu esse filme. Quem mais?
+  tags:
+  - '#gatos'
+  - '#humorpet'
+  - '#tutorialpet'
+- id: i4-fim-do-mes
+  formato: imagem
+  classe: liberada
+  animal: cachorro
+  busca: puppy funny expression close
+  topo: 'Eu olhando o saldo no dia 25:'
+  base: Calma. Respira. Finge que é jejum.
+  legenda: Quem mais? Conta aqui.
+  tags:
+  - '#cachorros'
+  - '#humorpet'
+  - '#tutorialpet'
