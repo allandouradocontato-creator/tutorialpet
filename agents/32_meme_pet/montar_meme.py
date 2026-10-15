@@ -51,14 +51,14 @@ def montar(item: dict, media: Path, mv6) -> bool:
     if not clipes:
         print("  sem clipe para", slug)
         return False
-    (tmp / "topo.txt").write_text(quebra(item["topo"], 20), encoding="utf-8")
-    (tmp / "base.txt").write_text(quebra(item["base"], 20), encoding="utf-8")
+    (tmp / "topo.txt").write_text(quebra(item["topo"], 17), encoding="utf-8")
+    (tmp / "base.txt").write_text(quebra(item["base"], 15), encoding="utf-8")
     musicas = sorted((ROOT / "biblioteca" / "musica").glob("*.mp3"))
     musica = musicas[sum(map(ord, slug)) % len(musicas)] if musicas else None
-    estilo = f"fontfile={FONTE}:fontcolor=white:borderw=7:bordercolor=black:line_spacing=12:fontsize=78:x=(w-text_w)/2"
+    estilo = f"fontfile={FONTE}:fontcolor=white:borderw=7:bordercolor=black:line_spacing=12:fontsize=70:x=(w-text_w)/2"
     vf = (f"scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,"
           f"drawtext=textfile={tmp / 'topo.txt'}:{estilo}:y=330,"
-          f"drawtext=textfile={tmp / 'base.txt'}:{estilo}:fontsize=92:y=1280")
+          f"drawtext=textfile={tmp / 'base.txt'}:{estilo}:fontsize=84:y=1130")
     bruto = tmp / "bruto.mp4"
     sh(["ffmpeg", "-y", "-stream_loop", "-1", "-i", str(clipes[0]), "-t", str(DUR), "-an", "-vf", vf,
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", "30", str(bruto)])
