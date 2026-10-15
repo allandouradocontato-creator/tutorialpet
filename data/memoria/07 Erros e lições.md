@@ -32,3 +32,7 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 2026-10-15 | Capas do blog trocadas mas leitor via as antigas | Cache-Control 4 h + mesmo nome de arquivo | URLs de imagem com ?v=hash no build_site.py.
 - 2026-10-15 | Conferente contava 2 vídeos/dia e achava o TikTok sem estoque | limite de 10 posts do Buffer grátis | prompt novo: 1 dia = 3 vídeos, estoque conta pacotes prontos; aprova pacote antigo com a única ressalva 'sem registro de clipes'.
 - 2026-10-15 | Especialista TikTok: legendas de pacote (FB/IG) ainda apontam para sozinhoemcasa-kohl.vercel.app e o post 'Teste Buffer' ficou público | gerador de legenda sem a landing nova; teste sem rascunho | gerador usa sozinho.tutorialpet.com.br; apagar testes na hora. Também: Buffer mede só tempo médio (s), sem % assistido; posts <48h aparecem com views baixas (ração 3 views em 22h).
+
+## 2026-10-15 — Foto/vídeo de raça errada e commit que apagou a branch media
+- Erro 1: artigo do galgo do Plínio saiu com foto de outro cachorro e vídeo com clipes de outras raças. Causa: capa e clipes escolhidos de banco sem checar a raça. Correção: config/coerencia_racas.yaml e rotina Revisor de Coerência Visual (08:02/12:02/16:02) que olha capa e quadros do vídeo antes do Agendador.
+- Erro 2: `git commit -a` num clone --no-checkout da branch media apagou 1059 arquivos; revertido em minutos. Lição: na media, nunca --no-checkout nem `commit -a`; `git add <arquivo>` e conferir `git show --stat` antes do push.

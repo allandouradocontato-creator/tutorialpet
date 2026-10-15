@@ -1,0 +1,36 @@
+# Regra do Allan (15/10/2026): quando o conteúdo cita uma raça (ou espécie), TODA imagem e TODO clipe precisam ser dessa raça.
+# Imagem de outra raça passa amadorismo. Sem foto/clipe da raça certa: não publica (artigo sem capa de banco errada; vídeo bloqueado).
+especies: [cachorro, cão, cães, gato, gatos, filhote, filhotes]
+racas:  # termos que, no título/slug/roteiro, ativam a checagem de raça
+  - galgo italiano
+  - galgo
+  - golden retriever
+  - labrador
+  - pug
+  - shih tzu
+  - yorkshire
+  - bulldog
+  - poodle
+  - spitz alemão
+  - lulu da pomerânia
+  - pastor alemão
+  - husky
+  - border collie
+  - dachshund
+  - salsicha
+  - pinscher
+  - maltês
+  - rottweiler
+  - chihuahua
+  - siamês
+  - persa
+  - maine coon
+  - ragdoll
+  - sphynx
+  - angorá
+regras:
+  - "Capa do artigo: a foto mostra a raça citada (galgo italiano = corpo fino, orelhas em rosa, focinho afilado; não vale galgo grande, whippet nem vira-lata)."
+  - "Vídeo: mínimo 80% dos clipes mostram a raça citada e o PRIMEIRO clipe tem de ser da raça. Se o banco de vídeo não tem a raça, o vídeo não sai; usar foto da raça com movimento (zoom) ou só artigo."
+  - "Espécie: artigo de gato só com gato; artigo de cachorro só com cachorro (regra f do Estrategista)."
+  - "Foto ilustrativa da raça (não é o animal do artista) leva a legenda 'Foto ilustrativa' (frontmatter foto_ilustrativa: true)."
+  - "Dúvida sobre a raça na imagem = reprovar e buscar outra."
