@@ -213,3 +213,8 @@ PILAR_VISUAL = {
 }
 PILAR_VISUAL_PADRAO = {"bg": "#efece5", "emoji": "🐾"}
 
+
+/* botão flutuante da TV, no canto oposto ao da rádio */
+.tv-flutuante { position: fixed; right: 14px; bottom: 14px; z-index: 900; display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px 8px 12px; border-radius: 999px; background: linear-gradient(100deg, #1c1c20, #3a3a44); color: #fff !important; text-decoration: none !important; font-weight: 800; font-size: .95rem; letter-spacing: .04em; box-shadow: 0 6px 18px rgba(0,0,0,.35); font-family: var(--font-body); }
+.tv-flutuante-ico { width: 28px; height: 28px; border-radius: 50%; background: #d62828; display: grid; place-items: center; font-size: 1rem; }
+.tv-flutuante:hover { filter: brightness(1.15); }

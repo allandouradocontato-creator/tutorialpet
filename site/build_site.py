@@ -100,6 +100,9 @@ CARROSSEL_JS = (
     "m();a();})();</script>"
 )
 
+TV_BTN = ('<a class="tv-flutuante" href="/tv" aria-label="Assistir à Tutorial Pet TV">'
+          '<span class="tv-flutuante-ico" aria-hidden="true">\U0001F4FA</span><span class="tv-flutuante-txt">TV</span></a>')
+
 RADIO_HTML = (
     '<div id="tp-radio" class="radio" hidden>'
     '<button type="button" class="radio-btn" id="tp-radio-play" aria-label="Ligar a Rádio Tutorial Pet" aria-pressed="false"><span class="radio-ico" aria-hidden="true">\u266a</span><span class="radio-txt">Rádio Tutorial Pet</span></button>'
@@ -219,6 +222,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 {body_html}
 {CONSENT_HTML}
 {RADIO_HTML}{RADIO_JS}
+{'' if canonical.rstrip('/').endswith('/tv') else TV_BTN}
 </body>
 </html>
 """
