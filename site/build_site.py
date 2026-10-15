@@ -658,6 +658,11 @@ def run(site_id: str) -> dict:
         imagens_dst = BUILD_DIR / "imagens"
         imagens_dst.mkdir(parents=True, exist_ok=True)
         for fm, _, _ in artigos:
+            _fa = fm.get("foto_artista")
+            if isinstance(_fa, dict) and _fa.get("arquivo"):
+                _o = imagens_src / Path(_fa["arquivo"]).name
+                if _o.exists():
+                    (imagens_dst / _o.name).write_bytes(_o.read_bytes())
             imagem_capa = fm.get("imagem_capa")
             if not imagem_capa:
                 continue
