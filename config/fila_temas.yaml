@@ -80,7 +80,7 @@ temas:
   status: rascunho_pronto
   data: '2026-10-14'
 - termo: como limpar orelha de cachorro em casa sem machucar
-  pilar: saude_basica
+  pilar: cuidados_diarios
   status: pendente
 - termo: como acostumar gato e cachorro a conviverem em paz
   pilar: comportamento
@@ -95,13 +95,13 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: como saber se o asfalto esta quente para passear
-  pilar: saude_basica
+  pilar: cuidados_diarios
   status: pendente
 - termo: como organizar a rotina de alimentacao de caes e gatos juntos
   pilar: alimentacao
   status: pendente
 - termo: sinais de envelhecimento em gatos senior que passam despercebidos
-  pilar: saude_basica
+  pilar: cuidados_diarios
   status: pendente
 - termo: como enriquecer o ambiente para caes idosos com mobilidade reduzida
   pilar: comportamento
@@ -125,7 +125,7 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: como evitar a obesidade em gatos castrados de apartamento
-  pilar: saude_basica
+  pilar: cuidados_diarios
   status: pendente
 - termo: como introduzir um segundo gato na casa sem brigas
   pilar: comportamento
@@ -140,7 +140,7 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: como saber se o cachorro esta acima do peso ideal
-  pilar: saude_basica
+  pilar: cuidados_diarios
   status: pendente
 - termo: por que o gato morde do nada durante o carinho
   pilar: comportamento
@@ -179,7 +179,7 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: como evitar choque termico em cachorros nos dias quentes
-  pilar: saude_basica
+  pilar: cuidados_diarios
   status: pendente
 - termo: como acalmar cachorro idoso assustado com fogos de artificio
   pilar: comportamento

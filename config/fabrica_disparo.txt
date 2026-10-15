@@ -9,3 +9,4 @@ disparo Agendador 2026-10-14 15:20 Fortaleza (turno B; estoque 1 dia: so unhas a
 disparo Conferente 2026-10-14 17:35 Fortaleza (estoque vídeo 3,5 dias)
 2026-10-14T21:25:26Z agendador: estoque agendado ate 18/10 A; disparo da fabrica (menos de 5 dias de estoque)
 2026-10-15T00:58:33Z disparo Claude: estoque do teste de 7 dias (3 videos/dia)
+2026-10-15T01:06Z disparo Claude: corrige pilar saude_basica invalido na fila (a rodada de 01:03 UTC falhou por isso)
