@@ -1,0 +1,6 @@
+c2-saquinho
+c3-banheiro
+c6-conta
+g1-confia-gato
+g2-3h-da-manha
+g6-copo
