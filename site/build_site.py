@@ -269,6 +269,13 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
     byline = (f'<p class="byline">Por {html_lib.escape(autor)}</p>' if autor
               else (f'<p class="byline">Por {html_lib.escape((fm.get("assinatura") or "Equipe Tutorial Pet").strip())}</p>'))
 
+    pub, atu = _data_br(_data_iso(fm)), _data_br(fm.get("atualizado_em") or "")
+    if pub:
+        datas = f'Publicado em <time datetime="{_data_iso(fm)}">{pub}</time>'
+        if atu and atu != pub:
+            datas += f' · Atualizado em <time datetime="{str(fm.get("atualizado_em"))[:10]}">{atu}</time>'
+        byline = byline.replace("</p>", f" · {datas}</p>", 1)
+
     breadcrumb = (f'<div class="breadcrumb"><a href="/">Início</a> &gt; '
                   f'<a href="/#{pilar_key}">{html_lib.escape(pilar_titulo)}</a> &gt; {html_lib.escape(fm["titulo"])}</div>')
 
@@ -324,6 +331,51 @@ def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, 
     return page_shell(fm.get("titulo", slug), site["nicho"][:150], canonical, "website", main)
 
 
+MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+
+
+def _data_br(valor) -> str:
+    """'2026-10-15' -> '15 de outubro de 2026' ('' se nao der para ler)."""
+    try:
+        a, m, d = str(valor)[:10].split("-")
+        return f"{int(d)} de {MESES[int(m) - 1]} de {a}"
+    except Exception:
+        return ""
+
+
+def _data_iso(fm: dict) -> str:
+    return str(fm.get("data") or str(fm.get("gerado_em") or "")[:10])[:10]
+
+
+def render_destaque_novo(artigos_por_pilar: dict) -> str:
+    """Regra do Allan (15/10/2026): o artigo mais novo vai sozinho para a capa, com a data."""
+    todos = [fm for itens in artigos_por_pilar.values() for fm in itens]
+    todos = [fm for fm in todos if _data_iso(fm)]
+    if not todos:
+        return ""
+    novo = sorted(todos, key=lambda f: (_data_iso(f), str(f.get("gerado_em") or "")), reverse=True)[0]
+    img = (f'<img src="/{novo["imagem_capa"]}" alt="{html_lib.escape(novo["titulo"])}" width="940" height="627">'
+           if novo.get("imagem_capa") else "")
+    resumo = html_lib.escape((novo.get("meta_description") or "")[:180])
+    return (f'<section class="novo-destaque" aria-label="Artigo mais recente"><a href="/{novo["slug"]}">{img}'
+            f'<span class="novo-texto"><span class="novo-selo">Novo · {html_lib.escape(_data_br(_data_iso(novo)))}</span>'
+            f'<span class="novo-titulo">{html_lib.escape(novo["titulo"])}</span>'
+            f'<span class="novo-resumo">{resumo}</span><span class="slide-cta">Ler o artigo →</span></span></a></section>')
+
+
+def render_ultimos(artigos_por_pilar: dict, n: int = 6) -> str:
+    todos = [fm for itens in artigos_por_pilar.values() for fm in itens if _data_iso(fm)]
+    todos = sorted(todos, key=lambda f: (_data_iso(f), str(f.get("gerado_em") or "")), reverse=True)[1:n + 1]
+    if not todos:
+        return ""
+    cards = "".join(
+        f'<div class="card"><a class="card-link" href="/{fm["slug"]}">'
+        + (f'<img class="card-cover" src="/{fm["imagem_capa"]}" alt="{html_lib.escape(fm["titulo"])}">' if fm.get("imagem_capa") else "")
+        + f'<div class="card-body"><div class="card-data">{html_lib.escape(_data_br(_data_iso(fm)))}</div>'
+          f'<div class="card-title">{html_lib.escape(fm["titulo"])}</div></div></a></div>' for fm in todos)
+    return f'<section class="pilar-section" id="ultimos"><h2>Últimos artigos</h2><div class="card-grid">{cards}</div></section>'
+
+
 def render_carrossel(artigos_por_pilar: dict) -> str:
     """Banner rotativo no topo da home: cada slide divulga um artigo (config/home_destaques.yaml)."""
     cfg = ROOT / "config" / "home_destaques.yaml"
@@ -366,7 +418,8 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
             + (f'<img class="card-cover" src="/{fm["imagem_capa"]}" alt="{html_lib.escape(fm["titulo"])}">'
                if fm.get("imagem_capa") else
                f'<div class="card-cover" style="background:{visual["bg"]}">{visual["emoji"]}</div>')
-            + f'<div class="card-body"><div class="card-title">{html_lib.escape(fm["titulo"])}</div></div>'
+            + f'<div class="card-body"><div class="card-data">{html_lib.escape(_data_br(_data_iso(fm)))}</div>'
+            f'<div class="card-title">{html_lib.escape(fm["titulo"])}</div></div>'
             f'</a></div>'
             for fm in itens
         )
@@ -378,8 +431,10 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict) -> str:
 
     main = f"""{render_header(site["nome"], pilares)}
 <main class="home">
+{render_destaque_novo(artigos_por_pilar)}
 {render_carrossel(artigos_por_pilar)}
 <div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p></div>
+{render_ultimos(artigos_por_pilar)}
 {''.join(sections)}
 </main>
 {render_footer()}"""
