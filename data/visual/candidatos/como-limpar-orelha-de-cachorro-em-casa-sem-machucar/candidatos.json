@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 37375370,
+    "url_download": "https://images.pexels.com/photos/37375370/pexels-photo-37375370.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-dapple-dachshund-resting-indoors-37375370/",
+    "fotografo": "Peter Jochim",
+    "fotografo_url": "https://www.pexels.com/@peterjochim-fotografie",
+    "largura": 3504,
+    "altura": 2336,
+    "query": "dog ear cleaning close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-limpar-orelha-de-cachorro-em-casa-sem-machucar/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27863649,
+    "url_download": "https://images.pexels.com/photos/27863649/pexels-photo-27863649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-of-a-dog-with-a-white-and-brown-face-27863649/",
+    "fotografo": "Олександр К",
+    "fotografo_url": "https://www.pexels.com/@1609538911",
+    "largura": 5916,
+    "altura": 3943,
+    "query": "dog ear cleaning close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-limpar-orelha-de-cachorro-em-casa-sem-machucar/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17326731,
+    "url_download": "https://images.pexels.com/photos/17326731/pexels-photo-17326731.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/back-view-of-dog-head-17326731/",
+    "fotografo": "Sudhir Sangwan",
+    "fotografo_url": "https://www.pexels.com/@sudhirsangwan",
+    "largura": 5328,
+    "altura": 4000,
+    "query": "dog ear cleaning close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-limpar-orelha-de-cachorro-em-casa-sem-machucar/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6604130,
+    "url_download": "https://images.pexels.com/photos/6604130/pexels-photo-6604130.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/veterinarian-checking-the-ear-of-a-dog-using-surgical-scissors-6604130/",
+    "fotografo": "Ermelinda Maglione",
+    "fotografo_url": "https://www.pexels.com/@ermelinda-maglione-1106070",
+    "largura": 3872,
+    "altura": 2592,
+    "query": "dog ear cleaning close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-limpar-orelha-de-cachorro-em-casa-sem-machucar/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 26965522,
+    "url_download": "https://images.pexels.com/photos/26965522/pexels-photo-26965522.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-running-through-the-water-in-the-park-26965522/",
+    "fotografo": "Andrew Patrick Photo",
+    "fotografo_url": "https://www.pexels.com/@am83",
+    "largura": 7459,
+    "altura": 4973,
+    "query": "happy golden retriever shaking head",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-limpar-orelha-de-cachorro-em-casa-sem-machucar/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11472389,
+    "url_download": "https://images.pexels.com/photos/11472389/pexels-photo-11472389.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/golden-retriever-shaking-off-water-11472389/",
+    "fotografo": "gabesdotphotos photographer",
+    "fotografo_url": "https://www.pexels.com/@gabesphotos",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "happy golden retriever shaking head",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-limpar-orelha-de-cachorro-em-casa-sem-machucar/5.jpg"
+  }
+]

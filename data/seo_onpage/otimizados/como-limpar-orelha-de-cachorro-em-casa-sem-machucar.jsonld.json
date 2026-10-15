@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como limpar orelha de cachorro em casa sem machucar: guia prático",
+    "description": "Aprenda como limpar orelha de cachorro em casa sem machucar. Desmonte mitos comuns e siga um passo a passo prático para manter seu pet protegido.",
+    "datePublished": "2026-10-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-limpar-orelha-de-cachorro-em-casa-sem-machucar",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-limpar-orelha-de-cachorro-em-casa-sem-machucar"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-limpar-orelha-de-cachorro-em-casa-sem-machucar.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar soro fisiológico para limpar o ouvido do cão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é o ideal. O soro fisiológico é composto basicamente por água e cloreto de sódio. Ele não dissolve cerume à base de gordura e deixa o canal auditivo úmido por mais tempo, aumentando o risco de proliferação de fungos se a secagem não for impecável."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É obrigatório arrancar os pelos de dentro da orelha de algumas raças?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Isso é mito na maioria das vezes. Arrancar pelos gera microlesões e inflamação nos folículos. Salvo recomendação expressa do médico-veterinário em quadros específicos, o melhor é apenas aparar com tesoura sem ponta o excesso de pelos externos que bloqueiam a ventilação."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu cachorro começou a coçar muito a orelha logo após a limpeza. É normal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ele pode se coçar ou chacoalhar a cabeça por 1 ou 2 minutos pelo incômodo passageiro da umidade. Se a coceira persistir por horas, se ele gemer ao tocar na orelha ou andar com a cabeça inclinada para um dos lados, suspenda qualquer limpeza e leve o cão para ser avaliado clinicamente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar óleo de coco ou azeite de oliva para amolecer a cera?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evite totalmente. Óleos vegetais alimentícios formam uma película que impede a ventilação correta do canal e podem alimentar certas leveduras oportunistas já presentes na pele do cão. Utilize apenas ceruminolíticos veterinários próprios para evaporação e equilíbrio dérmico.  ---"
+        }
+      }
+    ]
+  }
+}
