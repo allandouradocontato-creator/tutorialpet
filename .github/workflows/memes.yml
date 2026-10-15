@@ -1,0 +1,58 @@
+name: Memes Tutorial Pet (Criador de Audiencia)
+
+on:
+  workflow_dispatch: {}
+  push:   # disparo sem token: acrescentar linha em config/memes_disparo.txt
+    branches: [main]
+    paths: ["config/memes_disparo.txt"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: memes
+  cancel-in-progress: false
+
+jobs:
+  produzir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencias
+        run: |
+          pip install pyyaml requests pillow
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Pasta de entrega (branch media)
+        run: git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+      - name: Montar memes
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          CLIPS_REGISTRO: /tmp/media/clips_usados.json
+        run: python agents/32_meme_pet/montar_meme.py /tmp/media 6
+      - name: Entregar (branch media; so os pacotes meme-*)
+        run: |
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add pacotes/meme-* clips_usados.json
+          git commit -m "memes: pacotes do Criador de Audiencia $(date -u +%F)" || echo "nada a commitar"
+          git pull --rebase origin media && git push origin media
+      - name: Registrar o que foi feito (main)
+        run: |
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add data/audiencia/memes_feitos.txt
+          git commit -m "memes: registro de feitos" || exit 0
+          git pull --rebase origin main && git push origin HEAD:main
+      - name: Amostra (artefato para conferir)
+        uses: actions/upload-artifact@v4
+        with:
+          name: memes
+          path: /tmp/media/pacotes/meme-*/video.mp4

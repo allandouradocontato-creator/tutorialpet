@@ -1,0 +1,11 @@
+# Fila de vídeos de meme/identificação do Criador de Audiência (ideias em data/audiencia/ideias.md).
+# Um item por vídeo de 8 s: clipe do animal CERTO (busca em inglês, só gato OU só cachorro), texto grande, carimbo, música.
+# status: pendente -> o workflow 'memes' produz e muda para produzido (registro em data/audiencia/memes_feitos.txt)
+# classe: liberada = vai direto; sensivel = só com ok do Allan (não entra aqui até aprovar)
+itens:
+  - {id: g1-confia-gato, classe: liberada, animal: gato, busca: "cat staring at camera", topo: "Dizem que não dá pra confiar em gato.", base: "Você confia?", legenda: "Gato é suspeito? Quem manda na sua casa?", artigo: "/por-que-o-gato-esconde-a-comida-na-tigela", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
+  - {id: g2-3h-da-manha, classe: liberada, animal: gato, busca: "cat running playing", topo: "Gato às 3h da manhã:", base: "\"Corre, tem um nada ali!\"", legenda: "Todo gato tem a sua hora do nada. Qual é a do seu?", artigo: "/como-socializar-filhote-de-gato", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
+  - {id: c2-saquinho, classe: liberada, animal: cachorro, busca: "cute dog ears up excited", topo: "Cachorro quando ouve o saquinho de ração:", base: "\"Eu nem tava com fome\"", legenda: "Qual som faz o seu correr?", artigo: "/como-trocar-a-racao-do-cachorro", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
+  - {id: c6-conta, classe: liberada, animal: cachorro, busca: "cute dog looking at camera", topo: "Cachorro olhando você comer:", base: "Quem está pagando a conta aqui?", legenda: "Seu cachorro faz esse olhar?", artigo: "/alimentos-proibidos-para-cachorro", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
+  - {id: g6-copo, classe: liberada, animal: gato, busca: "cat pushing object table", topo: "Gato derrubando o copo olhando pra você:", base: "Relação de confiança", legenda: "Seu gato já derrubou algo hoje?", artigo: "/como-fazer-o-gato-beber-mais-agua", tags: ["#gatos", "#humorpet", "#tutorialpet"]}
+  - {id: c3-banheiro, classe: liberada, animal: cachorro, busca: "dog sitting waiting door", topo: "Seu cachorro te acompanha até no banheiro?", base: "Segurança ou curiosidade?", legenda: "Acompanha até lá? Conta aqui.", artigo: "/ansiedade-de-separacao-em-caes", tags: ["#cachorros", "#humorpet", "#tutorialpet"]}
