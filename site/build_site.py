@@ -178,7 +178,7 @@ CSS = BASE_CSS
 
 
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
-    links = "".join(f'<a href="/#{key}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + '<a href="/tv">TV</a>'
+    links = "".join(f'<a href="/#{key}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + '<a href="/#pet-celebridade">Pet Celebridade</a><a href="/tv">TV</a>'
     return f"""<header class="site">
 <a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
@@ -309,6 +309,12 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                            f'📷 Ver o perfil oficial no Instagram (@{html_lib.escape(ig)})</button>'
                            f'<p class="image-credit">Conteúdo do perfil oficial, exibido pela incorporação do Instagram. <a href="https://www.instagram.com/{html_lib.escape(ig)}/">Abrir no Instagram</a></p></div>')
 
+    selo_celeb = ""
+    if fm.get("serie") == "pet-celebridade" and fm.get("artista"):
+        selo_celeb = (f'<div class="celeb-selo"><span class="celeb-serie">Pet Celebridade · Celebrity Pets</span>'
+                      f'<span class="celeb-nome">{html_lib.escape(str(fm["artista"]))}</span>'
+                      f'<span class="celeb-pet">e {html_lib.escape(str(fm.get("pet_nome", "o pet")))}, {html_lib.escape(str(fm.get("pet_raca", "seu melhor amigo")))}</span></div>')
+
     video_html = ""
     video_url = fm.get("video_url") or VIDEOS_ARTIGOS.get(slug)
     if video_url:
@@ -325,6 +331,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
     main = f"""{render_header(site["nome"], pilares)}
 {breadcrumb}
 <main class="article">
+{selo_celeb}
 {produto_faixa}
 {hero_img}
 {byline}
@@ -405,6 +412,23 @@ def render_destaque_novo(artigos_por_pilar: dict) -> str:
             f'<span class="novo-texto"><span class="novo-selo">Novo · {html_lib.escape(_data_br(_data_iso(novo)))}</span>'
             f'<span class="novo-titulo">{html_lib.escape(novo["titulo"])}</span>'
             f'<span class="novo-resumo">{resumo}</span><span class="slide-cta">Ler o artigo →</span></span></a></section>')
+
+
+def render_pet_celebridade(artigos_por_pilar: dict) -> str:
+    """Seção fixa 'Pet Celebridade · Celebrity Pets' (ordem do Allan, 15/10/2026): artista em destaque."""
+    itens = [fm for l in artigos_por_pilar.values() for fm in l if fm.get("serie") == "pet-celebridade" and fm.get("artista")]
+    itens.sort(key=lambda f: (_data_iso(f), str(f.get("gerado_em") or "")), reverse=True)
+    if not itens:
+        return ""
+    cards = "".join(
+        f'<div class="card celeb-card"><a class="card-link" href="/{fm["slug"]}">'
+        + (f'<img class="card-cover" src="/{fm["imagem_capa"]}" alt="{html_lib.escape(fm["titulo"])}">' if fm.get("imagem_capa") else "")
+        + f'<div class="card-body"><div class="celeb-nome-card">{html_lib.escape(str(fm["artista"]))}</div>'
+          f'<div class="card-title">{html_lib.escape(fm["titulo"])}</div>'
+          f'<div class="card-data">{html_lib.escape(_data_br(_data_iso(fm)))}</div></div></a></div>' for fm in itens)
+    return (f'<section class="pilar-section" id="pet-celebridade"><h2>Pet Celebridade <span class="pilar-tag">Celebrity Pets</span></h2>'
+            f'<p class="celeb-sub">O melhor amigo dos famosos: quem é o pet, a raça e o que ele ensina para o seu.</p>'
+            f'<div class="card-grid">{cards}</div></section>')
 
 
 def render_ultimos(artigos_por_pilar: dict, n: int = 6) -> str:
@@ -565,6 +589,7 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict, tv: list
 <main class="home">
 {render_tv_home(tv or [])}
 {render_destaque_novo(artigos_por_pilar)}
+{render_pet_celebridade(artigos_por_pilar)}
 {render_carrossel(artigos_por_pilar)}
 <div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p>{render_redes("Siga o Tutorial Pet")}</div>
 {render_ultimos(artigos_por_pilar)}

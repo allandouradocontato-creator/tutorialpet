@@ -204,6 +204,12 @@ header.site nav { flex: 1 1 auto; }
 .tv-flutuante { position: fixed; right: 14px; bottom: 14px; z-index: 900; display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 16px 8px 12px; border-radius: 999px; background: linear-gradient(100deg, #1c1c20, #3a3a44); color: #fff !important; text-decoration: none !important; font-weight: 800; font-size: .95rem; letter-spacing: .04em; box-shadow: 0 6px 18px rgba(0,0,0,.35); font-family: var(--font-body); }
 .tv-flutuante-ico { width: 28px; height: 28px; border-radius: 50%; background: #d62828; display: grid; place-items: center; font-size: 1rem; }
 .tv-flutuante:hover { filter: brightness(1.15); }
+.celeb-selo { margin: 12px 0; padding: 12px 16px; border-radius: 14px; background: #fff3e0; border-left: 6px solid #e8590c; }
+.celeb-serie { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #e8590c; }
+.celeb-nome { display: block; font-size: 2.1rem; font-weight: 900; line-height: 1.1; color: #1c1c20; }
+.celeb-pet { display: block; font-size: 1.05rem; color: #444; }
+.celeb-nome-card { font-size: 1.35rem; font-weight: 900; color: #e8590c; text-transform: uppercase; letter-spacing: .02em; }
+.celeb-sub { margin: -6px 0 12px; color: #555; }
 """
 
 # Cor de fundo do "card-cover" (placeholder até o agente de imagem existir) e emoji temático
