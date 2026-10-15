@@ -99,7 +99,8 @@ temas:
   data: '2026-10-15'
 - termo: como evitar bola de pelo em gato com escovacao
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-15'
 - termo: como escolher rampa pet para sofa e cama alta
   pilar: produtos_compras
   status: pendente
@@ -321,4 +322,13 @@ temas:
   status: pendente
 - termo: como lidar com a ansiedade de separacao em caes adultos recem adotados
   pilar: comportamento
+  status: pendente
+- termo: como escolher comedouro interativo lento para gatos com ansiedade
+  pilar: produtos_compras
+  status: pendente
+- termo: como montar um espaco vertical seguro para gatos idosos com artrose
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como apresentar um novo filhote de cachorro para gatos adultos experientes
+  pilar: primeiros_passos_filhotes
   status: pendente
