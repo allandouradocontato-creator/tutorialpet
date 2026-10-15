@@ -14,7 +14,7 @@ serie:
   regras:
     - "Só fatos públicos com link da fonte (entrevista, matéria, rede social oficial do artista). Nada inventado."
     - "Sem frases entre aspas que o artista não tenha dito; citação curta (até 15 palavras) com fonte ou paráfrase."
-    - "Sem foto do artista (direito de imagem). Imagem de capa = banco de fotos, raça igual ou parecida, com gente feliz."
+    - "FOTOS (ordem do Allan, 15/10/2026): o artigo deve mostrar o artista e o pet REAIS, com o nome do artista em destaque no título e no selo. Só por caminho legal: (1) foto com licença livre (Wikimedia Commons, CC BY/CC BY-SA ou domínio público) com crédito e link da licença; (2) incorporação OFICIAL da publicação do artista ou do pet no Instagram/TikTok (embed, só carrega no clique); (3) foto enviada pelo assessor com autorização escrita. Nunca copiar foto de agência (Getty, etc.), de portal de notícia nem print de rede social. Sem nenhuma dessas, usar foto de banco da mesma raça e marcar 'Foto ilustrativa: não é o animal citado' (frontmatter foto_ilustrativa: true). Foto do artista só em contexto editorial: nunca em anúncio, vídeo de venda ou post que sugira que ele aprova o Tutorial Pet ou o Sozinho em Casa."
     - "Sem sugerir que o artista aprova o blog ou os produtos. Deixar claro que é conteúdo editorial."
     - "Não incluir vida privada além do pet; não citar menores de idade; cuidado com notícia de morte de pet (tom respeitoso)."
     - "Conferir a fonte antes de publicar: o Auditor de Processo checa links e datas."
@@ -30,6 +30,10 @@ serie:
     artigo_do_blog_ligado: "cuidados com galgo/raças de pelo curto e frio; escolher no catalogo_tema_produto.yaml"
     observacao: "Conferir segunda fonte (Instagram oficial do pet) antes de publicar; sem foto da artista."
   - ordem: 2
+    artista: Latino
+    pet: Twelves (macaco)
+    observacao: "Pedido do Allan. ATENÇÃO: o macaco morreu em 2026 e há críticas de organização de proteção animal; a série não pode promover animal silvestre como pet. Ângulo sugerido: o que a história ensina (por que macaco não é pet) com tom respeitoso. Decidir com o Allan antes de produzir."
+  - ordem: 3
     artista: Xuxa
     pet: Doralice
     raca: yorkshire

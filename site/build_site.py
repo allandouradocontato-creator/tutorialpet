@@ -288,7 +288,8 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
         if fotografo and fonte_url:
             fonte_nome = (fm.get("imagem_fonte") or "").capitalize()
             hero_img += (f'<p class="image-credit">Foto: <a href="{html_lib.escape(fonte_url)}">'
-                         f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}</p>')
+                         f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}'
+                         + (' · Foto ilustrativa: não é o animal citado no texto' if fm.get("foto_ilustrativa") else '') + '</p>')
 
     video_html = ""
     video_url = fm.get("video_url") or VIDEOS_ARTIGOS.get(slug)
