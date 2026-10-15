@@ -559,11 +559,11 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict, tv: list
 
     main = f"""{render_header(site["nome"], pilares)}
 <main class="home">
+{render_tv_home(tv or [])}
 {render_destaque_novo(artigos_por_pilar)}
 {render_carrossel(artigos_por_pilar)}
 <div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p>{render_redes("Siga o Tutorial Pet")}</div>
 {render_ultimos(artigos_por_pilar)}
-{render_tv_home(tv or [])}
 {''.join(sections)}
 </main>
 {render_footer()}"""
