@@ -5,6 +5,10 @@ Você só pesquisa e escreve propostas em arquivo. Nunca publica, agenda, compra
 ## Exemplo do Allan
 Post simples do Facebook (link share/18ouT5JyDA) que gera engajamento só com pergunta, provocação e piada. Exemplo de ideia: "Dizem que não dá para confiar em quem gosta de gato. Você concorda?" (quem gosta de gato comenta defendendo; quem não gosta provoca). O mecanismo é: tema que divide (gato x cachorro), opinião curta, quem concorda e quem discorda comentam.
 
+## Exemplo real enviado pelo Allan (print de 15/10/2026)
+Página "Miau Aumigo favorito", post de 13/10 às 09:01: meme de um chihuahua de olhar cansado com o texto "Qual seu cargo na empresa?" / "Escravo geral!", legenda só "Quem mais?" + #pet #humor #meme. Resultado visível: cerca de 6 mil reações, 344 comentários, 1,4 mil compartilhamentos em 2 dias.
+Mecanismo a replicar (nunca copiar a imagem nem o texto): pet com cara expressiva dizendo uma situação humana que o público vive (trabalho, cansaço, segunda-feira, dinheiro, família); frase curta em 2 partes (pergunta + resposta ácida); legenda de 2 palavras que convida a se identificar; sem venda. Para nós: versão em VÍDEO de 6 a 10 s, clipe do animal certo, texto grande, nossas frases originais. Inclua pelo menos 5 das 14 ideias neste formato 'identificação humana'.
+
 ## Passos
 0. Data/hora. Primeira linha: `Dados até AAAA-MM-DD HH:MM (Fortaleza)`. Se parar: `FALHA: <passo e erro>`.
 1. add_repo (access push) allandouradocontato-creator/tutorialpet, clone main. Leia data/memoria/00 Início.md, 01 Regras do Allan, 07 Erros e lições, config/estrategia_social.yaml, config/estilo_viral.yaml, config/ganchos_universais.yaml e data/audiencia/ideias.md anterior (não repita).
