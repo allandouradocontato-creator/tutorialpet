@@ -130,6 +130,17 @@ def main() -> int:
     if not pv:
         ok.append("voz da Duda no padrão (eleven_v4, estabilidade 0.26)")
 
+    # 7) coerência de raça/espécie (regra do Allan, 15/10/2026): roda aqui, dentro da produção
+    try:
+        from core.coerencia import detectar, quadros_do_video, verificar_imagens
+        titulo = " ".join(str(x) for x in (slug, roteiro.get("titulo", ""), roteiro.get("tema", ""), roteiro.get("gancho_3s", "")))
+        especie, raca = detectar(titulo)
+        if (pkg / "video.mp4").exists() and (especie or raca):
+            ok_c, motivo = verificar_imagens(quadros_do_video(pkg / "video.mp4"), especie, raca)
+            (ok if ok_c else problemas).append(f"coerência {('raça ' + raca) if raca else ('espécie ' + especie)}: {motivo}")
+    except Exception as exc:  # noqa: BLE001
+        ok.append(f"coerência não verificada ({str(exc)[:80]})")
+
     status = "revisar" if problemas else "ok"
     parecer = {"status": status, "problemas": problemas, "ok": ok,
                "em": datetime.now(timezone.utc).isoformat(timespec="seconds")}

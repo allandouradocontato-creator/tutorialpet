@@ -34,6 +34,27 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
             shutil.copytree(origem, cand, dirs_exist_ok=True)
     if not (cand / "candidatos.json").exists():
         raise SystemExit(f"sem fotos candidatas para {slug}")
+    # coerência de raça/espécie da capa (regra do Allan, 15/10/2026): dentro da produção do artigo
+    try:
+        from core.coerencia import detectar, verificar_imagens
+        especie, raca = detectar(slug)
+        if especie or raca:
+            fotos = sorted(cand.glob("*.jpg"), key=lambda f: (f.stem != str(indice), f.stem))
+            for f in fotos:
+                ok_c, motivo = verificar_imagens([f.read_bytes()], especie, raca, primeira_obrigatoria=True)
+                print(f"[coerencia] capa {f.name}: {'ok' if ok_c else 'REPROVADA'} - {motivo}")
+                if ok_c and "não verificada" not in motivo:
+                    if f.stem != str(indice):
+                        print(f"[coerencia] trocando a capa {indice} pela {f.stem}")
+                        indice = f.stem
+                    break
+            else:
+                if raca:
+                    raise SystemExit(f"coerência: nenhuma foto candidata mostra a raça '{raca}' ({slug}); não publica com raça errada")
+    except SystemExit:
+        raise
+    except Exception as exc:  # noqa: BLE001
+        print("[coerencia] não verificada:", str(exc)[:100])
     py = sys.executable
     run([py, "agents/04_quality_editor/agent.py", "--site", SITE, "--slug", slug])   # rc!=0 = reprovado: não publica
     run([py, "agents/05_seo_onpage/agent.py", "--site", SITE, "--slug", slug])

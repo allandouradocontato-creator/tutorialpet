@@ -1,0 +1,41 @@
+name: Teste da coerencia de raca
+
+on:
+  push:
+    branches: [main]
+    paths: ["config/teste_coerencia_disparo.txt"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Testar visao (galgo de verdade x cachorros de outras racas)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import sys, urllib.request
+          sys.path.insert(0, ".")
+          from pathlib import Path
+          from core.coerencia import verificar_imagens
+          galgo = Path("data/visual/imagens/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jpg").read_bytes()
+          base = "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta/imagens_candidatas/"
+          outros = [urllib.request.urlopen(base + f"{i}.jpg").read() for i in (0, 1, 3)]
+          print("GALGO REAL (deve passar):", verificar_imagens([galgo], "cachorro", "galgo italiano"))
+          print("SAMOIEDA (deve reprovar):", verificar_imagens([outros[0]], "cachorro", "galgo italiano"))
+          print("SRD CARAMELO (deve reprovar):", verificar_imagens([outros[1]], "cachorro", "galgo italiano"))
+          print("WHIPPET/LURCHER (deve reprovar):", verificar_imagens([outros[2]], "cachorro", "galgo italiano"))
+          print("CACHORRO em artigo de GATO (deve reprovar):", verificar_imagens([galgo], "gato", ""))
+          PY
