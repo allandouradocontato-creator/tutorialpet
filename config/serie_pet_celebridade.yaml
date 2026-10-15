@@ -19,5 +19,21 @@ serie:
     - "Não incluir vida privada além do pet; não citar menores de idade; cuidado com notícia de morte de pet (tom respeitoso)."
     - "Conferir a fonte antes de publicar: o Auditor de Processo checa links e datas."
   fontes_preferidas: ["g1", "UAI", "CNN Brasil", "Purepeople", "Quem", "Instagram oficial do artista"]
-  fila_de_candidatos: []        # o agente de marketing preenche: artista, pet, raça, link da fonte
+  fila_de_candidatos:           # o agente de marketing preenche: artista, pet, raça, link da fonte
+  - ordem: 1
+    status: piloto_liberado_14_10   # Allan liberou o piloto para esta semana
+    artista: Anitta
+    pet: Plínio
+    raca: galgo italiano
+    fatos_conferidos: "7 anos; perfil próprio no Instagram (+200 mil seguidores); Pet do Ano no MTV Miaw 2019; looks da costureira Zilda Carvalho"
+    fonte: https://www.cnnbrasil.com.br/pop/conheca-6-caes-de-famosos-que-chamam-a-atencao-nas-redes-sociais/
+    artigo_do_blog_ligado: "cuidados com galgo/raças de pelo curto e frio; escolher no catalogo_tema_produto.yaml"
+    observacao: "Conferir segunda fonte (Instagram oficial do pet) antes de publicar; sem foto da artista."
+  - ordem: 2
+    artista: Xuxa
+    pet: Doralice
+    raca: yorkshire
+    fonte: https://www.cnnbrasil.com.br/pop/conheca-6-caes-de-famosos-que-chamam-a-atencao-nas-redes-sociais/
+    observacao: "Em 08/2026 houve notícia de morte de outro cachorro de Xuxa (UAI 20/08/2026); tom respeitoso e checar antes."
+
   ligacao_com_produto: "cada edição aponta para o artigo do blog da raça/tema e para o produto do catálogo (config/catalogo_tema_produto.yaml)"
