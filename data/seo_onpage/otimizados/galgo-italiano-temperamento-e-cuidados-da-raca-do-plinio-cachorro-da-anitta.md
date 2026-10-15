@@ -6,6 +6,13 @@ data: '2026-10-15'
 status: otimizado_seo
 foto_ilustrativa: true
 embed_instagram: pliniotheboss
+foto_artista:
+  arquivo: imagens/anitta-2023-damian-cervantes.jpg
+  legenda: A cantora Anitta, dona do Plínio, em entrevista em setembro de 2023.
+  autor: Damian Cervantes
+  fonte_url: https://commons.wikimedia.org/wiki/File:Anitta_september_2023.jpg
+  licenca: CC BY 3.0
+  licenca_url: https://creativecommons.org/licenses/by/3.0/
 slug: galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
 termo_origem: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da
   Anitta
