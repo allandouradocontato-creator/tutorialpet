@@ -187,6 +187,17 @@ main.tv { max-width: 760px; margin: 0 auto; padding: 16px; }
 footer.site { max-width: 1080px; margin: 40px auto 0; padding: 22px 20px 44px; font-size: 0.85rem;
   color: var(--color-text-muted); border-top: 1px solid var(--color-border); }
 footer.site a { color: var(--color-text-muted); margin-right: 14px; }
+/* ícones de seguir */
+.redes { margin: 16px 0; text-align: center; }
+.redes-titulo { font-weight: 700; margin: 0 0 8px; }
+.redes-lista { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+.rede { display: inline-flex; align-items: center; gap: 8px; color: #fff !important; text-decoration: none !important; padding: 9px 16px; border-radius: 999px; font-weight: 700; line-height: 1.1; }
+.rede span { display: flex; flex-direction: column; text-align: left; } .rede small { font-weight: 400; opacity: .85; font-size: .72rem; }
+.rede:hover { filter: brightness(1.12); transform: translateY(-1px); }
+.redes-compacto { margin: 0; } .redes-compacto .rede { padding: 7px; border-radius: 50%; }
+header.site { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; }
+header.site nav { flex: 1 1 auto; }
+.hero .redes { margin-top: 12px; }
 """
 
 # Cor de fundo do "card-cover" (placeholder até o agente de imagem existir) e emoji temático
@@ -199,3 +210,4 @@ PILAR_VISUAL = {
     "produtos_compras": {"bg": "#ece2ff", "emoji": "🛍️"},
 }
 PILAR_VISUAL_PADRAO = {"bg": "#efece5", "emoji": "🐾"}
+

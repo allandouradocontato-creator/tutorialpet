@@ -1,0 +1,5 @@
+# Redes do Tutorial Pet exibidas no blog (ícones de seguir). Deixe a url vazia para ocultar.
+redes:
+  - {nome: Instagram, url: "https://www.instagram.com/tutorialpetbr/", handle: "@tutorialpetbr"}
+  - {nome: TikTok, url: "https://www.tiktok.com/@tutorialpetbr", handle: "@tutorialpetbr"}
+  - {nome: Facebook, url: "", handle: "Tutorial Pet"}   # preencher com a URL da página (pendência: confirmar com o Allan)

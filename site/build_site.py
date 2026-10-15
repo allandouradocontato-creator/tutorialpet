@@ -179,6 +179,7 @@ def render_header(site_nome: str, pilares: dict[str, str]) -> str:
     return f"""<header class="site">
 <a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
+{render_redes(compacto=True)}
 </header>"""
 
 
@@ -187,7 +188,7 @@ def render_footer() -> str:
         f'<a href="/{slug}">{LEGAL_PAGES_TITULOS[slug]}</a>' for slug in LEGAL_PAGES_ORDER
     )
     ano = datetime.now(timezone.utc).year
-    return (f'<footer class="site">{links}<p>© {ano} Tutorial Pet — conteúdo informativo, '
+    return (f'<footer class="site">{render_redes()}{links}<p>© {ano} Tutorial Pet — conteúdo informativo, '
             f'não substitui orientação veterinária profissional.</p></footer>')
 
 
@@ -328,6 +329,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {body_html}
 {produto_faixa}
 {cta}
+{render_redes("Gostou? Siga o Tutorial Pet e receba um vídeo novo por dia")}
 </main>
 {render_footer()}"""
     return page_shell(titulo_seo, fm.get("meta_description", ""), canonical, "article", main, jsonld_scripts,
@@ -344,6 +346,29 @@ def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, 
 </main>
 {render_footer()}"""
     return page_shell(fm.get("titulo", slug), site["nicho"][:150], canonical, "website", main)
+
+
+# ---- Ícones de seguir (15/10/2026): redes do Tutorial Pet, com clique direto ----
+ICONE_REDE = {
+    "Instagram": '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/></svg>',
+    "TikTok": '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.4 2.4 2 4 4.5 4.3"/></svg>',
+    "Facebook": '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="#fff"><path d="M13.5 21v-7.5H16l.5-3h-3V8.7c0-.9.3-1.5 1.6-1.5h1.5V4.5c-.3 0-1.2-.1-2.2-.1-2.3 0-3.9 1.4-3.9 4v2.1H8v3h2.5V21z"/></svg>',
+}
+COR_REDE = {"Instagram": "#c13584", "TikTok": "#111111", "Facebook": "#1877f2"}
+
+
+def render_redes(titulo: str = "Siga o Tutorial Pet", compacto: bool = False) -> str:
+    cfg = ROOT / "config" / "redes_sociais.yaml"
+    redes = [r for r in ((load_yaml(cfg) or {}).get("redes", []) if cfg.exists() else []) if (r.get("url") or "").strip()]
+    if not redes:
+        return ""
+    itens = "".join(
+        f'<a class="rede" href="{html_lib.escape(r["url"])}" target="_blank" rel="noopener me" aria-label="Seguir o Tutorial Pet no {html_lib.escape(r["nome"])}" '
+        f'style="background:{COR_REDE.get(r["nome"], "#444")}">{ICONE_REDE.get(r["nome"], "")}'
+        + ("" if compacto else f'<span>{html_lib.escape(r["nome"])}<small>{html_lib.escape(r.get("handle", ""))}</small></span>') + '</a>'
+        for r in redes)
+    cab = "" if compacto else f'<p class="redes-titulo">{html_lib.escape(titulo)}</p>'
+    return f'<div class="redes{" redes-compacto" if compacto else ""}">{cab}<div class="redes-lista">{itens}</div></div>'
 
 
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
@@ -469,6 +494,7 @@ def build_tv_page(site: dict, pilares: dict, tv: list[dict]) -> str:
   <a id="tvLer" href="/">Ler o artigo completo →</a><span class="tv-prox">A seguir: <span id="tvProx"></span></span></div>
   <div class="tv-pe"></div>
 </div>
+{render_redes("Gostou da TV? Siga o Tutorial Pet")}
 <h2>Na programação</h2>
 <div class="tv-lista">{itens}</div>
 </main>
@@ -535,7 +561,7 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict, tv: list
 <main class="home">
 {render_destaque_novo(artigos_por_pilar)}
 {render_carrossel(artigos_por_pilar)}
-<div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p></div>
+<div class="hero"><h1>{html_lib.escape(site["nome"])}</h1><p>{html_lib.escape(site["nicho"])}</p>{render_redes("Siga o Tutorial Pet")}</div>
 {render_ultimos(artigos_por_pilar)}
 {render_tv_home(tv or [])}
 {''.join(sections)}
