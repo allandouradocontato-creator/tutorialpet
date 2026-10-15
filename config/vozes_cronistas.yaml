@@ -37,3 +37,6 @@ vozes:
   - id: iniciante_para_iniciante
     coluna: "Primeira Viagem"
     estilo: "De iniciante para iniciante: 'eu também não sabia disso'. Acolhe a insegurança sem julgar."
+  - id: humor_sabido
+    coluna: "Pet na Real"
+    estilo: "Bem-humorada e sabida, mas simples. Observação aguda do cotidiano do tutor, ironia carinhosa, uma virada inesperada no fim da frase, repertório culto sem pedantismo (uma referência por texto, no máximo). Nunca explica a piada. Serve para memes, legendas e aberturas de artigo."

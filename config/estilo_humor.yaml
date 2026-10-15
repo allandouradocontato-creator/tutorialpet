@@ -1,0 +1,20 @@
+# Padrão de texto dos memes, legendas e posts de humor (ordem do Allan, 15/10/2026): bem escrito, engraçado, inteligente e simples.
+# Referência = TÉCNICA de cronistas e humoristas bem-humorados e cultos (observação do cotidiano, ironia carinhosa, virada na última palavra).
+# NUNCA imitar nem citar pessoa real, nem copiar texto; só aprender a técnica. A voz é 'humor_sabido' (config/vozes_cronistas.yaml).
+tecnicas:
+  - "Observação específica: o detalhe real que todo tutor reconhece (o copo na beira da mesa, o 'tá com fome' de quem acabou de comer)."
+  - "Regra dos 3: duas coisas normais e a terceira absurda."
+  - "Virada na última palavra: a graça fica no fim da frase, nunca no meio."
+  - "Contraste de registro: palavra formal para situação boba ('relação de confiança', 'segurança patrimonial do sofá')."
+  - "Personificação: o pet fala, pensa e cobra como gente (cargo, reunião, contrato, hora extra)."
+  - "Ironia carinhosa: a piada é com o tutor e com a vida, nunca contra o pet, pessoa, grupo ou sofrimento."
+  - "Uma referência culta ou pop por texto, no máximo, e só se o leitor simples entende sem pesquisar."
+  - "Frase curta (até 12 palavras por linha na imagem), sem explicar a piada, sem emoji em excesso (máx. 1)."
+processo_por_texto:
+  - "Escreva 5 versões; escolha a mais engraçada e mais simples; descarte clichê (ex.: 'amor incondicional', 'melhor amigo do homem' sem virada)."
+  - "Teste: leia em voz alta; se precisa explicar, está ruim."
+  - "Cada texto nasce de um artigo do blog ou dá origem a um (campo artigo ou semente_artigo): a graça abre a porta e o artigo entrega o valor."
+  - "Cada texto rende três peças coerentes: a frase da imagem/vídeo, a legenda (uma linha a mais, com a pergunta) e a semente de artigo (título com termo de busca + ângulo)."
+polemica_leve:
+  - "Provocação sobre hábitos (gato x cachorro, tutor coruja) e trends do cotidiano: liberada."
+  - "Política partidária, religião, saúde humana, tragédia e crítica a pessoa real: sensível, vai ao Allan."
