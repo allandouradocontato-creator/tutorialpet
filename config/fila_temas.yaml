@@ -91,7 +91,8 @@ temas:
   data: '2026-10-15'
 - termo: como acostumar gato e cachorro a conviverem em paz
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-15'
 - termo: quais frutas cachorro pode comer no verao com seguranca
   pilar: alimentacao
   status: pendente
@@ -307,4 +308,10 @@ temas:
   status: pendente
 - termo: como tirar pelo de cachorro do sofa e da roupa
   pilar: cuidados_diarios
+  status: pendente
+- termo: quais cuidados diarios com caes senior de pelo curto
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como preparar a casa para a chegada de um filhote de gato
+  pilar: primeiros_passos_filhotes
   status: pendente
