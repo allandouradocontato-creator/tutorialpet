@@ -1,7 +1,7 @@
 # Estratégia social (Estrategista de Redes Sociais, 13/10/2026). Dados até 2026-10-13 10:30 (Fortaleza).
 # Para Agendador de Posts e Publicador. Só recomendação: nada aqui publica ou agenda sozinho.
 # Amostra pequena (contas novas, 0-942 views). Horários em America/Fortaleza. Fonte dos horários: Metricool getBestTimeToPostByNetwork (10-16/10).
-versao: 4
+versao: 5
 atualizado_em: "2026-10-13"
 status_publicacao:
   alerta: "Desde 10/10 11:00 todos os posts agendados estao em ERRO 'You have reached your Metricool account limit' (plano gratis = 20 posts/mes, help.metricool.com). Agendador/Publicador: conferir getScheduledPosts (status ERROR) antes de agendar mais; nao agendar ate o Allan decidir."
@@ -12,20 +12,21 @@ grade_metricool_14a20_out:   # getBestTimeToPost, Fortaleza; Instagram veio zera
   instagram: {todos: ["11:40","20:00"], nota: "sem dado; melhor alcance nosso 95 as 21:02; trocar apos 6 posts por horario"}
 horarios:
   regra: "REVISADO 09/10 (pedido do Allan: incluir a noite). Cada rede tem 2 slots: manha e noite, MESMOS todos os dias (benchmarks discordam por dia da semana). Nunca as 3 redes na mesma hora. Em teste A/B de 14 dias (10-23/10): ver teste_horarios. Nao vale como conclusao."
-  facebook: {manha: "10:00", noite: "19:00"}
-  tiktok: {manha: "10:20", noite: "20:20"}
-  instagram: {manha: "11:00", noite: "20:00"}   # IG sem dado proprio no Metricool (zerado); noite apoiada por benchmark Metricool 29/07/2026 (pico 20h, janela 18-21h)
+  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00"}
+  tiktok: {manha: "10:20", tarde: "14:20", noite: "20:20"}
+  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00"}   # IG sem dado proprio no Metricool (zerado); noite apoiada por benchmark Metricool 29/07/2026 (pico 20h, janela 18-21h)
   dias: [seg, ter, qua, qui, sex, sab, dom]
   base_dado_nosso: "Metricool getBestTimeToPost: FB pico 10-12h, 18h ~80%, 19h ~70-85%; TikTok pico 10h e 18h, 19h ~70%, 20h ~60%. Posts reais: amostra minuscula e confundida com tema/gancho."
   base_benchmark: "Metricool (TikTok 11/06/2026; IG/TikTok/FB 29/07/2026; fuso e pais nao informados), Loggi 09/02/2026 (TikTok noite, Brasilia, metodo nao informado). FB: benchmark aponta dia (10-14h). Sprout, Rock Content, Hootsuite nao lidos."
   anterior_v2: {facebook: ["10:00", "12:00"], tiktok_seg_sex: ["10:20", "18:20"], tiktok_fim_de_semana: ["10:20", "12:20"], instagram: ["11:00", "19:00"]}
-teste_horarios:
-  periodo: "2026-10-10 a 2026-10-23 (14 dias)"
-  desenho: "por rede, 1 video de manha e 1 a noite por dia = 14 pares; pares do mesmo tipo (animal e molde de gancho), artigos diferentes, nunca repetir o mesmo video; trocar a cada dia qual video vai de manha"
-  medir: "no mesmo relogio (24h e 48h): TikTok views, curtidas/views, shares; FB views, tempo assistido, reacoes; IG alcance, taxa de views 3s+"
-  decidir_no_dia_14: "noite vence se ganhar em >=9 dos 14 pares E mediana >=1,5x E diferenca >100 views (FB/TikTok) ou >20 de alcance (IG); empate = manter os 2 e testar 12:00/18:00"
-  parar_antes: "so se um braco render 0 em 5 pares seguidos"
-  fixos: "CTA e legenda fixos; so o horario muda"
+teste_horarios:   # REINICIADO em 14/10/2026 por decisao do Allan: teste de 7 dias, 3 videos/dia por rede (respostas mais rapidas)
+  periodo: "2026-10-15 a 2026-10-21 (7 dias; ate 21 videos por rede)"
+  formato_unico: "pergunta de dor concreta com cachorro ou gato, 38-44s (padrao dos nossos campeoes: banho de cachorro 848 views TikTok; agua do gato 949 FB e alcance 95 IG). Nada de gancho abstrato (131 views ou menos)."
+  desenho: "3 slots por dia e por rede (manha 10:00/10:20/11:00, tarde 14:00/14:20/15:00, noite 19:00/20:20/20:00); o mesmo video sai nas 3 redes escalonado; revezar qual tema vai em qual slot; CTA e legenda fixos; so o horario muda"
+  medir: "72h depois de cada post no mesmo relogio: TikTok views, curtidas/views, shares; FB views, tempo assistido, reacoes; IG alcance, taxa de views 3s+. Posts com menos de 48h = parcial."
+  decidir_no_dia_7: "por rede, o slot com maior mediana de views (minimo 5 posts por slot); diferenca >=1,5x vale; senao manter os 3 e testar outra grade"
+  parar_antes: "so se um slot render 0 em 4 posts seguidos"
+  proximo_teste: "fofura curta (8-15s, plano unico) contra pergunta de dor: precisa de nova producao de video; so apos este teste"
 hashtags:
   quantidade: {instagram: "3-5 (máximo 5 = limite oficial do Instagram desde 18/12/2025)", tiktok: "3-5 (#fyp/#viral não dão impulso)", facebook: "3 (Metricool 29/06/2026; fonte não oficial)"}
   estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla só IG/TikTok); nunca genéricas tipo #explorar #reels #viral #fyp"

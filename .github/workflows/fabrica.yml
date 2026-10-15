@@ -3,11 +3,13 @@ name: Fabrica Tutorial Pet
 on:
   schedule:
     - cron: "0 9 * * *"   # 06:00 em Fortaleza: pacote do turno A
-    - cron: "0 15 * * *"  # 12:00 em Fortaleza: pacote do turno B. 2 vídeos/dia: decisão do Allan 08/10/2026
+    - cron: "0 13 * * *"  # 10:00 em Fortaleza: pacote do turno B (teste de 7 dias: 3 vídeos/dia, decisão do Allan 14/10/2026)
+    - cron: "0 17 * * *"  # 14:00 em Fortaleza: pacote do turno C
     # Reservas (10/10/2026: a rodada das 06:00 simplesmente não disparou; o GitHub atrasa/descarta cron na hora cheia).
     # O job 'checar' pula a reserva se já houve rodada com sucesso nas últimas 4 h.
     - cron: "37 9 * * *"
-    - cron: "37 15 * * *"
+    - cron: "37 13 * * *"
+    - cron: "37 17 * * *"
   workflow_dispatch: {}
   push:                 # disparo sem token: acrescentar uma linha em config/fabrica_disparo.txt e dar push na main
     branches: [main]
@@ -32,11 +34,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           EVENTO: ${{ github.event_name }}
         run: |
-          # manual e push sempre rodam; agendado so roda se nao houve rodada com sucesso nas ultimas 4 h
+          # manual e push sempre rodam; agendado so roda se nao houve rodada com sucesso nas ultimas 2 h
           if [ "$EVENTO" != "schedule" ]; then echo "rodar=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-          desde=$(date -u -d '4 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          desde=$(date -u -d '2 hours ago' +%Y-%m-%dT%H:%M:%SZ)
           n=$(gh api "repos/${{ github.repository }}/actions/workflows/fabrica.yml/runs?status=success&created=>$desde&per_page=5" --jq '.workflow_runs | length' 2>/dev/null || echo 0)
-          echo "rodadas com sucesso nas ultimas 4h: $n"
+          echo "rodadas com sucesso nas ultimas 2h: $n"
           if [ "${n:-0}" -ge 1 ]; then echo "rodar=false" >> "$GITHUB_OUTPUT"; else echo "rodar=true" >> "$GITHUB_OUTPUT"; fi
 
   produzir:

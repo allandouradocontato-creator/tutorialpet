@@ -30,7 +30,8 @@ REPO_PADRAO = "allandouradocontato-creator/tutorialpet"
 # (um mesmo vídeo não sai nas 3 redes ao mesmo tempo; assim dá para ler o efeito do horário). Evitar 21h+.
 TURNOS = {
     "A": {"facebook": "10:00", "tiktok": "12:00", "instagram": "14:00"},
-    "B": {"facebook": "17:00", "tiktok": "18:00", "instagram": "20:00"},
+    "B": {"facebook": "14:00", "tiktok": "14:20", "instagram": "15:00"},
+    "C": {"facebook": "19:00", "tiktok": "20:20", "instagram": "20:00"},
 }
 LIMITE_DIA = len(TURNOS)
 ESTRATEGIA = ROOT / "config" / "estrategia_social.yaml"
@@ -50,9 +51,10 @@ def _ler_horarios() -> dict:
     out: dict = {}
     rede = None
     for linha in bloco.splitlines():
-        m = re.match(r'^  (facebook|instagram|tiktok):\s*\{manha:\s*"(\d\d:\d\d)",\s*noite:\s*"(\d\d:\d\d)"', linha)
+        m = re.match(r'^  (facebook|instagram|tiktok):\s*\{manha:\s*"(\d\d:\d\d)",\s*(?:tarde:\s*"(\d\d:\d\d)",\s*)?noite:\s*"(\d\d:\d\d)"', linha)
         if m:
-            out[m.group(1)] = {d: [m.group(2), m.group(3)] for d in DIAS_SEMANA}
+            hs = [m.group(2)] + ([m.group(3)] if m.group(3) else []) + [m.group(4)]
+            out[m.group(1)] = {d: list(hs) for d in DIAS_SEMANA}
             rede = None
             continue
         m = re.match(r"^  (facebook|instagram|tiktok):\s*$", linha)
@@ -73,12 +75,14 @@ def turnos_do_dia(dia: date) -> dict:
     try:
         h = _ler_horarios()
         d = DIAS_SEMANA[dia.weekday()]
-        a, b = {}, {}
-        for rede in ("facebook", "instagram", "tiktok"):
-            hs = sorted(h[rede][d])
-            a[rede], b[rede] = hs[0], hs[-1]
-        if all(a[r] != b[r] for r in a):
-            return {"A": a, "B": b}
+        redes = ("facebook", "instagram", "tiktok")
+        n = min(len(h[r][d]) for r in redes)          # 2 ou 3 horarios por dia (teste de 7 dias: 3)
+        if n >= 2:
+            res = {}
+            for i, nome in enumerate("ABC"[:n]):
+                res[nome] = {r: sorted(h[r][d])[i] for r in redes}
+            if all(len({res[t][r] for t in res}) == len(res) for r in redes):
+                return res
     except Exception as exc:  # noqa: BLE001
         print(f"AVISO: horarios do Estrategista indisponiveis ({type(exc).__name__}: {exc}); usando turnos fixos", file=sys.stderr)
     return TURNOS
@@ -103,9 +107,9 @@ def proximo_turno(agenda: dict, a_partir_de: date, agora: datetime | None = None
     agora = agora or agora_fortaleza()
     for delta in range(0, 60):
         dia = a_partir_de + timedelta(days=delta)
-        usados = {x for x in agenda.get(dia.isoformat(), []) if x in TURNOS}
+        usados = {x for x in agenda.get(dia.isoformat(), []) if x in "ABC"}
         for turno, horas in turnos_do_dia(dia).items():
-            if turno in usados or len(usados) >= LIMITE_DIA:
+            if turno in usados or len(usados) >= len(turnos_do_dia(dia)):
                 continue
             primeira = min(datetime.fromisoformat(f"{dia.isoformat()}T{h}:00") for h in horas.values())
             if primeira > agora + timedelta(minutes=30):
