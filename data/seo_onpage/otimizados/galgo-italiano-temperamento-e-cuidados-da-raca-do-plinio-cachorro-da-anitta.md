@@ -6,6 +6,7 @@ meta_description: 'Galgo italiano: temperamento e cuidados com a raça do Plíni
 data: '2026-10-15'
 status: otimizado_seo
 foto_ilustrativa: true
+embed_instagram: pliniotheboss
 slug: galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
 termo_origem: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da
   Anitta

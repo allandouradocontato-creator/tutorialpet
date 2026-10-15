@@ -291,6 +291,19 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                          f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}'
                          + (' · Foto ilustrativa: não é o animal citado no texto' if fm.get("foto_ilustrativa") else '') + '</p>')
 
+    extras_artista = ""
+    fa = fm.get("foto_artista")
+    if isinstance(fa, dict) and fa.get("arquivo"):
+        extras_artista += (f'<figure class="foto-artista"><img src="/{fa["arquivo"]}" alt="{html_lib.escape(str(fa.get("legenda", "")))}" loading="lazy">'
+                           f'<figcaption>{html_lib.escape(str(fa.get("legenda", "")))} Foto: <a href="{html_lib.escape(str(fa.get("fonte_url", "")))}">{html_lib.escape(str(fa.get("autor", "")))}</a>, '
+                           f'<a href="{html_lib.escape(str(fa.get("licenca_url", "")))}">{html_lib.escape(str(fa.get("licenca", "")))}</a>, via Wikimedia Commons.</figcaption></figure>')
+    ig = str(fm.get("embed_instagram") or "").strip()
+    if ig:
+        extras_artista += (f'<div class="ig-embed"><button type="button" class="btn" onclick="this.parentNode.innerHTML=\'<iframe src=&quot;https://www.instagram.com/{html_lib.escape(ig)}/embed&quot; '
+                           f'width=&quot;400&quot; height=&quot;480&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; loading=&quot;lazy&quot; allowtransparency=&quot;true&quot;></iframe>\'">'
+                           f'📷 Ver o perfil oficial no Instagram (@{html_lib.escape(ig)})</button>'
+                           f'<p class="image-credit">Conteúdo do perfil oficial, exibido pela incorporação do Instagram. <a href="https://www.instagram.com/{html_lib.escape(ig)}/">Abrir no Instagram</a></p></div>')
+
     video_html = ""
     video_url = fm.get("video_url") or VIDEOS_ARTIGOS.get(slug)
     if video_url:
@@ -310,6 +323,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {produto_faixa}
 {hero_img}
 {byline}
+{extras_artista}
 {video_html}
 {body_html}
 {produto_faixa}
@@ -428,9 +442,9 @@ def render_tv_home(tv: list[dict]) -> str:
 
 
 TV_JS = """<script>(function(){var p=document.getElementById('tvPlayer');if(!p)return;
-var it=[].slice.call(document.querySelectorAll('.tv-item')),t=document.getElementById('tvTitulo'),l=document.getElementById('tvLer'),i=0;
+var it=[].slice.call(document.querySelectorAll('.tv-item')),t=document.getElementById('tvTitulo'),l=document.getElementById('tvLer'),x=document.getElementById('tvProx'),i=0;
 function go(n,play){i=(n+it.length)%it.length;var b=it[i];p.poster=b.getAttribute('data-capa')||'';p.src=b.getAttribute('data-video');
-t.textContent=b.getAttribute('data-titulo');l.href='/'+b.getAttribute('data-slug');it.forEach(function(x){x.classList.remove('ativo')});b.classList.add('ativo');
+t.textContent=b.getAttribute('data-titulo');x.textContent=it[(i+1)%it.length].getAttribute('data-titulo');l.href='/'+b.getAttribute('data-slug');it.forEach(function(x){x.classList.remove('ativo')});b.classList.add('ativo');
 if(play){var r=p.play();if(r&&r.catch)r.catch(function(){})}}
 it.forEach(function(b,k){b.addEventListener('click',function(){go(k,true);p.scrollIntoView({behavior:'smooth',block:'center'})})});
 p.addEventListener('ended',function(){go(i+1,true)});go(0,false)})();</script>"""
@@ -446,11 +460,16 @@ def build_tv_page(site: dict, pilares: dict, tv: list[dict]) -> str:
           f'<span class="card-title">{html_lib.escape(v["titulo"])}</span></span></button>' for v in tv)
     corpo = f"""{render_header(site["nome"], pilares)}
 <main class="tv">
-<h1>Tutorial Pet TV</h1>
+<h1 class="tv-h1">📺 Tutorial Pet TV</h1>
 <p class="tv-sub">Vídeos curtos de cuidados com cães e gatos. Toque no play: ao terminar, o próximo começa sozinho.</p>
-<video id="tvPlayer" controls playsinline preload="none" style="width:100%;max-width:420px;display:block;margin:12px auto;background:#000;border-radius:12px;aspect-ratio:9/16"></video>
-<p class="tv-atual"><strong id="tvTitulo"></strong><br><a id="tvLer" href="/">Ler o artigo completo →</a></p>
-<h2>Na fila</h2>
+<div class="tv-set">
+  <div class="tv-topo"><span class="tv-logo">📺 TUTORIAL PET TV</span><span class="tv-no-ar"><i></i> NO AR</span></div>
+  <div class="tv-tela"><video id="tvPlayer" controls playsinline preload="none"></video></div>
+  <div class="tv-rodape"><span class="tv-rotulo">AGORA PASSANDO</span><strong id="tvTitulo"></strong>
+  <a id="tvLer" href="/">Ler o artigo completo →</a><span class="tv-prox">A seguir: <span id="tvProx"></span></span></div>
+  <div class="tv-pe"></div>
+</div>
+<h2>Na programação</h2>
 <div class="tv-lista">{itens}</div>
 </main>
 {render_footer()}{TV_JS}"""
