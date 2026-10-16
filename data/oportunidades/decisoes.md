@@ -5,3 +5,5 @@ Prazo: item pendente há mais de 7 dias sobe para o topo do resultado da Cobran�
 
 | ID | data | caçador | oferta e país | tipo | prova de venda | custo | dias economizados | recomendação | decisão pedida | status | decidido em |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+> 2026-10-16: regra da Triagem liberada pelo Allan; itens desta fila chegam ao Painel a cada rodada (ter/sex 11:11).
