@@ -12,3 +12,12 @@ Molde: vídeo do banho (994 views). 1 problema, resposta em 5 s, 12-20 s.
 1 usar a caixa de areia | 2 tirar cheiro de xixi no sofá | 3 dois gatos se darem bem | 5 arranhando o sofá | 6 usar o arranhador novo | 10 parar de subir na mesa | 11 amassa pãozinho | 12 saber se gosta do dono | 13 enterra ração/pote | 14 pelos nas roupas | 15 mia quando o dono chega | 16 acostumar com caixa de transporte | 17 dorme em cima do dono | 18 parar de morder/arranhar | 20 olha fixo para o nada
 ## Gato (saúde: com aviso de veterinário)
 4 miando a noite toda | 7 mau hálito | 8 não quer comer | 9 bebe pouca água (já testado: 577 e 281 views) | 19 sinais de estresse
+
+## Buscas REAIS que trouxeram view (TikTok Studio, 16/10/2026) — prioridade sobre a lista do Gemini
+- clorina pra dar banho no cão
+- Hidraver em pó (produto/uso no banho)
+- dou banho no cachorro e continua fedendo / porque dei banho e cachorro continuou fedendo
+- shampoo e condicionador para tirar odor forte de cachorro
+- sabonete para cachorro
+- quantas vezes o pinscher tem que comer
+Obs.: a aba Inspiration > Trending do Studio é global e não é de pet (só notícia/tendência geral); não serve de fonte de tema.
