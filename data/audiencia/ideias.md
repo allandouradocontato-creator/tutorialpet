@@ -1,35 +1,74 @@
-Dados até 2026-10-15 14:00 (Fortaleza)
-# Criador de Audiência — rodada 15/10/2026
-Limite: Facebook bloqueia leitura; achados vêm de matérias públicas (BNews, Ignite, TechCrunch). Amostra pequena e antiga: tratar como hipótese a testar, não prova. Só mecanismo, nada copiado.
-## Achados (link, data)
-- Tutor lista "manias" do galgo, personificação + referência pop: ~540 mil views. https://www.bnews.com.br/noticias/bnews-pet/tutor-expoe-manias-inusitadas-de-cachorro-e-viraliza-no-tiktok-assista.html (17/08/2023)
-- Cachorro tenta dividir a cama com o gato; público compara com "briga de casal": milhões de views. https://www.bnews.com.br/noticias/bnews-pet/discretamente-cachorro-tenta-dividir-cama-com-gato-e-felino-reage-assista.html (03/08/2022)
-- Gato (mediana 17) engaja mais que cachorro (12) no IG; foto com os dois juntos dobrou o do cachorro. https://www.ignitesocialmedia.com/social-media-analytics/cats-versus-dogs-instagram/ (06/09/2016, antigo)
-- Meta reduz alcance de post que PEDE curtida/comentário/marcação. https://techcrunch.com/?p=1579223 (18/12/2017)
+Dados até 2026-10-16 08:30 (Fortaleza)
+# Criador de Audiência — rodada 16/10/2026 (sexta, lote completo). Só proposta: nada publicado, agendado ou comentado.
+Limite: Facebook/IG/TikTok bloqueiam leitura; achados vêm de matérias públicas (BNews, TodoJujuy, Heidelberg24, AOL). Prova = número da matéria, não reverificado na plataforma. Amostra nossa minúscula.
+## Nosso placar (Zernio/Buffer, 16/10 08:20)
+Meme g1 "Gato é suspeito?" (8 s, 15/10 16:32): FB 281 views, 16 curtidas, 4 comentários (1,4%), 0 shares, 6 cliques, ret. 28% aos 12 s, PARCIAL (<24h); IG 17 views, 1 comentário, 93,8% pulam; TikTok: Buffer sem métrica (zerada), sem leitura. Único meme publicado: sem campeão.
+## Achados novos (link, data)
+- Pitbull com ciúme virou de costas: 10 mi+ views, 1,3 mi curtidas, 25 mil comentários (TikTok, 07/12/2021) https://www.bnews.com.br/noticias/bnews-pet/video-de-pitbull-com-ciume-de-tutor-viraliza-na-internet-e-soma-mais-de-100-milhoes-de-visualizacoes-assista.html (manchete diz 100 mi; corpo diz 10 mi: usei o corpo)
+- "Conversa séria" com cachorro que agarra visita: 170 mil curtidas, ~2 mil comentários (TikTok, 08/07/2024) https://www.bnews.com.br/noticias/bnews-pet/tutora-viraliza-com-conversa-seria-com-pet-apos-comportamento-inusitado-com-visitas-assista.html
+- Cão "apressa" tutora a sair de um lugar: 350 mil views, 18 mil curtidas no X (matéria de 19/01/2025) https://www.maisgoias.com.br/entretenimento/cachorro-apressando-tutora-a-sair-de-igreja-viraliza-na-web-assista-ao-video/
+- Radar EUA: golden derruba a tigela e deita na poça: 13,1 mi views, 887 mil curtidas (TikTok, matéria 07/02/2025) https://www.todojujuy.com/sociedad/un-perro-transformo-su-plato-agua-una-pileta-y-el-video-fue-viral-redes-n264385
+- Radar Alemanha: gata "dança" na porta de vidro pedindo para entrar: 12,5 mi views, 10,6 mil comentários (TikTok, matéria 06/09/2022) https://www.heidelberg24.de/ratgeber/katze-ketty-tanzeinlage-beat-sandstorm-dj-darude-90er-jahre-hit-tiktok-viral-kommentare-zr-91766707.html
+- Radar Argentina: gata adota filhote de cachorro como filho: ~2 mi plays no X (27/11/2023) https://www.todojujuy.com/sociedad/gata-cria-un-perrito-como-si-fuese-su-hijo-y-se-viraliza-redes-n243302
+- Sem número (só mecanismo, não conta como prova): dono conta piada ao gato, espera, gargalha; gato foge (AOL, 26/10/2025) https://www.aol.com/articles/tiktoks-latest-trend-shows-cats-155000947.html
+## Trends do dia (Google Trends BR, 24h, página sem data: conferir antes de produzir; trends24 estava velho, descartado) https://trends.google.com/trending?geo=BR&hl=pt-BR
+T1 "6x1" (500 mil+ buscas; Senado discute a PEC, 3 de 5 sessões em 08/10; https://www.opovo.com.br/noticias/economia/2026/10/09/alcolumbre-sinaliza-que-pode-acelerar-6x1.html): vale até a votação; ATENÇÃO é ativo eleitoral (2º turno 25/10) -> ver C7.
+T2 Mega-Sena (100 mil+): vale até o próximo sorteio (confirmar data): G5. T3 Futebol de quarta/quinta (Palmeiras x Fluminense, Roma x Real Madrid, "goleiro"): perdeu se o jogo já passou; ideia reserva "cachorro goleiro" só se confirmar data. "Dia do professor" (15/10): perdeu.
+SEO (relatório 15/10): usei "cachorro pode comer banana", "gato miando de madrugada", "quanto tempo gato filhote fica sozinho" como pauta de pergunta; fila_temas só por proposta (abaixo).
 ## Banco de formatos (gancho-modelo | por que comenta | nosso jeito)
-1. Provocação gato x cachorro: "Quem tem gato é mais [X]" | dois lados defendem a tribo | texto na tela + gato ou cachorro olhando a câmera
-2. Pergunta de preferência: "Gato ou cachorro: quem manda na casa?" | todo mundo tem lado | clipe dos dois lado a lado
-3. Mania do pet (lista de 1 item): "Meu cachorro julga meu chinelo" | identificação ("o meu também") | 1 mania por vídeo, plano único
-4. Pet age como humano: "Gato com cara de segunda-feira" | piada compartilhável | clipe de cara emburrada
-5. Briga de casal pet: "Cachorro chegando devagar na cama do gato" | comparação com relações humanas | cena sorrateira
-6. Confissão do tutor: "Admita: você já falou de dieta com seu gato" | confessar em comentário | pergunta curta + gato atento
-7. Verdade ou mito leve: "Gato não gosta de ninguém. Mito ou verdade?" | defesa e provocação | sem alegação veterinária
-8. Comparação absurda: "Cachorro: 'cheguei!' Gato: 'quem?'" | dois comportamentos opostos | 2 cortes, cada animal certo
-9. Ranking de tutor: "Nota de 0 a 10 pra sua paciência com o pet de manhã" | número vira resposta | texto grande, clipe fofo
-10. Tribo: "Time cachorro ou time gato? Só uma regra: sem trair" | pertencimento | clipes alternados, carimbo no canto
-## Lote de 14 ideias (post até 140 car. | vídeo 6-10 s | legenda | pergunta | ligação)
-G1 prov. | "Dizem que não dá pra confiar em gato. Você confia?" | gato encarando; texto grande | Gato é suspeito? | Quem manda aí? | /por-que-o-gato-esconde-a-comida-na-tigela.html
-G2 piada | "Gato às 3h da manhã: 'corre, tem um nada ali'" | gato correndo em casa | Todo gato tem hora do nada | Qual é a hora do seu? | /como-socializar-filhote-de-gato.html
-G3 perg. | "Seu gato te ignora ou só finge que não liga?" | gato de costas, vira o rosto | Charme felino | Ignora ou finge? | /gato-arranhando-o-sofa.html
-G4 prov. | "Gato não é independente. Ele só tem ótima assessoria." | gato deitado no sol | Verdade ou exagero? | Seu gato é independente? | /quantas-vezes-por-dia-alimentar-gato.html
-G5 perg. | "Qual é o lugar proibido onde seu gato sempre vai?" | gato em cima de algo que não devia | Todo gato tem um | Qual é o seu? | /arranhador-para-gato-qual-escolher.html
-G6 piada | "Gato derrubando o copo olhando pra você: relação de confiança" | gato empurrando objeto leve | Teste de confiança | Seu gato já derrubou algo hoje? | /como-fazer-o-gato-beber-mais-agua.html
-G7 perg. | "Gato ou cachorro: quem você escolheria pra dormir na cama?" | gato e cachorro juntos (clipe dos dois) | Só um pode | Quem vence? | /primeiros-dias-do-filhote-em-casa.html
-C1 prov. | "Cachorro não entende hora: 5 min fora de casa é a eternidade" | cachorro na porta | Verdade? | Como é a volta aí? | Sozinho em Casa (natural): sozinho.tutorialpet.com.br
-C2 piada | "Cachorro quando ouve o saquinho de ração: 'eu nem tava com fome'" | cachorro animado, orelha em pé | Ele não tava com fome | Qual som faz o seu correr? | /como-trocar-a-racao-do-cachorro.html
-C3 perg. | "Seu cachorro te acompanha até no banheiro?" | cachorro sentado na porta | Segurança ou curiosidade? | Acompanha até lá? | /ansiedade-de-separacao-em-caes.html
-C4 prov. | "Cachorro grande acha que cabe no colo. E tá certo." | cachorro grande deitado em alguém (sem pessoa: só patas/colo) | Tamanho é detalhe | Quem tem cachorrão assim? | /coleira-ou-peitoral-para-cachorro.html
-C5 perg. | "Qual palavra faz seu cachorro ficar louco: passeio, petisco ou banho?" | cachorro de cabeça inclinada | Só uma | Qual é a do seu? | /com-que-frequencia-dar-banho-em-cachorro.html
-C6 piada | "Cachorro olhando o tutor comer: quem está pagando a conta aqui?" | cachorro olhando fixamente | Olhar que cobra | Seu cachorro faz isso? | /alimentos-proibidos-para-cachorro.html
-C7 perg. | "Time cachorro: qual é a coisa mais fofa que o seu faz?" | filhote ou adulto balançando o rabo | Fofura vale mais | Qual é a sua? | /brinquedos-para-cachorro-que-fica-sozinho.html
-Regras ok: só vídeo; animal e raça do clipe batem com o texto (C7/G7: confirmar clipes dos DOIS animais); sem comando de curtir/comentar/marcar; sem alegação veterinária; sem doação/abrigo/doença; carimbo Tutorial Pet.
+1 Eu: [anúncio] / Pet: [cara fechada] | identificação | topo+base, clipe de cara séria (prova BR 1,5 mi)
+2 Vingança silenciosa | todo tutor tem história | "Se eu [X], o pet [Y]" (prova 2,8 mi)
+3 Conversa séria com o pet | cena reconhecível | tutor sério, pet sem ligar (170 mil curtidas)
+4 Pet narrado como esporte | exagero | "nota dos jurados" (813 mil views)
+5 Mania nº X | "o meu também" | 1 mania por clipe (540 mil)
+6 Pet pede para entrar/sair | rotina de apartamento | plano único na porta (12,5 mi, DE)
+7 Briga de casal gato x cachorro | tribos | clipe dos DOIS animais
+8 Isso ou aquilo (enquete) | escolher lado | 2 opções curtas, sem comando
+9 Confissão do tutor | comentar sem se expor | pergunta de "sinceridade"
+10 Trend do cotidiano (dinheiro, trabalho) | todo mundo opina | frase de identificação
+## Lote de 14 (7 gato, 7 cachorro; 70% = 10 com prova, 4 testes). Classe: L=liberada, S=sensível. Slots extras: E1 FB12:00/TT12:20/IG12:40, E2 FB16:30/TT16:50/IG17:10, E3 FB18:00/TT18:20/IG18:40
+G1 piada|vídeo|L|F1 prova 1,5 mi|identificação: "Eu: 'Hoje vem visita.' O gato: 'Não fui consultado.'"
+ ↳ descartadas: "Gato recebe visita como síndico recebe obra." / "Visita é só um móvel que fala." CTA A: "Seu gato aprova visitas?" B: "Qual é a cara do seu quando a campainha toca?" | semente: "gato escondido quando chega visita: o que fazer" -> /como-socializar-filhote-de-gato (novo artigo possível) | tags #gatos #humorpet #tutorialpet | E1
+G2 piada|imagem|L|F2 prova 2,8 mi|identificação: "Dormi dez minutos a mais. O gato abriu reclamação formal."
+ ↳ descartadas: "Atraso de dez minutos gerou multa em ração." / "O gato cobra pontualidade que ele não pratica." CTA A: "A que horas o seu manda na sua manhã?" B: "Seu gato tem despertador ou só má fé?" | semente: "gato acordando de madrugada: como lidar" (SEO "gato miando de madrugada") novo | #gatos #humorpet #tutorialpet | E1
+G3 pergunta|imagem|L|F3 prova 276 mil curtidas|"Eu explicando por que ele não sobe na mesa. O gato, na mesa."
+ ↳ descartadas: "Reunião sobre regras. Ata assinada pelo gato: ignorada." / "Expliquei com calma. Ele ouviu com a mesa." CTA A: "Quem aí já deu bronca e ouviu o silêncio?" B: "Em que lugar proibido o seu está agora?" | semente: "como ensinar o gato a sair da mesa" -> /arranhador-para-gato-qual-escolher | #gatos #humorpet #tutorialpet | E2
+G4 piada|vídeo|L|RADAR Alemanha 12,5 mi (origem: DE, plano único gato na porta de vidro, link acima)|apartamento: "Gato na porta, 7h: 'Abre, é urgente.' Abriu: 'Nem queria.'"
+ ↳ descartadas: "Porta fechada é injustiça. Porta aberta é suspeita." / "Entra, sai, entra: ele só audita." Por que funciona aqui: apartamento/varanda é rotina BR; sem o áudio do original, só o formato; descarto o que é exclusivo de lá. CTA A: "O seu também fica na porta decidindo?" B: "Quantas vezes por dia você é porteiro?" | semente: "gato que mia na porta: o que quer?" novo | #gatos #humorpet #tutorialpet | E2
+G5 piada|imagem|L|TESTE (trend Mega-Sena)|"Se eu ganhar na Mega-Sena, o gato exige uma coisa: ração no mesmo horário."
+ ↳ descartadas: "Se eu ganhar na Mega, o gato demite o sofá velho." / "Ganhei na Mega. O gato: 'E o pote?'" CTA A: "Qual seria a primeira exigência do seu?" B: "Seu gato aceitaria mudar de horário?" | semente: "horário fixo de ração para gato" -> /quantas-vezes-por-dia-alimentar-gato | #gatos #humorpet #tutorialpet | E3 (produzir hoje; vale até o sorteio, confirmar data)
+G6 enquete|imagem|L|TESTE (isso ou aquilo)|"Caixa de R$ 300 ou a caixa em que ela veio? O gato já decidiu."
+ ↳ descartadas: "Comprei cama de gato. Ele escolheu a embalagem." / "Isso ou aquilo: o gato sempre escolhe o grátis." CTA A: "Cama nova ou caixa velha: qual o seu escolheu?" B: "Qual foi o maior desperdício que o seu desprezou?" | semente: "cama ou caixa de papelão: por que o gato prefere" novo | #gatos #humorpet #tutorialpet | E3
+G7 pergunta|vídeo|L|RADAR Argentina ~2 mi + F6 BR|"O gato da casa tem cargo. O cachorro novo ainda não sabe qual."
+ ↳ descartadas: "Cachorro novo chegou. O gato pediu o regimento." / "Hierarquia: gato em cima, cachorro em dúvida." Clipe: gato e cachorro (confirmar os DOIS animais) CTA A: "Quem é o gerente aí em casa?" B: "Quanto tempo levou para eles se entenderem?" | semente: "gato e cachorro: como apresentar" -> /como-fazer-cachorro-idoso-aceitar-um-filhote-novo | #gatos #cachorros #humorpet #tutorialpet | E1
+C1 piada|vídeo|L|RADAR EUA 13,1 mi (golden e tigela, link acima)|calor: "38 graus. O cachorro achou a piscina: a tigela d'água."
+ ↳ descartadas: "Cachorro e a tigela: dois minutos de bebida, dez de natação." / "Verão em Fortaleza: tigela vira clube." Por que aqui: calor e apartamento; sem alegação de saúde. CTA A: "Qual é o jeito do seu se refrescar?" B: "Tigela cheia ou tigela vazada: qual o seu prefere?" | semente: "cachorro e calor: como refrescar em casa" -> /com-que-frequencia-dar-banho-em-cachorro | #cachorros #humorpet #tutorialpet | E1
+C2 pergunta|vídeo|L|F3-b conversa séria 170 mil curtidas|"Tivemos uma conversa séria sobre o sofá. Ele concordou com tudo."
+ ↳ descartadas: "Conversa franca. Ele assinou embaixo e mastigou o contrato." / "Falei de limite. Ele ouviu de olho no chinelo." CTA A: "Você também já conversou sério com o seu?" B: "Qual regra o seu aceita e esquece em cinco minutos?" | semente: "cachorro destruindo o sofá: o que fazer" -> /como-fazer-filhote-de-cachorro-parar-de-morder | #cachorros #humorpet #tutorialpet | E2
+C3 pergunta|vídeo|L|F10 cão apressa tutora 350 mil views|passeio: "Tutor encontrou um conhecido na calçada. O cachorro: 'Isso é bom-dia de 40 minutos?'"
+ ↳ descartadas: "Dois adultos conversando. Um cachorro cronometrando." / "Papo de calçada é a reunião que podia ser latido." CTA A: "Quanto tempo o seu aguenta esperar na calçada?" B: "Seu cachorro puxa a guia quando você para?" | semente: "cachorro puxando a guia: o que fazer" (SEO) -> /coleira-ou-peitoral-para-cachorro | #cachorros #humorpet #tutorialpet | E3
+C4 piada|imagem|L|F5 mania 540 mil|"Mania nº 2 do meu cachorro: três voltas antes de deitar, como quem assina contrato."
+ ↳ descartadas: "Três voltas e um suspiro: a cama foi inspecionada." / "Ele só deita depois do laudo." CTA A: "Quantas voltas o seu dá?" B: "Qual é a mania que só o seu tem?" | semente: "por que o cachorro gira antes de deitar" novo | #cachorros #humorpet #tutorialpet | E1
+C5 piada|vídeo|L|F4 esporte 813 mil|"Porta do carro abriu. Salto de um metro e meio. Jurados: nota dez."
+ ↳ descartadas: "Final olímpica: da calçada ao banco de trás." / "Atleta do passeio entra em campo." CTA A: "Que prova olímpica o seu pratica?" B: "Qual palavra faz o seu virar atleta?" | semente: "cachorro no carro: como levar com segurança" -> /com-quantos-meses-o-cachorro-pode-sair-na-rua | #cachorros #humorpet #tutorialpet | E2
+C6 enquete|imagem|L|TESTE (confissão)|"Sinceridade: o cachorro dorme no pé da cama ou no seu travesseiro?"
+ ↳ descartadas: "Cama de casal tem três: você, o parceiro e a posição dele." / "O pé da cama é o terceiro adulto da casa." CTA A: "Pé, meio ou travesseiro: onde o seu fica?" B: "Quem acorda mais torto nessa casa?" | semente: "cachorro dormindo na cama: pode?" novo (SEO) | #cachorros #humorpet #tutorialpet | E3
+C7 pergunta|imagem|TESTE|trend 6x1: versão NEUTRA é L; versão com "6x1" é S (Allan decide)|"Meu tutor trabalha o mês inteiro. Eu cuido da porta, do sofá e do pote em tempo integral."
+ ↳ descartadas: "Tutor em expediente. Eu em plantão de porta, 24 horas." / "O tutor bate ponto. Eu bato rabo." CTA A: "Qual é o cargo do seu pet enquanto você trabalha?" B: "O seu faz plantão na porta?" | semente: "cachorro sozinho em casa enquanto você trabalha" -> /quanto-tempo-um-cachorro-pode-ficar-sozinho + Sozinho em Casa (natural, sozinho.tutorialpet.com.br) | #cachorros #humorpet #tutorialpet | E3
+## Propostas para config/memes_pet.yaml (formato do arquivo; você copia) — marca "formato" quando imagem
+- {id: p1-visita, formato: video, classe: liberada, animal: gato, busca: "annoyed cat staring at camera living room", topo: "Eu: \"Hoje vem visita.\"", base: "O gato: \"Não fui consultado.\"", legenda: "Seu gato aprova visitas?", artigo: /como-socializar-filhote-de-gato}
+- {id: p2-dez-minutos, formato: imagem, classe: liberada, animal: gato, busca: "cat staring at bed morning cute", topo: "Dormi dez minutos a mais.", base: "O gato abriu reclamação formal.", legenda: "A que horas o seu manda na sua manhã?", artigo: /quantas-vezes-por-dia-alimentar-gato}
+- {id: p3-mesa, formato: imagem, classe: liberada, animal: gato, busca: "cat sitting on table indoors cute", topo: "Eu explicando por que ele não sobe na mesa.", base: "O gato, na mesa.", legenda: "Quem aí já deu bronca e ouviu o silêncio?", artigo: /arranhador-para-gato-qual-escolher}
+- {id: p4-porta, formato: video, classe: liberada, animal: gato, busca: "cat at glass door wanting to come in", topo: "Gato na porta, 7h: \"Abre, é urgente.\"", base: "Abriu: \"Nem queria.\"", legenda: "O seu também fica na porta decidindo?", artigo: /como-socializar-filhote-de-gato}
+- {id: p5-mega, formato: imagem, classe: liberada, animal: gato, busca: "cat waiting by food bowl indoors", topo: "Se eu ganhar na Mega-Sena, o gato exige uma coisa:", base: "Ração no mesmo horário.", legenda: "Qual seria a primeira exigência do seu?", artigo: /quantas-vezes-por-dia-alimentar-gato}
+- {id: p6-caixa, formato: imagem, classe: liberada, animal: gato, busca: "cat sitting in cardboard box", topo: "Caixa de R$ 300 ou a caixa em que ela veio?", base: "O gato já decidiu.", legenda: "Cama nova ou caixa velha: qual o seu escolheu?", artigo: /arranhador-para-gato-qual-escolher}
+- {id: p7-cargo-casa, formato: video, classe: liberada, animal: gato, busca: "cat and dog together living room", topo: "O gato da casa tem cargo.", base: "O cachorro novo ainda não sabe qual.", legenda: "Quem é o gerente aí em casa?", artigo: /como-fazer-cachorro-idoso-aceitar-um-filhote-novo}
+- {id: p8-tigela, formato: video, classe: liberada, animal: cachorro, busca: "golden retriever lying in water bowl spill", topo: "38 graus.", base: "O cachorro achou a piscina: a tigela d'água.", legenda: "Qual é o jeito do seu se refrescar?", artigo: /com-que-frequencia-dar-banho-em-cachorro}
+- {id: p9-conversa, formato: video, classe: liberada, animal: cachorro, busca: "dog looking away sofa home", topo: "Tivemos uma conversa séria sobre o sofá.", base: "Ele concordou com tudo.", legenda: "Você também já conversou sério com o seu?", artigo: /como-fazer-filhote-de-cachorro-parar-de-morder}
+- {id: p10-calcada, formato: video, classe: liberada, animal: cachorro, busca: "dog waiting on leash sidewalk", topo: "Tutor encontrou um conhecido na calçada.", base: "O cachorro: \"Isso é bom-dia de 40 minutos?\"", legenda: "Quanto tempo o seu aguenta esperar na calçada?", artigo: /coleira-ou-peitoral-para-cachorro}
+- {id: p11-voltas, formato: imagem, classe: liberada, animal: cachorro, busca: "dog turning around before lying down bed", topo: "Mania nº 2 do meu cachorro:", base: "Três voltas antes de deitar, como quem assina contrato.", legenda: "Quantas voltas o seu dá?", artigo: /primeiros-dias-do-filhote-em-casa}
+- {id: p12-salto, formato: video, classe: liberada, animal: cachorro, busca: "dog jumping into car happy", topo: "Porta do carro abriu. Salto de um metro e meio.", base: "Jurados: nota dez.", legenda: "Que prova olímpica o seu pratica?", artigo: /com-quantos-meses-o-cachorro-pode-sair-na-rua}
+- {id: p13-cama, formato: imagem, classe: liberada, animal: cachorro, busca: "dog sleeping on bed foot cute", topo: "Sinceridade: o cachorro dorme no pé da cama", base: "ou no seu travesseiro?", legenda: "Pé, meio ou travesseiro: onde o seu fica?", artigo: /como-evitar-que-o-filhote-chore-a-noite}
+- {id: p14-plantao, formato: imagem, classe: liberada, animal: cachorro, busca: "dog waiting at door home", topo: "Meu tutor trabalha o mês inteiro.", base: "Eu cuido da porta, do sofá e do pote em tempo integral.", legenda: "Qual é o cargo do seu pet enquanto você trabalha?", artigo: /quanto-tempo-um-cachorro-pode-ficar-sozinho}
+## Pauta para o SEO (proposta; fila_temas não editada): "gato miando de madrugada" (G2), "gato na porta/varanda" (G4), "cachorro dormindo na cama" (C6), "cachorro puxando a guia" (C3), "cachorro e calor" (C1), "por que o cachorro gira antes de deitar" (C4)
+Regras ok: sem comando de curtir/comentar/marcar; sem alegação veterinária; sem pessoa real, política, saúde, luto; frases todas reescritas (nenhuma "frase popular" usada); clipes e imagens nossos (Pexels/fábrica). Fluxo: C7 (versão com 6x1) = sensível, ver decisão.
