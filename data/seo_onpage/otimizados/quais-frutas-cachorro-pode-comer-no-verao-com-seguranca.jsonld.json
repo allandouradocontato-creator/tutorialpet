@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quais frutas cachorro pode comer no verao com seguranca: guia prático",
+    "description": "Quais frutas cachorro pode comer no verao com seguranca: guia prático. Quando os dias quentes chegam, a gente só quer saber de se refrescar com uma...",
+    "datePublished": "2026-10-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Pode dar maçã com casca para o cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, mas lave muito bem e retire completamente o cabo e as sementes, pois elas contêm substâncias tóxicas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantas vezes por semana posso dar fruta?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, de duas a três vezes por semana é um bom começo, sempre em pequenas porções e com orientação do médico-veterinário do pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cachorro pode comer manga?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, a polpa da manga é segura, desde que você remova totalmente o caroço grande que apresenta risco de engasgo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que fazer se o cachorro recusar a fruta?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não force. Cada cão tem seu paladar próprio, e está tudo bem se ele preferir continuar apenas com a rotina normal de comidinhas."
+        }
+      }
+    ]
+  }
+}

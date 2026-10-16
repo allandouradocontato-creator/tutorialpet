@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como evitar bola de pelo em gato com escovacao: guia prático",
+    "description": "Descubra como evitar bola de pelo em gato com escovação eficiente, escolhendo as escovas certas e sem transformar a rotina em um ringue caseiro.",
+    "datePublished": "2026-10-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-evitar-bola-de-pelo-em-gato-com-escovacao",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-evitar-bola-de-pelo-em-gato-com-escovacao"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-evitar-bola-de-pelo-em-gato-com-escovacao.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Com que frequência devo escovar o gato para evitar bolas de pelo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, gatos de pelo curto ficam bem com duas a três escovações semanais. Para gatos de pelo longo, o ritual costuma ser diário para evitar nós e o acúmulo excessivo de fios mortos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vomitar bola de pelo com frequência é normal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O normal é o pelo sair naturalmente nas fezes. Vômitos frequentes (mais de uma ou duas vezes no mês) costumam indicar acúmulo excessivo ou motilidade gástrica alterada; procure um médico-veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gato de pelo curto realmente forma bola de pelo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Embora os fios sejam menores, a densidade da pelagem pode ser altíssima, fazendo com que o volume total de pelos ingeridos seja suficiente para formar massas duras no estômago."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso cortar nós formados com tesoura em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evite totalmente. A pele do gato é extremamente fina e elástica, subindo junto com o nó com facilidade. Acidentes com cortes graves de tesoura são frequentes; dê preferência a desembaradores específicos ou tosas higiênicas feitas por profissionais.  ---"
+        }
+      }
+    ]
+  }
+}

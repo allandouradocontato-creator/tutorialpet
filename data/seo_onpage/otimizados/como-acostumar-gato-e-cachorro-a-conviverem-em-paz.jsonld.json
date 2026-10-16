@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como acostumar gato e cachorro a conviverem em paz: guia prático",
+    "description": "Descubra como acostumar gato e cachorro a conviverem em paz com um passo a passo objetivo, seguro e direto ao ponto para sua casa.",
+    "datePublished": "2026-10-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-acostumar-gato-e-cachorro-a-conviverem-em-paz",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-acostumar-gato-e-cachorro-a-conviverem-em-paz"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto tempo demora para gato e cachorro se acostumarem?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O tempo varia muito. Costuma levar de algumas semanas a vários meses, dependendo da personalidade e do histórico de cada animal. *   **E se o cachorro correr atrás do gato toda vez?**     Volte um passo no treinamento. Aumente a distância, use barreiras e reforce o autocontrole do cão antes de tentar novamente. *   **Posso deixar os dois sozinhos em casa no início?**     Nunca. Só deixe cães e gatos sozinhos sem supervisão quando a convivência pacífica estiver 100% consolidada há bastante tempo. *   **Onde devo colocar a comida do gato para o cachorro não comer?**     Sempre em locais altos, como balcões ou mesas onde o cão não tenha acesso, evitando disputas por recursos."
+        }
+      }
+    ]
+  }
+}
