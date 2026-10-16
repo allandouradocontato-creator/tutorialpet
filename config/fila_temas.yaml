@@ -107,7 +107,8 @@ temas:
   data: '2026-10-16'
 - termo: como saber se o asfalto esta quente para passear
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-16'
 - termo: como organizar a rotina de alimentacao de caes e gatos juntos
   pilar: alimentacao
   status: pendente
@@ -343,5 +344,17 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: como acostumar filhote de cachorro a usar coleira peitoral
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como acostumar gato adulto com coleira e passeio externo
+  pilar: comportamento
+  status: pendente
+- termo: rotina de exercicios mentais para caes de raca gigante
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como fazer transicao de racao senior para caes idosos
+  pilar: alimentacao
+  status: pendente
+- termo: o que fazer quando o cachorro come muito rapido
   pilar: primeiros_passos_filhotes
   status: pendente

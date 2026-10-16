@@ -1,10 +1,11 @@
-# Guardião de Marca e Variedade — como-escolher-rampa-pet-para-sofa-e-cama-alta
+# Guardião de Marca e Variedade — como-saber-se-o-asfalto-esta-quente-para-passear
 Parecer: **REVISAR**
 
-- ATENÇÃO: gancho repetido de um dos últimos 5 vídeos (abertura_pare)
+- ATENÇÃO: 1 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025)
 - ok: sem cenas repetidas no vídeo
-- ok: 16 clipes, todos inéditos nos últimos 20 vídeos
-- ok: música alternada (lnplusmusic-happy-happy-music-611028.mp3)
+- ok: música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)
 - ok: carimbo da marca disponível e aplicado pela montagem
 - ok: CTA diferente dos últimos vídeos
+- ok: gancho diferente dos últimos vídeos (o asfalto quente pode)
 - ok: voz da Duda no padrão (eleven_v4, estabilidade 0.26)
+- ok: coerência espécie cachorro: coerência não verificada (visão indisponível: GEMINI_API_KEY ausente)
