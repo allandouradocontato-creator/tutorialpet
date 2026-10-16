@@ -1,6 +1,6 @@
 {
   "slug": "como-evitar-bola-de-pelo-em-gato-com-escovacao",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-15T20:20:42+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-evitar-bola-de-pelo-em-gato-com-escovacao",
   "guardiao": {
@@ -18,5 +18,6 @@
       "coerência espécie gato: coerência não verificada (visão indisponível: GEMINI_API_KEY ausente)"
     ],
     "em": "2026-10-15T20:21:27+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: guardiao revisar apenas por gancho repetido"
 }
