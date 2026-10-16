@@ -1,23 +1,19 @@
-# Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:40). Só recomendação: nada aqui publica ou agenda sozinho.
-# Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10.
-versao: 7
+# Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
+# Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
+versao: 8
 atualizado_em: "2026-10-16"
 status_publicacao:
-  alerta: "Sem erros em 16/10 11:40. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto plano gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
-  teste_horarios_ab: "teste de 7 dias (15-21/10) em andamento; decidir em 22/10, nao antes"
+  alerta: "Sem erros em 16/10. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
+  teste_horarios_ab: "ENCERRADO como fator de decisao em 16/10 (8 posts por rede sem sinal; mesmo video de 40-55s nos 3 slots). Horarios congelados; o fator agora e formato/abertura."
   buffer_metricas_por_post: "list_posts includeMetrics=true entrega views/curtidas/tempo medio por post do TikTok"
 horarios:
-  regra: "Cada rede com slots fixos todos os dias; nunca duas redes no mesmo horario. Sem mudanca ate 22/10."
-  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00"}
+  regra: "Slots fixos todos os dias; nunca duas redes no mesmo horario. CONGELADOS (nao testar horario agora)."
+  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00", meme: "12:00"}
   tiktok: {manha: "10:20", tarde: "14:20", noite: "20:20", meme_curto: "17:10"}
-  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00"}
+  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00", meme: "13:00"}
   grade_2_melhores: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"]}
   dias: [seg, ter, qua, qui, sex, sab, dom]
-  base: "Nossos dados (n pequeno, parciais): FB 10h ~210, 19h ~240; IG 11h 55-67, 20h 39-101. Zernio best_time inconclusivo (1-2 posts/slot). Benchmark Metricool PT jul/2026: FB 10-14h; IG/TikTok pico 18-21h."
-teste_horarios_detalhe:
-  periodo: "2026-10-15 a 2026-10-21 (3 videos/dia por rede)"
-  decidir_no_dia_7: "por rede, slot com maior mediana de views (minimo 5 posts por slot); diferenca >=1,5x vale; senao manter"
-  parar_antes: "so se um slot render 0 em 4 posts seguidos"
+  base: "Nossos dados (n pequeno, parciais): FB 10h ~210, 19h ~240; IG 11h 55-67, 20h 39-101. Zernio best_time inconclusivo. Benchmark Metricool PT jul/2026: FB 10-14h; IG/TikTok pico 18-21h."
 hashtags:
   quantidade: {instagram: "3-5", tiktok: "3-5", facebook: "0-3 (cortar de 5 para 3)"}   # Metricool, 29/06/2026, metricool.com/how-many-hashtags-to-use
   estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla so IG/TikTok); nunca #fyp #viral #explorar"
@@ -26,9 +22,10 @@ hashtags:
   filhote: ["#filhotes", "#filhotedecachorro", "#primeirospassos", "#cachorros", "#tutorialpet"]
   ansiedade_separacao: ["#ansiedadedeseparacao", "#comportamentocanino", "#cachorrosozinho", "#cachorro", "#tutorialpet"]
   saude_alimentacao: ["#saudepet", "#alimentacaopet", "#cuidadospet", "#pets", "#tutorialpet"]
+  humor: ["#humorpet", "#gatos", "#cachorros", "#tutorialpet"]
   nota: "Pet BR: sem fonte aberta do que funciona; hashtag do animal tem de bater com o tema do artigo. FB usa as 3 primeiras do conjunto."
 cta_artigo: "Confira o artigo completo em tutorialpet.com.br"
-cta_regras: "Link clicavel so no PRIMEIRO COMENTARIO (FB/IG). TikTok: digitar o dominio; NAO escrever 'link no perfil/na bio' (nao confirmado). Sem alegacao medica; saude = consulte o veterinario."
+cta_regras: "Link clicavel so no PRIMEIRO COMENTARIO (FB/IG). TikTok: digitar o dominio; NAO escrever 'link no perfil/na bio' (nao confirmado). Sem alegacao medica ('pode ser fatal', 'atrapalhando o crescimento'); saude = consulte o veterinario."
 modelos_legenda:   # {gancho}=pergunta do video; {valor}=1 linha de utilidade
   facebook:
     - "{gancho}\n{valor}\n{pergunta}\n{cta_artigo}\n{hashtags_ate_3}"
@@ -77,16 +74,28 @@ perguntas_interacao:
 isca_digital:
   status: "PROPOSTA, aguardando decisao do Allan (nada ativado)"
   fase1: "Instagram, ManyChat gratis (limite a reconferir no cadastro): comentar GUIA -> resposta no comentario + 1 DM com o link do artigo. Sem coletar e-mail."
-  regras: "META (instantdm.com, 28/08/2026, fonte secundaria): resposta privada a comentario = 1 mensagem, ate 7 dias; conversa so segue se a pessoa responder (janela 24h); so contata quem agiu primeiro. TIKTOK: nao automatizar. LGPD: e-mail so com consentimento claro e politica de privacidade. Pagina oficial da Meta nao lida hoje."
+  regras: "META (instantdm.com, 28/08/2026, fonte secundaria): resposta privada a comentario = 1 mensagem, ate 7 dias; conversa so segue se a pessoa responder (janela 24h); so contata quem agiu primeiro. TIKTOK: nao automatizar. LGPD: e-mail so com consentimento claro e politica de privacidade."
   venda: "Sozinho em Casa so na DM, depois que a pessoa responder, 1 linha, sem pressao."
 regras_teste:
+  versao_16_10_mudanca: "Allan mandou mudar o caminho ja (16/10). Fator de decisao = RETENCAO (tempo medio como % da duracao, skip rate IG), lida em 24-48h; views absolutos so apoio. Horario congelado."
   fator_por_vez: true
-  n_posts_por_variacao: {horario: 6, gancho: 6, cta: 8}
-  trocar_se: "mediana de views da variacao >= 1,5x a da atual E diferenca > 100 views (FB/TikTok) ou > 20 de alcance (IG), tema (gato/cachorro) equilibrado; senao manter"
-  posts_recentes: "menos de 48h = parciais; gancho so com 72h+"
+  n_posts_por_variacao: {formato: 6, leitura_inicial: 3}
+  aprova_se: "em >=4 de 6 posts: IG skip <=55%, TikTok tempo medio >=50% da duracao, FB tempo medio >=40% da duracao; e comentario de terceiro >=1 em 2 de 6"
+  reprova_se: "nos 3 primeiros posts: skip IG >=75% E tempo medio <30% da duracao -> abandona o formato"
+  meio_termo: "ajustar abertura e repetir 3 posts"
+  testes:
+    T1_meme_fofura: {duracao_s: "8-12", abertura: "cena + texto na tela no 1o segundo", n: 6, redes: [facebook, instagram, tiktok], em_andamento: "9 memes agendados FB 12h/IG 13h desde 17/10, 2 no TikTok 17:10, 8 novos do Humorista"}
+    T2_voz_do_pet: {duracao_s: "15-20", formato: "Duda dubla o pensamento do animal numa situacao do artigo; fecha com 1 linha de dica", n: 6, redes: [facebook, instagram, tiktok], racas: "raca citada = raca do video"}
+    T3_corte_resultado_primeiro: {duracao_s: "15-20", formato: "mesmo artigo do explicador, resultado no segundo 0, sem titulo", n: 6, controle: "explicador original publicado", redes: [tiktok, instagram, facebook]}
+  parar:
+    - "explicador 37-55s como formato unico: no maximo 1 a cada 3 posts"
+    - "abertura 'Esse erro ta silenciosamente...' (banida) e 'Para de...' mais de 1x por semana"
+    - "teste de horario com o mesmo video"
+    - "link no perfil; 5 hashtags no FB; alegacao 'pode ser fatal' / 'atrapalhando o crescimento'"
+  arquivos_a_mudar: ["config/estilo_viral.yaml (duracao 8-20s, abertura no segundo 0)", "prompts de roteiro e video", "prompt de legenda (3 hashtags FB, sem link no perfil)", "painel semanal (tempo medio em % e skip rate)"]
+  posts_recentes: "menos de 48h = parciais, mas a leitura de retencao em 24-48h e permitida para decidir formato"
   metas_2_semanas:   # hipoteses, nao promessas
-    tiktok: {views_72h_mediana: 350, curtidas_por_view: 0.05, shares_por_post: 0.5, comentarios_por_post: 1, tempo_medio_s: 4}
-    facebook: {views_72h_mediana: 250, reacoes_por_view: 0.02, tempo_medio_assistido_s: 6, comentarios_terceiros_por_semana: 1}
-    instagram: {alcance_mediana: 50, curtidas_por_post: 2, skip_rate_max: 0.70, salvamentos_mais_shares_por_semana: 1}
-  teste_meme_curto: "meme-g1-confia-gato: FB 282 views/16 reacoes/4 com.; IG 18; TikTok 72. n=1. Repetir mais 2 e julgar com 72h+"
+    tiktok: {tempo_medio_pct_duracao: 0.5, curtidas_por_view: 0.05, shares_por_post: 0.5, comentarios_por_post: 1}
+    facebook: {tempo_medio_pct_duracao: 0.4, reacoes_por_view: 0.02, comentarios_terceiros_por_semana: 1}
+    instagram: {skip_rate_max: 0.55, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}
   utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1o comentario"
