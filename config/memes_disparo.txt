@@ -5,3 +5,4 @@
 2026-10-15 quarto disparo (imagens)
 2026-10-15 quinto disparo (textos humor_sabido)
 2026-10-16 sexto disparo (lote do Humorista, 8 itens)
+2026-10-16 sexto disparo (corrigido: itens do Humorista na fila)
