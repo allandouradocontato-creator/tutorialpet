@@ -16,3 +16,4 @@ Memória compartilhada entre Claude, Falcão e Allan. Cada nota = um assunto. Le
 Regra de ouro: conferir a informação na fonte antes de repassar; erro de agente = falha de processo (Auditor corrige).
 - [[15 Apostila Tutorial Pet]] é o curso vivo: todo aprendizado novo entra lá no mesmo dia.
 - [[16 Manual - como construir uma holding com agentes]] é o método geral da holding (departamentos, agentes, habilidades, erros, plano B); a Apostila 15 é o caso Tutorial Pet.
+- [[17 Retomada - resumo para continuar]] é o resumo vivo: toda conversa nova começa por ele.
