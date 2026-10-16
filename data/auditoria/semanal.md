@@ -1,36 +1,35 @@
-Dados até 2026-10-13 16:41 (Fortaleza) — Zernio (FB/IG), Buffer (TikTok/estoque), Actions, manifests (branch media), triggers e código lidos agora. Metricool histórico não consultado (fora do plano; Zernio+Buffer cobrem 20/09→hoje). tutorialpet.com.br conferido por curl (HTTP); streamlit.app NÃO aberto: app auditado pelo código (repo lido via git; 10ª rodada sem abrir o app ao vivo).
-# Auditoria semanal — 2026-10-13 (Otimizador de Processo)
+Dados até 2026-10-16 10:47 (Fortaleza) — Zernio (FB/IG), Buffer (TikTok), Actions (logs reais), manifests da branch media, 20+ rotinas, código do blog e do app lidos agora. tutorialpet.com.br ao vivo NÃO aberto (WebFetch recusou; sem curl por regra): blog auditado pelo código; 11ª rodada sem o app ao vivo (repo lido via GitHub).
+# Auditoria semanal — 2026-10-16 (Otimizador de Processo)
 
 ## ALERTAS
-- Pacote aprovado hoje (por-que-o-gato-esconde-a-comida-na-tigela, 13:12) NÃO foi agendado: o Agendador das 15:15 rodou OK (3 min), mas o artigo dá 404 (slug fora de config/blog_aprovados.txt) e a regra "aguardando artigo" bloqueia o agendamento. Estoque agendado: 3 vídeos Zernio (14/10 10:00, 14/10 19:00, 15/10 10:00) + 3 Buffer TikTok (14/10 10:20, 20:20, 15/10 10:20) = ~1,7 dia; a nota "10 vídeos/5 dias" segue errada.
-- Conferente (07:47), Estrategista e Especialista TikTok continuam SÓ com Metricool+Windsor (sem Zernio/Buffer). Conferente de amanhã vai contar estoque às cegas e pode disparar fábrica (~538 créditos) sem necessidade. Só Agendador e Otimizador têm Zernio+Buffer.
-- Erros de publicação: nenhum (posts_list_failed vazio). Posts de teste ("Teste Buffer" TikTok, "Teste Zernio" FB+IG) seguem públicos, duplicando o real das 11:20.
+- publicar_blog #17 (16/10 07:51) FALHOU no push: "cannot pull with rebase: You have unstaged changes". Os 3 artigos aprovados hoje (conviverem-em-paz, bola-de-pelo, frutas-no-verão) foram commitados no runner, mas NÃO chegaram à main: não existem em site/build, ou seja 404 no ar. Os pacotes de vídeo deles (2 "aprovado", 1 "revisar") travam no Agendador (regra "artigo 200"). Mesma classe do erro de 13/10.
+- Erros de publicação: nenhum (Zernio posts_list_failed vazio; Buffer sem status error). Contas FB/IG saudáveis (token até 02/12 e 12/12).
+- Atraso do cron da fábrica: #66 saiu 13:39Z em vez de 13:00Z (Vigia: 09:00Z e 09:37Z de hoje nem rodaram). Windsor.ai (anúncios) segue pedindo reconexão e o Caçador de referências está suspenso (precisa do PC do Allan).
 
-## Rodada extra 16:42 (pedido do Allan): por que só 3 vídeos e nada hoje à noite
-- Divergência: "10 vídeos em 5 dias" era a META do adendo do Agendador, não o agendado. Em 13/10 11:17 só 3 pacotes estavam prontos (ração, brinquedos, enxoval) e foram agendados; dos 16 pacotes, 8 estão "aguardando_revisao" (sem Guardião) e 1 aprovado sem artigo no ar. Hoje à noite (FB 19:00/TikTok 20:20) ficou vazio porque o pacote do turno B não existia a tempo e o aprovado das 13:12 travou no 404. Zernio e Buffer reconferidos agora: iguais ao que o Allan vê (3 + 3).
-- Correção: (1) publicar o artigo de hoje e deixar o Agendador agendar o pacote (slot livre mais próximo); (2) rodar Guardião retroativo nos 8 parados; (3) Conferente/Estrategista/Especialista TikTok confirmados só com Metricool+Windsor — recriar com Zernio+Buffer; nota 11 corrigida.
+## Rodadas (log real)
+- fabrica.yml: #62–#65 verdes (#64 8 s pela trava de 4 h; #63 11 min; #65 9 min, disparo do Conferente); #66 em andamento. publicar_blog: #14–#16 ok/cancelado, #17 falha (acima). lote.yml: 5/5 verdes (último 08/10). Custo: ~711 créditos ElevenLabs por rodada que produz (ultimo.md); saldo real NÃO lido (workflow creditos_eleven.yml existe; estimativa 30–50% do plano de 39.419 usado desde 07/10).
 
 ## O que está bom
-- Fábrica 5/5 verdes (#39–#43): só #40 (17m30) e #41 (16m) produziram; #39/#42/#43 saíram em ~8 s pela trava de 4 h (economia). Custo hoje ≈ 2 × 538 = ~1.076 créditos ElevenLabs. publicar_blog 5/5 verdes (45 s; 5 artigos aprovados hoje). lote 5/5 verdes (último 08/10).
-- Guardião aprovou o pacote de hoje (gancho abertura_pare, 16 clipes inéditos, eleven_v4). Publicação normalizada desde 13/10 11:20 após 73 h parada. Agendador saudável e Metricool de agendamento desativado.
+- Estoque saudável: Zernio 12 vídeos agendados (FB+IG) até 19/10 19:00; Buffer 7 TikToks até 18/10 20:20 (limite grátis de 10 na fila: cobre ~2,3 dias); 9 pacotes "meme" extra_pronto de reserva. Publicação sem buraco desde 13/10.
+- Rotinas v2 OK com os conectores certos: Agendador (08:15/12:15/16:15), Conferente (07:47), Estrategista, Especialista TikTok e Agente de SEO têm Zernio+Buffer e rodaram com sucesso. ads.txt agora com ID real (pub-7204207473239947), verificação Search Console no ar, banner de cookies, sitemap 49 URLs, ?v=hash nas imagens no build.
 
-## Posts × rede (20/09→agora; idade ≥72h salvo nota; vídeos com views)
-- Views: Facebook 4.942 (Zernio, 15 vídeos, ~330/post) · TikTok 2.382 (Buffer, 6 posts ≥72h, 397/post) · Instagram 283 (Zernio, 14 posts, ~20/post; pulo 63–85%, 3–4 s). IG ≈ 4% do total; compartilhamentos: TikTok 3, IG 1, FB 0.
-- Gato/água (pergunta concreta; 125 h): FB 1.013 (+796 no 2º post, 117 h; +525 repost, 92 h) · TT 577/30 curtidas · IG 22. Banho (144 h, CTA "leia o artigo"): TT 893/49 curtidas (campeão) · FB 35 · IG 0 — Zernio mostra FB 35, o ~252 antigo (Metricool) divergia: vale o Zernio. Plantas ("pode ser fatal", 94 h): FB 333 · TT 309 · IG 27. Areia/erro (78 h): FB 300 · TT 191. "Com quantos anos" (142 h): FB 64 · TT 131 · IG 0 (pausado, correto).
-- Hoje 11:20 (cachorro ansioso sozinho, 5 h, parcial): TT 14 views · FB/IG ainda sem leitura. Pergunta de problema concreto segue vencendo; o efeito da REDE é grande (banho TT 893 × FB 35; gato/água FB 1.013 × TT 577) → testar o mesmo vídeo em horários trocados antes de concluir gancho. Buffer não devolve % assistido do TikTok (tempo médio 5–7 s).
+## Posts × rede (20/09→agora; ≥72h salvo nota)
+- Views: Facebook 6.338 (45 posts; 4.955 nos 37 com ≥72h) · TikTok ~2.200 (Buffer, 11 posts de 09/10 em diante, ~200/post; última semana 72–202) · Instagram 697 (22 posts; 283 nos 14 com ≥72h; pulo 68–90%, 11% do FB).
+- Campeões (≥72h): gato/água FB 1.013 + 796 + 526 (3 posts); banho TT 893/988; sozinho 7h FB 357. Recentes (<72h, parciais): FB 204–281 views em 16–49 h (consistente); TikTok 14–15/10 72–202 views, tempo médio 2,1–2,8 s (cai de 5–7 s do 09/10): o gancho não segura. Melhor interação recente: "Gato é suspeito? Quem manda na sua casa?" (meme-g1, FB 18 h: 281 views, 16 reações, 4 comentários) e TikTok 15/10 13:20 (202 views, 24 curtidas, 12% engaj.). Amostra pequena, só indício: série de humor engaja mais que o tutorial.
+- Rede pesa mais que gancho (mesmo tema: FB 1.013 × TT 577 × IG 22); Buffer não devolve % assistido.
 
 ## 3 maiores gargalos (causa raiz)
-1. Estoque curto por etapa manual escondida: aprovar o artigo (foto + blog_aprovados.txt) não acontece junto com a aprovação do pacote; o Agendador exige artigo 200 e para. Hoje: 1 aprovado travado + 8 em "aguardando_revisao" (16 pacotes: 6 agendados). Quem fecha a ponta é o Conferente, que está cego.
-2. Rotinas decidem no escuro: conectores são fixados na criação e update_trigger não troca; 3 de 5 rotinas que medem ou contam posts sem Zernio/Buffer.
-3. Blog sem AdSense: ads.txt ainda pub-0000000000000000; sem Search Console; 13 artigos sem <img> (de 35; ligar foto por slug); só 1 página com vídeo; vercel.json sem headers de segurança. App (443 linhas): sem login nem token (quem tem o link abre tudo), requirements sem versão fixa (streamlit>=1.38, pillow>=10.0), progresso só na sessão.
+1. Publicação do artigo é frágil: o passo final de publicar_blog usa `git pull --rebase` com arquivos não adicionados (git add só site/build, data/quality_editor, seo_onpage, visual); basta o runner mexer em outro arquivo para o push cair em silêncio. Sem alarme, o pacote só aparece parado 2–3 h depois.
+2. Retenção baixa nos 3 s iniciais (TikTok 2–3 s, IG pulo 68–90%): vídeo de 50–55 s com gancho de pergunta; efeito só será julgável após 72 h do teste de 7 dias (15–21/10).
+3. Dependência do PC/login do Allan em rotinas e anúncios: Caçador de referências suspenso (device_absent), Windsor pedindo reconexão, Caçador de estilo e Segurança sem Zernio/Buffer (ainda citam Metricool).
 
 ## Como ficar mais rápido e gastar menos (máx. 3)
-1. Ligar "aprovar pacote" a "aprovar artigo": o Agendador/Conferente adiciona o slug (foto candidata 1) em blog_aprovados.txt no mesmo passo, e o Guardião retroativo libera os 8 parados. Custo R$ 0. Ganho: estoque de 1,7 → 5 dias sem gastar ~538 créditos/rodada (pular vídeo novo enquanto estoque ≥5 dias). Teste grátis: acrescentar hoje o slug de hoje e ver o Agendador das 08:15 agendá-lo. Veredito 14/10/2026.
-2. Recriar Conferente, Estrategista e Especialista TikTok com Zernio+Buffer (Claude cria a partir de sessão com os conectores; nada para o Allan). Custo R$ 0. Ganho: estoque e métricas reais, sem disparo falso. Teste: 14/10 07:47 deve listar posts Zernio/Buffer; senão desativar o Conferente até recriar. Veredito 14/10/2026.
-3. AdSense/app: Claude liga foto por slug nos 13 artigos, headers no vercel.json, fixa versões do requirements e trava o app por token ?k= entregue pela Kiwify. Allan só dá o ID do AdSense e autoriza o Search Console. Custo R$ 0. Veredito 17/10/2026.
+1. Blindar o passo de push do publicar_blog: trocar por `git add -A site data config; git pull --rebase --autostash; git push` e, se o push falhar, abrir issue (alerta). Custo R$ 0 (1 linha). Ganho: fim do 404 recorrente e de ~3 h de pacote parado/rodada. Teste: workflow_dispatch com os 3 slugs de hoje e conferir 200. Veredito: fazer agora (17/10).
+2. Pular vídeo novo enquanto houver ≥5 dias de pacotes prontos (hoje: 12 agendados + 4 aprovados + 9 memes) e usar o estoque meme. Custo R$ 0. Ganho: ~700 créditos por rodada evitada (plano de 39.419 créditos, renova dia 7). Teste: Conferente já conta pacotes prontos; observar créditos em 20/10. Veredito 20/10.
+3. Gancho: testar vídeo curto (25–35 s) com gancho de humor/estranhamento nas 3 primeiras palavras, só no TikTok, 1 variável por vez (Especialista TikTok). Custo R$ 0. Ganho: tempo médio >4 s. Teste: 5 posts até 21/10. Veredito 22/10.
 
 ## Comprar x produzir / Ferramentas
-- PLR: não serve ao blog (AdSense quer original); 2º e-book só após o 1º vender. Reavaliar 24/10/2026. Assinar: nada. Zernio e Buffer grátis bastam; olhar upgrade do Buffer só se a fila passar de 10/canal. Dispensar: Metricool (só leitura de histórico) e os canais FB/IG duplicados no Buffer. Economia: manter a trava de 4 h; ElevenLabs só em rodada que o estoque exigir.
+- Nada a assinar. Dispensar: Metricool (já fora) e Windsor até haver anúncio rodando. Buffer grátis basta (10/fila). PLR: reavaliar 24/10. App: fixar requirements (hoje streamlit>=1.38, pillow>=10.0 sem teto) e token ?k=.
 
 ## Tarefas manuais devolvidas ao Allan
-- 0 novas nesta rodada. Abertas só por exigirem identidade/2FA: ID AdSense, Search Console, 2FA, chave ElevenLabs, verificação TikTok. Claude executa: produto Kiwify duplicado (3JprCCK), apagar posts de teste, recriar 3 rotinas, artigo de hoje.
+- 0 nesta rodada por falha de processo; ficam só identidade/login: reconectar Windsor, 2FA, chave ElevenLabs, verificação TikTok; Claude fecha: push do publicar_blog, artigos 404, produto Kiwify 3JprCCK, recriar Caçador de estilo/Segurança com Zernio+Buffer.
