@@ -1,6 +1,6 @@
 {
   "slug": "como-acostumar-gato-e-cachorro-a-conviverem-em-paz",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-15T13:54:54+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-acostumar-gato-e-cachorro-a-conviverem-em-paz",
   "guardiao": {
@@ -17,5 +17,12 @@
     ],
     "em": "2026-10-15T13:55:35+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio_facebook": "6ad240bf5a4d3cfa9af4292d",
+    "zernio_instagram": "6ad240c2cf6bb63c0951cf2f",
+    "buffer_tiktok": "6ad240c445dfa13a7239ae59",
+    "turno": "C",
+    "dia": "2026-10-16"
+  }
 }
