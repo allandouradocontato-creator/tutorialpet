@@ -111,7 +111,8 @@ temas:
   data: '2026-10-16'
 - termo: como organizar a rotina de alimentacao de caes e gatos juntos
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-16'
 - termo: sinais de envelhecimento em gatos senior que passam despercebidos
   pilar: cuidados_diarios
   status: pendente
@@ -357,4 +358,16 @@ temas:
   status: pendente
 - termo: o que fazer quando o cachorro come muito rapido
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como organizar a rotina de exercicios para caes idosos com artrite
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como evitar que gatos idosos percam peso na velhice
+  pilar: alimentacao
+  status: pendente
+- termo: como lidar com ciumes entre caes adultos e gatos residentess
+  pilar: comportamento
+  status: pendente
+- termo: o que verificar antes de comprar caminha ortopedica para cachorro grande
+  pilar: produtos_compras
   status: pendente

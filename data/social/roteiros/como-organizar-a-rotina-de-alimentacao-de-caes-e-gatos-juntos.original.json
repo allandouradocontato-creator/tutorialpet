@@ -1,0 +1,47 @@
+{
+  "titulo_video": "Como organizar a alimentação de cães e gatos juntos",
+  "gancho_3s": "Seu cachorro rouba a ração do seu gato? Resolva isso hoje!",
+  "cenas": [
+    {
+      "narracao": "A ração do gato não é petisco para cachorro. As necessidades nutricionais entre eles são totalmente diferentes.",
+      "visual_busca_banco_livre": "cat eating from bowl close up",
+      "texto_na_tela": "Ração de gato não é para cães!"
+    },
+    {
+      "narracao": "Para evitar o furto de ração, use a geografia a seu favor: sirva a refeição do gato em lugares altos.",
+      "visual_busca_banco_livre": "cat sitting high on furniture",
+      "texto_na_tela": "Comida do gato no alto"
+    },
+    {
+      "narracao": "Prateleiras, o topo da geladeira ou móveis altos impedem o acesso do focinho curioso do cão.",
+      "visual_busca_banco_livre": "cat looking down from high place",
+      "texto_na_tela": "Longe do cão"
+    },
+    {
+      "narracao": "Outra regra essencial é estabelecer horários fixos em vez de deixar comida à vontade o dia todo.",
+      "visual_busca_banco_livre": "dog eating from bowl close up",
+      "texto_na_tela": "Horários fixos"
+    },
+    {
+      "narracao": "Deixe os potes por cerca de vinte minutos e depois recolha o que sobrou, evitando que o cão limpe o prato do felino.",
+      "visual_busca_banco_livre": "empty pet bowls",
+      "texto_na_tela": "Recolha os potes"
+    },
+    {
+      "narracao": "Consulte sempre o médico-veterinário para definir a quantidade ideal para cada pet e garanta uma convivência saudável.",
+      "visual_busca_banco_livre": "dog and cat together peaceful",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Gostou da dica? Leia o artigo completo no blog para mais detalhes!",
+  "hashtags": [
+    "#caesegatos",
+    "#alimentacaopet",
+    "#dicaspet",
+    "#rotinapet",
+    "#gatos",
+    "#cachorros"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro rouba a ração do seu gato? Resolva isso hoje!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos\n\n#caesegatos #alimentacaopet #dicaspet #rotinapet #gatos #cachorros",
+  "slug": "como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos"
+}
