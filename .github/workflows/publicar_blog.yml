@@ -61,5 +61,11 @@ jobs:
           git config user.email "fabrica@tutorialpet.com.br"
           git add site/build data/quality_editor data/seo_onpage data/visual
           git commit -m "blog: publica artigo $(date -u +%F)" || echo "nada a commitar"
-          git pull --rebase origin main
-          git push origin main
+          # 16/10: o rebase falhava com 'unstaged changes' e os artigos nao iam ao ar. Autostash + 3 tentativas;
+          # se ainda falhar, o passo quebra com mensagem clara (nada de erro silencioso).
+          ok=0
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin main && ok=1 && break
+            echo "tentativa $i falhou; aguardando"; sleep 10
+          done
+          [ "$ok" = 1 ] || { echo "::error::push do publicar_blog falhou 3x: artigos NAO foram ao ar"; exit 1; }

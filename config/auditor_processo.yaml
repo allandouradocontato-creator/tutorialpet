@@ -52,3 +52,9 @@ tempo_de_ciclo:
     - "dias de estoque de vídeo e de artigo no momento da medição"
     - "horas gastas esperando o Allan (meta: só decisões estratégicas)"
   relatar: "etapa mais lenta, por que, e como cortar; guardar a série em data/auditoria/ciclo.csv (data,etapa,horas)"
+
+# Foco de resultado (ordem do Allan, 16/10/2026): sem anúncios, o sucesso é ENGAJAMENTO, AUDIÊNCIA e AGILIDADE do processo.
+resultado:
+  audiencia: "seguidores por rede (Zernio accounts_get_follower_stats; Buffer get_channel), comentários e compartilhamentos por post, tempo médio assistido (TikTok) e pulo (IG)"
+  agilidade: "horas por etapa em data/auditoria/ciclo.csv; dias de estoque; rodadas que falharam; artigos em 404"
+  revisor: "toda mudança aprovada vai em data/auditoria/mudancas.md com base, sucesso e data de veredito; o Otimizador escreve MANTER/AJUSTAR/DESFAZER na sexta"
