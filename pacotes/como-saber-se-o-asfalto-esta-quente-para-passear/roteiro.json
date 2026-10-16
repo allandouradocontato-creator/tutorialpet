@@ -1,0 +1,40 @@
+{
+  "titulo_video": "Como saber se o asfalto está quente para passear com o cachorro",
+  "gancho_3s": "O asfalto quente pode queimar a pata do seu cachorro sem você perceber!",
+  "cenas": [
+    {
+      "narracao": "O asfalto absorve muito calor e a pele da pata do cão é sensível.",
+      "visual_busca_banco_livre": "dog paw close up pavement",
+      "texto_na_tela": "Cuidado com o asfalto quente!"
+    },
+    {
+      "narracao": "Faça o teste dos cinco segundos encostando o dorso da mão no chão.",
+      "visual_busca_banco_livre": "dog touching ground pavement",
+      "texto_na_tela": "Teste dos 5 segundos"
+    },
+    {
+      "narracao": "Se não conseguir manter a mão ali pelo calor, o piso está muito quente.",
+      "visual_busca_banco_livre": "dog panting hot day",
+      "texto_na_tela": "Se queimar, não vá!"
+    },
+    {
+      "narracao": "Prefira passear logo cedo ou ao entardecer, ou caminhe na grama e na sombra.",
+      "visual_busca_banco_livre": "dog walking grass park",
+      "texto_na_tela": "Prefira grama e sombra"
+    },
+    {
+      "narracao": "Se o cão mancar ou lamber as patas, pare imediatamente e volte para casa.",
+      "visual_busca_banco_livre": "dog licking paw close up",
+      "texto_na_tela": "Atenção aos sinais!"
+    }
+  ],
+  "chamada_final": "Em caso de lesões ou dúvidas sobre a saúde do pet, procure um médico-veterinário.",
+  "hashtags": [
+    "#cachorro",
+    "#cuidadospet",
+    "#dicaspet",
+    "#passeiocanino"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nO asfalto quente pode queimar a pata do seu cachorro sem você perceber!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-saber-se-o-asfalto-esta-quente-para-passear\n\n#cachorro #cuidadospet #dicaspet #passeiocanino",
+  "slug": "como-saber-se-o-asfalto-esta-quente-para-passear"
+}
