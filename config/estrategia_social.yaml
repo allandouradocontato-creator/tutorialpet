@@ -1,47 +1,39 @@
-# Estratégia social (Estrategista de Redes Sociais, 16/10/2026). Dados até 2026-10-16 10:15 (Fortaleza).
-# Para Agendador de Posts e Publicador. Só recomendação: nada aqui publica ou agenda sozinho.
-# Fontes de dados: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10.
-versao: 6
+# Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:40). Só recomendação: nada aqui publica ou agenda sozinho.
+# Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10.
+versao: 7
 atualizado_em: "2026-10-16"
 status_publicacao:
-  alerta: "Sem posts em erro em 16/10 10:15 (Zernio posts_list_failed vazio; Buffer error=null). Estoque: Zernio 23 agendados FB/IG; Buffer 10 agendados TikTok (limite do plano gratis = 10). 7 legendas TikTok agendadas ainda dizem 'link no perfil' (unhas ja saiu): trocar por 'busque no blog' ate o Allan confirmar o link no perfil."
+  alerta: "Sem erros em 16/10 11:40. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto plano gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
   teste_horarios_ab: "teste de 7 dias (15-21/10) em andamento; decidir em 22/10, nao antes"
-  zernio_best_time: "analytics_get_best_time_to_post (16/10, UTC): 1-4 posts por slot, inconclusivo. Maiores medias: 19 UTC (16h Fortaleza) n=1, 21 UTC (18h) n=4, 22 UTC (19h) n=3, 15 UTC (12h) n=2. Nao usar para mudar horario."
+  buffer_metricas_por_post: "list_posts includeMetrics=true entrega views/curtidas/tempo medio por post do TikTok"
 horarios:
-  regra: "REVISADO 09/10 (pedido do Allan: incluir a noite). Cada rede tem 2 slots: manha e noite, MESMOS todos os dias (benchmarks discordam por dia da semana). Nunca as 3 redes na mesma hora. Em teste A/B de 14 dias (10-23/10): ver teste_horarios. Nao vale como conclusao."
-  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00"}   # rodadas atuais FB 10:00/19:00; sem mudanca recomendada ate 22/10
-  tiktok: {manha: "10:20", tarde: "14:20", noite: "20:20"}
-  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00"}   # IG sem dado proprio no Metricool (zerado); noite apoiada por benchmark Metricool 29/07/2026 (pico 20h, janela 18-21h)
+  regra: "Cada rede com slots fixos todos os dias; nunca duas redes no mesmo horario. Sem mudanca ate 22/10."
+  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00"}
+  tiktok: {manha: "10:20", tarde: "14:20", noite: "20:20", meme_curto: "17:10"}
+  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00"}
+  grade_2_melhores: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"]}
   dias: [seg, ter, qua, qui, sex, sab, dom]
-  base_dado_nosso: "Metricool getBestTimeToPost: FB pico 10-12h, 18h ~80%, 19h ~70-85%; TikTok pico 10h e 18h, 19h ~70%, 20h ~60%. Posts reais: amostra minuscula e confundida com tema/gancho."
-  base_benchmark: "Metricool (TikTok 11/06/2026; IG/TikTok/FB 29/07/2026; fuso e pais nao informados), Loggi 09/02/2026 (TikTok noite, Brasilia, metodo nao informado). FB: benchmark aponta dia (10-14h). Sprout, Rock Content, Hootsuite nao lidos."
-  anterior_v2: {facebook: ["10:00", "12:00"], tiktok_seg_sex: ["10:20", "18:20"], tiktok_fim_de_semana: ["10:20", "12:20"], instagram: ["11:00", "19:00"]}
-teste_horarios_detalhe:   # REINICIADO em 14/10/2026 por decisao do Allan: teste de 7 dias, 3 videos/dia por rede (respostas mais rapidas)
-  periodo: "2026-10-15 a 2026-10-21 (7 dias; ate 21 videos por rede)"
-  formato_unico: "pergunta de dor concreta com cachorro ou gato, 38-44s (padrao dos nossos campeoes: banho de cachorro 848 views TikTok; agua do gato 949 FB e alcance 95 IG). Nada de gancho abstrato (131 views ou menos)."
-  desenho: "3 slots por dia e por rede (manha 10:00/10:20/11:00, tarde 14:00/14:20/15:00, noite 19:00/20:20/20:00); o mesmo video sai nas 3 redes escalonado; revezar qual tema vai em qual slot; CTA e legenda fixos; so o horario muda"
-  medir: "72h depois de cada post no mesmo relogio: TikTok views, curtidas/views, shares; FB views, tempo assistido, reacoes; IG alcance, taxa de views 3s+. Posts com menos de 48h = parcial."
-  decidir_no_dia_7: "por rede, o slot com maior mediana de views (minimo 5 posts por slot); diferenca >=1,5x vale; senao manter os 3 e testar outra grade"
+  base: "Nossos dados (n pequeno, parciais): FB 10h ~210, 19h ~240; IG 11h 55-67, 20h 39-101. Zernio best_time inconclusivo (1-2 posts/slot). Benchmark Metricool PT jul/2026: FB 10-14h; IG/TikTok pico 18-21h."
+teste_horarios_detalhe:
+  periodo: "2026-10-15 a 2026-10-21 (3 videos/dia por rede)"
+  decidir_no_dia_7: "por rede, slot com maior mediana de views (minimo 5 posts por slot); diferenca >=1,5x vale; senao manter"
   parar_antes: "so se um slot render 0 em 4 posts seguidos"
-  proximo_teste: "fofura curta (8-15s, plano unico) contra pergunta de dor: precisa de nova producao de video; so apos este teste"
 hashtags:
-  quantidade: {instagram: "3-5 (maximo 5 desde dez/2025; hashtagtools.io 28/03/2026 e Metricool PT jul/2026)", tiktok: "3-5 (#fyp/#viral não dão impulso)", facebook: "1-3 (hashtagtools.io 28/03/2026: pouco efeito no FB). HOJE as legendas do FB usam 5: cortar para 3"}
-  estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla só IG/TikTok); nunca genéricas tipo #explorar #reels #viral #fyp"
-  gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]   # troca opcional de 1 por ampla BR: #gatosdobrasil
+  quantidade: {instagram: "3-5", tiktok: "3-5", facebook: "0-3 (cortar de 5 para 3)"}   # Metricool, 29/06/2026, metricool.com/how-many-hashtags-to-use
+  estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla so IG/TikTok); nunca #fyp #viral #explorar"
+  gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]
   cachorro: ["#cachorro", "#cachorros", "#cuidadospet", "#dicaspet", "#tutorialpet"]
   filhote: ["#filhotes", "#filhotedecachorro", "#primeirospassos", "#cachorros", "#tutorialpet"]
   ansiedade_separacao: ["#ansiedadedeseparacao", "#comportamentocanino", "#cachorrosozinho", "#cachorro", "#tutorialpet"]
   saude_alimentacao: ["#saudepet", "#alimentacaopet", "#cuidadospet", "#pets", "#tutorialpet"]
-  amplas_br_metricool_jul2026: ["#petsbrasil", "#gatosdobrasil", "#cachorrodobrasil", "#vidadepet", "#petcare", "#adestramento"]   # metricool.com/pt/hashtags-no-instagram: recomenda 3-5 por post
-  nota: "amplas (#pet #pets #cachorro #cachorros) vêm de Buzzmonitor abr/2024; nicho vem do nosso histórico. Usar 1-2 amplas + 2-3 nicho; no Facebook só 3. Hashtag do animal tem de bater com o tema do artigo."
+  nota: "Pet BR: sem fonte aberta do que funciona; hashtag do animal tem de bater com o tema do artigo. FB usa as 3 primeiras do conjunto."
 cta_artigo: "Confira o artigo completo em tutorialpet.com.br"
-cta_regras_nota_16_10: "TikTok: 7 agendados com 'link no perfil' -> trocar por 'busque no blog'"
-cta_regras: "Link clicável só no PRIMEIRO COMENTÁRIO (FB/IG). TikTok: digitar o domínio e NAO escrever 'link no perfil/na bio' (link no perfil nao confirmado). Sem alegação médica; saúde = consulte o veterinário."
-modelos_legenda:   # {gancho}=pergunta do vídeo; {valor}=1 linha de utilidade; {pergunta}=ver perguntas_interacao
+cta_regras: "Link clicavel so no PRIMEIRO COMENTARIO (FB/IG). TikTok: digitar o dominio; NAO escrever 'link no perfil/na bio' (nao confirmado). Sem alegacao medica; saude = consulte o veterinario."
+modelos_legenda:   # {gancho}=pergunta do video; {valor}=1 linha de utilidade
   facebook:
     - "{gancho}\n{valor}\n{pergunta}\n{cta_artigo}\n{hashtags_ate_3}"
     - "{gancho}\nSalve para ver depois: {valor}\nVocê já passou por isso? Conta aqui.\n{cta_artigo}\n{hashtags_ate_3}"
-    - "{gancho}\n{valor}\nQual é o maior desafio com o seu {animal} nisso? Conta aqui.\n{cta_artigo}\n{hashtags_ate_3}"   # evitar 'marque/curta/compartilhe' como pedido principal (possível isca de engajamento)
+    - "{gancho}\n{valor}\nQual é o maior desafio com o seu {animal} nisso? Conta aqui.\n{cta_artigo}\n{hashtags_ate_3}"
   instagram:
     - "{gancho} {emoji}\n\n{valor}\n\n{pergunta}\n\n{cta_artigo}\n\n{hashtags_3a5}"
     - "{gancho}\n\n{valor} Salva esse Reels para lembrar.\n\nQual dessas opções é a do seu {animal}? Responde nos comentários.\n\n{cta_artigo}\n\n{hashtags_3a5}"
@@ -50,7 +42,7 @@ modelos_legenda:   # {gancho}=pergunta do vídeo; {valor}=1 linha de utilidade; 
     - "{gancho} {valor_curto} {pergunta_curta} {cta_artigo} {hashtags_3a5}"
     - "{gancho} Salva esse vídeo. {pergunta_curta} {cta_artigo} {hashtags_3a5}"
     - "{gancho} {valor_curto} Manda pra quem precisa ver. {cta_artigo} {hashtags_3a5}"
-  tiktok_opcoes: {isAigc: true, commercialContentOwnBrand: "ligar quando o vídeo citar o Sozinho em Casa"}   # ver data/tiktok/relatorio.md
+  tiktok_opcoes: {isAigc: true, commercialContentOwnBrand: "ligar quando o video citar o Sozinho em Casa"}
 perguntas_interacao:
   gato:
     - "Seu gato prefere água corrente ou da tigela?"
@@ -83,18 +75,18 @@ perguntas_interacao:
     - "Qual dúvida sobre cuidado com o pet você mais tem? Conta aqui."
     - "Seu pet já foi ao veterinário este ano? Só pergunta, sem julgamento."
 isca_digital:
-  status: "PROPOSTA (rodada 16/10), aguardando decisão do Allan (nada ativado). Regras Meta nao reverificadas hoje: ultima leitura oficial 09/10"
-  fase1: "Instagram, ManyChat grátis (25 contatos/mês, 4 automações): comentar CHECKLIST -> resposta no comentário + 1 DM com o link do checklist no blog. Sem coletar e-mail."
-  regras: "INSTAGRAM (página oficial da Meta lida 09/10): resposta privada ao comentário em até 7 dias (Reels/posts), 1 mensagem por comentário, conversa só segue se a pessoa responder (24h); permissões instagram_business_manage_messages; revisão de app não consta na página (confirmar com a ferramenta). TIKTOK: DM automática só por API oficial, iniciada pela pessoa, janela 48h, sem suporte garantido no Brasil (fonte: blog de fornecedor, não oficial) -> não automatizar. FACEBOOK: não pesquisado. LGPD: texto da lei não abriu (permissão); e-mail só com consentimento claro e política de privacidade."
-  venda: "Sozinho em Casa só na DM/depois que a pessoa responder, 1 linha, sem pressão."
+  status: "PROPOSTA, aguardando decisao do Allan (nada ativado)"
+  fase1: "Instagram, ManyChat gratis (limite a reconferir no cadastro): comentar GUIA -> resposta no comentario + 1 DM com o link do artigo. Sem coletar e-mail."
+  regras: "META (instantdm.com, 28/08/2026, fonte secundaria): resposta privada a comentario = 1 mensagem, ate 7 dias; conversa so segue se a pessoa responder (janela 24h); so contata quem agiu primeiro. TIKTOK: nao automatizar. LGPD: e-mail so com consentimento claro e politica de privacidade. Pagina oficial da Meta nao lida hoje."
+  venda: "Sozinho em Casa so na DM, depois que a pessoa responder, 1 linha, sem pressao."
 regras_teste:
   fator_por_vez: true
-  n_posts_por_variacao: {horario: 6, gancho: 6, cta: 8}   # ~2 vídeos/dia por rede = ~3 dias por variação
-  trocar_se: "mediana de views 24h da variação >= 1,5x a da atual E diferença > 100 views (FB/TikTok) ou > 20 de alcance (IG), com tema (gato/cachorro) equilibrado; senão manter e continuar medindo"
-  posts_recentes: "menos de 48h entram como parciais, nunca ficam de fora"
-  metas_2_semanas:   # hipóteses a partir dos números de 09/10, não promessas
-    tiktok: {views_72h_mediana: 350, curtidas_por_view: 0.05, comentarios_terceiros_por_post: 1}   # 16/10: TikTok 14 posts, 3.921 views no periodo (media 280), 5,6% curtidas/views, 2 comentarios, 5 shares, tempo medio 3,4s
-    facebook: {views_72h_mediana: 400, reacoes_por_view: 0.01, tempo_medio_assistido_s: 8, comentarios_terceiros_por_semana: 1}   # 16/10 ciclo novo (13-16/10, n=8, todos parciais): mediana 210 views, 36 reacoes, 11 comentarios (nossos 1os comentarios incluidos)
-    instagram: {alcance_mediana: 30, tempo_medio_s: 5, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}   # 16/10 ciclo novo (n=8, parciais): alcance mediana 42, skip rate 68-90%, tempo medio 1,5-5s
-  teste_novo_16_10: "meme curto 8s (meme-g1-confia-gato): FB 281 views, 16 reacoes (5,7%), 4 comentarios, 6 cliques em 17h; IG 18 alcance. n=1, nao e conclusao: repetir 3 memes curtos e comparar com pergunta de dor (julgar com 72h+)"
-  utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1º comentário"
+  n_posts_por_variacao: {horario: 6, gancho: 6, cta: 8}
+  trocar_se: "mediana de views da variacao >= 1,5x a da atual E diferenca > 100 views (FB/TikTok) ou > 20 de alcance (IG), tema (gato/cachorro) equilibrado; senao manter"
+  posts_recentes: "menos de 48h = parciais; gancho so com 72h+"
+  metas_2_semanas:   # hipoteses, nao promessas
+    tiktok: {views_72h_mediana: 350, curtidas_por_view: 0.05, shares_por_post: 0.5, comentarios_por_post: 1, tempo_medio_s: 4}
+    facebook: {views_72h_mediana: 250, reacoes_por_view: 0.02, tempo_medio_assistido_s: 6, comentarios_terceiros_por_semana: 1}
+    instagram: {alcance_mediana: 50, curtidas_por_post: 2, skip_rate_max: 0.70, salvamentos_mais_shares_por_semana: 1}
+  teste_meme_curto: "meme-g1-confia-gato: FB 282 views/16 reacoes/4 com.; IG 18; TikTok 72. n=1. Repetir mais 2 e julgar com 72h+"
+  utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1o comentario"

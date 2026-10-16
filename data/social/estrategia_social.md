@@ -1,39 +1,40 @@
-Dados até 2026-10-16 10:15 (Fortaleza) — Zernio (FB, IG) e Buffer (TikTok), 20/09 a agora. 5ª edição (anterior 13/10, Metricool).
+Dados até 2026-10-16 11:40 (Fortaleza) — Zernio (FB, IG) e Buffer (TikTok), 20/09 a agora. 6ª edição (anterior 16/10 10:15).
 ## 0. Erros e estado (topo)
-- Erros: nenhum. Zernio posts_list_failed vazio; Buffer error=null em todos. Zernio avisa 1 conta com sync atrasado (números de hoje podem subir).
-- Agendados: FB/IG 23 posts (Zernio); TikTok 10 (Buffer, no teto do plano grátis = 10). Horários dos FB/IG agendados não vêm no posts_list: regra "nunca duas redes no mesmo horário" só conferida nos publicados (OK).
-- ALERTA: 7 legendas TikTok agendadas ainda dizem "link no perfil" (cotonete, banho, areia, ração seca, piso, escovação, comedouro); link no perfil segue não confirmado. Trocar por "busque no blog". Legendas FB usam 5 hashtags: cortar para 3.
-## 1. Nossos números (todos do ciclo novo são parciais: nenhum FB/IG tem 72h+ exceto 13/10)
-| Rede | Posts | Resultado | Leitura |
+- Erros: nenhum. Zernio posts_list_failed vazio; Buffer sem post em error.
+- Agendados: FB/IG ao menos 30 (Zernio; consulta limitada a 30, horários não vêm no posts_list); TikTok 9 (Buffer, teto do plano grátis = 10): 16/10 14:20 e 20:20; 17/10 10:20, 14:20, 17:10 (meme), 20:20; 18/10 10:20 e 20:20; 20/10 17:10 (meme). Regra (g) só conferida nos publicados (OK); nos agendados FB/IG sem dado.
+- ALERTA: 5 legendas TikTok agendadas ainda dizem "link no perfil" (areia, banho, piso, ração seca, cotonete); escovação e comedouro já foram corrigidas. Link no perfil segue não confirmado.
+- MUDOU: Buffer list_posts com includeMetrics entrega métricas POR POST do TikTok (antes: só agregado).
+## 1. Nossos números (menos de 48h = parcial; gancho só com 72h+)
+| Rede | Posts 13-16/10 | Resultado | Leitura |
 |---|---|---|---|
-| TikTok (20/09 a 16/10) | 14 | 3.921 views, 221 curtidas (5,6%), 2 com., 5 shares, tempo médio 3,4s, alcance 2.992 | por post: sem dado (Buffer só dá agregado); usar tabela de 15/10 |
-| Facebook 13-16/10 | 8 | mediana 210 views, 36 reações, 11 com., 9 cliques | tempo médio 2-9s; posts antigos (pré-13/10) com views ~0 no Zernio: ignorar |
-| Instagram 13-16/10 | 8 | alcance mediana 42, 6 curtidas, 8 com., 1 salvo, 0 shares | skip rate 68-90%, tempo médio 1,5-5s |
-- Destaque: meme curto 8s "Gato é suspeito?" (15/10 FB 16:31, TT 17:20, IG 17:41; 17h): FB 281 views, 16 reações, 4 comentários, 6 cliques = melhor FB do ciclo; IG 18. Gato, n=1, sem causa provada.
-- Por horário (ciclo novo, n pequeno): FB manhã 207 (n=2), tarde 245 (n=2), noite 121 (n=4); IG manhã 61 (n=2), noite 42 (n=5), tarde 21 (n=1). Sem conclusão; o teste de 7 dias (15-21/10) decide.
-- Por tema: gato e cachorro com resultados parecidos no FB (200-230); sem separar por amostra. Gancho: só julgar com 72h+ (13/10 filhote chora/gato raspa: FB 12 e 4 views, IG 71 e 101).
-- Comentários de terceiros: FB/IG contam 1 por post (nosso 1º comentário), exceto o meme (4). Vendas do Sozinho em Casa: sem dado (Kiwify não consultado).
-## 2. Horários (Fortaleza; manter rodadas atuais)
+| Facebook | 8 (+1 de hoje, 1h) | views mediana 210 (5 a 282); reações 1-16; 11 com. (nossos 1ºs); cliques 9 | tempo médio 2-9s; todos parciais (64h ou menos) |
+| Instagram | 8 | alcance mediana 42 (14-100); curtidas 0-3; salvo 1; shares 0 | skip rate 68-90%; tempo médio 1,5-5s; parcial |
+| TikTok | 9 desde 13/10 | views 0-550; curtidas 1-35; 2 com. no período; 5 shares | por post disponível agora |
+- TikTok por post (views / idade): gato esconde comida "Para de ignorar esse sinal" 550 (84h, JULGÁVEL: 6,5% curtidas, 3,1s); ração filhote "Para de pegar…" 197 (49h; o "3" de ontem era atraso do Buffer); enxoval gatinho 202 (25h, 12,4% eng.); filhote chora 157 (39h); tapete "Esse erro…" 139 (+ link no perfil); cortador de unhas 104 (15h); meme 8s 72 (15h); ansiedade 14. Campeão segue banho 994 (~190h) e água do gato 577.
+- Meme "Gato é suspeito?" (15/10 FB 16:32, IG 17:41, TT 17:10): FB 282 views, 16 reações, 4 com., 6 cliques (melhor FB); IG 18 de alcance; TikTok 72 views. Mesmo vídeo, 3 resultados: n=1, sem causa provada.
+- Por horário (n pequeno, parcial): FB 10:00 ~205-211 (n=3), 14:00 210 (n=1), 16:32 282 (n=1), 19:00 ~230-244 (n=3); IG 11:00 55-67, 20:00 39-101. Sem conclusão: teste vai a 22/10.
+- Por tema: gato e cachorro parecidos no FB; sem separar. Vendas Sozinho em Casa: sem dado (Kiwify não consultado).
+## 2. Horários (Fortaleza; manter)
 | Rede | Melhor 1 | Melhor 2 | Fonte |
 |---|---|---|---|
-| FB | 10:00 | 19:00 (alt. 12:00) | Metricool PT jul/2026: seg/qua 10-14h; nossos 207/245/121 |
-| IG | 11:00 | 20:00 | Metricool PT: pico 20h, 18-21h; nosso alcance 61/42 |
-| TikTok | 10:20 | 20:20 | Metricool PT: pico 20h, 18-21h; Zernio n≤4; sem dado Buffer por hora |
-- Zernio best_time: 1 a 4 posts por slot, inconclusivo (mais altos 16h, 18h, 19h). Não vale mudar antes de 22/10 (fim do teste, mínimo 5 posts por slot).
+| FB | 10:00 | 19:00 (alt. 14:00) | nossos ~210/~240; Metricool: dia 10-14h |
+| IG | 11:00 | 20:00 | Metricool pico 18-21h; nosso 55-67 vs 39-101 |
+| TikTok | 10:20 | 20:20 | Buffer: 20:20 e 10:20 sem separar; memes 17:10 |
+- Zernio best_time (UTC): 1-2 posts por slot, inconclusivo. Não mudar antes de 22/10 (mín. 5 posts por slot).
 ## 3. Hashtags e legenda
-- Quantidade: IG 3 a 5 (máx 5 desde dez/2025), TikTok 3 a 5, FB 1 a 3 [hashtagtools.io, 28/03/2026; metricool.com/pt/hashtags-no-instagram, jul/2026]. Páginas pet BR: sem fonte aberta do que funciona; só dados nossos.
-- Por tema no YAML (gato, cachorro, filhote, ansiedade, saúde). Evitar #fyp/#viral. Modelos de legenda (3 por rede): no YAML.
+- Quantidade: IG 3-5, TikTok 3-5, FB 0-3 [Metricool, 29/06/2026, metricool.com/how-many-hashtags-to-use]. Cortar as legendas FB de 5 para 3 hashtags. Páginas pet BR: sem fonte aberta do que funciona; usar nossos dados.
+- Conjuntos por tema e 3 modelos de legenda por rede no YAML.
 ## 4. Interação e isca digital
-- 5 perguntas por tema (gato, cachorro, filhote, ansiedade, saúde) no YAML. Meta: 1 comentário de terceiro por post em 2 semanas (hoje só o meme chegou perto: 4).
-- Regras Meta (leitura oficial de 09/10, não reverificada hoje): resposta privada a comentário em até 7 dias, 1 mensagem por comentário. TikTok: não automatizar. Ferramenta grátis: ManyChat Free (limite de 25 contatos/mês da rodada de 13/10, reconferir no cadastro).
-## 5. Painel semanal (metas em 2 semanas = hipóteses)
-- FB: views 72h mediana ≥250; reações/views ≥2%; tempo médio ≥6s; comentários de terceiros ≥1/semana; cliques no 1º comentário; erros = 0.
-- IG: alcance mediana ≥50; curtidas ≥2/post; skip rate <70%; salvos+shares ≥1/semana; seguidores ganhos; erros = 0.
+- 5 perguntas por tema (gato, cachorro, filhote, ansiedade, saúde) no YAML. Meta: 1 comentário de terceiro por post em 2 semanas (hoje só o meme chegou a 4, contando o nosso).
+- Regras Meta (lidas hoje, fonte secundária 28/08/2026, instantdm.com): resposta privada a comentário: 1 mensagem, em até 7 dias; conversa só segue se a pessoa responder (janela 24h); só se fala com quem agiu primeiro. TikTok: não automatizar. Ferramenta grátis: ManyChat Free (limite a reconferir no cadastro). LGPD: e-mail só com consentimento e política de privacidade.
+## 5. Painel semanal (metas 2 semanas = hipóteses, sem promessa)
+- FB: views 72h mediana ≥250; reações/views ≥2%; tempo médio ≥6s; comentários de terceiros ≥1/semana; cliques no 1º comentário; erros 0.
+- IG: alcance mediana ≥50; curtidas ≥2/post; skip rate <70%; salvos+shares ≥1/semana; seguidores; erros 0.
 - TikTok: views 72h mediana ≥350; curtidas/views ≥5%; shares ≥1 a cada 2 posts; comentários ≥1/post; tempo médio ≥4s; seguidores.
 - Trocar horário/gancho/CTA só com N=6 por variação (CTA 8), mediana ≥1,5× e diferença >100 views (FB/TikTok) ou >20 de alcance (IG); 1 fator por vez.
 ## 6. Decisões do Allan (máx. 3)
-1. Trocar "link no perfil" por "busque no blog" nas 7 legendas TikTok agendadas e cortar FB para 3 hashtags. Motivo: link no perfil não confirmado; risco de CTA que não funciona.
-2. Testar 3 memes curtos de 8s (artigo ligado, regra a) contra a pergunta de dor. Motivo: melhor FB do ciclo (5,7% reações e 4 comentários), n=1.
-3. Isca digital: aprovar piloto de 1 post/semana no IG ("comente GUIA", entrega = link do artigo, sem e-mail) só quando houver comentário orgânico; senão adiar. Motivo: custo zero, mas sem comentários de terceiros não há o que automatizar.
+1. Trocar "link no perfil" por "busque no blog" nas 5 legendas TikTok agendadas e cortar FB para 3 hashtags. Motivo: link no perfil não confirmado.
+2. Manter horários e teste até 22/10; meme 8s só mais 2 repetições. Motivo: no TikTok o meme fez 72 (contra 550 do gancho "Para de ignorar"), n=1 por rede.
+3. Isca digital: piloto IG (comente GUIA, entrega = link do artigo, sem e-mail) só quando houver comentário orgânico; senão adiar. Motivo: custo zero, mas sem comentário de terceiros não há o que automatizar.
 ## 7. Sem dado
-Métricas por post do TikTok (Buffer só agregado), % assistido, horários dos agendados FB/IG, vendas Sozinho em Casa, seguidores ganhos, regras de isca da Meta/TikTok revistas hoje.
+Horários dos agendados FB/IG, % assistido, vendas Sozinho em Casa, seguidores ganhos, regras oficiais de isca do TikTok; meta.com e tiktok.com não lidos direto (fontes secundárias).
