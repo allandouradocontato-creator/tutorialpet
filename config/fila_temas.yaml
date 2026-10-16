@@ -103,7 +103,8 @@ temas:
   data: '2026-10-15'
 - termo: como escolher rampa pet para sofa e cama alta
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-16'
 - termo: como saber se o asfalto esta quente para passear
   pilar: cuidados_diarios
   status: pendente
@@ -330,5 +331,17 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: como apresentar um novo filhote de cachorro para gatos adultos experientes
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como escolher a melhor cama ortopedica para cachorro idoso
+  pilar: produtos_compras
+  status: pendente
+- termo: como fazer picole de sache para gatos no calor
+  pilar: alimentacao
+  status: pendente
+- termo: por que nao pode tosar cachorro de pelagem dupla
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como acostumar filhote de cachorro a usar coleira peitoral
   pilar: primeiros_passos_filhotes
   status: pendente
