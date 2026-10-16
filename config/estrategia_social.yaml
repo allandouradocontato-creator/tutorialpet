@@ -99,3 +99,6 @@ regras_teste:
     facebook: {tempo_medio_pct_duracao: 0.4, reacoes_por_view: 0.02, comentarios_terceiros_por_semana: 1}
     instagram: {skip_rate_max: 0.55, curtidas_por_post: 2, salvamentos_mais_shares_por_semana: 1}
   utm: "utm_source=facebook|instagram|tiktok por rede para medir cliques do 1o comentario"
+painel_semanal_16_10:   # E03 do Executor: colunas obrigatórias do painel semanal (views ficam em segundo plano)
+  colunas_por_rede: [tempo_medio_assistido_pct_da_duracao, skip_rate_ig, compartilhamentos, salvamentos, comentarios_de_terceiros, views_apoio]
+  leitura: "24-48 h; amostra pequena nao afirma causa"

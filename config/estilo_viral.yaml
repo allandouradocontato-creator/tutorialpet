@@ -81,3 +81,10 @@ referencias:
   - {rede: tiktok, perfil: "@shihtzumarrom", link: "https://www.tiktok.com/@shihtzumarrom/video/7691640237281299733", views: 990300, o_que_replicar: "9s, 01/10/2026 (BR); 10k shares (1,0%); CTA de compartilhar na legenda (manda pro seu papai)"}
   - {rede: tiktok, perfil: "@petsdobrasil", link: "https://www.tiktok.com/@petsdobrasil/video/7671292617434483989", views: 373900, o_que_replicar: "8s, 07/08/2026 (BR, evergreen); 31,7k curtidas (8,5%); trilha instrumental delicada (Music Box Lullaby), só hashtag como legenda"}
   - {rede: tiktok, perfil: "@wish_ai", link: "https://www.tiktok.com/@wish_ai/video/7639325409225674007", views: 6500000, o_que_replicar: "11s, mai/2026, evergreen; 85k shares (1,3%); inclinação de cabeça + piscada em close, trilha instrumental brincalhona (Clumsy Tunes)"}
+regras_mudanca_16_10:   # aplicado pelo Executor (E01), fonte data/social/plano_de_mudanca_16_10.md
+  duracao_alvo_s: [8, 20]
+  abertura: "a cena ou o RESULTADO no segundo 0 (sem título nem apresentação)"
+  explicador_longo_37_55s: "no máximo 1 a cada 3 posts"
+  abertura_para_de: "iniciar com 'Para de...' no máximo 1 vez por semana"
+  abertura_banida: "'Esse erro tá silenciosamente...' (1,9-2,4 s de tempo médio no TikTok)"
+  fator_de_decisao: "retenção (tempo médio como % da duração; skip rate IG) lida em 24-48 h; views absolutos só apoio"
