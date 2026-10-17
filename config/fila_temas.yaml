@@ -119,7 +119,8 @@ temas:
   data: '2026-10-16'
 - termo: como enriquecer o ambiente para caes idosos com mobilidade reduzida
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-17'
 - termo: melhores tipos de comedouros slow feed para caes ansiosos
   pilar: produtos_compras
   status: pendente
@@ -374,4 +375,16 @@ temas:
   status: pendente
 - termo: como acostumar dois gatos adultos a comerem no mesmo ambiente
   pilar: comportamento
+  status: pendente
+- termo: como fazer o cachorro parar de latir para campainha
+  pilar: comportamento
+  status: pendente
+- termo: beneficios da grama de trigo para gatos de apartamento
+  pilar: alimentacao
+  status: pendente
+- termo: como tirar nós do pelo de cachorro sem machucar
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como fazer a socialização de filhote de cachorro corretamente
+  pilar: primeiros_passos_filhotes
   status: pendente
