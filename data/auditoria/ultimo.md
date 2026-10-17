@@ -1,18 +1,18 @@
-# Auditoria do processo — 2026-10-17 12:40 UTC
+# Auditoria do processo — 2026-10-17 15:25 UTC
 
-Pacote: `como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida` — 1 aviso(s)
+Pacote: `melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos` — 1 aviso(s)
 
-- **OK ** duração 50 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 54 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.5 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 11 palavras (padrão: até ~12)
+- **OK ** gancho com 10 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
-- **OK ** tags usadas: ['short pause', 'smiling', 'thoughtful', 'warmly']
+- **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
 - **OK ** sem risada e no máximo um [excited]
 - **OK ** narração tem tags de emoção (a Duda sorri pela tag)
 - **OK ** CTA presente (seguir, comentar, compartilhar, salvar ou blog)
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~672 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~728 (saldo do plano: ver painel)

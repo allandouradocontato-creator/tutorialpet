@@ -123,7 +123,8 @@ temas:
   data: '2026-10-17'
 - termo: melhores tipos de comedouros slow feed para caes ansiosos
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-17'
 - termo: cuidados essenciais com as patas de caes no inverno
   pilar: cuidados_diarios
   status: pendente
@@ -386,5 +387,17 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: como fazer a socialização de filhote de cachorro corretamente
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como dessensibilizar cachorro para campainha e interfone
+  pilar: comportamento
+  status: pendente
+- termo: o que colocar no tapete de lamber para cachorro
+  pilar: alimentacao
+  status: pendente
+- termo: como tirar nós dos pelos de cachorro sem tosar
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como acostumar filhote com a coleira dentro de casa
   pilar: primeiros_passos_filhotes
   status: pendente
