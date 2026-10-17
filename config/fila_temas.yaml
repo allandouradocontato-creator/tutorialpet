@@ -127,7 +127,8 @@ temas:
   data: '2026-10-17'
 - termo: cuidados essenciais com as patas de caes no inverno
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-17'
 - termo: como fazer o gato parar de arranhar o sofa
   pilar: comportamento
   status: pendente
@@ -400,4 +401,16 @@ temas:
   status: pendente
 - termo: como acostumar filhote com a coleira dentro de casa
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como descongelar e servir alimentação natural para cães
+  pilar: alimentacao
+  status: pendente
+- termo: como ensinar cachorro a não latir para a campainha
+  pilar: comportamento
+  status: pendente
+- termo: como secar cachorro com secador em casa sem estresse
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher capa protetora de carro para cachorro
+  pilar: produtos_compras
   status: pendente
