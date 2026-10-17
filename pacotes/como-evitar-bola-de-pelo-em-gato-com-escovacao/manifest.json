@@ -1,6 +1,6 @@
 {
   "slug": "como-evitar-bola-de-pelo-em-gato-com-escovacao",
-  "status": "aprovado",
+  "status": "agendado_parcial",
   "criado_em": "2026-10-15T20:20:42+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-evitar-bola-de-pelo-em-gato-com-escovacao",
   "guardiao": {
@@ -19,5 +19,16 @@
     ],
     "em": "2026-10-15T20:21:27+00:00"
   },
-  "aprovado_por": "Conferente: guardiao revisar apenas por gancho repetido"
+  "aprovado_por": "Agendador: gancho repetido (abertura_erro) liberado pelo adendo de 13/10",
+  "agendamento": {
+    "facebook": {
+      "zernio_id": "6ad391f006490c62e78601d2",
+      "quando": "2026-10-20T19:00:00-03:00"
+    },
+    "instagram": {
+      "zernio_id": "6ad391f3788d7dacfb3d9e88",
+      "quando": "2026-10-20T20:00:00-03:00"
+    },
+    "obs": "TikTok pendente: fila do Buffer cheia (10/10)"
+  }
 }

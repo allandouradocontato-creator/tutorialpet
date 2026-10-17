@@ -1,6 +1,6 @@
 {
   "slug": "como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos",
-  "status": "agendado_parcial",
+  "status": "agendado",
   "criado_em": "2026-10-16T17:14:25+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos",
   "guardiao": {
@@ -23,6 +23,13 @@
       "buffer_id": "6ad359920b0d72757ad41c47",
       "dueAt": "2026-10-21T10:20:00-03:00"
     },
-    "obs": "FB/IG pendentes (estoque Zernio ja cobre ate ~25/10)"
+    "facebook": {
+      "zernio_id": "6ad391eb3a0a76f1f0df82fc",
+      "quando": "2026-10-20T14:00:00-03:00"
+    },
+    "instagram": {
+      "zernio_id": "6ad391ee7079173525ed16ae",
+      "quando": "2026-10-20T15:00:00-03:00"
+    }
   }
 }
