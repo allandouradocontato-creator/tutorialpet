@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como organizar a rotina de alimentacao de caes e gatos juntos: guia prático",
+    "description": "Como organizar a rotina de alimentacao de caes e gatos juntos: guia prático. Se você resolveu transformar sua casa em uma mini arca de Noé, parabéns! A...",
+    "datePublished": "2026-10-16",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar a mesma ração para cães e gatos se faltar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. As necessidades nutricionais são totalmente diferentes e a troca prolongada pode fazer mal à saúde deles. Consulte sempre o médico-veterinário.  * **O que fazer se o cachorro comer a ração do gato escondido?** Remova o acesso imediato aos locais altos e passe a supervisionar todas as refeições, recolhendo os potes assim que terminarem de comer.  * **O gato pode comer a comida do cachorro?** Também não é recomendado, pois a ração canina não possui os nutrientes essenciais que os felinos precisam para sobreviver com saúde."
+        }
+      }
+    ]
+  }
+}
