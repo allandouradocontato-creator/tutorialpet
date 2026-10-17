@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como enriquecer o ambiente para cães idosos",
+  "gancho_3s": "Aquele momento em que ver seu cãozinho desanimado acontece de novo.",
+  "cenas": [
+    {
+      "narracao": "Aquele momento em que ver seu cãozinho desanimado acontece de novo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Aquele momento em que ver seu cãozinho desanimado acontece de novo."
+    },
+    {
+      "narracao": "[thoughtful] As pernas do seu cão idoso cansaram, mas a mente dele ainda quer estímulo.",
+      "visual_busca_banco_livre": "senior dog lying on rug looking around",
+      "texto_na_tela": "Mente ativa na velhice"
+    },
+    {
+      "narracao": "Ative o olfato enrolando petiscos numa toalha pra ele desenrolar com o focinho.",
+      "visual_busca_banco_livre": "dog sniffing floor close up",
+      "texto_na_tela": "Desafio do olfato"
+    },
+    {
+      "narracao": "[smiling] Use tapetes de lamber com comida úmida, porque esse hábito relaxa o sistema nervoso.",
+      "visual_busca_banco_livre": "dog licking food close up",
+      "texto_na_tela": "Lamber acalma e relaxa"
+    },
+    {
+      "narracao": "Coloque pisos antiderrapantes e eleve os brinquedos pra não forçar articulações nem o pescoço.",
+      "visual_busca_banco_livre": "senior dog resting on dog bed",
+      "texto_na_tela": "Ajuste a ergonomia"
+    },
+    {
+      "narracao": "Faça passeios estáticos na varanda pra ele absorver cheiros e sons com bastante conforto.",
+      "visual_busca_banco_livre": "dog lying on grass sniffing breeze",
+      "texto_na_tela": "Estímulos sensoriais"
+    },
+    {
+      "narracao": "[short pause] Faça sessões curtas e consulte sempre o médico-veterinário ao notar sinais de dor.",
+      "visual_busca_banco_livre": "senior dog face close up looking calm",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#caoidoso",
+    "#enriquecimentoambiental",
+    "#caosr",
+    "#cuidadoscomcaes",
+    "#bemestaranimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nAs pernas cansaram, mas a mente do seu cão idoso não precisa parar!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida\n\n#caoidoso #enriquecimentoambiental #caosr #cuidadoscomcaes #bemestaranimal",
+  "slug": "como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida",
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 1
+}
