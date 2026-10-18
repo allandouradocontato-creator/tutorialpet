@@ -139,7 +139,8 @@ temas:
   data: '2026-10-18'
 - termo: quais legumes cachorro pode comer cozidos sem tempero
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-18'
 - termo: como escovar pelo de gato que nao gosta de escova
   pilar: cuidados_diarios
   status: pendente

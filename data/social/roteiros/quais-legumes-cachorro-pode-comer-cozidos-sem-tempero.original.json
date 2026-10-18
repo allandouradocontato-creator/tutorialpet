@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Legumes cozidos permitidos para cães",
+  "gancho_3s": "Quer dar legumes pro seu cão sem errar?",
+  "cenas": [
+    {
+      "narracao": "Quer oferecer legumes pro seu cão sem errar na dose?",
+      "visual_busca_banco_livre": "dog looking up begging face close up",
+      "texto_na_tela": "Legumes seguros para cães"
+    },
+    {
+      "narracao": "A regra de ouro é: cozinhe em água ou vapor, sem sal, óleo, alho ou cebola.",
+      "visual_busca_banco_livre": "dog sitting on floor looking attentive",
+      "texto_na_tela": "Apenas na água, sem tempero"
+    },
+    {
+      "narracao": "Cenoura em cubinhos e chuchu são leves e ajudam na hidratação.",
+      "visual_busca_banco_livre": "golden retriever sitting calmly looking at camera",
+      "texto_na_tela": "Cenoura e Chuchu"
+    },
+    {
+      "narracao": "Abobrinha macia, polpa de abóbora e pedacinhos de vagem também estão super liberados.",
+      "visual_busca_banco_livre": "happy dog licking nose sitting",
+      "texto_na_tela": "Abobrinha, Abóbora e Vagem"
+    },
+    {
+      "narracao": "Espere esfriar, teste um legume de cada vez e consulte o veterinário para ajustar a porção.",
+      "visual_busca_banco_livre": "dog eating treat from floor indoors",
+      "texto_na_tela": "Sirva frio e com moderação"
+    }
+  ],
+  "chamada_final": "Consulte o médico-veterinário e compartilhe essa dica saudável!",
+  "hashtags": [
+    "#cachorro",
+    "#alimentacaocanina",
+    "#petisconatural",
+    "#dicaspet",
+    "#saudecanina"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer dar legumes pro seu cão sem errar?\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero\n\n#cachorro #alimentacaocanina #petisconatural #dicaspet #saudecanina",
+  "slug": "quais-legumes-cachorro-pode-comer-cozidos-sem-tempero"
+}
