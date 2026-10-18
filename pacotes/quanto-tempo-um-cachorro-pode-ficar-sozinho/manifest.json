@@ -1,6 +1,6 @@
 {
   "slug": "quanto-tempo-um-cachorro-pode-ficar-sozinho",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-06T12:56:48+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/quanto-tempo-um-cachorro-pode-ficar-sozinho",
   "guardiao": {
@@ -17,5 +17,9 @@
     ],
     "em": "2026-10-15T01:05:45+00:00"
   },
-  "aprovado_por": "Claude: Guardiao so apontou falta de registro de clipes (pacote antigo); gancho, CTA e voz ok; estoque do teste de 7 dias"
+  "aprovado_por": "Claude: Guardiao so apontou falta de registro de clipes (pacote antigo); gancho, CTA e voz ok; estoque do teste de 7 dias",
+  "agendado": {
+    "buffer_tiktok": "6ad51bda769b457934d7f38c (20/10 10:20)",
+    "tiktok_por": "Agendador 16:15 18/10"
+  }
 }
