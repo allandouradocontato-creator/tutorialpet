@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Legumes cozidos permitidos para cães",
+  "gancho_3s": "Seu cachorro fica pedindo comida toda vez que você cozinha?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro fica pedindo comida toda vez que você cozinha?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro fica pedindo comida toda vez que você cozinha?"
+    },
+    {
+      "narracao": "[smiling] Quer oferecer legumes pro seu cãozinho sem errar na dose?",
+      "visual_busca_banco_livre": "dog looking up begging face close up",
+      "texto_na_tela": "Legumes seguros para cães"
+    },
+    {
+      "narracao": "[thoughtful] A regra de ouro é cozinhar na água ou vapor, sem sal, óleo, alho nem cebola.",
+      "visual_busca_banco_livre": "dog sitting on floor looking attentive",
+      "texto_na_tela": "Apenas na água, sem tempero"
+    },
+    {
+      "narracao": "Cenoura em cubinhos e chuchu são leves e ajudam bastante na hidratação.",
+      "visual_busca_banco_livre": "golden retriever sitting calmly looking at camera",
+      "texto_na_tela": "Cenoura e Chuchu"
+    },
+    {
+      "narracao": "[happy] Abobrinha bem macia, polpa de abóbora e pedacinhos de vagem também estão super liberados.",
+      "visual_busca_banco_livre": "happy dog licking nose sitting",
+      "texto_na_tela": "Abobrinha, Abóbora e Vagem"
+    },
+    {
+      "narracao": "[short pause] Espere esfriar, ofereça um legume por vez e consulte o veterinário pra ajustar a porção.",
+      "visual_busca_banco_livre": "dog eating treat from floor indoors",
+      "texto_na_tela": "Sirva frio e com moderação"
+    }
+  ],
+  "chamada_final": "[warmly] Salva esse vídeo pra não esquecer e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorro",
+    "#alimentacaocanina",
+    "#petisconatural",
+    "#dicaspet",
+    "#saudecanina"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer dar legumes pro seu cão sem errar?\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero\n\n#cachorro #alimentacaocanina #petisconatural #dicaspet #saudecanina",
+  "slug": "quais-legumes-cachorro-pode-comer-cozidos-sem-tempero",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 4
+}
