@@ -131,7 +131,8 @@ temas:
   data: '2026-10-17'
 - termo: como fazer o gato parar de arranhar o sofa
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-18'
 - termo: como escolher a melhor guia e peitoral para cachorro
   pilar: produtos_compras
   status: pendente
@@ -413,4 +414,16 @@ temas:
   status: pendente
 - termo: como escolher capa protetora de carro para cachorro
   pilar: produtos_compras
+  status: pendente
+- termo: como evitar guarda de recursos entre cachorros que convivem
+  pilar: comportamento
+  status: pendente
+- termo: como hidratar focinho ressecado de cachorro no dia a dia
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como oferecer sardinha fresca para caes e gatos corretamente
+  pilar: alimentacao
+  status: pendente
+- termo: como entreter filhote de cachorro antes das primeiras vacinas
+  pilar: primeiros_passos_filhotes
   status: pendente

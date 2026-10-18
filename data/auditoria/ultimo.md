@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-10-17 19:11 UTC
+# Auditoria do processo — 2026-10-18 13:00 UTC
 
-Pacote: `cuidados-essenciais-com-as-patas-de-caes-no-inverno` — 4 aviso(s)
+Pacote: `como-fazer-o-gato-parar-de-arranhar-o-sofa` — 4 aviso(s)
 
-- **OK ** duração 46 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 37 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.4 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 14 palavras (padrão: até ~12)
+- **OK ** gancho com 6 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: nenhuma
@@ -15,4 +15,4 @@ Pacote: `cuidados-essenciais-com-as-patas-de-caes-no-inverno` — 4 aviso(s)
 - **AVISO** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~606 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~536 (saldo do plano: ver painel)
