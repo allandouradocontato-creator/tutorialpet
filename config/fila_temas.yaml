@@ -147,7 +147,8 @@ temas:
   data: '2026-10-19'
 - termo: como evitar a obesidade em gatos castrados de apartamento
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-19'
 - termo: como introduzir um segundo gato na casa sem brigas
   pilar: comportamento
   status: pendente
@@ -450,4 +451,16 @@ temas:
   status: pendente
 - termo: como socializar um gatinho filhote com outros animais da casa
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como criar um cantinho exclusivo para pet em casa pequena
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como ajudar o gato idoso a subir na cama com segurança
+  pilar: produtos_compras
+  status: pendente
+- termo: como estruturar a rotina de exercicios para cachorro adulto gordo
+  pilar: comportamento
+  status: pendente
+- termo: como combinar alimentacao natural e racao seca sem erro
+  pilar: alimentacao
   status: pendente

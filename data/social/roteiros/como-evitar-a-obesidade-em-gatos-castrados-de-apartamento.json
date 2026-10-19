@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como Evitar a Obesidade em Gatos Castrados de Apartamento",
+  "gancho_3s": "Aquele momento em que o gatinho engorda de novo acontece de novo.",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Aquele momento em que o gatinho engorda de novo acontece de novo.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Aquele momento em que o gatinho engorda de novo acontece de novo."
+    },
+    {
+      "narracao": "[softly] Gatos castrados em apartamento gastam menos energia e ganham peso rápido se comerem por tédio.",
+      "visual_busca_banco_livre": "chubby cat lying lazy living room floor",
+      "texto_na_tela": "Atenção ao peso do felino"
+    },
+    {
+      "narracao": "[short pause] Primeiro: nunca deixe o pote cheio o dia todo. Pese a ração e divida a comida em pelo menos quatro pequenas porções.",
+      "visual_busca_banco_livre": "cat eating dry food bowl close up",
+      "texto_na_tela": "Pese e divida as porções"
+    },
+    {
+      "narracao": "Aproveite as paredes! Instale nichos e prateleiras para fazer seu felino subir, descer e gastar energia dentro de casa.",
+      "visual_busca_banco_livre": "cat jumping climbing wall shelf indoor",
+      "texto_na_tela": "Explore o espaço vertical"
+    },
+    {
+      "narracao": "Reserve quinze minutos diários para brincadeiras de caça com varinhas, estimulando o instinto do pet.",
+      "visual_busca_banco_livre": "cat playing chasing feather toy floor",
+      "texto_na_tela": "Brinque de caçar 15 min"
+    },
+    {
+      "narracao": "Aumente a ingestão de água espalhando fontes e oferecendo sachê, que hidrata com menos calorias.",
+      "visual_busca_banco_livre": "cat drinking water water fountain indoors",
+      "texto_na_tela": "Mais água e alimento úmido"
+    },
+    {
+      "narracao": "[thoughtful] Para avaliar a condição corporal e a dieta ideal do seu felino, consulte sempre o médico-veterinário.",
+      "visual_busca_banco_livre": "healthy active cat walking indoor room",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. [smiling] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatosdeapartamento",
+    "#gatocastrado",
+    "#saudefelina",
+    "#bemestaranimal",
+    "#cuidadoscomgatos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato castrado engordou depois que foi morar em apartamento?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento\n\n#gatosdeapartamento #gatocastrado #saudefelina #bemestaranimal #cuidadoscomgatos",
+  "slug": "como-evitar-a-obesidade-em-gatos-castrados-de-apartamento",
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 6
+}
