@@ -143,7 +143,8 @@ temas:
   data: '2026-10-18'
 - termo: como escovar pelo de gato que nao gosta de escova
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-19'
 - termo: como evitar a obesidade em gatos castrados de apartamento
   pilar: cuidados_diarios
   status: pendente
@@ -437,4 +438,16 @@ temas:
   status: pendente
 - termo: como cortar a unha do gato em casa com seguranca
   pilar: cuidados_diarios
+  status: pendente
+- termo: como criar um cantinho exclusivo para alimentacao de gatos idosos
+  pilar: alimentacao
+  status: pendente
+- termo: como montar uma rotina de escovacao de pelos para caes seniors
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher comedouros interativos seguros para caes de pequeno porte
+  pilar: produtos_compras
+  status: pendente
+- termo: como socializar um gatinho filhote com outros animais da casa
+  pilar: primeiros_passos_filhotes
   status: pendente

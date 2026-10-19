@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como escovar gato que odeia escova",
+  "gancho_3s": "Seu gato odeia escova de pelo?",
+  "cenas": [
+    {
+      "narracao": "Deixe a escova solta no sofá por alguns dias para o gato investigar sem medo.",
+      "visual_busca_banco_livre": "cat sniffing hairbrush on sofa",
+      "texto_na_tela": "Deixe a escova no sofá"
+    },
+    {
+      "narracao": "Comece substituindo o metal por carícias firmes com as mãos ou luva de borracha.",
+      "visual_busca_banco_livre": "cat enjoying petting close up",
+      "texto_na_tela": "Use as mãos primeiro"
+    },
+    {
+      "narracao": "Espalhe petisco em superfície alta e deslize a escova levemente só nas costas.",
+      "visual_busca_banco_livre": "cat eating treat licking close up",
+      "texto_na_tela": "Petiscos ajudam"
+    },
+    {
+      "narracao": "Esqueça sessões longas. Divida a tarefa em trinta segundos de manhã e quarenta à noite.",
+      "visual_busca_banco_livre": "cat sitting calmly indoors",
+      "texto_na_tela": "Sessões curtas"
+    },
+    {
+      "narracao": "O momento ideal é após a refeição, quando ele está relaxado e sem energia combativa.",
+      "visual_busca_banco_livre": "cat resting calmly close up",
+      "texto_na_tela": "Escove após comer"
+    }
+  ],
+  "chamada_final": "Consulte um médico-veterinário para garantir a segurança da pele do seu pet.",
+  "hashtags": [
+    "gatos",
+    "cuidadoscomgatos",
+    "amopet",
+    "dicaspet",
+    "felinos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato odeia escova de pelo?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escovar-pelo-de-gato-que-nao-gosta-de-escova\n\n#gatos #cuidadoscomgatos #amopet #dicaspet #felinos",
+  "slug": "como-escovar-pelo-de-gato-que-nao-gosta-de-escova"
+}
