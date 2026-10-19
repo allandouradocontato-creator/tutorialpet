@@ -1,12 +1,12 @@
-# Playbook TikTok @tutorialpetbr (curto) — atualizado 2026-10-15 (relatório em relatorio.md; métricas via Buffer)
+# Playbook TikTok @tutorialpetbr (curto) — atualizado 2026-10-19 (relatorio.md; métricas via Buffer)
 Regras:
-- Vídeo que promove marca/produto (Sozinho em Casa): "Sua marca" ligado.
-- isAigc=true em todo vídeo (voz sintética; fonte secundária diz que não seria obrigatório, mas é a opção segura).
-- Música: só a trilha embutida; NÃO usar audios_em_alta.yaml no TikTok (conta comercial = Biblioteca de Música Comercial).
-- Link: fonte secundária (mar/2025) diz conta comercial + 1.000 seguidores. Até o Allan confirmar que aparece no perfil, CTA = "artigo completo no blog / busque tutorialpet.com.br"; não escrever "link no perfil". Link em comentário não é clicável.
-- Sem prometer resultado; manter "consulte o veterinário"; evitar "pode ser fatal" e "tá atrapalhando o crescimento" sem ressalva.
-Conteúdo: o campeão é pergunta de dor concreta do cotidiano (banho→cheiro 988, gato/água 577). Alerta (309-420) e "Esse erro tá silenciosamente…" (191, retenção 3%) rendem menos: reduzir esses moldes. "Para de…" é incerto (420 e 3): máx. 1 por semana. Fofura 8-15s 1 em 4 (a testar).
-Legenda: 1 pergunta para comentar + 2-3 hashtags de nicho; não pedir curtida.
-Horário (Fortaleza): 10h, 12h, 18h/20h; evitar madrugada. Julgar só com 72h+; <48h = "recente (parcial)".
+- Vídeo do Sozinho em Casa (marca própria): "Sua marca" ligado. isAigc=true em todo vídeo.
+- Música: só a trilha embutida; NÃO usar audios_em_alta.yaml (conta comercial = Biblioteca de Música Comercial).
+- Link no perfil: SEM confirmação oficial (fontes secundárias discordam). CTA falado e legenda: "busque/leia em tutorialpet.com.br"; sem "link na bio". Link em comentário não é clicável.
+- Sem prometer resultado; manter "consulte o veterinário"; evitar "pode ser fatal" e "atrapalhando o crescimento" sem ressalva.
+Conteúdo: campeão = pergunta de dor cotidiana sem alarme (banho 998, gato/água 577, ração seca 196 com 3,8s). "Para de…" funciona e varia (747 e 198): máx. 1 por semana. "Esse erro tá silenciosamente…" = pior retenção (1,5-1,9s): tirar da fila. Repetir o molde não repete o resultado (banho 2ª vez: 199).
+Piso atual ~150-210 views/vídeo; falta retenção (média 2,8s) e interação (3 comentários).
+Legenda: 1 pergunta para comentar + 1-5 hashtags de nicho; não pedir curtida.
+Sozinho em Casa: 1 vídeo em 4 cita o app; série 3 partes 15-20s a testar.
+Horário (Fortaleza): 10h, 14h, 20h (slots atuais). Julgar só com 72h+; <48h = parcial.
 UTM: ?utm_source=tiktok&utm_medium=bio&utm_campaign=sozinho_serie&utm_content=<slug>
-Legendas FB/IG de pacote ainda usam sozinhoemcasa-kohl.vercel.app: trocar por sozinho.tutorialpet.com.br.
