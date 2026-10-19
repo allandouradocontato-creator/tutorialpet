@@ -1,6 +1,6 @@
 # Retomada — resumo vivo para continuar de onde paramos
 Regra do Allan (16/10/2026): a última conversa nem sempre aparece na barra lateral do app, então TODA conversa nova começa lendo esta nota (e o Otimizador a atualiza em toda rodada ter/sex). Nunca depender da lembrança do Allan.
-Atualizado em 16/10/2026 ~11:15 (Fortaleza) pelo Otimizador.
+Atualizado em 19/10/2026 ~08:55 (Fortaleza) pelo Otimizador.
 
 ## Onde estamos
 - Foco do Allan: sem anúncios; sucesso = engajamento, audiência e agilidade do processo. Meta: fechar o processo até sexta 23/10 e então construir o MOLDE para lançar um novo negócio em 7 a 10 dias (hoje levou ~1 mês). Ordem em data/molde/ORDEM.md; gatilhos na nuvem em 23/10 e 30/10 12:17.
@@ -22,3 +22,8 @@ Atualizado em 16/10/2026 ~11:15 (Fortaleza) pelo Otimizador.
 Reconectar Windsor.ai; 2FA nas contas; recriar chave ElevenLabs; verificação TikTok; produto Kiwify duplicado 3JprCCK (precisa do navegador logado).
 ## Próximas datas
 Seg 19/10 tarefa de pendências na nuvem; ter 20/10 Otimizador; 21/10 fim do teste de 7 dias; sex 23/10 veredito das mudanças + decisão "processo fechado" + molde; 30/10 reserva do molde; renovação ElevenLabs 07/11.
+
+## Rodada de pendências 19/10 (Otimizador, nuvem)
+Feito: 3 artigos (conviverem-em-paz, bola-de-pelo, frutas) estão em site/build na main (HTTP ao vivo não conferido: WebFetch sem permissão de URL); audiência registrada em ciclo.csv (FB 6 seguidores, IG 0, TikTok 12–19/10: 20 posts, 4.006 views, 1 comentário, 9 compartilhamentos, tempo médio 2,35 s); requirements do app fixado (streamlit 1.66.0, pillow 12.3.0) com smoke test.
+Falhou: créditos ElevenLabs ilegíveis — a chave do workflow retorna 401 (sem permissão user_read); sem saldo não há ALERTA <30% (indeterminado).
+Só o Allan: recriar a chave ElevenLabs COM permissão user_read (e aprovar recriação do Caçador de estilo viral e Agente de Segurança, não mexidas); liberar tutorialpet.com.br no WebFetch das rotinas; conferir o app ao vivo após o deploy.

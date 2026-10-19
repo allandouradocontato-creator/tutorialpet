@@ -10,3 +10,6 @@ Regra: toda mudança aprovada entra aqui com base de hoje, métrica de sucesso, 
 | 5 | Mais humor no Facebook (semana de teste) | reações 1–6 (tutorial) x 16 (meme, 18 h) | mediana de reações do humor >2x a do tutorial | 23/10 |
 | 6 | Audiência: seguidores, comentários e compartilhamentos por rede como números principais (Zernio follower-stats, Buffer) | seguidores sem leitura nesta rodada | série semanal registrada | 23/10 |
 | 7 | Agilidade: tempo de ciclo registrado em ciclo.csv | ver ciclo.csv | cada etapa com horas; meta -50% no próximo produto | 23/10 |
+
+## Execuções do Otimizador
+- 2026-10-19 | requirements.txt do app sozinho-em-casa-app fixado (streamlit==1.66.0, pillow==12.3.0; antes >=) após smoke test AppTest sem exceção | sucesso: deploy do Streamlit sem quebra; conferir o app ao vivo | veredito 23/10.
