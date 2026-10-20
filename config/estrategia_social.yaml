@@ -1,7 +1,7 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 10
-atualizado_em: "2026-10-20"  # rodada extra campanha 14 dias
+versao: 11
+atualizado_em: "2026-10-20 17:08"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
 status_publicacao:
   alerta: "Sem erros em 16/10. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
   teste_horarios_ab: "ENCERRADO como fator de decisao em 16/10 (8 posts por rede sem sinal; mesmo video de 40-55s nos 3 slots). Horarios congelados; o fator agora e formato/abertura."
@@ -124,3 +124,18 @@ campanha_organica:   # data/social/campanha_organica_2026-10-20.md ; 21/10 a 03/
     sem2: {fb_views_mediana: 350, ig_alcance_mediana: 80, ig_skip_max: 0.55, tiktok_views_mediana: 400, comentarios_terceiros_por_post: 0.2, shares_mais_salvos: 25}
   criterio_liberar_teste_anuncio: "7 dias seguidos, 1 serie e 1 rede: views mediana >= meta sem2 por 2 semanas; tempo medio >=50% TikTok e >=40% FB em 60% dos posts; comentarios de terceiros >=1 a cada 5 posts; shares/views >=1% em 3 posts; >=10 cliques/semana no 1o comentario; 100% voz aprovada e 0 erros; landing 200. Decide e paga o Allan; veredito 04/11."
   leituras: ["22/10", "24/10", "27/10", "03/11", "04/11"]
+rodada_2026_10_20_1707:   # data/social/estrategia_social.md (8a edicao)
+  gatilho: "disparou: FB tempo<6s 12/14; IG skip>70% 12/14; TikTok tempo<4s 9/10 e 0 shares em 10"
+  horarios: {decisao: "manter grade; FB 12:00 reaberto so para meme 8s (hoje 174 views); IG 13:00 em observacao ate 24h", fonte_publica: "Reportei fev/2026 (Hootsuite/SocialPilot, sem amostra BR): FB 10-12h ter-qui; TikTok 6-10h e 19-23h"}
+  hashtags_nota: "3-5 IG/TikTok e 0-3 FB vem de fontes secundarias (agenciagram 31/03/2026, Metricool 29/06/2026); sem comunicado primario da Meta"
+  perguntas_uma_palavra: ["Gato ou cachorro?", "Sim ou nao?", "Manha ou noite?", "Caixa ou cama?", "Quem manda la, voce ou ele?"]
+  portfolio_variacoes:   # 5 em teste, 1 fator cada (regra_mudanca_rapida.md secao 5)
+    V1_abertura: "resultado no segundo 0, sem titulo (15-20s)"
+    V2_duracao: "meme 8s no TikTok (primeiro hoje 17:10); aprova tempo medio >=4s e >=1 share em 3 de 6"
+    V3_voz_emocao: "Duda dubla o pensamento do pet (15-20s); acao: compartilhar"
+    V4_tema: "so gato por 3 dias no TikTok (nicho gato com poucos videos >10K, referencias_virais.md)"
+    V5_acao_final: "SALVA (erro de 8s) contra GATO ou CAO (comentar 1 palavra)"
+  painel_metas_2_semanas:   # = sem2
+    fb: {views_mediana: 350, tempo_medio_pct: 0.4, comentarios_terceiros_semana: 1, seguidores_dia: 1}
+    ig: {alcance_mediana: 80, skip_max: 0.55, salvos_mais_shares_semana: 1}
+    tiktok: {views_mediana: 400, tempo_medio_pct: 0.5, meme_tempo_medio_s: 4, shares_por_post: 0.5, seguidores_dia: 2}

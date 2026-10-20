@@ -22,3 +22,9 @@ Dados até 2026-10-20 10:15 (Fortaleza). Só recomendação; nada publicado, age
 - TikTok 6ad51bdb0a208cb3237b4a7b (20/10 20:20, bolas de pelo 50s, "link no perfil") e 6ad359920b0d72757ad41c47 (21/10 10:20, comida cão+gato 42s): trocar por meme 8s ou corte T3; legenda sem "link no perfil".
 - FB/IG explicadores longos: bolas de pelo FB 6ad391f006490c62e78601d2 / IG 6ad391f3788d7dacfb3d9e88; ração cão x gato FB 6ad391eb3a0a76f1f0df82fc / IG 6ad391ee7079173525ed16ae; cachorro sozinho IG 6ad02bb8e59ac4780c8e4a12. Horários dos agendados FB/IG não vêm no posts_list.
 - Apagar/mexer em publicados (3 vídeos de 12:00) = decisão do Allan.
+
+## Atualização 20/10 17:08 (rodada 17:07)
+- Gatilho segue ativo: FB tempo <6 s 12/14; IG skip >70% 12/14; TikTok tempo <4 s 9/10, 0 shares em 10. Laboratório preenchido: data/social/laboratorio.md (42 linhas: 19 PERDEU, 17 NEUTRO, 6 GANHOU, só FB/IG meme em 08:30/21:00 e IG meme skip ≤55%).
+- Novo: FB 12:00 de hoje (meme) entregou 174 views; falha de 17-19/10 parece de arquivo. E12 reabre o slot só para meme.
+- TikTok: nenhum fator vencedor; teto ~220 views desde 14/10. Portfólio de 5 variações no YAML (rodada_2026_10_20_1707).
+- POSTS JÁ AGENDADOS PARA O ALLAN/CLAUDE DA SESSÃO TROCAR (Buffer TikTok, legenda diz "link no perfil"; trocar por "Confira o artigo completo em tutorialpet.com.br"): 20/10 20:20 (bolas de pelo, id final ...), 21/10 14:20, 21/10 20:20, 22/10 10:20 (patas no inverno, id ...7b3). Ids completos: list_posts do Buffer, status scheduled.
