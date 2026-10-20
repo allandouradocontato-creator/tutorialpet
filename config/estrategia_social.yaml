@@ -1,7 +1,7 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 9
-atualizado_em: "2026-10-20"
+versao: 10
+atualizado_em: "2026-10-20"  # rodada extra campanha 14 dias
 status_publicacao:
   alerta: "Sem erros em 16/10. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
   teste_horarios_ab: "ENCERRADO como fator de decisao em 16/10 (8 posts por rede sem sinal; mesmo video de 40-55s nos 3 slots). Horarios congelados; o fator agora e formato/abertura."
@@ -107,3 +107,20 @@ mudanca_2026_10_20:   # gatilho disparou (FB tempo<6s 15/18; IG skip>70% 8/9; Ti
   proporcao_formato: "2 memes 8-12s para 1 explicador"
   testes: {A_horarios_meme: "2 posts por horario", B_tiktok_meme_3_dias: "6 posts; aprova tempo medio >=4s e >=1 share em 3 de 6", C_pergunta_uma_palavra: "aprova 1 comentario de terceiro em 2 de 6"}
   leitura: "24-48h; amostra pequena nao afirma causa"
+campanha_organica:   # data/social/campanha_organica_2026-10-20.md ; 21/10 a 03/11 ; nenhum anuncio ate o criterio abaixo e decisao do Allan
+  amostra_excluida: ["filhote-morder", "sache-gato", "sair-na-rua", "ficar-sozinho (TikTok sem emocao da Duda; nao usar como prova de formato)"]
+  videos_unicos_por_dia: 3
+  grade: {M: {facebook: "08:30", instagram: "08:40", tiktok: "10:20"}, D: {facebook: "10:00", instagram: "11:00", tiktok: "17:10"}, N: {facebook: "21:00", instagram: "21:10", tiktok: "20:20"}}
+  series:
+    S1_duda_dubla: {duracao_s: "15-20", acao: "compartilhar com quem tem pet", frequencia: "10 de 42"}
+    S2_gato_x_cachorro: {duracao_s: "8-10", acao: "comentar 1 palavra (GATO ou CAO)", frequencia: "meme"}
+    S3_erro_de_8_segundos: {duracao_s: "8", acao: "salvar", abertura: "Erro comum:", frequencia: "meme"}
+    S4_duvida_do_tutor: {duracao_s: "25-35", acao: "comentar um numero", frequencia: "4 de 42, max 1 em 3"}
+  cta_por_formato: {meme_gato_cachorro: "texto GATO ou CAO + Duda ate 6 palavras (6,5-8,0 s)", erro_8s: "texto SALVA + Duda: Salva pra nao esquecer", voz_do_pet: "Duda: Manda pra quem tem um [animal] assim", duvida: "Duda: Comenta aqui [pergunta numerica]"}
+  primeiro_comentario: "[pergunta de 1 palavra]? Artigo completo: [URL com UTM]; fixar manual"
+  engajamento: {atendente_execucoes_dia: ["08:50", "14:50", "21:50"], resposta_alvo: "1 h na janela 08-22 h", comentarios_em_paginas_por_dia: 5, em_nome_da_marca: "so com aprovacao do Allan", proibido: ["comprar seguidores", "mensagem em massa", "automacao de DM", "link em comentario alheio"]}
+  metas_semanais:
+    sem1: {fb_views_mediana: 250, ig_alcance_mediana: 60, ig_skip_max: 0.60, tiktok_views_mediana: 300, tempo_medio_meme_s: 4, comentarios_terceiros: 5, shares_mais_salvos: 10}
+    sem2: {fb_views_mediana: 350, ig_alcance_mediana: 80, ig_skip_max: 0.55, tiktok_views_mediana: 400, comentarios_terceiros_por_post: 0.2, shares_mais_salvos: 25}
+  criterio_liberar_teste_anuncio: "7 dias seguidos, 1 serie e 1 rede: views mediana >= meta sem2 por 2 semanas; tempo medio >=50% TikTok e >=40% FB em 60% dos posts; comentarios de terceiros >=1 a cada 5 posts; shares/views >=1% em 3 posts; >=10 cliques/semana no 1o comentario; 100% voz aprovada e 0 erros; landing 200. Decide e paga o Allan; veredito 04/11."
+  leituras: ["22/10", "24/10", "27/10", "03/11", "04/11"]
