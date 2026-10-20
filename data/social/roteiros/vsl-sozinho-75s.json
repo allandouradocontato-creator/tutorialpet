@@ -42,17 +42,18 @@
   {
    "narracao": "[softly] Mas meu pet é muito grudado. É por isso que começa com dois minutos, não com duas horas.",
    "visual_busca_banco_livre": [
-    "cute dog leaning on couch cuddly",
-    "fluffy puppy snuggling blanket"
+    "golden retriever puppy on sofa",
+    "labrador resting head on couch",
+    "cute dog leaning against owner couch"
    ],
    "texto_na_tela": "Dia 1: dois minutos"
   },
   {
    "narracao": "[warmly] Não tenho tempo. São dez minutos antes de sair.",
    "visual_busca_banco_livre": [
-    "puppy sleeping on dog bed",
-    "golden retriever lying on couch relaxed",
-    "dog resting on rug living room"
+    "dog sleeping on sofa",
+    "labrador lying down calm at home",
+    "golden retriever lying down relaxed"
    ],
    "texto_na_tela": "10 minutos antes de sair"
   },
