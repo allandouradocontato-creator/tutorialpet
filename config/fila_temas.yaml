@@ -163,7 +163,8 @@ temas:
   data: '2026-10-20'
 - termo: como escolher caixa de transporte para viagem de aviao
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-20'
 - termo: como saber se o cachorro esta acima do peso ideal
   pilar: cuidados_diarios
   status: pendente
@@ -484,4 +485,7 @@ temas:
   status: pendente
 - termo: como preparar um espaco seguro para filhote recem chegado
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como escolher comedouro interativo seguro para caes e gatos
+  pilar: produtos_compras
   status: pendente

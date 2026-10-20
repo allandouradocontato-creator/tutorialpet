@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como escolher a caixa de transporte para o avião",
+  "gancho_3s": "Se errar a caixa de transporte, seu pet não embarca no avião!",
+  "cenas": [
+    {
+      "narracao": "Vai viajar de avião com o pet? Se a caixa for inadequada ou apertada, o embarque é recusado.",
+      "visual_busca_banco_livre": "small dog sitting looking alert",
+      "texto_na_tela": "Atenção no embarque!"
+    },
+    {
+      "narracao": "Na cabine, use bolsas flexíveis com telas resistentes. Já no porão, a regra exige caixas rígidas com porta de metal.",
+      "visual_busca_banco_livre": "cat inside pet carrier looking outside",
+      "texto_na_tela": "Bolsa flexível vs Caixa rígida"
+    },
+    {
+      "narracao": "Tire as medidas: o pet deve ficar em pé sem encostar a cabeça no teto, dar a volta completa e deitar com folga.",
+      "visual_busca_banco_livre": "dog standing upright indoor",
+      "texto_na_tela": "Espaço para girar e deitar"
+    },
+    {
+      "narracao": "Para o porão, garanta parafusos de metal, tapete higiênico no fundo e potes presos à porta.",
+      "visual_busca_banco_livre": "dog lying down relaxed inside crate",
+      "texto_na_tela": "Travas de segurança"
+    },
+    {
+      "narracao": "Comece a adaptação semanas antes com petiscos lá dentro. E consulte o médico-veterinário para avaliar a saúde antes do voo.",
+      "visual_busca_banco_livre": "dog eating treats near open crate",
+      "texto_na_tela": "Adapte com antecedência"
+    }
+  ],
+  "chamada_final": "Consulte as regras da sua companhia aérea e prepare a viagem!",
+  "hashtags": [
+    "viagemcompet",
+    "caixadetransporte",
+    "petnoaviao",
+    "dicaspet",
+    "cuidadoscomanimais"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSe errar a caixa de transporte, seu pet não embarca no avião!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-caixa-de-transporte-para-viagem-de-aviao\n\n#viagemcompet #caixadetransporte #petnoaviao #dicaspet #cuidadoscomanimais",
+  "slug": "como-escolher-caixa-de-transporte-para-viagem-de-aviao"
+}
