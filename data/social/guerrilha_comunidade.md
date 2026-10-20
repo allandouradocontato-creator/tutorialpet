@@ -24,3 +24,7 @@ Comentar PELA CONTA DA MARCA (Tutorial Pet) em posts de páginas e criadores pet
 - Estrategista (07:07 e 17:07) escreve data/social/guerrilha_lista_AAAA-MM-DD.md: 10 posts-alvo por rede (link, motivo, comentário proposto) e anota seguidores atuais em data/social/laboratorio.md.
 - Claude da sessão do Allan executa no Chrome logado, registra em data/social/guerrilha_log.md (post, comentário, hora, resposta recebida) e mede seguidores/dia.
 - Veredito em 24-48h por tática: quantos seguidores/respostas gerou. Tática que não gera nada em 2 dias sai; a que gera, escala.
+
+## TAREFAS PONTUAIS DO VIGIA (Allan, 20/10/2026 12:24) — fazer na próxima rodada e riscar quando feitas
+- [ ] Testar o perfil https://www.instagram.com/tutorialpetbr/ COMO VISITANTE: abrir em janela anônima do Chrome (sem login) e conferir se a grade de posts carrega ou se aparece 'Ocorreu um erro'. Registrar o resultado em data/social/guerrilha_log.md. Se o erro persistir para visitante, escrever 'ALERTA PERFIL IG: grade não carrega' na primeira linha do resultado. Repetir o teste depois que foto e bio forem atualizadas.
+- [ ] Idem para https://www.facebook.com/TutorialPet e https://www.tiktok.com/@tutorialpetbr (perfil abre? foto? bio com link do blog?).
