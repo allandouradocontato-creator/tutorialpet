@@ -159,7 +159,8 @@ temas:
   data: '2026-10-20'
 - termo: como limpar manchas de lagrima acida em cachorro branco
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-20'
 - termo: como escolher caixa de transporte para viagem de aviao
   pilar: produtos_compras
   status: pendente
@@ -471,4 +472,16 @@ temas:
   status: pendente
 - termo: como fazer banho a seco em cachorro no inverno
   pilar: cuidados_diarios
+  status: pendente
+- termo: como resfriar cachorro idoso nos dias de calor intenso
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como planejar a transicao de racao senior para cachorro idoso
+  pilar: alimentacao
+  status: pendente
+- termo: como evitar que caes e gatos briguem por comida na mesma casa
+  pilar: comportamento
+  status: pendente
+- termo: como preparar um espaco seguro para filhote recem chegado
+  pilar: primeiros_passos_filhotes
   status: pendente
