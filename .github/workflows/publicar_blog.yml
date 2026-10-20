@@ -56,6 +56,9 @@ jobs:
           fi
 
       - name: Gravar na main (Cloudflare publica)
+        # 20/10: se UM artigo era reprovado pelo editor, o passo anterior saia com erro e este passo era PULADO:
+        # os artigos aprovados ficavam fora do ar (ultimo post no ar: 16/10). Agora grava sempre; o job continua vermelho (alerta).
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "Fabrica Tutorial Pet"
           git config user.email "fabrica@tutorialpet.com.br"
