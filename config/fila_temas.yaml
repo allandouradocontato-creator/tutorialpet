@@ -151,7 +151,8 @@ temas:
   data: '2026-10-19'
 - termo: como introduzir um segundo gato na casa sem brigas
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-20'
 - termo: como fazer caldo de ossos caseiro para cachorro
   pilar: alimentacao
   status: pendente
@@ -463,4 +464,10 @@ temas:
   status: pendente
 - termo: como combinar alimentacao natural e racao seca sem erro
   pilar: alimentacao
+  status: pendente
+- termo: como dessensibilizar cachorro com barulho de campainha ou interfone
+  pilar: comportamento
+  status: pendente
+- termo: como fazer banho a seco em cachorro no inverno
+  pilar: cuidados_diarios
   status: pendente

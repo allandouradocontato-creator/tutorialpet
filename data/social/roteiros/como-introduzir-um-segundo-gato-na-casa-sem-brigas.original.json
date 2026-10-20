@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como introduzir um segundo gato sem brigas",
+  "gancho_3s": "Vai trazer outro gato pra casa? Soltar ele direto na sala pode gerar brigas feias.",
+  "cenas": [
+    {
+      "narracao": "Vai trazer outro gato pra casa? Soltar ele direto na sala pode gerar brigas feias.",
+      "visual_busca_banco_livre": "cat hissing arching back indoors",
+      "texto_na_tela": "Como apresentar dois gatos"
+    },
+    {
+      "narracao": "Comece isolando o novato em um quarto confortável. Lembre-se de consultar um veterinário para avaliar a saúde e vacinas.",
+      "visual_busca_banco_livre": "cat sniffing around bedroom floor",
+      "texto_na_tela": "1. Quarto de adaptação"
+    },
+    {
+      "narracao": "Faça a troca de cheiros esfregando paninhos nas bochechas de cada um e ofereça petiscos ao farejarem.",
+      "visual_busca_banco_livre": "cat sniffing soft blanket on floor",
+      "texto_na_tela": "2. Troca de cheiros"
+    },
+    {
+      "narracao": "Depois, permita o contato visual através de uma grade ou fresta na porta, servindo a ração de longe.",
+      "visual_busca_banco_livre": "cat eating from bowl looking alert",
+      "texto_na_tela": "3. Contato visual controlado"
+    },
+    {
+      "narracao": "Por fim, faça encontros curtos e supervisionados em um cômodo neutro, garantindo rotas de fuga.",
+      "visual_busca_banco_livre": "two cats resting in living room",
+      "texto_na_tela": "4. Primeiro encontro livre"
+    }
+  ],
+  "chamada_final": "Salve este guia para quando for adotar o próximo felino!",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#adaptacaodegatos",
+    "#adocaodegatos",
+    "#felinos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai trazer outro gato pra casa? Soltar ele direto na sala pode gerar brigas feias.\n\n📖 Artigo completo: https://tutorialpet.com.br/como-introduzir-um-segundo-gato-na-casa-sem-brigas\n\n#gatos #comportamentofelino #adaptacaodegatos #adocaodegatos #felinos",
+  "slug": "como-introduzir-um-segundo-gato-na-casa-sem-brigas"
+}
