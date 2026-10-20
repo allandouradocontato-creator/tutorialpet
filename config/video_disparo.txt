@@ -1,5 +1,5 @@
 # Slugs a montar (um por linha). Cada linha nova com roteiro em data/social/roteiros/<slug>.json dispara config: .github/workflows/video_disparo.yml
 # Nao publica nada: entrega o mp4 na branch media, pasta reels/.
-reel-sinal-de-melhora
 reel-filme-a-porta
-# re-render 20/10 15:35: CTA unico (sem duplicar chamada_final)
+# slug! (com ! no fim) forca re-renderizar mesmo ja entregue
+reel-sinal-de-melhora!

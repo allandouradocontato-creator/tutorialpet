@@ -45,7 +45,8 @@ jobs:
         run: |
           mkdir -p /tmp/media/reels
           grep -v '^#' config/video_disparo.txt | sed '/^[[:space:]]*$/d' | while read -r slug; do
-            if [ -f "/tmp/media/reels/$slug.mp4" ]; then echo "pula $slug (ja entregue)"; continue; fi
+            force=0; case "$slug" in *!) slug="${slug%!}"; force=1;; esac
+          if [ "$force" = 0 ] && [ -f "/tmp/media/reels/$slug.mp4" ]; then echo "pula $slug (ja entregue)"; continue; fi
             python agents/17_video/montar_video6.py "data/social/roteiros/$slug.json" 2>&1 | tail -40
             cp "data/social/videos/${slug}_v2.mp4" "/tmp/media/reels/$slug.mp4"
             [ -f "data/social/videos/${slug}_v2.voz.json" ] && cp "data/social/videos/${slug}_v2.voz.json" "/tmp/media/reels/$slug.voz.json" || true
