@@ -8,9 +8,9 @@ gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---
 
-# Sobre o Tutor de Primeira Viagem
+# Sobre o Tutorial Pet
 
-O **Tutor de Primeira Viagem** nasceu para ajudar tutores de primeira viagem a atravessar a fase mais
+O **Tutorial Pet** nasceu para ajudar tutores de primeira viagem a atravessar a fase mais
 incerta de ter um cão ou gato: aquela em que tudo é novo e cada dúvida parece grande
 demais para perguntar. Aqui, tratamos cada assunto com um tom caloroso, prático, acolhedor, não-técnico, honesto — como uma conversa
 entre amigos, não uma aula técnica.
@@ -34,7 +34,7 @@ entre amigos, não uma aula técnica.
 ## Quem está por trás do site
 
 **Dourado Falcão Educação Corporativa LTDA** (CNPJ 65.211.970/0001-81) é a empresa responsável e o ponto de contato oficial do
-**Tutor de Primeira Viagem**.
+**Tutorial Pet**.
 
 O conteúdo é produzido em equipe, com colaboração editorial de **Rosana Cardoso** e
 **Mariah Maitre**.

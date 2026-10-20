@@ -10,7 +10,7 @@ revisao_humana_pendente: false
 
 # Contato
 
-Quer tirar uma dúvida, sugerir um assunto para o **Tutor de Primeira Viagem** ou avisar sobre algo que
+Quer tirar uma dúvida, sugerir um assunto para o **Tutorial Pet** ou avisar sobre algo que
 precisa de correção? Ficamos felizes em ouvir você.
 
 - **E-mail**: allandouradocontato@gmail.com
