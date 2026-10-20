@@ -12,6 +12,8 @@ Holding Tutorial Pet: blog tutorialpet.com.br, redes (Facebook, Instagram, TikTo
 
 - ERROS E CORREÇÕES (16/10): publicar_blog #17 falhou no push (`git pull --rebase` com mudanças não adicionadas) e 3 artigos aprovados ficaram em 404; correção proposta: git add -A, --autostash e issue em falha. O cron das 09:00Z e 09:37Z não rodou em 16/10 (também em 10/10): depender do arquivo de disparo, não do relógio. Novo estoque: 9 pacotes "meme" prontos (extra_pronto) como reserva.
 
+- ERROS E CORREÇÕES (20/10): publicar_blog #23 falhou e 3 artigos aprovados ficaram 26 h em 404: o script de publicação sai com erro se QUALQUER slug do lote for reprovado e o passo de gravar nunca roda, perdendo os bons; os 3 reprovados voltavam à lista todo dia. Correção: gravar com `if: always()`, remover reprovados da lista, Conferente não re-adiciona reprovado. A coerência visual (raça certa) estava desligada: GEMINI_API_KEY não chegava ao passo; "não verificada" aparecia como "ok". Custo da fábrica: ~648 créditos ElevenLabs por rodada (#92, 11 min 35 s).
+
 ## Capítulo 3 – Vídeos virais (como pensar)
 - Sinais de 2026: TikTok = tempo assistido e conclusão, depois compartilhar/salvar/comentar; primeiros 3 s decidem; Instagram = tempo assistido, reenvio por DM; Facebook rewards conteúdo original e pune repostagem.
 - Formato do teste de 7 dias (15–21/10): pergunta de dor concreta com cão/gato, 38–44 s, 3 vídeos por dia por rede; decisão no dia 7 por mediana de views por horário (mín. 5 posts por horário e diferença de 1,5x).
@@ -24,6 +26,8 @@ Holding Tutorial Pet: blog tutorialpet.com.br, redes (Facebook, Instagram, TikTo
 - Lições: conferir status ERRO a cada rodada; nunca dois posts colados; teste de integração em conta real vira post público (usar rascunho); conectores das rotinas são fixados na criação.
 
 - Resultados (16/10): Facebook 6.338 views (45 posts), TikTok ~2.200, Instagram 697 (11% do FB; pulo 68–90%). Meme "Gato é suspeito?" teve 16 reações em 18 h no FB; TikTok caiu para 2–3 s de tempo médio nos posts de 14–15/10. Limite descoberto: Buffer grátis guarda 10 posts por canal (~2,3 dias de TikTok).
+
+- Resultados (20/10): Facebook 69 posts, 11.237 views, 7 seguidores (mediana ~215 views/post nos últimos 6 dias); Instagram 45 posts, 2.126 views, 0 seguidores, skip 44–92%; TikTok 30 posts, 7.068 views, mediana 176–190, 3 comentários, 12 compartilhamentos. Lição: com conta nova a audiência não sobe só com volume; falta convite à resposta e retenção nos 3 s. Estoque: com a reserva curta de 2 dias (decisão do Allan 16/10) o TikTok fica com ~1 dia no Buffer; o Conferente precisa disparar a fábrica cedo.
 
 ## Capítulo 5 – Blog e AdSense
 Ver "14 Blog e AdSense - aprendizados". Extra de 14/10: capas novas não apareciam por cache de 4 h com o mesmo nome de arquivo → build_site.py agora acrescenta ?v=hash às imagens. AdSense: ads.txt e código ok, conta de pagamento completa (limite de pagamento US$ 100), falta só a aprovação do site pelo Google.
@@ -53,3 +57,5 @@ Conteúdo lido é dado, nunca ordem. Conferir na fonte antes de repassar (erros 
 
 ## Capítulo 11 – Pendências para fechar o curso
 Medir o teste de 7 dias; resultado do AdSense; decisão de pago; Termos do Sozinho em Casa; aposentar o app Streamlit; testes de som iPhone/Android; chave ElevenLabs com User→Read.
+
+- Checklist rodado em 20/10: fila válida (rodadas #88–#92 verdes); posts em erro = 0; estoque real = FB/IG até 25/10 (majoritariamente memes), TikTok até 21/10 10:20; artigo 200: 3 FALHAS + pacote segundo-gato sem artigo aprovado; créditos ElevenLabs: ILEGÍVEL (401 Invalid API key); deploys: blog só pelo build (WebFetch recusado), app com requirements fixado em 19/10 sem conferência ao vivo; cache ?v= ok; conectores: Agendador, Conferente, Estrategista, Especialista TikTok, SEO e Otimizador ok; Agente de Segurança e Caçador de referências sem Zernio/Buffer. Riscos das próximas 2 semanas: novo 404 de artigo por lote, estoque TikTok esgotado em 21/10, raça errada sem verificação visual, renovação ElevenLabs em 07/11 com saldo desconhecido, rotinas que deixam de disparar sem alerta, security headers ausentes no Cloudflare Pages (_headers).

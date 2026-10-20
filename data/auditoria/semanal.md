@@ -1,35 +1,35 @@
-Dados até 2026-10-16 10:47 (Fortaleza) — Zernio (FB/IG), Buffer (TikTok), Actions (logs reais), manifests da branch media, 20+ rotinas, código do blog e do app lidos agora. tutorialpet.com.br ao vivo NÃO aberto (WebFetch recusou; sem curl por regra): blog auditado pelo código; 11ª rodada sem o app ao vivo (repo lido via GitHub).
-# Auditoria semanal — 2026-10-16 (Otimizador de Processo)
+Dados até 2026-10-20 10:55 (Fortaleza) — Zernio (FB/IG), Buffer (TikTok), Actions (logs reais), manifest da media, 14 rotinas, código do blog e do app lidos agora. Site ao vivo NÃO aberto (WebFetch recusado): HTTP dos artigos conferido só pelo build na main.
+# Auditoria semanal — 2026-10-20 (Otimizador de Processo)
 
 ## ALERTAS
-- publicar_blog #17 (16/10 07:51) FALHOU no push: "cannot pull with rebase: You have unstaged changes". Os 3 artigos aprovados hoje (conviverem-em-paz, bola-de-pelo, frutas-no-verão) foram commitados no runner, mas NÃO chegaram à main: não existem em site/build, ou seja 404 no ar. Os pacotes de vídeo deles (2 "aprovado", 1 "revisar") travam no Agendador (regra "artigo 200"). Mesma classe do erro de 13/10.
-- Erros de publicação: nenhum (Zernio posts_list_failed vazio; Buffer sem status error). Contas FB/IG saudáveis (token até 02/12 e 12/12).
-- Atraso do cron da fábrica: #66 saiu 13:39Z em vez de 13:00Z (Vigia: 09:00Z e 09:37Z de hoje nem rodaram). Windsor.ai (anúncios) segue pedindo reconexão e o Caçador de referências está suspenso (precisa do PC do Allan).
+- 3 ARTIGOS APROVADOS EM 404 HÁ ~26 h: publicar_blog #23 (19/10 11:01Z) FALHOU. O quality_editor reprovou 3 de 6 slugs (guia-peitoral, rampa-pet, sinais-envelhecimento), o script saiu com código 1 e o passo "Gravar na main" nunca rodou: gato-parar-de-arranhar-sofa, patas-no-inverno e legumes-cozidos foram construídos e jogados fora com o runner (não existem em site/build da main). O disparo do Agendador de 08:20 já cita "4 pacotes prontos aguardando artigo 404". 3ª vez em 7 dias (13/10, 16/10, 20/10), causa nova: um reprovado derruba o lote inteiro.
+- Os mesmos 3 reprovados voltam a cada dia à lista blog_aprovados.txt (retirados 17, 18 e 19/10): ciclo sem fim.
+- Coerência visual DESLIGADA nas nuvens: "GEMINI_API_KEY ausente" no publicar_blog (6 capas "ok - não verificada") e no Guardião do pacote de hoje (espécie "não verificada"). O erro de raça errada de 15/10 pode voltar sem aviso. O publicar_blog.yml não repassa a chave ao passo (env só tem SLUG/INDICE).
+- Saldo ElevenLabs segue ilegível: 2 execuções hoje (13:27 e 13:40Z) do creditos_eleven.yml deram 401 "Invalid API key" (19/10 era missing_permissions). Fábrica gastou ~648 créditos hoje (#92).
+- Erros de publicação: nenhum (Zernio posts_list_failed vazio; Buffer sem status error). Issues #5 e #6 (15/10) seguem abertas, já resolvidas.
 
 ## Rodadas (log real)
-- fabrica.yml: #62–#65 verdes (#64 8 s pela trava de 4 h; #63 11 min; #65 9 min, disparo do Conferente); #66 em andamento. publicar_blog: #14–#16 ok/cancelado, #17 falha (acima). lote.yml: 5/5 verdes (último 08/10). Custo: ~711 créditos ElevenLabs por rodada que produz (ultimo.md); saldo real NÃO lido (workflow creditos_eleven.yml existe; estimativa 30–50% do plano de 39.419 usado desde 07/10).
-
-## O que está bom
-- Estoque saudável: Zernio 12 vídeos agendados (FB+IG) até 19/10 19:00; Buffer 7 TikToks até 18/10 20:20 (limite grátis de 10 na fila: cobre ~2,3 dias); 9 pacotes "meme" extra_pronto de reserva. Publicação sem buraco desde 13/10.
-- Rotinas v2 OK com os conectores certos: Agendador (08:15/12:15/16:15), Conferente (07:47), Estrategista, Especialista TikTok e Agente de SEO têm Zernio+Buffer e rodaram com sucesso. ads.txt agora com ID real (pub-7204207473239947), verificação Search Console no ar, banner de cookies, sitemap 49 URLs, ?v=hash nas imagens no build.
+fabrica.yml #88–#92 todas verdes (#88 13 min; #89–#91 só a trava de 2 h, 8 s; #92 disparo do Agendador 08:20: 11 min 35 s, produziu "segundo-gato", aprovado pelo Guardião, sem avisos de erro). publicar_blog #19–#23: falharam #19, #21 e #23 (log do #23 lido: reprovação de slug); ok #20 e #22. lote.yml: sem rodada desde 08/10 (6/6 ok). Custo: ~648 créditos ElevenLabs por rodada que produz; saldo desconhecido, renova 07/11.
 
 ## Posts × rede (20/09→agora; ≥72h salvo nota)
-- Views: Facebook 6.338 (45 posts; 4.955 nos 37 com ≥72h) · TikTok ~2.200 (Buffer, 11 posts de 09/10 em diante, ~200/post; última semana 72–202) · Instagram 697 (22 posts; 283 nos 14 com ≥72h; pulo 68–90%, 11% do FB).
-- Campeões (≥72h): gato/água FB 1.013 + 796 + 526 (3 posts); banho TT 893/988; sozinho 7h FB 357. Recentes (<72h, parciais): FB 204–281 views em 16–49 h (consistente); TikTok 14–15/10 72–202 views, tempo médio 2,1–2,8 s (cai de 5–7 s do 09/10): o gancho não segura. Melhor interação recente: "Gato é suspeito? Quem manda na sua casa?" (meme-g1, FB 18 h: 281 views, 16 reações, 4 comentários) e TikTok 15/10 13:20 (202 views, 24 curtidas, 12% engaj.). Amostra pequena, só indício: série de humor engaja mais que o tutorial.
-- Rede pesa mais que gancho (mesmo tema: FB 1.013 × TT 577 × IG 22); Buffer não devolve % assistido.
+- Facebook: 69 posts, 11.237 views (51 posts ≥72h: 8.231); 141 reações, 36 comentários, 0 compartilhamentos; últimos 6 dias 150–560 views/post, mediana ~215, estável. Seguidores 7 (+2 em 7 dias).
+- Instagram: 45 posts, 2.126 views (19% do FB; ≥72h: 1.141 em 27 posts); skip 44–92%; 29 comentários, 1 compartilhamento; seguidores 0 (44 mídias).
+- TikTok (Buffer, 07/10→agora): 30 posts, 7.068 views, 406 reações, 3 comentários, 12 compartilhamentos; ≥72h: 20 posts, mediana 190 views; 13–17/10 mediana 182; 18–20/10 mediana 176 (parciais). Campeões: banho 1.004, "Para de ignorar" 747, gato/água 577. Buffer não devolve tempo médio/% assistido neste endpoint.
+- Melhores recentes: TikTok 15/10 13:21 (207 views, 12% engaj.), 16/10 13:21 (159 views, 6 compartilhamentos), 18/10 13:21 (219 views, 25 reações). Facebook 17/10 11:31 "banheiro" 560 views (outlier). Parciais (<48h): ignorar. Sem sinal de que gancho de pergunta vença o meme: amostra pequena.
+- Agendados: Zernio 19 (FB+IG) até 25/10, a maior parte memes (1/dia); Buffer 3 TikToks até 21/10 10:20 (≈1 dia).
 
 ## 3 maiores gargalos (causa raiz)
-1. Publicação do artigo é frágil: o passo final de publicar_blog usa `git pull --rebase` com arquivos não adicionados (git add só site/build, data/quality_editor, seo_onpage, visual); basta o runner mexer em outro arquivo para o push cair em silêncio. Sem alarme, o pacote só aparece parado 2–3 h depois.
-2. Retenção baixa nos 3 s iniciais (TikTok 2–3 s, IG pulo 68–90%): vídeo de 50–55 s com gancho de pergunta; efeito só será julgável após 72 h do teste de 7 dias (15–21/10).
-3. Dependência do PC/login do Allan em rotinas e anúncios: Caçador de referências suspenso (device_absent), Windsor pedindo reconexão, Caçador de estilo e Segurança sem Zernio/Buffer (ainda citam Metricool).
+1. Publicação do blog é tudo-ou-nada: qualquer slug reprovado faz sair 1 e pula o commit dos bons; e o Conferente reintroduz os reprovados. Resultado: pacote aprovado sem artigo = Agendador travado.
+2. Controles cegos que mostram "verde": coerência visual sem chave Gemini, saldo ElevenLabs ilegível, site ao vivo nunca aberto. A rodada passa, mas ninguém prova o resultado.
+3. Audiência não cresce: FB 7 seguidores, IG 0, TikTok sem leitura de seguidores na API; 3 comentários em 30 TikToks. Retenção baixa e conteúdo sem convite à resposta; o canal de entrada do produto continua vazio.
 
 ## Como ficar mais rápido e gastar menos (máx. 3)
-1. Blindar o passo de push do publicar_blog: trocar por `git add -A site data config; git pull --rebase --autostash; git push` e, se o push falhar, abrir issue (alerta). Custo R$ 0 (1 linha). Ganho: fim do 404 recorrente e de ~3 h de pacote parado/rodada. Teste: workflow_dispatch com os 3 slugs de hoje e conferir 200. Veredito: fazer agora (17/10).
-2. Pular vídeo novo enquanto houver ≥5 dias de pacotes prontos (hoje: 12 agendados + 4 aprovados + 9 memes) e usar o estoque meme. Custo R$ 0. Ganho: ~700 créditos por rodada evitada (plano de 39.419 créditos, renova dia 7). Teste: Conferente já conta pacotes prontos; observar créditos em 20/10. Veredito 20/10.
-3. Gancho: testar vídeo curto (25–35 s) com gancho de humor/estranhamento nas 3 primeiras palavras, só no TikTok, 1 variável por vez (Especialista TikTok). Custo R$ 0. Ganho: tempo médio >4 s. Teste: 5 posts até 21/10. Veredito 22/10.
+1. Blindar o lote: publicar_blog commita os aprovados mesmo se algum reprovar (`if: always()` no passo de gravar, ou sair 0 quando publicou ≥1) e remove os reprovados da lista. Custo R$ 0. Ganho: fim do 404 por lote (3 casos/7 dias, ~26 h parado agora). Teste: workflow_dispatch com os 3 slugs de hoje e conferir 200. Veredito: fazer hoje.
+2. Religar a coerência visual: passar GEMINI_API_KEY (secret que a fábrica já usa) ao passo do publicar_blog e ao Guardião. Custo R$ 0 (cota gratuita). Ganho: bloqueia raça errada antes do ar. Teste: log deve mostrar "coerência verificada". Veredito: fazer esta semana.
+3. Economia: pausar o Caçador de referências (depende do PC, 1,5 min sem efeito) e tirar Windsor/Metricool dos conectores das rotinas. Custo R$ 0. Ganho: tokens e ruído. Veredito: aprovar.
 
 ## Comprar x produzir / Ferramentas
-- Nada a assinar. Dispensar: Metricool (já fora) e Windsor até haver anúncio rodando. Buffer grátis basta (10/fila). PLR: reavaliar 24/10. App: fixar requirements (hoje streamlit>=1.38, pillow>=10.0 sem teto) e token ?k=.
+Nada a assinar (Buffer grátis cobre ~3 dias de TikTok com 10 na fila; Zernio ok). Dispensar: Metricool e Windsor. PLR/produto pronto: reavaliar 24/10 com o molde.
 
 ## Tarefas manuais devolvidas ao Allan
-- 0 nesta rodada por falha de processo; ficam só identidade/login: reconectar Windsor, 2FA, chave ElevenLabs, verificação TikTok; Claude fecha: push do publicar_blog, artigos 404, produto Kiwify 3JprCCK, recriar Caçador de estilo/Segurança com Zernio+Buffer.
+0 por falha de processo nesta rodada. Só identidade/login: recriar chave ElevenLabs (user_read) e conferir qual secret o creditos_eleven.yml usa, 2FA, verificação TikTok.
