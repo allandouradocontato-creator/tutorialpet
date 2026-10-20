@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cuidados essenciais com as patas de caes no inverno: guia prático",
+    "description": "Cuidados essenciais com as patas de caes no inverno: guia prático. Quando a temperatura cai, é comum nos preocuparmos em colocar roupinhas quentes e...",
+    "datePublished": "2026-10-17",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/cuidados-essenciais-com-as-patas-de-caes-no-inverno",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/cuidados-essenciais-com-as-patas-de-caes-no-inverno"
+    },
+    "image": "https://tutorialpet.com.br/imagens/cuidados-essenciais-com-as-patas-de-caes-no-inverno.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso passar vaselina pura ou óleo de coco nas patas do cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O óleo de coco prensado a frio pode ser usado em pequenas quantidades, mas a vaselina (derivada de petróleo) não deve ser ingerida. Para evitar riscos caso o pet lamba, prefira bálsamos com formulação veterinária testada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se o chão está gelado demais para o passeio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Faça o teste prático inverso do verão: encoste a palma da sua mão ou a sola do pé descalço no chão por cerca de dez segundos. Se a sensação térmica for desconfortável para você, certamente será incômoda para o cão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência devo hidratar as patinhas no frio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma ser suficiente aplicar de três a quatro vezes por semana em cães de áreas urbanas. Caso os coxins estejam visivelmente ásperos ou ressecados, a aplicação pode ser diária até normalizar, lembrando sempre de confirmar o quadro com o médico-veterinário se houver feridas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cachorros idosos precisam de atenção redobrada nos coxins?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Cães mais velhos tendem a arrastar um pouco as patas traseiras e têm a pele naturalmente mais fina. Coxins ressecados reduzem a aderência no chão, aumentando o risco de escorregões dentro de casa.  ---"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quais legumes cachorro pode comer cozidos sem tempero: guia prático",
+    "description": "Quais legumes cachorro pode comer cozidos sem tempero: guia prático. Se você já se pegou na cozinha preparando o almoço, olhou para o chão e viu...",
+    "datePublished": "2026-10-18",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Cachorro pode comer a casca dos legumes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do vegetal. Cascas finas, como a da abobrinha ou da cenoura, podem ser consumidas se estiverem bem lavadas e cozidas. Já cascas duras e fibrosas, como a da abóbora, devem ser sempre retiradas porque dificultam a mastigação e a digestão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso colocar uma pitadinha de sal na água do cozimento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O organismo dos cães é muito mais sensível ao sódio do que o nosso, e a ração de boa qualidade já contém todo o sal necessário para a saúde dele. Cozinhe sempre em água pura."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Os legumes cozidos podem substituir a ração comercial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. A ração de qualidade é formulada com um equilíbrio complexo de proteínas, gorduras, vitaminas e minerais essenciais. Os legumes funcionam apenas como agrado ou petisco complementar e não formam uma refeição completa sozinhos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhotes podem comer legumes cozidos sem tempero?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que já estejam comendo ração seca sem dificuldades e em pedaços bem pequenos e macios para não engasgar. Ainda assim, consulte o médico-veterinário na consulta de rotina para confirmar se a fase de crescimento permite esses petiscos.  ---"
+        }
+      }
+    ]
+  }
+}
