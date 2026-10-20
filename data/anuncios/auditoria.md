@@ -1,5 +1,6 @@
-# Auditoria de Anúncios - 2026-10-20 (terça, Fortaleza)
-Dados até 2026-10-20 12:58 (Fortaleza). Fonte: Windsor.ai, Meta Ads (conta Allan Dourado), leitura OK hoje (única conta conectada).
+# Auditoria de Anúncios - 2026-10-20 (rodada de teste 2)
+Dados até 2026-10-20 13:15 (Fortaleza). WINDSOR OK: Meta Ads 1213984913380523 (Allan Dourado), única conta no plano Free.
+Últimos 28 dias: 2 campanhas com gasto, R$ 73,15, 882 cliques, 10 checkouts (R$ 7,32 cada). Todas pausadas.
 ## Alerta
 Nenhum gasto nos últimos 7 dias (último gasto: 01/10, R$ 0,34). Nenhuma campanha gastando sem controle.
 Atenção: 10 campanhas "[3 quartos 5 banheiros – Casa] Marketplace turbinado" (21/07 a 06/09) seguem com status ACTIVE, sem gasto desde 10/09. Provável impulsionamento já encerrado, mas conferir no Gerenciador e desligar o que sobrar (não é Tutorial Pet; confirmar de quem é). Ação do Allan/Claude no painel; eu não mexo.
