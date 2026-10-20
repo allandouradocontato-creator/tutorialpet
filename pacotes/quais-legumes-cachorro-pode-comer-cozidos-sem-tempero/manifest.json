@@ -1,6 +1,6 @@
 {
   "slug": "quais-legumes-cachorro-pode-comer-cozidos-sem-tempero",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-18T19:17:42+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero",
   "guardiao": {
@@ -18,5 +18,11 @@
     ],
     "em": "2026-10-18T19:18:06+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio_facebook": "6ad7bf53543d02f449a6ba68",
+    "zernio_instagram": "6ad7bf56543d02f449a6ba75",
+    "buffer_tiktok": "6ad7bf5c6572b508fa33542f",
+    "datas": "FB 2026-10-21 20:30; IG 2026-10-21 21:00; TikTok 2026-10-21 20:20"
+  }
 }

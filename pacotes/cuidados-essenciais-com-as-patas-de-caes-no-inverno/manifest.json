@@ -1,6 +1,6 @@
 {
   "slug": "cuidados-essenciais-com-as-patas-de-caes-no-inverno",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-17T19:10:53+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/cuidados-essenciais-com-as-patas-de-caes-no-inverno",
   "guardiao": {
@@ -18,5 +18,11 @@
     ],
     "em": "2026-10-17T19:11:18+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio_facebook": "6ad7bf4afd70183482175f65",
+    "zernio_instagram": "6ad7bf4cdf31ef94f9d90a0e",
+    "buffer_tiktok": "6ad7bf581a1ce97999a6c7b3",
+    "datas": "FB 2026-10-21 10:00; IG 2026-10-21 11:00; TikTok 2026-10-22 10:20"
+  }
 }

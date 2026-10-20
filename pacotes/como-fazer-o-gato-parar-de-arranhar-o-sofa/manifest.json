@@ -1,6 +1,6 @@
 {
   "slug": "como-fazer-o-gato-parar-de-arranhar-o-sofa",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-18T13:00:11+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-o-gato-parar-de-arranhar-o-sofa",
   "guardiao": {
@@ -18,5 +18,11 @@
     ],
     "em": "2026-10-18T13:00:37+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio_facebook": "6ad7bf4ebb8543d3c97c4cd9",
+    "zernio_instagram": "6ad7bf51543d02f449a6ba64",
+    "buffer_tiktok": "6ad7bf5a7e4feac55ce84a0d",
+    "datas": "FB 2026-10-21 14:00; IG 2026-10-21 15:00; TikTok 2026-10-21 14:20"
+  }
 }
