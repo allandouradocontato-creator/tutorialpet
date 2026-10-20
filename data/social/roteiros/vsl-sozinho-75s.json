@@ -1,0 +1,91 @@
+{
+ "slug": "vsl-sozinho-75s",
+ "titulo_video": "Sozinho em Casa: VSL 75 s (landing)",
+ "molde_gancho": "premissa",
+ "gancho_3s": "O vizinho reclamou de novo?",
+ "musica": "alex-morgan-upbeat-591314.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] O vizinho reclamou de novo? Seu cachorro não está se vingando quando você sai. Ele está em pânico.",
+   "visual_busca_banco_livre": [
+    "cute dog waiting at front door home",
+    "adorable puppy sitting by door looking up"
+   ],
+   "texto_na_tela": "O vizinho reclamou de novo?"
+  },
+  {
+   "narracao": "[thoughtful] A gente já tentou TV ligada, brinquedo novo, até um segundo cachorro. Nada resolveu. Porque o apego é a você.",
+   "visual_busca_banco_livre": [
+    "cute dog looking out window at home",
+    "puppy sitting on sofa looking curious"
+   ],
+   "texto_na_tela": "Nada resolveu. O apego é a você."
+  },
+  {
+   "narracao": "[short pause] E tem um sinal de melhora que quase ninguém olha. Eu te mostro no fim.",
+   "visual_busca_banco_livre": [
+    "adorable dog looking at camera home",
+    "cute golden retriever puppy head tilt"
+   ],
+   "texto_na_tela": "O sinal que quase ninguém olha"
+  },
+  {
+   "narracao": "[smiling] O Sozinho em Casa é um protocolo de catorze dias, um passo a cada dia. Dias um a quatro: a saída vira rotina. Dias cinco a nove: o tempo cresce em degraus. Dias dez a catorze: ele fica bem sem você.",
+   "visual_busca_banco_livre": [
+    "happy dog playing at home living room",
+    "cute dog trotting happily indoors"
+   ],
+   "texto_na_tela": "14 dias · 3 fases",
+   "overlay_video": "assets/vsl/app_demo.mp4"
+  },
+  {
+   "narracao": "[softly] Mas meu pet é muito grudado. É por isso que começa com dois minutos, não com duas horas.",
+   "visual_busca_banco_livre": [
+    "cute dog leaning on couch cuddly",
+    "fluffy puppy snuggling blanket"
+   ],
+   "texto_na_tela": "Dia 1: dois minutos"
+  },
+  {
+   "narracao": "[warmly] Não tenho tempo. São dez minutos antes de sair.",
+   "visual_busca_banco_livre": [
+    "calm dog lying on bed at home",
+    "relaxed labrador resting living room"
+   ],
+   "texto_na_tela": "10 minutos antes de sair"
+  },
+  {
+   "narracao": "[excited] Manual, app com diário e diploma. Pagamento único de vinte e sete reais.",
+   "visual_busca_banco_livre": [
+    "happy puppy running in garden",
+    "cute golden retriever smiling"
+   ],
+   "texto_na_tela": "R$ 27 · pagamento único",
+   "overlay_imagem": "assets/vsl/card_preco_27.png"
+  },
+  {
+   "narracao": "[smiling] Garantia de sete dias, sem perguntas.",
+   "visual_busca_banco_livre": [
+    "fluffy dog smiling at camera",
+    "happy corgi puppy outdoors"
+   ],
+   "texto_na_tela": "7 dias de garantia",
+   "overlay_imagem": "assets/vsl/card_garantia.png"
+  },
+  {
+   "narracao": "[thoughtful] O sinal de melhora: não é o silêncio. É o minuto em que ele deita. Anota.",
+   "visual_busca_banco_livre": [
+    "dog lying down calmly on rug",
+    "cute dog resting head on paws"
+   ],
+   "texto_na_tela": "O minuto em que ele deita"
+  }
+ ],
+ "chamada_final": "[smiling] Quero começar hoje. Clica no botão.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ],
+ "legenda": "Sozinho em Casa: protocolo de 14 dias, um passo a cada dia. https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=vsl"
+}

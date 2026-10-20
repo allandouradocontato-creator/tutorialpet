@@ -1,0 +1,41 @@
+{
+ "slug": "anuncio-sozinho-30s",
+ "titulo_video": "Sozinho em Casa: anúncio 30 s",
+ "molde_gancho": "consequencia",
+ "gancho_3s": "Tem gente doando o cachorro porque ele chora sozinho e o vizinho reclama.",
+ "musica": "lnplusmusic-happy-happy-music-611028.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] Tem gente doando o cachorro porque ele chora sozinho e o vizinho reclama. Antes disso, para de fazer isto:",
+   "visual_busca_banco_livre": [
+    "cute dog hugging owner front door home",
+    "adorable puppy looking up at camera indoors"
+   ],
+   "texto_na_tela": "Antes de doar, pare de fazer isto"
+  },
+  {
+   "narracao": "[thoughtful] A despedida emocional é o erro número um. Ele aprende que a sua saída é um evento enorme.",
+   "visual_busca_banco_livre": [
+    "excited dog jumping at door home",
+    "energetic puppy running around living room"
+   ],
+   "texto_na_tela": "Erro nº 1: a despedida emocional"
+  },
+  {
+   "narracao": "[short pause] A gente já tentou de tudo. Só uma coisa funcionou: catorze dias, um passo a cada dia, começando com dois minutos.",
+   "visual_busca_banco_livre": [
+    "calm dog lying on bed at home",
+    "relaxed dog resting on sofa cute"
+   ],
+   "texto_na_tela": "14 dias · começa com 2 minutos"
+  }
+ ],
+ "chamada_final": "[smiling] Os sete erros estão no link. É de graça.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ],
+ "legenda": "Os 7 erros que fazem seu cachorro sofrer quando fica sozinho. PDF grátis: https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=anuncio",
+ "faixa_cta": "assets/vsl/faixa_cta.png"
+}
