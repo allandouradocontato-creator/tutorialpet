@@ -122,3 +122,50 @@ Mistura de TikTok, Instagram e Facebook; pequenos/médios primeiro, 1 a 2 grande
 9. #5 TikTok @pedrosa.vet (médio)
 10. #44 Facebook Célio Studart (937 mil; opção causa-pet, só posts de causa animal; troque por #37 Instagram @caio_adestrador se o dono preferir evitar política)
 Reserva: #30/#31 Richard Rasmussen (só posts de pet), #34 TikTok Rossi.
+
+## Abrigos, ONGs, protetores e causa pet (não concorrentes) — 20/10 tarde
+
+Pesquisa somente leitura em 20/10/2026 (nada seguido, curtido, comentado ou enviado). Fonte: perfis lidos no Chrome do usuário (Instagram, TikTok, Facebook) e matérias do O Povo (Fortaleza) para achar os nomes. Seguidores lidos direto no perfil ou no resultado de busca do Facebook. Frequência: Instagram mostra só total de posts (sem data), TikTok só visualizações de vídeos recentes; frequência real = "sem dado", conferir na hora de comentar.
+**Cautela geral (todas as linhas):** comentar só em posts leves/educativos/de adoção; evitar denúncias e resgates graves. Nunca pedir ajuda financeira em nome da marca. Quase todas pedem doações/PIX: marcado "PIX" na coluna de risco. Regra da marca: nossos vídeos nunca mostram animal doente/abrigo, mas comentar nas comunidades deles é permitido.
+**Alerta:** o Instagram @amparaanimal (1.320 seg., 4 posts) é perfil CLONE/falso; o oficial é @amparanimal. Não usar o falso.
+
+| # | Rede | @ ou página | URL | Seguidores | Frequência | Tipo | Local | Por que vale | Risco |
+|---|------|-------------|-----|-----------|------------|------|-------|--------------|-------|
+| 54 | Instagram | @abrigosaolazaro (ONG São Lázaro) | https://www.instagram.com/abrigosaolazaro/ | 155 mil | 4.207 posts (ativo); data sem dado | abrigo/ONG | Fortaleza/CE | Maior abrigo do CE, 30 anos, feiras de adoção; ótimo para colaboração local | médio (PIX, resgates graves; comentar só em adoção/feiras) |
+| 55 | Instagram | @4patasfortaleza (Instituto Quatro Patas) | https://www.instagram.com/4patasfortaleza/ | 55,3 mil | 960 posts; data sem dado | abrigo/ONG | Fortaleza/CE | Abriga 206 gatos, 49 cães; campanha de castração; comunidade engajada | médio (PIX) |
+| 56 | Instagram | @abrigopichano (Abrigo Pichano) | https://www.instagram.com/abrigopichano/ | 30,4 mil | 2.310 posts (ativo); data sem dado | abrigo de gatos | CE (cidade sem dado; matéria o lista em Fortaleza) | Gatos, feiras de adoção ("Auê Feira"), castração; tema gato iniciante | médio (PIX) |
+| 57 | Instagram | @adoteumbigodeceara (Adote um Bigode CE) | https://www.instagram.com/adoteumbigodeceara/ | 46,3 mil | 8.857 posts (muito ativo); data sem dado | protetores/resgate | Fortaleza/CE | Cuida de +100 animais, sem abrigo, castração; perfil @adoteumbigodece é só conta reserva (271 seg., 0 posts), não usar | médio (PIX) |
+| 58 | Instagram | @upacfortaleza (Upac) | https://www.instagram.com/upacfortaleza/ | 26,1 mil | 8.950 posts (muito ativo); data sem dado | ONG/castração baixo custo | Fortaleza/CE | Desde 2006, ~300 animais, castração, feiras; tradição local | médio (dados bancários na bio) |
+| 59 | Instagram | @animaisuniversitarios | https://www.instagram.com/animaisuniversitarios/ | 26,9 mil | 2.830 posts; data sem dado | projeto voluntário universitário | Campus do Pici (UFC), Fortaleza/CE | Resgate, castração, adoção responsável; público jovem de tutor de primeira viagem | médio (PIX) |
+| 60 | Instagram | @gpa_grupodeprotecaoanimal (GPA) | https://www.instagram.com/gpa_grupodeprotecaoanimal/ | 21,6 mil | 4.273 posts; data sem dado | ONG/adoção | Fortaleza/CE | ONG desde 2008, adoção responsável, parceria Adote Petz | médio (PIX; parceria com Petz = loja, não comentar marca) |
+| 61 | Instagram | @gabafortal (GABA) | https://www.instagram.com/gabafortal/ | 10,1 mil | 1.516 posts; data sem dado | grupo de adoção/apoio | Fortaleza/CE | "Amor não se compra, se adota"; não é abrigo; rotas de adoção | baixo/médio (doador mensal) |
+| 62 | Instagram | @coracoesamadosepeludos | https://www.instagram.com/coracoesamadosepeludos/ | 7.633 | 4.566 posts; data sem dado | protetores independentes | Fortaleza/CE | Castração apadrinhada, resgate e lar temporário; conta média, tende a responder | médio (doações; "Vítima/Grave" nos destaques) |
+| 63 | Instagram | @ongdeixaviver (ONG Deixa Viver) | https://www.instagram.com/ongdeixaviver/ | 6.328 | 4.394 posts; data sem dado | ONG/castração | CE (cidade sem dado; matéria cita Fortaleza) | Castração, resgate, adoção; pequena | médio (PIX) |
+| 64 | Instagram | @abrigoamopatas (Abrigo Amo Patas) | https://www.instagram.com/abrigoamopatas/ | 3.587 | 1.600 posts; data sem dado | abrigo | CE (cidade sem dado) | Abrigo pequeno, +100 animais; tende a retribuir | médio (PIX, resgates de maus-tratos) |
+| 65 | Instagram | @miaudota.fortal (Miaudota Fortaleza) | https://www.instagram.com/miaudota.fortal/ | 2.743 | 269 posts; data sem dado | grupo de adoção voluntário | Fortaleza/CE | +300 adotados, feiras; conta pequena, ótima para parceria | baixo/médio (PIX, rifa) |
+| 66 | Instagram | @projetoamigosdacasaverde | https://www.instagram.com/projetoamigosdacasaverde/ | 2.292 | 312 posts; data sem dado | protetores/organização comunitária | CE (cidade sem dado; matéria o inclui na lista de Fortaleza) | Pequena; só vira-latas (SRD), adotados | baixo |
+| 67 | Instagram | @causapet (Instituto Causa Pet) | https://www.instagram.com/causapet/ | 64,6 mil | 4.944 posts; data sem dado | ONG/lar temporário | sem dado (matéria o lista entre as de Fortaleza; não confirmei) | 1.348 adoções, 1.969 castrações; comunidade nacional | médio (PIX) |
+| 68 | Instagram | @amparanimal (Instituto Ampara Animal) | https://www.instagram.com/amparanimal/ | 359 mil | 11.197 posts; data sem dado | ONG nacional | São Paulo/SP | Maior ONG de proteção animal do BR; cartilhas de guarda responsável (conteúdo educativo, bom para comentar) | médio (parte do conteúdo é de resgate/silvestres) |
+| 69 | Facebook | Abrigo São Lázaro - Fortaleza/CE | https://www.facebook.com/saolazaro/ | 96 mil | post com ~1 ano de comentário; frequência sem dado | abrigo/ONG | Fortaleza/CE | Mesma comunidade do IG; contato: administrativo@abrigosaolazaro.org.br (público no perfil) | médio (doações) |
+| 70 | Facebook | Upac Fortaleza | https://www.facebook.com/search/pages/?q=Upac%20Uni%C3%A3o%20Protetora%20dos%20Animais%20Carentes%20Fortaleza | 36 mil | sem dado | ONG/castração | Fortaleza/CE | 98% recomendam; existe outra página "Upac Fortaleza" com 19 seguidores (ignorar) | médio (doações) |
+| 71 | Facebook | Fortaleza dos Animais (causa) | https://www.facebook.com/search/pages/?q=castra%C3%A7%C3%A3o%20gratuita%20animais%20Fortaleza | 52 mil | sem dado | causa/campanhas | Fortaleza/CE | Campanhas de bem-estar animal; bio tem hashtags de vereadora (#LarissaVereadoraDeLuta), então é política: só comentar em post de causa animal | médio (política) |
+| 72 | Facebook | Castração Gateiras de Fortaleza | https://www.facebook.com/search/pages/?q=castra%C3%A7%C3%A3o%20gratuita%20animais%20Fortaleza | 31 mil | sem dado | castração popular | Fortaleza/CE | +16 mil animais atendidos desde 2013, preços populares; cobra pelo serviço (não vende produto) | médio (serviço pago) |
+| 73 | Facebook | Instituto Ampara Animal | https://www.facebook.com/search/pages/?q=Instituto%20Ampara%20Animal | 404 mil | sem dado | ONG nacional | São Paulo/SP | Maior alcance nacional da seção; 98% recomendam | médio |
+| 74 | Facebook | Abrigo Nova Vida - Fortaleza | https://www.facebook.com/search/pages/?q=Abrigo%20Pichano%20gatos%20Fortaleza | 930 | sem dado | abrigo | Fortaleza/CE | Abrigo pequeno (há outra página "Abrigo nova vida Fortaleza", 330 seg.; usar a de 930) | médio (doações) |
+| 75 | TikTok | @abrigosaolazaro | https://www.tiktok.com/@abrigosaolazaro | 1.436 | vídeos recentes com 266 a 1.173 views (pinados 3,8 mil a 9 mil); data sem dado | abrigo/ONG | Fortaleza/CE | Pouca concorrência no TikTok, comentário aparece | médio (PIX na bio) |
+| 76 | TikTok | @4patasfortaleza | https://www.tiktok.com/@4patasfortaleza | 308 | vídeos recentes 54 a 2.096 views; data sem dado | abrigo/ONG | Fortaleza/CE | Conta bem pequena, 7,6 mil curtidas; casa com a conta nova da marca | médio (PIX) |
+| 77 | TikTok | @causapet | https://www.tiktok.com/@causapet | 6.703 | vídeos recentes 139 a 1.873 views; data sem dado | ONG | sem dado | 80,4 mil curtidas; ativa | médio (PIX) |
+
+Resumo: 24 linhas novas (#54 a #77): Instagram 15, Facebook 6, TikTok 3. Ceará: 20 linhas (13 IG, 5 FB, 2 TikTok) confirmadas CE; Causa Pet (3 linhas: IG/TikTok sem dado de local) e Ampara (2 linhas, SP) fora da contagem. Não achei: Instagram do VetMóvel/Coepa/Ceará Pet Móvel (handles testados não existem), Instagram de Gaba como @gabauece (o certo é @gabafortal), feira de adoção como conta própria, escola/clínica veterinária popular (só achei o serviço público VetMóvel pela matéria), grupos de adoção no Facebook (já descartados antes por padrão da marca/spam). Sem dado: frequência/data de posts (quase tudo), TikTok de Upac e Pichano (não existe), Facebook do Gaba/GPA/Pichano/Animais Universitários (não achados ou só homônimos).
+
+## Top 8 abrigos/ONGs para a vigia
+Pequenas/médias locais primeiro (respondem mais e permitem colaboração), 1 a 2 grandes pela exposição:
+1. #65 Instagram @miaudota.fortal (2.743, Fortaleza)
+2. #66 Instagram @projetoamigosdacasaverde (2.292, CE)
+3. #61 Instagram @gabafortal (10,1 mil, Fortaleza; adoção, não é abrigo)
+4. #59 Instagram @animaisuniversitarios (26,9 mil, UFC Pici; público jovem)
+5. #62 Instagram @coracoesamadosepeludos (7,6 mil, Fortaleza)
+6. #76 TikTok @4patasfortaleza (308, Fortaleza; casa com nossa conta nova)
+7. #55 Instagram @4patasfortaleza (55,3 mil; mesma ONG, mais alcance)
+8. #54 Instagram @abrigosaolazaro (155 mil; exposição, só posts de adoção/feira)
+Reserva: #68 Instagram @amparanimal (cartilhas educativas), #60 GPA, #56 Abrigo Pichano (gatos).
