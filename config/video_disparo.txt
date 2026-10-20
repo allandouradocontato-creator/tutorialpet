@@ -2,3 +2,4 @@
 # Nao publica nada: entrega o mp4 na branch media, pasta reels/.
 reel-sinal-de-melhora
 reel-filme-a-porta
+# re-render 20/10 15:35: CTA unico (sem duplicar chamada_final)
