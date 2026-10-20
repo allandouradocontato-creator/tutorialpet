@@ -23,6 +23,9 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 VOZ = os.environ.get("VOZ_PTBR", "pt-BR-FranciscaNeural")
+# Registro de qual voz narrou cada cena (20/10/2026): vai para o manifesto e o Guardião confere
+VOZ_CONTAGEM = {"elevenlabs": 0, "edge-tts": 0, "offline": 0}
+VOZ_INFO: dict = {}
 W, H = 1080, 1920
 
 
@@ -136,6 +139,7 @@ def _tts_elevenlabs(texto: str, saida: Path):
     c_mp3, c_json = pasta_cache / f"{chave_cache}.mp3", pasta_cache / f"{chave_cache}.json"
     if c_mp3.exists() and c_json.exists():
         shutil.copy(c_mp3, saida)
+        VOZ_INFO.update(voice_id=voz_id, modelo=modelo, stability=cfgv.get("stability"))
         print("  ElevenLabs: áudio reaproveitado do cache (0 créditos)", flush=True)
         return [tuple(x) for x in json.loads(c_json.read_text(encoding="utf-8"))]
     req = urllib.request.Request(
@@ -148,6 +152,7 @@ def _tts_elevenlabs(texto: str, saida: Path):
             saida.write_bytes(base64.b64decode(d["audio_base64"]))
             _normalizar_volume(saida)
             al = d.get("alignment") or {}
+            VOZ_INFO.update(voice_id=voz_id, modelo=modelo, stability=cfgv.get("stability"))
             print(f"  ElevenLabs ({modelo}): {len(texto)} caracteres narrados (~{len(texto)} créditos)", flush=True)
             ch, ini, fim = [], [], []
             dentro = False  # tira as tags de emoção [warmly] das legendas
@@ -316,12 +321,14 @@ def gerar_efeito(prompt: str, seg: float, saida: Path) -> bool:
 def narrar(texto: str, saida: Path, offline: bool):
     sem_tags = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", texto)).strip()  # tags de emoção só servem à ElevenLabs
     if offline:
+        VOZ_CONTAGEM["offline"] += 1
         n = max(2.0, len(sem_tags.split()) / 2.5)
         sh(["ffmpeg", "-y", "-f", "lavfi", "-i", f"sine=frequency=300:duration={n}", str(saida)])
         ws = sem_tags.split()
         return [(i * n / len(ws), (i + 1) * n / len(ws), w) for i, w in enumerate(ws)]
     pal_el = _tts_elevenlabs(texto, saida)
     if pal_el is not None:
+        VOZ_CONTAGEM["elevenlabs"] += 1
         if not pal_el:  # sem alinhamento: distribui igualmente
             n = duracao(saida)
             ws = texto.split()
@@ -337,6 +344,7 @@ def narrar(texto: str, saida: Path, offline: bool):
             print("  edge-tts: sem resposta em 90 s, tentando de novo", flush=True)
     if palavras is None:
         raise RuntimeError("edge-tts não respondeu (2 tentativas de 90 s)")
+    VOZ_CONTAGEM["edge-tts"] += 1
     if not palavras:  # fallback: distribui igualmente
         n = duracao(saida)
         ws = sem_tags.split()
@@ -623,6 +631,17 @@ def main() -> int:
             shutil.copy(bruto, final)
     gv.finalizar_video(faixa_usada)
     (out_dir / f"{slug}_v2.legenda.txt").write_text(rot.get("legenda", ""), encoding="utf-8")
+    # Registro da voz de CADA vídeo (20/10/2026): o manifesto passa a dizer quem narrou, em vez de só a configuração
+    n_el, n_edge = VOZ_CONTAGEM["elevenlabs"], VOZ_CONTAGEM["edge-tts"]
+    motor = "elevenlabs" if n_el and not n_edge else ("edge-tts" if n_edge and not n_el else ("misto" if n_el else "offline"))
+    (out_dir / f"{slug}_v2.voz.json").write_text(json.dumps(
+        {"motor": motor, "cenas_elevenlabs": n_el, "cenas_edge_tts": n_edge, **VOZ_INFO},
+        ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"voz: motor={motor} | cenas ElevenLabs={n_el} | cenas voz grátis={n_edge} | {VOZ_INFO}", flush=True)
+    if n_edge and os.environ.get("ELEVENLABS_API_KEY", "").strip() and not os.environ.get("PERMITIR_VOZ_GRATIS"):
+        final.unlink(missing_ok=True)  # não deixa um vídeo com voz robótica seguir para a fila
+        raise SystemExit(f"VOZ GRÁTIS: {n_edge} cena(s) caíram no edge-tts (ElevenLabs indisponível/chave inválida). "
+                         "Vídeo descartado; a rodada falha e abre alerta em vez de postar voz artificial.")
     print("vídeo pronto:", final, f"({duracao(final):.0f}s)")
     return 0
 

@@ -128,7 +128,25 @@ def main() -> int:
     pv = _voz_ok()
     problemas += pv
     if not pv:
-        ok.append("voz da Duda no padrão (eleven_v4, estabilidade 0.26)")
+        ok.append("configuração da voz no padrão (eleven_v4, estabilidade 0.26)")
+
+    # 6b) voz que REALMENTE narrou (manifesto, 20/10/2026): a configuração não prova o áudio
+    man_voz = (_json(pkg / "manifest.json", {}) or {}).get("voz", {})
+    try:
+        import yaml
+        cfg_voz = yaml.safe_load((ROOT / "config" / "voz_elevenlabs.yaml").read_text(encoding="utf-8")) or {}
+    except Exception:  # noqa: BLE001
+        cfg_voz = {}
+    if not man_voz or man_voz.get("motor") in (None, "desconhecido"):
+        problemas.append("manifesto sem registro da voz usada: não dá para garantir que foi a Duda")
+    elif man_voz.get("motor") != "elevenlabs":
+        problemas.append(f"VOZ NÃO É A DA DUDA: motor {man_voz.get('motor')} (cenas voz grátis: {man_voz.get('cenas_edge_tts')})")
+    elif cfg_voz.get("voice_id") and man_voz.get("voice_id") != cfg_voz.get("voice_id"):
+        problemas.append(f"voz diferente da Duda: usada {man_voz.get('voice_id')}, oficial {cfg_voz.get('voice_id')}")
+    elif abs(float(man_voz.get("stability") or 0) - float(cfg_voz.get("stability") or 0)) > 0.001:
+        problemas.append(f"estabilidade usada {man_voz.get('stability')} difere da oficial {cfg_voz.get('stability')}")
+    else:
+        ok.append(f"voz conferida no manifesto: Duda/Marianne ({man_voz.get('modelo')}), {man_voz.get('cenas_elevenlabs')} cenas ElevenLabs, 0 voz grátis")
 
     # 7) coerência de raça/espécie (regra do Allan, 15/10/2026): roda aqui, dentro da produção
     try:

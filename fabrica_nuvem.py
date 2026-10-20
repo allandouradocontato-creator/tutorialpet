@@ -7,6 +7,7 @@ Uso: python fabrica_nuvem.py <pasta_saida>
 from __future__ import annotations
 
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -80,10 +81,27 @@ def main() -> int:
     roteiro = ROOT / "data" / "social" / "roteiros" / f"{slug}.json"
     if not roteiro.exists():
         raise SystemExit(f"roteiro não gerado: {roteiro}")
-    try:  # gancho universal -> conteudo -> CTA na voz da Duda; se falhar, segue com o roteiro original
-        run([sys.executable, "agents/20_roteirista_duda/aplicar_padrao.py", slug], limite_s=300)
-    except (Exception, SystemExit) as e:  # noqa: BLE001
-        print(f"aviso: padrao da Duda nao aplicado ({type(e).__name__}); seguindo com o roteiro original", flush=True)
+    # PORTÃO DA DUDA (20/10/2026): gancho universal -> conteúdo -> CTA com tags de emoção. Antes, se o padrão falhasse a
+    # fábrica seguia com o roteiro original (sem emoção) e gastava créditos; 4 vídeos do TikTok saíram assim.
+    # Agora: tenta aplicar até 2 vezes; se o roteiro continuar reprovado, a rodada PARA aqui (0 créditos, vira alerta).
+    from core.portao_duda import validar_roteiro
+    problemas: list[str] = []
+    for tentativa in (1, 2):
+        dados = json.loads(roteiro.read_text(encoding="utf-8"))
+        if dados.get("molde_gancho"):  # já aplicado (reexecução): não insere o gancho duas vezes
+            problemas = validar_roteiro(dados)
+            break
+        try:
+            run([sys.executable, "agents/20_roteirista_duda/aplicar_padrao.py", slug], limite_s=300)
+        except (Exception, SystemExit) as e:  # noqa: BLE001
+            print(f"aviso: padrao da Duda nao aplicado na tentativa {tentativa} ({type(e).__name__})", flush=True)
+        problemas = validar_roteiro(json.loads(roteiro.read_text(encoding="utf-8")))
+        if not problemas:
+            break
+    if problemas and not os.environ.get("PERMITIR_ROTEIRO_SEM_PADRAO"):
+        raise SystemExit("PORTÃO DA DUDA REPROVOU O ROTEIRO — não narrado, 0 créditos gastos, nada entregue:\n- "
+                         + "\n- ".join(problemas))
+    print("PORTÃO DA DUDA: roteiro aprovado", flush=True)
     run([sys.executable, "agents/17_video/montar_video6.py", str(roteiro)])
     video = ROOT / "data" / "social" / "videos" / f"{slug}_v2.mp4"
     legenda = ROOT / "data" / "social" / "videos" / f"{slug}_v2.legenda.txt"
@@ -104,10 +122,13 @@ def main() -> int:
             shutil.copytree(cand, pkg / "imagens_candidatas", dirs_exist_ok=True)
     except SystemExit as exc:
         print("AVISO: sem fotos candidatas:", exc, flush=True)
+    voz_arq = ROOT / "data" / "social" / "videos" / f"{slug}_v2.voz.json"  # quem realmente narrou (montar_video6)
+    voz = json.loads(voz_arq.read_text(encoding="utf-8")) if voz_arq.exists() else {"motor": "desconhecido"}
     (pkg / "manifest.json").write_text(json.dumps({
         "slug": slug, "status": "aguardando_revisao",
         "criado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "artigo_url_futura": f"https://tutorialpet.com.br/{slug}",
+        "voz": voz,
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print("PACOTE PRONTO:", pkg)
     return 0
