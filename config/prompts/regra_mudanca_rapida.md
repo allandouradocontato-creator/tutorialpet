@@ -41,3 +41,9 @@ Allan descartou campanhas de duração fixa (7 ou 14 dias). O Estrategista roda 
 7. Sem anúncio pago até haver GANHOU repetido em 2 fatores e mediana acima da meta nas 3 redes (decisão do Allan; ele autoriza quando o Estrategista provar isso).
 8. Voz: só Duda com tags (portão da Duda). Vídeo sem a voz padrão não conta como amostra de formato.
 Resultado ao Allan: até 6 linhas (o que perdeu, o que entrou no lugar, o que ganhou e escalou, próxima leitura).
+
+## 6. LINHA DE BASE DE SEGUIDORES (Allan, 20/10/2026 11:20, conferido por ele nas contas): Facebook 7 (seguindo 49), TikTok 10, Instagram 0.
+- Diagnóstico: a conta é nova e minúscula; a mediana de 215 views no FB e 46 no IG já é entrega para NÃO seguidores. Falha = converter view em seguidor, comentário e compartilhamento. Seguidor novo por dia e seguidores por 1.000 views entram no painel (todas as rodadas anotam o número de seguidores por rede em data/social/laboratorio.md).
+- Meta de arranque (hipótese, sem prometer): +5 seguidores/dia somando as 3 redes nas próximas rodadas; se após 5 vídeos de formatos diferentes seguir/1.000 views < 3, trocar a PROMESSA de seguir (série nomeada, 'amanhã tem parte 2'), não só o gancho.
+- Todo vídeo precisa de UM motivo para seguir (série com nome e promessa de continuação), dito no fim e escrito na legenda.
+- Crescimento orgânico sem custo para propor ao Allan (nada executa sem a autorização dele): comentários úteis e curtos, pela conta da marca, em 10 posts/dia de páginas pet brasileiras do mesmo porte ou maiores; seguir e interagir com perfis de tutores de primeira viagem; Reels em collab; responder todo comentário em até 1h. Proibido: comprar seguidores, seguir/desseguir em massa, mensagem em massa.
