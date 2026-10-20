@@ -64,6 +64,63 @@ def validar_roteiro(rot: dict) -> list[str]:
     return erros
 
 
+def preflight_voz(rot: dict) -> list[str]:
+    """Antes de narrar (NÃO gasta crédito): a chave vale, a voz da Duda existe e o saldo cobre este vídeo.
+
+    Só bloqueia diante de resposta clara da ElevenLabs (401/403/404 ou saldo insuficiente); falha de rede só avisa.
+    Sem chave configurada, não bloqueia (modo de teste com voz grátis).
+    """
+    import os
+    import urllib.error
+    import urllib.request
+    chave = os.environ.get("ELEVENLABS_API_KEY", "").strip()
+    if not chave:
+        return []
+    try:
+        import yaml
+        cfg = yaml.safe_load((ROOT / "config" / "voz_elevenlabs.yaml").read_text(encoding="utf-8")) or {}
+    except Exception:  # noqa: BLE001
+        cfg = {}
+    voz_id = (os.environ.get("ELEVENLABS_VOICE_ID", "").strip() or str(cfg.get("voice_id") or "")).strip()
+    if cfg.get("voice_id") and voz_id and voz_id != cfg["voice_id"]:
+        return [f"ELEVENLABS_VOICE_ID ({voz_id}) é diferente da voz oficial da Duda ({cfg['voice_id']})"]
+    texto = " ".join(str(c.get("narracao", "")) for c in rot.get("cenas", [])) + " " + str(rot.get("chamada_final", ""))
+    necessarios = len(re.sub(r"\s+", " ", TAG.sub("", texto)).strip())
+
+    def pegar(url: str):
+        req = urllib.request.Request(url, headers={"xi-api-key": chave})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r)
+
+    problemas: list[str] = []
+    try:
+        sub = pegar("https://api.elevenlabs.io/v1/user/subscription")
+        restantes = int(sub.get("character_limit", 0)) - int(sub.get("character_count", 0))
+        if restantes < necessarios * 1.1:
+            problemas.append(f"saldo da ElevenLabs insuficiente: restam {restantes}, este vídeo precisa de ~{necessarios}")
+    except urllib.error.HTTPError as e:
+        corpo = ""
+        try:
+            corpo = e.read().decode("utf-8", "replace")
+        except Exception:  # noqa: BLE001
+            pass
+        if "missing_permissions" in corpo:  # chave restrita (só voz): não lê saldo, mas pode narrar; não bloqueia
+            print("aviso: chave sem permissão de leitura do saldo; preflight do saldo ignorado", flush=True)
+        elif e.code in (401, 403):
+            problemas.append(f"ElevenLabs recusou a chave (HTTP {e.code}): a voz cairia na grátis")
+    except Exception as e:  # noqa: BLE001
+        print(f"aviso: preflight da voz não conseguiu ler o saldo ({type(e).__name__}); seguindo", flush=True)
+    if not problemas and voz_id:
+        try:
+            pegar(f"https://api.elevenlabs.io/v1/voices/{voz_id}")
+        except urllib.error.HTTPError as e:
+            if e.code in (400, 404, 422):  # 401/403 aqui pode ser só falta de permissão de leitura: não bloqueia
+                problemas.append(f"voz da Duda ({voz_id}) não acessível nesta conta (HTTP {e.code})")
+        except Exception as e:  # noqa: BLE001
+            print(f"aviso: preflight não conseguiu conferir a voz ({type(e).__name__}); seguindo", flush=True)
+    return problemas
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         sys.exit("uso: python -m core.portao_duda <slug>")

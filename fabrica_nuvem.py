@@ -102,6 +102,12 @@ def main() -> int:
         raise SystemExit("PORTÃO DA DUDA REPROVOU O ROTEIRO — não narrado, 0 créditos gastos, nada entregue:\n- "
                          + "\n- ".join(problemas))
     print("PORTÃO DA DUDA: roteiro aprovado", flush=True)
+    # Preflight da voz (sem gastar crédito): chave, voz e saldo conferidos ANTES de narrar
+    from core.portao_duda import preflight_voz
+    falhas_voz = preflight_voz(json.loads(roteiro.read_text(encoding="utf-8")))
+    if falhas_voz and not os.environ.get("PERMITIR_VOZ_GRATIS"):
+        raise SystemExit("PREFLIGHT DA VOZ REPROVOU — não narrado, 0 créditos gastos:\n- " + "\n- ".join(falhas_voz))
+    print("PREFLIGHT DA VOZ: chave, voz e saldo ok", flush=True)
     run([sys.executable, "agents/17_video/montar_video6.py", str(roteiro)])
     video = ROOT / "data" / "social" / "videos" / f"{slug}_v2.mp4"
     legenda = ROOT / "data" / "social" / "videos" / f"{slug}_v2.legenda.txt"
