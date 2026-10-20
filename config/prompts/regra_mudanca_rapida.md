@@ -29,3 +29,15 @@ Gatilho acionado = plano de mudança NA MESMA RODADA, sem esperar a próxima:
 
 ## 4. Resultado ao Allan
 Até 8 linhas: o que está ruim (com número), o que parou, o que entrou no lugar, quando sai a próxima leitura e no máximo 3 decisões (cada uma com recomendação).
+
+## 5. CICLO DE EXPLORAÇÃO CONTÍNUA (ordem do Allan, 20/10/2026; VALE SOBRE TUDO ACIMA E SOBRE QUALQUER "CAMPANHA DE N DIAS")
+Allan descartou campanhas de duração fixa (7 ou 14 dias). O Estrategista roda 2x ao dia (07:07 e 17:07 Fortaleza) e trabalha em ciclo, sem ficar preso a erro:
+1. LER cada post publicado com 6-24h (parcial) e fechar o veredito com 24h: tempo médio %, skip, shares, saves, comentários de terceiros. Cada post vira UMA linha em data/social/laboratorio.md: id, rede, hora, formato, gancho, CTA, voz (voz.json do manifest), imagem/cena, tema, resultado, veredito (GANHOU / NEUTRO / PERDEU).
+2. PERDEU ou NEUTRO = não repetir o mesmo fator. O próximo post da fila já troca UM fator diferente (gancho, formato, duração, voz/emoção, tipo de imagem, tema, CTA, tipo de postagem). Nunca dois posts seguidos com a mesma hipótese que perdeu.
+3. PESQUISAR a cada rodada (máx. 6 buscas, só o que for novo): 3 a 5 referências reais do TikTok/IG/FB pet Brasil (link + número) com gancho, duração, voz, imagem e CTA; ao final de cada rodada acrescente em data/social/referencias_virais.md o que for novo e transforme em variações prontas para a fábrica.
+4. PORTFÓLIO: manter sempre 5 variações em teste (mínimo 4 fatores diferentes), cada uma com hipótese de 1 linha. Nada de testar só horário.
+5. GANHOU = escalar: repetir o fator vencedor em 3 variações novas e dar a ele 50% da produção seguinte; os outros 50% seguem em exploração. Dois GANHOU seguidos no mesmo fator viram regra em config/estilo_viral.yaml.
+6. CAMINHO ÚNICO ATÉ A FÁBRICA: toda troca vira linha E.. em data/decisoes/execucao.md (prazo ≤ 1 dia) + edição de config/estilo_viral.yaml / prompts, para a próxima produção já sair diferente. Itens já agendados que perderam: listar ids para o Allan trocar.
+7. Sem anúncio pago até haver GANHOU repetido em 2 fatores e mediana acima da meta nas 3 redes (decisão do Allan; ele autoriza quando o Estrategista provar isso).
+8. Voz: só Duda com tags (portão da Duda). Vídeo sem a voz padrão não conta como amostra de formato.
+Resultado ao Allan: até 6 linhas (o que perdeu, o que entrou no lugar, o que ganhou e escalou, próxima leitura).
