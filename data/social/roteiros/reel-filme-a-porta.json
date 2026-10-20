@@ -1,0 +1,48 @@
+{
+ "slug": "reel-filme-a-porta",
+ "titulo_video": "Filme a porta: o teste de 45 minutos",
+ "gancho_3s": "Você sabe o que seu pet faz quando você sai?",
+ "cenas": [
+  {
+   "narracao": "[warmly] Você sabe o que seu pet faz quando você sai?",
+   "visual_busca_banco_livre": "dog alone at home near door",
+   "texto_na_tela": "O que ele faz quando você sai?"
+  },
+  {
+   "narracao": "Quase ninguém sabe, porque nunca filmou.",
+   "visual_busca_banco_livre": "puppy looking at camera curious home",
+   "texto_na_tela": "Quase ninguém sabe"
+  },
+  {
+   "narracao": "Sem vídeo, você está adivinhando.",
+   "visual_busca_banco_livre": "dog lying near front door waiting for owner",
+   "texto_na_tela": "Sem vídeo, é palpite"
+  },
+  {
+   "narracao": "[smiling] Deixe o celular gravando quarenta e cinco minutos, apontado para a porta.",
+   "visual_busca_banco_livre": "smartphone on shelf recording at home",
+   "texto_na_tela": "Grave 45 minutos",
+   "permitir_gente": true
+  },
+  {
+   "narracao": "Anote o minuto em que o choro começa e o minuto em que ele deita.",
+   "visual_busca_banco_livre": "woman writing notes at home with dog",
+   "texto_na_tela": "Dois minutos para anotar",
+   "permitir_gente": true
+  },
+  {
+   "narracao": "[excited] Esses dois números mostram se o treino funciona. Siga para mais dicas!",
+   "visual_busca_banco_livre": "happy woman and dog at home sofa",
+   "texto_na_tela": "Siga para mais dicas",
+   "permitir_gente": true
+  }
+ ],
+ "chamada_final": "Siga o Tutorial Pet para mais dicas.",
+ "hashtags": [
+  "#petsozinho",
+  "#tutorialpet",
+  "#cachorro",
+  "#dicapet"
+ ],
+ "legenda": "Filmar a porta por 45 minutos mostra se o treino está funcionando.\nMais dicas em tutorialpet.com.br\n#petsozinho #tutorialpet"
+}

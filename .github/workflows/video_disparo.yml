@@ -1,0 +1,60 @@
+name: Video por disparo (roteiros avulsos)
+
+# Monta os roteiros listados em config/video_disparo.txt com o mesmo codigo da fabrica (voz da Duda, carimbo, musica).
+# Disparo sem token: editar config/video_disparo.txt e dar push na main (mesmo padrao do fabrica_disparo.txt).
+# NAO publica nem agenda nada: entrega o mp4 na branch media, pasta reels/. Pula slug ja entregue. Gasta ElevenLabs (~1 credito por caractere).
+on:
+  push:
+    branches: [main]
+    paths: ["config/video_disparo.txt"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: video-disparo
+  cancel-in-progress: false
+
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: biblioteca/voz_cache
+          key: voz-${{ github.run_id }}
+          restore-keys: voz-
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencias
+        run: |
+          pip install pyyaml requests edge-tts
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Pasta de entrega (branch media)
+        run: git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+      - name: Montar videos
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+        run: |
+          mkdir -p /tmp/media/reels
+          grep -v '^#' config/video_disparo.txt | sed '/^[[:space:]]*$/d' | while read -r slug; do
+            if [ -f "/tmp/media/reels/$slug.mp4" ]; then echo "pula $slug (ja entregue)"; continue; fi
+            python agents/17_video/montar_video6.py "data/social/roteiros/$slug.json" 2>&1 | tail -40
+            cp "data/social/videos/${slug}_v2.mp4" "/tmp/media/reels/$slug.mp4"
+            [ -f "data/social/videos/${slug}_v2.voz.json" ] && cp "data/social/videos/${slug}_v2.voz.json" "/tmp/media/reels/$slug.voz.json" || true
+          done
+      - name: Entregar (branch media)
+        run: |
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add -A
+          git commit -m "reels avulsos (voz da Duda)" || echo "nada a commitar"
+          git push origin media

@@ -1,0 +1,47 @@
+{
+ "slug": "reel-sinal-de-melhora",
+ "titulo_video": "Como saber se seu pet está melhorando ao ficar sozinho",
+ "gancho_3s": "Seu pet chora menos quando você sai?",
+ "cenas": [
+  {
+   "narracao": "[warmly] Seu pet chora menos quando você sai?",
+   "visual_busca_banco_livre": "dog waiting at front door alone home",
+   "texto_na_tela": "Chora menos?"
+  },
+  {
+   "narracao": "Silêncio total não é o sinal de que ele está melhorando.",
+   "visual_busca_banco_livre": "dog lying calm on couch at home",
+   "texto_na_tela": "Silêncio não é o sinal"
+  },
+  {
+   "narracao": "[smiling] O sinal é o atraso. Se o choro começava aos quatro minutos e agora começa aos dezoito, está funcionando.",
+   "visual_busca_banco_livre": "dog looking out window waiting",
+   "texto_na_tela": "4 min → 18 min"
+  },
+  {
+   "narracao": "O segundo sinal é o minuto em que ele deita.",
+   "visual_busca_banco_livre": "dog lying down relaxed on dog bed",
+   "texto_na_tela": "O minuto em que ele deita"
+  },
+  {
+   "narracao": "Anote os dois números. Isso é medir de verdade.",
+   "visual_busca_banco_livre": "woman writing notes on smartphone at home",
+   "texto_na_tela": "Anote os dois números",
+   "permitir_gente": true
+  },
+  {
+   "narracao": "[excited] Siga o Tutorial Pet para mais dicas!",
+   "visual_busca_banco_livre": "happy woman hugging dog at home",
+   "texto_na_tela": "Siga para mais dicas",
+   "permitir_gente": true
+  }
+ ],
+ "chamada_final": "Siga o Tutorial Pet para mais dicas.",
+ "hashtags": [
+  "#petsozinho",
+  "#tutorialpet",
+  "#cachorro",
+  "#dicapet"
+ ],
+ "legenda": "Silêncio total não é o sinal de melhora. Veja o que medir.\nMais dicas em tutorialpet.com.br\n#petsozinho #tutorialpet"
+}
