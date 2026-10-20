@@ -72,3 +72,11 @@ jobs:
             echo "tentativa $i falhou; aguardando"; sleep 10
           done
           [ "$ok" = 1 ] || { echo "::error::push do publicar_blog falhou 3x: artigos NAO foram ao ar"; exit 1; }
+
+      - name: Alerta (abre uma issue se o publicar_blog falhou)
+        # 20/10: o blog ficou parado de 16 a 20/10 e ninguem soube. Falha aqui agora gera issue (e o Vigia le as issues).
+        if: ${{ failure() }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --title "Blog nao publicou em $(date -u +%F)" --body "Rodada: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}. Veja o passo que falhou; artigos aprovados podem ter ficado fora do ar." || echo "::warning::nao consegui abrir a issue"
