@@ -1,0 +1,8 @@
+{
+  "motor": "elevenlabs",
+  "cenas_elevenlabs": 7,
+  "cenas_edge_tts": 0,
+  "voice_id": "iScHbNW8K33gNo3lGgbo",
+  "modelo": "eleven_v4",
+  "stability": 0.26
+}
