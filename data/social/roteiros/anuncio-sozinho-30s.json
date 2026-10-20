@@ -16,16 +16,17 @@
   {
    "narracao": "[thoughtful] A despedida emocional é o erro número um. Ele aprende que a sua saída é um evento enorme.",
    "visual_busca_banco_livre": [
-    "excited dog jumping at door home",
-    "energetic puppy running around living room"
+    "cute puppy running to door home",
+    "adorable puppy jumping happily indoors"
    ],
    "texto_na_tela": "Erro nº 1: a despedida emocional"
   },
   {
    "narracao": "[short pause] A gente já tentou de tudo. Só uma coisa funcionou: catorze dias, um passo a cada dia, começando com dois minutos.",
    "visual_busca_banco_livre": [
-    "calm dog lying on bed at home",
-    "relaxed dog resting on sofa cute"
+    "sleeping puppy cozy blanket",
+    "cute dog lying on rug relaxed",
+    "fluffy puppy resting on bed"
    ],
    "texto_na_tela": "14 dias · começa com 2 minutos"
   }
@@ -36,6 +37,5 @@
   "#cachorro",
   "#tutorialpet"
  ],
- "legenda": "Os 7 erros que fazem seu cachorro sofrer quando fica sozinho. PDF grátis: https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=anuncio",
- "faixa_cta": "assets/vsl/faixa_cta.png"
+ "legenda": "Os 7 erros que fazem seu cachorro sofrer quando fica sozinho. PDF grátis: https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=anuncio"
 }
