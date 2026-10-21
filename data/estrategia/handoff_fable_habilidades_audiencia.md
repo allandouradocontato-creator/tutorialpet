@@ -3,12 +3,16 @@ Dados até 2026-10-21 12:15 (Fortaleza)
 
 Cole isto numa conversa nova com o Fable. Contexto: a sessão anterior (Sonnet) fez o diagnóstico das rotinas, criou o compêndio de regras das plataformas (biblioteca/regras_plataformas/) e plugou o Jev como decisor padrão em várias rotinas. Repositório: allandouradocontato-creator/tutorialpet.
 
-## O que o Allan pediu (21/10/2026, confirmado por ele)
-Pegar referências de especialistas reais e fazer engenharia reversa do MÉTODO (nunca copiar material) para virar habilidade escrita nos agentes, porque o resultado de criação de audiência está fraco. "Fábrica de low ticket" NÃO é referência externa — é o nome que ele dá ao próprio projeto Tutorial Pet (confusão esclarecida em 21/10). Referências reais a pesquisar:
+## O que o Allan pediu (21/10/2026, confirmado por ele — 2ª correção)
+Pegar referências de especialistas/produtos reais e fazer engenharia reversa do MÉTODO (nunca copiar material) para virar habilidade escrita nos agentes, porque o resultado de criação de audiência está fraco. Referências reais a pesquisar:
 - **Tráfego pago**: Pedro Sobral.
 - **Design de oferta/atratividade**: produto "Sexy Canvas" (de um designer; usa gatilhos de desejo/pecados capitais para criar atratividade visual) — confirmar autor e método com pesquisa.
 - **Criação de oferta**: Leandro Ladeira (o Allan já estudou, confirma que é bom).
 - **Lançamento**: Érico Rocha.
+- **"Fábrica de Low Ticket"**: produto/método JÁ EXISTENTE no mercado (não é o projeto do Allan — ele mesmo quer construir algo parecido). Pesquisar o que é, como estrutura a esteira de produtos baratos, e espelhar a lógica pro nicho pet — mesma regra de espelhamento já registrada em /areas/falcao-hq/espelhamento-de-ofertas.md (aprender o padrão, nunca copiar material).
+
+## Nova direção de produto (dita pelo Allan em 21/10/2026, registrar e levar ao Fable)
+Depois que o ciclo da fábrica Tutorial Pet estiver fechado e validado, ele quer construir um DASHBOARD/SITE que simplifique tudo (rodar a fábrica de conteúdo/produto) para quem mais quiser usar — ou seja, produtizar a própria operação da holding como um segundo produto vendável (consistente com o princípio já registrado em /areas/falcao-hq.md: tudo que é construído deve ser formatado para virar produto vendável). Isso é related ao "molde da holding" (data/molde/, gatilho 23/10) mas vai além: o molde é o método em arquivo; isto é um PRODUTO COM INTERFACE (dashboard) para vender a terceiros. Avaliar overlap com o molde quando o Fable retomar.
 
 ### Candidatos a mais referências (sugeridos nesta sessão — NÃO verificados, checar prova real de resultado antes de usar, mesma regra do Caçador de ofertas)
 - Tráfego pago/performance: André Siqueira, Bruno Picinini, Thiago Reis (empresas de performance com cases públicos).
