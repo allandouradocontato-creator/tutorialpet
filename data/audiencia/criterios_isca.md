@@ -12,3 +12,10 @@ Problema: "7 Erros de Quem Deixa o Pet Sozinho" é título de post, não um guia
 
 ## Entrega pedida (Estrategista + Criador de Audiência, até 22/10)
 data/audiencia/decisao_isca_2026-10-22.md: 3 candidatas de guia, cada uma com a dor (com a evidência de onde apareceu), o resultado do teste do Google, nome do guia, estrutura em passos/dias, ponte para o produto e risco; a recomendada; e o canal recomendado com o que falta ligar. Pesquisa nova, com referências de guias gratuitos que convertem no nicho (não só reaproveitar os 7 erros).
+
+## Ideias do Allan para a isca (21/10/2026 15:02) — o Estrategista e o Criador de Audiência avaliam TODAS na decisao_isca (E19)
+1. Compêndio de raças imprimível: características + fotos (filhote e adulto). Ideia de "mimo/presente". Atenção: tema muito fácil no Google e disputado; fotos precisam ser originais ou licenciadas.
+2. E-book personalizado da raça do cachorro da pessoa, com a FOTO dela (compêndio com o pet dela). Valor percebido alto e difícil de achar pronto; pede gerador automático (formulário -> PDF) e cuidado com dados e foto do usuário.
+3. Pack de imagens: foto do cachorro da pessoa sobre fundos prontos (ferramenta/mimo compartilhável).
+4. Planilha de alimentação, nutrição e crescimento saudável; grupo de receitas de alimentação natural para cão e gato. Atenção: risco de alegação médica/veterinária e de alimento tóxico; sempre orientar procurar o veterinário; checar política Meta.
+Observação: separar dois objetivos de isca: (A) conversão (leva ao Sozinho em Casa) e (B) audiência/compartilhamento (mimo). Para B, o teste do Google é trocado por "a pessoa guardaria, imprimiria ou postaria". Sugestão a avaliar: perguntar no próprio fluxo do ManyChat o nome, a idade e quantas horas o cão fica sozinho (campos do contato), para segmentar e levar ao produto.
