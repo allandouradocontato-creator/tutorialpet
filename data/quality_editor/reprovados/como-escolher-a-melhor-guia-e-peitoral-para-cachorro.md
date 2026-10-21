@@ -17,7 +17,7 @@ voz: objetiva_bullets
 coluna: Resumão
 assinatura: Equipe Tutorial Pet
 revisado_por_agente_04: true
-revisado_em: '2026-10-21T11:01:15+00:00'
+revisado_em: '2026-10-21T12:52:10+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: bloqueante
