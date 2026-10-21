@@ -63,7 +63,7 @@ jobs:
         run: |
           git config user.name "Fabrica Tutorial Pet"
           git config user.email "fabrica@tutorialpet.com.br"
-          git add site/build data/quality_editor data/seo_onpage data/visual
+          git add site/build data/quality_editor data/seo_onpage data/visual config/blog_aprovados.txt
           git commit -m "blog: publica artigo $(date -u +%F)" || echo "nada a commitar"
           # 16/10: o rebase falhava com 'unstaged changes' e os artigos nao iam ao ar. Autostash + 3 tentativas;
           # se ainda falhar, o passo quebra com mensagem clara (nada de erro silencioso).
