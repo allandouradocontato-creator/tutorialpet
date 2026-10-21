@@ -175,7 +175,8 @@ temas:
   data: '2026-10-21'
 - termo: como escolher cinto de seguranca pet para carro
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-21'
 - termo: quais petiscos naturais posso dar para o gato
   pilar: alimentacao
   status: pendente
@@ -550,4 +551,13 @@ temas:
   status: pendente
 - termo: como montar um cantinho de refeição para múltiplos pets
   pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher comedouro lento ideal para gatos que comem rapido demais
+  pilar: produtos_compras
+  status: pendente
+- termo: como montar um cantinho da bagunca seguro para filhotes de caes
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como conservar petiscos naturais caseiros para caes sem perder nutrientes
+  pilar: alimentacao
   status: pendente
