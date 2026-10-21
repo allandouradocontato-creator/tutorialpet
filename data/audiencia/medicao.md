@@ -1,23 +1,23 @@
-Dados até 2026-10-16 08:30 (Fortaleza)
-# Medição — Criador de Audiência (meta de 14 dias: 15/10 a 28/10/2026). Fontes: Zernio analytics (FB, IG), Buffer (TikTok).
-Campeão: nenhum ainda. Único meme publicado: g1 "Gato é suspeito?" (15/10 16:32), 18h de idade = PARCIAL, nada de 72h.
-## Os 5 números (leitura 16/10 08:20)
-1. Comentários por post: meme g1 FB 4 (1,4% das 281 views), IG 1; antes dos memes nossos posts faziam 0-1. Meta ≥5/vídeo. TikTok: sem leitura (Buffer devolve métricas zeradas desde a criação do post; reconferir pelo app).
-2. Compartilhamentos: g1 FB 0, IG 0. Meta shares/views ≥1%.
-3. Seguidores novos por rede: FB 0 atribuído ao g1, IG sem dado (follows nulo), TikTok sem dado. Meta +30/14 dias por rede.
-4. Cliques no blog: g1 FB 6 cliques no post (não é UTM). Search Console: sem dado (pendência do Allan: confirmar propriedade e enviar sitemap, ver data/seo/relatorio.md). Sessões orgânicas: sem dado (GA4 não lido). Meta ≥20 em 14 dias.
-5. Vendas: sem dado do Kiwify nesta rodada. Meta 1.
-Blog (2 números pedidos): sessões orgânicas = sem dado; cliques do Search Console = sem dado. Pendência: acesso ao Search Console/GA4.
-## Teste do formato novo (ordem do Allan 15/10 14:02)
-Regra: por rede, 1 de cada 3 vídeos do dia é do formato novo (identificação/provocação/meme); os outros 2 seguem a pergunta de dor. Comparar por MEDIANA de views, comentários e compartilhamentos em 72h. Se o novo >= 1,5x o antigo com mínimo de 5 posts do formato, ele passa a ocupar mais slots. Linha de base antiga: FB mediana ~319 views, TikTok ~294, IG ~22 de alcance (13/10, n=6-9).
-Conta de decisão (preencher no dia 72h+5 posts): razão = mediana(novo)/mediana(pergunta de dor) em views; idem comentários e shares. Passou se razão de views >=1,5 E comentários não menor.
-## Uma variável por vez (lote 16/10)
-V1 CTA: ideias G1, G2, C1, C2 (mesmo vídeo/imagem, mesma hora): legenda A vs B em redes diferentes alternando; prova: qual pergunta dá mais comentários por 1.000 views. Mínimo 8 posts por variação (estrategia_social).
-V2 Formato (vídeo x imagem): mesma frase em G2 e C4 nos dois formatos, em dias diferentes, mesmo slot; prova: imagem barata rende >= vídeo?
-V3 Hashtags: 3 tags fixas (#gatos/#cachorros #humorpet #tutorialpet) em tudo agora; só depois trocar 1 por ampla BR (#petsbrasil) em metade dos posts; prova: alcance IG/TikTok.
-V4 Horário: E1 (12:00) x E2 (16:30) x E3 (18:00) com a mesma mistura de formato; prova: mediana de views em 72h por slot, mínimo 5 posts por slot.
-V5 Prova x teste: 10 ideias de prova de mercado x 4 de teste próprio (G5, G6, C6, C7); prova: a prova de mercado vence em comentários por 1.000 views? (alimenta data/humor/placar.md)
-V6 Origem: 3 ideias de radar internacional (G4, G7, C1) x as BR; prova: a adaptação de fora rende como a de casa?
-Cada variável só muda uma coisa; não misturar V1 com V4 no mesmo post.
+Dados até 2026-10-21 08:40 (Fortaleza)
+# Medição — Criador de Audiência (meta de 14 dias: 15/10 a 28/10/2026). Fontes: Zernio analytics (FB, IG), Buffer (TikTok). Posts <48h = parciais.
+Campeão: nenhum. Memes (8 s) ganham em views dos vídeos de artigo (FB mediana 288 x 215 = 1,3x; IG 119 x 42 = 2,9x; n=12 memes por rede), mas ainda sem comentário.
+## Os 5 números (leitura 21/10 08:20)
+1. Comentários por post: memes FB 0 e IG 0 em 24 posts; vídeos de artigo FB 12 e IG 14 em 26 posts (~1 por post); TikTok 1 comentário em 6 posts. Meta ≥5/vídeo.
+2. Compartilhamentos: memes IG 1, FB 0; artigos 0 (FB/IG); TikTok 2 em 6 posts. Meta shares/views ≥1%.
+3. Seguidores novos: FB 5→8 (+3 em 14/10-21/10, 60%); IG 0 seguidores contados pelo Zernio (dado suspeito); TikTok sem dado. Meta +30/14 dias por rede.
+4. Cliques no blog: FB 5 cliques nos posts (memes 2, artigos 3); IG 0; Search Console e sessões orgânicas: sem dado (pendência: acesso ao Search Console/GA4).
+5. Vendas: sem dado (Kiwify não lido nesta rodada). Meta 1.
+## Conta do teste do formato novo (ordem do Allan 15/10)
+Razão de views meme/pergunta de dor: FB 1,34 (288/215,5); IG 2,87 (119/41,5). Critério: ≥1,5 E comentários não menores. FB reprova (1,34); IG passa em views, mas comentários do meme (0) < artigo (~1): NÃO passou. Amostra pequena, 72h+ só nos posts de 14 a 18/10.
+## Anomalias a conferir
+Posts "Quem mais?" (19/10 FB 15:03, IG 16:04) e "Tem gato que já viu esse filme" (18/10 FB 15:02, IG 16:04) com 0 views e sem duração de vídeo: provável imagem/vídeo que não subiu. Post FB "Seu gato trabalha em que regime?" (21/10 00:05) com 0 views (parcial, FB sincronizando).
+## Uma variável por vez (lote 21/10)
+V1 CTA (pergunta binária de UMA palavra x pergunta aberta "Conta aí"): G7 e C2, mesma arte, CTA A x B em redes alternadas; prova: comentários por 1.000 views. Hipótese: o 0 comentário vem da pergunta aberta.
+V2 Formato: G3 e C2 (imagem) x G1 e C1 (vídeo); mesma estrutura de frase; prova: mediana de views e comentários em 72h.
+V3 Hashtags: mantidas as 3 fixas; só depois trocar 1 por ampla BR (#petsbrasil) em metade.
+V4 Horário: E1 x E2 x E3 com a mesma mistura de formato; mínimo 5 posts por slot.
+V5 Prova x teste: 10 de prova x 4 de teste (G4, G6, G7, C7); prova: placar do Humorista.
+V6 Trend do dia (G3, G5, C3) x evergreen: views em 72h; trend vence rápido.
+Cada variável muda só uma coisa; não misturar V1 com V4 no mesmo post.
 ## Próxima leitura
-72h após o primeiro post deste lote; posts <48h entram como parciais. Horários do Metricool são UTC (subtrair 3h); Zernio já traz UTC também: converter.
+Quinta 22/10 08:23 e 72h após os primeiros memes do lote. Horários do Zernio/Buffer vêm em UTC: subtrair 3h.
