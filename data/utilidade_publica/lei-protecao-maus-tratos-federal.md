@@ -7,6 +7,6 @@ Consulta: 2026-10-15
 - Lei 14.228/2021 (20/10/2021): órgãos de controle de zoonoses e canis públicos não podem eliminar cães e gatos; eutanásia só em doença grave incurável com laudo (art. 2). Fonte: https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14228.htm
 
 ## Como denunciar (passo a passo)
-- Sem fonte oficial lida nesta rodada para os canais de denúncia. PENDENTE (próxima rodada: canais do MP, Disque 181/delegacia/órgão ambiental estadual, sempre por estado).
+- Canais lidos em 2026-10-21 (CFMV; CE): ver denuncia-maus-tratos-federal-ce.md. Falta fonte direta do MP/delegacia por estado; para o artigo nacional, usar delegacia, MP, Ibama (silvestres) e secretarias de meio ambiente.
 
 Confirme no órgão do seu município/estado; as regras mudam. Este conteúdo não substitui orientação de advogado ou do órgão competente.
