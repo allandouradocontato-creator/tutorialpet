@@ -31,5 +31,8 @@ Depois que o ciclo da fábrica Tutorial Pet estiver fechado e validado, ele quer
 - biblioteca/habilidades/ — decifrador_algoritmo.md (como julgar amostra pequena), jev_decisao_rapida.md (Jev como decisor padrão em escolhas básicas), controle_prova_real.md (nunca marcar "ok" sem evidência).
 - data/estrategia/reestruturacao_2026-10-21.md — diagnóstico completo + proposta de compactar 5 "caçadores" em 2 (ainda aguardando seu sim).
 
+## Também buscar: prompts/skills já prontos e validados para espelhar (pedido do Allan, 21/10/2026)
+Além das referências de pessoas/produtos acima, buscar bibliotecas/marketplaces de prompts e skills já prontos e validados para as habilidades que a fábrica precisa (criação de audiência, oferta, copy, tráfego, design) — ex.: marketplaces de prompt (PromptBase e afins), bibliotecas de skills/agentes publicados (GitHub, comunidades de automação), packs de prompt de criação de oferta/copy. Trazer o que já existe pronto, ADAPTAR e OTIMIZAR para a realidade e especificidades da Tutorial Pet (nicho pet, voz Duda, regras de plataforma do compêndio) em vez de reinventar do zero. Mesma régua do Auditor de Aquisição já registrada (prova de que funciona, não só fama) e do princípio de espelhamento (/areas/falcao-hq/espelhamento-de-ofertas.md): aprender a lógica/estrutura, nunca copiar material de terceiros verbatim.
+
 ## Primeira pergunta ao Allan antes de pesquisar
 Confirmar se os candidatos extras acima (seção "Candidatos a mais referências") valem a pena pesquisar, ou se ele prefere só os 3 confirmados (Pedro Sobral, Sexy Canvas, Leandro Ladeira, Érico Rocha).
