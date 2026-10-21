@@ -1,0 +1,13 @@
+# FICHA DE CAMPANHA/DECISÃO (modelo) — um arquivo por decisão
+- Departamento / Diretor / data-hora:
+- Assunto e objetivo (1 frase, mensurável):
+- Público (tutor adulto; segmento):
+- Pareceres (o que cada especialista respondeu; "sem parecer" se faltou):
+  - <agente>: <1 linha>
+- Divergências e quem tinha razão (1 linha cada):
+- DECISÃO: (isca/oferta/mimo, canal, formato, prazo)
+- Textos aprovados (legenda, DM, fluxo; já na voz da Duda, sem alegação médica):
+- Métrica de sucesso e gatilhos (GANHOU / NEUTRO / PERDEU, janela <= 3 dias):
+- Ações (viram linhas E.. em data/decisoes/execucao.md): ID, dono, prazo
+- Pedido ao Allan (só se for dinheiro/login/anúncio/ao vivo): ou "nenhum"
+- Status: rascunho | aprovada pelo Diretor | executada | medida
