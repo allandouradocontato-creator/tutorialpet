@@ -20,3 +20,6 @@ Referência fixa do Otimizador de Processo. Atualizar quando algo mudar. "(a con
 | Medição | Analytics, Clarity, Metricool | Funciona | Painel único |
 
 Decisão (08/10): prioridade é fechar a linha de produto (e-book/PLR e app) e o upsell antes de gastar com novos anúncios. Pago só depois do sistema fechado.
+
+## Skills externas de marketing (21/10/2026)
+`biblioteca/skills_externas/` (marketingskills, openclaudia, upload-post — todas MIT) + 5 adaptadores PT-BR em `biblioteca/habilidades/` cobrindo gancho/audiência, criativo de venda, oferta low-ticket, decisão de anúncio Meta e análise de referência viral. Ver `biblioteca/habilidades/README.md` para o índice completo e quem lê cada um.

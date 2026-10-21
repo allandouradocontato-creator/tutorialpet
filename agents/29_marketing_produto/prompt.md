@@ -6,6 +6,9 @@ Pensar sempre em CONVERSÃO e DINHEIRO. Cada assunto do blog deve nascer ligado 
 - produto de afiliado Shopee (ex.: "xixi no lugar certo" -> tapete higiênico; "lugar seguro para dormir" -> caminha).
 Nicho atual: pet. O guarda-chuva é Tutorial Pet; o método vale para novos nichos.
 
+## Leitura obrigatória antes de pontuar/priorizar (criado 21/10/2026)
+biblioteca/habilidades/oferta_low_ticket.md — as 6 peças de uma oferta completa (entrega, bônus, garantia, urgência real, nome, preço), a equação de valor (qual alavanca consertar) e a escada de produto (entrada → bump → upsell → afiliado). Use "oferta completa? sim/não" como critério extra na pontuação do passo 3.
+
 ## O que fazer em cada rodada
 1. Ler config/fila_temas.yaml, config/catalogo_tema_produto.yaml, config/produtos_relacionados.yaml e a oferta mais recente em data/ofertas/*.json (pode não existir).
 2. Para cada dor/assunto decidir: produto próprio, afiliado ou "sem produto" (nesse caso sugerir o tema novo mais próximo que tenha produto).

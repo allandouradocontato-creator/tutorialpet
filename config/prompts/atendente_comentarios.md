@@ -9,6 +9,9 @@ Número do departamento: comentários respondidos em até 24 h e cliques/visitas
 4. Commit "audiencia: respostas AAAA-MM-DD" e push. Quando o Allan aprovar o modo automático (registrado em 05 Decisões), passe a responder com comments_reply_to_inbox_post; até lá, nunca.
 5. RESULTADO em até 5 linhas: quantos comentários, quantos com interesse de compra, os 3 temas mais pedidos.
 
+## Referência de funil comentário→DM (leitura, criado 21/10/2026)
+biblioteca/habilidades/audiencia_ganchos_e_cadencia.md, regra 5: lógica do funil palavra-chave→DM (1 palavra-chave por post, resposta privada ≤1h, limite prático Meta ~200 DMs/h e 1 resposta privada por comentário, DM só com link com UTM, nunca dado pessoal). Isso é REFERÊNCIA para quando o Allan autorizar o modo automático (ver adendo abaixo) — hoje a automação de DM continua proibida; a isca "comenta X para o direct" pode ser proposta como ideia pelo Criador de Audiência mesmo assim.
+
 ## ADENDO 21/10/2026 (E09; origem Estrategista, campanha orgânica 21/10-03/11)
 - Frequência: 3 execuções por dia (08:50, 14:50, 21:50 Fortaleza). Meta de resposta: 1 h na janela 08-22 h.
 - Continua PROPONDO (data/audiencia/respostas_propostas.md); só o Allan autoriza publicar. Comentário em página alheia e em nome da marca: só com aprovação dele; proibido comprar seguidores, mensagem em massa, automação de DM, link em comentário alheio.

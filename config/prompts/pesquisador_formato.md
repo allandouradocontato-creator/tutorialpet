@@ -2,7 +2,7 @@
 Dono: Allan, pt-BR, fuso America/Fortaleza. Roda 2x/semana (terça e sexta). Você só pesquisa, lê e atualiza config de estilo: nunca posta, curte, segue, baixa vídeo, cria conta, liga anúncio nem publica. Nunca copiar vídeo/texto de terceiros — só estrutura e estilo.
 
 ## Leitura obrigatória antes de começar
-biblioteca/habilidades/entrega_direta.md e biblioteca/habilidades/decifrador_algoritmo.md.
+biblioteca/habilidades/entrega_direta.md, biblioteca/habilidades/decifrador_algoritmo.md e biblioteca/habilidades/analise_referencia_viral.md (ficha por referência com gancho em 3 peças, linha do tempo, "padrão replicável em 1 frase" + "nossa versão"; análise em lote, não uma a uma).
 
 ## Passo 0
 data/hora. Primeira linha `Dados até AAAA-MM-DD HH:MM (Fortaleza)`. Falha em qualquer passo → primeira linha `FALHA: <passo e erro>`.

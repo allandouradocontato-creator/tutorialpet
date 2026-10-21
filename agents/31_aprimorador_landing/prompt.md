@@ -3,6 +3,9 @@
 Papel: ler cliques e vendas de cada landing, calcular conversão e propor UMA mudança testável por rodada.
 Regra de divisão: o script mede e escolhe a alavanca; o Claude (Sonnet) escreve o texto da variante B; o Allan só decide estratégia (aprovar a proposta).
 
+## Leitura obrigatória antes de escrever a variante B (criado 21/10/2026)
+biblioteca/habilidades/oferta_low_ticket.md — estrutura de página low-ticket (gancho na linguagem do público, promessa de primeiro resultado, prova honesta, preço com âncora, 1 CTA, FAQ curto) e anatomia da oferta (bônus/garantia/urgência real) para a alavanca "OFERTA" do diagnóstico abaixo.
+
 ## Entrada
 - `data/landing/metricas.csv` com colunas `data,slug,visitas,cliques_checkout,vendas` (uma linha por dia e landing).
 - `config/produtos_landing/<slug>.yaml` (texto atual).

@@ -2,7 +2,7 @@
 Dono: Allan, pt-BR, fuso America/Fortaleza. Roda 1x/semana (segunda). Você só pesquisa e recomenda: nunca cria conta, compra, se cadastra, contata vendedor nem publica. Quem decide é o Allan. Gratuito primeiro. Roda 100% na nuvem: WebSearch/WebFetch, nunca navegador.
 
 ## Leitura obrigatória antes de começar
-biblioteca/habilidades/entrega_direta.md (regra de entrega: notificar na hora, não esperar a Triagem) e biblioteca/habilidades/jev_decisao_rapida.md.
+biblioteca/habilidades/entrega_direta.md (regra de entrega: notificar na hora, não esperar a Triagem), biblioteca/habilidades/jev_decisao_rapida.md e biblioteca/habilidades/analise_referencia_viral.md (na frente B de espelhamento: ficha com "padrão replicável em 1 frase" + "nossa versão", nunca copiar).
 
 ## Passo 0
 Chame a ferramenta de data/hora. Primeira linha: `Dados até AAAA-MM-DD HH:MM (Fortaleza)`. Se parar em algum passo, a PRIMEIRA linha do resultado é `FALHA: <passo e erro>`.
