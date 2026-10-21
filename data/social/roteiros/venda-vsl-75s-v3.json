@@ -1,0 +1,76 @@
+{
+ "slug": "venda-vsl-75s-v3",
+ "titulo_video": "VSL 75 s v3 (landing)",
+ "molde_gancho": "abertura_problema_pet",
+ "gancho_3s": "Seu cachorro chora e late quando você sai?",
+ "musica": "alex-morgan-upbeat-591314.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] Seu cachorro chora e late quando você sai? O vizinho já reclamou? Calma, existe um jeito.",
+   "visual_busca_banco_livre": [
+    "sad dog looking out window waiting alone home",
+    "dog near front door waiting"
+   ],
+   "texto_na_tela": "O vizinho já reclamou?"
+  },
+  {
+   "narracao": "[thoughtful] Você já tentou TV ligada, brinquedo, petisco. Não é falta de educação, nem culpa sua. Ele só nunca aprendeu a ficar sozinho.",
+   "visual_busca_banco_livre": [
+    "dog lying near door home",
+    "puppy looking at camera indoors"
+   ],
+   "texto_na_tela": "Não é culpa sua. Nem dele."
+  },
+  {
+   "narracao": "[smiling] O Sozinho em Casa é um protocolo de catorze dias, um passo por dia, sem grito e sem punição.",
+   "visual_busca_banco_livre": [
+    "cute dog calm on rug home",
+    "happy dog owner home morning"
+   ],
+   "texto_na_tela": "14 dias · 1 passo por dia"
+  },
+  {
+   "narracao": "[softly] Dias um a quatro: a saída vira rotina. Dias cinco a nove: o tempo cresce em degraus. Dias dez a catorze: ele relaxa mais quando você sai.",
+   "visual_busca_banco_livre": [
+    "dog sleeping cozy blanket",
+    "fluffy puppy resting bed"
+   ],
+   "texto_na_tela": "3 fases",
+   "overlay_video": "assets/vsl/app_demo.mp4"
+  },
+  {
+   "narracao": "[thoughtful] Meu pet é muito grudado? Começa com dois minutos, não com duas horas. Dez minutos antes de sair.",
+   "visual_busca_banco_livre": [
+    "woman petting dog gently at home morning",
+    "dog calm sofa owner"
+   ],
+   "texto_na_tela": "Dia 1: 2 minutos"
+  },
+  {
+   "narracao": "[short pause] Você recebe manual, base teórica, app com diário e diploma. Pagamento único de nove e noventa, no lugar de trinta e sete.",
+   "visual_busca_banco_livre": [
+    "woman reading tablet with cute dog on couch home"
+   ],
+   "texto_na_tela": "R$ 37 → R$ 9,90",
+   "overlay_imagem": "assets/vsl/card_preco.png",
+   "overlay_dur": 3.5
+  },
+  {
+   "narracao": "[happy] E tem garantia de sete dias: se não for para vocês, devolvemos o valor.",
+   "visual_busca_banco_livre": [
+    "woman laughing with fluffy dog",
+    "happy dog home"
+   ],
+   "texto_na_tela": "7 dias de garantia",
+   "overlay_imagem": "assets/vsl/card_garantia.png",
+   "overlay_dur": 2.4
+  }
+ ],
+ "chamada_final": "[smiling] Toca no botão e começa o dia um. Aqui é a Duda, do Tutorial Pet. Comenta SOZINHO se tem dúvida.",
+ "legenda": "Sozinho em Casa: protocolo de 14 dias. https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=video&utm_campaign=sozinho_venda&utm_content=vsl-v3 Material educativo; não substitui o veterinário.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ]
+}

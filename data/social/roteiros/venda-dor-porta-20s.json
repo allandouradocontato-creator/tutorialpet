@@ -1,0 +1,42 @@
+{
+ "slug": "venda-dor-porta-20s",
+ "titulo_video": "Venda: pergunta de dor (porta) 20 s",
+ "molde_gancho": "abertura_problema_pet",
+ "gancho_3s": "Seu cachorro chora quando você fecha a porta?",
+ "musica": "lnplusmusic-happy-happy-music-611028.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] Seu cachorro chora quando você fecha a porta? Não é birra. Ele ainda não aprendeu que você volta.",
+   "visual_busca_banco_livre": [
+    "sad dog looking at front door home",
+    "dog waiting near door alone indoors"
+   ],
+   "texto_na_tela": "Seu cachorro chora quando você fecha a porta?"
+  },
+  {
+   "narracao": "[thoughtful] O jeito é treinar a saída aos poucos: começa com dois minutos e cresce um passo por dia.",
+   "visual_busca_banco_livre": [
+    "cute dog lying calm on rug home",
+    "puppy resting cozy blanket"
+   ],
+   "texto_na_tela": "Começa com 2 minutos"
+  },
+  {
+   "narracao": "[short pause] São catorze dias, manual mais app, por nove e noventa, pagamento único. Garantia de sete dias.",
+   "visual_busca_banco_livre": [
+    "cute dog relaxed sofa home",
+    "dog sleeping peacefully bed"
+   ],
+   "texto_na_tela": "14 dias · R$ 9,90",
+   "overlay_imagem": "assets/vsl/card_preco.png",
+   "overlay_dur": 3.0
+  }
+ ],
+ "chamada_final": "[smiling] Busca sozinho.tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+ "legenda": "Seu cachorro chora quando você fecha a porta? Conta aqui: quanto tempo o seu aguenta? Material educativo; não substitui o veterinário. https://sozinho.tutorialpet.com.br/?utm_source=tiktok&utm_medium=video&utm_campaign=sozinho_venda&utm_content=dor-porta",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ]
+}

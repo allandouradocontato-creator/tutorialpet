@@ -1,0 +1,43 @@
+{
+ "slug": "venda-demo-app-20s",
+ "titulo_video": "Venda: demonstração do app 20 s",
+ "molde_gancho": "abertura_problema_pet",
+ "gancho_3s": "Como saber se o treino de ficar sozinho está funcionando?",
+ "musica": "lnplusmusic-happy-happy-music-611028.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] Como saber se o treino de ficar sozinho está funcionando? Olha como eu acompanho no app.",
+   "visual_busca_banco_livre": [
+    "woman using smartphone with dog home",
+    "dog owner tablet sofa"
+   ],
+   "texto_na_tela": "Está funcionando?"
+  },
+  {
+   "narracao": "[thoughtful] Cada dia do protocolo tem sua tarefa. Você marca o que fez e vê o progresso do seu cão.",
+   "visual_busca_banco_livre": [
+    "woman petting dog gently at home",
+    "dog resting couch owner phone"
+   ],
+   "texto_na_tela": "Demonstração do app",
+   "overlay_video": "assets/vsl/app_demo.mp4"
+  },
+  {
+   "narracao": "[happy] Manual mais app, nove e noventa, com garantia de sete dias.",
+   "visual_busca_banco_livre": [
+    "happy dog owner phone home",
+    "cute dog sleeping home"
+   ],
+   "texto_na_tela": "R$ 9,90 · garantia 7 dias",
+   "overlay_imagem": "assets/vsl/card_garantia.png",
+   "overlay_dur": 2.4
+  }
+ ],
+ "chamada_final": "[smiling] Busca sozinho.tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+ "legenda": "Demonstração do app Sozinho em Casa (sem depoimento: é o app real). https://sozinho.tutorialpet.com.br/?utm_source=tiktok&utm_medium=video&utm_campaign=sozinho_venda&utm_content=demo-app Material educativo; não substitui o veterinário.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ]
+}

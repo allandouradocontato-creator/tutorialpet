@@ -1,0 +1,40 @@
+{
+ "slug": "venda-serie-2-despedida",
+ "titulo_video": "Venda série 2/3: despedida",
+ "molde_gancho": "abertura_problema_pet",
+ "gancho_3s": "Você faz festa na hora de sair de casa?",
+ "musica": "velariomusic-happy-vibes-591803.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] Você faz festa na hora de sair de casa? Cuidado: a despedida emocional ensina que sua saída é um grande evento.",
+   "visual_busca_banco_livre": [
+    "owner hugging dog front door home",
+    "dog excited at door home"
+   ],
+   "texto_na_tela": "Você faz festa na saída?"
+  },
+  {
+   "narracao": "[thoughtful] Passo dois: saia sem falar nada e sem olhar. Chave na mão, porta, pronto.",
+   "visual_busca_banco_livre": [
+    "dog calm lying indoors",
+    "dog watching door home"
+   ],
+   "texto_na_tela": "Passo 2: saída sem festa"
+  },
+  {
+   "narracao": "[happy] Parte dois de três. Segue que amanhã tem a última.",
+   "visual_busca_banco_livre": [
+    "cute dog resting sofa",
+    "puppy yawning home"
+   ],
+   "texto_na_tela": "Parte 2 de 3"
+  }
+ ],
+ "chamada_final": "[smiling] Segue o Tutorial Pet. Aqui é a Duda, do Tutorial Pet.",
+ "legenda": "Parte 2 de 3. Você faz festa na saída? Responde: sim ou não? Protocolo completo: https://sozinho.tutorialpet.com.br/?utm_source=tiktok&utm_medium=video&utm_campaign=sozinho_venda&utm_content=serie-2-despedida Material educativo; não substitui o veterinário.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ]
+}

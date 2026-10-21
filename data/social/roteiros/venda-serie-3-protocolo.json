@@ -1,0 +1,43 @@
+{
+ "slug": "venda-serie-3-protocolo",
+ "titulo_video": "Venda série 3/3: protocolo",
+ "molde_gancho": "abertura_problema_pet",
+ "gancho_3s": "E se existisse um plano de catorze dias para ele ficar sozinho com calma?",
+ "musica": "velariomusic-happy-vibes-591803.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] E se existisse um plano de catorze dias para ele ficar sozinho com calma? Existe: um passo por dia, no ritmo do seu cão.",
+   "visual_busca_banco_livre": [
+    "relaxed dog sleeping home",
+    "cute dog calm on rug indoors"
+   ],
+   "texto_na_tela": "Plano de 14 dias"
+  },
+  {
+   "narracao": "[thoughtful] É o Sozinho em Casa: manual, app para acompanhar cada dia, e garantia de sete dias.",
+   "visual_busca_banco_livre": [
+    "woman using smartphone with dog home",
+    "dog owner reading tablet couch"
+   ],
+   "texto_na_tela": "Manual + app + garantia",
+   "overlay_video": "assets/vsl/app_demo.mp4"
+  },
+  {
+   "narracao": "[short pause] Nove e noventa, pagamento único. Comece o dia um hoje.",
+   "visual_busca_banco_livre": [
+    "happy dog resting home",
+    "puppy sleeping blanket"
+   ],
+   "texto_na_tela": "R$ 9,90 · pagamento único",
+   "overlay_imagem": "assets/vsl/card_preco.png",
+   "overlay_dur": 3.0
+  }
+ ],
+ "chamada_final": "[smiling] Busca sozinho.tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+ "legenda": "Parte 3 de 3. Protocolo de 14 dias para ele ficar sozinho com calma. https://sozinho.tutorialpet.com.br/?utm_source=tiktok&utm_medium=video&utm_campaign=sozinho_venda&utm_content=serie-3-protocolo Material educativo; não substitui o veterinário.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ]
+}

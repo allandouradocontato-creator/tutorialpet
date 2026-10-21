@@ -1,0 +1,40 @@
+{
+ "slug": "venda-serie-1-sinal",
+ "titulo_video": "Venda série 1/3: o sinal",
+ "molde_gancho": "abertura_problema_pet",
+ "gancho_3s": "Seu cachorro te segue até o banheiro e chora na porta?",
+ "musica": "velariomusic-happy-vibes-591803.mp3",
+ "cenas": [
+  {
+   "narracao": "[warmly] Seu cachorro te segue até o banheiro e chora na porta? Isso tem nome: ele não sabe ficar sozinho.",
+   "visual_busca_banco_livre": [
+    "dog waiting at bathroom door home",
+    "dog following owner indoors"
+   ],
+   "texto_na_tela": "Seu cachorro te segue até o banheiro?"
+  },
+  {
+   "narracao": "[thoughtful] Passo um: hoje saia da sala por dois minutos e volte sem festa.",
+   "visual_busca_banco_livre": [
+    "dog lying calm living room",
+    "cute dog looking at door home"
+   ],
+   "texto_na_tela": "Passo 1: 2 minutos, volta sem festa"
+  },
+  {
+   "narracao": "[happy] Amanhã tem a parte dois da série. Segue para não perder.",
+   "visual_busca_banco_livre": [
+    "happy dog wagging tail home",
+    "puppy smiling camera indoors"
+   ],
+   "texto_na_tela": "Parte 1 de 3"
+  }
+ ],
+ "chamada_final": "[smiling] Segue o Tutorial Pet. Aqui é a Duda, do Tutorial Pet.",
+ "legenda": "Parte 1 de 3. Seu cachorro te segue até o banheiro? Conta nos comentários. Protocolo completo: https://sozinho.tutorialpet.com.br/?utm_source=tiktok&utm_medium=video&utm_campaign=sozinho_venda&utm_content=serie-1-sinal Material educativo; não substitui o veterinário.",
+ "hashtags": [
+  "#sozinhoemcasa",
+  "#cachorro",
+  "#tutorialpet"
+ ]
+}
