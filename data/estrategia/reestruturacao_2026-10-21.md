@@ -19,13 +19,14 @@ Pedido: integração MailChat + várias ferramentas + vários agentes, mas resul
 5. **Dispersão**: 5 agentes "caçadores" rodando em paralelo, cada um grava num doc isolado, e a Triagem (só 2x/semana) é o único ponto que lê tudo — decisão lenta. O Jev já ajuda a Triagem; agora também ajuda o Executor (seção 5).
 
 ## 3. Compactação proposta (o que fazer com os agentes)
-**Não vou desligar nada sem te avisar** (são decisões estratégicas), mas já apliquei o que é claramente operacional e de baixo risco (edição de prompt, não mudança de negócio):
-- ✅ Feito agora: 6 prompts (config/prompts/criador_audiencia.md, seo.md, auditor_anuncios.md, editor_afiliados.md) passaram a ler o compêndio de regras antes de propor/aprovar algo. Executor de Decisões ganhou o Jev para decidir ordem/prioridade sem te esperar.
-- 🔲 Proposta para sua decisão (comprime 30 → ~22 rotinas, sem perder cobertura):
-  - **Fundir os 5 "caçadores"** (Oportunidades de Renda, Ofertas para espelhar, Estilo viral, Referências de vídeo, Atalhos) em 2: um "Pesquisador de Mercado" (ofertas prontas + oportunidades de renda, 1x/semana) e um "Pesquisador de Formato" (estilo viral + referências de vídeo, continua 2x/semana, já é o que mais alimenta a fábrica). Ganho: menos rotinas ociosas, menos conectores carregados à toa, Triagem lê 2 docs em vez de 5.
-  - **Fundir Cobrança dos Departamentos dentro do Otimizador de Processo** (já roda no mesmo dia/horário próximo, terça e sexta) — é o mesmo tipo de pergunta (o que cada departamento entregou).
-  - **Desligar de vez** (não só deixar `enabled:false`) as 5 rotinas órfãs da era Metricool listadas acima — ninguém usa, só ocupam a lista.
-- Pergunta para você: posso seguir com a fusão dos 5 caçadores em 2 e desligar as 5 órfãs? (strategic/criação = você decide; eu só executo depois do seu sim.)
+- ✅ Feito (21/10): 6 prompts passaram a ler o compêndio de regras antes de propor/aprovar algo. Executor de Decisões ganhou o Jev para decidir ordem/prioridade sem te esperar.
+- ✅ Feito (21/10, com seu OK): as 5 rotinas órfãs da era Metricool foram **apagadas de vez** (delete_trigger, não só desligadas): Conferente de Estoque do Mês, Estrategista de Redes Sociais v1, Otimizador de Processo v1, Especialista TikTok v1, Agendador de Posts (Metricool). Cada uma já tinha substituta v2 rodando — nada foi perdido.
+  - Observação: achei mais 2 rotinas desligadas que NÃO estavam nessa lista de 5 e ainda não apaguei por não terem seu OK explícito: "Fábrica de vídeo Tutorial Pet" (fluxo antigo pré-Zernio/Buffer, cita vercel.app antigo) e "Aprovar fila Facebook - tutorialpet" (fluxo antigo que dependia do PC ligado via Windows Task Scheduler). Parecem igualmente mortas — me diga se apago também.
+- 🔲 Proposta revisada para a fusão dos "caçadores" (seu ponto de 21/10: "não adianta achar algo que não chega pra gente; cada ação precisa de resultado prático, senão corta"):
+  - Causa raiz corrigida: o problema NÃO é as caçadoras não acharem nada — é a entrega esperar a Triagem (2x/semana) para chegar até você. Virou a nova habilidade `biblioteca/habilidades/entrega_direta.md`: toda rotina de pesquisa manda PushNotification na hora quando acha algo que pede decisão, não espera a Triagem; se passar 3 rodadas sem notificar nada, ela mesma registra "falha de utilidade" em 07 Erros e lições — e isso é o gatilho pra eu te propor cortar aquela rotina especificamente (prova objetiva, não "parece que não serve").
+  - Fusão continua de pé: **Caçador de Oportunidades de Renda + Caçador de ofertas para espelhar + Caçador de estilo viral + Caçador de referências de vídeo** (4 rotinas, não 5 — "Construtor de landing/app/e-book" são sob demanda, não entram na fusão) em 2: "Pesquisador de Mercado" (oportunidade + ofertas, 1x/semana) e "Pesquisador de Formato" (estilo viral + referências, 2x/semana). As duas já nascem com `entrega_direta.md` embutido.
+  - Fundir Cobrança dos Departamentos dentro do Otimizador de Processo (mesmo dia/horário).
+- Pergunta para você: confirma a fusão das 4 caçadoras em 2 (com entrega direta por PushNotification, não mais só relatório pra Triagem) e me diz se apago também as 2 rotinas antigas que achei agora?
 
 ## 4. Compêndio de regras das plataformas (criado 21/10/2026)
 Pesquisado agora, com fontes oficiais, em biblioteca/regras_plataformas/:
