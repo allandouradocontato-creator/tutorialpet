@@ -18,3 +18,10 @@ Dados até 2026-10-21 07:15 (Fortaleza). Só recomendação; nada publicado, age
 - Instagram com 6 hashtags: legenda "Seu cachorro rouba a ração do seu gato?" (20/10 18:03): publicado; deixar como está, corrigir daqui para frente.
 ## 5. Números de partida (para a leitura de 22/10)
 FB mediana 220 views / IG alcance 52 / TikTok 193; seguidores FB 8, IG 0, TikTok 19; comentários de terceiros 1 em 48 posts (FB/IG).
+
+## Rodada 17:07 (21/10, dados até 17:10 Fortaleza)
+- Gatilho segue disparado: FB tempo <6 s em 17 de 18 (mediana 3,8 s, views 227); TikTok <4 s em 11 de 13, 2 shares em 13, views 193; IG skip >70% em 5 de 16, alcance 60.
+- AJUSTE a E14: o FB 12:00 NÃO ganhou. Memes naquele slot: 9, 0 e 0 views (17-19/10), 438 (20/10), 108 parcial (21/10); 08:30 (242-562) e 21:00 (255-317) são estáveis. Meme 8 s no IG continua claro (alcance 104 x 35 do explicador, n=9 e 12). Hipótese, sem causa provada: o slot 12:00 do FB é instável.
+- Posts JÁ agendados para o Claude da sessão do Allan (não mexi): TikTok 6ad7bf5c6572b508fa33542f (hoje 20:20) e 6ad7bf581a1ce97999a6c7b3 (22/10 10:20) com "link no perfil" -> "Confira o artigo completo em tutorialpet.com.br". Série "7 erros": último par (IG 6ad7ad34be90a3a9459824fe, FB 6ad7ad32429cabfd5305b7e7) pede "Comente GUIA" com a isca descartada: aguarda decisão do Allan (Resultado, item 1).
+- Novas ações em execucao.md: E21, E22.
+

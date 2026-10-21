@@ -1,42 +1,45 @@
-Dados até 2026-10-21 07:15 (Fortaleza) — Zernio (FB, IG) e Buffer (TikTok), 17/10 a agora (20/09–16/10 já nas edições anteriores). 9ª edição (anterior 20/10 17:08; ciclo diário).
-Passo parcial: manifest (branch media) lido, mas só traz status/guardião ("voz da Duda no padrão"); gancho, cena e tema vêm da legenda. Buffer grátis só dá 31 dias de métricas agregadas.
+Dados até 2026-10-21 17:10 (Fortaleza) — Zernio (FB, IG) e Buffer (TikTok), 20/09 a agora. 10ª edição (anterior 21/10 07:15; ciclo diário).
+Passos parciais: (a) git fetch/rebase travou 2 min sem credencial -> commit feito pela API do GitHub; (b) WebFetch de sozinho.tutorialpet.com.br/7-erros.pdf negado (permissão sem resposta) -> estado da isca só por repo/notas; (c) manifest da branch media não clonado (a edição anterior já mostrou que só traz status do guardião); ManyChat/Brevo não são checáveis da nuvem.
 ## 0. Erros e estado (topo)
-- Erros de publicação: nenhum (Zernio posts_list_failed vazio; Buffer sem post em error). Zernio sync ok (lastSync 21/10 06:18).
-- Agendados: Zernio 32 (16 pares FB+IG: série "7 erros" com isca "Comente GUIA", artigos, memes). Buffer TikTok só 4 (21/10 10:20, 14:20, 20:20; 22/10 10:20): fila baixa, sem nada a partir de 22/10 13:20 e nenhum meme/17:10 enfileirado (E04 não rodou).
-- Regra (a)/(d) violada: "link no perfil" em 3 TikToks AGENDADOS (21/10 14:20 sofá, 21/10 20:20 cozinha, 22/10 10:20 patas) e no JÁ PUBLICADO 20/10 20:20 (bolas de pelo). Instagram: legenda de 20/10 18:03 (ração cão x gato) tem 6 hashtags; o limite é 5 (ver §4).
-## 1. Nossos números (17-19/10 com 24h+; 20/10 parcial)
-| Rede | Posts | Resultado | Retenção |
+- Erros de publicação: nenhum (Zernio posts_list_failed vazio; Buffer sem post em error). Zernio sync 21/10 16:22.
+- Agendados: Zernio 32 (16 pares FB+IG, até ~23/10): série "7 erros" (8 pares, o último pede "Comente GUIA"), 5 pares de memes, 3 de artigos. Buffer TikTok 5 (21/10 20:20; 22/10 10:20, 14:20, 20:20; 23/10 10:20): a fila ACABA em 23/10 10:20 (teto grátis 10; E15 pede reposição).
+- Regra (a)/(d) ainda violada: "link no perfil" em 2 TikToks AGENDADOS: 6ad7bf5c6572b508fa33542f (hoje 20:20, cozinha) e 6ad7bf581a1ce97999a6c7b3 (22/10 10:20, patas). O de 14:20 (sofá) já saiu sem a frase. Só o Claude da sessão do Allan mexe (E13).
+- CONFLITO: os 8 pares agendados da série "7 erros" prometem "guia completo grátis, comente GUIA", mas o Allan descartou essa isca hoje (05 Decisões 21/10; E19) e o GUIA está suspenso.
+## 1. Nossos números (posts com 24h+, 18-20/10)
+| Rede | n | Resultado | Retenção |
 |---|---|---|---|
-| FB | 18 (24h+) | views mediana 220; 25 reações, 9 com. (nossos), 4 cliques, 0 comp. | tempo <6 s em 14 de 15 (72h) |
-| IG | 18 | alcance mediana 52; 7 curt., 9 com. (nossos), 0 salvos, 1 comp. | skip >70% em 5 de 9 explicadores; 0 de 7 memes |
-| TikTok | 9 (72h) | views mediana 193 (94-221); 0 salv.; 2 shares | tempo <4 s em 7 de 9 |
-- Parciais (<24h, 20/10 tarde/noite): FB 12:05 meme 436 (melhor do período, 5,1 s), 14:05 219, 19:06 229, 21:05 aguardando sync. IG 13:04 meme alcance 64, skip 35%; 21:12 alcance 65, skip 70%.
-- Seguidores: FB 8 (+3 em 7 dias, +1 hoje), IG 0, TikTok 19 (Allan, 20/10). FB ≈ 0,9 seguidor por 1.000 views; IG e TikTok sem base.
-- FORMATO (hipótese, n pequeno): meme 8 s no FB mediana 264 views (n=7) x explicador 213 (n=9); no IG meme alcance 122, skip 55% x explicador 35, skip 76%. Tempo médio quase igual no FB (3,7 x 4,0 s): meme ganha alcance, não retenção.
-- TikTok: meme 8 s PERDEU (89 e 94 views, 2,4 e 1,7 s; n=2): a hipótese do teste B não se confirmou. Melhor tempo médio das 3 redes veio de "Seu cachorro aguenta quantas horas sozinho?" (pergunta de número, tema do app): TikTok 6,7 s, IG 8,7 s, FB 5,6 s (47 s). Vídeo da amostra excluída (sem emoção da Duda): vale como pista de TEMA/gancho, não de formato.
-- Tema: gato mediana FB 392 (n=2) x cachorro 212 (n=6); sem causa provada. Cliques: FB 4. Vendas Sozinho em Casa: sem dado.
-## 2. Gatilho de mudança (regra_mudanca_rapida.md): DISPAROU
-- FB tempo <6 s: 14 de 15. TikTok tempo <4 s: 7 de 9, 2 shares em 9 (menos de 1 a cada 4). IG skip >70% em explicadores: 5 de 9. Medianas abaixo da meta sem1: FB 220 (<250), IG 52 (<60), TikTok 193 (<300).
-- Plano: data/social/plano_de_mudanca_2026-10-21.md. Novas ações E14-E17 em execucao.md (E01-E13 seguem pendentes; V03 aberto).
-## 3. Horários (Fortaleza): manter grade, uma troca
+| FB | 18 | views mediana 227; 26 reações; 0 shares; 0 salvos; 0 comentários de terceiros* | tempo médio mediana 3,8 s; <6 s em 17 de 18 |
+| IG | 16 | alcance mediana 60; 11 curtidas; 1 share; 0 salvos | skip mediana 57,5%; >70% em 5 de 16; tempo 4,5 s |
+| TikTok | 13 (17-20/10) | views mediana 193; 2 shares; 2 comentários (17/10 e 20/10) | tempo mediana 2,1 s; <4 s em 11 de 13 |
+*O "1 comentário" que quase todo post FB/IG mostra é o nosso 1º comentário com o link.
+- TikTok 30 dias (Buffer): 33 posts, 7.722 views, 445 reações, 4 comentários, 14 shares, tempo médio 2,9 s. Campeão segue 13/10 "Para de ignorar esse sinal" (gato, 747 views, 2,9 s).
+- Parciais (<24h): FB 21/10 10:05 patas 233 views (2,4 s); 12:04 "imposto" 108; 14:05 sofá 164 (6,7 s, retenção 47% aos 12 s). IG sofá ainda 0. TikTok 21/10 10:20 "roubando comida do gato" 23 views (1,5 s, ~7 h); 14:20 sofá ainda 0.
+- Seguidores (Zernio 21/10 07:15): FB 8 (+3 em 7 dias; 0,9 por 1.000 views), IG 0 (50 posts), TikTok 19 (Allan 20/10).
+- FORMATO (n pequeno, sem causa provada): IG meme alcance mediana 104 (n=9) x explicador 35 (n=12): meme segue claro no IG. FB: memes 08:30 (Fortaleza) 562/386/242/290 e 21:00 255/317/264, mas no slot 12:00 3 de 5 memes ficaram em 0-9 views (17, 18 e 19/10) e o de 20/10 teve 438. Hipótese: o FB 12:00 é instável para meme (entrega zero em 3 de 5); 08:30 e 21:00 são estáveis.
+- TikTok: melhor tempo da janela de novo em "quantas horas sozinho" (7,5 s, 187 views, 48 s, 20/10); meme 8 s perdeu (n=2). Tema: gato x cachorro sem diferença provada.
+## 2. Gatilho de mudança (regra_mudanca_rapida.md): DISPAROU de novo
+- FB tempo <6 s 17/18; TikTok <4 s 11/13 e 2 shares em 13 (<1 a cada 4); IG skip >70% 5/16; medianas FB 227 (<250), TikTok 193 (<300), IG 60 (=meta, sem folga).
+- Plano de hoje já tem E14-E17; esta rodada acrescenta E21 (FB 12:00) e E22 (preço velho no YAML do produto). Detalhe: plano_de_mudanca_2026-10-21.md, seção "Rodada 17:07".
+## 3. Horários (Fortaleza): manter a grade, uma troca
 | Rede | Melhor 1 | Melhor 2 | Nota |
 |---|---|---|---|
-| FB | 08:30 (mediana 337, memes) | 21:00 (264); 12:00 só meme (436 hoje) | 10:00/19:00 ~210; seg-dom igual (n não separa dias) |
-| IG | 08:40 (98) | 21:10 (122) | 11:00/15:00/20:00 explicadores 29-35; 13:00 meme 131 (n=1) |
+| FB | 08:30 (memes 242-562) | 21:00 (255-317; 1 de 4 com 3 views) | 12:00 só depois de 2 leituras >=150; 10:00/19:00 explicadores ~210 |
+| IG | 08:40 (meme 98) | 21:10 (122) | explicadores 11/15/20h: alcance 29-35 |
 | TikTok | 10:20 | 20:20 | views 170-221 em qualquer hora; sem sinal de horário |
-- Zernio best_time (UTC): 1-2 posts por slot, inconclusivo (FB ter 19 UTC=16h Fortaleza, 1 post). SocialPilot (700 mil posts até 10/12/2025, sem Brasil): TikTok ter/qua 8h, 14-16h, 20h; sex 8h e 13-15h; sáb 11h, 15h, 20h; dom 9-10h, 16h [socialpilot.co/pt/insights/best-time-to-post-on-tiktok]. Nossos 10:20/20:20 batem com o padrão; não mexer. Nunca duas redes no mesmo horário (conferido).
+- Zernio best_time (UTC): 1-3 posts por slot (FB melhor: qua 19 UTC = 16h Fortaleza, 1 post, 20 de engajamento), inconclusivo. TikTok: SocialPilot (700 mil posts até 10/12/2025, sem Brasil): ter/qua 8h, 14-16h, 20h; sex 8h e 13-15h [socialpilot.co/pt/insights/best-time-to-post-on-tiktok]. Nunca duas redes no mesmo horário (conferido nos agendados).
 ## 4. Hashtags e legenda
-- Instagram: limite de 5 hashtags por post/Reels anunciado em 18/12/2025 (Tecnoblog; o texto chama de limite e de recomendação) [tecnoblog.net/noticias/instagram-limita-numero-de-hashtags-em-posts]. IG 3-5 (nunca 6), TikTok 3-5, FB 0-3. Sem fonte aberta do que funciona em página pet BR; buscas trouxeram só matérias sem números.
-- 3 modelos por rede e conjuntos por tema: config/estrategia_social.yaml. Estrutura: gancho em pergunta curta sobre o bicho, 1 linha de valor, pergunta de 1 palavra, CTA fixo "Confira o artigo completo em tutorialpet.com.br"; nunca "link no perfil".
-## 5. Interação e isca digital
-- Comentário de terceiro: 1 em 48 posts FB/IG (IG meme 19/10 com 1 comp.), 1 no TikTok. Perguntas de 1 palavra (5 por tema no YAML); testar a pergunta numérica "quantas horas?" que prendeu mais.
-- Isca: a série "7 erros" já pede "Comente GUIA". Regra Meta (doc oficial): resposta privada a comentário = 1 mensagem, até 7 dias; o texto não define opt-in nem trata de spam, então só contatar quem comentou primeiro, sem coletar e-mail [developers.facebook.com/documentation/business-messaging/messenger-platform/policy]. Grátis: ManyChat (IG), limite a reconferir no cadastro. TikTok: sem automação. Sozinho em Casa só na DM, depois da resposta, 1 linha com UTM.
+- IG: máx. 5 por post/Reels (Tecnoblog 18/12/2025; envox.com.br 2026 repete "cinco por publicação"; stories 2). TikTok: 3-5, 1 de nicho de 50-500 mil vídeos + 2-3 temáticas, evitar #fyp/#viral (go-viral.app/pt/blog/estrategia-hashtags-tiktok). FB: sem recomendação oficial achada; manter 0-3. Conjuntos por tema e 3 modelos por rede: config/estrategia_social.yaml. Sem fonte aberta com números de páginas pet BR (buscas só trouxeram guias genéricos e rankings de influenciadores).
+## 5. Interação e isca digital — ESTADO (verificado, não criação)
+- Criado (20-21/10): lista Brevo "7 Erros - Isca" + form "Guia 7 Erros"; PDF landing/7-erros.pdf existe no repo sozinho-em-casa-app (commit b65a121); ManyChat tutorialpetbr com IG+TikTok+Messenger (05 Decisões 21/10 16:00).
+- (i) Página captura/guia.html NÃO está publicada: o LEIA-ME da captura (20/10) diz que não foi copiada para landing/ e landing/ hoje não lista guia.html. Link do PDF ao vivo: não conferi (WebFetch negado). Como a isca foi descartada, não publicar.
+- (ii) ManyChat GUIA: da nuvem não leio. Última evidência (05 Decisões 21/10): suspensa, ligada a 1 post, 0 execuções. Texto da DM e preço: sem dado. Achei R$ 9,90 velho em config/produtos_landing/sozinho-em-casa.yaml (descricao e preco_por) -> E22.
+- (iii) Brevo: LEIA-ME 20/10 e 05 Decisões: sem e-mail transacional ativo; o PDF sai por redirecionamento. Sem prova de mudança hoje.
+- Pendência real: agenda da série "7 erros" x isca descartada (decisão 1). Nova isca: E19, entrega 22/10 do Diretor de Audiência.
+- Comentários de terceiros: 2 em 76 posts FB, ~1 em 53 IG, 2 no TikTok. 5 perguntas por tema no YAML; para o lote de hoje priorizar numéricas e de 1 palavra ("Quantas horas o seu fica sozinho?", "Gato ou cachorro?").
 ## 6. Painel mínimo (meta 2 semanas = sem2 do YAML; hipóteses)
-- FB: views mediana 350; tempo ≥40% da duração; comentários de terceiros ≥1/sem; seguidores +1/dia. IG: alcance mediana 80; skip ≤55%; salvos+shares ≥1/sem. TikTok: views mediana 400; tempo ≥50% (meme ≥4 s); shares ≥1 a cada 2 posts; seguidores +2/dia.
-- Trocar horário, gancho ou CTA: 2+ posts do mesmo formato em 3 dias acima do gatilho; leitura em 24 h. Leituras da campanha: 22/10, 24/10, 27/10, 03/11, 04/11.
-## 7. Decisões do Allan (máx. 3)
-1. Trocar "link no perfil" nos 3 TikToks agendados (ids no plano; o de 20/10 20:20 já está no ar). Recomendo sim: quebra a regra de CTA, sem prova de link no perfil; só o Claude da sessão mexe em agendado. Sugiro também repor a fila TikTok (só 4).
-2. Autorizar ManyChat grátis no IG para a isca "Comente GUIA" (exige seu login). Recomendo sim: sem isso a isca agendada vira promessa quebrada.
-3. Foto de perfil no Instagram (0 seguidores). Recomendo sim hoje: grátis e prova de perfil real.
+- FB: views mediana 350; tempo >=40% da duração; comentários de terceiros >=1/sem; seguidores +1/dia. IG: alcance mediana 80; skip <=55%; salvos+shares >=1/sem. TikTok: views mediana 400; tempo >=50% (meme >=4 s); shares >=1 a cada 2 posts; seguidores +2/dia.
+- Trocar horário, gancho ou CTA: 2+ posts do mesmo formato em 3 dias acima do gatilho; leitura em 24 h. Próximas leituras: 22/10, 24/10, 27/10, 03/11, 04/11.
+## 7. Decisão do Allan (1, real)
+1. Série "7 erros" agendada (8 pares FB+IG, 21-23/10+): manter os cartões e trocar só o último ("Comente GUIA", ids 6ad7ad34be90a3a9459824fe IG e 6ad7ad32429cabfd5305b7e7 FB) por CTA do artigo, ou cancelar a série. Recomendo trocar só o último: o resto é conteúdo útil e vira série com "siga para o próximo", e a promessa do guia gratuito não tem automação ativa. Quem executa é o Claude da sessão.
 ## 8. Sem dado
-Voz/cena/tema por post (manifest sem esses campos), % assistido FB (API não entrega), seguidores TikTok via Buffer, horários exatos dos 32 agendados Zernio, vendas Sozinho em Casa, regra oficial do TikTok em fonte primária.
+Voz/cena/tema por post (manifest), % assistido FB (API não entrega), seguidores TikTok via Buffer, estado vivo do ManyChat/Brevo, PDF ao vivo, vendas Sozinho em Casa, comentários de terceiros exatos.
