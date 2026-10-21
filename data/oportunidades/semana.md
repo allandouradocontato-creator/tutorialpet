@@ -1,0 +1,15 @@
+Dados até 2026-10-21 12:41 (Fortaleza) — rodada 1; Shopee: sem chave de API (SHOPEE_APP_ID/SHOPEE_SECRET), pendência do Allan (sem arquivo em data/ofertas).
+Nota = renda+prova+encaixe+esforço(3=fácil)+risco(3=seguro), máx 15. Fontes são secundárias; confirmar na oficial antes de cadastrar.
+| # | Oportunidade | Tipo | Renda potencial | Prova | Encaixe | Risco | Nota | Próximo passo grátis |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Brain Training for Dogs (curso EUA, ClickBank): afiliar e replicar a lógica | A/C | 75% de ~US$47 (~US$35/venda), cookie 60d ([UpPromote](https://uppromote.com/affiliate-program-directory/brain-training-for-dogs), [Diggity](https://diggitymarketing.com/best-affiliate-programs/dog/), sem data) | maior comissão da lista dos 10 programas de cão; sem dado de vendas | 2: cão entediado/sozinho, mastigar, latir | 2: produto em inglês; promessa de comportamento | 11 | Allan decide se vale ClickBank; sem isso, replicar: pacote "21 jogos mentais" dentro do Sozinho em Casa |
+| 2 | Parceiro Magalu (físicos, aceita CNPJ ou CPF, aprovação costuma ser imediata) | B | comissão por categoria só aparece no painel (pet não confirmada) | grande varejo; sem dado | 2: caminha, comedouro, arranhador | 3 | 11 | Allan cadastra com o CNPJ; ver a taxa de pet no painel ([DivulgaNinja, 23/07/2026](https://www.divulganinja.com.br/blog/como-se-cadastrar-parceiro-magalu-2026)) |
+| 3 | Cobasi via Awin (8,5%, cookie 1 dia, pessoa física proibida) | B | 8,5% CPA, taxa operacional 25% da comissão; cookie curto | rede ativa desde 02/2024 ([Awin](https://ui.awin.com/merchant-profile/17870)) | 3: tapete, ração, caminha | 2: página se contradiz sobre pessoa física; tags precisam de aprovação | 10 | Allan confere na Awin se o CNPJ Dourado Falcão é aceito |
+| 4 | D) Isca digital + afiliado dentro do artigo antes do AdSense | D | RPM de US$10-20 é de fonte americana sem prova ([Lasso, 17/07/2026](https://getlasso.co/how-to-monetize-a-pet-blog/)); não vale para o Brasil | só fonte de venda de ferramenta | 3: já temos artigos e o produto próprio | 2 | 9 | Pôr 1 checklist grátis "cão sozinho" no artigo mais lido com link para o Sozinho em Casa |
+| 5 | Cursos de adestramento no Hotmart (ex.: Meu Cachorro Educado, Escola Pra Cachorro) | A | comissão e preço não aparecem na página pública | 1 avaliação (5,0) em um deles ([Hotmart](https://hotmart.com/pt-br/marketplace/produtos/adestramento-canino-completo-escola-pra-cachorro/G30492820O)) | 2 | 2: promessa de adestramento; regras do afiliado | 8 | Allan abre o marketplace logado e vê comissão/ranking dos 3 melhores |
+
+Descartadas e por quê:
+- Mercado Livre Afiliados: exige CPF e perfil aprovado, não CNPJ; taxa de pet não achada ([Hostinger, atualizado 18/12/2025](https://www.hostinger.com/br/tutoriais/?p=50009)).
+- Amazon Associados: pet 3-4% ou 8% (fonte se contradiz), cookie 24 h; confirmar na página oficial antes de reavaliar.
+- Petlove: página de afiliados não abriu; sem dado confirmado.
+- Kiwify/Eduzz/Monetizze: busca não achou produto pet com prova; ficam para próxima semana.
