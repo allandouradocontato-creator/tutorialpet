@@ -12,3 +12,6 @@ Consulta: 2026-10-15
 3. Cheque o programa estadual (ex. CE: ver mapa, a validar).
 
 Confirme no órgão do seu município/estado; as regras mudam. Este conteúdo não substitui orientação de advogado ou do órgão competente.
+
+## Conferência 2026-10-21
+- Texto da Lei 13.426/2017 lido em https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13426.htm: art. 1 esterilização permanente; art. 2 programa considera áreas prioritárias, número de animais por área e prioridade a comunidades de baixa renda; art. 3 campanhas educativas; arts. 4 e 5 vetados. A lei NÃO diz "castração gratuita": não afirmar gratuidade com base nela, só nos programas oficiais de cada local.
