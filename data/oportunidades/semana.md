@@ -1,4 +1,4 @@
-Dados até 2026-10-21 12:41 (Fortaleza) — rodada 1; Shopee: sem chave de API (SHOPEE_APP_ID/SHOPEE_SECRET), pendência do Allan (sem arquivo em data/ofertas).
+Dados até 2026-10-21 12:50 (Fortaleza) — rodada 1 + catch-up da rodada 19/10; Shopee: sem chave de API (SHOPEE_APP_ID/SHOPEE_SECRET), pendência do Allan (sem arquivo em data/ofertas).
 Nota = renda+prova+encaixe+esforço(3=fácil)+risco(3=seguro), máx 15. Fontes são secundárias; confirmar na oficial antes de cadastrar.
 | # | Oportunidade | Tipo | Renda potencial | Prova | Encaixe | Risco | Nota | Próximo passo grátis |
 |---|---|---|---|---|---|---|---|---|
@@ -7,9 +7,10 @@ Nota = renda+prova+encaixe+esforço(3=fácil)+risco(3=seguro), máx 15. Fontes s
 | 3 | Cobasi via Awin (8,5%, cookie 1 dia, pessoa física proibida) | B | 8,5% CPA, taxa operacional 25% da comissão; cookie curto | rede ativa desde 02/2024 ([Awin](https://ui.awin.com/merchant-profile/17870)) | 3: tapete, ração, caminha | 2: página se contradiz sobre pessoa física; tags precisam de aprovação | 10 | Allan confere na Awin se o CNPJ Dourado Falcão é aceito |
 | 4 | D) Isca digital + afiliado dentro do artigo antes do AdSense | D | RPM de US$10-20 é de fonte americana sem prova ([Lasso, 17/07/2026](https://getlasso.co/how-to-monetize-a-pet-blog/)); não vale para o Brasil | só fonte de venda de ferramenta | 3: já temos artigos e o produto próprio | 2 | 9 | Pôr 1 checklist grátis "cão sozinho" no artigo mais lido com link para o Sozinho em Casa |
 | 5 | Cursos de adestramento no Hotmart (ex.: Meu Cachorro Educado, Escola Pra Cachorro) | A | comissão e preço não aparecem na página pública | 1 avaliação (5,0) em um deles ([Hotmart](https://hotmart.com/pt-br/marketplace/produtos/adestramento-canino-completo-escola-pra-cachorro/G30492820O)) | 2 | 2: promessa de adestramento; regras do afiliado | 8 | Allan abre o marketplace logado e vê comissão/ranking dos 3 melhores |
+| 6 | Negócio espanhol de ansiedade de separação (cursos gravados + aconselhamento, SEO + YouTube, 9 anos) à venda | C | lucro declarado ~€2.284/mês com só ~6,1 mil visitas/mês; autodeclarado ([Flippa](https://flippa.com/11915131-profitable-online-dog-training-business-focused-on-separation-anxiety-with-digital-courses-strong-brand-and-global-spanish-speaking-audience)) | anúncio de venda, números não verificados e se contradizem (margem 58% x 84%) | 3: é o nosso tema cão sozinho | 2: copiar só a lógica, nunca o conteúdo | 10 | Replicar a lógica no Sozinho em Casa: curso gravado curto + trilha paga de acompanhamento; localizar de ES para pt-BR |
 
 Descartadas e por quê:
 - Mercado Livre Afiliados: exige CPF e perfil aprovado, não CNPJ; taxa de pet não achada ([Hostinger, atualizado 18/12/2025](https://www.hostinger.com/br/tutoriais/?p=50009)).
-- Amazon Associados: pet 3-4% ou 8% (fonte se contradiz), cookie 24 h; confirmar na página oficial antes de reavaliar.
+- Amazon Associados: pet 3-4% ou 8% (fontes se contradizem; 2ª fonte de 03/08/2026 não traz taxa de pet); cookie 24 h (até 90 dias se for ao carrinho); confirmar na página oficial.
 - Petlove: página de afiliados não abriu; sem dado confirmado.
-- Kiwify/Eduzz/Monetizze: busca não achou produto pet com prova; ficam para próxima semana.
+- Kiwify/Eduzz/Monetizze: 2 buscas, nenhum produto pet com prova pública; só guias gerais. Seguem para a rodada de segunda 26/10.
