@@ -1,0 +1,5 @@
+[
+  {"id": "sozinho-em-casa", "nome": "Sozinho em Casa", "nicho": "pet", "formato": "e-book + app", "status": "no ar", "preco_atual": 9.90, "link": "https://sozinho-em-casa.streamlit.app"},
+  {"id": "prancheta-tatica", "nome": "Prancheta Tática da Família", "nicho": "futebol/entretenimento", "formato": "e-book", "status": "pronto, sem execução técnica", "preco_atual": 37.00, "link": ""},
+  {"id": "comunicacao-transcendental", "nome": "Comunicação Transcendental", "nicho": "desenvolvimento pessoal", "formato": "livro + manual + app assinatura", "status": "em escrita", "preco_atual": null, "link": ""}
+]
