@@ -45,3 +45,6 @@ Ainda falta (próxima rodada): confirmar que as 5 rotinas religadas terminaram s
 
 ## Teste de resultado das skills (criado 21/10 tarde)
 Baseline em data/testes/baseline_2026-10-21.md (T1-T9, janela 72 h). Rotina "Medidor de Testes de Audiência Tutorial Pet" (trig_01T84gNiDZh5LQVN8AjzPJfb), diária 21:11, 1ª medição 21/10 21:11, grava data/testes/medicao_AAAA-MM-DD.md; veredito FINAL sexta 24/10 21:11 em data/testes/veredito_final_2026-10-24.md. PERDEU vira linha E.. em execucao.md no mesmo dia. T8 base lida no Chrome: 0 vendas, 0 DMs GUIA, 0 contatos na lista de isca. Regra nova: antes de dizer "sem Chrome/PC", 1 chamada list_connected_browsers (verificar_antes_de_pedir.md; 07 Erros e lições).
+
+## Departamentos com diretor (21/10 16:10)
+Estrutura em config/prompts/departamentos.md. Diretores (rotinas na nuvem): Audiência 09:17 diário; Produto e Receita ter/sex 12:31; Conteúdo e Blog seg/qui 11:37; Operação 21:41 diário. Fichas em data/departamentos/fichas/. ManyChat: conta única tutorialpetbr (fb5804905) com IG + TikTok + Facebook; a conta nova fb1251330151406637 ficou vazia, não usar. Textos do Messenger = rascunho aguardando o Diretor de Audiência.
