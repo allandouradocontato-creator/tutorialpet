@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como evitar a obesidade em gatos castrados de apartamento: guia prático",
+    "description": "Como evitar a obesidade em gatos castrados de apartamento: guia prático. Manter o peso ideal de um gato castrado que vive em apartamento exige atenção...",
+    "datePublished": "2026-10-19",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Como saber se meu gato de apartamento está obeso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "**R:** Você deve conseguir palpar as costelas dele com leve pressão sem precisar afundar os dedos, e observar uma cintura nítida quando visto de cima. Na dúvida, o médico-veterinário pode fazer a avaliação exata na consulta de rotina.  * **Posso dar comida caseira para ajudar na dieta dele?**   **R:** Alimentos caseiros sem orientação profissional podem desbalancear os nutrientes e acelerar o ganho de peso. Qualquer mudança na dieta deve ser alinhada com o médico-veterinário.  * **Meu gato mia o dia todo pedindo comida, o que fazer?**   **R:** Esse comportamento costuma ser ansiedade ou tédio. Tente redirecionar a atenção dele com brincadeiras ou use comedouros interativos que façam o gato trabalhar para conseguir cada grão."
+        }
+      }
+    ]
+  }
+}

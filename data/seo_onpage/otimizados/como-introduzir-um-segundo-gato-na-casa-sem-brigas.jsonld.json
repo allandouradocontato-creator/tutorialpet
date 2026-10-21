@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como introduzir um segundo gato na casa sem brigas: guia prático",
+    "description": "Descubra como introduzir um segundo gato na casa sem brigas com um passo a passo simples de troca de cheiros, paciência e adaptação segura.",
+    "datePublished": "2026-10-20",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-introduzir-um-segundo-gato-na-casa-sem-brigas",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-introduzir-um-segundo-gato-na-casa-sem-brigas"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-introduzir-um-segundo-gato-na-casa-sem-brigas.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto tempo costuma demorar a adaptação completa entre dois gatos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, o processo leva de duas a quatro semanas, mas gatos mais tímidos ou idosos podem precisar de alguns meses. Respeitar o ritmo individual é a garantia de um resultado duradouro."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É normal os gatos bufarem nos primeiros encontros?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. O bufo e o rosnado baixo são recursos de comunicação que dizem \"mantenha sua distância\". Contanto que não haja perseguição agressiva ou ataque físico, faz parte do ajuste normal de limites."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar os dois sozinhos juntos logo na primeira semana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendável. Mantenha os gatos em ambientes separados sempre que você não estiver por perto para supervisionar até ter certeza absoluta de que eles interagem com tranquilidade e relaxamento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantas caixas de areia preciso ter em casa agora?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A regra de ouro do bem-estar felino costuma indicar o número de gatos mais uma caixa extra. Para dois gatos, o ideal é disponibilizar três caixas de areia espalhadas em locais diferentes da casa."
+        }
+      }
+    ]
+  }
+}

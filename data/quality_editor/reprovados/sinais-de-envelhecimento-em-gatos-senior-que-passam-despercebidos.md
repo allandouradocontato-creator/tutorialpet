@@ -17,7 +17,7 @@ voz: estruturada_formal
 coluna: Manual do Tutor
 assinatura: Equipe Tutorial Pet
 revisado_por_agente_04: true
-revisado_em: '2026-10-20T15:18:13+00:00'
+revisado_em: '2026-10-21T11:01:16+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: bloqueante

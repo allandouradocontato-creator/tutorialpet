@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escovar pelo de gato que nao gosta de escova: guia prático",
+    "description": "Aprenda como escovar pelo de gato que nao gosta de escova com um passo a passo simples e prático para aplicar hoje mesmo sem estresse.",
+    "datePublished": "2026-10-19",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escovar-pelo-de-gato-que-nao-gosta-de-escova",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escovar-pelo-de-gato-que-nao-gosta-de-escova"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que fazer se o gato morder assim que encosto a escova?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pare imediatamente, ignore o animal por alguns minutos e tente novamente mais tarde com uma ferramenta mais suave, confirmando com o médico-veterinário se há dor ou sensibilidade na pele.  - **Posso usar escova de cabelo humana no gato?**   Evite. Escovas humanas costumam acumular estática e não penetram corretamente no subpelo, além de poderem machucar a pele sensível do felino.  - **Com que frequência devo tentar escovar um gato arisco?**   Em média, costuma ser ideal fazer sessões diárias curtíssimas de poucos segundos, aumentando o tempo conforme ele aceitar melhor a rotina.  - **Vale a pena usar spray desembaraçador?**   Apenas se for formulado especificamente para felinos e aprovado pelo médico-veterinário do pet, para evitar que o cheiro forte estresse ainda mais o animal."
+        }
+      }
+    ]
+  }
+}
