@@ -1,7 +1,7 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 12
-atualizado_em: "2026-10-21 07:00"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
+versao: 13
+atualizado_em: "2026-10-21 07:20"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
 status_publicacao:
   alerta: "Sem erros em 16/10. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
   teste_horarios_ab: "ENCERRADO como fator de decisao em 16/10 (8 posts por rede sem sinal; mesmo video de 40-55s nos 3 slots). Horarios congelados; o fator agora e formato/abertura."
@@ -15,7 +15,7 @@ horarios:
   dias: [seg, ter, qua, qui, sex, sab, dom]
   base: "Nossos dados (n pequeno, parciais): FB 10h ~210, 19h ~240; IG 11h 55-67, 20h 39-101. Zernio best_time inconclusivo. Benchmark Metricool PT jul/2026: FB 10-14h; IG/TikTok pico 18-21h."
 hashtags:
-  quantidade: {instagram: "3-5", tiktok: "3-5", facebook: "0-3 (cortar de 5 para 3)"}   # Metricool, 29/06/2026, metricool.com/how-many-hashtags-to-use
+  quantidade: {instagram: "3-5 (limite 5, nunca 6: Tecnoblog 18/12/2025)", tiktok: "3-5", facebook: "0-3 (cortar de 5 para 3)"}   # Metricool, 29/06/2026, metricool.com/how-many-hashtags-to-use
   estrutura: "1 de marca (#tutorialpet) + 1 do tema + 1-2 de nicho + 1 ampla (ampla so IG/TikTok); nunca #fyp #viral #explorar"
   gato: ["#gatos", "#cuidadoscomgatos", "#saudefelina", "#dicasdegato", "#tutorialpet"]
   cachorro: ["#cachorro", "#cachorros", "#cuidadospet", "#dicaspet", "#tutorialpet"]
@@ -139,3 +139,16 @@ rodada_2026_10_20_1707:   # data/social/estrategia_social.md (8a edicao)
     fb: {views_mediana: 350, tempo_medio_pct: 0.4, comentarios_terceiros_semana: 1, seguidores_dia: 1}
     ig: {alcance_mediana: 80, skip_max: 0.55, salvos_mais_shares_semana: 1}
     tiktok: {views_mediana: 400, tempo_medio_pct: 0.5, meme_tempo_medio_s: 4, shares_por_post: 0.5, seguidores_dia: 2}
+rodada_2026_10_21_0715:   # data/social/estrategia_social.md (9a edicao); plano: data/social/plano_de_mudanca_2026-10-21.md
+  gatilho: "disparou: FB tempo<6s 14/15; TikTok tempo<4s 7/9 e 2 shares em 9; IG skip>70% 5/9 explicadores (0/7 memes); medianas FB 220, IG 52, TikTok 193 abaixo da meta sem1"
+  horarios: {decisao: "manter grade; FB 12:00 confirmado para meme 8s (436 views, 5,1s em 20/10)", fb: ["08:30", "21:00", "12:00 so meme"], ig: ["08:40", "21:10"], tiktok: ["10:20", "20:20"], mesma_grade_todos_os_dias: true, fonte_publica: "SocialPilot 700 mil posts ate 10/12/2025, sem Brasil: TikTok ter/qua 8h 14-16h 20h; sex 8h 13-15h; sab 11h 15h 20h; dom 9-10h 16h"}
+  hashtags: {instagram_max: 5, fonte: "Tecnoblog 18/12/2025 (limite de 5 por post/Reels; texto ambiguo entre limite e recomendacao)", acao: "publicador nunca passa de 5 no IG (caso 6: racao cao x gato 20/10 18:03)"}
+  regras_novas:
+    fb_meme_8s: "GANHOU 2x seguidos no FB (mediana 264 contra 213 do explicador; 562, 436, 386, 317 views): meme 8s gato em 08:30, 12:00 e 21:00 recebe 50% da producao"
+    tiktok_meme_8s: "PERDEU (89 e 94 views, 2,4 e 1,7s; n=2): nao enfileirar mais meme 8s no TikTok; teste B encerrado"
+    pergunta_numerica: "hipotese: 'Seu cachorro aguenta quantas horas sozinho?' deu o melhor tempo medio nas 3 redes (TT 6,7s, IG 8,7s, FB 5,6s; 47s); testar a serie S4 'quantas horas' com a Duda emotiva"
+  testes_tiktok_3_dias:   # 6 posts, 10:20 e 20:20, so itens NAO agendados; leitura 24h
+    T1_duvida_numerica_sozinho: {duracao_s: "25-35", abertura: "pergunta de numero no segundo 0 (quantas horas sozinho)", voz: "Duda com emocao", aprova: "tempo medio >=6s e >=1 share ou comentario em 3 de 6"}
+    T2_gato_para_de: {duracao_s: "30-40", abertura: "'Para de ignorar...' no maximo 1 por semana, tema gato", referencia: "13/10 gato 747 views", aprova: "views >=400 e tempo >=3s"}
+    T3_voz_do_pet_15s: {duracao_s: "15-20", formato: "S1 Duda dubla o pensamento do pet", aprova: "tempo medio >=50% e >=1 share em 2 de 6"}
+  painel_metas_2_semanas: {fb: {views_mediana: 350, tempo_medio_pct: 0.4, comentarios_terceiros_semana: 1, seguidores_dia: 1}, ig: {alcance_mediana: 80, skip_max: 0.55, salvos_mais_shares_semana: 1}, tiktok: {views_mediana: 400, tempo_medio_pct: 0.5, meme_tempo_medio_s: 4, shares_por_post: 0.5, seguidores_dia: 2}}

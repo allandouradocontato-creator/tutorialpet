@@ -49,3 +49,24 @@
 
 Seguidores 20/10 17:08: FB 7 (+2 em 7 dias, Zernio), IG 0, TikTok 19 (conferido por Allan 12:30; Buffer nao informa).
 - 2026-10-20 21:50 (Fortaleza) seguidores @tutorialpetbr: TikTok 19, Instagram 0, Facebook 7 (último valor lido; página indisponível na leitura de agora).
+| 2092f5 | IN | 10-19 20:03 | explicador 36s | Com quantos meses o cachorro pode sair | CTA artigo | Duda padrão | n/d | cachorro | alcance 9, skip 77.8%, tempo 2.6s, 0 curt, 1 com, 0 comp | PERDEU |
+| 5a81e2 | FA | 10-19 21:02 | meme 8s | Já passou por essa auditoria hoje? htt | CTA artigo | Duda padrão | n/d | n/d | 264 views, tempo 3.8s, 0 curt, 0 com, 0 comp | NEUTRO |
+| f92b3c | IN | 10-19 21:11 | meme 8s | Já passou por essa auditoria hoje? #ga | CTA artigo | Duda padrão | n/d | n/d | alcance 107, skip 57.9%, tempo 3.5s, 4 curt, 0 com, 1 comp | NEUTRO |
+| 3ec663 | FA | 10-20 08:31 | meme 8s | Qual é a mania que só o seu faz? https | CTA artigo | Duda padrão | n/d | cachorro | 288 views, tempo 4.2s, 2 curt, 0 com, 0 comp | NEUTRO (parcial 23h) |
+| 1de7d4 | IN | 10-20 08:41 | meme 8s | Qual é a mania que só o seu faz? #cach | CTA artigo | Duda padrão | n/d | cachorro | alcance 110, skip 54.1%, tempo 4.6s, 2 curt, 0 com, 0 comp | GANHOU (parcial 22h) |
+| 3ec664 | FA | 10-20 10:05 | explicador 47s | Seu cachorro aguenta quantas horas soz | CTA artigo | Duda padrão | n/d | cachorro | 215 views, tempo 5.6s, 2 curt, 1 com, 0 comp | NEUTRO (parcial 21h) |
+| 30e93a | IN | 10-20 11:03 | explicador 47s | Seu cachorro aguenta quantas horas soz | CTA artigo | Duda padrão | n/d | cachorro | alcance 20, skip 50%, tempo 8.7s, 0 curt, 1 com, 0 comp | NEUTRO (parcial 20h) |
+| 20e94a | FA | 10-20 12:05 | meme 8s | Todo gato tem a sua hora do nada. Qual | CTA artigo | Duda padrão | n/d | gato | 436 views, tempo 5.1s, 8 curt, 0 com, 0 comp | GANHOU (parcial 19h) |
+| 89d816 | IN | 10-20 13:04 | meme 8s | Todo gato tem a sua hora do nada. Qual | CTA artigo | Duda padrão | n/d | gato | alcance 64, skip 35.4%, tempo 6.5s, 0 curt, 0 com, 0 comp | GANHOU (parcial 18h) |
+| 16f59c | FA | 10-20 14:05 | explicador 41s | Seu cachorro rouba a ração do seu gato | CTA artigo | Duda padrão | n/d | gato | 219 views, tempo 3.0s, 0 curt, 1 com, 0 comp | NEUTRO (parcial 17h) |
+| 0cfe13 | IN | 10-20 15:03 | explicador 41s | Seu cachorro rouba a ração do seu gato | CTA artigo | Duda padrão | n/d | gato | alcance 12, skip 35.7%, tempo 6.9s, 0 curt, 1 com, 0 comp | NEUTRO (parcial 16h) |
+| 82f40e | FA | 10-20 19:06 | explicador 50s | Seu gato te acorda de madrugada engasg | CTA artigo | Duda padrão | n/d | gato | 229 views, tempo 3.8s, 2 curt, 1 com, 0 comp | NEUTRO (parcial 12h) |
+| 6bbf5c | IN | 10-20 20:04 | explicador 50s | Seu gato te acorda de madrugada engasg | CTA artigo | Duda padrão | n/d | gato | alcance 49, skip 62%, tempo 6.4s, 1 curt, 1 com, 0 comp | NEUTRO (parcial 11h) |
+| 2c8f8b | FA | 10-20 21:05 | meme 8s | Seu gato trabalha em que regime? https | CTA artigo | Duda padrão | n/d | gato | 0 views, tempo 0.0s, 0 curt, 0 com, 0 comp | PERDEU (parcial 10h) |
+| 6bbf5d | IN | 10-20 21:12 | meme 8s | Seu gato trabalha em que regime? #gato | CTA artigo | Duda padrão | n/d | gato | alcance 65, skip 70%, tempo 2.8s, 2 curt, 0 com, 0 comp | NEUTRO (parcial 10h) |
+<!-- Rodada 21/10 07:40 (Fortaleza): linhas a partir de 19/10 20:00; voz = 'Duda padrão' (único dado do manifest: guardião 'voz da Duda no padrão'); cena/imagem n/d. Parcial = <24h. -->
+| 6ad51bda | TT | 10-20 10:20 | explicador 47s | Seu cachorro aguenta quantas horas sozinho? | CTA artigo | Duda padrão | n/d | cachorro | 170 views, tempo 6.7s, 5 curt, 0 com, 0 comp | NEUTRO (amostra excluída: sem emoção da Duda; mas melhor tempo do TikTok) |
+| 6ad232e1 | TT | 10-20 17:10 | meme 8s | Todo gato tem a sua hora do nada | CTA artigo | Duda padrão | n/d | gato | 94 views, tempo 1.7s, 0 curt, 0 com, 0 comp | PERDEU |
+| 6ad51bdb | TT | 10-20 20:20 | explicador 50s | Seu gato te acorda de madrugada... ("link no perfil") | CTA artigo | Duda padrão | n/d | gato | 196 views, tempo 2.1s, 27 curt, 1 com, 1 comp (parcial 10h) | NEUTRO |
+
+Seguidores 21/10 07:15: FB 8 (+3 em 7 dias; +1 hoje, Zernio), IG 0 (Zernio), TikTok 19 (último valor, Allan 20/10; Buffer não informa).
