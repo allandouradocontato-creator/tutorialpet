@@ -5,8 +5,18 @@ criado: 2026-10-21
 
 "Dev"/Jev = typesafe/jev-1.13 via OpenRouter. Regra do Allan: Jev decide, Claude/agente escreve; quando o Jev não tem certeza, quem decide é o agente (nunca parar e esperar o Allan por causa do Jev).
 
-## Quando usar
-Qualquer rotina na nuvem que precise ESCOLHER entre opções conhecidas, sem gasto de dinheiro nem login envolvido: priorizar 2 decisões do mesmo dia (Executor), classificar proposta como aprovar/testar/descartar (Triagem — já em uso), julgar se uma ideia é "liberada" ou "sensível" (Criador de Audiência pode adotar), julgar se um achado de oportunidade já foi visto antes (Caçadores).
+## POLÍTICA PADRÃO (Allan, 21/10/2026): é regra, não exceção
+"Tudo que precisa decidir, que ele [Jev] faça; que ele seja chamado para integrado." Ou seja: NÃO é um recurso usado só quando alguém lembrar — toda rotina que bate numa classificação/escolha simples e básica (não estratégica, não de dinheiro/login) CHAMA o Jev primeiro, por padrão, antes de decidir sozinha. O agente só decide por conta própria quando o Jev voltou com baixa confiança (portão abaixo) ou quando a pergunta exige julgamento complexo demais para uma chamada (aí o agente decide E registra por quê não usou o Jev).
+Jev é rápido e barato, não necessariamente o mais acertado — por isso o portão de confiança abaixo existe: pegar as decisões básicas/binárias com ele, deixar o julgamento fino para o agente.
+
+## Onde já está ligado (21/10/2026)
+- Executor de Decisões: prioridade entre 2 decisões do mesmo dia.
+- Triagem de Decisões (painel): aprovar/testar/fila/descartar cada proposta.
+- Criador de Audiência: classificar cada ideia como LIBERADA ou SENSÍVEL antes de produzir.
+- Caçador de Oportunidades de Renda (e demais caçadores): julgar se um achado já foi visto/decidido antes de entrar no relatório.
+
+## Quando usar (lista cresce; qualquer rotina nova com decisão básica deve adotar)
+Priorizar 2 decisões do mesmo dia, classificar proposta como aprovar/testar/descartar, julgar se uma ideia é "liberada" ou "sensível", julgar se um achado já foi visto antes, decidir qual de duas variações testar primeiro, classificar severidade de um erro/alerta (crítico x menor).
 
 ## Como chamar
 POST https://openrouter.ai/api/alpha/decisions, body `{"model":"typesafe/jev-1.13","state":<objeto curto em inglês>,"questions":{...}}`, SEM cabeçalho Authorization (o proxy da nuvem injeta a credencial automaticamente nesta sessão). Ver detalhes de tipos de pergunta (choice/score/noul) na skill jev-classify.
