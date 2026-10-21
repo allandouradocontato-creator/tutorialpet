@@ -171,7 +171,8 @@ temas:
   data: '2026-10-21'
 - termo: por que o gato morde do nada durante o carinho
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-21'
 - termo: como escolher cinto de seguranca pet para carro
   pilar: produtos_compras
   status: pendente
@@ -540,4 +541,13 @@ temas:
   status: pendente
 - termo: como fazer o cachorro parar de pular nas visitas
   pilar: comportamento
+  status: pendente
+- termo: como calcular a quantidade certa de ração por dia
+  pilar: alimentacao
+  status: pendente
+- termo: por que o gato mia alto na madrugada toda
+  pilar: comportamento
+  status: pendente
+- termo: como montar um cantinho de refeição para múltiplos pets
+  pilar: cuidados_diarios
   status: pendente

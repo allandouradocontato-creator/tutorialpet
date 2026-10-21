@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Por que gatos mordem durante o carinho",
+  "gancho_3s": "Seu gato morde de repente durante o carinho?",
+  "cenas": [
+    {
+      "narracao": "Seu gato morde de repente durante o carinho? Ele não faz isso por maldade.",
+      "visual_busca_banco_livre": "cat lying on sofa resting close up",
+      "texto_na_tela": "Mordida do nada?"
+    },
+    {
+      "narracao": "O toque contínuo gera sobrecarga sensorial na pele do felino, e ele sempre avisa antes de morder.",
+      "visual_busca_banco_livre": "cat twitching tail irritated close up",
+      "texto_na_tela": "Sobrecarga sensorial"
+    },
+    {
+      "narracao": "Fique atento à ponta da cauda batendo rápido e às orelhas virando para trás.",
+      "visual_busca_banco_livre": "cat ears turned back alert close up",
+      "texto_na_tela": "Sinais de incômodo"
+    },
+    {
+      "narracao": "E atenção: barriga para cima indica confiança no ambiente, nunca convite para carinho.",
+      "visual_busca_banco_livre": "cat lying on back showing belly on rug",
+      "texto_na_tela": "Barriga não é convite!"
+    },
+    {
+      "narracao": "Foque no queixo e bochechas. Aplique a regra dos três segundos: pare e espere ele pedir mais.",
+      "visual_busca_banco_livre": "cat rubbing face against wood furniture",
+      "texto_na_tela": "Regra dos 3 segundos"
+    },
+    {
+      "narracao": "Respeitar o espaço do animal evita estresse e mantém a convivência tranquila.",
+      "visual_busca_banco_livre": "cat sitting peacefully looking calm",
+      "texto_na_tela": "Respeite os limites"
+    }
+  ],
+  "chamada_final": "Salve este vídeo para não esquecer os sinais do seu gato!",
+  "hashtags": [
+    "comportamentofelino",
+    "gatos",
+    "felinos",
+    "dicaspet",
+    "cuidadoscomgatos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato morde de repente durante o carinho?\n\n📖 Artigo completo: https://tutorialpet.com.br/por-que-o-gato-morde-do-nada-durante-o-carinho\n\n#comportamentofelino #gatos #felinos #dicaspet #cuidadoscomgatos",
+  "slug": "por-que-o-gato-morde-do-nada-durante-o-carinho"
+}
