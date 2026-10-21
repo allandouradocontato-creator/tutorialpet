@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como Saber se o Cachorro Esta Acima do Peso",
+  "gancho_3s": "Aquele momento em que desconfiar do peso dele acontece de novo.",
+  "cenas": [
+    {
+      "narracao": "Aquele momento em que desconfiar do peso dele acontece de novo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Aquele momento em que desconfiar do peso dele acontece de novo."
+    },
+    {
+      "narracao": "[thoughtful] Quer saber se o seu cãozinho passou do peso? Dois testes simples em casa mostram a resposta.",
+      "visual_busca_banco_livre": "chubby dog standing on grass looking forward",
+      "texto_na_tela": "Peso ideal ou sobrepeso?"
+    },
+    {
+      "narracao": "Apalpe a lateral do peito: você precisa sentir as costelas com facilidade, sem uma camada grossa de gordura.",
+      "visual_busca_banco_livre": "dog standing chest close up profile",
+      "texto_na_tela": "Costelas fáceis de sentir"
+    },
+    {
+      "narracao": "Olhe o pet de cima: o corpinho deve ter cintura visível lembrando uma ampulheta, nunca um barril.",
+      "visual_busca_banco_livre": "dog standing high angle top down view",
+      "texto_na_tela": "Vista de cima: ampulheta"
+    },
+    {
+      "narracao": "Olhando de lado, a linha da barriga deve subir suavemente até a virilha, sem ficar caída.",
+      "visual_busca_banco_livre": "dog standing outdoors profile full body view",
+      "texto_na_tela": "Barriga recolhida de perfil"
+    },
+    {
+      "narracao": "[softly] Repare também se ele cansa rápido, arfa demais depois do passeio ou tem dificuldade para levantar.",
+      "visual_busca_banco_livre": "dog panting resting lying on grass",
+      "texto_na_tela": "Fôlego curto e cansaço"
+    },
+    {
+      "narracao": "[short pause] Se notou sobrepeso, nada de cortar a comida por conta própria: consulte o veterinário para um plano seguro.",
+      "visual_busca_banco_livre": "calm dog looking attentively bright eyes",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Sabia que a gente tem um blog recheado de conteúdos pra aprender e crescer junto com seu pet? É só acessar tutorialpet.com.br. [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#saudecanina",
+    "#cachorros",
+    "#pesodopet",
+    "#cuidadoscomcaes",
+    "#bemestaranimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro está acima do peso ideal?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-saber-se-o-cachorro-esta-acima-do-peso-ideal\n\n#saudecanina #cachorros #pesodopet #cuidadoscomcaes #bemestaranimal",
+  "slug": "como-saber-se-o-cachorro-esta-acima-do-peso-ideal",
+  "molde_gancho": "abertura_situacao",
+  "cta_indice": 3
+}

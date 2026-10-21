@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como Saber se o Cachorro Esta Acima do Peso",
+  "gancho_3s": "Seu cachorro está acima do peso ideal?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro está acima do peso ideal? Dois testes simples em casa revelam a resposta.",
+      "visual_busca_banco_livre": "chubby dog standing on grass looking forward",
+      "texto_na_tela": "Peso ideal ou sobrepeso?"
+    },
+    {
+      "narracao": "Ao apalpar a lateral do peito, as costelas devem ser sentidas com facilidade, sem uma almofada de gordura.",
+      "visual_busca_banco_livre": "dog standing chest close up profile",
+      "texto_na_tela": "Costelas fáceis de sentir"
+    },
+    {
+      "narracao": "Olhe de cima: a silhueta deve ter cintura visível e lembrar uma ampulheta, nunca um barril.",
+      "visual_busca_banco_livre": "dog standing high angle top down view",
+      "texto_na_tela": "Vista de cima: ampulheta"
+    },
+    {
+      "narracao": "De perfil, a linha do abdômen precisa subir suavemente em direção à virilha, sem ficar caída.",
+      "visual_busca_banco_livre": "dog standing outdoors profile full body view",
+      "texto_na_tela": "Barriga recolhida de perfil"
+    },
+    {
+      "narracao": "Fique atento se ele cansa rápido, arfa por muito tempo após passeios ou custa a levantar.",
+      "visual_busca_banco_livre": "dog panting resting lying on grass",
+      "texto_na_tela": "Fôlego curto e cansaço"
+    },
+    {
+      "narracao": "Notou sobrepeso? Evite cortes drásticos de comida e consulte o médico-veterinário para um plano seguro.",
+      "visual_busca_banco_livre": "calm dog looking attentively bright eyes",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "Salve este guia para avaliar a condição física do seu pet hoje mesmo!",
+  "hashtags": [
+    "#saudecanina",
+    "#cachorros",
+    "#pesodopet",
+    "#cuidadoscomcaes",
+    "#bemestaranimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro está acima do peso ideal?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-saber-se-o-cachorro-esta-acima-do-peso-ideal\n\n#saudecanina #cachorros #pesodopet #cuidadoscomcaes #bemestaranimal",
+  "slug": "como-saber-se-o-cachorro-esta-acima-do-peso-ideal"
+}

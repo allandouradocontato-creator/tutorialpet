@@ -167,7 +167,8 @@ temas:
   data: '2026-10-20'
 - termo: como saber se o cachorro esta acima do peso ideal
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-21'
 - termo: por que o gato morde do nada durante o carinho
   pilar: comportamento
   status: pendente
@@ -488,4 +489,10 @@ temas:
   status: pendente
 - termo: como escolher comedouro interativo seguro para caes e gatos
   pilar: produtos_compras
+  status: pendente
+- termo: ideias de recheio saudavel para congelar no kong
+  pilar: alimentacao
+  status: pendente
+- termo: como gastar energia de gato agitado a noite
+  pilar: comportamento
   status: pendente
