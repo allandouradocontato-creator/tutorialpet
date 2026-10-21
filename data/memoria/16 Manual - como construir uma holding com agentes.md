@@ -65,3 +65,6 @@ Ideia → nicho e referência viral → fábrica mínima → 7 dias de teste →
 
 ## Pendência de enriquecimento
 Toda sexta o Auditor acrescenta ao capítulo certo: erro novo, ferramenta testada (grátis/paga), limite descoberto e decisão do dono.
+
+## Capítulo: regras de ouro e retomada barata (21/10/2026)
+Método: manter UMA cartilha curta (biblioteca/regras_de_ouro.md, ~600 palavras) e um CLAUDE.md na raiz do repositório que manda lê-la, mais o resumo de retomada (nota 17). Assim toda sessão ou rotina começa com as mesmas regras sem reler dezenas de notas (custo baixo). Todo erro novo entra em 3 lugares no mesmo dia: 07 Erros e lições (detalhe), cartilha (1 linha, se virar regra) e esta apostila/manual (lição geral). Estrutura de decisão: departamentos com um diretor cada; os especialistas opinam e o diretor fecha a ficha, evitando relatórios soltos sem decisão.
