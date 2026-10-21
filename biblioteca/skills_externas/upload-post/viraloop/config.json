@@ -1,0 +1,13 @@
+{
+  "language": "es",
+  "defaultUrl": "https://upload-post.com",
+  "uploadPost": {
+    "profile": "YOUR_UPLOAD_POST_PROFILE",
+    "platforms": [
+      "tiktok",
+      "instagram"
+    ]
+  },
+  "imageFormat": "vertical",
+  "notes": "Set uploadPost.profile to your own Upload-Post profile name before running."
+}
