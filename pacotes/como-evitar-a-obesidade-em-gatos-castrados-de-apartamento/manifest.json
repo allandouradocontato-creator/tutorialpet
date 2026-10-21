@@ -1,6 +1,6 @@
 {
   "slug": "como-evitar-a-obesidade-em-gatos-castrados-de-apartamento",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-19T19:07:48+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento",
   "guardiao": {
@@ -18,5 +18,23 @@
     ],
     "em": "2026-10-19T19:08:31+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-21T08:30-03:00",
+  "agendamento": {
+    "facebook": {
+      "id": "6ad8a16dd2e5e717e79228e2",
+      "agendar_para": "2026-10-22T20:30-03:00",
+      "agendador": "zernio"
+    },
+    "instagram": {
+      "id": "6ad8a170d8d53668752a8bbd",
+      "agendar_para": "2026-10-22T20:00-03:00",
+      "agendador": "zernio"
+    },
+    "tiktok": {
+      "id": "6ad8a1763021c1ef52b281bb",
+      "agendar_para": "2026-10-23T10:20-03:00",
+      "agendador": "buffer"
+    }
+  }
 }
