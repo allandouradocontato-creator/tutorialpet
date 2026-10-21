@@ -48,3 +48,4 @@
 | af647c | TT | 10-19 20:20 | explicador 36s | Com quantos meses o cachorro pode sair | CTA artigo ('link no perfil' se constar) | n/d | n/d | cachorro | 90 views, tempo 1.7s, 3 curt, 0 com, 0 comp | PERDEU |
 
 Seguidores 20/10 17:08: FB 7 (+2 em 7 dias, Zernio), IG 0, TikTok 19 (conferido por Allan 12:30; Buffer nao informa).
+- 2026-10-20 21:50 (Fortaleza) seguidores @tutorialpetbr: TikTok 19, Instagram 0, Facebook 7 (último valor lido; página indisponível na leitura de agora).
