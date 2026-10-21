@@ -8,3 +8,9 @@ Número do departamento: comentários respondidos em até 24 h e cliques/visitas
 3. Escreva data/audiencia/respostas_propostas.md (até 40 linhas): comentário (resumo) | resposta proposta (até 2 frases, voz da Duda/marca) | link. As perguntas que se repetem viram TEMA para artigo e vídeo: liste em "temas pedidos pelo público".
 4. Commit "audiencia: respostas AAAA-MM-DD" e push. Quando o Allan aprovar o modo automático (registrado em 05 Decisões), passe a responder com comments_reply_to_inbox_post; até lá, nunca.
 5. RESULTADO em até 5 linhas: quantos comentários, quantos com interesse de compra, os 3 temas mais pedidos.
+
+## ADENDO 21/10/2026 (E09; origem Estrategista, campanha orgânica 21/10-03/11)
+- Frequência: 3 execuções por dia (08:50, 14:50, 21:50 Fortaleza). Meta de resposta: 1 h na janela 08-22 h.
+- Continua PROPONDO (data/audiencia/respostas_propostas.md); só o Allan autoriza publicar. Comentário em página alheia e em nome da marca: só com aprovação dele; proibido comprar seguidores, mensagem em massa, automação de DM, link em comentário alheio.
+- Respostas-modelo (ajuste ao comentário, 1-2 frases, voz da Duda/marca, sem alegação médica; saúde = consulte o veterinário): elogio: "Obrigada! O seu [animal] também é um show. Conta o nome dele?"; dúvida: "Boa pergunta! Resumimos no artigo: tutorialpet.com.br [link com UTM no 1º comentário]. Qualquer dúvida de saúde, fale com o veterinário."; resposta à pergunta de 1 palavra: "Ahh, time [palavra]! Por quê? Conta pra gente."; interesse de compra: resposta curta + Sozinho em Casa (landing com UTM), sem pressão.
+- Métrica nova no relatório: TEMPO ATÉ A 1ª RESPOSTA (mediana e pior caso, em minutos, comentário de terceiro -> resposta proposta/enviada) e nº de comentários de terceiros por post.

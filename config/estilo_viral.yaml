@@ -17,7 +17,7 @@
 # Achados do estudo 5: (9) @norcianic (863 seguidores!) fez 718k views em 8s com 9,2% shares/views e 17,9% curtidas/views: filhote de dachshund crescendo em time-lapse, legenda com CTA de curtir,
 # trilha instrumental lenta (piano valsa) -> prova de que ritmo visual rápido (transformação em 8s) + trilha calma e curta funciona; replicar: 8s, uma transformação visível, texto/legenda curta com CTA.
 # (10) a tag #cachorrofofo continua com a mesma "moda": filhote/cão em close, 7-15s, som original ou piano/instrumental, ganchos 'Atenção: nível de fofura', 'Já manda pro seu papai'.
-versao: 6
+versao: 7
 atualizado_em: "2026-10-15"
 criterios:
   nicho: "pets (cães e gatos); cuidado, comportamento, rotina e fofura saudável. Fora: animal doente, abrigo, doação, resgate, pessoas em destaque"
@@ -88,3 +88,8 @@ regras_mudanca_16_10:   # aplicado pelo Executor (E01), fonte data/social/plano_
   abertura_para_de: "iniciar com 'Para de...' no máximo 1 vez por semana"
   abertura_banida: "'Esse erro tá silenciosamente...' (1,9-2,4 s de tempo médio no TikTok)"
   fator_de_decisao: "retenção (tempo médio como % da duração; skip rate IG) lida em 24-48 h; views absolutos só apoio"
+proporcao_formato_21_10:   # E01 (Estrategista, autorização permanente do Allan 16/10/2026), fonte data/social/plano_de_mudanca_2026-10-20.md
+  meme_8_12s: "2 de cada 3 vídeos novos"
+  explicador_longo_37_55s: "no máximo 1 de cada 3 (vale também para o roteiro)"
+  acao_final_unica: "meme: comentar 1 palavra; erro de 8s: salvar; voz do pet: compartilhar; dúvida: comentar um número"
+  abertura_tiktok: "nunca 'link no perfil' / 'link na bio' na legenda"

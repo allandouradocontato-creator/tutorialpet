@@ -50,3 +50,8 @@ Resultado ao Allan: até 6 linhas (o que perdeu, o que entrou no lugar, o que ga
 
 ## 7. PRIORIDADE DE REDES (Allan, 20/10/2026 12:29): TikTok e Facebook são as duas redes onde a holding vai investir mais. Produção, testes, guerrilha de comunidade e (no futuro, só com autorização) anúncios priorizam TikTok e Facebook; o Instagram segue em manutenção e teste de formato. Foco geográfico da campanha: SP, depois RJ, MG e RS (Ceará só para colaboração local).
 - Correção da linha de base (conferida no perfil em 20/10 12:30 pelo Claude no Chrome do Allan): TikTok 19 seguidores (7 seguindo, 406 curtidas; foto de marca e bio com link da landing já configuradas), Facebook 7 (seguindo 49; foto de filhote, capa de cães e descrição prontas), Instagram 0 (46 posts, bio nova em 20/10; falta foto).
+
+## 8. MEDIÇÃO DA CAMPANHA ORGÂNICA 21/10-03/11 (E10; origem Estrategista, rodada extra 20/10)
+- O Estrategista diário lê as metas da seção (e) de data/social/campanha_organica_2026-10-20.md e config/estrategia_social.yaml (bloco campanha_organica.metas_semanais).
+- A amostra de formato EXCLUI os 4 TikToks sem emoção da Duda (filhote-morder, sache-gato, sair-na-rua, ficar-sozinho): não contam como prova de formato.
+- Leituras registradas em data/social/laboratorio.md em 22/10, 24/10, 27/10 e 03/11; veredito sobre liberar teste de anúncio em 04/11 (decide e paga o Allan; nenhum anúncio antes).

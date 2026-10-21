@@ -141,13 +141,17 @@ def legenda_tiktok(pkg: Path) -> str:
     gancho = re.sub(r"\[[^\]]*\]", "", r.get("gancho_3s", "")).strip()
     bruto = [("#" + t.lstrip("#")) for t in r.get("hashtags", [])]
     tags = [t for t in bruto if t.lower() not in ("#tutorialpet", "#pets", "#pet")][:3] or bruto[:3]
-    return f"{gancho} {CTA_ARTIGO} (link no perfil). " + " ".join(tags + ["#tutorialpet"])
+    return f"{gancho} {CTA_ARTIGO}. " + " ".join(tags + ["#tutorialpet"])  # E03 21/10/2026: sem "link no perfil"
 
 
 def montar_pedido(pkg: Path, slug: str, repo: str, dia: str, turno: str) -> dict:
     legenda_completa = (pkg / "legenda.txt").read_text(encoding="utf-8").strip()
     legenda, primeiro_comentario = separar_links(legenda_completa)
     r = json.loads((pkg / "roteiro.json").read_text(encoding="utf-8")) if (pkg / "roteiro.json").exists() else {}
+    # E08 21/10/2026: 1o comentario FB/IG = pergunta de 1 palavra + artigo com UTM (se o roteiro trouxer a pergunta)
+    pergunta = (r.get("pergunta_uma_palavra") or "").strip().rstrip("?")
+    if pergunta and primeiro_comentario and not primeiro_comentario.startswith(pergunta):
+        primeiro_comentario = f"{pergunta}?\n" + primeiro_comentario
     titulo = r.get("titulo_video") or slug.replace("-", " ").capitalize()
     posts = []
     for rede in REDES:

@@ -1,7 +1,7 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 11
-atualizado_em: "2026-10-20 17:08"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
+versao: 12
+atualizado_em: "2026-10-21 07:00"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
 status_publicacao:
   alerta: "Sem erros em 16/10. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
   teste_horarios_ab: "ENCERRADO como fator de decisao em 16/10 (8 posts por rede sem sinal; mesmo video de 40-55s nos 3 slots). Horarios congelados; o fator agora e formato/abertura."
@@ -103,7 +103,7 @@ painel_semanal_16_10:   # E03 do Executor: colunas obrigatórias do painel seman
   colunas_por_rede: [tempo_medio_assistido_pct_da_duracao, skip_rate_ig, compartilhamentos, salvamentos, comentarios_de_terceiros, views_apoio]
   leitura: "24-48 h; amostra pequena nao afirma causa"
 mudanca_2026_10_20:   # gatilho disparou (FB tempo<6s 15/18; IG skip>70% 8/9; TikTok tempo<4s 5/6, 0 shares). Plano: data/social/plano_de_mudanca_2026-10-20.md
-  horarios_memes: {facebook: ["08:30", "21:00"], instagram: ["08:40", "21:10"], tiktok: ["10:20", "20:20"], suspenso: "FB 12:00 e IG 13:00 (7/0/0 views) ate conferir os videos"}
+  horarios_memes: {facebook: ["08:30", "12:00 (E12 21/10: reaberto SO para meme 8s)", "21:00"], instagram: ["08:40", "21:10"], tiktok: ["10:20", "20:20"], suspenso: "IG 13:00 em observacao ate a leitura de 24h (E12)"}
   proporcao_formato: "2 memes 8-12s para 1 explicador"
   testes: {A_horarios_meme: "2 posts por horario", B_tiktok_meme_3_dias: "6 posts; aprova tempo medio >=4s e >=1 share em 3 de 6", C_pergunta_uma_palavra: "aprova 1 comentario de terceiro em 2 de 6"}
   leitura: "24-48h; amostra pequena nao afirma causa"
