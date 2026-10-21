@@ -7,6 +7,7 @@ Pensar sempre em CONVERSÃO e DINHEIRO. Cada assunto do blog deve nascer ligado 
 Nicho atual: pet. O guarda-chuva é Tutorial Pet; o método vale para novos nichos.
 
 ## Leitura obrigatória antes de pontuar/priorizar (criado 21/10/2026)
+biblioteca/habilidades/verificar_antes_de_pedir.md — antes de levar algo ao Allan, confira 05 Decisões.md e 06 Pendências.md.
 biblioteca/habilidades/oferta_low_ticket.md — as 6 peças de uma oferta completa (entrega, bônus, garantia, urgência real, nome, preço), a equação de valor (qual alavanca consertar) e a escada de produto (entrada → bump → upsell → afiliado). Use "oferta completa? sim/não" como critério extra na pontuação do passo 3.
 
 ## O que fazer em cada rodada

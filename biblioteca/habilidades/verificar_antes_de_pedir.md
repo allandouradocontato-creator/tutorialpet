@@ -1,0 +1,17 @@
+---
+criado: 2026-10-21
+---
+# Habilidade: verificar antes de pedir (toda rotina que lista "Decisão do Allan" ou "pendência dele")
+
+## Por que existe
+Causa raiz encontrada em 21/10/2026: o Estrategista de Redes Sociais pediu autorização para criar o ManyChat — mas o ManyChat **já tinha sido criado e configurado** em 20-21/10 (data/memoria/05 Decisões.md, linha do lead magnet "7 Erros"; 17 Retomada). O agente não leu 05 Decisões antes de escrever a pendência. Isso não é falta de ferramenta nem falta de ideia: é pedir ao Allan algo que ele já resolveu, porque o agente não conferiu. Pedido do Allan (21/10/2026): "eles não podem ficar sem as ferramentas para fazer... os agentes precisam ser mais ativos, correr atrás da solução" — ou seja, antes de devolver algo pra ele, o agente tem que ter certeza de que é realmente dele.
+
+## Regra (toda rotina que escreve "Decisão do Allan", "pendência dele" ou pede autorização/login/conta)
+1. **Releia o texto cheio** (não resumo, não memória de rodada anterior) de `data/memoria/05 Decisões.md` e `data/memoria/06 Pendências.md` antes de listar qualquer pedido novo. Se a mesma ferramenta/conta/decisão já aparece lá como feita, **não peça de novo** — use o que já existe, ou diga em 1 linha que vai usar o que já está criado.
+2. **Teste antes de supor que falta**: se o pedido é "o Allan precisa logar/criar conta em X", primeiro confira se já existe evidência de que X está configurado (nota de memória, arquivo no repo, resultado anterior que citou X funcionando). Só vira pedido ao Allan se, depois de conferir, realmente não existir ou estiver quebrado — com a evidência da checagem anexada ("conferi em <onde>, não achei", não "presumo que falta").
+3. **Ferramenta que falta de verdade**: primeiro procure alternativa gratuita própria (ver regra geral de "testar grátis primeiro"); só peça ao Allan o que for estritamente dele (login, 2FA, pagamento, identidade) — e peça já com o link/tela pronta, nunca "você precisa configurar X" solto.
+4. **Se o pedido já tinha sido atendido e o agente pediu de novo**: isso é FALHA DE PROCESSO do próprio agente (registro_de_falhas.md), não uma pendência nova — registre como tal, não como "Decisão do Allan #N".
+5. **Jev pode ajudar na triagem** (jev_decisao_rapida.md): `noul` "is this request already resolved per the decisions log" antes de incluir algo na lista final de pedidos — mas a leitura do arquivo inteiro (regra 1) é sempre manual, o Jev só confirma o cruzamento quando o texto é longo.
+
+## Onde já está ligado (21/10/2026)
+Estrategista de Redes Sociais v2, Especialista TikTok v2 (prompt embutido no agendamento — corrigido via update_trigger), Revisão Estratégica de Renda, Auditor de Anúncios, Cobrança dos Departamentos, Fábrica de Produtos, Produtor de e-book, Criativo de Venda, Editor de Afiliados, Pesquisador de Mercado, Marketing de Produto (agente 29). Qualquer prompt novo que vá listar algo como pendência do Allan entra nesta lista.

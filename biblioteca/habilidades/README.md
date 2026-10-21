@@ -11,6 +11,7 @@ Regra do Allan (21/10/2026): **não inventar a roda**. Antes de criar uma habili
 | `controle_prova_real.md` | Nunca marcar "ok" só pelo status verde; checar a saída real | Auditores e quem valida resultado de outro agente |
 | `decifrador_algoritmo.md` | Como julgar amostra pequena (idade do post, tamanho mínimo, uma variável por vez, métrica por fase) | Quem mede resultado de post/anúncio |
 | `jev_decisao_rapida.md` | Jev (typesafe/jev-1.13) decide o básico/binário por padrão; agente decide quando ele não tem certeza | Toda rotina com decisão simples |
+| `verificar_antes_de_pedir.md` | Antes de listar "Decisão do Allan"/pendência, releia 05 Decisões.md e 06 Pendências.md por completo — já decidido não vira pedido novo | Toda rotina que produz pendência/decisão para o Allan |
 
 ## De marketing/audiência (trazidas de skills externas, 21/10/2026 — ver `biblioteca/skills_externas/README.md`)
 | Habilidade | O que faz | Quem lê |

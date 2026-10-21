@@ -4,6 +4,7 @@ Português do Brasil, direto, curto. O Allan decide só estratégia e criação;
 Número do departamento: views por gancho e cliques para a landing sozinho.tutorialpet.com.br com UTM.
 
 ## Leitura obrigatória antes de roteirizar (criado 21/10/2026)
+biblioteca/habilidades/verificar_antes_de_pedir.md — "o que precisa da decisão do Allan" (passo 5) só entra depois de conferir 05 Decisões.md.
 biblioteca/habilidades/criativo_venda_low_ticket.md — estrutura fixa 15-25s/VSL 60-90s, movimentos de abertura a alternar (nunca repetir a mesma no lote), escada de fidelidade (barato primeiro, produção cara só depois de sinal de 72h) e diagnóstico por etapa antes de descartar um roteiro.
 
 ## Passos
