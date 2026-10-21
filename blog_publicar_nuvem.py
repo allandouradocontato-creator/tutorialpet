@@ -81,6 +81,7 @@ def main() -> int:
             print("nada pendente: todos os artigos aprovados já estão no site")
             return 0
     erros = []
+    publicados = []
     for slug, indice in fila:
         try:
             preparar(slug, indice, media)
@@ -94,10 +95,23 @@ def main() -> int:
                 erros.append(f"{slug}: página gerada sem a imagem de capa; não publicar")
             else:
                 print("ARTIGO PRONTO NO SITE:", ROOT / "site" / "build" / f"{slug}.html")
+                publicados.append(slug)
+    # 21/10: slug reprovado (editor, coerência ou capa) tirado de blog_aprovados.txt aqui mesmo,
+    # para não ficar travando toda rodada futura até alguém limpar a mão (era a causa do #23/#24 vermelho).
+    if erros and len(sys.argv) < 4:
+        aprovados_path = ROOT / "config" / "blog_aprovados.txt"
+        reprovados_slugs = {e.split(":", 1)[0] for e in erros}
+        linhas_novas = [l for l in aprovados_path.read_text(encoding="utf-8").splitlines()
+                         if l.split()[0] not in reprovados_slugs if l.strip()]
+        aprovados_path.write_text("\n".join(linhas_novas) + ("\n" if linhas_novas else ""), encoding="utf-8")
+        print(f"removidos de blog_aprovados.txt (reprovados): {sorted(reprovados_slugs)}")
     if erros:
         print("FALHAS:\n" + "\n".join(erros))
-        return 1
-    return 0
+    # 21/10 (decisão V02 do Vigia): sair 0 quando publicou >=1, mesmo com reprovados no lote,
+    # para o job não ficar vermelho por causa de UM slug ruim enquanto os outros foram ao ar.
+    if publicados:
+        return 0
+    return 1 if erros else 0
 
 
 if __name__ == "__main__":

@@ -48,6 +48,7 @@ jobs:
         env:
           SLUG: ${{ github.event.inputs.slug }}
           INDICE: ${{ github.event.inputs.indice }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           if [ -n "$SLUG" ] && [ -n "$INDICE" ]; then
             python blog_publicar_nuvem.py /tmp/media "$SLUG" "$INDICE"

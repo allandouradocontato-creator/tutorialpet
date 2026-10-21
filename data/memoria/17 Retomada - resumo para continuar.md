@@ -1,6 +1,6 @@
 # Retomada — resumo vivo para continuar de onde paramos
 Regra do Allan (16/10/2026): a última conversa nem sempre aparece na barra lateral do app, então TODA conversa nova começa lendo esta nota (e o Otimizador a atualiza em toda rodada ter/sex). Nunca depender da lembrança do Allan.
-Atualizado em 19/10/2026 ~08:55 (Fortaleza) pelo Otimizador.
+Atualizado em 21/10/2026 ~09:43 (Fortaleza) pelo Claude (sessão do Allan, fechamento de ciclo).
 
 ## Onde estamos
 - Foco do Allan: sem anúncios; sucesso = engajamento, audiência e agilidade do processo. Meta: fechar o processo até sexta 23/10 e então construir o MOLDE para lançar um novo negócio em 7 a 10 dias (hoje levou ~1 mês). Ordem em data/molde/ORDEM.md; gatilhos na nuvem em 23/10 e 30/10 12:17.
@@ -30,3 +30,15 @@ Só o Allan: recriar a chave ElevenLabs COM permissão user_read (e aprovar recr
 
 ## Rodada do Otimizador 20/10 10:55 (nuvem)
 Alerta: 3 artigos aprovados (gato-parar-de-arranhar-sofa, patas-no-inverno, legumes-cozidos) estão em 404 desde 19/10 porque o publicar_blog #23 sai com erro quando qualquer slug do lote é reprovado e não grava os bons; 4 pacotes de vídeo prontos aguardam artigo. Correção proposta: `if: always()` no passo de gravar, limpar blog_aprovados.txt dos 3 reprovados, republicar. Coerência visual está desligada (GEMINI_API_KEY não chega ao publicar_blog/Guardião). Saldo ElevenLabs ilegível (401 Invalid API key). TikTok: só 3 agendados (até 21/10 10:20). Rotinas Vigia, Criador de Audiência, Humorista e Utilidade Pública sem disparo desde 15–16/10: conferir amanhã. Sex 23/10: veredito das mudanças + molde.
+
+## DECISÕES DE 20/10 À TARDE (gravadas só agora, 21/10 — os agentes da nuvem rodaram sem elas até aqui)
+- Sozinho em Casa: preço R$ 27 (âncora R$ 97, pagamento único, nunca "por dia/mês"). Upsell "Adestramento Básico" R$ 47 (e-book pronto, 56 pág., 21 dias) — ESTE é o produto do "teste do processo inteiro" agora, não mais o "Xixi no Lugar Certo" (data/produtos/teste_processo_xixi.md atualizado).
+- Order bump "Kit Rotina Pré-Saída" (R$ 19,90) foi ABSORVIDO no e-book/app do Sozinho em Casa — não existe mais como produto/bump separado; o bump que entrar no lugar dele passa por checagem de sobreposição antes de ir ao ar (regra nova, permanente).
+- "Produto" na holding = e-book + app + VSL + landing + oferta + copy + estudo de público (não só o e-book).
+- Lead magnet grátis "7 Erros de Quem Deixa o Pet Sozinho" (PDF): Brevo (lista "7 Erros - Isca", form que abre sozinho.tutorialpet.com.br/7-erros.pdf) + ManyChat (comentário "GUIA" no Instagram). Brevo sem e-mail transacional ainda. Página em captura/guia.html (repo sozinho-em-casa-app) não publicada em landing/ ainda.
+- Regra de desvio: R$ 27 com tráfego real por 3 dias; ≥100 visitas e 0 vendas → cai para R$ 17 por 3 dias, automático. Objetivo agora é a 1ª venda real, não ROI.
+- Produto Kiwify duplicado antigo (3JprCCK, R$ 9,90) desativado por completo (checkout + página), mantido sem excluir para os 2 alunos antigos.
+
+## Rodada de execução 21/10 (itens 1-6 do fechamento de ciclo, sessão do Allan)
+Feito: religadas as 5 rotinas semanais que perderam o horário (SEO, Humorista, Utilidade Pública, Criativo de Venda, Caçador de Oportunidades) via fire_trigger. publicar_blog agora sai 0 quando publicou ≥1 mesmo com reprovados no lote, e tira sozinho os reprovados de blog_aprovados.txt. Artigo cuidados-essenciais-com-as-patas-de-caes-no-inverno aprovado (foto 0) e vai ao ar na próxima publicar_blog.yml. GEMINI_API_KEY repassado ao publicar_blog e ao Guardião de marca (fabrica.yml) — coerência visual volta a rodar. Caçador de estilo viral religado (estava desligado desde 15/10) e seu prompt trocou Metricool por Zernio/Buffer na comparação com nossas métricas. Caçador de referências de vídeo trocou o navegador (dependia do PC do Allan) por WebSearch/WebFetch. Agente de Segurança passou a também apontar conector desatualizado (rotina só com Metricool) como achado. Vigia passou a contar estoque da branch media pela API do GitHub, sem clonar.
+Ainda falta (próxima rodada): confirmar que as 5 rotinas religadas terminaram sem FALHA; conferir se o artigo patas-no-inverno saiu do 404; saldo ElevenLabs (ainda sem confirmação de leitura >30%); 2FA e verificação TikTok continuam só com o Allan.

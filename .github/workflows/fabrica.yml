@@ -133,6 +133,7 @@ jobs:
         continue-on-error: true
         env:
           CLIPS_REGISTRO: /tmp/media/clips_usados.json
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python agents/26_guardiao_marca/agent.py /tmp/media | tee /tmp/guardiao.md
           [ -f data/auditoria/guardiao.md ] && cat data/auditoria/guardiao.md >> "$GITHUB_STEP_SUMMARY"
