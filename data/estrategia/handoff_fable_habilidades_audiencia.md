@@ -3,13 +3,18 @@ Dados até 2026-10-21 12:15 (Fortaleza)
 
 Cole isto numa conversa nova com o Fable. Contexto: a sessão anterior (Sonnet) fez o diagnóstico das rotinas, criou o compêndio de regras das plataformas (biblioteca/regras_plataformas/) e plugou o Jev como decisor padrão em várias rotinas. Repositório: allandouradocontato-creator/tutorialpet.
 
-## O que o Allan pediu (21/10/2026)
-Pegar referências de especialistas reais e fazer engenharia reversa do MÉTODO (nunca copiar material) para virar habilidade escrita nos agentes, porque o resultado de criação de audiência está fraco:
+## O que o Allan pediu (21/10/2026, confirmado por ele)
+Pegar referências de especialistas reais e fazer engenharia reversa do MÉTODO (nunca copiar material) para virar habilidade escrita nos agentes, porque o resultado de criação de audiência está fraco. "Fábrica de low ticket" NÃO é referência externa — é o nome que ele dá ao próprio projeto Tutorial Pet (confusão esclarecida em 21/10). Referências reais a pesquisar:
 - **Tráfego pago**: Pedro Sobral.
-- **Design**: um designer / "Sexy Canvas" (nome a confirmar com o Allan — pode ser o framework/curso, não a pessoa; checar antes de pesquisar).
-- **Criação de oferta**: Leandro Ladeira.
+- **Design de oferta/atratividade**: produto "Sexy Canvas" (de um designer; usa gatilhos de desejo/pecados capitais para criar atratividade visual) — confirmar autor e método com pesquisa.
+- **Criação de oferta**: Leandro Ladeira (o Allan já estudou, confirma que é bom).
 - **Lançamento**: Érico Rocha.
-- **Sistema de low ticket**: "fábrica de low ticket" (produto/curso a identificar — perguntar ao Allan o nome exato/link antes de pesquisar, para não gastar busca em coisa errada).
+
+### Candidatos a mais referências (sugeridos nesta sessão — NÃO verificados, checar prova real de resultado antes de usar, mesma regra do Caçador de ofertas)
+- Tráfego pago/performance: André Siqueira, Bruno Picinini, Thiago Reis (empresas de performance com cases públicos).
+- Copy/persuasão: Alex Vargas, Camila Porto (orgânico/social em pequenos negócios).
+- Infoproduto/low ticket em massa: referências de quem publicou número real de vendas em low ticket (pesquisar por "case" com faturamento divulgado, não por fama).
+- Se o Allan tiver outro nome em mente, adicionar aqui antes de começar a pesquisa.
 
 ## Gaps já identificados nesta sessão (ver data/estrategia/reestruturacao_2026-10-21.md para o diagnóstico completo)
 1. Criação de audiência decide sozinha, "no escuro", sem método de oferta/copy comprovado por fora — só replica o que já viu funcionar dentro de casa (amostra pequena, ainda sem prova).
@@ -23,4 +28,4 @@ Pegar referências de especialistas reais e fazer engenharia reversa do MÉTODO 
 - data/estrategia/reestruturacao_2026-10-21.md — diagnóstico completo + proposta de compactar 5 "caçadores" em 2 (ainda aguardando seu sim).
 
 ## Primeira pergunta ao Allan antes de pesquisar
-Confirmar nome exato/link de "Sexy Canvas" e "fábrica de low ticket" (produto/curso específico), para não gastar busca em referência errada.
+Confirmar se os candidatos extras acima (seção "Candidatos a mais referências") valem a pena pesquisar, ou se ele prefere só os 3 confirmados (Pedro Sobral, Sexy Canvas, Leandro Ladeira, Érico Rocha).
