@@ -1,18 +1,17 @@
-Dados até 2026-10-21 13:25 (Fortaleza)
-# Vigia de Rotinas — 21/10/2026 (rodada 13:19)
-Número do departamento: 0 rotinas falhando, 0 suspensas, 0 vencidas sem disparar (meta zero atingida). 1 atenção: Executor com status PENDING há 6 h.
-Já funciona e replicar: as rotinas recriadas dispararam hoje no 1º slot (Criador 08:25, Humorista/SEO/Utilidade/Criativo 09:41); fábrica verde 6/6 (#96–#101). Habilidade que falta: fechar o status do Executor. Teste grátis: ler o log da sessão cse_01X3kf1Z2E9L8jpb97ZQnKEf.
+Dados até 2026-10-21 19:25 (Fortaleza)
+# Vigia de Rotinas — 21/10/2026 (rodada 19:19)
+Número do departamento: 1 rotina com problema (Executor PENDING há 12 h); 0 falhando, 0 suspensas, 0 vencidas sem disparar. Meta zero: quase.
+Já funciona e replicar: fábrica verde 6/6 (#100–#105, última 17:50 Fortaleza); FB/IG/TikTok postando todo dia; 0 erro Zernio/Buffer; 0 issue aberta. Replicar = mais do mesmo, no ritmo atual. Habilidade que falta: fechar status do Executor (V03/V04). Teste grátis: fire_trigger do Executor e conferir SUCCEEDED.
 
 | Rotina/engrenagem | Estado | Último run | Problema | Correção sugerida | Idade do último resultado |
 |---|---|---|---|---|---|
-| Rotinas diárias/semanais (Criador, Humorista, SEO, Utilidade, Criativo, Segurança, Fábrica de Produtos, Estrategista, Conferente, Agendador, Publicador, Auditor anúncios, Caçador áudios) | OK | todas SUCCEEDED hoje | nenhuma falha | - | < 6 h |
-| Executor de Decisões (06:53) | ATENÇÃO | 21/10 09:54Z PENDING | não fechou em 6 h (antes gravou execução, status não fecha) | conferir sessão; V-linha se repetir amanhã | 6 h |
-| Atendente, Cobrança, Editor de Afiliados, Pesq. de Formato/Mercado | AGUARDAM 1º DISPARO | nunca | próximos: Atendente hoje 17:36, Afiliados 22/10, Cobrança 23/10 | acompanhar | - |
-| Guerrilha de Comunidade (hora a hora) | OK | 21/10 15:24Z SUCCEEDED | depende do Chrome do Allan | - | 1 h |
-| Caçador de estilo viral / de referências | FUNDIDAS | - | substituídas pelo Pesquisador de Formato (criado hoje, sem Chrome) | ok | - |
-| fabrica.yml | OK | #101 21/10 14:36Z verde | - | - | 1,8 h |
-| publicar_blog.yml | OK | #29 21/10 12:56Z verde | #27 e #28 falharam ("push falhou 3x"), #29 passou; 0 issues abertas | monitorar reincidência do push | 3,5 h |
-| Blog no ar | OK | commit "blog: publica artigo" 21/10 11:01Z | site ao vivo não lido (WebFetch sem permissão) | - | 5,5 h |
-| Posts FB/IG/TikTok | OK | FB 15:04Z, IG 14:04Z, TikTok 13:21Z | 0 erro Zernio/Buffer; agendados: Zernio 34, TikTok até 23/10 13:20Z (4+) | - | FB 1,2 h, IG 2,2 h, TikTok 3 h |
-| ElevenLabs | SEM DADO | creditos_eleven #7 20/10 13:51Z verde | número não lido nesta rodada | ler saída do workflow | 26 h |
-| Estoque media (62 pacotes) | OK | 28 agendado, 1 parcial, 17 extra_pronto, 7 aprovado, 9 aguardando_revisao | 7 aprovados sem post: ~dias de reserva ok | Conferente cuida | hoje |
+| Rotinas diárias/semanais (Criador, Humorista, SEO, Utilidade, Criativo, Segurança, Prod. Fábrica, Estrategista, Conferente, Agendador, Publicador, Atendente, Auditor, Caçadores) | OK | todas SUCCEEDED | nenhum | - | < 12 h |
+| Executor de Decisões (06:53) | ALERTA | 21/10 09:54Z PENDING | não fecha há 12 h (V03 aberto desde 20/10) | V04: ler sessão cse_01X3kf1Z2E9L8jpb97ZQnKEf; fire_trigger se travada | 12,4 h |
+| Novas (4 Diretores, Medidor, Pesq. Formato/Mercado, Cobrança, Afiliados) | AGUARDAM 1º DISPARO | nunca | próximos: Medidor 22/10 00:11Z, Operação 00:41Z, Audiência 12:17Z | acompanhar | - |
+| Guerrilha (hora a hora) | OK | 21/10 21:23Z SUCCEEDED | depende do Chrome do Allan | - | 1 h |
+| fabrica.yml | OK | #105 21/10 20:50Z verde | - | - | 1,5 h |
+| publicar_blog.yml | OK | #29 21/10 12:53Z verde | #27/#28 falharam 10:58/12:49Z, #29 passou | monitorar reincidência | 9,5 h |
+| Blog no ar | OK | commit site/build 21/10 11:01Z | home ao vivo não lida (WebFetch sem permissão) | liberar URL tutorialpet.com.br | 11,3 h (limite 30 h) |
+| Posts FB/IG/TikTok | OK | FB 20:29Z, IG 18:03Z, TikTok 17:21Z | 0 erro; agendados 24h: TikTok 4, Zernio ~30 | - | FB 1,8 h, IG 4,3 h, TikTok 5 h |
+| ElevenLabs | OK | creditos_eleven #7 20/10 13:51Z | restam 21.014 de 39.419 (renova 07/11) | ~7 dias de reserva (estimativa) | 29 h |
+| Estoque media (64 pacotes) | OK | 28 agendado, 1 parcial, 7 aprovado, 17 extra_pronto, 11 aguardando_revisao | 7 aprovados sem post; revisão +2 vs. manhã | Conferente cuida | hoje |
