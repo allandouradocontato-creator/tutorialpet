@@ -44,3 +44,8 @@ Fim de cada ciclo: linha em `data/habilidades/aprendizado/trafego_tiktok_ads.md`
 
 ## (g) Itens [N] — validar antes de gastar
 Requisitos de conta de anúncios no Brasil (documentos, CNPJ, pagamento); política específica para produto digital/e-book/app; se avatar de marca realista dispensa rótulo (marcar sempre); elegibilidade do Sozinho em Casa no TikTok Shop; revisão "maioria em 24 h"; diretrizes da Comunidade em texto oficial (fonte secundária). Conferir em ads.tiktok.com/help (Chrome) antes do 1º real.
+
+## Regras → jogadas (v1.1, 22/10/2026; sem verba liberada: tudo aqui é preparação, nunca gastar sem ordem do Allan)
+J1 (Spark Ads promove post orgânico já publicado [tiktok.md §1.9]). Fazer: só impulsionar vídeo que já passou da mediana de % assistido; ficha com o post, o público e o teto em reais para o Allan aprovar. Alvo: medir primeiro CPM/CPV com verba mínima autorizada. Troca: vídeo abaixo da mediana nunca recebe verba.
+J2 (anúncio de pet: nada de animal vivo à venda nem promessa de cura/bem-estar [tiktok.md §8]). Fazer: checklist de política antes de qualquer criativo. Alvo: 0 reprovação. Troca: 1 reprovação = revisar o checklist.
+J3 (conta Business e Pixel/UTM). Fazer: UTM em todo link (utm_source=tiktok&utm_medium=ads) para medir no Kiwify. Alvo: 100% com UTM. Troca: venda sem origem = corrigir o rastreio antes de nova verba.
