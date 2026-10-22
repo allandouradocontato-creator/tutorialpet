@@ -1,0 +1,1 @@
+| 2026-10-22 09:30 | Diretor de Audiência | escreveu decisao_isca_2026-10-22.md (Carteirinha do Pet, gatilho MIMO, piloto IG + FB), ficha viva da semana, E27-E30; textos do Messenger revisados (assistente virtual, sem promessa de data); sem medicao_*.md nova (só baseline); sem parecer de Criador/Estrategista sobre a isca; add_repo inexistente (repo já clonado) |
