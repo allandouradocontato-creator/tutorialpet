@@ -3,3 +3,5 @@ Uso no blog: rel="sponsored noopener", rótulo visível "link de afiliado", 1 bl
 | Produto | Preço (22/10) | Comissão | Vendas | Link |
 |---|---|---|---|---|
 | Caixa de Transporte Gato 1 ou 2 (casinha, plástico) | R$28,44 | 11% | 20mil+ | https://s.shopee.com.br/8fTLH4nDe2 |
+| Encaixe universal para cinto de segurança do carro + guia (pet, usar preso a peitoral) | R$19,01 | 14% | 2mil+ | https://s.shopee.com.br/2Vshvpzg66 |
+| Câmera Wi-Fi pet (JÁ CADASTRADA antes, usada na landing do Sozinho em Casa) | R$79,99 | – | – | https://s.shopee.com.br/80DRRwgNte |
