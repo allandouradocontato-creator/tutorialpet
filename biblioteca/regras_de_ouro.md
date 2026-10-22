@@ -4,7 +4,7 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 ## Antes de pedir qualquer coisa ao Allan
 1. Releia 05 Decisões e 06 Pendências (texto cheio). O que já está feito não se pede de novo.
 2. Cheque por FERRAMENTA antes de mandar ele abrir/achar algo: computador linkado? aba já aberta? conta já existe? Se está checável, não pergunte e não mande procurar.
-3. Se precisar mesmo da mão dele, traga a tela PARA A FRENTE e entregue link clicável; nunca "procure aí". Ele só decide estratégia/criação e dá autorizações pontuais (login, 2FA, pagamento, liberar pasta).
+3. Se precisar mesmo da mão dele (login, 2FA, permissão), traga a janela PARA A FRENTE ANTES de avisar, como procedimento normal (computer_resolve_access + computer_request_access do Chrome em modo read + computer_open_application "Google Chrome", depois conferir com screenshot) e diga só 'está na sua tela'; nunca "procure aí" nem aponte aba escondida. Allan decidiu em 22/10/2026 que isso é padrão, sem pedir. Ele só decide estratégia/criação e dá autorizações pontuais (login, 2FA, pagamento, liberar pasta).
 4. Não repasse relato de agente como fato sem conferir na fonte.
 
 ## Navegador, janelas e senhas
