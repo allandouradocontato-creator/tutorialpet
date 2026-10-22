@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32476517,
+    "url_download": "https://images.pexels.com/photos/32476517/pexels-photo-32476517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-portrait-32476517/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 7028,
+    "altura": 4687,
+    "query": "cute yorkshire terrier alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282278,
+    "url_download": "https://images.pexels.com/photos/7282278/pexels-photo-7282278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-puppy-in-cozy-room-7282278/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute yorkshire terrier alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 940797,
+    "url_download": "https://images.pexels.com/photos/940797/pexels-photo-940797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-photo-of-long-coated-brown-puppy-940797/",
+    "fotografo": "Onur Kurtic",
+    "fotografo_url": "https://www.pexels.com/@thesilentman",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cute yorkshire terrier alone",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282333,
+    "url_download": "https://images.pexels.com/photos/7282333/pexels-photo-7282333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-loyal-dog-resting-on-sofa-at-home-7282333/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute yorkshire terrier alone",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29025331,
+    "url_download": "https://images.pexels.com/photos/29025331/pexels-photo-29025331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-walking-on-autumn-leaves-29025331/",
+    "fotografo": "Gundula Vogel",
+    "fotografo_url": "https://www.pexels.com/@guvo59",
+    "largura": 7008,
+    "altura": 4672,
+    "query": "cute yorkshire terrier alone",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6222967,
+    "url_download": "https://images.pexels.com/photos/6222967/pexels-photo-6222967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-in-bath-6222967/",
+    "fotografo": "Adrian Frentescu",
+    "fotografo_url": "https://www.pexels.com/@frentescuphotography",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "yorkshire terrier puppy portrait white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/5.jpg"
+  }
+]

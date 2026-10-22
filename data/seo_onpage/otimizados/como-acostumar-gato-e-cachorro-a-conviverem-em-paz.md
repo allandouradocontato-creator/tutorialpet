@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T15:56:24+00:00'
+revisado_em: '2026-10-22T17:42:50+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -31,7 +31,7 @@ checagens_qualidade:
 titulo_seo: 'Como acostumar gato e cachorro a conviverem em paz: guia'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T15:56:24+00:00'
+otimizado_em: '2026-10-22T17:42:50+00:00'
 checagens_seo:
 - título original (64 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -51,6 +51,21 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-acostumar-gato-e-cachorro-a-conviverem-em-paz.jsonld.json
+imagem_capa: imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz.jpg
+imagem_fonte: pexels
+imagem_fotografo: Valentin Cvetanoski
+imagem_fotografo_url: https://www.pexels.com/@valentin-cvetanoski-2147958923
+imagem_url_pagina: https://www.pexels.com/photo/adorable-kitten-and-dog-interaction-on-sofa-34071784/
+imagem_selecionada_em: '2026-10-22T17:42:50+00:00'
+imagens_corpo:
+- arquivo: imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz-corpo-1.jpg
+  alt: 'como acostumar gato e cachorro a conviverem em paz'
+  fotografo: 'Melisa Umul'
+  fonte_url: 'https://www.pexels.com/photo/adorable-kitten-and-dog-cuddling-indoors-40289458/'
+- arquivo: imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz-corpo-2.jpg
+  alt: 'como acostumar gato e cachorro a conviverem em paz'
+  fotografo: 'MEHMET KAYNAR'
+  fonte_url: 'https://www.pexels.com/photo/dog-and-cat-sitting-together-in-sunlight-35711491/'
 ---
 
 # Como acostumar gato e cachorro a conviverem em paz: guia prático

@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como limpar manchas de lagrima acida em cachorro branco: guia prático",
+    "description": "Como limpar manchas de lagrima acida em cachorro branco: guia prático. O escurecimento dos pelos ao redor dos olhos é uma queixa recorrente entre...",
+    "datePublished": "2026-10-20",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-limpar-manchas-de-lagrima-acida-em-cachorro-branco",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-limpar-manchas-de-lagrima-acida-em-cachorro-branco"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-limpar-manchas-de-lagrima-acida-em-cachorro-branco.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O pelo manchado volta a ficar branco apenas limpando?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O pelo que já oxidou permanece manchado até ser tosado ou cair naturalmente na troca de pelagem. O objetivo da limpeza diária é impedir a retenção de novos resíduos e garantir que os novos pelos cresçam limpos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência devo fazer a limpeza dos olhos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, uma vez ao dia costuma ser suficiente para a maioria dos animais, mas cães com lacrimejamento abundante podem se beneficiar de duas limpezas diárias. Confirme sempre com o médico-veterinário a periodicidade ideal para o seu pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso cortar os pelos manchados ao redor dos olhos em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não utilize tesouras pontiagudas próximo aos olhos se o cão for inquieto. O ideal é solicitar ao profissional de tosa que faça a tosa higiênica facial com tesoura de ponta redonda ou máquina apropriada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Rações específicas para pelo branco realmente funcionam?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Muitas fórmulas comerciais focadas em cães brancos reduzem corantes e ajustam o equilíbrio de aminoácidos para diminuir a excreção de porfirinas. O efeito costuma ser observado em média após 6 a 8 semanas, mas os resultados variam para cada indivíduo e a troca deve ser validada por um veterinário."
+        }
+      }
+    ]
+  }
+}

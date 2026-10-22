@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-o-gato-beber-mais-agua.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T15:56:24+00:00'
+revisado_em: '2026-10-22T17:40:35+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -31,7 +31,7 @@ checagens_qualidade:
 titulo_seo: 'Como fazer o gato beber mais agua: guia prático'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T15:56:24+00:00'
+otimizado_em: '2026-10-22T17:40:35+00:00'
 checagens_seo: []
 sugestoes_links_internos:
 - termo_relacionado: como dar banho em gato
@@ -47,6 +47,17 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-o-gato-beber-mais-agua.jsonld.json
+imagem_capa: imagens/como-fazer-o-gato-beber-mais-agua.jpg
+imagem_fonte: pexels
+imagem_fotografo: Iqbal farooz
+imagem_fotografo_url: https://www.pexels.com/@wanderinglenses
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-a-cat-drinking-water-outdoors-37096981/
+imagem_selecionada_em: '2026-10-22T17:40:36+00:00'
+imagens_corpo:
+- arquivo: imagens/como-fazer-o-gato-beber-mais-agua-corpo-1.jpg
+  alt: 'como fazer o gato beber mais agua'
+  fotografo: 'Aibek Skakov'
+  fonte_url: 'https://www.pexels.com/photo/cat-drinking-water-17341895/'
 ---
 
 # Como fazer o gato beber mais agua: guia prático

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-acostumar-gato-e-cachorro-a-conviverem-em-paz"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
