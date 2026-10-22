@@ -1,0 +1,11 @@
+# Pesquisador de Mercado — Departamento Produto e Receita
+**Habilidades ligadas:** analise_referencia_viral.md (frente B: ficha com "padrão replicável em 1 frase" + "nossa versão", nunca copiar); entrega_direta.md (notificar achado com nota >= 8/15); jev_decisao_rapida.md (noul antes de descartar como repetido); verificar_antes_de_pedir.md.
+**O que já aprendeu (com prova):** data/oportunidades/semana.md (21/10 12:50, rodada atribuída ao Caçador; o Pesquisador fundiu as duas frentes em 21/10): 6 oportunidades pontuadas; melhor Brain Training for Dogs (ClickBank, 75% de ~US$ 47), Magalu (nota 11), Cobasi/Awin (nota 10); descartadas Mercado Livre (exige CPF), Amazon (taxa de pet contraditória), Kiwify/Eduzz/Monetizze (sem produto com prova pública). data/oportunidades/decisoes.md: OP-1021-3 (Cobasi) aprovada em 21/10; 4 pendentes. Nenhuma linha em data/habilidades/aprendizado/analise_referencia_viral.md; não há fichas de oferta com "nossa versão" no repo.
+**Habilidades/jogadas que criou ou ganhou hoje (22/10):** nenhuma no prompt. git log: eed7bff e 67b332d (22/10) reescreveram a skill analise_referencia_viral.md (v2, régua 8), que ele lê; o prompt só tem o commit de import.
+**Como vai aplicar num teste real (resultado em HORAS, não dias; Allan exige):**
+- Ação: aplicar a ficha da skill a 3 ofertas de semana.md (Brain Training, negócio espanhol de ansiedade de separação, 1 curso Hotmart), usando só página pública.
+- Unidade: ficha. Métrica: fichas com todos os campos (promessa, preço, funil, prova, risco, padrão em 1 frase, nossa versão com R$ em pt-BR) de 3; fonte com data de acesso. Leitura: hoje 16:30 e 19:00. Alvo: 3/3 completas, >= 1 com nota >= 8/15 e prova pública.
+- Regra de troca: ficha sem "nossa versão" = fail, refazer; oferta sem prova pública de venda = descartar e puxar a próxima da tabela; link bloqueado = abrir no Chrome do Allan (já logado) antes de dizer "sem acesso".
+- Restrições: sem conta, compra ou contato; PLR só como compra para adaptar (decisão do Allan).
+**Lacunas:** sem comissão/preço verificados na fonte oficial (fontes de semana.md são secundárias); nenhum registro de aprendizado; saída semanal segunda (26/10) ainda não rodou.
+**Nota de robustez (0–5) e por quê:** 1. Skill ligada e arquivo de caça existe, mas sem fichas pelo método v2, sem aprendizado e sem decisão que virou receita.

@@ -1,0 +1,11 @@
+# Editor de Afiliados — Departamento Produto e Receita
+**Habilidades ligadas:** plataforma_google_seo_adsense.md (obrigatória; regra de rótulo/rel="sponsored", nunca perto de anúncio, AdSense); verificar_antes_de_pedir.md; biblioteca/regras_plataformas/google.md (seção Afiliados). Laço: 1 linha em data/habilidades/aprendizado/plataforma_google_seo_adsense.md por ciclo.
+**O que já aprendeu (com prova):** data/ofertas/edicoes_propostas.md (22/10): 5 blocos propostos (1 por artigo, rótulo + UTM utm_content=<slug>); só o artigo do Plínio/Anitta traz impressão (69), pauta "pet celebridade" para replicar; 53 de 61 páginas têm o aside do produto próprio, 0 com afiliado; aside antigo diz "de R$ 37 por R$ 9,90" (decisão é R$ 27); só 1 afiliado Shopee tem link (câmera Wi-Fi); 0 cliques medidos por artigo. data/habilidades/aprendizado/plataforma_google_seo_adsense.md: SEM LINHAS.
+**Habilidades/jogadas que criou ou ganhou hoje (22/10):** git log: d325c31 (22/10) ligou ao prompt a obrigatoriedade de plataforma_google_seo_adsense.md e o registro de 1 linha de aprendizado; 8dfb68b (22/10) trouxe a skill em v2 com jogadas.
+**Como vai aplicar num teste real (resultado em HORAS, não dias; Allan exige):**
+- Ação: auditar os 5 blocos propostos em edicoes_propostas.md (rascunho, nada aplicado no site).
+- Unidade: bloco. Métrica: blocos com os 3 itens (rótulo claro, rel="sponsored noopener" ou "Produto da Tutorial Pet", UTM correta) e sem preço antigo. Leitura: hoje 16:30 e 19:30. Alvo: 5/5 conformes; as 2 propostas de afiliado só com link já aprovado (Shopee câmera).
+- Regra de troca: bloco sem rótulo, perto de anúncio ou com link sem aprovação = tirar da lista; se o aside antigo de R$ 37/9,90 estiver em mais de 50 páginas, abrir proposta única de correção ao Conferente em vez de 5 edições.
+- Restrições: não altera artigo publicado; cadastro novo vira pendência do Allan.
+**Lacunas:** não há leitura de cliques por artigo (UTM só no GA4 após aceite de cookies; Shopee só no painel); faltam links de afiliado além da câmera; nenhuma linha de aprendizado gravada.
+**Nota de robustez (0–5) e por quê:** 2. Habilidade ligada e aplicada na proposta de 22/10, porém sem clique, sem aprendizado registrado e n=5 propostas.
