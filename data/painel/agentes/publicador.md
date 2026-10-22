@@ -1,7 +1,23 @@
 # Publicador — Departamento Audiência e Redes
+
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: audiência (alcance e views dos posts publicados em FB/IG/TikTok), fonte Zernio e Buffer (TikTok).
+2. META E PRAZO: HOJE 22/10 18:00 (leitura imediata, sem esperar post): portão de gancho aplicado a 10 pacotes (5 posts com gancho banido já achados + 5 limpos ao acaso): 5 de 5 banidos detectados e 0 falsos positivos. Em 3 h e 24 h após cada post real: views/alcance vs. mediana FB 227 e IG 60 (Zernio). A rotina só roda 07:10 e 13:10, sem rodada restante hoje.
+3. JOGADAS:
+   - J1: PORTÃO DE GANCHO. Hipótese: gancho banido ('Esse erro tá silenciosamente...', 'Aquele momento em que...', 'Para de ignorar...') derruba retenção e hoje passa, pois o prompt não lê o gancho_3s do roteiro.json. Ação: aplicar J1 do TikTok e regra 5 de audiencia_ganchos_e_cadencia.md aos 10 pacotes e marcar reprovado em guardiao.status 'revisar' no manifest.json. Métrica: detecção 0-10 e falsos positivos. Trocar: < 5 de 5 = ampliar a lista em biblioteca/regras_de_ouro.md e refazer; acertou = propor ao Claude principal pôr o portão no passo 4 do prompt (a ficha não edita o prompt).
+   - J2: CTA FIXO E UMA AÇÃO POR FORMATO. Hipótese: 'Confira o artigo completo' com 1 ação por formato leva mais clique ao blog que CTA livre. Ação: manter o CTA fixo em todo post e ler os 6 posts do teste CTA. Métrica: cliques para o blog (GA4, origem social) e comentários, 3 h e 24 h. Trocar o CTA se 0 clique em n>=3 posts.
+   - J3: BLOG COM MEDIDA. Hipótese: publicar o blog de config/blog_aprovados.txt é função dele mas não é medido. Ação: registrar por artigo publicado a hora e ler Search Console em 24 h. Métrica: artigo indexado em < 48 h. Trocar: não indexou em 24 h = avisar o SEO.
+   - J4: VIGIA DE RODADA. Hipótese: sem logs/publicador não há prova de rodada. Ação: gravar o veredito de portão de cada rodada em logs/publicador (a criar neste fluxo). Métrica: rodadas com veredito gravado / rodadas (alvo 2 de 2 por dia). Trocar se uma rodada falhar: alerta conforme regra 19.
+4. LAÇO: data/habilidades/aprendizado/publicador.md, 1 linha por rodada (data | jogada | resultado n/métrica | mantém/altera/descarta). Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: biblioteca/habilidades/juiz_de_qualidade.md
+
 **Habilidades ligadas:** plataforma_meta_organico.md e plataforma_tiktok_organico.md (adendo 22/10 do prompt); a rotina de portões (texto, marca do vídeo, capa, blog via config/blog_aprovados.txt) e os adendos 21/10 (CTA fixo "Confira o artigo completo", 1 ação por formato, TikTok sem "link no perfil") são regras próprias, não skills. Não agenda Reel (passo 7): quem agenda é o Agendador.
 **O que já aprendeu (com prova):** SEM PROVA AINDA: nenhuma linha dele em data/habilidades/aprendizado/. Evidência de rotina: logs/publicador/ não existe neste clone, então não há como confirmar o veredito de portão de nenhuma rodada. O prompt não manda ler o gancho_3s do roteiro.json, e 5 posts agendados com gancho banido gravado passaram (data/testes/audiencia_2026-10-22_criador.md, 22/10).
 **Habilidades/jogadas que criou ou ganhou hoje (22/10):** git: d325c31 (ligou plataforma_meta_organico e plataforma_tiktok_organico ao prompt). Nada criado.
 **Como vai aplicar num teste real (resultado em HORAS, não dias; Allan exige):** AÇÃO (retroativa, sem publicar): aplicar o portão de gancho (jogada J1 do TikTok e regra 5 de audiencia_ganchos_e_cadencia) ao gancho_3s dos pacotes dos 5 posts já achados e dos pacotes da branch media com status aguardando_revisao. UNIDADES: os 5 posts com gancho banido + 5 pacotes limpos escolhidos ao acaso (n=10). MÉTRICA: detecção correta (0-10), falsos positivos. LEITURA: hoje 18:00 (resultado imediato, sem esperar post). ALVO: 5 de 5 banidos detectados e 0 falsos positivos. TROCA: < 5 de 5 = a lista de frases banidas está incompleta; ampliar a lista em biblioteca/regras_de_ouro.md e refazer; acertou = propor ao Claude principal acrescentar o portão ao passo 4 do prompt (esta ficha não edita o prompt). Marcar o pacote reprovado em guardiao.status "revisar" no manifest.json, como o prompt já manda.
 **Lacunas:** sem portão de gancho no prompt; sem logs/publicador no repo para provar rodadas; só roda 07:10 e 13:10 (nenhuma rodada restante hoje); publica o blog (blog_aprovados.txt), o que é função dele, mas não é medido em audiência; sem linha de aprendizado.
 **Nota de robustez (0–5) e por quê:** 1. Skills de plataforma ligadas ao prompt sem aplicação nem prova registradas.
+
+## Limites
+- plataforma_meta_organico.md e plataforma_tiktok_organico.md valem (TikTok sem 'link no perfil').
+- Não agenda Reel (passo 7): quem agenda é o Agendador. Portões de texto, marca do vídeo, capa e blog continuam.

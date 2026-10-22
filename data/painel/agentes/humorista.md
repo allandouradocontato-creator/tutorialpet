@@ -1,7 +1,21 @@
 # Humorista — Departamento Audiência e Redes
+
+## CONTRATO DE RESULTADO (22/10/2026)
+1) RESULTADO ÚNICO: engajamento: comentário de terceiro em memes (hoje 0 em 24 memes), com views/alcance como apoio. Fonte: Zernio posts_list/analytics e Buffer; placar em data/humor/placar.md.
+2) META E PRAZO: >= 1 comentário de terceiro e FB views >= 288 / IG alcance >= 116 (medianas de prova de mercado) na leitura de 4 h do próximo meme em vídeo agendado hoje 22/10. Leituras: 2 h, 4 h e 23:30.
+3) JOGADAS:
+   - J1 X2 CTA do meme. Hipótese: pergunta de UMA palavra ('Caixa ou cama?') gera comentário e a pergunta aberta não (ou o inverso). Ação: mesma arte, CTA A no FB x CTA B no IG, >= 10 min entre redes; confirmar no Zernio posts_list se há meme hoje. Métrica: comentários de terceiros e views/alcance. Trocar: 0 comentário e FB < 200 views em 4 h = variar só o CTA no próximo meme.
+   - J2 Formato flagrante (F2). Hipótese: o flagrante (campeão banheiro FB 562 views, 17/10, n=1) segura mais que a prova de mercado. Ação: fazer o próximo meme no molde F2. Métrica: mediana de views do meme >= 288 FB / 116 IG. Trocar: abaixo da mediana em 2 memes = voltar ao molde de prova de mercado.
+   - J3 Cota D01/D02. Hipótese: memes em 1 de cada 3 vídeos (23-29/10) mantêm mediana >= 196. Ação: dono Humorista aplica a cota. Métrica: mediana de views dos memes. Trocar: < 196 = 1 em 5 em 30/10 (decisão já registrada).
+   - Sem meme hoje = registrar 'sem unidade'.
+4) LAÇO: data/habilidades/aprendizado/humorista.md, 1 linha por rodada (data | jogada | resultado n/métrica | mantém/altera/descarta). Número ruim = troca de jogada na mesma rodada.
+5) JUIZ: biblioteca/habilidades/juiz_de_qualidade.md (julga a entrega; separado do agente). Nota mínima 7 para ir ao vivo.
 **Habilidades ligadas:** audiencia_ganchos_e_cadencia.md (regra 5 gancho 3 peças, regra 6 CTA único, regra 8 uma variável; adendo D01/D02 memes 1 em 3); decifrador_algoritmo.md (n<5 = parcial). Prompt cita também analise_referencia_viral, anuncios_meta_decisao, criativo_venda_low_ticket na saída obrigatória, sem uso. Não cita skills de plataforma.
 **O que já aprendeu (com prova):** data/humor/placar.md (22/10, Zernio/Buffer): prova de mercado x teste próprio = empate técnico (FB mediana 288 n=5 x 286 n=2; IG 116 x 123 n=2), cota 70/30 mantida; F2 flagrante campeão em views (banheiro FB 562, 17/10; n=1); comentários de terceiros em memes = 0 (também em 24 posts, medicao.md); meme no TikTok perdeu (94 views, 1,73 s, n=1). Isso é placar de fórmulas, não prova da skill. Nenhuma linha dele em data/habilidades/aprendizado/.
 **Habilidades/jogadas que criou ou ganhou hoje (22/10):** git: 10e943d (D01/D02: memes de 2 em 3 para 1 em 3 vídeos, 23-29/10, dono Humorista, métrica mediana de views dos memes >= 196, senão 1 em 5 em 30/10), eed7bff. É decisão em teste, ainda sem resultado.
 **Como vai aplicar num teste real (resultado em HORAS, não dias; Allan exige):** AÇÃO: X2 de medicao.md no próximo meme em vídeo agendado hoje: mesma arte, CTA A pergunta de UMA palavra ("Caixa ou cama?") no FB x CTA B pergunta aberta no IG, com >= 10 min entre redes (confirmar no Zernio posts_list se há meme hoje; se não houver, "sem unidade"). UNIDADES: 1 meme x 2 redes (n=1 par; indício, não decisão). MÉTRICA: comentários de terceiros e views/alcance. LEITURAS: 2 h e 4 h após o post; 23:30. ALVO: >= 1 comentário de terceiro (hoje 0 em 24 memes) e FB views >= 288 / IG alcance >= 116 (medianas de prova de mercado) na leitura de 4 h. TROCA: 0 comentário e views abaixo de 200 (FB) em 4 h = variar só o CTA no próximo meme; não mudar horário nem arte no mesmo teste. Nada de enquete; nada publicado por agente.
 **Lacunas:** 0 comentário de terceiro em memes; n=1 a 2 por fórmula; 9 posts com falha de mídia (0-11 views) distorcem a base; meme no TikTok sem fórmula vencedora; D01/D02 só começa 23/10; sem linha de aprendizado própria.
 **Nota de robustez (0–5) e por quê:** 2. Há medição real com n baixo para views, mas a skill em si não tem aplicação com resultado e o objetivo (comentário) está em 0.
+
+## Limites
+Nada de enquete; nada publicado por agente; não mudar horário nem arte no mesmo teste; meme no TikTok não tem fórmula vencedora (94 views, 1,73 s, n=1); 9 posts com falha de mídia distorcem a base. 1 par = indício, não decisão.
