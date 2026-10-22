@@ -45,6 +45,8 @@ def avaliar(imagens: list[bytes], tema: str) -> list[dict]:
               "'cinto de segurança' exige animal com cinto/peitoral de carro dentro de veículo; 'patas no inverno' exige patas/neve/botinhas; "
               "'legumes' exige o animal com legumes). Rosto genérico NÃO mostra o tema. "
               "agressiva_ou_triste = true se mostra dentes à mostra, rosnado, latido agressivo, medo, doença, ferimento, sujeira, abandono, pobreza, jaula, ou foto escura/sombria. "
+              "bonita_agradavel = false (reprova, regra do Juiz 22/10) se houver pessoa, rosto, mão, perna ou colo humano em destaque, logotipo/marca legível, marca d'água, ou animal cortado pelo enquadramento. "
+              "Inclua tambem \"nota\": 0-10 (10 = mostra o objeto exato do tema, animal certo, bonita, bem enquadrada para 16:9). "
               "Responda SOMENTE um array JSON, um objeto por imagem.")
     partes = [{"text": pedido}] + [{"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(b).decode()}} for b in imagens]
     modelo = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
@@ -92,9 +94,11 @@ def escolher(slug: str) -> tuple[int | None, str]:
             except Exception as e3:  # noqa: BLE001
                 return None, f"visao indisponivel: {str(e3)[:80]}"
     bons = [(f, r) for f, r in zip(livres, res) if isinstance(r, dict) and r.get("mostra_o_tema") and r.get("bonita_agradavel") and not r.get("agressiva_ou_triste")]
+    # regra do Juiz (22/10): pontuar TODAS as candidatas e escolher a de maior nota, nunca a primeira por padrao
+    bons.sort(key=lambda fr: -float(fr[1].get("nota", 5) or 5))
     escolher.bons = [int(f.stem) for f, _ in bons]
     if bons:
-        return int(bons[0][0].stem), str(bons[0][1].get("motivo", ""))
+        return int(bons[0][0].stem), f"nota {bons[0][1].get('nota', '?')}: " + str(bons[0][1].get("motivo", ""))
     return None, "nenhuma candidata mostra o tema com foto bonita: " + "; ".join(f"{f.stem}={r.get('motivo','?')}" for f, r in zip(livres, res) if isinstance(r, dict))
 
 

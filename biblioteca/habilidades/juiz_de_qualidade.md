@@ -35,7 +35,7 @@ Referência: o OBJETO do título (cinto → cachorro no carro com cinto; caixa d
 | B3 Agradável (saudável, limpo, luz boa) | agressivo/triste/sujo/escuro | neutro | bonito, convidativo |
 | B4 Única no site (md5 e visual) | repetida | parecida com outra capa | única |
 | B5 Enquadra para card 16:9 e para 1:1 | corta o animal | aceitável | perfeito nos dois |
-Reprova automática: foto em config/fotos_proibidas.txt, pessoa/mãos em destaque, logotipo de terceiros, animal de abrigo/doação.
+Reprova automática: foto em config/fotos_proibidas.txt, pessoa/mãos em destaque, logotipo de terceiros, animal de abrigo/doação, e B1 = 0 (não mostra o objeto do título).
 
 ## Rubrica C — DESIGN (landing, tela, banner, capa de e-book), 0–10
 Referência: a referência que o Allan mandou (link ou print) OU, sem referência, a landing atual em sozinho.tutorialpet.com.br. Juiz compara lado a lado.
@@ -61,3 +61,8 @@ Reprova automática: preço velho (R$ 9,90), link vercel.app, promessa veteriná
 - J2 Lote 10→3: produtor gera 10, Juiz escolhe 3, publica 3, lê 1 h/3 h; se os 3 ficarem abaixo da mediana da rede, a rubrica muda (não o produtor).
 - J3 Taxa de reprovação como métrica do Juiz: ensaio com 100% aprovado ou 100% reprovado = rubrica frouxa ou dura demais; recalibrar com a referência.
 - J4 Referência viva: a cada semana, o campeão da conta vira a nova referência da rubrica A; a melhor capa (clique/visualização) vira a da B.
+
+## Aprendizado do 1º ensaio (22/10, 13:50)
+- Ganchos atuais: média 4,0 (4 reprovas automáticas por gancho banido/"cão"); 10 ganchos novos: média 8,2. Regra nova na skill TikTok: número do gancho tem de existir no artigo; "cão/cãozinho/pet" nunca no gancho.
+- Capas atuais: média 6,6; 2 reprovadas (pessoa no enquadramento; logotipo). 4 aprovadas sem mostrar o objeto do título → B1 passa a ser eliminatório (B1=0 → reprova). Produtor escolhia sempre a candidata 0 → core/capa.py agora pontua todas e escolhe a maior nota; pessoa/mão/logotipo reprovam.
+- Viés: quem gera não julga. O ensaio de ganchos foi gerado e julgado pelo mesmo agente; o lote 10→3 só vai ao ar depois de um Juiz separado reconferir os 3.

@@ -51,3 +51,8 @@ J3 (rótulo de IA para cena/pessoa realista [§5]; divulgação comercial para l
 J4 (público sem seguidor: o TikTok distribui por interesse). Fazer: 1 vídeo/dia por pergunta pública com busca real (ver Pesquisador de Formato); comentário da conta nos 30 primeiros minutos de cada post com pergunta de continuação. Alvo: medir primeiro seguidores ganhos por vídeo (hoje 19 seguidores no total) e views por vídeo. Troca: meta provisória = mediana de views dos 10 últimos; formato 20% acima vira padrão, 20% abaixo sai em 5 posts.
 J5 (comentário→DM não existe no TikTok [§ funil]). Fazer: CTA = "manda SOZINHO no direct" (DM recebida, janela 48 h). Alvo: medir primeiro DMs por 100 views. Troca: 0 DM em 10 vídeos = tirar o CTA de DM e usar pergunta na legenda.
 J6 (sem "link no perfil" até o link estar ativo e a conta Business elegível). Fazer: link só no comentário fixado quando permitido. Alvo: 0 promessa de link que não existe. Troca: aviso de política = remover do roteiro.
+
+## v2.1 (22/10/2026, ensaio do Juiz) — regra c.4 ampliada
+- Gancho com número: o número tem de estar no artigo (o vídeo entrega o número antes dos 15 s). Sem número no artigo, o gancho usa limite qualitativo ("antes das 3 primeiras noites").
+- Proibidos no gancho e na legenda: "cão", "cãozinho", "pet" como substantivo genérico (usar "cachorro"/"gato"), além dos ganchos banidos já listados.
+- Lote 10→3: o produtor gera 10, um Juiz SEPARADO escolhe 3 (biblioteca/habilidades/juiz_de_qualidade.md); os 3 vão ao ar e são lidos em 1 h e 3 h.
