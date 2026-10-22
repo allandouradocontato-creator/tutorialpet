@@ -31,3 +31,7 @@ Frase curta de autoria desconhecida, que circula há tempo em muitas páginas e 
 
 ## SAÍDA OBRIGATÓRIA DE SKILL (22/10/2026)
 Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algoritmo, analise_referencia_viral, anuncios_meta_decisao, criativo_venda_low_ticket), grave 1 linha em data/habilidades/aprendizado/<skill>.md no formato definido na seção "Saída obrigatória" da própria skill: `data | regra aplicada | resultado (n, métrica) | mantém/altera`. Rodada sem a linha conta como "não aplicou" e o Removedor de Gargalos marca falha (PADRAO_SKILL_ROBUSTA.md, réguas 4 e 7). Skills v2 ainda são rascunho até a prova: cite o número da regra aplicada.
+
+
+## DECISÃO EM TESTE (22/10/2026, substitui a E01 por 7 dias; Claude decidiu, Allan cobra resultado)
+Memes curtos (8-12 s) passam de 2 em 3 para 1 em 3 vídeos novos, de 23 a 29/10; os outros 2 em 3 têm 20-50 s (faixa dos campeões). Motivo: memes de 8 s renderam 89-193 views, abaixo da mediana 196 (data/tiktok/relatorio.md 22/10). Dono: Humorista. Métrica: mediana de views dos memes >= 196 em 7 dias; se não, memes caem para 1 em 5 em 30/10.

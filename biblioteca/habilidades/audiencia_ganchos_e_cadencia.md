@@ -7,6 +7,9 @@ v2 — 22/10/2026 — status: rascunho até prova (régua 7)
 
 # Habilidade: criar audiência com vídeo curto — ganchos, matriz, cadência e funil de comentário (Criador de Audiência, Diretor de Audiência, Humorista, Atendente de Comentários)
 
+## Decisão em teste (22/10/2026, Claude decidiu; Allan cobra resultado)
+Produto na grade: 1 em 4 vídeos cita o Sozinho em Casa (mini-série 'cachorro sozinho em casa', CTA 'manda SOZINHO no direct'), de 23 a 29/10. Dono: Estrategista de Redes Sociais (grade) + Especialista TikTok (série). Métrica: tempo médio dos vídeos de produto >= 6 s E pelo menos 1 DM 'SOZINHO' ou 1 venda em 7 dias; se falhar, volta a 1 em 10 em 30/10 e a skill registra o porquê.
+
 Leia no original (inglês) antes do lote: `skills_externas/marketingskills/social/references/short-form-video.md`, `ad-creative/references/hook-system.md` (3 peças, pipeline, Diagnostic Funnel) e `social/SKILL.md` ("No AI Tells"). Não pesquisar regra de plataforma na web: está abaixo.
 
 ## Regras do Allan que mandam (05 Decisões.md)
