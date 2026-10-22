@@ -1,4 +1,3 @@
-# slugs para refazer a capa pelo tema (uma por linha)
 quanto-tempo-um-cachorro-pode-ficar-sozinho
 alimentos-proibidos-para-cachorro
 melhor-areia-para-gato-como-escolher
@@ -6,5 +5,4 @@ plantas-toxicas-para-gatos
 o-que-comprar-antes-de-adotar-um-gatinho
 como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
 como-acostumar-gato-e-cachorro-a-conviverem-em-paz
-como-fazer-o-gato-parar-de-arranhar-o-sofa
 como-introduzir-um-segundo-gato-na-casa-sem-brigas

@@ -8,6 +8,13 @@ banho, escovar dente, cortar unha), a busca é pelo animal isolado num contexto 
 from __future__ import annotations
 
 QUERIES = {
+    "como-introduzir-um-segundo-gato-na-casa-sem-brigas": ['two cats meeting sitting side by side on floor at home, no people', 'two cats together at home calm', 'two cats sniffing each other indoors'],
+    "como-acostumar-gato-e-cachorro-a-conviverem-em-paz": ['dog and cat sitting calmly together on sofa, no people', 'dog and cat cuddling together at home', 'dog and cat friends lying together'],
+    "como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos": ['dog and cat eating from two bowls side by side on kitchen floor, no people', 'dog and cat eating together at home', 'dog and cat food bowls side by side'],
+    "o-que-comprar-antes-de-adotar-um-gatinho": ['kitten with cat bed food bowl and scratching post in new home, no people', 'kitten exploring new home with cat toys, no people', 'kitten next to cat bowl and bed'],
+    "plantas-toxicas-para-gatos": ['cat sniffing houseplant leaves on windowsill, no people', 'cat next to lily plant indoor, no people', 'cat and pothos houseplant at home'],
+    "melhor-areia-para-gato-como-escolher": ['cat sitting next to litter box with scoop and clean litter, no people', 'cat litter box clean litter cat beside, no people', 'cat using litter box at home'],
+    "quanto-tempo-um-cachorro-pode-ficar-sozinho": ['dog alone waiting at home near front door, no people', 'dog looking out window waiting at home, no people', 'dog lying by the door at home alone'],
     # 22/10/2026 (Allan): a capa tem de mostrar o assunto do artigo, nao so um rosto bonito
     "como-escolher-caixa-de-transporte-para-viagem-de-aviao": ["dog in pet carrier", "cat in travel carrier", "pet carrier airplane travel"],
     "como-escolher-cinto-de-seguranca-pet-para-carro": ["dog wearing seat belt in car", "dog car harness back seat", "dog safety car travel"],
@@ -17,7 +24,7 @@ QUERIES = {
     "como-fazer-caldo-de-ossos-caseiro-para-cachorro": ["dog bone broth bowl", "dog eating from bowl", "dog bone treat"],
     "racao-para-filhote-de-cachorro": ["cute puppy portrait", "adorable puppy playing"],
     "quantas-vezes-por-dia-alimentar-gato": ["cute cat portrait", "happy cat indoors"],
-    "alimentos-proibidos-para-cachorro": ["cute dog curious", "happy dog portrait"],
+    "alimentos-proibidos-para-cachorro": ['dog sniffing chocolate and grapes on kitchen table, no people', 'dog looking at chocolate bar on table', 'dog next to forbidden food on counter, no people'],
     "como-trocar-a-racao-do-cachorro": ["happy dog portrait", "cute dog playing"],
     "cachorro-latindo-muito-o-que-fazer": ["dog barking", "dog barking outdoor"],
     "gato-arranhando-o-sofa": ["cat scratching furniture", "cat claws sofa"],

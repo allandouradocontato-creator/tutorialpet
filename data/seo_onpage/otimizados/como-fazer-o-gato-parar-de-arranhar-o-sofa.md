@@ -49,10 +49,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-o-gato-parar-de-arranhar-o-sofa.jsonld.json
 imagem_capa: imagens/como-fazer-o-gato-parar-de-arranhar-o-sofa.jpg
 imagem_fonte: pexels
-imagem_fotografo: Nathan J Hilton
-imagem_fotografo_url: https://www.pexels.com/@nathanjhilton
-imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-ginger-tabby-cat-32762928/
-imagem_selecionada_em: '2026-10-20T15:18:12+00:00'
+imagem_fotografo: Rino Adamo
+imagem_fotografo_url: https://www.pexels.com/@rinoadamo
+imagem_url_pagina: https://www.pexels.com/photo/playful-gray-cat-relaxing-indoors-on-colorful-blanket-35224529/
+imagem_selecionada_em: '2026-10-22T17:02:46+00:00'
 ---
 
 # Como fazer o gato parar de arranhar o sofa: guia prático

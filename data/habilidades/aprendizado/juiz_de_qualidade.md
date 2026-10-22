@@ -1,3 +1,4 @@
 data | rubrica | n | média | decisão
 2026-10-22 | B (capas) | 10 | 6,6 (bruta 8,0; 2 reprovadas auto: cinto, caixa) | REFAZER: capa.py com filtro pessoa/mão/logo, B1>=1 obrigatório, pontuar as 6 candidatas, nova consulta se nenhuma >7
 2026-10-22 | rubrica A (ganchos, lote 10 reconferido por Juiz separado) | n=10 | média 7,5 (gerador deu 8,2) | APROVADO só os 3 finais; 7/10 números inventados -> conferir número no rascunho antes de pontuar
+2026-10-22 | B (capas a refazer, 11 slugs, atuais+candidatas vistas) | n=11 | atuais: 2 aprovadas (9), 1 nota 7 trocar por md5, 8 reprovadas; candidatas: 1 vencedora >=7 de ~74 | REFAZER BUSCA: consulta 'objeto+animal+ambiente+no people' sem woman/owner; 2 animais no titulo = 2 animais na consulta; candidata repetida em varios slugs aplicar em 1 so; auditoria de 'sem capa' defasada (arquivos existem)
