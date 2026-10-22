@@ -1,0 +1,20 @@
+# FICHA — Estado da fábrica 22/10/2026
+- Departamento / Diretor / data-hora: Operação e Qualidade / Diretor de Operação / 22/10/2026 11:35 (Fortaleza). Rodada redisparada (V05); a das 21:41 de 21/10 caiu por USAGE_LIMIT_REACHED.
+- Assunto e objetivo: fechar o ciclo decisão → execução (meta: 0 linha vencida em execucao.md e ≥2 artigos novos/dia no ar).
+- Público: interno (fábrica).
+- Pareceres:
+  - Vigia de Rotinas (22/10 07:19): 3 rotinas caíram por limite de uso; Executor "OK, PENDING em curso"; V03/V04 encerrados.
+  - Executor de Decisões: sem parecer (sessão de 22/10 09:54Z ainda PENDING; nenhum commit no livro).
+  - Agente de Segurança (21/10): sem achado novo nesta janela (próximo 28/10).
+  - Medidor de Testes: sem parecer (1ª medição perdida; redisparado 14:20Z).
+  - Cobrança dos Departamentos: sem parecer (roda sex 23/10).
+  - Otimizador: sem parecer desde 20/10 (roda 23/10).
+- Divergências e quem tinha razão:
+  - Vigia diz Executor OK e V03/V04 encerrados; o livro diz o contrário: 19 linhas vencidas sem "feito" nem "ATRASADA" e nenhum commit do Executor. Razão: livro. "Disparou" não é "concluiu" (E34).
+- Números (fonte): rotinas 30+ ativas, 0 FAILED desde o reset, Guerrilha desligada (device_absent, depende do PC); Diretor de Audiência fechou ficha (campanha_audiencia_semana); Conteúdo roda hoje 14:37Z (1º disparo), Produto 23/10 — nenhum diretor atrasado. Actions: fabrica #105 verde, #106 rodando, #107 em fila; Publicar Blog #29 verde (21/10), #30 cancelado, #31 em fila; saude.yml #1 rodando. Artigos novos no ar em 24 h: 0 (último datePublished 20/10). HTTP 200 ao vivo: não conferido (WebFetch sem permissão). Livro: 41 linhas abertas, 19 vencidas; 5 fechadas hoje por mim com evidência (D05, D06, D07, E22, E22b).
+- Fato estranho: main foi reescrita (forced update; histórico começa em 21/10 12:42, commit 3deba89 citado no livro sumiu). Sem dono registrado; Agente de Segurança confere em 28/10 (ou antes, se o Allan quiser).
+- DECISÃO: (1) Executor é o gargalo nº 1: E32 (ler sessão, redisparar, commit parcial e linha "ATRASADAS" no topo). (2) Anti-gap disparou: E33 e cobrança ao Diretor de Conteúdo e Blog. (3) Vigia passa a exigir SUCCEEDED + evidência para encerrar (E34). (4) V05 fica "feito em parte".
+- Métrica e gatilhos (≤3 dias): GANHOU = 23/10 com Executor SUCCEEDED + commit e vencidas ≤5; NEUTRO = commit sem baixar vencidas; PERDEU = de novo PENDING sem commit → quebrar o Executor em 2 rotinas (já previsto em E32).
+- Ações: E32 (Claude, 23/10), E33 (nuvem, 22/10), E34 (nuvem, 23/10).
+- Pedido ao Allan: nenhum novo (liberar tutorialpet.com.br no WebFetch das rotinas já está nas pendências).
+- Status: aprovada pelo Diretor

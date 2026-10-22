@@ -27,3 +27,4 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 17. Erro novo = 1 linha em 07 Erros e lições + 1 linha aqui (se for regra) + apostila/manual no mesmo dia.
 
 18. Fábrica que não para: vigia determinístico (saude.yml) redispara o que faltar; artigo reprovado vai para config/blog_reprovados.txt e é reescrito sozinho (3 tentativas, depois pendência humana); cron fora da hora cheia; o dia nunca fica sem post (reserva em config/evergreen.yaml). Alerta ao Allan só quando o conserto automático falha.
+19. "Disparou" não é "concluiu": rotina só conta como feita com SUCCEEDED + evidência (commit/arquivo); PENDING > 2 h = alerta.

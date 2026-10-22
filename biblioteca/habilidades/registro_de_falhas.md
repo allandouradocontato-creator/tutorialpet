@@ -43,3 +43,5 @@ da mesma causa) em proposta de nova habilidade/skill para biblioteca/habilidades
 igual este arquivo nasceu de uma falha registrada.
 
 - 2026-10-22 | Estrategista de Redes Sociais | T9(c): não usou a isca vigente como entrada da matriz e manteve CTA "GUIA" da isca descartada; disse "PC ausente" sem list_connected_browsers (repete a regra de ouro 5) | ação: E31, plano em data/testes/plano_2026-10-22.md
+- 2026-10-22 | Vigia de Rotinas | Encerrou V03/V04 ("Executor disparou 09:54Z") com a sessão ainda PENDING e sem commit; o livro seguiu com 19 linhas vencidas | causa: tratou disparo como conclusão | correção: E34 (encerrar só com SUCCEEDED + commit/arquivo; PENDING > 2 h = ALERTA)
+- 2026-10-22 | Executor de Decisões | Sessões de 21/10 e 22/10 PENDING, nenhum "feito"/"ATRASADA" escrito no livro | causa provável: rodada longa sem commit parcial | correção: E32
