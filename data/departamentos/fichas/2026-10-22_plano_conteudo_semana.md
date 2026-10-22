@@ -1,0 +1,26 @@
+# FICHA — Plano de conteúdo da semana (22 a 26/10/2026)
+**ALERTA (regra anti-gap):** 0 artigo novo no ar em 24 h e em 72 h (último datePublished 20/10; os commits em site/build de 21 e 22/10 só regeneraram páginas/preço). Aprovados sem página: 0. Gargalo: lista de aprovados esgotada (30 aprovados, 30 com página); 11 rascunhos prontos parados sem aprovação; Publicar Blog #30 cancelado, #31 em fila desde 14:11Z. Meta de 200 artigos: hoje ~50 artigos entre 61 páginas.
+- Departamento / Diretor / data-hora: Conteúdo e Blog / Diretor de Conteúdo e Blog / 22/10/2026 11:39 (Fortaleza)
+- Assunto e objetivo: voltar a publicar 2 artigos/dia a partir de 23/10 e formar reserva de 2 dias (4 artigos aprovados à frente) até 26/10; AdSense pede volume + qualidade.
+- Público: tutor adulto de cão e gato (cuidados, compras, primeiros passos).
+- Pareceres:
+  - SEO e Tráfego (22/10 07:35): 15 palavras novas; prioriza "cachorro chorando quando fico sozinho" e "por que o gato derruba objetos da mesa" (baixa concorrência, vídeo sim); reforçar links para quanto-tempo-um-cachorro-pode-ficar-sozinho. Indexação não confirmada (Search Console é do Allan).
+  - Criador de Audiência/Humorista (22/10 08:35): A2 gato derruba objeto (Halloween/Saci 31/10, produzir até 28/10) e A3 "quantas horas sozinho" (melhor retenção do TikTok, 7,46 s).
+  - Utilidade Pública (21/10): 5 propostas; castração gratuita (federal) e SinPatinhas com fonte pronta; maus-tratos aprovado pelo Allan em 16/10 desde que traga os canais, falta conferir telefone do Ibama e multa; Pet Ceará Móvel só depois de ler critérios.
+  - Editor de Afiliados (22/10): blocos propostos só em artigos já no ar; sem link de afiliado além da câmera Shopee; aplicar pelo Conferente (ordem de 21/10), sem aparecer perto de anúncio.
+  - Conferente de Estoque / Revisor de Coerência: sem parecer de <agente> nesta rodada (sem saída datada em data/); estado lido direto do repositório e do Actions.
+- Divergências e quem tinha razão:
+  - SEO (prioriza texto de baixa concorrência) x Humor (prioriza trend Saci/Halloween): convergem em "por que o gato derruba objetos"; ganha o SEO como artigo evergreen, com gancho Halloween só no vídeo.
+  - Utilidade Pública (5 temas) x SEO (sem medição de indexação): ganha 1 artigo de utilidade pública por semana, começando pelo de fonte mais pronta (castração gratuita federal); o resto espera medição.
+  - Editor de Afiliados (inserir já) x risco de alegação: inserir só em artigo já no ar; os rascunhos de saúde passam antes por revisão de alegação.
+- DECISÃO (ordem de aprovação dos 11 rascunhos, sem alegação de saúde primeiro; 2 a 3 por dia):
+  - 23/10: como-escolher-cinto-de-seguranca-pet-para-carro (1038 p), como-saber-se-o-asfalto-esta-quente-para-passear (1049 p; verão/Ceará), como-escolher-caixa-de-transporte-para-viagem-de-aviao (1382 p).
+  - 24/10: melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos (1435 p; liga ao Sozinho em Casa), por-que-o-gato-morde-do-nada-durante-o-carinho (1605 p), como-tirar-cheiro-de-xixi-de-cachorro-do-quintal (881 p, curto: só se o editor aprovar, senão reescrita).
+  - 25 a 26/10, só depois da revisão de alegação (palavras "cura", dosagem, diagnóstico, dieta): como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida, quais-petiscos-naturais-posso-dar-para-o-gato, como-saber-se-o-cachorro-esta-acima-do-peso-ideal, como-fazer-caldo-de-ossos-caseiro-para-cachorro, como-limpar-manchas-de-lagrima-acida-em-cachorro-branco (este por último: 2 ocorrências de "cura").
+  - Rascunhos novos (1 por Redator, prazo 24/10): "cachorro chorando quando fico sozinho o que fazer" (funil Sozinho em Casa), "por que o gato derruba objetos da mesa" (pronto até 28/10), "castração gratuita de cachorro e gato: como conseguir" (federal; sem prometer vaga).
+  - Os 3 reprovados (guia-peitoral, rampa-pet, sinais-envelhecimento) seguem na reescrita automática; 3 tentativas e vira pendência humana.
+- Textos aprovados: nenhum texto público novo (artigos são aprovados pelo editor de qualidade no publicar_blog).
+- Métrica de sucesso e gatilhos (<= 3 dias): GANHOU = ≥2 artigos novos com datePublished 23/10 e ≥2 em 24/10, HTTP 200, e reserva de 4 aprovados à frente em 26/10; NEUTRO = 1/dia; PERDEU = 0 em 24 h de novo → saude.yml redispara e a linha E.. de causa abre no mesmo dia (regra_mudanca_rapida).
+- Ações (linhas em data/decisoes/execucao.md): E35 (23/10), E36 (24/10), E37 (24/10), E38 (24/10), E39 (25/10), todas dono nuvem.
+- Pedido ao Allan: nenhum. (Search Console/ID AdSense seguem nas pendências já registradas.)
+- Status: aprovada pelo Diretor
