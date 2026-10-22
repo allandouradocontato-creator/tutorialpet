@@ -8,6 +8,13 @@ banho, escovar dente, cortar unha), a busca é pelo animal isolado num contexto 
 from __future__ import annotations
 
 QUERIES = {
+    # 22/10/2026 (Allan): a capa tem de mostrar o assunto do artigo, nao so um rosto bonito
+    "como-escolher-caixa-de-transporte-para-viagem-de-aviao": ["dog in pet carrier", "cat in travel carrier", "pet carrier airplane travel"],
+    "como-escolher-cinto-de-seguranca-pet-para-carro": ["dog wearing seat belt in car", "dog car harness back seat", "dog safety car travel"],
+    "como-saber-se-o-cachorro-esta-acima-do-peso-ideal": ["overweight dog", "chubby dog", "fat cute dog"],
+    "cuidados-essenciais-com-as-patas-de-caes-no-inverno": ["dog paws snow", "dog winter boots snow", "dog walking snow"],
+    "quais-legumes-cachorro-pode-comer-cozidos-sem-tempero": ["dog eating carrot", "dog with vegetables", "dog eating vegetables"],
+    "como-fazer-caldo-de-ossos-caseiro-para-cachorro": ["dog bone broth bowl", "dog eating from bowl", "dog bone treat"],
     "racao-para-filhote-de-cachorro": ["cute puppy portrait", "adorable puppy playing"],
     "quantas-vezes-por-dia-alimentar-gato": ["cute cat portrait", "happy cat indoors"],
     "alimentos-proibidos-para-cachorro": ["cute dog curious", "happy dog portrait"],

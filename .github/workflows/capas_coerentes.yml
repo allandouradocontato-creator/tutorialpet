@@ -1,0 +1,47 @@
+name: Refazer capas coerentes com o tema
+
+# Disparo sem token: acrescentar slugs (um por linha) em config/capas_refazer.txt e dar push na main.
+# Para cada slug: busca fotos novas pelo TEMA (Pexels), o Gemini escolhe a que mostra o assunto, bonita e nao repetida,
+# aplica a capa, reconstroi o site e publica (Allan, 22/10/2026).
+on:
+  push:
+    branches: [main]
+    paths: ["config/capas_refazer.txt"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  capas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml requests
+      - name: Refazer
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          grep -v '^#' config/capas_refazer.txt | grep -v '^$' | awk '{print $1}' | sort -u | while read slug; do
+            echo "== $slug"
+            rm -rf "data/visual/candidatos/$slug"
+            python blog_imagens_nuvem.py "$slug" || { echo "sem candidatas: $slug"; continue; }
+            python -m core.capa "$slug" || echo "::warning::sem capa coerente: $slug"
+          done
+          python site/build_site.py --site pets-tutores-iniciantes > /dev/null
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add site/build data/visual data/seo_onpage config/capas_pendentes.txt
+          git commit -m "blog: capas coerentes com o tema $(date -u +%F)" || { echo "nada a commitar"; exit 0; }
+          for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0; sleep $((i*5)); done
+          exit 1

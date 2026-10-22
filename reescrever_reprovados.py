@@ -142,11 +142,13 @@ def promover_aprovados(media: Path | None) -> int:
         return 0
     linhas = APROV.read_text(encoding="utf-8").splitlines() if APROV.exists() else []
     ja = {l.split()[0] for l in linhas if l.split() and not l.startswith("#")}
+    _cp = ROOT / "config" / "capas_pendentes.txt"
+    capas_pend = {l.strip() for l in _cp.read_text(encoding="utf-8").splitlines() if l.strip()} if _cp.exists() else set()
     reprov = set(ler_lista())
     novos = []
     for m in sorted((media / "pacotes").glob("*/manifest.json")):
         slug = m.parent.name
-        if slug in ja or slug in reprov or slug.startswith("meme-"):
+        if slug in ja or slug in reprov or slug in capas_pend or slug.startswith("meme-"):
             continue
         if not (RASC / f"{slug}.md").exists() or (ROOT / "site" / "build" / f"{slug}.html").exists():
             continue

@@ -49,6 +49,7 @@ jobs:
           SLUG: ${{ github.event.inputs.slug }}
           INDICE: ${{ github.event.inputs.indice }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
           if [ -n "$SLUG" ] && [ -n "$INDICE" ]; then
             python blog_publicar_nuvem.py /tmp/media "$SLUG" "$INDICE"
@@ -63,7 +64,7 @@ jobs:
         run: |
           git config user.name "Fabrica Tutorial Pet"
           git config user.email "fabrica@tutorialpet.com.br"
-          git add site/build data/quality_editor data/seo_onpage data/visual config/blog_aprovados.txt config/blog_reprovados.txt
+          git add site/build data/quality_editor data/seo_onpage data/visual config/blog_aprovados.txt config/blog_reprovados.txt config/capas_pendentes.txt
           git commit -m "blog: publica artigo $(date -u +%F)" || echo "nada a commitar"
           # 16/10: o rebase falhava com 'unstaged changes' e os artigos nao iam ao ar. Autostash + 3 tentativas;
           # se ainda falhar, o passo quebra com mensagem clara (nada de erro silencioso).
