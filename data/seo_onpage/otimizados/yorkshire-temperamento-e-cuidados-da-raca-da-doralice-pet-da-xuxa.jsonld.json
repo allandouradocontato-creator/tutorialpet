@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Yorkshire: temperamento e cuidados com a raça da Doralice, pet da Xuxa",
+    "description": "Yorkshire: temperamento e cuidados com a raça da Doralice, pet da Xuxa. Alguns pets viram companheiros de todas as horas. A Doralice, yorkshire da...",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa"
+    },
+    "image": "https://tutorialpet.com.br/imagens/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O yorkshire late muito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Muitos são alertas e avisam quando alguém chega. Com treino, rotina e atenção, o latido costuma ser administrável. Cada cachorro é diferente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Yorkshire precisa de muito exercício?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma gostar de passeios curtos e brincadeiras dentro de casa. O ritmo depende da idade e da saúde; o veterinário orienta o que é adequado ao seu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Precisa tosar o yorkshire?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do cuidado que você consegue manter com o pelo comprido. Muitos tutores optam por um corte mais curto para facilitar a escovação. Converse com um profissional de banho e tosa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Yorkshire se adapta a apartamento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pelo tamanho, costuma se adaptar bem, desde que tenha passeios, brincadeiras e companhia."
+        }
+      }
+    ]
+  }
+}
