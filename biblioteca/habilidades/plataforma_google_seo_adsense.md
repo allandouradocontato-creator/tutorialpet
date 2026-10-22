@@ -53,5 +53,15 @@ Texto do update de site reputation (ago/2026), core update de mar/2024, Discover
 10. Decisão: publicar / devolver com lista completa / cortar tema.
 11. Gravar a saída.
 
+## (h) DEMANDA PRIMEIRO (Allan, 22/10/2026; caso "melhor assento para pet": Petz, Cobasi, Guia o Melhor, My Best, Justos aparecem, nós não)
+Causa achada: nosso artigo de cinto (3.500 palavras) tinha "cadeirinha" e "assento" ZERO vezes, título sem acento, e não comparava as opções. Escrevemos pelo nosso vocabulário, não pelo da busca. Regra: tema e texto nascem do que as pessoas digitam, não do que achamos bom explicar.
+1. Ordem dos temas: primeiro as buscas ÓBVIAS e de maior volume do nicho (o básico que todo tutor pergunta: quanto tempo sozinho, passeio, banho, ração, vacinas, castração, viagem de carro). Só depois especificidades (raça, idade, situação). Antes de aprovar um tema novo, confirmar que as óbvias do pilar já existem.
+2. Por tema, antes de escrever: (a) pesquisar a consulta exata e 2 variações (sinônimo popular, forma em pergunta); (b) listar os 5 primeiros resultados e o TIPO de página (loja, comparador, blog de marca, notícia, fórum); (c) coletar o vocabulário: termos nos títulos e H2 dos concorrentes, perguntas relacionadas e sugestões de busca (no PC do Allan: Chrome com Google; na nuvem: WebSearch); (d) decidir o formato que ganha (comparação "A ou B", lista por porte/idade, passo a passo, tabela).
+3. No artigo: o termo principal e o sinônimo popular no título (com acento), no H1, no 1º parágrafo e em 1-2 H2; resposta direta no começo; tabela de comparação quando a busca é de escolha ("X ou Y", "melhor"); seção de perguntas reais (FAQ) com as perguntas coletadas; 2+ links internos.
+4. Nicho disputado por loja grande (ex.: "melhor X"): não disputar o termo seco; ir pela cauda longa específica (porte, idade, situação) e pela comparação honesta que a loja não faz.
+5. Auditoria dos artigos já no ar: para cada slug, termo-alvo (termo_origem) x palavras que o título/H1/H2 realmente têm; se o sinônimo popular falta, ou não há comparação onde a busca é de escolha, reforçar (reforcar_artigos.py). Registrar em data/seo/auditoria_demanda.md: slug | termo-alvo | sinônimo ausente | ação.
+6. Hashtag não existe como mecanismo no Google (só nas redes). O equivalente é: título/H1/meta com o termo, links internos entre artigos do pilar, sitemap enviado e página indexada no Search Console, dados estruturados (FAQ/Article), e link do artigo no 1º comentário dos posts.
+7. Medir com dado (Search Console: consulta, impressão, posição, clique) assim que a propriedade for verificada; antes disso, medição só por SERP manual e GA4 (Organic Search).
+
 ## (g) Saída obrigatória e laço
 Linha em `data/habilidades/aprendizado/plataforma_google_seo_adsense.md`: `data | regra/jogada | resultado (n, métrica) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição (v, data, evidência). Sem releitura há 14 dias, tratar [C] como [N].
