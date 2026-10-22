@@ -1,11 +1,16 @@
-# Relatório do Curador do Blog — 22/10/2026 15:56
+# Relatório do Curador do Blog — 22/10/2026 21:09
 
-68 artigos auditados, 8 com problema bloqueante.
+73 artigos auditados, 11 com problema bloqueante.
 
 - ok | alimentos-proibidos-para-cachorro
 - ok | ansiedade-de-separacao-em-caes
 - ok | arranhador-para-gato-qual-escolher
 - ok | brinquedos-para-cachorro-que-fica-sozinho
+- REPROVADO | cachorro-chorando-quando-fico-sozinho-o-que-fazer
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] sem seção 'Perguntas frequentes'
+    - [bloqueante] sem seção 'Para fechar'
+    - [aviso] título com 74 caracteres (ideal até 70)
 - ok | cachorro-latindo-muito-o-que-fazer
 - ok | caixa-de-transporte-para-gato
 - ok | coleira-ou-peitoral-para-cachorro
@@ -24,15 +29,16 @@
 - ok | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
     - [aviso] título com 81 caracteres (ideal até 70)
 - ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
+- REPROVADO | como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
+    - [bloqueante] link interno para página inexistente: com-com-quantos-meses-o-cachorro-pode-sair-na-rua
 - ok | como-ensinar-gato-a-usar-a-caixa-de-areia
 - ok | como-escolher-a-melhor-guia-e-peitoral-para-cachorro
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-escolher-caixa-de-transporte-para-viagem-de-aviao
 - ok | como-escolher-cinto-de-seguranca-pet-para-carro
-- ok | como-escolher-rampa-pet-para-sofa-e-cama-alta
-    - [aviso] parágrafo acima de 130 palavras
-- REPROVADO | como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento
-    - [bloqueante] conteúdo raso: 736 palavras (mínimo 850)
+- REPROVADO | como-escolher-rampa-pet-para-sofa-e-cama-alta
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
+- ok | como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento
     - [aviso] título com 81 caracteres (ideal até 70)
 - ok | como-escovar-os-dentes-do-cachorro
 - REPROVADO | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
@@ -42,8 +48,8 @@
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-evitar-bola-de-pelo-em-gato-com-escovacao
 - ok | como-evitar-que-o-filhote-chore-a-noite
-- REPROVADO | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
-    - [bloqueante] conteúdo raso: 844 palavras (mínimo 850)
+- ok | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
+    - [aviso] parágrafo acima de 130 palavras
 - ok | como-fazer-caldo-de-ossos-caseiro-para-cachorro
 - ok | como-fazer-filhote-de-cachorro-parar-de-morder
     - [aviso] parágrafo acima de 130 palavras
@@ -56,6 +62,8 @@
 - REPROVADO | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
     - [bloqueante] conteúdo raso: 728 palavras (mínimo 850)
     - [aviso] título com 73 caracteres (ideal até 70)
+- ok | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
+    - [aviso] título com 72 caracteres (ideal até 70)
 - ok | como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | como-saber-se-o-asfalto-esta-quente-para-passear
@@ -92,7 +100,17 @@
     - [aviso] parágrafo acima de 130 palavras
 - ok | qual-a-melhor-racao-para-filhote-de-cachorro
 - ok | quantas-vezes-por-dia-alimentar-gato
+- REPROVADO | quantas-vezes-por-dia-o-cachorro-precisa-passear
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] sem seção 'Perguntas frequentes'
+    - [bloqueante] sem seção 'Para fechar'
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
 - ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
+- REPROVADO | quantos-dias-o-gato-pode-ficar-sozinho-em-casa
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] sem seção 'Perguntas frequentes'
+    - [bloqueante] sem seção 'Para fechar'
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
 - ok | racao-para-filhote-de-cachorro
 - ok | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
     - [aviso] título com 79 caracteres (ideal até 70)

@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como fazer cachorro idoso aceitar um filhote novo: guia prático",
-    "description": "Como fazer cachorro idoso aceitar um filhote novo: guia prático. Se você decidiu que a sua casa estava calma demais e resolveu adotar um furacão em...",
+    "description": "Aprenda como fazer cachorro idoso aceitar um filhote novo com passos graduais, respeito ao espaço e dicas práticas de convivência harmoniosa.",
     "datePublished": "2026-10-14",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-fazer-cachorro-idoso-aceitar-um-filhote-novo"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,26 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O meu cachorro idoso está rosnando para o filhote. Devo brigar?",
+        "name": "Quanto tempo costuma levar para o cão idoso aceitar o filhote?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Geralmente, o rousse ou o rosnado baixo é um aviso saudável de limite. O idoso está dizendo \"chega\". Só interfira e separe se houver agressão real ou se o filhote ignorar o aviso e insistir no atrito."
+          "text": "Em média, o processo de adaptação tranquila costuma levar de duas a seis semanas, dependendo do temperamento de cada animal e do nível de manejo do ambiente implementado pelos tutores."
         }
       },
       {
         "@type": "Question",
-        "name": "Quanto tempo demora para o cão mais velho aceitar o filhote?",
+        "name": "É normal o cão idoso rosnar para o filhote novo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Isso varia muito. Alguns levam poucos dias, enquanto outros precisam de semanas em média para tolerar a presença do novo morador. Tenha paciência e respeite o ritmo deles."
+          "text": "Sim. O rosnado faz parte da comunicação canina saudável e serve para ensinar limites espaciais ao filhote, desde que não venha acompanhado de tentativas reais de mordida ou perseguição agressiva."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso deixar os dois sozinhos em casa logo na primeira semana?",
+        "name": "Devo deixar os dois sozinhos soltos na casa logo de início?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "De jeito nenhum. Enquanto o filhote estiver na fase de bagunça e o idoso ainda estiver se adaptando, mantenha-os separados por portas ou portões quando você não estiver por perto para supervisionar."
+          "text": "Nunca. Durante os primeiros meses, cães idosos e filhotes só devem interagir sob supervisão humana direta. Em momentos de ausência, mantenha-os separados por barreiras físicas para evitar acidentes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como dar atenção ao filhote sem causar ciúmes no cão idoso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mantenha rigorosamente os horários e rituais do veterano (passeios exclusivos, carinho preferencial matinal) e sempre ofereça recompensas ao cão idoso quando o filhote estiver por perto, criando uma associação positiva.  ---"
         }
       }
     ]

@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como montar um cronograma de enriquecimento ambiental para cães sozinhos: guia prático",
-    "description": "Como montar um cronograma de enriquecimento ambiental para cães sozinhos: guia prático. Deixar o cachorro sozinho em casa não precisa ser sinônimo de...",
+    "headline": "Como montar um cronograma de enriquecimento ambiental para cães sozinhos",
+    "description": "Como montar um cronograma de enriquecimento ambiental para cães sozinhos. Deixar o cão sozinho em casa pode gerar preocupação, especialmente quando...",
     "datePublished": "2026-10-22",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,26 +22,26 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O cão pode comer tudo o que encontro para enriquecimento?",
+        "name": "O que fazer se o meu cão ignorar os brinquedos interativos no começo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não. Evite materiais que soltem farpas, plásticos rígidos que possam quebrar ou itens pequenos que causem engasgo. Sempre supervisione o uso inicial de qualquer novidade."
+          "text": "Isso costuma acontecer porque o desafio é difícil demais ou o recheio não é atraente o suficiente. Comece facilitando o acesso ao petisco e use alimentos muito saborosos, como pasta de amendoim integral sem açúcar ou sachê."
         }
       },
       {
         "@type": "Question",
-        "name": "Quanto tempo o cão gasta com esses brinquedos?",
+        "name": "Posso deixar o mesmo brinquedo recheado todos os dias?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende do nível de dificuldade. Um comedouro congelado bem apertado costuma durar entre vinte a quarenta minutos, ajudando a acalmar o cão logo após a sua saída."
+          "text": "Não é recomendado, pois o cão pode enjoar da dinâmica ou do sabor. O ideal é variar os recheios e alternar os tipos de acessórios ao longo da semana para manter o interesse alto."
         }
       },
       {
         "@type": "Question",
-        "name": "Posso deixar comida estragada no comedouro congelado?",
+        "name": "Preciso gastar muito dinheiro para montar um cronograma eficiente?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Utilize apenas alimentos seguros, iogurte natural sem açúcar, pasta de amendoim integral sem xylitol ou ração umedecida. Se houver dúvidas sobre ingredientes, confirme sempre com o médico-veterinário do pet."
+          "text": "De jeito nenhum. É possível criar ótimos desafios usando caixas de papelão limpas, garrafas pet furadas para liberar ração e toalhas velhas amarradas com petiscos dentro, conhecidas como tapetes de faro artesanais."
         }
       }
     ]
