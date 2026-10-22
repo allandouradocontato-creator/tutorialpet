@@ -13,3 +13,6 @@ biblioteca/habilidades/criativo_venda_low_ticket.md — estrutura fixa 15-25s/VS
 3. Regras: sem promessa de cura nem de resultado garantido, "consulte o veterinário" quando falar de saúde, sem depoimento inventado (se não houver cliente real, use "demonstração do app"), sem preço por dia/mês.
 4. Escreva data/marketing/roteiros_venda.md (até 60 linhas) e deixe o pacote pronto para a Fábrica de vídeo (formato igual a data/social/roteiros). Commit "marketing: roteiros de venda AAAA-MM-DD" e push.
 5. RESULTADO em até 5 linhas: roteiros novos, o gancho replicado e o que precisa da decisão do Allan.
+
+## SAÍDA OBRIGATÓRIA DE SKILL (22/10/2026)
+Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algoritmo, analise_referencia_viral, anuncios_meta_decisao, criativo_venda_low_ticket), grave 1 linha em data/habilidades/aprendizado/<skill>.md no formato definido na seção "Saída obrigatória" da própria skill: `data | regra aplicada | resultado (n, métrica) | mantém/altera`. Rodada sem a linha conta como "não aplicou" e o Removedor de Gargalos marca falha (PADRAO_SKILL_ROBUSTA.md, réguas 4 e 7). Skills v2 ainda são rascunho até a prova: cite o número da regra aplicada.
