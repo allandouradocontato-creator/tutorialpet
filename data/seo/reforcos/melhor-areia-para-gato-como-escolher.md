@@ -45,7 +45,7 @@ A tabela resume o que as fontes consultadas descrevem. Os níveis de custo são 
 | Granulado de madeira / serragem | bom | não; vira pó quando molhado | baixo a médio | pode ir ao vaso conforme o fabricante | baixo |
 | Milho ou mandioca | bom | sim, firme | baixo | conforme o fabricante (veja abaixo) | médio |
 
-Atenção a uma divergência: a Itatiaia cita pellets de madeira entre as opções de pouca poeira, enquanto a [Petz](https://www.petz.com.br/blog/dicas/qual-a-melhor-areia-para-gatos-conheca-as-mais-recomendadas/) diz que o granulado higiênico pode não ser indicado para animais com problemas respiratórios. Por isso, para gato com problema respiratório, vale pedir a orientação do médico-veterinário.
+Atenção a uma divergência: a Itatiaia cita pellets de madeira entre as opções de pouca poeira, enquanto a [Petz](https://www.petz.com.br/blog/dicas/qual-a-melhor-areia-para-gatos-conheca-as-mais-recomendadas/) diz que o granulado higiênico aglutinante pode não ser indicado para animais com problemas respiratórios. Por isso, para gato com problema respiratório, vale pedir a orientação do médico-veterinário.
 
 ## Areia que não fede: o que realmente controla o cheiro?
 
@@ -92,7 +92,7 @@ Um teste caseiro simples, sugerido pelo mesmo texto: espalhe a areia numa bandej
 
 Se houver espaço, deixe uma segunda caixa com a areia nova ao lado da antiga, como sugere a Petlove, e nunca repreenda o gato por recusar. Se ele passar a urinar fora da caixa ou usá-la menos, volte ao passo anterior. **Se parar de usar a caixa mesmo com a troca gradual, procure o médico-veterinário:** infecção urinária e outros problemas de saúde podem ser confundidos com birra, e reter a urina por estresse também é um risco, segundo a mesma reportagem.
 
-Se o gato ainda está aprendendo, veja [como ensinar o gato a usar a caixa de areia](/como-ensinar-gato-a-usar-a-caixa-de-areia).
+Se quer que ele beba mais água, veja [como fazer o gato beber mais água](/como-fazer-o-gato-beber-mais-agua). Se o gato ainda está aprendendo, veja [como ensinar o gato a usar a caixa de areia](/como-ensinar-gato-a-usar-a-caixa-de-areia).
 
 ## Quanta areia colocar, e quantas caixas ter?
 
@@ -100,7 +100,7 @@ Se o gato ainda está aprendendo, veja [como ensinar o gato a usar a caixa de ar
 
 ## Pode jogar areia de gato no vaso sanitário?
 
-**Só quando o fabricante disser claramente que pode; na dúvida, lixo comum.** O site eCycle afirma que areia de argila ou sílica só pode ir ao lixo comum, e que a tubulação residencial não foi feita para isso, com risco de entupimento. A areia biodegradável pode ir ao lixo ou à composteira, mas o eCycle alerta: não use esse composto em horta ou alimentos, porque a composteira doméstica não atinge a temperatura para eliminar o *Toxoplasma gondii*, causador da toxoplasmose. Use luvas, feche bem o saco e lave as mãos ao final. Gestantes e pessoas com imunidade baixa devem pedir orientação médica antes de limpar a caixa.
+**Só quando o fabricante disser claramente que pode; na dúvida, lixo comum.** O site eCycle afirma que areia de argila ou sílica só pode ir ao lixo comum, e que a tubulação residencial não foi feita para isso, com risco de entupimento. A areia biodegradável pode ir ao lixo ou à composteira, mas o eCycle alerta: não use esse composto em horta ou alimentos, porque a composteira doméstica não atinge a temperatura para eliminar o *Toxoplasma gondii*, causador da toxoplasmose. Por precaução (orientação nossa, não do eCycle): use luvas, feche bem o saco e lave as mãos ao final; gestantes e pessoas com imunidade baixa devem pedir orientação médica antes de limpar a caixa.
 
 ## Perguntas frequentes
 

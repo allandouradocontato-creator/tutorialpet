@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 22/10/2026 20:25
+# Relatório do Curador do Blog — 22/10/2026 20:43
 
 1 artigos auditados, 0 com problema bloqueante.
 
-- ok | ate-que-ponto-e-saudavel-vestir-cachorro-e-gato
-    - [aviso] parágrafo acima de 130 palavras
+- ok | coleira-ou-peitoral-para-cachorro
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
