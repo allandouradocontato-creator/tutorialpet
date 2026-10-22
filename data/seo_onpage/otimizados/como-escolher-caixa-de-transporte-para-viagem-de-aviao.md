@@ -46,19 +46,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-caixa-de-transporte-para-viagem-de-aviao.jsonld.json
 imagem_capa: imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao.jpg
 imagem_fonte: pexels
-imagem_fotografo: Helmut Retsch
-imagem_fotografo_url: https://www.pexels.com/@omron2003
-imagem_url_pagina: https://www.pexels.com/photo/cute-dog-wearing-sunglasses-in-bicycle-basket-outdoors-35230227/
-imagem_selecionada_em: '2026-10-22T15:33:27+00:00'
+imagem_fotografo: Antonio Lorenzana Bermejo
+imagem_fotografo_url: https://www.pexels.com/@antonio-lorenzana-bermejo-353570724
+imagem_url_pagina: https://www.pexels.com/photo/dogs-in-basket-18735033/
+imagem_selecionada_em: '2026-10-22T16:45:37+00:00'
 imagens_corpo:
 - arquivo: imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao-corpo-1.jpg
-  alt: 'Dois chihuahuas confortáveis dentro de uma caixa de transporte'
-  fotografo: 'Antonio Lorenzana Bermejo'
-  fonte_url: 'https://www.pexels.com/photo/dogs-in-basket-18735033/'
+  alt: Dois chihuahuas confortáveis dentro de uma caixa de transporte
+  fotografo: Antonio Lorenzana Bermejo
+  fonte_url: https://www.pexels.com/photo/dogs-in-basket-18735033/
 - arquivo: imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao-corpo-2.jpg
-  alt: 'Gato tranquilo em um cesto de transporte'
-  fotografo: 'Bunkac Bebec'
-  fonte_url: 'https://www.pexels.com/photo/adorable-kitten-resting-inside-wicker-basket-carrier-35173632/'
+  alt: Gato tranquilo em um cesto de transporte
+  fotografo: Bunkac Bebec
+  fonte_url: https://www.pexels.com/photo/adorable-kitten-resting-inside-wicker-basket-carrier-35173632/
 ---
 
 # Como escolher caixa de transporte para viagem de aviao: guia prático

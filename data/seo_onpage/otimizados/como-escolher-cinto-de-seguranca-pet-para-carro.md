@@ -60,19 +60,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-cinto-de-seguranca-pet-para-carro.jsonld.json
 imagem_capa: imagens/como-escolher-cinto-de-seguranca-pet-para-carro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Genadi Yakovlev
-imagem_fotografo_url: https://www.pexels.com/@gy1610
-imagem_url_pagina: https://www.pexels.com/photo/man-with-dog-in-car-16374265/
-imagem_selecionada_em: '2026-10-22T15:33:27+00:00'
+imagem_fotografo: John Wu
+imagem_fotografo_url: https://www.pexels.com/@john-wu-820554380
+imagem_url_pagina: https://www.pexels.com/photo/adorable-dog-enjoying-car-ride-outdoors-34623759/
+imagem_selecionada_em: '2026-10-22T16:45:37+00:00'
 imagens_corpo:
 - arquivo: imagens/como-escolher-cinto-de-seguranca-pet-para-carro-corpo-1.jpg
-  alt: 'Cachorro olhando pela janela do carro'
-  fotografo: 'John Wu'
-  fonte_url: 'https://www.pexels.com/photo/adorable-dog-enjoying-car-ride-outdoors-34623759/'
+  alt: Cachorro olhando pela janela do carro
+  fotografo: John Wu
+  fonte_url: https://www.pexels.com/photo/adorable-dog-enjoying-car-ride-outdoors-34623759/
 - arquivo: imagens/como-escolher-cinto-de-seguranca-pet-para-carro-corpo-2.jpg
-  alt: 'Cachorro sentado no banco do veículo'
-  fotografo: 'Özgür Sürmeli'
-  fonte_url: 'https://www.pexels.com/photo/dog-sitting-on-car-11782300/'
+  alt: Cachorro sentado no banco do veículo
+  fotografo: Özgür Sürmeli
+  fonte_url: https://www.pexels.com/photo/dog-sitting-on-car-11782300/
 ---
 
 # Como escolher cinto de seguranca pet para carro: guia prático
