@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como fazer caldo de ossos caseiro para cachorro: guia prático",
+    "description": "Como fazer caldo de ossos caseiro para cachorro: guia prático. Se você me dissesse há alguns anos que eu estaria na cozinha de madrugada, vigiando uma...",
+    "datePublished": "2026-10-20",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-fazer-caldo-de-ossos-caseiro-para-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-fazer-caldo-de-ossos-caseiro-para-cachorro"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-caldo-de-ossos-caseiro-para-cachorro.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar o osso que sobrou do cozimento para o cachorro roer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, de jeito nenhum. O cozimento altera a estrutura óssea, tornando-o frágil e sujeito a lascas afiadas que podem perfurar o trato digestivo. Jogue todos os ossos cozidos direto no lixo bem fechado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O caldo não ficou gelatinoso, ficou líquido. Fiz algo errado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Provavelmente faltou tempo de fogo ou ossos com bastante colágeno (como juntas, patas e cartilagens), ou você usou água demais. Ele ainda tem valor nutritivo e pode ser oferecido normalmente, mas na próxima use mais cartilagens e deixe reduzir por mais tempo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhotes e idosos podem tomar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim! Para filhotes em crescimento, o caldo ajuda no aporte hídrico; para idosos com articulações rígidas ou dentes sensíveis, ele é um bálsamo. Contudo, confirme com o veterinário se não há restrições individuais para o caso do seu pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cachorros com problemas renais ou pancreatite podem consumir?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Casos com histórico de pancreatite ou doença renal demandam controle rigoroso de fósforo, proteínas e gorduras residuais. Nesses cenários, a liberação do médico-veterinário é indispensável antes de oferecer."
+        }
+      }
+    ]
+  }
+}

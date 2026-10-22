@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher caixa de transporte para viagem de aviao: guia prático",
+    "description": "Como escolher caixa de transporte para viagem de aviao: guia prático. Vai viajar e quer levar seu melhor amigo junto? A ideia é incrível, mas a...",
+    "datePublished": "2026-10-20",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-caixa-de-transporte-para-viagem-de-aviao",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-caixa-de-transporte-para-viagem-de-aviao"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar calmante para o pet dormir durante o voo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não dê medicamentos por conta própria. A maioria das companhias aéreas desaconselha sedativos, pois eles afetam a pressão arterial e a respiração na altitude. Qualquer suporte calmante deve ser avaliado exclusivamente pelo médico-veterinário do pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A caixa de transporte com rodinhas é permitida no avião?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Geralmente sim para locomoção no aeroporto, mas as rodinhas devem ser removíveis ou recolhidas e travadas antes do embarque. No porão ou sob o assento, a caixa precisa ficar imóvel no chão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bolsa de tecido comum serve para levar pet na cabine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. As companhias aéreas exigem bolsas específicas para transporte animal, que tenham fundo rígido impermeável, telas respiráveis resistentes a unhas e fecho com trava de segurança."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como identificar a caixa de transporte para o porão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cole adesivos com a palavra \"ANIMAL VIVO\" em letras grandes, além de etiquetas resistentes com seu nome completo, telefone, endereço de origem e destino, número do voo e nome do animal.  ---"
+        }
+      }
+    ]
+  }
+}

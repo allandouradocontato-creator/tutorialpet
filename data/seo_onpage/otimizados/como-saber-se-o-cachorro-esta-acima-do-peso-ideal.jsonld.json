@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como saber se o cachorro esta acima do peso ideal: guia prático",
+    "description": "Como saber se o cachorro esta acima do peso ideal: guia prático. O ganho de peso em cães costuma acontecer de forma silenciosa e gradual. Muitas vezes,...",
+    "datePublished": "2026-10-21",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-saber-se-o-cachorro-esta-acima-do-peso-ideal",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-saber-se-o-cachorro-esta-acima-do-peso-ideal"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-saber-se-o-cachorro-esta-acima-do-peso-ideal.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A castração faz o cachorro engordar obrigatoriamente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O procedimento costuma reduzir o gasto energético diário em média entre 20% e 30%, mas o ganho de peso só acontece se o tutor mantiver a mesma quantidade calórica de antes. O médico-veterinário orientará o ajuste preventivo logo após a cirurgia."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso avaliar o peso de um cão muito peludo apenas olhando?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, pois pelos densos, enrolados ou volumosos escondem tanto a perda de cintura quanto a proeminência das costelas. Em cães de pelagem farta, a apalpação das costelas e da coluna é o único método visual-tátil confiável para a checagem em casa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual é o ritmo seguro de perda de peso para um cão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A perda de peso saudável costuma girar entre 1% e 2% do peso corporal do cão por semana, em média. Emagrecimentos mais rápidos do que isso colocam em risco o fígado e a massa muscular, exigindo sempre monitoramento profissional."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Oferecer petiscos naturais em excesso também engorda?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Mesmo petiscos saudáveis, como cenoura cozida, maçã ou pedaços de carne magra, somam calorias na contagem diária. O total de agrados e agalhas nunca deve ultrapassar 10% da necessidade calórica diária recomendada pelo veterinário."
+        }
+      }
+    ]
+  }
+}

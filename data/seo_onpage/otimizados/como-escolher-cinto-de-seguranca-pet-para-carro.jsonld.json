@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher cinto de seguranca pet para carro: guia prático",
+    "description": "Como escolher cinto de seguranca pet para carro: guia prático. Há algo profundamente terno em ver o focinho de um cão colado à janela do carro,...",
+    "datePublished": "2026-10-21",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-cinto-de-seguranca-pet-para-carro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-cinto-de-seguranca-pet-para-carro"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-cinto-de-seguranca-pet-para-carro.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar o mesmo cinto de segurança para gatos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendado. Gatos têm anatomia flexível e reagem de forma diferente ao estresse do carro. Para felinos, a melhor opção costuma ser a [caixa de transporte para gato](/caixa-de-transporte-para-gato) presa firmemente pelo cinto de segurança do veículo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qualquer peitoral serve para usar com o cinto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O ideal é utilizar peitorais reforçados de passeio ou específicos para automóveis. Evite peitorais finos de tecido frágil ou enfeites decorativos que possam se romper sob pressão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Existe tamanho único de cinto pet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Embora a fita de adaptação ao cinto do carro costuma ser ajustável, o peitoral acoplado deve corresponder exatamente ao peso e à circunferência do tórax do seu animal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O cinto impede totalmente que o cão se movimente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Ele limita o espaço para garantir a segurança em caso de impacto, mas permite que o pet mude de posição, sente ou deite durante viagens longas."
+        }
+      }
+    ]
+  }
+}
