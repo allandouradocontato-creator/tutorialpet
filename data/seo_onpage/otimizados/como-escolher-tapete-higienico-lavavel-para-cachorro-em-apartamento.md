@@ -16,7 +16,7 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T21:09:54+00:00'
+revisado_em: '2026-10-22T22:28:34+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -36,7 +36,7 @@ checagens_qualidade:
 titulo_seo: Como escolher tapete higienico lavavel para cachorro em
 keyword_density: 0.0091
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T21:09:54+00:00'
+otimizado_em: '2026-10-22T22:28:35+00:00'
 checagens_seo:
 - título original (81 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -58,6 +58,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento.jsonld.json
+imagem_capa: imagens/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento.jpg
+imagem_fonte: pexels
+imagem_fotografo: https://kaboompics.com/
+imagem_fotografo_url: https://www.pexels.com/@karola-g
+imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-sanitary-napkin-near-red-petals-7282096/
+imagem_selecionada_em: '2026-10-22T22:28:35+00:00'
 ---
 
 # Como escolher tapete higienico lavavel para cachorro em apartamento: guia prático

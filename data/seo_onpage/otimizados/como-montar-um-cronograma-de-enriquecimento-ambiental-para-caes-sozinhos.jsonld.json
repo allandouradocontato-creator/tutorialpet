@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

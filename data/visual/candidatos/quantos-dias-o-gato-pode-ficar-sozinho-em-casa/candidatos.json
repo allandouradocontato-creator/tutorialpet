@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 127027,
+    "url_download": "https://images.pexels.com/photos/127027/pexels-photo-127027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/russian-blue-kitten-on-brown-woven-basket-127027/",
+    "fotografo": "Vadim B",
+    "fotografo_url": "https://www.pexels.com/@vatius",
+    "largura": 5197,
+    "altura": 3465,
+    "query": "cute lonely cat alone at home",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35316398,
+    "url_download": "https://images.pexels.com/photos/35316398/pexels-photo-35316398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-ginger-kitten-sitting-on-a-mat-indoors-35316398/",
+    "fotografo": "ivi nnnnnn",
+    "fotografo_url": "https://www.pexels.com/@ivi-nnnnnn-129330",
+    "largura": 5990,
+    "altura": 3993,
+    "query": "cute lonely cat alone at home",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30591653,
+    "url_download": "https://images.pexels.com/photos/30591653/pexels-photo-30591653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-white-cat-sitting-outdoors-on-pavement-30591653/",
+    "fotografo": "Yuliia Patrikhalkina",
+    "fotografo_url": "https://www.pexels.com/@yuliia-patrikhalkina-521338253",
+    "largura": 7360,
+    "altura": 4912,
+    "query": "cute lonely cat alone at home",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8281109,
+    "url_download": "https://images.pexels.com/photos/8281109/pexels-photo-8281109.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-sitting-at-step-8281109/",
+    "fotografo": "再一 碗",
+    "fotografo_url": "https://www.pexels.com/@67122015",
+    "largura": 7360,
+    "altura": 4912,
+    "query": "cute lonely cat alone at home",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 38390636,
+    "url_download": "https://images.pexels.com/photos/38390636/pexels-photo-38390636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/peaceful-ginger-kitten-sleeping-in-warm-sunlight-38390636/",
+    "fotografo": "Petterson Lima",
+    "fotografo_url": "https://www.pexels.com/@petterson-lima-129685339",
+    "largura": 5334,
+    "altura": 4000,
+    "query": "cat sleeping peacefully indoors sunbeam",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13735853,
+    "url_download": "https://images.pexels.com/photos/13735853/pexels-photo-13735853.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/tabby-cat-in-close-up-photography-13735853/",
+    "fotografo": "Benjamin Farren",
+    "fotografo_url": "https://www.pexels.com/@benjaminfarren",
+    "largura": 7296,
+    "altura": 4946,
+    "query": "cat sleeping peacefully indoors sunbeam",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/5.jpg"
+  }
+]

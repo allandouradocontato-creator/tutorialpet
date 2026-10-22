@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T21:09:54+00:00'
+revisado_em: '2026-10-22T22:24:55+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -37,7 +37,7 @@ checagens_qualidade:
 titulo_seo: 'Como fazer cachorro idoso aceitar um filhote novo: guia'
 keyword_density: 0.0064
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T21:09:54+00:00'
+otimizado_em: '2026-10-22T22:24:55+00:00'
 checagens_seo:
 - título original (63 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -57,6 +57,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jsonld.json
+imagem_capa: imagens/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jpg
+imagem_fonte: pexels
+imagem_fotografo: Suman Sutradhar
+imagem_fotografo_url: https://www.pexels.com/@studderio
+imagem_url_pagina: https://www.pexels.com/photo/three-puppies-playing-outside-18973956/
+imagem_selecionada_em: '2026-10-22T22:24:55+00:00'
 ---
 
 # Como fazer cachorro idoso aceitar um filhote novo: guia prático

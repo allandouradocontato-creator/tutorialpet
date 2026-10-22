@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 40063172,
+    "url_download": "https://images.pexels.com/photos/40063172/pexels-photo-40063172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/happy-golden-retriever-in-a-sunny-urban-park-40063172/",
+    "fotografo": "Rô Acunha",
+    "fotografo_url": "https://www.pexels.com/@roacunha",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "happy dog walking outdoors",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-o-cachorro-precisa-passear/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16652403,
+    "url_download": "https://images.pexels.com/photos/16652403/pexels-photo-16652403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-wearing-a-bandana-16652403/",
+    "fotografo": "Matheus Bertelli",
+    "fotografo_url": "https://www.pexels.com/@bertellifotografia",
+    "largura": 5983,
+    "altura": 3989,
+    "query": "happy dog walking outdoors",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-o-cachorro-precisa-passear/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37467772,
+    "url_download": "https://images.pexels.com/photos/37467772/pexels-photo-37467772.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/happy-brown-dog-walking-on-forest-path-37467772/",
+    "fotografo": "Emre Photography",
+    "fotografo_url": "https://www.pexels.com/@emrephotography",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "happy dog walking outdoors",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-o-cachorro-precisa-passear/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 19879920,
+    "url_download": "https://images.pexels.com/photos/19879920/pexels-photo-19879920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-golden-retriever-on-a-dog-walk-in-a-park-19879920/",
+    "fotografo": "CR7Rameshh",
+    "fotografo_url": "https://www.pexels.com/@cr7rameshh-2356540",
+    "largura": 4096,
+    "altura": 2733,
+    "query": "happy dog walking outdoors",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-o-cachorro-precisa-passear/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11512077,
+    "url_download": "https://images.pexels.com/photos/11512077/pexels-photo-11512077.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-on-a-leash-11512077/",
+    "fotografo": "gabesdotphotos photographer",
+    "fotografo_url": "https://www.pexels.com/@gabesphotos",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "happy dog walking outdoors",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-o-cachorro-precisa-passear/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33151982,
+    "url_download": "https://images.pexels.com/photos/33151982/pexels-photo-33151982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/energetic-poodle-playing-with-toy-outdoors-33151982/",
+    "fotografo": "Jay Brand",
+    "fotografo_url": "https://www.pexels.com/@jay-brand-1763356224",
+    "largura": 6536,
+    "altura": 4357,
+    "query": "dog running in park sunny day",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quantas-vezes-por-dia-o-cachorro-precisa-passear/5.jpg"
+  }
+]

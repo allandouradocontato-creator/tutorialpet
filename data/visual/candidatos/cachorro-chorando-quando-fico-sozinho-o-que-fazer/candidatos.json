@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35099696,
+    "url_download": "https://images.pexels.com/photos/35099696/pexels-photo-35099696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-portrait-of-dog-looking-out-window-35099696/",
+    "fotografo": "Alexander Tisko",
+    "fotografo_url": "https://www.pexels.com/@alexander-tisko-2156743736",
+    "largura": 6192,
+    "altura": 4128,
+    "query": "sad dog alone at home",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 18065206,
+    "url_download": "https://images.pexels.com/photos/18065206/pexels-photo-18065206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-behind-pane-18065206/",
+    "fotografo": "Diana ✨",
+    "fotografo_url": "https://www.pexels.com/@didsss",
+    "largura": 5864,
+    "altura": 3909,
+    "query": "sad dog alone at home",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34989889,
+    "url_download": "https://images.pexels.com/photos/34989889/pexels-photo-34989889.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-labrador-dog-behind-wall-34989889/",
+    "fotografo": "Arijit Dey",
+    "fotografo_url": "https://www.pexels.com/@arijit",
+    "largura": 6048,
+    "altura": 4032,
+    "query": "sad dog alone at home",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16389533,
+    "url_download": "https://images.pexels.com/photos/16389533/pexels-photo-16389533.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-maltese-dog-puppy-16389533/",
+    "fotografo": "Frágil y fugaz",
+    "fotografo_url": "https://www.pexels.com/@fragil-y-fugaz-39043722",
+    "largura": 4884,
+    "altura": 3448,
+    "query": "puppy crying indoor photography",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20680840,
+    "url_download": "https://images.pexels.com/photos/20680840/pexels-photo-20680840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-puppy-dog-20680840/",
+    "fotografo": "Tokuo Nobuhiro",
+    "fotografo_url": "https://www.pexels.com/@tokuo-nobuhiro-79378678",
+    "largura": 9528,
+    "altura": 6328,
+    "query": "puppy crying indoor photography",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10429807,
+    "url_download": "https://images.pexels.com/photos/10429807/pexels-photo-10429807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-and-brown-puppies-in-close-up-photography-10429807/",
+    "fotografo": "Nirukshan Bandara",
+    "fotografo_url": "https://www.pexels.com/@nirukshan-bandara-1400619",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "puppy crying indoor photography",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/5.jpg"
+  }
+]

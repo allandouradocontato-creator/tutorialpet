@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-fazer-cachorro-idoso-aceitar-um-filhote-novo"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-cachorro-idoso-aceitar-um-filhote-novo.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

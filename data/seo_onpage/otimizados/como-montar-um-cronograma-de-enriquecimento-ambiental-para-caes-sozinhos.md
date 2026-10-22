@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T21:09:54+00:00'
+revisado_em: '2026-10-22T22:29:37+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -27,7 +27,7 @@ checagens_qualidade:
 titulo_seo: Como montar um cronograma de enriquecimento ambiental para
 keyword_density: 0.0119
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T21:09:54+00:00'
+otimizado_em: '2026-10-22T22:29:37+00:00'
 checagens_seo:
 - título original (72 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -47,6 +47,17 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos.jsonld.json
+imagem_capa: imagens/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos.jpg
+imagem_fonte: pexels
+imagem_fotografo: André Fernandes
+imagem_fotografo_url: https://www.pexels.com/@andre-fernandes-2701637
+imagem_url_pagina: https://www.pexels.com/photo/cute-little-purebred-dog-in-robe-looking-out-window-at-home-4254053/
+imagem_selecionada_em: '2026-10-22T22:29:38+00:00'
+imagens_corpo:
+- arquivo: imagens/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos-corpo-1.jpg
+  alt: 'como montar um cronograma de enriquecimento ambiental para caes sozinhos'
+  fotografo: 'Helena Lopes'
+  fonte_url: 'https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/'
 ---
 
 # Como montar um cronograma de enriquecimento ambiental para cães sozinhos
