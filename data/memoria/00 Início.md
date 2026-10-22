@@ -18,3 +18,6 @@ Regra de ouro: conferir a informação na fonte antes de repassar; erro de agent
 - [[16 Manual - como construir uma holding com agentes]] é o método geral da holding (departamentos, agentes, habilidades, erros, plano B); a Apostila 15 é o caso Tutorial Pet.
 - [[17 Retomada - resumo para continuar]] é o resumo vivo: toda conversa nova começa por ele.
 - [[../../biblioteca/regras_de_ouro]] (cartilha de 1 página: leia 1 vez por sessão) e config/prompts/departamentos.md (diretores).
+
+## Habilidades de plataforma (22/10/2026, leitura obrigatória por quem decide/age em rede, anúncio ou blog)
+O compêndio virou habilidades executáveis em biblioteca/habilidades/: plataforma_meta_organico (FB/IG), plataforma_tiktok_organico, plataforma_youtube, plataforma_google_seo_adsense, trafego_meta_ads (+ anuncios_meta_decisao), trafego_tiktok_ads, trafego_google_ads. Use a skill como procedimento e regra de decisão; NÃO pesquise a plataforma de novo (só o que a skill marca como "validar"). Ao fim do ciclo, 1 linha em data/habilidades/aprendizado/<skill>.md; 3 linhas iguais = propor edição da skill. Fonte bruta: biblioteca/regras_plataformas/ (Google, TikTok e Meta prontos).
