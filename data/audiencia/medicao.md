@@ -1,4 +1,4 @@
-Dados até 2026-10-21 14:25 (Fortaleza)
+Dados até 2026-10-22 08:35 (Fortaleza) — leitura nova só de arquivos (Estrategista 22/10 07:35, Humorista 22/10, Especialista TikTok 22/10); sem consulta nova ao Zernio/Buffer nesta rodada (quinta = rodada curta)
 # Medição — Criador de Audiência (meta de 14 dias: 15/10 a 28/10/2026). Fontes: Zernio analytics (FB, IG, lido 21/10 ~14:15), Buffer (TikTok). Posts <12 h e posts com falha técnica fora das medianas. Horários do Zernio/Buffer vêm em UTC: subtrair 3 h.
 Campeão: nenhum ainda. Meme 8 s ganha dos vídeos de artigo em views e retenção, mas sem comentário de terceiros.
 ## Os 5 números (leitura 21/10 14:15)
@@ -25,3 +25,12 @@ Horário: janelas M/D/N da campanha; mín. 5 posts por janela antes de concluir.
 Sessões orgânicas: sem dado. Cliques do Search Console: sem dado. Pendência: o Allan precisa enviar o sitemap e pedir indexação (ver data/seo/relatorio.md).
 ## Próxima leitura
 Quinta 22/10 08:23 (72 h dos primeiros memes do lote das 08:40) e 72 h após os primeiros posts do r21b.
+
+## Atualização 22/10 08:35 (5 números, fontes: relatório do Estrategista 22/10 07:35 e placar do Humorista)
+1. Comentários de terceiros: 2 em 78 posts FB/IG; TikTok 4 em 35 posts (22/09 a 22/10). Memes: 0. Meta ≥5/vídeo segue longe.
+2. Compartilhamentos: FB 0 nos 12 posts de 19-20/10, IG 1, TikTok 2 (mais 15 em 35 posts no mês).
+3. Seguidores: FB 8 (+3 em 7 dias), IG 0, TikTok 19 (Allan 20/10; Buffer não informa).
+4. Cliques no blog: FB 14 somados desde 14/10 (leitura de 21/10); Search Console e sessões orgânicas: sem dado (pendência do Allan: enviar sitemap e pedir indexação).
+5. Vendas: sem dado (0 no baseline de 21/10, Kiwify).
+Campeão: nenhum. Em views o flagrante F2 (FB 562); no IG o meme manda (alcance 104-122 x explicador 3-35); no TikTok a pergunta numérica sobre horas sozinho (7,46 s).
+Uma variável por vez (lote r22q): X7 trend (A1, A2) x evergreen (A3): views e comentários em 72 h, trend vence rápido. X2 continua valendo (CTA A binário x B aberto, mesma arte). Nada de horário novo. Próxima leitura: 25/10 (72 h do lote de 22/10) e sexta 24/10 21:11 (veredito do Medidor).
