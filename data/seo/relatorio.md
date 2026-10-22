@@ -1,31 +1,34 @@
-Dados até 2026-10-22 12:50 UTC (Brasil 09:50)
-# Relatório SEO semanal — tutorialpet.com.br
+Dados até 2026-10-22 18:00 UTC (Brasil 15:00)
+# Relatório SEO semanal — tutorialpet.com.br (detalhes em auditoria_demanda, reforcos_demanda, buscas_obvias, semanal_2026-10-22)
 ## Medição
-- Build: 61 html, 59 no sitemap (fora só 404 e verificação Google, correto); todas com title, descrição, H1, canonical e 10+ links internos; robots.txt aponta o sitemap.
-- Alt: 32 miniaturas com alt="" (decorativas, ao lado do título linkado; sem ação). Core Web Vitals não medido (sem PageSpeed aqui).
-- Indexação: site:tutorialpet.com.br devolveu só PDFs de universidades, nenhuma página do domínio (a busca não é prova; só o Search Console confirma).
-- Fila: 127 pendentes antes desta rodada; +15 abaixo (sem duplicar; "bancada" já estava).
-- Aproveitado de data/audiencia/ideias.md (22/10): termos 1 e 2 (pautas pedidas pelo Criador de Audiência); reforçar links para quanto-tempo-um-cachorro-pode-ficar-sozinho.
-## 15 palavras-chave novas (termo | pilar | intenção, concorrência | vídeo)
-1. por que o gato derruba objetos da mesa | comportamento | informacional, baixa | video:sim
-2. rotina do cachorro quando o tutor passa mais tempo em casa | comportamento | informacional, baixa | video:sim
-3. cachorro chorando quando fico sozinho o que fazer | comportamento | informacional, media | video:sim
-4. por que o gato vomita bola de pelo e como ajudar em casa | cuidados_diarios | informacional, media | video:sim
-5. como dar banho em gato que odeia agua | cuidados_diarios | informacional, media | video:sim
-6. como cortar as unhas do gato sem estresse | cuidados_diarios | informacional, media | video:sim
-7. como fazer o cachorro ficar calmo com fogos de artificio | comportamento | informacional, media | video:sim
-8. quanto tempo o filhote de gato pode ficar sozinho | primeiros_passos_filhotes | informacional, baixa | video:sim
-9. lista do que comprar antes de trazer um filhote de cachorro para casa | primeiros_passos_filhotes | comercial, media | video:nao
-10. melhor areia sanitaria para gato como escolher | produtos_compras | comercial, alta | video:nao
-11. fonte de agua para gato vale a pena | produtos_compras | comercial, baixa | video:sim
-12. como ensinar o cachorro a andar na guia sem puxar | comportamento | informacional, media | video:sim
-13. quanto de agua o cachorro deve beber por dia | alimentacao | informacional, media | video:sim
-14. gato pode comer atum e sardinha | alimentacao | informacional, baixa | video:sim
-15. como acalmar gato no calor do verao dicas para casa | cuidados_diarios | informacional, baixa | video:sim
+- Build: 53 artigos + páginas; sitemap 63 URLs; canonical e 1 H1 em todas; 0 link interno quebrado; JSON-LD com FAQPage em 57. site:tutorialpet.com.br segue sem mostrar o domínio (só PDFs de universidades); só o Search Console prova indexação.
+- Causa do caso "assento": 0 tabelas de comparação em todo o site; 12 artigos de escolha sem sinônimo popular; 2 pares duplicados (ração filhote; brinquedos sozinho) para fundir; fecho "Para fechar" repetido em todos; 8+ artigos com 1 só link de entrada.
+- Afiliado: 0 links afiliados no ar; aviso obrigatório antes do primeiro.
+## Ação desta rodada (nada publicado; Juiz e Conferente aprovam)
+- 5 reforços propostos: cinto→"cadeirinha, cinto ou peitoral", caixa de transporte gato, coleira/peitoral, arranhador, areia (reforcos_demanda.md).
+- Buscas óbvias sem artigo, priorizadas: passear/dia, castração (pós), vermífugo, carrapato, anos humanos, ração adulto, vacina de gato (buscas_obvias.md).
+- Aproveitado de ideias.md: "gato derruba objetos" e "rotina com tutor em casa" já na fila (relatório de 22/10 manhã); reforço de links para quanto-tempo-sozinho.
+## 15 palavras-chave novas (+ fila; pilar | intenção, concorrência | vídeo)
+1 quantas vezes passear com cachorro por dia | cuidados_diarios | info, alta | sim
+2 cuidados depois da castração do cachorro e do gato | cuidados_diarios | info, alta | sim
+3 vermífugo para cachorro adulto quando dar | cuidados_diarios | info, alta | não
+4 como tirar carrapato do cachorro | cuidados_diarios | info, alta | sim
+5 cachorro pode comer ovo | alimentacao | info, média | sim
+6 cachorro pode comer arroz com frango todo dia | alimentacao | info, média | sim
+7 gato pode comer ração de cachorro | alimentacao | info, média | sim
+8 vacinas para gato filhote calendário | primeiros_passos_filhotes | info, média | não
+9 idade do cachorro em anos humanos tabela | cuidados_diarios | info, alta | sim
+10 quanto tempo o gato adulto pode ficar sozinho | comportamento | info, média | sim
+11 como saber se o gato está feliz | comportamento | info, média | sim
+12 cachorro com diarreia: em casa e quando ir ao veterinário | cuidados_diarios | info, alta | não
+13 como escolher cama para gato | produtos_compras | comercial, média | não
+14 comedouro elevado para cachorro vale a pena | produtos_compras | comercial, baixa | não
+15 como dar remédio para cachorro e gato | cuidados_diarios | info, média | sim
+Saúde (2,3,4,6,8,12,15): só aprovar com fonte veterinária nomeada (J4), sem dose. Conferido contra a fila: sem duplicar.
 ## Tráfego pago (proposta, decisão do Allan)
-- Seguir sem gastar (foco sem anúncios, sem indexação medida). Se testar: Meta Ads, vídeo 15 s, R$ 10/dia por 7 dias = R$ 70; meta clique < R$ 0,50; medir no GA4; exige Pixel + consentimento.
-## O QUE CADASTRAR E MEDIR NO GOOGLE
-1. Search Console: arquivo googledca47b425f080798.html no site; verificação, sitemap enviado e indexação NÃO confirmados (sem acesso). Pendência do Allan (login Google): search.google.com/search-console > Sitemaps > enviar sitemap.xml > Inspeção de URL (home + 3 artigos) > Solicitar indexação; mandar print de "Páginas". Sem mudança desde 21/10.
-2. GA4 (G-HP7ZXLFBXH) e Clarity (ytjlk68nn4): em 59 páginas, só após aceite de cookies. OK.
-3. Meta Pixel e 4. TikTok pixel: 0 ocorrências; só se for anunciar (decisão do Allan).
+- Sem gastar agora: sem indexação medida nem Pixel. Se testar depois: Meta Ads, vídeo 15 s, R$ 10/dia por 7 dias (R$ 70), meta clique < R$ 0,50, medir no GA4; exige Pixel + consentimento. Igual a 22/10.
+## O QUE CADASTRAR E MEDIR NO GOOGLE (sem mudança desde 22/10 manhã)
+1. Search Console: arquivo de verificação está no site; propriedade, sitemap e indexação NÃO confirmados (sem acesso). Pendência do Allan (login Google): search.google.com/search-console > Sitemaps > enviar sitemap.xml > Inspeção de URL (home + cinto + quanto-tempo-sozinho) > Solicitar indexação; depois exportar Desempenho > Consultas (16 dias) para a lista de 5 consultas.
+2. GA4 (G-HP7ZXLFBXH) e Clarity (ytjlk68nn4): presentes em 64 páginas do build (conferido 22/10 18h); Pixel Meta: 0. OK.
+3-4. Meta Pixel e TikTok pixel: não existem no blog; só se for anunciar (decisão do Allan).
 5. Discover/Notícias/Business: sem fonte oficial conferida; não recomendo.

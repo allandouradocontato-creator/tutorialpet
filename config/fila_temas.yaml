@@ -619,3 +619,74 @@ temas:
 - termo: como escolher arranhador ideal para gatos grandes em apartamento
   pilar: produtos_compras
   status: pendente
+- termo: quantas vezes passear com cachorro por dia
+  pilar: cuidados_diarios
+  status: pendente
+  data: '2026-10-22'
+- termo: cuidados depois da castração do cachorro e do gato
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'saúde: fonte veterinária nomeada no texto (J4); aprovar só com fonte'
+  data: '2026-10-22'
+- termo: vermifugo para cachorro adulto quando dar
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'saúde: fonte veterinária nomeada (J4)'
+  data: '2026-10-22'
+- termo: como tirar carrapato do cachorro
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'saúde: fonte nomeada (J4)'
+  data: '2026-10-22'
+- termo: cachorro pode comer ovo
+  pilar: alimentacao
+  status: pendente
+  data: '2026-10-22'
+- termo: cachorro pode comer arroz com frango todo dia
+  pilar: alimentacao
+  status: pendente
+  nota: 'saúde: fonte nomeada (J4)'
+  data: '2026-10-22'
+- termo: gato pode comer racao de cachorro
+  pilar: alimentacao
+  status: pendente
+  data: '2026-10-22'
+- termo: vacinas para gato filhote calendario
+  pilar: primeiros_passos_filhotes
+  status: pendente
+  nota: 'saúde: fonte nomeada (J4); tabela de calendário'
+  data: '2026-10-22'
+- termo: idade do cachorro em anos humanos tabela
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'formato tabela por porte'
+  data: '2026-10-22'
+- termo: quanto tempo o gato adulto pode ficar sozinho
+  pilar: comportamento
+  status: pendente
+  nota: 'linkar com quanto-tempo-um-cachorro-pode-ficar-sozinho; tabela'
+  data: '2026-10-22'
+- termo: como saber se o gato esta feliz
+  pilar: comportamento
+  status: pendente
+  data: '2026-10-22'
+- termo: cachorro com diarreia o que fazer em casa e quando ir ao veterinario
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'saúde: fonte nomeada (J4); sem dose nem remédio'
+  data: '2026-10-22'
+- termo: como escolher cama para gato
+  pilar: produtos_compras
+  status: pendente
+  nota: 'comparação em tabela; afiliado só com aviso (google.md)'
+  data: '2026-10-22'
+- termo: comedouro elevado para cachorro vale a pena
+  pilar: produtos_compras
+  status: pendente
+  nota: 'comparação honesta; afiliado só com aviso'
+  data: '2026-10-22'
+- termo: como dar remedio para cachorro e gato
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'saúde: fonte nomeada (J4); sem dose'
+  data: '2026-10-22'
