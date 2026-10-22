@@ -38,3 +38,10 @@ Linha-base cliques: 6 em 7 dias (21/10). Impressões, votos de enquete, comentá
 
 ## (g) Saída obrigatória e laço
 `data/habilidades/aprendizado/blog_adsense_4_semanas.md`: `data | jogada | resultado (n, métrica) | mantém/altera`. 3 linhas com o mesmo padrão = propor edição da skill. Sem a linha, a rodada conta como "não aplicou".
+
+## v1.2 (22/10/2026, ensaio do Juiz: 3 artigos em 3 moldes, média 7,67) — regras novas
+- D3 obrigatório: artigo que fala de saúde, limite de tempo ou comportamento cita pelo menos 1 fonte NOMEADA (entidade, estudo, manual de referência, com link). "Consulte o veterinário" não é fonte. Campo `autor` nunca vazio.
+- Variedade de fecho: nunca repetir o mesmo H2 de encerramento em artigos seguidos ("Para fechar"); alternar 4 fechos (pergunta ao leitor, checklist de 3 itens, erro mais comum, próximo passo). "Quando procurar o veterinário" muda de posição.
+- Título promete = texto entrega: se o título diz "5 primeiros minutos", os 5 minutos ocupam a 1ª metade do texto.
+- História composta: dizer que é composta é obrigatório e o desfecho não pode trazer número de resultado ("em uma semana parou").
+- Foto de corpo coerente com o H2 onde entra (rubrica B), 1 por artigo no mínimo.
