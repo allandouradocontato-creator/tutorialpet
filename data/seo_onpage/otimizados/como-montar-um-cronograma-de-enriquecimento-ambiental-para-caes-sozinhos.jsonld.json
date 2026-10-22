@@ -1,0 +1,50 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como montar um cronograma de enriquecimento ambiental para cães sozinhos: guia prático",
+    "description": "Como montar um cronograma de enriquecimento ambiental para cães sozinhos: guia prático. Deixar o cachorro sozinho em casa não precisa ser sinônimo de...",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cão pode comer tudo o que encontro para enriquecimento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Evite materiais que soltem farpas, plásticos rígidos que possam quebrar ou itens pequenos que causem engasgo. Sempre supervisione o uso inicial de qualquer novidade."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo o cão gasta com esses brinquedos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do nível de dificuldade. Um comedouro congelado bem apertado costuma durar entre vinte a quarenta minutos, ajudando a acalmar o cão logo após a sua saída."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar comida estragada no comedouro congelado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Utilize apenas alimentos seguros, iogurte natural sem açúcar, pasta de amendoim integral sem xylitol ou ração umedecida. Se houver dúvidas sobre ingredientes, confirme sempre com o médico-veterinário do pet."
+        }
+      }
+    ]
+  }
+}
