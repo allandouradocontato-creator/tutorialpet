@@ -1,0 +1,64 @@
+name: Teste foto por IA gratis (plano B)
+
+# Teste (22/10): o CF Workers AI (FLUX schnell) gera foto de raca e ela passa no mesmo portao de raca?
+# Grava as imagens em data/ensaios/foto_ia/ para o Claude olhar; nao publica nada no site.
+on:
+  workflow_dispatch:
+    inputs:
+      raca:
+        description: "raca/especie (ex.: yorkshire)"
+        required: false
+        default: "yorkshire"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: teste-foto-ia
+  cancel-in-progress: false
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Gerar e julgar
+        env:
+          RACA: ${{ github.event.inputs.raca }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          mkdir -p data/ensaios/foto_ia
+          python - <<'PY'
+          import os, sys
+          from pathlib import Path
+          sys.path.insert(0, ".")
+          sys.path.insert(0, "scripts")
+          from gerar_foto_ia import gerar
+          from core.coerencia import verificar_imagens, detectar
+          raca = os.environ.get("RACA", "yorkshire")
+          esp, rc = detectar(raca)
+          print("detectado:", esp, rc)
+          for v in range(3):
+              dest = Path(f"data/ensaios/foto_ia/{raca.replace(' ', '-')}_{v}.jpg")
+              ok, msg = gerar(raca, dest, v)
+              print(f"[gerar {v}] {ok} {msg}")
+              if ok:
+                  okc, motivo = verificar_imagens([dest.read_bytes()], esp, rc)
+                  print(f"[portao {v}] {'ok' if okc else 'REPROVADA'} - {motivo}")
+          PY
+      - name: Gravar
+        run: |
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@users.noreply.github.com"
+          git add data/ensaios/foto_ia
+          git commit -m "teste: fotos por IA gratis (plano B)" || echo "nada a commitar"
+          for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin main && break; sleep 5; done
