@@ -1,0 +1,1 @@
+2026-10-22 18:20Z | fire Executor (PENDING 8,4 h sem commit) + dispatch publicar_blog (rampa-pet aprovada pela fabrica sem publicar; push de GITHUB_TOKEN nao dispara workflow) + reforco_blog + galgo em capas_refazer | pendente: confirmar SUCCEEDED/commit na proxima rodada | mantem (regra: aprovado pela fabrica exige dispatch)
