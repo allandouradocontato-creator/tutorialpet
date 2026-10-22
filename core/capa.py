@@ -48,9 +48,17 @@ def avaliar(imagens: list[bytes], tema: str) -> list[dict]:
               "Responda SOMENTE um array JSON, um objeto por imagem.")
     partes = [{"text": pedido}] + [{"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(b).decode()}} for b in imagens]
     modelo = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
-    d = _post(GEMINI_URL.format(model=modelo), {"contents": [{"role": "user", "parts": partes}],
-              "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2000, "responseMimeType": "application/json"}},
-              {"x-goog-api-key": chave}, timeout=60, tentativas=2)
+    import time
+    for tent in range(4):   # 22/10: HTTP 429 (limite do Gemini gratis) -> espera e tenta de novo
+        try:
+            d = _post(GEMINI_URL.format(model=modelo), {"contents": [{"role": "user", "parts": partes}],
+                      "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2000, "responseMimeType": "application/json"}},
+                      {"x-goog-api-key": chave}, timeout=60, tentativas=1)
+            break
+        except Exception as exc:  # noqa: BLE001
+            if "429" not in str(exc) or tent == 3:
+                raise
+            time.sleep(25 * (tent + 1))
     txt = "".join(p.get("text", "") for p in d["candidates"][0]["content"]["parts"])
     return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
 
@@ -69,9 +77,10 @@ def escolher(slug: str) -> tuple[int | None, str]:
         res = avaliar([f.read_bytes() for f in livres], slug.replace("-", " "))
     except Exception as exc:  # noqa: BLE001
         return None, f"visao indisponivel: {str(exc)[:80]}"
-    for f, r in zip(livres, res):
-        if isinstance(r, dict) and r.get("mostra_o_tema") and r.get("bonita_agradavel") and not r.get("agressiva_ou_triste"):
-            return int(f.stem), str(r.get("motivo", ""))
+    bons = [(f, r) for f, r in zip(livres, res) if isinstance(r, dict) and r.get("mostra_o_tema") and r.get("bonita_agradavel") and not r.get("agressiva_ou_triste")]
+    escolher.bons = [int(f.stem) for f, _ in bons]
+    if bons:
+        return int(bons[0][0].stem), str(bons[0][1].get("motivo", ""))
     return None, "nenhuma candidata mostra o tema com foto bonita: " + "; ".join(f"{f.stem}={r.get('motivo','?')}" for f, r in zip(livres, res) if isinstance(r, dict))
 
 

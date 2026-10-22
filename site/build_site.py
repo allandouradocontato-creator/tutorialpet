@@ -324,6 +324,21 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                       f'<figcaption style="text-align:center;font-size:.9rem">Veja em vídeo (30 segundos)</figcaption></figure>')
 
     body_html = md_to_html(body)
+    # Imagens no meio do artigo (Allan, 22/10/2026): front-matter imagens_corpo: [{arquivo, alt, fotografo, fonte_url}]
+    _ic = [x for x in (fm.get("imagens_corpo") or []) if isinstance(x, dict) and x.get("arquivo")]
+    if _ic:
+        import re as _re2
+        _pos = [m.start() for m in _re2.finditer(r"<h2\b", body_html)]
+        _alvos = []
+        for n, _x in enumerate(_ic):
+            _idx = 2 + 2 * n          # antes do 3o, 5o... subtitulo
+            _alvos.append((_pos[_idx] if _idx < len(_pos) else (_pos[-1] if _pos else len(body_html)), _x))
+        for _p_, _x in sorted(_alvos, key=lambda t: -t[0]):
+            _cred = (f' Foto: <a href="{html_lib.escape(str(_x.get("fonte_url", "")))}">{html_lib.escape(str(_x.get("fotografo", "")))}</a> via Pexels'
+                     if _x.get("fotografo") else "")
+            _fig = (f'<figure class="foto-corpo"><img src="/{_x["arquivo"]}" alt="{html_lib.escape(str(_x.get("alt", fm["titulo"])))}" loading="lazy" width="940" height="627">'
+                    f'<figcaption>{html_lib.escape(str(_x.get("alt", "")))}.{_cred}</figcaption></figure>')
+            body_html = body_html[:_p_] + _fig + body_html[_p_:]
     produto_faixa = render_produto_topo(load_produto_destaque(fm))
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
@@ -663,6 +678,11 @@ def run(site_id: str) -> dict:
                 _o = imagens_src / Path(_fa["arquivo"]).name
                 if _o.exists():
                     (imagens_dst / _o.name).write_bytes(_o.read_bytes())
+            for _ib in (fm.get("imagens_corpo") or []):
+                if isinstance(_ib, dict) and _ib.get("arquivo"):
+                    _o = imagens_src / Path(_ib["arquivo"]).name
+                    if _o.exists():
+                        (imagens_dst / _o.name).write_bytes(_o.read_bytes())
             imagem_capa = fm.get("imagem_capa")
             if not imagem_capa:
                 continue

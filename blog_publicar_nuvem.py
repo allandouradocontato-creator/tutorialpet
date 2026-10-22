@@ -105,6 +105,13 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
     run([py, "agents/04_quality_editor/agent.py", "--site", SITE, "--slug", slug])   # rc!=0 = reprovado: não publica
     run([py, "agents/05_seo_onpage/agent.py", "--site", SITE, "--slug", slug])
     run([py, "agents/15_visual/agent.py", "--site", SITE, "--selecionar", slug, str(indice)])
+    try:  # ate 2 fotos no meio do artigo (Allan, 22/10/2026), das candidatas que tambem mostram o tema
+        from core.capa import escolher as _esc
+        extras = [i for i in getattr(_esc, "bons", []) if str(i) != str(indice)][:2]
+        if extras:
+            run([py, "scripts/add_imagens_corpo.py", slug, ",".join(map(str, extras))])
+    except Exception as exc:  # noqa: BLE001
+        print("[corpo] sem fotos extras:", str(exc)[:100])
 
 
 def ja_publicado(slug: str) -> bool:

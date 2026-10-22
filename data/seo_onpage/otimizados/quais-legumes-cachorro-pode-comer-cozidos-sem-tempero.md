@@ -51,10 +51,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero.jsonld.json
 imagem_capa: imagens/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero.jpg
 imagem_fonte: pexels
-imagem_fotografo: Jozef Fehér
-imagem_fotografo_url: https://www.pexels.com/@jozef-feher-356581
-imagem_url_pagina: https://www.pexels.com/photo/a-cute-dalmatian-dog-looking-14336463/
-imagem_selecionada_em: '2026-10-22T15:27:31+00:00'
+imagem_fotografo: Xuân Thống Trần
+imagem_fotografo_url: https://www.pexels.com/@thongtran95
+imagem_url_pagina: https://www.pexels.com/photo/dog-running-in-a-garden-19183773/
+imagem_selecionada_em: '2026-10-22T15:33:28+00:00'
+imagens_corpo:
+- arquivo: imagens/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero-corpo-1.jpg
+  alt: 'Cachorro mordendo uma espiga de milho'
+  fotografo: 'Mia X'
+  fonte_url: 'https://www.pexels.com/photo/hand-patting-labrador-retriever-16465616/'
+- arquivo: imagens/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero-corpo-2.jpg
+  alt: 'Cachorro em uma horta de legumes'
+  fotografo: 'Linh Bo'
+  fonte_url: 'https://www.pexels.com/photo/dog-in-allyway-16180224/'
 ---
 
 # Quais legumes cachorro pode comer cozidos sem tempero: guia prático

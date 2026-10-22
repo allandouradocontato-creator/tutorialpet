@@ -56,10 +56,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-saber-se-o-cachorro-esta-acima-do-peso-ideal.jsonld.json
 imagem_capa: imagens/como-saber-se-o-cachorro-esta-acima-do-peso-ideal.jpg
 imagem_fonte: pexels
-imagem_fotografo: Beth Fitzpatrick
-imagem_fotografo_url: https://www.pexels.com/@beth-fitzpatrick-742222899
-imagem_url_pagina: https://www.pexels.com/photo/close-up-of-a-dog-s-nose-macrophotography-30210734/
-imagem_selecionada_em: '2026-10-22T15:27:19+00:00'
+imagem_fotografo: Gundula Vogel
+imagem_fotografo_url: https://www.pexels.com/@guvo59
+imagem_url_pagina: https://www.pexels.com/photo/adorable-pug-enjoying-outdoors-in-summer-28455777/
+imagem_selecionada_em: '2026-10-22T15:33:28+00:00'
+imagens_corpo:
+- arquivo: imagens/como-saber-se-o-cachorro-esta-acima-do-peso-ideal-corpo-1.jpg
+  alt: 'Labrador gordinho deitado'
+  fotografo: 'Mohan Nannapaneni'
+  fonte_url: 'https://www.pexels.com/photo/close-up-shot-of-a-dog-lying-on-the-floor-10852602/'
+- arquivo: imagens/como-saber-se-o-cachorro-esta-acima-do-peso-ideal-corpo-2.jpg
+  alt: 'Cachorro com sobrepeso passeando de coleira'
+  fotografo: 'Barnabas Davoti'
+  fonte_url: 'https://www.pexels.com/photo/beagle-enjoys-a-sunny-stroll-in-the-park-29516194/'
 ---
 
 # Como saber se o cachorro esta acima do peso ideal: guia prático

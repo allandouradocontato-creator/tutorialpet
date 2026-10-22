@@ -63,10 +63,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-caldo-de-ossos-caseiro-para-cachorro.jsonld.json
 imagem_capa: imagens/como-fazer-caldo-de-ossos-caseiro-para-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Kampus Production
-imagem_fotografo_url: https://www.pexels.com/@kampus
-imagem_url_pagina: https://www.pexels.com/photo/woman-sitting-petting-a-dog-8057550/
-imagem_selecionada_em: '2026-10-22T15:13:15+00:00'
+imagem_fotografo: Sean Brannon
+imagem_fotografo_url: https://www.pexels.com/@sean-brannon-762373037
+imagem_url_pagina: https://www.pexels.com/photo/boston-terrier-lying-with-bone-26664416/
+imagem_selecionada_em: '2026-10-22T15:33:29+00:00'
+imagens_corpo:
+- arquivo: imagens/como-fazer-caldo-de-ossos-caseiro-para-cachorro-corpo-1.jpg
+  alt: 'Panela de caldo de ossos caseiro'
+  fotografo: 'Denniz Futalan'
+  fonte_url: 'https://www.pexels.com/photo/homemade-soup-stock-in-pot-6716750/'
+- arquivo: imagens/como-fazer-caldo-de-ossos-caseiro-para-cachorro-corpo-2.jpg
+  alt: 'Cachorro com um osso na grama'
+  fotografo: 'Rufina Rusakova'
+  fonte_url: 'https://www.pexels.com/photo/dog-enjoying-a-bone-on-a-sunny-day-28504194/'
 ---
 
 # Como fazer caldo de ossos caseiro para cachorro: guia prático

@@ -56,10 +56,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/cuidados-essenciais-com-as-patas-de-caes-no-inverno.jsonld.json
 imagem_capa: imagens/cuidados-essenciais-com-as-patas-de-caes-no-inverno.jpg
 imagem_fonte: pexels
-imagem_fotografo: Edgar Almeida
-imagem_fotografo_url: https://www.pexels.com/@edgaralmeida
-imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-dog-12584231/
-imagem_selecionada_em: '2026-10-22T15:27:19+00:00'
+imagem_fotografo: Barnabas Davoti
+imagem_fotografo_url: https://www.pexels.com/@barnabas-davoti-31615494
+imagem_url_pagina: https://www.pexels.com/photo/golden-retriever-enjoying-snowy-winter-in-oslo-40142346/
+imagem_selecionada_em: '2026-10-22T15:33:28+00:00'
+imagens_corpo:
+- arquivo: imagens/cuidados-essenciais-com-as-patas-de-caes-no-inverno-corpo-1.jpg
+  alt: 'Pata de cachorro no gelo'
+  fotografo: 'Darcy Lawrey'
+  fonte_url: 'https://www.pexels.com/photo/paw-on-green-grass-753759/'
+- arquivo: imagens/cuidados-essenciais-com-as-patas-de-caes-no-inverno-corpo-2.jpg
+  alt: 'Cachorro brincando na neve'
+  fotografo: 'Oliver  Morgan Media'
+  fonte_url: 'https://www.pexels.com/photo/a-golden-retriever-outdoors-in-snow-15996512/'
 ---
 
 # Cuidados essenciais com as patas de cães no inverno: guia prático
