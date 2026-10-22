@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como tirar cheiro de xixi de cachorro do quintal: guia prático",
+    "description": "Aprenda como tirar cheiro de xixi de cachorro do quintal de forma definitiva com receitas caseiras seguras e dicas práticas para o dia a dia.",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Pode usar cloro misturado com vinagre no quintal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. A mistura de cloro com vinagre gera vapores tóxicos perigosos. Use sempre um produto por vez, enxaguando muito bem com água entre as aplicações.  * **O vinagre mancha o piso do quintal?** O vinagre branco de álcool costuma ser seguro em pisos cerâmicos e cimento, mas pedras naturais como mármore e granito podem sofrer corrosão. Teste em uma pequena área escondida primeiro.  * **O que tira o cheiro de xixi velho impregnado no cimento?** Limpadores enzimáticos específicos para pets são os mais eficientes para quebrar moléculas de urina antigas acumuladas na porosidade do cimento.  * **Com que frequência devo lavar o quintal para evitar o cheiro?** Em média, uma lavagem leve diária com água e uma limpeza profunda semanal com produtos adequados costumam manter o quintal livre de odores, dependendo do tamanho do cão."
+        }
+      }
+    ]
+  }
+}

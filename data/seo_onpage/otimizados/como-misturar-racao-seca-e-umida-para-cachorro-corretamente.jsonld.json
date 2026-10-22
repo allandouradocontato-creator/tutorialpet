@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como misturar racao seca e umida para cachorro corretamente: guia prático",
-    "description": "Como misturar racao seca e umida para cachorro corretamente: guia prático. Sabe aquela hora em que a gente olha para o potinho do cachorro e percebe...",
+    "description": "Como misturar ração seca e úmida para cachorro corretamente: guia prático para melhorar a aceitação da comida e a hidratação do seu pet.",
     "datePublished": "2026-10-14",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-misturar-racao-seca-e-umida-para-cachorro-corretamente"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-misturar-racao-seca-e-umida-para-cachorro-corretamente.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,26 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso misturar ração seca e úmida em todas as refeições?",
+        "name": "Posso misturar ração seca e úmida em todas as refeições do dia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, você pode fazer isso todos os dias, desde que mantenha o controle das calorias totais para evitar o ganho de peso excessivo."
+          "text": "Sim, desde que o total calórico diário seja rigorosamente respeitado e calculado com orientação do médico-veterinário para evitar excessos."
         }
       },
       {
         "@type": "Question",
-        "name": "Preciso aquecer a ração úmida antes de misturar?",
+        "name": "O que fazer se o cão tiver diarreia após começar a mistura?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não é obrigatório, mas tirar a comida da geladeira e deixá-la em temperatura ambiente ajuda a liberar o aroma, o que atrai ainda mais o cão para o prato."
+          "text": "Suspenda temporariamente o ingrediente novo, retorne à dieta anterior e procure o médico-veterinário para investigar a sensibilidade digestiva."
         }
       },
       {
         "@type": "Question",
-        "name": "O que fazer se o cachorro continuar rejeitando a comida?",
+        "name": "Posso guardar a mistura pronta de ração seca com sachê na geladeira?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Se mesmo com a mistura ele recusar o alimento, pode ser um sinal de enjoo ou dor de dente. Observe o comportamento e procure orientação profissional."
+          "text": "Não é recomendado, pois a ração seca absorve a umidade do sachê, amolece e perde textura, além de facilitar a contaminação bacteriana. Misture apenas na hora de servir."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A ração úmida faz mal para os dentes do cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente. Embora a ração seca ajude no atrito, a saúde oral depende de escovação regular e acompanhamento profissional, e não apenas da textura do alimento."
         }
       }
     ]

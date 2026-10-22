@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como evitar a obesidade em gatos castrados de apartamento: guia prático",
-    "description": "Como evitar a obesidade em gatos castrados de apartamento: guia prático. Manter o peso ideal de um gato castrado que vive em apartamento exige atenção...",
+    "description": "Como evitar a obesidade em gatos castrados de apartamento com dicas práticas de rotina, alimentação e brincadeiras para manter o peso ideal.",
     "datePublished": "2026-10-19",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Como saber se meu gato de apartamento está obeso?",
+        "name": "Ração light resolve sozinha o problema da obesidade felina?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "**R:** Você deve conseguir palpar as costelas dele com leve pressão sem precisar afundar os dedos, e observar uma cintura nítida quando visto de cima. Na dúvida, o médico-veterinário pode fazer a avaliação exata na consulta de rotina.  * **Posso dar comida caseira para ajudar na dieta dele?**   **R:** Alimentos caseiros sem orientação profissional podem desbalancear os nutrientes e acelerar o ganho de peso. Qualquer mudança na dieta deve ser alinhada com o médico-veterinário.  * **Meu gato mia o dia todo pedindo comida, o que fazer?**   **R:** Esse comportamento costuma ser ansiedade ou tédio. Tente redirecionar a atenção dele com brincadeiras ou use comedouros interativos que façam o gato trabalhar para conseguir cada grão."
+          "text": "Não. A ração light ajuda a reduzir as calorias, mas se a quantidade oferecida for excessiva ou o gato continuar totalmente sedentário, ele ainda poderá ganhar peso.  * **Posso colocar meu gato de apartamento em uma dieta rigorosa por conta própria?** Não é recomendado. Restrições alimentares drásticas sem acompanhamento profissional podem causar problemas hepáticos graves nos felinos. Consulte sempre o médico-veterinário.  * **Quantas vezes por dia devo brincar com um gato sedentário?** O ideal é fracionar em duas ou três sessões curtas de dez minutos cada, simulando o ciclo natural de caça, foco e descanso do animal.  * **O uso de comedouros automáticos ajuda a controlar o peso?** Sim, desde que programados para liberar pequenas porções fracionadas ao longo do dia, evitando que o gato coma tudo de uma só vez."
         }
       }
     ]

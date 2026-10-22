@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 22/10/2026 21:09
+# Relatório do Curador do Blog — 22/10/2026 22:39
 
-73 artigos auditados, 11 com problema bloqueante.
+73 artigos auditados, 7 com problema bloqueante.
 
 - ok | alimentos-proibidos-para-cachorro
 - ok | ansiedade-de-separacao-em-caes
@@ -43,8 +43,7 @@
 - ok | como-escovar-os-dentes-do-cachorro
 - REPROVADO | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
     - [bloqueante] sem seção 'Para fechar'
-- REPROVADO | como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
-    - [bloqueante] conteúdo raso: 809 palavras (mínimo 850)
+- ok | como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-evitar-bola-de-pelo-em-gato-com-escovacao
 - ok | como-evitar-que-o-filhote-chore-a-noite
@@ -59,8 +58,7 @@
 - ok | como-limpar-caixa-de-areia-do-gato
 - ok | como-limpar-manchas-de-lagrima-acida-em-cachorro-branco
 - ok | como-limpar-orelha-de-cachorro-em-casa-sem-machucar
-- REPROVADO | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
-    - [bloqueante] conteúdo raso: 728 palavras (mínimo 850)
+- ok | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
     - [aviso] título com 73 caracteres (ideal até 70)
 - ok | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
     - [aviso] título com 72 caracteres (ideal até 70)
@@ -69,8 +67,7 @@
 - ok | como-saber-se-o-asfalto-esta-quente-para-passear
 - ok | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
 - ok | como-socializar-filhote-de-gato
-- REPROVADO | como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
-    - [bloqueante] conteúdo raso: 824 palavras (mínimo 850)
+- ok | como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
 - ok | como-trocar-a-racao-do-cachorro
 - ok | cuidados-essenciais-com-as-patas-de-caes-no-inverno
 - ok | enxoval-para-filhote-de-cachorro
@@ -78,8 +75,7 @@
 - ok | gato-arranhando-o-sofa
 - ok | melhor-areia-para-gato-como-escolher
     - [aviso] parágrafo acima de 130 palavras
-- REPROVADO | melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
-    - [bloqueante] conteúdo raso: 828 palavras (mínimo 850)
+- ok | melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
     - [aviso] título com 73 caracteres (ideal até 70)
 - ok | melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
     - [aviso] título com 71 caracteres (ideal até 70)
