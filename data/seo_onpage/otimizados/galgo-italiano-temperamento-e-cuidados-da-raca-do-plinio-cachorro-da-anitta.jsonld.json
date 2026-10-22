@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

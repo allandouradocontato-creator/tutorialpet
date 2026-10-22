@@ -56,16 +56,16 @@ imagem_fonte: pexels
 imagem_fotografo: Valentin Cvetanoski
 imagem_fotografo_url: https://www.pexels.com/@valentin-cvetanoski-2147958923
 imagem_url_pagina: https://www.pexels.com/photo/adorable-kitten-and-dog-interaction-on-sofa-34071784/
-imagem_selecionada_em: '2026-10-22T17:42:50+00:00'
+imagem_selecionada_em: '2026-10-22T18:30:44+00:00'
 imagens_corpo:
 - arquivo: imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz-corpo-1.jpg
-  alt: 'como acostumar gato e cachorro a conviverem em paz'
-  fotografo: 'Melisa Umul'
-  fonte_url: 'https://www.pexels.com/photo/adorable-kitten-and-dog-cuddling-indoors-40289458/'
+  alt: como acostumar gato e cachorro a conviverem em paz
+  fotografo: Melisa Umul
+  fonte_url: https://www.pexels.com/photo/adorable-kitten-and-dog-cuddling-indoors-40289458/
 - arquivo: imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz-corpo-2.jpg
-  alt: 'como acostumar gato e cachorro a conviverem em paz'
-  fotografo: 'MEHMET KAYNAR'
-  fonte_url: 'https://www.pexels.com/photo/dog-and-cat-sitting-together-in-sunlight-35711491/'
+  alt: como acostumar gato e cachorro a conviverem em paz
+  fotografo: MEHMET KAYNAR
+  fonte_url: https://www.pexels.com/photo/dog-and-cat-sitting-together-in-sunlight-35711491/
 ---
 
 # Como acostumar gato e cachorro a conviverem em paz: guia prático

@@ -50,6 +50,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jsonld.json
+imagem_capa: imagens/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jpg
+imagem_fonte: pexels
+imagem_fotografo: Nihongraphy
+imagem_fotografo_url: https://www.pexels.com/@nihongraphy-22469233
+imagem_url_pagina: https://www.pexels.com/photo/dogs-running-on-tall-grass-8145378/
+imagem_selecionada_em: '2026-10-22T18:36:16+00:00'
 ---
 
 # Galgo italiano: temperamento e cuidados com a raça

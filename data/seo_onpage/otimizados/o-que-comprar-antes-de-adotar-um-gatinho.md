@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/o-que-comprar-antes-de-adotar-um-gatinho.jsonld.json
 imagem_capa: imagens/o-que-comprar-antes-de-adotar-um-gatinho.jpg
 imagem_fonte: pexels
-imagem_fotografo: mohamed abdelghaffar
-imagem_fotografo_url: https://www.pexels.com/@moh-adbelghaffar
-imagem_url_pagina: https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/
-imagem_selecionada_em: '2026-10-13T15:53:38+00:00'
+imagem_fotografo: Gundula Vogel
+imagem_fotografo_url: https://www.pexels.com/@guvo59
+imagem_url_pagina: https://www.pexels.com/photo/adorable-tabby-kitten-relaxing-indoors-28872294/
+imagem_selecionada_em: '2026-10-22T18:39:06+00:00'
 ---
 
 # O que comprar antes de adotar um gatinho: guia prático

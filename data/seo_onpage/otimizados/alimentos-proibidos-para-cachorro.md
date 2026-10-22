@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/alimentos-proibidos-para-cachorro.jsonld.json
 imagem_capa: imagens/alimentos-proibidos-para-cachorro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Samson Katt
-imagem_fotografo_url: https://www.pexels.com/@samson-katt
-imagem_url_pagina: https://www.pexels.com/photo/cheerful-black-woman-embracing-cute-labrador-near-window-5255256/
-imagem_selecionada_em: '2026-10-14T22:47:31+00:00'
+imagem_fotografo: Vie Studio
+imagem_fotografo_url: https://www.pexels.com/@vie-studio
+imagem_url_pagina: https://www.pexels.com/photo/chocolate-bars-on-white-background-6167331/
+imagem_selecionada_em: '2026-10-22T18:29:32+00:00'
 ---
 
 > Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.

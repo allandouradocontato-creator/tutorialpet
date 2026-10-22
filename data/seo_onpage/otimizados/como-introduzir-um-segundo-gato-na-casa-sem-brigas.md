@@ -53,10 +53,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-introduzir-um-segundo-gato-na-casa-sem-brigas.jsonld.json
 imagem_capa: imagens/como-introduzir-um-segundo-gato-na-casa-sem-brigas.jpg
 imagem_fonte: pexels
-imagem_fotografo: Nathan J Hilton
-imagem_fotografo_url: https://www.pexels.com/@nathanjhilton
-imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-ginger-tabby-cat-32762928/
-imagem_selecionada_em: '2026-10-21T11:01:16+00:00'
+imagem_fotografo: Vũ Nguyễn
+imagem_fotografo_url: https://www.pexels.com/@vu-nguy-n-2154635959
+imagem_url_pagina: https://www.pexels.com/photo/playful-ginger-cats-resting-indoors-39303360/
+imagem_selecionada_em: '2026-10-22T18:32:25+00:00'
 ---
 
 # Como introduzir um segundo gato na casa sem brigas: guia prático
