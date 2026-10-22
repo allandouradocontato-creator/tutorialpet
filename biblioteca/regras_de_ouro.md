@@ -31,3 +31,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 20. Plataforma (FB/IG/TikTok/YouTube/Google): decida pelas skills em biblioteca/habilidades/ (plataforma_* e trafego_*), não por pesquisa nova; registre aprendizado em data/habilidades/aprendizado/. Pendência de pesquisa precisa de dono e data na 06 Pendências, senão vira esquecimento (caso do compêndio Meta, 21-22/10).
 
 21. Tema e texto de artigo nascem da BUSCA real (consulta exata, sinonimo popular, quem ranqueia, formato que ganha) e as buscas obvias do nicho vem antes das especificas (skill Google, secao h). Hashtag nao existe no Google.
+
+22. CONTRATO DE RESULTADO (biblioteca/contrato_de_resultado.md): todo agente/skill tem 1 resultado unico (audiencia, clique, engajamento, venda ou tempo), meta com numero e prazo em horas/dias, 3+ jogadas com metrica, laco de aprendizado e Juiz separado. Skill = jogadas; regras de plataforma sao so "limites". Sem contrato = reserva.
