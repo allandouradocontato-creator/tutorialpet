@@ -18,9 +18,18 @@ Fonte: https://www.curitiba.pr.gov.br/noticias/protetores-devem-se-recadastrar-p
 - Pré-cadastro no site da Rede de Proteção Animal, validação presencial única no Passeio Público; documentos: RG, CPF, comprovante de residência, 5 termos de adoção responsável (últimos 2 anos) e provas de atuação. Depois: agenda de castração, inscrição de animais, Banco de Ração.
 - NÃO publicar como regra atual sem reconferir no site da Rede de Proteção Animal de Curitiba.
 
-## Fortaleza/CE e Ceará (SEM fonte oficial lida do cadastro de protetor)
-- Programas existentes só confirmados por imprensa (O Povo, Diário do Nordeste, set/2026: VetMóvel com mais de 19 mil castrações desde 2025) e por títulos do Pet Ceará Móvel (Governo do CE). Critérios, documentos e se há cadastro de protetor: "sem fonte oficial encontrada". Não publicar esse trecho.
-- Próxima rodada: abrir fortaleza.ce.gov.br (Coordenadoria de Proteção Animal/VetMóvel) e protecaoanimal.ce.gov.br para critérios, agendamento e eventual cadastro de protetor.
+## Fortaleza/CE - castração pelo VetMóvel (FONTE OFICIAL lida, notícia de 28/04/2026)
+Fonte: https://www.fortaleza.ce.gov.br/noticias/vetmoveis-passam-a-atender-em-novos-enderecos-com-atendimento-veterinario-gratuito (Prefeitura de Fortaleza / Secretaria Municipal de Proteção Animal, consulta 2026-10-22)
+- Castração é oferecida SOMENTE com agendamento prévio: Central 156 opção 6 ou site oficial do serviço (endereço do site não informado na notícia). Depois do cadastro, a SMPA entra em contato com data, horário e orientações pré-cirúrgicas. Acompanhamento por WhatsApp (números na notícia).
+- Documentos do tutor: RG, CPF e comprovante de residência em Fortaleza. Cães com guia, coleira e focinheira; gatos em caixa de transporte adequada.
+- Atendimento clínico e antirrábica (a partir de 4 meses, reforço anual) por fichas diárias nos pontos do VetMóvel (endereços mudam por edição: confirmar no site da Prefeitura).
+- Cuidado: é uma notícia datada (abr/2026). Endereços, números e regras podem ter mudado; o artigo deve mandar confirmar no 156.
+- Cadastro de PROTETOR em Fortaleza: sem fonte oficial lida. NÃO afirmar que existe ou como funciona.
+
+## Ceará (Sepa) - apoio a protetores (SEM fonte oficial lida; só imprensa de 13/03/2024)
+- Reportagem do Diário do Nordeste (13/03/2024) descreve editais da Secretaria da Proteção Animal do CE (R$ 5 milhões): abrigos, clínicas credenciadas e atendimento gratuito a protetores independentes de baixa renda (renda até 2 salários mínimos com declaração, ou declaração de veterinário atestando que atua como protetor), com cadastro prévio na Sepa. Prazos de 2024 já encerrados; não se sabe se há edital aberto hoje.
+- NÃO publicar como regra atual. Só publicar após ler o site oficial da Sepa (protecaoanimal.ce.gov.br; WebFetch direto foi bloqueado pela lista de domínios, achar a página por busca) e confirmar edital vigente.
+- Outros programas do governo CE vistos só em título: Pet Ceará Móvel, Ração do Bem. Sem critério lido.
 
 ## Passo a passo genérico (pode virar artigo "como achar o cadastro da sua cidade")
 1. Pesquisar no site da prefeitura: "cadastro de protetores", "carta de serviços", secretaria/gabinete de proteção animal.
