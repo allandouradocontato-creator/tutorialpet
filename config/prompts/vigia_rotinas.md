@@ -23,3 +23,6 @@ Laço: 1 linha por rodada em data/habilidades/aprendizado/vigia_rotinas.md (`dat
 
 ## Passo 2d (v2): prontidão AdSense (Allan, 22/10/2026: o blog é o teste para aprovar e depois replicar em outros blogs)
 Toda rodada das 07:19: `python scripts/auditoria_adsense.py` (lê site/build, sem rede) e confira data/auditoria/adsense.md. Cada FALHA vira ação NA HORA: capa repetida → slugs em config/capas_refazer.txt; artigo curto/sem fonte de saúde → `gh workflow run reforco_blog.yml`; buraco de ritmo → promover aprovados/fábrica; ads.txt/páginas ausentes → corrigir no repositório. Meta: zero FALHA antes de pedir a revisão do AdSense. Regras oficiais em biblioteca/regras_plataformas/google.md (seções 2 e 3).
+
+
+Ritmo do blog (Allan, 22/10/2026): todo dia confira o plano de config/ritmo_blog.yaml (3 ou 4 artigos, nunca abaixo de 3) contra os artigos no ar hoje; abaixo do plano às 15:19 = ação na hora (promover aprovados, disparar fábrica); preencha a linha do dia em data/testes/adsense_4semanas.md.

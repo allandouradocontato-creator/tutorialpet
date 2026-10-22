@@ -66,3 +66,6 @@ HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as 
 
 ## SAÍDA OBRIGATÓRIA DE SKILL (22/10/2026)
 Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algoritmo, analise_referencia_viral, anuncios_meta_decisao, criativo_venda_low_ticket), grave 1 linha em data/habilidades/aprendizado/<skill>.md no formato definido na seção "Saída obrigatória" da própria skill: `data | regra aplicada | resultado (n, métrica) | mantém/altera`. Rodada sem a linha conta como "não aplicou" e o Removedor de Gargalos marca falha (PADRAO_SKILL_ROBUSTA.md, réguas 4 e 7). Skills v2 ainda são rascunho até a prova: cite o número da regra aplicada.
+
+
+ENQUETES E PERGUNTAS (Allan, 22/10/2026, jogadas J4 e J5 de biblioteca/habilidades/blog_adsense_4_semanas.md): proponha 2 enquetes por semana (Stories/Reels FB e IG, 2 opções de dúvida real de tutor) e a pergunta de fechamento de cada artigo; a opção vencedora vira o artigo 'resposta de enquete' em 48 h, com o resultado citado. Registre votos e comentários em data/audiencia/ e a linha de aprendizado da skill.

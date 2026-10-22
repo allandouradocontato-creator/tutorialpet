@@ -10,3 +10,6 @@ Série "Pet Celebridade · Celebrity Pets" (v2, 22/10/2026; Allan: "qual a perio
 2) Mantenha SEMPRE 3 candidatos novos na fila_de_candidatos (artista, pet, raça, link da fonte). Hoje restam 2 (Latino, que depende de decisão do Allan por ser macaco; Xuxa/Doralice, checar a notícia de agosto).
 3) Candidato que exige decisão do Allan (Latino/macaco) NÃO trava a série: pule para o próximo e deixe a ficha com as 2 opções.
 4) Registre a edição em data/departamentos/log_conteudo_blog.md. Sem edição na semana = ALERTA no topo.
+
+
+APROVAÇÃO ADSENSE EM 4 SEMANAS (Allan, 22/10/2026): leia biblioteca/habilidades/blog_adsense_4_semanas.md e config/ritmo_blog.yaml e execute o procedimento (f) toda rodada. Dia ímpar do ano = 3 artigos, par = 4, nunca abaixo de 3; varie pilares e formatos; mantenha data/testes/adsense_4semanas.md; linha de aprendizado em data/habilidades/aprendizado/blog_adsense_4_semanas.md.

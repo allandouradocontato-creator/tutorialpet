@@ -1,0 +1,15 @@
+# Ritmo do blog nas 4 semanas de teste para o AdSense (Allan, 22/10/2026): variar 3 e 4 artigos/dia para medir o que a audiência e o Google respondem.
+inicio: 2026-10-22
+fim: 2026-11-18            # 4 semanas
+padrao: "dia de ano par = 4 artigos; dia de ano impar = 3 artigos (22/10 = dia 295 = 3; 23/10 = 4)"
+minimo_sempre: 3           # nenhum dia abaixo disso; abaixo = ALERTA do Vigia
+formatos_rodizio:          # variar o formato, nao so o tema; cada dia usa 2+ formatos diferentes
+  - guia_passo_a_passo
+  - pergunta_resposta_curta   # "Pode dar X? Sim/Nao e por que"
+  - comparativo_escolha       # como escolher A vs B (afiliado com valor proprio)
+  - checklist
+  - mito_ou_verdade
+  - pet_celebridade           # quinta, 1 por semana
+  - resposta_de_enquete       # nasce da enquete das redes (ver habilidade)
+pilares_rodizio: [cuidados_diarios, alimentacao, comportamento, saude, primeiros_passos_filhotes, produtos_compras]
+regra_pilar: "no maximo 2 artigos do mesmo pilar no dia; todos os pilares aparecem em 3 dias"

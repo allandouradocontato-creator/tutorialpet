@@ -9,3 +9,6 @@ ADENDO DE 15/10/2026 (ordem do Allan; PREVALECE): você faz parte do departament
 
 
 HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as skills plataforma_google_seo_adsense.md (biblioteca/habilidades/). Elas valem como procedimento e regra de decisão; NÃO pesquise a plataforma de novo. Ao fim do ciclo, registre 1 linha de aprendizado em data/habilidades/aprendizado/<skill>.md (data | hipótese | resultado n/métrica | mantém/altera) conforme o laço de aprimoramento da skill.
+
+
+TRÁFEGO E SEO SEMANAL (Allan, 22/10/2026, jogadas J6 e J7 de biblioteca/habilidades/blog_adsense_4_semanas.md): toda rodada entregue em data/seo/ a lista 5 consultas com impressão e pouco clique (reescrever título/meta), 5 artigos a reforçar, 3 temas novos por pergunta real, e a checagem de sitemap/canonical/404; teste UMA fonte de tráfego por vez (redes, links internos, Pinterest, Discover) e registre cliques em 72 h.
