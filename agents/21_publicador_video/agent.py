@@ -194,6 +194,17 @@ def main() -> int:
     if (pkg / "pedido_metricool.json").exists():
         sys.exit("este pacote já tem pedido de agendamento (evita postar duas vezes)")
 
+    # Portão de gancho (22/10/2026): gancho banido não gera pedido de agendamento; pula sem derrubar o lote.
+    try:
+        sys.path.insert(0, str(ROOT))
+        from scripts.portao_gancho import verificar, _gancho
+        ok, motivo = verificar(a.slug)
+        if not ok:
+            print(f"GANCHO BANIDO: {a.slug} | {_gancho(a.slug)}")
+            return 0
+    except Exception as e:  # falha do portão não impede o fluxo, mas fica visível
+        print(f"AVISO: portão de gancho não executou ({e})")
+
     agenda = carregar_agenda()
     dia, turno = proximo_turno(agenda, date.fromisoformat(a.dia) if a.dia else agora_fortaleza().date())
     pedido = montar_pedido(pkg, a.slug, a.repo, dia, turno)
