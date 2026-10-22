@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quais petiscos naturais posso dar para o gato: guia prático",
+    "description": "Quais petiscos naturais posso dar para o gato: guia prático. Oferecer agrados fora da ração seca é uma excelente maneira de variar texturas, criar...",
+    "datePublished": "2026-10-21",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quais-petiscos-naturais-posso-dar-para-o-gato",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quais-petiscos-naturais-posso-dar-para-o-gato"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quais-petiscos-naturais-posso-dar-para-o-gato.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Gato pode comer petiscos naturais desidratados comerciais?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que sejam feitos de ingrediente único (como 100% filé de peito de frango ou 100% carne bovina), sem adição de corantes, aromatizantes ou glicerina."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso dar frutas como maçã ou banana para o gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Algumas frutas são seguras em microdoses (sem sementes), mas gatos não possuem receptores para o sabor doce e têm pouca capacidade de processar açúcares simples, tornando as carnes opções muito mais indicadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Petisco caseiro substitui a taurina da ração?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O cozimento doméstico reduz a concentração de taurina e outros micronutrientes essenciais. O petisco natural serve apenas como agrado ou recompensa pontual, nunca como substituto da dieta completa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que fazer se o gato tiver diarreia após o petisco?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Suspenda o agrado imediatamente, volte a oferecer somente a ração de rotina, garanta água fresca à vontade e consulte um médico-veterinário caso os sintomas durem mais de 24 horas.  ---"
+        }
+      }
+    ]
+  }
+}

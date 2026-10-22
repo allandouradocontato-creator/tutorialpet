@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 9783906,
+    "url_download": "https://images.pexels.com/photos/9783906/pexels-photo-9783906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-cat-playing-with-girl-s-hand-9783906/",
+    "fotografo": "Mikhail Nilov",
+    "fotografo_url": "https://www.pexels.com/@mikhail-nilov",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "cat playfully biting hand while being petted, no face",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-morde-do-nada-durante-o-carinho/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1202481,
+    "url_download": "https://images.pexels.com/photos/1202481/pexels-photo-1202481.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-biting-persons-finger-1202481/",
+    "fotografo": "Crina Doltu",
+    "fotografo_url": "https://www.pexels.com/@crina-doltu-490924",
+    "largura": 3696,
+    "altura": 2448,
+    "query": "cat playfully biting hand while being petted, no face",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-morde-do-nada-durante-o-carinho/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2113332,
+    "url_download": "https://images.pexels.com/photos/2113332/pexels-photo-2113332.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/person-touching-brown-cat-2113332/",
+    "fotografo": "Tranmautritam",
+    "fotografo_url": "https://www.pexels.com/@tranmautritam",
+    "largura": 4738,
+    "altura": 3159,
+    "query": "cat playfully biting hand while being petted, no face",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-morde-do-nada-durante-o-carinho/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1307919,
+    "url_download": "https://images.pexels.com/photos/1307919/pexels-photo-1307919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/person-petting-orange-tabby-cat-1307919/",
+    "fotografo": "John Goren",
+    "fotografo_url": "https://www.pexels.com/@g0gor",
+    "largura": 3960,
+    "altura": 2640,
+    "query": "cat playfully biting hand while being petted, no face",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-morde-do-nada-durante-o-carinho/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9783913,
+    "url_download": "https://images.pexels.com/photos/9783913/pexels-photo-9783913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-cat-on-woman-s-hands-9783913/",
+    "fotografo": "Mikhail Nilov",
+    "fotografo_url": "https://www.pexels.com/@mikhail-nilov",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "cat nibbling fingers during petting close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-morde-do-nada-durante-o-carinho/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15624872,
+    "url_download": "https://images.pexels.com/photos/15624872/pexels-photo-15624872.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-gray-cat-15624872/",
+    "fotografo": "Quỳnh Anh Nguyễn",
+    "fotografo_url": "https://www.pexels.com/@qu-nh-anh-nguy-n-461420750",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cat nibbling fingers during petting close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/por-que-o-gato-morde-do-nada-durante-o-carinho/5.jpg"
+  }
+]

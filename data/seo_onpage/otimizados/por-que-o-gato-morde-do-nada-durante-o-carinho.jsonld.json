@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Por que o gato morde do nada durante o carinho: guia prático",
+    "description": "Por que o gato morde do nada durante o carinho: guia prático. Você está sentado no sofá, o gato pula no seu colo, começa a ronronar alto, fecha os...",
+    "datePublished": "2026-10-21",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/por-que-o-gato-morde-do-nada-durante-o-carinho",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/por-que-o-gato-morde-do-nada-durante-o-carinho"
+    },
+    "image": "https://tutorialpet.com.br/imagens/por-que-o-gato-morde-do-nada-durante-o-carinho.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O gato morde fraco e lambe o local logo em seguida. Isso é carinho?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Geralmente é um sinal ambivalente. A \"mordiscada de amor\" costuma ser um transbordamento de excitação. A lambida subsequente é uma tentativa de apaziguamento. Mesmo que não fure a pele, indica que o nível de estímulo passou do ponto ideal; o melhor é cessar o carinho."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Usar borrifador de água ajuda a parar o comportamento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Isso é mito e uma péssima ideia. O borrifador apenas faz o animal associar o tutor a um evento aversivo e punitivo, quebrando o vínculo de confiança sem ensinar nada sobre tolerância ao toque."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Brincar com as mãos por baixo do cobertor incentiva essas mordidas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, totalmente. Quando você usa os próprios dedos como \"presa\" em brincadeiras, ensina o gato de que pele humana é brinquedo de agarrar e mastigar. Use sempre varinhas ou brinquedos apropriados para gastar a energia de caça."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gatos castrados também apresentam essa sensibilidade ao toque?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. A intolerância por hiperestimulação sensorial é neurológica e tátil, não tendo relação direta com hormônios sexuais ou instinto reprodutivo."
+        }
+      }
+    ]
+  }
+}

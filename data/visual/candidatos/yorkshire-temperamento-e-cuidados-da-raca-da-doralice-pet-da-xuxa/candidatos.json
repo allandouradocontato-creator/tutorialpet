@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 6222967,
+    "url_download": "https://images.pexels.com/photos/6222967/pexels-photo-6222967.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-in-bath-6222967/",
+    "fotografo": "Adrian Frentescu",
+    "fotografo_url": "https://www.pexels.com/@frentescuphotography",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "yorkshire terrier dog portrait at home",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32476517,
+    "url_download": "https://images.pexels.com/photos/32476517/pexels-photo-32476517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-portrait-32476517/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 7028,
+    "altura": 4687,
+    "query": "yorkshire terrier dog portrait at home",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 940797,
+    "url_download": "https://images.pexels.com/photos/940797/pexels-photo-940797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-photo-of-long-coated-brown-puppy-940797/",
+    "fotografo": "Onur Kurtic",
+    "fotografo_url": "https://www.pexels.com/@thesilentman",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "yorkshire terrier dog portrait at home",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1586948,
+    "url_download": "https://images.pexels.com/photos/1586948/pexels-photo-1586948.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-tan-australian-terrier-puppy-1586948/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "yorkshire terrier dog portrait at home",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33743042,
+    "url_download": "https://images.pexels.com/photos/33743042/pexels-photo-33743042.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-in-sunlit-room-33743042/",
+    "fotografo": "Natalia Sevruk",
+    "fotografo_url": "https://www.pexels.com/@natalia-sevruk-636238602",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "yorkshire terrier dog portrait at home",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282710,
+    "url_download": "https://images.pexels.com/photos/7282710/pexels-photo-7282710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/morkie-dog-on-soft-couch-7282710/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "yorkshire terrier small dog sitting on sofa",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa/5.jpg"
+  }
+]
