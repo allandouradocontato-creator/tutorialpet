@@ -96,14 +96,19 @@ def plano_b_ia(cand: Path, slug: str, especie: str, raca: str) -> str | None:
             if not ok:
                 dest.unlink(missing_ok=True)
                 continue
-            if raca_ok(cand, str(prox), especie, raca):
+            # a raça já vem do prompt do gerador; o juiz fraco (CF) erra raça rara (chamou galgo de terrier). Portão da IA = é um
+            # animal da espécie certa, visível e único; olhos humanos revisam a capa de IA depois (crédito "gerada por IA" no site).
+            from core.coerencia import verificar_imagens
+            ok_e, mot_e = verificar_imagens([dest.read_bytes()], especie, "", primeira_obrigatoria=True)
+            print(f"[plano B IA] portão de espécie: {'ok' if ok_e else 'REPROVADA'} - {mot_e}")
+            if ok_e and not mot_e.startswith("nenhum animal"):
+                _VER[str(prox)] = True
                 manifesto.append({"fonte": "ia", "id": 0, "url_download": "", "url_pagina": "", "fotografo": "IA", "fotografo_url": "",
                                   "largura": 1024, "altura": 1024, "query": f"ia: {raca}", "indice": prox,
                                   "arquivo": str(dest.relative_to(ROOT))})
                 (cand / "candidatos.json").write_text(json.dumps(manifesto, ensure_ascii=False, indent=2), encoding="utf-8")
                 print(f"[plano B IA] foto gerada {prox}.jpg passou no portão de raça")
                 return str(prox)
-            _VER.pop(str(prox), None)
             dest.unlink(missing_ok=True)
     except Exception as exc:  # noqa: BLE001
         print("[plano B IA] falhou:", str(exc)[:120])
