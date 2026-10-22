@@ -8,6 +8,9 @@ banho, escovar dente, cortar unha), a busca é pelo animal isolado num contexto 
 from __future__ import annotations
 
 QUERIES = {
+    "yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa": ['yorkshire terrier dog portrait at home', 'yorkshire terrier small dog sitting on sofa', 'yorkshire terrier long silky hair close up'],
+    "quais-petiscos-naturais-posso-dar-para-o-gato": ['cat eating small piece of cooked chicken from bowl, no people', 'cat sniffing treat in bowl on kitchen floor, no people', 'cat eating natural treat from plate'],
+    "por-que-o-gato-morde-do-nada-durante-o-carinho": ['cat playfully biting hand while being petted, no face', 'cat nibbling fingers during petting close up', 'cat on lap being stroked turning head, no person face'],
     "como-introduzir-um-segundo-gato-na-casa-sem-brigas": ['two cats meeting sitting side by side on floor at home, no people', 'two cats together at home calm', 'two cats sniffing each other indoors'],
     "como-acostumar-gato-e-cachorro-a-conviverem-em-paz": ['dog and cat sitting calmly together on sofa, no people', 'dog and cat cuddling together at home', 'dog and cat friends lying together'],
     "como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos": ['dog and cat eating from two bowls side by side on kitchen floor, no people', 'dog and cat eating together at home', 'dog and cat food bowls side by side'],
