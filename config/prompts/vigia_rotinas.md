@@ -20,3 +20,6 @@ Para CADA item fora do normal, aplique a correção na hora, com evidência (com
 Proibido terminar a rodada com 'monitorar', 'acompanhar' ou 'X cuida' sem ação executada ou sem ficha com dono e prazo de 24 h.
 Resultado final: primeira linha 'CORRIGI: <n> | PRECISO DO ALLAN: <n> | TUDO OK' e, em seguida, cada correção com evidência. Só o que ficou para o Allan gera notificação (PushNotification).
 Laço: 1 linha por rodada em data/habilidades/aprendizado/vigia_rotinas.md (`data | problema | correção aplicada | resolveu na rodada seguinte? | mantém/altera`).
+
+## Passo 2d (v2): prontidão AdSense (Allan, 22/10/2026: o blog é o teste para aprovar e depois replicar em outros blogs)
+Toda rodada das 07:19: `python scripts/auditoria_adsense.py` (lê site/build, sem rede) e confira data/auditoria/adsense.md. Cada FALHA vira ação NA HORA: capa repetida → slugs em config/capas_refazer.txt; artigo curto/sem fonte de saúde → `gh workflow run reforco_blog.yml`; buraco de ritmo → promover aprovados/fábrica; ads.txt/páginas ausentes → corrigir no repositório. Meta: zero FALHA antes de pedir a revisão do AdSense. Regras oficiais em biblioteca/regras_plataformas/google.md (seções 2 e 3).
