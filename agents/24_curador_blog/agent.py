@@ -21,8 +21,8 @@ SAIDA = ROOT / "data" / "curador_blog"
 # 22/10/2026: o Google NAO define minimo nem maximo de palavras (Search Central, 'Creating helpful, reliable, people-first content':
 # "Google has a preferred word count? (No, we don't.)"; a politica de AdSense fala em conteudo de baixo valor, sem contagem).
 # Os numeros abaixo sao so heuristica interna de alerta, nunca regra do Google. Tamanho = o que for preciso para responder por completo.
-PISO_VAZIO = 300      # abaixo disso a pagina esta praticamente vazia: bloqueia
-ALERTA_CURTO = 600    # abaixo disso: aviso para conferir se o tema foi esgotado (nao bloqueia)
+PISO_VAZIO = 700      # bom senso do Allan (22/10): abaixo disso nao ha profundidade: bloqueia
+ALERTA_CURTO = 900    # abaixo disso: aviso para conferir se as perguntas do tema foram todas respondidas (nao bloqueia)
 SAUDE = re.compile(r"vacina|vermifug|doen[cç]a|v[oô]mito|diarreia|sintoma|medicament|rem[eé]dio|parasit|pulga|carrapato|dentes|unha|sa[uú]de", re.I)
 PROIBIDO = re.compile(r"sou (m[eé]dic[oa]\s*)?veterin[aá]ri|como veterin[aá]ri|estudos? (comprovam|mostram|provam)|\b\d{2,3}% dos (c[aã]es|cachorros|gatos)", re.I)
 
@@ -44,9 +44,12 @@ def auditar(slug: str, fm: dict, body: str, slugs: set[str]) -> list[tuple[str, 
     p: list[tuple[str, str]] = []
     n = len(re.findall(r"\w+", body))
     if n < PISO_VAZIO:
-        p.append(("bloqueante", f"conteúdo praticamente vazio: {n} palavras"))
+        p.append(("bloqueante", f"conteúdo raso: {n} palavras (piso interno {PISO_VAZIO}; o Google não define mínimo, é bom senso de profundidade)"))
     elif n < ALERTA_CURTO:
         p.append(("aviso", f"curto ({n} palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)"))
+    externos = re.findall(r"\]\((https?://[^)\s]+)\)", body)
+    if len(externos) < 3:
+        p.append(("aviso", f"poucas fontes citadas com link ({len(externos)}): artigo precisa de mais fontes (meta: 3 ou mais)"))
     if (fm.get("autor") or "").strip():
         p.append(("bloqueante", f"autor preenchido ('{fm.get('autor')}'): a assinatura é Equipe Tutorial Pet"))
     persona = str(fm.get("persona") or "")

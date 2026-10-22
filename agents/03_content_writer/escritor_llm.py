@@ -28,7 +28,7 @@ REGRAS INEGOCIÁVEIS:
 - Sem venda direta, sem urgência artificial.
 Formato: Markdown. Comece com "# Título". Depois introdução curta, seções "## ..." com subtítulos "### ..." quando fizer sentido,
 um "Exemplo prático:" concreto por seção principal, seção "## Perguntas frequentes" com 3 a 5 perguntas (pergunta em negrito e resposta curta),
-e "## Para fechar" com conclusão e convite suave para continuar lendo o blog. Entre 900 e 1200 palavras (não passe de 1300).
+e "## Para fechar" com conclusão e convite suave para continuar lendo o blog. REGRA PERGUNTAS PRIMEIRO (Allan, 22/10/2026): antes de escrever, liste mentalmente de 10 a 15 perguntas reais que as pessoas fazem sobre o termo (o que é, por que, quando, como, quanto, qual a diferença, o que evitar, quando procurar o veterinário, o que fazer primeiro). O artigo se constrói respondendo a essas perguntas: praticamente cada frase ou parágrafo responde a uma delas, direto na primeira frase, depois aprofunda com o porquê e um exemplo. Sem enrolação, sem "blá blá blá", sem repetir a mesma ideia: muita informação útil e bem escrita. Não precisa virar pergunta-e-resposta no corpo, só ser construído a partir delas. Profundidade acima de tamanho: não há meta de palavras (o Google não define); escreva o que for preciso para responder tudo.
 - Números práticos (horas, idades, quantidades) devem vir com "em média" ou "costuma" e a lembrança de confirmar com o médico-veterinário do pet.
 PRIMEIRA LINHA da resposta, obrigatória: META: <descrição única do artigo para o Google, 120 a 150 caracteres, sem aspas>. Depois uma linha em branco e o artigo.
 Se o tema for sensível, escreva exatamente a linha [[AVISO_SAUDE]] logo após a introdução."""
