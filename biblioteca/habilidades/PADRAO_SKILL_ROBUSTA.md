@@ -22,3 +22,9 @@ Uma skill só sai de "rascunho" quando uma rotina real rodou com ela e a saída 
 - Adotar (grátis, aberto): sempre primeiro; vira esqueleto e passa pelas 6 réguas.
 - Construir: as camadas que ninguém vende (fonte confirmada, número nosso, laço).
 - Comprar: só se já vier com fonte confirmada e atualização; prompt genérico pago não compensa.
+
+## Régua 8: regra vira jogada (Allan, 22/10/2026)
+Skill não é leitura de regra. Cada regra [C] gera pelo menos UMA jogada executável: o que fazer, com que número-alvo, e a condição de troca ("se em n posts ficar abaixo de X, mudar para Y"). Regra sem jogada não entra na skill. Exemplo: regra "Reels prioriza reshare" → jogada "dor nos 2 s iniciais + frase citável + pergunta final; alvo reshare/view ≥ medir primeiro em 5 posts; abaixo disso, trocar gancho".
+
+## Cobertura obrigatória (fontes a ler por completo)
+Plataformas: Meta (FB/IG orgânico e Ads), TikTok (orgânico e Ads), Google (Search, AdSense, Ads), YouTube. Ferramentas: ElevenLabs, HeyGen/HyperFrames, Buffer, Zernio, ManyChat, Kiwify, Brevo, Gemini, GitHub Actions. Cada uma com arquivo em biblioteca/regras_plataformas/ e skill(s) derivada(s); o Atualizador relê toda semana.

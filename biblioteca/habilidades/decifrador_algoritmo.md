@@ -1,17 +1,54 @@
 ---
 criado: 2026-10-21
+versao: v2 — 22/10/2026
 ---
+v2 — 22/10/2026 — status: rascunho até prova (régua 7)
+
 # Habilidade: decifrar algoritmo com amostra pequena (toda rotina que mede resultado de post)
 
-Problema recorrente (visto em data/auditoria/semanal.md e data/audiencia/medicao.md): contas novas, poucos dados, e cada agente tirava conclusão de amostra minúscula (ex.: "meme venceu" com n=1).
+Problema recorrente (data/auditoria/semanal.md, data/audiencia/medicao.md): conta nova, pouco dado, e agentes concluíam com n=1 ("meme venceu"). Esta skill diz quando um número decide e quando é só informação. Não pesquisar o algoritmo na web: o que está confirmado e o que não está fica abaixo.
 
-## Regras fixas
-1. **Idade do post decide o peso**: <24h = não julgar; 24-72h = "parcial", pode orientar teste mas não decisão definitiva; ≥72h = conta para veredito.
-2. **Tamanho mínimo de amostra por variável testada**: nunca decidir com menos de 5 posts por variação (CTA, horário, formato). Com menos, escrever "amostra insuficiente, continuar testando" — nunca inventar causa.
-3. **Uma variável por vez**: nunca mudar CTA e horário no mesmo lote (perde o que causou o efeito). Ver data/audiencia/medicao.md como modelo de como registrar isso.
-4. **Métrica por fase**: antes de ter audiência, o sinal que importa é retenção/tempo assistido e comentário (indica que o conteúdo prende), não views (que dependem de alcance que ainda não existe) nem seguidor (atraso, vem depois do conteúdo bom). Isso já é a ordem certa: comentário > compartilhamento > seguidor > venda.
-5. **Comparar com fonte externa, não só interno**: todo "campeão" interno deve ser comparado com pelo menos 1 referência externa de alto engajamento (Caçador de referências/estilo viral) — se o campeão interno ainda está longe do padrão externo, o teto não foi atingido, continue testando formato, não declare vitória cedo.
-6. **Nunca concluir "rede X não funciona"** com <10 posts ≥72h nessa rede — é cedo demais para esse veredito.
+## Regras do Allan que mandam (05 Decisões.md)
+Teste dura no máximo 3 dias; número ruim claro muda o caminho na hora, sem esperar o fim. Só vídeo. FB/IG/TikTok nunca no mesmo horário (>= 10 min). Gancho "Esse erro tá silenciosamente…" proibido. Sem "cão" (usar "cachorro"). Fase atual: audiência real antes de vender; ordem de sinal: comentário > compartilhamento > seguidor > venda.
 
-## Onde isso já está sendo seguido
-data/audiencia/medicao.md (seção "Conta do teste do formato novo") segue as regras 1-3 corretamente — usar como modelo para outros agentes que medem resultado (Estrategista, Especialista TikTok, Otimizador).
+## Regras de plataforma que esta skill aplica (só [C])
+Fonte: biblioteca/regras_plataformas/meta_facebook_instagram.md (lido 22/10/2026).
+1. [C] Se a pergunta é "o que a Meta pesa em Reels", então usar reshares, assistir inteiro, curtidas e visitas ao áudio como sinais de leitura; a Meta não publica pesos (meta_facebook_instagram.md, sinais de Reels).
+2. [C] Se o post não é original (repost, compilado, só borda/legenda/velocidade), então a causa de alcance baixo já está explicada: não testar gancho nele, corrigir a originalidade primeiro (Facebook, Originalidade).
+3. [C] Se o alcance do IG está baixo, então ler o Account Status (app) uma vez por semana antes de culpar o conteúdo; restrito = causa externa ao gancho (Instagram, elegibilidade).
+4. [C] Se quer teste barato de gancho no IG, então Trial Reel (só não seguidores) isola o efeito do gancho do efeito da base de seguidores (Instagram, Trial reels).
+5. [C] Facebook estima a chance de engajamento por pessoa (autor, horário, tema, histórico): se o horário muda e o tema muda juntos, o teste não vale (Facebook, distribuição).
+
+### Validar antes de agir ([N])
+- [N] TikTok: conclusão do vídeo e tempo assistido pesam mais, depois salvar e compartilhar (socialpilot, mercado; tiktok.md §7).
+- [N] TikTok: distribuição inicial para subconjunto de seguidores; conta pequena não penalizada; duração e frequência ideais.
+- [N] Peso exato de tempo assistido na Meta; punição por repost (imprensa).
+- [N] Melhores horários públicos (Loggi 09/02/2026; SocialPilot) coincidem só em 20h e sex 13-15h: sem base para trocar nossa grade.
+
+## Limites de decisão (números nossos)
+| Item | Regra | Base |
+|---|---|---|
+| Idade do post | < 24 h = informação; 24-72 h = parcial (pode orientar teste, não decide); >= 72 h = vale | regra do Allan, testes de 72 h |
+| n por variação | < 5 posts = "amostra insuficiente"; nunca inventar causa | data/testes/baseline_2026-10-21.md |
+| "Rede X não funciona" | só com >= 10 posts de 72 h+ na rede | hoje FB n=26, IG n=25, TikTok n=35 |
+| Ruído natural | TikTok piso 150-220 views em qualquer hora desde 14/10 (mediana 190, 19 vídeos); só mudança acima de 300 views ou tempo >= 4 s conta como efeito | data/tiktok/relatorio.md 22/10 |
+| FB | mediana 227 views (n=12, 19-20/10); fail < 200, pass >= 280; tempo 4,0 s, fail < 4 s, pass >= 6 s | estrategia_social.md 22/10 |
+| IG | alcance mediana 60 (n=12); fail < 50, pass >= 80; skip 55,6%, fail > 70%, pass <= 55% | idem |
+| TikTok | tempo médio 2,87 s (35 posts); fail < 2,5 s, pass >= 4 s; melhor 7,46 s | relatorio.md 22/10 |
+- Comparação com fonte externa: o campeão interno só vira "padrão" se estiver perto de 1 referência externa de alto engajamento; senão o teto não foi atingido.
+- Janela mínima para leitura de seguidores: 3 dias (T6, baseline 21/10: FB 8, IG 0, TikTok 19).
+- Sem número para: tamanho de efeito mínimo por rede além dos acima. Medir primeiro: 5 posts de 72 h+ por variação, até 3 dias, registrar mediana e dispersão.
+
+## Procedimento
+1. Listar os posts do teste com data de publicação e idade em horas. Saída: tabela com idade.
+2. Descartar do veredito os < 24 h (marcar "informação"). Os de 24-72 h: marcar "parcial".
+3. Contar n por variação. n < 5 em qualquer braço = veredito unknown ("amostra insuficiente, continuar").
+4. Conferir que só UMA variável mudou entre os braços (gancho, CTA, horário, formato). Mais de uma = unknown; refazer o desenho.
+5. Conferir causas externas: originalidade, marca d'água, Account Status, erro de publicação, horário colado a outra rede. Qualquer uma = unknown ("causa externa").
+6. Comparar cada braço com os limites da tabela (mesma rede, nunca de outra rede). Saída por braço: pass / fail / unknown.
+7. Decisão: pass nos dois braços = escalar o melhor (50% da produção seguinte); fail claro (2+ posts abaixo do gatilho em 3 dias) = mudar UMA peça no mesmo dia; resto = continuar mais 72 h trocando 1 fator.
+8. Comparar o campeão com 1 referência externa (banco de referências). Longe = não declarar vitória.
+9. Gravar o veredito e a linha de aprendizado.
+
+## Saída obrigatória
+Uma linha em `data/habilidades/aprendizado/decifrador_algoritmo.md`, formato: `data | regra aplicada (nº do passo) | resultado (n, métrica) | mantém/altera`. Rodada sem a linha = "não aplicou". Regra das 3 linhas: 3 linhas com o mesmo padrão = propor edição desta skill (versão, data, evidência) em entrega_direta.md.
