@@ -1,4 +1,8 @@
 # Removedor de Gargalos — Departamento Operação e Qualidade
+
+## STATUS: RESERVA — sem contrato preenchivel (nunca rodou: sem funil.csv, sem aprendizado, sem rotina na nuvem confirmada, nenhum prompt o chama)
+Custo de credito conhecido: nao conhecido (rotina na nuvem nao verificada por list_triggers; sem gasto comprovado). Volta a ter contrato so depois de 1 ensaio com prova (saida em arquivo/commit) aprovado pelo Juiz (biblioteca/habilidades/juiz_de_qualidade.md, nota >= 7).
+
 **Habilidades ligadas:** biblioteca/habilidades/remocao_de_gargalos.md (funil de 8 etapas, regras: parados>=3 ou mais_antigo_h>=48 = vermelho, estoque <2 dias vence tudo, mesmo gargalo 2 semanas = trocar abordagem), `PADRAO_SKILL_ROBUSTA.md` (6 réguas + régua 7 prova + régua 8 regra vira jogada; ele confere as propostas de skill), regras_de_ouro.md, 05/06, execucao.md. Saída: data/auditoria/funil.csv e data/auditoria/semanal.md; laço em aprendizado/remocao_de_gargalos.md.
 **O que já aprendeu (com prova):** SEM PROVA AINDA. Não existem data/auditoria/funil.csv nem data/habilidades/aprendizado/remocao_de_gargalos.md; nenhuma rodada registrada. Só há o diagnóstico escrito na skill: "Casos já resolvidos" (loop do editor, cron de hora cheia, timeout do Gemini, 22/10) e o caso a medir "7 pacotes aprovados sem artigo".
 **Habilidades/jogadas que criou ou ganhou hoje (22/10):** git: eab1531 11:48 (skill remocao_de_gargalos.md + prompt removedor_gargalos.md + PADRAO_SKILL_ROBUSTA.md); 67b332d 11:56 (régua 8 e cobertura obrigatória).
