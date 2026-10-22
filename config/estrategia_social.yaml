@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 14
-atualizado_em: "2026-10-21 17:25"  # rodada 17:07 (10a edicao): E21 FB 12:00 em observacao; E22 preco velho; isca_digital reescrita como ESTADO
+versao: 15
+atualizado_em: "2026-10-22 08:00"  # rodada 22/10 07:35 (11a edicao): regra FB/IG nunca no mesmo minuto (E23); serie 7 erros = cartao de imagem (viola c); preco velho em 4 arquivos (E22 ampliada)
+versao_anterior_atualizado_em_14: "2026-10-21 17:25"  # rodada 17:07 (10a edicao): E21 FB 12:00 em observacao; E22 preco velho; isca_digital reescrita como ESTADO
 versao_anterior_atualizado_em: "2026-10-21 07:20"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
 status_publicacao:
   alerta: "Sem erros em 16/10. Zernio >=30 agendados FB/IG; Buffer 9 agendados TikTok (teto gratis = 10). 5 legendas TikTok agendadas dizem 'link no perfil' (areia, banho, piso, racao seca, cotonete): trocar por 'busque no blog'."
@@ -75,7 +76,7 @@ perguntas_interacao:
 isca_digital:   # ESTADO verificado em 21/10 17:10 (nao e proposta; nada a criar)
   status: "CRIADA em 20-21/10 (Brevo lista '7 Erros - Isca' + form; PDF landing/7-erros.pdf no repo; ManyChat tutorialpetbr). DESCARTADA como guia pelo Allan em 21/10 (E19): GUIA suspenso, ligado a 1 post, 0 execucoes"
   nova_isca: "E19: Diretor de Audiencia entrega data/audiencia/decisao_isca_2026-10-22.md"
-  pendencias_reais: ["8 pares FB+IG agendados da serie '7 erros' ainda prometem 'Comente GUIA' (decisao do Allan)", "captura/guia.html nao publicada em landing/ (nao publicar enquanto E19 nao decidir)", "config/produtos_landing/sozinho-em-casa.yaml ainda com R$ 9,90 (E22)", "Brevo sem e-mail transacional (LEIA-ME 20/10)", "ManyChat vivo e texto da DM: nao checavel da nuvem"]
+  pendencias_reais: ["serie '7 erros' (cartoes de imagem, FB+IG no mesmo minuto) e ultimo par promete 'Comente GUIA': decisao do Allan 22/10 (recomendado cancelar os pares agendados)", "R$ 9,90 / de R$ 37 ainda em config/produtos_landing/sozinho-em-casa.yaml, config/produtos_relacionados.yaml (l.31,33,35), fabrica_nuvem.py:53 e agents/29_marketing_produto/prompt.md:5 (E22 ampliada)", "captura/guia.html nao publicada em landing/ (nao publicar enquanto E19 nao decidir)", "Brevo sem e-mail transacional (LEIA-ME 20/10)", "ManyChat vivo e texto da DM: nao checavel da nuvem"]
   regras: "META (instantdm.com, 28/08/2026, fonte secundaria): resposta privada a comentario = 1 mensagem, ate 7 dias; so contata quem agiu primeiro. TIKTOK: nao automatizar. LGPD: e-mail so com consentimento claro. Sozinho em Casa (R$ 27 + upsell R$ 47) so na DM, depois que a pessoa responder, 1 linha, sem pressao e nunca 'por dia/mes'."
 regras_teste:
   versao_16_10_mudanca: "Allan mandou mudar o caminho ja (16/10). Fator de decisao = RETENCAO (tempo medio como % da duracao, skip rate IG), lida em 24-48h; views absolutos so apoio. Horario congelado."
@@ -159,3 +160,24 @@ rodada_2026_10_21_1707:   # data/social/estrategia_social.md (10a edicao)
   hashtags: {instagram_max: 5, tiktok: "3-5 (1 nicho 50-500 mil videos + 2-3 tematicas; evitar #fyp/#viral)", facebook: "0-3 (sem recomendacao oficial achada)", fontes: ["tecnoblog.net/noticias/instagram-limita-numero-de-hashtags-em-posts", "envox.com.br guia hashtags 2026", "go-viral.app/pt/blog/estrategia-hashtags-tiktok"]}
   perguntas_lote_hoje: ["Quantas horas o seu cachorro fica sozinho?", "Gato ou cachorro?", "Manha ou noite?", "Caixa ou cama?", "Sim ou nao?"]
   painel_metas_2_semanas: {fb: {views_mediana: 350, tempo_medio_pct: 0.4, comentarios_terceiros_semana: 1, seguidores_dia: 1}, ig: {alcance_mediana: 80, skip_max: 0.55, salvos_mais_shares_semana: 1}, tiktok: {views_mediana: 400, tempo_medio_pct: 0.5, meme_tempo_medio_s: 4, shares_por_post: 0.5, seguidores_dia: 2}}
+rodada_2026_10_22_0735:   # data/social/estrategia_social.md (11a edicao); plano: data/social/plano_de_mudanca_2026-10-22.md
+  gatilho: "disparou: FB tempo<6s 12/12; TikTok tempo<4s 4/6 e mediana 196; IG skip>70% 2/12 (limite)"
+  regra_agenda: "Nunca duas redes no mesmo horario: minimo 10 min entre FB, IG e TikTok (a serie '7 erros' violou: FB e IG com 1-2 s de diferenca em 8 pares). O gerador de agenda rejeita o par se a diferenca for <10 min (E23)."
+  formato_serie_7_erros: "cartao de imagem viola a regra (c) so video; Erro 1 teve alcance 0 em FB e IG com 14 h (n=1 par). Nao gerar novos cartoes (E24)."
+  horarios: {decisao: "manter grade seg-dom", fb: ["08:30", "21:00", "12:00 so meme 8s se a leitura de 24h de 22/10 12:04 >=150 (hoje 208 parcial; E21 reabre sozinho)"], ig: ["08:40", "21:10"], tiktok: ["10:20", "20:20"], fonte_publica: "Loggi 09/02/2026 (sem metodologia) + SocialPilot dez/2025 (sem Brasil): so coincidem em 20h e sex 13-15h; nosso TikTok tem views iguais em todas as horas"}
+  hashtags: {instagram_max: 5, nota: "Hostinger BR 16/01/2026 cita limite de 30 sem numero ideal; Tecnoblog 18/12/2025 diz 5; sem fonte primaria da Meta: ficar em <=5"}
+  fila_tiktok: "4 de 10 agendados; acaba 23/10 10:20; repor ate 22/10 18:00 (E25)"
+  gancho_banido_agendado: "TikTok 22/10 14:20 id 6ad8a1729c5d256f6598ceac ('Esse erro ta silenciosamente...'); trocar por item da fila de producao (E26)"
+perguntas_lote_2026_10_22:   # uma palavra ou numero; tema do lote de hoje (gato novo, escova, castrado, patas no inverno)
+  gato:
+    - "Segundo gato em casa: já tem, quer ou nunca? Responde com uma palavra."
+    - "Seu gato aceita escova: sim ou não?"
+    - "Quantas vezes por dia o seu gato come: 1, 2 ou 3?"
+    - "Seu gato é do tipo comilão ou beliscador?"
+    - "Quantos gatos moram aí com você?"
+  cachorro:
+    - "Seu cachorro aceita as patas limpas depois do passeio: sim ou não?"
+    - "Passeio no frio: manhã ou noite?"
+    - "Seu cachorro tem caminha ou dorme no chão gelado?"
+    - "Quantas horas por dia o seu cachorro fica sozinho?"
+    - "Gato ou cachorro: quem manda aí?"

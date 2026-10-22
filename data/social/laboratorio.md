@@ -70,3 +70,18 @@ Seguidores 20/10 17:08: FB 7 (+2 em 7 dias, Zernio), IG 0, TikTok 19 (conferido 
 | 6ad51bdb | TT | 10-20 20:20 | explicador 50s | Seu gato te acorda de madrugada... ("link no perfil") | CTA artigo | Duda padrão | n/d | gato | 196 views, tempo 2.1s, 27 curt, 1 com, 1 comp (parcial 10h) | NEUTRO |
 
 Seguidores 21/10 07:15: FB 8 (+3 em 7 dias; +1 hoje, Zernio), IG 0 (Zernio), TikTok 19 (último valor, Allan 20/10; Buffer não informa).
+<!-- Rodada 22/10 07:35 (Fortaleza): posts de 21/10, todos parciais (<24h) salvo indicação; voz/cena n/d. -->
+| 7e113d | FA | 10-21 10:05 | explicador 42s | Você sabia que o chão gelado (patas) | CTA artigo | Duda padrão | n/d | cachorro | 241 views, tempo 2.3s, 0 curt, 1 com, 0 comp (21h) | NEUTRO |
+| 38d8bf | FA | 10-21 12:04 | meme 8s | Quem aí já paga esse imposto todo dia? | CTA artigo | Duda padrão | n/d | n/d | 208 views, tempo 3.1s, 4 curt, 0 com, 0 comp (19h; 24h fecha 22/10 12:04) | GANHOU (parcial) |
+| 38d8be | IN | 10-21 13:05 | meme 8s | Quem aí já paga esse imposto todo dia? | CTA artigo | Duda padrão | n/d | n/d | alcance 122, skip 62.3%, tempo 2.9s, 2 curt, 0 com, 1 comp (18h) | NEUTRO (parcial) |
+| 3440fe | FA | 10-21 14:05 | explicador 37s | Seu gato está destruindo o sofá? | CTA artigo | Duda padrão | n/d | gato | 268 views, tempo 5.7s (52% aos 6 s), 2 curt, 0 com, 0 comp (17h) | GANHOU (parcial; melhor retenção FB desde 14/10) |
+| c9d4f8 | IN | 10-21 15:03 | explicador 37s | Seu gato está destruindo o sofá? | CTA artigo | Duda padrão | n/d | gato | alcance 5, skip 100%, 0 curt, 0 com, 0 comp (16h) | PERDEU (parcial) |
+| 53fc5e | IN | 10-21 11:04 | explicador 46s | Você sabia que o chão gelado (patas) | CTA artigo | Duda padrão | n/d | cachorro | alcance 29, skip 63.3%, tempo 4.7s (20h) | NEUTRO (parcial) |
+| 026c6e | FA | 10-21 20:33 | explicador 42s | Quer dar legumes pro seu cão sem errar? | CTA artigo | Duda padrão | n/d | cachorro | 204 views, tempo 3.1s, 2 curt, 1 com (11h) | NEUTRO (parcial) |
+| 1c97fc | IN | 10-21 21:03 | explicador 42s | Quer dar legumes pro seu cão sem errar? | CTA artigo | Duda padrão | n/d | cachorro | alcance 3, skip 100%, tempo 1.1s (10h) | PERDEU (parcial) |
+| 6ad7bf5a | TT | 10-21 10:21 | explicador 41s | Seu cachorro vive roubando a comida do seu gato | CTA artigo | Duda padrão | n/d | gato | 178 views, tempo 1.5s, 7 curt, 0 com, 0 comp (21h) | PERDEU (parcial) |
+| 6ad7bf5b | TT | 10-21 14:21 | explicador 37s | Seu gato está destruindo o sofá? | CTA artigo | Duda padrão | n/d | gato | 195 views, tempo 3.1s, 19 curt, 0 com, 0 comp (17h) | NEUTRO (parcial) |
+| 6ad7bf5c | TT | 10-21 20:21 | explicador 42s | Seu cachorro fica pedindo comida toda vez que você cozinha? ("link no perfil") | CTA artigo | Duda padrão | n/d | cachorro | 126 views, tempo 1.7s, 11 curt, 0 com, 1 comp (11h) | NEUTRO (parcial) |
+| 0818f1/081828 | FA+IN | 10-21 17:29 | cartão de imagem | Erro 1 de 7 (série 7 erros) | "Siga para ver os próximos" | n/a | cartão | n/d | FB e IG: alcance 0, 0 views (14h); FB e IG no mesmo minuto | PERDEU (parcial; n=1 par) |
+
+Seguidores 22/10 07:55: FB 8 (+3 em 7 dias, Zernio), IG 0, TikTok 19 (Allan 20/10; Buffer não informa).
