@@ -34,3 +34,5 @@ Quinta 22/10 08:23 (72 h dos primeiros memes do lote das 08:40) e 72 h após os 
 5. Vendas: sem dado (0 no baseline de 21/10, Kiwify).
 Campeão: nenhum. Em views o flagrante F2 (FB 562); no IG o meme manda (alcance 104-122 x explicador 3-35); no TikTok a pergunta numérica sobre horas sozinho (7,46 s).
 Uma variável por vez (lote r22q): X7 trend (A1, A2) x evergreen (A3): views e comentários em 72 h, trend vence rápido. X2 continua valendo (CTA A binário x B aberto, mesma arte). Nada de horário novo. Próxima leitura: 25/10 (72 h do lote de 22/10) e sexta 24/10 21:11 (veredito do Medidor).
+
+Atualização 22/10 13:10 (Diretor de Audiência, Zernio follower-stats sync 22/10 07:55): FB 8 (+3 em 7 dias: 5→8 de 15 a 21/10), IG 0 (8 dias parados), TikTok sem dado (Buffer não informa). Teste CTA-comentário em curso: ver data/testes/audiencia_2026-10-22_plano.md.

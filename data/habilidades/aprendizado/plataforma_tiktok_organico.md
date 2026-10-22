@@ -4,3 +4,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 
 | data | hipótese | resultado (n, métrica) | mantém/altera regra |
 |---|---|---|---|
+2026-10-22 | J4 (pergunta de continuação) aplicada na legenda do TikTok 6ad8a174…; J5 não usada (comentário→DM não existe no TikTok) | resultado: n=1 teste vs 1 controle (6ad8a172…), sem leitura (< 24 h); piso 150-220 views | mantém
