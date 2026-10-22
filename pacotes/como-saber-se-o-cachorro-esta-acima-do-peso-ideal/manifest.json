@@ -1,6 +1,6 @@
 {
   "slug": "como-saber-se-o-cachorro-esta-acima-do-peso-ideal",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-21T11:36:19+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-saber-se-o-cachorro-esta-acima-do-peso-ideal",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie cachorro: coerência não verificada (visão indisponível: GEMINI_API_KEY ausente)"
     ],
     "em": "2026-10-21T11:36:43+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas"
 }

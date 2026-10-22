@@ -1,6 +1,6 @@
 {
   "slug": "quais-petiscos-naturais-posso-dar-para-o-gato",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-21T20:37:33+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/quais-petiscos-naturais-posso-dar-para-o-gato",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie gato: coerência não verificada (visão indisponível: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your curr)"
     ],
     "em": "2026-10-21T20:38:53+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas"
 }

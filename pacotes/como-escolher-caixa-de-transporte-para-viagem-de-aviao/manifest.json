@@ -1,6 +1,6 @@
 {
   "slug": "como-escolher-caixa-de-transporte-para-viagem-de-aviao",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-20T20:29:35+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-caixa-de-transporte-para-viagem-de-aviao",
   "voz": {
@@ -26,5 +26,6 @@
       "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis"
     ],
     "em": "2026-10-20T20:30:16+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas"
 }

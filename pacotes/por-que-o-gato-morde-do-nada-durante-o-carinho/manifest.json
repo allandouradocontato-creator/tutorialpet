@@ -1,6 +1,6 @@
 {
   "slug": "por-que-o-gato-morde-do-nada-durante-o-carinho",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-21T14:22:32+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/por-que-o-gato-morde-do-nada-durante-o-carinho",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie gato: 6/6 quadros conferem"
     ],
     "em": "2026-10-21T14:24:56+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas"
 }
