@@ -48,3 +48,9 @@ Baseline em data/testes/baseline_2026-10-21.md (T1-T9, janela 72 h). Rotina "Med
 
 ## Departamentos com diretor (21/10 16:10)
 Estrutura em config/prompts/departamentos.md. Diretores (rotinas na nuvem): Audiência 09:17 diário; Produto e Receita ter/sex 12:31; Conteúdo e Blog seg/qui 11:37; Operação 21:41 diário. Fichas em data/departamentos/fichas/. ManyChat: conta única tutorialpetbr (fb5804905) com IG + TikTok + Facebook; a conta nova fb1251330151406637 ficou vazia, não usar. Textos do Messenger = rascunho aguardando o Diretor de Audiência.
+
+## Decisões — rodada do Executor 22/10 18:25Z (15:25 Fortaleza)
+Contagem: decididas abertas ~24 / feitas 22 (com evidência) / atrasadas 7 (D02, D08, E07, E09, E13, E26, E42) / só Allan 2 (A02: 2FA e verificação TikTok; E13: ok para editar 4 TikToks agendados). Painel de Decisões sem resposta nova do Allan (última rodada 20/10, nenhum comentário).
+Achado importante: em 22/10 16:41Z 26 rotinas foram desligadas (Humorista, Utilidade Pública, Atendente, Auditor de Anúncios, Criativo de Venda, Fábrica de Produtos, Cobrança, Editor de Afiliados, Revisão Estratégica, Triagem, Construtor de app, Produtor de e-book, Especialista TikTok, Pesquisadores de Formato e de Mercado). O Importador Internacional (D02) nunca foi criado e o Atendente 3x/dia (E09) depende de religar. Não criei nem religuei nada por conta própria: custa crédito, e o lembrete de 23/10 14:00 é para medir esse custo. Decisão pedida ao Allan: quais dessas voltam e quando.
+Regra E32 gravada no prompt do Executor (commit parcial a cada 3 linhas + linha ATRASADAS no topo).
+
