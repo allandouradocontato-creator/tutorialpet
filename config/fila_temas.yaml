@@ -183,7 +183,8 @@ temas:
   data: '2026-10-21'
 - termo: como tirar cheiro de xixi de cachorro do quintal
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-22'
 - termo: como ensinar filhote a fazer xixi no tapete higienico
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -606,4 +607,10 @@ temas:
   status: pendente
 - termo: como acalmar gato no calor do verao dicas para casa
   pilar: cuidados_diarios
+  status: pendente
+- termo: como acostumar cachorro adulto a usar roupa no inverno
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher arranhador ideal para gatos grandes em apartamento
+  pilar: produtos_compras
   status: pendente
