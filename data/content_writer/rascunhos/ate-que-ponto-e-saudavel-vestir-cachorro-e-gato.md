@@ -15,7 +15,7 @@ assinatura: Equipe Tutorial Pet
 
 # Até que ponto é saudável vestir cachorro e gato?
 
-Casaquinho de lã, capa de chuva, fantasia de festa junina: roupa de pet rende foto bonita e divide opiniões. A resposta honesta fica no meio: às vezes a roupa é uma ajuda real, às vezes é só vontade do tutor. Vamos ver quando faz sentido, quais são os riscos e como perceber que o bichinho não está gostando.
+Casaquinho de lã, capa de chuva, fantasia de festa junina: a roupinha para cachorro e gato rende foto bonita e divide opiniões. A resposta honesta fica no meio: às vezes a roupa é uma ajuda real, às vezes é só vontade do tutor. Vamos ver quando faz sentido, quais são os riscos e como perceber que o bichinho não está gostando.
 
 *Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.*
 
@@ -32,7 +32,7 @@ Segundo a rede de hospitais veterinários VCA, alguns cães perdem calor com fac
 
 A Faculdade de Medicina Veterinária da Universidade Cornell acrescenta que cães de pelagem curta ou fina sentem mais frio do que raças de pelo duplo e grosso, como o husky e o malamute. Para raças sem pelo ou de pelo muito curto, a Ontario SPCA também aponta que casacos podem ser úteis.
 
-Se você tem um galgo, leia sobre o [galgo italiano e seus cuidados com o frio](/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta). Quem convive com um cão mais velho encontra ideias de conforto em [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
+Se você tem um galgo, conheça o [galgo italiano, raça de pelo curto e muito sensível ao frio](/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta). O frio também chega às patas: veja os [cuidados com as patas de cães no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno). Quem convive com um cão mais velho encontra ideias de conforto em [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
 
 Segundo o Vetstreet, também ajudam a capa de chuva e o agasalho para cães em recuperação de cirurgia, já que a anestesia pode prejudicar o controle da temperatura. Nesse caso, siga o que o médico-veterinário orientar.
 
@@ -62,7 +62,7 @@ As fontes consultadas apontam problemas bem concretos:
 
 ## O que costuma ser seguro
 
-Estes cuidados reduzem os riscos e batem com o que as fontes recomendam:
+Estes cuidados reduzem os riscos. Boa parte vem das orientações das fontes ao final do texto, e o resto é bom senso:
 
 1. **Peças leves e simples.** Um casaquinho ou moletom macio costuma ser melhor do que uma fantasia cheia de camadas.
 2. **Sem enfeites soltos.** Evite botões, pedrarias, laços, fitas compridas e qualquer detalhe que possa ser arrancado ou mastigado.
@@ -73,7 +73,7 @@ Estes cuidados reduzem os riscos e batem com o que as fontes recomendam:
 7. **Supervisão sempre.** Nunca deixe o animal sozinho vestido.
 8. **Tirar ao menor sinal de desconforto.**
 
-Se o frio é o motivo, lembre que o pet também sente nas patas: veja os [cuidados com as patas de cães no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno). Se a pele do seu cão anda sensível, confira [com que frequência dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro).
+Se a pele do seu cão anda sensível ou a roupa suja com frequência, veja [quando e como dar banho sem agredir a pele](/com-que-frequencia-dar-banho-em-cachorro).
 
 ## Quando roupa não é boa ideia
 
@@ -94,7 +94,7 @@ Retire a roupa se notar:
 
 - paralisar, recusar-se a andar ou ficar "mole";
 - arranhar, morder ou puxar a peça repetidamente;
-- orelhas para trás, lamber os lábios, ofegar, esconder-se (no gato, também sibilar);
+- orelhas para trás, ofegar, esconder-se (no gato, também sibilar);
 - coçar sem parar, ter vermelhidão ou perder pelo no local;
 - respirar com dificuldade ou babar demais.
 
@@ -110,6 +110,12 @@ Em geral, os gatos toleram mal, e a Cats Protection considera que a maioria fica
 
 **Como saber se o tamanho está certo?**
 A peça deve cobrir costas e peito, sem apertar e sem sobrar, e deixar o pet andar, sentar e deitar com naturalidade. Meça o animal e use a tabela da marca.
+
+**Roupa faz mal para cachorro?**
+Não necessariamente. Uma peça leve, do tamanho certo e usada por pouco tempo, só quando há frio, costuma ser segura. O problema aparece com peça apertada, quente demais, com enfeites soltos ou usada sem necessidade e sem supervisão.
+
+**Pode deixar o cachorro dormindo de roupa?**
+O mais prudente é não deixar. Sem supervisão, ele pode se enroscar, esquentar demais ou mastigar a peça. Se a noite é fria, prefira cobertor e caminha aquecida, e converse com o veterinário sobre o caso do seu cão.
 
 ## O que as entidades veterinárias dizem sobre isso
 
@@ -130,23 +136,3 @@ As orientações deste texto vêm de fontes veterinárias e de proteção animal
 ## Para fechar
 
 Vestir o pet pode ser cuidado ou apenas enfeite, e a diferença está em olhar para o animal, não para a roupa. Se ele sente frio de verdade, uma peça simples, bem ajustada e usada por pouco tempo pode ajudar. Se é só decoração, tudo bem, desde que ele esteja tranquilo e você tire ao primeiro sinal de incômodo. Na dúvida, converse com o médico-veterinário.
-
-<!--
-FONTES CONSULTADAS (pesquisa de 22/10/2026):
-
-- https://vcahospitals.com/resources/lifestyle-dog/supplies/what-to-consider-when-choosing-a-dog-jacket (VCA Animal Hospitals: quais cães podem precisar de casaco, medidas, ajuste)
-
-- https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/winter-safety-tips (Cornell University College of Veterinary Medicine: cães mais sensíveis ao frio)
-
-- https://ontariospca.ca/blog/does-your-dog-need-winter-clothes/ (Ontario SPCA: raças de pelo curto ou sem pelo, superaquecimento, sinais de estresse)
-
-- https://www.vetstreet.com/dogs/dog-clothing-protection-for-when-your-pooch-needs-it (Vetstreet: usos, ajuste, peças pequenas, sinais)
-
-- https://www.akc.org/expert-advice/lifestyle/costumes-for-dogs-dressed-up/ (American Kennel Club: ajuste, engasgo, supervisão, estresse)
-
-- https://www.cats.org.uk/cats-blog/is-it-ok-to-dress-up-your-cat (Cats Protection: estresse em gatos, exceções, sinais)
-
-- https://blogs.correiobraziliense.com.br/maisbichos/roupinhas-usar-ou-nao-usar/ (Correio Braziliense, médica-veterinária entrevistada: tecidos, feridas, alergia)
-
-Observação: não foram localizados, na busca, posicionamentos específicos de AVMA, WSAVA ou CFMV sobre roupas; nenhum número ou estudo foi citado.
--->
