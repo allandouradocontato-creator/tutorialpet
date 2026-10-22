@@ -45,5 +45,10 @@ Produção própria · só carimbo da marca · Reel <= 3 min · rótulo IA se Du
 ## (f) Laço de aprimoramento
 Ao fim de cada ciclo, uma linha em `data/habilidades/aprendizado/plataforma_meta_organico.md`: `data | hipótese | resultado (n, métrica) | mantém/altera regra`. Quando 3 linhas confirmarem o mesmo padrão, propor a edição desta skill (subir versão e data no topo) em entrega_direta.md; não editar sem as 3 linhas.
 
+## Regras [C] → jogadas (22/10/2026)
+- Engagement bait [C]: o post que pede reação em troca de visibilidade é rebaixado e Página reincidente sofre mais. Jogada: legenda sem pedido de curtir/compartilhar/marcar; pergunta genuína só se o vídeo prometeu a resposta. Medir primeiro: alcance mediano dos próximos 10 posts sem pedido vs últimos 10; trocar o gancho se a diferença passar de 20 por cento a favor do grupo antigo.
+- Link de baixa qualidade [C]: link só para o blog com conteúdo útil e pouco anúncio. Medir primeiro: 5 posts com link vs 5 sem, alcance em 3 dias; se o com-link perder mais de 30 por cento, mover o link para bio/sticker.
+- Private reply Instagram [C]: uma resposta por comentador em até 7 dias. Jogada: fluxo comentário→DM dispara uma vez; se houver comentário sem resposta há mais de 5 dias, o humano assume via Human Agent; condição de troca: se a taxa de DM entregue ficar abaixo de 80 por cento em 20 comentários, revisar permissões antes de culpar o conteúdo.
+
 ## (g) Itens [N] — validar antes de gastar/automatizar
-Limite de 5 hashtags (fonte secundária, dez/2025); link na legenda IG não clicável; links externos reduzem alcance (não confirmado); engagement bait/clickbait (páginas oficiais não lidas); prazo e limite de private reply no Instagram; "Follow to DM"; punição por repost (imprensa); critérios de monetização de Reels; nomes dos botões do seletor de IA. Validar com Claude in Chrome nas páginas oficiais antes de decisão de alto risco.
+Limite de 5 hashtags (fonte secundária, dez/2025); link na legenda IG não clicável; links externos reduzem alcance (não confirmado); clickbait (página oficial não lida); "Follow to DM"; punição por repost (imprensa); critérios de monetização de Reels; nomes dos botões do seletor de IA. Validar com Claude in Chrome nas páginas oficiais antes de decisão de alto risco.

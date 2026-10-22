@@ -42,5 +42,10 @@ Account Status ok · pagamento/CNPJ/domínio ok · criativo orgânico 72 h+ acim
 ## (f) Laço de aprimoramento
 Fim de cada ciclo: linha em `data/habilidades/aprendizado/trafego_meta_ads.md`: `data | hipótese | resultado (n, métrica) | mantém/altera regra`. Com 3 linhas confirmando o mesmo padrão, propor edição desta skill (versão e data no topo) em entrega_direta.md.
 
+## Regras [C] → jogadas (22/10/2026)
+- Link de baixa qualidade [C]: anúncio que leva a página pobre e cheia de anúncios pode ficar inelegível. Jogada: landing no domínio próprio com conteúdo útil, sem excesso de blocos de anúncio; checar antes de ativar. Condição de troca: se o anúncio for reprovado por landing, trocar a página antes de editar o criativo.
+- Private reply [C]: no Click-to-DM, preparar resposta humana ou automática dentro de 7 dias e só uma por comentador; medir primeiro: taxa de resposta em 20 comentários antes de escalar orçamento.
+- Engagement bait [C]: texto do anúncio sem pedido de reação em troca de algo; se o alcance orgânico do post impulsionado cair, comparar com versão sem o pedido.
+
 ## (g) Itens [N] — validar antes de gastar
-Corpo das Advertising Standards (saúde, atributos pessoais, animais, infoproduto): não lido, tudo é prudência; exigências de landing (privacidade, identificação); requisitos de conta no Brasil (CNPJ, pagamento, verificação de domínio); botões do seletor de IA no Ads Manager; prazo de private reply no Instagram. Ler no Gerenciador/Chrome antes do 1º real gasto.
+Corpo das Advertising Standards (saúde, atributos pessoais, animais, infoproduto): não lido, tudo é prudência; exigências de landing (privacidade, identificação); requisitos de conta no Brasil (CNPJ, pagamento, verificação de domínio); botões do seletor de IA no Ads Manager. Ler no Gerenciador/Chrome antes do 1º real gasto.

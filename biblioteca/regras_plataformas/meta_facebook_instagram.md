@@ -2,7 +2,9 @@
 
 Guia prático para agentes de IA lerem antes de produzir, publicar ou anunciar no Facebook e Instagram da Tutorial Pet. Pesquisa web de 2026-10-22. Cada item traz a marca **[C]** (confirmado em página oficial da Meta que foi efetivamente lida) ou **[N]** (não confirmado em fonte oficial: veio de fonte secundária ou a página oficial não pôde ser lida). Tratar [N] como hipótese, nunca como regra certa.
 
-Limitação desta pesquisa: várias páginas oficiais (Advertising Standards em transparency.meta.com, Engagement Bait, Types of content we demote, Reels AI system, help.instagram.com/1800814370401535 e /1525585517644948, facebook.com/business/help/*) devolveram só metadados (conteúdo carregado por script) ou bloquearam robôs. Por isso a seção de anúncios e a de engagement bait ficaram majoritariamente [N]. Retomar com navegador (Claude in Chrome) para ler esses textos.
+Atualização 22/10/2026 (2ª passada): 3 itens viraram [C] por páginas oficiais equivalentes (private reply Instagram, links de baixa qualidade, engagement bait). As páginas transparency.meta.com, help.instagram.com, meta.com/help e facebook.com/business/help continuam ilegíveis por robô (corpo por script ou robots bloqueado); ver seção final "Pendente de leitura no Chrome do Allan".
+
+Limitação da 1ª pesquisa: várias páginas oficiais (Advertising Standards em transparency.meta.com, Engagement Bait, Types of content we demote, Reels AI system, help.instagram.com/1800814370401535 e /1525585517644948, facebook.com/business/help/*) devolveram só metadados (conteúdo carregado por script) ou bloquearam robôs. Por isso a seção de anúncios e a de engagement bait ficaram majoritariamente [N]. Retomar com navegador (Claude in Chrome) para ler esses textos.
 
 ## 1. Resumo em 10 linhas
 
@@ -82,7 +84,7 @@ Páginas oficiais existem (transparency.meta.com/policies/ad-standards/, restric
 - Limite de hashtags: a conta oficial @creators no Threads anunciou atualização gradual para 5 hashtags por legenda de reel ou post; a Meta diz que poucas hashtags mais direcionadas podem melhorar o desempenho. Citado por Social Media Today (18/12/2025); não li a postagem oficial. [N]
 - Usar palavras-chave na legenda, bio e hashtags para ser encontrado na busca. [C]
 - Links na legenda do Instagram não são clicáveis: usar link na bio ou sticker/CTA; confirmação oficial desta pesquisa: não obtida. [N]
-- Facebook: existe página oficial sobre evitar links para experiências web de baixa qualidade (facebook.com/business/help/253832955320421); o corpo foi bloqueado. Regra de prudência: link só para páginas do domínio próprio, rápidas e sem pop-ups. [N]
+- Facebook: a Meta rebaixa no Feed posts que levam a páginas com pouco conteúdo de valor e cheias de anúncios invasivos, e anúncios para elas podem ficar inelegíveis; efeito é um sinal entre muitos; em 2018 estendeu a sites que só copiam conteúdo alheio. [C] (about.fb.com/news/2017/05/reducing-links-to-low-quality-web-page-experiences, lida em 22/10/2026; a página de ajuda facebook.com/business/help/253832955320421 segue bloqueada por robôs). Pop-ups não são citados no texto lido: tratar como prudência. [N]
 - Links externos em geral reduzem alcance? Não confirmado em fonte oficial lida. [N]
 
 **Fontes:** socialmediatoday.com (fonte secundária citando declaração oficial); creators.instagram.com/blog/tips-for-improving-your-reach. Consultadas 2026-10-22.
@@ -93,7 +95,7 @@ Páginas oficiais existem (transparency.meta.com/policies/ad-standards/, restric
 - Human Agent tag: resposta manual por atendente humano em janela separada de 7 dias. [C]
 - Dentro da janela padrão pode haver conteúdo promocional; fora dela, só Sponsored Message; tags só para casos aprovados e uso fora disso gera restrição. [C]
 - Resposta privada (private reply) a comentário: no Messenger Platform, uma resposta por comentário, em até 7 dias; depois que a pessoa responde, a conversa segue na janela de 24h. [C]
-- Instagram: a página lida não confirma o prazo nem o limite de private reply; em geral ferramentas citam 7 dias e uma por comentário. [N]
+- Instagram: resposta privada a comentário vale até 7 dias após o comentário (em post, anúncio ou reel; em Live só durante a transmissão), uma só por comentador; depois que a pessoa responde, segue a janela de 24h. Exige Página vinculada, permissões de comentários e mensagens e o recurso Human Agent com acesso avançado. [C] (developers.facebook.com, documentação Instagram Messaging, private-replies; lida em 22/10/2026)
 - Limite de taxa Instagram: 300 chamadas por segundo por conta profissional para texto, links, reações e stickers (out/2024). [C]
 - "Follow to DM" (exigir que a pessoa siga antes de receber o link) e regras do ManyChat: não confirmado em fonte oficial lida; a política de mensagens não exige opt-in geral além das ações do usuário. [N]
 - Regra prática: automação responde só ao comentário com palavra-chave, uma vez, com conteúdo prometido no vídeo; sem spam, sem repetir; humano pode assumir via Human Agent. A ferramenta ManyChat precisa estar no workspace já existente (ver memória do usuário).
@@ -108,7 +110,8 @@ O que reduz alcance (confirmado):
 - Conteúdo sensível fora de recomendações. [C]
 - Conteúdo marcado falso/alterado por checadores perde distribuição no Feed. [C]
 
-Citado em páginas oficiais que existem mas não pude ler (tratar como prudência): engagement bait (pedir curtida, compartilhamento, marcação em troca de algo), clickbait, links para páginas ruins, perfis que repostam. [N]
+- Engagement bait: posts que pressionam a pessoa a reagir, comentar ou compartilhar para ganhar visibilidade (exemplo oficial: "curta se você é de Áries") são mostrados menos no Feed; a regra foi estendida a comentários e a áudio de vídeo; Páginas que fazem isso de forma repetida e sistemática sofrem rebaixamento maior; pedidos genuínos de ajuda, dica ou recomendação não são alvo. [C] (about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook, lida em 22/10/2026; texto da Central de Transparência segue sem corpo legível)
+- Clickbait e perfis que repostam: páginas oficiais não lidas, tratar como prudência. [N]
 
 ### Antes de publicar (sim/não)
 1. O vídeo é produção própria ou tem valor novo claro (voz, análise, edição), sem repost? 
@@ -135,7 +138,7 @@ Citado em páginas oficiais que existem mas não pude ler (tratar como prudênci
 9. Plano de checar aprovação/rejeição na hora e corrigir sem esperar?
 10. Requisitos de conta (CNPJ, pagamento, domínio) conferidos no Gerenciador de Anúncios?
 
-## 9. Sinais para os agentes (10 regras)
+## 9. Sinais para os agentes (12 regras)
 
 1. Produzir só vídeo original; nunca repostar clipe de terceiros sem valor novo.
 2. Exportar sem marca d'água alheia; usar apenas o carimbo da marca.
@@ -143,15 +146,34 @@ Citado em páginas oficiais que existem mas não pude ler (tratar como prudênci
 4. Desenhar o vídeo para ser enviado a alguém (reshare), pois é sinal central de Reels.
 5. Máximo de 5 hashtags, relevantes; palavras-chave na legenda.
 6. Declarar IA quando Duda for fotorrealista ou a voz parecer humana real.
-7. Nunca pedir curtida/compartilhamento em troca de algo (engagement bait); pedir comentário só como pergunta genuína.
+7. Nunca pedir curtida/compartilhamento em troca de algo (engagement bait, [C] rebaixa o post, e Página reincidente sofre mais); pedir comentário só como pergunta genuína ou pedido real de dica. Medir primeiro: comparar alcance de 10 posts sem pedido de reação contra os últimos 10 e só trocar o gancho se a diferença for maior que 20 por cento.
 8. Link só na bio ou domínio próprio; nunca prometer "link na legenda" no Instagram.
-9. Comentário→DM: uma resposta por comentário em até 7 dias, promo só dentro da janela de 24h (7 dias se veio de anúncio), humano via Human Agent.
+9. Comentário→DM: uma resposta privada por comentador em até 7 dias (Instagram e Facebook, [C]), promo só dentro da janela de 24h (7 dias se veio de anúncio), humano via Human Agent.
 10. Anúncio: sem promessa de saúde/renda, sem atributo pessoal, landing coerente; tudo marcado [N] na seção 5 deve ser conferido no Gerenciador antes de gastar.
 
 ## 10. Fontes (consultadas em 2026-10-22)
 
 Oficiais lidas: creators.instagram.com (tips-for-improving-your-reach; the-latest-with-instagram); about.instagram.com (instagram-ranking-explained); about.fb.com (2026/03 rewarding-original-creators; 2024/04 labeling AI; 2025/02 gen-ai-transparency; 2020/08 recommendation-guidelines); creators.facebook.com (how-to-get-your-content-seen); developers.facebook.com (messenger-platform/policy, private-replies, instagram-messaging changelog e messaging-api).
+Oficiais lidas em 22/10 (2ª passada): developers.facebook.com/documentation/business-messaging/instagram-messaging/features/private-replies; about.fb.com/news/2017/05/reducing-links-to-low-quality-web-page-experiences; about.fb.com/news/2017/12/news-feed-fyi-fighting-engagement-bait-on-facebook.
 Oficiais encontradas mas não lidas (só metadados/bloqueio): transparency.meta.com (ad-standards, engagement-bait, types-of-content-we-demote, lowering-distribution, explaining-ranking ig-feed e fb-reels); help.instagram.com (1800814370401535, 1525585517644948); facebook.com/business/help (488043719226449, 757209948405699, 718033381901819, 253832955320421, 262834734651607); meta.com/help/artificial-intelligence/355108217670024.
 Secundárias: socialmediatoday.com (limite de 5 hashtags); bitdefender.com (repost jul/2025).
 
+11. Link para o blog: só páginas do domínio próprio com conteúdo útil e sem excesso de anúncios ([C] Meta rebaixa links para páginas pobres e cheias de anúncio). Antes do AdSense, medir primeiro: 5 posts com link vs 5 sem, alcance em 3 dias; se o com-link perder mais de 30 por cento, mover o link para a bio/sticker.
+12. Automação comentário→DM: configurar o fluxo para disparar uma só vez por comentador e dentro de 7 dias ([C]); se a fila de comentários ficar mais de 5 dias sem resposta, o humano assume via Human Agent.
+
 **Itens marcados [N] devem ser revalidados (leitura no navegador) antes de decisão de alto risco, como gastar em anúncio ou automatizar DM em escala.**
+
+## Pendente de leitura no Chrome do Allan
+Tentadas em 22/10/2026 com variações (en-US, pt-BR, en-gb, com e sem www, parâmetros); todas devolvem só metadados, vazio ou bloqueio de robô. Ler com Claude in Chrome (logado):
+- https://transparency.meta.com/policies/ad-standards/ : confirmar categorias e regras gerais dos anúncios.
+- https://transparency.meta.com/policies/ad-standards/fraud-scams/unacceptable-business-practices/ : confirmar regra de promessa de renda, urgência falsa e infoproduto.
+- https://transparency.meta.com/policies/ad-standards/objectionable-content/privacy-violations-personal-attributes/ : confirmar proibição de afirmar atributo pessoal do leitor.
+- https://transparency.meta.com/policies/other-policies/our-prohibited-commercial-practices-policy/ : confirmar práticas comerciais proibidas.
+- https://transparency.meta.com/features/approach-to-ranking/content-distribution-guidelines/engagement-bait/ : confirmar texto atual da regra (a versão de 2017 já foi lida).
+- https://transparency.meta.com/features/approach-to-ranking/content-distribution-guidelines/types-of-content-we-demote/ : confirmar lista de tipos de conteúdo rebaixado (clickbait, repost).
+- https://transparency.meta.com/features/explaining-ranking/ (ig-feed e fb-reels) e a página lowering-distribution: confirmar sinais de ranking e redução de distribuição.
+- https://help.instagram.com/1800814370401535 e https://help.instagram.com/1525585517644948 : confirmar título e regra (limite de hashtags, links em legenda ou originalidade).
+- https://www.facebook.com/business/help/488043719226449 , /757209948405699 , /718033381901819 , /253832955320421 , /262834734651607 : confirmar políticas de anúncio (checklist básico, saúde, landing) e a página de links de baixa qualidade.
+- https://www.facebook.com/business/help/2489235377779939 : confirmar política de saúde pessoal em anúncios.
+- https://www.meta.com/help/artificial-intelligence/355108217670024 : confirmar quando o rótulo "AI info" é obrigatório e onde ativar.
+- "Follow to DM", limite de 5 hashtags e links na legenda do Instagram: nenhuma página oficial achada; conferir em help.instagram.com/351460621611097 e no app.
