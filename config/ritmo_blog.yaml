@@ -10,6 +10,6 @@ formatos_rodizio:          # variar o formato, nao so o tema; cada dia usa 2+ fo
   - checklist
   - mito_ou_verdade
   - pet_celebridade           # quinta, 1 por semana
-  - resposta_de_enquete       # nasce da enquete das redes (ver habilidade)
+  - resposta_de_pergunta_real # nasce de pergunta publica com fonte (Search Console, PAA); enquete so com audiencia (>=300 seguidores)
 pilares_rodizio: [cuidados_diarios, alimentacao, comportamento, saude, primeiros_passos_filhotes, produtos_compras]
 regra_pilar: "no maximo 2 artigos do mesmo pilar no dia; todos os pilares aparecem em 3 dias"
