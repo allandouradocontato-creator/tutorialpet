@@ -130,6 +130,37 @@ def reescrever(slug: str, tentativa: int) -> bool:
     return False
 
 
+MAX_PROMOCOES = 3   # artigos novos por rodada (cada publicação roda editor + coerência de capa; cabe no job de 30 min)
+
+
+def promover_aprovados(media: Path | None) -> int:
+    """Pacote 'aprovado' com rascunho e fotos candidatas, que ainda não foi ao ar nem está em
+    blog_aprovados/blog_reprovados, entra em blog_aprovados.txt com foto 0 (22/10/2026: 7 artigos
+    aprovados ficaram sem publicar porque ninguém escrevia a linha). O publicar_blog confere
+    editor de qualidade e coerência da capa e troca a foto se preciso; reprovado vai para a reescrita."""
+    if not media:
+        return 0
+    linhas = APROV.read_text(encoding="utf-8").splitlines() if APROV.exists() else []
+    ja = {l.split()[0] for l in linhas if l.split() and not l.startswith("#")}
+    reprov = set(ler_lista())
+    novos = []
+    for m in sorted((media / "pacotes").glob("*/manifest.json")):
+        slug = m.parent.name
+        if slug in ja or slug in reprov or slug.startswith("meme-"):
+            continue
+        if not (RASC / f"{slug}.md").exists() or (ROOT / "site" / "build" / f"{slug}.html").exists():
+            continue
+        if not pacote_aprovado(media, slug):
+            continue
+        novos.append(slug)
+        if len(novos) >= MAX_PROMOCOES:
+            break
+    if novos:
+        APROV.write_text("\n".join(linhas + [f"{s} 0" for s in novos]) + "\n", encoding="utf-8")
+        print(f"[promocao] pacotes aprovados enviados ao blog: {novos}")
+    return len(novos)
+
+
 def main() -> int:
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     media = Path(args[0]) if args else None
@@ -159,6 +190,7 @@ def main() -> int:
         else:
             lista[slug] = lista[slug] + 1
     gravar_lista(lista)
+    promover_aprovados(media)
     print(f"reescritos e aprovados nesta rodada: {feitos}")
     return 0
 
