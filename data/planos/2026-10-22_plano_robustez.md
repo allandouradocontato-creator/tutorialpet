@@ -18,7 +18,7 @@ Regra do plano: nada de teste ao vivo sem ensaio julgado (nota ≥ 7). Toda etap
 | 1.4 | Blog: conferir os 4 artigos de hoje no ar com capa coerente (Juiz rubrica B ≥ 7 em cada) | Juiz | 17:00 | data/ensaios/2026-10-22_capas_novas.md |
 | 1.5 | Ritmo: Vigia das 15:19 passa a PROMOVER rascunhos prontos quando o dia tem < 3 artigos (hoje ele viu 0 e não agiu) | Claude → vigia_rotinas.md | 15:00 | rodada das 15:19 com "CORRIGI: n ≥ 1" |
 
-## Fase 2 — amanhã (23/10): ensaio probatório de todos os ativos de produção
+## Fase 2 — HOJE 14:00–16:30 (comprimido a pedido do Allan: nada aqui depende de amanhã): ensaio probatório de todos os ativos de produção, em paralelo
 Cada agente produz 5 entregas sobre material existente; o Juiz pontua; média ≥ 7 e nenhuma < 5 = pode testar ao vivo. Senão a skill recebe a correção e repete no mesmo dia.
 | Agente | Entrega do ensaio | Rubrica | Hora |
 |---|---|---|---|
@@ -31,11 +31,11 @@ Cada agente produz 5 entregas sobre material existente; o Juiz pontua; média �
 | Vigia | problema plantado inofensivo (workflow cancelado): detectar e corrigir em ≤ 30 min | tempo | 16:00 |
 Rubrica D — ARTIGO (0–10), para o AdSense: D1 responde a pergunta do título nos 2 primeiros parágrafos; D2 molde diferente do artigo anterior (lista / passo a passo / pergunta-resposta / caso real); D3 fonte citada quando fala de saúde; D4 ≥ 3 links internos e 1 foto de corpo coerente; D5 sem frase-clichê de IA ("neste artigo vamos", "é importante lembrar", "em resumo"). Reprova automática: alegação de cura, "cão", preço velho.
 
-## Fase 3 — 24 a 28/10: lote diário e medição em horas
+## Fase 3 — a partir de 23/10 de manhã: lote diário e medição em horas
 - Todo dia: 10 ganchos → Juiz → 3 ao ar → leitura 1 h / 3 h → linha de aprendizado na skill. Mediana de views por rede como régua; abaixo dela em 3 lotes seguidos = muda a rubrica, não o produtor.
 - Blog: 3–4 artigos/dia com molde rotativo (D2), capa julgada (B) antes de publicar, auditoria AdSense diária às 07:19.
 - Removedor de Gargalos (sexta 10:41): atualiza as fichas do painel; nota sobe só com prova.
-- Meta do painel em 28/10: média ≥ 3,0; nenhum ativo em 0 ou 1; 3 agentes em 4 (resultado medido).
+- Meta do painel em 25/10 (antes 28/10): média ≥ 3,0; nenhum ativo em 0 ou 1; 3 agentes em 4 (resultado medido).
 
 ## Fase 4 — produto vendável (depois do painel em 3,0)
 Camada genérica do Juiz e do painel (rubricas com {NICHO}, {MARCA}, {REFERÊNCIA}); ensaio probatório como padrão de onboarding de agente; régua 7 (prova antes de vender) do PADRAO_SKILL_ROBUSTA.
