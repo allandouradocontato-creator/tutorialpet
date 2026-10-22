@@ -8,6 +8,7 @@ Entrada: rascunho em data/content_writer/rascunhos/<slug>.md (main) + fotos cand
 """
 from __future__ import annotations
 
+import json
 import os
 import shutil
 import subprocess
@@ -47,7 +48,70 @@ def run(cmd: list[str]) -> None:
         raise SystemExit(f"falhou ({r.returncode}): {' '.join(cmd)}")
 
 
+# --- Portão de raça em camadas (Allan, 22/10/2026): 1) Gemini, 2) Cloudflare llava+llama, 3) título da foto na fonte
+# confirma quando só o juiz fraco (CF) reprova, 4) sem foto do banco que passe: gera a foto da raça por IA grátis. ---
+_VER: dict[str, bool] = {}   # stem da foto -> passou no portão de raça
+
+
+def _fonte_cita_raca(cand: Path, stem: str, raca: str) -> bool:
+    try:
+        lista = json.loads((cand / "candidatos.json").read_text(encoding="utf-8"))
+        c = next((x for x in lista if str(x.get("indice")) == str(stem)), None)
+        if not c or c.get("fonte") != "pexels":
+            return False
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from gerar_foto_ia import EN
+        url = (c.get("url_pagina") or "").lower()
+        nomes = {raca.lower().replace(" ", "-"), EN.get(raca.lower(), raca).lower().split(" (")[0].replace(" ", "-")}
+        return any(n and n in url for n in nomes)
+    except Exception:  # noqa: BLE001
+        return False
+
+
+def raca_ok(cand: Path, stem: str, especie: str, raca: str) -> bool:
+    if str(stem) in _VER:
+        return _VER[str(stem)]
+    from core.coerencia import verificar_imagens
+    f = cand / f"{stem}.jpg"
+    ok, motivo = verificar_imagens([f.read_bytes()], especie, raca, primeira_obrigatoria=True)
+    if not ok and "[cf]" in motivo and motivo.startswith("raça errada") and _fonte_cita_raca(cand, str(stem), raca):
+        ok, motivo = True, motivo + " | confirmada pelo título da foto na fonte"
+    ok = ok and "não verificada" not in motivo
+    print(f"[coerencia] capa {f.name}: {'ok' if ok else 'REPROVADA'} - {motivo}")
+    _VER[str(stem)] = ok
+    return ok
+
+
+def plano_b_ia(cand: Path, slug: str, especie: str, raca: str) -> str | None:
+    """Nenhuma foto do banco passou: gera a foto da raça por IA grátis (CF FLUX) e passa pelo MESMO portão."""
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from gerar_foto_ia import gerar
+        manifesto = json.loads((cand / "candidatos.json").read_text(encoding="utf-8"))
+        prox = max([int(c["indice"]) for c in manifesto] + [-1]) + 1
+        for v in range(3):
+            dest = cand / f"{prox}.jpg"
+            ok, msg = gerar(raca, dest, v)
+            print(f"[plano B IA] {raca} variacao {v}: {msg}")
+            if not ok:
+                dest.unlink(missing_ok=True)
+                continue
+            if raca_ok(cand, str(prox), especie, raca):
+                manifesto.append({"fonte": "ia", "id": 0, "url_download": "", "url_pagina": "", "fotografo": "IA", "fotografo_url": "",
+                                  "largura": 1024, "altura": 1024, "query": f"ia: {raca}", "indice": prox,
+                                  "arquivo": str(dest.relative_to(ROOT))})
+                (cand / "candidatos.json").write_text(json.dumps(manifesto, ensure_ascii=False, indent=2), encoding="utf-8")
+                print(f"[plano B IA] foto gerada {prox}.jpg passou no portão de raça")
+                return str(prox)
+            _VER.pop(str(prox), None)
+            dest.unlink(missing_ok=True)
+    except Exception as exc:  # noqa: BLE001
+        print("[plano B IA] falhou:", str(exc)[:120])
+    return None
+
+
 def preparar(slug: str, indice: str, media: Path | None) -> None:
+    _VER.clear()   # o cache do portão de raça vale só para este artigo (índices 0,1,2 se repetem entre artigos)
     if not (ROOT / "data" / "content_writer" / "rascunhos" / f"{slug}.md").exists():
         raise SystemExit(f"rascunho não encontrado: {slug}")
     cand = ROOT / "data" / "visual" / "candidatos" / slug
@@ -62,22 +126,24 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
         if not (cand / "candidatos.json").exists():
             raise SystemExit(f"sem fotos candidatas para {slug}")
     # coerência de raça/espécie da capa (regra do Allan, 15/10/2026): dentro da produção do artigo
+    especie = raca = ""
     try:
-        from core.coerencia import detectar, verificar_imagens
+        from core.coerencia import detectar
         especie, raca = detectar(slug)
         if especie or raca:
             fotos = sorted(cand.glob("*.jpg"), key=lambda f: (f.stem != str(indice), f.stem))
             for f in fotos:
-                ok_c, motivo = verificar_imagens([f.read_bytes()], especie, raca, primeira_obrigatoria=True)
-                print(f"[coerencia] capa {f.name}: {'ok' if ok_c else 'REPROVADA'} - {motivo}")
-                if ok_c and "não verificada" not in motivo:
+                if raca_ok(cand, f.stem, especie, raca):
                     if f.stem != str(indice):
                         print(f"[coerencia] trocando a capa {indice} pela {f.stem}")
                         indice = f.stem
                     break
             else:
                 if raca:
-                    raise SystemExit(f"coerência: nenhuma foto candidata mostra a raça '{raca}' ({slug}); não publica com raça errada")
+                    ia = plano_b_ia(cand, slug, especie, raca)
+                    if not ia:
+                        raise SystemExit(f"coerência: nenhuma foto candidata mostra a raça '{raca}' ({slug}); não publica com raça errada")
+                    indice = ia
     except SystemExit:
         raise
     except Exception as exc:  # noqa: BLE001
@@ -105,13 +171,20 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
         raise
     except Exception as exc:  # noqa: BLE001
         print("[capa] checagem nao feita:", str(exc)[:100])
+    if raca:   # a escolha de capa por tema não pode passar por cima do portão de raça
+        if not raca_ok(cand, str(indice), especie, raca):
+            boas = [k for k, v in _VER.items() if v]
+            if not boas:
+                raise SystemExit(f"coerência: a capa escolhida não mostra a raça '{raca}' ({slug}); não publica com raça errada")
+            print(f"[coerencia] capa {indice} reprovada no portão final; usando {boas[0]}")
+            indice = boas[0]
     py = sys.executable
     run([py, "agents/04_quality_editor/agent.py", "--site", SITE, "--slug", slug])   # rc!=0 = reprovado: não publica
     run([py, "agents/05_seo_onpage/agent.py", "--site", SITE, "--slug", slug])
     run([py, "agents/15_visual/agent.py", "--site", SITE, "--selecionar", slug, str(indice)])
     try:  # ate 2 fotos no meio do artigo (Allan, 22/10/2026), das candidatas que tambem mostram o tema
         from core.capa import escolher as _esc
-        extras = [i for i in getattr(_esc, "bons", []) if str(i) != str(indice)][:2]
+        extras = [i for i in getattr(_esc, "bons", []) if str(i) != str(indice) and (not raca or raca_ok(cand, str(i), especie, raca))][:2]
         if extras:
             run([py, "scripts/add_imagens_corpo.py", slug, ",".join(map(str, extras))])
     except Exception as exc:  # noqa: BLE001

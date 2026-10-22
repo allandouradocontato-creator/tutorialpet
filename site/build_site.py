@@ -290,7 +290,9 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
     if imagem_capa:
         hero_img = f'<img class="hero-img" src="/{imagem_capa}" alt="{html_lib.escape(fm["titulo"])}">'
         fotografo, fonte_url = fm.get("imagem_fotografo"), fm.get("imagem_fotografo_url")
-        if fotografo and fonte_url:
+        if fm.get("imagem_fonte") == "ia":   # 22/10: foto gerada por IA (plano B) sempre se declara
+            hero_img += '<p class="image-credit">Imagem ilustrativa gerada por inteligência artificial</p>'
+        elif fotografo and fonte_url:
             fonte_nome = (fm.get("imagem_fonte") or "").capitalize()
             hero_img += (f'<p class="image-credit">Foto: <a href="{html_lib.escape(fonte_url)}">'
                          f'{html_lib.escape(fotografo)}</a> via {html_lib.escape(fonte_nome)}'

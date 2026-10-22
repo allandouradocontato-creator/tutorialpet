@@ -103,29 +103,32 @@ def verificar_imagens(imagens: list[bytes], especie: str, raca: str, primeira_ob
     """True se as imagens batem com a raça (ou espécie) pedida. Falha fechada quando há raça."""
     if not (especie or raca):
         return True, "sem raça/espécie citada: nada a conferir"
+    via_cf = False   # 22/10: marca quando o veredito veio do juiz fraco (llava 7B), para o publicador poder confirmar pela fonte
     try:
         res = _perguntar(imagens, especie, raca)
     except Exception as exc:  # noqa: BLE001
         # 22/10: Gemini 429 derrubava todo artigo de raça (falha fechada). Alternativa gratis: Cloudflare (llava descreve, llama julga).
         try:
             res = _perguntar_cf(imagens, especie, raca)
+            via_cf = True
         except Exception as exc2:  # noqa: BLE001
             return (not raca), f"coerência não verificada (visão indisponível: {str(exc)[:50]} / cf: {str(exc2)[:40]})"
     chave = "e_raca_pedida" if raca else "e_especie_pedida"
+    suf = " [cf]" if via_cf else ""
     animais = [(i, r) for i, r in enumerate(res) if isinstance(r, dict) and r.get("animal") != "nenhum"]
     if not animais:
-        return True, "nenhum animal nos quadros"
+        return True, "nenhum animal nos quadros" + suf
     erradas = [i for i, r in animais if not r.get(chave, False)]
     if especie:
         outra = [i for i, r in animais if r.get("animal") in ("cachorro", "gato") and r.get("animal") != especie]
         if outra:
-            return False, f"espécie errada (esperado {especie}) nos quadros {[i + 1 for i in outra]}"
+            return False, f"espécie errada (esperado {especie}) nos quadros {[i + 1 for i in outra]}" + suf
     if raca:
         primeira_ruim = primeira_obrigatoria and animais[0][0] in erradas
         if primeira_ruim or len(erradas) / len(animais) > 0.2:
             vistos = ", ".join(sorted({str(r.get('raca_provavel', '?')) for _, r in animais if r.get(chave) is False}))
-            return False, f"raça errada: pedida '{raca}', apareceu {vistos or 'outra'} em {len(erradas)}/{len(animais)} quadros" + (" (o primeiro quadro é de outra raça)" if primeira_ruim else "")
-    return True, f"{len(animais) - len(erradas)}/{len(animais)} quadros conferem"
+            return False, f"raça errada: pedida '{raca}', apareceu {vistos or 'outra'} em {len(erradas)}/{len(animais)} quadros" + (" (o primeiro quadro é de outra raça)" if primeira_ruim else "") + suf
+    return True, f"{len(animais) - len(erradas)}/{len(animais)} quadros conferem" + suf
 
 
 def quadros_do_video(video: Path, n: int = 6) -> list[bytes]:
