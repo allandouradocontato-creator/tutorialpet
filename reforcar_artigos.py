@@ -42,8 +42,13 @@ def titulo_limpo(fm: dict) -> str:
     return re.sub(r"\s*[:\-–]\s*(a|o)\s+[A-ZÀ-Ú].*$", "", str(fm.get("titulo") or "")).strip() or str(fm.get("termo_origem"))
 
 
+PRESERVAR = ("serie", "artista", "pet_nome", "pet_raca", "foto_artista", "embed_instagram", "foto_ilustrativa")   # série Pet Celebridade (Allan, 22/10)
+
+
 def precisa(path: Path) -> bool:
     fm, body = curador.ler(path)
+    if fm.get("serie") == "pet-celebridade":   # 22/10: o reforço apagou serie/artista/título do galgo da Anitta; artigo de série não é reescrito por IA
+        return False
     if not fm.get("revisao_profunda"):
         return True
     return any(n == "bloqueante" for n, _ in curador.auditar(path.stem, fm, body, curador.todos_slugs()))
@@ -76,6 +81,7 @@ def reescrever(path: Path, slugs_info: list[tuple[str, str]], site: dict) -> boo
         corpo = corpo.strip() + "\n"
         h1 = re.match(r"#\s+(.+)", corpo)
         novo = {k: fm[k] for k in ("data", "status", "slug", "termo_origem", "pilar", "intencao_busca", "site_id", "gerado_em", "aviso_saude_aplicavel") if k in fm}
+        novo.update({k: fm[k] for k in PRESERVAR if k in fm})   # nunca perder os campos da série numa reescrita
         novo.update({"titulo": h1.group(1).strip() if h1 else titulo_limpo(fm),
                      "meta_description": meta if 60 <= len(meta) <= 160 else fm.get("meta_description", ""),
                      "autor": "", "atualizado_em": f"{datetime.now():%Y-%m-%d}", "revisao_profunda": True})
