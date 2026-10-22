@@ -49,3 +49,10 @@ Regras checadas: só vídeo; "gato", sem "cão"; sem preço; sem alegação de s
 3. Legenda sozinha não altera a retenção do vídeo; o que ela pode mexer é comentário e compartilhamento. Por isso a métrica principal não é tempo médio.
 4. Edição de post agendado é do Claude da sessão (E42); se um teste já tiver sido publicado antes da edição, o par sai do teste e entra o reserva abaixo.
 Reservas (mesma regra): TikTok gato 6ada1aeff09f431dcae20369 (24/10 10:20) e FB gato 6ada29d4ce999cf09365ef47 (24/10 10:00) e IG gato 6ada29d640669245e0a42b76 (24/10 11:00) — só se alguma edição falhar.
+
+## AJUSTE 22/10 13:25 (ordem do Allan: resultado em horas, nao em dias; mais unidades para medir)
+- Leituras: 18:00 e 23:30 de hoje (Fortaleza) e 09:00 de 23/10; decisao em cada leitura, nao so em 25/10.
+- Mais unidades hoje/amanha: reservas entram TODAS no teste (TikTok 6ada1aeff09f431dcae20369, FB 6ada29d4ce999cf09365ef47, IG 6ada29d640669245e0a42b76) com a mesma pergunta-CTA; controles equivalentes = posts ja publicados na semana (linha-base por rede).
+- Metrica rapida (2 h apos publicar): views/alcance e comentarios de terceiros; 1a hora conta mais no TikTok.
+- Regra de troca: na leitura das 18:00, se teste < controle em views nas 3 redes, o proximo teste volta a legenda antiga; se comentario de terceiro >= 1 em qualquer teste, replicar a pergunta nos posts das 23:30 em diante.
+- Gancho banido gravado no video (5 posts): trocar o video, nao a legenda; isso e outro fator e roda a parte.
