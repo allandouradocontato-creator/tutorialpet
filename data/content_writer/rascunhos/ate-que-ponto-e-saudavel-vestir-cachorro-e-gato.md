@@ -115,6 +115,18 @@ A peça deve cobrir costas e peito, sem apertar e sem sobrar, e deixar o pet and
 
 Na nossa pesquisa, não encontramos, até outubro de 2026, uma posição específica do Conselho Federal de Medicina Veterinária (CFMV) nem de associações veterinárias brasileiras sobre vestir animais de estimação. As orientações que reunimos aqui vêm de clínicas veterinárias, universidades, organizações de proteção animal e entidades de criadores, principalmente de fora do Brasil. Isso significa que não existe uma regra oficial nacional: o bom senso, a observação do seu pet e a conversa com o veterinário de confiança é que orientam cada caso.
 
+## Fontes consultadas
+
+As orientações deste texto vêm de fontes veterinárias e de proteção animal, a maioria estrangeira, e cada uma foi lida para esta matéria:
+
+- [VCA Animal Hospitals (EUA): o que considerar ao escolher um casaco para cachorro](https://vcahospitals.com/resources/lifestyle-dog/supplies/what-to-consider-when-choosing-a-dog-jacket)
+- [Cornell University, Faculdade de Medicina Veterinária (EUA): cuidados no inverno e cães mais sensíveis ao frio](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/winter-safety-tips)
+- [Ontario SPCA (Canadá): seu cachorro precisa de roupa de inverno?](https://ontariospca.ca/blog/does-your-dog-need-winter-clothes/)
+- [Vetstreet (EUA): roupas de cachorro e quando fazem sentido](https://www.vetstreet.com/dogs/dog-clothing-protection-for-when-your-pooch-needs-it)
+- [American Kennel Club (EUA): fantasias e roupas para cães](https://www.akc.org/expert-advice/lifestyle/costumes-for-dogs-dressed-up/)
+- [Cats Protection (Reino Unido): vestir o gato é uma boa ideia?](https://www.cats.org.uk/cats-blog/is-it-ok-to-dress-up-your-cat)
+- [Correio Braziliense, Mais Bichos (Brasil): roupinhas, usar ou não usar, com médica-veterinária](https://blogs.correiobraziliense.com.br/maisbichos/roupinhas-usar-ou-nao-usar/)
+
 ## Para fechar
 
 Vestir o pet pode ser cuidado ou apenas enfeite, e a diferença está em olhar para o animal, não para a roupa. Se ele sente frio de verdade, uma peça simples, bem ajustada e usada por pouco tempo pode ajudar. Se é só decoração, tudo bem, desde que ele esteja tranquilo e você tire ao primeiro sinal de incômodo. Na dúvida, converse com o médico-veterinário.
