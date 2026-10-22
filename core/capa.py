@@ -76,7 +76,21 @@ def escolher(slug: str) -> tuple[int | None, str]:
     try:
         res = avaliar([f.read_bytes() for f in livres], slug.replace("-", " "))
     except Exception as exc:  # noqa: BLE001
-        return None, f"visao indisponivel: {str(exc)[:80]}"
+        # Gemini gratis no limite: alternativas gratis, na ordem (regra do Allan, 22/10/2026)
+        print("[capa] Gemini indisponivel:", str(exc)[:80], "-> tentando alternativas gratis", flush=True)
+        res = None
+        try:
+            from core.capa_alt import avaliar_alternativo
+            res = avaliar_alternativo([f.read_bytes() for f in livres], slug.replace("-", " "))
+        except Exception as e2:  # noqa: BLE001
+            print("[capa] alternativas por API falharam:", str(e2)[:80], flush=True)
+        if res is None:
+            try:
+                from core.capa_local import avaliar as _clip
+                mapa = {c.get("indice"): c.get("query", "") for c in json.loads((cand / "candidatos.json").read_text(encoding="utf-8"))}
+                res = _clip([f.read_bytes() for f in livres], [mapa.get(int(f.stem)) or slug.replace("-", " ") for f in livres])
+            except Exception as e3:  # noqa: BLE001
+                return None, f"visao indisponivel: {str(e3)[:80]}"
     bons = [(f, r) for f, r in zip(livres, res) if isinstance(r, dict) and r.get("mostra_o_tema") and r.get("bonita_agradavel") and not r.get("agressiva_ou_triste")]
     escolher.bons = [int(f.stem) for f, _ in bons]
     if bons:

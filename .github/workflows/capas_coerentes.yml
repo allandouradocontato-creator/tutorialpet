@@ -7,7 +7,12 @@ on:
   push:
     branches: [main]
     paths: ["config/capas_refazer.txt"]
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      teste_sem_gemini:
+        description: 'true = testa a avaliacao alternativa (CLIP) sem Gemini e NAO grava nada'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -31,7 +36,8 @@ jobs:
       - name: Refazer
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ github.event.inputs.teste_sem_gemini == 'true' && '' || secrets.GEMINI_API_KEY }}
+          TESTE: ${{ github.event.inputs.teste_sem_gemini }}
         run: |
           grep -v '^#' config/capas_refazer.txt | grep -v '^$' | awk '{print $1}' | sort -u | while read slug; do
             echo "== $slug"
@@ -39,6 +45,7 @@ jobs:
             python blog_imagens_nuvem.py "$slug" || { echo "sem candidatas: $slug"; continue; }
             python -m core.capa "$slug" || echo "::warning::sem capa coerente: $slug"
           done
+          if [ "$TESTE" = "true" ]; then echo 'TESTE: nada gravado'; exit 0; fi
           python site/build_site.py --site pets-tutores-iniciantes > /dev/null
           git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
           git add site/build data/visual data/seo_onpage config/capas_pendentes.txt
