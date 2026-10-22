@@ -16,15 +16,14 @@
 | estrutura com >= 3 subtitulos | PASSA | [] |
 | meta description em todos | PASSA | [] |
 | autoria/assinatura visivel | PASSA | [] |
-| capa unica por artigo | FALHA | 7 artigos em 3 grupos repetidos |
+| capa unica por artigo | FALHA | 2 artigos em 1 grupos repetidos |
 | sem capa proibida (agressiva) | PASSA | [] |
-| todos com capa | FALHA | ['galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta'] |
+| todos com capa | PASSA | [] |
 | artigos de saude citam veterinario | PASSA | [] |
 | artigos de saude com fonte citada | FALHA | 3 sem fonte: ['vacinas-para-filhote-de-cachorro', 'alimentos-proibidos-para-cachorro', 'plantas-toxicas-para-gatos'] |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (4)
+## Corrigir (3)
 - **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
-- **capa unica por artigo**: 7 artigos em 3 grupos repetidos -> refazer por tema (config/capas_refazer.txt)
-- **todos com capa**: ['galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta'] -> gerar capa
+- **capa unica por artigo**: 2 artigos em 1 grupos repetidos -> refazer por tema (config/capas_refazer.txt)
 - **artigos de saude com fonte citada**: 3 sem fonte: ['vacinas-para-filhote-de-cachorro', 'alimentos-proibidos-para-cachorro', 'plantas-toxicas-para-gatos'] -> citar fonte confiavel
