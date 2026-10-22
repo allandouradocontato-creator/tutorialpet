@@ -65,6 +65,40 @@ def _perguntar(imagens: list[bytes], especie: str, raca: str) -> list[dict]:
     return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
 
 
+def _perguntar_cf(imagens: list[bytes], especie: str, raca: str) -> list[dict]:
+    import urllib.request
+    conta, tok = os.environ["CF_ACCOUNT_ID"], os.environ["CF_API_TOKEN"]
+    base = f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/run/"
+    hdr = {"Authorization": "Bearer " + tok, "Content-Type": "application/json"}
+    def post(model, body):
+        req = urllib.request.Request(base + model, data=json.dumps(body).encode(), headers=hdr)
+        with urllib.request.urlopen(req, timeout=120) as r:
+            return json.loads(r.read())["result"]
+    descr = []
+    for b in imagens:
+        d = post("@cf/llava-hf/llava-1.5-7b-hf", {"image": list(b), "max_tokens": 80,
+                 "prompt": "Describe the animal in this photo: species (dog or cat), most likely breed, size, coat color and length, ear shape, muzzle. If there is no animal, say so."})
+        descr.append(str(d.get("description", "")).strip())
+    chave = "e_raca_pedida" if raca else "e_especie_pedida"
+    pedido = (f"Raça pedida: '{raca or 'qualquer'}'. Espécie pedida: '{especie or 'qualquer'}'. Para CADA descrição abaixo, na ordem, devolva um objeto JSON "
+              f'{{"animal": "cachorro"|"gato"|"outro"|"nenhum", "raca_provavel": "<raça>", "{chave}": true|false}}. '
+              "Seja rigoroso com a raça (yorkshire = pequeno, pelo longo e sedoso, orelhas em pé; galgo italiano = fino, orelhas dobradas, focinho afilado). "
+              "Sem animal: animal=nenhum e true. Responda SOMENTE um array JSON.\n\n" + "\n".join(f"{i}: {t}" for i, t in enumerate(descr)))
+    r = post("@cf/meta/llama-3.3-70b-instruct-fp8-fast", {"messages": [{"role": "user", "content": pedido}], "max_tokens": 600, "temperature": 0.1})
+    m = re.search(r"\[.*\]", str(r.get("response", "")), re.S)
+    out = []
+    if m:
+        try:
+            out = json.loads(m.group(0))
+        except json.JSONDecodeError:
+            import ast
+            try:
+                out = ast.literal_eval(m.group(0).replace("true", "True").replace("false", "False").replace("null", "None"))
+            except Exception:  # noqa: BLE001
+                out = []
+    return out[:len(descr)] if isinstance(out, list) else []
+
+
 def verificar_imagens(imagens: list[bytes], especie: str, raca: str, primeira_obrigatoria: bool = True) -> tuple[bool, str]:
     """True se as imagens batem com a raça (ou espécie) pedida. Falha fechada quando há raça."""
     if not (especie or raca):
@@ -72,7 +106,11 @@ def verificar_imagens(imagens: list[bytes], especie: str, raca: str, primeira_ob
     try:
         res = _perguntar(imagens, especie, raca)
     except Exception as exc:  # noqa: BLE001
-        return (not raca), f"coerência não verificada (visão indisponível: {str(exc)[:80]})"
+        # 22/10: Gemini 429 derrubava todo artigo de raça (falha fechada). Alternativa gratis: Cloudflare (llava descreve, llama julga).
+        try:
+            res = _perguntar_cf(imagens, especie, raca)
+        except Exception as exc2:  # noqa: BLE001
+            return (not raca), f"coerência não verificada (visão indisponível: {str(exc)[:50]} / cf: {str(exc2)[:40]})"
     chave = "e_raca_pedida" if raca else "e_especie_pedida"
     animais = [(i, r) for i, r in enumerate(res) if isinstance(r, dict) and r.get("animal") != "nenhum"]
     if not animais:
