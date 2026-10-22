@@ -28,8 +28,8 @@ def _carregar():
 
 
 def avaliar(imagens: list[bytes], consultas: list[str]) -> list[dict]:
-    from PIL import Image
     M = _carregar()
+    from PIL import Image
     torch, m, p = M["t"], M["m"], M["p"]
     out = []
     for b, q in zip(imagens, consultas):
