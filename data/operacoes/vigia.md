@@ -1,17 +1,19 @@
-Dados até 2026-10-21 19:25 (Fortaleza)
-# Vigia de Rotinas — 21/10/2026 (rodada 19:19)
-Número do departamento: 1 rotina com problema (Executor PENDING há 12 h); 0 falhando, 0 suspensas, 0 vencidas sem disparar. Meta zero: quase.
-Já funciona e replicar: fábrica verde 6/6 (#100–#105, última 17:50 Fortaleza); FB/IG/TikTok postando todo dia; 0 erro Zernio/Buffer; 0 issue aberta. Replicar = mais do mesmo, no ritmo atual. Habilidade que falta: fechar status do Executor (V03/V04). Teste grátis: fire_trigger do Executor e conferir SUCCEEDED.
+Dados até 2026-10-22 07:30 (Fortaleza)
+# Vigia de Rotinas — 22/10/2026 (rodada 07:19)
+Número do departamento: 3 rotinas falhando (Medidor, Guerrilha, Diretor de Operação: USAGE_LIMIT_REACHED na noite de 21/10, 00:12–00:41Z). Meta zero: não atingida.
+Já funciona e replicar: fábrica verde (#105, 21/10 20:50Z); FB/IG/TikTok postaram nas últimas 11 h; 0 erro Zernio/Buffer; 0 issue aberta; Estrategista, Publicador e Executor disparam hoje. Replicar = mais do mesmo. Habilidade que falta: tolerar limite de uso (rotina nova some sem aviso). Teste grátis: fire_trigger do Medidor e do Diretor de Operação após o reset e conferir SUCCEEDED.
 
 | Rotina/engrenagem | Estado | Último run | Problema | Correção sugerida | Idade do último resultado |
 |---|---|---|---|---|---|
-| Rotinas diárias/semanais (Criador, Humorista, SEO, Utilidade, Criativo, Segurança, Prod. Fábrica, Estrategista, Conferente, Agendador, Publicador, Atendente, Auditor, Caçadores) | OK | todas SUCCEEDED | nenhum | - | < 12 h |
-| Executor de Decisões (06:53) | ALERTA | 21/10 09:54Z PENDING | não fecha há 12 h (V03 aberto desde 20/10) | V04: ler sessão cse_01X3kf1Z2E9L8jpb97ZQnKEf; fire_trigger se travada | 12,4 h |
-| Novas (4 Diretores, Medidor, Pesq. Formato/Mercado, Cobrança, Afiliados) | AGUARDAM 1º DISPARO | nunca | próximos: Medidor 22/10 00:11Z, Operação 00:41Z, Audiência 12:17Z | acompanhar | - |
-| Guerrilha (hora a hora) | OK | 21/10 21:23Z SUCCEEDED | depende do Chrome do Allan | - | 1 h |
-| fabrica.yml | OK | #105 21/10 20:50Z verde | - | - | 1,5 h |
-| publicar_blog.yml | OK | #29 21/10 12:53Z verde | #27/#28 falharam 10:58/12:49Z, #29 passou | monitorar reincidência | 9,5 h |
-| Blog no ar | OK | commit site/build 21/10 11:01Z | home ao vivo não lida (WebFetch sem permissão) | liberar URL tutorialpet.com.br | 11,3 h (limite 30 h) |
-| Posts FB/IG/TikTok | OK | FB 20:29Z, IG 18:03Z, TikTok 17:21Z | 0 erro; agendados 24h: TikTok 4, Zernio ~30 | - | FB 1,8 h, IG 4,3 h, TikTok 5 h |
-| ElevenLabs | OK | creditos_eleven #7 20/10 13:51Z | restam 21.014 de 39.419 (renova 07/11) | ~7 dias de reserva (estimativa) | 29 h |
-| Estoque media (64 pacotes) | OK | 28 agendado, 1 parcial, 7 aprovado, 17 extra_pronto, 11 aguardando_revisao | 7 aprovados sem post; revisão +2 vs. manhã | Conferente cuida | hoje |
+| Medidor de Testes (21:11) | ALERTA | 22/10 00:12Z FALHOU | USAGE_LIMIT_REACHED; 1º disparo perdido | V05: fire_trigger após reset; teste de 72 h (E18) fica sem leitura | nunca rodou |
+| Diretor de Operação (21:41) | ALERTA | 22/10 00:41Z FALHOU | USAGE_LIMIT_REACHED; 1º disparo perdido | V05: idem | nunca rodou |
+| Guerrilha (hora a hora) | ALERTA | 22/10 00:23Z FALHOU | USAGE_LIMIT_REACHED; balanço diário das 21:23 não saiu; depende do Chrome do Allan | próximo disparo 11:23Z; conferir SUCCEEDED | 10 h |
+| Executor de Decisões (06:53) | OK | 22/10 09:54Z PENDING (25 min) | V03/V04 resolvidos: disparo de hoje em curso | confirmar SUCCEEDED na próxima rodada | em curso |
+| Demais 25 rotinas (Criador, Humorista, SEO, Utilidade, Criativo, Segurança, Estrategista, Conferente, Agendador, Publicador, Atendente, Auditor, Caçadores, Diretores, etc.) | OK | SUCCEEDED / dentro do prazo | 0 vencida sem disparar, 0 suspensa, 0 desligada | - | < 24 h |
+| Diretores Conteúdo/Produto/Audiência, Pesq. Formato/Mercado, Cobrança, Afiliados | AGUARDAM 1º DISPARO | nunca | próximos: Audiência 12:17Z, Conteúdo 14:37Z | acompanhar | - |
+| fabrica.yml | OK | #105 21/10 20:50Z verde (6/6 verdes) | - | - | 13,5 h (limite 30 h) |
+| publicar_blog.yml | OK | #29 21/10 12:53Z verde | #27/#28 falharam 21/10, #29 passou | monitorar reincidência | 21 h |
+| Blog no ar | OK | commit site/build 21/10 14:25Z | home ao vivo não lida (WebFetch sem permissão) | liberar tutorialpet.com.br | 20 h (limite 30 h) |
+| Posts FB/IG/TikTok | OK | FB 21/10 23:33Z, IG 22/10 00:03Z, TikTok 21/10 23:21Z | 0 erro; agendados: TikTok 4 (próx. 13:20Z), Zernio 28 | E25: fila TikTok acaba 23/10 10:20 | FB 10,8 h, IG 10,3 h, TikTok 11 h |
+| ElevenLabs | OK? | creditos_eleven #7 20/10 13:51Z | sem saída nova; última leitura 21.014 de 39.419 (renova 07/11) | rodar creditos_eleven.yml | 44 h |
+| Estoque media (64 pacotes) | OK | 28 agendado, 1 parcial, 7 aprovado, 17 extra_pronto, 11 aguardando_revisao | igual a ontem; 7 aprovados sem post | Conferente cuida | hoje |
