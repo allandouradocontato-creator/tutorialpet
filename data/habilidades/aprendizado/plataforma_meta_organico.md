@@ -4,3 +4,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 
 | data | hipótese | resultado (n, métrica) | mantém/altera regra |
 |---|---|---|---|
+2026-10-22 | hipótese: reuso evergreen com legenda nova no FB/IG cobre o turno da noite sem pacote novo | resultado: n=0 (medir com 72h+) | mantém
