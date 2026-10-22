@@ -154,28 +154,37 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
     except Exception as exc:  # noqa: BLE001
         print("[coerencia] não verificada:", str(exc)[:100])
     # capa coerente com o tema, bonita, nao agressiva e nunca repetida (Allan, 22/10/2026)
+    capa_ia = False   # capa gerada por IA (plano B) já passou no portão de espécie; a escolha por tema apagaria a pasta de candidatas
     try:
-        from core.capa import escolher
-        idx, motivo = escolher(slug)
-        if idx is None and "candidata" in motivo and os.environ.get("PEXELS_API_KEY"):
-            print(f"[capa] {motivo}; buscando fotos novas com consultas do tema")
-            shutil.rmtree(cand, ignore_errors=True)
-            run([sys.executable, "blog_imagens_nuvem.py", slug])
+        _m = json.loads((cand / "candidatos.json").read_text(encoding="utf-8"))
+        capa_ia = any(str(c.get("indice")) == str(indice) and c.get("fonte") == "ia" for c in _m)
+    except Exception:  # noqa: BLE001
+        pass
+    if capa_ia:
+        print("[capa] capa de IA já passou no portão; pulando a escolha por tema")
+    else:
+        try:
+            from core.capa import escolher
             idx, motivo = escolher(slug)
-        if idx is None:
-            if motivo.startswith("visao indisponivel"):
-                print("[capa] nao verificada:", motivo)
+            if idx is None and "candidata" in motivo and os.environ.get("PEXELS_API_KEY"):
+                print(f"[capa] {motivo}; buscando fotos novas com consultas do tema")
+                shutil.rmtree(cand, ignore_errors=True)
+                run([sys.executable, "blog_imagens_nuvem.py", slug])
+                idx, motivo = escolher(slug)
+            if idx is None:
+                if motivo.startswith("visao indisponivel"):
+                    print("[capa] nao verificada:", motivo)
+                else:
+                    with open(ROOT / "config" / "capas_pendentes.txt", "a", encoding="utf-8") as fh:
+                        fh.write(f"{slug}\n")
+                    raise SystemExit(f"capa: {motivo}; nao publica com foto que nao mostra o tema")
             else:
-                with open(ROOT / "config" / "capas_pendentes.txt", "a", encoding="utf-8") as fh:
-                    fh.write(f"{slug}\n")
-                raise SystemExit(f"capa: {motivo}; nao publica com foto que nao mostra o tema")
-        else:
-            print(f"[capa] escolhida {idx}: {motivo}")
-            indice = str(idx)
-    except SystemExit:
-        raise
-    except Exception as exc:  # noqa: BLE001
-        print("[capa] checagem nao feita:", str(exc)[:100])
+                print(f"[capa] escolhida {idx}: {motivo}")
+                indice = str(idx)
+        except SystemExit:
+            raise
+        except Exception as exc:  # noqa: BLE001
+            print("[capa] checagem nao feita:", str(exc)[:100])
     if raca:   # a escolha de capa por tema não pode passar por cima do portão de raça
         if not raca_ok(cand, str(indice), especie, raca):
             boas = [k for k, v in _VER.items() if v]
