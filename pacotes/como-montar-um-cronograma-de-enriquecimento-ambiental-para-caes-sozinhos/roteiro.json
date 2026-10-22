@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como montar cronograma de enriquecimento ambiental para cães sozinhos",
+  "gancho_3s": "Seu cachorro destrói tudo sozinho? 6 dias mudam essa rotina.",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro destrói tudo sozinho? 6 dias mudam essa rotina.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro destrói tudo sozinho? 6 dias mudam essa rotina."
+    },
+    {
+      "narracao": "[thoughtful] Deixar o cachorro sozinho não precisa acabar com seus móveis. O segredo é gastar a energia mental dele.",
+      "visual_busca_banco_livre": "sad dog alone at home looking at door",
+      "texto_na_tela": "Cão sozinho sem estresse"
+    },
+    {
+      "narracao": "[short pause] Divida os estímulos em frentes mentais e alimentares para transformar a solidão em exploração.",
+      "visual_busca_banco_livre": "dog sniffing interactive puzzle toy close up",
+      "texto_na_tela": "Estímulo mental e alimentar"
+    },
+    {
+      "narracao": "Na segunda e quinta, use mordedores naturais e itens de roer duradouros.",
+      "visual_busca_banco_livre": "dog chewing natural bone close up",
+      "texto_na_tela": "Segunda e Quinta: Mordedores"
+    },
+    {
+      "narracao": "Terça e sexta são dias de comedouros interativos e tapetes lamberdores congelados.",
+      "visual_busca_banco_livre": "dog licking frozen interactive feeder",
+      "texto_na_tela": "Terça e Sexta: Comedouros"
+    },
+    {
+      "narracao": "Na quarta e no fim de semana, use caixas de papelão para destruir e busca por petiscos.",
+      "visual_busca_banco_livre": "dog tearing cardboard box playing",
+      "texto_na_tela": "Quarta e Fim de semana: Caixas"
+    },
+    {
+      "narracao": "[thoughtful] Ao voltar, recolha os brinquedos e limpe tudo. Se notar estresse severo, consulte um veterinário.",
+      "visual_busca_banco_livre": "dog sleeping peacefully resting",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! [smiling] Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#cachorro",
+    "#enriquecimentoambiental",
+    "#caes",
+    "#adestramentointeligente",
+    "#comportamentocanino"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro destrói tudo quando fica sozinho? Veja este cronograma!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos\n\n#cachorro #enriquecimentoambiental #caes #adestramentointeligente #comportamentocanino",
+  "slug": "como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 1
+}

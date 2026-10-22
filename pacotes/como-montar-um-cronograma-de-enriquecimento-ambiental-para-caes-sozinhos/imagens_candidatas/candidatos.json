@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog alone at home",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282278,
+    "url_download": "https://images.pexels.com/photos/7282278/pexels-photo-7282278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-puppy-in-cozy-room-7282278/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog alone at home",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4254053,
+    "url_download": "https://images.pexels.com/photos/4254053/pexels-photo-4254053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-little-purebred-dog-in-robe-looking-out-window-at-home-4254053/",
+    "fotografo": "André Fernandes",
+    "fotografo_url": "https://www.pexels.com/@andre-fernandes-2701637",
+    "largura": 5102,
+    "altura": 3401,
+    "query": "dog alone at home",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6802008,
+    "url_download": "https://images.pexels.com/photos/6802008/pexels-photo-6802008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-woman-sitting-on-the-bed-while-reading-a-book-6802008/",
+    "fotografo": "Vlada Karpovich",
+    "fotografo_url": "https://www.pexels.com/@vlada-karpovich",
+    "largura": 4636,
+    "altura": 3091,
+    "query": "dog alone at home",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5801444,
+    "url_download": "https://images.pexels.com/photos/5801444/pexels-photo-5801444.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-looking-through-a-window-5801444/",
+    "fotografo": "Val Burger",
+    "fotografo_url": "https://www.pexels.com/@val-burger-3898035",
+    "largura": 4000,
+    "altura": 3451,
+    "query": "dog alone at home",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6692956,
+    "url_download": "https://images.pexels.com/photos/6692956/pexels-photo-6692956.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/colorful-educational-toy-on-a-wooden-surface-6692956/",
+    "fotografo": "Tara Winstead",
+    "fotografo_url": "https://www.pexels.com/@tara-winstead",
+    "largura": 5724,
+    "altura": 3816,
+    "query": "dog puzzle toy close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos/5.jpg"
+  }
+]
