@@ -1,5 +1,5 @@
-Dados até 2026-10-21 09:50 (Fortaleza)
-# Placar do Humorista — leitura 21/10/2026
+Dados até 2026-10-22 11:20 (Fortaleza)
+# Placar do Humorista — leitura 22/10/2026 (11:00 Fortaleza; atualiza a de 21/10)
 Fontes: Zernio analytics (FB/IG, posts 14 a 21/10, lidos 21/10 ~09:45) e Buffer (TikTok). Horários UTC no Zernio. Amostra muito pequena; nada abaixo é conclusão.
 ## Memes de 8 s por fórmula (views FB / views IG; curtidas FB / IG; comentários 0 em todos; 72 h+ cumprido em todos exceto F7 "regime")
 | Fórmula | Autor da ideia | Post (data) | FB views/curt. | IG views/curt. |
@@ -23,3 +23,10 @@ Medianas FB: prova de mercado 288 (n=5) x teste próprio 286 (n=2 com dado). IG:
 ## Falhas técnicas (excluídas do placar)
 FB "Qual som faz o seu aparecer do nada?" (17/10) 8 views; FB e IG "Tem gato que já viu esse filme" (18/10) e "Quem mais?" (19/10) com 0 views. Já registradas em medicao.md; provável mídia que não subiu.
 Próxima leitura: 72 h após os primeiros itens deste lote publicados.
+
+## Atualização 22/10/2026 (Zernio analytics lido ~08:43 UTC de 22/10)
+- F7 contraste "regime" (teste próprio, 21/10 00:12 UTC): IG 101 views / 2 curt.; FB 3 (falha de sync/mídia, excluída). Ainda <72 h: sem conclusão.
+- "Imposto" (c6-conta, 21/10 15:04 UTC, fora da cota): FB 208 / 4 curt.; IG 130 / 2 curt. / 1 compart.
+- Sem novo meme com 72 h+ desde a leitura anterior. Medianas inalteradas: prova de mercado x teste próprio = empate técnico (n pequeno). Cota 70/30 mantida. Comentários de terceiros em memes: 0.
+- Falhas de mídia novas: FB/IG "Erro 1 de 7" (21/10 20:29 UTC) com 0 views. TikTok/Buffer: sem leitura nesta rodada (sem dado).
+- Próxima leitura: quinta 29/10 ou segunda 26/10, com os memes hm1 a hm10 se publicados.

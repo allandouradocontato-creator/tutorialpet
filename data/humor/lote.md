@@ -1,215 +1,207 @@
-Dados até 2026-10-21 09:50 (Fortaleza)
-# Lote de humor — rodada 21/10/2026 (7 prova de mercado + 3 teste próprio). Só proposta: nada publicado, agendado ou comentado.
+Dados até 2026-10-22 11:20 (Fortaleza)
+# Lote de humor — rodada 22/10/2026 (7 prova de mercado + 3 teste próprio). Só proposta: nada publicado, agendado ou comentado.
 # Formato de config/memes_pet.yaml + formula, origem, serie, acao, pergunta_uma_palavra, primeiro_comentario (adendo 21/10: UMA ação; legenda = gancho + 1 linha de valor + pergunta de UMA palavra + CTA fixo; sem "link no perfil").
-# Clipes: Pexels, animal do clipe = animal do texto. Fórmulas e provas: data/humor/manual.md. Nenhuma "frase popular" usada (sem teste feito).
-# Evita repetir os ids do lote de 15/10 e do Criador de Audiência de 21/10. Placar usado para a cota: empate, mantém 70/30 (data/humor/placar.md).
+# Clipes: Pexels, animal do clipe = animal do texto. Fórmulas e provas: data/humor/manual.md. Nenhuma "frase popular" usada (teste dos 5 links não feito). Cota 70/30 mantida (placar: empate técnico, n pequeno).
+# Ids novos (hm11 a hm20); o lote de 21/10 (hm1 a hm10) segue valendo e não foi apagado daqui: está no histórico git (commit humor: 2026-10-21).
 itens:
-- id: hm1-acordei-o-gato
+- id: hm11-virou-meme
   classe: liberada
   origem: prova_de_mercado
-  formula: F1 (prova: gata acordada pela dona, 8,1 mi views / 1,4 mi curtidas / 190,4 mil compart., TikTok 07/06/2025)
+  formula: "F1 (prova: gato Mingau de cara fechada ao saber que virou meme, 529,1 mil views, 122,4 mil curtidas, 625 comentários, 218 compart., TikTok 31/01/2023) https://www.bnews.com.br/noticias/bnews-pet/gato-viraliza-na-internet-mas-se-irrita-com-fama-repentina-assista.html (matéria 07/03/2023)"
   serie: voz do pet
   acao: compartilhar
   animal: gato
-  busca: cat waking up annoyed on sofa
-  topo: Acordei o gato só pra ver se ele estava bem.
-  base: Foi o maior erro da minha semana.
+  busca: cat looking unimpressed at camera
+  topo: "Contei pro gato que ele virou famoso."
+  base: "Ele pediu pra falar com o agente."
   legenda: |
-    Sono de gato é contrato: não se interrompe.
-    Deixe a soneca terminar sozinha; acordar de repente só rende bronca.
-    Perdoa ou ataca?
+    Fama de gato dura até a próxima soneca.
+    Gato indiferente também precisa de rotina fixa: o horário da comida é o que ele leva a sério.
+    Famoso ou indiferente?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Perdoa ou ataca?
-  primeiro_comentario: "Perdoa ou ataca? Artigo completo: <URL com UTM>"
-  artigo: /por-que-o-gato-esconde-a-comida-na-tigela
+  pergunta_uma_palavra: "Famoso ou indiferente?"
+  primeiro_comentario: "Famoso ou indiferente? Artigo completo: <URL com UTM>"
+  artigo: /quantas-vezes-por-dia-alimentar-gato
   duda: "Manda pra quem tem um gato assim."
   tags: ['#gatos', '#humorpet', '#tutorialpet']
-- id: hm2-camera-da-sala
+- id: hm12-bem-obediente
   classe: liberada
   origem: prova_de_mercado
-  formula: F2 (prova: greyhound flagrado pela câmera, 3,7 mi views, TikTok, matéria 21/07/2022)
+  formula: "F9 novo 'Tutor se gaba, o pet desmente na hora' (prova: pastor-alemão acerta a bola na cabeça da dona justo ao ser elogiado, +6 mi views, 1,5 mi curtidas, IG 01/2026) https://www.aol.com/articles/german-shepherd-hilariously-hits-mom-230000956.html"
   serie: gato x cachorro
   acao: comentar 1 palavra
   animal: cachorro
-  busca: dog lying on sofa looking guilty
-  topo: Câmera da sala: tudo calmo.
-  base: Chamei pelo nome. Ele assumiu posição de álibi.
+  busca: dog playing with sock living room
+  topo: "Eu, dizendo que meu cachorro é muito bem-comportado:"
+  base: "Ele, no mesmo segundo: apareceu com a meia."
   legenda: |
-    Cachorro sozinho em casa tem vida de executivo: ninguém sabe o que decide.
-    Brinquedo roível à mão ajuda a gastar a energia sozinho.
-    Nega ou confessa?
+    Cachorro tem timing de comediante e zero senso de plateia.
+    Brinquedo certo à mão desvia a atenção da meia.
+    Meia ou sofá?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Nega ou confessa?
-  primeiro_comentario: "Nega ou confessa? Artigo completo: <URL com UTM>"
+  pergunta_uma_palavra: "Meia ou sofá?"
+  primeiro_comentario: "Meia ou sofá? Artigo completo: <URL com UTM>"
   artigo: /brinquedos-para-cachorro-que-fica-sozinho
-  texto_grande_6s5: "NEGA ou CONFESSA?"
-  duda: "Diz aí: nega ou confessa?"
+  duda: "Manda pra quem tem um cachorro assim."
   tags: ['#cachorros', '#humorpet', '#tutorialpet']
-- id: hm3-desligou-a-tv
+- id: hm13-advogado
   classe: liberada
   origem: prova_de_mercado
-  formula: F7 (prova: husky e o desenho desligado, quase 2 mi views em 5 dias, IG 22/08/2025)
+  formula: "F2 (prova: cão apronta e olha para a dona pedindo ajuda quando o tutor o leva, 145 mil views, 15 mil curtidas, 898 comentários, 145 compart., TikTok 01/06/2022) https://www.bnews.com.br/noticias/bnews-pet/cachorro-apronta-e-pede-ajuda-de-tutora-para-fugir-de-bronca-assista.html"
   serie: voz do pet
   acao: compartilhar
   animal: cachorro
-  busca: dog watching tv looking sad
-  topo: Desliguei a TV no meio do episódio.
-  base: Ele me olhou como quem perdeu um sócio.
+  busca: dog looking guilty at owner
+  topo: "Fui chamar o cachorro pra conversar."
+  base: "Ele olhou pra minha família pedindo advogado."
   legenda: |
-    Quem tem cachorro vive em novela com final aberto.
-    Rotina previsível acalma o cão; avise a saída com um gesto igual todo dia.
-    Drama ou calma?
+    Cachorro sabe exatamente quando fez algo errado.
+    Uma rotina previsível diminui as aprontações de tédio.
+    Culpado ou inocente?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Drama ou calma?
-  primeiro_comentario: "Drama ou calma? Artigo completo: <URL com UTM>"
+  pergunta_uma_palavra: "Culpado ou inocente?"
+  primeiro_comentario: "Culpado ou inocente? Artigo completo: <URL com UTM>"
   artigo: /ansiedade-de-separacao-em-caes
   duda: "Manda pra quem tem um cachorro assim."
   tags: ['#cachorros', '#humorpet', '#tutorialpet']
-- id: hm4-petisco-no-chao
+- id: hm14-sociedade
   classe: liberada
   origem: prova_de_mercado
-  formula: F6 (prova: gato derruba petisco para o corgi, +4 mi views / 624,8 mil curtidas / +2.280 coment., TikTok 21/02/2023)
+  formula: "F6 (prova: gato derruba petisco para o corgi, +4 mi views, 624,8 mil curtidas, +2.280 comentários, TikTok 21/02/2023) https://www.newsweek.com/tiktok-secret-alliance-corgi-cat-chaos-1782562?amp=1"
   serie: gato x cachorro
   acao: comentar 1 palavra
-  animal: gato e cachorro (confirmar clipe com os DOIS animais)
-  busca: cat and dog kitchen counter treats
-  topo: O gato derruba o petisco.
-  base: O cachorro assina como cúmplice.
+  animal: gato
+  busca: cat and dog together living room
+  topo: "Gato derruba o pote. Cachorro limpa o chão."
+  base: "Ninguém assinou, mas existe sociedade."
   legenda: |
-    Dupla perfeita: um comete, o outro come.
-    Em casa com gato e cachorro, alimente cada um em seu canto para ninguém roubar o prato.
-    Gato ou cachorro?
+    Gato e cachorro bem adaptados dividem o espaço sem drama.
+    Potes separados evitam a disputa.
+    Cúmplices ou rivais?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Gato ou cachorro?
-  primeiro_comentario: "Gato ou cachorro? Artigo completo: <URL com UTM>"
-  artigo: /como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
-  texto_grande_6s5: "GATO ou CÃO?"
-  duda: "Qual é o seu? Escreve aí!"
-  tags: ['#gatos', '#cachorros', '#humorpet', '#tutorialpet']
-- id: hm5-cama-tomada
-  classe: liberada
-  origem: prova_de_mercado
-  formula: F6 (prova: gatinho toma a cama do cão, +450 mil views / 29,1 mil curtidas, TikTok 25/06/2022)
-  serie: gato x cachorro
-  acao: comentar 1 palavra
-  animal: gato e cachorro (confirmar clipe com os DOIS animais)
-  busca: kitten sleeping in dog bed
-  topo: O filhote de gato dormiu na cama do cachorro.
-  base: O dono da cama pediu advogado.
-  legenda: |
-    Cama nova do cão, dono novo na cama: o gato.
-    Dois pets em casa pedem duas camas e um combinado de espaço.
-    Cama ou sofá?
-    Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Cama ou sofá?
-  primeiro_comentario: "Cama ou sofá? Artigo completo: <URL com UTM>"
+  pergunta_uma_palavra: "Gato ou cão?"
+  primeiro_comentario: "Gato ou cão? Artigo completo: <URL com UTM>"
   artigo: /como-acostumar-gato-e-cachorro-a-conviverem-em-paz
-  texto_grande_6s5: "CAMA ou SOFÁ?"
-  duda: "Eu sei qual é o seu. Comenta!"
-  tags: ['#gatos', '#cachorros', '#humorpet', '#tutorialpet']
-- id: hm6-pausa-dramatica
+  duda: "Manda pra quem tem um gato assim."
+  tags: ['#gatos', '#humorpet', '#tutorialpet']
+- id: hm15-passeio-sussurrado
   classe: liberada
   origem: prova_de_mercado
-  formula: F7 (prova: cão se joga no chão para ser carregado, 47 mil curtidas / 353 coment. / 4.659 retuítes, X 27/11/2022)
-  serie: gato x cachorro (cão: anda ou deita)
-  acao: comentar 1 palavra
+  formula: "F7 (prova: cachorro finge dormir e levanta indignado ao saber que não haverá passeio, IG 22/07/2024, SEM número publicado; usar como estrutura, não como prova de volume) https://www.metropoles.com/sao-paulo/cachorro-finge-estar-dormindo-e-reacao-ao-acordar-viraliza-veja"
+  serie: voz do pet
+  acao: compartilhar
   animal: cachorro
-  busca: dog lying down on sidewalk during walk
-  topo: Passeio de 200 metros.
-  base: Pausa dramática do cachorro: "Daqui eu só vou de colo."
+  busca: dog sleeping on sofa then waking up
+  topo: "Cachorro em sono profundo."
+  base: "Sussurrei 'passeio'. Ressuscitou."
   legenda: |
-    Tem cão que negocia o passeio como sindicato.
-    Se ele trava na rua, confira a guia e o peitoral antes de puxar; se persistir, veterinário.
-    Anda ou deita?
+    Cachorro dorme de um olho só quando o assunto é passeio.
+    Horário fixo de passeio acalma a espera.
+    Dorme ou finge?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Anda ou deita?
-  primeiro_comentario: "Anda ou deita? Artigo completo: <URL com UTM>"
-  artigo: /coleira-ou-peitoral-para-cachorro
-  texto_grande_6s5: "ANDA ou DEITA?"
-  duda: "Diz aí: anda ou deita?"
+  pergunta_uma_palavra: "Dorme ou finge?"
+  primeiro_comentario: "Dorme ou finge? Artigo completo: <URL com UTM>"
+  artigo: /primeiros-dias-do-filhote-em-casa
+  duda: "Manda pra quem tem um cachorro assim."
   tags: ['#cachorros', '#humorpet', '#tutorialpet']
-- id: hm7-so-um-petisco
+- id: hm16-mania-porta
   classe: liberada
   origem: prova_de_mercado
-  formula: F3 (prova: formato de dois quadros, tweet-base 276,8 mil curtidas; número de matéria, não reverificado)
-  serie: gato x cachorro
-  acao: comentar 1 palavra
+  formula: "F5 (prova: manias do galgo, ~540 mil views, 08/2023, não reverificado) https://www.bnews.com.br/noticias/bnews-pet/tutor-expoe-manias-inusitadas-de-cachorro-e-viraliza-no-tiktok-assista.html"
+  serie: dúvida do tutor
+  acao: comentar um número
   animal: cachorro
-  busca: dog staring at hand holding treat
-  topo: 'Eu: "É só um petisco."'
-  base: 'O cachorro: "Contrato verbal. Anotei."'
+  busca: dog staring at door waiting
+  topo: "Mania nº 1 do cachorro:"
+  base: "Encarar a porta até ela se sentir culpada."
   legenda: |
-    Petisco prometido é dívida com juros.
-    Petisco bom é pequeno e conta no total do dia; alimento humano nem pensar.
-    Sim ou não?
+    Quem espera na porta está contando as horas.
+    Brinquedo roível ajuda a passar o tempo sozinho.
+    Quantas manias tem o seu?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Sim ou não?
-  primeiro_comentario: "Sim ou não? Artigo completo: <URL com UTM>"
-  artigo: /alimentos-proibidos-para-cachorro
-  texto_grande_6s5: "SIM ou NÃO?"
-  duda: "Qual é o seu? Escreve aí!"
+  pergunta_uma_palavra: "Quantas manias?"
+  primeiro_comentario: "Quantas manias? Artigo completo: <URL com UTM>"
+  artigo: /brinquedos-para-cachorro-que-fica-sozinho
+  duda: "Manda pra quem tem um cachorro assim."
   tags: ['#cachorros', '#humorpet', '#tutorialpet']
-- id: hm8-troca-de-racao
+- id: hm17-nome-completo
   classe: liberada
-  origem: teste_proprio
-  formula: F8 (contraste de registro "aviso prévio"; sem dado de mercado)
-  serie: erro de 8 segundos
-  acao: salvar
-  animal: cachorro
-  busca: dog sniffing new food bowl
-  topo: "Erro comum: trocar a ração de uma vez."
-  base: O estômago pediu aviso prévio.
-  legenda: |
-    Erro comum: ração nova de um dia para o outro.
-    Misture a nova com a antiga aos poucos, em alguns dias. Dúvida, fale com o veterinário.
-    Salva?
-    Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Salva?
-  primeiro_comentario: "Salva? Artigo completo: <URL com UTM>"
-  artigo: /como-trocar-a-racao-do-cachorro
-  texto_grande_6s5: "SALVA"
-  duda: "Salva pra não esquecer."
-  tags: ['#cachorros', '#dicapet', '#tutorialpet']
-- id: hm9-pede-cheira-sai
-  classe: liberada
-  origem: teste_proprio
-  formula: F8 (regra dos 3; sem dado de mercado)
-  serie: gato x cachorro
-  acao: comentar 1 palavra
+  origem: prova_de_mercado
+  formula: "F1 (prova: gata acordada pela dona e irritada, 8,1 mi views, 1,4 mi curtidas, 190,4 mil compart., TikTok 07/06/2025) https://larepublica.pe/tendencias/2025/07/02/tiktok-viral-joven-penso-que-su-gato-habia-muerto-estaba-durmiendo-y-se-enojo-con-su-duena-por-despertarlo-139978"
+  serie: voz do pet
+  acao: compartilhar
   animal: gato
-  busca: cat sniffing food bowl walking away
-  topo: Pede a ração. Cheira. Sai ofendido.
-  base: Três passos e nenhuma satisfação.
+  busca: cat sleeping on bed annoyed
+  topo: "Chamei o gato pelo nome completo."
+  base: "Ele ouviu, processou e decidiu não."
   legenda: |
-    Gato é cliente de restaurante: elogia o cardápio e vai embora.
-    Gato come em pequenas porções ao longo do dia; observe o padrão dele.
-    Come ou ignora?
+    Gato escolhe quando atende; o resto é negociação.
+    Prefira chamar com o som da ração, que ele conhece bem.
+    Atende ou ignora?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Come ou ignora?
-  primeiro_comentario: "Come ou ignora? Artigo completo: <URL com UTM>"
+  pergunta_uma_palavra: "Atende ou ignora?"
+  primeiro_comentario: "Atende ou ignora? Artigo completo: <URL com UTM>"
   artigo: /quantas-vezes-por-dia-alimentar-gato
-  texto_grande_6s5: "COME ou IGNORA?"
-  duda: "Diz aí: come ou ignora?"
+  duda: "Manda pra quem tem um gato assim."
   tags: ['#gatos', '#humorpet', '#tutorialpet']
-- id: hm10-cama-cara
+- id: hm18-cadeira
   classe: liberada
   origem: teste_proprio
-  formula: F8 + autoironia do tutor (técnica 5 do manual; sem dado de mercado)
+  formula: "F8 regra dos 3 (sem dado de mercado; medir no placar)"
+  serie: voz do pet
+  acao: compartilhar
+  animal: gato
+  busca: cat sitting on office chair
+  topo: "Levantei. Fiz café. Voltei."
+  base: "O gato já tinha assumido o cargo."
+  legenda: |
+    Gato escolhe o lugar mais quente da casa, e a cadeira ainda guarda o calor.
+    Deixe uma manta pra ele no lugar dele.
+    Cadeira ou cama?
+    Confira o artigo completo em tutorialpet.com.br
+  pergunta_uma_palavra: "Cadeira ou cama?"
+  primeiro_comentario: "Cadeira ou cama? Artigo completo: <URL com UTM>"
+  artigo: /arranhador-para-gato-qual-escolher
+  duda: "Manda pra quem tem um gato assim."
+  tags: ['#gatos', '#humorpet', '#tutorialpet']
+- id: hm19-carteiro
+  classe: liberada
+  origem: teste_proprio
+  formula: "F8 contraste de registro 'relatório de segurança' (sem dado de mercado; medir no placar)"
   serie: gato x cachorro
   acao: comentar 1 palavra
-  animal: gato
-  busca: cat sitting inside cardboard box
-  topo: Comprei uma cama de R$ 300 pro gato.
-  base: Ele dorme na caixa em que ela veio.
+  animal: cachorro
+  busca: dog barking at window
+  topo: "Relatório de segurança do cachorro:"
+  base: "Carteiro avistado. Ameaça neutralizada. Ele foi embora sozinho."
   legenda: |
-    A cama é para o tutor se sentir bem; a caixa é para o gato.
-    Gato gosta de lugar apertado e escondido; ofereça os dois.
-    Caixa ou cama?
+    Latir pra janela é o jeito do cão de fazer ronda.
+    Um brinquedo ou petisco longo ajuda a descontar a energia.
+    Late ou calma?
     Confira o artigo completo em tutorialpet.com.br
-  pergunta_uma_palavra: Caixa ou cama?
-  primeiro_comentario: "Caixa ou cama? Artigo completo: <URL com UTM>"
-  artigo: /arranhador-para-gato-qual-escolher
-  texto_grande_6s5: "CAIXA ou CAMA?"
-  duda: "Eu sei qual é o seu. Comenta!"
-  tags: ['#gatos', '#humorpet', '#tutorialpet']
-# Pendências do Allan/portões: hm4 e hm5 exigem clipe Pexels com gato E cachorro (senão trocar por clipe só do animal do texto). Nenhum item toca saúde, política, religião ou tragédia; hm6, hm8 e hm9 trazem "veterinário" ou observação neutra, sem alegação médica.
+  pergunta_uma_palavra: "Gato ou cão?"
+  primeiro_comentario: "Gato ou cão? Artigo completo: <URL com UTM>"
+  artigo: /brinquedos-para-cachorro-que-fica-sozinho
+  duda: "Manda pra quem tem um cachorro assim."
+  tags: ['#cachorros', '#humorpet', '#tutorialpet']
+- id: hm20-truque
+  classe: liberada
+  origem: teste_proprio
+  formula: "F8 autoironia do tutor (técnica 5 do manual; sem dado de mercado; medir no placar)"
+  serie: dúvida do tutor
+  acao: comentar um número
+  animal: cachorro
+  busca: dog sitting begging treat
+  topo: "Prometi ensinar um truque ao cachorro."
+  base: "Em duas semanas, ele me ensinou a levantar pro petisco."
+  legenda: |
+    Quem treina com petisco logo vira o treinado.
+    Petisco pequeno e recompensa curta mantêm o treino divertido.
+    Quantos truques?
+    Confira o artigo completo em tutorialpet.com.br
+  pergunta_uma_palavra: "Quantos truques?"
+  primeiro_comentario: "Quantos truques? Artigo completo: <URL com UTM>"
+  artigo: /como-trocar-a-racao-do-cachorro
+  duda: "Manda pra quem tem um cachorro assim."
+  tags: ['#cachorros', '#humorpet', '#tutorialpet']
+# Pendências do Allan/portões: hm14 exige clipe Pexels com gato E cachorro (senão usar clipe só do gato). hm11 e hm13 têm números lidos nas matérias do BNews (não reverificados nas plataformas). hm15 não tem número de engajamento publicado (só estrutura). Nenhum item toca saúde, política, religião ou tragédia.
