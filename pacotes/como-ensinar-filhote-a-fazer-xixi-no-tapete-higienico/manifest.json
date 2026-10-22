@@ -1,0 +1,31 @@
+{
+  "slug": "como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-22T18:16:46+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "gancho repetido de um dos últimos 5 vídeos (abertura_problema_pet)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 6/6 quadros conferem"
+    ],
+    "em": "2026-10-22T18:20:36+00:00"
+  }
+}
