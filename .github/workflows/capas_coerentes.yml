@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: fabrica
+  group: capas
   cancel-in-progress: false
 
 jobs:
