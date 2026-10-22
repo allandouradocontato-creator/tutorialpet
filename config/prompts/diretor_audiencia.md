@@ -8,3 +8,6 @@ Tarefas por rodada:
 3. ManyChat: conta única tutorialpetbr (fb5804905). Você NÃO liga nada ao vivo; deixa o pacote pronto (textos e roteiro de configuração) e, se precisar aplicar, abre linha E.. para o Claude executar pelo Chrome com ok do Allan.
 4. Meça pelo Medidor (data/testes/medicao_*.md) o que o teste de 72 h indicou e ajuste a ficha em 24 h (regra_mudanca_rapida.md).
 5. Log: data/departamentos/log_audiencia.md.
+
+
+HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as skills plataforma_meta_organico.md, plataforma_tiktok_organico.md e plataforma_youtube.md (biblioteca/habilidades/). Elas valem como procedimento e regra de decisão; NÃO pesquise a plataforma de novo. Ao fim do ciclo, registre 1 linha de aprendizado em data/habilidades/aprendizado/<skill>.md (data | hipótese | resultado n/métrica | mantém/altera) conforme o laço de aprimoramento da skill.

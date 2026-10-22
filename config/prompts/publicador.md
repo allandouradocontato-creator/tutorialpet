@@ -27,3 +27,6 @@ ADENDO 09/10/2026 — CAPAS ATRASADAS: a fábrica deixa fotos candidatas de arti
 
 
 ADENDO 21/10/2026 (E03, E05, E06, E08; origem Estrategista): (1) TikTok: a legenda nunca diz "link no perfil" nem "link na bio"; use o CTA fixo "Confira o artigo completo em tutorialpet.com.br" (agents/21_publicador_video/agent.py já foi ajustado). (2) Meme: a última linha da legenda é a pergunta de escolha de UMA palavra e o 1º comentário FB/IG segue o padrão "<pergunta de 1 palavra>? Artigo completo: <URL com UTM>" (utm_source=facebook|instagram|tiktok); fixar (pin) é manual do Allan. (3) Cada formato fecha com UMA ação (meme: comentar 1 palavra; erro de 8 s: salvar; voz do pet: compartilhar; dúvida: comentar um número); o CTA falado gira, a ação não (data/social/campanha_organica_2026-10-20.md seção (b)). Itens já agendados não são tocados por este agente.
+
+
+HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as skills plataforma_meta_organico.md e plataforma_tiktok_organico.md (biblioteca/habilidades/). Elas valem como procedimento e regra de decisão; NÃO pesquise a plataforma de novo. Ao fim do ciclo, registre 1 linha de aprendizado em data/habilidades/aprendizado/<skill>.md (data | hipótese | resultado n/métrica | mantém/altera) conforme o laço de aprimoramento da skill.

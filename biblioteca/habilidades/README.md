@@ -23,3 +23,12 @@ Regra do Allan (21/10/2026): **não inventar a roda**. Antes de criar uma habili
 | `analise_referencia_viral.md` | Ficha por referência (gancho, linha do tempo, padrão replicável + nossa versão), análise em lote | Pesquisador de Formato, Pesquisador de Mercado |
 
 Contexto de marca/produto que as skills externas em `biblioteca/skills_externas/marketingskills/` leem sozinhas: `.agents/product-marketing.md` (raiz do repositório).
+
+## Plataformas e tráfego (22/10/2026)
+Transformam o compêndio `biblioteca/regras_plataformas/` em procedimento executável (entradas, passos numéricos, checklist, laço de aprimoramento em `data/habilidades/aprendizado/<skill>.md`, itens [N] à parte). Os agentes não pesquisam regra de plataforma de novo: leem a skill.
+| Habilidade | O que faz | Quem lê |
+|---|---|---|
+| `plataforma_meta_organico.md` | Facebook + Instagram orgânico: originalidade, marca d'água, rótulo IA, hashtags, grade e espaçamento, limites pass/fail, comentário→DM | Estrategista de Redes Sociais, Criador de Audiência, Produtor/Guardião de vídeo, Atendente de Comentários |
+| `plataforma_tiktok_organico.md` | TikTok orgânico: música CML, rótulo IA/comercial, ganchos permitidos e proibidos, funil por DM, limites pass/fail | Especialista TikTok, Estrategista, Criador de Audiência, Produtor de vídeo |
+| `trafego_meta_ads.md` | Ciclo do anúncio Meta antes e em volta da checagem (elegibilidade, criativo, conformidade, UTM, revisão 24 h); complementa `anuncios_meta_decisao.md` | Agente de Tráfego, Guardião de Gasto, Executor de Decisões (Auditor segue com anuncios_meta_decisao.md) |
+| `trafego_tiktok_ads.md` | TikTok Ads/Spark Ads: escolha do vídeo, política de animais, rótulo IA, regras diárias | Agente de Tráfego, Especialista TikTok, Guardião de Gasto, Executor de Decisões |

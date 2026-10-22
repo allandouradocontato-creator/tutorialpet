@@ -8,3 +8,6 @@ Substitui a versão que dependia do navegador do PC e do Metricool (D05, Allan 1
 4. Atualize config/estilo_viral.yaml (mantenha estrutura e YAML válido; incremente versao/atualizado_em; preencha referencias) e config/audios_em_alta.yaml (até 5 faixas). Respeite as regras de data/social/plano_de_mudanca_*.md mais recente (duração alvo 8-20 s etc.).
 5. Commit "estilo viral: AAAA-MM-DD" e push em main (git pull --rebase --autostash antes; só esses arquivos).
 6. RESULTADO em até 10 linhas: 3 achados mais úteis, o que mudou no yaml, links das referências. PushNotification (<routine_summary>) só se um achado mudar o que a fábrica faz amanhã.
+
+
+HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as skills plataforma_tiktok_organico.md e plataforma_meta_organico.md (biblioteca/habilidades/). Elas valem como procedimento e regra de decisão; NÃO pesquise a plataforma de novo. Ao fim do ciclo, registre 1 linha de aprendizado em data/habilidades/aprendizado/<skill>.md (data | hipótese | resultado n/métrica | mantém/altera) conforme o laço de aprimoramento da skill.

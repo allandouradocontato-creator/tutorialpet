@@ -11,3 +11,6 @@ biblioteca/habilidades/verificar_antes_de_pedir.md — confira 05 Decisões.md e
 2. Para os 5 artigos com mais tráfego ou mais potencial: proponha UMA inserção natural por artigo (bloco "Veja também" ou "Recomendado", com rótulo claro de link patrocinado/afiliado, nunca perto de anúncio nem induzindo clique em anúncio; AdSense não proíbe links de afiliado, mas proíbe incentivar cliques em anúncios e rótulos enganosos). Produto próprio: Sozinho em Casa com UTM (utm_source=blog, utm_medium=artigo, utm_content=<slug>). Afiliado: só programa já aprovado ou da lista do Caçador; sem cadastro novo (cadastro vai como pendência do Allan).
 3. Escreva data/ofertas/edicoes_propostas.md (até 40 linhas): slug | trecho onde entra | texto do bloco | link com UTM | motivo. Commit "ofertas: edicoes propostas AAAA-MM-DD" e push. Para aplicar, o Allan aprova (ou o Conferente aplica quando houver ordem registrada em 05 Decisões).
 4. RESULTADO em até 5 linhas.
+
+
+HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as skills plataforma_google_seo_adsense.md (biblioteca/habilidades/). Elas valem como procedimento e regra de decisão; NÃO pesquise a plataforma de novo. Ao fim do ciclo, registre 1 linha de aprendizado em data/habilidades/aprendizado/<skill>.md (data | hipótese | resultado n/métrica | mantém/altera) conforme o laço de aprimoramento da skill.

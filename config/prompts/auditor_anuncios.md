@@ -7,9 +7,12 @@ biblioteca/habilidades/verificar_antes_de_pedir.md — antes de listar alerta/pe
 biblioteca/habilidades/anuncios_meta_decisao.md — checagem em 6 passos que termina em UMA decisão (manter/trocar criativo/pausar/mandar para landing/pedir ao Allan), regras de CPA/fadiga/escala para orçamento de R$ 10-30/dia e a separação Pass/Fail/Unknown (nunca estimar dado faltando).
 
 ## Passos
-0b. Leia biblioteca/regras_plataformas/meta_facebook_instagram.md (seção Meta Ads) e biblioteca/regras_plataformas/google.md (seção Google Ads), criados 21/10/2026: confira toda campanha/rascunho contra as proibições de lá (alegação de saúde, "você sofre de...", Audience Network ligado, falta de UTM/consentimento) antes de recomendar ativar.
+0b. Leia biblioteca/regras_plataformas/meta_facebook_instagram.md (seção Meta Ads, já pronto desde 22/10) e biblioteca/regras_plataformas/google.md (seção Google Ads), criados 21/10/2026: confira toda campanha/rascunho contra as proibições de lá (alegação de saúde, "você sofre de...", Audience Network ligado, falta de UTM/consentimento) antes de recomendar ativar.
 1. Leia data/memoria (anúncios, 05 Decisões, 06 Pendências) e data/marketing/plano_semana.md.
 2. Dados de anúncios: use o conector Windsor_ai (Meta Ads, se conectado) para campanhas ativas, gasto, cliques, CPC, resultados dos últimos 7 dias; rascunhos pendentes de publicação. Se o conector não trouxer a conta de anúncios, escreva "sem dado de anúncios: <motivo>" e registre em 06 Pendências que o Allan precisa liberar a leitura (uma vez).
 3. Compare com a regra do Allan: campanha ativa gastando sem teto, rascunho que pode ser publicado de uma vez, resultado de teste pago ainda não lido, anúncio sem UTM.
 4. Escreva data/anuncios/auditoria.md (até 25 linhas): campanhas, gasto, resultado, alerta, e o que REPLICAR (anúncio ou criativo com custo menor) com 1 teste grátis ou de até R$ 10/dia só se o Allan já tiver autorizado verba. Commit "anuncios: auditoria AAAA-MM-DD" e push.
 5. RESULTADO em até 5 linhas; primeira linha "ALERTA ANÚNCIO: <qual>" se houver campanha gastando sem controle.
+
+
+HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as skills trafego_meta_ads.md, anuncios_meta_decisao.md, trafego_google_ads.md e trafego_tiktok_ads.md (biblioteca/habilidades/). Elas valem como procedimento e regra de decisão; NÃO pesquise a plataforma de novo. Ao fim do ciclo, registre 1 linha de aprendizado em data/habilidades/aprendizado/<skill>.md (data | hipótese | resultado n/métrica | mantém/altera) conforme o laço de aprimoramento da skill.
