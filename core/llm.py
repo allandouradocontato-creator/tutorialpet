@@ -54,8 +54,8 @@ def provedor_atual() -> str:
     return "ollama"
 
 
-def gerar_texto(prompt: str, sistema: str = "", temperatura: float = 0.8, max_tokens: int = 6000,
-                provedor: str | None = None) -> str:
+def _gerar_texto_base(prompt: str, sistema: str = "", temperatura: float = 0.8, max_tokens: int = 6000,
+                      provedor: str | None = None) -> str:
     prov = (provedor or provedor_atual()).lower()
     if prov == "gemini":
         chave = os.environ.get("GEMINI_API_KEY", "")
@@ -107,3 +107,45 @@ def gerar_texto(prompt: str, sistema: str = "", temperatura: float = 0.8, max_to
                    "stream": False, "options": {"temperature": temperatura}}
         return _post(OLLAMA_URL, payload, {}).get("response", "").strip()
     raise LLMError(f"provedor desconhecido: {prov}")
+
+
+# ---- Alternativas GRATIS quando o provedor principal estoura a cota (regra do Allan, 22/10/2026: o processo nao para) ----
+def _openai_compat(url: str, chave: str, modelo: str, prompt: str, sistema: str, temperatura: float, max_tokens: int) -> str:
+    msgs = ([{"role": "system", "content": sistema}] if sistema else []) + [{"role": "user", "content": prompt}]
+    d = _post(url, {"model": modelo, "messages": msgs, "temperature": temperatura, "max_tokens": min(max_tokens, 4096)},
+              {"Authorization": f"Bearer {chave}"}, timeout=120, tentativas=2)
+    return d["choices"][0]["message"]["content"].strip()
+
+
+def _cloudflare(prompt: str, sistema: str, temperatura: float, max_tokens: int) -> str:
+    conta, tok = os.environ.get("CF_ACCOUNT_ID", ""), os.environ.get("CF_API_TOKEN", "")
+    modelo = os.environ.get("CF_TEXT_MODEL", "@cf/meta/llama-3.3-70b-instruct-fp8-fast")
+    return _openai_compat(f"https://api.cloudflare.com/client/v4/accounts/{conta}/ai/v1/chat/completions", tok, modelo,
+                          prompt, sistema, temperatura, max_tokens)
+
+
+def gerar_texto(prompt: str, sistema: str = "", temperatura: float = 0.8, max_tokens: int = 6000,
+                provedor: str | None = None) -> str:
+    """Provedor principal; se falhar por cota/limite, cai nas alternativas gratis que tiverem chave: Cloudflare Workers AI,
+    Groq, OpenRouter (nessa ordem)."""
+    try:
+        return _gerar_texto_base(prompt, sistema, temperatura, max_tokens, provedor)
+    except Exception as exc:  # noqa: BLE001
+        erro = exc
+    alternativas = []
+    if os.environ.get("CF_ACCOUNT_ID") and os.environ.get("CF_API_TOKEN"):
+        alternativas.append(("cloudflare", lambda: _cloudflare(prompt, sistema, temperatura, max_tokens)))
+    if os.environ.get("GROQ_API_KEY"):
+        alternativas.append(("groq", lambda: _openai_compat("https://api.groq.com/openai/v1/chat/completions", os.environ["GROQ_API_KEY"],
+                             os.environ.get("GROQ_TEXT_MODEL", "llama-3.3-70b-versatile"), prompt, sistema, temperatura, max_tokens)))
+    if os.environ.get("OPENROUTER_API_KEY"):
+        alternativas.append(("openrouter", lambda: _openai_compat("https://openrouter.ai/api/v1/chat/completions", os.environ["OPENROUTER_API_KEY"],
+                             os.environ.get("OPENROUTER_TEXT_MODEL", "meta-llama/llama-3.3-70b-instruct:free"), prompt, sistema, temperatura, max_tokens)))
+    for nome, fn in alternativas:
+        try:
+            print(f"[llm] principal indisponivel ({str(erro)[:70]}); usando {nome} (gratis)", flush=True)
+            return fn()
+        except Exception as e2:  # noqa: BLE001
+            print(f"[llm] {nome} falhou: {str(e2)[:80]}", flush=True)
+            erro = e2
+    raise erro

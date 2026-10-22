@@ -52,6 +52,8 @@ jobs:
       - name: Gerar lote de roteiros (agente 27)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
         run: |
           MES="${{ github.event.inputs.mes }}"
           [ -z "$MES" ] && MES="$(TZ=America/Fortaleza date +%Y-%m)"

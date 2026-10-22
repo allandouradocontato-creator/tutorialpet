@@ -37,6 +37,8 @@ jobs:
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           GEMINI_API_KEY: ${{ github.event.inputs.teste_sem_gemini == 'true' && '' || secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           TESTE: ${{ github.event.inputs.teste_sem_gemini }}
         run: |
           grep -v '^#' config/capas_refazer.txt | grep -v '^$' | awk '{print $1}' | sort -u | while read slug; do
