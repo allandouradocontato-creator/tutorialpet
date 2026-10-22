@@ -50,7 +50,7 @@ def garantir_links_legenda(texto: str, slug: str) -> str:
     texto = texto.strip()
     if link_produto and link_produto not in texto:
         texto = ("🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, "
-                 f"de R$ 37 por apenas R$ 9,90. → {link_produto}\n\n{texto}")
+                 f"de R$ 97 por R$ 27 (pagamento único). → {link_produto}\n\n{texto}")
     url_artigo = f"https://tutorialpet.com.br/{slug}"
     if url_artigo not in texto:
         texto += f"\n\n📖 Artigo completo: {url_artigo}"

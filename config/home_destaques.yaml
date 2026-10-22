@@ -1,8 +1,9 @@
 # Banners rotativos da home do blog (propaganda dos artigos abaixo). Ordem = ordem de exibição.
 # Para trocar, edite slug/rotulo/chamada; a foto vem da capa do artigo. Mínimo 3, ideal 5.
+# Atualizado em 22/10/2026: só artigos recentes e variados (cachorro, gato, idoso, filhote, pet celebridade).
 destaques:
-  - {slug: ansiedade-de-separacao-em-caes, rotulo: Cachorro, chamada: "Seu cão sofre quando você sai? Entenda os sinais"}
-  - {slug: plantas-toxicas-para-gatos, rotulo: Gato, chamada: "Plantas comuns que podem intoxicar seu gato"}
-  - {slug: como-adaptar-a-casa-para-um-cachorro-idoso, rotulo: Cachorro idoso, chamada: "Pequenas mudanças na casa para o cão idoso viver melhor"}
-  - {slug: como-socializar-filhote-de-gato, rotulo: Filhote de gato, chamada: "Como socializar o filhotinho de gato do jeito certo"}
-  - {slug: primeiros-dias-do-filhote-em-casa, rotulo: Filhote de cachorro, chamada: "Os primeiros dias do filhote em casa, passo a passo"}
+  - {slug: galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta, rotulo: Pet Celebridade, chamada: "O galgo italiano da Anitta: temperamento e cuidados da raça"}
+  - {slug: como-introduzir-um-segundo-gato-na-casa-sem-brigas, rotulo: Gato, chamada: "Vai trazer outro gato para casa? Faça a apresentação sem brigas"}
+  - {slug: cuidados-essenciais-com-as-patas-de-caes-no-inverno, rotulo: Cachorro, chamada: "Cuidados com as patas do seu cachorro no inverno"}
+  - {slug: como-adaptar-a-casa-para-um-cachorro-idoso, rotulo: Cachorro idoso, chamada: "Pequenas mudanças na casa para o cachorro idoso viver melhor"}
+  - {slug: como-evitar-que-o-filhote-chore-a-noite, rotulo: Filhote, chamada: "Filhote chorando à noite? O que fazer nas primeiras semanas"}

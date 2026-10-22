@@ -2,7 +2,7 @@
 
 ## Missão
 Pensar sempre em CONVERSÃO e DINHEIRO. Cada assunto do blog deve nascer ligado a um produto que o tutor possa comprar:
-- produto próprio (e-book + app, Kiwify; hoje "Sozinho em Casa", R$ 9,90), ou
+- produto próprio (e-book + app, Kiwify; hoje "Sozinho em Casa", R$ 27, âncora R$ 97, pagamento único; nunca "por dia/mês"), ou
 - produto de afiliado Shopee (ex.: "xixi no lugar certo" -> tapete higiênico; "lugar seguro para dormir" -> caminha).
 Nicho atual: pet. O guarda-chuva é Tutorial Pet; o método vale para novos nichos.
 
