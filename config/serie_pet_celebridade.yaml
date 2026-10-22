@@ -39,6 +39,26 @@ serie:
     pet: Doralice
     raca: yorkshire
     fonte: https://www.cnnbrasil.com.br/pop/conheca-6-caes-de-famosos-que-chamam-a-atencao-nas-redes-sociais/
-    observacao: "Em 08/2026 houve notícia de morte de outro cachorro de Xuxa (UAI 20/08/2026); tom respeitoso e checar antes."
+    status: rascunho_pronto_22_10   # edição de 22/10; rascunho em data/content_writer/rascunhos/yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa.md
+    fatos_conferidos: "Doralice viva e ativa (UAI 26/08/2026): acompanha Xuxa em podcasts/eventos; Xuxa contou que ela fica ansiosa longe dela. CNN 26/08/2024: 7 anos, Orlando/Disney, adotada por Maria do Rosário. A morte de agosto/2026 foi do Theozinho (yorkshire de Junno Andrade e Xuxa), não da Doralice (UAI 20/08/2026); não citado no artigo."
+    observacao: "Fotos: ilustrativa de yorkshire (banco), sem foto da artista nem da Doralice sem licença."
+  - ordem: 4
+    artista: Luísa Sonza
+    pet: Giselle
+    raca: pinscher
+    fonte: https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml
+    observacao: "Inspirou a música Cachorrinhas e a capa da revista Dogue Brasil (UAI). Conferir 2ª fonte; ligar a cuidados com raça pequena/frio."
+  - ordem: 5
+    artista: Angélica
+    pet: Gringa
+    raca: golden doodle
+    fonte: https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml
+    observacao: "9 anos, ~64 mil seguidores (UAI 08/2026). Conferir 2ª fonte; ligar a pelagem/escovação e energia."
+  - ordem: 6
+    artista: Luísa Sonza
+    pet: gatas Rita Lee e Elis Regina
+    raca: a confirmar
+    fonte: https://www.cnnbrasil.com.br/pop/conheca-6-caes-de-famosos-que-chamam-a-atencao-nas-redes-sociais/
+    observacao: "Edição com gato para variar; raça não informada na CNN (Band 08/2025 cita Sonza entre famosos com gatos). Se não achar raça, usar foto_ilustrativa e tema 'gato de apartamento'."
 
   ligacao_com_produto: "cada edição aponta para o artigo do blog da raça/tema e para o produto do catálogo (config/catalogo_tema_produto.yaml)"
