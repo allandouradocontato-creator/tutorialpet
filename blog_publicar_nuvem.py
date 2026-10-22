@@ -56,7 +56,11 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
         if origem.exists():
             shutil.copytree(origem, cand, dirs_exist_ok=True)
     if not (cand / "candidatos.json").exists():
-        raise SystemExit(f"sem fotos candidatas para {slug}")
+        # 22/10 (Juiz): sem candidatas = buscar agora com consultas do tema (Pexels), nunca travar o artigo
+        if os.environ.get("PEXELS_API_KEY"):
+            run([sys.executable, "blog_imagens_nuvem.py", slug])
+        if not (cand / "candidatos.json").exists():
+            raise SystemExit(f"sem fotos candidatas para {slug}")
     # coerência de raça/espécie da capa (regra do Allan, 15/10/2026): dentro da produção do artigo
     try:
         from core.coerencia import detectar, verificar_imagens
