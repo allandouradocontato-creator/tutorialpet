@@ -41,3 +41,5 @@ Triagem de Decisões e o Otimizador de Processos devem ler 07 Erros e
 lições.md periodicamente e transformar um padrão repetido (3+ ocorrências
 da mesma causa) em proposta de nova habilidade/skill para biblioteca/habilidades/,
 igual este arquivo nasceu de uma falha registrada.
+
+- 2026-10-22 | Estrategista de Redes Sociais | T9(c): não usou a isca vigente como entrada da matriz e manteve CTA "GUIA" da isca descartada; disse "PC ausente" sem list_connected_browsers (repete a regra de ouro 5) | ação: E31, plano em data/testes/plano_2026-10-22.md
