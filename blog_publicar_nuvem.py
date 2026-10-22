@@ -15,6 +15,28 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SITE = "pets-tutores-iniciantes"
+REPROVADOS = ROOT / "config" / "blog_reprovados.txt"   # "<slug> <tentativas_de_reescrita>"; a fábrica reescreve e tira daqui
+
+
+def ler_reprovados() -> dict[str, int]:
+    if not REPROVADOS.exists():
+        return {}
+    out = {}
+    for l in REPROVADOS.read_text(encoding="utf-8").splitlines():
+        t = l.split()
+        if t and not t[0].startswith("#"):
+            out[t[0]] = int(t[1]) if len(t) > 1 and t[1].isdigit() else 0
+    return out
+
+
+def registrar_reprovados(slugs: set[str]) -> None:
+    atual = ler_reprovados()
+    novos = [s for s in sorted(slugs) if s not in atual]
+    if novos:
+        with REPROVADOS.open("a", encoding="utf-8") as f:
+            for s in novos:
+                f.write(f"{s} 0\n")
+        print(f"registrados em blog_reprovados.txt (a fábrica reescreve): {novos}")
 
 
 def run(cmd: list[str]) -> None:
@@ -74,7 +96,11 @@ def main() -> int:
         # TODAS as linhas ainda não publicadas (antes só a última: com 2 artigos por dia o outro se perdia)
         linhas = [l.split() for l in (ROOT / "config" / "blog_aprovados.txt").read_text(encoding="utf-8").splitlines()
                   if l.strip() and not l.lstrip().startswith("#")]
-        fila = [(l[0], l[1]) for l in linhas if len(l) >= 2 and not ja_publicado(l[0])]
+        reprov = ler_reprovados()
+        for l in linhas:
+            if l and l[0] in reprov:
+                print(f"ignorado (reprovado, aguardando reescrita automática): {l[0]}")
+        fila = [(l[0], l[1]) for l in linhas if len(l) >= 2 and l[0] not in reprov and not ja_publicado(l[0])]
         if not linhas:
             raise SystemExit("config/blog_aprovados.txt vazio ou sem 'slug indice'")
         if not fila:
@@ -101,6 +127,7 @@ def main() -> int:
     if erros and len(sys.argv) < 4:
         aprovados_path = ROOT / "config" / "blog_aprovados.txt"
         reprovados_slugs = {e.split(":", 1)[0] for e in erros}
+        registrar_reprovados({e.split(":", 1)[0] for e in erros if "04_quality_editor" in e})
         linhas_novas = [l for l in aprovados_path.read_text(encoding="utf-8").splitlines()
                          if l.split()[0] not in reprovados_slugs if l.strip()]
         aprovados_path.write_text("\n".join(linhas_novas) + ("\n" if linhas_novas else ""), encoding="utf-8")

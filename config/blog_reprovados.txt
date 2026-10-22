@@ -1,0 +1,5 @@
+# slugs reprovados pelo editor de qualidade (04). Formato: <slug> <tentativas de reescrita automática>.
+# Regra (22/10/2026): reprovado NUNCA volta para blog_aprovados.txt sem passar pela reescrita; 3 tentativas e vira pendência humana.
+como-escolher-a-melhor-guia-e-peitoral-para-cachorro 0
+como-escolher-rampa-pet-para-sofa-e-cama-alta 0
+sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos 0

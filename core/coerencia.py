@@ -60,7 +60,7 @@ def _perguntar(imagens: list[bytes], especie: str, raca: str) -> list[dict]:
     modelo = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
     dados = _post(GEMINI_URL.format(model=modelo), {"contents": [{"role": "user", "parts": partes}],
                   "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2000, "responseMimeType": "application/json"}},
-                  {"x-goog-api-key": chave}, tentativas=4)
+                  {"x-goog-api-key": chave}, timeout=40, tentativas=2)   # 22/10: 4x180s por foto estourou o job (20 min)
     txt = "".join(p.get("text", "") for p in dados["candidates"][0]["content"]["parts"])
     return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
 

@@ -81,6 +81,24 @@ jobs:
           set -o pipefail
           python fabrica_nuvem.py /tmp/media 2>&1 | tee /tmp/producao.log
 
+      - name: "Reescrever artigos reprovados pelo editor (reprovado nao pode ficar parado; 3 tentativas e vira pendencia humana)"
+        continue-on-error: true
+        timeout-minutes: 12
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python reescrever_reprovados.py /tmp/media
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@tutorialpet.com.br"
+          git add config/blog_reprovados.txt config/blog_aprovados.txt data/content_writer/rascunhos || true
+          if git diff --cached --quiet; then echo "nada a commitar"; exit 0; fi
+          git commit -m "blog: reescrita automatica de reprovados $(date -u +%F)"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            sleep $((i*5))
+          done
+          echo "::warning::push da reescrita falhou 3x"
+
       - name: Fotos candidatas para artigos publicados sem capa (ate 4 por rodada; o Publicador escolhe)
         continue-on-error: true
         timeout-minutes: 8
