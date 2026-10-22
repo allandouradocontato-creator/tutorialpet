@@ -10,7 +10,7 @@ próprio arquivo — não tratar como regra certa até confirmar.
 |---|---|---|
 | `google.md` | Google Ads, Google AdSense, Google Search (spam/scaled content), YouTube (inauthentic content, rotulagem de conteúdo sintético) | Pronto (21/10/2026) |
 | `tiktok.md` | TikTok orgânico e comercial: Commercial Music Library, rotulagem de IA, link na bio/comentário, disclosure de afiliado, política de animais, sinais de algoritmo | Pronto (21/10/2026) |
-| `meta_facebook_instagram.md` | Facebook Ads, Instagram Ads, política de conteúdo orgânico Meta | **Pendente** — pesquisa demorou mais que as outras duas e não terminou a tempo desta rodada; retomar na próxima sessão (ver data/memoria/06 Pendências.md) |
+| `meta_facebook_instagram.md` | Facebook Ads, Instagram Ads, política de conteúdo orgânico Meta | Pronto (22/10/2026) — seção de anúncios e engagement bait majoritariamente "não confirmado" (páginas oficiais não legíveis por robô); revalidar via navegador |
 
 ## Quem já lê este compêndio
 - `config/prompts/criador_audiencia.md` (classificação LIBERADA/SENSÍVEL via Jev já considera o compêndio)
@@ -20,5 +20,4 @@ próprio arquivo — não tratar como regra certa até confirmar.
 - Estrategista de Redes Sociais Tutorial Pet v2 (rotina na nuvem, trig_016ewBHTEjsMgbosknN344rP)
 - Especialista TikTok Tutorial Pet v2 (rotina na nuvem, trig_01Ay74mznoX8tMV8y4svoZYr)
 
-Quando `meta_facebook_instagram.md` for criado, atualizar este índice e ligar
-nos dois prompts acima que já têm a leitura condicional ("se existir").
+`meta_facebook_instagram.md` já existe (22/10/2026): os prompts com leitura condicional ("se existir") passam a lê-lo.
