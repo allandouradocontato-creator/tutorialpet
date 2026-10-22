@@ -26,7 +26,9 @@ from agent import BLOQUEIO_TOM, norm  # noqa: E402
 # ordem = mais fortes primeiro; usada também pelo gerador de lote (agente 27)
 # abertura_idade PAUSADO em 08/10/2026 (resultado fraco no nosso perfil; ver config/ganchos_universais.yaml); reativar só com revelação concreta e curta
 # Rotação de teste (08/10/2026): só ganchos que abrem com um PROBLEMA concreto, espelhando os vídeos que mais performaram.
-MOLDES_SEGUROS = ["abertura_problema_pet", "abertura_dor", "abertura_situacao", "abertura_erro", "abertura_pare"]
+# 22/10/2026 (Juiz de Qualidade, ensaio: ganchos atuais 4,0/10): abertura_erro, abertura_situacao e abertura_pare sao os
+# ganchos BANIDOS (1,5-1,7 s de tempo medio). So entram moldes de pergunta concreta de rotina, de preferencia com numero.
+MOLDES_SEGUROS = ["abertura_problema_pet", "abertura_pergunta_numero", "abertura_dor"]
 # fora da rotação por ora: abertura_pensar, abertura_lista_ninguem_conta, abertura_chamada_direta, abertura_pov, abertura_laco_aberto, abertura_confissao
 
 SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|vomit|diarre|intoxic", re.I)
@@ -110,7 +112,7 @@ def main() -> int:
         prompt = (
             "Você adapta o roteiro de um vídeo curto do Tutorial Pet para a voz da Duda (jovem brasileira, simpática, natural).\n"
             f"ESTRUTURA FIXA: GANCHO -> CONTEÚDO -> CTA. O gancho serve só para reter; o assunto (pet) entra no conteúdo.\n"
-            f"GANCHO: use este molde, preenchendo com o assunto do vídeo, até 12 palavras faladas: \"{molde['molde']}\"\n"
+            f"GANCHO: use este molde, preenchendo com o assunto do vídeo, até 9 palavras faladas, com um número ou limite real do artigo quando existir: \"{molde['molde']}\". Nunca escreva 'cão', 'cãozinho' ou 'pet': use 'cachorro' ou 'gato'. Nunca comece com 'Esse erro', 'Aquele momento' ou 'Para de'.\n"
             f"CONTEÚDO: mantenha EXATAMENTE os mesmos fatos e a mesma ordem das cenas ({len(r['cenas'])} cenas); só deixe a fala natural e curta. "
             "Não invente fatos, números, estudos nem alegue ser veterinária.\n"
             f"CTA (chamada para ação, obrigatória, sempre no fim): use ESTA, com as suas palavras mas o mesmo pedido: \"{cta}\"; depois a assinatura \"{d['assinatura']}\". Dita com sorriso, [smiling] ou [warmly].\n"

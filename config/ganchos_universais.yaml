@@ -13,6 +13,12 @@ estrutura:
   cta: "1 frase: salvar / compartilhar / seguir / link no primeiro comentário; a Duda assina 'Aqui é a Duda, do Tutorial Pet.'"
   duracao_ideal: "os de melhor taxa de share na amostra têm 8-10 s (anahaitama 10 s: 7,7% shares); os de 60-290 s têm shares/views de 0,3-1,2%"
 moldes:   # ordenados por desempenho/frequência na validação; [colchetes] = preencher com o assunto do dia
+  - id: abertura_pergunta_numero
+    tipo: pergunta_concreta_com_numero
+    molde: "Seu [cachorro/gato] [situação do dia a dia]? [Número ou limite real do artigo] [consequência curta]."
+    status: "CRIADO 22/10/2026 pelo Juiz de Qualidade (rubrica A): pergunta específica de rotina + número validado no artigo; <= 9 palavras; ex.: 'Seu cachorro foge na hora de cortar a unha? 1 pata por dia resolve.' Ensaio: 10 ganchos neste padrão = média 8,2/10 contra 4,0 dos atuais. Referência viva: 'Seu cachorro aguenta quantas horas sozinho?' (7,46 s)."
+    fala_1s: "a pergunta, depois o número, sem rodeio"
+    texto_na_tela: "a pergunta inteira em até 6 palavras + o número em destaque"
   - id: abertura_idade
     tipo: "aversao_a_perda / curiosidade"
     molde: "Com quantos anos você descobriu que [verdade/truque do dia a dia]?"
