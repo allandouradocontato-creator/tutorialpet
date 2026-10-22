@@ -111,6 +111,10 @@ Em geral, os gatos toleram mal, e a Cats Protection considera que a maioria fica
 **Como saber se o tamanho está certo?**
 A peça deve cobrir costas e peito, sem apertar e sem sobrar, e deixar o pet andar, sentar e deitar com naturalidade. Meça o animal e use a tabela da marca.
 
+## O que as entidades veterinárias dizem sobre isso
+
+Na nossa pesquisa, não encontramos, até outubro de 2026, uma posição específica do Conselho Federal de Medicina Veterinária (CFMV) nem de associações veterinárias brasileiras sobre vestir animais de estimação. As orientações que reunimos aqui vêm de clínicas veterinárias, universidades, organizações de proteção animal e entidades de criadores, principalmente de fora do Brasil. Isso significa que não existe uma regra oficial nacional: o bom senso, a observação do seu pet e a conversa com o veterinário de confiança é que orientam cada caso.
+
 ## Para fechar
 
 Vestir o pet pode ser cuidado ou apenas enfeite, e a diferença está em olhar para o animal, não para a roupa. Se ele sente frio de verdade, uma peça simples, bem ajustada e usada por pouco tempo pode ajudar. Se é só decoração, tudo bem, desde que ele esteja tranquilo e você tire ao primeiro sinal de incômodo. Na dúvida, converse com o médico-veterinário.
