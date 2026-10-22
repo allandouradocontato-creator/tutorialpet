@@ -77,6 +77,27 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
         raise
     except Exception as exc:  # noqa: BLE001
         print("[coerencia] não verificada:", str(exc)[:100])
+    # capa nunca repetida nem agressiva (Allan, 22/10/2026: 3 artigos sairam com o mesmo cachorro rosnando)
+    try:
+        import hashlib
+        md5 = lambda b: hashlib.md5(b).hexdigest()
+        proibidas = set()
+        pf = ROOT / "config" / "fotos_proibidas.txt"
+        if pf.exists():
+            proibidas = {l.split()[0] for l in pf.read_text(encoding="utf-8").splitlines() if l.strip() and not l.startswith("#")}
+        usadas = {md5(f.read_bytes()) for f in (ROOT / "data" / "visual" / "imagens").glob("*.jpg") if f.stem != slug}
+        fotos = sorted(cand.glob("*.jpg"), key=lambda f: (f.stem != str(indice), f.stem))
+        for f in fotos:
+            h = md5(f.read_bytes())
+            if h in proibidas or h in usadas:
+                print(f"[capa] {f.name} descartada ({'proibida' if h in proibidas else 'ja usada em outro artigo'})")
+                continue
+            if f.stem != str(indice):
+                print(f"[capa] usando {f.stem} no lugar de {indice}")
+                indice = f.stem
+            break
+    except Exception as exc:  # noqa: BLE001
+        print("[capa] checagem de repeticao nao feita:", str(exc)[:100])
     py = sys.executable
     run([py, "agents/04_quality_editor/agent.py", "--site", SITE, "--slug", slug])   # rc!=0 = reprovado: não publica
     run([py, "agents/05_seo_onpage/agent.py", "--site", SITE, "--slug", slug])

@@ -56,10 +56,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-saber-se-o-cachorro-esta-acima-do-peso-ideal.jsonld.json
 imagem_capa: imagens/como-saber-se-o-cachorro-esta-acima-do-peso-ideal.jpg
 imagem_fonte: pexels
-imagem_fotografo: Suvan Chowdhury
-imagem_fotografo_url: https://www.pexels.com/@suvan-chowdhury-37305
-imagem_url_pagina: https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/
-imagem_selecionada_em: '2026-10-22T15:14:06+00:00'
+imagem_fotografo: Beth Fitzpatrick
+imagem_fotografo_url: https://www.pexels.com/@beth-fitzpatrick-742222899
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-a-dog-s-nose-macrophotography-30210734/
+imagem_selecionada_em: '2026-10-22T15:27:19+00:00'
 ---
 
 # Como saber se o cachorro esta acima do peso ideal: guia prático

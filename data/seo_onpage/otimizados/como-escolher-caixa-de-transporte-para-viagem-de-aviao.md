@@ -46,10 +46,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-caixa-de-transporte-para-viagem-de-aviao.jsonld.json
 imagem_capa: imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao.jpg
 imagem_fonte: pexels
-imagem_fotografo: Suvan Chowdhury
-imagem_fotografo_url: https://www.pexels.com/@suvan-chowdhury-37305
-imagem_url_pagina: https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/
-imagem_selecionada_em: '2026-10-22T15:12:49+00:00'
+imagem_fotografo: BenWithLana 小豆包妈妈 Lana
+imagem_fotografo_url: https://www.pexels.com/@benwithlana-lana-498258353
+imagem_url_pagina: https://www.pexels.com/photo/close-up-of-dog-eye-and-head-19907136/
+imagem_selecionada_em: '2026-10-22T15:27:18+00:00'
 ---
 
 # Como escolher caixa de transporte para viagem de aviao: guia prático

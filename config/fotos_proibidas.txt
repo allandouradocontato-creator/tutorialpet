@@ -1,0 +1,4 @@
+# md5 das fotos que nunca podem ser capa (agressivas/fora do tema). Uma por linha: md5 motivo
+7e06750bdf852afb0b4a479fb295481e cachorro rosnando preto e branco (Allan 22/10/2026)
+
+# fotos que parecem iguais (recortes do mesmo original) tambem contam como repetidas

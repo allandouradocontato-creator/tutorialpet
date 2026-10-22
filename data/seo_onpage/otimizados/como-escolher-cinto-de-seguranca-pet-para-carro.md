@@ -60,10 +60,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-cinto-de-seguranca-pet-para-carro.jsonld.json
 imagem_capa: imagens/como-escolher-cinto-de-seguranca-pet-para-carro.jpg
 imagem_fonte: pexels
-imagem_fotografo: Suvan Chowdhury
-imagem_fotografo_url: https://www.pexels.com/@suvan-chowdhury-37305
-imagem_url_pagina: https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/
-imagem_selecionada_em: '2026-10-22T15:12:49+00:00'
+imagem_fotografo: Ajay Lamichhane
+imagem_fotografo_url: https://www.pexels.com/@azaay14
+imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-dog-in-bibra-lake-36314934/
+imagem_selecionada_em: '2026-10-22T15:27:18+00:00'
 ---
 
 # Como escolher cinto de seguranca pet para carro: guia prático
