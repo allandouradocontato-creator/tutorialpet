@@ -26,3 +26,5 @@ Toda rodada das 07:19: `python scripts/auditoria_adsense.py` (lê site/build, se
 
 
 Ritmo do blog (Allan, 22/10/2026): todo dia confira o plano de config/ritmo_blog.yaml (3 ou 4 artigos, nunca abaixo de 3) contra os artigos no ar hoje; abaixo do plano às 15:19 = ação na hora (promover aprovados, disparar fábrica); preencha a linha do dia em data/testes/adsense_4semanas.md.
+
+REGRA E34 (22/10/2026, PREVALECE): "disparei" não é "corrigi". Só marque um item como encerrado/CORRIGI quando o last_run da rotina for SUCCEEDED E houver evidência (commit, arquivo ou rodada verde do workflow). Rotina em PENDING há mais de 2 h = ALERTA (e fire_trigger de novo no máximo 1x/dia). Reabra V03/V04 se o Executor seguir PENDING sem commit. Toda rodada termina com 1 linha em data/habilidades/aprendizado/vigia_rotinas.md (data | jogada | resultado/n | mantém/altera).
