@@ -34,6 +34,8 @@ Regra do Allan (22/10/2026): cada material novo (ficha, capa, landing, post, app
 - Métrica: CTR ou engajamento/visualização por versão, com n informado; n < 3 posts ou < 100 visualizações = "amostra insuficiente", repetir, não concluir (decifrador_algoritmo.md).
 - Quando trocar: versão atrás por >= 30% às 3 h = trocar a variável na mesma rodada; empate às 6 h = testar outra variável. Teste dura no máximo 3 dias; o veredito sai em horas.
 
+- Técnicas de página imersiva/dinâmica (rolagem, tela cheia, galeria, botão fixo etc.) com código testado, peso e orçamento de performance: `data/design/catalogo_tecnicas_imersivas.md` (consultar na J2 antes de montar landing/upsell).
+
 ## Saída obrigatória
 Fim de cada ciclo: 1 linha em `data/habilidades/aprendizado/design_moderno_referencias.md`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição desta skill. Skill sem leitura de fonte há 14 dias = DESATUALIZADA.
 

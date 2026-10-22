@@ -3,6 +3,9 @@ criado: 2026-10-21
 ---
 # Habilidade: Painel Central de Achados (toda rotina de pesquisa escreve aqui)
 
+## STATUS: RESERVA — sem contrato preenchível (data/pesquisa/painel_achados.md não existe, nenhuma rotina escreveu uma linha, sem resultado mensurável nem prova de uso; sobrepõe entrega_direta.md). Custo de crédito conhecido: nenhum; sem proposta de exclusão. Reativar só com o arquivo criado e 1 rotina escrevendo nele.
+
+
 ## Por que existe
 Pedido do Allan (21/10/2026), ao ver que o "Diretor de Marketing e Copy" não
 tinha como mostrar o que descobriu: "complicado, né? A gente tem que criar

@@ -1,5 +1,17 @@
 # Remoção de gargalos (v1, 22/10/2026) — skill do Removedor de Gargalos (ex-Otimizador de Processo)
 
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: tempo: horas paradas no funil (item mais antigo e pacotes aprovados sem artigo no ar; fonte: data/auditoria/funil.csv, GitHub Actions, curl 200 dos artigos; hoje 7 pacotes parados em 22/10 07:30).
+2. META E PRAZO: HOJE 22/10: rodada completa às 17:00 (8/8 etapas medidas, funil.csv gravado), leituras às 17:30 e 21:00; pacotes aprovados sem artigo no ar de 7 para <= 3 até as 21:00, ou ficha em execucao.md com dono e prazo de 24 h (plano em data/painel/agentes/removedor_gargalos.md).
+3. JOGADAS (hipótese -> ação -> métrica -> quando trocar):
+   - J1: gargalo não medido não é removido -> medir as 8 etapas com parados e mais_antigo_h e nomear O gargalo (maior parados x mais_antigo_h) -> etapas medidas 8/8 -> trocar a etapa de foco se o número não cair em 4 h.
+   - J2: pacote aprovado sem artigo é a perda mais visível -> descobrir a causa (arquivo, limite grátis, crédito ou decisão do Allan) e corrigir por commit na hora -> pacotes sem artigo (7 para <= 3) -> trocar de abordagem se a mesma correção falhar na 2ª leitura.
+   - J3: estoque de posts < 2 dias vence qualquer gargalo -> repor com Zernio/Buffer/Metricool -> dias de estoque por rede -> acionar a alternativa grátis se o teto do Buffer travar.
+   - J4: skill com 3 linhas iguais de aprendizado precisa ser reescrita -> aplicar ou devolver a proposta com motivo -> propostas resolvidas no dia -> reserva da rotina se rodar 2 vezes sem mover o número.
+4. LAÇO: data/habilidades/aprendizado/remocao_de_gargalos.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: biblioteca/habilidades/juiz_de_qualidade.md (Juiz separado de quem produz; nota mínima 7 para ir ao vivo); evidência exigida de cada correção (commit, curl 200, post criado), nunca status verde.
+
+
 Quem lê: Removedor de Gargalos (rotina semanal), Diretor de Operação, Vigia de Rotinas.
 Por que existe: o Otimizador só avisava e não media o funil. Em 22/10 havia 7 pacotes de vídeo aprovados com artigo nunca publicado e ninguém apontou. Gargalo que não é medido não é removido.
 
@@ -39,11 +51,11 @@ Por que existe: o Otimizador só avisava e não media o funil. Em 22/10 havia 7 
 - Crédito do Claude acabando de madrugada → rotinas críticas logo após o reset; Guerrilha 14x→3x/dia (pendente 23/10).
 - Pacote aprovado sem artigo publicado (7 casos em 22/10) → causa a medir nesta primeira rodada.
 
-## O que NÃO fazer
+## Laço de aprimoramento
+Fim de cada rodada: 1 linha em data/habilidades/aprendizado/remocao_de_gargalos.md (`data | gargalo | ação | resultado na semana seguinte | mantém/altera regra`).
+
+## Limites
 - Não "avisar" sem agir quando a causa é (a) ou (b).
 - Não aceitar status verde como prova; abrir o arquivo/log.
 - Não listar 10 gargalos: um por semana, resolvido.
 - Não pedir ao Allan o que já está em 05 Decisões/06 Pendências.
-
-## Laço de aprimoramento
-Fim de cada rodada: 1 linha em data/habilidades/aprendizado/remocao_de_gargalos.md (`data | gargalo | ação | resultado na semana seguinte | mantém/altera regra`).

@@ -1,4 +1,16 @@
 # Juiz de Qualidade (v1, 22/10/2026 — decisão do Allan: "agente sem prova não é digno de teste")
+
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: engajamento: tempo médio de visualização dos ganchos aprovados pelo Juiz no TikTok contra a mediana da conta (hoje 2,87 s; fonte: Zernio analytics). Nota da rubrica é o meio, não o resultado.
+2. META E PRAZO: os 3 ganchos aprovados do lote de HOJE 22/10 com tempo médio >= 4 s em 3 h após publicar (primeira leitura 1 h); ensaio de capas refeitas julgado e aprovado até as 18:00 de hoje.
+3. JOGADAS (hipótese -> ação -> métrica -> quando trocar):
+   - J1: ganchos pontuados por rubrica A + Juiz separado selecionam o que retém -> julgar o lote 10->3 antes de ir ao ar -> tempo médio 1 h/3 h dos 3 -> se os 3 ficarem abaixo da mediana da rede, a rubrica muda, não o produtor (J2 abaixo).
+   - J2: capa que mostra o objeto do título aumenta clique -> aplicar rubrica B com B1 eliminatório nas 11 capas a refazer -> capas aprovadas >= 7 e cliques por artigo (Search Console/GA4) -> recalibrar a rubrica se 100% aprovar ou 100% reprovar (J3).
+   - J3: conferir números do gancho no artigo (7 de 10 inventados no lote) -> checagem factual antes de pontuar -> ganchos reprovados por número inventado / total -> trocar a regra do gerador se > 20%.
+   - J4: as jogadas J1 a J4 da seção 'Jogadas (régua 8)' abaixo seguem valendo (ensaio antes de ir ao ar, lote 10->3, taxa de reprovação, referência viva).
+4. LAÇO: data/habilidades/aprendizado/juiz_de_qualidade.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: o Juiz julga os outros e é calibrado por referência concreta (campeão da conta, 7,46 s) e conferido por Juiz separado/Removedor de Gargalos (biblioteca/habilidades/remocao_de_gargalos.md); nota mínima 7 para a rubrica ir ao ar.
+
 status: rascunho até o 1º ensaio gravado (régua 7)
 
 ## Por que existe
