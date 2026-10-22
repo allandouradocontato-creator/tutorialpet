@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como fazer o gato beber mais agua: guia prático",
-    "description": "Como fazer o gato beber mais agua: guia prático. Manter o felino bem hidratado é um dos maiores desafios na rotina de quem convive com esses animais....",
+    "description": "Descubra como fazer o gato beber mais água com dicas práticas sobre potes, fontes e sachês para proteger a saúde do seu felino todos os dias.",
     "datePublished": "2026-10-08",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-fazer-o-gato-beber-mais-agua"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-fazer-o-gato-beber-mais-agua.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,26 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Qual é a quantidade ideal de água que um gato deve beber por dia?",
+        "name": "O gato pode tomar leite para se hidratar melhor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, um gato precisa ingerir cerca de 50 a 60 mililitros de água por quilo de peso corporal diariamente, mas lembre-se de confirmar com o médico-veterinário do pet o volume exato adequado para a idade e o estado de saúde dele."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso usar gelo na água do gato para refrescar?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim, alguns gatos gostam de água bem gelada, especialmente nos dias mais quentes. Um cubo de gelo flutuante também serve como objeto de curiosidade."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Onde devo colocar a tigela de água em relação à comida?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O ideal é manter a água separada da comida e da caixa de areia. Na natureza, os felinos evitam beber perto de onde comem ou eliminam resíduos."
+          "text": "Não. A maioria dos gatos adultos desenvolve intolerância à lactose após o desmame, o que pode causar diarreia e desidratação severa. A hidratação deve vir exclusivamente de água fresca ou sachês.  * **Com que frequência devo trocar a água do gato?** O ideal é trocar a água em média de duas a três vezes por dia, garantindo que ela esteja sempre limpa, fresca e livre de pelos ou poeira.  * **Quantos potes de água devo ter em casa?** A regra geral é ter sempre um pote a mais do que o número de gatos na casa. Se você tem dois gatos, espalhe em média três pontos de água em cômodos diferentes.  * **O que fazer se o gato continua bebendo muito pouco?** Se notar apatia, falta de apetite ou se o gato recusar totalmente a água por mais de um dia, procure imediatamente um médico-veterinário para descartar problemas renais ou urinários."
         }
       }
     ]

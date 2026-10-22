@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Galgo italiano: temperamento e cuidados com a raça do Plínio, cão da Anitta",
-    "description": "Galgo italiano: temperamento e cuidados com a raça do Plínio, cão da Anitta. Você já parou para olhar com calma um galgo italiano? As pernas finas, o...",
+    "headline": "Galgo italiano: temperamento e cuidados com a raça",
+    "description": "Galgo italiano: temperamento e cuidados com a raça. O galgo italiano ganhou enorme popularidade nas redes sociais e na mídia, conquistando corações ao...",
     "datePublished": "2026-10-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta"
-    },
-    "image": "https://tutorialpet.com.br/imagens/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O galgo italiano late muito dentro de casa?",
+        "name": "O galgo italiano late muito no dia a dia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em geral, não. Muitos são quietos e se expressam mais pela linguagem corporal. Cada cão é diferente, então observe o seu.  * **Eles precisam de muito exercício?** Gostam de correr em rajadas curtas, mas costumam se adaptar bem a caminhadas moderadas e a muito descanso dentro de casa.  * **O galgo italiano tolera bem o frio?** Não costuma tolerar. Com pouco pelo e pouca gordura, ele treme com facilidade e se beneficia de roupas em dias frescos."
+          "text": "Em média, não são cães barulhentos como outras raças de pequeno porte, mas podem emitir alertas vocais agudos ao ouvirem barulhos desconhecidos no corredor ou se sofrerem com ansiedade.  - **Qual é o peso e a altura média de um adulto?**   Costumam pesar entre em média 3 kg e 5 kg, alcançando cerca de 32 cm a 38 cm de altura na cernelha, variando conforme a linhagem e o sexo do animal.  - **Eles se dão bem com gatos e outros animais?**   Sim, podem conviver pacificamente, desde que socializados desde filhotes, embora o instinto de perseguição exija supervisão constante com pets menores.  - **Precisam de banhos frequentes?**   Não costumam ter odor forte e possuem pelo curto, exigindo banhos esporádicos conforme a necessidade e orientação do médico-veterinário."
         }
       }
     ]

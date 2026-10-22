@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 07/10/2026 18:56
+# Relatório do Curador do Blog — 22/10/2026 15:56
 
-26 artigos auditados, 0 com problema bloqueante.
+68 artigos auditados, 8 com problema bloqueante.
 
 - ok | alimentos-proibidos-para-cachorro
 - ok | ansiedade-de-separacao-em-caes
@@ -11,22 +11,91 @@
 - ok | coleira-ou-peitoral-para-cachorro
 - ok | com-quantos-meses-o-cachorro-pode-sair-na-rua
 - ok | com-que-frequencia-dar-banho-em-cachorro
+- ok | com-que-frequencia-escovar-os-dentes-do-cachorro
+    - [aviso] parágrafo acima de 130 palavras
+- ok | como-acostumar-gato-adulto-com-novo-comedouro
+- ok | como-acostumar-gato-e-cachorro-a-conviverem-em-paz
+- ok | como-acostumar-o-cachorro-a-cortar-as-unhas
+    - [aviso] parágrafo acima de 130 palavras
+- ok | como-adaptar-a-casa-para-um-cachorro-idoso
 - ok | como-cortar-unha-de-cachorro
     - [aviso] título com 80 caracteres (ideal até 70)
 - ok | como-dar-banho-em-gato
+- ok | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
+    - [aviso] título com 81 caracteres (ideal até 70)
 - ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
 - ok | como-ensinar-gato-a-usar-a-caixa-de-areia
+- ok | como-escolher-a-melhor-guia-e-peitoral-para-cachorro
+    - [aviso] parágrafo acima de 130 palavras
+- ok | como-escolher-caixa-de-transporte-para-viagem-de-aviao
+- ok | como-escolher-cinto-de-seguranca-pet-para-carro
+- ok | como-escolher-rampa-pet-para-sofa-e-cama-alta
+    - [aviso] parágrafo acima de 130 palavras
+- REPROVADO | como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento
+    - [bloqueante] conteúdo raso: 736 palavras (mínimo 850)
+    - [aviso] título com 81 caracteres (ideal até 70)
 - ok | como-escovar-os-dentes-do-cachorro
+- REPROVADO | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
+    - [bloqueante] sem seção 'Para fechar'
+- REPROVADO | como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
+    - [bloqueante] conteúdo raso: 809 palavras (mínimo 850)
+    - [aviso] título com 71 caracteres (ideal até 70)
+- ok | como-evitar-bola-de-pelo-em-gato-com-escovacao
+- ok | como-evitar-que-o-filhote-chore-a-noite
+- REPROVADO | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
+    - [bloqueante] conteúdo raso: 844 palavras (mínimo 850)
+- ok | como-fazer-caldo-de-ossos-caseiro-para-cachorro
 - ok | como-fazer-filhote-de-cachorro-parar-de-morder
     - [aviso] parágrafo acima de 130 palavras
+- ok | como-fazer-o-gato-beber-mais-agua
+- ok | como-fazer-o-gato-parar-de-arranhar-o-sofa
+- ok | como-introduzir-um-segundo-gato-na-casa-sem-brigas
 - ok | como-limpar-caixa-de-areia-do-gato
+- ok | como-limpar-manchas-de-lagrima-acida-em-cachorro-branco
+- ok | como-limpar-orelha-de-cachorro-em-casa-sem-machucar
+- REPROVADO | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
+    - [bloqueante] conteúdo raso: 728 palavras (mínimo 850)
+    - [aviso] título com 73 caracteres (ideal até 70)
+- ok | como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
+    - [aviso] título com 75 caracteres (ideal até 70)
+- ok | como-saber-se-o-asfalto-esta-quente-para-passear
+- ok | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
 - ok | como-socializar-filhote-de-gato
+- REPROVADO | como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
+    - [bloqueante] conteúdo raso: 824 palavras (mínimo 850)
 - ok | como-trocar-a-racao-do-cachorro
+- ok | cuidados-essenciais-com-as-patas-de-caes-no-inverno
 - ok | enxoval-para-filhote-de-cachorro
+- ok | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
 - ok | gato-arranhando-o-sofa
+- ok | melhor-areia-para-gato-como-escolher
+    - [aviso] parágrafo acima de 130 palavras
+- REPROVADO | melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
+    - [bloqueante] conteúdo raso: 828 palavras (mínimo 850)
+    - [aviso] título com 73 caracteres (ideal até 70)
+- ok | melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
+    - [aviso] título com 71 caracteres (ideal até 70)
+    - [aviso] parágrafo acima de 130 palavras
+- ok | o-que-comprar-antes-de-adotar-um-gatinho
+- ok | plantas-toxicas-para-gatos
 - ok | pode-dar-sache-para-gato-todos-os-dias
+- ok | por-que-o-gato-esconde-a-comida-na-tigela
+    - [aviso] parágrafo acima de 130 palavras
+- ok | por-que-o-gato-morde-do-nada-durante-o-carinho
+    - [aviso] parágrafo acima de 130 palavras
 - ok | primeiros-dias-do-filhote-em-casa
+- REPROVADO | quais-frutas-cachorro-pode-comer-no-verao-com-seguranca
+    - [bloqueante] sem seção 'Para fechar'
+- ok | quais-legumes-cachorro-pode-comer-cozidos-sem-tempero
+    - [aviso] parágrafo acima de 130 palavras
+- ok | quais-petiscos-naturais-posso-dar-para-o-gato
+    - [aviso] parágrafo acima de 130 palavras
+- ok | qual-a-melhor-racao-para-filhote-de-cachorro
 - ok | quantas-vezes-por-dia-alimentar-gato
 - ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
 - ok | racao-para-filhote-de-cachorro
+- ok | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
+    - [aviso] título com 79 caracteres (ideal até 70)
+    - [aviso] parágrafo acima de 130 palavras
 - ok | vacinas-para-filhote-de-cachorro
+- ok | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa

@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como acostumar gato e cachorro a conviverem em paz: guia prático",
-    "description": "Descubra como acostumar gato e cachorro a conviverem em paz com um passo a passo objetivo, seguro e direto ao ponto para sua casa.",
+    "description": "Aprenda como acostumar gato e cachorro a conviverem em paz com passos práticos, dicas de socialização e segurança para sua casa.",
     "datePublished": "2026-10-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-acostumar-gato-e-cachorro-a-conviverem-em-paz"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto tempo demora para gato e cachorro se acostumarem?",
+        "name": "O cachorro late muito toda vez que vê o gato, isso vai passar?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O tempo varia muito. Costuma levar de algumas semanas a vários meses, dependendo da personalidade e do histórico de cada animal. *   **E se o cachorro correr atrás do gato toda vez?**     Volte um passo no treinamento. Aumente a distância, use barreiras e reforce o autocontrole do cão antes de tentar novamente. *   **Posso deixar os dois sozinhos em casa no início?**     Nunca. Só deixe cães e gatos sozinhos sem supervisão quando a convivência pacífica estiver 100% consolidada há bastante tempo. *   **Onde devo colocar a comida do gato para o cachorro não comer?**     Sempre em locais altos, como balcões ou mesas onde o cão não tenha acesso, evitando disputas por recursos."
+          "text": "Geralmente é excitação ou instinto de perseguição. Treinamento de obediência básica, comandos de foco e dessensibilização gradual ajudam muito a reduzir essa reatividade com o tempo.  * **Posso deixar a ração do gato no chão à vontade?** Não é recomendado. A maioria dos cães adora ração de gato, que costuma ser mais gordurosa e aromática, o que pode causar problemas gastrointestinais no cão e deixar o gato sem comida.  * **Quanto tempo demora para eles conviverem em paz?** Varia muito. Alguns pares se adaptam em poucos dias, enquanto outros levam meses de trabalho diário. Respeite o ritmo individual de cada pet.  * **O gato pode machucar o cachorro?** Sim. Um arranhão certeiro no focinho ou nos olhos pode causar lesões sérias. Por isso, as apresentações controladas e o corte adequado das unhas do felino são fundamentais."
         }
       }
     ]
