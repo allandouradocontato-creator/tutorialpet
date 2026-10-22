@@ -80,6 +80,16 @@ Causa achada: nosso artigo de cinto (3.500 palavras) tinha "cadeirinha" e "assen
 4. Juiz: conferir quantas das perguntas da lista o artigo responde (meta: todas as principais) e se há enrolação.
 5. LACUNA conhecida: o escritor automático da nuvem não navega na web, então não consegue buscar perguntas nem fontes por conta própria. Até existir esse passo, artigo novo com fontes é feito por agente com busca (como o da roupa pet).
 
+## (k) LINK DE AFILIADO NO BLOG ENQUANTO SOMOS CANDIDATOS AO ADSENSE (verificado em 22/10/2026)
+- **Pode.** AdSense, "Use other ad networks together with AdSense" (support.google.com/adsense/answer/9728): "We do allow affiliate or limited-text links." Condições: seguir as Google Publisher Policies e a política de posicionamento, e nunca ter mais anúncio do que conteúdo na página (inventory value). Não é preciso que só o Google coloque propaganda; o que se proíbe é página de baixo valor.
+- **Google Search, spam policies (thin affiliation):** estar em programa de afiliados não é violação. Violação é página que só copia a descrição e as avaliações do lojista, ou conteúdo repetido em vários sites. Afiliado é aceito quando agrega valor: comparação de produtos, avaliações originais, teste prático, navegação por categoria, informação extra de preço. Links de afiliado dentro de uma página são aceitos desde que bem marcados.
+- **Marcação:** Google (Qualify outbound links) recomenda `rel="sponsored"` para link pago ou comercial (`nofollow` ainda funciona; `sponsored` é o preferido).
+- **Nossas regras decorrentes:** (1) o produto só entra onde o próprio texto o recomenda e explica por quê (comparação, critério de escolha), nunca copiando texto de loja; (2) `rel="sponsored noopener"` e rótulo visível "link de afiliado" (+ nota de transparência no site); (3) nunca perto de bloco de anúncio e com muito mais conteúdo do que link; (4) limite por artigo: 1 bloco de 2 a 4 produtos, no fim do trecho relevante; (5) enquanto a candidatura ao AdSense estiver em análise, entrar com poucos artigos de afiliado (os 5 de escolha de produto) e medir; se a aprovação travar por "conteúdo de baixo valor", tirar os blocos na hora (jogada de troca).
+- **Tese:** o que protege a aprovação é a utilidade do artigo, não a ausência de link. Quem trabalha as perguntas do leitor e compara de verdade tem afiliado aceito.
+
+## (l) PERGUNTAS PRIMEIRO TAMBÉM NAS POSTAGENS (Allan, 22/10/2026)
+Toda postagem em rede (vídeo, legenda, primeiro comentário) nasce de uma pergunta que as pessoas fazem e responde a ela logo no início; o gancho é a pergunta ou a resposta surpreendente, e o link leva ao artigo que responde às demais perguntas. As perguntas vêm da lista `data/seo/perguntas/<slug>.md` do artigo.
+
 ## (g) Saída obrigatória e laço
 Linha em `data/habilidades/aprendizado/plataforma_google_seo_adsense.md`: `data | regra/jogada | resultado (n, métrica) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição (v, data, evidência). Sem releitura há 14 dias, tratar [C] como [N].
 
