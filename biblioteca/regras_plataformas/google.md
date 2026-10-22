@@ -1,220 +1,113 @@
-# Regras das plataformas Google — Tutorial Pet
+# Regras das plataformas Google — Tutorial Pet (v2)
 
-Guia prático para agentes de IA lerem ANTES de publicar artigo, enviar vídeo ou rodar anúncio.
-Data de consulta de todas as fontes: 2026-10-21.
-Regra geral: parafraseado, nenhuma citação com mais de 15 palavras. Onde a fonte oficial não confirmou um detalhe, está escrito "não confirmado em fonte oficial".
-
----
-
-## 1. Resumo em 10 linhas
-
-1. IA pode escrever o artigo, mas o texto final tem que ter valor próprio: revisão humana, dado real, opinião ou experiência da Duda — nunca só IA solta.
-2. AdSense proíbe conteúdo com pouco ou nenhum valor agregado, conteúdo copiado e páginas de afiliado "finas" (thin affiliate pages).
-3. Google Search pune "scaled content abuse": produzir muitos artigos (com ou sem IA) só para manipular ranking, sem ajudar o leitor.
-4. "Site reputation abuse" (conteúdo de terceiros hospedado só para pegar carona na autoridade do domínio) também é penalizado — não vale a pena aceitar "guest post pago" sem relação com pet.
-5. Cada artigo precisa mostrar a raça/animal específico citado (foto/vídeo reais ou claramente ilustrativos) — isso também ajuda em E-E-A-T.
-6. No YouTube, vídeo feito com IA pode ser monetizado, mas sem visão criativa própria e virando produção em massa, perde monetização do canal inteiro, não só do vídeo.
-7. Vídeo com pessoa, voz ou cena realista gerada/alterada por IA (ex.: avatar da Duda realista) exige rótulo de "conteúdo alterado ou sintético" no YouTube.
-8. Links afiliados (Shopee/Cobasi) precisam de divulgação clara para o leitor e, tecnicamente, `rel="sponsored"` no link.
-9. Google Ads: personalização de anúncio não pode citar/inferir condição de saúde do usuário ("você tem ansiedade" etc.); produtos de saúde animal têm regras próprias de palavra-chave.
-10. Anunciante pessoa jurídica no Brasil precisa ter CNPJ validado na Receita Federal cadastrado no perfil de pagamento do Google Ads antes de rodar campanha.
+v2 de 22/10/2026 (v1 de 21/10/2026). Guia para agentes lerem ANTES de publicar artigo ou rodar anúncio. Paráfrase, sem citação longa.
+Marcação: [C] = lido nesta consulta (22/10/2026) na página oficial citada. [N] = não confirmado: ou só título visto, ou lido apenas na v1 (21/10) e ainda não relido. [N] nunca decide sozinho; vai para "validar antes de agir" nas skills.
+YouTube saiu deste arquivo: ver `youtube.md`.
 
 ---
 
-## 2. GOOGLE ADSENSE
-
-### 2.1 Conteúdo de baixo valor, copiado e gerado em massa
-- AdSense exige conteúdo com valor próprio para o leitor; páginas com "pouco ou nenhum valor agregado" violam a política de publisher. Fonte: support.google.com/publisherpolicies/answer/11035931 (2026-10-21).
-- "Thin affiliate pages" (páginas de afiliado com pouco conteúdo original) são citadas explicitamente como violação nas políticas de spam que o AdSense exige cumprir. Mesma fonte.
-- Doorway pages (página feita só para ranquear, sem servir o usuário) e keyword stuffing também violam. Mesma fonte.
-- A política de conteúdo do AdSense em si (support.google.com/adsense/answer/1346295) remete às políticas de publisher e do Google Search para a definição detalhada de conteúdo de baixo valor/scraped/IA em massa; não achamos, nesta consulta, o texto completo com a lista de exemplos específicos de conteúdo gerado por IA — recomenda-se nova checagem direta nessa página antes de decisões sensíveis.
-- Regra prática Tutorial Pet: todo artigo gerado com apoio de IA passa por revisão humana (ou da Duda como "autora") que adiciona: opinião, experiência prática, dado atualizado ou mídia própria, antes de publicar.
-
-### 2.2 Posicionamento de anúncios
-Fonte: support.google.com/adsense/answer/48182 (2026-10-21).
-- Proibido colocar anúncio onde pareça menu, link de navegação ou botão de download.
-- Proibido rótulo enganoso acima do bloco de anúncio; só "Advertisements" ou "Sponsored Links" (ou tradução equivalente) são aceitos.
-- Proibido usar setas, animações ou imagens ao lado do anúncio para chamar clique.
-- Proibido anúncio em pop-up, pop-under, e-mail, app/software e página sem conteúdo focado.
-- Proibido clicar no próprio anúncio por qualquer motivo, mesmo "para testar".
-- Não há limite numérico fixo de anúncios por página nesta política; o critério é não confundir nem prejudicar a experiência do usuário.
-
-### 2.3 Aprovação de novo site/domínio
-Fonte: support.google.com/adsense/answer/9130038 (2026-10-21).
-- Site precisa estar cadastrado na aba "Sites" da conta AdSense.
-- Google verifica posse do domínio (capacidade de alterar o conteúdo) via snippet de código, `ads.txt` ou meta tag.
-- Depois da verificação, revisão de conformidade com as políticas do Programa AdSense e políticas de publisher.
-- Prazo normal: alguns dias; pode levar de 2 a 4 semanas.
-- Mudanças precisam estar publicadas e acessíveis aos rastreadores do Google antes de pedir revisão ("Request review").
-
-### 2.4 O que derruba aprovação ou causa suspensão
-- Conteúdo de baixo valor, copiado, scraped ou thin affiliate (ver 2.1).
-- Violação de posicionamento de anúncio (ver 2.2).
-- Cliques ou impressões artificiais, inclusive incentivo a clique.
-- Conteúdo bloqueado por `robots.txt` ou atrás de login sem acesso dado ao Google — o rastreador não consegue avaliar e a veiculação pode ser desativada.
-- Mudar o código do AdSense de forma a inflar artificialmente o desempenho.
+## 1. Resumo
+1. IA pode ajudar a escrever, mas o texto final precisa de valor próprio, revisão e checagem de fatos [C].
+2. Gerar muitas páginas para manipular ranking é spam, com ou sem IA (scaled content abuse) [C].
+3. Página de afiliado sem conteúdo original (descrição copiada do lojista) é spam "thin affiliation" [C].
+4. Doorway: páginas parecidas feitas para ranquear consultas semelhantes e empurrar para outra página [C].
+5. Site reputation abuse: terceiro hospedado só pela força do domínio [C]; houve atualização em agosto/2026 cujo texto não foi lido [N].
+6. AdSense: conteúdo próprio, de qualidade, acesso ao HTML, cumprir políticas, maior de 18 anos [C].
+7. Google Ads: destino que funciona, corresponde ao anúncio, rastreável pelo AdsBot e com conteúdo original [C].
+8. Personalização de saúde, verificação de CNPJ e dados pessoais: lidos na v1, ainda a reler [N].
+9. Cada artigo que cita raça mostra aquela raça (regra da marca, não do Google).
 
 ---
 
-## 3. GOOGLE SEARCH / SEO 2026
+## 2. ADSENSE
+### 2.1 Elegibilidade (support.google.com/adsense/answer/9724, 22/10/2026) [C]
+- Mínimo 18 anos (menor precisa de responsável adulto).
+- Conteúdo seu, de alta qualidade, original, que atraia público.
+- Acesso ao código HTML do site.
+- Cumprir as políticas do programa, que mudam; manter-se atualizado é responsabilidade do publisher.
 
-### 3.1 Atualizações de algoritmo e spam policies
-- Em março de 2024 o Google uniu o "core update" às novas políticas de spam, criando as categorias "scaled content abuse" e "site reputation abuse" (atualizada em novembro de 2024 e agosto de 2026). Fonte: developers.google.com/search/blog/2024/03/core-update-spam-policies (título e existência confirmados; texto integral do artigo não pôde ser lido nesta pesquisa — reconsultar antes de decisão crítica).
-- "Scaled content abuse" = gerar muitas páginas (manual, automatizado ou por IA) com o objetivo principal de manipular o ranking, não de ajudar o leitor. É considerado spam independentemente da ferramenta usada para produzir o texto.
-- "Site reputation abuse" = hospedar conteúdo de terceiro (ex.: seção "parceiro", cupom, review) sem supervisão editorial real, só para aproveitar a autoridade do domínio principal.
-- Em fevereiro de 2026 o Google publicou um "Discover Core Update" específico para a aba Discover. Fonte: developers.google.com/search/blog/2026/02/discover-core-update (2026-10-21) — recomenda-se checagem futura do texto completo, pois pode mudar critérios de elegibilidade para aparecer no Discover (canal importante para tráfego de blog pet).
+### 2.2 Preparar o site (support.google.com/adsense/answer/7299563, 22/10/2026) [C]
+- Conteúdo único e relevante, com algo seu: conhecimento, avaliação, perspectiva.
+- Cautela com artigos ou vídeos alheios incorporados; anúncios não vão em site com conteúdo raspado ou protegido por direitos autorais, sob pena de anúncios desativados ou conta encerrada.
+- Navegação clara, menus funcionando, texto legível; comentários, se houver, moderados.
+- Revisar as políticas do programa, as de publisher e as de spam do Search antes de se inscrever.
+- A página não define "baixo valor" com números; a ideia central é originalidade.
 
-### 3.2 Conteúdo gerado/assistido por IA
-- Orientação oficial de 2023, ainda referenciada: o foco do Google é na QUALIDADE do conteúdo, não em COMO ele foi produzido; usar IA para escrever não é, por si só, proibido. Fonte: developers.google.com/search/blog/2023/02/google-search-and-ai-content (título e tema confirmados; texto integral não pôde ser lido nesta pesquisa — reconsultar para citações exatas antes de treinar outros agentes com esse texto).
-- Na prática combinada com as políticas de spam (item 3.1): IA usada para produzir conteúdo em escala, sem revisão e sem valor real para o leitor, cai em "scaled content abuse" e pode ser removida do índice.
-- Regra prática: IA pode redigir o rascunho; publicação exige edição humana, checagem de fatos sobre a raça/animal citado e acréscimo de algo que só a Tutorial Pet tem (foto própria, experiência, opinião da Duda).
+### 2.3 Posicionamento de anúncios (answer/48182, "Políticas do programa AdSense") [N: lido na v1 em 21/10, não relido]
+- Anúncio não pode parecer menu, link de navegação ou botão de download; rótulo só "Publicidade/Anúncios"; sem seta ou imagem chamando clique; sem pop-up; nunca clicar no próprio anúncio.
 
-### 3.3 E-E-A-T na prática para blog de nicho pet
-- E-E-A-T = Experience, Expertise, Authoritativeness, Trustworthiness (experiência, especialidade, autoridade, confiabilidade); é um conceito usado pelos avaliadores de qualidade do Google, não um fator de ranking isolado e mensurável (conhecimento geral consolidado do Search Central; não localizamos página específica nesta consulta — reconsultar developers.google.com/search/docs se precisar de citação literal).
-- Para o Tutorial Pet, aplicar assim: mostrar "Experience" com fotos/vídeos reais do próprio conteúdo (nunca banco de imagem genérico passando por real), citar fonte (veterinário, estudo) quando falar de saúde animal, manter página "Sobre" e autoria (Duda) visível, e manter consistência entre o que o artigo promete e o que entrega.
-- Artigo que cita uma raça precisa mostrar aquela raça (relevante tanto para confiança do leitor quanto para evitar parecer conteúdo genérico/produzido em massa).
+### 2.4 Processo de aprovação (answer/9130038) [N: v1]
+- Site na aba Sites, verificação de posse (snippet, ads.txt ou meta tag), revisão de dias a 2-4 semanas, só pedir revisão com tudo publicado e rastreável.
 
-### 3.4 Structured data / schema
-- Não confirmado em fonte oficial nesta pesquisa (as buscas retornaram só blogs de terceiros, não developers.google.com). Recomendação de boa prática, a confirmar depois em developers.google.com/search/docs/appearance/structured-data: usar JSON-LD com tipos `Article`, `FAQPage` (quando aplicável) e `Product`/`Review` nos posts com produto afiliado, mantendo os dados coerentes com o conteúdo visível na página.
-
-### 3.5 Core Web Vitals
-- Não confirmado em fonte oficial nesta pesquisa (web.dev não estava acessível neste ambiente). Direção já conhecida e estável: o Google usa métricas de velocidade/estabilidade de carregamento (como LCP e INP) como parte da "experiência de página"; manter imagens otimizadas e pouco JavaScript bloqueante no blog é prática segura até reconfirmação.
-
-### 3.6 Sitemap, robots, indexação
-- Página bloqueada por `robots.txt` não é avaliada para anúncios (ver item 2.4) nem indexada normalmente.
-- Boa prática já conhecida, a reconfirmar em developers.google.com/search/docs: manter `sitemap.xml` atualizado e enviado no Search Console, e não bloquear por engano pastas de artigo/imagem no `robots.txt`.
+### 2.5 O que derruba [C/N]
+- Conteúdo copiado ou raspado [C, answer/7299563]. Cliques artificiais, bloqueio por robots.txt ou login impedindo a avaliação [N, v1].
 
 ---
 
-## 4. YOUTUBE (para quando a Tutorial Pet tiver canal)
+## 3. GOOGLE SEARCH
+### 3.1 Políticas de spam (developers.google.com/search/docs/essentials/spam-policies, 22/10/2026) [C]
+- **Scaled content abuse:** muitas páginas feitas principalmente para ranquear, sem ajudar o usuário. Exemplos: IA gerando muitas páginas sem valor, raspar e reescrever ou traduzir conteúdo alheio, costurar trechos de outras páginas, vários sites para esconder a escala. Consequência: cair no ranking ou sair dos resultados.
+- **Site reputation abuse:** conteúdo de terceiros hospedado principalmente pela força do domínio. Não é abuso: agências de notícias, sindicação, conteúdo de usuários, trabalho editorial, publieditorial para o leitor e links de afiliado tratados de forma adequada. Fora do EEE pode haver ação manual; avisos chegam pelo Search Console.
+- **Thin affiliation:** descrições e avaliações copiadas do lojista, sem valor agregado. Boas práticas citadas: preço, avaliações originais, testes, comparações, navegação por categoria.
+- **Doorway:** páginas ou sites feitos para ranquear consultas parecidas e funilar o usuário; inclui páginas por cidade ou região que levam à mesma página.
+- Atualização "Update to the Site Reputation Policy" (agosto/2026, developers.google.com/search/blog/2026/08/update-site-reputation-policy): só o título e o mês foram vistos; texto não lido [N].
 
-### 4.1 Diretrizes da Comunidade sobre animais
-- Não confirmado em fonte oficial nesta pesquisa (não foi aberta a página de diretrizes de bem-estar animal nesta sessão). Direção já conhecida: conteúdo que mostre crueldade, sofrimento ou perigo a animais é proibido; vídeo deve ser sempre "fofo e seguro", nunca algo que pareça maus-tratos, abandono ou abrigo precário — alinhado à regra já registrada na memória do usuário.
+### 3.2 Conteúdo útil e E-E-A-T (developers.google.com/search/docs/fundamentals/creating-helpful-content, 22/10/2026) [C]
+- O ranking busca conteúdo útil e confiável feito para pessoas.
+- Sinais de conteúdo para buscador, não para pessoas: produzir em massa por automação, requentar o trabalho alheio, perseguir tendência, mudar datas artificialmente, mirar contagem de palavras.
+- Confiança é o elemento mais importante do E-E-A-T; E-E-A-T não é fator de ranking direto; pesa mais em temas de saúde, finanças e segurança (YMYL).
+- Quem: autoria clara, perfil real, link para página do autor. Como: explicar como foi feito, inclusive uso de IA; em avaliação de produto, quantos foram testados, como, com fotos. Por quê: criar para ajudar pessoas.
+- Mostrar fontes, histórico do autor, páginas Sobre; sem erros factuais fáceis de verificar.
 
-### 4.2 Monetização (YPP) — requisitos gerais
-- Não confirmado em fonte oficial nesta pesquisa com número exato; fontes secundárias de 2026 indicam patamares históricos de 1.000 inscritos + 4.000 horas de exibição (ou 10 milhões de views qualificadas em Shorts nos últimos 90 dias) como porta de entrada ao Programa de Parceiros — reconfirmar em support.google.com/youtube antes de contar com isso para planejamento financeiro.
-- Para Shorts especificamente: elegibilidade usa "Engaged Shorts views" (visualizações engajadas), métrica vigente desde a mudança de contagem de views de 31/03/2025. Fonte: support.google.com/youtube/answer/10059070 (2026-10-21).
+### 3.3 IA generativa (developers.google.com/search/docs/fundamentals/using-gen-ai-content, 22/10/2026) [C]
+- IA serve para pesquisar e estruturar conteúdo original; em massa e sem valor viola scaled content abuse.
+- Checar fatos de tudo, inclusive título, meta description, dados estruturados e alt de imagem.
+- Dizer ao leitor como o conteúdo foi feito. Imagens geradas por IA levam o metadado IPTC DigitalSourceType = TrainedAlgorithmicMedia (orientação dada para comércio eletrônico; vale como boa prática).
 
-### 4.3 Conteúdo reutilizado / inautêntico (crítico para vídeo com IA)
-Fonte: support.google.com/youtube/answer/1311392 (2026-10-21).
-- "Conteúdo reutilizado": republicar vídeo já existente (de outro canal ou plataforma) sem comentário original relevante, modificação substancial ou valor próprio de entretenimento/educação. Vale mesmo com autorização do criador original — é política separada de direitos autorais.
-- O que PODE monetizar: crítica com trecho comentado, reação com comentário em voz próprio, edição com narrativa/comentário autoral, transformação clara para o espectador.
-- O que NÃO pode: corte de programa sem narrativa própria, compilação de música de vários artistas, vídeo baixado de outra plataforma, reação sem comentário falado, mudança de pitch/velocidade de música para disfarçar.
-- Desde julho de 2025, "conteúdo repetitivo" virou "conteúdo inautêntico", deixando explícito que cobre conteúdo produzido em massa — isso nunca foi elegível para monetização.
-- Consequência: se o YouTube não conseguir identificar criação própria, pode remover monetização do CANAL INTEIRO, não só do vídeo problemático.
-- Vídeo com IA PODE monetizar se tiver visão criativa e valor real (roteiro, edição ou fundo feitos com IA são aceitos). NÃO pode monetizar: narrativa de IA genérica sem arco claro, clipes costurados só para chocar, "persona de IA" apresentada como especialista em tema sensível (saúde, direito, finanças) — relevante se a Duda algum dia falar de saúde animal.
-
-### 4.4 Rotulagem de conteúdo alterado ou sintético (IA realista)
-Fonte: blog.youtube/news-and-events/disclosing-ai-generated-content (2026-10-21).
-- Obrigatório avisar quando o vídeo tem mídia realista alterada/sintética que o espectador poderia confundir com pessoa, lugar, cena ou evento real (ex.: trocar rosto, gerar voz sintética de quem narra, fazer prédio real parecer pegando fogo).
-- Rótulo aparece na descrição expandida na maioria dos vídeos; em tema sensível (saúde, notícias, eleições, finanças) aparece também sobre o próprio vídeo.
-- NÃO exige rótulo: uso de IA só para produtividade (roteiro, ideia, legenda automática), conteúdo claramente irreal/animado, ajuste de cor/luz, efeitos especiais comuns, filtro de beleza.
-- YouTube pode aplicar o rótulo mesmo sem o criador divulicar, se achar que pode enganar; uso recorrente sem divulgar pode gerar penalidade futura.
-- Relevante para avatar realista da Duda: se o avatar for realista a ponto de ser confundido com pessoa real, rotular como conteúdo sintético.
-
-### 4.5 Shorts — requisitos técnicos
-Fonte: support.google.com/youtube/answer/10059070 (2026-10-21).
-- Duração: até 3 minutos.
-- Resolução máxima de envio: 1080p.
-- Título: até 100 caracteres.
-- Vídeo vertical, pode gravar no app ou enviar arquivo pronto.
-- Padrão de privacidade: privado para criador de 13–17 anos; público para maior de 18 (ajustável).
-- É obrigatório marcar se o vídeo é "feito para crianças".
-- Pontos de descoberta: aba Shorts, busca, home, página do canal, inscrições e notificações — variar formato/gancho ajuda a aparecer em mais lugares.
-
-### 4.6 Descrição de vídeo e links de afiliado
-- Não confirmado em fonte oficial nesta pesquisa (página específica de divulgação de afiliado do YouTube não foi aberta nesta sessão). Prática já conhecida e já registrada como padrão interno: todo link afiliado na descrição precisa de aviso claro de que é link patrocinado/de afiliado, e o vídeo deve mencionar isso em algum ponto quando a promoção for central ao conteúdo.
+### 3.4 Ainda não lido [N]
+- Dados estruturados (Article, FAQPage, Product), Core Web Vitals, sitemap/robots em detalhe, Discover Core Update de fev/2026, o texto do anúncio de março/2024.
 
 ---
 
 ## 5. GOOGLE ADS
+### 5.1 Destino/landing (support.google.com/adspolicy/answer/6368661 e answer/16427718, 22/10/2026) [C]
+- A página e seu conteúdo precisam funcionar nos navegadores e aparelhos comuns; erro HTTP para o AdsBot reprova.
+- Domínio do anúncio deve bater com o da página final; redirecionar para outro domínio não é permitido; URL com rastreio leva ao mesmo conteúdo.
+- Precisa ser rastreável pelo AdsBot e acessível no local de exibição.
+- Experiência fácil e segura: sem navegação confusa, sem download direto, sem experiência abusiva.
+- Conteúdo original e de valor: reprova página feita para mostrar anúncios, cópia sem valor, redirecionadora, "em construção" ou vazia.
+- Violação não suspende na hora: aviso pelo menos 7 dias antes da suspensão da conta.
 
-### 5.1 Infoprodutos / e-book "Sozinho em Casa" — personalização
-Fonte: support.google.com/adspolicy/answer/16701855 (2026-10-21).
-- Saúde (física/mental, inclusive de pet/cuidador) é categoria de interesse sensível.
-- Proibido usar público personalizado do anunciante (Customer Match, segmentos próprios, lookalike) ao anunciar algo ligado a saúde — pode carregar sinal sensível sem querer.
-- Proibida personalização que pareça "adivinhar" a condição do usuário (o equivalente a "você sofre de ansiedade").
-- Menor de 18 anos nunca recebe anúncio personalizado de nenhum tipo.
-- O que continua permitido: públicos predefinidos do Google (mercado, afinidade, demografia, eventos de vida, localização) — eles já excluem sinal sensível.
-- Aplicação ao "Sozinho em Casa" (ansiedade de separação em pets): evitar linguagem de anúncio que pareça diagnosticar o usuário ou o pet; focar em "dicas para pets que ficam sozinhos", não em "seu cão tem ansiedade de separação, saiba".
+### 5.2 Personalização de saúde (answer/16701855) [N: v1]
+- Saúde é categoria sensível: sem Customer Match, segmentos próprios ou lookalike; sem texto que adivinhe condição; menor de 18 sem personalização; públicos predefinidos continuam permitidos.
 
-### 5.2 Saúde animal / medicamentos veterinários
-Fonte: support.google.com/adspolicy/answer/13557942 (2026-10-21).
-- Regra específica trata de medicamentos veterinários COM PRESCRIÇÃO; não se aplica a conteúdo comportamental/educativo como o do Tutorial Pet.
-- Termos de medicamento veterinário com prescrição só podem ser usados com público elegível e, em alguns países (EUA/Canadá — Brasil não confirmado nesta pesquisa), exigem certificação.
-- Produto com potencial de abuso humano segue a política de termos de medicamentos restritos, mais rígida.
-- Não aplicável ao e-book comportamental, mas relevante se a Tutorial Pet algum dia vender ou recomendar medicamento/suplemento pet.
+### 5.3 Medicamentos veterinários (answer/13557942) [N: v1]
+- Regra trata de medicamento com prescrição; certificação citada para EUA e Canadá; Brasil não confirmado. Não se aplica a conteúdo comportamental.
 
-### 5.3 Requisitos de landing page
-- Não confirmado em fonte oficial nesta pesquisa com detalhe completo (a política específica de "requisitos de página de destino" do Google Ads não foi aberta nesta sessão). Pontos já conhecidos e consolidados, a reconfirmar: página precisa corresponder ao anúncio, ter política de privacidade visível, funcionar sem erro, permitir fácil contato/saída, e não pedir dado sensível sem necessidade.
+### 5.4 Dados pessoais (answer/1283115) [N: v1]
+- Documentos, cartão e dados bancários só por conexão segura (HTTPS).
 
-### 5.4 Dados pessoais e confidenciais
-Fonte: support.google.com/adspolicy/answer/1283115 (2026-10-21).
-- São tratados como dados pessoais: nome completo, e-mail, endereço, telefone, CPF/documento de identidade, dado de plano de saúde, CNH; nome de solteira da mãe e data de nascimento entram quando combinados com outro dado da lista.
-- Cartão de crédito/débito, conta bancária/investimento e número de documento listado acima precisam trafegar só por conexão segura (HTTPS).
-- Aplicação ao checkout do "Sozinho em Casa": página de pagamento tem que estar em HTTPS e não expor esses dados fora de conexão segura.
-
-### 5.5 Verificação de anunciante no Brasil
-Fonte: support.google.com/google-ads/answer/14886971 (2026-10-21).
-- Pessoa jurídica no Brasil precisa informar CNPJ ao criar o perfil de pagamento; pessoa física informa CPF e data de nascimento.
-- CPF/CNPJ precisam estar "regulares" na Receita Federal; registro novo pode levar de 3 a 5 dias úteis para validar.
-- Verificação feita em Faturamento > Configurações > Detalhes do pagador.
-- Como a holding opera pela Dourado Falcão Educação Corporativa LTDA, usar o CNPJ dela (não CPF pessoal) no perfil de pagamento do Google Ads da campanha do "Sozinho em Casa".
+### 5.5 Verificação de anunciante no Brasil (google-ads/answer/14886971) [N: v1]
+- Pessoa jurídica informa CNPJ regular na Receita; registro novo leva 3 a 5 dias úteis; usar o CNPJ da Dourado Falcão Educação Corporativa LTDA, não CPF pessoal.
 
 ---
 
-## 6. AFILIADOS (Shopee/Cobasi nos artigos)
-
-- Divulgação ao leitor: Google pede que links de afiliado/patrocinados sejam claramente identificados para quem lê, não escondidos como link editorial comum (orientação consolidada do Search Central sobre "conteúdo patrocinado"; texto específico não foi reaberto nesta sessão — reconfirmar em developers.google.com/search antes de redigir um texto-padrão de disclosure).
-- Atributo técnico: usar `rel="sponsored"` (ou `rel="nofollow"`) nos links de afiliado, para sinalizar ao Google que é link comercial e não um "voto" editorial de confiança.
-- Risco de SEO (thin affiliate): página que é só uma lista de links de afiliado, sem texto próprio real, cai na categoria "thin affiliate pages" das políticas de spam (ver 2.1) — cada artigo com link Shopee/Cobasi precisa ter conteúdo próprio substancial além do link (dica, comparação, experiência).
-- Prática recomendada: 1 a 3 links afiliados relevantes por artigo, sempre dentro do contexto do texto, nunca em lista solta só de links, e com um aviso curto tipo "este artigo contém link de afiliado" perto do primeiro link ou no topo do post.
+## 6. AFILIADOS NOS ARTIGOS
+- Thin affiliation [C, 3.1]: cada artigo com link Shopee/Cobasi traz texto, teste, comparação ou preço próprios.
+- `rel="sponsored"` e aviso de divulgação visível: prática interna e orientação geral do Search sobre links patrocinados; página específica não lida nesta consulta [N].
+- 1 a 3 links por artigo, dentro do contexto: regra interna, não do Google.
 
 ---
 
-## 7. CHECKLISTS
-
-### 7.1 Antes de publicar um artigo (10 itens — responder sim/não)
-1. O texto tem valor próprio além do que uma busca genérica já entregaria (opinião, experiência, dado atualizado)?
-2. Se cita uma raça específica, o artigo mostra foto/vídeo daquela raça (não de outra)?
-3. Foi revisado por humano/Duda depois do rascunho de IA, não publicado direto?
-4. Não é cópia nem reescrita raspada de outro site?
-5. Links afiliados (Shopee/Cobasi) têm aviso de divulgação visível?
-6. Links afiliados estão com `rel="sponsored"` ou `rel="nofollow"`?
-7. O artigo não é só uma lista de links de afiliado sem conteúdo próprio?
-8. A página não está bloqueada sem querer no `robots.txt`?
-9. O título/meta description não promete algo que o texto não entrega?
-10. Imagens são reais ou claramente autorais/ilustrativas, nunca passando banco de imagem genérico como se fosse foto real da marca?
-
-### 7.2 Antes de rodar Google Ads (10 itens — responder sim/não)
-1. A campanha evita público personalizado próprio (Customer Match/lookalike) em anúncio ligado a saúde/comportamento do pet?
-2. O texto do anúncio não "adivinha" uma condição do usuário ou do pet (ex.: "seu cão tem ansiedade")?
-3. A segmentação exclui menores de 18 anos para qualquer personalização?
-4. A landing page corresponde ao que o anúncio promete?
-5. A landing page tem política de privacidade visível e link funcional?
-6. O checkout/página de pagamento está em HTTPS?
-7. Nenhum dado sensível (CPF, cartão) é pedido ou mostrado fora de conexão segura?
-8. O perfil de pagamento do Google Ads está com CNPJ da Dourado Falcão validado na Receita Federal?
-9. Se o produto tocar em saúde animal/medicamento, foi checada a política de termos restritos (item 5.2)?
-10. Existe plano de checar o painel de anúncios em 24-72h para gasto fora do esperado (ligado à rotina de revisão já combinada com o usuário)?
+## 7. CHECKLISTS (sim/não; qualquer "não" bloqueia)
+### 7.1 Artigo
+1 valor próprio; 2 raça correta; 3 revisado depois da IA e fatos checados; 4 sem cópia; 5 autoria visível e como foi feito (inclui uso de IA); 6 aviso de afiliado; 7 rel=sponsored; 8 mais que lista de links; 9 fora do robots.txt; 10 título/meta honestos; 11 imagens próprias ou claramente ilustrativas; 12 fonte em afirmação de saúde.
+### 7.2 Google Ads
+1 sem Customer Match/lookalike; 2 texto sem adivinhar condição; 3 menores sem personalização; 4 destino = anúncio, mesmo domínio, sem redirecionar para outro; 5 AdsBot consegue abrir; 6 privacidade visível; 7 checkout HTTPS; 8 CNPJ validado; 9 saúde animal checada; 10 conferir painel em 24 h e 72 h.
 
 ---
 
-## 8. Fontes (consultadas em 2026-10-21)
-
-- https://support.google.com/adsense/answer/1346295 — Políticas de conteúdo AdSense (texto completo não obtido nesta sessão, reconfirmar).
-- https://support.google.com/adsense/answer/48182 — Política de posicionamento de anúncios AdSense.
-- https://support.google.com/adsense/answer/9130038 — Processo de aprovação de novo site no AdSense.
-- https://support.google.com/publisherpolicies/answer/11035931 — Políticas de spam do Google Search aplicadas a publishers AdSense (thin affiliate pages, doorway, keyword stuffing).
-- https://developers.google.com/search/blog/2024/03/core-update-spam-policies — Anúncio das políticas "scaled content abuse" e "site reputation abuse" (título/tema confirmados; corpo do texto não obtido nesta sessão, reconfirmar).
-- https://developers.google.com/search/blog/2026/02/discover-core-update — Atualização do Google Discover de fevereiro de 2026 (título confirmado; corpo não obtido, reconfirmar).
-- https://developers.google.com/search/blog/2023/02/google-search-and-ai-content — Orientação do Google sobre conteúdo gerado por IA (título/tema confirmados; corpo não obtido nesta sessão, reconfirmar).
-- https://support.google.com/youtube/answer/1311392 — Política de conteúdo reutilizado/inautêntico do YouTube.
-- https://blog.youtube/news-and-events/disclosing-ai-generated-content/ — Rotulagem de conteúdo alterado ou sintético no YouTube.
-- https://support.google.com/youtube/answer/10059070 — Requisitos técnicos do YouTube Shorts.
-- https://support.google.com/adspolicy/answer/16701855 — Saúde em publicidade personalizada (Google Ads).
-- https://support.google.com/adspolicy/answer/13557942 — Medicamentos veterinários com prescrição (Google Ads).
-- https://support.google.com/adspolicy/answer/1283115 — Informações pessoais e confidenciais (Google Ads).
-- https://support.google.com/google-ads/answer/14886971 — Verificação fiscal de anunciante no Brasil (Google Ads).
-
-Itens marcados "não confirmado em fonte oficial" (structured data, Core Web Vitals, diretrizes de comunidade sobre animais, requisitos numéricos de YPP, requisitos detalhados de landing page, disclosure de afiliado no YouTube) precisam de nova pesquisa dedicada, com acesso às páginas oficiais correspondentes, antes de virar regra definitiva para os agentes.
+## 8. Fontes
+Lidas em 22/10/2026 (base das marcas [C]): support.google.com/adsense/answer/9724 e 7299563; developers.google.com/search/docs/essentials/spam-policies, /fundamentals/creating-helpful-content, /fundamentals/using-gen-ai-content; support.google.com/adspolicy/answer/6368661 e 16427718.
+Lidas em 21/10/2026 e não relidas (marcadas [N]): adsense/answer/48182, 9130038; adspolicy/answer/16701855, 13557942, 1283115; google-ads/answer/14886971; publisherpolicies/answer/11035931.
+Só título visto: developers.google.com/search/blog/2026/08/update-site-reputation-policy; /2024/03/core-update-spam-policies; /2026/02/discover-core-update; adspolicy/answer/6020955 (deturpação) e 16427615 (experiência do destino).

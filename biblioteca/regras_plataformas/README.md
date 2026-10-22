@@ -8,7 +8,8 @@ próprio arquivo — não tratar como regra certa até confirmar.
 
 | Arquivo | Cobre | Status |
 |---|---|---|
-| `google.md` | Google Ads, Google AdSense, Google Search (spam/scaled content), YouTube (inauthentic content, rotulagem de conteúdo sintético) | Pronto (21/10/2026) |
+| `google.md` | Google Ads (destino/landing, saúde, CNPJ), Google AdSense (elegibilidade, preparo), Google Search (spam, conteúdo útil, E-E-A-T, IA) | v2 (22/10/2026): itens [C] relidos em página oficial; os lidos só em 21/10 marcados [N] |
+| `youtube.md` | YouTube: Shorts, Programa de Parcerias (YPP), conteúdo inautêntico/reutilizado, rótulo de IA, remix, animais | v2 (22/10/2026), separado do google.md; sinais de ranking e afiliado ainda [N] |
 | `tiktok.md` | TikTok orgânico e comercial: Commercial Music Library, rotulagem de IA, link na bio/comentário, disclosure de afiliado, política de animais, sinais de algoritmo | Pronto (21/10/2026) |
 | `meta_facebook_instagram.md` | Facebook Ads, Instagram Ads, política de conteúdo orgânico Meta | Pronto (22/10/2026) — seção de anúncios e engagement bait majoritariamente "não confirmado" (páginas oficiais não legíveis por robô); revalidar via navegador |
 
@@ -21,3 +22,6 @@ próprio arquivo — não tratar como regra certa até confirmar.
 - Especialista TikTok Tutorial Pet v2 (rotina na nuvem, trig_01Ay74mznoX8tMV8y4svoZYr)
 
 `meta_facebook_instagram.md` já existe (22/10/2026): os prompts com leitura condicional ("se existir") passam a lê-lo.
+
+Marcação v2: [C] = lido na página oficial na data da consulta; [N] = não confirmado (nunca decide sozinho).
+Skills derivadas (v2, 22/10/2026, rascunho até prova): plataforma_youtube, plataforma_google_seo_adsense, trafego_google_ads.

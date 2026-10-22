@@ -1,49 +1,57 @@
----
-versao: 1.0
-data: 2026-10-22
-base: biblioteca/regras_plataformas/google.md (seção 4, 6); pipeline de vídeos dos pacotes da fábrica
----
-# Habilidade: canal YouTube da Tutorial Pet sem violar monetização — Agente de Vídeo, Estrategista de Canal
+v2 — 22/10/2026 — status: rascunho até prova (régua 7)
+base: biblioteca/regras_plataformas/youtube.md (v2, lido 22/10/2026). Prazo de releitura: 14 dias (régua 6).
 
-## (a) Quando usar / quem lê
-Ao decidir abrir o canal, preparar o primeiro lote, rotular vídeo com IA, ou reaproveitar vídeos dos pacotes (Facebook/Instagram/TikTok) no YouTube. Lê: Produtor de vídeo, Publicador, Estrategista, Auditor de Processo.
+# Habilidade: canal YouTube da Tutorial Pet (Shorts + monetização sem risco) — Estrategista de Canal, Produtor de vídeo, Publicador, Auditor
 
-## (b) Entradas que precisa
-Vídeo pronto (roteiro, narração/voz, cena, música), origem de cada trecho (banco livre, gerado por IA, gravado), se há avatar/voz da Duda, artigo de origem, link afiliado na descrição, métricas atuais do canal (inscritos, horas, Shorts engajados).
+## (a) Quando usar
+Ao decidir abrir o canal, montar lote, rotular IA, reaproveitar vídeos dos pacotes (Facebook/Instagram/TikTok) ou prever receita. Marca: só vídeo, fofo e seguro, raça correta, carimbo (patinha + marca).
 
-## (b2) Regra de marca
-Só vídeo, fofo e seguro. Nunca crueldade, sofrimento, abandono ou abrigo precário. Conteúdo que cita uma raça mostra aquela raça. Carimbo (patinha + marca).
+## (b) Entradas
+Vídeo pronto; origem de cada trecho (licença); se há voz sintética ou avatar da Duda; artigo de origem; link afiliado; métricas do Studio (views, views engajadas, retenção, duração média, inscritos).
 
-## (c) Procedimento
-1. **Teste de originalidade (PASS/FAIL).** O vídeo tem narrativa, comentário, roteiro ou edição autoral própria e transforma o material? Só clipe de banco + música sem arco = FAIL (conteúdo reutilizado/inautêntico). Vídeo baixado de outra plataforma sem acréscimo = FAIL.
-2. **Reaproveitar os vídeos dos pacotes (procedimento):**
-   a. Pegar o vídeo-mãe e checar origem de cada trecho (licença do banco livre registrada).
-   b. Adaptar, não duplicar: nova abertura (gancho próprio para YouTube), narração/legendas revisadas, título e descrição únicos, ligação com o artigo do blog.
-   c. Variar: mesmo roteiro-base pode virar Short e, depois, vídeo longo com mais explicação; nunca subir dezenas de cópias quase iguais.
-   d. Publicar 1 por vez, com espaço entre postagens (nunca coladas); lote em massa de variações = risco para o canal inteiro.
-   e. Retirar marca d'água de outra plataforma (TikTok etc.) antes de subir; o carimbo da Tutorial Pet fica.
-3. **Rótulo de conteúdo sintético.** Marcar "conteúdo alterado ou sintético" se houver voz sintética que imite pessoa/narrador, rosto trocado, avatar da Duda realista que possa ser confundido com pessoa real, ou cena realista fabricada. Dúvida = rotula. Não exige: IA só para roteiro, legenda, ideia, cor/luz, animação claramente irreal.
-4. **Persona de IA.** A Duda não é apresentada como especialista em saúde animal. Tema de saúde: orientação geral com fonte e sem diagnóstico.
-5. **Shorts.** Vertical, até 3 minutos, até 1080p, título até 100 caracteres. Marcar "feito para crianças" corretamente (conteúdo pet geral: não). Gancho nos primeiros segundos.
-6. **Descrição e afiliado.** Link afiliado só com aviso claro ("link de afiliado") e menção no vídeo se a promoção for central. Link para o artigo e para o Sozinho em Casa sem alegação de saúde.
-7. **Metas de monetização (YPP).** Meta de planejamento (secundária, validar): 1.000 inscritos + 4.000 h, ou 10 milhões de visualizações engajadas de Shorts em 90 dias. Até confirmar, não contar com receita no plano financeiro.
-8. **Decisão antes de postar:** postar / reeditar / não postar. Reprovado vai com lista completa de correções.
-9. **Medição (7 dias):** visualizações engajadas, retenção, cliques no link do artigo. Menos de 50 visualizações em 72h = amostra insuficiente, não conclui (ver decifrador_algoritmo.md).
+## (c) Regras [C] → jogadas
+Cada jogada: o que fazer | número-alvo ou medir primeiro | condição de troca. Não há dado nosso de YouTube (canal ainda não medido), então todo alvo de desempenho é "medir primeiro".
 
-## (d) Checklist antes de publicar (sim/não)
-1 narrativa autoral; 2 licenças dos trechos registradas; 3 raça correta; 4 rótulo sintético decidido; 5 sem marca d'água alheia; 6 título único; 7 descrição com aviso de afiliado; 8 sem crueldade/sofrimento; 9 Duda sem papel de especialista; 10 espaçado das outras postagens; 11 "feito para crianças" marcado.
+J1 (Short até 3 min, vertical, título até 100 [C]). Fazer: publicar Shorts verticais com título de até 100 caracteres e abrir com o motivo do vídeo nos primeiros segundos. Alvo: duração e retenção — medir primeiro: os 5 primeiros Shorts, lidos no Studio em 7 dias (retenção e duração média). Troca: se a mediana de retenção dos 5 ficar abaixo da do melhor deles em mais de metade, reescrever só a abertura dos próximos 5, mantendo o resto.
 
-## (e) Erros comuns e o que NÃO fazer
-- Não subir em massa variações do mesmo vídeo (conteúdo inautêntico derruba a monetização do canal inteiro, não só do vídeo).
-- Não usar vídeo baixado de outro canal. Não mudar pitch/velocidade para disfarçar. Não omitir rótulo sintético: uso recorrente sem divulgar gera penalidade.
-- Não prometer renda do canal. Não esquecer que a política de reutilização é separada de direitos autorais.
+J2 (view conta ao iniciar; análises usam views engajadas [C]). Fazer: decidir sempre pela coluna "views engajadas" e retenção, nunca pela view bruta. Alvo: medir primeiro, 5 Shorts em 7 dias. Troca: se view bruta sobe e engajada não, o gancho atrai sem entregar; trocar a promessa da abertura.
 
-## (f) Laço de aprimoramento
-Ao fim de cada ciclo, registrar em `data/habilidades/aprendizado/plataforma_youtube.md`: `data | hipótese | resultado (n vídeos/visualizações, retenção) | mantém/altera regra`. Com 3 linhas confirmando o mesmo padrão, propor edição desta skill (versão e data no topo).
+J3 (descoberta: Shorts, busca, home, canal, inscrições [C]). Fazer: título e primeira linha da descrição com a pergunta que o tutor digitaria (ex.: "cão sozinho em casa"), 1 tema por vídeo. Alvo: medir primeiro a origem do tráfego (Studio > Alcance), 5 Shorts. Troca: se a busca for 0% em 5 Shorts, reescrever títulos com a frase de busca.
 
-## (g) Validar antes de gastar (não confirmado em fonte oficial)
-- Diretrizes de comunidade sobre animais (texto não aberto).
-- Números exatos do YPP (fontes secundárias).
-- Página oficial de divulgação de afiliado no YouTube.
-- Tratamento exato de conteúdo reaproveitado de outras plataformas pelo próprio dono (a política diz que vale mesmo com autorização do criador original; confirmar o caso do autor próprio).
-- Limite de quantidade de Shorts por dia sem acionar "produção em massa".
+J4 (YPP: 1.000 inscritos + 4.000 h/12 meses OU 10 mi views qualificadas de Shorts/90 dias [C]). Fazer: lançar a conta no plano de receita como R$ 0 até um caminho fechar; checar inscritos e horas toda semana. Alvo: 1.000 inscritos e (4.000 h ou 10 mi de views). Troca: se em 90 dias de canal as inscrições ficarem abaixo de 100, revisar tema e frequência antes de produzir mais; nunca comprar inscrito. Exigências extras: sem strike, verificação em duas etapas, AdSense vinculado; termos novos aceitos no Studio até 31/01/2027.
+
+J5 (a partir de 01/02/2027 o pool de Shorts exige 10 mi/90 dias; criador fica com 45% [C]). Fazer: tratar monetização de Shorts como longo prazo; priorizar vídeo longo curto (horas públicas) como caminho mais plausível. Alvo: medir primeiro as horas de 3 vídeos longos em 30 dias. Troca: se o ritmo projetado de horas não chegar a 4.000 em 12 meses, rever formato ou aceitar o canal como vitrine de tráfego para o blog.
+
+J6 (inautêntico: modelo repetido e variação mínima não monetizam [C]). Fazer: cada vídeo com roteiro, foco e desfecho próprios; abertura e encerramento fixos são permitidos se o miolo muda. Alvo: nenhum par de vídeos do lote com o mesmo roteiro-base; 1 publicação por vez, espaçada. Troca: se um vídeo reprova no teste de originalidade (passo 2), vai para reedição e não entra no canal.
+
+J7 (reutilizado: sem valor próprio não monetiza, mesmo com permissão [C]). Fazer: reaproveitar pacote só adaptando: abertura nova para YouTube, narração e título únicos, ligação com o artigo. Nunca subir arquivo com marca d'água de outra rede. Troca: se um vídeo do pacote for quase igual ao de outra rede, subir só como Short novo recortado, ou não subir.
+
+J8 (rótulo "uso de IA" [C]). Fazer: marcar "Sim" se houver música gerada por IA, voz sintética de narrador que pareça pessoa real, rosto ou cena realista fabricada; não marcar para animação claramente irreal, roteiro, título. Alvo: 100% dos vídeos com a decisão registrada na ficha. Troca: dúvida sobre realismo = marcar (marcar não limita público nem receita).
+
+J9 (persona de IA em saúde não monetiza [C]). Fazer: a Duda dá orientação geral com fonte; nunca diagnostica nem se apresenta como especialista veterinária. Troca: roteiro com diagnóstico ou dose = reescreve ou descarta.
+
+J10 (animais: sem maus-tratos, condição ruim ou resgate encenado [C]). Fazer: só cenas de animal bem cuidado; recusar clipe de abrigo precário, doente ou resgate. Troca: dúvida de contexto = não usa.
+
+J11 (remix ligado por padrão; remix de vídeo alheio some se o original é apagado [C]). Fazer: usar só áudio da biblioteca do YouTube; não remixar vídeo de terceiros. Se não quiser ser remixado, desativar em Studio > Conteúdo por vídeo (decisão do Estrategista: padrão manter ligado, pois ajuda alcance — medir primeiro).
+
+## (d) Validar antes de agir [N]
+Diretrizes de spam, engajamento falso e amigáveis a anunciantes (só títulos vistos); divulgação de afiliado e bônus de afiliados do YouTube; selo "capturado com câmera"; limite diário de Shorts; sinais de ranking de Shorts. Antes de usar qualquer um: ler a página, registrar [C] e data.
+
+## (e) Limites de decisão com dados nossos
+Dados do canal: nenhum (data/testes/*.md de 21 e 22/10 cobrem FB, IG, TikTok e blog, não YouTube). Proibido usar número dessas redes aqui. Regra: criar a linha-base do canal após 5 Shorts + 7 dias e gravar em data/testes. Amostra mínima: n < 3 vídeos = UNKNOWN (regra de ouro 12 do repositório); teste dura no máximo 3 dias para decisões de formato.
+
+## (f) Procedimento (PASS / FAIL / UNKNOWN)
+1. Entrada: vídeo + ficha de origem. Sem ficha = UNKNOWN, não publica.
+2. Originalidade: tem roteiro, foco e desfecho próprios e transforma o material? PASS/FAIL. Só clipe + música = FAIL.
+3. Raça: mostra a raça citada? PASS/FAIL.
+4. Licenças dos trechos registradas? PASS/FAIL/UNKNOWN.
+5. Rótulo de IA decidido e registrado (J8). Sem registro = UNKNOWN.
+6. Segurança animal (J10) e persona (J9): PASS/FAIL.
+7. "Feito para crianças": marcado como "não" para conteúdo geral de pet; registrado.
+8. Descrição: link do artigo; aviso "link de afiliado" se houver; sem alegação de saúde.
+9. Decisão: publicar / reeditar com lista completa / descartar. Uma só.
+10. Após 7 dias: ler views engajadas, retenção, origem do tráfego; aplicar a condição de troca da jogada testada.
+11. Gravar a saída (abaixo).
+
+## (g) Saída obrigatória e laço
+Ao fim de cada ciclo: 1 linha em `data/habilidades/aprendizado/plataforma_youtube.md`: `data | regra/jogada aplicada | resultado (n, métrica) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição da skill (v, data, evidência). Skill sem releitura há mais de 14 dias: tratar [C] como [N].
