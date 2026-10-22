@@ -36,3 +36,6 @@ Campeão: nenhum. Em views o flagrante F2 (FB 562); no IG o meme manda (alcance 
 Uma variável por vez (lote r22q): X7 trend (A1, A2) x evergreen (A3): views e comentários em 72 h, trend vence rápido. X2 continua valendo (CTA A binário x B aberto, mesma arte). Nada de horário novo. Próxima leitura: 25/10 (72 h do lote de 22/10) e sexta 24/10 21:11 (veredito do Medidor).
 
 Atualização 22/10 13:10 (Diretor de Audiência, Zernio follower-stats sync 22/10 07:55): FB 8 (+3 em 7 dias: 5→8 de 15 a 21/10), IG 0 (8 dias parados), TikTok sem dado (Buffer não informa). Teste CTA-comentário em curso: ver data/testes/audiencia_2026-10-22_plano.md.
+## Atualização 22/10 13:10 (teste de hoje, data/testes/audiencia_2026-10-22_criador.md)
+X8 legenda (pergunta específica com número + fecho fácil) x legenda antiga: 6 posts agendados (TikTok 6ad8a174befea41f139d8264, 6ada1aedeb1348c17ac30806, 6ada29a9bf6d801ac6f45c87; FB 6ada299df5b065b06b2263b0, 6ad232c93a272e4280ce9481, 6ada29d0ce999cf09365ef20); o Diretor divide teste e controle. Prova: comentário de terceiro, share e views em 72 h (25/10 ~12:00); n<5 por braço = PARCIAL. Os 5 números de hoje seguem os das 08:35 (sem leitura nova do Zernio/Buffer de seguidores).
+Alerta: 5 posts agendados com gancho banido gravado no vídeo (lista no arquivo do teste); o primeiro sai hoje às 14:20 (TikTok 6ad8a1729c5d256f6598ceac).

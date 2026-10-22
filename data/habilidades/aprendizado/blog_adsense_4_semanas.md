@@ -1,0 +1,1 @@
+| 2026-10-22 | J4 (pergunta real de fonte pública, sem enquete): 3 perguntas com fonte (cachorro chorando sozinho; gato sozinho em viagem; passeios por dia) em data/testes/audiencia_2026-10-22_criador.md | n=3 perguntas, 0 lidas no Search Console/PAA (sem acesso); artigos só amanhã | mantém; pendência: o Allan liberar o Search Console para leitura
