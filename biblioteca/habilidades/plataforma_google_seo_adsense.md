@@ -67,6 +67,12 @@ Causa achada: nosso artigo de cinto (3.500 palavras) tinha "cadeirinha" e "assen
 6. Hashtag não existe como mecanismo no Google (só nas redes). O equivalente é: título/H1/meta com o termo, links internos entre artigos do pilar, sitemap enviado e página indexada no Search Console, dados estruturados (FAQ/Article), e link do artigo no 1º comentário dos posts.
 7. Medir com dado (Search Console: consulta, impressão, posição, clique) assim que a propriedade for verificada; antes disso, medição só por SERP manual e GA4 (Organic Search).
 
+## (i) TAMANHO DO ARTIGO: o que a regra diz (verificado em 22/10/2026)
+- **Google Search Central** (Creating helpful, reliable, people-first content, developers.google.com/search/docs/fundamentals/creating-helpful-content): não define tamanho ideal, mínimo nem máximo. Na seção que trata de escrever para uma contagem, a página responde literalmente "Google has a preferred word count? (No, we don't.)". Os critérios são: útil para o público, mostra experiência e profundidade, o site tem foco claro, o leitor sai com o que precisava e com uma boa experiência.
+- **AdSense** (Google Publisher Policies, support.google.com/adsense/answer/10502938): não define número de palavras nem de artigos. Proíbe anúncio em página sem conteúdo do editor ou de baixo valor, com mais anúncio do que conteúdo, ou com conteúdo copiado sem valor agregado.
+- **Consequência para nós:** tamanho = o que for preciso para responder o tema por completo, sem encher e sem cortar. Qualquer número de palavras que usarmos é heurística interna de alerta (Curador: bloqueia só abaixo de 300; avisa abaixo de 600), nunca regra do Google. O critério real do Juiz é utilidade, profundidade, originalidade, fontes e experiência do leitor.
+- Jogada: ao escrever, medir a pergunta respondida (o leitor sai sabendo o que fazer?), não as palavras. Esticar texto por tamanho continua proibido (J6).
+
 ## (g) Saída obrigatória e laço
 Linha em `data/habilidades/aprendizado/plataforma_google_seo_adsense.md`: `data | regra/jogada | resultado (n, métrica) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição (v, data, evidência). Sem releitura há 14 dias, tratar [C] como [N].
 

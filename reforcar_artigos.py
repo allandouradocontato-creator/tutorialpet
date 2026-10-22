@@ -32,7 +32,7 @@ REFORÇO DE QUALIDADE (este artigo precisa passar na revisão do Google AdSense)
 - Assinatura da equipe: nenhuma voz de personagem, nenhum nome de pessoa, nenhuma "coluna". Tom: claro, acolhedor e direto, de equipe que pesquisa e explica.
 - Profundidade e rigor técnico: explique o PORQUÊ (comportamento ou fisiologia do animal) antes de cada recomendação, dê passos numerados, erros comuns, sinais de alerta e quando procurar o médico-veterinário. Sem inventar estudo, número exato ou estatística.
 - Facilidade de leitura: parágrafos de até 4 linhas, listas, negrito nas ideias-chave, frases curtas.
-- Entre 1000 e 1300 palavras. Seções obrigatórias: introdução, pelo menos 4 seções "##", "## Perguntas frequentes" (3 a 5, pergunta inteira em negrito terminando em "?"), "## Para fechar".
+- Sem meta de palavras (o Google não define tamanho): escreva o que for preciso para responder o tema por completo, sem encher nem cortar. Seções obrigatórias: introdução, pelo menos 4 seções "##", "## Perguntas frequentes" (3 a 5, pergunta inteira em negrito terminando em "?"), "## Para fechar".
 - LINKS INTERNOS: inclua de 3 a 4 links em Markdown no formato [texto âncora natural](/slug) para artigos da lista abaixo, escolhendo os mais ligados ao assunto, no meio do texto (não só no fim). Use SOMENTE slugs da lista, sem inventar.
 - O título "# ..." deve ser o termo de busca de forma natural, até 70 caracteres, sem nome de personagem.
 """
