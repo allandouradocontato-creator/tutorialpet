@@ -23,6 +23,7 @@ Coluna de versão: ao fim da linha, "v2" = reescrita com regras de plataforma [C
 | `oferta_low_ticket.md` | As 6 peças de uma oferta completa, equação de valor, escada de produto, estrutura de landing low-ticket | Marketing de Produto, Fábrica de Produtos, Produtor de e-book, Aprimorador de Landing |
 | `anuncios_meta_decisao.md` | Checagem de conta Meta em 6 passos que termina em UMA decisão; regras de CPA/fadiga/escala para orçamento pequeno; Pass/Fail/Unknown | Auditor de Anúncios | v2 (22/10, rascunho até prova) |
 | `analise_referencia_viral.md` | Ficha por referência (gancho, linha do tempo, padrão replicável + nossa versão), análise em lote | Pesquisador de Formato, Pesquisador de Mercado | v2 (22/10, rascunho até prova) |
+| `design_moderno_referencias.md` | Design moderno por referências: coleta semanal (10-15), peça a partir de 2-3 adaptadas, A/B com leitura em horas; consulta data/design/ | Criativo de Venda, Produtor de e-book, Aprimorador de Landing, Criador de Audiência | v1 (22/10, rascunho até prova) |
 
 Contexto de marca/produto que as skills externas em `biblioteca/skills_externas/marketingskills/` leem sozinhas: `.agents/product-marketing.md` (raiz do repositório).
 
