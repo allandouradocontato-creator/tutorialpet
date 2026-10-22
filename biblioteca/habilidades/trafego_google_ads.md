@@ -3,6 +3,9 @@ base: biblioteca/regras_plataformas/google.md (v2, seções 5 e 7.2). Os limites
 
 # Habilidade: Google Ads com orçamento pequeno (Sozinho em Casa) — Agente de Tráfego, Guardião de Gasto
 
+## STATUS: RESERVA — sem contrato preenchível (sem verba, sem verificação do anunciante com o CNPJ da Dourado Falcão Educação Corporativa LTDA, nenhum dado de Google Ads, Kiwify 7 dias = 0 vendas; aprendizado/trafego_google_ads.md sem nenhuma linha). Custo de crédito próprio conhecido: nenhum. Reativar quando o Allan autorizar pagamento e a verificação do anunciante fechar: então o contrato será venda em R$ (Kiwify) com teto de perda proposto na J6 e leitura em 24 h; as jogadas J1-J7 abaixo servem de ponto de partida.
+
+
 ## (a) Quando usar
 Antes de propor, ativar, revisar ou escalar campanha Google Ads. Tráfego pago é sempre proposta primeiro; ativar, pagar e validar CNPJ são autorizações do Allan. Teste dura no máximo 3 dias; número ruim claro muda o caminho na hora (regras do Allan).
 
@@ -26,12 +29,6 @@ J6 (CPA, cliques e orçamento: sem dado nosso). Fazer: definir o teto de perda d
 
 J7 (decidir só com amostra). Fazer: anotar cliques, CTR, custo, conversões por anúncio e palavra por dia. Alvo: nenhuma — medir primeiro: o primeiro teste de 3 dias gera a linha-base nossa (cliques, CTR, taxa de conversão do checkout) e grava em data/testes/. Troca: com a linha-base, a skill passa a ter limites próprios (v3); até lá, todo corte por CPA ou CTR é UNKNOWN e a decisão é do Allan.
 
-## (d) Validar antes de agir [N]
-Personalização de saúde (16701855): sem Customer Match, segmento próprio ou lookalike; sem texto que adivinhe condição; menor de 18 sem personalização — lida só em 21/10, reler antes de ativar. Medicamento veterinário (13557942): certificação no Brasil não confirmada. Dados pessoais e HTTPS (1283115). Verificação do anunciante no Brasil (14886971): CNPJ da Dourado Falcão Educação Corporativa LTDA, 3 a 5 dias úteis. Política de deturpação e de experiência do destino (6020955, 16427615): só títulos vistos. Se o destino de checkout pode ficar na Kiwify. CPC típico do nicho em pt-BR e evento de conversão ideal. Até confirmar: tratar como bloqueio preventivo (não ativar o que depende deles).
-
-## (e) Limites de decisão com dados nossos
-Dados de Google Ads: nenhum (data/testes cobre FB, IG, TikTok e blog; Kiwify 7 dias: 0 vendas em 22/10). Proibido importar CTR, CPA ou frequência de outra rede. Venda de referência para o funil: 1 venda é a meta do plano de 22/10 (T8). Amostra: antes da linha-base, nenhum resultado decide.
-
 ## (f) Procedimento (PASS / FAIL / UNKNOWN)
 1. Pagador: perfil com CNPJ validado? Sem confirmação = UNKNOWN e não ativa; pedir ao Allan só o passo humano (login/pagamento).
 2. Destino: J1 a J4. Qualquer FAIL bloqueia.
@@ -47,3 +44,12 @@ Dados de Google Ads: nenhum (data/testes cobre FB, IG, TikTok e blog; Kiwify 7 d
 
 ## (g) Saída obrigatória e laço
 Linha em `data/habilidades/aprendizado/trafego_google_ads.md`: `data | regra/jogada | resultado (n cliques, CTR, custo, vendas) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição (v, data, evidência). Primeiro teste real: gerar a v3 com limites nossos. Sem releitura há 14 dias: tratar [C] como [N].
+
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Validar antes de agir [N]
+Personalização de saúde (16701855): sem Customer Match, segmento próprio ou lookalike; sem texto que adivinhe condição; menor de 18 sem personalização — lida só em 21/10, reler antes de ativar. Medicamento veterinário (13557942): certificação no Brasil não confirmada. Dados pessoais e HTTPS (1283115). Verificação do anunciante no Brasil (14886971): CNPJ da Dourado Falcão Educação Corporativa LTDA, 3 a 5 dias úteis. Política de deturpação e de experiência do destino (6020955, 16427615): só títulos vistos. Se o destino de checkout pode ficar na Kiwify. CPC típico do nicho em pt-BR e evento de conversão ideal. Até confirmar: tratar como bloqueio preventivo (não ativar o que depende deles).
+
+### (e) Limites de decisão com dados nossos
+Dados de Google Ads: nenhum (data/testes cobre FB, IG, TikTok e blog; Kiwify 7 dias: 0 vendas em 22/10). Proibido importar CTR, CPA ou frequência de outra rede. Venda de referência para o funil: 1 venda é a meta do plano de 22/10 (T8). Amostra: antes da linha-base, nenhum resultado decide.

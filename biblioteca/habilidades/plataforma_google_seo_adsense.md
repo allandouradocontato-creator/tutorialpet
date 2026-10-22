@@ -3,6 +3,18 @@ base: biblioteca/regras_plataformas/google.md (v2, seções 1-3, 6, 7.1); config
 
 # Habilidade: artigo que passa no Google (SEO + AdSense + afiliado) — Agente de SEO, Redator, Revisor
 
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: clique. Cliques orgânicos do blog tutorialpet.com.br (fonte: Search Console; enquanto a propriedade não estiver verificada, GA4 canal Organic Search).
+2. META E PRAZO: ≥ 10 cliques orgânicos em 7 dias (meta do departamento Conteúdo e Blog; linha-base 6 em 7 dias, 21/10) e artigo novo indexado em < 48 h. Primeira leitura HOJE (22/10) até 20h: status de indexação dos artigos publicados hoje + cliques e impressões do dia; segunda leitura 23/10 às 20h (24 h) e terceira em 72 h.
+3. JOGADAS (hipótese -> ação -> métrica -> quando trocar):
+   - JD1 demanda. Hipótese: o artigo não aparece porque o título não usa o vocabulário da busca (caso cinto: "cadeirinha"/"assento" zero vezes). Ação: reforçar os 5 piores da auditoria de 22/10 (12 artigos de escolha/compra sem comparação, 0 com tabela) com sinônimo popular no título/H1/1º parágrafo e tabela de comparação (reforcar_artigos.py). Métrica: hoje, 5 de 5 reforçados e indexação solicitada até 20h; depois impressões e cliques da URL em 24 h e 72 h. Trocar: 0 impressão em 72 h = reescrever o título pelos termos dos 5 primeiros resultados (seção h, item 2).
+   - JD2 fila sem duplicata. Hipótese: pares com a mesma intenção (ração filhote; brinquedos sozinho) diluem indexação. Ação: fundir os 2 pares achados e comparar todo tema novo com os publicados (J1). Métrica: 0 pares na fila; novos indexados em < 48 h (Search Console). Trocar: menos da metade indexada em 14 dias = reduzir ritmo e reforçar os já publicados.
+   - JD3 clique de rede para o blog. Hipótese: o link no 1º comentário dos posts de hoje traz os cliques que o orgânico ainda não traz. Ação: link do artigo (UTM) no 1º comentário de todo post do dia (J10). Métrica: cliques do blog vindos das redes (GA4), leitura 1 h, 3 h e 72 h; meta ≥ 10 em 72 h. Trocar: 0 clique em 72 h por 2 rodadas = trocar o gancho do comentário, não o artigo.
+   - JD4 cauda longa. Hipótese: disputar "melhor X" com loja grande (Petz, Cobasi) perde; comparação honesta por porte/idade/situação ganha. Ação: antes de aprovar tema, confirmar que as buscas óbvias do pilar já existem; depois escrever pela cauda específica (seção h, itens 1 e 4). Métrica: nº de óbvias do pilar cobertas; impressões da cauda longa no Search Console. Trocar: tema sem impressão em 72 h = ir para o tema óbvio seguinte.
+4. LAÇO: data/habilidades/aprendizado/plataforma_google_seo_adsense.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: biblioteca/habilidades/juiz_de_qualidade.md (Juiz de Qualidade, agente separado de quem produz; nota mínima 7 para ir ao vivo; ensaio aprovado = média ≥ 7 e nenhuma nota < 5).
+
+
 ## (a) Quando usar
 Antes de aprovar tema, ao revisar rascunho, antes de publicar e antes de pedir revisão do AdSense. Não pesquisar a regra de novo: está aqui e em google.md.
 
@@ -32,14 +44,6 @@ J9 (doorway e site reputation abuse [C]). Fazer: não criar páginas por raça/c
 
 J10 (cliques do blog como termômetro, dado nosso). Fazer: contar cliques do blog vindos das redes (1º comentário) em 72 h por rodada. Alvo: ≥10 cliques em 72 h (meta do plano de 22/10; linha-base 6 em 7 dias, 21/10). Troca: 0 em 72 h por 2 rodadas seguidas = rever o gancho do comentário, não o artigo.
 
-## (d) Validar antes de agir [N]
-Texto do update de site reputation (ago/2026), core update de mar/2024, Discover (fev/2026); dados estruturados; Core Web Vitals; sitemap/robots em detalhe; posicionamento de anúncios (48182), processo de aprovação (9130038) e política de publisher (11035931), lidos só em 21/10; texto-padrão de divulgação de afiliado; `rel="sponsored"` como exigência (orientação geral, página não lida). Até a releitura, seguir como prática interna e não citar como regra do Google.
-
-## (e) Limites de decisão com dados nossos
-- Linha-base de cliques do blog: 6 em 7 dias (data/testes/baseline_2026-10-21.md); meta ≥10 em 72 h.
-- Indexação e impressões: sem linha-base nossa — medir primeiro: exportar do Search Console por 14 dias, gravar em data/testes/. Até lá, nenhuma decisão de ritmo por "impressão baixa".
-- Amostra: n < 3 artigos comparados = UNKNOWN.
-
 ## (f) Procedimento (PASS / FAIL / UNKNOWN)
 1. Entrada: rascunho + ficha. Falta algo = UNKNOWN.
 2. Valor próprio (J2/J5): existe 1 item que a busca genérica não dá? PASS/FAIL.
@@ -65,3 +69,14 @@ Causa achada: nosso artigo de cinto (3.500 palavras) tinha "cadeirinha" e "assen
 
 ## (g) Saída obrigatória e laço
 Linha em `data/habilidades/aprendizado/plataforma_google_seo_adsense.md`: `data | regra/jogada | resultado (n, métrica) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição (v, data, evidência). Sem releitura há 14 dias, tratar [C] como [N].
+
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Validar antes de agir [N]
+Texto do update de site reputation (ago/2026), core update de mar/2024, Discover (fev/2026); dados estruturados; Core Web Vitals; sitemap/robots em detalhe; posicionamento de anúncios (48182), processo de aprovação (9130038) e política de publisher (11035931), lidos só em 21/10; texto-padrão de divulgação de afiliado; `rel="sponsored"` como exigência (orientação geral, página não lida). Até a releitura, seguir como prática interna e não citar como regra do Google.
+
+### (e) Limites de decisão com dados nossos
+- Linha-base de cliques do blog: 6 em 7 dias (data/testes/baseline_2026-10-21.md); meta ≥10 em 72 h.
+- Indexação e impressões: sem linha-base nossa — medir primeiro: exportar do Search Console por 14 dias, gravar em data/testes/. Até lá, nenhuma decisão de ritmo por "impressão baixa".
+- Amostra: n < 3 artigos comparados = UNKNOWN.

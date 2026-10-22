@@ -5,6 +5,18 @@ base: biblioteca/regras_plataformas/tiktok.md (consulta 21/10/2026); data/tiktok
 ---
 # Habilidade: TikTok orgânico (@tutorialpetbr) — regras prontas, sem pesquisar de novo
 
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: engajamento. Tempo médio de visualização dos vídeos do @tutorialpetbr (fonte: Buffer, canal tutorialpetbr).
+2. META E PRAZO: Tempo médio ≥ 4 s e views ≥ 300 por vídeo (linha-base 22/10: 2,87 s em 35 posts, mediana ~196 views, piso 150-220; melhor 7,46 s). Prazo: leitura 1 h e 3 h (informativa) após cada vídeo de hoje (grade 10:20 e 20:20); primeira leitura hoje às 21h20; veredito de troca com 72 h+ ou 2+ vídeos abaixo de 4 s.
+3. JOGADAS (hipótese -> ação -> métrica -> quando trocar):
+   - Gancho com número. Hipótese: pergunta específica de rotina com número/limite entregue antes de 15 s segura o tempo (campeão "Seu cachorro aguenta quantas horas sozinho?" = 7,46 s; ensaio julgado de 22/10: n=10, média 8,2 contra 4,0 dos atuais). Ação: todo vídeo de hoje abre assim. Métrica: tempo médio a 1 h e 3 h. Trocar: 2+ vídeos do formato < 4 s em 3 dias = trocar só o gancho.
+   - Comentário da conta nos 30 primeiros minutos (J4). Hipótese: pergunta de continuação gera comentário de terceiro, hoje 4 em 35. Ação: comentário com pergunta de continuação em cada post. Métrica: comentário de terceiro ≥ 1 a cada 5 posts. Trocar: 5 posts sem comentário = trocar só o CTA; 0 DM em 10 vídeos = tirar o CTA de DM e usar pergunta na legenda.
+   - Duração T3. Hipótese: 25 s retém mais que 44 s no mesmo roteiro (os de 5+ s de tempo médio têm 38-52 s; meme de 8 s teve 89-193 views). Ação: publicar as duas versões do mesmo roteiro em horários equivalentes. Métrica: tempo médio e % assistido por versão (5 por variação, máx. 3 dias). Trocar: versão 20% abaixo em 5 posts sai.
+   - Funil por DM (T2, só com ok do Allan). Hipótese: DM "SOZINHO" leva ao Sozinho em Casa (R$ 27). Ação: 1 em 4 vídeos cita o app (hoje 1 em 35). Métrica: DMs por 100 views. Trocar: sem ok do Allan nada vai ao ar no ManyChat; 0 DM em 10 vídeos = sai o CTA de DM.
+4. LAÇO: data/habilidades/aprendizado/plataforma_tiktok_organico.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: biblioteca/habilidades/juiz_de_qualidade.md (Juiz de Qualidade, agente separado de quem produz; nota mínima 7 para ir ao vivo; ensaio aprovado = média ≥ 7 e nenhuma nota < 5).
+
+
 ## (a) Quando usar / quem lê
 Antes de roteirizar, agendar (Buffer) ou medir qualquer vídeo no TikTok. Lê: Especialista TikTok, Estrategista de Redes Sociais, Criador de Audiência, Produtor de vídeo, Atendente de Comentários/DM. Não pesquisar a web: regra está aqui; [N] vai para (g).
 
@@ -28,21 +40,8 @@ Antes de roteirizar, agendar (Buffer) ou medir qualquer vídeo no TikTok. Lê: E
 12. **Funil**: pergunta de dor (horas sozinho) → 1 passo → DM "SOZINHO" → isca/mimo → só com horas_sozinho >= 4 a oferta R$ 27 com ?utm_source=tiktok&utm_medium=dm&utm_campaign=sozinho_serie. 1 em 4 vídeos cita o app (hoje 1 em 35). Nada vai ao ar no ManyChat sem o ok do Allan (T2 aguardando).
 13. Registrar no laço (f).
 
-## (d) Checklist antes de publicar (tudo SIM)
-Conta Business · trilha do filtro Commercial · rótulo IA · divulgação comercial se cita app/afiliado · sem animal doente/abrigo/doação · raça mostrada = raça citada · gancho fora da lista proibida · tema/pergunta específica · carimbo patinha + marca visível · ícones de seguir clicáveis · sem "link no perfil" não verificado · sem "R$ 9,90" · hashtags 3-5 · "Teste Buffer" e posts antigos fora do ar.
-
-## (e) Erros comuns / NÃO fazer
-- Misturar humor e tutorial (tutorial com ritmo de meme).
-- Prometer comentário→DM no TikTok.
-- Julgar variação com n<5 ou com <72 h.
-- Legenda de pacote antigo com preço e link Kiwify velho reaproveitada pelo gerador.
-- Repetir gancho banido por falta de checagem no agendador.
-
 ## (f) Laço de aprimoramento
 Fim de cada ciclo: linha em `data/habilidades/aprendizado/plataforma_tiktok_organico.md`: `data | hipótese | resultado (n, métrica) | mantém/altera regra`. Com 3 linhas confirmando o mesmo padrão, propor edição desta skill (versão e data no topo) via entrega_direta.md.
-
-## (g) Itens [N] — validar antes de gastar
-Diretrizes da Comunidade em texto oficial (fonte secundária); se avatar de marca realista dispensa rótulo de IA (ligar sempre); elegibilidade do Sozinho em Casa no TikTok Shop e mínimo de seguidores de afiliado; distribuição inicial por subconjunto de seguidores; duração ideal; frequência ideal; campo Site sem mínimo de seguidores (2 de 3 fontes). Validar no app/Chrome.
 
 ## Regras → jogadas (v1.1, 22/10/2026; formato: fazer | alvo ou medir primeiro | troca)
 J1 (algoritmo prioriza conclusão e tempo assistido, depois salvamento/compartilhamento; não depende de seguidores [tiktok.md §1.8]). Fazer: vídeo de 15–25 s, gancho de dor nos 2 primeiros segundos, número/limite entregue antes dos 15 s, final que reconecta ao início (loop). Alvo: medir primeiro % assistido e tempo médio no Buffer (linha-base = mediana dos últimos 10 vídeos). Troca: se 5 vídeos seguidos ficarem abaixo da mediana, trocar o gancho (não o tema).
@@ -52,7 +51,23 @@ J4 (público sem seguidor: o TikTok distribui por interesse). Fazer: 1 vídeo/di
 J5 (comentário→DM não existe no TikTok [§ funil]). Fazer: CTA = "manda SOZINHO no direct" (DM recebida, janela 48 h). Alvo: medir primeiro DMs por 100 views. Troca: 0 DM em 10 vídeos = tirar o CTA de DM e usar pergunta na legenda.
 J6 (sem "link no perfil" até o link estar ativo e a conta Business elegível). Fazer: link só no comentário fixado quando permitido. Alvo: 0 promessa de link que não existe. Troca: aviso de política = remover do roteiro.
 
-## v2.1 (22/10/2026, ensaio do Juiz) — regra c.4 ampliada
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Checklist antes de publicar (tudo SIM)
+Conta Business · trilha do filtro Commercial · rótulo IA · divulgação comercial se cita app/afiliado · sem animal doente/abrigo/doação · raça mostrada = raça citada · gancho fora da lista proibida · tema/pergunta específica · carimbo patinha + marca visível · ícones de seguir clicáveis · sem "link no perfil" não verificado · sem "R$ 9,90" · hashtags 3-5 · "Teste Buffer" e posts antigos fora do ar.
+
+### (e) Erros comuns / NÃO fazer
+- Misturar humor e tutorial (tutorial com ritmo de meme).
+- Prometer comentário→DM no TikTok.
+- Julgar variação com n<5 ou com <72 h.
+- Legenda de pacote antigo com preço e link Kiwify velho reaproveitada pelo gerador.
+- Repetir gancho banido por falta de checagem no agendador.
+
+### (g) Itens [N] — validar antes de gastar
+Diretrizes da Comunidade em texto oficial (fonte secundária); se avatar de marca realista dispensa rótulo de IA (ligar sempre); elegibilidade do Sozinho em Casa no TikTok Shop e mínimo de seguidores de afiliado; distribuição inicial por subconjunto de seguidores; duração ideal; frequência ideal; campo Site sem mínimo de seguidores (2 de 3 fontes). Validar no app/Chrome.
+
+### v2.1 (22/10/2026, ensaio do Juiz) — regra c.4 ampliada
 - Gancho com número: o número tem de estar no artigo (o vídeo entrega o número antes dos 15 s). Sem número no artigo, o gancho usa limite qualitativo ("antes das 3 primeiras noites").
 - Proibidos no gancho e na legenda: "cão", "cãozinho", "pet" como substantivo genérico (usar "cachorro"/"gato"), além dos ganchos banidos já listados.
 - Lote 10→3: o produtor gera 10, um Juiz SEPARADO escolhe 3 (biblioteca/habilidades/juiz_de_qualidade.md); os 3 vão ao ar e são lidos em 1 h e 3 h.

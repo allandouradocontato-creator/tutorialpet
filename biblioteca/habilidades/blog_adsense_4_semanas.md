@@ -4,6 +4,18 @@ pedido do Allan (22/10): este blog é o TESTE e o modelo para outros blogs; 4 se
 
 # Habilidade: operar as 4 semanas até a aprovação do AdSense (e medir o que causou o quê)
 
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: clique. Cliques do blog tutorialpet.com.br vindos de rede e de busca (fonte: GA4 com UTM; Search Console assim que o Allan liberar a leitura, pendência registrada em 22/10).
+2. META E PRAZO: ≥ 10 cliques do blog em 72 h (meta de 22/10; linha-base 6 em 7 dias, 21/10), com o plano diário cumprido (3 ou 4 artigos conforme config/ritmo_blog.yaml) e 0 FALHA em data/auditoria/adsense.md antes de pedir a revisão do AdSense. Primeira leitura HOJE (22/10) às 20h: artigos no ar x plano do dia, FALHAS e cliques do dia no GA4; linha gravada em data/testes/adsense_4semanas.md.
+3. JOGADAS (hipótese -> ação -> métrica -> quando trocar):
+   - Ritmo + auditoria. Hipótese: volume só ajuda se passar na auditoria (J1, J3). Ação: cumprir o plano do dia e rodar scripts/auditoria_adsense.py; cada FALHA vira ação. Métrica: artigos no ar / plano; FALHAS abertas. Trocar: 2 dias seguidos abaixo do plano = ALERTA e o Vigia dispara a fábrica/promove aprovados na hora; FALHA aberta > 24 h = o Vigia abre ficha.
+   - Links internos (J6-3). Hipótese: 2 links de entrada de artigos antigos do mesmo pilar levam cliques para o artigo novo. Ação: cada artigo novo recebe 2 links de entrada. Métrica: cliques por artigo (GA4) contra a linha-base de 6 em 7 dias. Trocar: fonte sem 1 clique em 7 dias = cortar e testar a próxima fonte gratuita.
+   - Artigo nascido de pergunta real (J4). Hipótese: pergunta com fonte pública (Search Console, "As pessoas também perguntam", contas grandes do nicho) traz busca que enquete não traz com 8 seguidores no FB, 0 no IG e 19 no TikTok. Ação: ≥ 2 artigos por semana com a pergunta e a fonte registradas. Métrica: artigos publicados com fonte registrada; cliques desses artigos. Trocar: quando a porta abrir (≥ 300 seguidores ou média ≥ 100 views por post em 7 dias), ligar 1 enquete por semana.
+   - Pedido de revisão do AdSense (J9). Hipótese: pedir só com prova evita reprovação. Ação: pedir com auditoria sem FALHA, ≥ 25 artigos originais, ≥ 14 dias de ritmo sem buraco e tráfego real registrado. Métrica: pré-requisitos cumpridos / 4. Trocar: reprovado = ler o motivo, corrigir 1 causa e pedir de novo após 7 dias.
+4. LAÇO: data/habilidades/aprendizado/blog_adsense_4_semanas.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: biblioteca/habilidades/juiz_de_qualidade.md (Juiz de Qualidade, agente separado de quem produz; nota mínima 7 para ir ao vivo; ensaio aprovado = média ≥ 7 e nenhuma nota < 5).
+
+
 ## (a) Quando usar
 Todo dia (Diretor de Conteúdo, seg e qui; Vigia, 4x/dia) até 18/11/2026; depois vira o molde (molde/skills) para os próximos blogs.
 
@@ -23,12 +35,6 @@ J8 (4 semanas para AVALIAR). Fazer: diário data/testes/adsense_4semanas.md com 
 J9 (quando pedir a revisão do AdSense: processo [N, answer/9130038, reler]). Fazer: pedir só com auditoria sem FALHA, ≥25 artigos originais, ≥14 dias de ritmo sem buraco e tráfego real registrado; confirmar o estado na aba Sites (conta já aberta no Chrome do Allan, pub-7204207473239947). Alvo: pedido na semana 2 ou 3. Troca: reprovado = ler o motivo, corrigir 1 causa, pedir de novo após 7 dias.
 J10 (o que o molde herda). Fazer: no fim da semana 4, copiar para molde/skills a versão genérica desta habilidade ({NICHO}, {DOMINIO}) com o que funcionou e o que não. Alvo: 1 arquivo + checklist de lançamento de blog. Troca: sem prova das semanas 1–4, não vai ao molde.
 
-## (d) Validar antes de agir [N]
-Processo e prazo da aprovação (answer/9130038); posicionamento de anúncios (48182); política de publisher; Discover; texto da atualização de site reputation (ago/2026). O Atualizador de Skills relê toda semana.
-
-## (e) Limites de decisão com dados nossos
-Linha-base cliques: 6 em 7 dias (21/10). Impressões, votos de enquete, comentários: medir primeiro na semana 1. Amostra: menos de 3 artigos por variação = UNKNOWN.
-
 ## (f) Procedimento diário (Diretor de Conteúdo; Vigia confere)
 1. Qual é o plano de hoje (3 ou 4)? Quantos já estão no ar (curl 200 + git log site/build)? Faltando = promover aprovados / disparar fábrica.
 2. Formatos e pilares do dia respeitam J2? Ajustar a fila.
@@ -39,7 +45,16 @@ Linha-base cliques: 6 em 7 dias (21/10). Impressões, votos de enquete, comentá
 ## (g) Saída obrigatória e laço
 `data/habilidades/aprendizado/blog_adsense_4_semanas.md`: `data | jogada | resultado (n, métrica) | mantém/altera`. 3 linhas com o mesmo padrão = propor edição da skill. Sem a linha, a rodada conta como "não aplicou".
 
-## v1.2 (22/10/2026, ensaio do Juiz: 3 artigos em 3 moldes, média 7,67) — regras novas
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Validar antes de agir [N]
+Processo e prazo da aprovação (answer/9130038); posicionamento de anúncios (48182); política de publisher; Discover; texto da atualização de site reputation (ago/2026). O Atualizador de Skills relê toda semana.
+
+### (e) Limites de decisão com dados nossos
+Linha-base cliques: 6 em 7 dias (21/10). Impressões, votos de enquete, comentários: medir primeiro na semana 1. Amostra: menos de 3 artigos por variação = UNKNOWN.
+
+### v1.2 (22/10/2026, ensaio do Juiz: 3 artigos em 3 moldes, média 7,67) — regras novas
 - D3 obrigatório: artigo que fala de saúde, limite de tempo ou comportamento cita pelo menos 1 fonte NOMEADA (entidade, estudo, manual de referência, com link). "Consulte o veterinário" não é fonte. Campo `autor` nunca vazio.
 - Variedade de fecho: nunca repetir o mesmo H2 de encerramento em artigos seguidos ("Para fechar"); alternar 4 fechos (pergunta ao leitor, checklist de 3 itens, erro mais comum, próximo passo). "Quando procurar o veterinário" muda de posição.
 - Título promete = texto entrega: se o título diz "5 primeiros minutos", os 5 minutos ocupam a 1ª metade do texto.

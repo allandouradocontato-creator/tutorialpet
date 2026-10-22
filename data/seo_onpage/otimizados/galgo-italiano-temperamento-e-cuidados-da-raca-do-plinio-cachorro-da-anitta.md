@@ -80,6 +80,19 @@ Eles também costumam sofrer com a solidão prolongada. Se você passa muitas ho
 
 Exemplo prático: para acalmar um galgo ansioso quando ele chega em casa nova, sente-se no chão, evite movimentos bruscos e deixe que ele se aproxime no tempo dele.
 
+## Origem do galgo italiano e o instinto de perseguição
+
+Os galgos são cães de caça por visão: foram criados para avistar uma presa de longe e correr atrás dela em velocidade. É daí que vem a fama de "cachorro de corrida", que na prática pertence ao galgo inglês, o greyhound, maior e usado em pistas. O galgo italiano é a versão em miniatura do grupo e foi criado para companhia, mas herdou o corpo de velocista e o instinto de perseguir tudo que se move.
+
+Na vida com ele, isso muda o passeio:
+
+- **Use sempre guia e coleira ou peitoral bem ajustados.** Ele pode disparar atrás de um gato, de um pássaro ou de uma moto em segundos.
+- **Não confie só no "vem aqui".** Em área aberta, mesmo um cão bem treinado pode ignorar o chamado quando algo corre.
+- **Dê espaço seguro para correr.** Uma área fechada e cercada, em piques curtos, ajuda a gastar a energia sem risco.
+- **Cuide dos ossos finos.** Corrida em piso escorregadio ou saltos de sofá alto aumentam o risco de lesão.
+
+Esse conjunto explica por que ele é calmo e dorminhoco em casa, mas pode explodir em energia quando vê algo se mexendo.
+
 ## Cuidados diários: frio, ossos finos e passeio
 
 Apesar da aparência delicada, o galgo italiano tem energia para gastar nos passeios. O corpo esguio pede atenção. Pernas finas podem se machucar em saltos altos, como descer de sofá ou cama. Rampas e degraus baixos ajudam a prevenir acidentes.

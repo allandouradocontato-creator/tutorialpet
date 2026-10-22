@@ -3,6 +3,9 @@ base: biblioteca/regras_plataformas/youtube.md (v2, lido 22/10/2026). Prazo de r
 
 # Habilidade: canal YouTube da Tutorial Pet (Shorts + monetização sem risco) — Estrategista de Canal, Produtor de vídeo, Publicador, Auditor
 
+## STATUS: RESERVA — sem contrato preenchível (canal do YouTube ainda não aberto nem medido; Limites: nenhum dado nosso; aprendizado/plataforma_youtube.md = "não aplicável hoje, n=0"). Custo de crédito próprio conhecido: nenhum (skill passiva; o Pesquisador de Formato apenas a lista). Reativar quando o canal abrir: contrato de audiência (inscritos e retenção no Studio) com leitura em 7 dias dos 5 primeiros Shorts, que é a regra da J1; as jogadas J1-J11 abaixo servem de ponto de partida.
+
+
 ## (a) Quando usar
 Ao decidir abrir o canal, montar lote, rotular IA, reaproveitar vídeos dos pacotes (Facebook/Instagram/TikTok) ou prever receita. Marca: só vídeo, fofo e seguro, raça correta, carimbo (patinha + marca).
 
@@ -34,12 +37,6 @@ J10 (animais: sem maus-tratos, condição ruim ou resgate encenado [C]). Fazer: 
 
 J11 (remix ligado por padrão; remix de vídeo alheio some se o original é apagado [C]). Fazer: usar só áudio da biblioteca do YouTube; não remixar vídeo de terceiros. Se não quiser ser remixado, desativar em Studio > Conteúdo por vídeo (decisão do Estrategista: padrão manter ligado, pois ajuda alcance — medir primeiro).
 
-## (d) Validar antes de agir [N]
-Diretrizes de spam, engajamento falso e amigáveis a anunciantes (só títulos vistos); divulgação de afiliado e bônus de afiliados do YouTube; selo "capturado com câmera"; limite diário de Shorts; sinais de ranking de Shorts. Antes de usar qualquer um: ler a página, registrar [C] e data.
-
-## (e) Limites de decisão com dados nossos
-Dados do canal: nenhum (data/testes/*.md de 21 e 22/10 cobrem FB, IG, TikTok e blog, não YouTube). Proibido usar número dessas redes aqui. Regra: criar a linha-base do canal após 5 Shorts + 7 dias e gravar em data/testes. Amostra mínima: n < 3 vídeos = UNKNOWN (regra de ouro 12 do repositório); teste dura no máximo 3 dias para decisões de formato.
-
 ## (f) Procedimento (PASS / FAIL / UNKNOWN)
 1. Entrada: vídeo + ficha de origem. Sem ficha = UNKNOWN, não publica.
 2. Originalidade: tem roteiro, foco e desfecho próprios e transforma o material? PASS/FAIL. Só clipe + música = FAIL.
@@ -55,3 +52,12 @@ Dados do canal: nenhum (data/testes/*.md de 21 e 22/10 cobrem FB, IG, TikTok e b
 
 ## (g) Saída obrigatória e laço
 Ao fim de cada ciclo: 1 linha em `data/habilidades/aprendizado/plataforma_youtube.md`: `data | regra/jogada aplicada | resultado (n, métrica) | mantém/altera`. Sem a linha, a rodada conta como "não aplicou". 3 linhas com o mesmo padrão = propor edição da skill (v, data, evidência). Skill sem releitura há mais de 14 dias: tratar [C] como [N].
+
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Validar antes de agir [N]
+Diretrizes de spam, engajamento falso e amigáveis a anunciantes (só títulos vistos); divulgação de afiliado e bônus de afiliados do YouTube; selo "capturado com câmera"; limite diário de Shorts; sinais de ranking de Shorts. Antes de usar qualquer um: ler a página, registrar [C] e data.
+
+### (e) Limites de decisão com dados nossos
+Dados do canal: nenhum (data/testes/*.md de 21 e 22/10 cobrem FB, IG, TikTok e blog, não YouTube). Proibido usar número dessas redes aqui. Regra: criar a linha-base do canal após 5 Shorts + 7 dias e gravar em data/testes. Amostra mínima: n < 3 vídeos = UNKNOWN (regra de ouro 12 do repositório); teste dura no máximo 3 dias para decisões de formato.

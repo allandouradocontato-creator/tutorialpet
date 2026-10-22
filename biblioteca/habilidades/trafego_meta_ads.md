@@ -5,6 +5,9 @@ base: biblioteca/regras_plataformas/meta_facebook_instagram.md (seções 4, 5, 7
 ---
 # Habilidade: tráfego pago Meta (FB/IG Ads) — operar o ciclo do anúncio, do criativo ao ativar
 
+## STATUS: RESERVA — sem contrato preenchível (sem verba liberada para o Tutorial Pet, gasto 7 dias R$ 0,00 em data/anuncios/auditoria.md; nenhum criativo FB/IG chega a 6 s de tempo médio, então não há anúncio elegível; aprendizado/trafego_meta_ads.md sem nenhuma linha). Custo de crédito próprio conhecido: nenhum (a skill é lida pelo Auditor de Anúncios; a checagem diária ativa fica em anuncios_meta_decisao.md). Reativar quando o Allan liberar verba e houver criativo orgânico qualificado: então o contrato será venda em R$ (Kiwify, UTM), com teto, meta e leitura em horas, e as jogadas J1-J3 no fim do arquivo servem de ponto de partida.
+
+
 ## (a) Quando usar / quem lê
 Quando um criativo for virar anúncio, uma campanha for criada/alterada ou antes de gastar qualquer real na Meta. Lê: Agente de Tráfego, Guardião de Gasto, Executor de Decisões. O **Auditor de Anúncios** continua usando `anuncios_meta_decisao.md` para a checagem diária que termina em UMA decisão (CPA, fadiga, escala, Pass/Fail/Unknown). Esta skill cobre o que vem antes e em volta: elegibilidade, criativo, conformidade, rotina de revisão. Nota: o "R$ 9,90" de anuncios_meta_decisao.md está velho; produto = **R$ 27** (CPA tolerável parte desse valor + bump).
 
@@ -28,17 +31,6 @@ Quando um criativo for virar anúncio, uma campanha for criada/alterada ou antes
 11. **Decisão única** da lista de anuncios_meta_decisao.md, em entrega_direta.md. Relatório sem decisão = falha.
 12. Registrar no laço (f).
 
-## (d) Checklist antes de anunciar (tudo SIM)
-Account Status ok · pagamento/CNPJ/domínio ok · criativo orgânico 72 h+ acima da mediana · texto sem saúde, sem atributo pessoal, sem animal à venda/doação · rótulo IA considerado · landing rápida, coerente, R$ 27, privacidade · UTM completa · Audience Network off · objetivo/público/orçamento diário baixo e teto de 3 dias definidos · Click-to-DM com fluxo pronto (se houver) · plano de checar aprovação em 24 h · autorização do Allan para o gasto.
-
-## (e) Erros comuns / NÃO fazer
-- Impulsionar post sem vencedor orgânico comprovado ("boost" por reflexo).
-- Prometer resultado de comportamento do pet ou saúde no texto.
-- Enviar promoção por DM fora da janela de 24 h.
-- Pausar campanha só por CPA acima de um número fixo; mexer em conjunto em aprendizado; escalar mais de 30%.
-- Apresentar "saúde da conta" com cobertura de dados < 60%.
-- Esquecer UTM e depois não conseguir atribuir venda.
-
 ## (f) Laço de aprimoramento
 Fim de cada ciclo: linha em `data/habilidades/aprendizado/trafego_meta_ads.md`: `data | hipótese | resultado (n, métrica) | mantém/altera regra`. Com 3 linhas confirmando o mesmo padrão, propor edição desta skill (versão e data no topo) em entrega_direta.md.
 
@@ -47,10 +39,24 @@ Fim de cada ciclo: linha em `data/habilidades/aprendizado/trafego_meta_ads.md`: 
 - Private reply [C]: no Click-to-DM, preparar resposta humana ou automática dentro de 7 dias e só uma por comentador; medir primeiro: taxa de resposta em 20 comentários antes de escalar orçamento.
 - Engagement bait [C]: texto do anúncio sem pedido de reação em troca de algo; se o alcance orgânico do post impulsionado cair, comparar com versão sem o pedido.
 
-## (g) Itens [N] — validar antes de gastar
-Corpo das Advertising Standards (saúde, atributos pessoais, animais, infoproduto): não lido, tudo é prudência; exigências de landing (privacidade, identificação); requisitos de conta no Brasil (CNPJ, pagamento, verificação de domínio); botões do seletor de IA no Ads Manager. Ler no Gerenciador/Chrome antes do 1º real gasto.
-
 ## Regras → jogadas (v1.1, 22/10/2026; sem verba liberada para o Tutorial Pet; campanhas do imobiliário são de outro produto: não tocar)
 J1 (impulsionar só o que já funciona no orgânico). Fazer: escolher o Reel com maior retenção dos últimos 7 dias; ficha com público (tutores 25–55, interesse em pets, Fortaleza e Brasil), teto diário e prazo para o Allan aprovar. Alvo: medir primeiro retenção mediana (hoje 5,7 s no melhor Reel do FB). Troca: sem aprovação do Allan, nada é criado.
 J2 (aprendizado do Meta: conjunto estável gera dados de entrega; mudança grande reinicia). Fazer: um conjunto, um criativo novo por vez; não editar orçamento a cada hora. Alvo: medir primeiro custo por clique. Troca: dois criativos sem clique em 72 h = trocar o criativo, não o público.
 J3 (link com baixa qualidade e engagement bait derrubam alcance [meta orgânico]). Fazer: destino = artigo útil do blog (tutorialpet.com.br), nunca página de venda direta no 1º anúncio. Alvo: cliques no blog com UTM utm_source=facebook&utm_medium=ads. Troca: bounce alto no Search Console/GA = trocar o artigo de destino.
+
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Checklist antes de anunciar (tudo SIM)
+Account Status ok · pagamento/CNPJ/domínio ok · criativo orgânico 72 h+ acima da mediana · texto sem saúde, sem atributo pessoal, sem animal à venda/doação · rótulo IA considerado · landing rápida, coerente, R$ 27, privacidade · UTM completa · Audience Network off · objetivo/público/orçamento diário baixo e teto de 3 dias definidos · Click-to-DM com fluxo pronto (se houver) · plano de checar aprovação em 24 h · autorização do Allan para o gasto.
+
+### (e) Erros comuns / NÃO fazer
+- Impulsionar post sem vencedor orgânico comprovado ("boost" por reflexo).
+- Prometer resultado de comportamento do pet ou saúde no texto.
+- Enviar promoção por DM fora da janela de 24 h.
+- Pausar campanha só por CPA acima de um número fixo; mexer em conjunto em aprendizado; escalar mais de 30%.
+- Apresentar "saúde da conta" com cobertura de dados < 60%.
+- Esquecer UTM e depois não conseguir atribuir venda.
+
+### (g) Itens [N] — validar antes de gastar
+Corpo das Advertising Standards (saúde, atributos pessoais, animais, infoproduto): não lido, tudo é prudência; exigências de landing (privacidade, identificação); requisitos de conta no Brasil (CNPJ, pagamento, verificação de domínio); botões do seletor de IA no Ads Manager. Ler no Gerenciador/Chrome antes do 1º real gasto.

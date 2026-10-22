@@ -5,6 +5,18 @@ base: biblioteca/regras_plataformas/meta_facebook_instagram.md (consulta 22/10/2
 ---
 # Habilidade: Facebook + Instagram orgânico (Reels/vídeo) — regras prontas, sem pesquisar de novo
 
+## CONTRATO DE RESULTADO (22/10/2026)
+1. RESULTADO ÚNICO: engajamento. Tempo médio de visualização dos Reels no Facebook (fonte: Zernio posts_list; Instagram lido pelo skip e alcance como controle).
+2. META E PRAZO: FB: tempo médio ≥ 6 s e views ≥ 280 por post (linha-base 22/10: tempo mediano 4,0 s, views mediana 227, n=12, 19-20/10, 12 de 12 abaixo de 6 s). IG: alcance ≥ 80 e skip ≤ 55% (base 60 e 55,6%). Prazo: leitura 1 h e 3 h após CADA post de hoje (grade FB 21:00 e IG 21:10; 08:30/08:40 de amanhã), primeira leitura hoje às 22h.
+3. JOGADAS (hipótese -> ação -> métrica -> quando trocar):
+   - Número cedo, rampa curta. Hipótese: o FB sofá (5,7 s, melhor do FB) mostra que entregar o número/limite cedo segura o tempo. Ação: pergunta específica + número/limite entregue antes de 15 s em todo Reel do dia, gancho em 3 peças. Métrica: tempo médio a 1 h e 3 h (Zernio). Trocar: 2+ posts do formato abaixo do gatilho em 3 dias = mudar UMA peça (gancho, CTA ou horário) no mesmo dia.
+   - Pergunta genuína + link no 1º comentário. Hipótese: pergunta que o vídeo responde, sem pedir curtir/marcar em troca de algo, gera comentário de terceiro e clique no blog. Ação: fecho de múltipla escolha e link com UTM no 1º comentário (FB 0-3 hashtags, IG até 5). Métrica: comentário de terceiro ≥ 1 a cada 5 posts (base ~2 em 78); cliques do blog (GA4). Trocar: com-link perder mais de 30% de alcance contra sem-link (5 vs 5) = mover o link para bio/sticker.
+   - IG meme no lugar do explicador. Hipótese: no IG o meme alcança mais (98-122 de alcance) que o explicador (3-35). Ação: 2 Reels meme nos horários 08:40/21:10. Métrica: alcance e skip a 3 h. Trocar: explicador com alcance < 35 em 3 posts = trocar por meme; meme abaixo de 50 de alcance = voltar a mudar só o gancho.
+   - Sem engagement bait. Hipótese: pedido de reação em troca de algo rebaixa o alcance. Ação: legenda sem pedido de curtir/compartilhar/marcar em 10 posts, comparados aos 10 anteriores. Métrica: alcance mediano dos dois grupos. Trocar: diferença > 20% a favor do grupo antigo = trocar o gancho.
+4. LAÇO: data/habilidades/aprendizado/plataforma_meta_organico.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
+5. JUIZ: biblioteca/habilidades/juiz_de_qualidade.md (Juiz de Qualidade, agente separado de quem produz; nota mínima 7 para ir ao vivo; ensaio aprovado = média ≥ 7 e nenhuma nota < 5).
+
+
 ## (a) Quando usar / quem lê
 Antes de produzir, agendar ou medir qualquer post orgânico no FB ou IG. Lê: Estrategista de Redes Sociais, Criador de Audiência, Produtor/Guardião de vídeo, Atendente de Comentários (parte de DM). Não pesquisar a web para regra de plataforma: está aqui; o que for [N] vai para a seção (g).
 
@@ -32,16 +44,6 @@ Antes de produzir, agendar ou medir qualquer post orgânico no FB ou IG. Lê: Es
 13. **Engagement bait**: pergunta genuína de comentário pode; "curta/compartilhe/marque em troca de algo" não.
 14. Registrar a rodada no laço (seção f).
 
-## (d) Checklist antes de publicar (tudo SIM)
-Produção própria · só carimbo da marca · Reel <= 3 min · rótulo IA se Duda realista · <= 5 hashtags e palavra-chave · sem pedir curtida em troca · sem saúde/cura, sem animal doente/abrigo/doação · raça mostrada = raça citada · link só domínio próprio com UTM · horário >= 10 min de outro post/rede · gancho em 3 peças · 1 CTA só · preço do Sozinho em Casa = R$ 27 (se citar).
-
-## (e) Erros comuns / NÃO fazer
-- Dar "conferido" só olhando vídeos (falha de 21/10: pares de cartão com 1-2 s de diferença).
-- Agendar FB e IG no mesmo minuto; repetir CTA "GUIA" sem isca viva.
-- Preço velho (R$ 9,90/37) em legenda ou gerador.
-- Decidir com post de menos de 24 h ou n<5; mudar 3 variáveis juntas (decifrador_algoritmo.md).
-- Dizer "rodou sem erro" pelo status verde (controle_prova_real.md).
-
 ## (f) Laço de aprimoramento
 Ao fim de cada ciclo, uma linha em `data/habilidades/aprendizado/plataforma_meta_organico.md`: `data | hipótese | resultado (n, métrica) | mantém/altera regra`. Quando 3 linhas confirmarem o mesmo padrão, propor a edição desta skill (subir versão e data no topo) em entrega_direta.md; não editar sem as 3 linhas.
 
@@ -50,5 +52,18 @@ Ao fim de cada ciclo, uma linha em `data/habilidades/aprendizado/plataforma_meta
 - Link de baixa qualidade [C]: link só para o blog com conteúdo útil e pouco anúncio. Medir primeiro: 5 posts com link vs 5 sem, alcance em 3 dias; se o com-link perder mais de 30 por cento, mover o link para bio/sticker.
 - Private reply Instagram [C]: uma resposta por comentador em até 7 dias. Jogada: fluxo comentário→DM dispara uma vez; se houver comentário sem resposta há mais de 5 dias, o humano assume via Human Agent; condição de troca: se a taxa de DM entregue ficar abaixo de 80 por cento em 20 comentários, revisar permissões antes de culpar o conteúdo.
 
-## (g) Itens [N] — validar antes de gastar/automatizar
+## Limites (regras de plataforma, validações e números de corte; não são jogadas)
+Movido em 22/10/2026 para o fim: o que o agente FAZ está nas jogadas acima; aqui só o que ele não pode ultrapassar.
+
+### (d) Checklist antes de publicar (tudo SIM)
+Produção própria · só carimbo da marca · Reel <= 3 min · rótulo IA se Duda realista · <= 5 hashtags e palavra-chave · sem pedir curtida em troca · sem saúde/cura, sem animal doente/abrigo/doação · raça mostrada = raça citada · link só domínio próprio com UTM · horário >= 10 min de outro post/rede · gancho em 3 peças · 1 CTA só · preço do Sozinho em Casa = R$ 27 (se citar).
+
+### (e) Erros comuns / NÃO fazer
+- Dar "conferido" só olhando vídeos (falha de 21/10: pares de cartão com 1-2 s de diferença).
+- Agendar FB e IG no mesmo minuto; repetir CTA "GUIA" sem isca viva.
+- Preço velho (R$ 9,90/37) em legenda ou gerador.
+- Decidir com post de menos de 24 h ou n<5; mudar 3 variáveis juntas (decifrador_algoritmo.md).
+- Dizer "rodou sem erro" pelo status verde (controle_prova_real.md).
+
+### (g) Itens [N] — validar antes de gastar/automatizar
 Limite de 5 hashtags (fonte secundária, dez/2025); link na legenda IG não clicável; links externos reduzem alcance (não confirmado); clickbait (página oficial não lida); "Follow to DM"; punição por repost (imprensa); critérios de monetização de Reels; nomes dos botões do seletor de IA. Validar com Claude in Chrome nas páginas oficiais antes de decisão de alto risco.
