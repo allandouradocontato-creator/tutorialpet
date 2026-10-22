@@ -7,6 +7,9 @@ dias_minimos_desde_ultimo_post: 7
 maximo_por_dia: 3
 registro: data/social/evergreen_log.md      # uma linha por reuso: data/hora, slug, rede, id do post
 prioridade:
+  - com-que-frequencia-dar-banho-em-cachorro               # campeão de views no TikTok (cheirinho forte, ~1.000 views)
+  - como-fazer-o-gato-beber-mais-agua                     # TikTok ~577 views
+  - plantas-toxicas-para-gatos                            # TikTok ~310 views
   - como-fazer-o-gato-parar-de-arranhar-o-sofa            # melhor retenção do FB desde 14/10 (5,7 s)
   - cuidados-essenciais-com-as-patas-de-caes-no-inverno
   - quais-legumes-cachorro-pode-comer-cozidos-sem-tempero
