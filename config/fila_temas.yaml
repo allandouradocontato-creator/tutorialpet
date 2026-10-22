@@ -2,7 +2,8 @@ temas:
 - termo: yorkshire temperamento e cuidados da raça da Doralice, pet da Xuxa
   pilar: comportamento
   status: rascunho_pronto
-  nota: Pet Celebridade (edição 22/10/2026); fatos com link na ficha 2026-10-22_pet_celebridade_doralice.md; Conferente aprova em blog_aprovados.txt
+  nota: Pet Celebridade (edição 22/10/2026); fatos com link na ficha 2026-10-22_pet_celebridade_doralice.md;
+    Conferente aprova em blog_aprovados.txt
   data: '2026-10-22'
 - termo: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da Anitta
   pilar: cuidados_diarios
@@ -192,7 +193,8 @@ temas:
   data: '2026-10-22'
 - termo: como ensinar filhote a fazer xixi no tapete higienico
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-22'
 - termo: como montar um cronograma de enriquecimento ambiental para cães sozinhos
   pilar: comportamento
   status: pendente
@@ -576,7 +578,7 @@ temas:
   status: pendente
 - termo: cachorro chorando quando fico sozinho o que fazer
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
 - termo: por que o gato vomita bola de pelo e como ajudar em casa
   pilar: cuidados_diarios
   status: pendente
@@ -659,12 +661,12 @@ temas:
 - termo: idade do cachorro em anos humanos tabela
   pilar: cuidados_diarios
   status: pendente
-  nota: 'formato tabela por porte'
+  nota: formato tabela por porte
   data: '2026-10-22'
 - termo: quanto tempo o gato adulto pode ficar sozinho
   pilar: comportamento
   status: pendente
-  nota: 'linkar com quanto-tempo-um-cachorro-pode-ficar-sozinho; tabela'
+  nota: linkar com quanto-tempo-um-cachorro-pode-ficar-sozinho; tabela
   data: '2026-10-22'
 - termo: como saber se o gato esta feliz
   pilar: comportamento
@@ -678,15 +680,27 @@ temas:
 - termo: como escolher cama para gato
   pilar: produtos_compras
   status: pendente
-  nota: 'comparação em tabela; afiliado só com aviso (google.md)'
+  nota: comparação em tabela; afiliado só com aviso (google.md)
   data: '2026-10-22'
 - termo: comedouro elevado para cachorro vale a pena
   pilar: produtos_compras
   status: pendente
-  nota: 'comparação honesta; afiliado só com aviso'
+  nota: comparação honesta; afiliado só com aviso
   data: '2026-10-22'
 - termo: como dar remedio para cachorro e gato
   pilar: cuidados_diarios
   status: pendente
   nota: 'saúde: fonte nomeada (J4); sem dose'
   data: '2026-10-22'
+- termo: melhores fontes de agua para gatos que nao gostam de beber agua
+  pilar: produtos_compras
+  status: pendente
+- termo: como calcular a quantidade ideal de racao para caes adultos
+  pilar: alimentacao
+  status: pendente
+- termo: como identificar sinais de estresse em gatos que vivem em apartamentos
+  pilar: comportamento
+  status: pendente
+- termo: o que preparar em casa antes da chegada de um novo filhote
+  pilar: primeiros_passos_filhotes
+  status: pendente
