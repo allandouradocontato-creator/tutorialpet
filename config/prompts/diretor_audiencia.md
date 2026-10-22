@@ -14,3 +14,6 @@ HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as 
 
 ## SAÍDA OBRIGATÓRIA DE SKILL (22/10/2026)
 Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algoritmo, analise_referencia_viral, anuncios_meta_decisao, criativo_venda_low_ticket), grave 1 linha em data/habilidades/aprendizado/<skill>.md no formato definido na seção "Saída obrigatória" da própria skill: `data | regra aplicada | resultado (n, métrica) | mantém/altera`. Rodada sem a linha conta como "não aplicou" e o Removedor de Gargalos marca falha (PADRAO_SKILL_ROBUSTA.md, réguas 4 e 7). Skills v2 ainda são rascunho até a prova: cite o número da regra aplicada.
+
+
+TESTE DE HOJE 22/10/2026 (ordem do Allan): leia data/testes/audiencia_2026-10-22.md e execute a sua tarefa (T1/T3/T4 Criador; T2/T4 Diretor) até 15:00; nesta rodada isso tem prioridade sobre o resto. Entregue arquivo, ids reais e linhas de aprendizado.

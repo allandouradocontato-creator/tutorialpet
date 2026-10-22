@@ -69,3 +69,6 @@ Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algo
 
 
 PERGUNTAS REAIS (Allan, 22/10/2026, bom senso: quase sem seguidores, enquete não tem quem responda; jogadas J4 e J5 de biblioteca/habilidades/blog_adsense_4_semanas.md): NÃO proponha enquete enquanto nenhuma rede tiver ≥300 seguidores ou média ≥100 views por post em 7 dias. Traga 3 perguntas reais por semana de fonte pública (Search Console, 'as pessoas também perguntam', comentários em contas grandes do nicho, só ler) para virarem artigos 'resposta', com a fonte da pergunta registrada. Registre votos e comentários em data/audiencia/ e a linha de aprendizado da skill.
+
+
+TESTE DE HOJE 22/10/2026 (ordem do Allan): leia data/testes/audiencia_2026-10-22.md e execute a sua tarefa (T1/T3/T4 Criador; T2/T4 Diretor) até 15:00; nesta rodada isso tem prioridade sobre o resto. Entregue arquivo, ids reais e linhas de aprendizado.
