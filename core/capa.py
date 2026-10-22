@@ -51,6 +51,8 @@ def avaliar(imagens: list[bytes], tema: str) -> list[dict]:
     partes = [{"text": pedido}] + [{"inlineData": {"mimeType": "image/jpeg", "data": base64.b64encode(b).decode()}} for b in imagens]
     modelo = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
     import time
+    if getattr(avaliar, "gemini_fora", False):
+        raise RuntimeError("Gemini indisponivel (429 nesta rodada; sem novas tentativas)")
     for tent in range(4):   # 22/10: HTTP 429 (limite do Gemini gratis) -> espera e tenta de novo
         try:
             d = _post(GEMINI_URL.format(model=modelo), {"contents": [{"role": "user", "parts": partes}],
@@ -58,9 +60,12 @@ def avaliar(imagens: list[bytes], tema: str) -> list[dict]:
                       {"x-goog-api-key": chave}, timeout=60, tentativas=1)
             break
         except Exception as exc:  # noqa: BLE001
-            if "429" not in str(exc) or tent == 3:
+            if "429" not in str(exc):
                 raise
-            time.sleep(25 * (tent + 1))
+            if tent >= 1:
+                avaliar.gemini_fora = True   # 2 tentativas bastam: o resto da rodada vai direto para a alternativa gratis
+                raise
+            time.sleep(25)
     txt = "".join(p.get("text", "") for p in d["candidates"][0]["content"]["parts"])
     return json.loads(re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip())
 
