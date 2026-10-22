@@ -1,0 +1,35 @@
+name: Saude da fabrica (vigia sem IA)
+
+# Criado em 22/10/2026 — padrao "fabrica que nao para".
+# Roda 2x por hora (minutos quebrados; o GitHub descarta cron na hora cheia). Confere producao e blog e
+# CORRIGE sozinho (dispara fabrica.yml / publicar_blog.yml). So avisa (issue + Telegram) se nao conseguiu consertar.
+# Custo de credito do Claude: zero. Detalhes e limites em scripts/saude.py.
+on:
+  schedule:
+    - cron: "23 * * * *"
+    - cron: "53 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  actions: write
+  issues: write
+
+concurrency:
+  group: saude
+  cancel-in-progress: false
+
+jobs:
+  saude:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Conferir e corrigir
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/saude.py

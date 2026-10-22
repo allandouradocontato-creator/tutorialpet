@@ -2,9 +2,10 @@ name: Fabrica Tutorial Pet
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 06:00 em Fortaleza: pacote do turno A
-    - cron: "0 13 * * *"  # 10:00 em Fortaleza: pacote do turno B (teste de 7 dias: 3 vídeos/dia, decisão do Allan 14/10/2026)
-    - cron: "0 17 * * *"  # 14:00 em Fortaleza: pacote do turno C
+    - cron: "7 9 * * *"   # 06:00 em Fortaleza: pacote do turno A
+    - cron: "7 13 * * *"  # 10:00 em Fortaleza: pacote do turno B (teste de 7 dias: 3 vídeos/dia, decisão do Allan 14/10/2026)
+    - cron: "7 17 * * *"  # 14:00 em Fortaleza: pacote do turno C
+    # 22/10/2026: minuto 07 em vez de 00 (o GitHub descarta cron na hora cheia); o saude.yml (2x/h) redispara se faltar pacote.
     # Reservas (10/10/2026: a rodada das 06:00 simplesmente não disparou; o GitHub atrasa/descarta cron na hora cheia).
     # O job 'checar' pula a reserva se já houve rodada com sucesso nas últimas 4 h.
     - cron: "37 9 * * *"
