@@ -1,0 +1,35 @@
+name: Vozes da VSL v3 (Marianne, um mp3 por linha)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  vozes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          PYTHONPATH: .
+        run: |
+          mkdir -p out
+          python3 - <<'PY'
+          import importlib.util, json
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          linhas = json.load(open("data/vsl/linhas_v3.json", encoding="utf-8"))
+          for k, t in linhas.items():
+              ok = m._tts_elevenlabs(t, Path(f"out/{k}.mp3"))
+              print(k, "OK" if ok is not None else "FALHOU")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vozes-vsl-v3
+          path: out
+          retention-days: 3
