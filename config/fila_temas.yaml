@@ -217,7 +217,8 @@ temas:
   data: '2026-10-23'
 - termo: como armazenar racao de cachorro para nao perder nutrientes
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-23'
 - termo: como limpar as patas do cachorro depois do passeio
   pilar: cuidados_diarios
   status: pendente
@@ -732,4 +733,7 @@ temas:
   status: pendente
 - termo: o que colocar no enxoval de um filhote de gato
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: quanto tempo deixar o cachorro sozinho em casa
+  pilar: comportamento
   status: pendente
