@@ -1,0 +1,29 @@
+name: Clipes de cachorro feliz por cena (Pexels, varios, sem repetir)
+on:
+  workflow_dispatch:
+    inputs:
+      por_busca:
+        description: "clipes por busca"
+        required: false
+        default: "2"
+permissions:
+  contents: read
+jobs:
+  clipes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PYTHONPATH: .
+        run: python3 scripts/clipes_pet.py out ${{ github.event.inputs.por_busca }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clipes-pet
+          path: out
+          retention-days: 3
