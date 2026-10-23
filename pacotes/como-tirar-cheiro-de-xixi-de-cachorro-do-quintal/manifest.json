@@ -1,6 +1,6 @@
 {
   "slug": "como-tirar-cheiro-de-xixi-de-cachorro-do-quintal",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-22T14:16:54+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie cachorro: coerência não verificada (visão indisponível: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your curr)"
     ],
     "em": "2026-10-22T14:18:31+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas"
 }
