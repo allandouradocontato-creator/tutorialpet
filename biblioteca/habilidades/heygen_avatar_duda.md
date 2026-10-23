@@ -63,3 +63,8 @@ Voz oficial: ElevenLabs "Marianne", eleven_v4, estabilidade 0.26 (Portão da Dud
 - API, criar avatar: https://developers.heygen.com/docs/create-avatar.md e https://developers.heygen.com/docs/avatar-from-photo.md
 - API, fundo transparente: https://developers.heygen.com/transparent-background-videos
 - Terceiros (conferir): https://magichour.ai/blog/heygen-pricing e https://creatify.ai/pt/blog/heygen-pricing-(2026)-plans-and-what-you-ll-actually-pay
+
+## Persona da Duda (decisão do Allan, 23/10/2026)
+- A Duda é CLIENTE de pet shop e de veterinários: tutora que vive o dia a dia com o pet. Não é profissional. Fala em 1ª pessoa de tutora ("no meu dia a dia", "eu levo no vet"), nunca "como veterinária".
+- Ao citar fato de saúde/adestramento: dizer a fonte ou "converse com o seu veterinário"; opinião dela é de tutora.
+- Formato por vídeo: gancho 4-5 s (lip-sync) + conteúdo no meio + CTA 4-5 s (lip-sync), vertical 9:16, rótulo de IA ligado, crédito ao criador quando for react.
