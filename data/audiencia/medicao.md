@@ -1,3 +1,22 @@
+Dados até 2026-10-23 11:24 (Fortaleza) — Zernio follower-stats (sync 23/10 09:21), estrategia_social.md (23/10 07:19), medicao/placar de 22/10; Buffer e posts_list não relidos nesta rodada.
+# Medição — Criador de Audiência, sexta 23/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
+1. Comentários de terceiros: 2 em 78 posts FB/IG, TikTok 4 em 35 (22/10, sem leitura nova); memes 0. Meta ≥5/vídeo. Linha-base para o lote r23.
+2. Compartilhamentos: FB 0 (12 posts de 19-20/10), IG 1-2, TikTok 2 nos 6 posts de 20-22/10 (9 em 20 desde 16/10). Sem leitura nova.
+3. Seguidores: FB 8 (5→8 em 14-21/10, parado 21-23/10), IG 0 (10 dias parados), TikTok 19 (Allan 20/10; Buffer não informa).
+4. Cliques no blog: FB 22 desde 14/10 (estrategia_social 23/10); IG 0. Sessões orgânicas: sem dado (GA4 não lido). Cliques do Search Console: sem dado novo (painel 22/10: sitemap 69 URLs, 49 indexadas; 3 cliques de 14-18/10, prováveis testes do Allan). Pendência: exportar Desempenho > Consultas (dono: Allan/Claude da sessão, login Google).
+5. Vendas: sem dado (0 no baseline 21/10; Kiwify não lido da nuvem).
+Campeão: nenhum para comentário. Em views o flagrante F2 (banheiro, FB 562); IG meme alcance 122 x explicador 35; TikTok pergunta numérica (7,46 s). Réplica do campeão neste lote: C6 (pergunta numérica) e G3/C4 (flagrante e gato x cachorro).
+## Conta do teste do formato novo (ordem 15/10): sem post novo do lote r23 ainda. Última leitura 22/10: IG 2,77x (passa), FB 1,40x (abaixo de 1,5x), TikTok meme perde. Regra: só vira slot extra se bater 1,5x com n≥5 em 72 h.
+## Uma variável por vez no lote r23 (leitura 72 h, n≥5 por variação)
+X2 CTA A (binária/1 palavra) x B (aberta): cada ideia traz A e B; mesma arte, redes diferentes. Prova: comentário de terceiro por 1.000 views.
+X9 Hashtags: FB 3 (#humorpet + animal + #tutorialpet) x IG 5 (+#pets #pet); só comparar dentro da mesma rede, não entre redes.
+X10 Horário: cada ideia no primeiro slot livre; comparar só a mesma ideia-tipo em M (08:30/08:40/10:20) x N (21:00/21:10/20:20). Nada de horário novo.
+X11 Trend (G2, C1, C3) x evergreen (G1, G3, G6, C2, C6): views e comentários em 72 h; trend vence rápido (C3 perde em 01/11; C1 só posta a partir de 26/10).
+X12 Pergunta numérica (C5, C6) x piada (G1-G4): tempo médio e comentário de terceiro; hipótese: número retém, piada comenta.
+X13 Prova x teste: 11 de prova x 3 de teste (G2, G7, C7); manter 70/30 só se o teste empatar ou ganhar.
+X14 MIMO→DM (G7): só mede DMs "MIMO" por 100 views depois de E27/E29 + ok do Allan; antes disso, 0.
+Próxima leitura: sáb 24/10 21:11 (Medidor, veredito final) e 26/10 (72 h do lote de 22/10).
+
 Dados até 2026-10-22 08:35 (Fortaleza) — leitura nova só de arquivos (Estrategista 22/10 07:35, Humorista 22/10, Especialista TikTok 22/10); sem consulta nova ao Zernio/Buffer nesta rodada (quinta = rodada curta)
 # Medição — Criador de Audiência (meta de 14 dias: 15/10 a 28/10/2026). Fontes: Zernio analytics (FB, IG, lido 21/10 ~14:15), Buffer (TikTok). Posts <12 h e posts com falha técnica fora das medianas. Horários do Zernio/Buffer vêm em UTC: subtrair 3 h.
 Campeão: nenhum ainda. Meme 8 s ganha dos vídeos de artigo em views e retenção, mas sem comentário de terceiros.
