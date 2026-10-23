@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-evitar-que-o-filhote-chore-a-noite"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-evitar-que-o-filhote-chore-a-noite.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

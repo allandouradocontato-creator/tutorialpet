@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-23'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-23T10:44:04+00:00'
+revisado_em: '2026-10-23T10:56:02+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -30,7 +30,7 @@ checagens_qualidade:
 titulo_seo: 'Como evitar que o filhote chore à noite: guia prático'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-23T10:44:04+00:00'
+otimizado_em: '2026-10-23T10:56:02+00:00'
 checagens_seo:
 - meta description recomposta para não ultrapassar 155 caracteres e/ou para trazer
   o termo-alvo mais perto do início.
@@ -48,6 +48,21 @@ sugestoes_links_internos:
   ancora_sugerida: como socializar filhote de gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-evitar-que-o-filhote-chore-a-noite.jsonld.json
+imagem_capa: imagens/como-evitar-que-o-filhote-chore-a-noite.jpg
+imagem_fonte: pexels
+imagem_fotografo: Alireza Zohoor Parvaz
+imagem_fotografo_url: https://www.pexels.com/@alireza-zohoor-parvaz-38715730
+imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-puppies-7256826/
+imagem_selecionada_em: '2026-10-23T10:56:02+00:00'
+imagens_corpo:
+- arquivo: imagens/como-evitar-que-o-filhote-chore-a-noite-corpo-1.jpg
+  alt: 'como evitar que o filhote chore a noite'
+  fotografo: 'Tanya Gorelova'
+  fonte_url: 'https://www.pexels.com/photo/a-cute-dog-sleeping-on-the-floor-3860313/'
+- arquivo: imagens/como-evitar-que-o-filhote-chore-a-noite-corpo-2.jpg
+  alt: 'como evitar que o filhote chore a noite'
+  fotografo: 'Erik Mclean'
+  fonte_url: 'https://www.pexels.com/photo/close-up-of-a-rottweiler-12727640/'
 ---
 
 # Como evitar que o filhote chore à noite: guia prático

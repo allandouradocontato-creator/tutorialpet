@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-23'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-23T10:44:04+00:00'
+revisado_em: '2026-10-23T10:56:02+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso

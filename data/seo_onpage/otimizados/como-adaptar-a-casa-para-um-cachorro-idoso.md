@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-23'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-23T10:44:04+00:00'
+revisado_em: '2026-10-23T10:57:31+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -27,7 +27,7 @@ checagens_qualidade:
 titulo_seo: 'Como adaptar a casa para um cachorro idoso: guia prático'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-23T10:44:04+00:00'
+otimizado_em: '2026-10-23T10:57:31+00:00'
 checagens_seo:
 - nenhum H2 contém uma palavra-chave central do termo de origem — considerar ajuste
   manual.
@@ -45,6 +45,21 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-adaptar-a-casa-para-um-cachorro-idoso.jsonld.json
+imagem_capa: imagens/como-adaptar-a-casa-para-um-cachorro-idoso.jpg
+imagem_fonte: pexels
+imagem_fotografo: Lisa Fotios
+imagem_fotografo_url: https://www.pexels.com/@fotios-photos
+imagem_url_pagina: https://www.pexels.com/photo/closeup-photo-of-medium-smooth-white-and-brindle-dog-796293/
+imagem_selecionada_em: '2026-10-23T10:57:31+00:00'
+imagens_corpo:
+- arquivo: imagens/como-adaptar-a-casa-para-um-cachorro-idoso-corpo-1.jpg
+  alt: 'como adaptar a casa para um cachorro idoso'
+  fotografo: 'Peter Jochim'
+  fonte_url: 'https://www.pexels.com/photo/relaxed-dog-resting-on-a-sofa-in-black-and-white-31347233/'
+- arquivo: imagens/como-adaptar-a-casa-para-um-cachorro-idoso-corpo-2.jpg
+  alt: 'como adaptar a casa para um cachorro idoso'
+  fotografo: 'Vladimir Petrovic'
+  fonte_url: 'https://www.pexels.com/photo/lollobrigida-27998956/'
 ---
 
 # Como adaptar a casa para um cachorro idoso: guia prático
