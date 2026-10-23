@@ -79,3 +79,6 @@ Voz oficial: ElevenLabs "Marianne", eleven_v4, estabilidade 0.26 (Portão da Dud
 - Cenas: carinho, beijinho, cabeça encostada, cachorro tentando lamber o rosto ("ai, para, para").
 - Tema "lambida é saudável?": a Duda fala como tutora, sem afirmar ciência por conta própria; citar fonte ou mandar consultar o veterinário. Pontos checados (fontes secundárias): Capnocytophaga canimorsus e Pasteurella multocida estão na boca de muitos cães saudáveis; doença grave é rara; mais risco em imunossuprimidos, crianças pequenas, idosos e gestantes; evitar lambida em feridas abertas; regra "na boca não"; lavar o rosto após lamber.
 - Penteado: o pedido "rabo de cavalo" no Custom edit foi ignorado (cabelo ficou solto igual). Pedir de forma explícita: "hair tied up in a high bun, ears and neck visible, no loose hair on shoulders".
+
+## Micro-gestos de naturalidade (pedido do Allan, 23/10/2026)
+Gestos aleatórios, sem relação com a fala, que humanos fazem: colocar o cabelo atrás da orelha, ajeitar o cabelo, balançar levemente a cabeça, leve coçada no nariz, olhar rápido de lado, respirar e sorrir, tocar o queixo. Pelo menos 1 por trecho de 9 s. Testar no Turbo/Avatar IV se o HeyGen aceita pedir gesto por texto (checar sem gastar crédito); se não aceitar, escolher a melhor entre as variações geradas.
