@@ -43,3 +43,16 @@ Mesmo formato, mas o fundo é filmagem livre/licenciada (Pexels, Pixabay, Wikime
 - Hoje: 1 vídeo montado ponta a ponta (do roteiro ao arquivo final) para validar a montagem; mostrar ao Allan.
 - Se aprovado: 3 vídeos em 1 dia, 3 redes juntas, horários espaçados. Leitura com 72 h+, mas ruim em horas = muda na hora.
 - Sucesso: tempo médio ≥ 5 s e comentários respondendo a pergunta final.
+
+## 7. O pacote "React Viral" da comunidade Maestros da IA (lido por dentro em 23/10/2026)
+O Allan assinou a comunidade e baixou `React-Viral.zip` (Agentes Prontos > React Viral). Não está neste repositório (arquivo de terceiros, 65 MB). Cópia de estudo só no workspace da sessão.
+- **O que é:** ~10,5 mil linhas de Python/JS + 3 skills (configurar, react, publicar) + protocolo de escrita para voz. Fluxo: busca no YouTube → escolha por quadros → download → apaga texto queimado → roteiro com fatos checados → voz ElevenLabs → avatar HeyGen → fonte editada casada com as frases → composição (fonte em tela cheia + avatar recortado + legenda palavra a palavra + música de domínio público + crédito no fecho) → QA medido (1080x1920, −14 LUFS, Whisper confere o roteiro) → entrega em 2 versões (com e sem CTA) → publica pelo Metricool.
+- **Truque de custo:** o avatar roda no site do HeyGen por automação do navegador (sem API) com Avatar III, que, segundo o pacote, não gasta crédito num plano pago. Ele PARA se o diálogo citar crédito. [A CONFERIR na conta Creator do Allan: terceiros dizem 3 créditos/min.]
+- **O áudio da ElevenLabs entra no avatar** (Voice Mirroring desligado): confirma que dá para usar a voz Marianne da Duda no HeyGen.
+- **Só funciona em Mac Apple Silicon** (OCR Apple Vision, Whisper mlx, Homebrew). O Allan usa Windows. Troca prevista: OCR por tesseract/EasyOCR, Whisper por faster-whisper, instalação por pip/winget.
+- **Avatar do pacote é de VÍDEO** (a pessoa se filma, com vídeo de consentimento). A Duda é fictícia: criar por "Design with AI" e testar se aceita Avatar III e recorte.
+- **Aproveitar como está (portável):** protocolo de escrita para voz + linter (`prep_text.py`), QA da voz, composição ffmpeg (`react.py`), medições de QA (−14 LUFS bate com o nosso padrão), regras de segurança contra texto de terceiros.
+- **Trocar:** nicho tech/robôs → pet; Metricool → Zernio + Buffer; voz clonada → Marianne (Duda); fonte = vídeo de terceiros → versão segura (item 5) primeiro.
+- **Riscos que o próprio pacote avisa:** baixar do YouTube e automatizar sites vai contra os termos do YouTube (risco de strike na conta); crédito ao canal não é licença. Nossas skills de Meta tratam "narrar o que já aparece na tela" como não original.
+- **HeyGen Creator não tem API:** o avatar depende do Chrome logado no PC do Allan (ou API pré-paga à parte para rodar na nuvem). Decidir depois do 1º vídeo.
+- **Revenda:** o pacote traz só as licenças de componentes de terceiros; não vi licença de redistribuição dos arquivos da comunidade. Para vender "fatiado", construir versões nossas (código nosso) e confirmar os termos da comunidade antes de revender qualquer arquivo deles.
