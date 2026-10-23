@@ -10,3 +10,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-22 16:30 | Fila TikTok 7/10 (22/10 20:20 a 24/10 20:20), 3 posts/dia; 25/10 vazio | n=7 posts na fila, 0 em 25/10 | mantém: repor nas rodadas de 23/10 com pacote de artigo 200 ou evergreen elegível (conviverem-em-paz a partir de 23/10)
 2026-10-23 | hipótese: 3 vídeos/dia FB+IG com TikTok em 10:20/14:20/20:20 mantém estoque de 3 dias | n=5 pacotes agendados (10 FB/IG + 4 TikTok; fila TikTok no teto de 10) | mantém; Buffer assets exige array
 2026-10-23 | J1 gancho com número/pergunta (C5, C6) + J5 CTA de DM só com ok do Allan (T2 pendente; G7 não liga MIMO no TikTok) | n=0 (sem leitura 72 h); base 2,87 s em 35 posts | mantém
+2026-10-23 | regra de decisão da skill (Diretor): sem isca ao ar, nenhuma mudança de plataforma; medir FB/IG por follower-stats | n=0 (FB 8, IG 0, janela 72 h não iniciada) | mantém

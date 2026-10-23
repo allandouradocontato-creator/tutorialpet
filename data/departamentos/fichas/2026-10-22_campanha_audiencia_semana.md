@@ -21,3 +21,9 @@
 - Ações: E27 (nuvem, 23/10) gerar PDF do mimo (arte original); E28 (Claude, 23/10) conferir no Chrome o ManyChat: seletor de contas, FB conectável, Follow to DM, campos; só leitura; E29 (Claude, 24/10) montar o fluxo em RASCUNHO no ManyChat, sem ativar; E30 (nuvem, 23/10) ler follower-stats Zernio e registrar na medicao.md.
 - Pedido ao Allan: (1) ok por escrito para ligar o fluxo ao vivo quando o PDF estiver pronto; (2) autorizar o login do Facebook na conexão do ManyChat (OAuth). Também: o post de 25/10 17:29 ainda diz "Comente GUIA" (isca descartada) — trocar a legenda é mexer em agendado, só com ok dele.
 - Status: aprovada pelo Diretor (textos); execução depende de E27 e do ok do Allan.
+
+## Revisão 23/10/2026 09:30 (Fortaleza) — Diretor de Audiência
+- Medição (Zernio follower-stats 23/10 09:21): FB 8 (+1 em 3 dias: 7→8 em 21/10), IG 0 (4 pontos parados), TikTok sem dado. Comentários de terceiros e DMs: 0 novo. Isca ainda NÃO está ao ar (sem PDF, E27 aberta; sem ok do Allan), logo a janela de 72 h não começou: NEUTRO. Ficha mantida, sem mudança de isca.
+- Pareceres de hoje: Medidor (22/10 noite): T3 IG PERDEU (alcance mediana 4), restante NEUTRO; Estrategista (23/10 07:19): E50-E54 aplicados só a itens não agendados; Criador (ideias 23/10): lote de 14, sem parecer sobre a isca. Sem parecer do Especialista TikTok novo.
+- DECISÃO: (1) E48 acatada: E13/E26/E42 canceladas; teste CTA refeito só com itens não agendados = E55. (2) Gargalo real da isca é o PDF (E27, vencendo hoje): sem ele nada vai ao ar; E28/E29 seguem dependentes. (3) Post agendado de 25/10 17:29 com "Comente GUIA" segue como pedido ao Allan (mexer em agendado).
+- Pedido ao Allan (inalterado): ok por escrito para ligar o fluxo ao vivo + autorizar OAuth do Facebook no ManyChat.
