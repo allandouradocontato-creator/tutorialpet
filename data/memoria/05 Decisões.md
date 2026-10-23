@@ -48,3 +48,5 @@
 - 2026-10-22 (Allan): série "7 erros" CANCELADA (Estrategista recomendou; viola vídeo-only e regra de horário; alcance 0). 12 posts agendados removidos no Zernio (Erros 3-7 + par "Comente GUIA"); Erros 1-2 já publicados. Vagas preenchidas pela reserva evergreen/pacotes novos. Compêndio Meta (meta_facebook_instagram.md) segue PENDENTE.
 - 2026-10-22 (Allan, regra permanente, já em vigor desde outubro): nunca usar a palavra "cão" em texto público; escrever "cachorro" ou "pet". Estava só na memória do Claude; agora no repositório.
 - 2026-10-22 (Allan delegou ao Claude decidir por dados e cobrar resultado por agente/skill): D01 produto na grade 1 em 4 por 7 dias (dono Estrategista/Especialista TikTok); D02 memes curtos de 2/3 para 1/3 por 7 dias (dono Humorista). Métricas e reversão em data/decisoes/execucao.md. Quem falha a métrica tem a skill modificada ou cortada, não o Allan cobrado.
+
+- 2026-10-23 (Auditor, rotina do molde): MOLDE ADIADO — processo não fechado (3 artigos aprovados em 404, publicar_blog #47/#49 vermelhos, estoque ~2,4 d < 5 d, 4 pacotes sem dono de revisão) e Allan não declarou fechado. Detalhes em data/molde/pendente.md; nova checagem 30/10.
