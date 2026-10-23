@@ -85,3 +85,4 @@ Seguidores 21/10 07:15: FB 8 (+3 em 7 dias; +1 hoje, Zernio), IG 0 (Zernio), Tik
 | 0818f1/081828 | FA+IN | 10-21 17:29 | cartão de imagem | Erro 1 de 7 (série 7 erros) | "Siga para ver os próximos" | n/a | cartão | n/d | FB e IG: alcance 0, 0 views (14h); FB e IG no mesmo minuto | PERDEU (parcial; n=1 par) |
 
 Seguidores 22/10 07:55: FB 8 (+3 em 7 dias, Zernio), IG 0, TikTok 19 (Allan 20/10; Buffer não informa).
+| 2026-10-22 21:45 | Balanço guerrilha: TikTok 19, Instagram 0, Facebook 8 seguidores (FB seguindo 49; IG 60 posts) |
