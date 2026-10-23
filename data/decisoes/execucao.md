@@ -1,5 +1,5 @@
 # Livro de Execução de Decisões (fonte única: decidiu = entra aqui = vira tarefa com dono e prazo)
-**ATRASADAS: 14** (23/10 06:57 Fortaleza) — D02, D08, E07, E09, E11, E13, E14, E15, E16, E23, E25, E26, E31, E46 (E42 expirada→E48). Contagem: feitas 22, superadas 2, só Allan 2 (A02, E13), decididas abertas ~26. Painel de Decisões sem resposta nova do Allan (rev 16, 0 comentários) | Operação 22/10 21:50: E42 EXPIRADA; E33 fechada; IDs D01/D02 de 22/10 renomeados D11/D12.
+**ATRASADAS: 11** (23/10 07:25 Fortaleza) — D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31 (E42 expirada→E48). Contagem: feitas 28 (+E07, E16, E46, E47 parcial, E49, E32 parcial nesta rodada), superadas 2, só Allan 2 (A02, E13), decididas abertas ~22. Painel de Decisões sem resposta nova do Allan (rev 16, 0 comentários) | Operação 22/10 21:50: E42 EXPIRADA; E33 fechada; IDs D01/D02 de 22/10 renomeados D11/D12.
 Regra (Allan, 16/10/2026): decidiu, vai fazer. Nenhuma decisão fica só na conversa ou no Painel.
 Status: decidido -> em execução -> feito (com evidência) | bloqueado (só o Allan; diz o passo exato).
 Quem roda: o Executor de Decisões (nuvem, diário 06:53 Fortaleza). Dono "Allan" só para login, 2FA, compra, identidade.
