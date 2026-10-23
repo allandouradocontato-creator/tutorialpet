@@ -7,15 +7,15 @@ temas:
     dor: "tapete sujo, xixi fora do lugar"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "tapete higienico cachorro", status: ideia}
-      - {tipo: afiliado, busca_shopee: "educador sanitario cachorro spray", status: ideia}
+      - {tipo: afiliado, nome: "Tapete higiênico lavável R$19,59", link: "https://s.shopee.com.br/80DeUBPsiG", busca_shopee: "tapete higienico cachorro", status: link_gerado}
+      - {tipo: afiliado, nome: "Sanitário + educador xixi sim/não R$17,90 (sem spray)", link: "https://s.shopee.com.br/7VHNtIiMzi", busca_shopee: "educador sanitario cachorro spray", status: link_gerado}
   - tema: "lugar seguro e confortável para dormir (caminha)"
     artigo_existente: null
     dor: "cão ou gato sem lugar próprio, ansioso, dorme mal"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "caminha cachorro", status: ideia}
-      - {tipo: afiliado, busca_shopee: "caminha gato", status: ideia}
+      - {tipo: afiliado, nome: "Casinha+caminha N3 R$39,69", link: "https://s.shopee.com.br/1BNKLlm7eA", busca_shopee: "caminha cachorro", status: link_gerado}
+      - {tipo: afiliado, nome: "Caminha suspensa gatos R$50,34", link: "https://s.shopee.com.br/70L7IX7AoH", busca_shopee: "caminha gato", status: link_gerado}
   - tema: "cachorro sozinho em casa"
     artigo_existente: quanto-tempo-um-cachorro-pode-ficar-sozinho
     dor: "ansiedade de separação"
@@ -28,70 +28,70 @@ temas:
     dor: "não sabe qual ração escolher, medo de errar"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "racao filhote cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Ração Quatree Life filhote 3kg R$67,90", link: "https://s.shopee.com.br/9zyisLo4rc", busca_shopee: "racao filhote cachorro", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "racao premium filhote", status: ideia}
   - tema: "trocar a ração do cachorro sem dar diarreia"
     artigo_existente: como-trocar-a-racao-do-cachorro
     dor: "troca de ração que desanda; dúvida de transição"
     intencao: 3
     produtos:
-      - {tipo: afiliado, busca_shopee: "pote hermetico racao", status: ideia}
-      - {tipo: afiliado, busca_shopee: "racao filhote cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Kit potes herméticos 2L R$21,32", link: "https://s.shopee.com.br/1gJax4NOU2", busca_shopee: "pote hermetico racao", status: link_gerado}
+      - {tipo: afiliado, nome: "Ração Quatree Life filhote 3kg R$67,90", link: "https://s.shopee.com.br/9zyisLo4rc", busca_shopee: "racao filhote cachorro", status: link_gerado}
   - tema: "comedouro e bebedouro certos para o pet"
     artigo_existente: como-acostumar-gato-adulto-com-novo-comedouro
     dor: "gato ou cão recusa o pote, come rápido demais"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "comedouro gato", status: ideia}
-      - {tipo: afiliado, busca_shopee: "comedouro slow feeder cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Comedouro elevado gatos R$5,99", link: "https://s.shopee.com.br/4LKM7fPFRu", busca_shopee: "comedouro gato", status: link_gerado}
+      - {tipo: afiliado, nome: "Comedouro lento anti-gula R$15,00", link: "https://s.shopee.com.br/BUnAZ0dvI", busca_shopee: "comedouro slow feeder cachorro", status: link_gerado}
   - tema: "fazer o gato beber mais água (fonte)"
     artigo_existente: como-fazer-o-gato-beber-mais-agua
     dor: "gato bebe pouco e o tutor se preocupa"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "fonte bebedouro gato", status: ideia}
+      - {tipo: afiliado, nome: "Fonte bebedouro gatos 1,2L R$29,90", link: "https://s.shopee.com.br/8V9v5D7kIB", busca_shopee: "fonte bebedouro gato", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "bebedouro eletrico pet", status: ideia}
   - tema: "arranhador para gato"
     artigo_existente: arranhador-para-gato-qual-escolher
     dor: "gato arranha o sofá e a casa"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "arranhador gato", status: ideia}
+      - {tipo: afiliado, nome: "Arranhador 2 pçs protetor de sofá R$65,42", link: "https://s.shopee.com.br/4fxCWJjJ7e", busca_shopee: "arranhador gato", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "arranhador poste sisal", status: ideia}
   - tema: "gato arranhando o sofá"
     artigo_existente: gato-arranhando-o-sofa
     dor: "móvel destruído"
     intencao: 4
     produtos:
-      - {tipo: afiliado, busca_shopee: "arranhador gato", status: ideia}
+      - {tipo: afiliado, nome: "Arranhador 2 pçs protetor de sofá R$65,42", link: "https://s.shopee.com.br/4fxCWJjJ7e", busca_shopee: "arranhador gato", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "spray anti arranhao gato", status: ideia}
   - tema: "areia higiênica para gato"
     artigo_existente: melhor-areia-para-gato-como-escolher
     dor: "cheiro, poeira e gasto com areia"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "areia higienica gato", status: ideia}
-      - {tipo: afiliado, busca_shopee: "areia silica gato", status: ideia}
+      - {tipo: afiliado, nome: "Areia higiênica Gatíssimo R$15,99", link: "https://s.shopee.com.br/7VHNtYy6yX", busca_shopee: "areia higienica gato", status: link_gerado}
+      - {tipo: afiliado, nome: "Areia sílica Chalesco R$33,90", link: "https://s.shopee.com.br/9Kj24yceUK", busca_shopee: "areia silica gato", status: link_gerado}
   - tema: "caixa de areia do gato (montar e limpar)"
     artigo_existente: como-limpar-caixa-de-areia-do-gato
     dor: "caixa suja, cheiro na casa"
     intencao: 4
     produtos:
-      - {tipo: afiliado, busca_shopee: "caixa de areia gato", status: ideia}
+      - {tipo: afiliado, nome: "Caixa de areia grande R$23,90", link: "https://s.shopee.com.br/80DeUUVCPi", busca_shopee: "caixa de areia gato", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "pa higienica gato", status: ideia}
   - tema: "coleira ou peitoral para cachorro"
     artigo_existente: coleira-ou-peitoral-para-cachorro
     dor: "cão puxa a guia, medo de machucar o pescoço"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "peitoral cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Peitoral FlyHarness com guia R$41,49", link: "https://s.shopee.com.br/4B0vvWZ6wJ", busca_shopee: "peitoral cachorro", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "guia peitoral antipuxao", status: ideia}
   - tema: "brinquedos para cachorro que fica sozinho"
     artigo_existente: brinquedos-para-cachorro-que-fica-sozinho
     dor: "cão entediado destrói a casa"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "brinquedo interativo cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Mordedor ovo maluco R$14,50", link: "https://s.shopee.com.br/3VlF7zIvWX", busca_shopee: "brinquedo interativo cachorro", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "kong recheavel cachorro", status: ideia}
       - {tipo: afiliado, busca_shopee: "mordedor cachorro", status: ideia}
   - tema: "brinquedos interativos para cães ansiosos"
@@ -99,14 +99,14 @@ temas:
     dor: "cão ansioso sem o que fazer"
     intencao: 4
     produtos:
-      - {tipo: afiliado, busca_shopee: "tapete de lamber cachorro", status: ideia}
-      - {tipo: afiliado, busca_shopee: "brinquedo interativo cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Tapete de lamber Pet Games R$34,99", link: "https://s.shopee.com.br/5LCtJqUYei", busca_shopee: "tapete de lamber cachorro", status: link_gerado}
+      - {tipo: afiliado, nome: "Mordedor ovo maluco R$14,50", link: "https://s.shopee.com.br/3VlF7zIvWX", busca_shopee: "brinquedo interativo cachorro", status: link_gerado}
   - tema: "caixa de transporte para gato"
     artigo_existente: caixa-de-transporte-para-gato
     dor: "viagem e ida ao veterinário estressantes"
     intencao: 5
     produtos:
-      - {tipo: afiliado, busca_shopee: "caixa transporte gato", status: ideia}
+      - {tipo: afiliado, nome: "Caixa de transporte gato R$28,44", link: "https://s.shopee.com.br/8fTLH4nDe2", busca_shopee: "caixa transporte gato", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "caixa transporte pet", status: ideia}
   - tema: "enxoval para filhote de cachorro"
     artigo_existente: enxoval-para-filhote-de-cachorro
@@ -122,28 +122,28 @@ temas:
     intencao: 5
     produtos:
       - {tipo: afiliado, busca_shopee: "kit gatinho", status: ideia}
-      - {tipo: afiliado, busca_shopee: "caixa de areia gato", status: ideia}
-      - {tipo: afiliado, busca_shopee: "arranhador gato", status: ideia}
+      - {tipo: afiliado, nome: "Caixa de areia grande R$23,90", link: "https://s.shopee.com.br/80DeUUVCPi", busca_shopee: "caixa de areia gato", status: link_gerado}
+      - {tipo: afiliado, nome: "Arranhador 2 pçs protetor de sofá R$65,42", link: "https://s.shopee.com.br/4fxCWJjJ7e", busca_shopee: "arranhador gato", status: link_gerado}
   - tema: "cortar unha do cachorro"
     artigo_existente: como-cortar-unha-de-cachorro
     dor: "medo de ferir o cão"
     intencao: 4
     produtos:
-      - {tipo: afiliado, busca_shopee: "cortador de unha cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Kit alicate + lixa pet R$13,99", link: "https://s.shopee.com.br/7VHNtt3EP8", busca_shopee: "cortador de unha cachorro", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "lixa unha pet", status: ideia}
   - tema: "escovar os dentes do cachorro"
     artigo_existente: como-escovar-os-dentes-do-cachorro
     dor: "mau hálito, tártaro (orientar veterinário)"
     intencao: 4
     produtos:
-      - {tipo: afiliado, busca_shopee: "escova de dente cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Kit 2 dedeiras + gel dental R$21,90", link: "https://s.shopee.com.br/4qGcj2KpnD", busca_shopee: "escova de dente cachorro", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "kit higiene bucal pet", status: ideia}
   - tema: "banho no gato"
     artigo_existente: como-dar-banho-em-gato
     dor: "gato estressado no banho"
     intencao: 3
     produtos:
-      - {tipo: afiliado, busca_shopee: "shampoo gato", status: ideia}
+      - {tipo: afiliado, nome: "Banho a seco gatos 300ml R$13,90", link: "https://s.shopee.com.br/50a2vOaaOE", busca_shopee: "shampoo gato", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "toalha microfibra pet", status: ideia}
   - tema: "chorar à noite do filhote (lugar de dormir)"
     artigo_existente: como-evitar-que-o-filhote-chore-a-noite
@@ -151,20 +151,20 @@ temas:
     intencao: 4
     produtos:
       - {tipo: afiliado, busca_shopee: "caminha filhote", status: ideia}
-      - {tipo: afiliado, busca_shopee: "caminha cachorro", status: ideia}
+      - {tipo: afiliado, nome: "Casinha+caminha N3 R$39,69", link: "https://s.shopee.com.br/1BNKLlm7eA", busca_shopee: "caminha cachorro", status: link_gerado}
   - tema: "rampa pet para sofá e cama"
     artigo_existente: null
     dor: "cão idoso ou pequeno não alcança a cama"
     intencao: 4
     produtos:
-      - {tipo: afiliado, busca_shopee: "rampa pet", status: ideia}
+      - {tipo: afiliado, nome: "Escada pet 3 degraus R$79,90", link: "https://s.shopee.com.br/7puEIKsfIn", busca_shopee: "rampa pet", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "escada pet sofa", status: ideia}
   - tema: "cinto de segurança e transporte no carro"
     artigo_existente: null
     dor: "viagem de carro com o pet"
     intencao: 3
     produtos:
-      - {tipo: afiliado, busca_shopee: "cinto seguranca pet carro", status: ideia}
+      - {tipo: afiliado, nome: "Encaixe cinto de segurança + guia R$19,01", link: "https://s.shopee.com.br/2Vshvpzg66", busca_shopee: "cinto seguranca pet carro", status: link_gerado}
       - {tipo: afiliado, busca_shopee: "capa banco carro pet", status: ideia}
   - tema: "melhores tipos de comedouros slow feed para caes ansiosos"
     artigo_existente: null
