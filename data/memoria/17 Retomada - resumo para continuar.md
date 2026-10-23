@@ -59,3 +59,11 @@ Contagem: decididas abertas ~22 / feitas 28 / atrasadas 11 (D02, D08, E09, E11, 
 Feito agora (com commit): E07 (config conferida), E16 (hashtags FB/IG ≤3 no agent.py), E46 (regra IG meme em estrategia_social.yaml), E47 (publicar_blog.yml: rebase --abort, -X theirs, issues: write; falta run verde), E49 (regra de ID no prompt do Executor), E32 (commit parcial no 1º minuto).
 Não feito de propósito: nada que publique/agende (E35/E40 adicionar slugs a blog_aprovados e disparar publicar_blog ficam com o Conferente; E25/E14/E15 mexem na fila do Buffer/Zernio = agendar); rotinas desligadas em 22/10 16:41Z continuam desligadas (D02 Importador, E09 Atendente 3x/dia) até o Allan decidir após o lembrete de 23/10 14:00. E31 (prompt do Estrategista) não confirmado: rotina Estrategista fora da 1ª página de list_triggers.
 
+
+## Retomada 23/10 17:35 — Vídeo 1 (escovar dentes) e Shopee
+- Vídeo 1 pronto, NÃO publicado: V1e_Duda_so_gancho_fotos.mp4 (Duda só no gancho com rótulo IA; meio com fotos oficiais do kit + clipes de banco; CTA só voz). Regra do Allan: gesto repetido = tira a imagem da Duda e fica só a voz.
+- Falhas do V1e a corrigir: poucos cachorros, fotos estáticas, cachorro repetido. Plano: 3-4 clipes de cachorro feliz por cena (Pexels), conferir 1 quadro de cada, sem repetir, alternar foto e clipe, cortes mais rápidos. Regra 29 criada (nada triste/abrigo).
+- Shopee: kit "Kit Higiene Dental Pet Clean" (R$ 24,79). Link de afiliado gerado no painel (affiliate.shopee.com.br/offer/custom_link): https://s.shopee.com.br/LoEj8JFZW. Os 7 vídeos do anúncio são de clientes (não usar). Fotos do fabricante: Allan acredita que o programa permite; conferir regras no painel antes de publicar.
+- Preço R$ 27 (âncora R$ 97) é do e-book Sozinho em Casa, NÃO do kit da Shopee: legendas separadas. Corrigir R$ 9,90 antigo.
+- Maestros da IA: procurar skill/agente EDITOR DE VÍDEO / b-roll para não gastar tempo aprendendo a editar. Faltam ≈76 de 121 skills (parei em "Sonda"); sem o link da comunidade na memória. Pedir o link ao Allan (área de membros) e continuar de lá; anotar Prumo/Emissário/Sonda e plano "Portão de Gasto".
+- Pendentes: React 2 (referência viral TikTok + crédito), cachorra poodle fixa (nome), gestos variados da Duda, lembrete Configurações > Uso (print), nada de publicar sem "pode publicar".
