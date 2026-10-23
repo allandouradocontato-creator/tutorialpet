@@ -1,0 +1,31 @@
+{
+  "slug": "como-escolher-comedouro-duplo-elevado-para-gatos-idosos",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-23T00:16:26+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-comedouro-duplo-elevado-para-gatos-idosos",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "gancho repetido de um dos últimos 5 vídeos (abertura_dor)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (gr0za-happy-happy-music-569345.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie gato: 6/6 quadros conferem"
+    ],
+    "em": "2026-10-23T00:19:03+00:00"
+  }
+}
