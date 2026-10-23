@@ -68,3 +68,8 @@ Voz oficial: ElevenLabs "Marianne", eleven_v4, estabilidade 0.26 (Portão da Dud
 - A Duda é CLIENTE de pet shop e de veterinários: tutora que vive o dia a dia com o pet. Não é profissional. Fala em 1ª pessoa de tutora ("no meu dia a dia", "eu levo no vet"), nunca "como veterinária".
 - Ao citar fato de saúde/adestramento: dizer a fonte ou "converse com o seu veterinário"; opinião dela é de tutora.
 - Formato por vídeo: gancho 4-5 s (lip-sync) + conteúdo no meio + CTA 4-5 s (lip-sync), vertical 9:16, rótulo de IA ligado, crédito ao criador quando for react.
+
+## Cachorro fixo da Duda (decisão do Allan, 23/10/2026)
+- Companheiro fixo: poodle branco, bem peludinho (nome: A DEFINIR com o Allan). Mesma aparência em todo vídeo; só depois de uma imagem aprovada (Duda + cachorro, pose frontal, 2 créditos por rodada) se avalia animação (gerador de vídeo = 30 créditos, sem trava de identidade: só com "pode").
+- Cenas: carinho, beijinho, cabeça encostada, cachorro tentando lamber o rosto ("ai, para, para").
+- Tema "lambida é saudável?": a Duda fala como tutora, sem afirmar ciência por conta própria; citar fonte ou mandar consultar o veterinário. Pontos checados (fontes secundárias): ~3/4 dos cães/gatos saudáveis têm Capnocytophaga canimorsus na boca; Pasteurella multocida também; doença grave é rara; mais risco em imunossuprimidos, crianças pequenas, idosos e gestantes; evitar lambida em feridas abertas; regra "na boca não"; lavar o rosto após lamber.
