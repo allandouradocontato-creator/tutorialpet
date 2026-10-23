@@ -37,3 +37,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 23. Todo passo de push na main com repetição precisa abortar o rebase antes de tentar de novo; ação cujo dono é "sessão do Allan" não existe: ou é rotina da nuvem em item ainda não agendado, ou é pedido real ao Allan. ID novo no livro = próximo ID livre (grep), nunca de memória.
 
 24. Agente/rotina sem prova de uso vai para RESERVA (gatilho desligado, prompt guardado) se custar 0 crédito; se gasta à toa, é EXCLUÍDO; só volta com ensaio aprovado por Juiz de Qualidade separado (nota ≥ 7). Teste: resultado em horas ou no mesmo dia, nunca veredito empurrado para 2-3 dias. Material com foto (e-book, app) passa por revisão página a página do Allan antes de publicar.
+
+25. Padrão do personagem: a Duda só sai do avatar "Duda" do HeyGen (lip-sync ou Turbo) ou de looks do mesmo avatar, nunca de gerador genérico de vídeo por texto. Antes de gastar em movimento: imagem parada (≈1 crédito) conferida contra a foto-mestre (mesmo rosto, claramente adulta). Teste de crédito > 10 créditos só com o "pode" do Allan depois de ver o preço. Todo vídeo da Duda sai em −14 LUFS medido.
