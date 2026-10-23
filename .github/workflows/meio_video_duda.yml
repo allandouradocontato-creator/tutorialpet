@@ -1,0 +1,49 @@
+name: Meio do video (voz Marianne + clipes Pexels) para o formato Duda gancho/CTA
+# Gera a narracao do MEIO (cenas 2..N do roteiro) e baixa 1 clipe vertical por cena. Guarda como artefato.
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "slug do roteiro em data/social/roteiros"
+        required: true
+permissions:
+  contents: read
+jobs:
+  meio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          SLUG: ${{ github.event.inputs.slug }}
+          PYTHONPATH: .
+        run: |
+          mkdir -p out
+          python3 - <<'PY'
+          import importlib.util, json, os
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          r = json.load(open(f"data/social/roteiros/{os.environ['SLUG']}.json", encoding="utf-8"))
+          cenas = r["cenas"][1:]
+          txt = " ".join(c["narracao"] for c in cenas)
+          ok = m._tts_elevenlabs(txt, Path("out/meio.mp3"))
+          print("voz", "OK" if ok else "FALHOU")
+          chave = os.environ.get("PEXELS_API_KEY", "")
+          info = []
+          for i, c in enumerate(cenas):
+              arqs = m.pexels_videos(c["visual_busca_banco_livre"], chave, 1, Path("out"), f"clip{i}")
+              info.append({"i": i, "busca": c["visual_busca_banco_livre"], "texto_na_tela": c["texto_na_tela"], "narracao": c["narracao"], "arq": [a.name for a in arqs]})
+          json.dump(info, open("out/info.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: meio-${{ github.event.inputs.slug }}
+          path: out
+          retention-days: 3
