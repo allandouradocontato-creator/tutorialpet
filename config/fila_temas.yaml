@@ -213,7 +213,8 @@ temas:
   data: '2026-10-23'
 - termo: como escolher coleira com rastreador gps para cachorro
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-23'
 - termo: como armazenar racao de cachorro para nao perder nutrientes
   pilar: alimentacao
   status: pendente
@@ -722,4 +723,13 @@ temas:
   status: pendente
 - termo: como ensinar comandos basicos para cachorro idoso adotado
   pilar: comportamento
+  status: pendente
+- termo: como evitar que gatos idosos derrubem a agua da fonte
+  pilar: produtos_compras
+  status: pendente
+- termo: como ensinar cotes de estimulo mental para caes de familia
+  pilar: comportamento
+  status: pendente
+- termo: o que colocar no enxoval de um filhote de gato
+  pilar: primeiros_passos_filhotes
   status: pendente
