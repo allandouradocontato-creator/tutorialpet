@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como escovar pelo de gato que nao gosta de escova: guia prático",
-    "description": "Aprenda como escovar pelo de gato que nao gosta de escova com um passo a passo simples e prático para aplicar hoje mesmo sem estresse.",
+    "description": "Aprenda como escovar pelo de gato que não gosta de escova com técnicas simples, petiscos e paciência para transformar a rotina em um momento bom.",
     "datePublished": "2026-10-19",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escovar-pelo-de-gato-que-nao-gosta-de-escova"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O que fazer se o gato morder assim que encosto a escova?",
+        "name": "O que fazer se o gato morde a escova durante a tentativa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pare imediatamente, ignore o animal por alguns minutos e tente novamente mais tarde com uma ferramenta mais suave, confirmando com o médico-veterinário se há dor ou sensibilidade na pele.  - **Posso usar escova de cabelo humana no gato?**   Evite. Escovas humanas costumam acumular estática e não penetram corretamente no subpelo, além de poderem machucar a pele sensível do felino.  - **Com que frequência devo tentar escovar um gato arisco?**   Em média, costuma ser ideal fazer sessões diárias curtíssimas de poucos segundos, aumentando o tempo conforme ele aceitar melhor a rotina.  - **Vale a pena usar spray desembaraçador?**   Apenas se for formulado especificamente para felinos e aprovado pelo médico-veterinário do pet, para evitar que o cheiro forte estresse ainda mais o animal."
+          "text": "Interrompa o movimento na mesma hora, retire a escova de perto sem gritar e ofereça um petisco quando ele se acalmar para mudar o foco da atenção dele.  - **Posso molhar a escova para facilitar a remoção do pelo?**   Sim, borrifar um pouco de água morna ou usar escovas levemente úmidas ajuda a reter os pelos soltos e diminui a eletricidade estática que incomoda alguns gatos.  - **Com que frequência devo tentar escovar um gato resistente?**   Faça tentativas diárias de curtíssima duração (menos de um minuto) até que o animal crie tolerância e encare o momento com naturalidade.  - **Preciso forçar a escovação se o gato tiver pelo longo?**   Nunca force, pois isso gera trauma profundo. Se houver nós severos e intransponíveis, leve o gato a um profissional especializado em tosa humanizada para uma remoção segura."
         }
       }
     ]

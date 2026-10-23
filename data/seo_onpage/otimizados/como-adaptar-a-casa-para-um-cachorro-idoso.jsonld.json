@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como adaptar a casa para um cachorro idoso: guia prático",
-    "description": "Como adaptar a casa para um cachorro idoso: guia prático. Conforme o tempo passa, o ritmo do nosso companheiro de quatro patas muda. Cães idosos...",
+    "description": "Como adaptar a casa para um cachorro idoso de forma prática. Conforto, segurança e acessibilidade para cães na terceira idade.",
     "datePublished": "2026-10-14",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-adaptar-a-casa-para-um-cachorro-idoso"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-adaptar-a-casa-para-um-cachorro-idoso.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Meu cachorro idoso não quer mais subir no sofá, devo insistir?",
+        "name": "Como saber se meu cachorro está com dor nas articulações?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não. Respeite os limites físicos dele. O ideal é remover o acesso ou colocar uma rampa segura para que ele decida se quer subir sem forçar as articulações. *   **Qual é a melhor altura para o comedouro elevado?**     Em média, a borda do pote deve ficar na altura do peito do cão, permitindo que ele se alimente com a cabeça reta ou levemente inclinada para baixo, sem curvar a coluna. Confirme a medida ideal com o médico-veterinário do pet. *   **Preciso trocar o local onde ele faz as necessidades?**     Se o tapete higiênico ou a área externa estiver muito longe ou exigir subida de escadas, aproxime o ponto de eliminação para um local de fácil e rápido acesso."
+          "text": "Ele pode apresentar dificuldade para levantar, hesitar antes de subir no sofá, mancar ao acordar ou lamber excessivamente as patas e os cotovelos. Consulte sempre o médico-veterinário para avaliar o uso de analgésicos ou suplementos.  * **Devo elevar os potes de água e comida para o cão idoso?** Sim, comedouros elevados evitam que o cão precise curvar excessivamente o pescoço e a coluna durante as refeições, o que reduz o desconforto cervical.  * **Cachorros idosos precisam de mais banhos por causa de incontinência?** Não necessariamente. Banhos frequentes ressecam a pele sensível; prefira a higiene localizada com lenços umedecidos próprios para pets e toalhas mornas.  * **O que fazer se o cachorro idoso começar a fazer xixi pela casa?** Isso pode indicar infecção urinária, disfunção cognitiva (Alzheimer canino) ou perda de controle esfincteriano. Leve o pet ao veterinário para um diagnóstico preciso e evite dar broncas."
         }
       }
     ]
