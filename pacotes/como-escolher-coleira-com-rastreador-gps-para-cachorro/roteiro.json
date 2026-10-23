@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como Escolher o Rastreador GPS Ideal para Cachorro",
+  "gancho_3s": "Se o medo do seu cachorro fugir continua acontecendo com você, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "Se o medo do seu cachorro fugir continua acontecendo com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Se o medo do seu cachorro fugir continua acontecendo com você, começa por aqui."
+    },
+    {
+      "narracao": "[thoughtful] A tecnologia virou aliada da nossa tranquilidade, mas qual rastreador levar para casa?",
+      "visual_busca_banco_livre": "dog running outdoor park close up",
+      "texto_na_tela": "Qual rastreador escolher?"
+    },
+    {
+      "narracao": "[short pause] Primeiro: entenda a diferença. Etiquetas Bluetooth só funcionam perto de um celular.",
+      "visual_busca_banco_livre": "dog wearing collar close up",
+      "texto_na_tela": "Bluetooth vs GPS real"
+    },
+    {
+      "narracao": "Já o GPS via satélite mostra a localização exata no mapa, não importa a distância.",
+      "visual_busca_banco_livre": "dog looking around alert",
+      "texto_na_tela": "GPS de verdade"
+    },
+    {
+      "narracao": "Segundo: avalie o peso e tamanho. Dispositivo pesado machuca cachorros pequenos.",
+      "visual_busca_banco_livre": "small puppy resting close up",
+      "texto_na_tela": "Atenção ao peso"
+    },
+    {
+      "narracao": "Terceiro: olhe a bateria e a resistência à água para lama e mergulhos.",
+      "visual_busca_banco_livre": "dog playing with water close up",
+      "texto_na_tela": "Bateria e à prova d'água"
+    },
+    {
+      "narracao": "[softly] Se notar vermelhidão ou coceira no pescoço, retire o acessório e procure o médico-veterinário.",
+      "visual_busca_banco_livre": "dog scratching neck close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#cachorro",
+    "#gpspet",
+    "#segurançapet",
+    "#dicapet",
+    "#dicascachorro"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nJá imaginou o desespero se o seu cachorro fugir pelo portão?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-coleira-com-rastreador-gps-para-cachorro\n\n#cachorro #gpspet #segurançapet #dicapet #dicascachorro",
+  "slug": "como-escolher-coleira-com-rastreador-gps-para-cachorro",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 5
+}
