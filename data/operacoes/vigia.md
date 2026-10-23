@@ -1,12 +1,12 @@
-Dados até 2026-10-23 11:30 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
+Dados até 2026-10-23 15:25 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
 | rotina | estado | último run / idade | problema | correção |
 |---|---|---|---|---|
 | 40 rotinas (19 ativas; 21 desligadas por ordem do Allan 22/10) | ok | todas SUCCEEDED; nenhuma next_run vencida; Vigia atual PENDING <10 min (normal) | - | nada (não religar as desligadas) |
-| Zernio FB/IG | ok | 0 em erro; 11 pares agendados | - | - |
-| Buffer TikTok | ok | 0 em erro; 9 agendados até 25/10 23:20Z | - | - |
-| fabrica.yml | ok | verde 14:21Z (idade <10 min); #115 cancelado 12:57Z, superado | - | - |
-| publicar_blog.yml | redisparado | #47 (10:21Z) falhou, #48 verde 11:06Z (idade 3 h 15); issue #8 aberta é do #47 | commit da fábrica 14:15Z aprovou comedouro-duplo com GITHUB_TOKEN: push não dispara o workflow | dispatch REST 14:3xZ; falta SUCCEEDED + página (E34) |
-| blog (ritmo) | abaixo do plano | 2 no ar hoje (sinais-envelhecimento, rampa-pet); plano 4 | xixi-tapete e asfalto-quente caíram em capas_pendentes (sem foto de animal) | CORRIGI: comedouro-duplo (dispatch) + promovi ate-que-ponto-vestir (push) = 4 em voo |
-| AdSense | 4 FALHA | auditoria 07:22 | 2 sem capa, 1 grupo de capas repetidas, 3 de saúde sem fonte (E45 aberta) | sem mudança nesta rodada |
+| Zernio FB/IG | ok | 0 em erro; 10 pares agendados | - | - |
+| Buffer TikTok | ok | 0 em erro; 9 agendados até 26/10 10:20 | - | - |
+| fabrica.yml | ok | verde 18:10Z (idade ~10 min) | - | - |
+| publicar_blog.yml | rodando | #50 verde 14:34Z; #49 "falhou" mas o push entrou (issues #8/#9 abertas são ruído); #51 disparado 18:21Z por mim | - | CORRIGI: promovi 3 aprovados; falta SUCCEEDED + 3 páginas (E34) |
+| blog (ritmo) | abaixo do plano | 2 no ar hoje (sinais-envelhecimento, rampa-pet); plano 4 | comedouro-duplo e xixi-tapete em capas_pendentes (sem foto de animal); ate-que-ponto-vestir saiu de aprovados sem página | promovi coleira-gps, rotina-passeios, escova-dentes-gato (3 em voo) |
+| AdSense | 4 FALHA | auditoria 15:20 | 4 sem capa, 1 grupo de capas repetidas, 3 de saúde sem fonte, buraco 15/09-06/10 | V08 aberta (Redator/Reforço, 24/10) |
 | Reprovados | pendência | guia-peitoral 3/3 | reescrita esgotada | V07 aberta (Redator, 24/10) |
-Idade do último resultado: artigo no ar 3 h 30 (11:06Z); FB/IG/TikTok agendados ok; fábrica <10 min; publicar_blog verde 3 h 15.
+Idade do último resultado: artigo no ar 4 h 15 (11:06Z); FB/IG/TikTok agendados ok; fábrica <10 min; publicar_blog verde 3 h 50.
