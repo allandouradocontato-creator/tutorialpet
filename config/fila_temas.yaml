@@ -209,7 +209,8 @@ temas:
   data: '2026-10-23'
 - termo: como organizar a rotina de passeios para cães de diferentes idades
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-23'
 - termo: como escolher coleira com rastreador gps para cachorro
   pilar: produtos_compras
   status: pendente
@@ -715,4 +716,10 @@ temas:
   status: pendente
 - termo: como montar um jardim vertical pet friendly para gatos curiosos
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como montar um cantinho de alimentacao para casa com caes e gatos
+  pilar: alimentacao
+  status: pendente
+- termo: como ensinar comandos basicos para cachorro idoso adotado
+  pilar: comportamento
   status: pendente

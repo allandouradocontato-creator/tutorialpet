@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Como organizar o passeio do cão por idade",
+  "gancho_3s": "Seu cachorro passeia errado? 3 fases da vida mudam tudo.",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro passeia errado? 3 fases da vida mudam tudo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro passeia errado? 3 fases da vida mudam tudo."
+    },
+    {
+      "narracao": "[thoughtful] Cada fase da vida do seu cachorro exige um ritmo e duração próprios para garantir a saúde dele.",
+      "visual_busca_banco_livre": "dog walking outdoors side view",
+      "texto_na_tela": "Passeio ideal por idade"
+    },
+    {
+      "narracao": "[short pause] Para confirmar os limites físicos do seu bichinho, consulte sempre o médico-veterinário.",
+      "visual_busca_banco_livre": "dog looking healthy close up",
+      "texto_na_tela": "Consulte o veterinário"
+    },
+    {
+      "narracao": "Filhotes precisam de passeios curtos, focados em cheirar e socializar para proteger as articulações.",
+      "visual_busca_banco_livre": "puppy walking on grass sniffing",
+      "texto_na_tela": "Filhotes: curtos e exploratórios"
+    },
+    {
+      "narracao": "Cães adultos pedem passeios estruturados, misturando exercício e gasto de energia com ritmo firme.",
+      "visual_busca_banco_livre": "adult dog running outdoors dynamic",
+      "texto_na_tela": "Adultos: vigor e energia"
+    },
+    {
+      "narracao": "[warmly] Já os idosos querem um passo mais calmo, com caminhadas curtas e foco total no olfato.",
+      "visual_busca_banco_livre": "senior dog walking slowly park",
+      "texto_na_tela": "Idosos: foco no olfato"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. [smiling] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#caes",
+    "#passeiodecachorro",
+    "#filhotes",
+    "#cachorroidoso",
+    "#petlovers"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nA idade do seu cão muda tudo na hora do passeio!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades\n\n#caes #passeiodecachorro #filhotes #cachorroidoso #petlovers",
+  "slug": "como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 4
+}
