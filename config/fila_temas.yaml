@@ -201,7 +201,8 @@ temas:
   data: '2026-10-22'
 - termo: como escolher comedouro duplo elevado para gatos idosos
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-23'
 - termo: como acostumar gato filhote a usar a escova de dentes
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -709,5 +710,8 @@ temas:
   pilar: alimentacao
   status: pendente
 - termo: quais cuidados ter ao escolher roupas para caes de pelo longo
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como montar um jardim vertical pet friendly para gatos curiosos
   pilar: primeiros_passos_filhotes
   status: pendente

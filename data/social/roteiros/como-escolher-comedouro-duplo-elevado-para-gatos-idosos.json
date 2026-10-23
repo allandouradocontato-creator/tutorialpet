@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como escolher comedouro elevado para gatos idosos",
+  "gancho_3s": "Se dor para comer continua acontecendo com seu gato, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Se dor para comer continua acontecendo com seu gato, começa por aqui.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Se dor para comer continua acontecendo com seu gato, começa por aqui."
+    },
+    {
+      "narracao": "[softly] Gatos idosos perdem elasticidade nas articulações e coluna rígida. Abaixar para comer vira um incômodo.",
+      "visual_busca_banco_livre": "old cat sitting alone close up",
+      "texto_na_tela": "Dor ao comer no chão?"
+    },
+    {
+      "narracao": "[short pause] Comedouros elevados alinham a coluna e as patas, trazendo alívio para o corpo dele.",
+      "visual_busca_banco_livre": "senior cat eating from elevated bowl",
+      "texto_na_tela": "Alívio imediato"
+    },
+    {
+      "narracao": "Com o esôfago alinhado, o gato engole menos ar, diminuindo refluxos e engasgos.",
+      "visual_busca_banco_livre": "cat eating happily close up",
+      "texto_na_tela": "Melhora a digestão"
+    },
+    {
+      "narracao": "A altura ideal fica na altura do peito. Modelos inclinados evitam que ele force o pescoço.",
+      "visual_busca_banco_livre": "cat eating from tilted bowl close up",
+      "texto_na_tela": "Altura e inclinação"
+    },
+    {
+      "narracao": "Use o comedouro duplo para separar texturas: ração seca de um lado e sachê no outro.",
+      "visual_busca_banco_livre": "cat food bowls close up",
+      "texto_na_tela": "Ração e sachê separados"
+    },
+    {
+      "narracao": "[smiling] Evite plástico para prevenir acne felina. Prefira cerâmica, inox ou vidro em tigelas rasas.",
+      "visual_busca_banco_livre": "ceramic cat bowl close up",
+      "texto_na_tela": "Evite plástico"
+    }
+  ],
+  "chamada_final": "[warmly] Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "gatos",
+    "gatoidoso",
+    "saudefelina",
+    "dicaspet",
+    "gatosfofos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato idoso sofre para comer no chão?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-comedouro-duplo-elevado-para-gatos-idosos\n\n#gatos #gatoidoso #saudefelina #dicaspet #gatosfofos",
+  "slug": "como-escolher-comedouro-duplo-elevado-para-gatos-idosos",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 2
+}
