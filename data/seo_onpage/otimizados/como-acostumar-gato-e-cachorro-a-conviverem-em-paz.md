@@ -56,7 +56,7 @@ imagem_fonte: pexels
 imagem_fotografo: Valentin Cvetanoski
 imagem_fotografo_url: https://www.pexels.com/@valentin-cvetanoski-2147958923
 imagem_url_pagina: https://www.pexels.com/photo/adorable-kitten-and-dog-interaction-on-sofa-34071784/
-imagem_selecionada_em: '2026-10-22T18:30:44+00:00'
+imagem_selecionada_em: '2026-10-23T23:14:14+00:00'
 imagens_corpo:
 - arquivo: imagens/como-acostumar-gato-e-cachorro-a-conviverem-em-paz-corpo-1.jpg
   alt: como acostumar gato e cachorro a conviverem em paz

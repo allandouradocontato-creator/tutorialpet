@@ -56,7 +56,7 @@ imagem_fonte: pexels
 imagem_fotografo: Vũ Nguyễn
 imagem_fotografo_url: https://www.pexels.com/@vu-nguy-n-2154635959
 imagem_url_pagina: https://www.pexels.com/photo/playful-ginger-cats-resting-indoors-39303360/
-imagem_selecionada_em: '2026-10-22T18:32:25+00:00'
+imagem_selecionada_em: '2026-10-23T23:18:28+00:00'
 ---
 
 # Como introduzir um segundo gato na casa sem brigas: guia prático

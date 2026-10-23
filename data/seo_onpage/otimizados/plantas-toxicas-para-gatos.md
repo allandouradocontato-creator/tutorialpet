@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/plantas-toxicas-para-gatos.jsonld.json
 imagem_capa: imagens/plantas-toxicas-para-gatos.jpg
 imagem_fonte: pexels
-imagem_fotografo: mohamed abdelghaffar
-imagem_fotografo_url: https://www.pexels.com/@moh-adbelghaffar
-imagem_url_pagina: https://www.pexels.com/photo/close-up-of-ginger-cat-with-amber-eyes-29296243/
-imagem_selecionada_em: '2026-10-09T16:59:35+00:00'
+imagem_fotografo: FOX ^.ᆽ.^= ∫
+imagem_fotografo_url: https://www.pexels.com/@fox-58267
+imagem_url_pagina: https://www.pexels.com/photo/domestic-cat-sniffing-a-potted-houseplant-30319465/
+imagem_selecionada_em: '2026-10-23T23:27:02+00:00'
 ---
 
 # Plantas tóxicas para gatos: guia prático
