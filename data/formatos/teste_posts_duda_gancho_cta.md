@@ -13,3 +13,10 @@ Look: quarto com camiseta preta. Meio: vídeo de referência com crédito visív
 - Gancho (Duda): "[excited] Olha gente, olha só o que aconteceu aqui! Que coisa mais fofa."
 - CTA (Duda): "[softly] Olha como eles dão amor de graça pra gente. O seu faz isso? Comenta aqui!"
 Crédito: "Vídeo original: @criador" no canto durante todo o trecho.
+
+## Resultado do Vídeo 1 (23/10/2026, madrugada, feito sem o Allan)
+- Pronto e NÃO publicado: Downloads/V1_completo_Duda_escovacao.mp4 (42 s, 1080x1920, -13,6 LUFS, pico -1,5 dB). Aguarda ok e "pode publicar" do Allan.
+- Custo HeyGen: 2 créditos (gancho 1 + CTA 1, lip-sync com áudio Marianne externo, Voice Mirroring desligado). Prévia gratuita existe ("Prévia gratuita") mas leva ~3-4 min.
+- Meio: workflow `meio_video_duda.yml` (voz Marianne das cenas 2..N + 1 clipe Pexels vertical por cena); montagem com ffmpeg (texto em 2 linhas por textfile, rótulo "Duda é uma personagem criada com IA" nos blocos dela, ducking da música puppy-paws).
+- Achados: (1) o roteiro da fila trazia "cães" na narração: o workflow agora troca cão/cães por cachorro(s); (2) drawtext do ffmpeg corta o texto no ":" (usar textfile); (3) clipes de banco livre não mostram escovação de dentes (só cachorros genéricos); melhorar a busca; (4) legenda ainda com preço antigo R$ 9,90: trocar para R$ 27 antes de publicar.
+- Falta: react (vídeo 2) e escolha do vídeo viral; cachorro fixo da Duda (poodle branco); Maestros (parado em Sonda).
