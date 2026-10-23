@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como organizar a rotina de passeios para cães de diferentes idades: guia prático",
+    "description": "Como organizar a rotina de passeios para cães de diferentes idades: guia prático. Organizar a rotina de passeios para cães vai muito além de abrir a...",
+    "datePublished": "2026-10-23",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso pular o passeio se estiver chovendo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O ideal é manter a rotina adaptando o tempo ou focando em atividades internas e brincadeiras para gastar energia mentalmente.  * **Qual é o melhor horário para passear nos dias quentes?** Prefira sempre o início da manhã (antes das 9h) e o final da tarde (após as 17h), testando sempre a temperatura do asfalto com as costas da sua mão antes de expor as patas do pet.  * **Preciso dar água durante o passeio?** Sim, especialmente em dias quentes ou em caminhadas longas com cães adultos, leve sempre um bebedouro portátil com água fresca.  * **Como saber se o passeio foi longo demais para o meu cão?** Sinais como respiração excessivamente ofegante, lentidão para acompanhar o passo, puxar para voltar para casa ou deitar no meio do caminho indicam que o limite foi ultrapassado."
+        }
+      }
+    ]
+  }
+}

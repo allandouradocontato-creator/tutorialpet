@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher coleira com rastreador gps para cachorro: guia prático",
+    "description": "Como escolher coleira com rastreador gps para cachorro: guia prático. Já parou para pensar no frio na barriga que dá só de imaginar o portão aberto e o...",
+    "datePublished": "2026-10-23",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-coleira-com-rastreador-gps-para-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-coleira-com-rastreador-gps-para-cachorro"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-coleira-com-rastreador-gps-para-cachorro.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O rastreador GPS precisa de mensalidade?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Muitos aparelhos exigem uma assinatura mensal, semelhante à de um plano de celular, para manter a conexão com os satélites e a internet ativa. * **Existe rastreador sem mensalidade que funciona de verdade?**   Sim, existem tags que usam redes colaborativas de smartphones, mas elas dependem de outras pessoas passarem perto do seu cão para atualizar a posição. * **O cachorro pode engolir ou morder o rastreador?**   Se o aparelho ficar solto ou balançando muito, cães ansiosos podem tentar mastigá-lo. Prefira modelos que encaixam de forma firme e travada direto na fita da coleira. * **Quando devo procurar o veterinário se o cão estranhar a coleira?**   Se notar vermelhidão, coceira constante ou feridas na pele do pescoço, retire o acessório imediatamente e peça orientação ao médico-veterinário da sua confiança."
+        }
+      }
+    ]
+  }
+}
