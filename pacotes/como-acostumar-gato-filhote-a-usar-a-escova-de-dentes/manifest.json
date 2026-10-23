@@ -1,0 +1,31 @@
+{
+  "slug": "como-acostumar-gato-filhote-a-usar-a-escova-de-dentes",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-23T14:13:51+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-acostumar-gato-filhote-a-usar-a-escova-de-dentes",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "gancho repetido de um dos últimos 5 vídeos (abertura_problema_pet)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie gato: 5/5 quadros conferem [cf]"
+    ],
+    "em": "2026-10-23T14:17:21+00:00"
+  }
+}
