@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -15,12 +15,12 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T22:39:51+00:00'
+revisado_em: '2026-10-23T06:45:46+00:00'
 checagens_qualidade: []
 titulo_seo: Como evitar a obesidade em gatos castrados de apartamento
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T22:39:51+00:00'
+otimizado_em: '2026-10-23T06:45:46+00:00'
 checagens_seo:
 - título original (71 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -40,6 +40,21 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento.jsonld.json
+imagem_capa: imagens/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento.jpg
+imagem_fonte: pexels
+imagem_fotografo: 大 董
+imagem_fotografo_url: https://www.pexels.com/@724211268
+imagem_url_pagina: https://www.pexels.com/photo/relaxed-gray-tabby-cat-lounging-by-the-window-33585484/
+imagem_selecionada_em: '2026-10-23T06:45:46+00:00'
+imagens_corpo:
+- arquivo: imagens/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento-corpo-1.jpg
+  alt: 'como evitar a obesidade em gatos castrados de apartamento'
+  fotografo: 'Alberta Studios'
+  fonte_url: 'https://www.pexels.com/photo/photo-of-a-cat-10790434/'
+- arquivo: imagens/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento-corpo-2.jpg
+  alt: 'como evitar a obesidade em gatos castrados de apartamento'
+  fotografo: '大 董'
+  fonte_url: 'https://www.pexels.com/photo/calm-domestic-cat-relaxing-by-the-window-33585487/'
 ---
 
 # Como evitar a obesidade em gatos castrados de apartamento: guia prático

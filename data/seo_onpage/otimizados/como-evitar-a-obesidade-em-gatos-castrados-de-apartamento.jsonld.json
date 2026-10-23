@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

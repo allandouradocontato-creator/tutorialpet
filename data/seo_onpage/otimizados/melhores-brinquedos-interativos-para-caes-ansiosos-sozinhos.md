@@ -15,12 +15,12 @@ autor: ''
 atualizado_em: '2026-10-22'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-22T22:39:51+00:00'
+revisado_em: '2026-10-23T06:42:15+00:00'
 checagens_qualidade: []
 titulo_seo: Melhores brinquedos interativos para cães ansiosos
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-22T22:39:51+00:00'
+otimizado_em: '2026-10-23T06:42:16+00:00'
 checagens_seo:
 - título original (73 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -40,6 +40,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos.jsonld.json
+imagem_capa: imagens/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos.jpg
+imagem_fonte: pexels
+imagem_fotografo: Vinícius Cezário
+imagem_fotografo_url: https://www.pexels.com/@vinicius-cezario-87687338
+imagem_url_pagina: https://www.pexels.com/photo/a-dachshund-puppy-biting-a-small-ball-9480612/
+imagem_selecionada_em: '2026-10-23T06:42:16+00:00'
 ---
 
 # Melhores brinquedos interativos para cães ansiosos sozinhos: guia prático

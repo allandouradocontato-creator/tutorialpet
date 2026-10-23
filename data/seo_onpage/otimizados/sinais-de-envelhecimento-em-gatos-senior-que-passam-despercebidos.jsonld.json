@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Sinais de envelhecimento em gatos senior que passam despercebidos: guia prático",
+    "description": "Sinais de envelhecimento em gatos senior que passam despercebidos: guia prático. Os gatos possuem uma habilidade evolutiva notável. Eles conseguem...",
+    "datePublished": "2026-10-16",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A partir de qual idade o gato é considerado idoso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Felinos entre 7 e 10 anos são maduros. A partir dos 10 ou 11 anos entram na fase sênior, quando exames preventivos são recomendados pelo veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É normal o gato sênior miar muito sem motivo aparente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é normal. Miados frequentes à noite podem indicar dor crônica, desorientação cognitiva ou perda sensorial. Busque um veterinário."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Por que o gato idoso fica com o pelo embolado nas costas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Com a perda de flexibilidade, o felino sente dor ao se dobrar para a higiene, necessitando de escovações diárias suaves feitas pelo tutor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O gato idoso precisa comer ração específica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma ser indicada uma alimentação adaptada com menor teor de sódio e fósforo. Qualquer transição deve ser orientada pelo médico-veterinário.  ---"
+        }
+      }
+    ]
+  }
+}
