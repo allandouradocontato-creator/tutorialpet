@@ -21,3 +21,6 @@
 ## Limites
 - Sem enquete até a porta (J4 de blog_adsense_4_semanas.md); regras de plataforma em plataforma_google_seo_adsense.md (quem a usa é o SEO).
 - Texto público só depois de ficha aprovada (regras_de_ouro 11); sem alegação médica/veterinária; links só do domínio do Allan.
+
+## Atualização 23/10/2026 (Removedor de Gargalos)
+- E35 (promover cinto, asfalto, caixa-de-transporte em 23/10) está aberta: cinto e caixa já aparecem como agendado, asfalto segue aguardando_revisao há 168 h sem aprovação. Reforço em E56. Próximo diretor: segunda 26/10 11:37 (lacuna de 3 dias sem diretor; o Vigia cobre a promoção nesse intervalo).

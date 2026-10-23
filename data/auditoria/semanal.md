@@ -1,3 +1,9 @@
+# Gargalos — semana 2026-10-23 (Removedor de Gargalos, 1ª rodada, funil em data/auditoria/funil.csv)
+- Gargalo nº 1: pacote em aguardando_revisao (4 parados, mais antigo 195 h; 3 reais de 142-168 h, Guardião=revisar, sem aprovado_por). Causa (d/rotina): ninguém dono de revisar e promover; Vigia promove só 2/3 por rodada.
+- Feito: funil medido (8 etapas, 1 não medida), curl 404 em comedouro-duplo e xixi-tapete, 200 nos outros 10 aprovados; ficha E56 (dono Vigia/Conferente, 24/10); régua 7: juiz_de_qualidade e audiencia_ganchos_e_cadencia saíram de rascunho.
+- Não feito de propósito: promover slugs a blog_aprovados (dispara publicar_blog = publicar).
+- Estoque: Zernio até 25/10 23:00Z (~2,4 d), Buffer TikTok até 25/10 23:20Z (~2,5 d); sem post em erro. Próximos: (2) estoque de posts no limite de 2 d; (3) 4 rascunhos reprovados (V07 e 3 sem reescrita).
+
 Dados até 2026-10-20 10:55 (Fortaleza) — Zernio (FB/IG), Buffer (TikTok), Actions (logs reais), manifest da media, 14 rotinas, código do blog e do app lidos agora. Site ao vivo NÃO aberto (WebFetch recusado): HTTP dos artigos conferido só pelo build na main.
 # Auditoria semanal — 2026-10-20 (Otimizador de Processo)
 

@@ -13,3 +13,8 @@ Custo de credito conhecido: nao conhecido (rotina na nuvem nao verificada por li
 - Regra de troca: se o número não cair, trocar de abordagem (skill) e abrir linha E.. em vez de repetir a correção.
 **Lacunas:** nunca rodou; não achei no repositório a rotina na nuvem agendada para ele (list_triggers não consultado); o prompt diz "semanal", contra horas; não está em departamentos.md; nenhum prompt (Vigia, Diretor) o chama; E39 (aprovação automática) está pendente com ele.
 **Nota de robustez (0–5) e por quê:** 1. Skill e prompt escritos hoje, sem rodada, sem funil.csv, sem aprendizado.
+
+## Atualização 23/10/2026 (1ª rodada real)
+- Prova: data/auditoria/funil.csv (8 etapas, 7 medidas), linha em aprendizado/remocao_de_gargalos.md, ficha E56 em execucao.md, bloco em semanal.md. Rodou como rotina de nuvem (sessão agendada), sem o Allan.
+- Nota de robustez: 2 (era 1). Sobe porque há saída em arquivo; não passa de 2 até o Juiz (nota ≥ 7) julgar a rodada e a de 30/10 mostrar o número caindo.
+- Lacunas: etapa 6 (artigo no ar sem post agendado) não medível porque Zernio/Buffer não trazem slug; agir é limitado a ficha quando a correção é promover/publicar; o contrato fala em horas e o prompt em semana (alinhar).

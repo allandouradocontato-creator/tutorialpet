@@ -1,0 +1,9 @@
+data,etapa,parados,mais_antigo_h,causa_provavel
+2026-10-23,1 tema na fila (pendente),161,,estoque de temas; nao e gargalo (51 rascunho_pronto ja escritos)
+2026-10-23,2 rascunho sem SEO (nao promovido a blog_aprovados),10,16,SEO roda dentro do publicar_blog so para slug aprovado; 4 reprovados (V07) + 6 esperando promocao
+2026-10-23,3 SEO sem pacote,0,0,nao medido por slug; sem item acusado
+2026-10-23,4 pacote aguardando_revisao,4,195,3 reais (asfalto 168h; enriquecer-ambiente 145h; slow-feed 142h; Guardiao=revisar e aprovado_por vazio) + galgo com status velho (artigo 200 no ar)
+2026-10-23,5 pacote aprovado sem artigo no ar (HTTP 404),3,117,guia-peitoral 117h (reprovado 3/3 V07); comedouro-duplo 13h e xixi-tapete 19h (rascunho existe; falta promover a blog_aprovados)
+2026-10-23,6 artigo no ar sem post agendado,,,NAO MEDIDO: posts do Zernio/Buffer nao trazem slug; ver amostra na semanal
+2026-10-23,7 estoque de posts (dias),0,,Zernio 23 posts ate 25/10 23:00Z (~2.4 d); Buffer TikTok 9 posts ate 25/10 23:20Z (~2.5 d); acima de 2 d mas no limite
+2026-10-23,8 post em erro,0,0,Zernio failed=0; Buffer error=0

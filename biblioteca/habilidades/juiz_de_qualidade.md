@@ -11,7 +11,7 @@
 4. LAÇO: data/habilidades/aprendizado/juiz_de_qualidade.md, 1 linha por rodada: data | jogada | resultado n/métrica | mantém/altera/descarta. Número ruim = troca de jogada na mesma rodada.
 5. JUIZ: o Juiz julga os outros e é calibrado por referência concreta (campeão da conta, 7,46 s) e conferido por Juiz separado/Removedor de Gargalos (biblioteca/habilidades/remocao_de_gargalos.md); nota mínima 7 para a rubrica ir ao ar.
 
-status: rascunho até o 1º ensaio gravado (régua 7)
+status: ROBUSTA desde 23/10/2026 (régua 7 conferida pelo Removedor: 4 ensaios gravados 22/10 em data/habilidades/aprendizado/juiz_de_qualidade.md, notas e decisões por entrega)
 
 ## Por que existe
 O painel de 22/10 mostrou 31 agentes com nota 0–3 e nenhum com resultado medido. Causa raiz: ninguém julgava a QUALIDADE da entrega antes de ir ao ar; o Publicador aprovava "aceitável", o Revisor aprovava "é um gato", o Criador escrevia gancho "razoável". Agente que não é julgado produz o mínimo que passa. O Juiz é um agente SEPARADO (nunca quem produziu) que dá nota 0–10 com rubrica e referência concreta. Barra: 7. Abaixo, a entrega volta.

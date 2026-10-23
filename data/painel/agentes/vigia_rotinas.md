@@ -20,3 +20,7 @@
 - Regra de troca: se <2 correções com evidência, mover o passo 2d para workflow sem IA (como saude.yml).
 **Lacunas:** aprendizado/vigia_rotinas.md vazio; regra E34 (só encerrar com SUCCEEDED + evidência) NÃO está no prompt (grep SUCCEEDED = 0); a v2 nunca rodou (1ª rodada 23/10 07:19); passo 2d usa texto de adsense.md hoje modificado e não commitado; Guerrilha desligada (device_absent).
 **Nota de robustez (0–5) e por quê:** 2. v1 detecta com prova (3 alertas reais, V01-V04), mas a v2 que age tem n=0 e a v1 já errou ao encerrar sem prova.
+
+## Atualização 23/10/2026 (Removedor de Gargalos)
+- Prova de uso: aprendizado/vigia_rotinas.md tem 5 linhas (22/10 18:20 a 23/10 07:22), incluindo promoção de rascunhos (3 por rodada). Lacuna fechada: aprendizado deixou de estar vazio.
+- Nova lacuna (E56): 3 pacotes em aguardando_revisao há 142-168 h e 2 aprovados (comedouro-duplo, xixi-tapete) sem promoção; o passo "promover aprovados" não cobre pacote com Guardião=revisar.
