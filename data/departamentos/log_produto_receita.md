@@ -1,0 +1,2 @@
+# Log do Diretor de Produto e Receita (1 linha por rodada)
+- 2026-10-23 12:31 | 1ª rodada | ficha 2026-10-23_prioridade_receita_semana | Sozinho em Casa R$ 27, caminho conteúdo "sozinho" + mimo -> landing, métrica visitas UTM e vendas (0 vendas, 0 visitas medidas); esteira nova congelada; roteiros venda-* com R$ 9,90 corrigidos via E57; E57-E61; sem parecer novo de Produtor de e-book, Construtor de app e Importador; add_repo inexistente (repo já clonado em main)

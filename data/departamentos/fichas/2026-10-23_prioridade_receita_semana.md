@@ -1,0 +1,26 @@
+# FICHA — Prioridade de receita da semana (23/10 a 30/10)
+- Departamento / Diretor / data-hora: Produto e Receita / Diretor de Produto e Receita / 23/10/2026 12:31 (Fortaleza)
+- Assunto e objetivo: 1ª venda real do Sozinho em Casa (R$ 27, âncora R$ 97, pagamento único) até 30/10; sem anúncio pago.
+- Público: tutor adulto de cachorro que deixa o pet sozinho.
+- Produto/oferta: Sozinho em Casa R$ 27. Upsell Adestramento Básico R$ 47 só aparece na página de obrigado (já ligado). Esteira nova CONGELADA até a 1ª venda.
+- Caminho de venda (1): conteúdo do tema "sozinho" (blog com bloco "Veja também" já aplicado em 23/10 em 3 artigos + vídeos/legendas "quantas horas sozinho") -> sozinho.tutorialpet.com.br com UTM -> checkout Kiwify. Entrada de audiência: mimo "Carteirinha do Pet" do Diretor de Audiência; quem responde "horas sozinho >= 4" recebe a oferta numa 2ª mensagem, nunca na hora do mimo (não canibaliza).
+- Métrica única: visitas à landing com UTM (meta 100 na semana) e vendas Kiwify (meta 1).
+- Regra de desvio (decisão do Allan de 20/10): >= 100 visitas acumuladas em 3 dias corridos e 0 vendas -> R$ 27 vira R$ 17 por 3 dias (Claude muda no Kiwify via Chrome e registra). Hoje a regra não dispara: a landing tem 0 visitas medidas (metricas.csv vazio) e o gargalo é tráfego, não preço. Sem dado de visita, a regra usa cliques UTM como proxy.
+- Pareceres (último de cada especialista; as rotinas foram desligadas em 22/10, então vários estão velhos):
+  - Revisão Estratégica (20/10): sem caminho até o dinheiro; Anúncios cego, Afiliados sem link.
+  - Auditor de Anúncios (20/10): R$ 0 gasto, tudo pausado; ~6% dos cliques viram checkout nos testes antigos; manter pausado.
+  - Criativo de Venda (21/10): pergunta de dor cotidiana é o gancho que retém; roteiros venda-* ainda com R$ 9,90 (desatualizado).
+  - Editor de Afiliados (22/10): inserções do Sozinho em Casa aplicadas em 3 artigos em 23/10; Shopee sem chave de API, Cobasi/Awin só com CNPJ.
+  - Pesquisador de Mercado / Caçador (21/10): OP-1021-1..6 pendentes; nada exige agir agora.
+  - Fábrica de Produtos (22/10, briefing_esteira): Xixi R$ 17 (bump), Passeio R$ 19, Higiene R$ 27; esforço ~31-39 h.
+  - Medidor (22/10 noite): T8 funil 0 vendas, 0 DMs, 0 contatos; Kiwify mostrou bloco de verificação de identidade.
+  - Sem parecer novo de: Produtor de e-book, Construtor de app, Importador (nunca criado).
+- Divergências e quem tinha razão: (1) roteiros do Criativo com R$ 9,90 x decisão do Allan R$ 27: vale a decisão do Allan, roteiros corrigidos (E57). (2) Fábrica propõe produzir 3 produtos novos x meta é a 1ª venda: produzir mais produto sem tráfego não vende; esteira congelada (E60). (3) Caçador sugere isca digital no artigo (OP-1021-4) x Audiência decidiu o mimo: vale o mimo, que é a entrada única.
+- DECISÃO: uma oferta (R$ 27), um caminho (conteúdo "sozinho" + mimo -> landing), uma métrica (visitas UTM e vendas). Nenhum produto, bump ou anúncio novo até a 1ª venda.
+- Textos aprovados (rascunho; só vão ao ar com o mimo pronto + ok do Allan, como já exigido na ficha da Audiência):
+  - Mensagem 2 do mimo (só horas_sozinho >= 4, 1 a 2 dias depois da entrega): "Oi! Aqui é a Duda, assistente virtual do Tutorial Pet 🐾 Você contou que o(a) {nome_pet} fica {horas_sozinho} por dia sozinho(a). Se quiser, tenho um plano de 14 dias pra ele(a) ir se acostumando aos poucos: sozinho.tutorialpet.com.br (R$ 27, pagamento único). Sem pressa, se não fizer sentido agora é só ignorar." Link com ?utm_source=manychat&utm_medium=mimo.
+  - Sem alegação médica/veterinária, sem "por dia/mês" no preço, sem a palavra "cão".
+- Métricas e gatilhos (janela <= 3 dias): GANHOU = >= 1 venda ou >= 100 visitas UTM; NEUTRO = n<3 ou entre; PERDEU = >= 100 visitas e 0 vendas em 3 dias -> R$ 17.
+- Ações (linhas E.. em data/decisoes/execucao.md): E57 (roteiros com preço velho), E58 (medir visitas), E59 (mensagem 2 no fluxo do mimo, só rascunho), E60 (congelar esteira), E61 (conferir verificação de identidade da Kiwify).
+- Pedido ao Allan: nenhum novo. Já pendentes e não repetidos: ok por escrito para ligar o mimo ao vivo e OAuth do Facebook (ficha da Audiência). E61 vira pedido ao Allan só se o Chrome mostrar verificação pendente.
+- Status: aprovada pelo Diretor (textos em rascunho); execução depende do mimo (E27) e do ok do Allan para o que for ao vivo.
