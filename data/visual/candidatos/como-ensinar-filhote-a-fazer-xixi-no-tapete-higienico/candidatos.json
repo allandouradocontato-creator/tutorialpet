@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "puppy pepad alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9460365,
+    "url_download": "https://images.pexels.com/photos/9460365/pexels-photo-9460365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-black-puppy-9460365/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 4032,
+    "altura": 2688,
+    "query": "puppy pepad alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7031992,
+    "url_download": "https://images.pexels.com/photos/7031992/pexels-photo-7031992.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/puppy-lying-on-the-ground-7031992/",
+    "fotografo": "Lukas Schulz",
+    "fotografo_url": "https://www.pexels.com/@lukas-schulz-9753871",
+    "largura": 3130,
+    "altura": 2075,
+    "query": "puppy pepad alone",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20028681,
+    "url_download": "https://images.pexels.com/photos/20028681/pexels-photo-20028681.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-puppy-dog-20028681/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy isolated white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20028574,
+    "url_download": "https://images.pexels.com/photos/20028574/pexels-photo-20028574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/puppy-on-white-20028574/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy isolated white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10149129,
+    "url_download": "https://images.pexels.com/photos/10149129/pexels-photo-10149129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-an-adorable-dog-10149129/",
+    "fotografo": "Vitalii Odobesku",
+    "fotografo_url": "https://www.pexels.com/@odobesku",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "cute puppy isolated white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/5.jpg"
+  }
+]
