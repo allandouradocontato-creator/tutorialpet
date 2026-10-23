@@ -130,6 +130,8 @@ def separar_links(legenda: str) -> tuple[str, str]:
     # hashtags ficam por ultimo, depois do aviso
     tags = [l for l in corpo.splitlines() if l.strip().startswith("#")]
     sem_tags = "\n".join(l for l in corpo.splitlines() if not l.strip().startswith("#")).strip()
+    # E16 23/10/2026: limite de hashtags FB<=3 / IG<=5; a mesma legenda vai para os dois, entao corta em 3
+    tags = [" ".join(" ".join(tags).split()[:3])] if tags else tags
     final = sem_tags + "\n\n📖 " + CTA_ARTIGO + " (link no primeiro comentário)" + ("\n\n" + " ".join(tags) if tags else "")
     return final.strip(), "\n".join(l.strip() for l in comentario).strip()
 

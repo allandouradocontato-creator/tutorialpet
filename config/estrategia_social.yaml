@@ -181,3 +181,6 @@ perguntas_lote_2026_10_22:   # uma palavra ou numero; tema do lote de hoje (gato
     - "Seu cachorro tem caminha ou dorme no chão gelado?"
     - "Quantas horas por dia o seu cachorro fica sozinho?"
     - "Gato ou cachorro: quem manda aí?"
+regra_E46_2026_10_23:   # PERDEU T3 (IG alcance mediana 4, skip 92-100%); trocar 1 fator so (tipo de conteudo). Plano: data/testes/plano_2026-10-22_T3.md
+  instagram_proximos_3_dias: "em itens NAO agendados do IG, 1 em cada 2 slots de video de artigo vira meme 8 s do Humorista; nao mexer em agendados nem gerar cartoes (E24)"
+  vigencia: "23/10 a 26/10/2026; Medidor le em 25/10 21:11"

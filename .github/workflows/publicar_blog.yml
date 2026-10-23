@@ -18,6 +18,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # E47 23/10: o passo de alerta precisa abrir issue (antes dava 403)
 
 concurrency:
   group: fabrica
@@ -72,8 +73,11 @@ jobs:
           # se ainda falhar, o passo quebra com mensagem clara (nada de erro silencioso).
           ok=0
           for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push origin main && ok=1 && break
-            echo "tentativa $i falhou; aguardando"; sleep 10
+            # E47 23/10: rebase quebrado (conflito em site/build ou data/) repetia 'unmerged files' nas 3 tentativas.
+            # Agora: aborta o rebase antes de cada nova tentativa e, em conflito de arquivo gerado, vale a versao desta execucao.
+            git rebase --abort 2>/dev/null || true
+            git pull --rebase --autostash -X theirs origin main && git push origin main && ok=1 && break
+            echo "tentativa $i falhou; aguardando"; git rebase --abort 2>/dev/null || true; sleep 10
           done
           [ "$ok" = 1 ] || { echo "::error::push do publicar_blog falhou 3x: artigos NAO foram ao ar"; exit 1; }
 
