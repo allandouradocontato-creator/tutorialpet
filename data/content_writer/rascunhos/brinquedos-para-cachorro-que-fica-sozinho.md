@@ -95,6 +95,8 @@ Sinais de alerta: Se o cão demonstrar apatia profunda mesmo com a troca constan
 
 Exemplo prático: O tutor guarda as pelúcias na segunda-feira, coloca os mordedores na quarta e usa os quebra-cabeças na sexta. O cão mantém o entusiasmo elevado toda vez que percebe uma nova combinação de itens disponíveis na sala.
 
+**Veja também:** [Sozinho em Casa](https://sozinho.tutorialpet.com.br/?utm_source=blog&utm_medium=artigo&utm_content=brinquedos-para-cachorro-que-fica-sozinho), para treinar a independência além do brinquedo. *(Produto da Tutorial Pet)*
+
 ## Perguntas frequentes
 
 **Posso deixar qualquer pelúcia com o meu cão quando eu sair?**

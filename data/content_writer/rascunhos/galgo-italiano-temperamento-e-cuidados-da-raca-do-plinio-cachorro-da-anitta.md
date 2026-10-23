@@ -50,6 +50,8 @@ Eles também costumam sofrer com a solidão prolongada. Se você passa muitas ho
 
 Exemplo prático: para acalmar um galgo ansioso quando ele chega em casa nova, sente-se no chão, evite movimentos bruscos e deixe que ele se aproxime no tempo dele.
 
+**Veja também:** [Sozinho em Casa](https://sozinho.tutorialpet.com.br/?utm_source=blog&utm_medium=artigo&utm_content=galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta), se o seu cão sofre quando você sai. *(Produto da Tutorial Pet)*
+
 ## Origem do galgo italiano e o instinto de perseguição
 
 Os galgos são cães de caça por visão: foram criados para avistar uma presa de longe e correr atrás dela em velocidade. É daí que vem a fama de "cachorro de corrida", que na prática pertence ao galgo inglês, o greyhound, maior e usado em pistas. O galgo italiano é a versão em miniatura do grupo e foi criado para companhia, mas herdou o corpo de velocista e o instinto de perseguir tudo que se move.

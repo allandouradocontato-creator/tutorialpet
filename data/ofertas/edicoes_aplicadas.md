@@ -1,0 +1,4 @@
+data | slug | link com UTM | motivo
+2026-10-23 | ansiedade-de-separacao-em-caes | https://sozinho.tutorialpet.com.br/?utm_source=blog&utm_medium=artigo&utm_content=ansiedade-de-separacao-em-caes | Veja também Sozinho em Casa (produto próprio), proposta do Editor de Afiliados 22/10
+2026-10-23 | brinquedos-para-cachorro-que-fica-sozinho | https://sozinho.tutorialpet.com.br/?utm_source=blog&utm_medium=artigo&utm_content=brinquedos-para-cachorro-que-fica-sozinho | Veja também Sozinho em Casa (produto próprio), proposta do Editor de Afiliados 22/10
+2026-10-23 | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta | https://sozinho.tutorialpet.com.br/?utm_source=blog&utm_medium=artigo&utm_content=galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta | Veja também Sozinho em Casa (produto próprio), proposta do Editor de Afiliados 22/10

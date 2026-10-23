@@ -56,6 +56,8 @@ Antes de aplicar mudanças profundas, vale a pena avaliar [quanto tempo um cacho
 
 > **Exemplo prático:** Calce o tênis de corrida, caminhe até a cozinha para beber água e tire o tênis em seguida. Mostre ao cão que o calçado não significa um isolamento prolongado.
 
+**Veja também:** [Sozinho em Casa](https://sozinho.tutorialpet.com.br/?utm_source=blog&utm_medium=artigo&utm_content=ansiedade-de-separacao-em-caes), protocolo de 14 dias para o seu cão aprender a ficar sozinho com calma. *(Produto da Tutorial Pet)*
+
 ## Enriquecimento ambiental e autonomia
 
 Um cérebro cansado e ocupado tem menos tempo para focar no desespero da ausência. Quando o tutor sai, o ambiente precisa oferecer distrações seguras que cativem a atenção do cão por um bom período de tempo.
