@@ -1,6 +1,6 @@
 {
   "slug": "como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos",
-  "status": "agendado_parcial",
+  "status": "agendado",
   "criado_em": "2026-10-22T19:02:06+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos",
   "voz": {
@@ -37,7 +37,10 @@
     "instagram": {
       "id": "6adb44a8e6404eddf65e198d",
       "agendar_para": "2026-10-25T20:00-03:00"
+    },
+    "tiktok": {
+      "id": "6adbb33e0b5343d07048c3fc",
+      "agendar_para": "2026-10-26T14:20-03:00"
     }
-  },
-  "pendente": "tiktok (fila Buffer no teto de 10)"
+  }
 }
