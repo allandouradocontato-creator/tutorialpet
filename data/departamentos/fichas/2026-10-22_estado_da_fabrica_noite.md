@@ -1,0 +1,16 @@
+# FICHA — Estado da fábrica 22/10/2026 noite
+- Departamento / Diretor / data-hora: Operação e Qualidade / Diretor de Operação / 22/10/2026 21:50 (Fortaleza)
+- Assunto e objetivo: manter a fábrica rodando sem etapa manual; meta de hoje = anti-gap ok, 0 rotina caída, livro sem ID duplicado.
+- Público: interno.
+- Pareceres:
+  - Vigia de Rotinas (19:19, SUCCEEDED 22:19Z): 0 rotinas falhando; 19 ativas, 21 desligadas por ordem do Allan.
+  - Executor de Decisões (22/10 18:21Z, SUCCEEDED): gravou ATRASADAS (7) no topo; próximo disparo 23/10 06:53 define E32.
+  - Medidor (SUCCEEDED 00:12Z): T3 IG e T9(c) PERDEU, já em E46/E31.
+  - Agente de Segurança: sem parecer novo (próximo 28/10). Cobrança dos Departamentos: desligada (pausa de economia). Otimizador: molde/veredito 23/10 14:17Z.
+- Divergências e quem tinha razão: Vigia diz publicar_blog "ok"; Actions mostra #45 failure sem verde depois. Razão: Actions (regra anti-gap).
+- Números (fonte): artigos com datePublished 22/10 no ar = 3, todos HTTP 200 (curl); Publicar Blog: #43 verde 22:36Z, #45 FALHOU 22:43Z ("push falhou 3x", rebase com conflito) → ALERTA; Fabrica #113 e #114 verdes; saude.yml #5 verde; rotinas ativas todas SUCCEEDED; Diretores de Audiência e Conteúdo fecharam ficha hoje; Produto e Receita 1º disparo 23/10 12:31 (não atrasado).
+- DECISÃO: (1) corrigir o loop de push do publicar_blog/reforco_blog (aborta rebase antes de repetir; E47). (2) Parar de criar linhas de "editar post agendado": cobrança ao Diretor de Audiência refazer o teste CTA só com itens não agendados (E48). (3) IDs únicos no livro (E49; D01/D02 de 22/10 viraram D11/D12).
+- Métrica e gatilhos (≤3 dias): GANHOU = 23/10 Publicar Blog sem failure sem verde depois e livro sem ID duplicado; NEUTRO = corrigido mas 1 nova falha; PERDEU = nova falha de push do blog → tirar o push do Reforço (só publicar_blog grava na main).
+- Ações: E47 (Claude, 23/10), E48 (nuvem, 23/10), E49 (nuvem, 23/10).
+- Pedido ao Allan: nenhum novo (decisão das 26 rotinas desligadas e print de Uso já agendados para 23/10 14:00).
+- Status: aprovada pelo Diretor

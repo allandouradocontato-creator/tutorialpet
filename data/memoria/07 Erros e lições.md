@@ -64,3 +64,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 
 - 22/10/2026 (Allan): blog invisivel em "melhor assento para pet" (Petz, Cobasi, Guia o Melhor aparecem). Causa: artigo de cinto sem "cadeirinha"/"assento", titulo sem acento, sem comparacao; temas escolhidos pelo que explicamos, nao pelo que buscam. Correcao: skill plataforma_google_seo_adsense secao (h) + seo.md "DEMANDA PRIMEIRO"; auditoria de todos os artigos em data/seo/auditoria_demanda.md.
 - 22/10/2026 (Allan): skills viraram listas de regras (caso Google/SEO) e nenhum agente tinha meta de resultado nem prazo. Correcao: biblioteca/contrato_de_resultado.md + regra 22; aplicar nas fichas de data/painel/agentes/ e no topo de cada skill.
+
+- 22/10/2026 (Operação): publicar_blog #45 falhou por conflito de rebase com o Reforço; o retry repetia o mesmo erro. Correção E47 (abortar rebase antes de repetir). Ação ligada a "sessão do Allan" (editar post agendado) nunca roda sozinha: E13/E26/E42 expiraram (E48). IDs D01/D02 duplicados no livro (E49).

@@ -33,3 +33,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 21. Tema e texto de artigo nascem da BUSCA real (consulta exata, sinonimo popular, quem ranqueia, formato que ganha) e as buscas obvias do nicho vem antes das especificas (skill Google, secao h). Hashtag nao existe no Google.
 
 22. CONTRATO DE RESULTADO (biblioteca/contrato_de_resultado.md): todo agente/skill tem 1 resultado unico (audiencia, clique, engajamento, venda ou tempo), meta com numero e prazo em horas/dias, 3+ jogadas com metrica, laco de aprendizado e Juiz separado. Skill = jogadas; regras de plataforma sao so "limites". Sem contrato = reserva.
+
+23. Todo passo de push na main com repetição precisa abortar o rebase antes de tentar de novo; ação cujo dono é "sessão do Allan" não existe: ou é rotina da nuvem em item ainda não agendado, ou é pedido real ao Allan. ID novo no livro = próximo ID livre (grep), nunca de memória.
