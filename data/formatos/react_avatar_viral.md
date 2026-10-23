@@ -56,3 +56,9 @@ O Allan assinou a comunidade e baixou `React-Viral.zip` (Agentes Prontos > React
 - **Riscos que o próprio pacote avisa:** baixar do YouTube e automatizar sites vai contra os termos do YouTube (risco de strike na conta); crédito ao canal não é licença. Nossas skills de Meta tratam "narrar o que já aparece na tela" como não original.
 - **HeyGen Creator não tem API:** o avatar depende do Chrome logado no PC do Allan (ou API pré-paga à parte para rodar na nuvem). Decidir depois do 1º vídeo.
 - **Revenda:** o pacote traz só as licenças de componentes de terceiros; não vi licença de redistribuição dos arquivos da comunidade. Para vender "fatiado", construir versões nossas (código nosso) e confirmar os termos da comunidade antes de revender qualquer arquivo deles.
+
+## 8. Correção de 23/10/2026 (pesquisa sobre regras das plataformas)
+- Reação a vídeo de terceiros é aceita por YouTube, TikTok e Instagram quando há valor acrescentado (comentário, opinião, pergunta própria). Cortado: repost/stitch sem comentário, cópia sem novidade, edição superficial. Crédito sozinho não basta; fazemos os dois.
+- Fontes: reportagens (Search Engine Journal, PetaPixel, BigSeller), não as páginas oficiais; conferir as oficiais antes do 1º post real.
+- Rótulo de IA: decisão do Allan = rotular sempre a Duda (aparência fotorrealista). Ver regra 26 em biblioteca/regras_de_ouro.md.
+- Dono do vídeo ainda pode pedir retirada por direitos autorais (Brasil sem "uso justo" amplo): preferir Stitch/Duet/Remix nativos.
