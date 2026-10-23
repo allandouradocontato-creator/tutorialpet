@@ -521,7 +521,7 @@
    "consultas": [
     {
      "id": "soz_kit_rotina_01",
-     "q": "dog eating kibble scattered on floor",
+     "q": "dog eating scattered kibble kitchen floor",
      "texto_ref": "ração pelo chão",
      "raca": null
     },
