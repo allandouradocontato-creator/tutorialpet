@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 15
-atualizado_em: "2026-10-22 08:00"  # rodada 22/10 07:35 (11a edicao): regra FB/IG nunca no mesmo minuto (E23); serie 7 erros = cartao de imagem (viola c); preco velho em 4 arquivos (E22 ampliada)
+versao: 16
+atualizado_em: "2026-10-23 07:30"  # rodada 23/10 07:19 (12a edicao): E50-E54, FB 12:00 meme aberto (E21 cumprido), #pet/#pets, perguntas do lote 23/10
+versao_anterior_atualizado_em_15: "2026-10-22 08:00"  # rodada 22/10 07:35 (11a edicao): regra FB/IG nunca no mesmo minuto (E23); serie 7 erros = cartao de imagem (viola c); preco velho em 4 arquivos (E22 ampliada)
 versao_anterior_atualizado_em_14: "2026-10-21 17:25"  # rodada 17:07 (10a edicao): E21 FB 12:00 em observacao; E22 preco velho; isca_digital reescrita como ESTADO
 versao_anterior_atualizado_em: "2026-10-21 07:20"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
 status_publicacao:
@@ -184,3 +185,33 @@ perguntas_lote_2026_10_22:   # uma palavra ou numero; tema do lote de hoje (gato
 regra_E46_2026_10_23:   # PERDEU T3 (IG alcance mediana 4, skip 92-100%); trocar 1 fator so (tipo de conteudo). Plano: data/testes/plano_2026-10-22_T3.md
   instagram_proximos_3_dias: "em itens NAO agendados do IG, 1 em cada 2 slots de video de artigo vira meme 8 s do Humorista; nao mexer em agendados nem gerar cartoes (E24)"
   vigencia: "23/10 a 26/10/2026; Medidor le em 25/10 21:11"
+rodada_2026_10_23_0719:   # data/social/estrategia_social.md (12a edicao); plano: data/social/plano_de_mudanca_2026-10-23.md (E50-E54)
+  gatilho: "disparou: FB tempo<6s 9/10 (mediana 227 views, 4,0s); TikTok tempo<4s 5/6, mediana 189, 2,1s; IG skip>70% 2/10 (limite), alcance mediana 71,5"
+  horarios:
+    decisao: "manter grade seg-dom; FB 12:00 ABERTO so para meme 8s (E21 cumprido: 440 em 20/10 e 210 em 21/10)"
+    grade_2_melhores: {facebook: ["08:30", "21:00"], instagram: ["08:40", "21:10"], tiktok: ["10:20", "20:20"]}
+    explicadores_fora_da_grade: {facebook: ["10:00", "14:00", "19:00"], instagram: ["11:00", "15:00", "20:00"], tiktok: ["14:20"]}
+    por_dia_da_semana: "igual seg-dom: sem sinal proprio (Zernio best_time inconclusivo, 1-6 posts por slot, dias em UTC). Hipotese publica sem teste: Metricool 2026 (metricool.com/pt/melhor-horario-para-postar-nas-redes-sociais, atualizado 29/07/2026): IG qua/sex 18-21h; TikTok seg/ter 18-21h, evitar sex/sab; FB seg/qua 10-14h"
+  hashtags:
+    quantidade: {instagram: "3-5", tiktok: "3-5", facebook: "ate 3 (fonte aceita 1-5)"}
+    fontes: ["metricool.com/it/quanti-hashtag-usare (04/12/2025)", "mundodomarketing.com.br Buzzmonitor (24/04/2024, antiga)"]
+    ampla_pet_br: ["#pet", "#pets", "#cachorros", "#cachorro"]
+    estrutura_nova: "marca (#tutorialpet) + tema + 1 ampla (#pet/#pets/#cachorros; so IG/TikTok) + 1 nicho; nunca #fyp #viral"
+  perguntas_lote_2026_10_23:   # tema do lote: unha, cinto de carro, banho, agua do gato, plantas toxicas, filhote chora; uma palavra ou numero
+    gato:
+      - "Seu gato prefere beber na torneira ou na tigela?"
+      - "Quantas plantas tem na sua casa: 0, 1 a 3 ou mais de 3?"
+      - "Seu gato mexe nas plantas: sim ou não?"
+      - "Água corrente ou tigela: qual o seu gato escolhe?"
+      - "Gato ou cachorro: quem manda aí?"
+    cachorro:
+      - "Cortar unha do seu cachorro é fácil, difícil ou impossível?"
+      - "Seu cachorro vai de carro: no banco, no colo ou na caixa?"
+      - "De quanto em quanto tempo você dá banho no seu cachorro?"
+      - "Seu filhote chora a noite toda: sim ou já passou?"
+      - "Quantas horas por dia o seu cachorro fica sozinho?"
+  regras_teste_adicionais:
+    T1_tiktok_duracao: {itens: "3 cortes de 15-25 s (E50)", aprova: "tempo medio >=4 s ou >=20% da duracao em 2 de 3"}
+    T2_tiktok_tema: {itens: "2 de gato + 1 de cachorro; controle natural = gato/agua 24/10 10:20 (08/10: 577 views, 5,6 s)", aprova: "tempo medio >=4 s em 2 de 3"}
+    legenda_proibida: "fatal, pode matar, atrapalhando o crescimento (regra d; E54)"
+  pendencias_reais_isca: "legenda.txt de 47 pacotes (media) com R$ 9,90/NcQChat/vercel.app (E51); PDF do MIMO inexistente (E27); ManyChat/Brevo ao vivo sem dado (PC ausente)"
