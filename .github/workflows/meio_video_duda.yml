@@ -32,6 +32,11 @@ jobs:
           m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
           r = json.load(open(f"data/social/roteiros/{os.environ['SLUG']}.json", encoding="utf-8"))
           cenas = r["cenas"][1:]
+          import re
+          def limpa(t):  # regra de ouro: nunca "cao/caes", sempre "cachorro(s)"
+              t = re.sub(r"\bcães\b", "cachorros", t); t = re.sub(r"\bcão\b", "cachorro", t)
+              return re.sub(r"\bCães\b", "Cachorros", t)
+          for c in cenas: c["narracao"] = limpa(c["narracao"])
           txt = " ".join(c["narracao"] for c in cenas)
           ok = m._tts_elevenlabs(txt, Path("out/meio.mp3"))
           print("voz", "OK" if ok else "FALHOU")
