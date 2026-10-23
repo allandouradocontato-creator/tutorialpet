@@ -1,0 +1,43 @@
+{
+ "slug": "caminha-donut-nuvem-20s",
+ "titulo_video": "Caminha donut nuvem: teste de venda 20 s",
+ "molde_gancho": "curiosidade",
+ "gancho_3s": "Meu cachorro trocou o sofá por isso.",
+ "musica": "animada_suave_energetica",
+ "produto": {"nome": "Caminha donut nuvem de pelúcia (cão e gato)", "link_afiliado": "https://s.shopee.com.br/2qVYLqTWo8", "preco_ref": "R$67,98", "comissao": "16%", "origem": "data/produtos/produtos_vencedores.md"},
+ "regras": [
+  "Mostrar pet real fofo, sem nomear raça; se mostrar um gato e um cachorro, que sejam os dois no vídeo.",
+  "Sem alegação de saúde, ansiedade, sono ou dor.",
+  "Aviso 'link de afiliado' visível na legenda e no comentário fixado.",
+  "Carimbo patinha + marca; só vídeo; publicar junto em Facebook+Instagram+TikTok; ícones de seguir clicáveis.",
+  "Se a fonte do clipe for banco livre, conferir licença; se o vendedor ceder vídeo, usar só com autorização."
+ ],
+ "cenas": [
+  {
+   "narracao": "[excited] Meu cachorro trocou o sofá por isso.",
+   "visual_busca_banco_livre": ["dog lying on floor looking at camera cozy living room", "fluffy round pet bed plush close up"],
+   "texto_na_tela": "Ele trocou o sofá por isto"
+  },
+  {
+   "narracao": "[warmly] Olha como ele afunda nessa nuvem. Pelúcia macia, borda alta, e ele se enrosca na hora.",
+   "visual_busca_banco_livre": ["dog curling up in fluffy donut bed", "cat sleeping in round plush bed"],
+   "texto_na_tela": "Borda alta, pelúcia macia"
+  },
+  {
+   "narracao": "[thoughtful] Fundo antiderrapante e vários tamanhos. Escolha pelo tamanho do seu pet esticado, não encolhido.",
+   "visual_busca_banco_livre": ["hand pressing soft plush pet bed", "pet bed sizes measuring dog lying"],
+   "texto_na_tela": "Meça o pet esticado"
+  },
+  {
+   "narracao": "[smiling] Ele aprovou. O link está no comentário fixado, é link de afiliado.",
+   "visual_busca_banco_livre": ["sleeping dog in cozy bed close up", "cute pet yawning in plush bed"],
+   "texto_na_tela": "Link no comentário fixado"
+  }
+ ],
+ "chamada_final": "[smiling] Ele aprovou. O link está no comentário fixado.",
+ "hashtags": ["#caminhapet", "#achadinhospet", "#cachorro", "#tutorialpet"],
+ "legenda": "Meu cachorro trocou o sofá por essa caminha nuvem. Tamanho certo = meça seu pet esticado. Link de afiliado no comentário fixado: https://s.shopee.com.br/2qVYLqTWo8",
+ "comentario_fixado": "Link de afiliado (Shopee), eu posso receber comissão sem custo extra pra você: https://s.shopee.com.br/2qVYLqTWo8",
+ "aviso_seguranca_no_texto": "Se o seu pet rói e engole pelúcia, tire a caminha dele quando ele rasgar. Lave conforme a etiqueta.",
+ "leitura_resultado": {"quando": "24 h e também 3 h após postar", "onde": "Relatório de cliques do painel de afiliados Shopee + views por rede", "meta": "30+ cliques = segue; views 1mil+ com <10 cliques = trocar gancho na hora; plano B: laser 3 em 1"}
+}
