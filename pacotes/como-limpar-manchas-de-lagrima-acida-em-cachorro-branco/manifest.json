@@ -1,6 +1,6 @@
 {
   "slug": "como-limpar-manchas-de-lagrima-acida-em-cachorro-branco",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-20T17:56:16+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-limpar-manchas-de-lagrima-acida-em-cachorro-branco",
   "voz": {
@@ -28,5 +28,20 @@
     ],
     "em": "2026-10-20T17:57:13+00:00"
   },
-  "aprovado_por": "Conferente: gancho repetido apenas"
+  "aprovado_por": "Conferente: gancho repetido apenas",
+  "agendado_em": "2026-10-23T08:25-03:00",
+  "agendamento": {
+    "facebook": {
+      "id": "6adb44a0e6404eddf65e196b",
+      "agendar_para": "2026-10-25T14:00-03:00"
+    },
+    "instagram": {
+      "id": "6adb44a3e6404eddf65e197c",
+      "agendar_para": "2026-10-25T15:00-03:00"
+    },
+    "tiktok": {
+      "id": "6adb44b77af88b8f19ae9ec6",
+      "agendar_para": "2026-10-25T20:20-03:00"
+    }
+  }
 }
