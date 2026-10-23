@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como organizar a rotina de passeios para cães de diferentes idades: guia prático",
-    "description": "Como organizar a rotina de passeios para cães de diferentes idades: guia prático. Organizar a rotina de passeios para cães vai muito além de abrir a...",
+    "headline": "Como organizar a rotina de passeios para cães de diferentes idades",
+    "description": "Como organizar a rotina de passeios para cães de diferentes idades. O passeio diário vai muito além de dar uma volta para o cão fazer necessidades. Ele...",
     "datePublished": "2026-10-23",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso pular o passeio se estiver chovendo?",
+        "name": "Filhote que ainda não completou as vacinas pode passear de alguma forma?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O ideal é manter a rotina adaptando o tempo ou focando em atividades internas e brincadeiras para gastar energia mentalmente.  * **Qual é o melhor horário para passear nos dias quentes?** Prefira sempre o início da manhã (antes das 9h) e o final da tarde (após as 17h), testando sempre a temperatura do asfalto com as costas da sua mão antes de expor as patas do pet.  * **Preciso dar água durante o passeio?** Sim, especialmente em dias quentes ou em caminhadas longas com cães adultos, leve sempre um bebedouro portátil com água fresca.  * **Como saber se o passeio foi longo demais para o meu cão?** Sinais como respiração excessivamente ofegante, lentidão para acompanhar o passo, puxar para voltar para casa ou deitar no meio do caminho indicam que o limite foi ultrapassado."
+          "text": "Sim, no colo ou dentro de bolsas de transporte adequadas. Essa prática permite socializar o filhote com sons e estímulos visuais da rua sem colocá-lo em contato com o chão ou fezes de outros animais."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantas vezes por dia o cão idoso precisa sair?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma ser melhor oferecer de 2 a 3 passeios muito curtos (em torno de 10 a 15 minutos) do que uma única saída longa, respeitando o cansaço e a mobilidade do pet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Passear em ritmo acelerado cansa o cão mais rápido?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O exercício físico vigoroso gasta calorias, mas o ato de farejar em ritmo calmo cansa a mente e relaxa o cão de forma muito mais profunda e equilibrada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O cão empacou e deitou no meio do passeio, o que fazer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não puxe a guia à força. Espere alguns minutos na sombra, ofereça água e avalie se o chão está quente, se há cansaço extremo ou dor. Se o comportamento for frequente, procure uma avaliação veterinária."
         }
       }
     ]

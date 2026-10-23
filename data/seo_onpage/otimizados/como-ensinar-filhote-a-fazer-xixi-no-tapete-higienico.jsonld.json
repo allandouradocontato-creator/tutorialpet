@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como ensinar filhote a fazer xixi no tapete higiênico",
+    "description": "Como ensinar filhote a fazer xixi no tapete higiênico. Ensinar as regras da casa para um cãozinho recém-chegado exige método, paciência e compreensão...",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Com que idade o filhote aprende a usar o tapete com consistência?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma levar entre 4 e 6 meses de idade para que o cão ganhe total controle fisiológico dos esfíncteres e consolide o hábito na rotina da casa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Por que o filhote rasga ou brinca com o tapete higiênico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filhotes exploram texturas com a boca e procuram entretenimento; fixe bem as pontas com fita ou use grades de proteção próprias para suporte de tapete."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar jornal velho em vez de tapete higiênico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O jornal absorve menos, vaza com facilidade e solta tinta nas patas, além de confundir o animal quando ele encontrar revistas ou caixas de papelão pela casa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Xixi muito frequente ou em pequenas gotas pode indicar dor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Se o animal tenta urinar repetidamente sem sair quase nada ou demonstrar desconforto, consulte um médico-veterinário para descartar infecção de urina."
+        }
+      }
+    ]
+  }
+}

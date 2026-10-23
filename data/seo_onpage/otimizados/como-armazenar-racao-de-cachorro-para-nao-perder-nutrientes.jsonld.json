@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como armazenar ração de cachorro para não perder nutrientes",
+    "description": "Como armazenar ração de cachorro para não perder nutrientes. Comprar um alimento de alta qualidade é um investimento na saúde e na longevidade do seu...",
+    "datePublished": "2026-10-23",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso congelar a ração seca para durar mais tempo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, o congelamento em pequenas porções hermeticamente fechadas preserva os nutrientes por vários meses. O cuidado crucial é descongelar a porção dentro de um pote totalmente fechado na geladeira antes de abrir, evitando que a condensação de ar ambiente umedeça os grãos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Pote de vidro é melhor que porta-ração de plástico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Recipientes de vidro escuro ou inox são superiores ao plástico porque não retêm odores nem gordura nos poros e são fáceis de higienizar. Se for usar vidro transparente, mantenha-o obrigatoriamente dentro de um armário escuro para proteger os nutrientes da radiação luminosa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Preciso lavar o porta-ração a cada troca de saco?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. Sempre que o saco acabar, lave o recipiente com água morna e detergente neutro para remover qualquer resíduo oleoso antigo. Deixe o recipiente secar totalmente ao ar antes de colocar o novo saco de ração lá dentro."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso misturar o restinho do saco velho com a ração do saco novo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendado. Os grãos do saco antigo já tiveram semanas de contato com o ar e possuem níveis mais altos de oxidação. Juntá-los contamina precocemente o alimento fresco do pacote novo. Ofereça o restante antigo antes de abrir o próximo lote.  ---"
+        }
+      }
+    ]
+  }
+}
