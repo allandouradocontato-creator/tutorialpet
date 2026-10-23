@@ -1,0 +1,34 @@
+name: Fotos reais para os e-books (Pexels)
+on:
+  workflow_dispatch:
+    inputs:
+      max_req:
+        description: "Maximo de buscas na API neste lote (limite Pexels: 200/h)"
+        default: "150"
+permissions:
+  contents: write
+concurrency:
+  group: fotos-ebooks
+  cancel-in-progress: false
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Instalar Pillow
+        run: pip install pillow
+      - name: Baixar fotos
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python scripts/baixar_fotos_ebooks.py --max-req "${{ inputs.max_req || '150' }}"
+      - name: Gravar
+        if: always()
+        run: |
+          git config user.name "Fabrica Tutorial Pet"
+          git config user.email "fabrica@users.noreply.github.com"
+          git add data/produtos/ebooks_novo_visual/fotos
+          git commit -m "ebooks: fotos reais Pexels (lote)" || echo nada
+          for i in 1 2 3; do git pull --rebase --autostash origin main && git push origin main && break; sleep 5; done

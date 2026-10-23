@@ -1,0 +1,1478 @@
+{
+ "descricao": "Mapa de consultas Pexels para o banco de fotos dos e-books Sozinho em Casa e Adestramento Básico (novo visual).",
+ "regras": [
+  "foto real",
+  "cães/gatos felizes ou fofos",
+  "nada de abrigo, doente, triste extremo",
+  "se o texto citar raça, a foto tem que ser dessa raça (nenhuma raça citada nos textos atuais; campo raca fica nulo)",
+  "3 candidatas por consulta"
+ ],
+ "candidatas_por_consulta": 3,
+ "secoes": [
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_abertura",
+   "titulo": "Capa, abertura e partes",
+   "consultas": [
+    {
+     "id": "soz_abertura_01",
+     "q": "happy dog sitting with owner at home",
+     "texto_ref": "capa/abertura Parte 1",
+     "raca": null
+    },
+    {
+     "id": "soz_abertura_02",
+     "q": "cute puppy looking at camera indoors",
+     "texto_ref": "abertura generica",
+     "raca": null
+    },
+    {
+     "id": "soz_abertura_03",
+     "q": "dog and owner cuddling on sofa",
+     "texto_ref": "final: vocês dois chegaram lá",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_antes_de_comecar",
+   "titulo": "Antes de começar / como usar",
+   "consultas": [
+    {
+     "id": "soz_antes_de_comecar_01",
+     "q": "person filming dog with smartphone at home",
+     "texto_ref": "gravar o pet",
+     "raca": null
+    },
+    {
+     "id": "soz_antes_de_comecar_02",
+     "q": "dog lying on rug looking at camera",
+     "texto_ref": "aviso/dia a dia",
+     "raca": null
+    },
+    {
+     "id": "soz_antes_de_comecar_03",
+     "q": "woman writing in notebook next to dog",
+     "texto_ref": "diário",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_diagnostico",
+   "titulo": "1 Diagnóstico",
+   "consultas": [
+    {
+     "id": "soz_diagnostico_01",
+     "q": "dog waiting at front door",
+     "texto_ref": "quando começa: ao sair",
+     "raca": null
+    },
+    {
+     "id": "soz_diagnostico_02",
+     "q": "dog chewing toy on floor",
+     "texto_ref": "tédio: destrói durante o dia",
+     "raca": null
+    },
+    {
+     "id": "soz_diagnostico_03",
+     "q": "puppy head tilt curious",
+     "texto_ref": "medo/sinais",
+     "raca": null
+    },
+    {
+     "id": "soz_diagnostico_04",
+     "q": "dog lying on sofa relaxed",
+     "texto_ref": "tranquilo",
+     "raca": null
+    },
+    {
+     "id": "soz_diagnostico_05",
+     "q": "smartphone on tripod recording living room",
+     "texto_ref": "grave 45 minutos",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia01",
+   "titulo": "Dia 1 Filmar e mapear",
+   "consultas": [
+    {
+     "id": "soz_dia01_01",
+     "q": "smartphone camera pointed at living room with dog",
+     "texto_ref": "posicione o celular para enquadrar a porta",
+     "raca": null
+    },
+    {
+     "id": "soz_dia01_02",
+     "q": "dog lying near front door at home",
+     "texto_ref": "área onde o pet costuma ficar",
+     "raca": null
+    },
+    {
+     "id": "soz_dia01_03",
+     "q": "man leaving home through front door",
+     "texto_ref": "saia sem despedida especial",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia02",
+   "titulo": "Dia 2 Segunda gravação",
+   "consultas": [
+    {
+     "id": "soz_dia02_01",
+     "q": "dog resting at home alone daytime",
+     "texto_ref": "repita a gravação",
+     "raca": null
+    },
+    {
+     "id": "soz_dia02_02",
+     "q": "person picking up car keys from table",
+     "texto_ref": "gatilhos: pegar as chaves",
+     "raca": null
+    },
+    {
+     "id": "soz_dia02_03",
+     "q": "woman checking tablet notes on couch",
+     "texto_ref": "tabela de diagnóstico",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia03",
+   "titulo": "Dia 3 Desarmar gatilhos",
+   "consultas": [
+    {
+     "id": "soz_dia03_01",
+     "q": "hand holding house keys close up",
+     "texto_ref": "pegue a chave e sente no sofá",
+     "raca": null
+    },
+    {
+     "id": "soz_dia03_02",
+     "q": "woman putting on shoes at home",
+     "texto_ref": "calce o sapato e lave a louça",
+     "raca": null
+    },
+    {
+     "id": "soz_dia03_03",
+     "q": "woman picking up handbag at door",
+     "texto_ref": "pegue a bolsa e veja TV",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia04",
+   "titulo": "Dia 4 Desarmar gatilhos",
+   "consultas": [
+    {
+     "id": "soz_dia04_01",
+     "q": "dog ignoring owner relaxed on bed",
+     "texto_ref": "sem olhar, sem falar, sem recompensar",
+     "raca": null
+    },
+    {
+     "id": "soz_dia04_02",
+     "q": "woman washing dishes in kitchen with dog nearby",
+     "texto_ref": "executar gatilho sem sair",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia05",
+   "titulo": "Dia 5 Desarmar gatilhos",
+   "consultas": [
+    {
+     "id": "soz_dia05_01",
+     "q": "calm dog sleeping on dog bed",
+     "texto_ref": "pet indiferente aos gatilhos",
+     "raca": null
+    },
+    {
+     "id": "soz_dia05_02",
+     "q": "person watching television on sofa with dog",
+     "texto_ref": "repetições ao longo do dia",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia06",
+   "titulo": "Dia 6 Gastar antes de sair",
+   "consultas": [
+    {
+     "id": "soz_dia06_01",
+     "q": "dog walking on leash in park sunny",
+     "texto_ref": "caminhada",
+     "raca": null
+    },
+    {
+     "id": "soz_dia06_02",
+     "q": "dog sniffing grass outdoors",
+     "texto_ref": "trabalho de faro",
+     "raca": null
+    },
+    {
+     "id": "soz_dia06_03",
+     "q": "dog resting on dog bed after walk",
+     "texto_ref": "descanso",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia07",
+   "titulo": "Dia 7 Gastar antes de sair",
+   "consultas": [
+    {
+     "id": "soz_dia07_01",
+     "q": "dog eating kibble scattered on floor",
+     "texto_ref": "ração espalhada pelo chão",
+     "raca": null
+    },
+    {
+     "id": "soz_dia07_02",
+     "q": "snuffle mat dog treats",
+     "texto_ref": "tapete olfativo",
+     "raca": null
+    },
+    {
+     "id": "soz_dia07_03",
+     "q": "tired happy dog lying on floor",
+     "texto_ref": "pet descansando",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia08",
+   "titulo": "Dia 8 Primeira saída real",
+   "consultas": [
+    {
+     "id": "soz_dia08_01",
+     "q": "dog with stuffed kong toy",
+     "texto_ref": "brinquedo recheado só na saída",
+     "raca": null
+    },
+    {
+     "id": "soz_dia08_02",
+     "q": "person closing front door from outside",
+     "texto_ref": "feche a porta",
+     "raca": null
+    },
+    {
+     "id": "soz_dia08_03",
+     "q": "dog calm lying on bed at home",
+     "texto_ref": "entre em silêncio",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia09",
+   "titulo": "Dia 9 Saída de 20 segundos",
+   "consultas": [
+    {
+     "id": "soz_dia09_01",
+     "q": "dog chewing toy alone at home",
+     "texto_ref": "brinquedo durante a ausência",
+     "raca": null
+    },
+    {
+     "id": "soz_dia09_02",
+     "q": "owner leaving door dog looking",
+     "texto_ref": "saída curta",
+     "raca": null
+    },
+    {
+     "id": "soz_dia09_03",
+     "q": "dog lying on rug relaxed living room",
+     "texto_ref": "pet tranquilo",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia10",
+   "titulo": "Dia 10 Esticar em degraus",
+   "consultas": [
+    {
+     "id": "soz_dia10_01",
+     "q": "stopwatch timer close up",
+     "texto_ref": "progressão de tempos",
+     "raca": null
+    },
+    {
+     "id": "soz_dia10_02",
+     "q": "dog sleeping peacefully on couch",
+     "texto_ref": "pet relaxado",
+     "raca": null
+    },
+    {
+     "id": "soz_dia10_03",
+     "q": "dog lying in hallway calm",
+     "texto_ref": "ausência de 30s a 2min",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia11",
+   "titulo": "Dia 11 Esticar em degraus",
+   "consultas": [
+    {
+     "id": "soz_dia11_01",
+     "q": "alarm clock on table",
+     "texto_ref": "repita a progressão",
+     "raca": null
+    },
+    {
+     "id": "soz_dia11_02",
+     "q": "dog napping on sofa afternoon",
+     "texto_ref": "pet calmo",
+     "raca": null
+    },
+    {
+     "id": "soz_dia11_03",
+     "q": "woman returning home opening door",
+     "texto_ref": "volta silenciosa",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia12",
+   "titulo": "Dia 12 Atravessar a janela",
+   "consultas": [
+    {
+     "id": "soz_dia12_01",
+     "q": "dog relaxing alone in living room",
+     "texto_ref": "3 a 8 minutos",
+     "raca": null
+    },
+    {
+     "id": "soz_dia12_02",
+     "q": "dog sleeping on bed during day",
+     "texto_ref": "ausência maior",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia13",
+   "titulo": "Dia 13 Atravessar a janela",
+   "consultas": [
+    {
+     "id": "soz_dia13_01",
+     "q": "dog looking out window calmly",
+     "texto_ref": "5 a 12 minutos",
+     "raca": null
+    },
+    {
+     "id": "soz_dia13_02",
+     "q": "dog playing with chew toy on carpet",
+     "texto_ref": "ocupado sozinho",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_dia14",
+   "titulo": "Dia 14 Relatório final",
+   "consultas": [
+    {
+     "id": "soz_dia14_01",
+     "q": "person comparing video on smartphone",
+     "texto_ref": "compare com o vídeo do dia 1",
+     "raca": null
+    },
+    {
+     "id": "soz_dia14_02",
+     "q": "happy dog celebrating with treat",
+     "texto_ref": "diploma da dupla",
+     "raca": null
+    },
+    {
+     "id": "soz_dia14_03",
+     "q": "owner coming home greeting calm dog",
+     "texto_ref": "reencontro calmo",
+     "raca": null
+    },
+    {
+     "id": "soz_dia14_04",
+     "q": "happy dog and owner hugging outdoors",
+     "texto_ref": "dupla feliz",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_erros_comuns",
+   "titulo": "3 Se der errado: 7 erros / 5 erros",
+   "consultas": [
+    {
+     "id": "soz_erros_comuns_01",
+     "q": "woman hugging dog goodbye at door",
+     "texto_ref": "despedida emocional",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_02",
+     "q": "dog jumping excited greeting owner at door",
+     "texto_ref": "chegada eufórica",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_03",
+     "q": "woman tidying living room calmly with dog",
+     "texto_ref": "punir o estrago: recolher sem comentário",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_04",
+     "q": "dog playing fetch ball energetic park",
+     "texto_ref": "sair com ele agitado",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_05",
+     "q": "dog watching television on couch",
+     "texto_ref": "TV ligada não resolve",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_06",
+     "q": "dog climbing stairs outdoors",
+     "texto_ref": "pular etapas",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_07",
+     "q": "tripod smartphone recording room",
+     "texto_ref": "nunca filmar",
+     "raca": null
+    },
+    {
+     "id": "soz_erros_comuns_08",
+     "q": "dog resting calm bed after exercise",
+     "texto_ref": "regra de regressão: volte um degrau",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_profissional",
+   "titulo": "4 Quando procurar um profissional",
+   "consultas": [
+    {
+     "id": "soz_profissional_01",
+     "q": "veterinarian examining dog",
+     "texto_ref": "veterinário comportamentalista",
+     "raca": null
+    },
+    {
+     "id": "soz_profissional_02",
+     "q": "happy dog at vet clinic with owner",
+     "texto_ref": "consulta",
+     "raca": null
+    },
+    {
+     "id": "soz_profissional_03",
+     "q": "dog trainer working with dog positive reinforcement",
+     "texto_ref": "profissional",
+     "raca": null
+    },
+    {
+     "id": "soz_profissional_04",
+     "q": "woman talking to veterinarian with dog",
+     "texto_ref": "conversar com profissional",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_kit_rotina",
+   "titulo": "Kit Rotina Pré-Saída: enriquecimento",
+   "consultas": [
+    {
+     "id": "soz_kit_rotina_01",
+     "q": "dog eating kibble scattered on floor",
+     "texto_ref": "ração pelo chão",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_02",
+     "q": "dog sniffing cardboard box with treats",
+     "texto_ref": "três caixas fechadas",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_03",
+     "q": "dog nose in snuffle mat",
+     "texto_ref": "tapete olfativo",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_04",
+     "q": "dog searching for hidden treat under cloth",
+     "texto_ref": "esconde-esconde em altura",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_05",
+     "q": "dog licking stuffed kong",
+     "texto_ref": "brinquedo recheado",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_06",
+     "q": "dog playing with plastic bottle toy",
+     "texto_ref": "garrafa com furos",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_07",
+     "q": "dog treat puzzle muffin tin tennis balls",
+     "texto_ref": "forma de muffin",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_08",
+     "q": "dog following trail of kibble",
+     "texto_ref": "trilha de ração",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_09",
+     "q": "dog digging in crumpled paper box",
+     "texto_ref": "papel amassado",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_10",
+     "q": "dog licking ice cube",
+     "texto_ref": "gelo com surpresa",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_11",
+     "q": "dog sniffing floor searching treats",
+     "texto_ref": "caça pelos cômodos",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_12",
+     "q": "dog unrolling towel with nose",
+     "texto_ref": "toalha enrolada",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_rotina_13",
+     "q": "dog licking lick mat",
+     "texto_ref": "lambedor caseiro",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_kit_receitas",
+   "titulo": "Kit Rotina: recheios",
+   "consultas": [
+    {
+     "id": "soz_kit_receitas_01",
+     "q": "sliced banana and oats bowl",
+     "texto_ref": "banana com aveia",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_receitas_02",
+     "q": "cooked pumpkin puree bowl",
+     "texto_ref": "abóbora cozida",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_receitas_03",
+     "q": "dog eating plain yogurt",
+     "texto_ref": "iogurte natural",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_receitas_04",
+     "q": "dog eating wet kibble from bowl",
+     "texto_ref": "ração umedecida",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_receitas_05",
+     "q": "shredded chicken dog bowl",
+     "texto_ref": "frango desfiado",
+     "raca": null
+    },
+    {
+     "id": "soz_kit_receitas_06",
+     "q": "sweet potato and carrot cooked",
+     "texto_ref": "cenoura e batata-doce",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_A",
+   "titulo": "A O que é ansiedade de separação",
+   "consultas": [
+    {
+     "id": "soz_fund_A_01",
+     "q": "puppy sitting by window looking out",
+     "texto_ref": "ansiedade de separação",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_A_02",
+     "q": "dog curled on blanket indoors",
+     "texto_ref": "tédio ou medo",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_B",
+   "titulo": "B Por que acontece",
+   "consultas": [
+    {
+     "id": "soz_fund_B_01",
+     "q": "two dogs playing in grass",
+     "texto_ref": "por que acontece",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_B_02",
+     "q": "dog with owner cuddling closeup",
+     "texto_ref": "apego",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_C",
+   "titulo": "C Sinais e como observar",
+   "consultas": [
+    {
+     "id": "soz_fund_C_01",
+     "q": "dog ears perked attentive",
+     "texto_ref": "sinais antes da saída",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_C_02",
+     "q": "dog lying near door at home",
+     "texto_ref": "durante a ausência",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_C_03",
+     "q": "woman greeting dog at doorway",
+     "texto_ref": "na volta",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_D",
+   "titulo": "D Por que o protocolo funciona",
+   "consultas": [
+    {
+     "id": "soz_fund_D_01",
+     "q": "puppy learning sit with treat",
+     "texto_ref": "contracondicionamento",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_D_02",
+     "q": "dog on a walk with owner at sunset",
+     "texto_ref": "rotina previsível",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_E",
+   "titulo": "E Exercício, brinquedos e rotina",
+   "consultas": [
+    {
+     "id": "soz_fund_E_01",
+     "q": "dog running in field happy",
+     "texto_ref": "exercício",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_E_02",
+     "q": "dog chewing rubber toy",
+     "texto_ref": "brinquedos",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_E_03",
+     "q": "dog in cozy home safe space",
+     "texto_ref": "ambiente seguro",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_F",
+   "titulo": "F O que evitar",
+   "consultas": [
+    {
+     "id": "soz_fund_F_01",
+     "q": "owner stroking dog gently calm",
+     "texto_ref": "sem punição",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_F_02",
+     "q": "dog sleeping near other dog",
+     "texto_ref": "outro cachorro não resolve",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_fund_GHI",
+   "titulo": "G H I Causas médicas, prevenção, FAQ",
+   "consultas": [
+    {
+     "id": "soz_fund_GHI_01",
+     "q": "puppy newly adopted home with owner",
+     "texto_ref": "ao adotar",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_GHI_02",
+     "q": "senior dog resting happy",
+     "texto_ref": "cachorro adulto ainda dá tempo",
+     "raca": null
+    },
+    {
+     "id": "soz_fund_GHI_03",
+     "q": "woman reading book with dog on sofa",
+     "texto_ref": "perguntas frequentes",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "sozinho",
+   "secao": "sozinho_gatos",
+   "titulo": "Gatos sozinhos em casa (complemento)",
+   "consultas": [
+    {
+     "id": "soz_gatos_01",
+     "q": "cat relaxing alone at home window",
+     "texto_ref": "gato sozinho",
+     "raca": null
+    },
+    {
+     "id": "soz_gatos_02",
+     "q": "cat playing with toy mouse",
+     "texto_ref": "brinquedo",
+     "raca": null
+    },
+    {
+     "id": "soz_gatos_03",
+     "q": "kitten with puzzle feeder",
+     "texto_ref": "enriquecimento",
+     "raca": null
+    },
+    {
+     "id": "soz_gatos_04",
+     "q": "cat sleeping on sofa cozy",
+     "texto_ref": "descanso",
+     "raca": null
+    },
+    {
+     "id": "soz_gatos_05",
+     "q": "cat looking out window",
+     "texto_ref": "janela",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_abertura",
+   "titulo": "Capa, abertura, por que este manual",
+   "consultas": [
+    {
+     "id": "ade_abertura_01",
+     "q": "happy dog training with owner treat",
+     "texto_ref": "capa",
+     "raca": null
+    },
+    {
+     "id": "ade_abertura_02",
+     "q": "puppy sitting obediently",
+     "texto_ref": "abertura",
+     "raca": null
+    },
+    {
+     "id": "ade_abertura_03",
+     "q": "owner and dog playing park",
+     "texto_ref": "por que este manual",
+     "raca": null
+    },
+    {
+     "id": "ade_abertura_04",
+     "q": "dog looking up at owner",
+     "texto_ref": "atenção",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_kit",
+   "titulo": "Kit de treino",
+   "consultas": [
+    {
+     "id": "ade_kit_01",
+     "q": "small dog training treats in hand",
+     "texto_ref": "petiscos pequenos e macios",
+     "raca": null
+    },
+    {
+     "id": "ade_kit_02",
+     "q": "dog eating treat from hand",
+     "texto_ref": "petisco de ouro",
+     "raca": null
+    },
+    {
+     "id": "ade_kit_03",
+     "q": "dog wearing harness and leash",
+     "texto_ref": "peitoral e guia de 1,5 a 2 m",
+     "raca": null
+    },
+    {
+     "id": "ade_kit_04",
+     "q": "dog on long training leash field",
+     "texto_ref": "guia longa",
+     "raca": null
+    },
+    {
+     "id": "ade_kit_05",
+     "q": "dog on quiet living room floor",
+     "texto_ref": "local calmo",
+     "raca": null
+    },
+    {
+     "id": "ade_kit_06",
+     "q": "notebook and pencil on table",
+     "texto_ref": "manual e lápis",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_regras_ouro",
+   "titulo": "7 regras de ouro",
+   "consultas": [
+    {
+     "id": "ade_regras_ouro_01",
+     "q": "short dog training session at home",
+     "texto_ref": "sessões curtas",
+     "raca": null
+    },
+    {
+     "id": "ade_regras_ouro_02",
+     "q": "owner giving treat to puppy quickly",
+     "texto_ref": "recompensa na hora",
+     "raca": null
+    },
+    {
+     "id": "ade_regras_ouro_03",
+     "q": "owner pointing finger to dog commands",
+     "texto_ref": "uma palavra um gesto",
+     "raca": null
+    },
+    {
+     "id": "ade_regras_ouro_04",
+     "q": "puppy learning sit",
+     "texto_ref": "primeiro ensine",
+     "raca": null
+    },
+    {
+     "id": "ade_regras_ouro_05",
+     "q": "dog and owner training outdoors",
+     "texto_ref": "aumente uma coisa por vez",
+     "raca": null
+    },
+    {
+     "id": "ade_regras_ouro_06",
+     "q": "owner patient with puppy training",
+     "texto_ref": "errou? facilite",
+     "raca": null
+    },
+    {
+     "id": "ade_regras_ouro_07",
+     "q": "dog playing tug toy owner",
+     "texto_ref": "termine com brincadeira",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_marcador",
+   "titulo": "Marcador Isso! (dias 1-2)",
+   "consultas": [
+    {
+     "id": "ade_marcador_01",
+     "q": "dog looking at owner attentive treat",
+     "texto_ref": "isso e petisco",
+     "raca": null
+    },
+    {
+     "id": "ade_marcador_02",
+     "q": "hand giving treat to dog",
+     "texto_ref": "entregue o petisco",
+     "raca": null
+    },
+    {
+     "id": "ade_marcador_03",
+     "q": "dog eager waiting for treat",
+     "texto_ref": "pet olha para você",
+     "raca": null
+    },
+    {
+     "id": "ade_marcador_04",
+     "q": "dog eating treat happy",
+     "texto_ref": "acerto marcado",
+     "raca": null
+    },
+    {
+     "id": "ade_marcador_05",
+     "q": "dog looking at owner eye contact",
+     "texto_ref": "olhar espontâneo",
+     "raca": null
+    },
+    {
+     "id": "ade_marcador_06",
+     "q": "training puppy in living room",
+     "texto_ref": "treinar em outro cômodo",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_senta",
+   "titulo": "Senta (dias 3-5)",
+   "consultas": [
+    {
+     "id": "ade_senta_01",
+     "q": "hand with treat above dog nose",
+     "texto_ref": "petisco como isca",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_02",
+     "q": "puppy sitting on command treat",
+     "texto_ref": "bumbum encosta no chão",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_03",
+     "q": "dog sitting looking up at owner",
+     "texto_ref": "senta",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_04",
+     "q": "puppy sit command hand gesture",
+     "texto_ref": "gesto sem petisco",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_05",
+     "q": "dog sitting in kitchen",
+     "texto_ref": "outro cômodo",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_06",
+     "q": "labrador sitting obediently",
+     "texto_ref": "fica sentado",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_07",
+     "q": "dog sitting before walk door",
+     "texto_ref": "senta antes do passeio",
+     "raca": null
+    },
+    {
+     "id": "ade_senta_08",
+     "q": "dog sitting in front of owner",
+     "texto_ref": "senta com a palavra",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_deita",
+   "titulo": "Deita (dias 6-8)",
+   "consultas": [
+    {
+     "id": "ade_deita_01",
+     "q": "dog lying down on command",
+     "texto_ref": "deita",
+     "raca": null
+    },
+    {
+     "id": "ade_deita_02",
+     "q": "dog lying on carpet",
+     "texto_ref": "superfície confortável",
+     "raca": null
+    },
+    {
+     "id": "ade_deita_03",
+     "q": "puppy lying down paws forward",
+     "texto_ref": "entre as patas",
+     "raca": null
+    },
+    {
+     "id": "ade_deita_04",
+     "q": "owner hand pointing to floor dog down",
+     "texto_ref": "gesto mão vazia",
+     "raca": null
+    },
+    {
+     "id": "ade_deita_05",
+     "q": "dog lying calm on rug owner nearby",
+     "texto_ref": "fica deitado",
+     "raca": null
+    },
+    {
+     "id": "ade_deita_06",
+     "q": "dog alternating sit and down training",
+     "texto_ref": "senta e deita",
+     "raca": null
+    },
+    {
+     "id": "ade_deita_07",
+     "q": "dog relaxing on bed",
+     "texto_ref": "relaxamento",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_fica",
+   "titulo": "Fica (dias 9-12)",
+   "consultas": [
+    {
+     "id": "ade_fica_01",
+     "q": "dog stay command palm hand",
+     "texto_ref": "palma da mão fica",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_02",
+     "q": "dog sitting waiting patiently",
+     "texto_ref": "esperar",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_03",
+     "q": "dog staying while owner walks away",
+     "texto_ref": "distância",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_04",
+     "q": "dog waiting patiently near bowl",
+     "texto_ref": "esperar comida",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_05",
+     "q": "dog sitting still in garden",
+     "texto_ref": "fica no quintal",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_06",
+     "q": "dog released running happy",
+     "texto_ref": "livre!",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_07",
+     "q": "dog sitting ignoring distraction ball",
+     "texto_ref": "distração leve",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_08",
+     "q": "owner clapping near sitting dog",
+     "texto_ref": "palmas distração",
+     "raca": null
+    },
+    {
+     "id": "ade_fica_09",
+     "q": "dog sit stay park",
+     "texto_ref": "fica no parque",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_vem",
+   "titulo": "Vem (dias 13-16)",
+   "consultas": [
+    {
+     "id": "ade_vem_01",
+     "q": "dog running toward owner happy",
+     "texto_ref": "vem",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_02",
+     "q": "owner crouching arms open dog coming",
+     "texto_ref": "agache braços abertos",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_03",
+     "q": "puppy running to owner",
+     "texto_ref": "chamado dentro de casa",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_04",
+     "q": "dog recall long leash field",
+     "texto_ref": "guia longa",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_05",
+     "q": "two people calling dog between them",
+     "texto_ref": "jogo do chamado a dois",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_06",
+     "q": "dog excited coming for treats",
+     "texto_ref": "festa com petiscos",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_07",
+     "q": "dog choosing owner over toy",
+     "texto_ref": "distração leve brinquedo",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_08",
+     "q": "dog playing with ball in fenced yard",
+     "texto_ref": "quintal cercado",
+     "raca": null
+    },
+    {
+     "id": "ade_vem_09",
+     "q": "owner rewarding dog after recall",
+     "texto_ref": "recompensa",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_passeio",
+   "titulo": "Passeio sem puxar (dias 17-20)",
+   "consultas": [
+    {
+     "id": "ade_passeio_01",
+     "q": "dog walking beside owner loose leash",
+     "texto_ref": "guia frouxa",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_02",
+     "q": "dog heel position owner leg treat",
+     "texto_ref": "ao seu lado",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_03",
+     "q": "dog pulling on leash",
+     "texto_ref": "puxar a guia",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_04",
+     "q": "owner stopping dog on leash looking",
+     "texto_ref": "pare como uma árvore",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_05",
+     "q": "dog changing direction walking owner",
+     "texto_ref": "mudar de direção",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_06",
+     "q": "dog sniffing during walk",
+     "texto_ref": "cheirar",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_07",
+     "q": "dog walking on sidewalk calm leash",
+     "texto_ref": "trecho de rua",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_08",
+     "q": "happy dog on walk in park",
+     "texto_ref": "passeio",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_09",
+     "q": "small dog walking harness",
+     "texto_ref": "peitoral confortável",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_10",
+     "q": "dog walking with two owners",
+     "texto_ref": "passeio em família",
+     "raca": null
+    },
+    {
+     "id": "ade_passeio_11",
+     "q": "puppy first walk leash",
+     "texto_ref": "filhote",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_dia21",
+   "titulo": "Dia 21 Prova da dupla",
+   "consultas": [
+    {
+     "id": "ade_dia21_01",
+     "q": "dog and owner celebrating success",
+     "texto_ref": "festa final",
+     "raca": null
+    },
+    {
+     "id": "ade_dia21_02",
+     "q": "dog performing trick in living room",
+     "texto_ref": "prova",
+     "raca": null
+    },
+    {
+     "id": "ade_dia21_03",
+     "q": "owner hugging happy dog",
+     "texto_ref": "diploma a caminho",
+     "raca": null
+    },
+    {
+     "id": "ade_dia21_04",
+     "q": "dog shaking paw owner",
+     "texto_ref": "pata",
+     "raca": null
+    },
+    {
+     "id": "ade_dia21_05",
+     "q": "dog receiving certificate award",
+     "texto_ref": "diploma",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_capitulos",
+   "titulo": "Parte 2: fundamentação (A-F)",
+   "consultas": [
+    {
+     "id": "ade_capitulos_01",
+     "q": "dog learning new trick",
+     "texto_ref": "A como o pet aprende",
+     "raca": null
+    },
+    {
+     "id": "ade_capitulos_02",
+     "q": "dog eating reward treat",
+     "texto_ref": "B reforço positivo",
+     "raca": null
+    },
+    {
+     "id": "ade_capitulos_03",
+     "q": "timing treat reward dog nose",
+     "texto_ref": "C timing de 1 segundo",
+     "raca": null
+    },
+    {
+     "id": "ade_capitulos_04",
+     "q": "short dog training session outdoors",
+     "texto_ref": "D sessões curtas",
+     "raca": null
+    },
+    {
+     "id": "ade_capitulos_05",
+     "q": "owner gentle positive training",
+     "texto_ref": "E por que punição atrapalha",
+     "raca": null
+    },
+    {
+     "id": "ade_capitulos_06",
+     "q": "veterinarian smiling with dog",
+     "texto_ref": "F saúde",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_erros_comuns",
+   "titulo": "Os 5 erros e regra de regressão",
+   "consultas": [
+    {
+     "id": "ade_erros_comuns_01",
+     "q": "tired puppy lying after training",
+     "texto_ref": "sessões longas demais",
+     "raca": null
+    },
+    {
+     "id": "ade_erros_comuns_02",
+     "q": "owner repeating command to dog",
+     "texto_ref": "repetir o comando",
+     "raca": null
+    },
+    {
+     "id": "ade_erros_comuns_03",
+     "q": "late treat dog confused",
+     "texto_ref": "demorar para premiar",
+     "raca": null
+    },
+    {
+     "id": "ade_erros_comuns_04",
+     "q": "dog distracted in park training",
+     "texto_ref": "aumentar três coisas",
+     "raca": null
+    },
+    {
+     "id": "ade_erros_comuns_05",
+     "q": "owner calling dog for bath",
+     "texto_ref": "comando para algo ruim",
+     "raca": null
+    },
+    {
+     "id": "ade_erros_comuns_06",
+     "q": "puppy resting after training",
+     "texto_ref": "encerrar quando cansado",
+     "raca": null
+    },
+    {
+     "id": "ade_erros_comuns_07",
+     "q": "dog sniffing ground relaxed",
+     "texto_ref": "voltar um degrau",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_profissional",
+   "titulo": "Sinais para procurar veterinário",
+   "consultas": [
+    {
+     "id": "ade_profissional_01",
+     "q": "veterinarian checking dog",
+     "texto_ref": "avaliação veterinária",
+     "raca": null
+    },
+    {
+     "id": "ade_profissional_02",
+     "q": "dog vet exam calm",
+     "texto_ref": "dor/desconforto",
+     "raca": null
+    },
+    {
+     "id": "ade_profissional_03",
+     "q": "woman consulting trainer with dog",
+     "texto_ref": "profissional positivo",
+     "raca": null
+    }
+   ]
+  },
+  {
+   "livro": "adestramento",
+   "secao": "adestramento_final",
+   "titulo": "Final e diploma",
+   "consultas": [
+    {
+     "id": "ade_final_01",
+     "q": "happy dog smiling outdoors",
+     "texto_ref": "final",
+     "raca": null
+    },
+    {
+     "id": "ade_final_02",
+     "q": "owner and dog sunset walk",
+     "texto_ref": "vocês chegaram lá",
+     "raca": null
+    },
+    {
+     "id": "ade_final_03",
+     "q": "dog with ribbon celebration",
+     "texto_ref": "diploma",
+     "raca": null
+    }
+   ]
+  }
+ ]
+}
