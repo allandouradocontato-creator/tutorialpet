@@ -1,6 +1,6 @@
 {
  "slug": "como-escolher-rampa-pet-para-sofa-e-cama-alta",
- "status": "aprovado",
+ "status": "agendado",
  "criado_em": "2026-10-16T10:58:05+00:00",
  "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta",
  "rehook": {
@@ -20,5 +20,10 @@
   "problemas": [],
   "liberado_por": "Claude 24/10 (Allan): re-gancho com texto novo, voz Marianne ElevenLabs, -14,6 LUFS, artigo no ar"
  },
- "aprovado_por": "Claude sessão 24/10 (re-gancho)"
+ "aprovado_por": "Claude sessão 24/10 (re-gancho)",
+ "agendado": {
+  "facebook": {"quando": "2026-10-26T14:00:00-03:00", "zernio_id": "6adc3564e6b92ce2d51b7c71"},
+  "instagram": {"quando": "2026-10-26T15:00:00-03:00", "zernio_id": "6adc35677beb87d559d17906"},
+  "tiktok": {"quando": "2026-10-26T20:20:00-03:00", "buffer_id": "6adc356ee4be8a4d863ef16c"}
+ }
 }
