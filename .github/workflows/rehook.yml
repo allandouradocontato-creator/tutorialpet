@@ -1,0 +1,71 @@
+name: Re-gancho de pacotes presos
+
+# Disparo sem token: editar config/rehook.txt e dar push na main. Troca o gancho banido, remonta o video com a voz da Marianne,
+# roda o Guardiao e aprova sozinho o que ficar ok (Allan, 24/10/2026).
+on:
+  push:
+    branches: [main]
+    paths: ["config/rehook.txt"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fabrica
+  cancel-in-progress: false
+
+jobs:
+  rehook:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencias
+        run: |
+          pip install pyyaml requests edge-tts
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Branch media
+        run: git clone --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" /tmp/media
+      - name: Re-gancho e remontagem
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          CLIPS_REGISTRO: /tmp/media/clips_usados.json
+          DUDA_ESTADO: /tmp/media/estado_duda
+        run: python scripts/rehook.py /tmp/media
+      - name: Guardiao de marca e variedade
+        continue-on-error: true
+        env:
+          CLIPS_REGISTRO: /tmp/media/clips_usados.json
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: python agents/26_guardiao_marca/agent.py /tmp/media | tee /tmp/guardiao.md
+      - name: Aprovar o que o Guardiao liberou
+        run: |
+          python - <<'PY'
+          import json, glob
+          for p in glob.glob("/tmp/media/pacotes/*/manifest.json"):
+              m = json.load(open(p, encoding="utf-8"))
+              if m.get("rehook") and m.get("status") == "aguardando_revisao":
+                  g = (m.get("guardiao") or {})
+                  print(p.split("/")[-2], "guardiao:", g.get("status"), g.get("problemas"))
+                  if g.get("status") == "ok":
+                      m["status"] = "aprovado"; m["aprovado_por"] = "auto (re-gancho, Guardiao ok)"
+                      json.dump(m, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          PY
+      - name: Entregar (branch media)
+        run: |
+          cd /tmp/media
+          git config user.name "Fabrica Tutorial Pet"; git config user.email "fabrica@tutorialpet.com.br"
+          git add -A; git commit -m "re-gancho de pacotes presos" || echo "nada a commitar"
+          for i in 1 2 3; do git pull --rebase origin media && git push origin media && break; sleep 5; done

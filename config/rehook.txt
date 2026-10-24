@@ -1,0 +1,4 @@
+# slug|gancho falado (sem tag)|molde|tag de emoção. Disparo: push neste arquivo (workflow rehook.yml). 23-24/10/2026: troca só o gancho banido; remonta o vídeo com a mesma voz (Marianne).
+como-escolher-rampa-pet-para-sofa-e-cama-alta|Seu cachorro pula do sofá sem parar?|abertura_problema_pet|smiling
+como-fazer-caldo-de-ossos-caseiro-para-cachorro|Você já pensou no que vai no caldo dele?|abertura_pensar|thoughtful
+por-que-o-gato-morde-do-nada-durante-o-carinho|Se seu gato morde no carinho, assiste isso.|abertura_chamada_direta|warmly
