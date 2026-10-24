@@ -1,6 +1,6 @@
 {
  "slug": "como-fazer-caldo-de-ossos-caseiro-para-cachorro",
- "status": "aprovado",
+ "status": "agendado_parcial",
  "criado_em": "2026-10-20T14:12:54+00:00",
  "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-caldo-de-ossos-caseiro-para-cachorro",
  "rehook": {
@@ -20,5 +20,10 @@
   "problemas": [],
   "liberado_por": "Claude 24/10 (Allan): re-gancho com texto novo, voz Marianne ElevenLabs, -14,6 LUFS, artigo no ar"
  },
- "aprovado_por": "Claude sessão 24/10 (re-gancho)"
+ "aprovado_por": "Claude sessão 24/10 (re-gancho)",
+ "agendado": {
+  "facebook": {"quando": "2026-10-26T19:00:00-03:00", "zernio_id": "6adc3569e6b92ce2d51b7c7d"},
+  "instagram": {"quando": "2026-10-26T20:00:00-03:00", "zernio_id": "6adc356c7beb87d559d17925"},
+  "tiktok": "pendente: fila do Buffer no limite de 10; agendar na rodada seguinte"
+ }
 }
