@@ -1,6 +1,6 @@
 {
   "slug": "como-limpar-as-patas-do-cachorro-depois-do-passeio",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-23T23:58:33+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-limpar-as-patas-do-cachorro-depois-do-passeio",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie cachorro: 6/6 quadros conferem [cf]"
     ],
     "em": "2026-10-24T00:00:53+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas (2026-10-24)"
 }

@@ -1,6 +1,6 @@
 {
   "slug": "como-acostumar-gato-filhote-a-usar-a-escova-de-dentes",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-23T14:13:51+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-acostumar-gato-filhote-a-usar-a-escova-de-dentes",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie gato: 5/5 quadros conferem [cf]"
     ],
     "em": "2026-10-23T14:17:21+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas (2026-10-24)"
 }
