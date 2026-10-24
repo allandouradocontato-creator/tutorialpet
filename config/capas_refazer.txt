@@ -1,11 +1,3 @@
-quanto-tempo-um-cachorro-pode-ficar-sozinho
-alimentos-proibidos-para-cachorro
-melhor-areia-para-gato-como-escolher
-plantas-toxicas-para-gatos
-o-que-comprar-antes-de-adotar-um-gatinho
-como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
-como-acostumar-gato-e-cachorro-a-conviverem-em-paz
-como-introduzir-um-segundo-gato-na-casa-sem-brigas
-galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
+# 24/10/2026: so os 2 que falharam por falta de foto do tema (buscas novas em stock_queries.py)
 como-escolher-comedouro-duplo-elevado-para-gatos-idosos
 como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
