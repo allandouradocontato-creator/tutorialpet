@@ -236,7 +236,8 @@ temas:
   data: '2026-10-24'
 - termo: como montar um espaco seguro para gatos em casas pequenas
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-24'
 - termo: quais petiscos caseiros posso fazer para caes com sensibilidade
   pilar: alimentacao
   status: pendente
@@ -753,5 +754,11 @@ temas:
   pilar: comportamento
   status: pendente
 - termo: como preparar a casa para a chegada de dois filhotes juntos
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: melhores tipos de fontes de agua para gatos que moram em apartamento
+  pilar: produtos_compras
+  status: pendente
+- termo: o que comprar para montar um espaco seguro para filhotes
   pilar: primeiros_passos_filhotes
   status: pendente
