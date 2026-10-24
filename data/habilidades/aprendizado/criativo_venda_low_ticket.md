@@ -4,3 +4,4 @@ Skill: biblioteca/habilidades/criativo_venda_low_ticket.md (v2, 22/10/2026). Uma
 
 | data | regra aplicada | resultado (n, métrica) | mantém/altera |
 |---|---|---|---|
+2026-10-24 | lida; venda só depois do mimo (R$ 27 citado só após a carteirinha), nada de venda hoje | n=0 vendas | mantém

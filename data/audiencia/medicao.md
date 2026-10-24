@@ -65,3 +65,5 @@ X8 legenda (pergunta específica com número + fecho fácil) x legenda antiga: 6
 Alerta: 5 posts agendados com gancho banido gravado no vídeo (lista no arquivo do teste); o primeiro sai hoje às 14:20 (TikTok 6ad8a1729c5d256f6598ceac).
 
 Atualização 23/10 09:30 (Diretor, Zernio follower-stats 09:21): FB 8 (+1 em 3 dias), IG 0, TikTok sem dado. Isca ainda não ao ar.
+
+Atualização 24/10 09:30 (Diretor de Audiência): Zernio follower-stats falha (kwarg 'limit'); último valor FB 8, IG 0, TikTok 19. Isca ainda não ao ar (E27 aberta, E100). Comentários de terceiros e DMs: 0 novo.

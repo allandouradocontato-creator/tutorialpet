@@ -27,3 +27,9 @@
 - Pareceres de hoje: Medidor (22/10 noite): T3 IG PERDEU (alcance mediana 4), restante NEUTRO; Estrategista (23/10 07:19): E50-E54 aplicados só a itens não agendados; Criador (ideias 23/10): lote de 14, sem parecer sobre a isca. Sem parecer do Especialista TikTok novo.
 - DECISÃO: (1) E48 acatada: E13/E26/E42 canceladas; teste CTA refeito só com itens não agendados = E55. (2) Gargalo real da isca é o PDF (E27, vencendo hoje): sem ele nada vai ao ar; E28/E29 seguem dependentes. (3) Post agendado de 25/10 17:29 com "Comente GUIA" segue como pedido ao Allan (mexer em agendado).
 - Pedido ao Allan (inalterado): ok por escrito para ligar o fluxo ao vivo + autorizar OAuth do Facebook no ManyChat.
+
+## Revisão 24/10/2026 09:30 (Fortaleza) — Diretor de Audiência
+- Medição: Zernio accounts_get_follower_stats segue quebrado ("unexpected keyword argument 'limit'"); accounts_list não traz contagem. Último valor: FB 8, IG 0, TikTok 19 (Allan 20/10). Isca NÃO está ao ar (PDF E27 não existe) = janela de 72 h não começou = NEUTRO. Medidor 23/10 21:15: T3 IG e T4 TikTok PERDEU, T5/T6/T8 NEUTRO; veredito final hoje 21:11.
+- Pareceres: Medidor (23/10), Estrategista (24/10 07:07: E97 sem imagem em FB/IG, E98/E99 TikTok), Criador (ideias 24/10), Guerrilha (23/10: 0 comentário feito, sem post elegível). Sem parecer novo do Especialista TikTok/Atendente (rotinas pausadas). Sem divergência; mantenho a isca.
+- DECISÃO: (1) isca e textos mantidos, nenhuma troca (sem dado ao vivo, trocar seria chute). (2) E27 é o único gargalo: nova linha E100 faz o PDF a única tarefa do Executor 10:53. (3) E28/E29 (Chrome/ManyChat) seguem dependentes do PDF; não abro linha nova de ManyChat até o PDF existir.
+- Pedido ao Allan (inalterado, 1 item só quando o PDF existir): ok por escrito para ligar o fluxo + OAuth do Facebook no ManyChat; e o post agendado de 25/10 17:29 ainda diz "Comente GUIA" (mexer em agendado = só com ok dele).

@@ -13,3 +13,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-23 | regra de decisão da skill (Diretor): sem isca ao ar, nenhuma mudança de plataforma; medir FB/IG por follower-stats | n=0 (FB 8, IG 0, janela 72 h não iniciada) | mantém
 2026-10-24 | estoque FB/IG ate 26/10 A; rampa e caldo (re-gancho aprovados) agendados 26/10 B/C | n=2 pacotes, sem leitura ainda | mantem
 2026-10-24 | regra de decisão da skill: pergunta binária de rotina, sem comando de curtir/comentar (limite Meta isca de engajamento) | n=0 posts do lote publicados | mantém
+2026-10-24 | decisão de plataforma: sem isca ao ar não se muda canal/formato; manter FB+IG piloto do mimo | n=0 (FB 8, IG 0; follower-stats quebrado) | mantém

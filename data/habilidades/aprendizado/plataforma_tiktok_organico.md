@@ -13,3 +13,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-23 | regra de decisão da skill (Diretor): sem isca ao ar, nenhuma mudança de plataforma; medir FB/IG por follower-stats | n=0 (FB 8, IG 0, janela 72 h não iniciada) | mantém
 2026-10-23 | agendar TikTok pendente na última vaga do Buffer (fila 10/10) em turno B livre de 26/10 | n=1 post, fila no teto | mantém
 2026-10-24 | regra de limites: TikTok sem comentário→DM e música só da Biblioteca Comercial nas 2 ideias liberadas | n=0 posts do lote publicados | mantém
+2026-10-24 | TikTok só gatilho por DM (CTA 'manda SOZINHO no direct'); nada ao vivo no ManyChat sem ok | n=0 DMs; Medidor T4 PERDEU (2,10 s, n=4) | mantém
