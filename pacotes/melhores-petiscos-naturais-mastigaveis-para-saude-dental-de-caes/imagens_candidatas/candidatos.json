@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 1750380,
+    "url_download": "https://images.pexels.com/photos/1750380/pexels-photo-1750380.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-short-coated-puppy-1750380/",
+    "fotografo": "Josh Sorenson",
+    "fotografo_url": "https://www.pexels.com/@joshsorenson",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog chewing natural treat close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 28244088,
+    "url_download": "https://images.pexels.com/photos/28244088/pexels-photo-28244088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/boston-terrier-puppy-28244088/",
+    "fotografo": "Sean Brannon",
+    "fotografo_url": "https://www.pexels.com/@sean-brannon-762373037",
+    "largura": 7008,
+    "altura": 3944,
+    "query": "dog chewing natural treat close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 28244086,
+    "url_download": "https://images.pexels.com/photos/28244086/pexels-photo-28244086.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/boston-terrier-puppy-28244086/",
+    "fotografo": "Sean Brannon",
+    "fotografo_url": "https://www.pexels.com/@sean-brannon-762373037",
+    "largura": 7008,
+    "altura": 3944,
+    "query": "dog chewing natural treat close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27972919,
+    "url_download": "https://images.pexels.com/photos/27972919/pexels-photo-27972919.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/boston-terrier-puppy-27972919/",
+    "fotografo": "Sean Brannon",
+    "fotografo_url": "https://www.pexels.com/@sean-brannon-762373037",
+    "largura": 7008,
+    "altura": 3944,
+    "query": "dog chewing natural treat close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9291103,
+    "url_download": "https://images.pexels.com/photos/9291103/pexels-photo-9291103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-golden-retriever-biting-a-piece-of-wood-9291103/",
+    "fotografo": "Barnabas Davoti",
+    "fotografo_url": "https://www.pexels.com/@barnabas-davoti-31615494",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "dog chewing natural treat close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15356245,
+    "url_download": "https://images.pexels.com/photos/15356245/pexels-photo-15356245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/golden-retriever-chewing-on-dog-toy-15356245/",
+    "fotografo": "Laura Alessia",
+    "fotografo_url": "https://www.pexels.com/@laualessia",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "golden retriever chewing bone white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes/5.jpg"
+  }
+]
