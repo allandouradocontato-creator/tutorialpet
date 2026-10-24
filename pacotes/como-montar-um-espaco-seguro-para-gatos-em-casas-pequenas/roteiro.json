@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Como adaptar casa pequena para gatos",
+  "gancho_3s": "Se você é tutora e quer 5 dicas, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Se você é tutora e quer 5 dicas, assiste isso.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Se você é tutora e quer 5 dicas, assiste isso."
+    },
+    {
+      "narracao": "[warmly] Gatos medem território pela altura. Aproveite estantes e topos de móveis criando caminhos sem becos sem saída.",
+      "visual_busca_banco_livre": "cat sitting on high shelf looking down",
+      "texto_na_tela": "Aproveite as alturas"
+    },
+    {
+      "narracao": "[thoughtful] Nunca junte comida, água e banheiro. Separe a caixa de areia dos potinhos para não gerar estresse.",
+      "visual_busca_banco_livre": "cat eating dry food from bowl indoors",
+      "texto_na_tela": "Separe comida e areia"
+    },
+    {
+      "narracao": "[softly] Espalhe tigelas de água pela casa, longe da ração, estimulando seu gato a beber mais.",
+      "visual_busca_banco_livre": "cat drinking water from glass bowl floor",
+      "texto_na_tela": "Água longe da comida"
+    },
+    {
+      "narracao": "[happy] Proteja fios soltos com organizadores e mantenha telas resistentes em todas as janelas.",
+      "visual_busca_banco_livre": "indoor cat sitting near window",
+      "texto_na_tela": "Telas e fios protegidos"
+    },
+    {
+      "narracao": "[excited] Crie um cantinho de refúgio sossegado usando uma caixa de transporte aberta com cobertor macio.",
+      "visual_busca_banco_livre": "cat resting inside pet carrier on floor",
+      "texto_na_tela": "Cantinho de refúgio"
+    }
+  ],
+  "chamada_final": "[smiling] Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatosemapartamento",
+    "#bemestaranimal",
+    "#gatosfelizes",
+    "#dicasparagatos",
+    "#gatossaudaiveis"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nMora em casa pequena com gato? Saiba como adaptar o espaço!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas\n\n#gatosemapartamento #bemestaranimal #gatosfelizes #dicasparagatos #gatossaudaiveis",
+  "slug": "como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 2
+}
