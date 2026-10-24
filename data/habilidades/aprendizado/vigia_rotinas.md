@@ -7,3 +7,4 @@
 2026-10-23 15:25 | promoveu 3 aprovados (coleira-gps, rotina-passeios, escova-dentes-gato; blog 2/4 -> 5 em voo) + ficha V08 AdSense | aguardando publicar_blog #51 SUCCEEDED e 3 páginas (n=1) | mantém
 2026-10-23 19:25 | fechou issues #8/#9 (ruído da #49) + dispatch reforco_blog (V08); blog 4/4 no ar | aguardando reforco_blog SUCCEEDED e auditoria sem as 3 FALHAS de fonte (n=1) | mantém
 2026-10-24 07:19 | blog 0/4 -> promoveu 3 aprovados + fontes de saúde (causa: build lê seo_onpage/otimizados, não rascunhos) | aguardando publicar_blog SUCCEEDED e 3 páginas 200; auditoria sem FALHA de fonte (confirmada local) (n=1) | mantém; propor: reforco_blog gravar fonte em otimizados
+2026-10-24 07:45 | blog 1/4 (2 de 3 promovidos presos em capa sem animal): fotos_refazer slow-feed + disparo fábrica | aguardando fotos refeitas, re-promoção e fábrica verde (n=1) | mantém; causa raiz capas_pendentes (6 slugs)
