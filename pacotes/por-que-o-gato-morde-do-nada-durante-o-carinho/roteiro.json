@@ -1,11 +1,11 @@
 {
   "titulo_video": "Por que gatos mordem durante o carinho",
-  "gancho_3s": "Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+  "gancho_3s": "Se seu gato morde no carinho, assiste isso.",
   "cenas": [
     {
-      "narracao": "[warmly] Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+      "narracao": "[warmly] Se seu gato morde no carinho, assiste isso.",
       "visual_busca_banco_livre": "cute kitten looking at camera",
-      "texto_na_tela": "Esse erro tá silenciosamente atrapalhando todo tutor de gato."
+      "texto_na_tela": "Se seu gato morde no carinho, assiste isso."
     },
     {
       "narracao": "[softly] Seu gato morde do nada no carinho? Ele não faz isso por maldade.",
@@ -48,6 +48,6 @@
   ],
   "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato morde de repente durante o carinho?\n\n📖 Artigo completo: https://tutorialpet.com.br/por-que-o-gato-morde-do-nada-durante-o-carinho\n\n#comportamentofelino #gatos #felinos #dicaspet #cuidadoscomgatos",
   "slug": "por-que-o-gato-morde-do-nada-durante-o-carinho",
-  "molde_gancho": "abertura_erro",
+  "molde_gancho": "abertura_chamada_direta",
   "cta_indice": 4
 }

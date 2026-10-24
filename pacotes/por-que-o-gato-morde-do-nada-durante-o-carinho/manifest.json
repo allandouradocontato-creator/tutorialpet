@@ -11,22 +11,25 @@
     "modelo": "eleven_v4",
     "stability": 0.26
   },
+  "rehook": {
+    "gancho_antigo": "Esse erro tá silenciosamente atrapalhando todo tutor de gato.",
+    "gancho_novo": "Se seu gato morde no carinho, assiste isso."
+  },
   "guardiao": {
-    "status": "revisar",
-    "problemas": [
-      "gancho repetido de um dos últimos 5 vídeos (abertura_erro)"
-    ],
+    "status": "ok",
+    "problemas": [],
     "ok": [
       "sem cenas repetidas no vídeo",
       "16 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "música alternada (gr0za-happy-happy-music-569345.mp3)",
       "carimbo da marca disponível e aplicado pela montagem",
       "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_chamada_direta)",
       "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
       "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie gato: 6/6 quadros conferem"
+      "coerência espécie gato: 6/6 quadros conferem [cf]"
     ],
-    "em": "2026-10-21T14:24:56+00:00"
+    "em": "2026-10-24T03:21:11+00:00"
   },
-  "aprovado_por": "Conferente: gancho repetido apenas"
+  "aprovado_por": "auto (re-gancho, Guardiao ok)"
 }
