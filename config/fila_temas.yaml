@@ -240,7 +240,8 @@ temas:
   data: '2026-10-24'
 - termo: quais petiscos caseiros posso fazer para caes com sensibilidade
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-24'
 - termo: como estimular o olfato de caes idosos dentro de casa
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -760,5 +761,14 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: o que comprar para montar um espaco seguro para filhotes
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como escolher comedouros interativos seguros para gatos que comem rapido
+  pilar: produtos_compras
+  status: pendente
+- termo: como preparar petiscos naturais desidratados para caes e gatos em casa
+  pilar: alimentacao
+  status: pendente
+- termo: como montar um espaco de alimentacao separado para pets de diferentes idades
   pilar: primeiros_passos_filhotes
   status: pendente
