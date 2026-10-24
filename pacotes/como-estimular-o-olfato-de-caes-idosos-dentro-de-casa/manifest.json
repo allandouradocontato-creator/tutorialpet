@@ -1,0 +1,31 @@
+{
+  "slug": "como-estimular-o-olfato-de-caes-idosos-dentro-de-casa",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-24T23:15:47+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "coerência espécie cachorro: espécie errada (esperado cachorro) nos quadros [2] [cf]"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_problema_pet)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-10-24T23:17:56+00:00"
+  }
+}
