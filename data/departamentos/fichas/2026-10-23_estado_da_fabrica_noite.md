@@ -1,0 +1,13 @@
+# FICHA — Estado da fábrica 23/10 21:41 (Diretor de Operação e Qualidade)
+- Departamento / Diretor / data-hora: Operação e Qualidade / 2026-10-23 21:41 (Fortaleza)
+- Assunto e objetivo: fábrica rodando sem etapa manual para o Allan; fechar atrasos do livro até 24/10 10:00.
+- Público: n/a (interno).
+- Pareceres: Vigia (23/10 22:19 SUCCEEDED, commit 22:25) ok; Medidor (24/10 00:11Z, medicao_2026-10-23) T1/T3/T4 PERDEU já com E93-E95; Executor (último 23/10 09:53, 1 disparo/dia às 06:53); Segurança (última 21/10, semanal qua); Cobrança desligada em 22/10 por ordem do Allan. sem parecer novo do Otimizador.
+- Divergências: prompt do Executor fala em 06:53 e 10:53, mas só há 1 gatilho (06:53). Decisão: manter 1 disparo (religar custa crédito; Allan cortou 26 rotinas em 22/10).
+- DECISÃO: nenhum ALERTA. Cobrar o Executor pelas linhas vencidas em 23/10 e ainda "decidido" (E27, E28, E35, E40, E41, E43) e registrar E93-E95 como 1ª tarefa de 24/10 06:53.
+- Anti-gap (24 h): artigos novos no ar = 4 (xixi-tapete e armazenar-racao 22:34 reforço/publicação; coleira-gps e rotina-de-passeios 18:33); curl 200 em 3 slugs conferidos. Publicar Blog: #49 failure 14:23 foi seguido de #50 e #51 success = sem ALERTA. Fábrica #118-#125 todas success (1 cancelled em 23/10 12:11, manual). Saúde #7-#16 success. 0 diretor sem ficha: Audiência 23/10 09:30, Produto 23/10 12:31, Conteúdo 22/10 (seg/qui, próximo 26/10).
+- Rotinas (list_triggers, ativas): 0 FAILED; 1 PENDING = esta rodada. Segurança sem rodar desde 21/10 (semanal, próxima 28/10).
+- Riscos: fila TikTok acaba 24/10 20:20 (E25/E50/E95); Executor atrasadas 11+; Medidor veredito final 24/10 21:11.
+- Ações: E96 (dono nuvem/Executor, prazo 1 dia).
+- Pedido ao Allan: nenhum.
+- Status: aprovada pelo Diretor
