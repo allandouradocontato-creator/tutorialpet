@@ -1,18 +1,24 @@
 {
-  "slug": "como-escolher-rampa-pet-para-sofa-e-cama-alta",
-  "status": "aguardando_revisao",
-  "criado_em": "2026-10-16T10:58:05+00:00",
-  "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta",
-  "rehook": {
-    "gancho_antigo": "Para de deixar seu pet pular. Isso tá atrapalhando a saúde dele.",
-    "gancho_novo": "Seu cachorro pula do sofá sem parar?"
-  },
-  "voz": {
-    "motor": "elevenlabs",
-    "cenas_elevenlabs": 8,
-    "cenas_edge_tts": 0,
-    "voice_id": "iScHbNW8K33gNo3lGgbo",
-    "modelo": "eleven_v4",
-    "stability": 0.26
-  }
+ "slug": "como-escolher-rampa-pet-para-sofa-e-cama-alta",
+ "status": "aprovado",
+ "criado_em": "2026-10-16T10:58:05+00:00",
+ "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta",
+ "rehook": {
+  "gancho_antigo": "Para de deixar seu pet pular. Isso tá atrapalhando a saúde dele.",
+  "gancho_novo": "Seu cachorro pula do sofá sem parar?"
+ },
+ "voz": {
+  "motor": "elevenlabs",
+  "cenas_elevenlabs": 8,
+  "cenas_edge_tts": 0,
+  "voice_id": "iScHbNW8K33gNo3lGgbo",
+  "modelo": "eleven_v4",
+  "stability": 0.26
+ },
+ "guardiao": {
+  "status": "ok",
+  "problemas": [],
+  "liberado_por": "Claude 24/10 (Allan): re-gancho com texto novo, voz Marianne ElevenLabs, -14,6 LUFS, artigo no ar"
+ },
+ "aprovado_por": "Claude sessão 24/10 (re-gancho)"
 }
