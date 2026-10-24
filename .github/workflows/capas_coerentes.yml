@@ -44,8 +44,11 @@ jobs:
           grep -v '^#' config/capas_refazer.txt | grep -v '^$' | awk '{print $1}' | sort -u | while read slug; do
             echo "== $slug"
             rm -rf "data/visual/candidatos/$slug"
-            python blog_imagens_nuvem.py "$slug" || { echo "sem candidatas: $slug"; continue; }
-            python -m core.capa "$slug" || echo "::warning::sem capa coerente: $slug"
+            python blog_imagens_nuvem.py "$slug" || echo "Pexels sem candidatas: $slug"
+            python -m core.capa "$slug" || {
+              echo "Pexels sem capa coerente: tentando plano B por IA ($slug)"
+              python scripts/capa_ia.py "$slug" && python -m core.capa "$slug" || echo "::warning::sem capa coerente: $slug"
+            }
           done
           if [ "$TESTE" = "true" ]; then echo 'TESTE: nada gravado'; exit 0; fi
           python site/build_site.py --site pets-tutores-iniciantes > /dev/null

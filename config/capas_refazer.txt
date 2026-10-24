@@ -2,3 +2,4 @@
 como-escolher-comedouro-duplo-elevado-para-gatos-idosos
 como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
 # retry 24/10 0323
+# retry 24/10 0345 (plano B IA)
