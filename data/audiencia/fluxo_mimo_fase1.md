@@ -17,6 +17,7 @@ Canal: Instagram agora (gatilho por comentário). TikTok: só gatilho por DM. Fa
 6. Pergunta 5 (botões, campo horas_sozinho): "Quantas horas por dia o(a) {nome_pet} fica sozinho(a)? Menos de 2 / 2 a 4 / 4 a 8 / mais de 8"
 7. Entrega: "Prontinho! Aqui está o mimo do(a) {nome_pet}: {link}". Depois: convite para seguir a página (se não usar Follow to DM) e para postar o mimo marcando a página.
 8. Segmentação (nos bastidores): horas_sozinho >= 4 recebe depois, em outra mensagem, o conteúdo ligado ao Sozinho em Casa (não vender na mesma hora do mimo).
+9. (E59, RASCUNHO, NÃO ATIVAR sem ok escrito do Allan) Mensagem 2, só horas_sozinho >= 4, 1 a 2 dias após a entrega: "Oi! Aqui é a Duda, assistente virtual do Tutorial Pet 🐾 Você contou que o(a) {nome_pet} fica {horas_sozinho} por dia sozinho(a). Se quiser, tenho um plano de 14 dias pra ele(a) ir se acostumando aos poucos: sozinho.tutorialpet.com.br (R$ 27, pagamento único). Sem pressa, se não fizer sentido agora é só ignorar." Link com ?utm_source=manychat&utm_medium=mimo. Fonte: data/departamentos/fichas/2026-10-23_prioridade_receita_semana.md.
 
 ## Campos do contato a criar no ManyChat
 nome_pet (texto), especie (texto), fase (texto), raca (texto), horas_sozinho (texto), origem_mimo (texto, ex.: ig_comentario, tt_dm).

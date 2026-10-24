@@ -1,4 +1,5 @@
 # Briefing da esteira de produtos (Tarefa E, 22/10/2026)
+**CONGELADA em 23/10 por decisão do Diretor de Produto e Receita (E60); reabrir após a 1ª venda real. Fábrica de Produtos, Produtor de e-book e Construtor de app não são religados por isso.**
 Fontes: e-books em /home/claude/sozinho-em-casa-app/ebook (adestramento_conteudo.py, fundamentacao.py, Kit Rotina, isca 7 Erros), content.json do app, briefing.md, app_modulos_levantamento.md. Dados de venda: SEM DADO (Kiwify ilegível; última contagem conhecida 08/10 = 2 alunos). Nada abaixo é projeção de receita.
 
 ## 1) Mapa do que já existe e sobreposição
