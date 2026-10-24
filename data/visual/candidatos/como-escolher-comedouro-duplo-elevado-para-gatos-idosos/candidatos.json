@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "fonte": "ia-flux",
+    "id": "ia0",
+    "url_download": "",
+    "url_pagina": "https://www.tutorialpet.com.br",
+    "fotografo": "Tutorial Pet (imagem gerada por IA)",
+    "fotografo_url": "https://www.tutorialpet.com.br",
+    "query": "Professional photograph of an elderly tabby cat eating from a raised double pet ",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-duplo-elevado-para-gatos-idosos/0.jpg"
+  },
+  {
+    "fonte": "ia-flux",
+    "id": "ia1",
+    "url_download": "",
+    "url_pagina": "https://www.tutorialpet.com.br",
+    "fotografo": "Tutorial Pet (imagem gerada por IA)",
+    "fotografo_url": "https://www.tutorialpet.com.br",
+    "query": "Professional photograph of a senior gray cat standing at an elevated double cat ",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-duplo-elevado-para-gatos-idosos/1.jpg"
+  },
+  {
+    "fonte": "ia-flux",
+    "id": "ia2",
+    "url_download": "",
+    "url_pagina": "https://www.tutorialpet.com.br",
+    "fotografo": "Tutorial Pet (imagem gerada por IA)",
+    "fotografo_url": "https://www.tutorialpet.com.br",
+    "query": "Professional photograph of a calm older cat next to a raised ceramic double bowl",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-duplo-elevado-para-gatos-idosos/2.jpg"
+  }
+]
