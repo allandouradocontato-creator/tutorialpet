@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

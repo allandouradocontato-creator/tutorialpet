@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-23'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-23T22:34:37+00:00'
+revisado_em: '2026-10-24T10:24:56+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -33,7 +33,7 @@ checagens_qualidade:
 titulo_seo: Como escolher coleira com rastreador GPS para cachorro
 keyword_density: 0.0061
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-23T22:34:37+00:00'
+otimizado_em: '2026-10-24T10:24:56+00:00'
 checagens_seo:
 - meta description recomposta para não ultrapassar 155 caracteres e/ou para trazer
   o termo-alvo mais perto do início.
@@ -53,6 +53,21 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-coleira-com-rastreador-gps-para-cachorro.jsonld.json
+imagem_capa: imagens/como-escolher-coleira-com-rastreador-gps-para-cachorro.jpg
+imagem_fonte: pexels
+imagem_fotografo: https://kaboompics.com/
+imagem_fotografo_url: https://www.pexels.com/@karola-g
+imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-dog-face-5705543/
+imagem_selecionada_em: '2026-10-24T10:24:56+00:00'
+imagens_corpo:
+- arquivo: imagens/como-escolher-coleira-com-rastreador-gps-para-cachorro-corpo-1.jpg
+  alt: 'como escolher coleira com rastreador gps para cachorro'
+  fotografo: 'Matheus Bertelli'
+  fonte_url: 'https://www.pexels.com/photo/close-up-of-a-happy-dog-outdoors-at-sunset-38760168/'
+- arquivo: imagens/como-escolher-coleira-com-rastreador-gps-para-cachorro-corpo-2.jpg
+  alt: 'como escolher coleira com rastreador gps para cachorro'
+  fotografo: 'Fernanda Leticia'
+  fonte_url: 'https://www.pexels.com/photo/close-up-portrait-of-a-happy-dog-outdoors-30586500/'
 ---
 
 # Como escolher coleira com rastreador GPS para cachorro

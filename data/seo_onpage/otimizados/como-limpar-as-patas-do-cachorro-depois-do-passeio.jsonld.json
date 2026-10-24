@@ -1,0 +1,42 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como limpar as patas do cachorro depois do passeio: guia prático",
+    "description": "Aprenda como limpar as patas do cachorro depois do passeio de forma rápida e prática. Guia direto ao ponto com passo a passo eficiente.",
+    "datePublished": "2026-10-23",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-limpar-as-patas-do-cachorro-depois-do-passeio",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-limpar-as-patas-do-cachorro-depois-do-passeio"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-limpar-as-patas-do-cachorro-depois-do-passeio.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar álcool em gel para limpar as patas do cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "**Isso é mito.** O álcool resseca excessivamente a pele dos coxins, causando rachaduras e dor, além de poder ser tóxico se o cão lamber. - **Com que frequência devo lavar as patas após os passeios?**"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Sempre que voltar da rua.** Se o piso estava apenas seco e limpo, um pano úmido costuma bastar; se pegou terra ou lama, a lavagem com água é obrigatória.\n- **Preciso secar as patas com secador de cabelo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "**Na maioria das vezes, não.** O uso da toalha bem aplicada é suficiente. O secador só é necessário se o pelo entre os dedos for muito longo e densamente peludo, sempre em temperatura morna ou fria. - **O que fazer se encontrar um corte na pata do cachorro?**"
+        }
+      }
+    ]
+  }
+}

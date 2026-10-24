@@ -16,7 +16,7 @@ autor: ''
 atualizado_em: '2026-10-23'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-23T22:34:37+00:00'
+revisado_em: '2026-10-24T10:27:54+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -28,7 +28,7 @@ checagens_qualidade:
 titulo_seo: Como organizar a rotina de passeios para cães de diferentes
 keyword_density: 0.0093
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-23T22:34:37+00:00'
+otimizado_em: '2026-10-24T10:27:54+00:00'
 checagens_seo:
 - título original (66 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -48,6 +48,21 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades.jsonld.json
+imagem_capa: imagens/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades.jpg
+imagem_fonte: pexels
+imagem_fotografo: Abhishek  Biradar
+imagem_fotografo_url: https://www.pexels.com/@abhishek-biradar-34804961
+imagem_url_pagina: https://www.pexels.com/photo/playful-shih-tzu-puppy-running-on-grass-29582994/
+imagem_selecionada_em: '2026-10-24T10:27:55+00:00'
+imagens_corpo:
+- arquivo: imagens/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades-corpo-1.jpg
+  alt: 'como organizar a rotina de passeios para caes de diferentes idades'
+  fotografo: 'Brigitte Pellerin'
+  fonte_url: 'https://www.pexels.com/photo/cute-little-dog-walking-on-grassy-meadow-4617679/'
+- arquivo: imagens/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades-corpo-2.jpg
+  alt: 'como organizar a rotina de passeios para caes de diferentes idades'
+  fotografo: 'Erik Izsóf'
+  fonte_url: 'https://www.pexels.com/photo/dog-running-between-green-plants-6471491/'
 ---
 
 # Como organizar a rotina de passeios para cães de diferentes idades
