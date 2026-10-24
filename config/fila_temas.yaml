@@ -244,7 +244,8 @@ temas:
   data: '2026-10-24'
 - termo: como estimular o olfato de caes idosos dentro de casa
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-24'
 - termo: como criar rotina de exercicios para caes braquicefalicos no calor
   pilar: cuidados_diarios
   status: pendente
@@ -770,5 +771,8 @@ temas:
   pilar: alimentacao
   status: pendente
 - termo: como montar um espaco de alimentacao separado para pets de diferentes idades
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como ensinar filhote de cachorro a socializar com gatos
   pilar: primeiros_passos_filhotes
   status: pendente
