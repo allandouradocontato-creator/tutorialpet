@@ -185,6 +185,10 @@ perguntas_lote_2026_10_22:   # uma palavra ou numero; tema do lote de hoje (gato
 regra_E46_2026_10_23:   # PERDEU T3 (IG alcance mediana 4, skip 92-100%); trocar 1 fator so (tipo de conteudo). Plano: data/testes/plano_2026-10-22_T3.md
   instagram_proximos_3_dias: "em itens NAO agendados do IG, 1 em cada 2 slots de video de artigo vira meme 8 s do Humorista; nao mexer em agendados nem gerar cartoes (E24)"
   vigencia: "23/10 a 26/10/2026; Medidor le em 25/10 21:11"
+regra_E93_E94_2026_10_24:   # Medidor 23/10: PERDEU T1 (FB mediana 3 views) e T3 (IG alcance 21); plano data/testes/plano_2026-10-23.md; so itens NAO agendados
+  facebook_E93: "grade FB: so reel de artigo ou meme 8 s; nenhum cartao/post sem video (reforca E24); prova 24/10: mediana dos videos com >=24 h >= 200"
+  instagram_E94: "mantem E46 e amplia: 2 em cada 3 slots de video viram meme 8 s do Humorista; prova 25/10: alcance mediana >= 50"
+  vigencia: "24/10 a 26/10/2026; nao mexer em agendados"
 rodada_2026_10_23_0719:   # data/social/estrategia_social.md (12a edicao); plano: data/social/plano_de_mudanca_2026-10-23.md (E50-E54)
   gatilho: "disparou: FB tempo<6s 9/10 (mediana 227 views, 4,0s); TikTok tempo<4s 5/6, mediana 189, 2,1s; IG skip>70% 2/10 (limite), alcance mediana 71,5"
   horarios:

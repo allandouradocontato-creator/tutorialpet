@@ -67,3 +67,7 @@ Não feito de propósito: nada que publique/agende (E35/E40 adicionar slugs a bl
 - Preço R$ 27 (âncora R$ 97) é do e-book Sozinho em Casa, NÃO do kit da Shopee: legendas separadas. Corrigir R$ 9,90 antigo.
 - Maestros da IA: procurar skill/agente EDITOR DE VÍDEO / b-roll para não gastar tempo aprendendo a editar. Faltam ≈76 de 121 skills (parei em "Sonda"); sem o link da comunidade na memória. Pedir o link ao Allan (área de membros) e continuar de lá; anotar Prumo/Emissário/Sonda e plano "Portão de Gasto".
 - Pendentes: React 2 (referência viral TikTok + crédito), cachorra poodle fixa (nome), gestos variados da Duda, lembrete Configurações > Uso (print), nada de publicar sem "pode publicar".
+
+## Decisões — rodada do Executor 24/10 (06:53 Fortaleza)
+Contagem: decididas abertas ~25 / feitas +8 nesta rodada (E57, E59, E60, E52, E53, E54, E93, E94; todas com arquivo/commit) / atrasadas 23 (base 11 + E27, E28, E35, E40, E41, E43, E45, E50, E95, V06, D09, D10) / só Allan 2 (A02: 2FA e verificação TikTok; E13). Painel de Decisões sem comentário novo do Allan.
+Não feito de propósito: E50/E95/E25/E14/E15 (repor fila TikTok = agendar no Buffer, fora do que o Executor pode fazer); E35/E40/E36/E56 (aprovar slugs e disparar publicar_blog = publicar, ficam com Conferente); E58 sem fonte (Windsor desconectado, reconectar é do Allan); E61/E28/E29 exigem Chrome; D02/E09 seguem aguardando decisão do Allan sobre religar rotinas (custo de crédito). E27 (PDF da Carteirinha) não gerado nesta rodada por tempo.
