@@ -225,10 +225,11 @@ temas:
   data: '2026-10-23'
 - termo: como evitar choque termico em cachorros nos dias quentes
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
 - termo: como acalmar cachorro idoso assustado com fogos de artificio
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-24'
 - termo: melhores petiscos naturais mastigaveis para saude dental de caes
   pilar: produtos_compras
   status: pendente
@@ -739,5 +740,11 @@ temas:
   pilar: comportamento
   status: pendente
 - termo: o que comprar para montar um enxoval completo para caes idosos
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como criar um cantinho seguro para cachorro idoso surdo
+  pilar: cuidados_diarios
+  status: pendente
+- termo: o que verificar antes de escolher uma creche para cachorro
   pilar: primeiros_passos_filhotes
   status: pendente
