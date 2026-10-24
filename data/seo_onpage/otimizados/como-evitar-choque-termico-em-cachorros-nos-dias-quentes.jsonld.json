@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como evitar choque termico em cachorros nos dias quentes: guia prático",
+    "description": "Como evitar choque termico em cachorros nos dias quentes: guia prático. Nos dias em que o sol aperta e o asfalto parece queimar, o olhar do nosso cão...",
+    "datePublished": "2026-10-24",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-evitar-choque-termico-em-cachorros-nos-dias-quentes",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-evitar-choque-termico-em-cachorros-nos-dias-quentes"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-evitar-choque-termico-em-cachorros-nos-dias-quentes.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que fazer se o cachorro sofrer um choque térmico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Leve-o para um lugar fresco, umedeça o corpo dele com água em temperatura ambiente (nunca gelada) nas patas e na virilha, ofereça pequenos goles de água e procure um médico-veterinário imediatamente.  - **Quais raças sofrem mais com o calor?**   Cães bracéfalos (de focinho achatado) como Pug, Bulldog Francês e Shih-tzu, além de raças com pelagem muito densa ou escura, têm imensa dificuldade para respirar e regular a temperatura.  - **Posso tosar o cachorro no verão para refrescar?**   Tosas muito rentes podem expor a pele do cão aos raios solares diretos, causando queimaduras e até câncer de pele; o ideal é apenas aparar o excesso de pelos com orientação profissional.  - **Como saber se a água está na temperatura certa para o pet?**   A água deve estar sempre fresca, trocada pelo menos três vezes ao dia no calor intenso, pois a água morna ou parada desestimula o cão a beber."
+        }
+      }
+    ]
+  }
+}

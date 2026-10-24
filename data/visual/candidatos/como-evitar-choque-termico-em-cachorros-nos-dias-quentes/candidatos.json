@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32332993,
+    "url_download": "https://images.pexels.com/photos/32332993/pexels-photo-32332993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/friendly-boxer-dog-portrait-in-sunlight-32332993/",
+    "fotografo": "Bob Jenkin",
+    "fotografo_url": "https://www.pexels.com/@bob-jenkin-2007649943",
+    "largura": 5184,
+    "altura": 3888,
+    "query": "dog panting hot summer white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-evitar-choque-termico-em-cachorros-nos-dias-quentes/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37467762,
+    "url_download": "https://images.pexels.com/photos/37467762/pexels-photo-37467762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-panting-brown-dog-outdoors-37467762/",
+    "fotografo": "Emre Photography",
+    "fotografo_url": "https://www.pexels.com/@emrephotography",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog panting hot summer white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-evitar-choque-termico-em-cachorros-nos-dias-quentes/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35319369,
+    "url_download": "https://images.pexels.com/photos/35319369/pexels-photo-35319369.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/joyful-french-bulldog-in-a-sunlit-park-35319369/",
+    "fotografo": "Perro Cacahuate",
+    "fotografo_url": "https://www.pexels.com/@donadie",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "dog panting hot summer white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-evitar-choque-termico-em-cachorros-nos-dias-quentes/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5300046,
+    "url_download": "https://images.pexels.com/photos/5300046/pexels-photo-5300046.png?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-black-and-brown-border-collie-mix-5300046/",
+    "fotografo": "Brixiv",
+    "fotografo_url": "https://www.pexels.com/@brixiv",
+    "largura": 4048,
+    "altura": 2696,
+    "query": "dog panting hot summer white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-evitar-choque-termico-em-cachorros-nos-dias-quentes/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13447112,
+    "url_download": "https://images.pexels.com/photos/13447112/pexels-photo-13447112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-in-close-up-shot-13447112/",
+    "fotografo": "Rob Bach",
+    "fotografo_url": "https://www.pexels.com/@rob-bach-2256873",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog panting hot summer white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-evitar-choque-termico-em-cachorros-nos-dias-quentes/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2607544,
+    "url_download": "https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/medium-short-coated-white-dog-on-white-textile-2607544/",
+    "fotografo": "Simona Kidrič",
+    "fotografo_url": "https://www.pexels.com/@simonakidric",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog cooling down isolated background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-evitar-choque-termico-em-cachorros-nos-dias-quentes/5.jpg"
+  }
+]
