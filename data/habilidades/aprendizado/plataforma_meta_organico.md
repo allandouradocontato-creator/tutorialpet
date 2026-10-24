@@ -11,3 +11,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-23 | hipótese: ler horários reais no Zernio antes de usar o turno sugerido pelo agent.py evita colisão | agenda.json estava defasada (turno C de 23/10 já ocupado); ajustei na mão 5 slots | mantém; conferir Zernio primeiro
 2026-10-23 | passo 13 (sem engagement bait; pergunta genuína de 1 palavra) + J1 número cedo (C5, C6) | n=0 (lote r23 sem leitura 72 h); base FB comentário de terceiro ≈2 em 78 | mantém
 2026-10-23 | regra de decisão da skill (Diretor): sem isca ao ar, nenhuma mudança de plataforma; medir FB/IG por follower-stats | n=0 (FB 8, IG 0, janela 72 h não iniciada) | mantém
+2026-10-24 | estoque FB/IG ate 26/10 A; rampa e caldo (re-gancho aprovados) agendados 26/10 B/C | n=2 pacotes, sem leitura ainda | mantem
