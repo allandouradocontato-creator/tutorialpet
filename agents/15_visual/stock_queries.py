@@ -19,6 +19,9 @@ QUERIES = {
     "melhor-areia-para-gato-como-escolher": ['cat sitting next to litter box with scoop and clean litter, no people', 'cat litter box clean litter cat beside, no people', 'cat using litter box at home'],
     "quanto-tempo-um-cachorro-pode-ficar-sozinho": ['dog alone waiting at home near front door, no people', 'dog looking out window waiting at home, no people', 'dog lying by the door at home alone'],
     # 22/10/2026 (Allan): a capa tem de mostrar o assunto do artigo, nao so um rosto bonito
+    # 24/10/2026: capas que falharam por falta de foto do tema (artigo ficava em 404)
+    "como-escolher-comedouro-duplo-elevado-para-gatos-idosos": ["senior cat eating from raised bowl", "old cat eating food bowl", "elderly cat eating", "cat eating from elevated feeder", "cat drinking water bowl"],
+    "como-acostumar-gato-filhote-a-usar-a-escova-de-dentes": ["kitten yawning showing teeth", "cat showing teeth close up", "kitten toothbrush", "cat open mouth teeth", "cute kitten yawning"],
     "como-escolher-caixa-de-transporte-para-viagem-de-aviao": ["dog in pet carrier", "cat in travel carrier", "pet carrier airplane travel"],
     "como-escolher-cinto-de-seguranca-pet-para-carro": ["dog wearing seat belt in car", "dog car harness back seat", "dog safety car travel"],
     "como-saber-se-o-cachorro-esta-acima-do-peso-ideal": ["overweight dog", "chubby dog", "fat cute dog"],
