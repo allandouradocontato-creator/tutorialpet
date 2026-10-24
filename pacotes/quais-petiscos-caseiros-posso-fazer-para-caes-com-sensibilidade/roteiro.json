@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Petiscos Caseiros para Cães Sensíveis",
+  "gancho_3s": "Você já parou pra pensar que 3 ingredientes mudam tudo pro seu cachorro?",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Você já parou pra pensar que 3 ingredientes mudam tudo pro seu cachorro?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Você já parou pra pensar que 3 ingredientes mudam tudo pro seu cachorro?"
+    },
+    {
+      "narracao": "[short pause] Se o seu cachorro tem gases ou coceira, o problema pode estar nos petiscos.",
+      "visual_busca_banco_livre": "dog scratching paw close up",
+      "texto_na_tela": "Barriga ou pele sensível?"
+    },
+    {
+      "narracao": "A regra de ouro é simples: petiscos com poucos ingredientes reduzem o risco de reações.",
+      "visual_busca_banco_livre": "curious dog looking at camera",
+      "texto_na_tela": "Menos ingredientes, menos problemas"
+    },
+    {
+      "narracao": "Você pode fazer chips de abóbora ou batata-doce, fatiados bem finos e assados até secar.",
+      "visual_busca_banco_livre": "golden retriever waiting on kitchen floor",
+      "texto_na_tela": "Chips de abóbora no forno"
+    },
+    {
+      "narracao": "Outra opção suave é amassar banana com aveia e assar pequenas pastilhas por vinte minutos.",
+      "visual_busca_banco_livre": "french bulldog licking lips",
+      "texto_na_tela": "Biscoito de banana e aveia"
+    },
+    {
+      "narracao": "Para refrescar, congele frango desfiado com a água do cozimento em formas de gelo.",
+      "visual_busca_banco_livre": "dog chewing ice treat",
+      "texto_na_tela": "Cubos proteicos congelados"
+    },
+    {
+      "narracao": "Nunca use sal, alho ou cebola, e consulte o veterinário antes de mudar a dieta dele.",
+      "visual_busca_banco_livre": "dog tilting head curious",
+      "texto_na_tela": "Zero temperos! Fale com o veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#petiscocaseiro",
+    "#caossensiveis",
+    "#saudecanina",
+    "#cuidadoscomcaes",
+    "#alimentacaocanina"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cão tem gases ou coceira com petiscos comuns?\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade\n\n#petiscocaseiro #caossensiveis #saudecanina #cuidadoscomcaes #alimentacaocanina",
+  "slug": "quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 3
+}
