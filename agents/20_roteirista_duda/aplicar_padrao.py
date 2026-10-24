@@ -28,8 +28,13 @@ from agent import BLOQUEIO_TOM, norm  # noqa: E402
 # Rotação de teste (08/10/2026): só ganchos que abrem com um PROBLEMA concreto, espelhando os vídeos que mais performaram.
 # 22/10/2026 (Juiz de Qualidade, ensaio: ganchos atuais 4,0/10): abertura_erro, abertura_situacao e abertura_pare sao os
 # ganchos BANIDOS (1,5-1,7 s de tempo medio). So entram moldes de pergunta concreta de rotina, de preferencia com numero.
-MOLDES_SEGUROS = ["abertura_problema_pet", "abertura_pergunta_numero", "abertura_dor"]
-# fora da rotação por ora: abertura_pensar, abertura_lista_ninguem_conta, abertura_chamada_direta, abertura_pov, abertura_laco_aberto, abertura_confissao
+# 23/10/2026 (ordem do Allan; causa raiz do estoque curto): o Guardiao compara com os ULTIMOS 5 videos, mas o rodizio tinha so 3 moldes,
+# entao TODO video novo caia em "gancho repetido" e ficava preso. O rodizio precisa ter MAIS moldes que a janela do Guardiao (5): agora 6.
+# Entraram 3 moldes que nao prometem resultado/prazo nem alegacao de saude; os BANIDOS (erro, situacao, pare) continuam fora.
+MOLDES_SEGUROS = ["abertura_problema_pet", "abertura_pergunta_numero", "abertura_dor",
+                  "abertura_lista_ninguem_conta", "abertura_chamada_direta", "abertura_pensar"]
+assert len(MOLDES_SEGUROS) > 5, "rodizio de moldes tem que ser maior que a janela do Guardiao (ULTIMOS_CTA=5)"
+# fora da rotação por ora: abertura_pov, abertura_laco_aberto, abertura_confissao
 
 SAUDE = re.compile(r"veterin|vacina|doen|sintoma|remédio|remedio|engasg|vômit|vomit|diarre|intoxic", re.I)
 
