@@ -232,7 +232,8 @@ temas:
   data: '2026-10-24'
 - termo: melhores petiscos naturais mastigaveis para saude dental de caes
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-24'
 - termo: como montar um espaco seguro para gatos em casas pequenas
   pilar: cuidados_diarios
   status: pendente
@@ -746,5 +747,11 @@ temas:
   pilar: cuidados_diarios
   status: pendente
 - termo: o que verificar antes de escolher uma creche para cachorro
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como distrair caes idosos com baixa visao dentro de casa
+  pilar: comportamento
+  status: pendente
+- termo: como preparar a casa para a chegada de dois filhotes juntos
   pilar: primeiros_passos_filhotes
   status: pendente
