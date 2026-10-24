@@ -1,4 +1,4 @@
-# Auditoria AdSense (2026-10-23)
+# Auditoria AdSense (2026-10-24)
 
 | Item | Resultado | Detalhe |
 |---|---|---|
@@ -9,22 +9,20 @@
 | ads.txt com pub-id | PASSA |  |
 | robots.txt nao bloqueia Mediapartners/Google | PASSA |  |
 | sitemap.xml | PASSA |  |
-| volume >= 30 artigos | PASSA | 67 artigos |
-| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-23 (0 dias) |
+| volume >= 30 artigos | PASSA | 69 artigos |
+| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-23 (1 dias) |
 | sem buracos > 3 dias nos ultimos 30 dias | FALHA | buracos: [('2026-09-15', '2026-10-06')] |
 | artigos >= 900 palavras | PASSA | 0 curtos: [] |
 | estrutura com >= 3 subtitulos | PASSA | [] |
 | meta description em todos | PASSA | [] |
 | autoria/assinatura visivel | PASSA | [] |
-| capa unica por artigo | FALHA | 2 artigos em 1 grupos repetidos |
+| capa unica por artigo | PASSA | 0 artigos em 0 grupos repetidos |
 | sem capa proibida (agressiva) | PASSA | [] |
-| todos com capa | FALHA | ['como-misturar-racao-seca-e-umida-para-cachorro-corretamente', 'como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos', 'como-tirar-cheiro-de-xixi-de-cachorro-do-quintal', 'como-escovar-pelo-de-gato-que-nao-gosta-de-escova'] |
+| todos com capa | FALHA | ['como-misturar-racao-seca-e-umida-para-cachorro-corretamente', 'como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades', 'como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos', 'como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico', 'como-tirar-cheiro-de-xixi-de-cachorro-do-quintal'] |
 | artigos de saude citam veterinario | PASSA | [] |
-| artigos de saude com fonte citada | FALHA | 3 sem fonte: ['vacinas-para-filhote-de-cachorro', 'alimentos-proibidos-para-cachorro', 'plantas-toxicas-para-gatos'] |
+| artigos de saude com fonte citada | PASSA | 0 sem fonte: [] |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (4)
+## Corrigir (2)
 - **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
-- **capa unica por artigo**: 2 artigos em 1 grupos repetidos -> refazer por tema (config/capas_refazer.txt)
-- **todos com capa**: ['como-misturar-racao-seca-e-umida-para-cachorro-corretamente', 'como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos', 'como-tirar-cheiro-de-xixi-de-cachorro-do-quintal', 'como-escovar-pelo-de-gato-que-nao-gosta-de-escova'] -> gerar capa
-- **artigos de saude com fonte citada**: 3 sem fonte: ['vacinas-para-filhote-de-cachorro', 'alimentos-proibidos-para-cachorro', 'plantas-toxicas-para-gatos'] -> citar fonte confiavel
+- **todos com capa**: ['como-misturar-racao-seca-e-umida-para-cachorro-corretamente', 'como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades', 'como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos', 'como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico', 'como-tirar-cheiro-de-xixi-de-cachorro-do-quintal'] -> gerar capa

@@ -132,3 +132,11 @@ Nunca dê medicamentos humanos ou analgésicos sem prescrição veterinária, po
 Cuidar da imunização do seu cãozinho é um ato de carinho que garante anos de companhia saudável e cheia de brincadeiras. Seguir o calendário recomendado pelo médico-veterinário e respeitar o tempo de cada etapa faz toda a diferença para o bem-estar do animal.
 
 Convidamos você a continuar explorando os conteúdos do nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais a convivência com o seu companheiro de quatro patas.
+
+## Fontes e referências
+
+Segundo as orientações de entidades veterinárias, este conteúdo é informativo e não substitui a consulta ao médico-veterinário. Referências:
+
+- [WSAVA: Diretrizes globais de vacinação para cães e gatos](https://wsava.org/global-guidelines/vaccination-guidelines/)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
+- [MAPA: vacinação antirrábica](https://www.gov.br/agricultura/pt-br)

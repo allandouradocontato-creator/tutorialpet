@@ -140,3 +140,10 @@ O xilitol causa uma queda drástica na glicemia e falência hepática rápida. T
 Cuidar da alimentação do seu cão vai muito além de escolher um bom alimento comercial; envolve manter a cozinha e a despensa protegidas contra acidentes domésticos. Pequenos deslizes podem trazer grandes sustos, por isso a prevenção continua sendo a melhor forma de garantir uma vida longa e saudável ao seu companheiro. 
 
 Se você gosta de cuidar de cada detalhe da rotina do seu pet, continue explorando nossos artigos para descobrir mais dicas práticas de convivência, saúde e bem-estar animal.
+
+## Fontes e referências
+
+Segundo as orientações de entidades veterinárias, este conteúdo é informativo e não substitui a consulta ao médico-veterinário. Referências:
+
+- [ASPCA: central de controle de intoxicação animal e lista de alimentos perigosos](https://www.aspca.org/pet-care/animal-poison-control)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
