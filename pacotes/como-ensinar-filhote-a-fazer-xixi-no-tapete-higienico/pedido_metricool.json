@@ -1,0 +1,42 @@
+{
+  "brand_id": 7123441,
+  "timezone": "America/Fortaleza",
+  "turno": "B",
+  "posts": [
+    {
+      "rede": "facebook",
+      "agendar_para": "2026-10-27T14:00:00",
+      "legenda": "Cansado de pisar no xixi errado do filhote?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#filhote #cachorro #tapetehigienico",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+      "facebookData": {
+        "type": "REEL",
+        "title": "Como ensinar filhote a usar o tapete higiênico"
+      }
+    },
+    {
+      "rede": "instagram",
+      "agendar_para": "2026-10-27T15:00:00",
+      "legenda": "Cansado de pisar no xixi errado do filhote?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#filhote #cachorro #tapetehigienico",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+      "instagramData": {
+        "type": "REEL",
+        "showReelOnFeed": true,
+        "isAiGenerated": true
+      }
+    },
+    {
+      "rede": "tiktok",
+      "agendar_para": "2026-10-27T14:20:00",
+      "legenda": "Seu cachorro faz xixi fora do lugar toda vez? Confira o artigo completo em tutorialpet.com.br. #filhote #cachorro #tapetehigienico #tutorialpet",
+      "primeiro_comentario": "",
+      "tiktokData": {
+        "privacyOption": "PUBLIC_TO_EVERYONE",
+        "title": "Como ensinar filhote a usar o tapete higiênico",
+        "isAigc": true
+      }
+    }
+  ],
+  "video_url_publica": "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico/video.mp4",
+  "slug": "como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+  "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário"
+}
