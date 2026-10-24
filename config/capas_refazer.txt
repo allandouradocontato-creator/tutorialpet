@@ -1,3 +1,4 @@
 # 24/10/2026: so os 2 que falharam por falta de foto do tema (buscas novas em stock_queries.py)
 como-escolher-comedouro-duplo-elevado-para-gatos-idosos
 como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
+# retry 24/10 0323
