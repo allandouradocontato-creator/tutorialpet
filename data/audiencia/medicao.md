@@ -1,3 +1,8 @@
+Dados até 2026-10-24 08:30 (Fortaleza) — sem leitura nova de Zernio/Buffer nesta rodada (sábado, rodada curta); números = os de 23/10.
+# Medição — sábado 24/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números (última leitura)
+1. Comentários de terceiros: 2 em 78 posts FB/IG, TikTok 4 em 35. 2. Compartilhamentos: FB 0, IG 1-2, TikTok 2 nos 6 posts de 20-22/10. 3. Seguidores: FB 8, IG 0, TikTok 19 (Allan 20/10). 4. Cliques no blog: FB 22 desde 14/10; sessões orgânicas e Search Console: sem dado (pendência: exportar Desempenho > Consultas). 5. Vendas: sem dado. Campeão: nenhum para comentário; flagrante F2 em views.
+Uma variável por vez nas ideias de hoje: X15 trend calor (T1) x evergreen "hora do nada" (T2): views e comentário em 72 h; T2 só posta 29-30/10, leitura 02/11. X2 CTA A x B continua. T3 (Enem) só mede se o Allan liberar.
+
 Dados até 2026-10-23 11:24 (Fortaleza) — Zernio follower-stats (sync 23/10 09:21), estrategia_social.md (23/10 07:19), medicao/placar de 22/10; Buffer e posts_list não relidos nesta rodada.
 # Medição — Criador de Audiência, sexta 23/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
 1. Comentários de terceiros: 2 em 78 posts FB/IG, TikTok 4 em 35 (22/10, sem leitura nova); memes 0. Meta ≥5/vídeo. Linha-base para o lote r23.
