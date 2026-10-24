@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
 versao: 16
-atualizado_em: "2026-10-23 07:30"  # rodada 23/10 07:19 (12a edicao): E50-E54, FB 12:00 meme aberto (E21 cumprido), #pet/#pets, perguntas do lote 23/10
+atualizado_em: "2026-10-24 07:20"  # rodada 24/10 07:07 (13a edicao): E97-E99; imagem = 0 view
+# anterior: "2026-10-23 07:30"  # rodada 23/10 07:19 (12a edicao): E50-E54, FB 12:00 meme aberto (E21 cumprido), #pet/#pets, perguntas do lote 23/10
 versao_anterior_atualizado_em_15: "2026-10-22 08:00"  # rodada 22/10 07:35 (11a edicao): regra FB/IG nunca no mesmo minuto (E23); serie 7 erros = cartao de imagem (viola c); preco velho em 4 arquivos (E22 ampliada)
 versao_anterior_atualizado_em_14: "2026-10-21 17:25"  # rodada 17:07 (10a edicao): E21 FB 12:00 em observacao; E22 preco velho; isca_digital reescrita como ESTADO
 versao_anterior_atualizado_em: "2026-10-21 07:20"  # rodada 17:07 (ciclo continuo): slot FB 12:00 reaberto so p/ meme (E12); 4 TikToks agendados com link no perfil (E13)
@@ -219,3 +220,23 @@ rodada_2026_10_23_0719:   # data/social/estrategia_social.md (12a edicao); plano
     T2_tiktok_tema: {itens: "2 de gato + 1 de cachorro; controle natural = gato/agua 24/10 10:20 (08/10: 577 views, 5,6 s)", aprova: "tempo medio >=4 s em 2 de 3"}
     legenda_proibida: "fatal, pode matar, atrapalhando o crescimento (regra d; E54)"
   pendencias_reais_isca: "legenda.txt de 47 pacotes (media) com R$ 9,90/NcQChat/vercel.app (E51); PDF do MIMO inexistente (E27); ManyChat/Brevo ao vivo sem dado (PC ausente)"
+rodada_2026_10_24_0707:
+  achado: "10 posts de imagem (5 FB, 5 IG) = 0 view; video FB mediana 221 (n=44), IG 55 (n=43)"
+  regra_E97: "FB/IG so video; meme so video 8 s; mediaType image bloqueado; link so no 1o comentario"
+  regra_E98: "TikTok: reposicao a partir de 27/10 com cortes de 15-25 s (resultado no segundo 0); vigente E95 tempo >=2,5 s"
+  regra_E99: "tema: 2 cachorro-sozinho + 1 gato + 1 meme 8 s por bloco de 4"
+  horarios_mantidos: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"], nota: "grade congelada; sem sinal de horario; imagem=0 em qualquer hora"}
+  painel_meta_03_11: {fb: "views mediana 220+, tempo >=4,5 s, 0 imagens", ig: "alcance mediana 80, skip <=55%", tiktok: "views mediana 300, tempo >=2,5 s depois >=4 s, 1 share/4 posts"}
+perguntas_lote_2026_10_24:
+  gato:
+    - "Seu gato bebe água da tigela, da torneira ou do copo? Conta aqui."
+    - "Qual é o horário do desespero do seu gato: madrugada ou fim de tarde?"
+    - "Seu gato aceita carinho na barriga: sim ou é armadilha?"
+    - "Caixa de areia: 1 por gato ou 1 para todos?"
+    - "Seu gato ainda brinca de caçar? Com o quê?"
+  cachorro:
+    - "Quantas horas por dia o seu cachorro fica sozinho? Responde só o número."
+    - "Seu cachorro chora, late ou fica quieto quando você sai?"
+    - "O que o seu cachorro faz quando você chega: pula, corre ou espera?"
+    - "Passeio: de manhã, à tarde ou os dois?"
+    - "Qual é o brinquedo que o seu cachorro nunca larga?"
