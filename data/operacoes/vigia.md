@@ -1,13 +1,13 @@
-Dados até 2026-10-24 11:19 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
+Dados até 2026-10-24 15:19 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
 | rotina | estado | último run / idade | problema | correção |
 |---|---|---|---|---|
-| 40 rotinas (19 ativas; 21 desligadas por ordem do Allan 22/10) | ok | todas SUCCEEDED; nenhuma next_run vencida; Vigia atual PENDING (esta rodada, normal) | - | nada (não religar as desligadas) |
-| Zernio FB/IG | ok | 0 em erro; 10 agendados; último IG 24/10 14:03Z, FB 13:03Z (<1 h) | - | - |
-| Buffer TikTok | ok | 0 em erro; 7+ na fila até 26/10 | - | - |
-| fabrica.yml | ok | verde 24/10 13:32Z (~1 h); falhou 10:44Z e 11:13Z ("Entregar pacote", pacote velho) e voltou verde em 12:15Z | issues #10/#11 abertas, já resolvidas | fechar #10/#11 foi bloqueado pelo classificador de permissões; sem efeito no pipeline |
-| publicar_blog.yml | rodando | run 40102086190 (push da promoção, 14:20Z); último verde 10:43Z | - | aguardando SUCCEEDED e 3 páginas 200 |
-| blog (ritmo) | ABAIXO do plano | 1 de 3 no ar (dia 297 = ímpar = plano 3; nota de 07:19 dizia 4, erro de paridade) | rascunhos livres não estavam promovidos | CORRIGI: promovi 3 (7e18b3d: choque-termico, fogos, vestir). Conferir 15:19 |
-| AdSense | 2 FALHA | auditoria 11:2x | 5 sem capa (capas_pendentes, E56) e buraco 15/09-06/10 (histórico) | ficha E56 já aberta; buraco não corrigível |
-| Reprovados | pendência | guia-peitoral, cachorro-chorando, passear, gato-sozinho 3/3 | reescrita esgotada | V07 aberta (Redator) |
-| Issue #7 SAUDE 23/10 | aberta | 01:00Z | mesma causa do reprovado guia-peitoral | V07 |
-Idade do último resultado: artigo no ar ~17 h (limpar-patas 10:43Z hoje), FB/IG <1 h, TikTok com fila, fábrica ~1 h, publicar_blog verde ~3,5 h.
+| 19 rotinas ativas (desligadas por ordem do Allan: não religar) | ok | todas SUCCEEDED; nenhuma next_run vencida; Vigia atual PENDING (esta rodada, normal) | - | nada |
+| Zernio FB/IG | ok | 0 em erro | - | - |
+| Buffer TikTok | ok | 0 em erro | - | - |
+| fabrica.yml | ok | verde 24/10 16:53Z (~1,5 h) | issues #10/#11 abertas (falhas de 10:44Z/11:13Z, já resolvidas) | fechar foi bloqueado em rodadas anteriores; sem efeito no pipeline |
+| publicar_blog.yml | ok | run 53 verde 24/10 14:33Z (~4 h) | - | - |
+| blog (ritmo) | no plano | 4 páginas de 24/10 no build (limpar-patas, gps, rotina-passeios 10:43Z; choque-termico 14:33Z); plano do dia 297 = 3 | - | nada a promover |
+| estoque 25/10 | risco | aprovados = 0 para amanhã (plano 4) | rascunhos sem autor/fonte | E102/E104 já abertas (prazo 25/10 08:00) |
+| AdSense | 2 FALHA | auditoria local 15:19 | 5 sem capa (E103) e buraco 15/09-06/10 (histórico, não corrigível) | E103 aberta |
+| Reprovados | pendência | guia-peitoral 3/3, vestir-cachorro-e-gato 1 | reescrita esgotada no guia-peitoral | E101 aberta; issue #7 |
+Idade do último resultado: artigo no ar ~4 h (choque-termico 14:33Z), fábrica ~1,5 h, publicar_blog ~4 h, FB/IG/TikTok sem erro.
