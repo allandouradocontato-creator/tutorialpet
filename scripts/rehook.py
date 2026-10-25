@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-BANIDOS = re.compile(r"^\s*(\[[^\]]*\]\s*)?(esse erro|aquele momento|para de|pare de)", re.I)
+BANIDOS = re.compile(r"^\s*(\[[^\]]*\]\s*)?(esse erro|aquele momento|para de|pare de|voc[êe] sabia|sabia que)", re.I)
 
 def limpar_marca(t: str) -> str:
     t = re.sub(r"\bcãozinhos?\b", lambda m: "cachorrinho" + ("s" if m.group(0).endswith("s") else ""), t, flags=re.I)
@@ -26,6 +26,10 @@ def main() -> int:
         pkg = media / "pacotes" / slug
         if not pkg.exists():
             falhas.append(f"{slug}: pacote não existe"); continue
+        from scripts.portao_gancho import avaliar_tela0
+        _ok0, _m0 = avaliar_tela0(gancho)
+        if not _ok0:
+            falhas.append(f"{slug}: {_m0}"); continue
         if BANIDOS.match(gancho):
             falhas.append(f"{slug}: gancho novo é banido"); continue
         rot = json.loads((pkg / "roteiro.json").read_text(encoding="utf-8"))
