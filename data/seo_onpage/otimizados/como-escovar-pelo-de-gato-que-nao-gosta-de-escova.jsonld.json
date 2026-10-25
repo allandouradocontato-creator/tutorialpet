@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escovar-pelo-de-gato-que-nao-gosta-de-escova"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

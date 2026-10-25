@@ -51,6 +51,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-comedouro-duplo-elevado-para-gatos-idosos.jsonld.json
+imagem_capa: imagens/como-escolher-comedouro-duplo-elevado-para-gatos-idosos.jpg
+imagem_fonte: ia-flux
+imagem_fotografo: Tutorial Pet (imagem gerada por IA)
+imagem_fotografo_url: https://www.tutorialpet.com.br
+imagem_url_pagina: https://www.tutorialpet.com.br
+imagem_selecionada_em: '2026-10-25T22:31:34+00:00'
 ---
 
 # Como escolher comedouro duplo elevado para gatos idosos: guia prático

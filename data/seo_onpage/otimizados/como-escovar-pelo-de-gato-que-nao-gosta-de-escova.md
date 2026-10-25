@@ -47,6 +47,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jsonld.json
+imagem_capa: imagens/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jpg
+imagem_fonte: pexels
+imagem_fotografo: Cats Coming
+imagem_fotografo_url: https://www.pexels.com/@catscoming
+imagem_url_pagina: https://www.pexels.com/photo/cat-licking-its-paw-3712095/
+imagem_selecionada_em: '2026-10-25T22:33:31+00:00'
 ---
 
 # Como escovar pelo de gato que nao gosta de escova: guia prático
