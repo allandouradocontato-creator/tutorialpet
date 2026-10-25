@@ -1,3 +1,17 @@
+Dados até 2026-10-25 08:30 (Fortaleza) — sem leitura nova de Zernio/Buffer nesta rodada (domingo, rodada curta); números = estrategia_social.md de 25/10 07:08 (Zernio sync 04:48, Buffer até 00:09).
+# Medição — domingo 25/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
+1. Comentários de terceiros: FB 35 comentários em 44 posts, quase todos o nosso link; IG sem comentário de terceiro; TikTok 2 em 35. Meta ≥5/vídeo.
+2. Compartilhamentos: FB 0, IG 4, TikTok 12 (35 posts).
+3. Seguidores: FB 8, IG 0, TikTok 19 (último valor; Zernio follower-stats falha, Buffer não informa).
+4. Cliques no blog: FB 14 (Zernio, posts de 14-24/10); sessões orgânicas e Search Console: sem dado (pendência: exportar Desempenho > Consultas).
+5. Vendas: sem dado.
+Campeão: nenhum para comentário. Em views: F2 flagrante (FB 562); IG meme alcance 102 x explicador 34,5; TikTok pergunta "horas sozinho" 7,3 s.
+## Prova de hoje (matriz M1-M3, uma variável por vez)
+X16 Tema novo, fórmula conhecida: M1 segunda (F1), M2 abóbora (F1), M3 notebook/calor (F5). Prova: views e comentário de terceiro em 72 h contra a mediana da mesma fórmula (F1 FB 386/IG 81; F5 FB 288/IG 139). Leitura: M1 e M3 em 28/10, M2 (posta 29-30/10) em 02-03/11. n=1 por rede: PARCIAL.
+X2 CTA A (binária 1/2) x B (aberta), mesma arte, redes diferentes; prova = comentário de terceiro por 1.000 views.
+X9 Hashtags FB 3 x IG 5, só dentro da mesma rede. X10 Horário: sem horário novo. Conta do formato novo (meme x artigo): sem post novo do lote; última leitura IG 2,77x passa, FB 1,40x abaixo, TikTok perde.
+Próxima leitura: 26/10 (72 h do lote de 22/10).
+
 Dados até 2026-10-24 08:30 (Fortaleza) — sem leitura nova de Zernio/Buffer nesta rodada (sábado, rodada curta); números = os de 23/10.
 # Medição — sábado 24/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números (última leitura)
 1. Comentários de terceiros: 2 em 78 posts FB/IG, TikTok 4 em 35. 2. Compartilhamentos: FB 0, IG 1-2, TikTok 2 nos 6 posts de 20-22/10. 3. Seguidores: FB 8, IG 0, TikTok 19 (Allan 20/10). 4. Cliques no blog: FB 22 desde 14/10; sessões orgânicas e Search Console: sem dado (pendência: exportar Desempenho > Consultas). 5. Vendas: sem dado. Campeão: nenhum para comentário; flagrante F2 em views.

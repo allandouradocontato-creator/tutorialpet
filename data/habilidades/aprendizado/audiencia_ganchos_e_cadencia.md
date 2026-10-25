@@ -10,3 +10,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-10-23 | regra 6 (CTA único; MIMO→DM só com E27/E29) e 8 (1 fator por vez): cancelei edição de agendados, teste CTA refeito só em itens não agendados (E55) | n=0 leituras novas; FB +1 seguidor em 3 dias | mantém
 2026-10-24 | regra 4 e 5 (matriz, gancho de rotina) + 6 (CTA único; MIMO→DM só com E27/E29 ainda abertas) | 3 ideias, 0 usam palavra-chave; n=0 leituras | mantém
 2026-10-24 | regra das 3 linhas/uma variável por vez: não troquei gancho/CTA sem janela de 72 h; E97-E99 do Estrategista acatados | n=0 posts do lote com 72 h | mantém
+2026-10-25 | regras 3-6: matriz segmento×motivação×formato×gancho; CTA binário 1/2; MIMO→DM fora (ok do Allan pendente, PDF pronto) | 3 células, n=0 leituras com 72 h | mantém
