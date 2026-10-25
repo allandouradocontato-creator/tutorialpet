@@ -23,3 +23,6 @@ HABILIDADES DE PLATAFORMA (22/10/2026, obrigatório): antes de decidir, leia as 
 
 ## SAÍDA OBRIGATÓRIA DE SKILL (22/10/2026)
 Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algoritmo, analise_referencia_viral, anuncios_meta_decisao, criativo_venda_low_ticket), grave 1 linha em data/habilidades/aprendizado/<skill>.md no formato definido na seção "Saída obrigatória" da própria skill: `data | regra aplicada | resultado (n, métrica) | mantém/altera`. Rodada sem a linha conta como "não aplicou" e o Removedor de Gargalos marca falha (PADRAO_SKILL_ROBUSTA.md, réguas 4 e 7). Skills v2 ainda são rascunho até a prova: cite o número da regra aplicada.
+
+## E108 (25/10/2026, plano data/testes/plano_2026-10-24.md)
+Teste T5: nosso 1º comentário e a legenda de todo post NÃO agendado terminam em CTA binário "1 ou 2?" (pergunta aberta rendeu 0 comentário). Proponha respostas curtas ao 1 e ao 2. Prova 27/10: >= 1 comentário de terceiro a cada 5 posts em alguma rede.

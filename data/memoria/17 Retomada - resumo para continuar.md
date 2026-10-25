@@ -74,3 +74,9 @@ Não feito de propósito: E50/E95/E25/E14/E15 (repor fila TikTok = agendar no Bu
 
 ## Veredito final do teste de 21/10 (Medidor, 24/10 21:15)
 PERDEU T1, T3, T4, T5, T9; NEUTRO T2, T6, T7, T8; GANHOU 0. Detalhe em data/testes/veredito_final_2026-10-24.md; linhas E105-E109 em execucao.md (Executor 25/10 06:53). Teste encerrado: rodadas seguintes do Medidor escrevem 'teste encerrado' e param; Executor pode desligar a rotina. Pendências do Allan: verificação de identidade na Kiwify (E61) para ler vendas.
+
+## Decisões — rodada do Executor 25/10 (06:53 Fortaleza)
+Contagem: decididas abertas ~25 / feitas 39 (+E27, E100, E97, E98, E99, E105, E106, E108, E109, E40, E41; parciais E35, E36, E56) / atrasadas 14 (D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31, E45, V06, D10) / só Allan 2 (A02: 2FA e verificação TikTok; E13) + 1 pedido novo: ok por escrito para ligar o fluxo MIMO ao vivo e autorizar OAuth do Facebook no ManyChat.
+Destaque: PDF da Carteirinha do Pet pronto em data/audiencia/mimo/carteirinha_pet_fase1.pdf (E27/E100, gargalo da isca). Nada publicado nem ligado. Painel de Decisões sem comentário novo (rev 16).
+Bloqueadas: E50/E95/E107/E43 (agendar ou ler Zernio/Buffer: sem esses conectores nesta sessão), E28/E29 (precisa Chrome/PC do Allan). D02/E09 seguem aguardando ok do Allan para religar rotinas pausadas (custo de crédito).
+Nota: o repositório tem a branch media grande; `git pull` completo estoura o tempo, usar `git fetch origin main` + `merge --ff-only`.

@@ -60,3 +60,4 @@ igual este arquivo nasceu de uma falha registrada.
 - 2026-10-22 | Diretores/Estrategista/Executor | E13, E26 e E42 (editar post já agendado) venceram sem ninguém executar: dono "sessão do Allan" não roda sozinho; 3 posts do teste CTA saíram sem a legenda | causa: ação ligada a uma sessão manual | correção: E48 (só itens não agendados; dono sempre rotina da nuvem)
 - 2026-10-22 | Diretores (Produto/Estrategista) | IDs D01/D02 reusados no livro | causa: ID escolhido de memória | correção: E49 (grep do próximo ID livre)
 - 2026-10-24 | Criador de Audiência | Rodada de sábado entregou só trends + 3 ideias, sem a matriz (gancho em 3 peças, pilares, prova/teste, CTA); T9 (b) falhou | causa: rodada curta tratada como exceção à matriz | correção: E109 (matriz obrigatória em toda rodada)
+- 2026-10-25 | Executor | git pull --rebase estourou 2 min (branch media) | usar fetch origin main + merge --ff-only

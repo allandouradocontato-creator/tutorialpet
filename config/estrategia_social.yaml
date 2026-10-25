@@ -240,3 +240,8 @@ perguntas_lote_2026_10_24:
     - "O que o seu cachorro faz quando você chega: pula, corre ou espera?"
     - "Passeio: de manhã, à tarde ou os dois?"
     - "Qual é o brinquedo que o seu cachorro nunca larga?"
+regra_E105_E106_E108_2026_10_25:   # Executor 25/10; plano data/testes/plano_2026-10-24.md; so itens NAO agendados; 1 fator por teste
+  facebook_E105: "slot 15:00 (grade FB) dos itens NAO agendados = video de artigo com gancho de pergunta, nao meme 8 s; prova 27/10: mediana dos videos >=24 h >= 200 e slot 15:00 >= 150"
+  instagram_E106: "mantem E94; todo reel de artigo mostra gancho/resultado nos 2 primeiros segundos (fala + texto na tela); prova 27/10: alcance mediana >= 50 e skip <= 70%"
+  cta_binario_E108: "legenda e 1o comentario nosso de todo post NAO agendado terminam em CTA binario '1 ou 2?' (ex.: 'Seu cachorro chora ou fica quieto? 1 chora, 2 quieto'); prova 27/10: >= 1 comentario de terceiro a cada 5 posts em alguma rede"
+  vigencia: "25/10 a 27/10/2026; nao mexer em agendados"

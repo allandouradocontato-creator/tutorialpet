@@ -35,3 +35,6 @@ Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algo
 
 ## DECISÃO EM TESTE (22/10/2026, substitui a E01 por 7 dias; Claude decidiu, Allan cobra resultado)
 Memes curtos (8-12 s) passam de 2 em 3 para 1 em 3 vídeos novos, de 23 a 29/10; os outros 2 em 3 têm 20-50 s (faixa dos campeões). Motivo: memes de 8 s renderam 89-193 views, abaixo da mediana 196 (data/tiktok/relatorio.md 22/10). Dono: Humorista. Métrica: mediana de views dos memes >= 196 em 7 dias; se não, memes caem para 1 em 5 em 30/10.
+
+## E106 (25/10/2026, plano data/testes/plano_2026-10-24.md)
+Todo reel de IG de artigo (e meme) abre com o gancho/resultado nos 2 primeiros segundos: fala curta + texto na tela já no segundo 0. Só itens NÃO agendados. Prova 27/10: alcance mediana >= 50 e skip <= 70%.

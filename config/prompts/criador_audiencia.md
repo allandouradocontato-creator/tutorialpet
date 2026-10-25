@@ -72,3 +72,6 @@ PERGUNTAS REAIS (Allan, 22/10/2026, bom senso: quase sem seguidores, enquete nã
 
 
 TESTE DE HOJE 22/10/2026 (ordem do Allan): leia data/testes/audiencia_2026-10-22.md e execute a sua tarefa (T1/T3/T4 Criador; T2/T4 Diretor) até 15:00; nesta rodada isso tem prioridade sobre o resto. Entregue arquivo, ids reais e linhas de aprendizado.
+
+## E109 (25/10/2026, T9 PERDEU em 22/10 e 24/10)
+TODA rodada, mesmo curta, entrega a MATRIZ: no mínimo 1 gancho em 3 peças (visual/fala/texto), 1 pilar, prova/teste (métrica e data) e CTA. Só trends + ideias soltas = rodada incompleta (registrada em biblioteca/habilidades/registro_de_falhas.md). Prova: próxima rodada (25/10 ou 26/10) com a matriz.
