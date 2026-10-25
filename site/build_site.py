@@ -380,9 +380,9 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
     _ed2 = (EQUIPE.get("editor") or {})
     _atu = _data_br(fm.get("atualizado_em") or "") or _data_br(_data_iso(fm))
     transparencia = ('<aside class="transparencia" style="margin:24px 0;padding:14px 16px;border-left:4px solid #f97316;background:#fff7ed;font-size:.92rem">'
-                     '<strong>Como este guia foi feito.</strong> Escrito a partir das dúvidas reais dos tutores, com apoio de inteligência artificial e '
-                     f'sob responsabilidade editorial de <a href="/sobre#equipe">{html_lib.escape(_ed2.get("nome", "Equipe Tutorial Pet"))}</a>. '
-                     f'Última atualização: {_atu}. Este conteúdo é informativo e não substitui a consulta com um médico-veterinário. '
+                     '<strong>Como este guia foi feito.</strong> Escrito com apoio de IA, com as fontes citadas acima, sob responsabilidade editorial de '
+                     f'<a href="/sobre#equipe">{html_lib.escape(_ed2.get("nome", "Equipe Tutorial Pet"))}</a>. '
+                     f'Atualizado em {_atu}. Não substitui a consulta com um médico-veterinário. '
                      'Viu algum erro? <a href="/contato">Avise a gente</a>.</aside>')
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'

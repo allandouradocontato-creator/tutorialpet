@@ -17,7 +17,7 @@ O **Tutorial Pet** é um blog e um canal de vídeos curtos para tutores de cacho
 
 - **Começamos pelas perguntas.** Antes de escrever, listamos as dúvidas que as pessoas realmente fazem sobre o assunto e montamos o guia para respondê-las.
 - **Citamos as fontes.** Dados e recomendações trazem a fonte no final do guia, na seção "Fontes e referências", para você conferir.
-- **Usamos inteligência artificial como apoio.** Os textos são produzidos com ferramentas de IA, passam por verificação automática de qualidade e de fontes e ficam sob a responsabilidade editorial de Allan Dourado. As imagens são de bancos gratuitos (com crédito ao fotógrafo) ou geradas por IA, e dizemos quando for o caso. A apresentadora dos nossos vídeos, a Duda, é uma personagem criada por IA.
+- **Usamos IA para pesquisar e redigir.** Cada guia cita suas fontes e fica sob a responsabilidade editorial de Allan Dourado. As imagens são de bancos gratuitos (com crédito ao fotógrafo) ou geradas por IA, e dizemos quando for o caso. A apresentadora dos nossos vídeos, a Duda, é uma personagem criada por IA.
 - **Corrigimos o que estiver errado.** Se encontrar um erro, escreva para nós e atualizamos o guia, com a data da atualização.
 
 ## O que o Tutorial Pet não faz
@@ -29,6 +29,8 @@ O **Tutorial Pet** é um blog e um canal de vídeos curtos para tutores de cacho
 ## Quem escreve e responde pelo conteúdo
 
 **Allan Dourado** é o editor responsável pelo Tutorial Pet. Ele define os temas, as regras de qualidade e responde pelo que é publicado. Contato direto na página de [Contato](/contato).
+
+O conteúdo conta com a colaboração editorial de **Rosana Cardoso** e **Mariah Maitre**.
 
 A revisão veterinária está sendo estruturada. Quando um guia for revisado por médica-veterinária, o nome e o registro profissional (CRMV) dela aparecerão no topo daquele guia. Guias sem esse selo não passaram por revisão veterinária.
 
