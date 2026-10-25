@@ -22,3 +22,4 @@ artigos Vigia 2026-10-24 07:45 Fortaleza (blog 1/4 no ar; 0 rascunhos livres: 6 
 2026-10-24T16:30-03:00 agendador: estoque ate 28/10 14h (<5 dias), sem pacote pronto
 2026-10-25T08:15 agendador
 artigos Vigia 2026-10-25 11:20 Fortaleza (blog 1/4 no ar; 0 rascunhos com autor+fonte nomeada para promover; pedir temas novos de config/fila_temas.yaml, com fonte)
+artigos Vigia 2026-10-25 19:25 Fortaleza (blog 3/4 no ar, plano do dia 4; 0 rascunhos com autor+fonte; pedir 1 tema de config/fila_temas.yaml com fonte)
