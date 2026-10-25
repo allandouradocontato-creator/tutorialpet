@@ -1,6 +1,6 @@
 {
   "slug": "como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-24T19:16:26+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie gato: 5/5 quadros conferem [cf]"
     ],
     "em": "2026-10-24T19:19:23+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas"
 }
