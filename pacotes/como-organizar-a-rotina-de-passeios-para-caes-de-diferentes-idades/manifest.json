@@ -1,6 +1,6 @@
 {
   "slug": "como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades",
-  "status": "agendado_parcial",
+  "status": "agendado",
   "criado_em": "2026-10-23T15:31:59+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades",
   "voz": {
@@ -36,6 +36,9 @@
     "turno": "C",
     "zernio_facebook": "6add05423a369dc3b8c4f396",
     "zernio_instagram": "6add05443a369dc3b8c4f3ab",
-    "tiktok": "pendente: fila do Buffer cheia (10/10); agendar 2026-10-27 20:20"
+    "tiktok": {
+      "buffer_id": "6adde63ae4be8a4d86a4352c",
+      "quando": "2026-10-27T20:20:00-03:00"
+    }
   }
 }
