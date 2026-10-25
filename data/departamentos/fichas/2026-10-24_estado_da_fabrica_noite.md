@@ -1,0 +1,13 @@
+# FICHA — Estado da fábrica 24/10 21:42 (Diretor de Operação e Qualidade)
+- Departamento / Diretor / data-hora: Operação e Qualidade / 2026-10-24 21:42 (Fortaleza)
+- Assunto e objetivo: fábrica sem etapa manual para o Allan; fechar o livro do Executor (vencidas desde 22-23/10).
+- Público: n/a (interno).
+- Pareceres: Vigia (24/10 22:19Z SUCCEEDED), Medidor (veredito final 24/10 21:11; E105-E109 abertas), Executor (24/10 06:53 SUCCEEDED, mas 39 linhas ainda "decidido" e 23 atrasadas), Segurança (semanal, próxima 28/10), Cobrança desligada por ordem do Allan 22/10. sem parecer novo do Otimizador.
+- Divergências: nenhuma nova.
+- DECISÃO: sem ALERTA. Cobrar o Executor (E110): vencidas E27, E28, E35, E40, E41, E43, E97-E100 + prazo 25/10 de E103/E104/E105-E109; 25/10 06:53 é a janela. 
+- Anti-gap (24 h): 4 artigos novos no ar (choque-termico 14:33Z; coleira-gps, limpar-patas, rotina-de-passeios 10:43Z); curl 200 em 2 slugs conferidos. Publicar Blog #53 success (último), sem failure depois de #49; Fábrica #132-#139 todas success. Risco: estoque de aprovados 0 para 25/10 (E102/E104 do Diretor de Conteúdo, prazo 25/10 08:00).
+- Rotinas (list_triggers, ativas): 0 FAILED; só esta rodada PENDING. Segurança sem rodar desde 21/10 (semanal qua, próx 28/10).
+- Diretores: Audiência 24/10 12:18, Conteúdo 24/10 14:45, Produto 23/10 (ter/sex, próx 27/10): nenhum atrasado.
+- Ações: E110 (Executor, nuvem, prazo 1 dia).
+- Pedido ao Allan: nenhum.
+- Status: aprovada pelo Diretor
