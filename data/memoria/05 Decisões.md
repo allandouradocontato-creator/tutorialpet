@@ -50,3 +50,5 @@
 - 2026-10-22 (Allan delegou ao Claude decidir por dados e cobrar resultado por agente/skill): D01 produto na grade 1 em 4 por 7 dias (dono Estrategista/Especialista TikTok); D02 memes curtos de 2/3 para 1/3 por 7 dias (dono Humorista). Métricas e reversão em data/decisoes/execucao.md. Quem falha a métrica tem a skill modificada ou cortada, não o Allan cobrado.
 
 - 2026-10-23 (Auditor, rotina do molde): MOLDE ADIADO — processo não fechado (3 artigos aprovados em 404, publicar_blog #47/#49 vermelhos, estoque ~2,4 d < 5 d, 4 pacotes sem dono de revisão) e Allan não declarou fechado. Detalhes em data/molde/pendente.md; nova checagem 30/10.
+
+- 2026-10-24 (Medidor, VEREDITO FINAL do teste de 21/10, data/testes/veredito_final_2026-10-24.md): PERDEU T1, T3, T4, T5, T9; NEUTRO T2, T6, T7, T8 (T6/T7 sem dado; T8 Kiwify bloqueada por verificação de identidade); GANHOU 0. Pacote não escala; mudanças E105-E109 (plano em data/testes/plano_2026-10-24.md). Teste encerrado.

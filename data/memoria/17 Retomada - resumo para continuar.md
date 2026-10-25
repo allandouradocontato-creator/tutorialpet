@@ -71,3 +71,6 @@ Não feito de propósito: nada que publique/agende (E35/E40 adicionar slugs a bl
 ## Decisões — rodada do Executor 24/10 (06:53 Fortaleza)
 Contagem: decididas abertas ~25 / feitas +8 nesta rodada (E57, E59, E60, E52, E53, E54, E93, E94; todas com arquivo/commit) / atrasadas 23 (base 11 + E27, E28, E35, E40, E41, E43, E45, E50, E95, V06, D09, D10) / só Allan 2 (A02: 2FA e verificação TikTok; E13). Painel de Decisões sem comentário novo do Allan.
 Não feito de propósito: E50/E95/E25/E14/E15 (repor fila TikTok = agendar no Buffer, fora do que o Executor pode fazer); E35/E40/E36/E56 (aprovar slugs e disparar publicar_blog = publicar, ficam com Conferente); E58 sem fonte (Windsor desconectado, reconectar é do Allan); E61/E28/E29 exigem Chrome; D02/E09 seguem aguardando decisão do Allan sobre religar rotinas (custo de crédito). E27 (PDF da Carteirinha) não gerado nesta rodada por tempo.
+
+## Veredito final do teste de 21/10 (Medidor, 24/10 21:15)
+PERDEU T1, T3, T4, T5, T9; NEUTRO T2, T6, T7, T8; GANHOU 0. Detalhe em data/testes/veredito_final_2026-10-24.md; linhas E105-E109 em execucao.md (Executor 25/10 06:53). Teste encerrado: rodadas seguintes do Medidor escrevem 'teste encerrado' e param; Executor pode desligar a rotina. Pendências do Allan: verificação de identidade na Kiwify (E61) para ler vendas.
