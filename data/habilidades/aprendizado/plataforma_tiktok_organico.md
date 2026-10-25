@@ -16,3 +16,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-24 | TikTok só gatilho por DM (CTA 'manda SOZINHO no direct'); nada ao vivo no ManyChat sem ok | n=0 DMs; Medidor T4 PERDEU (2,10 s, n=4) | mantém
 2026-10-25 | TikTok no Buffer completado antes de FB/IG (fila 10/10 limita) | 2 TikToks agendados, fila cheia; ração 28/10 14:20 pendente | mantém
 2026-10-25 | TikTok: texto sobre clipe 8 s, música só da Biblioteca Comercial, pergunta com número como no campeão 7,3 s | n=0 posts do lote lidos | mantém
+2026-10-25 | TikTok 21 seguidores (+2 desde 19, Guerrilha); MIMO por DM só quando fluxo ligar | n=2 seguidores novos, 0 DMs | mantém
