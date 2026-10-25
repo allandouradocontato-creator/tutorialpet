@@ -1,5 +1,5 @@
 # Livro de Execução de Decisões (fonte única: decidiu = entra aqui = vira tarefa com dono e prazo)
-**ATRASADAS: 23** (24/10 Executor) — D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31 (base) + E27, E28, E35, E40, E41, E43, E45, E50/E95 (reposição de fila TikTok = agendar, não é do Executor), V06, D09, D10. Feitas nesta rodada: E57, E59, E60, E52, E53, E54, E93, E94. Só Allan: A02, E13. Painel de Decisões sem comentário novo (0).
+**ATRASADAS: 26** (25/10 Executor 06:53 Fortaleza, em andamento) — D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31, E27, E28, E35, E40, E41, E43, E45, E50/E95, V06, D09, D10, E97, E98, E99, E100. Só Allan: A02, E13. Painel de Decisões sem comentário novo (rev 16, 0 comentários).
 Regra (Allan, 16/10/2026): decidiu, vai fazer. Nenhuma decisão fica só na conversa ou no Painel.
 Status: decidido -> em execução -> feito (com evidência) | bloqueado (só o Allan; diz o passo exato).
 Quem roda: o Executor de Decisões (nuvem, diário 06:53 Fortaleza). Dono "Allan" só para login, 2FA, compra, identidade.
