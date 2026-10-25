@@ -252,7 +252,8 @@ temas:
   data: '2026-10-25'
 - termo: como ensinar filhote de gato a interagir com caes adultos
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-25'
 - termo: como escolher fonte de agua ideal para gatos que tem medo
   pilar: produtos_compras
   status: pendente
@@ -782,4 +783,7 @@ temas:
   status: pendente
 - termo: como escolher a melhor racao super premium para caes adultos castrados
   pilar: alimentacao
+  status: pendente
+- termo: qual a melhor tigela interativa para gatos que comem rapido demais
+  pilar: produtos_compras
   status: pendente

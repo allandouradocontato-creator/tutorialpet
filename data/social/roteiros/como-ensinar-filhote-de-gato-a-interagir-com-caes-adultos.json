@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como apresentar filhote de gato para cão adulto",
+  "gancho_3s": "Seu gato e cachorro moram juntos? Em até 7 dias eles aprendem a convivência.",
+  "cenas": [
+    {
+      "narracao": "Seu gato e cachorro moram juntos? Em até 7 dias eles aprendem a convivência.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Seu gato e cachorro moram juntos? Em até 7 dias eles aprendem a convivência."
+    },
+    {
+      "narracao": "A regra de ouro é começar pelo cheiro antes de qualquer cena cara a cara.",
+      "visual_busca_banco_livre": "kitten smelling door close up",
+      "texto_na_tela": "Cheiro antes de ver"
+    },
+    {
+      "narracao": "[short pause] Deixe o gatinho em um quarto separado e troque paninhos com o cheiro deles.",
+      "visual_busca_banco_livre": "fluffy kitten sniffing blanket",
+      "texto_na_tela": "Troque os cheiros"
+    },
+    {
+      "narracao": "Depois, permita a primeira troca de olhares usando barreiras físicas seguras.",
+      "visual_busca_banco_livre": "cute kitten behind baby gate",
+      "texto_na_tela": "Barreira física segura"
+    },
+    {
+      "narracao": "Observe a linguagem corporal de ambos e recompense a calma.",
+      "visual_busca_banco_livre": "adult dog sitting calmly indoors",
+      "texto_na_tela": "Observe os sinais"
+    },
+    {
+      "narracao": "[thoughtful] No encontro livre supervisionado, garanta rotas de fuga verticais para o gatinho.",
+      "visual_busca_banco_livre": "small kitten climbing cat tree",
+      "texto_na_tela": "Rotas de fuga"
+    },
+    {
+      "narracao": "Consulte o médico-veterinário se notar qualquer sinal de estresse excessivo.",
+      "visual_busca_banco_livre": "curious kitten looking up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#gatos",
+    "#cachorros",
+    "#filhotdegato",
+    "#mundopet",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu filhote de gato e o cão adulto parecem cão e gato?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos\n\n#gatos #cachorros #filhotdegato #mundopet #dicaspet",
+  "slug": "como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 1
+}
