@@ -87,3 +87,4 @@ Seguidores 21/10 07:15: FB 8 (+3 em 7 dias; +1 hoje, Zernio), IG 0 (Zernio), Tik
 Seguidores 22/10 07:55: FB 8 (+3 em 7 dias, Zernio), IG 0, TikTok 19 (Allan 20/10; Buffer não informa).
 | 2026-10-22 21:45 | Balanço guerrilha: TikTok 19, Instagram 0, Facebook 8 seguidores (FB seguindo 49; IG 60 posts) |
 - 2026-10-23 21:45 balanço seguidores @tutorialpetbr: IG 0 (64 posts); TikTok n/d (Please wait, último 19); FB n/d (último 8).
+- 2026-10-24 21:50 (Fortaleza) seguidores @tutorialpetbr: TikTok 21 (550 curtidas), Instagram 0 (68 posts), Facebook não lido (último 8).
