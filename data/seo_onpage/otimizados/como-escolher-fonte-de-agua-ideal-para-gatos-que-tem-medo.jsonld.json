@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher fonte de agua ideal para gatos que tem medo: guia prático",
+    "description": "Como escolher fonte de agua ideal para gatos que tem medo: guia prático. Muitos felinos rejeitam a água parada, mas o barulho ou o formato de alguns...",
+    "datePublished": "2026-10-25",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual é o melhor material de fonte para gatos mediosos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cerâmica e aço inoxidável são os mais recomendados, pois não acumulam odores e são mais pesados, evitando que o gato assustado derrube o aparelho.  - **O barulho da bomba pode prejudicar a audição do gato?**   Não chega a prejudicar a audição, mas o zumbido constante estressa gatos sensíveis, fazendo com que evitem beber água.  - **Posso deixar a fonte ligada 24 horas por dia?**   Sim, a maioria das bombas foi feita para funcionamento contínuo, desde que o nível de água seja monitorado diariamente para evitar que queime.  - **O que fazer se o gato continuar com medo após uma semana?**   Desligue o motor e deixe a água apenas acumulada na bacia. Aos poucos, religue a função de fluxo por apenas alguns minutos por dia."
+        }
+      }
+    ]
+  }
+}

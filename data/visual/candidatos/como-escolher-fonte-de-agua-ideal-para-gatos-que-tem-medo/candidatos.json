@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35802248,
+    "url_download": "https://images.pexels.com/photos/35802248/pexels-photo-35802248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-curiously-exploring-a-street-bucket-35802248/",
+    "fotografo": "Cathy B.",
+    "fotografo_url": "https://www.pexels.com/@cathy-b-748462208",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "scared cat drinking water",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35279529,
+    "url_download": "https://images.pexels.com/photos/35279529/pexels-photo-35279529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/ginger-cat-drinking-by-a-tranquil-pond-35279529/",
+    "fotografo": "Alexander Popadin",
+    "fotografo_url": "https://www.pexels.com/@irrabagon",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "scared cat drinking water",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12121261,
+    "url_download": "https://images.pexels.com/photos/12121261/pexels-photo-12121261.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/orange-cat-drinking-water-12121261/",
+    "fotografo": "Mak_ jp",
+    "fotografo_url": "https://www.pexels.com/@mak_-jp-107017486",
+    "largura": 4608,
+    "altura": 3072,
+    "query": "scared cat drinking water",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 28429108,
+    "url_download": "https://images.pexels.com/photos/28429108/pexels-photo-28429108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-drinking-28429108/",
+    "fotografo": "Mahmoud Yahyaoui",
+    "fotografo_url": "https://www.pexels.com/@mahmoud-yahyaoui",
+    "largura": 6016,
+    "altura": 3574,
+    "query": "scared cat drinking water",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40333708,
+    "url_download": "https://images.pexels.com/photos/40333708/pexels-photo-40333708.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/outdoor-scene-of-cat-drinking-in-autumn-park-40333708/",
+    "fotografo": "sh1zik prod",
+    "fotografo_url": "https://www.pexels.com/@sh1zik-prod-2161463258",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "scared cat drinking water",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7874938,
+    "url_download": "https://images.pexels.com/photos/7874938/pexels-photo-7874938.png?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cats-sitting-on-a-platform-7874938/",
+    "fotografo": "Halil  Yetkin",
+    "fotografo_url": "https://www.pexels.com/@halibrhm",
+    "largura": 5184,
+    "altura": 3386,
+    "query": "nervous cat at water bowl",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo/5.jpg"
+  }
+]
