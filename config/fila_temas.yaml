@@ -264,7 +264,8 @@ temas:
   data: '2026-10-25'
 - termo: como calcular a quantidade certa de petiscos naturais na dieta diaria
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-25'
 - termo: como criar rotina de exercicios mentais para gatos idosos
   pilar: comportamento
   status: pendente
@@ -800,4 +801,10 @@ temas:
   status: pendente
 - termo: o que verificar ao comprar coleira peitoral anti puxao
   pilar: produtos_compras
+  status: pendente
+- termo: como adaptar a alimentacao natural de caes adultos ativos
+  pilar: alimentacao
+  status: pendente
+- termo: como acostumar gato adulto com visitas em casa
+  pilar: comportamento
   status: pendente
