@@ -1,6 +1,6 @@
 {
   "slug": "como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos",
-  "status": "agendado",
+  "status": "aguardando_revisao",
   "criado_em": "2026-10-22T19:02:06+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos",
   "voz": {
@@ -11,23 +11,6 @@
     "modelo": "eleven_v4",
     "stability": 0.26
   },
-  "guardiao": {
-    "status": "ok",
-    "problemas": [],
-    "ok": [
-      "sem cenas repetidas no vídeo",
-      "16 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (alex-morgan-upbeat-591314.mp3)",
-      "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "gancho diferente dos últimos vídeos (abertura_pergunta_numero)",
-      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
-      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie cachorro: 6/6 quadros conferem"
-    ],
-    "em": "2026-10-22T19:05:21+00:00"
-  },
-  "aprovado_por": "auto (Guardiao ok)",
   "agendado_em": "2026-10-23T08:25-03:00",
   "agendamento": {
     "facebook": {
@@ -42,5 +25,9 @@
       "id": "6adbb33e0b5343d07048c3fc",
       "agendar_para": "2026-10-26T14:20-03:00"
     }
+  },
+  "rehook": {
+    "gancho_antigo": "Seu cachorro destrói tudo sozinho? 6 dias mudam essa rotina.",
+    "gancho_novo": "Seu cachorro destrói tudo sozinho?"
   }
 }

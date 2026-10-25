@@ -1,0 +1,52 @@
+{
+  "titulo_video": "Como armazenar ração do cachorro sem perder nutrientes",
+  "gancho_3s": "Sua ração perde nutrientes guardada assim?",
+  "cenas": [
+    {
+      "narracao": "[smiling] Sua ração perde nutrientes guardada assim?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Sua ração perde nutrientes guardada assim?"
+    },
+    {
+      "narracao": "[softly] Quando o pacote fica aberto, o oxigênio estraga a gordura e tira as vitaminas.",
+      "visual_busca_banco_livre": "dog eating from bowl close up",
+      "texto_na_tela": "Ração perde nutrientes!"
+    },
+    {
+      "narracao": "[thoughtful] O segredo é guardar os grãos na própria embalagem de fábrica.",
+      "visual_busca_banco_livre": "dog looking up waiting for food",
+      "texto_na_tela": "Guarde na embalagem original"
+    },
+    {
+      "narracao": "Depois, coloque tudo dentro de um pote bem vedado.",
+      "visual_busca_banco_livre": "dog sitting patiently indoors",
+      "texto_na_tela": "Use pote hermético"
+    },
+    {
+      "narracao": "Tira todo o ar de dentro do pacote antes de fechar com um clipe.",
+      "visual_busca_banco_livre": "dog sniffing floor",
+      "texto_na_tela": "Tire o ar do pacote"
+    },
+    {
+      "narracao": "[short pause] Deixe em um lugar fresco e seco, longe da luz e da umidade.",
+      "visual_busca_banco_livre": "dog resting comfortably",
+      "texto_na_tela": "Local fresco e seco"
+    },
+    {
+      "narracao": "Evite despejar a ração solta no balde e não deixe o pote no chão o dia todo.",
+      "visual_busca_banco_livre": "dog looking curious",
+      "texto_na_tela": "Evite esses erros"
+    }
+  ],
+  "chamada_final": "Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. [smiling] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorro",
+    "#nutrição",
+    "#pets",
+    "#cuidados"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVocê sabia que guardar a ração do jeito errado destrói as vitaminas do seu cão?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes\n\n#cachorro #nutrição #pets #cuidados",
+  "slug": "como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes",
+  "molde_gancho": "abertura_perdendo",
+  "cta_indice": 6
+}

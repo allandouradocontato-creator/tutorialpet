@@ -1,6 +1,6 @@
 {
   "slug": "como-escolher-coleira-com-rastreador-gps-para-cachorro",
-  "status": "agendado",
+  "status": "aguardando_revisao",
   "criado_em": "2026-10-23T18:06:49+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-coleira-com-rastreador-gps-para-cachorro",
   "voz": {
@@ -11,26 +11,6 @@
     "modelo": "eleven_v4",
     "stability": 0.26
   },
-  "guardiao": {
-    "status": "ok",
-    "problemas": [],
-    "ok": [
-      "sem cenas repetidas no vídeo",
-      "16 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (alex-morgan-upbeat-591314.mp3)",
-      "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
-      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie cachorro: 6/6 quadros conferem [cf]"
-    ],
-    "em": "2026-10-23T18:10:10+00:00",
-    "liberado_por": "Claude (sessão 23/10, ordem do Allan): gancho distinto pelo texto; só o molde repete; sem abertura banida; artigo no ar",
-    "problemas_liberados": [
-      "gancho repetido de um dos últimos 5 vídeos (abertura_dor)"
-    ]
-  },
-  "aprovado_por": "Claude sessão 23/10 (Allan autorizou liberar)",
   "agendamento": {
     "dia": "2026-10-28",
     "turno": "A",
@@ -40,5 +20,9 @@
       "buffer_id": "6adde63c3d5b27036bcc9077",
       "quando": "2026-10-28T10:20:00-03:00"
     }
+  },
+  "rehook": {
+    "gancho_antigo": "Se o medo do seu cachorro fugir continua acontecendo com você, começa por aqui.",
+    "gancho_novo": "Seu cachorro fugiria pelo portão?"
   }
 }

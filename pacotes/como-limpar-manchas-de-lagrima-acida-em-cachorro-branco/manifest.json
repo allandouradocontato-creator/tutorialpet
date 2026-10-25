@@ -1,6 +1,6 @@
 {
   "slug": "como-limpar-manchas-de-lagrima-acida-em-cachorro-branco",
-  "status": "agendado",
+  "status": "aguardando_revisao",
   "criado_em": "2026-10-20T17:56:16+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-limpar-manchas-de-lagrima-acida-em-cachorro-branco",
   "voz": {
@@ -11,24 +11,6 @@
     "modelo": "eleven_v4",
     "stability": 0.26
   },
-  "guardiao": {
-    "status": "revisar",
-    "problemas": [
-      "gancho repetido de um dos últimos 5 vídeos (abertura_problema_pet)"
-    ],
-    "ok": [
-      "sem cenas repetidas no vídeo",
-      "16 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (alex-morgan-upbeat-591314.mp3)",
-      "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
-      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie cachorro: coerência não verificada (visão indisponível: GEMINI_API_KEY ausente)"
-    ],
-    "em": "2026-10-20T17:57:13+00:00"
-  },
-  "aprovado_por": "Conferente: gancho repetido apenas",
   "agendado_em": "2026-10-23T08:25-03:00",
   "agendamento": {
     "facebook": {
@@ -43,5 +25,9 @@
       "id": "6adb44b77af88b8f19ae9ec6",
       "agendar_para": "2026-10-25T20:20-03:00"
     }
+  },
+  "rehook": {
+    "gancho_antigo": "Seu cachorro tem aquelas manchinhas marrons nos olhos?",
+    "gancho_novo": "Manchas marrons nos olhos dele?"
   }
 }
