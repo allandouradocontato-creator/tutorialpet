@@ -260,7 +260,8 @@ temas:
   data: '2026-10-25'
 - termo: como identificar sinais de estresse em caes multicaes em espaco pequeno
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-25'
 - termo: como calcular a quantidade certa de petiscos naturais na dieta diaria
   pilar: alimentacao
   status: pendente
@@ -793,4 +794,10 @@ temas:
   status: pendente
 - termo: o que e essencial comprar para a chegada do filhote de cachorro
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como criar um jardim seguro para caes e gatos juntos
+  pilar: cuidados_diarios
+  status: pendente
+- termo: o que verificar ao comprar coleira peitoral anti puxao
+  pilar: produtos_compras
   status: pendente

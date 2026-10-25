@@ -1,0 +1,40 @@
+{
+  "titulo_video": "Sinais de Estresse em Cães em Espaço Pequeno",
+  "gancho_3s": "Seu cachorro lambe o focinho do nada? Cuidado com o estresse!",
+  "cenas": [
+    {
+      "narracao": "Em espaço pequeno, cães dividem tudo e o estresse aparece em detalhes sutis que a gente deixa passar.",
+      "visual_busca_banco_livre": "two dogs sitting close together indoor nervous",
+      "texto_na_tela": "Sinais sutis de estresse"
+    },
+    {
+      "narracao": "Lamber o focinho ou bocejar perto de outro cão mostra que ele está desconfortável no ambiente.",
+      "visual_busca_banco_livre": "dog licking nose close up",
+      "texto_na_tela": "Lambe o focinho ou boceja?"
+    },
+    {
+      "narracao": "Se lamber excessivamente as patas é válvula de escape para a ansiedade acumulada.",
+      "visual_busca_banco_livre": "dog licking paw indoors",
+      "texto_na_tela": " lambedura excessiva"
+    },
+    {
+      "narracao": "Em casa apertada, tigelas e brinquedos viram motivo de competição silenciosa e tensão.",
+      "visual_busca_banco_livre": "two dogs near food bowl tense",
+      "texto_na_tela": "Disputa por recursos"
+    },
+    {
+      "narracao": "Crie refúgios estratégicos para cada um tirar uma soneca sem ser interrompido.",
+      "visual_busca_banco_livre": "dog resting in dog bed cozy",
+      "texto_na_tela": "Crie zonas de refúgio"
+    }
+  ],
+  "chamada_final": "Persistindo os sinais, procure um médico-veterinário.",
+  "hashtags": [
+    "#caes",
+    "#cachorros",
+    "#comportamentocanino",
+    "#pets"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro lambe o focinho do nada? Cuidado com o estresse!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno\n\n#caes #cachorros #comportamentocanino #pets",
+  "slug": "como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno"
+}
