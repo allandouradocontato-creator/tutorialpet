@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como ensinar filhote de gato a interagir com cães adultos: guia prático",
+    "description": "Como ensinar filhote de gato a interagir com cães adultos de forma segura, respeitando o tempo de cada pet e garantindo uma convivência pacífica.",
+    "datePublished": "2026-10-25",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que fazer se o cachorro avançar no filhote de gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mantenha a calma, evite gritos estridentes para não agravar a tensão e interponha o corpo ou uma barreira física entre eles. Retorne o filhote para o quarto seguro e avalie se o ritmo de aproximação não foi rápido demais.  - **Quanto tempo demora para o cão aceitar o gato?**   O tempo varia bastante: costuma levar de algumas semanas a vários meses, dependendo do temperamento, da idade e do histórico de socialização prévia de cada animal.  - **Posso deixar os dois sozinhos em casa antes da adaptação completa?**   Não. Enquanto houver qualquer sinal de imprevisibilidade ou instinto de perseguição por parte do cão, mantenha-os rigorosamente separados em cômodos distintos quando você estiver ausente.  - **O filhote de gato pode machucar o cão adulto?**   Sim. As unhas finas e afiadas de um filhote podem atingir os olhos ou o focinho sensível do cão se o gato se assustar, por isso a supervisão é indispensável em todas as interações."
+        }
+      }
+    ]
+  }
+}

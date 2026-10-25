@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como evitar choque termico em cachorros nos dias quentes: guia prático",
-    "description": "Como evitar choque termico em cachorros nos dias quentes: guia prático. Nos dias em que o sol aperta e o asfalto parece queimar, o olhar do nosso cão...",
+    "headline": "Como evitar choque térmico em cachorros nos dias quentes",
+    "description": "Como evitar choque térmico em cachorros nos dias quentes. > Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.",
     "datePublished": "2026-10-24",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-evitar-choque-termico-em-cachorros-nos-dias-quentes"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-evitar-choque-termico-em-cachorros-nos-dias-quentes.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O que fazer se o cachorro sofrer um choque térmico?",
+        "name": "O cachorro pode tosar o pelo no verão para evitar o calor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Leve-o para um lugar fresco, umedeça o corpo dele com água em temperatura ambiente (nunca gelada) nas patas e na virilha, ofereça pequenos goles de água e procure um médico-veterinário imediatamente.  - **Quais raças sofrem mais com o calor?**   Cães bracéfalos (de focinho achatado) como Pug, Bulldog Francês e Shih-tzu, além de raças com pelagem muito densa ou escura, têm imensa dificuldade para respirar e regular a temperatura.  - **Posso tosar o cachorro no verão para refrescar?**   Tosas muito rentes podem expor a pele do cão aos raios solares diretos, causando queimaduras e até câncer de pele; o ideal é apenas aparar o excesso de pelos com orientação profissional.  - **Como saber se a água está na temperatura certa para o pet?**   A água deve estar sempre fresca, trocada pelo menos três vezes ao dia no calor intenso, pois a água morna ou parada desestimula o cão a beber."
+          "text": "Não é recomendado tosar muito curto ou na zero, pois a pelagem funciona como isolante térmico contra o calor e os raios solares, além de proteger contra queimaduras na pele. O ideal é apenas aparar o excesso com um profissional.  - **Posso dar banho gelado no cachorro nos dias quentes?** Não. A água deve ser sempre morna ou em temperatura ambiente. Um choque térmico causado por água muito fria em um corpo superaquecido pode provocar complicações graves na circulação sanguínea.  - **Quantos ml de água um cachorro deve beber no calor?** Em média, um cachorro precisa de cerca de 50ml a 60ml de água por quilo de peso corporal ao diária, mas no calor esse consumo costuma subir. Confirme sempre a necessidade hídrica ideal com o médico-veterinário do pet.  - **Deixar o cachorro no carro com a janela aberta é seguro no calor?** Nunca. A temperatura dentro de um veículo estacionado sobe a níveis fatais em poucos minutos, mesmo com as janelas abertas na sombra."
         }
       }
     ]

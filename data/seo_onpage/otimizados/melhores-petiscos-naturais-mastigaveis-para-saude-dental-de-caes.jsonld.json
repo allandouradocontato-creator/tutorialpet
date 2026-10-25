@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Melhores petiscos naturais mastigáveis para saúde dental de cães: guia prático",
+    "description": "Melhores petiscos naturais mastigáveis para saúde dental de cães: guia prático. > Este conteúdo é informativo e não substitui a consulta com um...",
+    "datePublished": "2026-10-24",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Cachorros filhotes podem comer petiscos mastigáveis duros?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, filhotes com dentes de leite não devem consumir itens muito duros para não machucar a gengiva ou quebrar os dentes em formação; prefira opções macias ou específicas para a idade.  - **Com que frequência devo oferecer petiscos mastigáveis?**   Costuma ser seguro oferecer de duas a três vezes por semana, controlando as calorias diárias para evitar o ganho de peso do animal.  - **Ossos naturais cozidos são seguros para os dentes?**   Não. Ossos cozidos estilhaçam com facilidade e podem perfurar o trato digestivo ou causar sérios danos à boca do cão.  - **Como saber se o petisco está fazendo mal ao estômago do cão?**   Fique atento a sinais como vômitos, diarreia ou apatia após o consumo; caso ocorram, suspenda o petisco e consulte o médico-veterinário."
+        }
+      }
+    ]
+  }
+}
