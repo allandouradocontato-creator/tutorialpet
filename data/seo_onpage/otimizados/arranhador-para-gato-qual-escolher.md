@@ -131,6 +131,12 @@ Em média, costuma durar de alguns meses a alguns anos, dependendo da intensidad
 **Gatos filhotes precisam de arranhadores especiais?**
 Sim, filhotes precisam de modelos mais baixos, leves e acessíveis, pois suas articulações ainda estão em desenvolvimento e a coordenação motora é menor.
 
+## Fontes e referências
+
+- [Scratching on furniture and carpets](https://icatcare.org/articles/scratching-on-furniture-and-carpets) — International Cat Care (Reino Unido).
+- [Claw-Friendly Educational Toolkit: Scratching Resources](https://catvets.com/wp-content/uploads/2024/01/ClawFriendlyEducationalToolkit_ScratchingResources.pdf) — AAFP (American Association of Feline Practitioners, Estados Unidos), 2024.
+- [Feline Behavior Problems: Destructive Behavior](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-destructive-behavior) — Cornell Feline Health Center (Estados Unidos).
+
 ## Para fechar
 
 Escolher o arranhador ideal para o seu gato é um investimento direto na saúde física e mental do pet, além de salvar a sua mobília de surpresas desagradáveis. Avalie sempre a altura, a estabilidade e a preferência do seu companheiro peludo antes de tomar a decisão final.

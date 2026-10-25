@@ -94,7 +94,7 @@ A perda gradual de peso é um sinal negligenciado na fase sênior. Em animais de
 
 Com o avanço dos anos, ocorrem alterações na sensibilidade olfativa e na integridade dentária:
 * **Mastigação unilateral:** se o gato mastiga com a cabeça inclinada, pode haver desconforto nas gengivas.
-* **Prevalência de alimento úmido:** muitos preferem patês pela facilidade de ingestão. Avaliar se [pode dar sache para gato todos os dias](/pode-dar-sache-para-gato-todos-os-os-dias) ajuda a manter o aporte calórico.
+* **Prevalência de alimento úmido:** muitos preferem patês pela facilidade de ingestão. Avaliar se [pode dar sache para gato todos os dias](/pode-dar-sache-para-gato-todos-os-dias) ajuda a manter o aporte calórico.
 * **Hidratação instável:** rins envelhecidos demandam mais água para eliminar toxinas. Se o recipiente esvazia rápido, busque avaliação veterinária. Adotar dicas sobre [como fazer o gato beber mais agua](/como-fazer-o-gato-beber-mais-agua) é fundamental.
 
 A altura da tigela faz diferença. Abaixar a cabeça até o solo sobrecarrega a coluna de animais idosos. Compreender [como acostumar gato adulto com novo comedouro](/como-acostumar-gato-adulto-com-novo-comedouro) elevado reduz a tensão no pescoço.

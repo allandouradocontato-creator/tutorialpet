@@ -135,6 +135,13 @@ Não. O abacate contém persina, uma substância tóxica para os cães que pode 
 **O que fazer se o cachorro comer doce com adoçante xilitol?**
 O xilitol causa uma queda drástica na glicemia e falência hepática rápida. Trata-se de uma emergência veterinária absoluta; leve o animal ao atendimento imediatamente.
 
+## Fontes e referências
+
+- [Chocolate não é bom pra cachorro!](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/) — CFMV (Conselho Federal de Medicina Veterinária), 2021.
+- [Saiba os perigos da ingestão de chocolate por pets](https://crmvsp.gov.br/saiba-os-perigos-da-ingestao-de-chocolate-por-pets/) — CRMV-SP.
+- [Intoxicações em cães e gatos por alimentos humanos: o que não fornecer aos animais?](https://lume.ufrgs.br/bitstream/handle/10183/251914/001153640.pdf?sequence=1) — Veterinária em Foco (UFPel/UFRGS), 2013.
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
+
 ## Para fechar
 
 Cuidar da alimentação do seu cão vai muito além de escolher um bom alimento comercial; envolve manter a cozinha e a despensa protegidas contra acidentes domésticos. Pequenos deslizes podem trazer grandes sustos, por isso a prevenção continua sendo a melhor forma de garantir uma vida longa e saudável ao seu companheiro. 
