@@ -21,3 +21,4 @@ disparo Agendador 2026-10-23 12:25 Fortaleza (estoque agendado so ate 26/10; sem
 artigos Vigia 2026-10-24 07:45 Fortaleza (blog 1/4 no ar; 0 rascunhos livres: 6 presos em capas_pendentes; pedir 3 temas novos de config/fila_temas.yaml)
 2026-10-24T16:30-03:00 agendador: estoque ate 28/10 14h (<5 dias), sem pacote pronto
 2026-10-25T08:15 agendador
+artigos Vigia 2026-10-25 11:20 Fortaleza (blog 1/4 no ar; 0 rascunhos com autor+fonte nomeada para promover; pedir temas novos de config/fila_temas.yaml, com fonte)
