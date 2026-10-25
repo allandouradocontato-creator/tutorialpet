@@ -125,6 +125,13 @@ Sim, mas o processo exige muito mais paciência, tempo e respeito ao espaço do 
 **O que fazer se o gatinho se assustar muito com uma visita?**
 Deixe-o ir para um local seguro e evite forçar o contato até que ele demonstre tranquilidade novamente.
 
+## Fontes e referências
+
+- [Behavior and Environmental Needs: Kittens](https://www.aaha.org/resources/2021-aaha-aafp-feline-life-stage-guidelines/behavior-and-environmental-needs-kittens/) — AAHA/AAFP Feline Life Stage Guidelines, 2021 (fonte estrangeira).
+- [Kitten Play: Managing Rough Play](https://healthtopics.vetmed.ucdavis.edu/node/1086) — UC Davis School of Veterinary Medicine (fonte estrangeira).
+- [How To Socialize a Kitten](https://www.petmd.com/cat/training/kitten-care-101-how-socialize-kittens) — PetMD (conteúdo veterinário, fonte estrangeira).
+- [What to Expect When Adopting a Feline Friend](https://www.vet.cornell.edu/sites/default/files/WhatToExpect_Updated_2022.pdf) — Cornell Feline Health Center, 2022 (fonte estrangeira).
+
 ## Para fechar
 
 Socializar um filhote de gato exige dedicação, leitura corporal atenta e muito respeito ao tempo do animal. Investir tempo nessa fase garante um felino mais confiante, curioso e pronto para aproveitar a vida ao seu lado sem medo do mundo. 
