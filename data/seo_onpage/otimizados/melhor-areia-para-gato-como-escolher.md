@@ -140,6 +140,13 @@ Apenas quando o fabricante explicitar na embalagem que o produto é biodegradáv
 **Quantas caixas de areia devo ter em casa?**  
 A regra clássica de manejo felino orienta manter o número de caixas correspondente ao total de gatos mais uma unidade adicional (N+1). Para um gato, costuma ser ideal disponibilizar duas caixas em cômodos diferentes.
 
+## Fontes e referências
+
+- [Doença do Trato Urinário Inferior de Felinos (DTUIF) Obstrutiva: Conhecendo a Doença](https://www.fmvz.unesp.br/Modulos/Noticias/385/folder-dtuif---frente-e-verso.pdf) — Hospital Veterinário da Unesp, Botucatu (Brasil).
+- [Conhecendo o comportamento dos gatos: um guia para tutores](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/catalog/download/1592/1456/5734?inline=1) — Universidade de São Paulo (FFCLRP-USP), 2025.
+- [Litter Box Problems](https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/litter-box-problems) — ASPCA (EUA, fonte estrangeira).
+- [Feline Behavior Problems: House Soiling](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-house-soiling) — Cornell Feline Health Center (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Encontrar a melhor areia sanitária para o seu gato exige um equilíbrio entre a praticidade de higienização do tutor e o conforto anatômico do felino. Priorizar produtos sem perfume, com formação consistente de torrões e baixa emissão de pó garante um ambiente higiênico e previne desvios de comportamento antes que eles se instalem na rotina da casa.

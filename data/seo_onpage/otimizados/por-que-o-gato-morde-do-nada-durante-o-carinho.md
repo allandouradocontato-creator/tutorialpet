@@ -137,6 +137,13 @@ Sim, totalmente. Quando você usa os próprios dedos como "presa" em brincadeira
 **Gatos castrados também apresentam essa sensibilidade ao toque?**  
 Sim. A intolerância por hiperestimulação sensorial é neurológica e tátil, não tendo relação direta com hormônios sexuais ou instinto reprodutivo.
 
+## Fontes e referências
+
+- [Conhecendo o comportamento dos gatos: um guia para tutores](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/catalog/download/1592/1456/5734?inline=1) — Universidade de São Paulo (FFCLRP-USP), 2025.
+- [Aggression in Cats](https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/aggression-cats) — ASPCA (EUA, fonte estrangeira).
+- [Feline Behavior Problems: Aggression](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-aggression) — Cornell Feline Health Center (EUA, fonte estrangeira).
+- [Preventing Unwanted Behaviors (material para tutores)](https://catvets.com/wp-content/uploads/2025/12/FelineVMA_Preventing_Unwanted_Behaviors_Handout.pdf) — American Association of Feline Practitioners (EUA, fonte estrangeira), 2025.
+
 ## Para fechar
 
 Entender por que o gato morde durante o carinho não exige nenhum mistério: exige apenas trocar os velhos mitos populares pela observação prática dos fatos. Felinos apreciam contato, mas valorizam ainda mais a previsibilidade e o respeito ao seu espaço físico.

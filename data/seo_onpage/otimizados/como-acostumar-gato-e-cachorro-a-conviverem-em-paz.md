@@ -136,6 +136,12 @@ Varia muito. Alguns pares se adaptam em poucos dias, enquanto outros levam meses
 * **O gato pode machucar o cachorro?**
 Sim. Um arranhão certeiro no focinho ou nos olhos pode causar lesões sérias. Por isso, as apresentações controladas e o corte adequado das unhas do felino são fundamentais.
 
+## Fontes e referências
+
+- [Introducing cats and dogs](https://icatcare.org/articles/introducing-cats-and-dogs) — International Cat Care (Reino Unido).
+- [5 steps to successfully introducing your cat to a new pet](https://vcahospitals.com/resources/new-pet/5-steps-to-successfully-introducing-your-cat-to-a-new-pet) — VCA Animal Hospitals (Estados Unidos).
+- [Making your home cat friendly](https://icatcare.org/articles/making-your-home-cat-friendly) — International Cat Care (Reino Unido).
+
 ## Para fechar
 
 Acostumar gato e cachorro a conviverem em paz exige constância, observação atenta da linguagem corporal e muita paciência. Ao respeitar o tempo de adaptação de cada espécie e garantir que ambos tenham seus próprios recursos e espaços seguros, a harmonia deixa de ser um sonho distante e passa a fazer parte da rotina da sua casa. 

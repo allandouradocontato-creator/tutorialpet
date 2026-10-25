@@ -111,6 +111,12 @@ Sim. A inclinação de 15 graus alinha o esôfago e reduz a quantidade de ar eng
 **Qual é o melhor material para a tigela do idoso?**  
 A cerâmica e o aço inoxidável são as melhores opções. Não acumulam odores nem bactérias, evitam alergias no queixo e são muito fáceis de higienizar no dia a dia.
 
+## Fontes e referências
+
+- [How to encourage your cat to drink](https://icatcare.org/articles/how-to-encourage-your-cat-to-drink) — International Cat Care (fonte estrangeira).
+- [Arthritis in cats](https://www.pdsa.org.uk/media/5831/phh_cat_c_arthritis-in-cats.pdf) — PDSA, instituição veterinária de caridade do Reino Unido (fonte estrangeira).
+- [How To Create an Accessible, Safe Home for Senior Cats](https://www.petmd.com/cat/general-health/how-to-create-an-accessible-safe-home-for-senior-cats) — PetMD, texto da médica-veterinária Jamie Lovejoy (fonte estrangeira).
+
 ## Para fechar
 
 Cuidar de um gato idoso é um exercício diário de observação e carinho. Pequenos ajustes na mobília e na rotina têm um impacto gigantesco no bem-estar de quem já nos deu tantos anos de companhia afetuosa. Um comedouro elevado bem dimensionado não é mero acessório de decoração: é uma ferramenta de saúde preventiva que devolve o prazer de comer sem dor.

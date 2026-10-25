@@ -154,6 +154,14 @@ Geralmente não, mas se o animal de repente parar de comer, apresentar náuseas 
 
 ---
 
+## Fontes e referências
+
+- [Why do cats..?](https://icatcare.org/articles/why-do-cats) — International Cat Care (Reino Unido, fonte estrangeira).
+- [Feeding your cat or kitten](https://icatcare.org/articles/feeding-your-cat-or-kitten) — International Cat Care (Reino Unido, fonte estrangeira).
+- [Feline Feeding Programs: Addressing Behavioral Needs to Improve Feline Health and Wellbeing](https://catvets.com/resource/how-to-feed-how-to-feed-a-cat-consensus-statement/) — American Association of Feline Practitioners (EUA, fonte estrangeira).
+- [Doença do Trato Urinário Inferior de Felinos (DTUIF) Obstrutiva: Conhecendo a Doença](https://www.fmvz.unesp.br/Modulos/Noticias/385/folder-dtuif---frente-e-verso.pdf) — Hospital Veterinário da Unesp, Botucatu (Brasil).
+- [Conhecendo o comportamento dos gatos: um guia para tutores](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/catalog/download/1592/1456/5734?inline=1) — Universidade de São Paulo (FFCLRP-USP), 2025.
+
 ## Para fechar
 
 Ver o gato cavando o chão ao redor da comida pode parecer estranho, mas é pura manifestação biológica de sobrevivência, higiene e controle de território. Ao controlar o tamanho das porções, escolher o comedouro adequado e retirar os restos logo após a refeição, você elimina o gatilho visual e olfativo que dispara essa resposta.

@@ -161,6 +161,13 @@ Apenas se o peso do aparelho não exceder a proporção física do filhote; para
 
 ---
 
+## Fontes e referências
+
+- [Microchipping of Animals FAQ](https://www.avma.org/KB/Resources/FAQs/Pages/Microchipping-of-animals-FAQ.aspx) — AVMA, Associação Médica Veterinária Americana (fonte estrangeira).
+- [Prevent Your Pet from Getting Lost](https://www.mspca.org/pet-resources/prevent-your-pet-from-getting-lost/) — MSPCA-Angell (fonte estrangeira).
+- [Lost Dogs and the Way Home: What Research Shows About Tags, Microchips and GPS Trackers](https://www.dvm360.com/view/lost-dogs-and-the-way-home-what-research-shows-about-tags-microchips-and-gps-trackers) — dvm360 (fonte estrangeira).
+- [Apple Says AirTags Aren't Designed For Tracking Your Kids Or Your Pets](https://www.bgr.com/tech/airtag-tracking-features-not-for-children-pets) — BGR, reportagem sobre posição da Apple (fonte estrangeira).
+
 ## Para fechar
 
 Escolher uma coleira com rastreador GPS traz uma camada valiosa de tranquilidade para quem tem cães exploradores, medrosos ou simplesmente muito rápidos. Avaliar com calma a tecnologia de localização, o peso da peça no corpo do pet e os custos de manutenção garante uma compra certeira e verdadeiramente funcional.

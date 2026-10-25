@@ -180,6 +180,12 @@ Não é recomendado. Os grãos do saco antigo já tiveram semanas de contato com
 
 ---
 
+## Fontes e referências
+
+- [Proper Storage of Pet Food and Treats](https://www.fda.gov/animal-veterinary/animal-health-literacy/proper-storage-pet-food-treats) — FDA (agência reguladora dos EUA, fonte estrangeira).
+- [Cat and Dog Food Storage Tips](https://www.hillspet.com/content/cp-sites-aem/hills/hills-pet/en_us/home/pet-care/nutrition-feeding/cat-and-dog-food-storage-tips.html) — Hill's Pet Nutrition (fonte estrangeira).
+- [Os cuidados obrigatórios com a comida do pet para evitar contaminações perigosas na família](https://olhardigital.com.br/2026/02/19/curiosidades/os-cuidados-obrigatorios-com-a-comida-do-pet-para-evitar-contaminacoes-perigosas-na-familia/) — Olhar Digital, 2026 (reportagem brasileira que cita o guia da FDA).
+
 ## Para fechar
 
 Preservar o valor nutricional da ração é tão importante quanto escolher uma fórmula premium. Ao manter o produto em sua embalagem original, bem vedada contra luz, calor e ar, você assegura que seu cão absorva todas as vitaminas e minerais que mantêm sua saúde em dia.

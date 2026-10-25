@@ -128,6 +128,12 @@ Não. Embora a fita de adaptação ao cinto do carro costuma ser ajustável, o p
 **O cinto impede totalmente que o cão se movimente?**
 Não. Ele limita o espaço para garantir a segurança em caso de impacto, mas permite que o pet mude de posição, sente ou deite durante viagens longas.
 
+## Fontes e referências
+
+- [Is Your Dog's Car Harness, Travel Crate, or Carrier Crash-Test Certified?](https://tuftsyourdog.com/?p=35369) — Tufts University, Your Dog, com dados do Center for Pet Safety (fonte estrangeira).
+- [Dog Seat Belts: What You Need to Know to Keep Your Dog Safe](https://www.akc.org/expert-advice/travel/dog-seat-belts-what-you-need-to-know-to-keep-your-dog-safe/) — American Kennel Club (fonte estrangeira).
+- [Do I need to restrain my dog when travelling in my car?](https://kb.rspca.org.au/knowledge-base/do-i-need-to-restrain-my-dog-when-travelling-in-my-car/) — RSPCA Austrália (fonte estrangeira).
+
 ## Para fechar
 
 Viajar ao lado de quem amamos é uma das formas mais bonitas de colecionar memórias. Escolher o cinto de segurança adequado é um gesto silencioso de cuidado, uma forma de dizer que o bem-estar do nosso companheiro importa em cada quilômetro percorrido. 

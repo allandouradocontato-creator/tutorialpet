@@ -111,6 +111,13 @@ Se você notar que o filhote está mordiscando o tapete em vez de usá-lo, vale 
 * **O que fazer se o cachorro adulto continuar errando o xixi?**  
   Se um cão adulto que já era treinado voltar a errar, procure o médico-veterinário para descartar infecções urinárias ou outras questões de saúde.
 
+## Fontes e referências
+
+- [Produtos de educação sanitária para cães não substituem adestramento](https://www.itatiaia.com.br/pets-e-animais/produtos-de-educacao-sanitaria-para-caes-nao-substituem-adestramento/) — Rádio Itatiaia, com orientações da ABMVAC (Associação Brasileira de Médicos-Veterinários de Animais de Companhia).
+- [Puppy Potty Training Timeline](https://www.akc.org/learn/akc-training/puppy-potty-training-timeline/) — American Kennel Club (fonte estrangeira).
+- [House-Training Your Puppy](https://www.sfspca.org/wp-content/uploads/2023/02/dog_behavior_house-training_puppy.pdf) — San Francisco SPCA, 2023 (fonte estrangeira).
+- [Why You Need To Reward Your Dog in Training, According to the Experts](https://avsab.org/why-you-need-to-reward-your-dog-in-training-according-to-the-experts/) — American Veterinary Society of Animal Behavior, AVSAB (fonte estrangeira).
+
 ## Para fechar
 
 Ensinar o cãozinho a usar o banheiro certo exige tempo, constância e muita observação da rotina dele. Lembre-se de que os erros fazem parte do aprendizado e que cada pequeno acerto merece comemoração. Continue navegando pelo blog para descobrir mais dicas práticas e leveza na sua jornada como tutor de primeira viagem!

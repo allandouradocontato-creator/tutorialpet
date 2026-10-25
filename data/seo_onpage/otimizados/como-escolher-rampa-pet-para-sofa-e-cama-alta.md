@@ -138,6 +138,12 @@ Passe o aspirador de pó de duas a três vezes por semana. Para limpar manchas, 
 
 ---
 
+## Fontes e referências
+
+- [Dog Stairs and Ramps](https://www.akc.org/expert-advice/health/general-health/dog-stairs-and-ramps/) — American Kennel Club (fonte estrangeira).
+- [Arthritis in cats](https://www.pdsa.org.uk/media/5831/phh_cat_c_arthritis-in-cats.pdf) — PDSA, instituição veterinária de caridade do Reino Unido (fonte estrangeira).
+- [How To Create an Accessible, Safe Home for Senior Cats](https://www.petmd.com/cat/general-health/how-to-create-an-accessible-safe-home-for-senior-cats) — PetMD, texto da médica-veterinária Jamie Lovejoy (fonte estrangeira).
+
 ## Para fechar
 
 Proteger as articulações e a coluna do seu companheiro é um investimento preventivo. Escolher a rampa certa envolve medir a altura do móvel, garantir um ângulo suave e buscar boa aderência.

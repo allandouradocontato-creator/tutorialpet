@@ -119,6 +119,13 @@ Exemplo prático: Anote em um caderno os horários em que o gato ataca os móvei
 *   **Cortar as unhas do gato resolve o problema?**
     Ajuda a diminuir os danos físicos, mas não elimina a necessidade instintiva de arranhar. O arranhador continua sendo obrigatório.
 
+## Fontes e referências
+
+- [Conhecendo o comportamento dos gatos: um guia para tutores](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/catalog/download/1592/1456/5734?inline=1) — Universidade de São Paulo (FFCLRP-USP), 2025.
+- [Destructive Scratching](https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/destructive-scratching) — ASPCA (EUA, fonte estrangeira).
+- [Scratching on furniture and carpets](https://icatcare.org/articles/scratching-on-furniture-and-carpets) — International Cat Care (Reino Unido, fonte estrangeira).
+- [Preventing Unwanted Behaviors (material para tutores)](https://catvets.com/wp-content/uploads/2025/12/FelineVMA_Preventing_Unwanted_Behaviors_Handout.pdf) — American Association of Feline Practitioners (EUA, fonte estrangeira), 2025.
+
 ## Para fechar
 
 Proteger o sofá da curiosidade felina exige paciência, observação e substituição inteligente de hábitos. Entender que o seu gato está apenas seguindo o próprio instinto ajuda a manter a harmonia na convivência diária.

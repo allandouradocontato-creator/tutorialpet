@@ -117,6 +117,14 @@ Sim, desde que o produto seja específico para a faixa etária correspondente (f
 **Sachê engorda mais do que a ração seca?**
 Depende da quantidade e da marca. O sachê tem menos calorias por grama devido à água, mas como é muito saboroso, alguns gatos comem em excesso se o tutor não controlar as porções diárias.
 
+## Fontes e referências
+
+- [No dia Internacional do Gato, o CRMV-RS traz dicas para o bem-estar dos bichanos](https://www.crmvrs.gov.br/noticia_detalhada.php?id_noticias=1790) — CRMV-RS (Brasil), 2023.
+- [Doença do Trato Urinário Inferior de Felinos (DTUIF) Obstrutiva: Conhecendo a Doença](https://www.fmvz.unesp.br/Modulos/Noticias/385/folder-dtuif---frente-e-verso.pdf) — Hospital Veterinário da Unesp, Botucatu (Brasil).
+- [Should I feed my cat wet or dry food?](https://icatcare.org/articles/should-i-feed-my-cat-wet-or-dry-food) — International Cat Care (Reino Unido, fonte estrangeira).
+- [Dry, Canned, or Semi-Moist: Food Choices for Cats](https://vcahospitals.com/know-your-pet/dry-canned-or-semi-moist-food-choices-for-cats) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration) — Cornell Feline Health Center (EUA, fonte estrangeira).
+
 ## Para fechar
 
 O sachê é um grande aliado na rotina de quem cuida de felinos, ajudando na hidratação e tornando as refeições muito mais prazerosas. Dar comida úmida todos os dias é perfeitamente seguro e benéfico, desde que você escolha produtos de boa qualidade nutricional e mantenha o equilíbrio calórico adequado para o peso e a idade do seu bichano. Lembre-se de que cada animal é único e que orientações personalizadas devem ser alinhadas com o médico-veterinário do pet.

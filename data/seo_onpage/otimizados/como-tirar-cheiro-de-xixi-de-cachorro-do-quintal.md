@@ -121,6 +121,13 @@ Limpadores enzimáticos específicos para pets são os mais eficientes para queb
 * **Com que frequência devo lavar o quintal para evitar o cheiro?**
 Em média, uma lavagem leve diária com água e uma limpeza profunda semanal com produtos adequados costumam manter o quintal livre de odores, dependendo do tamanho do cão.
 
+## Fontes e referências
+
+- [Misturar produtos de limpeza NÃO é uma boa ideia e pode ser perigoso](https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/misturar-produtos-de-limpeza-nao-e-uma-boa-ideia-e-pode-ser-perigoso) — Anvisa (Brasil), 2026.
+- [Chlorine gas: Get the facts](https://www.poison.org/articles/chlorine-gas) — National Capital Poison Center / Poison Control (EUA, fonte estrangeira).
+- [Why Is Dog Pee Killing Your Grass — And How to Stop It](https://www.akc.org/expert-advice/home-living/dog-pee-killing-grass/) — American Kennel Club (EUA, fonte estrangeira), 2025.
+- [Urinary Tract Infections (UTIs) in Dogs](https://vcahospitals.com/know-your-pet/urinary-tract-infections-utis-in-dogs) — VCA Animal Hospitals (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Cuidar da limpeza do quintal é um ato de carinho com a nossa própria casa e com o bem-estar do nosso pet, que merece viver em um ambiente limpo e livre de odores fortes que agridem seu olfato sensível. Com paciência, os produtos certos e uma rotina simples de manutenção, você consegue eliminar o cheiro de xixi de cachorro do quintal de forma definitiva e segura.

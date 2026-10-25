@@ -130,6 +130,13 @@ Filhotes de poucas semanas têm estômago pequeno e metabolismo acelerado, alime
 **Posso dar banho no gatinho assim que ele chegar?**  
 Geralmente não é recomendado nos primeiros dias, pois o banho eleva o nível de estresse e retira o cheiro natural do animal durante a fase de adaptação. Se ele estiver muito sujo, prefira lenços umedecidos próprios para pets ou consulte um profissional.
 
+## Fontes e referências
+
+- [Helping your new cat or kitten settle in](https://icatcare.org/articles/helping-your-new-cat-or-kitten-settle-in) — International Cat Care (Reino Unido, fonte estrangeira).
+- [New Kitten Checklist](https://vcahospitals.com/pediatric/kitten/prep-supplies/new-kitten-checklist) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Top 5 Ways to Prep Your Home for a Puppy or Kitten](https://www.aspca.org/news/top-5-ways-prep-your-home-puppy-or-kitten) — ASPCA (EUA, fonte estrangeira).
+- [Conhecendo o comportamento dos gatos: um guia para tutores](https://www.livrosabertos.abcd.usp.br/portaldelivrosUSP/catalog/download/1592/1456/5734?inline=1) — Universidade de São Paulo (FFCLRP-USP), 2025.
+
 ## Para fechar
 
 Preparar o enxoval do seu gatinho é o primeiro gesto tangível de afeto por uma vida que logo dependerá do seu cuidado. Com esses itens organizados, você ganha tranquilidade para viver o que realmente importa: sentar no chão, observar cada passo hesitante e ver nascer um laço de cumplicidade que atravessará os anos.

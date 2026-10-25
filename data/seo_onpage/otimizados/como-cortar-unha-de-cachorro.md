@@ -140,6 +140,12 @@ Não é recomendado. O formato do cortador humano achata a unha em vez de fazer 
 **E se a unha do esporão (unha do lobinho) estiver muito grande?**
 O esporão fica na parte interna da pata dianteira e não encosta no chão, logo ele cresce em formato de gancho e pode encarnar. Corte com cuidado extra ou peça ajuda ao veterinário.
 
+## Fontes e referências
+
+- [How to Trim Dog Nails](https://www.akc.org/expert-advice/health/how-to-trim-dog-nails/) — American Kennel Club (fonte estrangeira).
+- [Successful Nail Trims: Training for Happy Handling](https://vcahospitals.com/know-your-pet/handling-exercises-for-trimming-nails-and-brushing-teeth) — VCA Animal Hospitals (fonte estrangeira).
+- [Dog Nail Trimming](https://www.torontohumanesociety.com/wp-content/uploads/2023/11/Dog-Nail-Trimming.pdf) — Toronto Humane Society, 2023 (fonte estrangeira).
+
 ## Para fechar
 
 Cortar as unhas do seu cão pode parecer intimidador no começo, mas com rotina, paciência e muitos petiscos, a tarefa se torna um momento de conexão entre vocês. Lembre-se de respeitar o limite do animal e nunca force a barra se ele estiver excessivamente assustado.

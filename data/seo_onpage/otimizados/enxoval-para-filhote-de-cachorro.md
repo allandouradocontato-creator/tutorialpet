@@ -123,6 +123,12 @@ Três a quatro brinquedos de tipos diferentes costumam ser suficientes para inic
 **Qual o melhor material para a caminha do filhote?**
 Tecidos impermeáveis ou fáceis de lavar na máquina são os melhores, pois filhotes frequentemente passam por pequenos escapes de xixi na fase de adaptação.
 
+## Fontes e referências
+
+- [New Puppy Checklist](https://vcahospitals.com/pediatric/puppy/prep-supplies/new-puppy-checklist) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Time to Get a New Puppy? Here's What You Need to Know](https://www.akc.org/expert-advice/training/preparing-for-a-new-puppy/) — American Kennel Club (EUA, fonte estrangeira).
+- [Top 5 Ways to Prep Your Home for a Puppy or Kitten](https://www.aspca.org/news/top-5-ways-prep-your-home-puppy-or-kitten) — ASPCA (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Montar o enxoval perfeito para o seu novo companheiro é uma delícia e faz parte da preparação para viver momentos inesquecíveis ao lado dele. Comprar com planejamento evita desperdícios e garante que o animal tenha tudo o que precisa para crescer saudável, seguro e feliz em sua nova casa.

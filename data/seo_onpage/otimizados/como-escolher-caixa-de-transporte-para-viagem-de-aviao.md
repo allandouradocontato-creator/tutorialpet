@@ -144,6 +144,12 @@ Cole adesivos com a palavra "ANIMAL VIVO" em letras grandes, além de etiquetas 
 
 ---
 
+## Fontes e referências
+
+- [Traveling with Pets](https://www.iata.org/en/youandiata/travelers/traveling-with-pets) — IATA, Associação Internacional de Transporte Aéreo (fonte estrangeira).
+- [Pet Container Requirements](https://www.iata.org/contentassets/b0016da92c86449f850fe9560827bbea/pet-container-requirements.pdf) — IATA, Live Animals Regulations (fonte estrangeira).
+- [Saiba como transportar seu animal de estimação em viagens de ônibus e avião](https://idec.org.br/consultas/dicas-e-direitos/saiba-como-transportar-seu-animal-de-estimaco-em-viagens-de-onibus-e-avio) — Idec, Instituto Brasileiro de Defesa do Consumidor.
+
 ## Para fechar
 
 Escolher a caixa de transporte certa para uma viagem de avião exige atenção às regras, fita métrica na mão e um bom período de treino em casa. Quando você resolve essa etapa com antecedência, a viagem fica leve para todo mundo, inclusive para o seu pet, que chega ao destino pronto para curtir novas aventuras ao seu lado.

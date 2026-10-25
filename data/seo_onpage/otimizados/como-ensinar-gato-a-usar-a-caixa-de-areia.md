@@ -127,6 +127,12 @@ Se o seu gato começar a frequentar a caixa o tempo todo, passar muito tempo aga
 * **O gato precisa de ajuda para aprender sozinho?**
   Na grande maioria das vezes, o instinto faz todo o trabalho. O papel do tutor é apenas garantir um ambiente limpo, seguro, acessível e com o tipo de areia adequado.
 
+## Fontes e referências
+
+- [General Litter Box Considerations](https://www.aaha.org/resources/2021-aaha-aafp-feline-life-stage-guidelines/general-litter-box-considerations/) — AAHA/AAFP, Feline Life Stage Guidelines, 2021 (fonte estrangeira).
+- [Feline Behavior Problems: House Soiling](https://vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-house-soiling) — Cornell Feline Health Center, Cornell University (fonte estrangeira).
+- [Medical Causes of House Soiling in Cats](https://www.aspca.org/pet-care/general-pet-care/medical-causes-house-soiling-cats) — ASPCA (fonte estrangeira).
+
 ## Para fechar
 
 Ensinar um gato a usar a caixa de areia é um processo que se apoia na compreensão dos instintos naturais do animal. Com paciência, bandejas bem localizadas, areia adequada e uma rotina diária de limpeza, o sucesso é praticamente garantido. Lembre-se de observar os sinais que o seu companheiro dá e de buscar orientação profissional caso note qualquer mudança brusca de comportamento ou indício de dor.

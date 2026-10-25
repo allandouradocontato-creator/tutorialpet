@@ -120,6 +120,14 @@ Gostam de correr em rajadas curtas, mas costumam se adaptar bem a caminhadas mod
 * **O galgo italiano tolera bem o frio?**
 Não costuma tolerar. Com pouco pelo e pouca gordura, ele treme com facilidade e se beneficia de roupas em dias frescos.
 
+## Fontes e referências
+
+- [Italian Greyhound Dog Breed Information](https://www.akc.org/dog-breeds/italian-greyhound/) — American Kennel Club (EUA, fonte estrangeira).
+- [Italian Greyhound History: Where the Breed Originated](https://www.akc.org/expert-advice/dog-breeds/italian-greyhound-history/) — American Kennel Club (EUA, fonte estrangeira).
+- [Facts About the Italian Greyhound That You May Not Know](https://www.akc.org/expert-advice/lifestyle/fun-facts-italian-greyhound/) — American Kennel Club (EUA, fonte estrangeira).
+- [Italian Greyhound](https://vcahospitals.com/know-your-pet/dog-breeds/italian-greyhound) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [CRMV-RS promove campanha sobre cuidados com os pets no frio](https://www.crmvrs.gov.br/noticia_detalhada.php?id_noticias=1575) — CRMV-RS (Brasil), 2022.
+
 ## Para fechar
 
 Três lições do galgo italiano valem para qualquer cachorro: observe o corpo do seu pet, proteja-o do frio e do susto, e dê a ele a sua companhia. O Plínio mostra como uma raça delicada pode ser muito querida. Seu cachorro também merece esse olhar atento.

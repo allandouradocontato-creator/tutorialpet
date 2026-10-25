@@ -129,6 +129,12 @@ Sim, costumam precisar. Com o avançar da idade, o metabolismo e a capacidade di
 **Filhotes podem comer qualquer ração na transição?**
 Não. Filhotes exigem nutrientes específicos para o crescimento ósseo e muscular. Se você estiver adotando um novo pet, confira nossas dicas sobre os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) para garantir que a alimentação esteja adequada à idade dele.
 
+## Fontes e referências
+
+- [How to Switch & Transition Dog Foods](https://www.akc.org/expert-advice/nutrition/right-way-switch-dog-foods/) — American Kennel Club (EUA, fonte estrangeira), 2026.
+- [When To Switch Puppy To Adult Food](https://vcahospitals.com/pediatric/puppy/nutrition/when-to-switch-puppy-to-adult-food) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Re-evaluating your dog's diet](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/re-evaluating-your-dogs-diet) — Cornell University College of Veterinary Medicine (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Mudar a alimentação do seu cão é um ato de cuidado que exige paciência e observação diária. Respeitar o tempo do organismo canino evita o estresse de visitas inesperadas à clínica veterinária e garante que o seu peludo aproveite ao máximo os nutrientes do novo prato. 

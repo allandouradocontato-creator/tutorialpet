@@ -114,6 +114,12 @@ Se o cão ignorar completamente o brinquedo interativo e passar horas uivando na
 - **Como higienizar corretamente os acessórios de borracha e tabuleiros?**
   Lave com água morna e sabão neutro após o uso, utilizando escovas finas para alcançar cantinhos onde restos de comida possam se acumular, evitando proliferação de bactérias.
 
+## Fontes e referências
+
+- [Separation Anxiety](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety) — ASPCA (EUA, fonte estrangeira).
+- [Feeding the Mind and Body: Interactive Feeders for Dogs and Cats](https://vcahospitals.com/know-your-pet/feeding-the-mind-and-body-interactive-feeders-for-dogs-and-cats) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Brain Games for Dogs: When Can a Puzzle Be the Solution?](https://www.akc.org/expert-advice/health/brain-games-dogs-can-puzzle-solution/) — American Kennel Club (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Investir em distrações inteligentes é uma forma carinhosa e eficiente de cuidar da saúde mental do seu cão enquanto você estiver fora. Com paciência, testes de texturas e muita observação, fica mais fácil descobrir quais opções funcionam melhor na rotina da sua casa. 

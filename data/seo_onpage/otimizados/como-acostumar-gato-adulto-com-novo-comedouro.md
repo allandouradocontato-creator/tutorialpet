@@ -144,6 +144,13 @@ Costuma ser muito benéfico, pois reduz a compressão no esôfago e poupa as art
 **Posso lavar o pote novo com detergente perfumado?**  
 Não. O olfato dos gatos é apuradíssimo e o cheiro residual de sabão cítrico ou floral no fundo da tigela causa repulsa imediata à comida. Use sempre sabão neutro e enxágue muito bem.
 
+## Fontes e referências
+
+- [Feeding your cat or kitten](https://icatcare.org/articles/feeding-your-cat-or-kitten) — International Cat Care (Reino Unido).
+- [How to Feed a Cat](https://catvets.com/wp-content/uploads/2025/02/FelineVMAHowtoFeedCat_BW.pdf) — AAFP (American Association of Feline Practitioners, Estados Unidos), 2025.
+- [Hepatic Lipidosis in Cats (Fatty Liver Syndrome in Cats)](https://vcahospitals.com/know-your-pet/liver-disease-fatty-liver-syndrome-in-cats) — VCA Animal Hospitals (Estados Unidos).
+- [Acne and Stud Tail](https://icatcare.org/articles/acne-and-stud-tail) — International Cat Care (Reino Unido).
+
 ## Para fechar
 
 Mudar os acessórios do seu gato não precisa ser um momento tenso. Quando você age com cautela, protege a rotina do felino e evita que ele passe por qualquer período perigoso de jejum. Vá com calma, use o reforço positivo e observe as reações corporais do seu amigo a cada etapa.

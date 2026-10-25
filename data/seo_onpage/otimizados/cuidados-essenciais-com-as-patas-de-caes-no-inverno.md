@@ -153,6 +153,14 @@ Sim. Cães mais velhos tendem a arrastar um pouco as patas traseiras e têm a pe
 
 ---
 
+## Fontes e referências
+
+- [CRMV-RS promove campanha sobre cuidados com os pets no frio](https://www.crmvrs.gov.br/noticia_detalhada.php?id_noticias=1575) — CRMV-RS (Brasil), 2022.
+- [Four strategies for cold weather paw protection](https://vcahospitals.com/resources/conditions-dog/skin-coat/four-strategies-for-cold-weather-paw-protection) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Walking Your Dog in a Winter Wonderland? Protect Your Pet's Paws with These Tips](https://www.aspca.org/news/walking-your-dog-winter-wonderland-protect-your-pets-paws-these-tips) — ASPCA (EUA, fonte estrangeira), 2014.
+- [Winter safety tips](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/winter-safety-tips) — Cornell University College of Veterinary Medicine (EUA, fonte estrangeira).
+- [Best Dog Boots for Any Weather](https://www.akc.org/expert-advice/lifestyle/dog-boots/) — American Kennel Club (EUA, fonte estrangeira), 2025.
+
 ## Para fechar
 
 Proteger as patas do seu companheiro no frio não exige sapatos desconfortáveis ou produtos caros. A chave está na regularidade: secar bem os dedos após as saídas, podar os pelos acumulados e manter as almofadinhas hidratadas com substâncias seguras.
