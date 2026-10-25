@@ -11,3 +11,4 @@
 2026-10-24 11:19 | blog 1/3 (plano do dia 297 = 3; corrigida paridade): promoveu 3 rascunhos livres | aguardando publicar_blog #40102086190 SUCCEEDED e 3 páginas 200 (n=1) | mantém
 2026-10-24 18:19Z | conferiu 19 rotinas/Zernio/Buffer/workflows/blog: tudo no plano, nada novo a corrigir | n/a | mantém
 2026-10-24 22:20Z | conferiu 19 rotinas/Zernio/Buffer/workflows/blog: dia 4/3 ok; 9 rascunhos livres sem autor/fonte não promovidos (AdSense); issues #10/#11 sem permissão para fechar | n/a (E102/E104 cobrem 25/10 08:00) | mantém
+2026-10-25 07:20 | blog 0/4 às 07:20 (cedo; E102/E104 vencem 08:00): sem promoção de rascunho sem fonte; 5 slugs sem capa em capas_refazer.txt (E103) | aguardando capas_coerentes SUCCEEDED e auditoria sem FALHA de capa (n=1) | mantém
