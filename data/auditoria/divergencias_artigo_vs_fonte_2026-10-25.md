@@ -41,3 +41,16 @@ Origem: agentes de fontes (nada foi reescrito; corrigir depois com revisão vete
 - arranhador: caneta laser não verificado.
 - plantas-toxicas-para-gatos: "Fontes" está DEPOIS de "Para fechar" (só ASPCA + home do CFMV); mover e acrescentar fontes brasileiras (USP, CFMV).
 - Fontes brasileiras bloqueadas por robots (UFMG, Unesp aula, SciELO): não usadas.
+
+## Lote 0
+- alimentos-proibidos: abacate/persina — ASPCA: risco maior em aves/coelhos/cavalos; UFRGS 2013: cães parecem mais resistentes; cebola e alho: gatos mais suscetíveis (cães também). Tem DUAS seções "Fontes e referências" (a antiga depois de "Para fechar"): fundir.
+- brinquedos-para-cachorro-sozinho: "mordedor de nylon" (VCA: evitar nylon, quebra dente); endorfina e "equivale a caminhada longa" sem fonte.
+- sair-na-rua: janela de socialização 6-16 semanas vs AVMA 3-14; vacinação ~4 meses confere (WSAVA).
+- banho: "a cada 3-4 semanas" vs VCA 6-8 semanas e ASPCA ~3 meses.
+- dentes: tártaro em 24-48 h vs WSAVA (placa 24 h, tártaro 3 dias); começar aos 2-3 meses sem fonte.
+- comedouro gato: plástico causa acne felina (ICC só diz que cerâmica/metal "podem ajudar"); elevado "muito benéfico" sem fonte.
+- caixa-de-transporte gato: prender com cinto só se a caixa passou em teste de colisão (Cat Friendly/AAFP), ou deixar no chão atrás do banco.
+- idoso: comedouros elevados no FAQ sem fonte.
+- coleira-ou-peitoral: "dois dedos de folga" sem fonte (não contradiz).
+- SEM SEÇÃO DE FONTES (precisam de busca): como-acostumar-o-cachorro-a-cortar-as-unhas; como-adaptar-a-casa-para-um-cachorro-idoso.
+- Observação: um arquivo (ansiedade-de-separacao-em-caes) teve a edição desfeita uma vez (provável efeito de git stash meu); conferir pela auditoria.
