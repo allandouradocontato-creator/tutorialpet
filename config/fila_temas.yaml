@@ -248,7 +248,8 @@ temas:
   data: '2026-10-24'
 - termo: como criar rotina de exercicios para caes braquicefalicos no calor
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-25'
 - termo: como ensinar filhote de gato a interagir com caes adultos
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -775,4 +776,10 @@ temas:
   status: pendente
 - termo: como ensinar filhote de cachorro a socializar com gatos
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como montar um espaco seguro na cozinha para caes e gatos curiosos
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como escolher a melhor racao super premium para caes adultos castrados
+  pilar: alimentacao
   status: pendente

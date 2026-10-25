@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Cuidados com cães braquicefálicos no calor",
+  "gancho_3s": "Seu cão de focinho achatado sofre muito no calor? Cuidado!",
+  "cenas": [
+    {
+      "narracao": "Cães como Pugs e Buldogues têm dificuldade para trocar calor por causa da anatomia.",
+      "visual_busca_banco_livre": "french bulldog panting close up",
+      "texto_na_tela": "Calor e focinho achatado"
+    },
+    {
+      "narracao": "Mude os horários dos passeios para antes das seis e meia da manhã ou após as vinte e uma horas.",
+      "visual_busca_banco_livre": "pug walking at night dark street",
+      "texto_na_tela": "Mude o horário do passeio"
+    },
+    {
+      "narracao": "Teste o asfalto com a mão. Se estiver quente para você, vai queimar as patas dele.",
+      "visual_busca_banco_livre": "dog paw close up asphalt",
+      "texto_na_tela": "Cuidado com o asfalto"
+    },
+    {
+      "narracao": "Substitua caminhadas longas por jogos de faro e caixas de papelão em casa.",
+      "visual_busca_banco_livre": "dog playing with cardboard box indoor",
+      "texto_na_tela": "Gasto de energia mental"
+    },
+    {
+      "narracao": "Fique atento a sinais como salivação excessiva e respiração muito acelerada.",
+      "visual_busca_banco_livre": "english bulldog heavy breathing close up",
+      "texto_na_tela": "Monitore os sinais"
+    },
+    {
+      "narracao": "Ao notar qualquer desconforto respiratório incomum, consulte um médico veterinário.",
+      "visual_busca_banco_livre": "pug resting on floor tired",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Adapte a rotina do seu pet e mantenha-o seguro nos dias quentes!",
+  "hashtags": [
+    "#pug",
+    "#buldoguete",
+    "#cachorro",
+    "#cuidadospet",
+    "#verao"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cão de focinho achatado sofre muito no calor? Cuidado!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor\n\n#pug #buldoguete #cachorro #cuidadospet #verao",
+  "slug": "como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor"
+}
