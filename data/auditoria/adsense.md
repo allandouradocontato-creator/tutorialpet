@@ -9,8 +9,8 @@
 | ads.txt com pub-id | PASSA |  |
 | robots.txt nao bloqueia Mediapartners/Google | PASSA |  |
 | sitemap.xml | PASSA |  |
-| volume >= 30 artigos | PASSA | 72 artigos |
-| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-24 (1 dias) |
+| volume >= 30 artigos | PASSA | 73 artigos |
+| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-25 (0 dias) |
 | sem buracos > 3 dias nos ultimos 30 dias | FALHA | buracos: [('2026-09-15', '2026-10-06')] |
 | artigos >= 900 palavras | PASSA | 0 curtos: [] |
 | estrutura com >= 3 subtitulos | PASSA | [] |
@@ -20,12 +20,13 @@
 | sem capa proibida (agressiva) | PASSA | [] |
 | todos com capa | FALHA | ['como-misturar-racao-seca-e-umida-para-cachorro-corretamente', 'como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos', 'como-tirar-cheiro-de-xixi-de-cachorro-do-quintal', 'como-escovar-pelo-de-gato-que-nao-gosta-de-escova', 'como-escolher-comedouro-duplo-elevado-para-gatos-idosos'] |
 | artigos de saude citam veterinario | PASSA | [] |
-| TODOS os artigos com secao Fontes e referencias (>=2 links) | PASSA | 0 sem fonte: [] |
+| TODOS os artigos com secao Fontes e referencias (>=2 links) | FALHA | 1 sem fonte: ['como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo'] |
 | sem texto de modelo visivel | PASSA |  |
 | autor nomeado (pessoa) nos artigos | PASSA | byline ainda 'Equipe Tutorial Pet' |
 | Sobre tem secao de equipe/autor | PASSA |  |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (2)
+## Corrigir (3)
 - **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
 - **todos com capa**: ['como-misturar-racao-seca-e-umida-para-cachorro-corretamente', 'como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos', 'como-tirar-cheiro-de-xixi-de-cachorro-do-quintal', 'como-escovar-pelo-de-gato-que-nao-gosta-de-escova', 'como-escolher-comedouro-duplo-elevado-para-gatos-idosos'] -> gerar capa
+- **TODOS os artigos com secao Fontes e referencias (>=2 links)**: 1 sem fonte: ['como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo'] -> pesquisar fontes reais e inserir antes do fechamento

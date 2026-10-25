@@ -1,12 +1,13 @@
-Dados até 2026-10-25 11:20 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
+Dados até 2026-10-25 15:20 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
+CORRIGI: 5 | PRECISO DO ALLAN: 0 | (itens abertos com dono nuvem: V10, V11)
 | rotina | estado | último run / idade | problema | correção |
 |---|---|---|---|---|
-| rotinas ativas (as desligadas são ordem do Allan: não religar) | ok | todas SUCCEEDED; nenhuma next_run vencida; Vigia atual PENDING (esta rodada) | - | nada |
-| Zernio FB/IG | atenção | último publicado 24/10 22:00Z (~13 h); 22 agendados | 2 em erro (xixi-quintal: FB 422, IG mídia) | V10 |
-| Buffer TikTok | atenção | último enviado 24/10 23:21Z (~12 h); 9 agendados | caixa-de-transporte 25/10 13:20Z em erro (mídia não pública) | V10 |
-| fabrica.yml | ok | verde 25/10 13:53Z (~0,5 h) | - | - |
-| publicar_blog.yml | FALHOU | falha 25/10 10:59Z (~3,5 h), verde anterior 24/10 14:20Z | índice de capa inexistente (comedouro-duplo); artigo saiu; issue #12 | V09 (Executor); sem token para fechar issues #10/#11/#12 |
-| blog (ritmo) | abaixo | 1/4 em 25/10 às 11:20 (dia 298 = 4) | 0 rascunhos com autor+fonte (regra AdSense 24/10); E102/E104 não entregues | linha em fabrica_disparo.txt (fábrica reescreve/gera); sem promover rascunho sem fonte |
-| AdSense | 2 FALHA | auditoria local 11:20 | 5 sem capa; buraco 15/09–06/10 (histórico) | capas_coerentes redisparada 11:20 (V11) |
-| Reprovados | pendência | guia-peitoral 3/3; escova-gato reprovado 25/10 (sem foto de gato) | sem página | V07 |
-Idade do último resultado: artigo no ar ~0,5 h (comedouro-duplo 11:07Z), fábrica ~0,5 h, publicar_blog ~3,5 h (falho), FB/IG ~13 h, TikTok ~12 h.
+| rotinas ativas (desligadas = ordem do Allan 22/10, não religar) | ok | todas SUCCEEDED; nenhuma next_run vencida; Vigia atual PENDING (esta rodada) | - | nada |
+| Zernio FB/IG | atenção | publicado IG hoje 15:04; 18 agendados | 2 em erro (meme "Quem mais?": imagem não achada, E97 já proíbe imagem) | V10 (Executor 26/10) |
+| Buffer TikTok | atenção | enviado 25/10 14:21; 8 agendados até 28/10 | caixa-de-transporte (25/10 10:20) em erro: video.mp4 da media = 404 | V10: rehook (rodada 3 verde 12:52) ainda não recriou o vídeo |
+| fabrica.yml | ok | verde 25/10 14:12 (~1 h) | - | - |
+| publicar_blog.yml | ok | verde 14:58 (run 56); falhas 10:59 e 11:35 ficaram para trás | passo "Publicar artigo" falhou 2x de manhã; artigos saíram | issues #10-#13 fechadas (run 56 verde) |
+| blog (ritmo) | ok (3/4) | 3 artigos no ar hoje (08:07, 11:38, 14:58); mínimo 3 cumprido | 4º do plano depende de rascunho com autor+fonte | próxima fábrica; sem promover rascunho sem fonte |
+| AdSense | 3 FALHA | auditoria 15:20 | 5 sem capa; 1 sem Fontes (fonte-de-agua-ideal); buraco 15/09–06/10 (histórico) | disparei capas_coerentes.yml e reforco_blog.yml (15:21) |
+Idade do último resultado: artigo ~0,5 h; fábrica ~1 h; publicar_blog ~0,5 h (verde); FB/IG ~0,3 h; TikTok ~1 h.
+Evidência a conferir na próxima rodada (E34): capas_coerentes/reforco_blog verdes e auditoria sem as 5 capas.
