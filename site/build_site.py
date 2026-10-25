@@ -161,6 +161,27 @@ def _load_videos_artigos() -> dict:
 VIDEOS_ARTIGOS = _load_videos_artigos()
 
 
+def _load_equipe() -> dict:
+    f = ROOT / "config" / "sites" / "equipe.json"
+    try:
+        return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+    except Exception:
+        return {}
+
+
+EQUIPE = _load_equipe()
+
+# 25/10/2026 (AdSense "conteudo de baixo valor"): os 72 artigos terminavam no mesmo H2 "Para fechar".
+# O titulo do fechamento passa a variar por artigo (escolha estavel pelo slug); o texto do fechamento nao muda.
+FECHOS = ["Para fechar", "O que levar daqui", "Resumo para guardar", "Próximo passo"]
+
+
+def _variar_fecho(body: str, slug: str) -> str:
+    import re as _r, zlib
+    novo = FECHOS[zlib.crc32(slug.encode("utf-8")) % len(FECHOS)]
+    return _r.sub(r"^## Para fechar\s*$", f"## {novo}", body, count=1, flags=_r.M)
+
+
 def load_agent07_markdown_converter():
     """Importa agents/07_publisher/agent.py só para reaproveitar markdown_to_html_body —
     não instancia nem chama nada que dependa do gate de aprovação do agente 07."""
@@ -271,8 +292,22 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
         '{"@type": "Organization", "name": "Tutorial Pet"}')
 
     autor = (fm.get("autor") or "").strip()
-    byline = (f'<p class="byline">Por {html_lib.escape(autor)}</p>' if autor
-              else (f'<p class="byline">Por {html_lib.escape((fm.get("assinatura") or "Equipe Tutorial Pet").strip())}</p>'))
+    _ed = (EQUIPE.get("editor") or {})
+    if autor:
+        byline = f'<p class="byline">Por {html_lib.escape(autor)}</p>'
+    elif _ed.get("nome"):
+        byline = (f'<p class="byline">Por <a href="{html_lib.escape(_ed.get("pagina", "/sobre#equipe"))}" rel="author">'
+                  f'{html_lib.escape(_ed["nome"])}</a>, {html_lib.escape(_ed.get("funcao", "editor responsável")).lower()}</p>')
+    else:
+        byline = f'<p class="byline">Por {html_lib.escape((fm.get("assinatura") or "Equipe Tutorial Pet").strip())}</p>'
+    _rev = EQUIPE.get("revisora_veterinaria")
+    if isinstance(_rev, dict) and _rev.get("nome") and slug in (EQUIPE.get("artigos_revisados") or []):
+        byline = byline.replace("</p>", f' · Revisão veterinária: {html_lib.escape(_rev["nome"])}'
+                                + (f' ({html_lib.escape(_rev["crmv"])})' if _rev.get("crmv") else "") + "</p>", 1)
+    if _ed.get("nome"):  # dados estruturados: autor pessoa real em vez de "Equipe Tutorial Pet"
+        jsonld_scripts = jsonld_scripts.replace(
+            '{"@type": "Organization", "name": "Equipe Tutorial Pet"}',
+            json.dumps({"@type": "Person", "name": _ed["nome"], "url": dominio + "/sobre#equipe"}, ensure_ascii=False))
 
     pub, atu = _data_br(_data_iso(fm)), _data_br(fm.get("atualizado_em") or "")
     if pub:
@@ -318,14 +353,14 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                       f'<span class="celeb-pet">e {html_lib.escape(str(fm.get("pet_nome", "o pet")))}, {html_lib.escape(str(fm.get("pet_raca", "seu melhor amigo")))}</span></div>')
 
     video_html = ""
-    video_url = fm.get("video_url") or VIDEOS_ARTIGOS.get(slug)
+    video_url = fm.get("video_url") or (f"/videos/{slug}.mp4" if (BUILD_DIR / "videos" / f"{slug}.mp4").exists() else None) or VIDEOS_ARTIGOS.get(slug)
     if video_url:
         poster = f' poster="/{imagem_capa}"' if imagem_capa else ""
         video_html = (f'<figure class="article-video"><video controls playsinline preload="none"{poster} '
                       f'src="{html_lib.escape(video_url)}" style="width:100%;max-width:420px;display:block;margin:12px auto"></video>'
                       f'<figcaption style="text-align:center;font-size:.9rem">Veja em vídeo (30 segundos)</figcaption></figure>')
 
-    body_html = md_to_html(body)
+    body_html = md_to_html(_variar_fecho(body, slug))
     # Imagens no meio do artigo (Allan, 22/10/2026): front-matter imagens_corpo: [{arquivo, alt, fotografo, fonte_url}]
     _ic = [x for x in (fm.get("imagens_corpo") or []) if isinstance(x, dict) and x.get("arquivo")]
     if _ic:
@@ -342,6 +377,13 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                     f'<figcaption>{html_lib.escape(str(_x.get("alt", "")))}.{_cred}</figcaption></figure>')
             body_html = body_html[:_p_] + _fig + body_html[_p_:]
     produto_faixa = render_produto_topo(load_produto_destaque(fm))
+    _ed2 = (EQUIPE.get("editor") or {})
+    _atu = _data_br(fm.get("atualizado_em") or "") or _data_br(_data_iso(fm))
+    transparencia = ('<aside class="transparencia" style="margin:24px 0;padding:14px 16px;border-left:4px solid #f97316;background:#fff7ed;font-size:.92rem">'
+                     '<strong>Como este guia foi feito.</strong> Escrito a partir das dúvidas reais dos tutores, com apoio de inteligência artificial e '
+                     f'sob responsabilidade editorial de <a href="/sobre#equipe">{html_lib.escape(_ed2.get("nome", "Equipe Tutorial Pet"))}</a>. '
+                     f'Última atualização: {_atu}. Este conteúdo é informativo e não substitui a consulta com um médico-veterinário. '
+                     'Viu algum erro? <a href="/contato">Avise a gente</a>.</aside>')
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
            f'<a class="btn" href="/#{pilar_key}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
@@ -355,6 +397,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {extras_artista}
 {video_html}
 {body_html}
+{transparencia}
 {produto_faixa}
 {cta}
 {render_redes("Gostou? Siga o Tutorial Pet e receba um vídeo novo por dia")}
@@ -368,6 +411,7 @@ def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, 
     dominio = site["dominio"].rstrip("/")
     canonical = f"{dominio}/{slug}"
     body_html = md_to_html(body)
+    body_html = body_html.replace("<h2>Quem escreve e responde pelo conteúdo</h2>", '<h2 id="equipe">Quem escreve e responde pelo conteúdo</h2>')
     main = f"""{render_header(site["nome"], pilares)}
 <main class="legal">
 {body_html}
@@ -496,7 +540,7 @@ def _tv_lista(artigos_por_pilar: dict) -> list[dict]:
         fm = por_slug.get(it["slug"])
         if fm:
             saida.append({"slug": it["slug"], "titulo": fm["titulo"], "capa": fm.get("imagem_capa") or "",
-                          "video": f'{RAW_MEDIA}/{it["slug"]}/video.mp4', "data": _data_br(_data_iso(fm))})
+                          "video": (f'/videos/{it["slug"]}.mp4' if (BUILD_DIR / "videos" / f'{it["slug"]}.mp4').exists() else f'{RAW_MEDIA}/{it["slug"]}/video.mp4'), "data": _data_br(_data_iso(fm))})
     return saida
 
 
@@ -650,6 +694,18 @@ def run(site_id: str) -> dict:
         artigos.append((fm, body, structured_data))
 
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
+
+    # 25/10/2026: os video.mp4 da branch media somem com o tempo e a TV/artigos ficavam com video morto.
+    # Copia para o proprio site (Cloudflare Pages, limite 25 MB por arquivo) os videos de artigos que ja estao no ar.
+    import os as _os
+    _media = Path(_os.environ.get("TV_MEDIA_DIR", "/tmp/media")) / "pacotes"
+    if _media.exists():
+        (BUILD_DIR / "videos").mkdir(exist_ok=True)
+        for _fm, _b, _sd in artigos:
+            _v = _media / _fm["slug"] / "video.mp4"
+            _d = BUILD_DIR / "videos" / f'{_fm["slug"]}.mp4'
+            if _v.exists() and not _d.exists() and _v.stat().st_size <= 24 * 1024 * 1024:
+                _d.write_bytes(_v.read_bytes())
 
     artigos_por_pilar: dict[str, list[dict]] = {}
     for fm, body, structured_data in artigos:

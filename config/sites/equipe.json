@@ -1,0 +1,6 @@
+{
+  "editor": {"nome": "Allan Dourado", "funcao": "Editor responsável", "pagina": "/sobre#equipe"},
+  "revisora_veterinaria": null,
+  "_como_preencher_revisora": "Quando a veterinária for confirmada, troque null por {\"nome\": \"Nome Completo\", \"crmv\": \"CRMV-CE 0000\"} e liste em artigos_revisados APENAS os slugs que ela de fato revisou; o selo só aparece nesses artigos.",
+  "artigos_revisados": []
+}

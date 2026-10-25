@@ -4,42 +4,38 @@ slug: sobre
 tipo: pagina_legal
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-17T12:07:21+00:00'
+atualizado_em: '2026-10-25'
 gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---
 
 # Sobre o Tutorial Pet
 
-O **Tutorial Pet** nasceu para ajudar tutores de primeira viagem a atravessar a fase mais
-incerta de ter um cão ou gato: aquela em que tudo é novo e cada dúvida parece grande
-demais para perguntar. Aqui, tratamos cada assunto com um tom caloroso, prático, acolhedor, não-técnico, honesto — como uma conversa
-entre amigos, não uma aula técnica.
+O **Tutorial Pet** é um blog e um canal de vídeos curtos para tutores de cachorro e gato que estão começando e não sabem a quem perguntar. Cada guia nasce de uma dúvida real que os tutores pesquisam (o que fazer, por que acontece, quando é normal e quando procurar o veterinário) e termina em passos que você aplica no mesmo dia.
 
-## O que você encontra por aqui
+## Como fazemos os guias
 
-- Explica o porquê de cada recomendação com linguagem simples
-- Compartilha situações do dia a dia e erros comuns de iniciantes
-- Dá passos concretos e checklists que o leitor aplica hoje
-- Diz com clareza quando o assunto exige avaliação de um médico-veterinário
+- **Começamos pelas perguntas.** Antes de escrever, listamos as dúvidas que as pessoas realmente fazem sobre o assunto e montamos o guia para respondê-las.
+- **Citamos as fontes.** Dados e recomendações trazem a fonte no final do guia, na seção "Fontes e referências", para você conferir.
+- **Usamos inteligência artificial como apoio.** Os textos são produzidos com ferramentas de IA, passam por verificação automática de qualidade e de fontes e ficam sob a responsabilidade editorial de Allan Dourado. As imagens são de bancos gratuitos (com crédito ao fotógrafo) ou geradas por IA, e dizemos quando for o caso. A apresentadora dos nossos vídeos, a Duda, é uma personagem criada por IA.
+- **Corrigimos o que estiver errado.** Se encontrar um erro, escreva para nós e atualizamos o guia, com a data da atualização.
 
-## O que você não vai encontrar por aqui
+## O que o Tutorial Pet não faz
 
-- Não alega ser veterinário, adestrador certificado ou ter qualquer credencial profissional
-- Não prescreve medicamentos, doses ou tratamentos
-- Não inventa estudos, estatísticas, depoimentos ou experiências pessoais
-- Não usa alarmismo nem culpa o tutor
+- Não substitui o médico-veterinário. Em sintomas, dor, mudança brusca de comportamento ou dúvida sobre saúde, procure um profissional.
+- Não receita medicamentos, doses nem tratamentos.
+- Não inventa estudos, números ou depoimentos.
 
-> Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.
+## Quem escreve e responde pelo conteúdo
+
+**Allan Dourado** é o editor responsável pelo Tutorial Pet. Ele define os temas, as regras de qualidade e responde pelo que é publicado. Contato direto na página de [Contato](/contato).
+
+A revisão veterinária está sendo estruturada. Quando um guia for revisado por médica-veterinária, o nome e o registro profissional (CRMV) dela aparecerão no topo daquele guia. Guias sem esse selo não passaram por revisão veterinária.
 
 ## Quem está por trás do site
 
-**Dourado Falcão Educação Corporativa LTDA** (CNPJ 65.211.970/0001-81) é a empresa responsável e o ponto de contato oficial do
-**Tutorial Pet**.
-
-O conteúdo é produzido em equipe, com colaboração editorial de **Rosana Cardoso** e
-**Mariah Maitre**.
+**Dourado Falcão Educação Corporativa LTDA** (CNPJ 65.211.970/0001-81), de Fortaleza, Ceará, é a empresa responsável pelo **Tutorial Pet**.
 
 ## Fale com a gente
 
-Tem uma dúvida, sugestão de pauta ou encontrou algo que precisa de correção? Visite a
-nossa página de [Contato](/contato).
+Dúvida, sugestão de pauta ou correção: use a página de [Contato](/contato). Também estamos no Instagram, no TikTok e no Facebook, sempre como @tutorialpetbr.

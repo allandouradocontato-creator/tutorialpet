@@ -194,7 +194,7 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - REPROVADO | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] link interno para página inexistente: pode-dar-sache-para-gato-todos-os-os-dias
+    - [bloqueante] link interno para página inexistente: pode-dar-sache-para-gato-todos-os-dias
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | vacinas-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)

@@ -62,8 +62,16 @@ ck("todos com capa", not sem_img, f"{sem_img[:5]}", "gerar capa")
 saude = [s for s in art if re.search(r"vacin|doenc|veterin|toxic|alimentos-proibidos|obesidade|peso|dentes|cio|castra|vermif", s)]
 sem_aviso = [s for s in saude if not re.search(r"veterin", txt(art[s]), re.I)]
 ck("artigos de saude citam veterinario", not sem_aviso, f"{sem_aviso[:6]}", "aviso e fonte (YMYL)")
-sem_fonte = [s for s in saude if not re.search(r"fonte|segundo|(conselho|CFMV|AVMA|WSAVA|MAPA)", txt(art[s]))]
-ck("artigos de saude com fonte citada", not sem_fonte, f"{len(sem_fonte)} sem fonte: {sem_fonte[:4]}", "citar fonte confiavel")
+# 25/10/2026: o teste antigo passava com a palavra "segundo" (falso PASSA: so 3/72 artigos tinham fontes e o AdSense reprovou).
+# Agora exige a secao "Fontes e referencias" com >= 2 links externos em TODOS os artigos.
+def _tem_fontes(h):
+    m = re.search(r"Fontes e refer.ncias(.*?)(?:<h2|</main>)", h, re.S)
+    return bool(m) and len(re.findall(r'href="https?://(?!tutorialpet)', m.group(1))) >= 2
+sem_fonte = [s for s in art if not _tem_fontes(art[s])]
+ck("TODOS os artigos com secao Fontes e referencias (>=2 links)", not sem_fonte, f"{len(sem_fonte)} sem fonte: {sem_fonte[:4]}", "pesquisar fontes reais e inserir antes do fechamento")
+ck("sem texto de modelo visivel", not [f.name for f in B.glob("*.html") if re.search(r"PREENCHER|Nota para revis|lorem ipsum|\{\{", txt(f.read_text(encoding="utf-8")), re.I)], "", "remover nota/modelo")
+ck("autor nomeado (pessoa) nos artigos", not [s for s, h in art.items() if re.search(r'class="byline">\s*Por\s+Equipe', h)], "byline ainda 'Equipe Tutorial Pet'", "config/sites/equipe.json")
+ck("Sobre tem secao de equipe/autor", 'id="equipe"' in (B / "sobre.html").read_text(encoding="utf-8"), "", "adicionar quem escreve e responde")
 # 6 privacidade
 pv = (B / "politica-de-privacidade.html").read_text(encoding="utf-8") if (B / "politica-de-privacidade.html").exists() else ""
 ck("privacidade cita Google/AdSense e cookies", bool(re.search(r"AdSense|Google", pv)) and "cookie" in pv.lower(), "", "acrescentar secao de anuncios e cookies (exigencia do AdSense)")
