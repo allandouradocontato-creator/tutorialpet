@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 40289458,
+    "url_download": "https://images.pexels.com/photos/40289458/pexels-photo-40289458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-kitten-and-dog-cuddling-indoors-40289458/",
+    "fotografo": "Melisa Umul",
+    "fotografo_url": "https://www.pexels.com/@melisa-umul-2164892462",
+    "largura": 5328,
+    "altura": 4000,
+    "query": "kitten and dog friendly indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34321185,
+    "url_download": "https://images.pexels.com/photos/34321185/pexels-photo-34321185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-ginger-kitten-resting-by-a-sunny-window-34321185/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "kitten and dog friendly indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34071784,
+    "url_download": "https://images.pexels.com/photos/34071784/pexels-photo-34071784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-kitten-and-dog-interaction-on-sofa-34071784/",
+    "fotografo": "Valentin Cvetanoski",
+    "fotografo_url": "https://www.pexels.com/@valentin-cvetanoski-2147958923",
+    "largura": 5997,
+    "altura": 3998,
+    "query": "kitten and dog friendly indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9952105,
+    "url_download": "https://images.pexels.com/photos/9952105/pexels-photo-9952105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-cat-and-dog-9952105/",
+    "fotografo": "Foden Nguyen",
+    "fotografo_url": "https://www.pexels.com/@foden-nguyen-81016607",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "kitten and dog friendly indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34418152,
+    "url_download": "https://images.pexels.com/photos/34418152/pexels-photo-34418152.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cozy-outdoor-setting-with-dogs-and-camping-gear-34418152/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "kitten and dog friendly indoor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 135033,
+    "url_download": "https://images.pexels.com/photos/135033/pexels-photo-135033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/silver-tabby-cat-135033/",
+    "fotografo": "ni san",
+    "fotografo_url": "https://www.pexels.com/@ni-san-37865",
+    "largura": 1920,
+    "altura": 1280,
+    "query": "cute kitten and large dog together",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/5.jpg"
+  }
+]
