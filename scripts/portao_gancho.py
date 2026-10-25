@@ -20,8 +20,31 @@ ABERTURAS = [
     (r"aquele momento em que", 'abertura banida "Aquele momento em que"'),
     (r"para de ignorar", 'abertura banida "Para de ignorar"'),
     (r"para de\b", 'imperativo de bronca "Para de ..."'),
+    (r"voc[êe] sabia", 'abertura banida "Você sabia" (diagnóstico 25/10/2026: pior retenção)'),
+    (r"sabia que\b", 'abertura banida "Sabia que ..." (mesmo molde do "Você sabia")'),
 ]
+MAX_PALAVRAS_TELA = 6  # texto de dor no frame 0 (diagnóstico 25/10/2026)
 PALAVRA_CAO = re.compile(r"\bc[ãa]o(?:zinho)?s?\b".replace("[ãa]", "ã"), re.IGNORECASE)
+
+
+def _tela0(slug: str) -> str | None:
+    f = ROTEIROS / f"{slug}.json"
+    if not f.exists():
+        return None
+    cenas = json.loads(f.read_text(encoding="utf-8")).get("cenas") or []
+    return str((cenas[0] or {}).get("texto_na_tela") or "") if cenas else None
+
+
+def avaliar_tela0(texto: str | None) -> tuple[bool, str]:
+    """Texto de dor no frame 0: obrigatório, até 6 palavras, sem abertura banida."""
+    t = (texto or "").strip()
+    if not t:
+        return False, "sem texto de dor na tela no frame 0"
+    n = len(t.split())
+    if n > MAX_PALAVRAS_TELA:
+        return False, f"texto do frame 0 com {n} palavras (máx. {MAX_PALAVRAS_TELA})"
+    ok, motivo = avaliar(t)
+    return (ok, f"texto do frame 0: {motivo}" if not ok else "")
 
 
 def _gancho(slug: str) -> str | None:
@@ -51,7 +74,13 @@ def verificar(slug: str) -> tuple[bool, str]:
         return True, "roteiro não encontrado; portão não aplicado"
     if not g:
         return True, "sem gancho_3s; portão não aplicado"
-    return avaliar(g)
+    ok, motivo = avaliar(g)
+    if not ok:
+        return ok, motivo
+    try:
+        return avaliar_tela0(_tela0(slug))
+    except Exception as e:
+        return True, f"cenas ilegíveis ({e}); frame 0 não verificado"
 
 
 def listar_slugs() -> list[str]:

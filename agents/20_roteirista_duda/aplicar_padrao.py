@@ -125,7 +125,8 @@ def main() -> int:
             "No máximo UM [excited] no vídeo inteiro, e NUNCA no gancho (só perto do fim); o gancho NÃO promete resultado, prazo nem cura de saúde; sem risadas; sem tom triste ou dramático. Use as tags com economia (1 por trecho).\n"
             + (f"A versão anterior foi recusada: {falha}. Corrija.\n" if falha else "")
             + f"\nROTEIRO:\n{json.dumps(base, ensure_ascii=False)}\n\n"
-            'Responda SÓ com JSON: {"gancho_3s": "...", "cenas": ["narração da cena 1", ...], "chamada_final": "..."}')
+            'TEXTO DE DOR NA TELA (frame 0): "texto_dor", a dor do tutor em NO MÁXIMO 6 palavras, como pergunta direta sobre o pet do tema (ex.: "Seu gato destrói o sofá?"). Nunca comece com "Você sabia", "Sabia que", "Esse erro", "Aquele momento" nem "Para de".\n'
+            'Responda SÓ com JSON: {"gancho_3s": "...", "texto_dor": "...", "cenas": ["narração da cena 1", ...], "chamada_final": "..."}')
         try:
             bruto = gerar_texto(prompt, sistema="Você escreve falas curtas, calorosas e honestas em pt-BR. Responde só JSON.",
                                 temperatura=0.7, max_tokens=1500)
@@ -134,6 +135,7 @@ def main() -> int:
                 raise ValueError("número de cenas diferente")
             cand = json.loads(json.dumps(r))
             cand["gancho_3s"] = novo["gancho_3s"].strip()
+            cand["_texto_dor"] = re.sub(r"\s+", " ", str(novo.get("texto_dor") or "")).strip()
             cand["chamada_final"] = novo["chamada_final"].strip()
             for c, n in zip(cand["cenas"], novo["cenas"]):
                 c["narracao"] = str(n).strip()
@@ -141,6 +143,13 @@ def main() -> int:
             falha = f"{type(e).__name__}: {e}"
             continue
         erros = validar(cand, d, g)
+        try:
+            from scripts.portao_gancho import avaliar_tela0
+            _ok0, _m0 = avaliar_tela0(cand.get("_texto_dor"))
+            if not _ok0:
+                erros = list(erros) + [_m0]
+        except ImportError:
+            pass
         if not erros:
             # o gancho precisa ser FALADO (cena 0) e aparecer na tela sem as tags de emoção
             gancho_tela = re.sub(r"\s+", " ", re.sub(r"\[[^\]]*\]", "", cand["gancho_3s"])).strip()
@@ -148,7 +157,7 @@ def main() -> int:
             animal = "kitten" if re.search(r"\b(cat|kitten|gato)", primeira) else "puppy"
             cand["cenas"].insert(0, {"narracao": cand["gancho_3s"],
                                      "visual_busca_banco_livre": f"cute {animal} looking at camera",  # distinta da cena 1
-                                     "texto_na_tela": gancho_tela})
+                                     "texto_na_tela": cand.pop("_texto_dor", None) or gancho_tela})
             cand["molde_gancho"] = molde["id"]
             cand["cta_indice"] = cta_idx
             cand["gancho_3s"] = gancho_tela
