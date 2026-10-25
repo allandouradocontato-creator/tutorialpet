@@ -107,6 +107,13 @@ Sim, a polpa da manga é segura, desde que você remova totalmente o caroço gra
 **O que fazer se o cachorro recusar a fruta?**
 Não force. Cada cão tem seu paladar próprio, e está tudo bem se ele preferir continuar apenas com a rotina normal de comidinhas.
 
+## Fontes e referências
+
+- [Fruits and Vegetables Dogs Can or Can't Eat](https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/) — American Kennel Club (EUA, fonte estrangeira).
+- [Feeding Practices in Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/feeding-practices-in-small-animals) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (EUA, fonte estrangeira).
+- [Chocolate não é bom pra cachorro!](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/) — CFMV, 2021 (lista uva, abacate, alho, cebola e sementes entre os alimentos a evitar).
+
 ## Para fecher
 
 Cuidar da hidratação e do bem-estar do nosso peludo nos dias quentes não precisa ser um bicho de sete cabeças. Com pequenas precauções, como retirar sementes e controlar as quantidades, você consegue transformar um lanche simples em um momento de carinho e alívio para o calor. 

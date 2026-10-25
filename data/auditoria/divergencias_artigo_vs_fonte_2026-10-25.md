@@ -54,3 +54,13 @@ Origem: agentes de fontes (nada foi reescrito; corrigir depois com revisão vete
 - coleira-ou-peitoral: "dois dedos de folga" sem fonte (não contradiz).
 - SEM SEÇÃO DE FONTES (precisam de busca): como-acostumar-o-cachorro-a-cortar-as-unhas; como-adaptar-a-casa-para-um-cachorro-idoso.
 - Observação: um arquivo (ansiedade-de-separacao-em-caes) teve a edição desfeita uma vez (provável efeito de git stash meu); conferir pela auditoria.
+
+## Lote 2
+- obesidade em gatos castrados: "castração reduz metabolismo ~20%" — Wei et al. 2014 (9 machos) não achou queda do gasto; ganho veio da ingestão (~20% do peso em 6 meses); controlar comida logo após castrar.
+- bola de pelo: "vômito > 1-2x/mês indica problema" vs Cornell (1 bola a cada 1-2 semanas é comum); "escovação retira 80% do pelo" sem fonte.
+- choque térmico: "acima de 40 graus" ~ coerente (VCA/AMC ~41 °C; MVMA 40,5 °C); "tosa rente causa câncer de pele" sem fonte.
+- filhote chora à noite: RSPCA Qld orienta não ir até o filhote; texto sugere esperar e checar (próximo da Agria).
+- filhote parar de morder: ERRO corrigido em 25/10 ("o colega mia" virou "solta um ganido"); pausas de 30-60 s (ASPCA) vs "alguns minutos".
+- caldo de ossos: porções em colheres e vinagre de maçã sem fonte (Vetstreet: sem dose universal; 1 colher de chá para pequeno).
+- Com 2 fontes (acrescentar 3ª, de preferência brasileira): escovar pelo de gato; gato parar de arranhar sofá.
+- Fontes secundárias/fracas: drbicuspid.com (xilitol), vetstreet (patrocinado), whole-dog-journal, agriapet.

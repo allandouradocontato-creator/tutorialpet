@@ -66,7 +66,7 @@ Os cães pequenos exploram o mundo através da boca. Assim como as crianças hum
 
 ## Por que o filhote morde tanto?
 
-Entender a fisiologia e o comportamento canino ajuda a evitar frustrações. Na ninhada, os irmãos aprendem limites através da interação: quando um morde o outro forte demais, o colega mia e interrompe a brincadeira. É assim que o cão entende a força da própria mordida. 
+Entender a fisiologia e o comportamento canino ajuda a evitar frustrações. Na ninhada, os irmãos aprendem limites através da interação: quando um morde o outro forte demais, o colega solta um ganido e interrompe a brincadeira. É assim que o cão entende a força da própria mordida. 
 
 Quando chegam à nova casa, os animais precisam transferir esse aprendizado para os humanos. Muitas vezes, a nossa reação — gritar, puxar a mão rapidamente ou rir — faz com que o cão entenda a situação como um jogo divertido. Para evitar que isso vire um hábito permanente, vale a pena conferir dicas sobre os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) e organizar o ambiente com os acessórios certos descritos no guia de [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro).
 

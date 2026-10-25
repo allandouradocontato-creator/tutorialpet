@@ -157,6 +157,14 @@ Sim, desde que já estejam comendo ração seca sem dificuldades e em pedaços b
 
 ---
 
+## Fontes e referências
+
+- [Fruits and Vegetables Dogs Can or Can't Eat](https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/) — American Kennel Club (EUA, fonte estrangeira).
+- [Feeding Practices in Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/feeding-practices-in-small-animals) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (EUA, fonte estrangeira).
+- [Kitchen Toxins To Pets](https://www.petpoisonhelpline.com/pet-owners/poison-proof-your-home/kitchen/) — Pet Poison Helpline (EUA, fonte estrangeira).
+- [Chocolate não é bom pra cachorro!](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/) — CFMV, 2021.
+
 ## Para fechar
 
 Oferecer legumes cozidos e sem tempero é uma das maneiras mais carinhosas e econômicas de mimar o seu companheiro sem recorrer a petiscos ultraprocessados cheios de corantes. Com um pouco de paciência e observação, você descobre rapidinho qual é o vegetal favorito do seu pet.

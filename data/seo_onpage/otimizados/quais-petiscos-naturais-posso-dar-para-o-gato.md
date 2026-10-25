@@ -170,6 +170,14 @@ Suspenda o agrado imediatamente, volte a oferecer somente a ração de rotina, g
 
 ---
 
+## Fontes e referências
+
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (EUA, fonte estrangeira).
+- [Common Cat Poisons and Hazards](https://www.petpoisonhelpline.com/uncategorized/common-cat-poisons-and-hazards/) — Pet Poison Helpline (EUA, fonte estrangeira).
+- [Cat Treats](https://vcahospitals.com/know-your-pet/cat-treats) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Proper Nutrition for Cats](https://www.merckvetmanual.com/cat-owners/selecting-and-providing-a-home-for-a-cat/proper-nutrition-for-cats) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [Taurine in Cats](https://vcahospitals.com/know-your-pet/taurine-in-cats) — VCA Animal Hospitals (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Oferecer petiscos naturais é uma forma deliciosa de enriquecer a rotina do seu felino com segurança, saúde e muita conexão. Basta manter os temperos longe da panela, controlar as porções com atenção e respeitar a natureza carnívora da espécie.

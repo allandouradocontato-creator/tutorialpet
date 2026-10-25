@@ -130,6 +130,14 @@ Morder faz parte da exploração e da troca de dentição. Direcione as mordidas
 **Quando poderei levar o filhote para passear na rua pela primeira vez?**
 Somente após a liberação do médico-veterinário, que avalia o término do protocolo de proteção.
 
+## Fontes e referências
+
+- [Puppy Care](https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/puppy-care) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [Table: Feeding Schedule for Puppies](https://www.merckvetmanual.com/multimedia/table/feeding-schedule-for-puppies) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [2024 Guidelines for the Vaccination of Dogs and Cats](https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf) — WSAVA, 2024 (internacional, fonte estrangeira).
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (EUA, fonte estrangeira).
+- [When To Switch Puppy To Adult Food](https://vcahospitals.com/pediatric/puppy/nutrition/when-to-switch-puppy-to-adult-food) — VCA Animal Hospitals (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Os primeiros dias do filhote em casa exigem paciência, dedicação e muito carinho. Cada pequeno progresso na adaptação fortalece o vínculo entre você e seu novo amigo de quatro patas. Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o universo pet e preparar sua casa para todas as fases da vida do seu companheiro.
