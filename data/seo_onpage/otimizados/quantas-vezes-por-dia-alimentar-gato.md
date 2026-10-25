@@ -121,6 +121,12 @@ Muitas vezes o gato mia por tédio, ansiedade ou porque aprendeu que o miado res
 **O horário das refeições faz diferença para o gato?**
 Sim. Os felinos adoram rotina e previsibilidade. Horários fixos ajudam a reduzir a ansiedade e organizam o metabolismo do animal.
 
+## Fontes e referências
+
+- [How Often Should You Feed Your Cat?](https://vet.cornell.edu/departments/cornell-feline-health-center/health-information/feline-health-topics/how-often-should-you-feed-your-cat) — Cornell Feline Health Center (EUA, fonte estrangeira).
+- [Proper Nutrition for Cats](https://www.merckvetmanual.com/cat-owners/selecting-and-providing-a-home-for-a-cat/proper-nutrition-for-cats) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [Manejo nutricional de cães e gatos](https://www.fcav.unesp.br/Home/departamentos/clinicacv/AULUSCAVALIERICARCIOFI/manejo-alimentar-caes-e-gatos.pdf) — Prof. Aulus Cavalieri Carciofi, FCAV/UNESP.
+
 ## Para fechar
 
 Alimentar um gato vai muito além de apenas despejar ração em um recipiente. Compreender a natureza caçadora e o tamanho reduzido do estômago felino transforma a hora da refeição em um momento de cuidado, carinho e preservação da saúde a longo prazo.

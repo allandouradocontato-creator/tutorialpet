@@ -135,6 +135,8 @@ Convidamos você a continuar explorando os conteúdos do nosso blog para descobr
 
 ## Fontes e referências
 
+- [2024 Guidelines for the Vaccination of Dogs and Cats](https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf) — WSAVA, 2024 (fonte estrangeira).
+
 Segundo as orientações de entidades veterinárias, este conteúdo é informativo e não substitui a consulta ao médico-veterinário. Referências:
 
 - [WSAVA: Diretrizes globais de vacinação para cães e gatos](https://wsava.org/global-guidelines/vaccination-guidelines/)

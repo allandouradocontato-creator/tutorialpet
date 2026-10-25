@@ -112,6 +112,11 @@ Não necessariamente. Banhos frequentes ressecam a pele sensível; prefira a hig
 * **O que fazer se o cachorro idoso começar a fazer xixi pela casa?**
 Isso pode indicar infecção urinária, disfunção cognitiva (Alzheimer canino) ou perda de controle esfincteriano. Leve o pet ao veterinário para um diagnóstico preciso e evite dar broncas.
 
+## Fontes e referências
+
+- [Senior-proof your home](https://www.banfield.com/Senior-hub/care-for-older-pets/senior-proof-your-home) — Banfield Pet Hospital (fonte estrangeira): pisos antiderrapantes, rampas, cama ortopédica e comedouros elevados.
+- [Behavior problems in older dogs](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/behavior-problems-older-dogs) — ASPCA (fonte estrangeira): xixi fora do lugar, disfunção cognitiva, perda de visão e artrite.
+
 ## Para fechar
 
 Adaptar a casa para um cachorro idoso é um ato de amor e gratidão por toda a lealdade que ele dedicou ao longo da vida. Pequenas mudanças na disposição dos móveis, pisos antiderrapantes e camas confortáveis devolvem a autonomia e a dignidade ao seu companheiro de quatro patas. Continue navegando pelo nosso blog para encontrar mais dicas valiosas sobre o universo pet e o cuidado em todas as fases da vida dos animais.

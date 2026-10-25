@@ -131,6 +131,13 @@ Exemplo prático: recheie um brinquedo interativo com ração úmida e leve ao c
 * **Qual é o erro mais grave ao deixar o filhote sozinho?**  
   Deixá-lo solto pela casa inteira sem adaptação prévia, expondo o animal a riscos de acidentes e ingestão de materiais inadequados.
 
+## Fontes e referências
+
+- [Home alone: preventing separation anxiety](https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/home-alone-preventing-separation-anxiety) — PDSA (Reino Unido, fonte estrangeira).
+- [Separation Anxiety in Dogs](https://www.rspca.org.uk/adviceandwelfare/pets/dogs/behaviour/separationrelatedbehaviour) — RSPCA (Reino Unido, fonte estrangeira).
+- [Síndrome de ansiedade de separação em cães](https://lume.ufrgs.br/handle/10183/106627) — Universidade Federal do Rio Grande do Sul (UFRGS), 2014.
+- [Puppy Care](https://www.merckvetmanual.com/dog-owners/routine-care-of-dogs/puppy-care) — Merck Veterinary Manual (EUA, fonte estrangeira).
+
 ## Para fechar
 
 Saber quanto tempo um cachorro pode ficar sozinho é uma questão de observar os limites físicos e emocionais do seu companheiro de quatro patas. Com planejamento, enriquecimento ambiental e respeito à rotina, é possível manter a harmonia no lar e garantir o bem-estar do pet. Lembre-se de que cada animal é único e, diante de qualquer dúvida comportamental ou de saúde, o médico-veterinário é o melhor aliado. Continue navegando pelo nosso blog para descobrir mais dicas práticas para cuidar de quem você ama!

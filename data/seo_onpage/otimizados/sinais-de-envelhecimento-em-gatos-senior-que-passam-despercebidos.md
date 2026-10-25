@@ -150,6 +150,12 @@ Costuma ser indicada uma alimentação adaptada com menor teor de sódio e fósf
 
 ---
 
+## Fontes e referências
+
+- [2021 AAHA/AAFP Feline Life Stage Guidelines](https://aaha.org/?p=3919) — AAHA/AAFP, 2021 (EUA, fonte estrangeira).
+- [Special Needs of the Senior Cat](https://vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/special-needs-senior-cat) — Cornell Feline Health Center (EUA, fonte estrangeira).
+- [Síndrome de senilidade felina](https://lume.ufrgs.br/bitstream/handle/10183/184482/001000789.pdf?sequence=1&isAllowed=y) — Faculdade de Veterinária, UFRGS.
+
 ## Para fechar
 
 Envelhecer é uma etapa natural que exige um olhar atento e generoso. Ao notar as mensagens que o corpo do seu pet transmite, você oferece o conforto que ele merece.

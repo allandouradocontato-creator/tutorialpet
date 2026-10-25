@@ -115,6 +115,14 @@ Fezes muito moles, queda excessiva de pelo, falta de apetite ou apatia são sina
 *   **Quanto tempo dura um pacote aberto de ração?**
     O ideal é consumir em poucas semanas e manter o pacote bem fechado em local fresco para preservar o sabor e evitar umidade.
 
+## Fontes e referências
+
+- [Nutritional Requirements of Small Animals](https://www.merckvetmanual.com/management-and-nutrition/nutrition-small-animals/nutritional-requirements-of-small-animals) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [Table: Feeding Schedule for Puppies](https://www.merckvetmanual.com/multimedia/table/feeding-schedule-for-puppies) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [Nutritional Requirements of Large and Giant Breed Puppies](https://vcahospitals.com/valley-va/know-your-pet/nutritional-requirements-of-large-and-giant-breed-puppies) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [When To Switch Puppy To Adult Food](https://vcahospitals.com/pediatric/puppy/nutrition/when-to-switch-puppy-to-adult-food) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Manejo nutricional de cães e gatos](https://www.fcav.unesp.br/Home/departamentos/clinicacv/AULUSCAVALIERICARCIOFI/manejo-alimentar-caes-e-gatos.pdf) — Prof. Aulus Cavalieri Carciofi, FCAV/UNESP.
+
 ## Para fechar
 
 Escolher a melhor **ração para filhote de cachorro** é um ato de carinho que impacta diretamente na qualidade de vida do seu novo amigo de quatro patas. Com paciência, atenção aos sinais do corpo e acompanhamento profissional, essa fase de crescimento será tranquila e cheia de saúde.

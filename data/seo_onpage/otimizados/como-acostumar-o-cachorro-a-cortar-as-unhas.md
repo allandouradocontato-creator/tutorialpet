@@ -124,6 +124,13 @@ Mantenha a calma para não transmitir pânico ao pet. Pressione suavemente a pon
 **Passear no asfalto substitui o corte de unhas?**  
 Costuma ajudar muito no desgaste natural das unhas da frente e de trás em cães ativos, mas raramente desgasta a unha do "polegar" (o ergô), que fica mais alta na pata e não toca o chão durante a caminhada.
 
+## Fontes e referências
+
+- [Successful Nail Trims: Training for Happy Handling](https://vcahospitals.com/know-your-pet/handling-exercises-for-trimming-nails-and-brushing-teeth) — VCA Animal Hospitals (fonte estrangeira).
+- [How to Trim Dog Nails](https://www.akc.org/expert-advice/health/how-to-trim-dog-nails/) — American Kennel Club (fonte estrangeira).
+- [Dog Nail Trimming](https://www.torontohumanesociety.com/wp-content/uploads/2023/11/Dog-Nail-Trimming.pdf) — Toronto Humane Society, 2023 (fonte estrangeira).
+- [Dog Grooming Tips](https://www.aspca.org/pet-care/dog-care/dog-grooming-tips) — ASPCA (fonte estrangeira).
+
 ## Para fechar
 
 Acostumar o cachorro a cortar as unhas não depende de força, mas sim de comunicação clara, respeito aos limites do animal e repetição gentil. Ao trocar a pressa por alguns minutos diários de treino positivo, você transforma uma tarefa temida em um momento gostoso de cumplicidade entre vocês.

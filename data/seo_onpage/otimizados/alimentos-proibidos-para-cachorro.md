@@ -141,6 +141,7 @@ O xilitol causa uma queda drástica na glicemia e falência hepática rápida. T
 - [Saiba os perigos da ingestão de chocolate por pets](https://crmvsp.gov.br/saiba-os-perigos-da-ingestao-de-chocolate-por-pets/) — CRMV-SP.
 - [Intoxicações em cães e gatos por alimentos humanos: o que não fornecer aos animais?](https://lume.ufrgs.br/bitstream/handle/10183/251914/001153640.pdf?sequence=1) — Veterinária em Foco (UFPel/UFRGS), 2013.
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
+- [ASPCA: central de controle de intoxicação animal e lista de alimentos perigosos](https://www.aspca.org/pet-care/animal-poison-control)
 
 ## Para fechar
 
@@ -148,9 +149,3 @@ Cuidar da alimentação do seu cão vai muito além de escolher um bom alimento 
 
 Se você gosta de cuidar de cada detalhe da rotina do seu pet, continue explorando nossos artigos para descobrir mais dicas práticas de convivência, saúde e bem-estar animal.
 
-## Fontes e referências
-
-Segundo as orientações de entidades veterinárias, este conteúdo é informativo e não substitui a consulta ao médico-veterinário. Referências:
-
-- [ASPCA: central de controle de intoxicação animal e lista de alimentos perigosos](https://www.aspca.org/pet-care/animal-poison-control)
-- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
