@@ -167,6 +167,12 @@ Sim! Para filhotes em crescimento, o caldo ajuda no aporte hídrico; para idosos
 **Cachorros com problemas renais ou pancreatite podem consumir?**  
 Casos com histórico de pancreatite ou doença renal demandam controle rigoroso de fósforo, proteínas e gorduras residuais. Nesses cenários, a liberação do médico-veterinário é indispensável antes de oferecer.
 
+## Fontes e referências
+
+- [How to Make Bone Broth for Dogs (and When to Buy It Instead)](https://www.vetstreet.com/our-pet-experts/how-to-make-bone-broth-for-dogs) — Vetstreet, EUA, 2026 (fonte internacional).
+- [Dog Bone Safety: What You Need to Know](https://www.zoetispetcare.com/blog/article/dog-bone-safety) — Zoetis Petcare, EUA (fonte internacional).
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA Animal Poison Control, EUA (fonte internacional).
+
 ## Para fechar
 
 Preparar caldo de ossos caseiro pode parecer uma excentricidade de quem mima demais o próprio pet, mas a verdade é que se trata de uma das formas mais baratas, práticas e naturais de dar um salto na hidratação e no bem-estar do seu amigo. Sem conservantes, sem corantes e feito com ingredientes que você escolheu na feira.

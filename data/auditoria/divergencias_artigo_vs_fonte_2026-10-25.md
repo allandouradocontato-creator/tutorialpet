@@ -26,3 +26,18 @@ Origem: agentes de fontes (nada foi reescrito; corrigir depois com revisão vete
 - comedouro-elevado: alinhamento do esôfago, menos ar/vômito, inclinação 15°, alturas 8-15 cm e "fadiga de vibrissas" sem fonte; PetMD: só "alguns gatos podem preferir".
 - rampa-pet: ângulo 20-30°, comprimentos por altura e larguras sem fonte; AKC apresenta rampa e escada com prós e contras.
 - Sem fonte oficial brasileira (CTB art. 235/252, ANAC, CFMV): pendente.
+
+## Lote 4
+- areia para gato: texto 5-7 cm de areia; ASPCA/Cornell 2,5-5 cm. "Olfato 14 vezes mais apurado" e descrições de sílica/bentonita sem apoio.
+- o que comprar antes de adotar um gatinho: texto "bordas baixas"; VCA recomenda caixa funda, laterais altas (Cornell: borda baixa para filhotes/idosos/dificuldade de locomoção).
+- gato morde no carinho: texto diz que não tem relação com hormônios; ASPCA diz mais comum em machos; "pele ondulando" e "regra dos 3 segundos" sem fonte.
+- galgo italiano: texto "versão em miniatura do greyhound"; AKC diz raça separada, origem não documentada.
+- trocar a ração: 7-10 dias compatível (AKC 5-7; VCA 7-14; Cornell 4); microbiota sem fonte literal.
+- patas no inverno: pH da pele, "transpiram pelos coxins" e tosar entre coxins sem fonte; ASPCA sugere vaselina antes do passeio (texto desaconselha vaselina pura).
+- xixi no quintal: "cloro e amônia intensificam o cheiro" sem fonte; Anvisa/Poison Control confirmam gás tóxico com água sanitária + ácidos/amônia; enzimáticos e vinagre sem fonte.
+- brinquedos interativos: "libera dopamina" e "lamber reduz ritmo cardíaco" sem apoio; ASPCA ressalva recheio em cães muito ansiosos.
+- sachê para gato: 75-85% de água vs Cornell "até 80%"; "origem do deserto" não confirmada; VCA lata aberta 3 dias (texto 24-48 h, conservador).
+- gato esconde comida: texto 4 causas vs 2 teorias (International Cat Care); "fadiga de bigodes" e 1 m entre comida e água sem fonte; 3-5 porções vs ICC pelo menos 5.
+- arranhador: caneta laser não verificado.
+- plantas-toxicas-para-gatos: "Fontes" está DEPOIS de "Para fechar" (só ASPCA + home do CFMV); mover e acrescentar fontes brasileiras (USP, CFMV).
+- Fontes brasileiras bloqueadas por robots (UFMG, Unesp aula, SciELO): não usadas.

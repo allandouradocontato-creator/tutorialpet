@@ -121,6 +121,12 @@ Tenha paciência e volte etapas no treinamento. Se persistir a resistência, exi
 * **Cachorros filhotes também precisam de escovação?**
 Sim, começar nos primeiros meses, logo após os cuidados iniciais como [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro), ajuda o animal a achar a rotina algo totalmente natural na vida adulta.
 
+## Fontes e referências
+
+- [Toothbrushing for Dogs and Cats](https://vetmed.illinois.edu/pet-health-columns/toothbrushing-for-dogs-and-cats/) — University of Illinois College of Veterinary Medicine, EUA, 2021 (fonte internacional).
+- [Avaliação do conhecimento dos tutores de cães e gatos atendidos no Hospital Veterinário – UEM Umuarama sobre a importância da temática: saúde oral](https://periodicos.uem.br/ojs/index.php/RevCiVet/article/download/37094/pdf) — Universidade Estadual de Maringá (UEM), 2017.
+- [FDA warns about danger of xylitol -- for dogs](https://www.drbicuspid.com/dental-hygiene/hygiene-tools/article/15375224/fda-warns-about-danger-of-xylitol-for-dogs) — DrBicuspid, 2019, reportando o alerta da FDA, EUA (fonte internacional).
+
 ## Para fechar
 
 Cuidar da saúde bucal do seu melhor amigo é um ato de carinho que vai muito além da estética ou de um hálito agradável. É garantir qualidade de vida, bem-estar e prevenir doenças graves que podem afetar o organismo inteiro do animal. Lembre-se de que cada cão tem seu propio ritmo de aprendizado e que a paciência é a melhor ferramenta do tutor iniciante.

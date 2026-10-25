@@ -121,6 +121,12 @@ Note se o filhote rosna de forma tensa ao ter um objeto retirado da boca. Em vez
 * **Brinquedos congelados ajudam nessa fase?**
   Sim. Itens gelados ajudam a aliviar o incômodo e a coceira na gengiva durante o período de troca dos dentes.
 
+## Fontes e referências
+
+- [Puppy Teething and Nipping](https://www.akc.org/learn/family-dog/puppy-teething-and-nipping/) — American Kennel Club (AKC), EUA (fonte internacional).
+- [Puppy Nipping: How to Stop a Puppy From Biting](https://www.akc.org/expert-advice/training/puppy-stop-nipping/) — American Kennel Club (AKC), EUA (fonte internacional).
+- [Mouthing, Nipping and Biting in Puppies](https://www.aspca.org/pet-care/virtual-pet-behaviorist/dog-behavior/puppy-mouthing) — ASPCA, EUA (fonte internacional).
+
 ## Para fechar
 
 Ensinar um filhote a controlar a força da mordida exige paciência, rotina e muita consistência diária. Cada animal tem seu próprio ritmo de aprendizado, mas com firmeza amorosa e redirecionamento correto, a fase dos dentinhos de agulha logo fica para trás.

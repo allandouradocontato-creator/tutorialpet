@@ -114,6 +114,11 @@ Sim, mas faça isso em passos quase imperceptíveis: mova o objeto cerca de algu
 **Arranhar demais pode ser sinal de estresse?**  
 Sim. Mudanças na casa, novos moradores ou falta de estímulos ambientais podem intensificar o comportamento de marcação. Caso note alterações súbitas de humor ou apetite, converse com o médico-veterinário para avaliar o bem-estar geral do pet.
 
+## Fontes e referências
+
+- [Destructive Scratching](https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/destructive-scratching) — ASPCA, EUA (fonte internacional).
+- [Living with a Clawed Cat – Claw Friendly Educational Toolkit](https://catvets.com/wp-content/uploads/2024/01/ClawFriendlyEducationalToolkit_ClientResources-upd.pdf) — American Association of Feline Practitioners (AAFP), EUA (fonte internacional).
+
 ## Para fechar
 
 Cuidar de um gato é aprender a arte da convivência harmoniosa, onde o espaço físico se molda com generosidade para abrigar duas espécies diferentes sob o mesmo teto. Com um olhar sensível, algumas mudanças práticas e muito carinho, seu sofá volta a ser apenas o lugar de descanso compartilhado, e as unhas encontram o destino certo. 

@@ -116,6 +116,12 @@ A regra geral é ter sempre um pote a mais do que o número de gatos na casa. Se
 * **O que fazer se o gato continua bebendo muito pouco?**
 Se notar apatia, falta de apetite ou se o gato recusar totalmente a água por mais de um dia, procure imediatamente um médico-veterinário para descartar problemas renais ou urinários.
 
+## Fontes e referências
+
+- [Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration) — Cornell Feline Health Center, Cornell University, EUA, 2021 (fonte internacional).
+- [How to get your cat to drink more water](https://vcahospitals.com/resources/preventive-cat/nutrition/tips-to-encourage-cats-to-drink-more-water) — VCA Animal Hospitals, EUA (fonte internacional).
+- [Influence of water content and the digestibility of pet foods on the water balance of cats](https://repositorio.usp.br/item/001501422) — Carciofi et al., FMVZ-USP, Brazilian Journal of Veterinary Research and Animal Science, 2005.
+
 ## Para fechar
 
 Fazer o gato beber mais água exige paciência, observação e pequenos ajustes que respeitem a natureza curiosa e exigente do animal. Testar diferentes locais, trocar os potes tradicionais por fontes ou incluir alimentos úmidos na rotina são passos simples que transformam a hidratação em um momento prazeroso. 

@@ -125,6 +125,12 @@ O ideal é fracionar em duas ou três sessões curtas de dez minutos cada, simul
 * **O uso de comedouros automáticos ajuda a controlar o peso?**
 Sim, desde que programados para liberar pequenas porções fracionadas ao longo do dia, evitando que o gato coma tudo de uma só vez.
 
+## Fontes e referências
+
+- [Obesidade em Gatos (Obesity in Cats)](https://www.thedrakecenter.com/materials/obesity-cats) — The Drake Center for Veterinary Care, EUA (fonte internacional).
+- [Nutritional Management of Weight](https://www.vetmed.ucdavis.edu/node/16426) — UC Davis School of Veterinary Medicine, EUA (fonte internacional).
+- [Early Effects of Neutering on Energy Expenditure in Adult Male Cats](https://pmc.ncbi.nlm.nih.gov/articles/PMC3935885) — Wei et al., PLoS ONE, 2014 (fonte internacional).
+
 ## Para fechar
 
 Evitar a obesidade em gatos castrados que vivem em apartamento é um exercício diário de paciência, observação e carinho. Pequenos ajustes na forma de servir a comida, aliados a momentos diários de brincadeira e exploração do espaço, fazem toda a diferença para garantir longevidade e qualidade de vida ao seu felino. 

@@ -140,6 +140,12 @@ Evite totalmente. A pele do gato é extremamente fina e elástica, subindo junto
 
 ---
 
+## Fontes e referências
+
+- [A Hairy Dilemma](https://www.vet.cornell.edu/node/4044) — Cornell Feline Health Center, Cornell University, EUA (fonte internacional).
+- [Cat Grooming Tips](https://aspca.org/pet-care/cat-care/cat-grooming-tips) — ASPCA, EUA (fonte internacional).
+- [Hair Balls in Cats](https://catvets.com/publication/hair-balls-in-cats/) — Feline Veterinary Medical Association (antiga AAFP), EUA (fonte internacional).
+
 ## Para fechar
 
 Evitar a formação de bolas de pelo não exige mandingas, banhos semanais traumáticos ou poções misteriosas. Trata-se de uma conta de pura física cotidiana: o que você retira com a escova não vai para a barriga do seu pet, nem para o seu tapete às três da manhã. O processo pode começar com carinho, avançar para uma rotina gostosa e virar o melhor momento do dia entre vocês.

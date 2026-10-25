@@ -108,6 +108,11 @@ Exemplo prático: se o gato mia alto ou tenta morder a sua mão sempre que você
 - **Preciso forçar a escovação se o gato tiver pelo longo?**
   Nunca force, pois isso gera trauma profundo. Se houver nós severos e intransponíveis, leve o gato a um profissional especializado em tosa humanizada para uma remoção segura.
 
+## Fontes e referências
+
+- [Cat Grooming Tips](https://aspca.org/pet-care/cat-care/cat-grooming-tips) — ASPCA, EUA (fonte internacional).
+- [A Hairy Dilemma](https://www.vet.cornell.edu/node/4044) — Cornell Feline Health Center, Cornell University, EUA (fonte internacional).
+
 ## Para fechar
 
 Cuidar da pelagem de um gato que rejeita a escova exige paciência, constância e muito respeito pelo tempo de adaptação do animal. Ao transformar a ferramenta de limpeza em uma extensão do carinho diário, você fortalece o vínculo com o seu felino e previne uma série de problemas de saúde. 

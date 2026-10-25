@@ -127,6 +127,12 @@ O ideal em média é ter pelo menos duas unidades para fazer o rodízio diário 
 **Quanto tempo dura em média um tapete higiênico lavável?**
 Com os cuidados adequados de lavagem, costumam durar em média de meses a alguns anos, dependendo da frequência de uso e da qualidade do tecido escolhido.
 
+## Fontes e referências
+
+- [How to Pee Pad Train a Puppy (The Ins and Outs of Potty Pad Training)](https://www.akc.org/expert-advice/training/the-joys-of-paper-or-pad-training/) — American Kennel Club (AKC), EUA (fonte internacional).
+- [Potty Pad Training Your Dog](https://animalhumanesociety.org/training/potty-pad-training-your-dog) — Animal Humane Society, EUA (fonte internacional).
+- [Why Potty-Trained Dogs Might Start Urinating Inside](https://fearfreehappyhomes.com/why-potty-trained-dogs-might-start-urinating-inside/) — Fear Free Happy Homes, EUA (fonte internacional).
+
 ## Para fechar
 
 Escolher o tapete higiênico lavável ideal para o seu cachorro em apartamento é um investimento direto na limpeza da casa e no conforto do animal. Avaliando bem o tamanho, a capacidade de absorção e mantendo uma rotina correta de lavagem, o dia a dia com o pet fica muito mais prático e sustentável. 

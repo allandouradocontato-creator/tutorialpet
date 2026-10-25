@@ -113,6 +113,12 @@ Exemplo prático: Espalhe potes de água fresca pela casa e coloque cubos de gel
 - **Como saber se a água está na temperatura certa para o pet?**
   A água deve estar sempre fresca, trocada pelo menos três vezes ao dia no calor intenso, pois a água morna ou parada desestimula o cão a beber.
 
+## Fontes e referências
+
+- [Heatstroke in Dogs: How to Recognize It and What to Do Next](https://amcny.org/heatstroke) — Animal Medical Center of New York, EUA (fonte internacional).
+- [Heat Stroke in Dogs](https://vcahospitals.com/know-your-pet/heat-stroke-in-dogs) — VCA Animal Hospitals, EUA, 2025 (fonte internacional).
+- [Heat Stroke Flyer](https://assets-002.noviams.com/novi-file-uploads/mvma/pdfs-and-documents/Pet_owners/Heat_Stroke_Flyer.pdf) — Michigan Veterinary Medical Association, EUA (fonte internacional).
+
 ## Para fechar
 
 Cuidar de quem nos ama incondicionalmente é um ato de profunda devoção, e nos dias quentes essa dedicação se traduz em vigilância carinhosa e pequenos gestos diários que salvam vidas. Esperamos que este guia ajude você a manter seu companheiro seguro, confortável e pronto para muitos outros momentos felizes ao seu lado. Continue explorando nosso blog para descobrir mais dicas essenciais sobre o universo pet e fortalecer ainda mais esse laço eterno.
