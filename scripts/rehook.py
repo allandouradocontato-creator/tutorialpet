@@ -32,7 +32,12 @@ def main() -> int:
             falhas.append(f"{slug}: {_m0}"); continue
         if BANIDOS.match(gancho):
             falhas.append(f"{slug}: gancho novo é banido"); continue
-        rot = json.loads((pkg / "roteiro.json").read_text(encoding="utf-8"))
+        _fonte = pkg / "roteiro.json"
+        if not _fonte.exists():  # 25/10/2026: pacote da media pode ficar só com manifest.json; o roteiro vive na main
+            _fonte = ROOT / "data" / "social" / "roteiros" / f"{slug}.json"
+        if not _fonte.exists():
+            falhas.append(f"{slug}: sem roteiro (nem no pacote nem na main)"); continue
+        rot = json.loads(_fonte.read_text(encoding="utf-8"))
         velho = rot["gancho_3s"]
         for c in rot["cenas"]:
             c["narracao"] = limpar_marca(c["narracao"])
