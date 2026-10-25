@@ -159,6 +159,12 @@ Evite totalmente. Óleos vegetais alimentícios formam uma película que impede 
 
 ---
 
+## Fontes e referências
+
+- [How to Clean Your Dog's Ears](https://www.merckvetmanual.com/multimedia/table/how-to-clean-your-dogs-ears) — Merck Veterinary Manual (fonte estrangeira).
+- [Ear Infections and Otitis Externa in Dogs](https://www.merckvetmanual.com/dog-owners/ear-disorders-of-dogs/ear-infections-and-otitis-externa-in-dogs) — Merck Veterinary Manual, versão para tutores (fonte estrangeira).
+- [How to Clean Your Dog's Ears](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/how-clean-your-dogs-ears) — Cornell University College of Veterinary Medicine, Riney Canine Health Center (fonte estrangeira).
+
 ## Para fechar
 
 Limpar a orelha do cachorro em casa não exige manobras complexas nem invenções caseiras mirabolantes. Usando uma boa loção veterinária, gaze macia e respeitando os limites da anatomia do pet, você garante higiene sem causar dor e previne complicações sérias.

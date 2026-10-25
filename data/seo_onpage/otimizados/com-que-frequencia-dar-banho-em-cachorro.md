@@ -129,6 +129,13 @@ Em vez de dar um banho completo, o recomendado é lavar apenas as patas com águ
 * **Cães de pelo curto precisam de menos banhos?**
 Eles podem tomar banho no mesmo intervalo médio (a cada três ou quatro semanas), mas a vantagem é que acumulam menos nós e exigem menos manutenção diária com escovação comparados aos de pelo longo.
 
+## Fontes e referências
+
+- [Dar banho no pet exige cuidados](https://crmvsp.gov.br/dar-banho-no-pet-exige-cuidados/) — CRMV-SP.
+- [Veterinário dá dicas para banhos caseiros em cães](https://crmvsp.gov.br/veterinario-da-dicas-para-banhos-caseiros-em-caes/) — CRMV-SP.
+- [Grooming and Coat Care for Your Dog](https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog) — VCA Animal Hospitals (Estados Unidos).
+- [Dog Grooming Tips](https://www.aspca.org/pet-care/dog-care/dog-grooming-tips) — ASPCA (Estados Unidos).
+
 ## Para fechar
 
 Cuidar da higiene do seu companheiro vai muito além de mantê-lo cheiroso para o convívio dentro de casa. Respeitar o tempo da pele canina evita problemas dermatológicos e garante o bem-estar físico do animal a longo prazo. Observe sempre a reação do seu cão após cada lavagem e ajuste a rotina conforme as necessidades reais dele.

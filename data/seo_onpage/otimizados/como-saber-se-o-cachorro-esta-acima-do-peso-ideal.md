@@ -159,6 +159,13 @@ A perda de peso saudável costuma girar entre 1% e 2% do peso corporal do cão p
 **Oferecer petiscos naturais em excesso também engorda?**  
 Sim. Mesmo petiscos saudáveis, como cenoura cozida, maçã ou pedaços de carne magra, somam calorias na contagem diária. O total de agrados e agalhas nunca deve ultrapassar 10% da necessidade calórica diária recomendada pelo veterinário.
 
+## Fontes e referências
+
+- [Body Condition Score (dogs and cats)](https://vmc.vet.osu.edu/sites/default/files/documents/wsava-bcs-chart-dogs-cats.pdf) — WSAVA, 2013 (fonte estrangeira).
+- [2014 AAHA Weight Management Guidelines for Dogs and Cats](https://jaaha.kglmeridian.com/view/journals/aaha/50/1/article-p1.xml) — American Animal Hospital Association (AAHA), 2014 (fonte estrangeira).
+- [Feeding treats to your dog](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf) — WSAVA, 2024 (fonte estrangeira).
+- [New Study Finds That Concerns About Shorter Lifespans for Pets Can Drive Owner Action on Obesity](https://www.uoguelph.ca/ovc/news/node/2929) — Ontario Veterinary College, University of Guelph, 2024 (fonte estrangeira).
+
 ## Para fechar
 
 Cuidar do peso do seu cão é um dos maiores atos de proteção e prevenção que você pode praticar diariamente. Cada quilo a menos sobre articulações cansadas devolve anos de vitalidade, disposição e conforto para o seu companheiro de quatro patas.

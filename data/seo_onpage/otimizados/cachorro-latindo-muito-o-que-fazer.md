@@ -115,6 +115,12 @@ Se mesmo com mudanças na rotina e trechos de adestramento positivo o cão conti
 * **Quanto tempo leva para o cão aprender a latir menos?**
   O tempo varia conforme a idade, o histórico do animal e a consistência da família, exigindo em média semanas de treino diário. Confirme sempre orientações específicas com o médico-veterinário do pet.
 
+## Fontes e referências
+
+- [Barking](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/barking) — ASPCA (Estados Unidos).
+- [Barking in Dogs](https://vcahospitals.com/know-your-pet/barking-in-dogs) — VCA Animal Hospitals (Estados Unidos).
+- [Separation Anxiety](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety) — ASPCA (Estados Unidos).
+
 ## Para fechar
 
 Lidar com um cachorro latindo muito o que fazer exige paciência, investigação e ajustes consistentes no dia a dia da casa. Cada pequeno passo em direção à compreensão mútua fortalece o vínculo entre você e seu fiel companheiro, transformando o caos sonoro em um ambiente tranquilo e harmonioso. 

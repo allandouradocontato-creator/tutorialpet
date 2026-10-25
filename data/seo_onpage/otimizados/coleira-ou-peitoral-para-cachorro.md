@@ -140,6 +140,13 @@ Em média, você deve conseguir passar dois dedos entre a fita do acessório e o
 **Filhotes podem usar qualquer modelo desde o primeiro passeio?**
 Eles devem usar equipamentos proporcionais ao tamanho atual. Consulte sempre o médico-veterinário do pet para orientações sobre o peso adequado e o momento ideal para iniciar as saídas.
 
+## Fontes e referências
+
+- [Dog Collars and Harnesses](https://vet.tufts.edu/news-events/news/dog-collars-and-harnesses) — Cummings School of Veterinary Medicine, Tufts University (Estados Unidos).
+- [Collar vs. harness](https://vcahospitals.com/pediatric/puppy/prep-supplies/harness-vs-collar) — VCA Animal Hospitals (Estados Unidos).
+- [Tracheal Collapse in Dogs](https://vcahospitals.com/know-your-pet/tracheal-collapse-in-dogs) — VCA Animal Hospitals (Estados Unidos).
+- [Colapso traqueal em cães](https://lume.ufrgs.br/bitstream/handle/10183/119414/000969982.pdf?sequence=1&isAllowed=y) — Faculdade de Veterinária da UFRGS (trabalho de conclusão de curso), 2012.
+
 ## Para fechar
 
 Escolher entre coleira e peitoral envolve observar o comportamento, o porte e a saúde do seu animal de estimação. Priorizar o conforto e a segurança transforma a caminhada em um momento de conexão positiva entre vocês.

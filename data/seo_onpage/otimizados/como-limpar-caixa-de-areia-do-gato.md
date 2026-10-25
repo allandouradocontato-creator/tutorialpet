@@ -113,6 +113,13 @@ Exemplo prático: Se você tem dois gatos, o ideal são três caixas espalhadas 
 * **Por que meu gato faz xixi para fora da caixa mesmo ela estando limpa?**
   Isso pode indicar desde uma preferência pelo tamanho ou formato da borda da caixa até questões médicas, como infecção urinária ou dor nas articulações ao entrar. Avalie o comportamento e consulte um médico-veterinário.
 
+## Fontes e referências
+
+- [General Litter Box Considerations](https://www.aaha.org/?p=3934) — AAHA/AAFP Feline Life Stage Guidelines, 2021 (fonte estrangeira).
+- [What to Expect When Adopting a Feline Friend](https://www.vet.cornell.edu/sites/default/files/WhatToExpect_Updated_2022.pdf) — Cornell Feline Health Center, 2022 (fonte estrangeira).
+- [Enrichment: Supporting your pet's mental and emotional wellbeing at home](https://www.aaha.org/resources/enrichment-supporting-your-pets-mental-and-emotional-wellbeing-at-home/) — AAHA, 2026 (fonte estrangeira).
+- [How to Introduce a New Cat to Other Cats in Your Home](https://catvets.com/wp-content/uploads/2024/07/Step-by-Step-Guide-How-to-Introduce-a-New-Cat-to-Other-Cats-in-Your-Home.pdf) — American Association of Feline Practitioners (AAFP), 2024 (fonte estrangeira).
+
 ## Para fechar
 
 Cuidar da higiene do banheiro felino é um ato diário de carinho que protege a saúde do seu companheiro e mantém a harmonia do lar. Com uma rotina simples de remoção de resíduos e lavagens periódicas, você evita surpresas desagradables e garante que o gato se sinta seguro e confortável. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o universo dos pets e melhorar o dia a dia de toda a família.

@@ -159,6 +159,14 @@ Dê passos para trás: use apenas gaze enrolada no dedo com caldo caseiro sem sa
 
 ---
 
+## Fontes e referências
+
+- [Directrizes Dentárias Globais da World Small Animal Veterinary Association](https://wsava.org/wp-content/uploads/2020/01/Directrizes-Dentarias-Globais-da-World-Small-Animal-Veterinary-Association.pdf) — WSAVA (entidade internacional), versão em português, 2020.
+- [Recommending home oral hygiene and products](https://www.aaha.org/resources/2019-aaha-dental-care-guidelines-for-dogs-and-cats/recommending-products/) — AAHA (Estados Unidos), 2019.
+- [Plaque and Tartar Prevention in Dogs](https://vcahospitals.com/know-your-pet/tartar-prevention-in-dogs) — VCA Animal Hospitals (Estados Unidos).
+- [Saúde bucal de pets exige rotina de cuidados e acompanhamento profissional](https://crmvsp.gov.br/saude-bucal-de-pets-exige-rotina-de-cuidados-e-acompanhamento-profissional/) — CRMV-SP.
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (Estados Unidos); cita o xilitol, presente em alguns cremes dentais.
+
 ## Para fechar
 
 Escovar os dentes do cão diariamente é um investimento direto em qualidade e expectativa de vida. Se a rotina diária não for possível, manter o hábito de 3 a 4 vezes na semana já garante uma barreira importante contra o tártaro. Comece aos poucos, torne o momento agradável e nunca hesite em consultar o médico-veterinário caso perceba sangramentos ou tártaro já endurecido.

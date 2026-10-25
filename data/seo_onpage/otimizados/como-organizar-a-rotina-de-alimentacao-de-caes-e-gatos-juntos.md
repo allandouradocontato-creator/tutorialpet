@@ -110,6 +110,12 @@ Não é recomendado, pois o cão pode se sentir tentado a roubar a comida do gat
 * **Como acostumar os pets com os novos horários de comida?**
 Crie uma rotina fixa de horários e ofereça a comida sempre nos mesmos momentos do dia, retirando os potes após o término para ensinar que o alimento não fica disponível o tempo todo.
 
+## Fontes e referências
+
+- [How to Feed a Cat: Addressing Behavioral Needs](https://catvets.com/wp-content/uploads/2025/02/FelineVMAHowtoFeedCat_-PrintFormat.pdf) — Feline Veterinary Medical Association (catvets.com), 2024 (fonte estrangeira).
+- [Everything You Need to Know About Cat Food and Protein](https://www.petmd.com/blogs/nutritionnuggets/cat/dr-coates/2015/april/everything-you-need-know-about-cat-food-and-protein-32590) — PetMD, Dr. Coates, 2015 (fonte estrangeira).
+- [Enrichment: Supporting your pet's mental and emotional wellbeing at home](https://www.aaha.org/resources/enrichment-supporting-your-pets-mental-and-emotional-wellbeing-at-home/) — AAHA, 2026 (fonte estrangeira).
+
 ## Para fechar
 
 Organizar a rotina de alimentação de cães e gatos juntos exige paciência, observação e um pouco de adaptação no layout da casa. Respeitar o instinto de cada espécie evita conflitos desnecessários, protege a saúde dos animais e traz muito mais tranquilidade para o dia a dia da família. Continue explorando nosso blog para descobrir mais dicas valiosas sobre o universo dos pets e melhorar ainda mais a convivência com seus companheiros de quatro patas.

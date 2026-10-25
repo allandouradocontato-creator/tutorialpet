@@ -127,6 +127,13 @@ Exemplo prático: para viagens mais longas, converse com o médico-veterinário 
 * **Como limpar a caixa após um incidente no transporte?**
   Lave com água corrente e sabão neutro. Evite produtos com cheiro muito forte ou cloro, pois o olfato sensível do gato pode rejeitar o objeto depois.
 
+## Fontes e referências
+
+- [Getting Your Cat to the Veterinarian](https://catfriendly.com/be-a-cat-friendly-caregiver/getting-cat-veterinarian/) — Cat Friendly Homes / AAFP (Estados Unidos).
+- [Como reduzir o estresse das consultas veterinárias para você e seu gato](https://catfriendly.com/wp-content/uploads/2022/04/AAFPCatToVetBrochurePT.pdf) — AAFP (Estados Unidos), versão em português, 2022.
+- [Helping Your Cat Get Comfortable in a Travel Crate](https://www.aaha.org/resources/helping-your-cat-get-comfortable-in-a-travel-crate/) — AAHA (Estados Unidos).
+- [Transportation of Cats in Motor Vehicles (position statement)](https://catvets.com/resource/transportation-of-cats-in-motor-vehicles-position-statement/) — AAFP (Estados Unidos), 2020.
+
 ## Para fechar
 
 A escolha e o uso correto da caixa de transporte são passos fundamentais para garantir a saúde e a integridade do seu felino em qualquer deslocamento. Com paciência, petiscos e transformando o objeto em parte da rotina da casa, você elimina o trauma e torna as idas ao veterinário muito mais tranquilas para toda a família. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o comportamento e o bem-estar dos seus animais de estimação.

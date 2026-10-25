@@ -107,6 +107,13 @@ Apenas em ambientes controlados, higienizados e exclusivos para cães saudáveis
 **Como acostumar o filhote a fazer xixi na rua se ele passa meses preso em casa?**
 Você pode usar tapetes higienizados em áreas internas durante a fase de isolamento e, após a liberação, reforçar positivamente com petiscos e festas sempre que ele eliminar as necessidades no solo durante os passeios.
 
+## Fontes e referências
+
+- [Diretrizes de 2024 para a vacinação de cães e gatos](https://wsava.org/wp-content/uploads/2024/07/WSAVA-VC-Guidelines-2024-Portuguese.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais, entidade internacional), 2024.
+- [Vacinas ajudam a proteger saúde de cães e gatos](https://crmvsp.gov.br/vacinas-ajudam-a-proteger-saude-de-caes-e-gatos/) — CRMV-SP.
+- [Socialization of dogs and cats](https://www.avma.org/resources-tools/animal-health-and-welfare/socialization-dogs-and-cats) — AVMA (Associação Veterinária Americana, Estados Unidos).
+- [AVSAB Position Statement on Puppy Socialization](https://avsab.org/wp-content/uploads/2018/03/Puppy_Socialization_Position_Statement_Download_-_10-3-14.pdf) — AVSAB (American Veterinary Society of Animal Behavior, Estados Unidos), 2014.
+
 ## Para fechar
 
 A espera para saber com quantos meses o cachorro pode sair na rua exige paciência, mas é um cuidado indispensável para garantir que o filhote cresça forte, saudável e livre de doenças graves. Aproveite a fase em casa para criar laços, treinar comandos básicos e garantir a imunização em dia junto ao médico-veterinário do pet. 

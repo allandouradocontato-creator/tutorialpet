@@ -112,6 +112,12 @@ Não é recomendado, pois o cão pode enjoar da dinâmica ou do sabor. O ideal �
 **Preciso gastar muito dinheiro para montar um cronograma eficiente?**
 De jeito nenhum. É possível criar ótimos desafios usando caixas de papelão limpas, garrafas pet furadas para liberar ração e toalhas velhas amarradas com petiscos dentro, conhecidas como tapetes de faro artesanais.
 
+## Fontes e referências
+
+- [Enrichment: Supporting your pet's mental and emotional wellbeing at home](https://www.aaha.org/resources/enrichment-supporting-your-pets-mental-and-emotional-wellbeing-at-home/) — AAHA, 2026 (fonte estrangeira).
+- [Canine DIY Enrichment](https://www.aspca.org/pet-care/dog-care/canine-diy-enrichment) — ASPCA (fonte estrangeira).
+- [Preventing Separation Anxiety in Dogs](https://www.aspcapro.org/sites/default/files/behavior-2020-preventing-anxiety.pdf) — ASPCA, 2020 (fonte estrangeira).
+
 ## Para fechar
 
 Montar um cronograma de enriquecimento ambiental para cães sozinhos é um ato de carinho que transforma o tempo de solidão em momentos de descoberta e tranquilidade. Com planejamento, revezamento de estímulos e observação atenta, você garante que seu fiel companheiro viva de forma mais equilibrada e feliz. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais a convivência em casa.

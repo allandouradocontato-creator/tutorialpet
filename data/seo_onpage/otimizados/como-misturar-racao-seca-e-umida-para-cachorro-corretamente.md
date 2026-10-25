@@ -116,6 +116,12 @@ Não é recomendado, pois a ração seca absorve a umidade do sachê, amolece e 
 **A ração úmida faz mal para os dentes do cachorro?**
 Não necessariamente. Embora a ração seca ajude no atrito, a saúde oral depende de escovação regular e acompanhamento profissional, e não apenas da textura do alimento.
 
+## Fontes e referências
+
+- [How To Store Dog Food](https://www.petmd.com/dog/nutrition/how-to-store-dog-food) — PetMD (conteúdo veterinário, fonte estrangeira).
+- [Cat and Dog Food Storage Tips](https://www.hillspet.com/content/cp-sites-aem/hills/hills-pet/en_us/home/pet-care/nutrition-feeding/cat-and-dog-food-storage-tips.html) — Hill's Pet Nutrition (fonte estrangeira).
+- [2014 AAHA Weight Management Guidelines for Dogs and Cats](https://jaaha.kglmeridian.com/view/journals/aaha/50/1/article-p1.xml) — American Animal Hospital Association (AAHA), 2014 (fonte estrangeira).
+
 ## Para fechar
 
 Misturar ração seca e úmida é uma excelente forma de agradar o paladar do seu cão e garantir hidratação extra, desde que feita com planejamento e controle calórico. Respeitar as proporções evita problemas de peso e garante uma digestão tranquila. Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre a rotina e o bem-estar dos seus animais de estimação.

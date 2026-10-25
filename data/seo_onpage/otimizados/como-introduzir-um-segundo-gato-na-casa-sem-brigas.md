@@ -119,6 +119,13 @@ Não é recomendável. Mantenha os gatos em ambientes separados sempre que você
 **Quantas caixas de areia preciso ter em casa agora?**  
 A regra de ouro do bem-estar felino costuma indicar o número de gatos mais uma caixa extra. Para dois gatos, o ideal é disponibilizar três caixas de areia espalhadas em locais diferentes da casa.
 
+## Fontes e referências
+
+- [How to Introduce a New Cat to Other Cats in Your Home](https://catvets.com/wp-content/uploads/2024/07/Step-by-Step-Guide-How-to-Introduce-a-New-Cat-to-Other-Cats-in-Your-Home.pdf) — American Association of Feline Practitioners (AAFP), 2024 (fonte estrangeira).
+- [Introducing Your New Cat to Your Other Household Cats](https://healthtopics.vetmed.ucdavis.edu/node/851) — UC Davis School of Veterinary Medicine, 2019 (fonte estrangeira).
+- [General Litter Box Considerations](https://www.aaha.org/?p=3934) — AAHA/AAFP Feline Life Stage Guidelines, 2021 (fonte estrangeira).
+- [What to Expect When Adopting a Feline Friend](https://www.vet.cornell.edu/sites/default/files/WhatToExpect_Updated_2022.pdf) — Cornell Feline Health Center, 2022 (fonte estrangeira).
+
 ## Para fechar
 
 Introduzir um segundo gato na rotina da casa é um exercício diário de paciência e afeto. Não tenha pressa: cada pequeno passo avançado com segurança evita retrocessos que demorariam semanas para serem corrigidos. Com calma e respeitando os limites da espécie, logo seus dois companheiros estarão dividindo o espaço em perfeita sintonia.

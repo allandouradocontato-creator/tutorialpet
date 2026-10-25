@@ -123,6 +123,12 @@ Nunca medique o animal por conta própria, pois substâncias humanas ou doses er
 *   **Quanto tempo leva para o cão superar a ansiedade de separação?**
     O tempo varia muito de acordo com o histórico e o grau de apego do pet, exigindo constância e treinos diários por semanas ou meses.
 
+## Fontes e referências
+
+- [Separation Anxiety](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety) — ASPCA (entidade dos Estados Unidos).
+- [Separation Anxiety in Pets: Signs, Causes, and Solutions](https://aaha.org/resources/dont-go-separation-anxiety-in-pets) — AAHA, associação veterinária dos Estados Unidos.
+- [Separation Anxiety in Dogs](https://vcahospitals.com/know-your-pet/separation-anxiety-in-dogs) — VCA Animal Hospitals (Estados Unidos).
+
 ## Para fechar
 
 Lidar com a ansiedade de separação em cães é um exercício diário de paciência e empatia. Entender que o comportamento destrutivo é um pedido de socorro e não uma provocação muda completamente a forma como encaramos o problema. 

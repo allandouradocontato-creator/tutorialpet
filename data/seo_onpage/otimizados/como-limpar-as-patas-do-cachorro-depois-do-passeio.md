@@ -111,6 +111,12 @@ Exemplo prático: Se o cão passeou em dias muito quentes ou frios, verifique a 
 - **O que fazer se encontrar um corte na pata do cachorro?**
 **Lave com água limpa e procure o médico-veterinário.** Cortes profundos exigem avaliação profissional e nunca devem ser ignorados.
 
+## Fontes e referências
+
+- [7 Ways to Clean Your Dog's Paws](https://www.petmd.com/dog/slideshows/7-ways-clean-your-dogs-paws) — PetMD (conteúdo veterinário, fonte estrangeira).
+- [How to Clean Dog Paws: Tips for Success](https://hillspet.com/dog-care/routine-care/cleaning-your-dogs-paws) — Hill's Pet Nutrition (fonte estrangeira).
+- [Walking Your Dog in a Winter Wonderland? Protect Your Pet's Paws with These Tips](https://aspca.org/node/22541) — ASPCA, 2014 (fonte estrangeira).
+
 ## Para fechar
 
 Manter as patas do seu companheiro limpas é um hábito simples que protege a saúde dele e a higiene da sua casa. Com os produtos certos e uma rotina rápida, o pós-passeio deixa de ser uma bagunça e vira um momento tranquilo de carinho. Continue navegando pelo blog Tutorial Pet para descobrir mais dicas práticas para o dia a dia com seu animal de estimação!

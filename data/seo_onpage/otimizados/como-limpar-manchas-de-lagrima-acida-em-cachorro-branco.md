@@ -152,6 +152,12 @@ Não utilize tesouras pontiagudas próximo aos olhos se o cão for inquieto. O i
 **Rações específicas para pelo branco realmente funcionam?**  
 Muitas fórmulas comerciais focadas em cães brancos reduzem corantes e ajustam o equilíbrio de aminoácidos para diminuir a excreção de porfirinas. O efeito costuma ser observado em média após 6 a 8 semanas, mas os resultados variam para cada indivíduo e a troca deve ser validada por um veterinário.
 
+## Fontes e referências
+
+- [What is epiphora? (Eye discharge in dogs)](https://vcahospitals.com/know-your-pet/eye-discharge-or-epiphora-in-dogs) — VCA Animal Hospitals (fonte estrangeira).
+- [Dog Tear Stains: Causes, Treatment, and Prevention](https://www.petmd.com/dog/general-health/dog-tear-stains) — PetMD (conteúdo veterinário, fonte estrangeira).
+- [Epiphora in Dogs: Causes and Treatment](https://www.petmd.com/dog/conditions/eyes/watery-eyes-epiphora-dogs) — PetMD (conteúdo veterinário, fonte estrangeira).
+
 ## Para fechar
 
 Tratar manchas de lágrima dita ácida em cães brancos requer paciência, método e constância. Não existem fórmulas mágicas instantâneas: o segredo está no tripé de higienização regular, secagem rigorosa da região facial e controle de gatilhos como tigelas plásticas e dieta inadequada.

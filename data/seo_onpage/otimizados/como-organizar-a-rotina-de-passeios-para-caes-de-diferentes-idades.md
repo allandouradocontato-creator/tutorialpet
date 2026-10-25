@@ -129,6 +129,12 @@ O exercício físico vigoroso gasta calorias, mas o ato de farejar em ritmo calm
 **O cão empacou e deitou no meio do passeio, o que fazer?**  
 Não puxe a guia à força. Espere alguns minutos na sombra, ofereça água e avalie se o chão está quente, se há cansaço extremo ou dor. Se o comportamento for frequente, procure uma avaliação veterinária.
 
+## Fontes e referências
+
+- [How much exercise does your dog need?](https://www.pdsa.org.uk/pet-help-and-advice/looking-after-your-pet/puppies-dogs/how-much-exercise-does-your-dog-need) — PDSA (Reino Unido, fonte estrangeira).
+- [How To Exercise Your Senior Dog](https://www.petmd.com/dog/general-health/how-to-exercise-your-senior-dog) — PetMD (conteúdo veterinário, fonte estrangeira).
+- [Enrichment: Supporting your pet's mental and emotional wellbeing at home](https://www.aaha.org/resources/enrichment-supporting-your-pets-mental-and-emotional-wellbeing-at-home/) — AAHA, 2026 (fonte estrangeira).
+
 ## Para fechar
 
 Ajustar os passeios à idade do cão é um dos maiores gestos de carinho e respeito que você pode oferecer. Cada etapa da vida traz prioridades diferentes: segurança e descobertas para os pequenos, equilíbrio e gasto mental para os adultos, e conforto e manutenção da qualidade de vida para os velhinhos.
