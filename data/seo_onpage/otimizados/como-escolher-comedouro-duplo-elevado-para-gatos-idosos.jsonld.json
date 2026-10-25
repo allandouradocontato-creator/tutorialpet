@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher comedouro duplo elevado para gatos idosos: guia prático",
+    "description": "Como escolher comedouro duplo elevado para gatos idosos: guia prático. Sente aqui no sofá um minuto e imagine a seguinte cena: depois de um dia longo,...",
+    "datePublished": "2026-10-23",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-comedouro-duplo-elevado-para-gatos-idosos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-comedouro-duplo-elevado-para-gatos-idosos"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual a altura média recomendada para gatos idosos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A tigela costuma ficar entre 8 cm e 15 cm do chão, na altura exata do peito do gato em pé, permitindo que a cabeça fique alinhada com o dorso ao comer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar o suporte duplo para colocar água e ração juntos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É melhor evitar. Os gatos preferem beber água longe de onde comem. Use o suporte duplo para intercalar ração seca e comida úmida, espalhando fontes de água em outros cômodos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O comedouro inclinado realmente diminui os vômitos do gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. A inclinação de 15 graus alinha o esôfago e reduz a quantidade de ar engolido durante as refeições, facilitando o trânsito do alimento até o estômago."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual é o melhor material para a tigela do idoso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A cerâmica e o aço inoxidável são as melhores opções. Não acumulam odores nem bactérias, evitam alergias no queixo e são muito fáceis de higienizar no dia a dia."
+        }
+      }
+    ]
+  }
+}

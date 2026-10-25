@@ -76,38 +76,5 @@
     "query": "cat toothbrush toothpaste",
     "indice": 5,
     "arquivo": "data/visual/candidatos/como-acostumar-gato-filhote-a-usar-a-escova-de-dentes/5.jpg"
-  },
-  {
-    "fonte": "ia-flux",
-    "id": "ia0",
-    "url_download": "",
-    "url_pagina": "https://www.tutorialpet.com.br",
-    "fotografo": "Tutorial Pet (imagem gerada por IA)",
-    "fotografo_url": "https://www.tutorialpet.com.br",
-    "query": "Professional photograph of a cute kitten sniffing a small cat toothbrush lying o",
-    "indice": 6,
-    "arquivo": "data/visual/candidatos/como-acostumar-gato-filhote-a-usar-a-escova-de-dentes/6.jpg"
-  },
-  {
-    "fonte": "ia-flux",
-    "id": "ia1",
-    "url_download": "",
-    "url_pagina": "https://www.tutorialpet.com.br",
-    "fotografo": "Tutorial Pet (imagem gerada por IA)",
-    "fotografo_url": "https://www.tutorialpet.com.br",
-    "query": "Professional photograph of a fluffy kitten sitting next to a pet toothbrush and ",
-    "indice": 7,
-    "arquivo": "data/visual/candidatos/como-acostumar-gato-filhote-a-usar-a-escova-de-dentes/7.jpg"
-  },
-  {
-    "fonte": "ia-flux",
-    "id": "ia2",
-    "url_download": "",
-    "url_pagina": "https://www.tutorialpet.com.br",
-    "fotografo": "Tutorial Pet (imagem gerada por IA)",
-    "fotografo_url": "https://www.tutorialpet.com.br",
-    "query": "Professional photograph of a curious kitten looking at the camera with a small f",
-    "indice": 8,
-    "arquivo": "data/visual/candidatos/como-acostumar-gato-filhote-a-usar-a-escova-de-dentes/8.jpg"
   }
 ]
