@@ -256,7 +256,8 @@ temas:
   data: '2026-10-25'
 - termo: como escolher fonte de agua ideal para gatos que tem medo
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-25'
 - termo: como identificar sinais de estresse em caes multicaes em espaco pequeno
   pilar: comportamento
   status: pendente
@@ -786,4 +787,10 @@ temas:
   status: pendente
 - termo: qual a melhor tigela interativa para gatos que comem rapido demais
   pilar: produtos_compras
+  status: pendente
+- termo: quais os melhores produtos para higienizacao de ambiente com pets
+  pilar: produtos_compras
+  status: pendente
+- termo: o que e essencial comprar para a chegada do filhote de cachorro
+  pilar: primeiros_passos_filhotes
   status: pendente
