@@ -50,6 +50,12 @@ sugestoes_links_internos:
   ancora_sugerida: como socializar filhote de gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico.jsonld.json
+imagem_capa: imagens/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico.jpg
+imagem_fonte: pexels
+imagem_fotografo: Rahul Katare
+imagem_fotografo_url: https://www.pexels.com/@rhlkatare
+imagem_url_pagina: https://www.pexels.com/photo/adorable-labrador-puppy-sitting-indoors-35942005/
+imagem_selecionada_em: '2026-10-25T14:26:22+00:00'
 ---
 
 # Como ensinar filhote a fazer xixi no tapete higiênico
