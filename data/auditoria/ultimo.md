@@ -1,8 +1,8 @@
-# Auditoria do processo — 2026-10-25 19:36 UTC
+# Auditoria do processo — 2026-10-25 22:28 UTC
 
-Pacote: `como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria` — 1 aviso(s)
+Pacote: `como-criar-rotina-de-exercicios-mentais-para-gatos-idosos` — 1 aviso(s)
 
-- **OK ** duração 42 s (padrão: 15 a 60 s)
+- **OK ** duração 44 s (padrão: 15 a 60 s)
 - **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
 - **OK ** gancho com 10 palavras (padrão: até ~12)
@@ -15,4 +15,4 @@ Pacote: `como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria` 
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~546 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~610 (saldo do plano: ver painel)

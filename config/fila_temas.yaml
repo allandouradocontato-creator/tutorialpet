@@ -268,7 +268,8 @@ temas:
   data: '2026-10-25'
 - termo: como criar rotina de exercicios mentais para gatos idosos
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-25'
 - termo: quais petiscos naturais congelados posso dar no calor
   pilar: alimentacao
   status: pendente
@@ -807,4 +808,7 @@ temas:
   status: pendente
 - termo: como acostumar gato adulto com visitas em casa
   pilar: comportamento
+  status: pendente
+- termo: como montar uma horta de gatinho segura com graminha pet
+  pilar: alimentacao
   status: pendente
