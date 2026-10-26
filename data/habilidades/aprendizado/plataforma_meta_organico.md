@@ -18,3 +18,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-25 | decisão do Diretor: canal do piloto segue FB+IG; PDF pronto, falta ok do Allan e Chrome; cartão de imagem ainda agendado (contra E97) vai ao Allan | n=0 janela de 72 h (FB 8, IG 0) | mantém
 2026-10-25 | portão de gancho (frame 0 ≤6 palavras) barra 100% dos pacotes recentes, inclusive os já agendados | n=10 pacotes testados, 10 barrados | ALTERA: Roteirista/portão precisam alinhar; agendador não agendou novos
 2026-10-26 | portão de gancho + estoque 3 dias | 2 pacotes agendados (28/10 C, 29/10 A), 2 barrados por gancho (n=4) | mantém
+2026-10-26 | passo 8 (meme só no horário provado) e passo 5 (gancho em 3 peças) | FB meme r23 n=2 abaixo de 1,5x; FB mediana 208 views (n=12), IG alcance 37 | mantém, meme só em FB 08:30/21:00 e IG 08:40/21:10

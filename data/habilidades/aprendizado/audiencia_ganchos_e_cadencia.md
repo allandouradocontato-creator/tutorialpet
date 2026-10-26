@@ -12,3 +12,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-10-24 | regra das 3 linhas/uma variável por vez: não troquei gancho/CTA sem janela de 72 h; E97-E99 do Estrategista acatados | n=0 posts do lote com 72 h | mantém
 2026-10-25 | regras 3-6: matriz segmento×motivação×formato×gancho; CTA binário 1/2; MIMO→DM fora (ok do Allan pendente, PDF pronto) | 3 células, n=0 leituras com 72 h | mantém
 2026-10-25 | regra de uma variável por vez: isca MIMO mantida, nenhuma troca sem janela de 72 h | n=0 leituras (isca não está ao ar) | mantém
+2026-10-26 | regras 3-6 (matriz, CTA binário 1/2, 70/30) em lote completo de 14: 10 prova/4 teste, payoff no s4 (E114) | 14 ideias, n=0 posts do lote lidos; r23 meme FB 61/IG 65 vs artigo 208/37 | mantém

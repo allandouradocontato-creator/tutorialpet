@@ -1,3 +1,24 @@
+Dados até 2026-10-26 08:45 (Fortaleza) — Zernio analytics (FB, IG; sync 26/10 10:13Z, posts de 22-25/10, n=34); Buffer/TikTok e follower-stats NÃO lidos nesta rodada (números = estrategia_social.md de 26/10 07:35).
+# Medição — segunda 26/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
+1. Comentários de terceiros: FB/IG 0 identificáveis (cada post tem 1 comentário = o nosso link); lote 22-25/10: FB 12 posts mediana 208 views, IG 12 posts alcance mediana 37. Memes do lote r23: "plantão na porta" FB 61/IG 65, "cargo do pet" 0/0 (mídia não entregue?). TikTok: 6 comentários em 46 posts (26/10 07:35). Meta ≥5/vídeo: não atingida.
+2. Compartilhamentos: FB 0; IG 2 nos 12 posts de 22-25/10 (22/10 14:03 e 24/10 16:04); TikTok 16 em 46 (todos nos vídeos de 40 s+).
+3. Seguidores: FB 8, IG 0, TikTok 19 (último valor conhecido; Zernio follower-stats falha, Buffer não informa).
+4. Cliques no blog: FB 178 cliques somados na API (92 posts, estrategia_social 26/10); IG 0. Sessões orgânicas e cliques do Search Console: sem dado (pendência: Allan exportar Desempenho > Consultas).
+5. Vendas: sem dado (Kiwify não lido; pendência E61 verificação de identidade).
+Campeão: nenhum para comentário. Views: F2 flagrante (FB 562, 17/10) continua o máximo; no lote 22-25/10 o topo é "carro, erro fatal" 314 e "unha" 254 (artigos, FB).
+## Conta do formato novo (meme x artigo) — ATUALIZADA 26/10
+FB: meme lote r23 n=2 (61 e 0) contra artigo mediana 208 → ABAIXO de 1,5x e agora abaixo de 1x neste lote; histórico 303,5 (n=8) ÷ 216,5 = 1,40x. IG: n=2 (65 e 0) contra 37 → sem n para concluir (histórico 2,77x passa). Mín. 5 posts não cumprido: segue PARCIAL. Decisão do lote: o novo lote é de vídeo 6-10 s com TEMA novo e fórmula já provada; meme só nos slots em que provou (FB 08:30/21:00, IG 08:40/21:10). Conferir antes de agendar que a mídia responde 200 (E: posts "cargo" com 0 views).
+## Prova do lote r26 (uma variável por vez; leitura 72 h, n≥5 por braço)
+X17 Tema novo, fórmula conhecida: trend/folga (G1, C1) × evergreen (G2, G4, C2, C3, C6): views e comentário de terceiro em 72 h; trend perde em 31/10.
+X18 CTA A (binária 1/2) × B (aberta), mesma arte, redes diferentes; prova = comentário de terceiro por 1.000 views (continua X2; n=0 lido até aqui).
+X19 Pergunta numérica (G7, C5) × piada (resto): tempo médio e comentário. Hipótese: número retém (TikTok 7,46 s), piada comenta.
+X20 Prova × teste próprio: 10 × 4 (G3, G7, C4, C7); mantém 70/30 se o teste empatar ou ganhar.
+X21 Gato × cachorro no formato "pergunta numérica" (G7 × C5): mesma estrutura, animal diferente.
+X22 Retenção: payoff no 4º segundo (E114) × atual; prova = % no s5 (meta ≥55%) e tempo médio FB ≥4,5 s.
+X14 MIMO→DM (G7): 0 até o ok do Allan; depois medir DMs "MIMO" por 100 views.
+Hashtags (humor): FB 3 (#humorpet + animal + #tutorialpet), IG 5 (+#pets #pet), TikTok 3-5 sem #fyp/#viral; comparar só dentro da mesma rede (X9). Horário: sem horário novo; slots: G1/C1 qua 28/10 e ter 27/10 (trend), resto no primeiro slot livre do dia, ≥10 min de outro post.
+Próxima leitura: 27/10 (E105-E108/E111) e 29/10 (72 h do r25) / 02/11 (r26).
+
 Dados até 2026-10-25 08:30 (Fortaleza) — sem leitura nova de Zernio/Buffer nesta rodada (domingo, rodada curta); números = estrategia_social.md de 25/10 07:08 (Zernio sync 04:48, Buffer até 00:09).
 # Medição — domingo 25/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
 1. Comentários de terceiros: FB 35 comentários em 44 posts, quase todos o nosso link; IG sem comentário de terceiro; TikTok 2 em 35. Meta ≥5/vídeo.
