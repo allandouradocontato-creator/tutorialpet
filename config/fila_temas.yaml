@@ -276,7 +276,8 @@ temas:
   data: '2026-10-26'
 - termo: como escolher fonte bebedouro eletrica para varios pets
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-26'
 - termo: como adaptar a rotina da casa para caes e gatos seniores
   pilar: cuidados_diarios
   status: pendente
@@ -856,5 +857,11 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: melhor ração para gato castrado como comparar rotulos
+  pilar: produtos_compras
+  status: pendente
+- termo: como identificar sinais de dor articular em gatos senior
+  pilar: cuidados_diarios
+  status: pendente
+- termo: melhores brinquedos olfativos para gatos de apartamento ansiosos
   pilar: produtos_compras
   status: pendente
