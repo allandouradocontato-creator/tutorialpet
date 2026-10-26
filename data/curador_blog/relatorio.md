@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 25/10/2026 18:25
+# Relatório do Curador do Blog — 26/10/2026 22:47
 
-90 artigos auditados, 5 com problema bloqueante.
+95 artigos auditados, 5 com problema bloqueante.
 
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -46,11 +46,20 @@
 - ok | como-adaptar-a-casa-para-um-cachorro-idoso
     - [aviso] curto (824 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] título com 83 caracteres (ideal até 70)
 - ok | como-cortar-unha-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 80 caracteres (ideal até 70)
+- ok | como-criar-rotina-de-exercicios-mentais-para-gatos-idosos
+    - [aviso] curto (865 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] menos de 4 seções H2
@@ -79,6 +88,8 @@
 - ok | como-escolher-coleira-com-rastreador-gps-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-comedouro-duplo-elevado-para-gatos-idosos
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-escolher-fonte-bebedouro-eletrica-para-varios-pets
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo
     - [aviso] curto (830 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
@@ -204,6 +215,8 @@
 - ok | quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 77 caracteres (ideal até 70)
+- ok | quais-petiscos-naturais-congelados-posso-dar-no-calor
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | quais-petiscos-naturais-posso-dar-para-o-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras

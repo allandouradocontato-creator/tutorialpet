@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como adaptar a rotina da casa para cães e gatos seniores",
+    "description": "Como adaptar a rotina da casa para cães e gatos seniores. O envelhecimento dos animais de estimação acontece de forma gradual e silenciosa. Cães e...",
+    "datePublished": "2026-10-26",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A partir de qual idade cães e gatos são considerados seniores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, cães de porte grande entram na fase sênior por volta dos 6 ou 7 anos, enquanto cães pequenos e gatos alcançam essa etapa entre 8 e 10 anos. O médico-veterinário pode determinar o estágio individual com base nos exames de rotina."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É normal o cão ou gato idoso miar e latir durante a noite?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é considerado normal. Esse comportamento costuma sinalizar dor crônica (como artrose), perda de visão/audição ou disfunção cognitiva. Uma avaliação veterinária é indispensável para identificar a causa e iniciar o tratamento adequado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se o pet está cansado durante o passeio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Fique atento a passos arrastados, paradas frequentes, respiração muito ofegante ou relutância em continuar andando. Se notar qualquer um desses sinais, faça uma pausa na sombra e retorne para casa sem forçar o trajeto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso mudar os móveis de lugar tendo um pet idoso em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evite reorganizar os móveis com frequência. Animais idosos que sofrem com visão ou audição reduzida usam a memória espacial e o olfato para se locomover com segurança; mudanças bruscas podem gerar colisões e ansiedade extrema.  ---"
+        }
+      }
+    ]
+  }
+}

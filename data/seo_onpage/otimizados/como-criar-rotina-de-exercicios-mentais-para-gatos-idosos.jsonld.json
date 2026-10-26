@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como criar rotina de exercicios mentais para gatos idosos: guia prático",
+    "description": "Como criar rotina de exercicios mentais para gatos idosos: guia prático. Manter o cérebro do felino ativo na terceira idade é essencial para preservar...",
+    "datePublished": "2026-10-25",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Com que idade um gato é considerado idoso para começar esses exercícios?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, os gatos passam a ser considerados sênior ou idosos a partir dos sete a dez anos de vida, momento ideal para adaptar a rotina preventiva."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Meu gato idoso passa o dia todo dormindo. Devo acordá-lo para brincar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O ideal é aproveitar os momentos em que ele já demonstra sinais naturais de vigília para propor os desafios mentais de forma leve."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar qualquer tipo de petisco nos quebra-cabeças mentais?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prefira petiscos saudáveis, aromáticos e em pedaços bem pequenos para não desbalancear a dieta diária nem sobrecarregar o sistema digestivo do animal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que fazer se o gato ignorar completamente o brinquedo interativo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Facilite o acesso deixando o alimento à mostra e reduza a dificuldade. Gatos idosos podem perder o interesse rapidamente se o desafio parecer frustrante demais."
+        }
+      }
+    ]
+  }
+}

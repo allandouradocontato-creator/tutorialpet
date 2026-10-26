@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático",
-    "description": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático. Dar petiscos naturais é uma delícia para fortalecer o vínculo com...",
+    "description": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático. Oferecer petiscos naturais é uma excelente forma de enriquecer a...",
     "datePublished": "2026-10-25",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso dar petiscos naturais todos os dias?",
+        "name": "Posso dar frutas e legumes todos os dias como petiscos?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, desde que estejam dentro do limite de 10% das calorias diárias e sejam seguros para a espécie.  - **Como saber se estou exagerando nos petiscos?** O principal sinal de excesso é o ganho de peso perceptível na balança ou a recusa da ração habitual.  - **O cálculo é igual para cães e gatos?** A lógica dos 10% é parecida, mas gatos costumam precisar de porções muito menores devido ao porte e exigem atenção redobrada aos itens permitidos.  - **Preciso descontar a ração se der petisco?** Se o pet tiver tendência à obesidade ou estiver em dieta de emagrecimento, sim, é necessário reduzir um pouco a ração para compensar as calorias extras."
+          "text": "Sim, desde que estejam dentro do limite calórico diário de 10% e sejam opções seguras para a espécie, sempre sem açúcar, sal ou temperos.  - **Como saber se o petisco natural é seguro para o meu animal?** Consulte listas de alimentos permitidos e proibidos e confirme sempre com o médico-veterinário, pois itens comuns na nossa cozinha podem ser tóxicos para pets.  - **Preciso descontar a ração se der petiscos naturais?** Sim, caso a quantidade de petiscos ultrapasse pequenos mimos e o pet tenha tendência a engordar, é fundamental reduzir levemente a porção da ração.  - **Gatos podem comer a mesma quantidade de petiscos naturais que cães?** Não. Como os gatos geralmente têm menor porte e necessidades calóricas bem menores, a porção de petiscos deve ser proporcionalmente muito menor."
         }
       }
     ]
