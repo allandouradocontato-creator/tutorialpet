@@ -17,3 +17,4 @@
 2026-10-25 | 19:25 redispatch capas_coerentes (falha por rebase) + disparo artigo 4/4 | aguardando verde (E34) | mantém
 2026-10-26 | 07:20 fabrica_disparo (blog 1/3) + ficha V14 (capas/pacote sem video) | aguardando artigos 2/3 e capas (n=1) | mantém
 2026-10-26 | 11:25 fabrica redisparada (REST) + disparo 2 artigos + ficha V15 (Gemini 429/coerencia de capa) | aguardando publicar_blog verde e blog 3/3 (E34, n=1) | mantém
+2026-10-26 | 15:25 publicar_blog redisparado (REST) + ficha V16 (rampa sem video.mp4); rascunhos sem Fontes não promovidos | #59 verde; blog 2/3 (E34, n=1) | mantém

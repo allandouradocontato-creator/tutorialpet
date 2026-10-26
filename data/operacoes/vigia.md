@@ -1,14 +1,14 @@
-Dados até 2026-10-26 11:30 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero); ffluxo com falha: 1 (publicar_blog)
-CORRIGI: 2 (fabrica redisparada; disparo de 2 artigos + ficha V15) | PRECISO DO ALLAN: 0 | abertos com dono nuvem: V10-V15, E115
+Dados até 2026-10-26 15:25 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero); fluxo com falha: publicar_blog 10:20 (já redisparado)
+CORRIGI: 1 (publicar_blog redisparado via REST: #59 verde 15:22) | PRECISO DO ALLAN: 0 | abertos nuvem: V10-V16, E115, E117
 | rotina | estado | último run / idade | problema | correção |
 |---|---|---|---|---|
 | rotinas ativas (17) | ok | todas SUCCEEDED; só o Vigia PENDING (esta rodada); nenhuma next_run vencida; 11 desligadas por decisão de 22/10 | - | nada |
-| fabrica.yml | ok | verde 26/10 07:21 (~4 h); redisparada 11:28 | - | - |
-| publicar_blog.yml | FALHOU | 26/10 10:20 (13:20Z) failure; verde anterior 03:22 (~8 h) | Gemini 429 + foto sem coerência: exercicios-mentais-gatos-idosos reprovado; issue #14 | V15 (afrouxar coerência no 429); fabrica redisparada |
-| blog (ritmo) | 1/3 | 1 artigo hoje (03:29); plano 3 | 0 rascunhos com Fontes; capa bloqueia | linha em fabrica_disparo.txt + V15 |
-| AdSense | 3 FALHA | auditoria 11:2x | 5 sem capa; 7 sem Fontes; buraco 15/09-06/10 (histórico) | V11/V13/V14/V15 |
-| Zernio/Buffer | 6 em erro | Zernio: meme FB+IG imagem (E117) e gatinho-calmo FB 422/IG URL; Buffer TikTok: sinais-envelhecimento e caixa-transporte (video.mp4 404) | pacote sem arquivo | V10/V14/E115 |
-| estoque posts | ok | Zernio 18 agendados; TikTok agendado até 28/10 | - | - |
-| Issues | #14 nova (blog), #7 SAUDE antiga | - | #14 = V15 | Executor fecha após verde |
-Idade do último resultado: artigo ~8 h; fábrica ~4 h; publicar_blog verde ~8 h; home 200.
-Evidência a conferir (E34): publicar_blog verde com 2º artigo e auditoria sem as 5 capas.
+| fabrica.yml | ok | verde 26/10 13:17 (~2 h) | - | - |
+| publicar_blog.yml | ok | #58 falhou 10:20 (Gemini 429 + capa sem coerência); #59 verde 15:22 (redisparo) | issue #14 aberta | Executor fecha após conferir; V15 afrouxar coerência |
+| blog (ritmo) | 2/3 | 2 artigos hoje (petiscos, estresse); plano 3 | 12 rascunhos sem página, nenhum com Fontes (0 links): não promovidos (regra 31/AdSense) | fábrica disparada 11:25 (fabrica_disparo), V15 |
+| AdSense | 3 FALHA | auditoria 26/10 | buraco 15/09-06/10 (histórico); capas e Fontes | V11/V13/V15 |
+| Zernio/Buffer | 6 Zernio falhos + 2 Buffer em erro | mesmos de 11:25 | media URL 404 / imagem; rampa (20:20) vai falhar | V10/V14/V16/E115/E117 |
+| estoque posts | ok | Zernio 16 agendados; TikTok 8 agendados até 29/10 | - | - |
+| ElevenLabs | sem dado | creditos_eleven #7 de 20/10 | saldo ilegível | - |
+Idade do último resultado: artigo ~9 h (06:29Z); fábrica ~2 h; publicar_blog verde agora; home 200.
+Evidência E34: #59 SUCCEEDED, mas blog segue 2/3 e issue #14 aberta.
