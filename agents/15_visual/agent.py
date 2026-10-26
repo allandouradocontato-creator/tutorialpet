@@ -164,6 +164,10 @@ def select_candidate(slug: str, indice: int, site: dict, log) -> dict:
         raise FileNotFoundError(f"nenhum candidato baixado para '{slug}' — rode --fetch-candidatos primeiro")
     candidatos = json.loads(candidatos_path.read_text(encoding="utf-8"))
     escolhido = next((c for c in candidatos if c["indice"] == indice), None)
+    if not escolhido and candidatos:
+        # V09/E113: candidatos refeitos em paralelo mudam os índices; usa o primeiro disponível em vez de falhar
+        escolhido = candidatos[0]
+        log(f"índice {indice} ausente em '{slug}'; usando candidato {escolhido['indice']}") if callable(log) else None
     if not escolhido:
         raise ValueError(f"índice {indice} não existe entre os candidatos de '{slug}'")
 
