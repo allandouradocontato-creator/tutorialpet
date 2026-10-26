@@ -1,6 +1,6 @@
 {
   "slug": "como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-25T19:34:38+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria",
   "voz": {
@@ -26,5 +26,12 @@
     ],
     "em": "2026-10-25T19:36:00+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-26T08:20-03:00",
+  "agendado_dia": "2026-10-29",
+  "post_ids": {
+    "facebook": "6adf37922524d4a3d16cd86a",
+    "instagram": "6adf379549c8a198167fad65",
+    "tiktok": "6adf37994dcf9e76ce4dcbdd"
+  }
 }

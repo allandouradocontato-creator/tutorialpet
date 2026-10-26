@@ -1,6 +1,6 @@
 {
   "slug": "como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-25T17:08:00+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno",
   "voz": {
@@ -27,5 +27,12 @@
     ],
     "em": "2026-10-25T17:09:27+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-26T08:20-03:00",
+  "agendado_dia": "2026-10-28",
+  "post_ids": {
+    "facebook": "6adf378e49c8a198167fad4b",
+    "instagram": "6adf37901080c5c1b22f589a",
+    "tiktok": "6adf3797b347bedfc1d9ae7a"
+  }
 }
