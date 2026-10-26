@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 16
-atualizado_em: "2026-10-25 07:08 Fortaleza"
+versao: 17
+atualizado_em: "2026-10-26 07:35 Fortaleza"
+versao_anterior_atualizado_em_16: "2026-10-25 07:08"
 # anterior: "2026-10-23 07:30"  # rodada 23/10 07:19 (12a edicao): E50-E54, FB 12:00 meme aberto (E21 cumprido), #pet/#pets, perguntas do lote 23/10
 versao_anterior_atualizado_em_15: "2026-10-22 08:00"  # rodada 22/10 07:35 (11a edicao): regra FB/IG nunca no mesmo minuto (E23); serie 7 erros = cartao de imagem (viola c); preco velho em 4 arquivos (E22 ampliada)
 versao_anterior_atualizado_em_14: "2026-10-21 17:25"  # rodada 17:07 (10a edicao): E21 FB 12:00 em observacao; E22 preco velho; isca_digital reescrita como ESTADO
@@ -265,3 +266,10 @@ perguntas_lote_2026_10_25:   # formato binario/numerado (E108); link so no 1o co
     - "Passeio do seu cachorro: 1 só de manhã, 2 só à tarde, 3 os dois?"
     - "Seu filhote dorme: 1 na cama dele, 2 na sua, 3 onde quiser?"
     - "Brinquedo do seu cachorro: 1 bolinha, 2 mordedor, 3 pelúcia?"
+rodada_2026_10_26_0735:
+  achado: "retencao FB (n=45 videos, mediana): s3 93%, s4 61%, s5 46%, s8 27%; gancho segura 3 s e perde 32 pts no s4 (falta payoff). Hipotese"
+  regra_E114: "resposta/resultado ate o s4 (texto na tela); pergunta binaria so no fim; so itens NAO agendados; 6 videos FB/IG + 4 TikTok; prova 28/10: retencao FB s5 >=55%, tempo >=4,5 s, IG skip <=60%, TikTok tempo >=3 s"
+  erros: "TikTok caixa-de-transporte em error (video.mp4 ausente na media); sinais-de-envelhecimento (26/10 10:20) e rampa-pet (26/10 20:20) com o mesmo risco; Zernio 2 cartoes de imagem falhos (nao retentar)"
+  horarios_mantidos: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"], nota: "FB 14:00 extra com mediana 230 (n=10); sem sinal por horario; releitura 03/11"}
+  numeros: {fb_video: "mediana 206 views, tempo 3,3 s, <6 s em 82/92", ig_video: "alcance 44, skip 68,3%, >70% em 27/60", tiktok: "n=46 mediana 189, tempo 2,3 s, 16 shares, 38/46 <4 s"}
+  fila: "Zernio 8 pares FB+IG ate 28/10 14:00; Buffer TikTok 7 (26/10 10:20 a 28/10 14:20)"
