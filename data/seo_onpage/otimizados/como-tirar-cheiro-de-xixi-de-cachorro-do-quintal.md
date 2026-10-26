@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal.jsonld.json
+imagem_capa: imagens/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal.jpg
+imagem_fonte: pexels
+imagem_fotografo: JacLou- DL
+imagem_fotografo_url: https://www.pexels.com/@jaclou-dl
+imagem_url_pagina: https://www.pexels.com/photo/adorable-puppy-sniffing-a-purple-flower-in-garden-37662145/
+imagem_selecionada_em: '2026-10-26T22:37:41+00:00'
 ---
 
 # Como tirar cheiro de xixi de cachorro do quintal: guia prático

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

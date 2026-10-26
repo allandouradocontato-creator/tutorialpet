@@ -52,6 +52,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos.jsonld.json
+imagem_capa: imagens/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos.jpg
+imagem_fonte: pexels
+imagem_fotografo: Andres  Ayrton
+imagem_fotografo_url: https://www.pexels.com/@andres-ayrton
+imagem_url_pagina: https://www.pexels.com/photo/black-couple-with-appetizing-pizza-and-salad-near-dog-6578848/
+imagem_selecionada_em: '2026-10-26T22:35:38+00:00'
 ---
 
 # Como organizar a rotina de alimentacao de caes e gatos juntos: guia prático

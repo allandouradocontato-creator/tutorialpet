@@ -52,7 +52,7 @@ imagem_fonte: pexels
 imagem_fotografo: Cats Coming
 imagem_fotografo_url: https://www.pexels.com/@catscoming
 imagem_url_pagina: https://www.pexels.com/photo/cat-licking-its-paw-3712095/
-imagem_selecionada_em: '2026-10-25T22:33:31+00:00'
+imagem_selecionada_em: '2026-10-26T22:32:17+00:00'
 ---
 
 # Como escovar pelo de gato que nao gosta de escova: guia prático
