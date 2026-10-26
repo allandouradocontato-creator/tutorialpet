@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 31347233,
+    "url_download": "https://images.pexels.com/photos/31347233/pexels-photo-31347233.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-dog-resting-on-a-sofa-in-black-and-white-31347233/",
+    "fotografo": "Peter Jochim",
+    "fotografo_url": "https://www.pexels.com/@peterjochim-fotografie",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "old dog resting alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4331585,
+    "url_download": "https://images.pexels.com/photos/4331585/pexels-photo-4331585.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/spotted-mongrel-dog-resting-on-street-near-house-in-countryside-4331585/",
+    "fotografo": "Borta",
+    "fotografo_url": "https://www.pexels.com/@borta-2790256",
+    "largura": 4000,
+    "altura": 3000,
+    "query": "old dog resting alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37909883,
+    "url_download": "https://images.pexels.com/photos/37909883/pexels-photo-37909883.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-calico-cat-portrait-with-fluffy-fur-37909883/",
+    "fotografo": "Nikolett Emmert",
+    "fotografo_url": "https://www.pexels.com/@nikiemmert",
+    "largura": 5927,
+    "altura": 3951,
+    "query": "senior cat portrait isolated white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37909882,
+    "url_download": "https://images.pexels.com/photos/37909882/pexels-photo-37909882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-black-and-white-cat-on-pink-background-37909882/",
+    "fotografo": "Nikolett Emmert",
+    "fotografo_url": "https://www.pexels.com/@nikiemmert",
+    "largura": 5788,
+    "altura": 3859,
+    "query": "senior cat portrait isolated white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7875593,
+    "url_download": "https://images.pexels.com/photos/7875593/pexels-photo-7875593.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-with-black-and-brown-fur-7875593/",
+    "fotografo": "Elizabeth Iris",
+    "fotografo_url": "https://www.pexels.com/@outandaboutwithliz",
+    "largura": 6291,
+    "altura": 4194,
+    "query": "senior cat portrait isolated white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1331821,
+    "url_download": "https://images.pexels.com/photos/1331821/cat-eyes-angry-suspicious-1331821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/closeup-photo-of-gray-cat-1331821/",
+    "fotografo": "ClickerHappy",
+    "fotografo_url": "https://www.pexels.com/@clickerhappy",
+    "largura": 4750,
+    "altura": 3171,
+    "query": "senior cat portrait isolated white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores/5.jpg"
+  }
+]
