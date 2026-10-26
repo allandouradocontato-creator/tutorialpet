@@ -1,0 +1,31 @@
+{
+  "slug": "quais-petiscos-naturais-congelados-posso-dar-no-calor",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-26T10:46:22+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/quais-petiscos-naturais-congelados-posso-dar-no-calor",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "gancho repetido de um dos últimos 5 vídeos (abertura_problema_pet)",
+      "coerência espécie cachorro: espécie errada (esperado cachorro) nos quadros [3] [cf]"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (gr0za-happy-happy-music-569345.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-10-26T10:51:14+00:00"
+  }
+}
