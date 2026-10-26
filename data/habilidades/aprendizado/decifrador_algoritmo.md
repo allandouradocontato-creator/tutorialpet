@@ -8,3 +8,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 | 2026-10-22 | passos 3 e 4 (n por braço e um fator só): proposto só a legenda como fator; 3 posts por braço, então PARCIAL por desenho | n=0 (6 posts, 25/10 ~12:00) | mantém; avisar o Diretor que n<5 não decide
 2026-10-24 | regra de decisão: n<3 = NEUTRO; medição de seguidores indisponível, não inferir causa | n=0 | mantém
 2026-10-25 | n<3 = NEUTRO: T6/T7 sem dado, não inferi causa; E112 busca outra leitura de seguidores | n=0 | mantém
+2026-10-26 | n<3 = NEUTRO; seguidores lidos (FB 9, IG 0, TT 21), causa não inferida | n=0 janelas de isca | mantém

@@ -6,3 +6,4 @@ Skill: biblioteca/habilidades/analise_referencia_viral.md (v2, 22/10/2026). Uma 
 |---|---|---|---|
 2026-10-24 | lida; Guerrilha 23/10 sem post elegível de referência (<3 h), nada a analisar | n=0 | mantém
 2026-10-25 | lida; Guerrilha 24/10 sem post elegível de referência (casos sensíveis pulados) | n=0 | mantém
+2026-10-26 | lida; Guerrilha 25/10 sem post elegível de referência | n=0 | mantém

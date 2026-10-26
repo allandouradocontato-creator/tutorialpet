@@ -6,3 +6,4 @@ Skill: biblioteca/habilidades/criativo_venda_low_ticket.md (v2, 22/10/2026). Uma
 |---|---|---|---|
 2026-10-24 | lida; venda só depois do mimo (R$ 27 citado só após a carteirinha), nada de venda hoje | n=0 vendas | mantém
 2026-10-25 | venda só depois do mimo: 4 posts do app agendados vendendo antes do mimo vão ao Allan | n=0 vendas | mantém
+2026-10-26 | venda só depois do mimo: nada de venda hoje; posts do app agendados antes do mimo seguem como pedido ao Allan | n=0 vendas | mantém

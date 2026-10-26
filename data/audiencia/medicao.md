@@ -102,3 +102,6 @@ Alerta: 5 posts agendados com gancho banido gravado no vídeo (lista no arquivo 
 Atualização 23/10 09:30 (Diretor, Zernio follower-stats 09:21): FB 8 (+1 em 3 dias), IG 0, TikTok sem dado. Isca ainda não ao ar.
 
 Atualização 24/10 09:30 (Diretor de Audiência): Zernio follower-stats falha (kwarg 'limit'); último valor FB 8, IG 0, TikTok 19. Isca ainda não ao ar (E27 aberta, E100). Comentários de terceiros e DMs: 0 novo.
+
+## Atualização 26/10 09:35 (Diretor de Audiência)
+Zernio accounts_get_follower_stats FUNCIONA com from_date/to_date (sem limit): FB 9 (7→8 em 21/10, 8→9 em 25/10; +2 em 7 dias), IG 0 (7 pontos parados, 71 posts). TikTok 21 (Guerrilha 24/10). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca ainda NÃO ao ar: janela de 72 h não começou = NEUTRO.
