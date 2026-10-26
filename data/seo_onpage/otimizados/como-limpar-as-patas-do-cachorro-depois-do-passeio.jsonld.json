@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-limpar-as-patas-do-cachorro-depois-do-passeio"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-limpar-as-patas-do-cachorro-depois-do-passeio.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

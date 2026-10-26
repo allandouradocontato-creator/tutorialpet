@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-evitar-choque-termico-em-cachorros-nos-dias-quentes"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-evitar-choque-termico-em-cachorros-nos-dias-quentes.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como identificar sinais de estresse em caes multicaes em espaco pequeno: guia prático",
+    "description": "Como identificar sinais de estresse em caes multicaes em espaco pequeno: guia prático. Quem tem mais de um cachorro em casa sabe que a alegria é em...",
+    "datePublished": "2026-10-25",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Como saber se o estresse entre os cães pode virar briga séria?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se você notar olhares fixos prolongados, corpos totalmente rígidos e rosnados com exibição de dentes sem motivo aparente, a tensão está alta e pode eclodir em agressividade. Separe-os imediatamente e consulte um médico-veterinário ou especialista em comportamento.  - **Posso deixar os potes de ração juntos para economizar espaço?**   Não é recomendado em casas com vários cães. Potes próximos facilitam a guarda de recursos e aumentam muito o estresse e o risco de conflitos na hora da comida.  - **Espaço pequeno é o único motivo de estresse canino?**   Não. Falta de passeios adequados, barulhos excessivos na rua, mudanças na rotina da família e falta de estímulos mentais também causam estresse profundo, mesmo em casas grandes.  - **Quando devo procurar ajuda profissional?**   Sempre que os sinais de estresse persistirem mesmo após ajustes na rotina, ou se houver qualquer sinal de agressão física entre os animais, procure um médico-veterinário para descartar dores físicas e buscar um adestrador positivo."
+        }
+      }
+    ]
+  }
+}

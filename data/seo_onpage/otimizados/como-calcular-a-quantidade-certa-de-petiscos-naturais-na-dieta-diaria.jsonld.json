@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático",
+    "description": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático. Dar petiscos naturais é uma delícia para fortalecer o vínculo com...",
+    "datePublished": "2026-10-25",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar petiscos naturais todos os dias?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que estejam dentro do limite de 10% das calorias diárias e sejam seguros para a espécie.  - **Como saber se estou exagerando nos petiscos?** O principal sinal de excesso é o ganho de peso perceptível na balança ou a recusa da ração habitual.  - **O cálculo é igual para cães e gatos?** A lógica dos 10% é parecida, mas gatos costumam precisar de porções muito menores devido ao porte e exigem atenção redobrada aos itens permitidos.  - **Preciso descontar a ração se der petisco?** Se o pet tiver tendência à obesidade ou estiver em dieta de emagrecimento, sim, é necessário reduzir um pouco a ração para compensar as calorias extras."
+        }
+      }
+    ]
+  }
+}

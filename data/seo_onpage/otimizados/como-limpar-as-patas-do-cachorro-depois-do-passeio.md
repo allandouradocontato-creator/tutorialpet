@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-25'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-25T18:25:34+00:00'
+revisado_em: '2026-10-26T06:25:14+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -35,7 +35,7 @@ checagens_qualidade:
 titulo_seo: 'Como limpar as patas do cachorro depois do passeio: guia'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-25T18:25:34+00:00'
+otimizado_em: '2026-10-26T06:25:14+00:00'
 checagens_seo:
 - título original (64 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -53,6 +53,21 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-limpar-as-patas-do-cachorro-depois-do-passeio.jsonld.json
+imagem_capa: imagens/como-limpar-as-patas-do-cachorro-depois-do-passeio.jpg
+imagem_fonte: pexels
+imagem_fotografo: Jayson Lorenzo
+imagem_fotografo_url: https://www.pexels.com/@iamjaysonlorenzo
+imagem_url_pagina: https://www.pexels.com/photo/dog-lying-on-floor-1567681/
+imagem_selecionada_em: '2026-10-26T06:25:15+00:00'
+imagens_corpo:
+- arquivo: imagens/como-limpar-as-patas-do-cachorro-depois-do-passeio-corpo-1.jpg
+  alt: 'como limpar as patas do cachorro depois do passeio'
+  fotografo: 'Inge Van den Heuvel'
+  fonte_url: 'https://www.pexels.com/photo/brown-short-coated-dog-lying-on-floor-11497271/'
+- arquivo: imagens/como-limpar-as-patas-do-cachorro-depois-do-passeio-corpo-2.jpg
+  alt: 'como limpar as patas do cachorro depois do passeio'
+  fotografo: 'RDNE Stock project'
+  fonte_url: 'https://www.pexels.com/photo/dog-s-paws-in-close-up-photography-7516173/'
 ---
 
 # Como limpar as patas do cachorro depois do passeio: guia prático

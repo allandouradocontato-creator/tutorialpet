@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-25'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-25T18:25:34+00:00'
+revisado_em: '2026-10-26T06:26:06+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -35,7 +35,7 @@ checagens_qualidade:
 titulo_seo: Como evitar choque térmico em cachorros nos dias quentes
 keyword_density: 0.0078
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-25T18:25:34+00:00'
+otimizado_em: '2026-10-26T06:26:06+00:00'
 checagens_seo:
 - meta description recomposta para não ultrapassar 155 caracteres e/ou para trazer
   o termo-alvo mais perto do início.
@@ -55,6 +55,21 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-evitar-choque-termico-em-cachorros-nos-dias-quentes.jsonld.json
+imagem_capa: imagens/como-evitar-choque-termico-em-cachorros-nos-dias-quentes.jpg
+imagem_fonte: pexels
+imagem_fotografo: Rob Bach
+imagem_fotografo_url: https://www.pexels.com/@rob-bach-2256873
+imagem_url_pagina: https://www.pexels.com/photo/white-dog-in-close-up-shot-13447112/
+imagem_selecionada_em: '2026-10-26T06:26:07+00:00'
+imagens_corpo:
+- arquivo: imagens/como-evitar-choque-termico-em-cachorros-nos-dias-quentes-corpo-1.jpg
+  alt: 'como evitar choque termico em cachorros nos dias quentes'
+  fotografo: 'Perro Cacahuate'
+  fonte_url: 'https://www.pexels.com/photo/joyful-french-bulldog-in-a-sunlit-park-35319369/'
+- arquivo: imagens/como-evitar-choque-termico-em-cachorros-nos-dias-quentes-corpo-2.jpg
+  alt: 'como evitar choque termico em cachorros nos dias quentes'
+  fotografo: 'Brixiv'
+  fonte_url: 'https://www.pexels.com/photo/white-black-and-brown-border-collie-mix-5300046/'
 ---
 
 # Como evitar choque térmico em cachorros nos dias quentes

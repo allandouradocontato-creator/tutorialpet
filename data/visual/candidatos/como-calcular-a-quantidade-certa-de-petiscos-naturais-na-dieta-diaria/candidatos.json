@@ -1,0 +1,41 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 2194416,
+    "url_download": "https://images.pexels.com/photos/2194416/pexels-photo-2194416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-tabby-kitten-on-a-white-surface-2194416/",
+    "fotografo": "Tranmautritam",
+    "fotografo_url": "https://www.pexels.com/@tranmautritam",
+    "largura": 5149,
+    "altura": 3005,
+    "query": "cat organic snack isolated white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7333065,
+    "url_download": "https://images.pexels.com/photos/7333065/pexels-photo-7333065.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-pile-of-walnuts-7333065/",
+    "fotografo": "Evgeniy Alekseyev",
+    "fotografo_url": "https://www.pexels.com/@shliftik",
+    "largura": 5670,
+    "altura": 3780,
+    "query": "cat organic snack isolated white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 38698794,
+    "url_download": "https://images.pexels.com/photos/38698794/pexels-photo-38698794.png?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/fresh-juicy-strawberries-on-white-background-38698794/",
+    "fotografo": "Saravanan Narayanan",
+    "fotografo_url": "https://www.pexels.com/@snsn",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "cat organic snack isolated white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria/2.jpg"
+  }
+]
