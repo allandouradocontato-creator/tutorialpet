@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-10-26 14:44 UTC
+# Auditoria do processo — 2026-10-26 19:19 UTC
 
-Pacote: `como-escolher-fonte-bebedouro-eletrica-para-varios-pets` — 1 aviso(s)
+Pacote: `como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores` — 1 aviso(s)
 
-- **OK ** duração 50 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.5 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 40 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.7 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 10 palavras (padrão: até ~12)
+- **OK ** gancho com 13 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `como-escolher-fonte-bebedouro-eletrica-para-varios-pets` — 1 aviso(s)
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~677 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~519 (saldo do plano: ver painel)
