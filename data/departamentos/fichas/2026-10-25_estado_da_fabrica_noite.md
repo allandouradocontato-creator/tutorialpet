@@ -1,0 +1,13 @@
+# FICHA — Estado da fábrica 25/10 21:42 (Diretor de Operação e Qualidade)
+- Departamento / Diretor / data-hora: Operação e Qualidade / 2026-10-25 21:42 (Fortaleza)
+- Assunto e objetivo: fábrica sem etapa manual para o Allan; fechar V09-V13 e as linhas "decidido" no livro do Executor.
+- Pareceres: Vigia (25/10 19:19 SUCCEEDED, redisparou capas 22:20Z), Medidor (26/10 00:13Z SUCCEEDED; teste encerrado), Executor (25/10 06:53 SUCCEEDED; próxima 26/10 06:53), Segurança (semanal, próx 28/10). sem parecer do Otimizador.
+- Divergências: nenhuma.
+- DECISÃO: sem ALERTA. Publicar Blog #54 e #55 failure, mas #56 success (17:53Z) depois deles. Capas coerentes #14 failure → #15 success (22:20Z). Rehook #2 failure → #3 success. Fábrica #140-#150 e Saúde #30-#42 todas success.
+- Anti-gap (24 h): 4 artigos novos no ar (comedouro-duplo-gatos-idosos 11:07Z; fonte-de-agua-gatos-medrosos 17:58Z; filhote-gato-interagir-caes e petiscos-dentais 18:25Z); curl 200 nos 4.
+- Rotinas (list_triggers, ativas, 2 páginas): 0 FAILED; só esta rodada PENDING. Segurança sem rodar desde 21/10 (semanal, próx 28/10).
+- Diretores: Audiência 25/10 09:17 ok; Conteúdo 24/10 (seg/qui, próx 26/10 11:37); Produto 23/10 (ter/sex, próx 27/10): nenhum atrasado.
+- Livro: 28 linhas decidido/aberto; abertas relevantes V09-V13, E111, E112, D02/E09 (aguardam decisão do Allan sobre religar rotinas).
+- Ações: E113 (cobrança ao Executor 26/10 06:53).
+- Pedido ao Allan: nenhum novo (segue: A02 2FA/TikTok; ok por escrito para ligar MIMO ao vivo e OAuth Facebook no ManyChat; E61 verificação Kiwify).
+- Status: aprovada pelo Diretor
