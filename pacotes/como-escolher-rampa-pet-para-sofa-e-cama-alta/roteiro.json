@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como escolher a rampa certa para seu pet",
+  "gancho_3s": "Seu cachorro pula do sofá?",
+  "cenas": [
+    {
+      "narracao": "[smiling] Seu cachorro pula do sofá?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro pula do sofá?"
+    },
+    {
+      "narracao": "[softly] Pular direto da cama ou do sofá cobra caro das articulações dele com o tempo.",
+      "visual_busca_banco_livre": "dachshund looking up at bed",
+      "texto_na_tela": "Proteja as articulações do seu pet"
+    },
+    {
+      "narracao": "[short pause] Se a cama for alta, prefira rampas de cem a cento e vinte centímetros de comprimento.",
+      "visual_busca_banco_livre": "dog walking up pet ramp",
+      "texto_na_tela": "Comprimento: 100 cm a 120 cm"
+    },
+    {
+      "narracao": "A inclinação ideal fica entre vinte e trinta graus, sem forçar as patinhas.",
+      "visual_busca_banco_livre": "small dog standing on ramp indoors",
+      "texto_na_tela": "Inclinação segura: 20° a 30°"
+    },
+    {
+      "narracao": "Exija piso antiderrapante, como borracha ou carpete canelado, pra evitar qualquer escorregão perigoso.",
+      "visual_busca_banco_livre": "french bulldog walking down wooden ramp",
+      "texto_na_tela": "Superfície antiderrapante com tração"
+    },
+    {
+      "narracao": "As opções com catraca regulável são super versáteis e dão certo no sofá e na cama box.",
+      "visual_busca_banco_livre": "cat walking on pet ramp to sofa",
+      "texto_na_tela": "Rampas com altura regulável"
+    },
+    {
+      "narracao": "[thoughtful] E se o seu companheiro já tiver problemas articulares graves, consulte o médico-veterinário de confiança.",
+      "visual_busca_banco_livre": "senior dog lying resting on rug",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "[warmly] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#rampapet",
+    "#saudecanina",
+    "#cuidadoscomcães",
+    "#dachshundbrasil",
+    "#gatos"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 37 por apenas R$ 9,90. → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nPular da cama pode machucar seu pet!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta\n\n#rampapet #saudecanina #cuidadoscomcães #dachshundbrasil #gatos",
+  "slug": "como-escolher-rampa-pet-para-sofa-e-cama-alta",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 6
+}

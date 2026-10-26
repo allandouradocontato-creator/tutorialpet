@@ -22,7 +22,7 @@
     }
   },
   "rehook": {
-    "gancho_antigo": "Se o medo do seu cachorro fugir continua acontecendo com você, começa por aqui.",
+    "gancho_antigo": "Seu cachorro fugiria pelo portão?",
     "gancho_novo": "Seu cachorro fugiria pelo portão?"
   }
 }

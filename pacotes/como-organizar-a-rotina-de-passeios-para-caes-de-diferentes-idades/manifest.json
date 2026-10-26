@@ -1,6 +1,6 @@
 {
   "slug": "como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades",
-  "status": "aprovado",
+  "status": "aguardando_revisao",
   "criado_em": "2026-10-23T15:31:59+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades",
   "voz": {
@@ -22,24 +22,7 @@
     }
   },
   "rehook": {
-    "gancho_antigo": "Seu cachorro passeia errado? 3 fases da vida mudam tudo.",
+    "gancho_antigo": "Cada idade pede um passeio?",
     "gancho_novo": "Cada idade pede um passeio?"
-  },
-  "guardiao": {
-    "status": "ok",
-    "problemas": [],
-    "ok": [
-      "sem cenas repetidas no vídeo",
-      "14 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (gr0za-happy-happy-music-569345.mp3)",
-      "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "gancho diferente dos últimos vídeos (abertura_idade)",
-      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
-      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie cachorro: 6/6 quadros conferem [cf]"
-    ],
-    "em": "2026-10-25T15:51:33+00:00"
-  },
-  "aprovado_por": "auto (re-gancho, Guardiao ok)"
+  }
 }

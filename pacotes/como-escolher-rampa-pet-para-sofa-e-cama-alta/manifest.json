@@ -1,29 +1,49 @@
 {
- "slug": "como-escolher-rampa-pet-para-sofa-e-cama-alta",
- "status": "agendado",
- "criado_em": "2026-10-16T10:58:05+00:00",
- "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta",
- "rehook": {
-  "gancho_antigo": "Para de deixar seu pet pular. Isso tá atrapalhando a saúde dele.",
-  "gancho_novo": "Seu cachorro pula do sofá sem parar?"
- },
- "voz": {
-  "motor": "elevenlabs",
-  "cenas_elevenlabs": 8,
-  "cenas_edge_tts": 0,
-  "voice_id": "iScHbNW8K33gNo3lGgbo",
-  "modelo": "eleven_v4",
-  "stability": 0.26
- },
- "guardiao": {
-  "status": "ok",
-  "problemas": [],
-  "liberado_por": "Claude 24/10 (Allan): re-gancho com texto novo, voz Marianne ElevenLabs, -14,6 LUFS, artigo no ar"
- },
- "aprovado_por": "Claude sessão 24/10 (re-gancho)",
- "agendado": {
-  "facebook": {"quando": "2026-10-26T14:00:00-03:00", "zernio_id": "6adc3564e6b92ce2d51b7c71"},
-  "instagram": {"quando": "2026-10-26T15:00:00-03:00", "zernio_id": "6adc35677beb87d559d17906"},
-  "tiktok": {"quando": "2026-10-26T20:20:00-03:00", "buffer_id": "6adc356ee4be8a4d863ef16c"}
- }
+  "slug": "como-escolher-rampa-pet-para-sofa-e-cama-alta",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-16T10:58:05+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta",
+  "rehook": {
+    "gancho_antigo": "Para de deixar seu pet pular. Isso tá atrapalhando a saúde dele.",
+    "gancho_novo": "Seu cachorro pula do sofá?"
+  },
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "agendado": {
+    "facebook": {
+      "quando": "2026-10-26T14:00:00-03:00",
+      "zernio_id": "6adc3564e6b92ce2d51b7c71"
+    },
+    "instagram": {
+      "quando": "2026-10-26T15:00:00-03:00",
+      "zernio_id": "6adc35677beb87d559d17906"
+    },
+    "tiktok": {
+      "quando": "2026-10-26T20:20:00-03:00",
+      "buffer_id": "6adc356ee4be8a4d863ef16c"
+    }
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "2 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025, pexels:35556869)",
+      "gancho repetido de um dos últimos 5 vídeos (abertura_problema_pet)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 5/5 quadros conferem [cf]"
+    ],
+    "em": "2026-10-26T22:39:31+00:00"
+  }
 }
