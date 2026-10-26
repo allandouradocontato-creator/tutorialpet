@@ -1,15 +1,15 @@
-Dados até 2026-10-25 19:25 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
-CORRIGI: 2 | PRECISO DO ALLAN: 0 | (abertos com dono nuvem: V10-V13)
+Dados até 2026-10-26 07:25 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
+CORRIGI: 1 (disparo de 2 artigos) | PRECISO DO ALLAN: 0 | abertos com dono nuvem: V10-V14
 | rotina | estado | último run / idade | problema | correção |
 |---|---|---|---|---|
-| rotinas ativas (desligadas = ordem do Allan 22/10, não religar) | ok | todas SUCCEEDED; nenhuma next_run vencida; Vigia atual PENDING (esta rodada) | - | nada |
-| fabrica.yml | ok | verde 25/10 16:54 (~2,5 h) | - | - |
-| publicar_blog.yml | ok | verde 14:53 (run 56); falhas de manhã já resolvidas | - | - |
-| capas_coerentes.yml | FALHOU 15:21 | 5 capas ainda pendentes; push falhou (rebase com conflito) + Gemini 429 | corrida com commits da fábrica | redisparei via REST 19:20 (aguardar verde, E34); V13 |
-| reforco_blog.yml | verde mas sem efeito | 4 slugs seguem sem Fontes | workflow não insere fonte | V13 |
-| blog (ritmo) | 3/4 | 3 artigos no ar hoje (08:07, 11:38, 14:58); mínimo 3 cumprido | 4º do plano sem rascunho com fonte | linha em fabrica_disparo.txt |
-| AdSense | 3 FALHA | auditoria 19:25 | 5 sem capa; 4 sem Fontes; buraco 15/09-06/10 (histórico) | V13 |
-| Issue #7 SAUDE | aberta desde 23/10 | - | alerta velho (artigo preso/reprovado) | Executor avalia fechar (V13) |
-Idade do último resultado: artigo ~1,5 h; fábrica ~2,5 h; publicar_blog ~4,5 h (verde).
-Zernio/Buffer: sem acesso nesta sessão (conectores indisponíveis); Executor 26/10 cobre V10.
-Evidência a conferir na próxima rodada (E34): capas_coerentes verde e auditoria sem as 5 capas.
+| rotinas ativas (17) | ok | todas SUCCEEDED; Estrategista/Vigia PENDING = rodando agora (<15 min); nenhuma next_run vencida | - | nada |
+| fabrica.yml | ok | verde 25/10 20:31 (~11 h) | - | - |
+| publicar_blog.yml | ok | verde 26/10 03:22 (~4 h); falhas 25/10 resolvidas | - | - |
+| capas_coerentes.yml | verde sem efeito | run 15 verde 25/10 19:20 mas 5 slugs seguem sem capa (Pexels reprova por coerência; IA sem cenas) | verde não = corrigido (E34) | V14/V11 |
+| blog (ritmo) | 1/3 | 1 artigo hoje (03:29); plano do dia 3 | 0 rascunhos com Fontes | linha em fabrica_disparo.txt |
+| AdSense | 3 FALHA | auditoria 07:2x | 5 sem capa; 7 sem Fontes; buraco 15/09-06/10 (histórico) | V13/V14 |
+| Zernio/Buffer | 3 em erro | FB+IG meme imagem 404; TikTok caixa-transporte vídeo 404 | pacote sem arquivo | V14 |
+| estoque posts | ok | TikTok agendado até 28/10 17:20Z (~2,3 d); Zernio 16 agendados | - | - |
+| Issue #7 SAUDE | aberta desde 23/10 | - | alerta velho | Executor avalia fechar |
+Idade do último resultado: artigo ~4 h; fábrica ~11 h; publicar_blog ~4 h; home 200.
+Evidência a conferir (E34): AdSense sem as 5 capas e 0 slugs sem Fontes.

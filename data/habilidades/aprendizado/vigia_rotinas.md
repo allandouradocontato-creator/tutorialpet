@@ -15,3 +15,4 @@
 2026-10-25 11:20 | publicar_blog falhou (índice de capa) + 5 capas pendentes (Gemini 503) + 3 posts em erro: redisparou capas_coerentes, fabrica_disparo, fichas V09-V11 | aguardando capas_coerentes SUCCEEDED e 0 FALHA de capa (n=1) | mantém
 2026-10-25 | 15:20 dispatch capas_coerentes+reforco_blog, fecha issues #10-13 | aguardando verde (E34) | mantém
 2026-10-25 | 19:25 redispatch capas_coerentes (falha por rebase) + disparo artigo 4/4 | aguardando verde (E34) | mantém
+2026-10-26 | 07:20 fabrica_disparo (blog 1/3) + ficha V14 (capas/pacote sem video) | aguardando artigos 2/3 e capas (n=1) | mantém
