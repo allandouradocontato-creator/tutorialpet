@@ -1,42 +1,42 @@
-Dados até 2026-10-26 07:35 (Fortaleza) — Zernio (FB, IG; sync 26/10 04:32, 1 conta "stale") e Buffer (TikTok; métricas até 26/10 ~00:00, defasagem até 24 h). 15ª edição (anterior 25/10 07:08). Conta nova, n pequeno: afirmo número, não causa.
-## 0. Erros e estado (topo)
-- ERRO TikTok (Buffer): 25/10 10:20 caixa-de-transporte em error ("media URL not public"). Causa conferida: na branch media o pacote só tem manifest.json (sem video.mp4/legenda).
-- RISCO IGUAL, ainda "scheduled": TikTok 26/10 10:20 (sinais-de-envelhecimento-em-gatos-senior) e 26/10 20:20 (rampa-pet) — branch media também só com manifest.json. Vão falhar. Os outros 5 TikToks agendados têm video.mp4 (21-42 MB).
-- Zernio falhos (2): FB 6ad232d7c8e9ce3699c93928 e IG 6ad232da9ee766016c2d05da, cartão de imagem "Quem mais? Conta aqui." (imagem não encontrada). Imagem viola a regra (c): não retentar.
-- Agendado: Zernio 8 pares FB+IG (FB 26/10 10:00, 14:00, 19:00; 27/10 10:00, 14:00, 19:00; 28/10 10:00, 14:00); Buffer TikTok 7 (26/10 10:20 a 28/10 14:20; teto grátis 10).
-- Conferir (agendado, não mexo): FB 26/10 14:00 e 19:00 (+2 IG) são a chamada do Sozinho em Casa; o texto lido no Zernio corta em "de R…". Roteiros antigos têm "de R$ 37 por R$ 9,90": confirmar R$ 27 (âncora R$ 97). Dois posts de produto no mesmo dia pesam contra D01 (1 em 4).
-## 1. Nossos números (vídeo, posts 24h+; 14/10 a 25/10)
-| Rede | n | Resultado | Retenção |
+Dados até 2026-10-27 07:35 (Fortaleza) — Zernio (FB, IG; sync 27/10 04:32) e Buffer (TikTok; métricas com defasagem de até 24 h). 16ª edição (anterior 26/10 07:35). Conta nova, n pequeno: afirmo número, não causa; ajo com hipótese.
+## 0. ERROS E ESTADO (topo)
+- ERRO Zernio (4 posts, FB+IG): chamada do Sozinho em Casa de 26/10 14:00 e 19:00 falhou (FB "rupload failed 422"; IG "couldn't fetch media URL"): ids FB 6adc3564e6b92ce2d51b7c71, 6adc3569e6b92ce2d51b7c7d; IG 6adc35677beb87d559d17906, 6adc356c7beb87d559d17925. Há ainda gatinho-senior (FB 6adb7b5c73f85b064967b8a1, IG 6adb7b5f8d696b7f05e0841d) e o cartão de imagem "Quem mais?" (E117). Não retentei (retry = publicar). Total 8 falhos.
+- ERRO Buffer TikTok (2): caixa-de-transporte (25/10 10:20) e sinais-de-envelhecimento (26/10 10:20), "media URL não pública". A rampa-pet de 26/10 20:20 saiu no lugar (20:21 "pula do sofá").
+- OK: os 7 TikToks agendados (27/10 10:20 a 29/10 10:20) têm video.mp4 com HTTP 200 na media (conferido hoje). Zernio: 14 agendados (7 pares FB+IG, até 29/10 10:00).
+- ACHADO: a fila TikTok inteira (7 vídeos) é de 42-53 s e 100% cachorro: E50/E98/E99 (cortes 15-25 s, 1 gato, 1 meme) nunca chegaram à fila; E114 não está em config/estilo_viral.yaml. Lista para o Claude da sessão do Allan no plano.
+## 1. Nossos números (20/09 a 27/10; posts 24h+; sem post <24h parcial)
+| Rede | n | Resultado | Retenção / sinais |
 |---|---|---|---|
-| FB | 92 posts na API (20/09 a 25/10; 37 de antes de 13/10 têm views 0/zero) | mediana 206 views (últimas 2 semanas 216); 175 curtidas, 51 comentários (1 por post = nosso link), 0 shares, 0 salvos, 178 cliques, +3 seguidores | tempo mediana 3,3 s; <6 s em 82/92 |
-| IG | 68 (8 com 0) | alcance mediana 44; 41 curtidas, 44 comentários (nosso), 6 shares, 4 salvos, 0 cliques | skip mediana 68,3%; >70% em 27/60; semana atual 65% (melhor) |
-| TikTok | 46 (desde 13/10; 10.089 views no total) | views mediana 189; 557 reações; 6 comentários; 16 shares | tempo mediana 2,3 s; <4 s em 38/46 |
-- Parciais (<24h): FB 25/10 19:05 "destrói tudo sozinho" 201 views (2,6 s); IG 25/10 20:04 alcance 22, skip 82,6%; TikTok 25/10 20:20 "manchinhas" 51 views (1,2 s) e 14:20 137 views.
-- ACHADO NOVO — curva de retenção do FB (n=45 vídeos, mediana): 100% no s2, 93% no s3, 61% no s4, 46% no s5, 27% no s8, 13,5% no s15. A queda forte (-32 pts) é entre s3 e s4, logo depois do gancho: o gancho segura 3 s, o payoff não chega. Hipótese de teste (E114).
-- TikTok por duração: 40 s+ n=33, mediana 189, todos os 16 shares; 25-40 s n=10, 191; <25 s n=3, 105 views (amostra pequena, não prova nada contra corte curto).
-- Horário FB (views mediana): 10h 208 (n17), 14h 230 (n10), 19h 178 (n20), 21h 260 (n6); IG alcance: 11h 41, 15h 29, 20h 48, 13h 102 e 21h 95 (memes). TikTok: 10h 186, 14h 193, 20h 189 — sem sinal por horário.
-- Comentário de terceiro: não distinguível na API (1 por post é o nosso). Seguidores (último valor conhecido): FB 8, IG 0, TikTok 19; Zernio follower_stats segue sem leitura, Buffer não informa.
-## 2. Gatilho de mudança (regra_mudanca_rapida.md): DISPAROU de novo
-FB tempo 3,3 s (<6 em 82/92); TikTok 2,3 s (<4 em 38/46), mediana 189 (<400 meta) e 16 shares/46 posts; IG skip>70% em 27/60. Plano: data/social/plano_de_mudanca_2026-10-26.md (E114-E117). Provas E105-E108/E111 seguem para 27/10.
+| FB | 95 (46 vídeos 24h+ desde 13/10) | views mediana 222 (últimos 12: 217); 179 curtidas, 54 comentários (1/post = nosso link), shares 0, salvos 0, 178 cliques (15 desde 13/10) | tempo médio 3,7 s; <6 s em 45/46; ret. s3 93%, s4 62%, s5 46%, s8 27% |
+| IG | 71 | alcance mediana 51 (últimos 14: 44); 41 curtidas, 47 comentários (nossos), 6 shares, 4 salvos, 0 cliques | skip mediana 68,3%; >70% em 23/52; últimos 14: 68,7% |
+| TikTok | 50 enviados (desde 07/10) | views mediana 189 (24h+: 181; últimos 12: 175), 10.357 views; 578 reações, 6 comentários, 16 shares | tempo 2,2 s (≈5% da duração); <4 s em 38/47 |
+- Seguidores (Zernio follower_stats, 27/10): FB 9 (+2 em 7 dias, 7→9), IG 0 (71 posts), TikTok 21 (último valor, 24/10; Buffer não informa).
+- Parciais <24h: TikTok 26/10 14:21 "destrói tudo sozinho" 109 views, 1,0 s; 26/10 20:21 "pula do sofá" 46 views, 1,5 s (os 2 piores tempos desde 22/10).
+- Tema: cachorro-sozinho FB 25/10 19:05 207 views (2,7 s), IG 20:04 alcance 26 (skip 84,6%); melhor IG da semana "xixi no quintal" alcance 103, 7,7 s, skip 60%. Melhor TikTok recente: "cheiro de xixi" 265 views (25/10 14:21). Gato x cachorro: n pequeno, sem causa.
+- Formato: TikTok 40 s+ n=35 mediana 189 e 16 de 16 shares; 25-40 s n=10, 192; <25 s n=3, 105 (n pequeno).
+- Horário (mediana, desde 13/10): FB 10h 215 (n11), 14h 224 (n11), 19h 210 (n14), 21h 260 (n4); IG 11h 41, 15h 29, 20h 48, 21h 105 (n5); TikTok 10h 187 (n12), 14h 197 (n10), 20h 185 (n16). Sem sinal por horário.
+- Sem dado: gancho/voz/CTA por post (manifest só em poucos pacotes), % assistido FB, comentários de terceiros exatos.
+## 2. Gatilho (regra_mudanca_rapida.md): DISPAROU
+FB 3,7 s (<6 s em 45/46); TikTok 2,2 s (<4 s em 38/47), mediana 181 (<400) e 13 shares em 42 posts; IG skip >70% em 23/52, alcance 44. Plano: data/social/plano_de_mudanca_2026-10-27.md (E124-E127).
 ## 3. Horários (Fortaleza) — manter, mesma grade de seg a dom
 | Rede | Melhor 1 | Melhor 2 | Extras |
 |---|---|---|---|
-| FB | 10:00 | 19:00 | 14:00 (230, 2º melhor da amostra), meme 12:00 |
-| IG | 11:00 | 20:00 | meme 13:00, vídeo 15:00 |
+| FB | 10:00 | 19:00 | 14:00, meme 12:00 |
+| IG | 11:00 | 20:00 | 21:00 (105, n=5: observar), meme 13:00 |
 | TikTok | 10:20 | 20:20 | 14:20, meme 17:10 |
-- Zernio best_time (UTC, n 1-6, engajamento inflado por nossos comentários): FB topo qui 19 UTC=16h (n=1), qua 21 UTC=18h (n=2); IG topo seg 0 UTC (n=1): ruído. Fontes públicas só devolveram títulos nesta rodada ([Stone](https://conteudo.stone.com.br/melhores-horarios-para-postar-no-tiktok/), [Loggi](https://www.loggi.com/conteudos/empreendedorismo/melhores-horarios-postar-no-tiktok/), [SocialPilot](https://www.socialpilot.co/pt/insights/best-time-to-post-on-tiktok)); sem leitura do conteúdo. Vale mudar? Não: horário não explica nada; releitura 03/11.
+- Zernio best_time (UTC, n 1-6): topo qua 19 UTC=16h (n=1), ter 21 UTC=18h (n=4): ruído, engajamento inflado por nosso 1º comentário. Vale mudar? Não: o fator é retenção, não horário. Releitura 03/11. Fonte pública sem leitura do corpo nesta rodada.
 ## 4. Hashtags e legenda
-- Quantidade: IG 3-5, TikTok 3-5, FB 0-3 (casa usa 3); nunca #fyp/#viral. Busca desta rodada só devolveu títulos ([Envox](https://envox.com.br/marketing-de-conteudo/hashtags-em-2026-guia-quantidade-escolha-erros/agencia-de-marketing-digital/trafego-pago/vendas/), [Hostinger](https://www.hostinger.com/br/tutoriais/melhores-hashtags-instagram), [AgenciaGram](https://agenciagram.com.br/blog/hashtags-instagram-ainda-funcionam-2026)): sem prova de pet BR, conjunto atual mantido (config/estrategia_social.yaml: hashtags, modelos_legenda).
-- CTA fixo: "Confira o artigo completo em tutorialpet.com.br"; link só no 1º comentário; pergunta binária "1 ou 2?" (E108, leitura 27/10).
-## 5. Interação e isca — ESTADO (checado hoje, sem pedir criação)
-- (i) Repo sozinho-em-casa-app (commit 9d0bbd7): landing/ tem index.html, 7-erros.pdf, obrigado.html, privacidade.html; captura/guia.html continua fora de landing/. Ao vivo: sem dado (WebFetch da landing pediu permissão e expirou).
-- (ii) ManyChat GUIA: sem leitura da nuvem. Registro: suspenso desde 21/10; MIMO escrito (fluxo_mimo_fase1.md), NÃO ligado; texto da DM com R$ 27 + R$ 47 não verificável ao vivo.
-- (iii) Brevo: lista "7 Erros - Isca" 0 contatos e sem e-mail transacional (Medidor 23/10); sem dado novo.
-- PENDÊNCIAS REAIS: ok do Allan para ligar o MIMO e autorizar OAuth do Facebook no ManyChat (já pedido pelo Executor 25/10); ManyChat/Brevo/landing ao vivo só com Chrome/PC.
-- Perguntas do lote de hoje: config/estrategia_social.yaml, perguntas_lote_2026_10_25 (5 por tema, "1 ou 2?").
-## 6. Painel mínimo (meta até 03/11; hipóteses, sem promessa)
-FB: views mediana 220+; tempo >=4,5 s; retenção s5 >=55%; 0 imagens. IG: alcance mediana 80; skip <=55%; shares+salvos >=1/sem. TikTok: views mediana 300; tempo >=2,5 s depois >=4 s; 1 share a cada 4 posts. Seguidores +1/dia (FB/TikTok). Trocar horário/gancho/CTA: 2+ posts do mesmo formato em 3 dias acima do gatilho; leitura em 24 h. Próximas leituras: 27/10 (E105-E108, E111) e 03/11.
+- Quantidade: IG 3-5, TikTok 3-5, FB 0-3; nunca #fyp/#viral. Busca de hoje só devolveu títulos ([Nuvemshop](https://www.nuvemshop.com.br/blog/hashtags-para-instagram/), [Hostinger](https://www.hostinger.com/br/tutoriais/melhores-hashtags-instagram), [Envox](https://envox.com.br/marketing-de-conteudo/hashtags-em-2026-guia-quantidade-escolha-erros/agencia-de-marketing-digital/trafego-pago/vendas/)): sem prova específica de pet BR; conjunto atual mantido.
+- Hashtags por tema e 3 modelos de legenda por rede: config/estrategia_social.yaml. CTA fixo: "Confira o artigo completo em tutorialpet.com.br"; link só no 1º comentário.
+## 5. Interação e isca — ESTADO (checado hoje)
+- Landing: sozinho.tutorialpet.com.br e /7-erros.pdf respondem HTTP 200 (curl HEAD). captura/guia.html segue fora de landing/ de propósito (E19: isca "7 Erros" descartada pelo Allan em 21/10).
+- ManyChat GUIA: suspenso desde 21/10 (decisão do Allan); MIMO escrito (fluxo_mimo_fase1.md), NÃO ligado. Texto da DM ao vivo: não checável da nuvem (sem PC).
+- Brevo: lista "7 Erros - Isca" 0 contatos, sem e-mail transacional (último dado 23/10; sem leitura nova).
+- Pendência real: preço/âncora antigo nas legendas do Sozinho em Casa (E116) e os 4 posts falhos acima.
+- Perguntas do lote (5 por tema, "1 ou 2?"): config/estrategia_social.yaml, perguntas_lote_2026_10_27.
+## 6. Painel mínimo (meta até 03/11; hipótese, sem promessa)
+FB: views mediana 220+, tempo >=4,5 s, ret. s5 >=55%. IG: alcance mediana 80, skip <=60%, shares+salvos >=1/sem. TikTok: views 300, tempo >=3 s, 1 share a cada 4 posts. Seguidores: FB +1/dia, TikTok +1/dia. Trocar horário/gancho/CTA: 2+ posts do formato acima do gatilho em 3 dias, leitura em 24 h.
 ## 7. Decisões do Allan (reais)
-1) Ok por escrito para ligar o MIMO e autorizar o OAuth do Facebook no ManyChat (recomendo sim, só conta tutorialpetbr fb5804905). 2) A02: 2FA e campo "Site" do TikTok. 3) Publicado FB 23/10 "erro fatal": recomendo editar a legenda (posts_edit_post); é mexer em publicado.
+1) Ok para ligar o MIMO e autorizar o OAuth do Facebook no ManyChat (pedido do Executor 25/10, ainda aberto; conta tutorialpetbr fb5804905). 2) A02: 2FA e campo "Site" do TikTok. 3) Trocar a fila TikTok de 42-53 s por cortes 15-25 s mexe em itens agendados: recomendo sim (E124).
 ## 8. Sem dado
-Gancho/voz/CTA por post (manifest só em 3 pacotes lidos), % assistido FB, seguidores via API, ManyChat/Brevo/Kiwify e landing ao vivo, vendas, comentários de terceiros exatos.
+Gancho/voz por post, seguidores TikTok ao vivo, ManyChat/Brevo/Kiwify ao vivo, vendas, comentários de terceiros exatos.

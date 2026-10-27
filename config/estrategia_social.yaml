@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 17
-atualizado_em: "2026-10-26 07:35 Fortaleza"
+versao: 18
+atualizado_em: "2026-10-27 07:35 Fortaleza"
+versao_anterior_atualizado_em_17: "2026-10-26 07:35"
 versao_anterior_atualizado_em_16: "2026-10-25 07:08"
 # anterior: "2026-10-23 07:30"  # rodada 23/10 07:19 (12a edicao): E50-E54, FB 12:00 meme aberto (E21 cumprido), #pet/#pets, perguntas do lote 23/10
 versao_anterior_atualizado_em_15: "2026-10-22 08:00"  # rodada 22/10 07:35 (11a edicao): regra FB/IG nunca no mesmo minuto (E23); serie 7 erros = cartao de imagem (viola c); preco velho em 4 arquivos (E22 ampliada)
@@ -273,3 +274,41 @@ rodada_2026_10_26_0735:
   horarios_mantidos: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"], nota: "FB 14:00 extra com mediana 230 (n=10); sem sinal por horario; releitura 03/11"}
   numeros: {fb_video: "mediana 206 views, tempo 3,3 s, <6 s em 82/92", ig_video: "alcance 44, skip 68,3%, >70% em 27/60", tiktok: "n=46 mediana 189, tempo 2,3 s, 16 shares, 38/46 <4 s"}
   fila: "Zernio 8 pares FB+IG ate 28/10 14:00; Buffer TikTok 7 (26/10 10:20 a 28/10 14:20)"
+rodada_2026_10_27_0735:   # data/social/estrategia_social.md (16a edicao); plano: data/social/plano_de_mudanca_2026-10-27.md (E124-E127)
+  gatilho: "disparou: FB tempo 3,7 s (<6 s em 45/46); TikTok 2,2 s (<4 s em 38/47), mediana 181, 13 shares em 42; IG skip>70% em 23/52"
+  achado: "fila TikTok (7 agendados 27/10 a 29/10) toda 42-53 s e 100% cachorro: E50/E98/E99 nao chegaram a fila; E114 ausente de estilo_viral.yaml"
+  horarios_mantidos: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"], nota: "IG 21:00 mediana 105 (n=5) em observacao; releitura 03/11"}
+  numeros: {fb_video: "n=46 mediana 222 views, tempo 3,7 s, ret s3 93 / s4 62 / s5 46", ig_video: "n=52 alcance 51, skip 68,3%", tiktok: "n=48 mediana 189, tempo 2,2 s (5% da duracao), 16 shares"}
+  seguidores: {facebook: 9, instagram: 0, tiktok: "21 (24/10)"}
+  erros: "Zernio 8 falhos (4 Sozinho em Casa 26/10, 2 gatinho-senior, 2 cartao de imagem); Buffer 2 em erro (media URL)"
+perguntas_lote_2026_10_27:   # binario/numerado; link so no 1o comentario
+  gato:
+    - "Seu gato prefere janela ou sofá? 1 janela, 2 sofá."
+    - "Seu gato te segue pela casa: 1 sempre, 2 às vezes, 3 nunca?"
+    - "Ração seca ou úmida pro seu gato? 1 seca, 2 úmida, 3 as duas."
+    - "Seu gato dorme a noite toda? 1 sim, 2 me acorda."
+    - "Brinquedo ou caixa de papelão: o que ele prefere? 1 brinquedo, 2 caixa."
+  cachorro:
+    - "Passeio de manhã ou de tarde? 1 manhã, 2 tarde."
+    - "Seu cachorro volta do passeio com as patas sujas? 1 sempre, 2 às vezes."
+    - "Coleira ou peitoral? 1 coleira, 2 peitoral."
+    - "Seu cachorro puxa a guia: 1 muito, 2 pouco, 3 nunca?"
+    - "Petisco no passeio: 1 sim, 2 não."
+  filhote:
+    - "Seu filhote já acerta o tapete higiênico? 1 sim, 2 quase, 3 ainda não."
+    - "Quantas vezes por dia seu filhote come? 1 duas, 2 três, 3 quatro."
+    - "Filhote dorme na caminha: 1 sim, 2 só no seu colo."
+    - "Primeira coisa que seu filhote mordeu: 1 chinelo, 2 sofá, 3 cabo."
+    - "Seu filhote chora à noite? 1 sim, 2 não."
+  ansiedade_separacao:
+    - "Seu cachorro fica sozinho quantas horas? 1 até 4, 2 de 4 a 8, 3 mais de 8."
+    - "Ele percebe quando você pega a chave? 1 sim, 2 não."
+    - "O que ajuda mais: 1 brinquedo recheável, 2 passeio antes, 3 música."
+    - "Ao voltar, ele: 1 faz festa, 2 está bagunçando a casa."
+    - "Horário mais difícil: 1 manhã, 2 noite."
+  saude_alimentacao:
+    - "Ração guardada: 1 pote fechado, 2 saco original, 3 não sei."
+    - "Você mede a porção do petisco? 1 sim, 2 no olho."
+    - "Seu pet bebe água suficiente? 1 sim, 2 tenho dúvida."
+    - "Já conferiu a lista de alimentos proibidos? 1 sim, 2 ainda não."
+    - "Quantas refeições por dia: 1 duas, 2 três ou mais."
