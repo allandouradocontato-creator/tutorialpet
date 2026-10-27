@@ -284,7 +284,8 @@ temas:
   data: '2026-10-26'
 - termo: como montar um espaco de descompressao para caes agitados
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-27'
 - termo: como criar um cantinho relaxante para pets em dias de tempestade
   pilar: comportamento
   status: pendente
@@ -870,5 +871,11 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: o que colocar no enxoval para chegada de caes rescem nascidos
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como acostumar gato senior a mudanca de moveis na casa
+  pilar: comportamento
+  status: pendente
+- termo: o que comprar para montar o enxoval do novo filhote de cachorro
   pilar: primeiros_passos_filhotes
   status: pendente

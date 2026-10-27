@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como montar um espaço de descompressão para cães agitados",
+  "gancho_3s": "Seu cachorro parece elétrico o dia todo e vive destruindo a casa?",
+  "cenas": [
+    {
+      "narracao": "Para acalmar um cão agitado, escolha um canto tranquilo da casa, longe de portas e barulho.",
+      "visual_busca_banco_livre": "dog looking around living room",
+      "texto_na_tela": "Escolha um canto tranquilo"
+    },
+    {
+      "narracao": "O local deve permitir que o pet observe a família, sem ficar no meio do caminho.",
+      "visual_busca_banco_livre": "dog resting on floor watching",
+      "texto_na_tela": "Fora da rota principal"
+    },
+    {
+      "narracao": "Garanta conforto térmico com uma cama firme ou colchonete adequado para o clima.",
+      "visual_busca_banco_livre": "dog sleeping on comfortable bed",
+      "texto_na_tela": "Conforto térmico"
+    },
+    {
+      "narracao": "Adicione estímulos de mastigação e brinquedos interativos para canalizar a energia.",
+      "visual_busca_banco_livre": "dog chewing interactive toy",
+      "texto_na_tela": "Ocupação mental"
+    },
+    {
+      "narracao": "O espaço deve ter livre acesso, nunca sendo usado como castigo ou isolamento forçado.",
+      "visual_busca_banco_livre": "dog walking freely indoors",
+      "texto_na_tela": "Livre acesso sempre"
+    },
+    {
+      "narracao": "Se a agitação persistir, consulte sempre o médico-veterinário para descartar questões de saúde.",
+      "visual_busca_banco_livre": "dog sitting calmly close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Monte o refúgio do seu cão e salve seus móveis! Leia o artigo completo.",
+  "hashtags": [
+    "#cachorro",
+    "#caesagitados",
+    "#comportamentocanino",
+    "#adestramentopositivo",
+    "#bemestarpet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro parece elétrico o dia todo e vive destruindo a casa?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-montar-um-espaco-de-descompressao-para-caes-agitados\n\n#cachorro #caesagitados #comportamentocanino #adestramentopositivo #bemestarpet",
+  "slug": "como-montar-um-espaco-de-descompressao-para-caes-agitados"
+}
