@@ -78,3 +78,10 @@ Nunca. A temperatura dentro de um veículo estacionado sobe a níveis fatais em 
 ## Para fechar
 
 Proteger seu companheiro do calor intenso é uma questão de observar os limites do corpo dele, adaptar a rotina e garantir um ambiente fresco e hidratado. Pequenos cuidados diários evitam grandes sustos e garantem que os dias quentes sejam aproveitados com segurança. Continue explorando nossos artigos para descobrir mais dicas práticas sobre o cuidado diário com cães e gatos.
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [AKC: insolação em cães](https://www.akc.org/expert-advice/health/heat-stroke-in-dogs/)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

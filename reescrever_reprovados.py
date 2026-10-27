@@ -172,6 +172,13 @@ def main() -> int:
     humanos = [s for s, n in lista.items() if n >= MAX_TENTATIVAS]
     if humanos:
         print("PENDENCIA HUMANA (3 tentativas esgotadas):", humanos)
+        # E119 (27/10/2026): reprovado com 3 tentativas nunca fica em blog_aprovados.txt
+        if APROV.exists():
+            ls = APROV.read_text(encoding="utf-8").splitlines()
+            keep = [l for l in ls if not (l.split() and l.split()[0] in humanos)]
+            if len(keep) != len(ls):
+                APROV.write_text("\n".join(keep) + "\n", encoding="utf-8")
+                print("[E119] removidos de blog_aprovados.txt:", humanos)
     print(f"reprovados na fila de reescrita: {pend}")
     if dry:
         for s in pend:

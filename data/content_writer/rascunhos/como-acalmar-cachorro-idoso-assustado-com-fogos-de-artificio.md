@@ -8,7 +8,7 @@ slug: como-acalmar-cachorro-idoso-assustado-com-fogos-de-artificio
 termo_origem: como acalmar cachorro idoso assustado com fogos de artificio
 pilar: comportamento
 intencao_busca: informacional
-autor: ''
+autor: Equipe Tutorial Pet
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-24T12:19:44+00:00'
 aviso_saude_aplicavel: false
@@ -86,3 +86,10 @@ Sim, a descarga de estresse consome muita energia de um organismo envelhecido, q
 Ver quem sempre cuidou da nossa alegria tremer de medo diante do céu barulhento aperta o coração de qualquer tutor. A velhice pede de nós um olhar mais generoso, um abraço mais demorado e um ambiente que sirva de escudo protetor. Ao preparar a casa e oferecer a sua presença serena, você retribui a lealdade de uma vida inteira na forma mais pura de amor: o cuidado silencioso.
 
 Acompanhe nossos outros artigos no blog Tutorial Pet e descubra novas formas de tornar a rotina do seu fiel amigo sênior cada vez mais confortável e acolhedora.
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [ASPCA: o que fazer se o pet tem medo de fogos](https://www.aspca.org/news/heres-what-do-if-your-pet-scared-fireworks)
+- [AAHA: Diretrizes de cuidado de pets idosos (2023)](https://www.aaha.org/senior-care)

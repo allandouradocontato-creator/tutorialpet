@@ -8,7 +8,7 @@ slug: melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
 termo_origem: melhores tipos de comedouros slow feed para caes ansiosos
 pilar: produtos_compras
 intencao_busca: informacional
-autor: ''
+autor: Equipe Tutorial Pet
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-17T15:22:10+00:00'
 aviso_saude_aplicavel: false
@@ -125,3 +125,10 @@ Proteger a saúde do seu cão começa nos pequenos detalhes da rotina, e o momen
 Acompanhe as reações do seu pet de perto, respeite os limites anatômicos dele e priorize sempre materiais seguros e fáceis de higienizar.
 
 Quer aprender mais formas práticas de cuidar do bem-estar e da segurança do seu companheiro? Continue navegando pelos nossos artigos e encontre as melhores orientações para o dia a dia do seu pet.
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [AKC: como desacelerar a refeição do cachorro](https://www.akc.org/expert-advice/nutrition/slow-your-dogs-eating/)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

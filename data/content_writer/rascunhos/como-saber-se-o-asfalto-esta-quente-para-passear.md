@@ -8,7 +8,7 @@ slug: como-saber-se-o-asfalto-esta-quente-para-passear
 termo_origem: como saber se o asfalto esta quente para passear
 pilar: cuidados_diarios
 intencao_busca: informacional
-autor: ''
+autor: Equipe Tutorial Pet
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-16T13:41:48+00:00'
 aviso_saude_aplicavel: false
@@ -67,3 +67,10 @@ Durante a caminhada, note que o cão parou de repente, puxou para a grama e come
 Cuidar das patinhas do seu companheiro é um ato simples de carinho que evita dores desnecessárias e visitas de última hora ao consultório. Com o teste rápido do dorso da mão e a escolha de horários mais frescos, o passeio continua sendo o momento mais feliz do dia para vocês dois. 
 
 Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o universo dos pets, como cuidar da rotina de cuidados diários e garantir o bem-estar do seu peludo em todas as estações do ano.
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [The Kennel Club: pavimento quente e cães](https://www.thekennelclub.org.uk/hotpavements)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

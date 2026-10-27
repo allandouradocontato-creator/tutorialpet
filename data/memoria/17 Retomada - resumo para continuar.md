@@ -84,3 +84,6 @@ Nota: o repositório tem a branch media grande; `git pull` completo estoura o te
 ## Decisões — rodada do Executor 26/10 (06:55 Fortaleza)
 Contagem: decididas abertas ~25 / feitas 0 novas (parciais: V09, V13, E113) / atrasadas 14 (mesmas de 25/10) / só Allan 2 (A02, E13). Painel de Decisões sem comentário novo.
 Aplicado em código: capas_coerentes.yml com push seguro (fetch+rebase -X theirs, abort); agents/15_visual select_candidate tolera índice ausente. Pendentes: Fontes nos 4 slugs, fechar issues #10-#12, V10/E112 (sem Buffer/Zernio nesta sessão). Nada publicado nem agendado.
+
+## Decisões — rodada do Executor 27/10
+Contagem: decididas abertas ~25 / feitas 1 novo (E119) + parciais E120 (6/13 rascunhos com autor+Fontes), E121 (3 Fontes) / atrasadas 14 (mesmas) / só Allan 2 (A02, E13) + ok para religar D02/E09. Painel sem comentário novo. Bloqueado: V16 (Buffer não conferido), capas (Gemini). Nada publicado nem agendado.

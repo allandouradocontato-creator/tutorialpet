@@ -72,3 +72,10 @@ Exemplo prático: Coloque a caixa de areia e o comedouro do gato em cima de um m
 Ensinar um filhote de gato a interagir com cães adultos exige respeito ao tempo de adaptação e muita consistência nos limites. Cada pequeno passo em direção a uma convivência pacífica constrói uma relação de respeito mútuo que durará por toda a vida dos pets.
 
 Se notar sinais persistentes de agressividade, estresse intenso ou se o cão demonstrar foco obsessivo no felino, procure a orientação de um médico-veterinário comportamentalista. Continue navegando pelo blog para descobrir mais dicas práticas sobre o universo dos pets e garantir o bem-estar da sua casa.
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [American Humane: apresentando cães a gatos](https://www.americanhumane.org/public-education/introducing-dogs-to-cats/)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

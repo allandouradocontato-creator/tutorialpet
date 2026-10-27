@@ -9,7 +9,7 @@ slug: como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
 termo_origem: como enriquecer o ambiente para caes idosos com mobilidade reduzida
 pilar: comportamento
 intencao_busca: informacional
-autor: ''
+autor: Equipe Tutorial Pet
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-17T12:38:18+00:00'
 aviso_saude_aplicavel: false
@@ -94,3 +94,10 @@ Cuidar de um cão que envelheceu é um exercício diário de carinho e paciênci
 Adaptar o ambiente e as brincadeiras para a mobilidade atual do seu parceiro devolve a ele a alegria de se sentir ativo, útil e conectado à família. Comece com uma toalha enrolada hoje mesmo e veja aquele rabinho abanar de novo com satisfação.
 
 Quer continuar deixando a rotina do seu cão mais confortável em todas as fases da vida? Continue passeando pelo Tutorial Pet e descubra outros guias práticos feitos para ajudar no dia a dia da sua casa!
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [AAHA: Diretrizes de cuidado de pets idosos (2023)](https://www.aaha.org/senior-care)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

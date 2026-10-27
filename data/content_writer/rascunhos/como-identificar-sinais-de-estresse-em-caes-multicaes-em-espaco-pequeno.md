@@ -64,3 +64,10 @@ Exemplo prático: Coloque caminhas ou caixas de transporte abertas (com a portin
 ## Para fechar
 
 Cuidar de vários cães em um espaço reduzido é um exercício diário de observação e carinho. Pequenos ajustes na rotina, na distribuição dos recursos e no respeito ao tempo de cada um transformam a convivência de toda a matilha. Continue navegando pelo nosso blog para descobrir mais dicas práticas que facilitam a sua vida e deixam seus companheiros peludos ainda mais felizes e equilibrados!
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [AKC: como saber se seu cão está estressado](https://www.akc.org/expert-advice/health/how-to-tell-if-your-dog-is-stressed/)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

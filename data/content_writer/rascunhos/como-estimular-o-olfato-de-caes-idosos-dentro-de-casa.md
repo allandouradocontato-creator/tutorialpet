@@ -8,7 +8,7 @@ slug: como-estimular-o-olfato-de-caes-idosos-dentro-de-casa
 termo_origem: como estimular o olfato de caes idosos dentro de casa
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-autor: ''
+autor: Equipe Tutorial Pet
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-24T23:11:05+00:00'
 aviso_saude_aplicavel: false
@@ -109,3 +109,10 @@ Ele substitui a demanda por gasto mental, mas não o estímulo ambiental complet
 Manter a mente de um cão idoso em atividade não exige espaço amplo nem esforço articular. Com poucos minutos diários de exercícios olfativos simples, você devolve autonomia, satisfação e bem-estar ao seu companheiro dentro de casa.
 
 Acompanhe os outros guias do blog da Tutorial Pet para aprender mais sobre rotina, adaptação e cuidados específicos para cães em todas as fases da vida!
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [AAHA: Diretrizes de cuidado de pets idosos (2023)](https://www.aaha.org/senior-care)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)

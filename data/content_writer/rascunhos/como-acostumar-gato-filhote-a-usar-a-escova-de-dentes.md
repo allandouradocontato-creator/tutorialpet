@@ -8,7 +8,7 @@ slug: como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
 termo_origem: como acostumar gato filhote a usar a escova de dentes
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-autor: ''
+autor: Equipe Tutorial Pet
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-23T14:02:24+00:00'
 aviso_saude_aplicavel: false
@@ -89,3 +89,10 @@ Pode. A fricção mecânica da gaze ou da escova é a parte mais importante para
 Acostumar um filhote à escovação exige muito mais paciência e petiscos do que força física. Celebrar pequenos avanços — como ele permitir que você encoste na bochecha hoje sem sair correndo — é o caminho mais seguro para garantir dentes saudáveis e evitar limpezas periodontais sob anestesia na fase adulta. Lembre-se sempre de conversar com o médico-veterinário durante as consultas de vacinação para avaliar como está o desenvolvimento da dentição do seu pequeno.
 
 Quer continuar descomplicando a rotina com o seu novo amigo peludo? Explore nossos outros artigos sobre cuidados com filhotes aqui no Tutorial Pet e descubra dicas práticas para cada fase do seu companheiro!
+
+## Fontes e referências
+
+Conteúdo informativo; não substitui a consulta ao médico-veterinário. Referências:
+
+- [AVMA: Mês Nacional da Saúde Dental dos Pets](https://www.avma.org/events/national-pet-dental-health-month)
+- [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
