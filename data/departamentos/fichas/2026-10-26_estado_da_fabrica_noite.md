@@ -1,0 +1,13 @@
+# FICHA — Estado da fábrica 26/10 21:42 (Diretor de Operação e Qualidade)
+- Departamento / Diretor / data-hora: Operação e Qualidade / 2026-10-26 21:42 (Fortaleza)
+- Assunto e objetivo: fábrica sem etapa manual para o Allan; fechar E119-E122 e V14-V16 no Executor de 27/10 06:53.
+- Pareceres: Vigia (26/10 19:19 SUCCEEDED; redisparou capas e reforço 22:20Z, rehook rampa-pet), Medidor (27/10 00:12Z SUCCEEDED), Executor (26/10 06:54 SUCCEEDED; próx 27/10 06:53), Segurança (semanal, próx 28/10). sem parecer do Otimizador.
+- Divergências: nenhuma.
+- DECISÃO: sem ALERTA. Publicar Blog #58 failure (13:20Z, Gemini 429) seguido de #59 success (18:22Z). Capas coerentes #16 success, Reforço #13 success, Rehook #4 success. Fábrica #151-#159 e Saúde #46-#52 todas success.
+- Anti-gap (24 h): 5 artigos novos no ar (adaptar-rotina-seniores, petiscos-naturais, exercicios-mentais-gatos-idosos, fonte-bebedouro-varios-pets, estresse-multicaes); curl 200 nos 5.
+- Rotinas (list_triggers, ativas, 2 páginas): 0 FAILED; só esta rodada PENDING. Diretores: Audiência 26/10 ok; Conteúdo 26/10 ok; Produto 23/10 (ter/sex, próx 27/10 12:31): nenhum atrasado.
+- Livro: ATRASADAS 14 (mesmas de 26/10). Abertas com prazo 27/10: E119, E120, E121, V16; E122 prazo 28/10.
+- Risco: estoque aprovado 0 (E120); AdSense com 7 sem Fontes e 5 sem capa (E121). Não verifiquei Buffer/Zernio nesta rodada (sem esses conectores carregados).
+- Ações: E123 (cobrança ao Executor 27/10 06:53).
+- Pedido ao Allan: nenhum novo (segue: A02 2FA/TikTok; ok por escrito para MIMO ao vivo e OAuth Facebook no ManyChat; E61 Kiwify).
+- Status: aprovada pelo Diretor
