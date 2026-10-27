@@ -20,3 +20,4 @@
 2026-10-26 | 15:25 publicar_blog redisparado (REST) + ficha V16 (rampa sem video.mp4); rascunhos sem Fontes não promovidos | #59 verde; blog 2/3 (E34, n=1) | mantém
 2026-10-26 | 19:25 rehook rampa-pet + reforco_blog + capas_coerentes disparados | aguardando verde e video.mp4 200 (E34, n=1) | mantém
 2026-10-27 | 07:35 promoveu 3 aprovados com Fontes (blog 0/4; capas falhando Gemini 503) + ficha V17 | aguardando publicar_blog #61 verde (E34, n=1) | mantém
+2026-10-27 | 11:35 promoveu 2 aprovados com Fontes (asfalto-quente, enriquecer-ambiente-idosos; blog 0/4; Gemini 429/503 derruba fabrica #162 e capas) + ficha V18 | aguardando publicar_blog #62 verde (E34, n=2) | mantém
