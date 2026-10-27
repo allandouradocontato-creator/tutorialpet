@@ -1,6 +1,6 @@
 {
   "slug": "como-criar-rotina-de-exercicios-mentais-para-gatos-idosos",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-25T22:27:51+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos",
   "voz": {
@@ -27,5 +27,16 @@
     ],
     "em": "2026-10-25T22:29:43+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio": {
+      "facebook": "6ae08957fe8f5a0c4b3cc45b",
+      "instagram": "6ae08959ae7636fe08726adc"
+    },
+    "buffer": {
+      "tiktok": "6ae0895ba21f4739ba9a7334"
+    },
+    "turno": "B 2026-10-29",
+    "em": "2026-10-27T11:22:00Z"
+  }
 }
