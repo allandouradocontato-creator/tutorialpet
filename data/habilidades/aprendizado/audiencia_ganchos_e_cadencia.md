@@ -14,3 +14,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-10-25 | regra de uma variável por vez: isca MIMO mantida, nenhuma troca sem janela de 72 h | n=0 leituras (isca não está ao ar) | mantém
 2026-10-26 | regras 3-6 (matriz, CTA binário 1/2, 70/30) em lote completo de 14: 10 prova/4 teste, payoff no s4 (E114) | 14 ideias, n=0 posts do lote lidos; r23 meme FB 61/IG 65 vs artigo 208/37 | mantém
 2026-10-26 | regra de uma variável por vez: isca MIMO mantida; FB +2 em 7 dias sem isca | n=0 leituras da isca (fora do ar); seguidores FB 9, IG 0 | mantém
+2026-10-27 | regra 3 e 4 (uma peça por vez; matriz com pilar identificação): S1/S2/S3 em tema de data (Saci, Livro) e calor, fórmulas F2/F5/F7 já provadas | 3 ideias, n=0 posts do lote lidos; leitura 72 h em 02/11 | mantém

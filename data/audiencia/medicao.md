@@ -1,3 +1,19 @@
+Dados até 2026-10-27 08:45 (Fortaleza) — estrategia_social.md de 27/10 07:35 (Zernio sync 27/10 04:32; Buffer com defasagem de até 24 h); sem leitura nova minha de Zernio/Buffer.
+# Medição — terça 27/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
+1. Comentários de terceiros: FB 54 comentários em 95 posts (1/post = nosso link), IG 47 (nossos), TikTok 6 em 50. Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: não atingida.
+2. Compartilhamentos: FB 0, IG 6 (71 posts), TikTok 16 (50 posts; todos em vídeo 40 s+).
+3. Seguidores: FB 9 (+2 em 7 dias), IG 0, TikTok 21 (último valor, 24/10).
+4. Cliques no blog: FB 178 somados (15 desde 13/10); IG 0. Sessões orgânicas e cliques do Search Console: sem dado (pendência: exportar Desempenho > Consultas, login Google).
+5. Vendas: sem dado (Kiwify não lido; E61).
+Campeão: nenhum para comentário. Em views segue F2 flagrante (FB 562). Formato: TikTok 40 s+ n=35 mediana 189; <25 s n=3 mediana 105 (n pequeno).
+## Prova do lote r27 (uma variável por vez; leitura 72 h, n≥5 por braço — com 3 ideias o n NÃO fecha; acumula com r26)
+X23 Tema de data/folclore (S1 Saci, S2 Livro) × tema evergreen (S3 calor): views e comentário de terceiro em 72 h. S1 posta 30/10, S2 29/10, S3 hoje; leitura 02/11.
+X18 CTA A (binária 1/2) × B (aberta), mesma arte, redes diferentes: continua; prova = comentário de terceiro por 1.000 views (n=0 lido).
+X22 Payoff no 4º segundo (E114) em todas: prova = ret. FB s5 ≥55% e tempo ≥4,5 s; IG skip ≤60%; TikTok tempo ≥3 s. Leitura 28/10.
+X24 Gato na fila do TikTok (hoje 100% cachorro): S1 ou S2 em corte ≤25 s; prova = tempo ≥3 s e ≥1 share em 3 (T2 do plano de 27/10).
+Hashtags: FB 3, IG 5, TikTok 3-5, comparar só dentro da mesma rede (X9). Horário: sem horário novo (sem sinal por horário em 27/10). Conta do formato novo (meme × artigo): sem post novo; segue PARCIAL.
+Próxima leitura: 28/10 (E114) e 29/10 (72 h do r25); r26/r27 em 02/11.
+
 Dados até 2026-10-26 08:45 (Fortaleza) — Zernio analytics (FB, IG; sync 26/10 10:13Z, posts de 22-25/10, n=34); Buffer/TikTok e follower-stats NÃO lidos nesta rodada (números = estrategia_social.md de 26/10 07:35).
 # Medição — segunda 26/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
 1. Comentários de terceiros: FB/IG 0 identificáveis (cada post tem 1 comentário = o nosso link); lote 22-25/10: FB 12 posts mediana 208 views, IG 12 posts alcance mediana 37. Memes do lote r23: "plantão na porta" FB 61/IG 65, "cargo do pet" 0/0 (mídia não entregue?). TikTok: 6 comentários em 46 posts (26/10 07:35). Meta ≥5/vídeo: não atingida.
