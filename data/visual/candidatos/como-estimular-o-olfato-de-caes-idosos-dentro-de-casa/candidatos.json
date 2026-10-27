@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 8457204,
+    "url_download": "https://images.pexels.com/photos/8457204/pexels-photo-8457204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-yellow-petal-on-a-dog-s-nose-8457204/",
+    "fotografo": "Tyler Reid",
+    "fotografo_url": "https://www.pexels.com/@tyler-reid-72152635",
+    "largura": 3888,
+    "altura": 2592,
+    "query": "senior dog sniffing indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36314922,
+    "url_download": "https://images.pexels.com/photos/36314922/pexels-photo-36314922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-senior-dog-grazing-in-sunny-park-36314922/",
+    "fotografo": "Ajay Lamichhane",
+    "fotografo_url": "https://www.pexels.com/@azaay14",
+    "largura": 4139,
+    "altura": 3311,
+    "query": "senior dog sniffing indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2172162,
+    "url_download": "https://images.pexels.com/photos/2172162/pexels-photo-2172162.png?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-dog-2172162/",
+    "fotografo": "Gabriel Crişan",
+    "fotografo_url": "https://www.pexels.com/@gabriel-crisan-1108466",
+    "largura": 4288,
+    "altura": 2848,
+    "query": "senior dog sniffing indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10117827,
+    "url_download": "https://images.pexels.com/photos/10117827/pexels-photo-10117827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/greyhound-sniffing-cakes-10117827/",
+    "fotografo": "Ron Lach",
+    "fotografo_url": "https://www.pexels.com/@ron-lach",
+    "largura": 5522,
+    "altura": 3681,
+    "query": "senior dog sniffing indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5662137,
+    "url_download": "https://images.pexels.com/photos/5662137/pexels-photo-5662137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/mongrel-smelling-autumn-leaves-in-park-5662137/",
+    "fotografo": "Mathias Reding",
+    "fotografo_url": "https://www.pexels.com/@matreding",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "senior dog sniffing indoor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2607538,
+    "url_download": "https://images.pexels.com/photos/2607538/pexels-photo-2607538.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-nose-2607538/",
+    "fotografo": "Simona Kidrič",
+    "fotografo_url": "https://www.pexels.com/@simonakidric",
+    "largura": 5757,
+    "altura": 3838,
+    "query": "old dog nose work close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-estimular-o-olfato-de-caes-idosos-dentro-de-casa/5.jpg"
+  }
+]
