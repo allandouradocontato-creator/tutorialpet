@@ -22,3 +22,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-26 | passo de medição + payoff até o s4 (E114): isca ao vivo depende do Allan | FB 9 seguidores (+2/7d), IG 0 | mantém
 2026-10-26 | portão de gancho barrou 2 pacotes aprovados (filhote-gato-x-cães, fonte-água-gatos) e artigo exercícios-mentais-gatos-idosos está 404 | n=3 pacotes, 0 agendáveis; turno A de 26/10 falhou nas 3 redes (video.mp4 de sinais-de-envelhecimento-em-gatos-senior ausente na branch media) | altera: fábrica deve reescrever gancho dos 2 pacotes e conferir 200 do vídeo antes de agendar
 2026-10-27 | regras Meta (isca de engajamento, originalidade): 0 'curta/comente/compartilhe' como comando, CTA binário 1/2; só nosso material | 3 ideias, n=0 leituras | mantém
+2026-10-27 | passo de medição diária (from_date/to_date) + manter isca sem dado ao vivo | FB 9 (+2/7d), IG 0; n=0 leituras de isca | mantém
