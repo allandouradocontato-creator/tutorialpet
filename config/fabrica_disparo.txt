@@ -27,3 +27,4 @@ artigos Vigia 2026-10-26 07:20 Fortaleza (blog 1/3 no ar, plano do dia 3; 0 rasc
 artigos Vigia 2026-10-26 11:25 Fortaleza (blog 1/3 no ar; publicar_blog 13:20Z falhou: Gemini 429 + nenhuma foto de gato passou na coerencia em como-criar-rotina-de-exercicios-mentais-para-gatos-idosos; reprovado 'guia-peitoral' 3 tentativas; fabrica redisparada 14:3xZ; pedir 2 temas de config/fila_temas.yaml com fonte)
 disparo agendador 2026-10-27 08:2x Fortaleza: estoque 2 dias, 2 pacotes ok com gancho banido
 disparo agendador 2026-10-27 12:3x Fortaleza: estoque ~2 dias (FB/IG ate 29/10 14:00, TikTok ate 29/10 14:20); 2 pacotes ok com gancho banido (frame 0 > 6 palavras); demais em revisar
+disparo agendador 2026-10-27 16:2x Fortaleza: estoque ~2 dias (FB/IG ate 29/10 15:00, TikTok ate 29/10 14:20; falta 29/10 C em diante); 2 pacotes ok com gancho banido (frame 0 > 6 palavras)
