@@ -288,7 +288,8 @@ temas:
   data: '2026-10-27'
 - termo: como criar um cantinho relaxante para pets em dias de tempestade
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-27'
 - termo: como escolher a melhor fonte de agua eletrica para gatos
   pilar: produtos_compras
   status: pendente
@@ -877,5 +878,17 @@ temas:
   pilar: comportamento
   status: pendente
 - termo: o que comprar para montar o enxoval do novo filhote de cachorro
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como lidar com ciume entre gato adulto e cachorro filhote
+  pilar: comportamento
+  status: pendente
+- termo: como montar um espaco de descanso para cachorro senior
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como escolher a melhor escova para cachorro de pelo curto
+  pilar: produtos_compras
+  status: pendente
+- termo: o que fazer na primeira semana com um filhote de gato
   pilar: primeiros_passos_filhotes
   status: pendente

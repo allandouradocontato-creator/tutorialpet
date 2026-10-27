@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como criar um refúgio seguro para pets na tempestade",
+  "gancho_3s": "Seu cachorro tem medo de trovão?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro tem medo de trovão?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Medo de trovão?"
+    },
+    {
+      "narracao": "O som de trovão deixa o cachorro assustado [thoughtful].",
+      "visual_busca_banco_livre": "dog scared shaking close up",
+      "texto_na_tela": "Medo de trovões?"
+    },
+    {
+      "narracao": "Escolha um cômodo interno e silencioso [short pause].",
+      "visual_busca_banco_livre": "cat hiding in cozy corner",
+      "texto_na_tela": "Escolha um local silencioso"
+    },
+    {
+      "narracao": "Monte uma tenda aconchegante com cobertores.",
+      "visual_busca_banco_livre": "dog sleeping inside blanket tent",
+      "texto_na_tela": "Monte uma tenda aconchegante"
+    },
+    {
+      "narracao": "Coloque algo com seu cheiro e abaixe a luz.",
+      "visual_busca_banco_livre": "cat resting on soft blanket",
+      "texto_na_tela": "Deixe o ambiente protegido"
+    },
+    {
+      "narracao": "Use um som calmo para abafar o barulho.",
+      "visual_busca_banco_livre": "dog relaxing calm indoor",
+      "texto_na_tela": "Abafe os barulhos"
+    },
+    {
+      "narracao": "Converse com um veterinário se precisar [warmly].",
+      "visual_busca_banco_livre": "cat looking calm close up",
+      "texto_na_tela": "Consulte um veterinário"
+    }
+  ],
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet. [smiling]",
+  "hashtags": [
+    "#petspânico",
+    "#cachorrosansiosos",
+    "#gatos",
+    "#cuidadoscomospets",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu pet entra em pânico com trovões? Crie este refúgio seguro!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade\n\n#petspânico #cachorrosansiosos #gatos #cuidadoscomospets #dicapet",
+  "slug": "como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 2
+}
