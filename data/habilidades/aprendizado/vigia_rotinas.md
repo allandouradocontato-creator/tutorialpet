@@ -22,3 +22,4 @@
 2026-10-27 | 07:35 promoveu 3 aprovados com Fontes (blog 0/4; capas falhando Gemini 503) + ficha V17 | aguardando publicar_blog #61 verde (E34, n=1) | mantém
 2026-10-27 | 11:35 promoveu 2 aprovados com Fontes (asfalto-quente, enriquecer-ambiente-idosos; blog 0/4; Gemini 429/503 derruba fabrica #162 e capas) + ficha V18 | aguardando publicar_blog #62 verde (E34, n=2) | mantém
 2026-10-27 | 15:25 diagnostico: raiz da fabrica vermelha = saldo ElevenLabs (306 vs ~748) + Gemini 429; nao redisparei (E34) + ficha V19 + aviso ao Allan | aguardando decisao (n=1) | mantém
+2026-10-27 | 19:25 diagnostico repetido: fabrica vermelha por saldo ElevenLabs/Gemini, nao redisparei (E34); aviso ao Allan | sem mudanca desde 15:25 (n=2) | mantém
