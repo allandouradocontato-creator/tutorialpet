@@ -1,0 +1,16 @@
+# FICHA — Prioridade de receita da semana (27/10 a 30/10) — revisão da ficha de 23/10
+- Departamento / Diretor / data-hora: Produto e Receita / Diretor de Produto e Receita / 27/10/2026 12:51 (Fortaleza)
+- Assunto e objetivo: 1ª venda real do Sozinho em Casa (R$ 27, âncora R$ 97, pagamento único) até 30/10; sem anúncio pago.
+- Público: tutor adulto de cachorro que deixa o pet sozinho.
+- Produto/oferta: Sozinho em Casa R$ 27; upsell Adestramento Básico R$ 47 só na página de obrigado. Esteira nova CONGELADA (E60).
+- Caminho de venda (1): conteúdo "sozinho" (blog "Veja também" + vídeos/legendas) -> sozinho.tutorialpet.com.br com UTM -> checkout Kiwify. Mimo "Carteirinha do Pet" segue como entrada única, sem canibalizar.
+- Métrica única: visitas UTM na landing (meta 100) e vendas Kiwify (meta 1).
+- Estado real em 27/10: 0 visitas medidas (metricas.csv só com cabeçalho; Windsor só tem Meta Ads, sem GA4); FB 9 / IG 0 / TikTok 21 seguidores; mimo fora do ar (PDF pronto, falta PC/Chrome + ok do Allan, E28/E29); Kiwify ilegível (E61 sem PC). Os 4 posts de chamada do Sozinho em Casa (FB/IG 26/10) FALHARAM no Zernio (FB 422, IG não achou a mídia) — ou seja, o único conteúdo de venda programado nunca saiu.
+- Pareceres: Estrategista (27/10): fila agendada ruim (tempo 2,2 s) e E126/E127 abertas; Audiência (27/10): isca NEUTRO, bloqueada por Allan; Medidor (24/10): T8 NEUTRO; Editor de Afiliados/Criativo/Fábrica/Revisão: sem parecer novo (rotinas desligadas desde 22/10); Produtor de e-book, Construtor de app, Importador: sem parecer.
+- Divergências e quem tinha razão: (1) regra de desvio R$ 17 x dado: não dispara (0 visitas, não >=100); gargalo é tráfego e vídeo de venda que não sobe, não preço. (2) Reagendar os posts do Sozinho já: eu não agendo; fica para o Claude da sessão do Allan depois de E126 achar URL 200.
+- DECISÃO: manter 1 oferta (R$ 27), 1 caminho, 1 métrica. Prioridade da semana = destravar a exposição do Sozinho em Casa: (a) diagnosticar por que o vídeo do app falha (E126), (b) medir visita/clique de verdade (E128), (c) o ÚNICO pedido ao Allan continua o ok do mimo/OAuth + PC/Chrome (inclui E61). Preço fica R$ 27 até >=100 visitas.
+- Textos aprovados: nenhum novo (mensagem 2 do mimo da ficha de 23/10 segue em rascunho).
+- Métricas e gatilhos (janela <= 3 dias): GANHOU = >=1 venda ou >=100 visitas UTM; NEUTRO = n<3 ou 1–99 visitas; PERDEU = >=100 visitas e 0 vendas em 3 dias -> R$ 17.
+- Ações: E128 (medição de visitas por fonte alternativa), E129 (checar o link/UTM da landing nas legendas agendadas do Sozinho), E130 (preparar pedido consolidado ao Allan; ver abaixo).
+- Pedido ao Allan (consolidado, já pendente, não novo): trazer o PC/Chrome ligado para ler Kiwify (E61) e GA4/landing; ok por escrito para ligar o mimo ao vivo e OAuth do Facebook no ManyChat.
+- Status: aprovada pelo Diretor
