@@ -53,7 +53,7 @@ dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-fonte-bebed
 
 # Como escolher fonte bebedouro elétrica para vários pets: guia prático
 
-Manter vários animais hidratados exige planejamento, pois potes comuns esvaziam rápido e acumulam pelos com facilidade. Uma [fonte elétrica](https://s.shopee.com.br/8V9v5D7kIB) mantém a água em movimento constante, o que atrai cães e gatos pelo instinto natural de buscar água fresca. Em casas com mais de um pet, o fluxo contínuo e a filtragem evitam disputas e garantem que todos tenham acesso a um líquido limpo.
+Manter vários animais hidratados exige planejamento, pois potes comuns esvaziam rápido e acumulam pelos com facilidade. Uma [fonte elétrica](https://s.shopee.com.br/8V9v5D7kIB) mantém a água em movimento constante, o que atrai muitos animais; alguns gatos bebem mais com fontes, mas a preferência é individual, então observe o seu. Em casas com mais de um pet, o fluxo contínuo e a filtragem evitam disputas e garantem que todos tenham acesso a um líquido limpo.
 
 Para acertar na compra, é preciso avaliar a capacidade do reservatório, a potência da bomba e a facilidade de higienização no dia a dia. Como animais compartilham o mesmo espaço e costumam beber água após as refeições ou brincadeiras, entender a dinâmica da casa ajuda a evitar perrengues. Além disso, em ambientes movimentados, vale a pena conferir dicas sobre [como identificar sinais de estresse em cães multi-cães em espaço pequeno](/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno) para garantir a harmonia geral.
 
@@ -71,7 +71,7 @@ Exemplo prático: Uma casa com dois gatos adultos e um cachorro de pequeno porte
 
 O material da fonte interfere diretamente na durabilidade e na proliferação de bactérias na água. O plástico costuma ser mais barato, mas risca com facilidade ao longo dos meses, acumulando resíduos e odor que afastam os pets mais exigentes. Por outro lado, o aço inoxidável e a cerâmica são superfícies lisas que dificultam a fixação de micro-organismos e facilitam muito a higienização diária.
 
-Gatos, em especial, possuem um olfato extremamente apurado e rejeitam água com gosto ou cheiro alterados pelo material desgastado. Se você tem felinos em casa, garantir que eles aceitem bem os recipientes evita problemas renais comuns, tema que dialoga com os cuidados explicados em [como fazer o gato gato beber mais agua](/como-fazer-o-gato-beber-mais-agua). 
+Gatos, em especial, possuem um olfato extremamente apurado e rejeitam água com gosto ou cheiro alterados pelo material desgastado. Se você tem felinos em casa, garantir que eles aceitem bem os recipientes ajuda a manter a hidratação, importante para a saúde urinária e renal, tema que dialoga com os cuidados explicados em [como fazer o gato gato beber mais agua](/como-fazer-o-gato-beber-mais-agua). 
 
 Exemplo prático: Optar por uma fonte de aço inox evita que o musgo e a baba se fixem nas paredes do reservatório, bastando uma passada rápida de esponja na hora da troca para deixar o bebedouro impecável.
 
@@ -110,6 +110,12 @@ Se quiser seguir nesse tema, veja [como escolher fonte de água ideal para gatos
   Desligue a fonte nos primeiros dias para que ele se acostume com o objeto parado e ligue no modo mais suave depois.
 - **Quando devo procurar o médico-veterinário em relação à hidratação?**
   Se notar sede excessiva repentina ou recusa total em beber água, consulte o veterinário para descartar problemas renais ou urinários.
+
+## Fontes e referências
+
+- [Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration) — Cornell Feline Health Center (Universidade Cornell, Estados Unidos).
+- [Quantified water intake in laboratory cats from still, free-falling and circulating water bowls, and its effects on selected urinary parameters](https://pmc.ncbi.nlm.nih.gov/articles/PMC10814304/) — Journal of Feline Medicine and Surgery, via PubMed Central (estudo científico).
+- [AAFP and ISFM Feline Environmental Needs Guidelines](https://catvets.com/wp-content/uploads/2024/01/EnvironmentalNeedsGLS.pdf) — AAFP e ISFM (associações veterinárias felinas dos Estados Unidos e internacional), Journal of Feline Medicine and Surgery, 2013.
 
 ## Para fechar
 

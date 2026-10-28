@@ -109,6 +109,11 @@ Se quiser seguir nesse tema, veja [como fazer cachorro idoso aceitar um filhote 
 - **Quando devo procurar ajuda profissional?**
   Sempre que os sinais de estresse persistirem mesmo após ajustes na rotina, ou se houver qualquer sinal de agressão física entre os animais, procure um médico-veterinário para descartar dores físicas e buscar um adestrador positivo.
 
+## Fontes e referências
+
+- [Canine Body Language](https://aspcapro.org/sites/default/files/canine-body-language-aspca.pdf) — ASPCA (entidade dos Estados Unidos).
+- [Aggression](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/aggression) — ASPCA (entidade dos Estados Unidos), inclui agressão por posse de recursos.
+
 ## Para fechar
 
 Cuidar de vários cães em um espaço reduzido é um exercício diário de observação e carinho. Pequenos ajustes na rotina, na distribuição dos recursos e no respeito ao tempo de cada um transformam a convivência de toda a matilha. Continue navegando pelo nosso blog para descobrir mais dicas práticas que facilitam a sua vida e deixam seus companheiros peludos ainda mais felizes e equilibrados!

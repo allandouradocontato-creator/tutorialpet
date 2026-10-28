@@ -99,11 +99,11 @@ Exemplo prático: ao voltar de um passeio em um dia de chuva, coloque um tapete 
 
 ## Produtos indicados e o que evitar na limpeza
 
-A pele dos coxins é resistente, mas a região entre os dedos é fina e sensível. Por isso, nunca utilize produtos de limpeza humana, álcool em gel, cloro ou sabonetes comuns, pois eles removem a camada de proteção natural da pele e causam ressecamento e rachaduras.
+A pele dos coxins é resistente, mas a região entre os dedos é fina e sensível. Por isso, nunca utilize produtos de limpeza humana, álcool em gel, cloro ou sabonetes comuns, pois produtos feitos para pessoas podem irritar e ressecar a pele do cão.
 
 Prefira água pura, xampus neutros específicos para cães ou lenços umedecidos formulados exclusivamente para animais. Caso note ressecamento excessivo, consulte o médico-veterinário para indicar um hidratante próprio para coxins.
 
-Exemplo prático: se o cão pisou acidentalmente em graxa ou óleo na rua, evite esfregar com força. Use algumas gotas de óleo vegetal de cozinha ou um xampu pet específico para quebrar a gordura, enxágue bem com água morna e seque em seguida.
+Exemplo prático: se o cão pisou acidentalmente em graxa ou óleo na rua, evite esfregar com força. Use um xampu pet específico para tirar a gordura, enxágue bem com água morna e seque em seguida; se a sujeira não sair ou a pele ficar irritada, consulte o veterinário.
 
 ## Sinais de alerta e quando procurar o veterinário
 
@@ -116,7 +116,7 @@ Exemplo prático: se o cão voltar do passeio mancando levemente e você notar u
 ## Perguntas frequentes
 
 * **Posso usar lenço umedecido de bebê para limpar as patas do cachorro?**
-  Em situações pontuais, os lenços de bebê sem perfume quebram o galho, mas o ideal é usar lenços específicos para pets, pois o pH da pele do cachorro é diferente do nosso e produtos inadequados podem causar alergias a longo prazo.
+  Em situações pontuais, os lenços de bebê sem perfume quebram o galho, mas o ideal é usar lenços específicos para pets, pois produtos feitos para pessoas podem irritar a pele do cão.
 
 * **É preciso lavar as quatro patas após todo e qualquer passeio?**
   Se o passeio foi rápido na calçada seca e limpa, passar um pano seco ou um lenço umedecido costuma bastar. Se houve contato com lama, terra, grama molhada ou asfalto muito sujo, a lavagem com água e secagem são indispensáveis.
@@ -126,6 +126,11 @@ Exemplo prático: se o cão voltar do passeio mancando levemente e você notar u
 
 * **O que fazer se o cachorro não gosta que mexam nas patas dele?**
   Acostume-os aos poucos oferecendo petiscos e associando o toque a algo positivo. Toque levemente nas patas durante momentos de descanso e recompense a paciência antes de tentar a limpeza completa após o passeio.
+
+## Fontes e referências
+
+- [How to clean dog paws](https://www.akc.org/expert-advice/health/clean-dog-paws/) — American Kennel Club (Estados Unidos).
+- [Keeping Pets Safe during Winter: The Dangers of Ice Melts](https://www.aspca.org/news/keeping-pets-safe-during-winter-dangers-ice-melts) — ASPCA (Estados Unidos); trata de produtos de degelo, mas o princípio de limpar as patas para evitar lambedura de resíduos vale para qualquer substância irritante.
 
 ## Para fechar
 

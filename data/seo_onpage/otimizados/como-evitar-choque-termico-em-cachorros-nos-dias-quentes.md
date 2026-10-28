@@ -104,7 +104,7 @@ Exemplo prático: Antes de sair para a caminhada matinal, encoste a mão no chã
 O corpo do animal avisa quando está sofrendo com o calor excessivo. Fique atento a sinais como respiração extremamente ofegante e barulhenta, salivação excessiva e espessa, gengivas muito vermelhas ou arroxeadas, fraqueza nas patas traseiras e confusão mental. Se o cão parecer desorientado ou se recusar a levantar, a situação é uma emergência médica.
 
 ### O que fazer imediatamente se suspeitar de choque térmico?
-Leve o cão para um local fresco, sombreado e ventilado imediatamente. Ofereça pequenas quantidade de água fresca (nunca gelada em excesso de uma só vez) e molhe levemente as patas e a barriga dele com água em temperatura ambiente. **Nunca jogue água congelada** e nem cubra o animal com toalhas molhadas grossas, pois isso pode criar um efeito estufa e piorar o quadro. Procure um médico-veterinário de forma urgente ao notar qualquer um desses sintomas.
+Leve o cão para um local fresco, sombreado e ventilado imediatamente. Ofereça pequenas quantidade de água fresca (nunca gelada em excesso de uma só vez) e molhe levemente as patas e a barriga dele com água em temperatura ambiente. Molhe o cão com água fresca (não gelada) e mantenha a ventilação, em vez de cobri-lo com toalhas grossas, que podem reter calor. Procure um médico-veterinário de forma urgente ao notar qualquer um desses sintomas.
 
 Exemplo prático: Ao notar que seu cão está respirando com muita dificuldade e babando em excesso após ficar perto de uma janela ensolarada, leve-o para a frente de um ventilador na sombra, umedeça suas patinhas com água fresca e ligue para a clínica veterinária para avisar que estão a caminho.
 
@@ -126,13 +126,19 @@ Para aprofundar o assunto, vale ler também [cuidados essenciais com as patas de
 Não é recomendado tosar muito curto ou na zero, pois a pelagem funciona como isolante térmico contra o calor e os raios solares, além de proteger contra queimaduras na pele. O ideal é apenas aparar o excesso com um profissional.
 
 - **Posso dar banho gelado no cachorro nos dias quentes?**
-Não. A água deve ser sempre morna ou em temperatura ambiente. Um choque térmico causado por água muito fria em um corpo superaquecido pode provocar complicações graves na circulação sanguínea.
+Evite água gelada. Prefira água fresca, em temperatura ambiente ou ligeiramente fria, e, se o cão apresentar sinais de superaquecimento, resfrie-o com água fresca e procure o veterinário com urgência.
 
 - **Quantos ml de água um cachorro deve beber no calor?**
 Em média, um cachorro precisa de cerca de 50ml a 60ml de água por quilo de peso corporal ao diária, mas no calor esse consumo costuma subir. Confirme sempre a necessidade hídrica ideal com o médico-veterinário do pet.
 
 - **Deixar o cachorro no carro com a janela aberta é seguro no calor?**
 Nunca. A temperatura dentro de um veículo estacionado sobe a níveis fatais em poucos minutos, mesmo com as janelas abertas na sombra. 
+
+## Fontes e referências
+
+- [Heatstroke: A medical emergency](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/heatstroke-medical-emergency) — Riney Canine Health Center, Universidade Cornell (Estados Unidos).
+- [Heatstroke and brachycephalic dogs – is there an increased risk?](https://veterinaryevidence.org/index.php/ve/article/download/534/881?inline=1) — Veterinary Evidence (revista científica do RCVS Knowledge, Reino Unido).
+- [Calor do cão: o que fazer com os pets em dias de altas temperaturas?](https://www.ufmg.br/espacodoconhecimento/calor-do-cao-o-que-fazer-com-os-pets-em-dias-de-altas-temperaturas/) — UFMG, Espaço do Conhecimento.
 
 ## Para fechar
 

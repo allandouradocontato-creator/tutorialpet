@@ -64,12 +64,12 @@ imagem_selecionada_em: '2026-10-25T17:58:09+00:00'
 
 # Como escolher fonte de agua ideal para gatos que tem medo: guia prático
 
-Muitos felinos rejeitam a água parada, mas o barulho ou o formato de alguns bebedouros elétricos podem assustar os mais sensíveis. A escolha do equipamento certo exige atenção a detalhes como nível de ruído, material e fluxo da água. Vamos direto ao ponto para ajudar você a encontrar o modelo perfeito e garantir a hidratação do seu pet, lembrando sempre de consultar um médico-veterinário caso perceba alterações bruscas no comportamento ou na ingestão de líquidos do animal.
+Alguns felinos preferem água em movimento, mas a preferência varia de gato para gato e o barulho ou o formato de alguns bebedouros elétricos podem assustar os mais sensíveis. A escolha do equipamento certo exige atenção a detalhes como nível de ruído, material e fluxo da água. Vamos direto ao ponto para ajudar você a encontrar o modelo perfeito e garantir a hidratação do seu pet, lembrando sempre de consultar um médico-veterinário caso perceba alterações bruscas no comportamento ou na ingestão de líquidos do animal.
 
 ## Entendendo o medo de gatos diante de fontes de água
 
 ### Por que alguns gatos se assustam com bebedouros elétricos?
-O som do motor, o borbulhar intenso e os reflexos de luz na água em movimento costumam ativar o instinto de alerta nos felinos. Gatos mediosos interpretam estímulos desconhecidos como ameaças potenciais. Além disso, o toque dos bigodes sensíveis em bordas estreitas contribui para a rejeição. Para entender melhor como os felinos interagem com o ambiente, veja também [como fazer o gato beber mais agua](/como-fazer-o-gato-beber-mais-agua).
+O som do motor, o borbulhar intenso e os reflexos de luz na água em movimento costumam ativar o instinto de alerta nos felinos. Gatos mediosos interpretam estímulos desconhecidos como ameaças potenciais. Além disso, alguns gatos evitam recipientes estreitos em que os bigodes encostam nas bordas. Para entender melhor como os felinos interagem com o ambiente, veja também [como fazer o gato beber mais agua](/como-fazer-o-gato-beber-mais-agua).
 
 ### Como identificar se o seu gato tem receio do equipamento?
 Gatos amedrontados evitam se aproximar do bebedouro, observam o objeto de longe com as pupilas dilatadas, correm após tentar beber ou passam a procurar torneiras pingando pela casa. 
@@ -82,7 +82,7 @@ Exemplo prático: se o gato se aproxima agachado, estica apenas o pescoço e sai
 O fator número um para gatos mediosos é o nível de ruído da bomba submersa. Os melhores modelos operam de forma extremamente silenciosa, emitindo apenas um discreto som de água corrente. Prefira fontes que permitam regular a intensidade da queda d'água, começando com um fluxo mínimo até que o felino se acostume.
 
 ### Material do recipiente: plástico, inox ou cerâmica?
-O plástico tende a reter odores e pode acumular bactérias que causam acne felina. Fontes de cerâmica, vidro ou aço inoxidável são mais higiênicas, não retiram o gosto da água e pesam mais, impedindo que o gato arrastador derrube o equipamento por medo.
+O plástico risca com o tempo e pode reter resíduos e odores, o que desagrada alguns gatos. Fontes de cerâmica, vidro ou aço inoxidável são mais fáceis de higienizar, em geral não alteram o gosto da água e pesam mais, impedindo que o gato arrastador derrube o equipamento por medo.
 
 ### Design da superfície e formato da queda
 Gatos mediosos preferem fontes onde a água escorre suavemente por uma rampa lisa, simulando um riacho calmo, em vez de jatos verticais que espirram água ou fazem bolhas barulhentas. Superfícies amplas evitam que os bigodes fiquem pressionados contra as bordas. Antes de introduzir o novo acessório, vale a pena conferir [como acostumar gato adulto com novo comedouro](/como-acostumar-gato-adulto-com-novo-comedouro) para aplicar técnicas similares de adaptação.
@@ -114,6 +114,12 @@ Sim, a maioria das bombas foi feita para funcionamento contínuo, desde que o n�
 
 - **O que fazer se o gato continuar com medo após uma semana?**  
 Desligue o motor e deixe a água apenas acumulada na bacia. Aos poucos, religue a função de fluxo por apenas alguns minutos por dia.
+
+## Fontes e referências
+
+- [Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration) — Cornell Feline Health Center (Universidade Cornell, Estados Unidos).
+- [Quantified water intake in laboratory cats from still, free-falling and circulating water bowls, and its effects on selected urinary parameters](https://pmc.ncbi.nlm.nih.gov/articles/PMC10814304/) — Journal of Feline Medicine and Surgery, via PubMed Central (estudo científico).
+- [AAFP and ISFM Feline Environmental Needs Guidelines](https://catvets.com/wp-content/uploads/2024/01/EnvironmentalNeedsGLS.pdf) — AAFP e ISFM (associações veterinárias felinas dos Estados Unidos e internacional), Journal of Feline Medicine and Surgery, 2013.
 
 ## Para fechar
 

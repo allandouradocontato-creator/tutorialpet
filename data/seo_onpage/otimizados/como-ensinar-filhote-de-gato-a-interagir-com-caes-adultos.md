@@ -101,6 +101,12 @@ Exemplo prático: Coloque a caixa de areia e o comedouro do gato em cima de um m
 - **O filhote de gato pode machucar o cão adulto?**
   Sim. As unhas finas e afiadas de um filhote podem atingir os olhos ou o focinho sensível do cão se o gato se assustar, por isso a supervisão é indispensável em todas as interações.
 
+## Fontes e referências
+
+- [How should I introduce my new cat or kitten to the family dog?](https://kb.rspca.org.au/knowledge-base/how-should-i-introduce-my-new-cat-or-kitten-to-the-family-dog/) — RSPCA Austrália.
+- [Introducing dogs to cats](https://www.americanhumane.org/public-education/introducing-dogs-to-cats/) — American Humane (Estados Unidos).
+- [AAFP and ISFM Feline Environmental Needs Guidelines](https://catvets.com/wp-content/uploads/2024/01/EnvironmentalNeedsGLS.pdf) — AAFP e ISFM (associações veterinárias felinas dos Estados Unidos e internacional), Journal of Feline Medicine and Surgery, 2013.
+
 ## Para fechar
 
 Ensinar um filhote de gato a interagir com cães adultos exige respeito ao tempo de adaptação e muita consistência nos limites. Cada pequeno passo em direção a uma convivência pacífica constrói uma relação de respeito mútuo que durará por toda a vida dos pets.

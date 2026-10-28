@@ -81,7 +81,7 @@ A boa notícia é que você não precisa de diploma de confeiteiro canino nem de
 
 Para cães com sensibilidade alimentar ou gastrite recorrente, a melhor estratégia é a dos petiscos monoingredientes ou com no máximo dois componentes neutros. Quanto menor a lista no rótulo caseiro, mais fácil saber exatamente o que caiu bem ou o que causou desconforto.
 
-Petiscos industriais costumam misturar farinhas diversas, corantes, palatabilizantes e subprodutos que confundem qualquer investigação clínica. Já na sua cozinha, ao fatiar uma batata-doce ou desidratar um pedaço de peito de frango, você elimina 99% das incógnitas. Se o seu cão já faz acompanhamento para alergias alimentares, o ponto de partida é usar apenas fontes que você já sabe que o corpo dele tolera, sempre com o aval do médico-veterinário que cuida do cardápio dele.
+Petiscos industriais costumam misturar farinhas diversas, corantes, palatabilizantes e subprodutos que confundem qualquer investigação clínica. Já na sua cozinha, ao fatiar uma batata-doce ou desidratar um pedaço de peito de frango, você elimina boa parte das incógnitas. Se o seu cão já faz acompanhamento para alergias alimentares, o ponto de partida é usar apenas fontes que você já sabe que o corpo dele tolera, sempre com o aval do médico-veterinário que cuida do cardápio dele.
 
 **Exemplo prático:** em vez de comprar um snack com doze ingredientes impronunciáveis para treinar o comando de sentar, use cubinhos milimétricos de chuchu cozido no vapor ou lascas de maçã sem sementes. O valor recompensador para o pet continua alto, mas o risco de uma crise de coceira cai para quase zero.
 
@@ -122,13 +122,19 @@ Consulte sempre a lista de [alimentos proibidos para cachorro](/alimentos-proibi
 Não necessariamente. Ele é mais saudável e livre de químicos artificiais, mas calorias de aveia, batata ou carne ainda contam no total diário do animal e precisam ser dosadas.
 
 **Posso usar farinha de trigo comum nas receitas de petisco?**
-É preferível evitar para animais sensíveis. Prefira aveia moída, farinha de arroz ou purês vegetais integrais, já que o trigo refinado pode agravar processos inflamatórios em cães predispostos.
+É preferível evitar para animais sensíveis. Prefira aveia moída, farinha de arroz ou purês vegetais integrais, já que alguns cães têm alergia ou intolerância ao trigo; se o seu tolera bem, converse com o veterinário sobre o que incluir.
 
 **Quanto tempo dura um petisco caseiro sem conservantes?**
 Snacks secos e crocantes (como chips assados) duram em média 5 a 7 dias em potes bem fechados. Biscoitos mais úmidos ou carnes devem ficar na geladeira por no máximo 3 a 4 dias ou serem congelados.
 
 **Como saber se o petisco causou alergia no meu cão?**
 Observe sinais nas 24 a 48 horas seguintes: lamber excessivo das patas, coceira na orelha, fezes amolecidas, gases com odor forte ou vômito. Caso note algo diferente, suspenda o alimento e relate ao veterinário.
+
+## Fontes e referências
+
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
+- [Treat guidelines for dogs](https://nutrition.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/Treats-guidelines-for-dogs.pdf) — Nutrition Support Service, Universidade da Califórnia em Davis (Estados Unidos).
+- [Feeding treats to your dog](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais).
 
 ## Para fechar
 

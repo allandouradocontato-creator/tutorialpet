@@ -131,8 +131,14 @@ Evite reorganizar os móveis com frequência. Animais idosos que sofrem com vis�
 
 ---
 
+## Fontes e referências
+
+- [2023 AAHA Senior Care Guidelines for Dogs and Cats](https://www.aaha.org/globalassets/02-guidelines/2023-aaha-senior-care-guidelines-for-dogs-and-cats/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats.pdf) — AAHA (American Animal Hospital Association, entidade dos Estados Unidos), 2023.
+- [Cognitive Dysfunction](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/cognitive-dysfunction) — Cornell Feline Health Center (Universidade Cornell, Estados Unidos).
+- [Estudo retrospectivo das afecções geriátricas de cães e gatos em uma cidade de tríplice fronteira, entre os anos de 2014 a 2017](https://periodicos.uem.br/ojs/index.php/RevCiVet/article/download/42826/pdf) — Revista de Ciência Veterinária e Saúde Pública (UEM/UDC), 2019.
+
 ## Para fechar
 
 Adaptar o espaço onde você vive para receber a velhice do seu pet é um dos maiores gestos de carinho e retribuição pelos anos de companhia leal. Pequenas mudanças práticas no chão, nas tigelas e nos horários transformam o cotidiano, trazendo conforto para o corpo e tranquilidade para a mente do animal.
 
-Lembre-se de manter as consultas de check-up em dia com o médico-veterinário — a cada 6 meses costuma ser o intervalo ideal para essa faixa etária. Continue explorando nossos conteúdos no Tutorial Pet para aprender mais sobre manejo diário, saúde preventiva e bem-estar para toda a vida do seu melhor amigo.
+Lembre-se de manter as consultas de check-up em dia com o médico-veterinário — uma a duas vezes por ano costuma ser o intervalo recomendado para pets seniores, conforme a avaliação do médico-veterinário. Continue explorando nossos conteúdos no Tutorial Pet para aprender mais sobre manejo diário, saúde preventiva e bem-estar para toda a vida do seu melhor amigo.

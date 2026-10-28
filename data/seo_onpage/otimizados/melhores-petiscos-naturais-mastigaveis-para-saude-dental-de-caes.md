@@ -59,7 +59,7 @@ Manter a higiene bucal do cão vai muito além de um hálito fresco. A mastigaç
 
 ## Por que os petiscos mastigáveis ajudam na saúde dental?
 
-A ação mecânica de roer estimula a produção de saliva, que possui enzimas naturais de proteção contra bactérias. Quando o cão morde algo firme e texturizado, o atrito atua como uma escovação física nas superfícies dos dentes, reduzindo o acúmulo de tártaro.
+A ação mecânica de roer estimula a produção de saliva, que possui enzimas naturais de proteção contra bactérias. Quando o cão morde algo firme e texturizado, o atrito atua como uma escovação física nas superfícies dos dentes, o que pode ajudar a reduzir o acúmulo de tártaro.
 
 No entanto, nem todo item duro é seguro para o esmalte dentário do animal. Ossos excessivamente rígidos ou pedras podem fraturar os dentes, exigindo orientação do médico-veterinário para escolher opções seguras e adequadas ao porte do pet.
 
@@ -67,7 +67,7 @@ Exemplo prático: Oferecer um petisco desidratado no horário em que você costu
 
 ## Quais são as melhores opções naturais e seguras?
 
-Os petiscos desidratados de origem animal são excelentes escolhas porque preservam nutrientes e oferecem diferentes níveis de dureza. Traqueias bovinas, nervos e vergalhos desidratados costumam agradar muito e exigem um tempo considerável de mastigação.
+Os petiscos desidratados de origem animal são excelentes escolhas porque preservam nutrientes e oferecem diferentes níveis de dureza. Traqueias bovinas, nervos e vergalhos desidratados costumam agradar muito e exigem um tempo considerável de mastigação. Vale saber que esses itens não têm, por si só, a mesma comprovação de eficácia dos produtos com o selo do VOHC, e que itens muito duros podem fraturar dentes; escolha o tamanho certo para o porte do cão e observe-o mastigando.
 
 Outra alternativa interessante são as cenouras cruas e geladas, ótimas para cães de pequeno e médio porte. Além de refrescantes, elas ajudam a massagear a gengiva, sendo um excelente complemento para dias quentes, assim como os cuidados aplicados em [quais frutas cachorro pode comer no verao com seguranca](/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca).
 
@@ -104,6 +104,13 @@ Outros guias do Tutorial Pet que combinam com este assunto: [melhores brinquedos
 
 - **Como saber se o petisco está fazendo mal ao estômago do cão?**
   Fique atento a sinais como vômitos, diarreia ou apatia após o consumo; caso ocorram, suspenda o petisco e consulte o médico-veterinário.
+
+## Fontes e referências
+
+- [Veterinary Oral Health Council](https://vohc.org/) — VOHC (conselho de dentistas veterinários dos Estados Unidos que concede selo a produtos com eficácia comprovada contra placa e tártaro).
+- [Risks from a fractured tooth](https://www.vet.cornell.edu/departments/riney-canine-health-center/canine-health-information/risks-fractured-tooth) — Riney Canine Health Center, Universidade Cornell (Estados Unidos).
+- [Brushing your dog's teeth](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brushing-your-dogs-teeth) — Riney Canine Health Center, Universidade Cornell (Estados Unidos).
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
 
 ## Para fechar
 

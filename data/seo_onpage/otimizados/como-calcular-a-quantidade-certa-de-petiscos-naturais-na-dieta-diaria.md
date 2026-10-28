@@ -109,6 +109,13 @@ Sim, caso a quantidade de petiscos ultrapasse pequenos mimos e o pet tenha tend�
 - **Gatos podem comer a mesma quantidade de petiscos naturais que cães?**
 Não. Como os gatos geralmente têm menor porte e necessidades calóricas bem menores, a porção de petiscos deve ser proporcionalmente muito menor.
 
+## Fontes e referências
+
+- [Feeding treats to your dog](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais).
+- [Feeding treats to your cat](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-cat-v2.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais).
+- [Treat guidelines for dogs](https://nutrition.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/Treats-guidelines-for-dogs.pdf) — Nutrition Support Service, Universidade da Califórnia em Davis (Estados Unidos).
+- [FoodData Central](https://fdc.nal.usda.gov/) — USDA (Departamento de Agricultura dos Estados Unidos), base de calorias de alimentos.
+
 ## Para fechar
 
 Calcular a quantidade certa de petiscos naturais na dieta diária é um ato de cuidado que garante longevidade, disposição e um peso saudável para cães e gatos. Com pequenas adaptações e atenção às porções, você agrada o seu companheiro sem compromisso nutricional. Continue explorando nosso blog para descobrir mais dicas práticas sobre o universo pet e cuidar ainda melhor de quem te faz companhia todos os dias.

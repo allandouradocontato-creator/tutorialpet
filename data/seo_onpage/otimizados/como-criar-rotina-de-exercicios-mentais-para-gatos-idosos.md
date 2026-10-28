@@ -97,6 +97,12 @@ Prefira petiscos saudáveis, aromáticos e em pedaços bem pequenos para não de
 **O que fazer se o gato ignorar completamente o brinquedo interativo?**
 Facilite o acesso deixando o alimento à mostra e reduza a dificuldade. Gatos idosos podem perder o interesse rapidamente se o desafio parecer frustrante demais.
 
+## Fontes e referências
+
+- [Cognitive Dysfunction](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/cognitive-dysfunction) — Cornell Feline Health Center (Universidade Cornell, Estados Unidos).
+- [AAFP and ISFM Feline Environmental Needs Guidelines](https://catvets.com/wp-content/uploads/2024/01/EnvironmentalNeedsGLS.pdf) — AAFP e ISFM (associações veterinárias felinas dos Estados Unidos e internacional), Journal of Feline Medicine and Surgery, 2013.
+- [2023 AAHA Senior Care Guidelines for Dogs and Cats](https://www.aaha.org/globalassets/02-guidelines/2023-aaha-senior-care-guidelines-for-dogs-and-cats/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats.pdf) — AAHA (American Animal Hospital Association, entidade dos Estados Unidos), 2023.
+
 ## Para fechar
 
 Estimular a mente de um gato idoso é uma forma maravilhosa de demonstrar carinho, fortalecer o vínculo e garantir que ele viva seus anos dourados com alegria e dignidade. Com pequenas mudanças na rotina e muita paciência, você transforma a casa em um ambiente estimulante e seguro. Continue navegando pelo blog Tutorial Pet para descobrir mais dicas práticas para o cuidado diário com cães e gatos.
