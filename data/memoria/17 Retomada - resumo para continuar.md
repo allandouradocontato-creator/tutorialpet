@@ -105,3 +105,7 @@ Contagem: decididas abertas ~40 / feitas +1 (E124: config/estilo_viral.yaml regr
 ## Decisão 28/10 — foco SP/Brasil e plano LATAM (Allan)
 - Conteúdo e tráfego: São Paulo e Brasil; nada de Fortaleza em texto público (regra 33). Roteiros da Natasha em collab já ficaram nacionais; só os vídeos solo dela (perfil dela) citam Fortaleza.
 - LATAM em espanhol: projeto futuro. Premissas a respeitar quando chegar a hora: (1) só depois do AdSense pt-BR aprovado; (2) site separado por idioma (domínio/subdomínio es.), com hreflang, e pedir aprovação do AdSense para ele (cada site é avaliado); (3) não traduzir 1:1: refazer temas pela busca real em espanhol (México, Colômbia, Argentina, Chile) e variar vocabulário por país; (4) CRMV não vale fora do Brasil: a revisão veterinária em espanhol precisa de veterinário(a) local ou deixar sem selo; (5) voz/avatar da Natasha em espanhol só com consentimento específico dela; Duda em espanhol fica a decidir.
+
+## Campanha Sozinho em Casa VSL v12 — 28/10 16:25 (Sonnet, plano B do Fable)
+- Campanha 120253387444780134 / conjunto 120253387467550134 / anúncios A 120253387470430134 e B 120253387471630134 criados PAUSADOS (R$ 30/dia, 28/10 20:00 → 31/10 23:59). Local: Brasil inteiro (SP por key não coube no Windsor; escolher "São Paulo" no Gerenciador). Copy sem "raça" (energia). Landing publicada (f2258ec).
+- Falta só o Allan: marcar "conteúdo gerado por IA" nos 2 anúncios, conferir pagamento/saldo, (opcional) restringir a SP, ativar. Depois: religar o Auditor de Anúncios (trig_019JjHRfcjsdBSoWXLQiddsG) 09:34 Fortaleza.

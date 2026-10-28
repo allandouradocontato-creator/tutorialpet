@@ -34,3 +34,12 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 - Fonte da frase sobre ansiedade de separação: PubMed 18672155 (só o resumo foi lido; afirma "especialmente prevalentes", sem número). A PMC8868415 bloqueou leitura (reCAPTCHA) e não foi usada.
 - Tela do plano do app capturada rolada para não exibir o cartão "Sinais de ansiedade de separação" (evita afirmar algo sobre o cachorro).
 - ATENÇÃO (decisão do Fable mantida, mas conferir): o texto do anúncio e da landing diz que o app ajusta ao porte, "à raça" e ao temperamento, porém o onboarding do app pergunta porte, fase, energia e temperamento (não raça).
+
+## Estado conferido em 28/10/2026 ~16:25 (plano B, Sonnet; leitura via get_data)
+- REGIÃO CORRIGIDA: a key 3864 gravada no create era Massachusetts/US (o Windsor não devolve o nome no create). Tentadas as keys 474, 473, 475, 472, 476, 471 em update_adset: todas recusadas pelo Meta com "Regiões não são suportadas no país selecionado" (code 100, subcode 1487130); nenhuma foi gravada. Fallback decidido pelo Fable aplicado: geo_locations.countries ["BR"] (Brasil inteiro). Lido de volta: {"countries":["BR"],"location_types":["frequently_in","home","recent"]}. SP-only NÃO foi obtido: para restringir a SP o Allan escolhe "São Paulo" no Gerenciador (Conjunto > Público > Locais), 1 clique.
+- Conjunto 120253387467550134: PAUSED, R$ 30/dia (3000), 28/10 23:00Z → 01/11 02:59Z (20:00 → 23:59 -03), INITIATED_CHECKOUT pixel 2135885120651427, Reels+Feed FB/IG, Advantage+ idade 25-65 com sugestão 25-55.
+- Conversion domain tutorialpet.com.br aplicado nos 2 anúncios (update_ad OK).
+- Anúncio A 120253387470430134: criativo novo 1820010209034624 (texto "porte, à energia e ao temperamento"); lido de volta: body novo, título, CTA SHOP_NOW e destino com utm_content=ad_a mantidos; PAUSED, effective_status PENDING_REVIEW (revisão normal do Meta).
+- Anúncio B 120253387471630134: sem "raça" no texto; destino com utm_content=ad_b; PAUSED.
+- Landing (commit f2258ec): "à raça" → "à energia" (meta, hero, card do app; 0 ocorrências de "raça" na página publicada), eyebrow "Em 1 minuto", title "Sozinho em Casa — manual + app, R$ 27". Frase de ansiedade de separação MANTIDA com PubMed 18672155: o estudo finlandês (Salonen 2020, Sci Rep) não pôde ser lido (nature.com fora da lista; resumos em portais não trazem a % de separação; só 32% para ruídos), então não foi citado número.
+- Nada ativado. Só o Allan: marcar "conteúdo gerado por IA", conferir pagamento/saldo, (opcional) restringir o local a São Paulo, ativar.
