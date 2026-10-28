@@ -26,4 +26,4 @@
 2026-10-28 | 07:25 promoveu 2 aprovados com Fontes (escova-dentes-gato, slow-feed) p/ publicar_blog (blog 0/4, ~40 h sem verde); fabrica nao redisparada (E34, ElevenLabs 306) + ficha V20 | aguardando publicar_blog verde + artigo 200 (E34, n=1) | mantém
 2026-10-28 | 11:35 promoveu 2 aprovados com Fontes (slow-feed, petiscos-caseiros; blog 1/4); fabrica nao redisparada (E34, ElevenLabs 306 vs 712) + aviso ao Allan | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
 2026-10-28 | 15:20 fabrica verde #178-180; promoveu slow-feed (unico com Fontes; blog 2/3); posts em erro Zernio iguais | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
-2026-10-28 | 19:20 tudo verde (fabrica #186-188, blog 4/3); disparei Agendador p/ evergreen (estoque posts ~29/10; ElevenLabs 306) | aguardando Agendador SUCCEEDED + posts agendados (E34, n=1) | mantém
+2026-10-28 | 19:20 tudo verde (fabrica #186-188, blog 4/3); fire_trigger do Agendador NEGADO pelo classificador; abri ficha V21 (estoque posts ~29/10; ElevenLabs 306) | aguardando Agendador 29/10 08:15 (E34, n=1) | mantém

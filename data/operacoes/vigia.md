@@ -1,5 +1,5 @@
 Dados até 2026-10-28 19:20 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 de 24 ativas (meta zero)
-CORRIGI: 1 (Agendador disparado p/ aplicar evergreen: estoque de posts acaba ~29/10) | PRECISO DO ALLAN: 1 (ElevenLabs/vídeo, V19)
+CORRIGI: 0 | PRECISO DO ALLAN: 2 (ElevenLabs/vídeo V19; fire_trigger do Agendador negado nesta rodada, V21)
 | rotina | estado | último run / idade | problema | correção |
 |---|---|---|---|---|
 | rotinas ativas | ok | todas SUCCEEDED; Vigia PENDING = esta rodada; nenhuma next_run vencida; desligadas por decisão (22/10) seguem off | - | nada |
@@ -8,6 +8,6 @@ CORRIGI: 1 (Agendador disparado p/ aplicar evergreen: estoque de posts acaba ~29
 | Blog hoje | 4 artigos no ar 28/10 (18:27-19:24Z), plano 3/dia cumprido; aprovados todos no ar | - | - | nada |
 | Zernio | 8 posts em erro (mídia 404/422), iguais a 27/10 | V10/V14/E117 | retry proibido | ficha existente |
 | Buffer | 0 em erro | - | - | - |
-| estoque posts | 7 agendados FB/IG (gato idoso x2, petiscos, lamber focinho); acaba ~29/10 | sem vídeo novo (voz) | acaba | Agendador disparado c/ evergreen; V19 (Allan) |
+| estoque posts | 7 agendados FB/IG (gato idoso x2, petiscos, lamber focinho); acaba ~29/10 | sem vídeo novo (voz) | acaba | ficha V21: Agendador (próxima rodada 29/10 08:15) aplica evergreen; V19 (Allan) |
 | AdSense | 1 FALHA: buraco 15/09-06/10 (histórico, não corrigível); demais PASSAM | - | - | manter 3/dia |
 Idade do último resultado: artigo ~1 h (19:24Z); fábrica verde ~1 h; publicar_blog verde ~1 h.
