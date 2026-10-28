@@ -120,3 +120,4 @@ Contagem: decididas abertas ~40 / feitas +1 (E124: config/estilo_viral.yaml regr
 
 ## Regra 37 (28/10 16:10, Allan): operação sem depender da Natasha
 Nada espera revisão dela; saúde sai com cautela padrão; revisão dela é opcional e sem prazo; selo só se ela revisar. Itens "depende da Natasha" removidos das pendências do Allan (lote 1 e lote 2 viram disponíveis para ela quando quiser).
+- 28/10 16:19: Natasha respondeu "Ok. Aceito!" ao uso da linha de diretrizes editoriais (prova em data/pergunte_veterinaria/aceite_natasha_diretrizes_editoriais_2026-10-28.md). ONGs de SP (9; falta a 10ª), mensagem de abordagem, molde da vitrine e script montar_vitrine_adocao.py entregues pelo agente e já no main. Allan decide: 10ª ONG e quem faz o contato.
