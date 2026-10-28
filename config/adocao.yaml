@@ -1,0 +1,11 @@
+# Vitrine de adocao (Allan, 28/10/2026). Formulario Brevo "Adocao": criar (ver data/adocao/formulario_brevo.md) e colar a URL publica aqui.
+formulario_url: ""
+campos_visiveis:
+  - "Nome da ONG, abrigo ou protetor e cidade/UF"
+  - "Contato público da entidade (WhatsApp ou Instagram)"
+  - "Espécie (cachorro ou gato), nome do animal, porte, idade aproximada e sexo"
+  - "Temperamento (convive com crianças, outros animais, apartamento)"
+  - "Estado de saúde, vacinas e castração"
+  - "Uma foto nítida, tirada por você (a foto será publicada)"
+  - "Confirmação de que você é responsável pelo animal e autoriza a publicação"
+edicao_dia: sexta

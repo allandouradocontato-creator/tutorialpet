@@ -65,6 +65,13 @@ def hoje_fortaleza() -> str:
         return datetime.now(timezone(timedelta(hours=-3))).strftime("%Y-%m-%d")
 
 
+def _ritmo_cfg() -> dict:
+    try:
+        return yaml.safe_load((ROOT / "config" / "ritmo_blog.yaml").read_text(encoding="utf-8")) or {}
+    except Exception:  # noqa: BLE001
+        return {}
+
+
 def escolher_proximo(fila: dict, hoje: str | None = None) -> dict | None:
     """RODIZIO DE PILARES (ritmo fixo de 3 artigos/dia, config/ritmo_blog.yaml). Regras, nesta ordem:
     1) NUNCA repetir no mesmo dia um pilar que ainda tem alternativa: os pilares ja usados HOJE ficam bloqueados.
@@ -91,8 +98,11 @@ def escolher_proximo(fila: dict, hoje: str | None = None) -> dict | None:
     dia_ref = max(anteriores) if (not usos_hoje and anteriores) else None
     bloqueados = set(usos_hoje) | ({t["pilar"] for t in usados if str(t["data"]) == dia_ref} if dia_ref else set())
 
+    prioritarios = set(_ritmo_cfg().get("pilares_prioritarios") or [])
+
     def chave(t: dict) -> tuple:
-        return (ultimo_uso.get(t.get("pilar"), ""), pendentes.index(t))
+        # series prioritarias (adocao, utilidade_publica) primeiro; o bloqueio de "ja usado hoje" garante 1/dia
+        return (0 if t.get("pilar") in prioritarios else 1, ultimo_uso.get(t.get("pilar"), ""), pendentes.index(t))
 
     livres = [t for t in pendentes if t.get("pilar") not in bloqueados]
     if not livres and dia_ref:      # regra 2 sem alternativa: relaxa so a virada de dia, mantem o bloqueio de hoje
@@ -166,7 +176,7 @@ def main() -> int:
 
     py = sys.executable
     # trava de seguranca: pilar desconhecido pelo escritor derrubava a rodada inteira (15/10/2026, 'saude_basica')
-    _validos = {"alimentacao", "comportamento", "cuidados_diarios", "primeiros_passos_filhotes", "produtos_compras", "pauta_especifica"}
+    _validos = {"alimentacao", "comportamento", "cuidados_diarios", "primeiros_passos_filhotes", "produtos_compras", "adocao", "utilidade_publica", "pauta_especifica"}
     if proximo.get("pilar") not in _validos:
         log(f"AVISO: pilar '{proximo.get('pilar')}' invalido; usando cuidados_diarios")
         proximo["pilar"] = "cuidados_diarios"

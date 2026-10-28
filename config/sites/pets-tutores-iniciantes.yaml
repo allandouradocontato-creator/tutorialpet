@@ -16,6 +16,8 @@ pilares:
   cuidados_diarios: "Cuidados diários"
   primeiros_passos_filhotes: "Primeiros passos com filhotes"
   produtos_compras: "Produtos e compras"
+  adocao: "Adoção"
+  utilidade_publica: "Utilidade Pública"
 
 termos_semente:
   - { pilar: alimentacao, termo: "ração para filhote de cachorro" }

@@ -163,6 +163,7 @@ def _load_categorias() -> dict:
 CATEGORIAS = _load_categorias()
 
 
+SERIES_NOVAS = {"adocao", "utilidade_publica"}   # series de 28/10/2026 (ver data/adocao e data/utilidade_publica)
 COLUNA_VET = "pergunte-a-veterinaria"   # coluna fora dos pilares (nao entra no rodizio da fabrica)
 
 
@@ -442,6 +443,18 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                      f'<a href="/sobre#equipe">{html_lib.escape(_ed2.get("nome", "Equipe Tutorial Pet"))}</a>. '
                      f'Atualizado em {_atu}. Não substitui a consulta com um médico-veterinário. '
                      'Viu algum erro? <a href="/contato">Avise a gente</a>.</aside>')
+    if pilar_key == "adocao":
+        cta_adocao = ('<aside class="caixa-adocao" style="margin:24px 0;padding:16px 18px;border-radius:12px;background:#fff1e8;border:1px solid #fdc9a6">'
+                      '<strong>Conhece um pet esperando adoção?</strong> ONGs e protetores podem enviar foto e dados para a nossa vitrine semanal '
+                      'de pets para adoção. <a href="/adocao/enviar">Enviar um pet para adoção</a>.</aside>')
+    else:
+        cta_adocao = ""
+    if pilar_key == "utilidade_publica":
+        transparencia = ('<aside class="transparencia" style="margin:24px 0;padding:14px 16px;border-left:4px solid #0ea5e9;background:#f0f9ff;font-size:.92rem">'
+                         '<strong>Fontes oficiais.</strong> Este guia usa apenas leis, órgãos públicos e conselhos profissionais, com os links acima e a data da consulta, '
+                         f'sob responsabilidade editorial de <a href="/sobre#equipe">{html_lib.escape(_ed2.get("nome", "Equipe Tutorial Pet"))}</a>. '
+                         f'Atualizado em {_atu}. As regras mudam e variam por cidade: confirme no órgão competente. Não substitui orientação de advogado. '
+                         'Viu algum erro? <a href="/contato">Avise a gente</a>.</aside>')
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
            f'<a class="btn" href="{cat_url(pilar_key)}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
@@ -459,6 +472,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {body_html}
 {transparencia}
 {produto_faixa}
+{cta_adocao}
 {cta}
 {render_redes("Gostou? Siga o Tutorial Pet e receba um vídeo novo por dia")}
 </main>
@@ -568,6 +582,35 @@ def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, 
 </main>
 {render_footer()}"""
     return page_shell(fm.get("titulo", slug), site["nicho"][:150], canonical, "website", main)
+
+
+def build_adocao_enviar_page(site: dict, pilares: dict) -> str:
+    """/adocao/enviar: ONG ou protetor envia um pet para a vitrine semanal. Formulario Brevo (config/adocao.yaml); sem dado de pessoa fisica publicado."""
+    cfg = load_yaml(ROOT / "config" / "adocao.yaml") or {}
+    dominio = site["dominio"].rstrip("/")
+    url_form = (cfg.get("formulario_url") or "").strip()
+    campos = "".join(f"<li>{html_lib.escape(c)}</li>" for c in cfg.get("campos_visiveis", []))
+    if url_form:
+        bloco = (f'<p><a class="btn" href="{html_lib.escape(url_form)}" rel="noopener">Abrir o formulário de envio</a></p>')
+    else:
+        bloco = ('<p><strong>O formulário abre nos próximos dias.</strong> Enquanto isso, ONGs e protetores podem enviar as informações pela página '
+                 '<a href="/contato">Contato</a>, escolhendo a opção "Pet para adoção".</p>')
+    main = f"""{render_header(site["nome"], pilares)}
+<main class="legal">
+<h1>Envie um pet para a nossa vitrine de adoção</h1>
+<p>Toda semana publicamos uma edição de <strong>Pets para adoção</strong>, com foto, descrição e o contato da ONG ou do protetor responsável. A divulgação é gratuita.</p>
+<h2>Quem pode enviar</h2>
+<p>ONGs, abrigos e protetores independentes que cuidem do animal. Não aceitamos venda de animais, cobrança de valores pelo animal nem anúncios de criadores.</p>
+<h2>O que pedimos</h2>
+<ul>{campos}</ul>
+{bloco}
+<h2>Como funciona</h2>
+<p>Nossa equipe lê cada envio, confere as informações com a entidade e publica na edição da semana. Publicamos o contato da ONG ou do protetor responsável, nunca dados de pessoas que apenas queiram adotar. Podemos recusar ou pedir ajustes, e a ONG pode pedir a retirada do animal a qualquer momento, por exemplo depois de adotado.</p>
+<p>Quer entender o processo antes? Veja os guias da categoria <a href="/categoria/adocao">Adoção</a>.</p>
+</main>
+{render_footer()}"""
+    return page_shell("Enviar um pet para adoção", "Formulário para ONGs e protetores enviarem pets para a vitrine semanal de adoção do Tutorial Pet.",
+                      f"{dominio}/adocao/enviar", "website", main)
 
 
 # ---- Ícones de seguir (15/10/2026): redes do Tutorial Pet, com clique direto ----
@@ -989,6 +1032,12 @@ def run(site_id: str) -> dict:
         page_shell("Página não encontrada | " + site["nome"], "Página não encontrada.", dominio_404 + "/", "website",
                    corpo_404, extra_head='<meta name="robots" content="noindex">'), encoding="utf-8")
 
+    # Pagina de envio de pets para adocao (/adocao/enviar), 28/10/2026: formulario Brevo definido em config/adocao.yaml
+    _ad = ROOT / "config" / "adocao.yaml"
+    if _ad.exists():
+        (BUILD_DIR / "adocao").mkdir(exist_ok=True)
+        (BUILD_DIR / "adocao" / "enviar.html").write_text(build_adocao_enviar_page(site, pilares), encoding="utf-8")
+
     # Páginas de categoria (/categoria/<slug>): uma por pilar com artigos + a série Pet Celebridade
     (BUILD_DIR / "categoria").mkdir(exist_ok=True)
     cats_geradas = []
@@ -997,6 +1046,9 @@ def run(site_id: str) -> dict:
             (BUILD_DIR / "categoria" / f"{cat_slug(key)}.html").write_text(
                 build_category_page(key, titulo, artigos_por_pilar[key], site, pilares), encoding="utf-8")
             cats_geradas.append(key)
+        elif key in SERIES_NOVAS:   # serie recem-criada (28/10/2026): pagina existe (menu nao quebra) mas fica fora do sitemap ate ter artigo
+            (BUILD_DIR / "categoria" / f"{cat_slug(key)}.html").write_text(
+                build_category_page(key, titulo, [], site, pilares), encoding="utf-8")
     celeb = [fm for l in artigos_por_pilar.values() for fm in l if fm.get("serie") == "pet-celebridade" and fm.get("artista")]
     if celeb:
         (BUILD_DIR / "categoria" / "pet-celebridade.html").write_text(

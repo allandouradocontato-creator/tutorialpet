@@ -25,6 +25,18 @@ produtos_compras:
   descricao:
     - "Caixa de transporte, arranhador, coleira ou peitoral, fonte de água, comedouro, tapete higiênico e brinquedos: comparamos critérios práticos de escolha para você comprar o item certo para o tamanho, a idade e o temperamento do seu pet."
     - "Alguns artigos desta categoria podem conter links de afiliado, sempre identificados. Eles não alteram o preço para você e não influenciam o que recomendamos."
+adocao:
+  slug: adocao
+  titulo: "Adoção"
+  descricao:
+    - "Adotar um cachorro ou um gato muda a vida do animal e a sua, e funciona melhor quando a decisão é informada. Aqui você encontra o passo a passo da adoção responsável, como avaliar uma ONG ou um protetor, o que esperar dos primeiros 30 dias em casa e como se preparar para um pet adulto, idoso ou com alguma deficiência."
+    - "Também falamos do outro lado da conversa: comprar ou adotar, como funciona uma fábrica de filhotes, o que diferencia um criador responsável de um que apenas vende, e quanto custa de verdade cada caminho. Os textos tratam de práticas e informações verificáveis, sem apontar pessoas, canis ou entidades, e citam fontes sempre que há lei ou dado oficial."
+utilidade_publica:
+  slug: utilidade-publica
+  titulo: "Utilidade Pública"
+  descricao:
+    - "O que a lei garante ao seu pet e o que o poder público oferece de graça: proteção contra maus-tratos e abandono, castração gratuita, cadastro do animal no SinPatinhas, vacina antirrábica, direitos em condomínio, transporte e pet shops. Cada guia traz o passo a passo, os canais oficiais e a data em que a informação foi conferida."
+    - "Só usamos fontes oficiais, como leis, órgãos federais, estaduais e municipais e conselhos profissionais, e sempre com o link. As regras mudam e variam por cidade, então confirme no órgão do seu município ou estado antes de agir. O conteúdo é informativo e não substitui a orientação de um advogado ou do órgão competente."
 pet-celebridade:
   slug: pet-celebridade
   titulo: "Pet Celebridade"

@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT))
 import rotina_diaria as rd  # noqa: E402
 
 PILARES = ["cuidados_diarios", "alimentacao", "comportamento", "primeiros_passos_filhotes", "produtos_compras"]
+PRIORITARIOS = ["adocao", "utilidade_publica"]
 falhas: list[str] = []
 
 
@@ -85,6 +86,19 @@ prox = rd.escolher_proximo(copy.deepcopy(real), hoje=hoje)
 alternativa = any(t.get("status") == "pendente" and t.get("pilar") not in usados_hoje for t in real["temas"])
 checar(prox is None or not alternativa or prox["pilar"] not in usados_hoje,
        f"fila real ({hoje}): proximo = {prox and prox['pilar']}; ja usados hoje = {sorted(usados_hoje)}")
+
+# --- series prioritarias (28/10/2026): adocao e utilidade_publica 1/dia cada, 3o slot do rodizio original
+def fila_series(n=12):
+    temas = [{"termo": f"tema {p} {i}", "pilar": p, "status": "pendente"} for i in range(n) for p in PRIORITARIOS + PILARES]
+    return {"temas": temas}
+
+fs = fila_series()
+dias = ["2026-10-29", "2026-10-30", "2026-10-31"]
+for d in dias:
+    seq = produzir(fs, d, 3)
+    checar(len(set(seq)) == 3, f"series {d}: 3 pilares diferentes no dia: {seq}")
+    checar(all(p in seq for p in PRIORITARIOS), f"series {d}: adocao e utilidade_publica saem 1x cada: {seq}")
+    checar(seq.count("adocao") == 1 and seq.count("utilidade_publica") == 1, f"series {d}: no maximo 1/dia por serie")
 
 print("\nRESULTADO:", "TUDO OK" if not falhas else f"{len(falhas)} falha(s)")
 sys.exit(1 if falhas else 0)

@@ -223,5 +223,7 @@ PILAR_VISUAL = {
     "cuidados_diarios": {"bg": "#d9f2e6", "emoji": "🛁"},
     "primeiros_passos_filhotes": {"bg": "#ffe0e6", "emoji": "🐶"},
     "produtos_compras": {"bg": "#ece2ff", "emoji": "🛍️"},
+    "adocao": {"bg": "#ffe3d6", "emoji": "🧡"},
+    "utilidade_publica": {"bg": "#dff0fb", "emoji": "⚖️"},
 }
 PILAR_VISUAL_PADRAO = {"bg": "#efece5", "emoji": "🐾"}

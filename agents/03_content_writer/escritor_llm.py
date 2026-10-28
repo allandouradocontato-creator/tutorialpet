@@ -34,6 +34,28 @@ PRIMEIRA LINHA da resposta, obrigatória: META: <descrição única do artigo pa
 Se o tema for sensível, escreva exatamente a linha [[AVISO_SAUDE]] logo após a introdução."""
 
 
+RODAPE_JURIDICO = ("> Confirme no órgão do seu município ou estado: as regras e os programas mudam e variam por cidade. "
+                   "Este conteúdo é informativo e não substitui a orientação de um advogado ou do órgão competente.")
+
+REGRAS_PILAR = {
+    "utilidade_publica": (
+        "\nSÉRIE UTILIDADE PÚBLICA (Allan, 28/10/2026): SÓ fatos de fonte oficial (planalto.gov.br, câmaras e assembleias, diários oficiais, "
+        "prefeituras, secretarias, Ibama, MAPA, CFMV/CRMV, Ministério Público), cada fato com link e a data da consulta; lei com número, ano e artigo. "
+        "Nunca invente telefone, site, valor de multa nem programa; se não houver fonte oficial para um trecho, omita o trecho. "
+        "Informação, não aconselhamento jurídico; não prometa vaga, benefício ou aprovação (diga critério, onde pedir e que depende de vaga e do município). "
+        "Sem acusar pessoa, ONG ou empresa; maus-tratos em tom respeitoso e sem descrição chocante. Foco nacional: federal primeiro, depois São Paulo; "
+        "não cite Fortaleza nem o Ceará. Abra a seção principal com uma lista curta '## Canais oficiais' (nome do órgão, telefone/site oficial, data da consulta). "
+        "Termine com a seção '## Fontes e referências' e, por último, o rodapé jurídico padrão (será inserido pelo sistema; não o escreva)."),
+    "adocao": (
+        "\nSÉRIE ADOÇÃO (Allan, 28/10/2026): público nacional, São Paulo como exemplo quando precisar de local; sem citar Fortaleza. "
+        "Em temas polêmicos (comprar x adotar, fábrica de filhotes, bons e maus criadores) apresente os dois lados com honestidade, fale de PRÁTICAS e "
+        "sinais verificáveis, e NUNCA aponte pessoa, canil, criador, ONG ou empresa pelo nome. Cite lei, CFMV, CRMVs, ONGs nacionais e estudos com link; "
+        "fonte estrangeira só citada e com ressalva. Tom acolhedor, sem culpar quem comprou ou quem adotou. Nada de números inventados de preço: "
+        "use faixas 'em média' e diga que variam por região. Termine com a lista curta 'O que fazer agora' e o convite: 'Conhece um pet esperando adoção? "
+        "Envie pelo formulário em tutorialpet.com.br/adocao/enviar'."),
+}
+
+
 def carregar_vozes() -> dict:
     return yaml.safe_load(VOZES_PATH.read_text(encoding="utf-8"))
 
@@ -78,6 +100,7 @@ def escrever_corpo(pauta: dict, site: dict, sensivel: bool) -> tuple[str, dict]:
         f"VOZ DESTE ARTIGO — coluna \"{voz['coluna']}\": {voz['estilo']}\n"
         "Mantenha essa voz do começo ao fim, sem citar o nome da coluna no texto."
     )
+    prompt += REGRAS_PILAR.get(pauta.get("pilar", ""), "")
     prompt += _bloco_links_internos()
     corpo = gerar_texto(prompt, sistema=SISTEMA, temperatura=0.9)
     voz = dict(voz)
@@ -92,4 +115,6 @@ def escrever_corpo(pauta: dict, site: dict, sensivel: bool) -> tuple[str, dict]:
     elif sensivel and aviso:
         partes = corpo.split("\n\n", 2)
         corpo = "\n\n".join(partes[:2] + [f"> {aviso}"] + partes[2:])
+    if pauta.get("pilar") == "utilidade_publica" and "Este conteúdo é informativo" not in corpo:
+        corpo = corpo.rstrip() + "\n\n" + RODAPE_JURIDICO
     return corpo.strip() + "\n", voz
