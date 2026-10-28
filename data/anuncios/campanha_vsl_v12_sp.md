@@ -49,3 +49,9 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 - Mapa de keys de região do Meta (BR) lido na API: Ceará 443, Piauí 453, Rio Grande do Sul 456, São Paulo (state) 460, Goiás 462. (Deduzido pela ordem alfabética; 471-476 e 3864 pertencem a outros países; 3864 = Massachusetts/US.)
 - Atenção na leitura: o Windsor guarda em cache a resposta de consultas IDÊNTICAS (mesmos campos/filtros/período); para ler o estado novo depois de um update, mudar a lista de campos ou o date_preset.
 - Pendência única: rótulo "conteúdo gerado por IA" nos 2 anúncios (só pelo Gerenciador, perfil Allan Dourado). Regra 26: não ativar antes. Depois: ativar campanha+conjunto+2 anúncios e religar o Auditor (trig_019JjHRfcjsdBSoWXLQiddsG, 09:34 Fortaleza).
+
+## ATIVADA em 28/10/2026 16:40 (ordem do Allan: "ative assim mesmo", sem rótulo de IA)
+- enable_adset 120253387467550134 e enable_campaign 120253387444780134 executados (Windsor). Leitura: os 2 anúncios passaram de ADSET_PAUSED para ACTIVE/ACTIVE (pais ativos). Início da veiculação 28/10 20:00 (-03), fim 31/10 23:59.
+- Rótulo "conteúdo gerado por IA": caixa não encontrada pelo Allan (editor em massa e edição); pesquisa indica que só é obrigatória em anúncio político e que, em comercial no Brasil, o Meta pode não oferecê-la. Exceção à regra 26 autorizada pelo Allan. Frase "Duda é personagem criada com IA" proposta e NÃO aplicada.
+- Auditor de Anúncios religado (trig_019JjHRfcjsdBSoWXLQiddsG, cron 09:34 Fortaleza, próxima 29/10 09:34).
+- Pendente só do Allan: verificação de organização (CNPJ) no Meta, saldo/pagamento.
