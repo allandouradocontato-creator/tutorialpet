@@ -93,3 +93,8 @@ proporcao_formato_21_10:   # E01 (Estrategista, autorização permanente do Alla
   explicador_longo_37_55s: "no máximo 1 de cada 3 (vale também para o roteiro)"
   acao_final_unica: "meme: comentar 1 palavra; erro de 8s: salvar; voz do pet: compartilhar; dúvida: comentar um número"
   abertura_tiktok: "nunca 'link no perfil' / 'link na bio' na legenda"
+regra_E114_E124:   # E124 (Estrategista, autorização permanente do Allan 16/10/2026), plano data/social/plano_de_mudanca_2026-10-27.md
+  payoff_ate_s4: "nos vídeos NÃO agendados a resposta/resultado aparece até o s4 (texto na tela); pergunta binária só no fim"
+  escopo: "6 vídeos FB/IG e 4 TikTok; itens já agendados não são editados"
+  cortes_tiktok: "15-25 s, alternar gato/cachorro (E125)"
+  prova_28_10: "ret. FB s5 >=55%, tempo médio >=4,5 s; IG skip <=60%; TikTok tempo >=3 s"

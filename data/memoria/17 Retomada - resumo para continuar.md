@@ -87,3 +87,6 @@ Aplicado em código: capas_coerentes.yml com push seguro (fetch+rebase -X theirs
 
 ## Decisões — rodada do Executor 27/10
 Contagem: decididas abertas ~25 / feitas 1 novo (E119) + parciais E120 (6/13 rascunhos com autor+Fontes), E121 (3 Fontes) / atrasadas 14 (mesmas) / só Allan 2 (A02, E13) + ok para religar D02/E09. Painel sem comentário novo. Bloqueado: V16 (Buffer não conferido), capas (Gemini). Nada publicado nem agendado.
+
+## Decisões — rodada do Executor 28/10 (nuvem)
+Contagem: decididas abertas ~40 / feitas +1 (E124: config/estilo_viral.yaml regra_E114_E124) / atrasadas 14 inalteradas (D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31, E45, V06, D10) / só Allan: A02 (2FA, verificação TikTok), V19 (recarga ElevenLabs). Painel de Decisões sem comentário novo. Esta sessão não tinha list_triggers/update_trigger, então E133 (achar o Medidor), D02 e E09 ficaram parados. E125-E129 (fila, preço R$ 27 em roteiros agendados ou não) não executados: sem como separar itens agendados dos não agendados na nuvem.
