@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como hidratar a ração do gato idoso",
+  "gancho_3s": "Seu gato idoso está com dificuldade para mastigar a ração?",
+  "cenas": [
+    {
+      "narracao": "Conforme os felinos envelhecem, a mastigação pode se tornar desconfortável e a hidratação diária costuma cair.",
+      "visual_busca_banco_livre": "old cat eating dry food close up",
+      "texto_na_tela": "Dificuldade para mastigar?"
+    },
+    {
+      "narracao": "Hidratar a ração seca protege os rins e facilita a alimentação do seu companheiro de idade avançada.",
+      "visual_busca_banco_livre": "senior cat looking at camera",
+      "texto_na_tela": "Protege os rins"
+    },
+    {
+      "narracao": "Use água filtrada morna ou caldo caseiro sem tempero. Nunca use água fervendo para não destruir os nutrientes.",
+      "visual_busca_banco_livre": "pouring water in cat bowl",
+      "texto_na_tela": "Água morna ou caldo"
+    },
+    {
+      "narracao": "Adicione meia xícara de líquido para cada xícara de ração e deixe descansar por dez a quinze minutos.",
+      "visual_busca_banco_livre": "cat food softening in bowl",
+      "texto_na_tela": "Deixe descansar 15 min"
+    },
+    {
+      "narracao": "O que não for consumido em trinta minutos deve ser descartado para evitar a proliferação de bactérias.",
+      "visual_busca_banco_livre": "cat eating from bowl close up",
+      "texto_na_tela": "Descarte em 30 min"
+    },
+    {
+      "narracao": "Consulte o médico-veterinário para avaliar restrições específicas de saúde do seu pet.",
+      "visual_busca_banco_livre": "cute senior cat sleeping",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Gostou da dica? Compartilhe com quem tem um gato idoso!",
+  "hashtags": [
+    "gatoidoso",
+    "gatos",
+    "cuidadospet",
+    "saudefelina",
+    "dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato idoso está com dificuldade para mastigar a ração?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-hidratar-a-racao-seca-de-gato-idoso\n\n#gatoidoso #gatos #cuidadospet #saudefelina #dicapet",
+  "slug": "como-hidratar-a-racao-seca-de-gato-idoso"
+}

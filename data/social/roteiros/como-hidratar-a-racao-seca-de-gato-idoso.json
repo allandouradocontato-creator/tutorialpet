@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como hidratar a ração do gato idoso",
+  "gancho_3s": "Seu gato idoso recusa a comida? 30 minutos é o limite seguro.",
+  "cenas": [
+    {
+      "narracao": "Seu gato idoso recusa a comida? 30 minutos é o limite seguro.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Meu gato idoso não mastiga direito."
+    },
+    {
+      "narracao": "[thoughtful] Conforme os gatinhos envelhecem, mastigar pode virar um desafio e eles bebem menos água.",
+      "visual_busca_banco_livre": "old cat eating dry food close up",
+      "texto_na_tela": "Dificuldade para mastigar?"
+    },
+    {
+      "narracao": "[softly] Umedecer a ração seca protege os rins e deixa tudo mais fácil pro seu velhinho.",
+      "visual_busca_banco_livre": "senior cat looking at camera",
+      "texto_na_tela": "Protege os rins"
+    },
+    {
+      "narracao": "Use água morna ou caldo sem tempero. Nada de água fervendo, tá?",
+      "visual_busca_banco_livre": "pouring water in cat bowl",
+      "texto_na_tela": "Água morna ou caldo"
+    },
+    {
+      "narracao": "[short pause] Mistura meia xícara de líquido pra cada xícara de ração e espera uns minutinhos.",
+      "visual_busca_banco_livre": "cat food softening in bowl",
+      "texto_na_tela": "Deixe descansar 15 min"
+    },
+    {
+      "narracao": "O que ele não comer em trinta minutos, a gente descarta pra evitar bactérias, viu?",
+      "visual_busca_banco_livre": "cat eating from bowl close up",
+      "texto_na_tela": "Descarte em 30 min"
+    },
+    {
+      "narracao": "[warmly] E claro, vale sempre conversar com o veterinário pra ver o que é melhor pra ele.",
+      "visual_busca_banco_livre": "cute senior cat sleeping",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet. [smiling]",
+  "hashtags": [
+    "gatoidoso",
+    "gatos",
+    "cuidadospet",
+    "saudefelina",
+    "dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato idoso está com dificuldade para mastigar a ração?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-hidratar-a-racao-seca-de-gato-idoso\n\n#gatoidoso #gatos #cuidadospet #saudefelina #dicapet",
+  "slug": "como-hidratar-a-racao-seca-de-gato-idoso",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 5
+}

@@ -312,7 +312,8 @@ temas:
   status: pendente
 - termo: como hidratar a racao seca de gato idoso
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-28'
 - termo: como remover subpelo de cachorro na epoca de muda
   pilar: cuidados_diarios
   status: pendente
