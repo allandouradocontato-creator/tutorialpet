@@ -52,3 +52,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 34. (28/10/2026) O ARTIGO nunca depende do video: falta de credito/voz/portao de video termina a rodada em modo so-artigo (rascunho salvo na main), nunca derruba a rodada antes de guardar o rascunho. Rodada vermelha 2x seguidas no mesmo passo = olhar o log do passo, nao so disparar de novo.
 
 35. (28/10/2026) ID de geolocalização, interesse ou público do Meta só é aceito depois de ler o nome de volta na API; promessa de funcionalidade em anúncio/landing é conferida no produto antes de publicar.
+
+36. (28/10/2026, decisão do Allan) IDEIAS DE AUDIÊNCIA SEM ELE PEDIR: o Diretor de Audiência e quem planeja conteúdo trazem, em toda rodada, 1 a 3 ideias novas de seção/série/formato que atraiam público (ex.: Adoção, Utilidade Pública, polêmicas como comprar x adotar), cada uma com tema, por que atrai, risco e custo, e já em formato de plano executável. Não esperar pedido. Seções novas entram com 1 artigo/dia na série (ritmo_blog) sem parar os outros pilares.

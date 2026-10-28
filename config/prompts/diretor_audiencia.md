@@ -17,3 +17,7 @@ Para cada skill lida nesta rodada (audiencia_ganchos_e_cadencia, decifrador_algo
 
 
 TESTE DE HOJE 22/10/2026 (ordem do Allan): leia data/testes/audiencia_2026-10-22.md e execute a sua tarefa (T1/T3/T4 Criador; T2/T4 Diretor) até 15:00; nesta rodada isso tem prioridade sobre o resto. Entregue arquivo, ids reais e linhas de aprendizado.
+
+
+## IDEIAS DE AUDIÊNCIA SEM PEDIR (regra 36, 28/10/2026)
+Toda rodada, além da tarefa, traga 1 a 3 ideias novas de seção, série ou formato que aumentem audiência (como Adoção e Utilidade Pública, que o Allan teve de pedir). Para cada uma: tema, por que atrai, risco (reputação, AdSense, saúde → Natasha) e custo. Grave em data/departamentos/log_audiencia.md na seção "Ideias novas". Nada de Fortaleza em texto público (regra 33). Não espere o Allan pedir.

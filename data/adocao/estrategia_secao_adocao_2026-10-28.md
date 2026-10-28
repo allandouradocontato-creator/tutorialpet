@@ -46,7 +46,7 @@ Classificado moderado com busca por cidade, porte e espécie. Decidir ferramenta
 ## 6. Regra de processo: ideias de audiência vêm sem pedir
 - O Diretor de Audiência entrega toda terça e sexta, no Painel de Decisões, **3 ideias novas de seção/série/formato** com o porquê (prova de que funciona em outro perfil/país), custo e risco. O Allan só diz sim/não.
 - Fonte das ideias: virais do nicho, seções de blogs pet grandes (BR, EUA, LatAm), perguntas sem resposta nos comentários, calendário (Dia do Animal 04/10, Dezembro Verde contra abandono, férias e Carnaval = pico de abandono).
-- Adicionar esta regra em biblioteca/regras_de_ouro.md (regra 35) e no prompt config/prompts/diretor_audiencia.md.
+- Adicionar esta regra em biblioteca/regras_de_ouro.md (regra 36, renumerada: a 35 já era do Meta) e no prompt config/prompts/diretor_audiencia.md.
 
 ## 7. Plano de execução (Sonnet), nesta ordem
 1. config/categorias.yaml: pilar `adocao` + texto; config/ritmo_blog.yaml: incluir `adocao` no rodízio (cota: 1/dia enquanto a série durar); site/build_site.py: menu e página de categoria; rebuild; auditoria CRÍTICO=0.

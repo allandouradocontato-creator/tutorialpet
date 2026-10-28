@@ -109,3 +109,11 @@ Contagem: decididas abertas ~40 / feitas +1 (E124: config/estilo_viral.yaml regr
 ## Campanha Sozinho em Casa VSL v12 — 28/10 16:25 (Sonnet, plano B do Fable)
 - Campanha 120253387444780134 / conjunto 120253387467550134 / anúncios A 120253387470430134 e B 120253387471630134 criados PAUSADOS (R$ 30/dia, 28/10 20:00 → 31/10 23:59). Local: Brasil inteiro (SP por key não coube no Windsor; escolher "São Paulo" no Gerenciador). Copy sem "raça" (energia). Landing publicada (f2258ec).
 - Falta só o Allan: marcar "conteúdo gerado por IA" nos 2 anúncios, conferir pagamento/saldo, (opcional) restringir a SP, ativar. Depois: religar o Auditor de Anúncios (trig_019JjHRfcjsdBSoWXLQiddsG) 09:34 Fortaleza.
+
+
+## Duas seções novas do blog — Adoção e Utilidade Pública (Sonnet, 28/10/2026)
+- PRONTO e no ar no repositório (main): pilares `adocao` e `utilidade_publica` (categoria, menu, cores), prioridade 1/dia por série em ritmo_blog.yaml + rotina_diaria.escolher_proximo, escritor com regras por pilar e rodapé jurídico, caixa de fontes oficiais, 24 termos na fila_temas.yaml, páginas de categoria vazias noindex, página /adocao/enviar com o formulário Google (link em config/adocao.yaml). Teste de rodízio OK, auditoria CRÍTICO 0 (84 artigos).
+- Formulário: data/adocao/formulario_envio_adocao.md (upload de foto exige login Google de quem envia).
+- Regra 36 (ideias de audiência sem pedir) em regras_de_ouro.md e no prompt do Diretor de Audiência; prompt utilidade_publica.md agora escreve e reconfere links.
+- Primeiros artigos das duas séries saem pela fábrica nas próximas rodadas (a fábrica ainda está sem voz/ElevenLabs: só artigo).
+- Depende do Allan: (1) decisão do saldo ElevenLabs (recarregar / Natasha grava / voz provisória); (2) contatar as ONGs com a mensagem pronta (lista em data/adocao/ongs_sp.md quando o pesquisador terminar); (3) Natasha revisar lote 1 e aceitar sugestão do lote 2; (4) pedir reanálise do AdSense ~14–21/11 só com CRÍTICO 0.

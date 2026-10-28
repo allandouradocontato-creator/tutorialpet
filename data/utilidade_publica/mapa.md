@@ -25,3 +25,8 @@ Temas: (a) lei/maus-tratos; (b) cadastro protetor/ONG; (c) ração gratuita; (d)
 Nota 2026-10-21: gov.br/mma (maus-tratos e perguntas/respostas ProPatinhas) devolveu 'conteúdo restrito' ao WebFetch; ce.gov.br e protecaoanimal.ce.gov.br falharam no fetch. Federal c (ração): busca achou só o Cartão Ração e Castração do DF (sepan.df.gov.br), nenhum programa federal.
 
 Rodada 2b 2026-10-21 (catch-up): federal d: Lei 13.426/2017 relida (sem texto de gratuidade). Federal e: Min. Saúde coordena campanhas; campanhas são municipais/estaduais (ex.: MS, Salvador, Manaus), sem regra federal de gratuidade lida. Federal g: transporte aéreo (ANAC https://www.gov.br/anac/pt-br/assuntos/passageiros/transporte-de-animais-1, Portaria 17.476/SAS de 18/07/2025) - página bloqueou leitura, pesquisar; condomínio: sem fonte oficial federal lida (só projetos de lei municipais).
+
+
+## Reconferência de links (rotina, a partir de 28/10/2026)
+| Data | Artigo | Link conferido | Situação |
+|---|---|---|---|
