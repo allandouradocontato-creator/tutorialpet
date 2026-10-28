@@ -31,3 +31,9 @@ pet-celebridade:
   descricao:
     - "A série Pet Celebridade conta como vivem os animais de artistas conhecidos: quem é o pet, qual é a raça e o que a rotina deles ensina para quem tem um cão ou gato em casa."
     - "As informações vêm de perfis oficiais e de fontes públicas citadas em cada texto, e sempre terminam em dicas práticas de cuidado."
+pergunte-a-veterinaria:
+  slug: pergunte-a-veterinaria
+  titulo: "Pergunte à veterinária"
+  descricao:
+    - "A coluna Pergunte à veterinária reúne dúvidas reais de tutores de cães e gatos, as mesmas que aparecem nas buscas e nas mensagens que recebemos: vacina, vermífugo, febre, vômito, castração, quando levar ao veterinário. Cada resposta é escrita em primeira pessoa pela médica veterinária parceira do Tutorial Pet, Natasha Braga."
+    - "As respostas são informação geral para ajudar você a entender a situação e decidir o próximo passo. Elas não substituem a consulta: só o médico-veterinário que examina o animal pode diagnosticar, receitar ou indicar tratamento. Cada texto termina com os sinais que pedem atendimento sem esperar."

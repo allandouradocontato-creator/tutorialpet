@@ -163,6 +163,9 @@ def _load_categorias() -> dict:
 CATEGORIAS = _load_categorias()
 
 
+COLUNA_VET = "pergunte-a-veterinaria"   # coluna fora dos pilares (nao entra no rodizio da fabrica)
+
+
 def cat_slug(pilar_key: str) -> str:
     """Slug da página de categoria (config/categorias.yaml; sem entrada, troca _ por -)."""
     return str((CATEGORIAS.get(pilar_key) or {}).get("slug") or pilar_key.replace("_", "-"))
@@ -227,7 +230,7 @@ _PILARES_GLOBAL: dict = {}
 
 
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
-    links = "".join(f'<a href="{cat_url(key)}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="/tv">TV</a>'
+    links = "".join(f'<a href="{cat_url(key)}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a><a href="/tv">TV</a>'
     return f"""<header class="site">
 <a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
@@ -238,7 +241,7 @@ def render_header(site_nome: str, pilares: dict[str, str]) -> str:
 def render_footer(pilares: dict | None = None) -> str:
     pilares = pilares or _PILARES_GLOBAL
     cats = "".join(f'<a href="{cat_url(k)}">{html_lib.escape(n)}</a>' for k, n in pilares.items())
-    cats = f'<nav class="footer-cats" aria-label="Categorias">{cats}<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a></nav>' if cats else ""
+    cats = f'<nav class="footer-cats" aria-label="Categorias">{cats}<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a></nav>' if cats else ""
     links = "".join(
         f'<a href="/{slug}">{LEGAL_PAGES_TITULOS[slug]}</a>' for slug in LEGAL_PAGES_ORDER
     )
@@ -850,18 +853,29 @@ def build_category_page(key: str, titulo: str, itens: list[dict], site: dict, pi
     outras = "".join(f'<a href="{cat_url(k)}">{html_lib.escape(n)}</a>' for k, n in pilares.items() if k != key)
     if key != "pet-celebridade":
         outras += f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a>'
+    if key != COLUNA_VET:
+        outras += f'<a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a>'
     canonical = f"{dominio}{cat_url(key)}"
+    extra_head = ""
+    if itens:
+        secao = (f'<section class="pilar-section"><h2>Artigos de {html_lib.escape(titulo)} <span class="pilar-tag">{len(itens)} artigo(s)</span></h2>'
+                 f'<div class="card-grid">{cards}</div></section>')
+    else:   # coluna ainda sem resposta publicada: nao entra no sitemap e fica noindex ate o 1o artigo revisado
+        secao = ('<section class="pilar-section"><h2>As primeiras respostas saem em breve</h2>'
+                 '<p>Estamos reunindo as perguntas mais frequentes dos tutores para a médica veterinária responder. '
+                 'Quer ver a sua dúvida aqui? Envie pela página de <a href="/contato">Contato</a>, escolhendo "Pergunta para a veterinária".</p>'
+                 '<p>Enquanto isso, saiba <a href="/revisao-veterinaria">como funciona a revisão veterinária</a> dos nossos guias.</p></section>')
+        extra_head = '<meta name="robots" content="noindex">'
     meta = (paras[0] if paras else titulo)[:155]
     main = f"""{render_header(site["nome"], pilares)}
 <div class="breadcrumb"><a href="/">Início</a> &gt; {html_lib.escape(titulo)}</div>
 <main class="home categoria">
 <div class="cat-intro"><h1>{html_lib.escape(titulo)}</h1>{intro}</div>
-<section class="pilar-section"><h2>Artigos de {html_lib.escape(titulo)} <span class="pilar-tag">{len(itens)} artigo(s)</span></h2>
-<div class="card-grid">{cards}</div></section>
+{secao}
 <nav class="cat-outras" aria-label="Outras categorias"><h2>Outras categorias</h2>{outras}</nav>
 </main>
 {render_footer(pilares)}"""
-    return page_shell(f"{titulo}: guias para cães e gatos | {site['nome']}", meta, canonical, "website", main)
+    return page_shell(f"{titulo}: guias para cães e gatos | {site['nome']}", meta, canonical, "website", main, extra_head)
 
 
 def build_sitemap(site: dict, artigos: list[dict], tv: bool = False, categorias: list[str] | None = None) -> str:
@@ -988,6 +1002,12 @@ def run(site_id: str) -> dict:
         (BUILD_DIR / "categoria" / "pet-celebridade.html").write_text(
             build_category_page("pet-celebridade", "Pet Celebridade", celeb, site, pilares), encoding="utf-8")
         cats_geradas.append("pet-celebridade")
+
+    coluna = [fm for l in artigos_por_pilar.values() for fm in l if fm.get("coluna") == COLUNA_VET]
+    (BUILD_DIR / "categoria" / f"{cat_slug(COLUNA_VET)}.html").write_text(
+        build_category_page(COLUNA_VET, "Pergunte à veterinária", coluna, site, pilares), encoding="utf-8")
+    if coluna:   # vazia = fora do sitemap
+        cats_geradas.append(COLUNA_VET)
 
     tv = _tv_lista(artigos_por_pilar)
     if tv:
