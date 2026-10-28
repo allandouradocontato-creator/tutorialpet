@@ -117,3 +117,6 @@ Contagem: decididas abertas ~40 / feitas +1 (E124: config/estilo_viral.yaml regr
 - Regra 36 (ideias de audiência sem pedir) em regras_de_ouro.md e no prompt do Diretor de Audiência; prompt utilidade_publica.md agora escreve e reconfere links.
 - Primeiros artigos das duas séries saem pela fábrica nas próximas rodadas (a fábrica ainda está sem voz/ElevenLabs: só artigo).
 - Depende do Allan: (1) decisão do saldo ElevenLabs (recarregar / Natasha grava / voz provisória); (2) contatar as ONGs com a mensagem pronta (lista em data/adocao/ongs_sp.md quando o pesquisador terminar); (3) Natasha revisar lote 1 e aceitar sugestão do lote 2; (4) pedir reanálise do AdSense ~14–21/11 só com CRÍTICO 0.
+
+## Regra 37 (28/10 16:10, Allan): operação sem depender da Natasha
+Nada espera revisão dela; saúde sai com cautela padrão; revisão dela é opcional e sem prazo; selo só se ela revisar. Itens "depende da Natasha" removidos das pendências do Allan (lote 1 e lote 2 viram disponíveis para ela quando quiser).

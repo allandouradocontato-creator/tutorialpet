@@ -348,7 +348,7 @@ moldes_remix_2026_10_28:   # data/remix/estrategia_remix_2026-10-28.md secao 5 (
     origem: "remix 2 (Guavet Pet Hospital Veterinario, 25,1 mil reacoes): pergunta real de tutor -> explicacao curta e confiante -> 'e o seu faz isso?'"
     duracao_s: "10-15"
     formato: "legenda-pergunta real (comentarios dos virais do nicho + data/pergunta_veterinaria/fila_perguntas.md) no frame 0 com ate 6 palavras; Duda explica 1 comportamento em 2-3 frases; fecha com pergunta binaria ou aberta (nunca 'curta/comente/compartilhe')"
-    quando_saude: "vira video da Natasha (revisao veterinaria), sem alegacao medica categorica; perfil dela cita Fortaleza so no perfil dela, nunca em collab nem no @tutorialpetbr (regra 33)"
+    quando_saude: "NAO depende da Natasha (28/10/2026): publica com a Duda, cautela padrao, sem alegacao medica categorica e com aviso de procurar veterinario; video da Natasha so quando ela quiser; perfil dela cita Fortaleza so no perfil dela, nunca em collab nem no @tutorialpetbr (regra 33)"
     redes: [facebook, instagram, tiktok]
     status: ABERTO
   M2_pet_de_ia_fazendo_coisa_de_gente:
