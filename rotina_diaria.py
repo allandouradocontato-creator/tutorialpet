@@ -54,27 +54,54 @@ def slugs_existentes() -> set[str]:
     return {p.stem for p in RASCUNHOS.glob("*.md")}
 
 
-def escolher_proximo(fila: dict) -> dict | None:
-    """RODIZIO DE PILARES (28/10/2026, ritmo fixo de 3 artigos/dia, config/ritmo_blog.yaml): nunca dois artigos
-    seguidos do mesmo pilar. A fila guarda so a DATA da producao, entao bloqueia os pilares ja usados na data mais
-    recente (cobre o 2o e o 3o artigo do dia e a virada de dia) e, entre os demais, escolhe o pendente cujo pilar
-    foi usado ha mais tempo (pilar nunca usado vem primeiro). Se nao houver alternativa, cai no primeiro pendente."""
+def hoje_fortaleza() -> str:
+    """Data do DIA EDITORIAL (America/Fortaleza). O runner do GitHub roda em UTC: uma rodada de reserva depois das
+    21h de Fortaleza caia no 'dia seguinte' e o rodizio de pilares recomecava no meio do dia (28/10/2026)."""
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.now(ZoneInfo("America/Fortaleza")).strftime("%Y-%m-%d")
+    except Exception:  # sem tzdata: UTC-3 fixo (Fortaleza nao tem horario de verao)
+        from datetime import timedelta, timezone
+        return datetime.now(timezone(timedelta(hours=-3))).strftime("%Y-%m-%d")
+
+
+def escolher_proximo(fila: dict, hoje: str | None = None) -> dict | None:
+    """RODIZIO DE PILARES (ritmo fixo de 3 artigos/dia, config/ritmo_blog.yaml). Regras, nesta ordem:
+    1) NUNCA repetir no mesmo dia um pilar que ainda tem alternativa: os pilares ja usados HOJE ficam bloqueados.
+    2) Na virada de dia, o 1o artigo nao repete o pilar do ultimo artigo do dia anterior (nem os do dia anterior,
+       se houver alternativa).
+    3) Entre os livres, vence o pilar usado ha mais tempo (nunca usado vem primeiro); empate = ordem da fila.
+    4) Se so sobrar pilar ja usado hoje (mais de 5 producoes no dia, p.ex. disparos manuais), escolhe o pilar MENOS
+       usado hoje e avisa; nunca cai cegamente em pendentes[0].
+    A fila guarda so a DATA (dia de Fortaleza) da producao; entradas sem data (rascunho que ja existia) nao contam."""
+    hoje = hoje or hoje_fortaleza()
     pendentes = [t for t in fila["temas"] if t.get("status") == "pendente"]
     if not pendentes:
         return None
     usados = [t for t in fila["temas"] if t.get("status") != "pendente" and t.get("data") and t.get("pilar")]
-    if not usados:
-        return pendentes[0]
-    ultima = max(str(t["data"]) for t in usados)
-    bloqueados = {t["pilar"] for t in usados if str(t["data"]) == ultima}
+    usos_hoje: dict[str, int] = {}
     ultimo_uso: dict[str, str] = {}
     for t in usados:
-        ultimo_uso[t["pilar"]] = max(ultimo_uso.get(t["pilar"], ""), str(t["data"]))
+        d = str(t["data"])
+        ultimo_uso[t["pilar"]] = max(ultimo_uso.get(t["pilar"], ""), d)
+        if d == hoje:
+            usos_hoje[t["pilar"]] = usos_hoje.get(t["pilar"], 0) + 1
+    # Regra 2: se ainda nao ha producao hoje, a referencia e o dia mais recente anterior a hoje.
+    anteriores = [str(t["data"]) for t in usados if str(t["data"]) < hoje]
+    dia_ref = max(anteriores) if (not usos_hoje and anteriores) else None
+    bloqueados = set(usos_hoje) | ({t["pilar"] for t in usados if str(t["data"]) == dia_ref} if dia_ref else set())
+
+    def chave(t: dict) -> tuple:
+        return (ultimo_uso.get(t.get("pilar"), ""), pendentes.index(t))
+
     livres = [t for t in pendentes if t.get("pilar") not in bloqueados]
-    if not livres:
-        log(f"AVISO: so ha pendentes dos pilares {sorted(bloqueados)} (usados em {ultima}); repondo a fila deveria trazer outros pilares")
-        return pendentes[0]
-    return min(livres, key=lambda t: (ultimo_uso.get(t.get("pilar"), ""), pendentes.index(t)))
+    if not livres and dia_ref:      # regra 2 sem alternativa: relaxa so a virada de dia, mantem o bloqueio de hoje
+        livres = [t for t in pendentes if t.get("pilar") not in usos_hoje]
+    if livres:
+        return min(livres, key=chave)
+    log(f"AVISO: so ha pendentes de pilares ja usados hoje ({hoje}): {usos_hoje}; escolhendo o menos usado hoje. "
+        "Repor a fila com os outros pilares.")
+    return min(pendentes, key=lambda t: (usos_hoje.get(t.get("pilar"), 0), ultimo_uso.get(t.get("pilar"), ""), pendentes.index(t)))
 
 
 def repor_fila(fila: dict) -> None:
@@ -161,7 +188,7 @@ def main() -> int:
     log("roteiro de vídeo pronto" if code == 0 and roteiro.exists() else f"AVISO roteiro falhou: {out[-300:]}")
 
     proximo["status"] = "rascunho_pronto"
-    proximo["data"] = datetime.now().strftime("%Y-%m-%d")
+    proximo["data"] = hoje_fortaleza()
     salvar_fila(fila)
     log("PRONTO PARA REVISÃO — nada foi publicado.")
     return 0
