@@ -20,3 +20,11 @@ Conta de anúncios 1213984913380523 (Allan Dourado) · Página Tutorial Pet 1251
 
 ## Bloqueio atual
 Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o Claude criar a campanha pausada pela API, o Allan liga em https://onboard.windsor.ai/app/settings/account → "Enable write actions for Claude, ChatGPT & API". Alternativa: Claude cria no Gerenciador pelo navegador.
+
+## Criada PAUSADA em 28/10/2026 (Sonnet, via Windsor, conta 1213984913380523)
+- Campanha 120253387444780134 · Conjunto 120253387467550134 (R$ 30/dia, 28/10 20:00 → 31/10 23:59 -0300) · Vídeo 2094964854494207
+- Anúncio A 120253387470430134 (VSL_A_v12_ad_A_problema) · Anúncio B 120253387471630134 (VSL_A_v12_ad_B_beneficio) · ambos status PAUSED (effective_status IN_PROCESS = Meta processando o criativo).
+- Ajustes exigidos pela API: custom_event_type = INITIATED_CHECKOUT (não INITIATE_CHECKOUT); com Advantage+ o controle de idade máxima é 65, então age_min 25 / age_max 65 com age_range [25,55] como SUGESTÃO.
+- Interesses (Cães, Adestramento, Petz/Cobasi/Petlove) NÃO aplicados: o Windsor não busca IDs de interesse e a API exige ID. O conjunto roda com Advantage+ aberto (São Paulo, 25-55 sugerido); o criativo faz a segmentação (playbook Andromeda). Se o Allan quiser sinais de interesse, adicionar no Gerenciador.
+- BRAZIL_REGULATION / identidade verificada: a API NÃO pediu nada ao criar o conjunto (sem erro "Advertiser is missing").
+- Nada ativado. Pendências só do Allan: marcar "conteúdo gerado por IA" nos anúncios; conferir pagamento/saldo; ativar.
