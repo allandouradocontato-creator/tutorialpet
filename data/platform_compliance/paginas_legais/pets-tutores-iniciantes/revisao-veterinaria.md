@@ -32,3 +32,8 @@ Nos guias revisados, logo abaixo do nome do autor, aparece uma linha como: "Revi
 ## Coluna "Pergunte à veterinária"
 
 Tutores enviam perguntas reais e a médica veterinária responde. Os textos da coluna ficam na categoria [Pergunte à veterinária](/categoria/pergunte-a-veterinaria). Para enviar a sua, use a página de [Contato](/contato).
+
+
+## Dois selos diferentes
+- **"Revisado por ... em DD/MM/AAAA":** a médica veterinária leu aquele texto específico na data informada.
+- **"Diretrizes editoriais de saúde definidas com ...":** o texto segue as diretrizes de saúde definidas com a médica veterinária (o que se pode e não se pode afirmar, avisos, fontes), mas **este texto específico não foi lido por ela**. Não é revisão individual nem consulta.

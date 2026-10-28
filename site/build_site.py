@@ -358,6 +358,14 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
         jsonld_scripts = jsonld_scripts.replace(
             '{"@type": "Person", "name": "PREENCHER_APOS_APROVACAO_HUMANA"}',
             '{"@type": "Organization", "name": "Tutorial Pet"}')
+    if not selo_revisao and (str(fm.get("aviso_saude_aplicavel")).lower() == "true" or fm.get("pilar") in PILARES_SAUDE_SELO_EDITORIAL):
+        # Selo de LINHA EDITORIAL (28/10/2026, decisão do Allan, Natasha confirmou as diretrizes): NÃO afirma revisão deste texto.
+        _rp0 = _pessoa(EQUIPE.get("revisora_veterinaria"))
+        if _rp0:
+            _c0 = _crmv_txt(_rp0)
+            selo_revisao = (f'<p class="revisado-por">Diretrizes editoriais de saúde definidas com a médica veterinária '
+                            f'<a href="/revisao-veterinaria">{html_lib.escape(_rp0["nome"])}</a>'
+                            + (f' ({html_lib.escape(_c0)})' if _c0 else "") + '</p>')
     if _ed.get("nome"):  # dados estruturados: autor pessoa real em vez de "Equipe Tutorial Pet"
         jsonld_scripts = jsonld_scripts.replace(
             '{"@type": "Organization", "name": "Equipe Tutorial Pet"}',
@@ -479,6 +487,9 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {render_footer()}"""
     return page_shell(titulo_seo, fm.get("meta_description", ""), canonical, "article", main, jsonld_scripts,
                        og_image=og_image)
+
+
+PILARES_SAUDE_SELO_EDITORIAL = {"alimentacao", "primeiros_passos_filhotes", "cuidados_diarios", "adocao"}
 
 
 # ---- Revisão veterinária (28/10/2026): parceria com a médica veterinária Natasha Braga ----
