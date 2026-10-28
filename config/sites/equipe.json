@@ -1,6 +1,18 @@
 {
   "editor": {"nome": "Allan Dourado", "funcao": "Editor responsável", "pagina": "/sobre#equipe"},
-  "revisora_veterinaria": null,
-  "_como_preencher_revisora": "Quando a veterinária for confirmada, troque null por {\"nome\": \"Nome Completo\", \"crmv\": \"CRMV-CE 0000\"} e liste em artigos_revisados APENAS os slugs que ela de fato revisou; o selo só aparece nesses artigos.",
-  "artigos_revisados": []
+  "revisora_veterinaria": "natasha-braga",
+  "pessoas": {
+    "natasha-braga": {
+      "nome": "Natasha Braga",
+      "papel": "Médica veterinária — revisora técnica",
+      "titulo_curto": "médica veterinária",
+      "crmv": "6174",
+      "crmv_uf": "",
+      "instagram": "https://www.instagram.com/vetnatasha/",
+      "instagram_usuario": "@vetnatasha",
+      "bio": "Médica veterinária com atendimento domiciliar em Fortaleza e Região. Atende cães e gatos.",
+      "foto": ""
+    }
+  },
+  "_como_usar": "O selo 'Revisado por' só aparece no artigo cujo frontmatter tiver revisado_por: natasha-braga E revisado_em: AAAA-MM-DD. Nunca marque artigo que ela não tenha aprovado. Preencher crmv_uf (ex.: CE) quando ela confirmar o estado do registro; preencher foto com o caminho de uma imagem enviada por ela (ex.: imagens/equipe/natasha-braga.jpg)."
 }
