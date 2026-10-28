@@ -67,9 +67,9 @@ Muitas vezes, a situação se confunde com um [cachorro latindo muito, o que faz
 *   **Salivação intensa:** Deixar poças de baba perto da porta ou pelo chão da casa.
 *   **Necessidades fora do lugar:** Fazer xixi ou cocô pela sala, mesmo sendo um animal já treinado.
 
-> **Exemplo prático:** Se o seu cão começa a tremer e salivar assim que você veste o sapato ou pega a bolsa, ele já associou esses gatigos visuais ao abandono iminente.
+> **Exemplo prático:** Se o seu cão começa a tremer e salivar assim que você veste o sapato ou pega a bolsa, ele já associou esses gatilhos visuais ao abandono iminente.
 
-## Passos para desacoplar os gatigos de saída
+## Passos para desacoplar os gatilhos de saída
 
 O cão costuma prestar muita atenção nos nossos rituais antes de sair. Ele repara quando pegamos a chave, calçamos o tênis e abrimos a porta. Se esses sinais sempre antecedem o sumiço do tutor, o nível de ansiedade do animal vai subindo gradativamente antes mesmo de sairmos.
 
