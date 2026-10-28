@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como criar um cantinho relaxante para pets em dias de tempestade: guia prático",
+    "description": "Como criar um cantinho relaxante para pets em dias de tempestade: guia prático. O som de trovões e os clarões de raios causam medo em muitos animais de...",
+    "datePublished": "2026-10-27",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que fazer se o pet quiser ficar escondido atrás do sofá?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Deixe-o ficar. Se o local for seguro para ele, apenas adicione uma manta macia por perto e observe de longe.  * **Posso dar remédio calmante para o pet sem receita?** Nunca. Qualquer medicamento, suplemento ou fitoterápico precisa ser indicado pelo médico-veterinário após avaliar o histórico de saúde do animal. Quando há prescrição, o profissional costuma orientar a testar e a dar o remédio com antecedência, e não só quando o barulho já começou.  * **Roupa de compressão e feromônios funcionam?** Algumas pessoas relatam que as roupas de pressão suave ajudam, e há produtos com feromônios sintéticos. Para casos leves podem ser um complemento, mas não substituem a avaliação veterinária e talvez não bastem quando o medo é forte. Converse com o seu veterinário antes de comprar.  * **Devo fazer carinho excessivo quando o pet estiver com medo?** O ideal é manter uma postura calma e neutra. Evite o tom de voz acuado ou pena exagerada, pois isso pode reforçar para o animal que há motivo real para pânico.  * **Quanto tempo antes devo preparar o cantinho?** Sempre que possível, monte o espaço antes da temporada de chuvas e deixe o pet conhecer o lugar em dias calmos, com petiscos e cobertor. Assim, quando o barulho vier, o cantinho já será familiar e não haverá correria de última hora.  * **Quando devo procurar o veterinário?** Procure o profissional se o medo for intenso, se piorar a cada tempestade, se o pet se machucar ao tentar fugir, se deixar de comer ou beber, ou se você não conseguir controlar a situação sozinho. O veterinário pode avaliar o caso, indicar um especialista em comportamento e, se for o caso, receitar medicação junto com treino. Mantenha também a coleira com identificação e o microchip atualizados, caso o pet fuja assustado."
+        }
+      }
+    ]
+  }
+}

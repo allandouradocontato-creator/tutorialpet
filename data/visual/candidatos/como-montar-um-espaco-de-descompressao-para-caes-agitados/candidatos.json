@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 31347233,
+    "url_download": "https://images.pexels.com/photos/31347233/pexels-photo-31347233.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-dog-resting-on-a-sofa-in-black-and-white-31347233/",
+    "fotografo": "Peter Jochim",
+    "fotografo_url": "https://www.pexels.com/@peterjochim-fotografie",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "dog relaxing alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-de-descompressao-para-caes-agitados/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32706974,
+    "url_download": "https://images.pexels.com/photos/32706974/pexels-photo-32706974.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-relaxing-on-mountain-slope-in-summer-landscape-32706974/",
+    "fotografo": "Feyruz Aslanov",
+    "fotografo_url": "https://www.pexels.com/@farcom",
+    "largura": 4272,
+    "altura": 2848,
+    "query": "dog relaxing alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-de-descompressao-para-caes-agitados/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 765575,
+    "url_download": "https://images.pexels.com/photos/765575/pexels-photo-765575.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photography-of-adult-short-coated-dog-765575/",
+    "fotografo": "Akshar Dave🌻",
+    "fotografo_url": "https://www.pexels.com/@akshar-dave",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog relaxing alone",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-de-descompressao-para-caes-agitados/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14336463,
+    "url_download": "https://images.pexels.com/photos/14336463/pexels-photo-14336463.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cute-dalmatian-dog-looking-14336463/",
+    "fotografo": "Jozef Fehér",
+    "fotografo_url": "https://www.pexels.com/@jozef-feher-356581",
+    "largura": 6326,
+    "altura": 4217,
+    "query": "calm dog indoors",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-de-descompressao-para-caes-agitados/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12503321,
+    "url_download": "https://images.pexels.com/photos/12503321/pexels-photo-12503321.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-dog-sleeping-12503321/",
+    "fotografo": "Barnabas Davoti",
+    "fotografo_url": "https://www.pexels.com/@barnabas-davoti-31615494",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "calm dog indoors",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-de-descompressao-para-caes-agitados/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 24595750,
+    "url_download": "https://images.pexels.com/photos/24595750/pexels-photo-24595750.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-lying-on-a-bed-24595750/",
+    "fotografo": "William Prado",
+    "fotografo_url": "https://www.pexels.com/@william-prado-1302103031",
+    "largura": 2880,
+    "altura": 1620,
+    "query": "calm dog indoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-de-descompressao-para-caes-agitados/5.jpg"
+  }
+]

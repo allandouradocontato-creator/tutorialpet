@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como montar um espaco de descompressao para caes agitados: guia prático",
+    "description": "Como montar um espaco de descompressao para caes agitados: guia prático. Se o seu cachorro parece ter ingerido eletricidade pura antes do café da...",
+    "datePublished": "2026-10-27",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-montar-um-espaco-de-descompressao-para-caes-agitados",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-montar-um-espaco-de-descompressao-para-caes-agitados"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-montar-um-espaco-de-descompressao-para-caes-agitados.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro deve ficar preso no espaço de descompressão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O local deve ser de livre acesso; o cão entra e sai quando quiser, associando o canto ao descanso voluntário e nunca a um castigo. Usar o espaço para confinar o cão quando você sai só faz sentido se ele já estiver acostumado e confortável com isso.  * **Posso usar castigo ou isolamento forçado nesse canto?** Não. Se o cão associar o espaço a punição ou broncas, ele tende a rejeitá-lo e o canto perde a função de refúgio.  * **Quanto tempo leva para o cão aprender a usar o espaço sozinho?** Varia bastante de cão para cão: alguns adotam o canto em poucos dias, outros levam mais tempo. A consistência e as associações positivas ajudam. Se a agitação for muito intensa ou persistente, converse com o médico-veterinário para descartar dor ou questões clínicas.  * **Preciso colocar água e comida no espaço de descompressão?** Deixe água fresca disponível, de preferência em um pote que não derrame com facilidade. Comida pode ser oferecida nos horários regulares ou na forma de brinquedos de ocupação, dentro do ritual de calmaria.  * **Posso usar o espaço de descompressão no lugar do passeio?** Não. Ele complementa a rotina de exercícios, brincadeiras e treino, mas não substitui nenhum deles."
+        }
+      }
+    ]
+  }
+}
