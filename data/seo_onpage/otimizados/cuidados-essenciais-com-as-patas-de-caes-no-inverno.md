@@ -83,7 +83,7 @@ Vamos direto ao ponto, desmontando o que não funciona e aplicando medidas simpl
 
 ## O chão gelado racha as patas: mito ou fato?
 
-Isso é fato. O ar seco característico das estações frias, somado ao choque térmico de pisos cerâmicos ou asfalto gelado, retira a umidade natural da queratina que compõe os coxins. Sem flexibilidade, a pele endurece e pequenas fissuras se abrem.
+Isso é fato. O ar seco característico das estações frias, somado ao [choque térmico](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes) de pisos cerâmicos ou asfalto gelado, retira a umidade natural da queratina que compõe os coxins. Sem flexibilidade, a pele endurece e pequenas fissuras se abrem.
 
 O grande problema é que essas microfissuras acumulam poeira, resíduos químicos de produtos de limpeza de rua e bactérias. Quando você percebe que o cachorro está lambendo a pata sem parar, o machucado muitas vezes já se instalou. 
 

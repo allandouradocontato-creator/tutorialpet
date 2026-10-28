@@ -99,6 +99,8 @@ No terceiro dia, ligue a fonte na menor potência em um cômodo silencioso. Deix
 
 Exemplo prático: se o gato ignorar a fonte nos primeiros dias, pingue algumas gotas de caldinho de frango sem tempero na borda externa para atrair a curiosidade dele de forma natural.
 
+Se quiser seguir nesse tema, veja [como escolher fonte bebedouro elétrica para vários pets](/como-escolher-fonte-bebedouro-eletrica-para-varios-pets), [como escolher comedouro duplo elevado para gatos idosos](/como-escolher-comedouro-duplo-elevado-para-gatos-idosos) e [como escolher rampa pet para sofá e cama alta](/como-escolher-rampa-pet-para-sofa-e-cama-alta).
+
 ## Perguntas frequentes
 
 - **Qual é o melhor material de fonte para gatos mediosos?**  

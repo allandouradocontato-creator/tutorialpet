@@ -113,6 +113,8 @@ Se o comportamento incomodar muito ou piorar, procure um médico-veterinário ou
 2. **Adotar muda vidas.** A história da Doralice, que encontrou um lar já adulta, lembra que pets adultos também se adaptam e retribuem o carinho.
 3. **Cuidado pequeno, todo dia.** Escovar, passear no horário certo e observar o corpo do pet previnem muitos problemas.
 
+Em complemento a este guia, o Tutorial Pet também explica [como identificar sinais de estresse em cães multicães em espaço pequeno](/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno).
+
 ## Perguntas frequentes
 
 **O yorkshire late muito?**

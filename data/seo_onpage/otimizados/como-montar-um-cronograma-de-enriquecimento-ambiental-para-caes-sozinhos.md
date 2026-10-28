@@ -101,6 +101,8 @@ Muitos tutores compram vários itens caros no primeiro dia e deixam todos espalh
 
 Quando o enriquecimento ambiental dá certo, o comportamento do cão muda visivelmente. Ele passa a demonstrar mais calma ao receber os estímulos, dorme de forma relaxada após resolver os desafios e reduz drasticamente os episódios de latidos excessivos ou destruição de objetos da casa. Caso note apatia extrema ou comportamentos obsessivos persistentes, lembre-se de buscar orientação profissional com um médico-veterinário ou adestrador especializado.
 
+Para aprofundar o assunto, vale ler também [cachorro latindo muito o que fazer](/cachorro-latindo-muito-o-que-fazer) e [ansiedade de separação em cães](/ansiedade-de-separacao-em-caes).
+
 ## Perguntas frequentes
 
 **O que fazer se o meu cão ignorar os brinquedos interativos no começo?**

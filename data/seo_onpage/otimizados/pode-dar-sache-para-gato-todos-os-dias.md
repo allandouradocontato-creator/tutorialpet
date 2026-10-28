@@ -103,6 +103,8 @@ Sinais de alerta para observar no dia a dia:
 
 *Exemplo prático:* Se o seu gato apresentar fezes amolecidas logo após iniciar o uso diário de uma marca nova de sachê, suspenda o produto e observe. Caso o sintoma persista, agende uma avaliação com o médico-veterinário do pet para investigar intolerâncias.
 
+Se quiser seguir nesse tema, veja [como organizar a rotina de alimentação de cães e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos).
+
 ## Perguntas frequentes
 
 **Dar sachê todos os dias estraga os dentes do gato?**

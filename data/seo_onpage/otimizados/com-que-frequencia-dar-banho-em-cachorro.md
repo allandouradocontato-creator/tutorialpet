@@ -115,6 +115,8 @@ Se o seu cachorro tem condições dermatológicas específicas, como dermatite a
 
 Exemplo prático: Um cão idoso com problemas articulares e pele sensível pode não suportar banhos tradicionais em petshops. O tutor, orientado pelo veterinário, pode substituir os banhos com água por banho a seco com produtos específicos indicados para a idade e condição do animal.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como limpar as patas do cachorro depois do passeio](/como-limpar-as-patas-do-cachorro-depois-do-passeio), [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro) e [como limpar manchas de lágrima ácida em cachorro branco](/como-limpar-manchas-de-lagrima-acida-em-cachorro-branco).
+
 ## Perguntas frequentes
 
 * **Posso dar banho no cachorro toda semana?**

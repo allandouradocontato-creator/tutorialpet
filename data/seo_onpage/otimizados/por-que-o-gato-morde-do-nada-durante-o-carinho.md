@@ -123,6 +123,8 @@ Felinos são mestres em mascarar desconfortos crônicos. Processos inflamatório
 
 **Exemplo prático:** Uma gata adulta que sempre aceitou cafuné no dorso passa a chiar e tentar morder assim que a mão passa perto do quadril. Em vez de repreender o animal, o tutor o acomoda em uma caixa segura e o leva para um exame clínico detalhado na clínica veterinária.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como introduzir um segundo gato na casa sem brigas](/como-introduzir-um-segundo-gato-na-casa-sem-brigas), [gato arranhando o sofá](/gato-arranhando-o-sofa) e [como fazer o gato parar de arranhar o sofá](/como-fazer-o-gato-parar-de-arranhar-o-sofa).
+
 ## Perguntas frequentes
 
 **O gato morde fraco e lambe o local logo em seguida. Isso é carinho?**  

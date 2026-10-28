@@ -118,6 +118,8 @@ Mantenha as cortinas fechadas nos horários em que o sol bate diretamente nas ja
 
 Exemplo prático: Se a sala de estar recebe sol forte à tarde, feche as persianas logo cedo e deixe o quarto dos fundos, que é mais arejado, aberto para o cachorro circular e encontrar um canto fresco para descansar.
 
+Para aprofundar o assunto, vale ler também [cuidados essenciais com as patas de cães no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno).
+
 ## Perguntas frequentes
 
 - **O cachorro pode tosar o pelo no verão para evitar o calor?**

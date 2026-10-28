@@ -102,6 +102,8 @@ Erros comuns incluem colocar todas as caixas no mesmo cômodo, o que para o gato
 
 Exemplo prático: Se você tem dois gatos, o ideal são três caixas espalhadas por cômodos tranquilos e silenciosos da casa, longe de barulhos de eletrodomésticos e dos potes de comida. Para quem está montando o ambiente e também tem cães, vale a pena conferir dicas de [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro) para garantir que os animais respeitem o espaço um do outro desde o início.
 
+Se quiser seguir nesse tema, veja [como fazer o gato beber mais água](/como-fazer-o-gato-beber-mais-agua), [como dar banho em gato](/como-dar-banho-em-gato) e [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores).
+
 ## Perguntas frequentes
 
 * **Posso usar creolina ou água sanitária para lavar a caixa do gato?**

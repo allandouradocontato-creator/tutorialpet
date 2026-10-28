@@ -82,7 +82,7 @@ Você vai precisar de:
 *   **Substrato sanitário:** A escolha sobre a [melhor areia para gato como escolher](/melhor-areia-para-gato-como-escolher) envolve conforto táctil. Substratos finos e sem fragrâncias artificiais costumam agradar mais ao olfato delicado dos felinos.
 *   **Pá coletora e lixeira exclusiva:** A rotina de recolher as necessidades ao menos duas vezes ao dia mantém a harmonia e o respeito pelo espaço dele.
 
-Mantenha a caixa de areia longe dos pratinhos de comida e de locais de passagem movimentada. A privacidade transmite ao bichano a certeza de que aquele território é estável.
+Mantenha a [caixa de areia](/como-ensinar-gato-a-usar-a-caixa-de-areia) longe dos pratinhos de comida e de locais de passagem movimentada. A privacidade transmite ao bichano a certeza de que aquele território é estável.
 
 **Exemplo prático:** Posicione a bandeja sanitária em um canto calmo da lavanderia ou do banheiro social e mostre o local ao gatinho assim que ele sair da caixa de transporte, colocando-o suavemente sobre a areia para que sinta a textura com as patas.
 
@@ -115,6 +115,8 @@ As telas de proteção em todas as janelas, varandas e vãos abertos são inegoc
 Outro cuidado silencioso envolve as plantas: muitas espécies comuns em vasos domésticos podem causar intoxicações severas. Vale a pena consultar uma lista de [plantas tóxicas para gatos](/plantas-toxicas-para-gatos) e retirar do alcance lírios, comigo-ninguém-pode e espadas-de-são-jorge antes do desembarque do filhote. Recolha fios elétricos soltos, guarde pequenos objetos engolíveis e trave armários com produtos de limpeza.
 
 **Exemplo prático:** Ajoelhe-se no chão da sala para enxergar o ambiente da altura dos olhos de um filhote; você notará frestas atrás de estantes e fios soltos que passariam despercebidos do alto.
+
+Para aprofundar o assunto, vale ler também [como ensinar filhote de gato a interagir com cães adultos](/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos) e [como socializar filhote de gato](/como-socializar-filhote-de-gato).
 
 ## Perguntas frequentes
 

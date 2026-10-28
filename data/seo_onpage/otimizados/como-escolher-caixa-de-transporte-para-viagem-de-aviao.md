@@ -110,7 +110,7 @@ A ventilação deve ocupar uma área generosa da caixa. Em viagens de porão, co
 Nada de trincos plásticos frágeis. Em caixas rígidas, as metades superior e inferior devem ser fixadas por parafusos com porcas de metal. Travas plásticas de clique simples costumam ser recusadas para viagens de porão.
 
 ### Fundo impermeável e comedouros
-Acidentes acontecem, ainda mais sob estresse. Forre o fundo com tapete higiênico descartável e tenha peças extras na mala de mão. Para o porão, você precisa fixar dois potinhos (água e comida) na parte interna da porta, de modo que possam ser abastecidos pelo lado de fora, sem necessidade de abrir a grade. Durante a triagem no raio-X, você precisará tirar o pet da caixa por alguns minutos; ter um bom [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro) bem ajustado garante que ele não fuja assustado no saguão.
+Acidentes acontecem, ainda mais sob estresse. Forre o fundo com [tapete higiênico](/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento) descartável e tenha peças extras na mala de mão. Para o porão, você precisa fixar dois potinhos (água e comida) na parte interna da porta, de modo que possam ser abastecidos pelo lado de fora, sem necessidade de abrir a grade. Durante a triagem no raio-X, você precisará tirar o pet da caixa por alguns minutos; ter um bom [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro) bem ajustado garante que ele não fuja assustado no saguão.
 
 > **Exemplo prático:** Na véspera do voo, troque os pinos plásticos que vieram na montagem rápida da sua caixa rígida por parafusos de aço com borboletas de metal. É essa substituição simples que evita surpresas desagradáveis na esteira de despacho.
 

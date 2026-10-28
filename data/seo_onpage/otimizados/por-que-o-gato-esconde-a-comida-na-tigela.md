@@ -138,6 +138,8 @@ Ao colocar o sachê matinal, marque 20 minutos no cronômetro. O felino comeu 70
 
 ---
 
+Se quiser seguir nesse tema, veja [gato arranhando o sofá](/gato-arranhando-o-sofa) e [como introduzir um segundo gato na casa sem brigas](/como-introduzir-um-segundo-gato-na-casa-sem-brigas).
+
 ## Perguntas frequentes
 
 **O gato está dizendo que a comida é ruim quando arranha o chão?**  

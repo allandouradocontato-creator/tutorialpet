@@ -109,6 +109,8 @@ A alimentação também pede cuidado. Mudanças bruscas no cardápio podem incom
 
 Exemplo prático: crie o hábito de olhar a gengiva e os dentes do seu cachorro toda semana. Se notar vermelhidão ou mau hálito, marque uma consulta.
 
+Para aprofundar o assunto, vale ler também [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores), [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro) e [como saber se o cachorro está acima do peso ideal](/como-saber-se-o-cachorro-esta-acima-do-peso-ideal).
+
 ## Perguntas frequentes
 
 * **O galgo italiano late muito dentro de casa?**

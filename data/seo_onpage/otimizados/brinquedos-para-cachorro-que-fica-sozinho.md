@@ -139,6 +139,8 @@ Sinais de alerta: Se o cão demonstrar apatia profunda mesmo com a troca constan
 
 Exemplo prático: O tutor guarda as pelúcias na segunda-feira, coloca os mordedores na quarta e usa os quebra-cabeças na sexta. O cão mantém o entusiasmo elevado toda vez que percebe uma nova combinação de itens disponíveis na sala.
 
+Para aprofundar o assunto, vale ler também [melhores brinquedos interativos para cães ansiosos sozinhos](/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos), [melhores petiscos naturais mastigáveis para saúde dental de cães](/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes) e [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro).
+
 ## Perguntas frequentes
 
 **Posso deixar qualquer pelúcia com o meu cão quando eu sair?**

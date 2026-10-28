@@ -126,6 +126,8 @@ Passos para contornar o acidente:
 **Exemplo prático:** 
 Assim como cuidamos da saúde bucal usando dicas de [como escovar os dentes do cachorro](/como-escovar-os-dentes-do-cachorro) com calma e sem pressa, lidar com pequenos imprevistos nas unhas exige respirar fundo e agir com tranquilidade.
 
+Se quiser seguir nesse tema, veja [como acostumar o cachorro a cortar as unhas](/como-acostumar-o-cachorro-a-cortar-as-unhas) e [cuidados essenciais com as patas de cães no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno).
+
 ## Perguntas frequentes
 
 **Com que frequência devo cortar a unha do meu cachorro?**

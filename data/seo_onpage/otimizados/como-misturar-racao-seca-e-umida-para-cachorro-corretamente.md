@@ -102,6 +102,8 @@ Os comedouros devem ser lavados com água morna e detergente neutro após cada r
 
 Exemplo prático: Estabeleça duas refeições diárias, retire a tigela após quinze minutos caso o cão não coma tudo, e faça a higienização completa do recipiente imediatamente.
 
+Em complemento a este guia, o Tutorial Pet também explica [como armazenar ração de cachorro para não perder nutrientes](/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes) e [como calcular a quantidade certa de petiscos naturais na dieta diária](/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria).
+
 ## Perguntas frequentes
 
 **Posso misturar ração seca e úmida em todas as refeições do dia?**

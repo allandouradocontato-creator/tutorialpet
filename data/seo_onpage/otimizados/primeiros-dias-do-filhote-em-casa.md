@@ -99,7 +99,7 @@ Passos para o sucesso higiênico:
 
 Erros comuns consistem em esfregar o focinho do animal no xixi errado. Isso não ensina nada e apenas gera medo. Para aprofundar esse aprendizado sem estresse, veja dicas práticas em [como ensinar cachorro a fazer xixi no lugar certo](/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo).
 
-Exemplo prático: A cada hora em que o filhote estiver acordado, leve-o gentilmente até o tapete higiênico e espere alguns segundos até que ele entenda o propósito do local.
+Exemplo prático: A cada hora em que o filhote estiver acordado, leve-o gentilmente até o [tapete higiênico](/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico) e espere alguns segundos até que ele entenda o propósito do local.
 
 ## Saúde preventiva e primeiros passos na rua
 
@@ -115,6 +115,8 @@ Passos para cuidar da saúde inicial:
 Erros comuns incluem levar o animal para caminhar em praças públicas antes de completar o ciclo de proteção recomendado. Se notar qualquer sinal de febre, vômito repetido ou falta de apetite, procure o médico-veterinário imediatamente.
 
 Exemplo prático: Enquanto o pet não pode caminhar na calçada, carregue-o no colo durante breves passeios de carro ou na frente de casa para que ele comece a se acostumar com barulhos de carros e pedestres com segurança.
+
+Se quiser seguir nesse tema, veja [com quantos meses o cachorro pode sair na rua? O que saber antes](/com-quantos-meses-o-cachorro-pode-sair-na-rua).
 
 ## Perguntas frequentes
 

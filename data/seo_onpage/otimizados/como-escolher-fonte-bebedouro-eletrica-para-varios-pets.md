@@ -94,6 +94,8 @@ Passos para a manutenção correta:
 
 Exemplo prático: Se a fonte começar a emitir um zumbido forte, sinaliza que há pelos acumulados na hélice da bomba; uma limpeza rápida com cotonete resolve o problema imediatamente.
 
+Se quiser seguir nesse tema, veja [como escolher fonte de água ideal para gatos que tem medo](/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo), [como escolher tapete higiênico lavável para cachorro em apartamento](/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento) e [como escolher comedouro duplo elevado para gatos idosos](/como-escolher-comedouro-duplo-elevado-para-gatos-idosos).
+
 ## Perguntas frequentes
 
 - **Qual é o melhor local da casa para colocar a fonte de vários pets?**

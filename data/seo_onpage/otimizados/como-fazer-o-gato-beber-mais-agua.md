@@ -102,6 +102,8 @@ A textura pastosa e o aroma acentuado do sachê despertam o apetite e garantem q
 
 > **Exemplo prático:** Misture uma colher de sopa de água morna ao sachê do gato, formando uma sopa cremosa. Ele vai lamber todo o caldinho com entusiasmo e se hidratar sem perceber.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como limpar caixa de areia do gato](/como-limpar-caixa-de-areia-do-gato) e [como dar banho em gato](/como-dar-banho-em-gato).
+
 ## Perguntas frequentes
 
 * **O gato pode tomar leite para se hidratar melhor?**

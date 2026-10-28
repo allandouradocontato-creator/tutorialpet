@@ -128,6 +128,8 @@ Se você presenciar o gato ingerindo uma planta suspeita ou notar sintomas súbi
 **Exemplo prático:**  
 Ao notar vômito com pedaços verdes perto de uma espada-de-são-jorge mordida, o tutor recolhe um pedaço da planta em um saco plástico, aloca o gato na caixa de transporte e parte de imediato para a emergência, informando na recepção a suspeita exata de ingestão botânica.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como limpar caixa de areia do gato](/como-limpar-caixa-de-areia-do-gato), [sinais de envelhecimento em gatos senior que passam despercebidos](/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos) e [como evitar a obesidade em gatos castrados de apartamento](/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento).
+
 ## Perguntas frequentes
 
 **Colocar a planta em um local alto impede o gato de alcançá-la?**  
@@ -142,15 +144,15 @@ Sim. Certas substâncias ativas e toxinas hidrossolúveis são lixiviadas para o
 **Graminhas vendidas em pet shops são totalmente seguras?**  
 Sim, desde que cultivadas a partir de sementes orgânicas (aveia, trigo ou cevada) e livres de fertilizantes químicos ou pesticidas.
 
-## Para fechar
-
-Manter a residência visualmente agradável com plantas e, simultaneamente, assegurar a integridade do seu gato é perfeitamente viável. A chave reside na seleção criteriosa das espécies botânicas e na auditoria constante dos espaços comuns. Diante de qualquer dúvida sobre uma espécie específica ou suspeita de intoxicação, procure sempre a orientação de um médico-veterinário de sua confiança.
-
-Para aprofundar seus conhecimentos sobre o comportamento e a rotina do seu companheiro, continue explorando nossos conteúdos informativos sobre o cotidiano e bem-estar dos felinos.
-
 ## Fontes e referências
 
 Segundo as orientações de entidades veterinárias, este conteúdo é informativo e não substitui a consulta ao médico-veterinário. Referências:
 
 - [ASPCA: lista de plantas tóxicas e não tóxicas para animais](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants)
 - [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
+
+## Para fechar
+
+Manter a residência visualmente agradável com plantas e, simultaneamente, assegurar a integridade do seu gato é perfeitamente viável. A chave reside na seleção criteriosa das espécies botânicas e na auditoria constante dos espaços comuns. Diante de qualquer dúvida sobre uma espécie específica ou suspeita de intoxicação, procure sempre a orientação de um médico-veterinário de sua confiança.
+
+Para aprofundar seus conhecimentos sobre o comportamento e a rotina do seu companheiro, continue explorando nossos conteúdos informativos sobre o cotidiano e bem-estar dos felinos.

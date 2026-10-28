@@ -126,6 +126,8 @@ Se esses sinais persistirem mesmo após ajustes na regulagem, consulte o médico
 ### Exemplo prático:
 O tutor nota que o cachorro coça constantemente a região das axilas após os passeios. Ao inspecionar o equipamento, percebe que as tiras estão causando atrito excessivo na pele, exigindo a troca por um modelo com material mais macio.
 
+Em complemento a este guia, o Tutorial Pet também explica [como escolher cinto de segurança pet para carro](/como-escolher-cinto-de-seguranca-pet-para-carro) e [como escolher coleira com rastreador GPS para cachorro](/como-escolher-coleira-com-rastreador-gps-para-cachorro).
+
 ## Perguntas frequentes
 
 **Posso deixar o acessório de passeio no cachorro dentro de casa o dia todo?**

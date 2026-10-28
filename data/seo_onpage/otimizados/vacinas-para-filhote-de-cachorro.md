@@ -63,7 +63,7 @@ A chegada de um novo filhote em casa traz aquela alegria contagiante, mas també
 
 ## Por que as vacinas são essenciais para o filhote
 
-O sistema imunológico de um recém-nascido ainda é imaturo. Nos primeiros dias de vida, os anticorpos transmitidos pelo leite materno oferecem uma proteção temporária, conhecida como imunidade passiva. No entanto, essa defesa cai gradualmente ao longo das semanas. 
+O sistema imunológico de um recém-nascido ainda é imaturo. Nos [primeiros dias](/primeiros-dias-do-filhote-em-casa) de vida, os anticorpos transmitidos pelo leite materno oferecem uma proteção temporária, conhecida como imunidade passiva. No entanto, essa defesa cai gradualmente ao longo das semanas. 
 
 À medida que essa proteção natural diminui, o organismo do animal precisa aprender a criar seus próprios anticorpos contra vírus e bactérias perigosas. É aqui que entram as vacinas injetáveis. Elas introduzem agentes inativados ou atenuados que estimulam a defesa corporal sem causar a doença, preparando o sistema imunológico para combater ameaças reais no futuro.
 
@@ -127,12 +127,6 @@ Animais adultos sem histórico vacinal também precisam de um protocolo de imuni
 **Posso dar remédio para dor por conta própria se o filhote ficar manhoso?**
 Nunca dê medicamentos humanos ou analgésicos sem prescrição veterinária, pois muitas substâncias comuns são altamente tóxicas para cães.
 
-## Para fechar
-
-Cuidar da imunização do seu cãozinho é um ato de carinho que garante anos de companhia saudável e cheia de brincadeiras. Seguir o calendário recomendado pelo médico-veterinário e respeitar o tempo de cada etapa faz toda a diferença para o bem-estar do animal.
-
-Convidamos você a continuar explorando os conteúdos do nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais a convivência com o seu companheiro de quatro patas.
-
 ## Fontes e referências
 
 - [2024 Guidelines for the Vaccination of Dogs and Cats](https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf) — WSAVA, 2024 (fonte estrangeira).
@@ -142,3 +136,9 @@ Segundo as orientações de entidades veterinárias, este conteúdo é informati
 - [WSAVA: Diretrizes globais de vacinação para cães e gatos](https://wsava.org/global-guidelines/vaccination-guidelines/)
 - [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
 - [MAPA: vacinação antirrábica](https://www.gov.br/agricultura/pt-br)
+
+## Para fechar
+
+Cuidar da imunização do seu cãozinho é um ato de carinho que garante anos de companhia saudável e cheia de brincadeiras. Seguir o calendário recomendado pelo médico-veterinário e respeitar o tempo de cada etapa faz toda a diferença para o bem-estar do animal.
+
+Convidamos você a continuar explorando os conteúdos do nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais a convivência com o seu companheiro de quatro patas.

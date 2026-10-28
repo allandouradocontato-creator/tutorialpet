@@ -122,6 +122,8 @@ O reforço positivo é o seu maior aliado. Sempre que o cão ignorar o gato paci
 
 Exemplo prático: Sente-se no sofá para assistir TV com o cão deitado aos seus pés e o gato dormindo no alto do arranhador. Fique atento e recompense o cão por permanecer relaxado, ignorando os movimentos do felino.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como fazer cachorro idoso aceitar um filhote novo](/como-fazer-cachorro-idoso-aceitar-um-filhote-novo) e [como acostumar gato adulto com novo comedouro](/como-acostumar-gato-adulto-com-novo-comedouro).
+
 ## Perguntas frequentes
 
 * **O cachorro late muito toda vez que vê o gato, isso vai passar?**

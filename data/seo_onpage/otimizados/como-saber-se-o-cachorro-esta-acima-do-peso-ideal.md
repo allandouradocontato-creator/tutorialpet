@@ -145,6 +145,8 @@ Tutores que gostam de oferecer opções mais palatáveis podem aprender [como mi
 
 Exemplo prático: aposente o pote medidor genérico de plástico e passe a utilizar uma balança digital de cozinha simples para pesar cada refeição. A diferença visual entre 80 gramas e 100 gramas de ração é quase imperceptível a olho nu, mas representa 25% a mais de calorias diárias acumuladas na rotina do pet.
 
+Se quiser seguir nesse tema, veja [como evitar choque térmico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes), [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores) e [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro).
+
 ## Perguntas frequentes
 
 **A castração faz o cachorro engordar obrigatoriamente?**  

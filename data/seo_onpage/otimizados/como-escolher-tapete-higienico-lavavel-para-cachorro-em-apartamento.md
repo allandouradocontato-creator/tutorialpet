@@ -113,6 +113,8 @@ Oriente-se sempre com um médico-veterinário de confiança para descartar infec
 
 Exemplo prático: Um cão idoso que passa a errar o tapete pode estar com mobilidade reduzida ou problemas articulares, sendo útil avaliar adaptações no ambiente com dicas sobre [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
 
+Em complemento a este guia, o Tutorial Pet também explica [como escolher fonte bebedouro elétrica para vários pets](/como-escolher-fonte-bebedouro-eletrica-para-varios-pets), [como escolher coleira com rastreador GPS para cachorro](/como-escolher-coleira-com-rastreador-gps-para-cachorro) e [como escolher rampa pet para sofá e cama alta](/como-escolher-rampa-pet-para-sofa-e-cama-alta).
+
 ## Perguntas frequentes
 
 **O tapete lavável elimina totalmente o cheiro de xixi no apartamento?**

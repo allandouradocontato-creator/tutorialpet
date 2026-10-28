@@ -115,6 +115,8 @@ Essa divisão garante que o idoso não sinta dores musculares no dia seguinte e 
 
 Exemplo prático: ao sair com um labrador de 3 anos e um poodle de 12 anos, caminhe uma quadra plana com os dois juntos. Deixe o poodle em casa relaxando e siga para mais duas quadras com o labrador para um treino de caminhada estruturada.
 
+Se quiser seguir nesse tema, veja [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores) e [como evitar choque térmico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes).
+
 ## Perguntas frequentes
 
 **Filhote que ainda não completou as vacinas pode passear de alguma forma?**  

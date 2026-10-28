@@ -56,7 +56,7 @@ A chegada de um filhote enche a casa de energia, mas logo surge a grande dúvida
 
 ## O sistema imunológico do filhote e a proteção das vacinas
 
-O principal motivo para segurar o filhote em casa nas primeiras semanas é a imaturidade do seu sistema imunológico. Quando os bebês caninos nascem, eles recebem anticorpos temporários através do leite materno, mas essa proteção cai drasticamente com o passar das semanas. Até que o corpo do animal produza suas próprias defesas duradouras contra vírus graves, ele fica vulnerável a doenças perigosas, como a cinomose e a parvovirose.
+O principal motivo para segurar o [filhote em casa](/primeiros-dias-do-filhote-em-casa) nas primeiras semanas é a imaturidade do seu sistema imunológico. Quando os bebês caninos nascem, eles recebem anticorpos temporários através do leite materno, mas essa proteção cai drasticamente com o passar das semanas. Até que o corpo do animal produza suas próprias defesas duradouras contra vírus graves, ele fica vulnerável a doenças perigosas, como a cinomose e a parvovirose.
 
 Por isso, o calendário de imunização é o grande guia para definir o momento certo de ir para a rua. Antes de pensar nas caminhadas, vale a pena conferir o guia sobre [como lidar com vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro) para entender todas as etapas do processo de proteção. Em média, os protocolos completos de vacinação costumam ser finalizados por volta de **quatro meses de idade**, mas é fundamental confirmar essa liberação com o médico-veterinário do pet.
 
@@ -95,6 +95,8 @@ Sinais de alerta importantes:
 - Medo paralisante ou agressividade excessiva diante de estímulos comuns.
 
 Diante de qualquer sintoma gastrointestinal ou respiratório, procure imediatamente o médico-veterinário do pet para uma avaliação clínica rápida.
+
+Outros guias do Tutorial Pet que combinam com este assunto: [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro).
 
 ## Perguntas frequentes
 

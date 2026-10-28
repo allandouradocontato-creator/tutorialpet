@@ -110,6 +110,8 @@ Se o comportamento parecer agressivo ou se a fase de troca de dentes causar dor 
 ### Exemplo prático:
 Note se o filhote rosna de forma tensa ao ter um objeto retirado da boca. Em vez de puxar à força (o que pode intensificar a guarda de recursos), treine a troca oferecendo um petisco de alto valor bem perto do focinho para que ele solte o item voluntariamente.
 
+Em complemento a este guia, o Tutorial Pet também explica [como ensinar cachorro a fazer xixi no lugar certo](/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo), [cachorro latindo muito o que fazer](/cachorro-latindo-muito-o-que-fazer) e [como acostumar gato e cachorro a conviverem em paz](/como-acostumar-gato-e-cachorro-a-conviverem-em-paz).
+
 ## Perguntas frequentes
 
 * **Com qual idade o filhote para de morder tudo?**

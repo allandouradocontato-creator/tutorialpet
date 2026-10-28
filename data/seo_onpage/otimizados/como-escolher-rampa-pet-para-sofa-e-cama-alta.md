@@ -122,6 +122,8 @@ Execute o treino com estes passos:
 
 ---
 
+Em complemento a este guia, o Tutorial Pet também explica [como escolher comedouro duplo elevado para gatos idosos](/como-escolher-comedouro-duplo-elevado-para-gatos-idosos), [como escolher caixa de transporte para viagem de avião](/como-escolher-caixa-de-transporte-para-viagem-de-aviao) e [arranhador para gato, qual escolher](/arranhador-para-gato-qual-escolher).
+
 ## Perguntas frequentes
 
 **Rampa ou escada pet: qual das duas opções é melhor?**  

@@ -112,7 +112,7 @@ Erros sanitários em gatos idosos são quase sempre interpretados como problemas
 Muitas caixas possuem bordas altas. Para um felino com desconforto nos membros traseiros, erguer a pata exige esforço. O resultado comum é o animal urinar ao lado da caixa.
 
 ### Vocalização noturna e ciclos de vigília
-Gatos sêniores podem apresentar desorientação temporal por alterações no sistema nervoso. Isso se manifesta com:
+[Gatos sêniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores) podem apresentar desorientação temporal por alterações no sistema nervoso. Isso se manifesta com:
 * Miados altos e repetitivos durante a madrugada em cômodos vazios.
 * Sono fragmentado, com o animal vagando sem rumo pela casa à noite.
 * Redução da tolerância ao toque brusco ou a ruídos repentinos.

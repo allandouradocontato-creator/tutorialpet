@@ -154,6 +154,8 @@ Petisco não substitui a refeição principal. As rações comerciais de boa qua
 
 ---
 
+Se quiser seguir nesse tema, veja [como organizar a rotina de alimentação de cães e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos).
+
 ## Perguntas frequentes
 
 **Gato pode comer petiscos naturais desidratados comerciais?**  

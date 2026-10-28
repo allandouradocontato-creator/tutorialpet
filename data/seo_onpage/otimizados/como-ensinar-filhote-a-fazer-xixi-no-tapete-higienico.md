@@ -114,6 +114,8 @@ Conforme a rotina se estabiliza, muitos tutores optam por materiais reutilizáve
 
 **Exemplo prático:** se o pet fez xixi no tapete da sala, retire a peça temporariamente para lavagem pesada com neutralizador enzimático e só a devolva quando o cão estiver usando o tapete higiênico com consistência há pelo menos duas semanas.
 
+Em complemento a este guia, o Tutorial Pet também explica [como evitar que o filhote chore à noite](/como-evitar-que-o-filhote-chore-a-noite).
+
 ## Perguntas frequentes
 
 **Com que idade o filhote aprende a usar o tapete com consistência?**

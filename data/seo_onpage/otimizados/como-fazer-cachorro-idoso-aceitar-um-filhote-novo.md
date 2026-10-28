@@ -140,6 +140,8 @@ Se o filhote avançar pulando nas costas do cão idoso e este apenas virar o pes
 
 ---
 
+Para aprofundar o assunto, vale ler também [como acostumar gato e cachorro a conviverem em paz](/como-acostumar-gato-e-cachorro-a-conviverem-em-paz) e [como identificar sinais de estresse em cães multicães em espaço pequeno](/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno).
+
 ## Perguntas frequentes
 
 **Quanto tempo costuma levar para o cão idoso aceitar o filhote?**  

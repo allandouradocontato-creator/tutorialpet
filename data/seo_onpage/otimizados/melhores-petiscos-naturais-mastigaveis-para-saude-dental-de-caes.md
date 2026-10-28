@@ -89,6 +89,8 @@ Consulte o médico-veterinário para avaliar o grau de acúmulo de tártaro e en
 
 Exemplo prático: Estabeleça um dia da semana para oferecer o petisco mastigável favorito após a sessão de escovação dental, transformando o momento de higiene em uma experiência positiva.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [melhores brinquedos interativos para cães ansiosos sozinhos](/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos) e [como escolher tapete higiênico lavável para cachorro em apartamento](/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento).
+
 ## Perguntas frequentes
 
 - **Cachorros filhotes podem comer petiscos mastigáveis duros?**

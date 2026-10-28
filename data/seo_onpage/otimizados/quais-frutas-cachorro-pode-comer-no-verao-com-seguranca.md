@@ -93,6 +93,8 @@ Outro ponto que costuma gerar dúvidas é a forma de higienização. Lave muito 
 
 Exemplo prático: Separe um potinho exclusivo na geladeira apenas para os petiscos cortados da semana. Assim, você evita misturar temperos humanos e garante que o lanchinho do seu cão esteja sempre fresco, limpo e pronto para uso rápido.
 
+Em complemento a este guia, o Tutorial Pet também explica [quais legumes cachorro pode comer cozidos sem tempero](/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero).
+
 ## Perguntas frequentes
 
 **Pode dar maçã com casca para o cachorro?**

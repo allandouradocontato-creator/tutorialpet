@@ -113,6 +113,8 @@ Exemplo prático: para viagens mais longas, converse com o médico-veterinário 
 * Erro comum: carregar a caixa balançando-a no colo ou deixá-la solta no banco da frente, onde pode deslizar em uma curva.
 * Sinais de alerta: respiração muito acelerada, vômitos ou tentativas desesperadas de forçar a portinha para escapar.
 
+Se quiser seguir nesse tema, veja [arranhador para gato, qual escolher](/arranhador-para-gato-qual-escolher), [como escolher comedouro duplo elevado para gatos idosos](/como-escolher-comedouro-duplo-elevado-para-gatos-idosos) e [como escolher rampa pet para sofá e cama alta](/como-escolher-rampa-pet-para-sofa-e-cama-alta).
+
 ## Perguntas frequentes
 
 * **Posso usar a mesma caixa para dois gatos ao mesmo tempo?**

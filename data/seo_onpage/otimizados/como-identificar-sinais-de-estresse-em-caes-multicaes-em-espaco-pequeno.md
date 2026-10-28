@@ -81,7 +81,7 @@ Exemplo prático: Se você notar que um dos cães sai de perto toda vez que o ou
 
 Num espaço compacto, cada cantinho vira um bem precioso. A tigela de comida, o brinquedo favorito e até a sua atenção no sofá podem virar motivo de competição silenciosa. Sabe aquele rosnado abafado ou o corpo rígido na hora de comer? É o limite sendo testado. 
 
-Para evitar que a tensão reine, vale a pena espalhar os potes de água e comida por cômodos diferentes, garantindo que nenhum peludo se sinta cercado ou acuado durante as refeições. E se a rotina da casa é corrida, vale conferir dicas de [como organizar a rotina de passeios para cães de diferentes idades](/como-organizar-a-rotina-de-passeios-para-cães-de-diferentes-idades), já que gastar a energia da turma lá fora reduz drasticamente o atrito dentro de casa.
+Para evitar que a tensão reine, vale a pena espalhar os potes de água e comida por cômodos diferentes, garantindo que nenhum peludo se sinta cercado ou acuado durante as refeições. E se a rotina da casa é corrida, vale conferir dicas de [como organizar a rotina de passeios para cães de diferentes idades](/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades), já que gastar a energia da turma lá fora reduz drasticamente o atrito dentro de casa.
 
 Exemplo prático: Em vez de dar petiscos no mesmo lugar para todos, separe os cães em cômodos diferentes por alguns minutos. Isso elimina a pressão da disputa imediata e deixa cada um saborear o agrado em paz.
 
@@ -92,6 +92,8 @@ Você não precisa mudar de casa para dar sossego aos seus cães. A grande sacad
 Cachorros estressados precisam de previsibilidade e pausas. Por isso, vale a pena investir em [melhores brinquedos interativos para cães ansiosos sozinhos](/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos) para ocupar a mente deles de forma individual, diminuindo o foco na presença constante do outro colega de quarto de quatro patas.
 
 Exemplo prático: Coloque caminhas ou caixas de transporte abertas (com a portinha sempre livre) em cantos de cômodos diferentes, ensinando a turma que a caminha do colega é intocável. Assim, quando um quiser privacidade, basta entrar na sua toca particular.
+
+Se quiser seguir nesse tema, veja [como fazer cachorro idoso aceitar um filhote novo](/como-fazer-cachorro-idoso-aceitar-um-filhote-novo) e [como montar um cronograma de enriquecimento ambiental para cães sozinhos](/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos).
 
 ## Perguntas frequentes
 

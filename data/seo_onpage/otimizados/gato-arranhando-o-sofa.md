@@ -105,6 +105,8 @@ Nunca hesite em conversar com o médico-veterinário do pet para descartar quest
 
 Exemplo prático: Anote em um caderno os horários em que o gato ataca os móveis com mais intensidade para relatar ao veterinário caso precise de ajuda comportamental.
 
+Para aprofundar o assunto, vale ler também [como fazer o gato parar de arranhar o sofá](/como-fazer-o-gato-parar-de-arranhar-o-sofa), [como criar rotina de exercícios mentais para gatos idosos](/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos) e [por que o gato morde do nada durante o carinho](/por-que-o-gato-morde-do-nada-durante-o-carinho).
+
 ## Perguntas frequentes
 
 *   **Por que o gato ignora o arranhador novo?**

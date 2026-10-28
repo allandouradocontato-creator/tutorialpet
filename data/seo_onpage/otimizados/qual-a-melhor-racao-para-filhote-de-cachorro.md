@@ -123,6 +123,8 @@ Se a tabela do fabricante sugerir 120 gramas por dia para o peso do seu cãozinh
 
 ---
 
+Em complemento a este guia, o Tutorial Pet também explica [ração para filhote de cachorro](/racao-para-filhote-de-cachorro).
+
 ## Perguntas frequentes
 
 **Até quantos meses devo dar ração de filhote?**  

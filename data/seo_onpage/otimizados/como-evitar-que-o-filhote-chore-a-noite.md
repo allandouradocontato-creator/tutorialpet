@@ -107,6 +107,8 @@ Se for necessário checar o pet, faça isso sem fazer festa, sem acender luzes f
 ### Exemplo prático:
 Se precisar ir até o filhote para verificar se há algum problema, fale com voz calma e sussurrada, faça um carinho rápido e saia novamente, mostrando que a madrugada é feita para dormir.
 
+Em complemento a este guia, o Tutorial Pet também explica [como ensinar filhote a fazer xixi no tapete higiênico](/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico).
+
 ## Perguntas frequentes
 
 - **É normal o filhote chorar todas as noites no começo?**  

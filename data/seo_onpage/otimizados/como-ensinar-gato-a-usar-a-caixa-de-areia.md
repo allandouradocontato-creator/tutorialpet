@@ -113,6 +113,8 @@ Se o seu gato começar a frequentar a caixa o tempo todo, passar muito tempo aga
 
 * **Exemplo prático:** Um gato adulto que sempre usou a caixa perfeitamente e, de repente, começa a urinar no sofá ou na cama precisa de uma avaliação veterinária para descartar infecções antes de qualquer tentativa de reeducação comportamental.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [o que comprar antes de adotar um gatinho](/o-que-comprar-antes-de-adotar-um-gatinho) e [como socializar filhote de gato](/como-socializar-filhote-de-gato).
+
 ## Perguntas frequentes
 
 * **O que fazer se o gato fizer xixi no lugar errado?**

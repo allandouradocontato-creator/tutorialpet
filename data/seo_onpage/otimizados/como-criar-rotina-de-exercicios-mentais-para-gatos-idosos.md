@@ -81,6 +81,8 @@ Esses sintomas podem indicar dor crônica, problemas de visão, audição ou alt
 
 Exemplo prático: Se o gato começar a mijar fora da caixa de areia ou parecer perdido em cômodos conhecidos da casa, anote esses comportamentos e leve as anotações para a consulta veterinária.
 
+Em complemento a este guia, o Tutorial Pet também explica [gato arranhando o sofá](/gato-arranhando-o-sofa), [como acostumar gato adulto com novo comedouro](/como-acostumar-gato-adulto-com-novo-comedouro) e [como acostumar gato e cachorro a conviverem em paz](/como-acostumar-gato-e-cachorro-a-conviverem-em-paz).
+
 ## Perguntas frequentes
 
 **Com que idade um gato é considerado idoso para começar esses exercícios?**

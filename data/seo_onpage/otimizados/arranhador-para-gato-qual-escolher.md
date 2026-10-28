@@ -117,6 +117,8 @@ Quando procurar o médico-veterinário: se o seu gato mudar repentinamente de co
 
 Exemplo prático: mantenha a rotina da casa equilibrada. Assim como você programa os horários de refeição inspirando-se em dicas sobre [quantas vezes por dia alimentar gato](/quantas-vezes-por-dia-alimentar-gato), planeje os pontos de entretenimento felino espalhados pelos cômodos centrais.
 
+Em complemento a este guia, o Tutorial Pet também explica [caixa de transporte para gato](/caixa-de-transporte-para-gato), [como escolher comedouro duplo elevado para gatos idosos](/como-escolher-comedouro-duplo-elevado-para-gatos-idosos) e [melhor areia para gato como escolher](/melhor-areia-para-gato-como-escolher).
+
 ## Perguntas frequentes
 
 **O que fazer se o gato ignorar completamente o arranhador novo?**

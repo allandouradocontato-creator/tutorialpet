@@ -103,6 +103,8 @@ Ao trocar a louça antiga pelo modelo novo, faça a mudança de forma gradual e 
 
 **Exemplo prático:** Ao testar um suporte em uma loja ou verificar as avaliações online, repare se as tigelas chacoalham dentro dos aros do suporte. O conjunto deve ser firme e silencioso; tigelas de metal finas que batem na madeira ao menor toque da língua podem assustar gatos idosos mais sensíveis a ruídos.
 
+Se quiser seguir nesse tema, veja [como escolher fonte de água ideal para gatos que tem medo](/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo), [arranhador para gato, qual escolher](/arranhador-para-gato-qual-escolher) e [como escolher rampa pet para sofá e cama alta](/como-escolher-rampa-pet-para-sofa-e-cama-alta).
+
 ## Perguntas frequentes
 
 **Qual a altura média recomendada para gatos idosos?**  

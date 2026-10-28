@@ -194,7 +194,10 @@ EQUIPE = _load_equipe()
 
 # 25/10/2026 (AdSense "conteudo de baixo valor"): os 72 artigos terminavam no mesmo H2 "Para fechar".
 # O titulo do fechamento passa a variar por artigo (escolha estavel pelo slug); o texto do fechamento nao muda.
-FECHOS = ["Para fechar", "O que levar daqui", "Resumo para guardar", "Próximo passo"]
+# 28/10/2026 (reavaliacao AdSense): o checklist pede uma secao final chamada "Conclusao"; as variacoes de titulo
+# ("O que levar daqui", "Proximo passo"...) deixavam de ser reconhecidas como conclusao. O markdown segue com
+# "## Para fechar" (o curador do blog exige) e o build publica como "Conclusão".
+FECHOS = ["Conclusão"]
 
 
 def _variar_fecho(body: str, slug: str) -> str:

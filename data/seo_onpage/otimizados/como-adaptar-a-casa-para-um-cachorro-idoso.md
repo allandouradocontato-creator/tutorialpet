@@ -98,6 +98,8 @@ Deixe pequenas luzes de tomada (luzes noturnas de LED) acesas nos corredores e n
 
 Exemplo prático: Instale luzes guia no corredor que leva ao banheiro e à cozinha, garantindo que o cão enxergue eventuais obstáculos durante a madrugada.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores), [como organizar a rotina de passeios para cães de diferentes idades](/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades) e [como evitar choque térmico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes).
+
 ## Perguntas frequentes
 
 * **Como saber se meu cachorro está com dor nas articulações?**

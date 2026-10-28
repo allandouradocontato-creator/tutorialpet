@@ -124,6 +124,8 @@ Na mesma linha, enriquecer a dieta com alimentos úmidos é vital. Muitos tutore
 
 ---
 
+Para aprofundar o assunto, vale ler também [como escovar pelo de gato que não gosta de escova](/como-escovar-pelo-de-gato-que-nao-gosta-de-escova).
+
 ## Perguntas frequentes
 
 **Com que frequência devo escovar o gato para evitar bolas de pelo?**  

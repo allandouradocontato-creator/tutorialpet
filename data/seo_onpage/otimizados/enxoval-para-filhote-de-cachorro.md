@@ -112,6 +112,8 @@ Brinquedos interativos e mordedores de borracha atóxica ajudam a entreter o cã
 
 **Exemplo prático:** Recheie um brinquedo próprio para congelar com ração umedecida e ofereça ao filhote quando precisar deixá-lo sozinho por alguns minutos.
 
+Para aprofundar o assunto, vale ler também [como ensinar filhote de gato a interagir com cães adultos](/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos).
+
 ## Perguntas frequentes
 
 **Preciso comprar roupas para o filhote no enxoval?**

@@ -111,6 +111,8 @@ Instalar prateleiras em diferentes alturas, disponibilizar caixas de papelão pa
 
 Exemplo prático: Espalhe pequenas porções da ração diária em locais altos ou dentro de caixas de papelão vazias pela casa. Isso obriga o gato a "caçar" o próprio alimento ao longo do dia, unindo o estímulo mental à queima de calorias.
 
+Se quiser seguir nesse tema, veja [sinais de envelhecimento em gatos senior que passam despercebidos](/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos) e [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores).
+
 ## Perguntas frequentes
 
 * **Ração light resolve sozinha o problema da obesidade felina?**

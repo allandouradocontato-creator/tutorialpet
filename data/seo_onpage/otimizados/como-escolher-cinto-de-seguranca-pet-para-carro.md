@@ -114,6 +114,8 @@ Se o seu companheiro costuma estranhar momentos de separação ou mudanças na r
 
 Exemplo prático: No primeiro dia, apenas coloque o peitoral no cão dentro do carro com o motor desligado, dê um petisco e retire. No dia seguinte, ligue o motor sem sair do lugar. Aos poucos, avance para voltas de apenas uma quadra.
 
+Para aprofundar o assunto, vale ler também [como escolher coleira com rastreador GPS para cachorro](/como-escolher-coleira-com-rastreador-gps-para-cachorro).
+
 ## Perguntas frequentes
 
 **Posso usar o mesmo cinto de segurança para gatos?**

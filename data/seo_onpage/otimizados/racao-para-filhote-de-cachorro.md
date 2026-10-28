@@ -52,7 +52,7 @@ Neste guia, reunimos orientações práticas para ajudar você a navegar por ess
 
 ## Por que a ração de filhote é diferente?
 
-O organismo de um cãozinho em desenvolvimento funciona em ritmo acelerado. Por isso, a **ração para filhote de cachorro** possui mais calorias, proteínas de alta qualidade, cálcio e fósforo em comparação com a comida de adultos. 
+O organismo de um cãozinho em desenvolvimento funciona em ritmo acelerado. Por isso, a **[ração para filhote de cachorro](/qual-a-melhor-racao-para-filhote-de-cachorro)** possui mais calorias, proteínas de alta qualidade, cálcio e fósforo em comparação com a comida de adultos. 
 
 O sistema digestivo e o esqueleto do animal precisam desse suporte reforçado para evitar problemas futuros de articulação e crescimento. Dar um alimento inadequado pode comprometer o desenvolvimento dos ossos e a energia diária que ele gasta nas brincadeiras.
 

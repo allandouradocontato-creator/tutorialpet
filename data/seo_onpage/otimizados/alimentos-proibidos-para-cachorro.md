@@ -124,6 +124,8 @@ Se o seu cachorro consumiu algum alimento proibido ou perigoso, manter a calma �
 
 **Exemplo prático:** Se o cão roeu ossos de frango que sobraram do almoço e começou a salivar muito ou demonstrar dor abdominal ao toque, a ida ao consultório deve ser imediata para avaliar possíveis perfurações no trato digestivo.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [quais legumes cachorro pode comer cozidos sem tempero](/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero) e [ração para filhote de cachorro](/racao-para-filhote-de-cachorro).
+
 ## Perguntas frequentes
 
 **O meu cachorro comeu um pedaço pequeno de cebola, o que devo fazer?**

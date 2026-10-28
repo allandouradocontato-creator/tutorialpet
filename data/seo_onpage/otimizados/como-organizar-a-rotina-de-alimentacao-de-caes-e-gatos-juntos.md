@@ -66,7 +66,7 @@ Alimentar cães e gatos na mesma casa pode parecer um desafio diário para quem 
 
 ## Por que separar a comida de cães e gatos?
 
-As necessidades nutricionais de cães e gatos são distintas, e o organismo de cada espécie exige nutrientes específicos para funcionar bem. Os felinos são carnívoros estritos e dependem de nutrientes como a taurina, presente apenas em rações formuladas exclusivamente para eles. Se um gato come a ração do cachorro com frequência, ele pode sofrer carências nutricionais graves a longo prazo. Além disso, a ração de cão costuma ser mais calórica e gordurosa, o que acelera o ganho de peso indesejado nos felinos.
+As necessidades nutricionais de cães e gatos são distintas, e o organismo de cada espécie exige nutrientes específicos para funcionar bem. Os felinos são carnívoros estritos e dependem de nutrientes como a taurina, presente apenas em rações formuladas exclusivamente para eles. Se um gato come a [ração do cachorro](/como-trocar-a-racao-do-cachorro) com frequência, ele pode sofrer carências nutricionais graves a longo prazo. Além disso, a ração de cão costuma ser mais calórica e gordurosa, o que acelera o ganho de peso indesejado nos felinos.
 
 Outro ponto importante é a dinâmica de caça e instinto de sobrevivência de cada animal. O cachorro tem o hábito ancestral de comer rápido para não perder o recurso para outros membros da matilha, enquanto o gato prefere se alimentar em pequenas porções fracionadas. Se você tem dúvidas sobre as necessidades específicas do felino, vale a pena entender [quantas vezes por dia alimentar gato](/quantas-vezes-por-dia-alimentar-gato) para estruturar melhor a rotina da casa. 
 
@@ -101,6 +101,8 @@ Mesmo com horários e locais separados, alguns cães são verdadeiros acrobatas 
 Você pode ocupar o cachorro com um brinquedo recheado ou um petisco de longa duração em outro cômodo enquanto o gato se alimenta tranquilamente no espaço dele. Caso perceba qualquer alteração de peso ou comportamento alimentar, consulte sempre o médico-veterinário para avaliar se a dieta está adequada.
 
 Exemplo prático: feche a porta da cozinha por dez minutos enquanto o gato termina sua ração úmida no alto, liberando o cachorro logo depois que o prato do felino estiver limpo e guardado.
+
+Em complemento a este guia, o Tutorial Pet também explica [pode dar sachê para gato todos os dias](/pode-dar-sache-para-gato-todos-os-dias).
 
 ## Perguntas frequentes
 

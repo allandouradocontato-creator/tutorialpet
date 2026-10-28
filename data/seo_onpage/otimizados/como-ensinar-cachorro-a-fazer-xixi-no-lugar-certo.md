@@ -102,6 +102,8 @@ Se você notar que o filhote está mordiscando o tapete em vez de usá-lo, vale 
 
 > **Exemplo prático:** Borrife o atrativo sanitário apenas no centro do tapete higiênico e mantenha o restante da casa limpo e com cheiro neutro, facilitando a escolha do pet.
 
+Em complemento a este guia, o Tutorial Pet também explica [quanto tempo um cachorro pode ficar sozinho](/quanto-tempo-um-cachorro-pode-ficar-sozinho) e [como acostumar gato e cachorro a conviverem em paz](/como-acostumar-gato-e-cachorro-a-conviverem-em-paz).
+
 ## Perguntas frequentes
 
 * **Quanto tempo leva para o cachorro aprender o xixi no lugar certo?**  

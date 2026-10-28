@@ -126,6 +126,8 @@ Se você possui espaço para duas caixas de areia, uma abordagem ainda mais segu
 
 **Exemplo prático:** Caso seu pet esteja migrando de sílica para uma opção vegetal de mandioca, abasteça uma bandeja secundária com a composição vegetal. Observe por quatro dias consecutivos qual recipiente apresenta maior volume de torrões antes de desativar em definitivo a opção antiga.
 
+Em complemento a este guia, o Tutorial Pet também explica [arranhador para gato, qual escolher](/arranhador-para-gato-qual-escolher), [como escolher fonte bebedouro elétrica para vários pets](/como-escolher-fonte-bebedouro-eletrica-para-varios-pets) e [caixa de transporte para gato](/caixa-de-transporte-para-gato).
+
 ## Perguntas frequentes
 
 **Qual é a profundidade ideal de areia na caixa?**  

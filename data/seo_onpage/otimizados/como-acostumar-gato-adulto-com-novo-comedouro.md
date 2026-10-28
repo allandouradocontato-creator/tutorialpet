@@ -130,6 +130,8 @@ Qualquer mudança drástica de apetite ou apatia exige consulta com o médico-ve
 ### Exemplo prático:
 Se você notar que o gato dá duas mordidas, balança a cabeça para trás e sai correndo da cozinha, o problema pode ser o reflexo da luz no fundo do inox ou o barulho do prato deslizando no chão. Colocar um tapete de silicone antiderrapante por baixo resolve o susto na hora.
 
+Para aprofundar o assunto, vale ler também [por que o gato esconde a comida na tigela](/por-que-o-gato-esconde-a-comida-na-tigela), [como acostumar gato e cachorro a conviverem em paz](/como-acostumar-gato-e-cachorro-a-conviverem-em-paz) e [como introduzir um segundo gato na casa sem brigas](/como-introduzir-um-segundo-gato-na-casa-sem-brigas).
+
 ## Perguntas frequentes
 
 **Quanto tempo costuma demorar para um gato aceitar o comedouro novo?**  

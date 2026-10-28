@@ -100,6 +100,8 @@ Monitore o comportamento do pet com câmeras de segurança para entender a inten
 
 Se o cão ignorar completamente o brinquedo interativo e passar horas uivando na janela, remova o item e procure um profissional especializado em comportamento canino para traçar um plano de dessensibilização à ausência.
 
+Se quiser seguir nesse tema, veja [brinquedos para cachorro que fica sozinho](/brinquedos-para-cachorro-que-fica-sozinho), [melhores petiscos naturais mastigáveis para saúde dental de cães](/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes) e [como escolher tapete higiênico lavável para cachorro em apartamento](/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento).
+
 ## Perguntas frequentes
 
 - **Posso deixar meu cachorro sozinho com qualquer brinquedo interativo?**

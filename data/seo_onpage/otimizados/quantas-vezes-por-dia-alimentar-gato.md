@@ -107,6 +107,8 @@ Se o seu gato passar a rejeitar a comida de rotina ou, pelo contrário, apresent
 
 Nunca tente medicar o animal por conta própria ou mudar drasticamente a dieta sem orientação profissional. A segurança e o bem-estar do seu companheiro dependem de um acompanhamento clínico adequado e preventivo.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [pode dar sachê para gato todos os dias](/pode-dar-sache-para-gato-todos-os-dias), [como organizar a rotina de alimentação de cães e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos) e [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato).
+
 ## Perguntas frequentes
 
 **Posso deixar ração à vontade o dia todo para o meu gato?**

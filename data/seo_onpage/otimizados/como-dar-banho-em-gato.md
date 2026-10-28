@@ -104,6 +104,8 @@ Evite usar o secador de cabelos na potência máxima e quente, pois o ruído alt
 
 > Exemplo prático: Terminou a secagem? Dê um sachê saboroso ou um petisco que ele ame. Isso ajuda a encerrar a experiência com uma lembrança agradável no paladar.
 
+Para aprofundar o assunto, vale ler também [como escovar pelo de gato que não gosta de escova](/como-escovar-pelo-de-gato-que-nao-gosta-de-escova) e [como fazer o gato beber mais água](/como-fazer-o-gato-beber-mais-agua).
+
 ## Perguntas frequentes
 
 * **Com que frequência devo dar banho em gato?**

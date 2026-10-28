@@ -103,7 +103,7 @@ Além disso, evite fazer grandes festas ao chegar em casa. Cumprimente o pet de 
 
 ## Quando procurar ajuda profissional
 
-Se mesmo com treino de dessensibilização e enriquecimento ambiental o cão continuar se machucando, recusando água ou apresentando episódios severos de pânico, é hora de buscar apoio especializado. 
+Se mesmo com treino de dessensibilização e [enriquecimento ambiental](/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos) o cão continuar se machucando, recusando água ou apresentando episódios severos de pânico, é hora de buscar apoio especializado. 
 
 Um médico-veterinário comportamentalista ou um adestrador positivo qualificado poderão avaliar se há necessidade de suporte medicamentoso temporário. Medicamentos corretos ajudam a abaixar o nível de cortisol do cérebro, permitindo que o cão consiga finalmente absorver o treinamento de independência.
 

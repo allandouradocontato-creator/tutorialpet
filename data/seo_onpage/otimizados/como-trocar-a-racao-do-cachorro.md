@@ -115,6 +115,8 @@ Caso esses sintomas apareçam, suspenda a introdução da ração nova imediatam
 ### Exemplo prático:
 Se o cão apresentar um episódio de fezes amolecidas no quarto dia, espere. Mas se ele recusar a comida por completo e vomitar três vezes no mesmo dia, o sinal amarelo acendeu e o profissional de saúde deve ser consultado.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente).
+
 ## Perguntas frequentes
 
 **O que fazer se o meu cachorro recusar a mistura e catar só a ração velha?**

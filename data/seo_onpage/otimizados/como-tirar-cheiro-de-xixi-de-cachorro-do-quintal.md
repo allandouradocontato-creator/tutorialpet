@@ -113,6 +113,8 @@ Infecções urinárias, cristais na urina ou problemas renais alteram o pH e a c
 
 Exemplo prático: se o seu cachorro começou a urinar em vários cantos do quintal de uma hora para a outra, mesmo sendo treinado, isso pode ser um sinal de desconforto físico ou infecção exigindo avaliação profissional.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como limpar as patas do cachorro depois do passeio](/como-limpar-as-patas-do-cachorro-depois-do-passeio), [com que frequência dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro) e [como limpar orelha de cachorro em casa sem machucar](/como-limpar-orelha-de-cachorro-em-casa-sem-machucar).
+
 ## Perguntas frequentes
 
 * **Pode usar cloro misturado com vinagre no quintal?**

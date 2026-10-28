@@ -63,7 +63,7 @@ A regra básica da nutrição veterinária indica que os petiscos, sejam eles pe
 
 Quando passamos desse limite, a dieta perde o equilíbrio. Um pedaço de queijo ou um pedaço de carne extra pode parecer inofensivo, mas para animais de pequeno porte, isso representa uma carga calórica altíssima. Antes de fazer mudanças drásticas, vale a pena confirmar as necessidades energéticas específicas do seu animal com o médico-veterinário.
 
-Para entender melhor como estruturar a rotina de alimentação, vale a pena conferir [como misturar racao seca e umida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente), o que ajuda a entender a base alimentar.
+Para entender melhor como estruturar a [rotina de alimentação](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos), vale a pena conferir [como misturar racao seca e umida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente), o que ajuda a entender a base alimentar.
 
 ### Exemplo prático:
 Se um cão adulto consome em média 1000 calorias por dia em sua ração habitual, o limite máximo para petiscos naturais deve ser de 100 calorias diárias. Se você optar por oferecer cenoura cozida, que possui baixa densidade calórica, o volume permitido será bem maior do que se escolher cubinhos de queijo magro.

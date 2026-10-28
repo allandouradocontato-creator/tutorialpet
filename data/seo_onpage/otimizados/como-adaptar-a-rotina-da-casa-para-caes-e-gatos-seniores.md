@@ -84,7 +84,7 @@ Para garantir que o pet coma e beba com prazer, aplique as seguintes mudanças:
 
 ## 3. Banheiro acessível e controle de necessidades
 
-Animais idosos perdem tonicidade no esfíncter e sentem urgência miccional com mais frequência. Além disso, muitos gatos desenvolvem problemas urinários ou intestinais simplesmente porque a caixa de areia possui bordas altas demais para as patas traseiras doloridas transporem.
+Animais idosos perdem tonicidade no esfíncter e sentem urgência miccional com mais frequência. Além disso, muitos gatos desenvolvem problemas urinários ou intestinais simplesmente porque a [caixa de areia](/como-limpar-caixa-de-areia-do-gato) possui bordas altas demais para as patas traseiras doloridas transporem.
 
 Se o gato começar a fazer fezes do lado de fora da caixa, isso raramente é birra comportamental. Trata-se, na maioria das vezes, de desconforto osteoarticular, um dos principais [sinais de envelhecimento em gatos sênior que passam despercebidos](/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos) pela família.
 

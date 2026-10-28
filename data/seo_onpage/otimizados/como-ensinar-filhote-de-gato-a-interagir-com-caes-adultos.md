@@ -61,7 +61,7 @@ Por que o primeiro encontro não deve acontecer solto na sala? Cães têm um ins
 
 O olfato é o principal canal de comunicação dos animais. Trocar paninhos ou caminhas entre os ambientes faz com que o cão e o gato reconheçam o cheiro do outro como algo familiar e seguro antes mesmo de se verem pessoalmente. 
 
-Exemplo prático: Coloque o filhote de gato em um quarto seguro com porta fechada, comedouro, água e caixa de areia, enquanto o cão circula pela casa. Esfregue um pano macio no corpinho do gato e deixe-o na altura do focinho do cão para que ele cheire sem ansiedade.
+Exemplo prático: Coloque o filhote de gato em um quarto seguro com porta fechada, comedouro, água e [caixa de areia](/como-ensinar-gato-a-usar-a-caixa-de-areia), enquanto o cão circula pela casa. Esfregue um pano macio no corpinho do gato e deixe-o na altura do focinho do cão para que ele cheire sem ansiedade.
 
 ## Os primeiros encontros visuais controlados
 

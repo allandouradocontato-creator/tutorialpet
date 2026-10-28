@@ -88,7 +88,7 @@ Exemplo prático: ao adotar um filhote, comece saindo do cômodo por apenas dois
 
 Alguns cães lidam bem com a independência, mas outros desenvolvem quadros intensos de sofrimento quando ficam sem companhia. O estresse prolongado afeta o sistema imunológico e a saúde mental do animal.
 
-Fique atento a sinais como salivação excessiva, lambedura compulsiva de patas, xixi no lugar errado mesmo após treinado, e destruição focada em portas e janelas. Esses comportamentos indicam que o limite foi ultrapassado.
+Fique atento a sinais como salivação excessiva, lambedura compulsiva de patas, [xixi no lugar](/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo) errado mesmo após treinado, e destruição focada em portas e janelas. Esses comportamentos indicam que o limite foi ultrapassado.
 
 Se o seu cão apresenta esses sintomas de forma recorrente, vale a pena aprofundar o tema lendo sobre [ansiedade de separação em cães](/ansiedade-de-separacao-em-caes) para identificar gatilhos e tratamentos adequados.
 

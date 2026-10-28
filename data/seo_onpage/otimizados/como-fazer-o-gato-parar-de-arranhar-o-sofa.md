@@ -100,6 +100,8 @@ A manutenção das unhas também ajuda nesse processo de convivência pacífica.
 
 **Exemplo prático:** Pegue a varinha com penas favorita do seu companheiro e brinque fazendo o brinquedo "escalar" o arranhador novo. Na tentativa de caçar a pena, ele vai fincar as patinhas no sisal. Nesse instante, elogie com carinho e entregue um pedacinho do petisco preferido dele.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [como introduzir um segundo gato na casa sem brigas](/como-introduzir-um-segundo-gato-na-casa-sem-brigas) e [por que o gato morde do nada durante o carinho](/por-que-o-gato-morde-do-nada-durante-o-carinho).
+
 ## Perguntas frequentes
 
 **Usar borrifador de água ajuda a educar o gato a não arranhar?**  

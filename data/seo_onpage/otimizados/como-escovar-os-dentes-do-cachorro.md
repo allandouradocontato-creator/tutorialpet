@@ -107,6 +107,8 @@ Esses sinais indicam gengivite avançada ou periodontite. Tentar escovar dentes 
 
 Exemplo prático: Se o seu cão chormungar ou tentar morder assim que você toca na bochecha, pode haver uma dor de dente ou fratura dentária escondida. Nunca ignore esses avisos.
 
+Outros guias do Tutorial Pet que combinam com este assunto: [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro) e [como acostumar o cachorro a cortar as unhas](/como-acostumar-o-cachorro-a-cortar-as-unhas).
+
 ## Perguntas frequentes
 
 * **Posso usar bicarbonato de sódio para limpar os dentes do meu cachorro?**

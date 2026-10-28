@@ -101,6 +101,8 @@ Se mesmo com mudanças na rotina e trechos de adestramento positivo o cão conti
 
 > Exemplo prático: Quando o cão começar a latir para pedir comida, vire de costas, cruze os braços e espere em completo silêncio. Assim que ele respirar fundo e calar a boca por cinco segundos, sirva a comida imediatamente.
 
+Em complemento a este guia, o Tutorial Pet também explica [como montar um cronograma de enriquecimento ambiental para cães sozinhos](/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos).
+
 ## Perguntas frequentes
 
 * **Por que meu cachorro late para o nada?**

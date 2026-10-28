@@ -145,6 +145,8 @@ Lembre-se também de que a segurança em passeios começa no deslocamento. Se vo
 
 ---
 
+Em complemento a este guia, o Tutorial Pet também explica [como escolher tapete higiênico lavável para cachorro em apartamento](/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento).
+
 ## Perguntas frequentes
 
 **Qual a diferença entre rastreador GPS e microchip de identificação?**  

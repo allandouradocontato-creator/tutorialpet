@@ -105,6 +105,8 @@ Pequenos avisos, como um bufo curto ou uma orelha virada para trás, são comuns
 
 **Exemplo prático:** Abra a porta do quarto e deixe a nova gatinha caminhar até a sala enquanto você brinca com o veterano usando um barbante. Permita que eles se aproximem por 5 a 10 minutos. Se a convivência for pacífica, encerre o encontro antes de qualquer sinal de cansaço ou irritação, levando a novata de volta ao quarto com um petisco gostoso.
 
+Se quiser seguir nesse tema, veja [como acostumar gato e cachorro a conviverem em paz](/como-acostumar-gato-e-cachorro-a-conviverem-em-paz), [por que o gato morde do nada durante o carinho](/por-que-o-gato-morde-do-nada-durante-o-carinho) e [como acostumar gato adulto com novo comedouro](/como-acostumar-gato-adulto-com-novo-comedouro).
+
 ## Perguntas frequentes
 
 **Quanto tempo costuma demorar a adaptação completa entre dois gatos?**  
