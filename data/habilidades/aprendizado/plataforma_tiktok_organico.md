@@ -21,3 +21,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-26 | J4 (pergunta de rotina) e J5 (DM sem comentário→DM no TikTok) | C5/G7 perguntas numéricas propostas; TikTok sem leitura nova, 6 comentários/46 posts | mantém
 2026-10-26 | J5 (DM sem comentário→DM): CTA 'mande SOZINHO no direct' só ao vivo com ok do Allan | TikTok 21 seguidores, DM 0 (n=0) | mantém
 2026-10-27 | regras TikTok (música da Biblioteca Comercial, cortes ≤25 s, 1º item da reposição é gato) | 3 ideias, n=0 leituras; fila atual 7/7 cachorro 42-53 s | mantém
+2026-10-28 | skill lida por título; hipótese: gato entra na fila TikTok em corte ≤10 s (fila 100% cachorro, tempo 2,2 s) | G4/C7 propostos; n=0 | mantém

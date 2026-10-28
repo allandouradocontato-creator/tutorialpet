@@ -25,3 +25,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-27 | passo de medição diária (from_date/to_date) + manter isca sem dado ao vivo | FB 9 (+2/7d), IG 0; n=0 leituras de isca | mantém
 2026-10-27 | hipótese: gate do frame 0 (≤6 palavras) trava todo pacote novo e o estoque cai a ~2 dias | 2 de 2 pacotes 'ok' barrados (14 e 12 palavras); 0 pacotes novos agendáveis na rodada 12:15, fábrica redisparada | altera: Criador de Audiência deve gerar texto_na_tela curto já na origem
 2026-10-27 | portão frame 0 (<=6 palavras) barra pacotes com gancho longo; hipótese: fábrica ainda gera frame 0 longo | 5 de 6 pacotes ok recentes barrados (n=6) | mantém; fábrica precisa encurtar texto_na_tela
+2026-10-28 | skill lida por título; hipótese: vídeo ≤15 s e T0 curto seguram retenção (IG ≤15 s alcance 102 x 39, n14/n36) | lote r28 todo em 6-10 s; n=0 posts do lote lidos | mantém

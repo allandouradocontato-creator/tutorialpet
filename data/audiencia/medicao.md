@@ -1,3 +1,21 @@
+Dados até 2026-10-28 08:50 (Fortaleza) — estrategia_social.md de 28/10 07:10 (Zernio sync 28/10 06:30; Buffer defasagem até 24 h); sem leitura nova minha de Zernio/Buffer.
+# Medição — quarta 28/10 (meta de 14 dias: 15/10 a 28/10, encerra hoje). Os 5 números
+1. Comentários de terceiros: FB 54 em 95 posts (≈1/post = nosso link), IG 47 (nossos), TikTok 6 em 49. Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: NÃO atingida.
+2. Compartilhamentos: FB 0, IG 6 (71 posts), TikTok 16 (49 posts; 2 na última semana; todos em vídeo 40 s+).
+3. Seguidores: FB 9 (+4 em 14 dias), IG 0, TikTok 21 (último valor 24/10).
+4. Cliques no blog: FB 178 somados; IG 0. Sessões orgânicas e cliques do Search Console: sem dado (pendência: exportar Desempenho > Consultas, login Google).
+5. Vendas: sem dado (Kiwify não lido).
+Campeão para comentário: nenhum. Em views: F2 flagrante (FB 562). Formato (IG, alcance): vídeo ≤15 s n14 = 102 x 36 s+ n36 = 39. Veredito da meta de 14 dias: não bateu comentários nem seguidores; aprendizado = retenção/duração é o fator, não o tema.
+## Prova do lote r28 (uma variável por vez; leitura 72 h; n≥5 por braço, acumula com r26/r27)
+X25 T0 ≤6 palavras + payoff no s4 (todas as 14): prova = FB tempo ≥4,5 s e ret. s5 ≥55%; IG skip ≤60%; TikTok tempo ≥3 s. Leitura 24 h após o 1º post.
+X26 Fórmula F9 (G2, C2) x F1 (G3, C3): views e comentário de terceiro; n=2 por braço, só acumula.
+X27 Radar F13 "susto vira colo" (C4) x nossa fórmula: views em 72 h vs. mediana FB 208 / IG 40.
+X28 Tema de data (G1, C1: Halloween) x evergreen (G6, C5: calor): views em 72 h; leitura 02/11.
+X18 CTA A binária (8 ideias) x B aberta (6): continua; prova = comentário de terceiro por 1.000 views.
+X29 Gato no TikTok (G4, C7 em corte ≤10 s; fila hoje 100% cachorro): prova = tempo ≥3 s e ≥1 share em 3.
+Hashtags: FB 3, IG 5, TikTok 3-5, comparar só dentro da mesma rede (X9). Horário: sem horário novo; meme só em FB 08:30/21:00 e IG 08:40/21:10/13:00 (E134/E135).
+Próxima leitura: 29/10 (E114 e 72 h do r25); r26/r27/r28 em 02/11.
+
 Dados até 2026-10-27 08:45 (Fortaleza) — estrategia_social.md de 27/10 07:35 (Zernio sync 27/10 04:32; Buffer com defasagem de até 24 h); sem leitura nova minha de Zernio/Buffer.
 # Medição — terça 27/10 (meta de 14 dias: 15/10 a 28/10). Os 5 números
 1. Comentários de terceiros: FB 54 comentários em 95 posts (1/post = nosso link), IG 47 (nossos), TikTok 6 em 50. Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: não atingida.
