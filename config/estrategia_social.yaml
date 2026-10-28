@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 18
-atualizado_em: "2026-10-27 07:35 Fortaleza"
+versao: 19
+atualizado_em: "2026-10-28 07:20 Fortaleza"
+versao_anterior_atualizado_em_18: "2026-10-27 07:35"
 versao_anterior_atualizado_em_17: "2026-10-26 07:35"
 versao_anterior_atualizado_em_16: "2026-10-25 07:08"
 # anterior: "2026-10-23 07:30"  # rodada 23/10 07:19 (12a edicao): E50-E54, FB 12:00 meme aberto (E21 cumprido), #pet/#pets, perguntas do lote 23/10
@@ -312,3 +313,30 @@ perguntas_lote_2026_10_27:   # binario/numerado; link so no 1o comentario
     - "Seu pet bebe água suficiente? 1 sim, 2 tenho dúvida."
     - "Já conferiu a lista de alimentos proibidos? 1 sim, 2 ainda não."
     - "Quantas refeições por dia: 1 duas, 2 três ou mais."
+rodada_2026_10_28:   # data/social/estrategia_social.md (17a edicao); plano: data/social/plano_de_mudanca_2026-10-28.md (E134-E138)
+  dados_ate: "2026-10-28 07:10 Fortaleza (Zernio sync 06:30; Buffer defasagem ate 24 h)"
+  gatilho: "disparou: FB tempo medio 3,9 s (68 posts, 0 acima de 6 s na mediana); TikTok 2,2 s (41 de 49 abaixo de 4 s), mediana 189; IG skip mediana 68,8% (29 de 62 acima de 70%)"
+  achado_formato_ig: "IG desde 13/10, alcance mediana: <=15 s n14 = 102 (skip 56,7%) x 36 s+ n36 = 39 (skip 75%). Gato n22 = 72 x cachorro n21 = 31 (confundido com formato). FB gato 217 x cachorro 211 (sem diferenca)."
+  achado_horario_meme: "FB 12:00 meme n9 mediana 9 views (4 de 9 abaixo de 5) x FB 08:30 n5 295 e 21:00 n4 260. IG 13:00 meme n8 = 71 e 21:00 n5 = 105 (melhores slots do IG); IG 15:00 n11 = 29 (pior)."
+  horarios_decisao: "MANTER grade de 2 melhores (FB 10:00/19:00, IG 11:00/20:00, TikTok 10:20/20:20). Mudar so os extras: FB 12:00 meme suspenso (E135); IG 15:00 troca por meme <=15 s (E134). Releitura 03/11."
+  grade_semana_fortaleza:   # mesma seg-dom; n pequeno, sem sinal por dia da semana
+    facebook: {melhor_1: "10:00", melhor_2: "19:00", extras: ["08:30 meme", "14:00", "21:00 meme"], suspenso: ["12:00 meme"]}
+    instagram: {melhor_1: "11:00", melhor_2: "20:00", extras: ["08:40 meme", "13:00 meme", "21:00-21:10 meme"], trocar: ["15:00 video 36 s+ vira meme <=15 s"]}
+    tiktok: {melhor_1: "10:20", melhor_2: "20:20", extras: ["14:20", "17:10 meme 8 s (n3, sem ganho)"]}
+  hashtags_fonte_2026_10_28:
+    - "agenciagram.com.br/blog/hashtags-instagram-ainda-funcionam-2026: 3 a 5 por post; em Reels 'nao sao o principal fator de distribuicao' (retencao pesa mais); 30 genericas = risco de spam. Fonte secundaria."
+    - "mundodomarketing.com.br (24/04/2024, Buzzmonitor, 500 posts): so mostra que cachorro/gato lideram engajamento em marcas pet; metodo fraco (IA), nao serve para escolher hashtag."
+  hashtags_decisao: "Conjunto atual mantido (3 por tema no FB, 3-5 IG/TikTok). Sem prova aberta de hashtag pet BR; a alavanca e retencao, nao hashtag."
+  regra_palavra_proibida: "Legenda NUNCA com 'cao/caes' (regra do Allan 22/10). Publicado violando: FB 6ae144f48c4046a7e7d7ea22 e IG 6ae142696b03cf2a37012db6 (27/10 19:06/20:01). Gerador deve trocar por cachorro (E136)."
+  perguntas_lote_2026_10_28:
+    gato: ["Seu gato dorme mais de 12 horas por dia? Sim ou não?", "Qual é o cantinho de sonecas do seu gato: sofá, cama ou caixa?", "Seu gato já tem 10 anos ou mais? Conta a idade aqui.", "Brinquedo de caça ou de bolinha: qual seu gato prefere?", "Seu gato brinca de manhã ou à noite?"]
+    cachorro: ["Seu cachorro lambe o focinho quando está nervoso? Sim ou não?", "Portão fechado ou aberto: qual o maior medo de fuga da sua casa?", "Quanto tempo seu cachorro fica sozinho por dia? Responde com um número.", "Seu cachorro puxa a guia ou anda do seu lado?", "Qual petisco seu cachorro faria qualquer coisa para ganhar?"]
+    filhote: ["Quantos meses tem o seu filhote?", "Qual foi a primeira coisa que seu filhote roeu?", "Seu filhote dorme a noite toda? Sim ou ainda não?", "Qual nome você deu ao seu filhote?", "Xixi no jornal, no tapete ou no lugar certo?"]
+    ansiedade_separacao: ["Seu cachorro percebe quando você pega a chave? Sim ou não?", "Quanto tempo seu cachorro aguenta sozinho: menos de 2 horas, 4 horas ou mais?", "O que ajuda mais na saída: passeio antes, brinquedo recheável ou música?", "Chora, late ou fica quieto quando você sai? Uma palavra.", "Qual é o horário mais difícil do dia para vocês?"]
+    saude_alimentacao: ["Ração seca, úmida ou as duas? Responde com uma palavra.", "Quantas vezes por dia você alimenta o seu pet?", "Você guarda a ração na embalagem original ou em pote? Conta aqui.", "Seu pet come petisco natural? Qual?", "Já conferiu a lista de alimentos proibidos para o seu pet? Sim ou não?"]
+  painel_minimo_2_semanas:   # meta ate 11/11; hipotese, sem promessa
+    facebook: {views_mediana: 230, tempo_medio_s: 4.5, ret_s5: 0.55, comentarios_terceiros_por_semana: 1, cliques_1o_comentario_por_semana: 10, seguidores_dia: 1}
+    instagram: {alcance_mediana: 80, skip_max: 0.60, shares_mais_salvos_por_semana: 2, comentarios_terceiros_por_semana: 1, seguidores_dia: 0.3}
+    tiktok: {views_mediana: 300, tempo_medio_s: 3, shares_a_cada_4_posts: 1, comentarios_terceiros_por_semana: 1, seguidores_dia: 1}
+  criterio_trocar: "Gatilho de regra_mudanca_rapida.md: 2+ posts do mesmo formato em 3 dias abaixo do limite (FB <6 s, IG skip >70%, TikTok <4 s ou <1 share/4 posts). Horario so muda com >=5 posts por slot e ganho >=30% sustentado; gancho/CTA: troca 1 fator por vez, leitura em 24 h, nunca decidir com post <24 h ou <5 posts por variacao."
+  estado_isca_2026_10_28: "landing e /7-erros.pdf HTTP 200 (curl 28/10); landing mostra R$ 27 e R$ 97; ManyChat/Brevo/Kiwify ao vivo: sem dado (sem PC). GUIA suspenso e MIMO nao ligado = decisao do Allan 21/10 e pedido aberto de 25/10 (nao repetir como criacao)."
