@@ -6,16 +6,15 @@
   "guardiao": {
     "status": "revisar",
     "problemas": [
-      "vídeo sem registro de clipes (clips_usados.json): não dá para garantir variedade"
+      "vídeo sem registro de clipes (clips_usados.json): não dá para garantir variedade",
+      "manifesto sem registro da voz usada: não dá para garantir que foi a Duda"
     ],
     "ok": [
       "sem cenas repetidas no vídeo",
       "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "gancho diferente dos últimos vídeos (seu cachorro aguenta quantas)",
-      "voz da Duda no padrão (eleven_v4, estabilidade 0.26)"
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)"
     ],
-    "em": "2026-10-15T01:05:45+00:00"
+    "em": "2026-10-28T16:34:33+00:00"
   },
   "aprovado_por": "Claude: Guardiao so apontou falta de registro de clipes (pacote antigo); gancho, CTA e voz ok; estoque do teste de 7 dias",
   "agendado": {
