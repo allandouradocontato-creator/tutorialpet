@@ -1,0 +1,33 @@
+# Páginas de categoria rastreáveis (/categoria/<slug>) — uma por pilar do blog + a série Pet Celebridade.
+# Textos únicos, escritos para a página (AdSense: navegação real e descrição própria por categoria).
+alimentacao:
+  slug: alimentacao
+  descricao:
+    - "O que vai na tigela define energia, peso, pelagem e até o humor de cães e gatos. Aqui você encontra guias sobre escolha de ração, troca gradual de alimento, porções, petiscos naturais, frutas e legumes permitidos e a lista do que nunca deve ser oferecido."
+    - "Cada artigo explica o porquê das recomendações e indica quando vale conversar com o médico-veterinário, principalmente em casos de filhotes, idosos e animais com alguma condição de saúde."
+comportamento:
+  slug: comportamento
+  descricao:
+    - "Latidos, arranhões, mordidas, medo de ficar sozinho e dificuldade de conviver com outros animais quase sempre têm uma causa que dá para entender. Nesta categoria reunimos guias práticos para interpretar o comportamento do seu cão ou gato e agir sem punição."
+    - "Os textos trazem passos simples para aplicar em casa, sinais de estresse para observar e o momento certo de buscar ajuda de um profissional de comportamento ou de um veterinário."
+cuidados_diarios:
+  slug: cuidados-diarios
+  descricao:
+    - "Banho, escovação, corte de unha, limpeza de orelhas e patas, caixa de areia e rotina de passeios: os cuidados do dia a dia fazem diferença na saúde e no conforto do pet. Aqui estão os passo a passo para fazer cada tarefa com segurança e sem transformar o momento em estresse."
+    - "Também cobrimos fases e situações específicas, como cuidados com idosos, proteção contra calor e frio e plantas ou hábitos que merecem atenção dentro de casa."
+primeiros_passos_filhotes:
+  slug: primeiros-passos-filhotes
+  descricao:
+    - "A chegada de um filhote muda a rotina da casa inteira. Esta categoria cobre os primeiros dias, o enxoval, a vacinação, o xixi no lugar certo, o choro da noite e a socialização com pessoas e outros animais."
+    - "São guias para quem está adotando o primeiro pet ou quer evitar os erros mais comuns do começo, quando os hábitos do animal ainda estão sendo formados."
+produtos_compras:
+  slug: produtos-compras
+  descricao:
+    - "Caixa de transporte, arranhador, coleira ou peitoral, fonte de água, comedouro, tapete higiênico e brinquedos: comparamos critérios práticos de escolha para você comprar o item certo para o tamanho, a idade e o temperamento do seu pet."
+    - "Alguns artigos desta categoria podem conter links de afiliado, sempre identificados. Eles não alteram o preço para você e não influenciam o que recomendamos."
+pet-celebridade:
+  slug: pet-celebridade
+  titulo: "Pet Celebridade"
+  descricao:
+    - "A série Pet Celebridade conta como vivem os animais de artistas conhecidos: quem é o pet, qual é a raça e o que a rotina deles ensina para quem tem um cão ou gato em casa."
+    - "As informações vêm de perfis oficiais e de fontes públicas citadas em cada texto, e sempre terminam em dicas práticas de cuidado."

@@ -149,6 +149,27 @@ LEGAL_PAGES_ORDER = ["sobre", "contato", "politica-de-privacidade", "termos"]
 LEGAL_PAGES_TITULOS = {"sobre": "Sobre", "contato": "Contato",
                         "politica-de-privacidade": "Política de Privacidade", "termos": "Termos de Uso"}
 
+CATEGORIAS_PATH = ROOT / "config" / "categorias.yaml"
+
+
+def _load_categorias() -> dict:
+    try:
+        return load_yaml(CATEGORIAS_PATH) or {}
+    except Exception:
+        return {}
+
+
+CATEGORIAS = _load_categorias()
+
+
+def cat_slug(pilar_key: str) -> str:
+    """Slug da página de categoria (config/categorias.yaml; sem entrada, troca _ por -)."""
+    return str((CATEGORIAS.get(pilar_key) or {}).get("slug") or pilar_key.replace("_", "-"))
+
+
+def cat_url(pilar_key: str) -> str:
+    return f"/categoria/{cat_slug(pilar_key)}"
+
 
 def _load_videos_artigos() -> dict:
     f = ROOT / "config" / "sites" / "videos_artigos.json"
@@ -198,8 +219,11 @@ def load_agent07_markdown_converter():
 CSS = BASE_CSS
 
 
+_PILARES_GLOBAL: dict = {}
+
+
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
-    links = "".join(f'<a href="/#{key}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + '<a href="/#pet-celebridade">Pet Celebridade</a><a href="/tv">TV</a>'
+    links = "".join(f'<a href="{cat_url(key)}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="/tv">TV</a>'
     return f"""<header class="site">
 <a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
@@ -207,12 +231,15 @@ def render_header(site_nome: str, pilares: dict[str, str]) -> str:
 </header>"""
 
 
-def render_footer() -> str:
+def render_footer(pilares: dict | None = None) -> str:
+    pilares = pilares or _PILARES_GLOBAL
+    cats = "".join(f'<a href="{cat_url(k)}">{html_lib.escape(n)}</a>' for k, n in pilares.items())
+    cats = f'<nav class="footer-cats" aria-label="Categorias">{cats}<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a></nav>' if cats else ""
     links = "".join(
         f'<a href="/{slug}">{LEGAL_PAGES_TITULOS[slug]}</a>' for slug in LEGAL_PAGES_ORDER
     )
     ano = datetime.now(timezone.utc).year
-    return (f'<footer class="site">{render_redes()}{links}<p>© {ano} Tutorial Pet — conteúdo informativo, '
+    return (f'<footer class="site">{render_redes()}{cats}{links}<p>© {ano} Tutorial Pet — conteúdo informativo, '
             f'não substitui orientação veterinária profissional.</p></footer>')
 
 
@@ -237,7 +264,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 {ADSENSE_TAG}
 {CONSENT_TAG}
 {extra_head}
-<style>{CSS}</style>
+<style>{CSS}{CAT_CSS}</style>
 </head>
 <body>
 {body_html}
@@ -317,7 +344,8 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
         byline = byline.replace("</p>", f" · {datas}</p>", 1)
 
     breadcrumb = (f'<div class="breadcrumb"><a href="/">Início</a> &gt; '
-                  f'<a href="/#{pilar_key}">{html_lib.escape(pilar_titulo)}</a> &gt; {html_lib.escape(fm["titulo"])}</div>')
+                  f'<a href="{cat_url(pilar_key)}">{html_lib.escape(pilar_titulo)}</a> &gt; {html_lib.escape(fm["titulo"])}</div>')
+    cat_linha = (f'<p class="categoria-link">Categoria: <a href="{cat_url(pilar_key)}">{html_lib.escape(pilar_titulo)}</a></p>')
 
     imagem_capa = fm.get("imagem_capa")
     og_image = f"{dominio}/{imagem_capa}" if imagem_capa else ""
@@ -386,7 +414,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                      'Viu algum erro? <a href="/contato">Avise a gente</a>.</aside>')
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
-           f'<a class="btn" href="/#{pilar_key}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
+           f'<a class="btn" href="{cat_url(pilar_key)}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
     main = f"""{render_header(site["nome"], pilares)}
 {breadcrumb}
 <main class="article">
@@ -394,6 +422,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {produto_faixa}
 {hero_img}
 {byline}
+{cat_linha}
 {extras_artista}
 {video_html}
 {body_html}
@@ -642,7 +671,7 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict, tv: list
         )
         sections.append(
             f'<section class="pilar-section" id="{pilar_key}">'
-            f'<h2>{html_lib.escape(titulo)} <span class="pilar-tag">{len(itens)} artigo(s)</span></h2>'
+            f'<h2><a href="{cat_url(pilar_key)}">{html_lib.escape(titulo)}</a> <span class="pilar-tag">{len(itens)} artigo(s)</span></h2>'
             f'<div class="card-grid">{cards}</div></section>'
         )
 
@@ -660,9 +689,67 @@ def build_home_page(site: dict, pilares: dict, artigos_por_pilar: dict, tv: list
     return page_shell(site["nome"], site["nicho"][:155], f"{dominio}/", "website", main)
 
 
-def build_sitemap(site: dict, artigos: list[dict], tv: bool = False) -> str:
+def _resumo_artigo(body: str, limite: int = 170) -> str:
+    """Primeiro parágrafo de texto do artigo, sem markdown, cortado em fim de palavra."""
+    import re as _r
+    for bloco in _r.split(r"\n\s*\n", body):
+        b = bloco.strip()
+        if not b or b.startswith(("#", "-", "*", ">", "|", "!")):
+            continue
+        b = _r.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", b)
+        b = _r.sub(r"[*_`]", "", b)
+        b = " ".join(b.split())
+        if len(b) <= limite:
+            return b
+        corte = b[:limite].rsplit(" ", 1)[0].rstrip(",;:- ")
+        return corte + "…"
+    return ""
+
+
+CAT_CSS = (".categoria-link{margin:-4px 0 14px;font-size:.88rem;color:var(--color-text-muted)}"
+           ".categoria-link a{color:var(--color-primary);font-weight:600}"
+           ".footer-cats{display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;margin:10px 0}"
+           ".cat-intro{max-width:760px;margin:0 auto 8px}.cat-intro p{line-height:1.65}"
+           ".card-resumo{font-size:.86rem;line-height:1.45;color:var(--color-text-muted,#555);margin-top:6px}"
+           ".cat-outras{margin-top:2.4em}.cat-outras a{display:inline-block;margin:4px 10px 4px 0}")
+
+
+def build_category_page(key: str, titulo: str, itens: list[dict], site: dict, pilares: dict) -> str:
+    dominio = site["dominio"].rstrip("/")
+    cfg = CATEGORIAS.get(key) or {}
+    paras = cfg.get("descricao") or []
+    intro = "".join(f"<p>{html_lib.escape(str(x))}</p>" for x in paras)
+    itens = sorted(itens, key=lambda f: (_data_iso(f), str(f.get("gerado_em") or "")), reverse=True)
+    visual = PILAR_VISUAL.get(key, PILAR_VISUAL_PADRAO)
+    cards = "".join(
+        f'<div class="card"><a class="card-link" href="/{fm["slug"]}">'
+        + (f'<img class="card-cover" src="/{fm["imagem_capa"]}" alt="{html_lib.escape(fm["titulo"])}" loading="lazy">'
+           if fm.get("imagem_capa") else
+           f'<div class="card-cover" style="background:{visual["bg"]}">{visual["emoji"]}</div>')
+        + f'<div class="card-body"><div class="card-title">{html_lib.escape(fm["titulo"])}</div>'
+          f'<div class="card-resumo">{html_lib.escape(fm.get("_resumo", ""))}</div></div></a></div>'
+        for fm in itens)
+    outras = "".join(f'<a href="{cat_url(k)}">{html_lib.escape(n)}</a>' for k, n in pilares.items() if k != key)
+    if key != "pet-celebridade":
+        outras += f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a>'
+    canonical = f"{dominio}{cat_url(key)}"
+    meta = (paras[0] if paras else titulo)[:155]
+    main = f"""{render_header(site["nome"], pilares)}
+<div class="breadcrumb"><a href="/">Início</a> &gt; {html_lib.escape(titulo)}</div>
+<main class="home categoria">
+<div class="cat-intro"><h1>{html_lib.escape(titulo)}</h1>{intro}</div>
+<section class="pilar-section"><h2>Artigos de {html_lib.escape(titulo)} <span class="pilar-tag">{len(itens)} artigo(s)</span></h2>
+<div class="card-grid">{cards}</div></section>
+<nav class="cat-outras" aria-label="Outras categorias"><h2>Outras categorias</h2>{outras}</nav>
+</main>
+{render_footer(pilares)}"""
+    return page_shell(f"{titulo}: guias para cães e gatos | {site['nome']}", meta, canonical, "website", main)
+
+
+def build_sitemap(site: dict, artigos: list[dict], tv: bool = False, categorias: list[str] | None = None) -> str:
     dominio = site["dominio"].rstrip("/")
     urls = [f"{dominio}/"] + [f"{dominio}/{slug}" for slug in LEGAL_PAGES_ORDER] + \
+           [f"{dominio}{cat_url(k)}" for k in (categorias or [])] + \
            [f"{dominio}/{fm['slug']}" for fm in artigos] + ([f"{dominio}/tv"] if tv else [])
     entries = "\n".join(f"  <url>\n    <loc>{u}</loc>\n  </url>" for u in urls)
     return (
@@ -682,6 +769,8 @@ def run(site_id: str) -> dict:
     site = load_site(site_id)
     md_to_html = load_agent07_markdown_converter()
     pilares = site.get("pilares", {})
+    _PILARES_GLOBAL.clear()
+    _PILARES_GLOBAL.update(pilares)
 
     artigos = []
     for path in sorted(OTIMIZADOS_DIR.glob("*.md")):
@@ -710,6 +799,7 @@ def run(site_id: str) -> dict:
     artigos_por_pilar: dict[str, list[dict]] = {}
     for fm, body, structured_data in artigos:
         pilar_key = fm.get("pilar", "outros")
+        fm["_resumo"] = _resumo_artigo(body)
         artigos_por_pilar.setdefault(pilar_key, []).append(fm)
         html_out = build_article_page(fm, body, structured_data, site, pilares, md_to_html)
         (BUILD_DIR / f"{fm['slug']}.html").write_text(html_out, encoding="utf-8")
@@ -764,11 +854,25 @@ def run(site_id: str) -> dict:
         page_shell("Página não encontrada | " + site["nome"], "Página não encontrada.", dominio_404 + "/", "website",
                    corpo_404, extra_head='<meta name="robots" content="noindex">'), encoding="utf-8")
 
+    # Páginas de categoria (/categoria/<slug>): uma por pilar com artigos + a série Pet Celebridade
+    (BUILD_DIR / "categoria").mkdir(exist_ok=True)
+    cats_geradas = []
+    for key, titulo in pilares.items():
+        if artigos_por_pilar.get(key):
+            (BUILD_DIR / "categoria" / f"{cat_slug(key)}.html").write_text(
+                build_category_page(key, titulo, artigos_por_pilar[key], site, pilares), encoding="utf-8")
+            cats_geradas.append(key)
+    celeb = [fm for l in artigos_por_pilar.values() for fm in l if fm.get("serie") == "pet-celebridade" and fm.get("artista")]
+    if celeb:
+        (BUILD_DIR / "categoria" / "pet-celebridade.html").write_text(
+            build_category_page("pet-celebridade", "Pet Celebridade", celeb, site, pilares), encoding="utf-8")
+        cats_geradas.append("pet-celebridade")
+
     tv = _tv_lista(artigos_por_pilar)
     if tv:
         (BUILD_DIR / "tv.html").write_text(build_tv_page(site, pilares, tv), encoding="utf-8")
     (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar, tv), encoding="utf-8")
-    (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos], bool(tv)), encoding="utf-8")
+    (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos], bool(tv), cats_geradas), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
 
     # Cache das capas: o nome do arquivo nao muda quando a foto e trocada; sem versao, o navegador do leitor
