@@ -57,6 +57,17 @@ def garantir_links_legenda(texto: str, slug: str) -> str:
     return texto + "\n"
 
 
+def so_artigo(saida: Path, slug: str, motivo: str) -> int:
+    """28/10/2026: o ARTIGO nao pode depender do video. Voz sem saldo (ElevenLabs 306 de ~563) derrubava a rodada inteira
+    antes de 'Guardar fila e rascunhos', o rascunho se perdia e o blog ficou 2 dias sem artigo. Agora o artigo e o roteiro
+    seguem para a main e a rodada termina sem video (0 creditos gastos), com marcador para o passo de saude avisar."""
+    print(f"AVISO: SEM VIDEO nesta rodada, so artigo ({slug}): {motivo}", flush=True)
+    (saida.parent / "sem_video_hoje.json").write_text(json.dumps(
+        {"slug": slug, "motivo": motivo, "quando": datetime.now(timezone.utc).isoformat(timespec="seconds")},
+        ensure_ascii=False, indent=2), encoding="utf-8")
+    return 0
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         sys.exit("uso: python fabrica_nuvem.py <pasta_saida>")
@@ -99,14 +110,13 @@ def main() -> int:
         if not problemas:
             break
     if problemas and not os.environ.get("PERMITIR_ROTEIRO_SEM_PADRAO"):
-        raise SystemExit("PORTÃO DA DUDA REPROVOU O ROTEIRO — não narrado, 0 créditos gastos, nada entregue:\n- "
-                         + "\n- ".join(problemas))
+        return so_artigo(saida, slug, "PORTÃO DA DUDA REPROVOU O ROTEIRO: " + "; ".join(problemas))
     print("PORTÃO DA DUDA: roteiro aprovado", flush=True)
     # Preflight da voz (sem gastar crédito): chave, voz e saldo conferidos ANTES de narrar
     from core.portao_duda import preflight_voz
     falhas_voz = preflight_voz(json.loads(roteiro.read_text(encoding="utf-8")))
     if falhas_voz and not os.environ.get("PERMITIR_VOZ_GRATIS"):
-        raise SystemExit("PREFLIGHT DA VOZ REPROVOU — não narrado, 0 créditos gastos:\n- " + "\n- ".join(falhas_voz))
+        return so_artigo(saida, slug, "PREFLIGHT DA VOZ REPROVOU: " + "; ".join(falhas_voz))
     print("PREFLIGHT DA VOZ: chave, voz e saldo ok", flush=True)
     run([sys.executable, "agents/17_video/montar_video6.py", str(roteiro)])
     video = ROOT / "data" / "social" / "videos" / f"{slug}_v2.mp4"

@@ -232,6 +232,14 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: |
           set +e
+          # 28/10/2026: rodada so-artigo (voz sem saldo/portao): o artigo foi salvo; avisa em vez de falhar a rodada inteira
+          if [ -f /tmp/sem_video_hoje.json ]; then
+            echo "::warning::rodada SEM VIDEO (artigo salvo): $(cat /tmp/sem_video_hoje.json | tr '\n' ' ' | cut -c1-400)"
+            echo "### Rodada so-artigo (sem video)" >> "$GITHUB_STEP_SUMMARY"
+            cat /tmp/sem_video_hoje.json >> "$GITHUB_STEP_SUMMARY"
+            rm -f /tmp/sem_video_hoje.json
+            exit 0
+          fi
           # --max-idade-h 3: o pacote tem de ser DESTA rodada (antes aceitava ate 36h e a rodada vazia passava como ok)
           python agents/18_saude_fabrica/agent.py /tmp/media --max-idade-h 3
           code=$?
