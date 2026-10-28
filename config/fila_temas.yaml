@@ -2,14 +2,12 @@ temas:
 - termo: yorkshire temperamento e cuidados da raça da Doralice, pet da Xuxa
   pilar: comportamento
   status: rascunho_pronto
-  nota: Pet Celebridade (edição 22/10/2026); fatos com link na ficha 2026-10-22_pet_celebridade_doralice.md;
-    Conferente aprova em blog_aprovados.txt
+  nota: Pet Celebridade (edição 22/10/2026); fatos com link na ficha 2026-10-22_pet_celebridade_doralice.md; Conferente aprova em blog_aprovados.txt
   data: '2026-10-22'
 - termo: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da Anitta
   pilar: cuidados_diarios
   status: rascunho_pronto
-  nota: piloto Pet Celebridade da Semana; conferir fatos do Plínio na fonte (CNN Brasil)
-    antes de aprovar em blog_aprovados.txt
+  nota: piloto Pet Celebridade da Semana; conferir fatos do Plínio na fonte (CNN Brasil) antes de aprovar em blog_aprovados.txt
   data: '2026-10-15'
 - termo: como fazer filhote de cachorro parar de morder
   pilar: comportamento
@@ -914,3 +912,99 @@ temas:
 - termo: o que colocar no enxoval do primeiro gatinho adoptado
   pilar: primeiros_passos_filhotes
   status: pendente
+- termo: 'adotar ou comprar um cachorro: o que ninguém conta antes de decidir'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção 28/10; polêmica sem nomes; fontes com link. Gancho: Polêmica com os dois lados; práticas, sem nomes; custo real e responsabilidades'
+- termo: 'fábrica de filhotes: o que é, por que é cruel e como reconhecer'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; maus-tratos em tom respeitoso; fonte oficial para a lei. Gancho: Como funciona, sinais antes de pagar, o que diz a lei e como denunciar; sem nomear canil'
+- termo: o que faz um bom criador de cachorro e os sinais de um mau criador
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; sem nomear criador; fontes: CFMV e CRMV. Gancho: Checklist de visita e perguntas; práticas, não pessoas'
+- termo: como adotar um cachorro passo a passo
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção. Gancho: Documentos, termo de adoção, visita, adaptação; ONG x protetor x abrigo'
+- termo: como adotar um gato adulto e por que ele é mais fácil do que parece
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção. Gancho: Mitos sobre gato adulto, adaptação, perfil de gato por casa'
+- termo: 'primeiros 30 dias do pet adotado: regra 3-3-3 e checklist'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção. Gancho: Os 3 dias, 3 semanas e 3 meses; erros comuns; rotina'
+- termo: 'adoção responsável: o que a lei exige e o que a ONG pode pedir de você'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; pilar com componente jurídico leve. Gancho: Termo de adoção, castração, vacina, posse responsável; só fonte oficial'
+- termo: 'feiras e ONGs de adoção em São Paulo: como funcionam e como participar'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; sem indicar entidade como melhor; só fatos públicos. Gancho: Como funciona uma feira, o que levar, como avaliar uma ONG; começa por SP, série por estado depois'
+- termo: 'adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; saúde: revisão da Natasha. Gancho: Cuidados, custos médios, benefícios, adaptações da casa'
+- termo: 'devolver um animal adotado: por que acontece, como evitar e o que fazer'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção. Gancho: Causas de devolução, preparação, alternativas à devolução; tom sem julgamento'
+- termo: quanto custa um cachorro de raça e quanto custa adotar em 10 anos
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; usar faixas e fontes. Gancho: Comparativo de custos totais em faixas ''em média''; sem preços inventados'
+- termo: 'castração gratuita e vacina pública para pets: como achar na sua cidade'
+  pilar: adocao
+  status: pendente
+  nota: 'série Adoção; fonte oficial; rodapé jurídico. Gancho: Passo a passo nacional + exemplo São Paulo; liga com a série Utilidade Pública'
+- termo: 'maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'data/utilidade_publica/lei-protecao-maus-tratos-federal.md e denuncia-maus-tratos-federal-ce.md; conferir telefone do Ibama no site oficial. Gancho: Lei 9.605/1998 art. 32 + Lei 14.064/2020; canais oficiais; sem imagem chocante'
+- termo: 'castração gratuita de cachorro e gato: como conseguir'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'data/utilidade_publica/castracao-microchipagem-federal.md e sao-paulo-capital-e-estado.md. Gancho: Lei 13.426/2017 + Decreto 12.439/2025; programas municipais; depende de vaga'
+- termo: 'sinpatinhas: como cadastrar seu cachorro ou gato de graça'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'data/utilidade_publica/posse-responsavel-sinpatinhas-federal.md. Gancho: MMA + Decreto 12.439/2025; para que serve; não afirmar obrigatoriedade'
+- termo: 'abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar fonte oficial; rodapé jurídico. Gancho: Lei 9.605/1998 art. 32; alternativas legais; antes de dezembro'
+- termo: 'vacina antirrábica gratuita para cachorro e gato: onde e quando'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar fonte oficial por município. Gancho: Campanhas anuais; SP; Ministério da Saúde/secretarias'
+- termo: como se cadastrar como protetor de animais e quais benefícios existem
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'data/utilidade_publica/cadastro-protetor-municipios.md. Gancho: Cadastros municipais; o que muda; sem prometer benefício'
+- termo: 'pet em condomínio e aluguel: o que o síndico e o proprietário podem exigir'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar STJ e Código Civil com link. Gancho: Código Civil; jurisprudência do STJ; convenção de condomínio'
+- termo: 'pet no transporte público, uber e avião: regras oficiais'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar fontes oficiais. Gancho: ANAC, ANTT, SPTrans/Metrô; caixa de transporte; só regras confirmadas'
+- termo: 'cachorro ou gato atropelado ou achado na rua: o que a lei diz e quem chamar'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar fonte oficial; saúde: revisão da Natasha. Gancho: Resgate, zoonoses, quando levar ao veterinário; telefones oficiais SP'
+- termo: direitos do consumidor em pet shop e clínica veterinária e como reclamar
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar fonte oficial; sem acusar empresa. Gancho: CDC, Procon, CFMV; banho e tosa; reclamação'
+- termo: 'utilidade pública para pets em São Paulo: castração, denúncia, cadastro e ração'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'data/utilidade_publica/sao-paulo-capital-e-estado.md. Gancho: Guia por estado, SP primeiro; só fonte oficial'
+- termo: 'utilidade pública para pets no Rio de Janeiro: castração, denúncia e cadastro'
+  pilar: utilidade_publica
+  status: pendente
+  nota: 'pesquisar fonte oficial por estado. Gancho: Guia por estado, RJ; depois MG, RS, PR, BA, PE'
