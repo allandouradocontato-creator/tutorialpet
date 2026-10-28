@@ -24,3 +24,4 @@
 2026-10-27 | 15:25 diagnostico: raiz da fabrica vermelha = saldo ElevenLabs (306 vs ~748) + Gemini 429; nao redisparei (E34) + ficha V19 + aviso ao Allan | aguardando decisao (n=1) | mantém
 2026-10-27 | 19:25 diagnostico repetido: fabrica vermelha por saldo ElevenLabs/Gemini, nao redisparei (E34); aviso ao Allan | sem mudanca desde 15:25 (n=2) | mantém
 2026-10-28 | 07:25 promoveu 2 aprovados com Fontes (escova-dentes-gato, slow-feed) p/ publicar_blog (blog 0/4, ~40 h sem verde); fabrica nao redisparada (E34, ElevenLabs 306) + ficha V20 | aguardando publicar_blog verde + artigo 200 (E34, n=1) | mantém
+2026-10-28 | 11:35 promoveu 2 aprovados com Fontes (slow-feed, petiscos-caseiros; blog 1/4); fabrica nao redisparada (E34, ElevenLabs 306 vs 712) + aviso ao Allan | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
