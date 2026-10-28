@@ -42,7 +42,7 @@ def main() -> int:
     for h in BUILD.glob("*.html"):
         for l in re.findall(r'href="(/[^"#?]*)', h.read_text(encoding="utf-8", errors="ignore")):
             s = l.strip("/")
-            if s and s not in ex and not (BUILD / s).exists() and not s.startswith(("imagens", "radio", "videos")):
+            if s and s not in ex and not (BUILD / s).exists() and not (BUILD / (s + '.html')).exists() and not s.startswith(("imagens", "radio", "videos")):
                 quebrados.add(l)
     if quebrados:
         crit.append(f"links internos quebrados: {sorted(quebrados)[:5]}")
