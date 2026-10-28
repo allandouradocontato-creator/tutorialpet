@@ -21,7 +21,7 @@ Escopo: capital e região metropolitana de SP (regra 33). Só uso de dados PÚBL
 | 9 | Patre | Taboão da Serra | ~17,3 mil |
 | 10 | (reserva a definir) | — | — |
 
-Observação: só 9 entidades passaram na checagem completa nesta consulta. A 10ª vaga fica para o Diretor de Audiência: candidatas já vistas e ainda NÃO checadas a fundo: Vira Lata Club (@viralata_club, ~12,8 mil seguidores, cidade a confirmar) e SOS Caramelo SP (citada em evento de shopping em [Instagram/Google, 28/10/2026](https://www.google.com/search?q=SOS+Caramelo+SP)).
+Observação: só 9 entidades passaram na checagem completa nesta consulta. A 10ª vaga fica para o Diretor de Audiência: candidatas já vistas e ainda NÃO checadas a fundo: Vira Lata Club (@viralata_club, ~12,8 mil seguidores, cidade a confirmar) e SOS Caramelo SP (citada em evento de shopping nos resultados de busca de 28/10/2026, sem link próprio).
 
 ## 1. Adotados e Amados
 - Cidade: São Paulo, feira fixa todos os sábados na Praça Benedito Calixto (Pinheiros), segundo a bio.
@@ -62,7 +62,7 @@ Observação: só 9 entidades passaram na checagem completa nesta consulta. A 10
 - Cidade: São Paulo (bazar de Natal em hotel na Liberdade, segundo post fixado). Só gatos.
 - Site: [catland.org.br](https://catland.org.br/). Perfil: [instagram.com/catlandrescue](https://www.instagram.com/catlandrescue/) — ~117 mil seguidores em 28/10/2026 (selo azul).
 - Contato público oficial: contato@catland.org.br (aparece no post fixado do perfil sobre "Cuidado com golpes").
-- Por que é bom parceiro: homenageada pela Câmara Municipal de SP por mais de 10 mil gatos resgatados ([Câmara de SP](https://www.saopaulo.sp.leg.br/blog/com-mais-de-10-mil-gatos-resgatados-e-homenageada-com-a-salva-de-prata/)); comunicação clara e preocupada com golpes.
+- Por que é bom parceiro: homenageada pela Câmara Municipal de SP por mais de 10 mil gatos resgatados ([Câmara de SP](https://www.saopaulo.sp.leg.br/blog/com-mais-de-10-mil-gatos-resgatados-ong-catland-e-homenageada-com-a-salva-de-prata/)); comunicação clara e preocupada com golpes.
 - Risco/observação: a própria ONG alerta para golpistas usando seu nome; o contato só vale se for o do post fixado/site.
 
 ## 7. Clube dos Vira-Latas
