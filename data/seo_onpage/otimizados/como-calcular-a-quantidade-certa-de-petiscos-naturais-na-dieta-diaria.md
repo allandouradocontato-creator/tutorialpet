@@ -51,6 +51,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria.jsonld.json
+imagem_capa: imagens/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria.jpg
+imagem_fonte: pexels
+imagem_fotografo: Saravanan Narayanan
+imagem_fotografo_url: https://www.pexels.com/@snsn
+imagem_url_pagina: https://www.pexels.com/photo/fresh-juicy-strawberries-on-white-background-38698794/
+imagem_selecionada_em: '2026-10-26T06:29:03+00:00'
 ---
 
 # Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático

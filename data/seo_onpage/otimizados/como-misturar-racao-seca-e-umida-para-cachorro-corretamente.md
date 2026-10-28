@@ -51,6 +51,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-misturar-racao-seca-e-umida-para-cachorro-corretamente.jsonld.json
+imagem_capa: imagens/como-misturar-racao-seca-e-umida-para-cachorro-corretamente.jpg
+imagem_fonte: pexels
+imagem_fotografo: Edgar Almeida
+imagem_fotografo_url: https://www.pexels.com/@edgaralmeida
+imagem_url_pagina: https://www.pexels.com/photo/close-up-shot-of-a-dog-12584231/
+imagem_selecionada_em: '2026-10-14T21:19:36+00:00'
 ---
 
 # Como misturar racao seca e umida para cachorro corretamente: guia prático

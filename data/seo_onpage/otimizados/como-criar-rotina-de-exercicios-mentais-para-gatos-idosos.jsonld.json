@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

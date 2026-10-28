@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

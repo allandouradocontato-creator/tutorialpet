@@ -47,6 +47,12 @@ sugestoes_links_internos:
   ancora_sugerida: como socializar filhote de gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos.jsonld.json
+imagem_capa: imagens/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos.jpg
+imagem_fonte: pexels
+imagem_fotografo: 大 董
+imagem_fotografo_url: https://www.pexels.com/@724211268
+imagem_url_pagina: https://www.pexels.com/photo/cute-ginger-kitten-resting-by-a-sunny-window-34321185/
+imagem_selecionada_em: '2026-10-28T15:21:32+00:00'
 ---
 
 # Como ensinar filhote de gato a interagir com cães adultos: guia prático

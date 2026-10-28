@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-misturar-racao-seca-e-umida-para-cachorro-corretamente"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-misturar-racao-seca-e-umida-para-cachorro-corretamente.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

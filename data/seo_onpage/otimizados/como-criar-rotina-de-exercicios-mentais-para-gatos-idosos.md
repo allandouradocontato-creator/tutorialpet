@@ -40,6 +40,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos.jsonld.json
+imagem_capa: imagens/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos.jpg
+imagem_fonte: pexels
+imagem_fotografo: Jelena Kazak
+imagem_fotografo_url: https://www.pexels.com/@selena1965
+imagem_url_pagina: https://www.pexels.com/photo/cozy-black-and-white-cat-relaxing-in-bed-39604091/
+imagem_selecionada_em: '2026-10-28T15:21:08+00:00'
 ---
 
 # Como criar rotina de exercicios mentais para gatos idosos: guia prático

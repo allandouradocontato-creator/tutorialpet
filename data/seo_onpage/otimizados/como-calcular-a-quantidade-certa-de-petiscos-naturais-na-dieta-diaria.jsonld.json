@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
