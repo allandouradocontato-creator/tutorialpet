@@ -145,9 +145,10 @@ TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
 BUILD_DIR = ROOT / "site" / "build"
 PRODUTOS_PATH = ROOT / "config" / "produtos_relacionados.yaml"
 
-LEGAL_PAGES_ORDER = ["sobre", "contato", "politica-de-privacidade", "termos"]
+LEGAL_PAGES_ORDER = ["sobre", "contato", "politica-de-privacidade", "termos", "disclaimer"]
 LEGAL_PAGES_TITULOS = {"sobre": "Sobre", "contato": "Contato",
-                        "politica-de-privacidade": "Política de Privacidade", "termos": "Termos de Uso"}
+                        "politica-de-privacidade": "Política de Privacidade", "termos": "Termos de Uso",
+                        "disclaimer": "Disclaimer"}
 
 CATEGORIAS_PATH = ROOT / "config" / "categorias.yaml"
 
