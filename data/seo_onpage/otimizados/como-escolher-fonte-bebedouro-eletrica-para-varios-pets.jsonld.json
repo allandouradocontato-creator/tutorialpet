@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escolher-fonte-bebedouro-eletrica-para-varios-pets"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-fonte-bebedouro-eletrica-para-varios-pets.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

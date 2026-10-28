@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes.jsonld.json
+imagem_capa: imagens/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes.jpg
+imagem_fonte: pexels
+imagem_fotografo: Sean Brannon
+imagem_fotografo_url: https://www.pexels.com/@sean-brannon-762373037
+imagem_url_pagina: https://www.pexels.com/photo/boston-terrier-puppy-28244088/
+imagem_selecionada_em: '2026-10-28T15:29:49+00:00'
 ---
 
 # Melhores petiscos naturais mastigáveis para saúde dental de cães: guia prático

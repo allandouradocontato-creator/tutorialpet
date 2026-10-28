@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

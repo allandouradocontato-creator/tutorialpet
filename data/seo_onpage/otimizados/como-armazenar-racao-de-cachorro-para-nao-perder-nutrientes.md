@@ -58,6 +58,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes.jsonld.json
+imagem_capa: imagens/como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes.jpg
+imagem_fonte: pexels
+imagem_fotografo: Ajay Lamichhane
+imagem_fotografo_url: https://www.pexels.com/@azaay14
+imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-dog-in-bibra-lake-36314934/
+imagem_selecionada_em: '2026-10-28T15:30:03+00:00'
 ---
 
 # Como armazenar ração de cachorro para não perder nutrientes

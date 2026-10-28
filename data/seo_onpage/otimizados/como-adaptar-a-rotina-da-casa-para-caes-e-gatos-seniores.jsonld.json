@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

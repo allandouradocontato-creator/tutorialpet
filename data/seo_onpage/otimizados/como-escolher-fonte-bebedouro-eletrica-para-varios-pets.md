@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-fonte-bebedouro-eletrica-para-varios-pets.jsonld.json
+imagem_capa: imagens/como-escolher-fonte-bebedouro-eletrica-para-varios-pets.jpg
+imagem_fonte: pexels
+imagem_fotografo: Mahmoud Yahyaoui
+imagem_fotografo_url: https://www.pexels.com/@mahmoud-yahyaoui
+imagem_url_pagina: https://www.pexels.com/photo/cat-drinking-28429108/
+imagem_selecionada_em: '2026-10-28T15:29:48+00:00'
 ---
 
 # Como escolher fonte bebedouro elétrica para vários pets: guia prático

@@ -40,6 +40,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores.jsonld.json
+imagem_capa: imagens/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores.jpg
+imagem_fonte: pexels
+imagem_fotografo: Nathan J Hilton
+imagem_fotografo_url: https://www.pexels.com/@nathanjhilton
+imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-ginger-tabby-cat-32762928/
+imagem_selecionada_em: '2026-10-28T15:29:48+00:00'
 ---
 
 # Como adaptar a rotina da casa para cães e gatos seniores
