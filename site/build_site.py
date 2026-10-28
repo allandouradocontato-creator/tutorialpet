@@ -331,10 +331,29 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                   f'{html_lib.escape(_ed["nome"])}</a>, {html_lib.escape(_ed.get("funcao", "editor responsável")).lower()}</p>')
     else:
         byline = f'<p class="byline">Por {html_lib.escape((fm.get("assinatura") or "Equipe Tutorial Pet").strip())}</p>'
-    _rev = EQUIPE.get("revisora_veterinaria")
-    if isinstance(_rev, dict) and _rev.get("nome") and slug in (EQUIPE.get("artigos_revisados") or []):
-        byline = byline.replace("</p>", f' · Revisão veterinária: {html_lib.escape(_rev["nome"])}'
-                                + (f' ({html_lib.escape(_rev["crmv"])})' if _rev.get("crmv") else "") + "</p>", 1)
+    # Selo de revisão veterinária: SÓ com revisado_por + revisado_em no frontmatter (regra inegociável, 28/10/2026).
+    selo_revisao = ""
+    _revisao = _revisao_do_artigo(fm)
+    if _revisao:
+        _rp, _rd = _revisao
+        _crmv = _crmv_txt(_rp)
+        selo_revisao = (f'<p class="revisado-por">Revisado por <a href="/revisao-veterinaria">{html_lib.escape(_rp["nome"])}</a>, '
+                        f'{html_lib.escape(_rp.get("titulo_curto", "médica veterinária"))}'
+                        + (f' ({html_lib.escape(_crmv)})' if _crmv else "") + f' em {_rd}</p>')
+        _pessoa_ld = {"@type": "Person", "name": _rp["nome"], "jobTitle": "Médica Veterinária"}
+        if _rp.get("instagram"):
+            _pessoa_ld["url"] = _rp["instagram"]
+        if _rp.get("crmv"):
+            _pessoa_ld["identifier"] = _crmv
+        for _sd in structured_data.values():
+            if isinstance(_sd, dict) and _sd.get("@type") in ("Article", "BlogPosting", "NewsArticle"):
+                _sd["reviewedBy"] = _pessoa_ld
+        jsonld_scripts = "\n".join(
+            f'<script type="application/ld+json">{json.dumps(v, ensure_ascii=False)}</script>'
+            for v in structured_data.values())
+        jsonld_scripts = jsonld_scripts.replace(
+            '{"@type": "Person", "name": "PREENCHER_APOS_APROVACAO_HUMANA"}',
+            '{"@type": "Organization", "name": "Tutorial Pet"}')
     if _ed.get("nome"):  # dados estruturados: autor pessoa real em vez de "Equipe Tutorial Pet"
         jsonld_scripts = jsonld_scripts.replace(
             '{"@type": "Organization", "name": "Equipe Tutorial Pet"}',
@@ -430,6 +449,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {produto_faixa}
 {hero_img}
 {byline}
+{selo_revisao}
 {cat_linha}
 {extras_artista}
 {video_html}
@@ -469,8 +489,12 @@ def _data_num(valor) -> str:
 
 def _revisao_do_artigo(fm: dict) -> tuple[dict, str] | None:
     """(pessoa, data DD/MM/AAAA) se o artigo tem revisado_por E revisado_em validos; senao None."""
+    # Atenção: o agente 04 (editor de qualidade) já grava revisado_em com HORA (timestamp) em quase todo artigo.
+    # Só vale a data pura AAAA-MM-DD da revisão veterinária; timestamp nunca gera selo.
+    import re as _rr
     p = _pessoa(fm.get("revisado_por"))
-    d = _data_num(fm.get("revisado_em")) if fm.get("revisado_em") else ""
+    v = str(fm.get("revisado_em") or "").strip()
+    d = _data_num(v) if _rr.fullmatch(r"\d{4}-\d{2}-\d{2}", v) else ""
     return (p, d) if p and d else None
 
 

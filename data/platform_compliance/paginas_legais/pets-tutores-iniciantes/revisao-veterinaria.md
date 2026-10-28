@@ -27,7 +27,7 @@ Damos prioridade aos guias que tratam de saúde, alimentação com risco, vacina
 
 ## Como ler o selo
 
-Nos guias revisados, logo abaixo do nome do autor, aparece uma linha como: "Revisado por Natasha Braga, médica veterinária (CRMV 6174) em DD/MM/AAAA". Ela traz o nome, o registro profissional e a data da revisão, e leva para esta página. Um guia **sem** essa linha não passou por revisão veterinária. Hoje, nenhum guia foi revisado ainda; a lista abaixo mostra cada guia no momento em que recebe o selo.
+Nos guias revisados, logo abaixo do nome do autor, aparece uma linha como: "Revisado por Natasha Braga, médica veterinária (CRMV 6174) em DD/MM/AAAA". Ela traz o nome, o registro profissional e a data da revisão, e leva para esta página. Um guia **sem** essa linha não passou por revisão veterinária. A lista no fim desta página mostra cada guia no momento em que recebe o selo.
 
 ## Coluna "Pergunte à veterinária"
 
