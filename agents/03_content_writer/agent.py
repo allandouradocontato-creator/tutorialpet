@@ -249,7 +249,7 @@ def main() -> int:
     parser.add_argument("--site", required=True, help="site_id (arquivo em config/sites/)")
     parser.add_argument("--termo", required=True, help="termo_origem da pauta")
     parser.add_argument("--titulo", help="título do artigo (default: gerado a partir do termo)")
-    parser.add_argument("--pilar", default="pauta_especifica", choices=list(CONTENT_BLOCKS))
+    parser.add_argument("--pilar", default="pauta_especifica", choices=list(CONTENT_BLOCKS) + ["adocao", "utilidade_publica"])
     parser.add_argument("--intencao", default="informacional", choices=["informacional", "transacional", "navegacional"])
     parser.add_argument("--sensivel", action="store_true", help="marca a pauta como YMYL")
     args = parser.parse_args()
