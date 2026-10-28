@@ -40,7 +40,7 @@ Fim de cada ciclo: linha em `data/habilidades/aprendizado/trafego_meta_ads.md`: 
 - Engagement bait [C]: texto do anúncio sem pedido de reação em troca de algo; se o alcance orgânico do post impulsionado cair, comparar com versão sem o pedido.
 
 ## Regras → jogadas (v1.1, 22/10/2026; sem verba liberada para o Tutorial Pet; campanhas do imobiliário são de outro produto: não tocar)
-J1 (impulsionar só o que já funciona no orgânico). Fazer: escolher o Reel com maior retenção dos últimos 7 dias; ficha com público (tutores 25–55, interesse em pets, Fortaleza e Brasil), teto diário e prazo para o Allan aprovar. Alvo: medir primeiro retenção mediana (hoje 5,7 s no melhor Reel do FB). Troca: sem aprovação do Allan, nada é criado.
+J1 (impulsionar só o que já funciona no orgânico). Fazer: escolher o Reel com maior retenção dos últimos 7 dias; ficha com público (tutores 25–55, interesse em pets, Brasil com prioridade São Paulo, depois RJ, MG e RS; nunca restringir a Fortaleza/Ceará), teto diário e prazo para o Allan aprovar. Alvo: medir primeiro retenção mediana (hoje 5,7 s no melhor Reel do FB). Troca: sem aprovação do Allan, nada é criado.
 J2 (aprendizado do Meta: conjunto estável gera dados de entrega; mudança grande reinicia). Fazer: um conjunto, um criativo novo por vez; não editar orçamento a cada hora. Alvo: medir primeiro custo por clique. Troca: dois criativos sem clique em 72 h = trocar o criativo, não o público.
 J3 (link com baixa qualidade e engagement bait derrubam alcance [meta orgânico]). Fazer: destino = artigo útil do blog (tutorialpet.com.br), nunca página de venda direta no 1º anúncio. Alvo: cliques no blog com UTM utm_source=facebook&utm_medium=ads. Troca: bounce alto no Search Console/GA = trocar o artigo de destino.
 
