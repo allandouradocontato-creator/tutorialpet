@@ -863,7 +863,7 @@ def build_category_page(key: str, titulo: str, itens: list[dict], site: dict, pi
     else:   # coluna ainda sem resposta publicada: nao entra no sitemap e fica noindex ate o 1o artigo revisado
         secao = ('<section class="pilar-section"><h2>As primeiras respostas saem em breve</h2>'
                  '<p>Estamos reunindo as perguntas mais frequentes dos tutores para a médica veterinária responder. '
-                 'Quer ver a sua dúvida aqui? Envie pela página de <a href="/contato">Contato</a>, escolhendo "Pergunta para a veterinária".</p>'
+                 'Quer ver a sua dúvida aqui? Envie pela página de <a href="/contato">Contato</a>, com o assunto "Pergunta para a veterinária".</p>'
                  '<p>Enquanto isso, saiba <a href="/revisao-veterinaria">como funciona a revisão veterinária</a> dos nossos guias.</p></section>')
         extra_head = '<meta name="robots" content="noindex">'
     meta = (paras[0] if paras else titulo)[:155]
