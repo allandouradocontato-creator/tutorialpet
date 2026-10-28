@@ -9,7 +9,7 @@
 | ads.txt com pub-id | PASSA |  |
 | robots.txt nao bloqueia Mediapartners/Google | PASSA |  |
 | sitemap.xml | PASSA |  |
-| volume >= 30 artigos | PASSA | 84 artigos |
+| volume >= 30 artigos | PASSA | 86 artigos |
 | ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-28 (0 dias) |
 | sem buracos > 3 dias nos ultimos 30 dias | FALHA | buracos: [('2026-09-15', '2026-10-06')] |
 | artigos >= 900 palavras | PASSA | 0 curtos: [] |
