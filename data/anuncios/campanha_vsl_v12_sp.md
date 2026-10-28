@@ -55,3 +55,9 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 - Rótulo "conteúdo gerado por IA": caixa não encontrada pelo Allan (editor em massa e edição); pesquisa indica que só é obrigatória em anúncio político e que, em comercial no Brasil, o Meta pode não oferecê-la. Exceção à regra 26 autorizada pelo Allan. Frase "Duda é personagem criada com IA" proposta e NÃO aplicada.
 - Auditor de Anúncios religado (trig_019JjHRfcjsdBSoWXLQiddsG, cron 09:34 Fortaleza, próxima 29/10 09:34).
 - Pendente só do Allan: verificação de organização (CNPJ) no Meta, saldo/pagamento.
+
+## Atualização 28/10/2026 17:20
+- Meta aprovou os 2 anúncios (e-mail 16:34). Veiculação programada a partir de 28/10 20:00 (-03).
+- Verificação de organização enviada pelo Allan (CNPJ + contrato social); status "em andamento" (análise leva algumas horas). Atenção: nome comercial cadastrado ficou "allan dourado", não a razão social — se recusar, reenviar com "Dourado Falcão Educação Corporativa LTDA".
+- E-mail do domínio para a verificação: Cloudflare Email Routing ativado em tutorialpet.com.br (3 MX Cloudflare, DKIM; MX nulo "." e SPF "-all" antigos removidos/substituídos; catch-all → Gmail do Allan, ativo). O código do Meta chegou na conversa "Facebook" da caixa de entrada.
+- Pendente só do Allan: saldo/forma de pagamento da conta de anúncios.
