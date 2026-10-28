@@ -145,10 +145,10 @@ TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
 BUILD_DIR = ROOT / "site" / "build"
 PRODUTOS_PATH = ROOT / "config" / "produtos_relacionados.yaml"
 
-LEGAL_PAGES_ORDER = ["sobre", "contato", "politica-de-privacidade", "termos", "disclaimer"]
+LEGAL_PAGES_ORDER = ["sobre", "revisao-veterinaria", "contato", "politica-de-privacidade", "termos", "disclaimer"]
 LEGAL_PAGES_TITULOS = {"sobre": "Sobre", "contato": "Contato",
                         "politica-de-privacidade": "Política de Privacidade", "termos": "Termos de Uso",
-                        "disclaimer": "Disclaimer"}
+                        "disclaimer": "Disclaimer", "revisao-veterinaria": "Revisão veterinária"}
 
 CATEGORIAS_PATH = ROOT / "config" / "categorias.yaml"
 
@@ -268,7 +268,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 {ADSENSE_TAG}
 {CONSENT_TAG}
 {extra_head}
-<style>{CSS}{CAT_CSS}</style>
+<style>{CSS}{CAT_CSS}{PESSOA_CSS}</style>
 </head>
 <body>
 {body_html}
@@ -442,6 +442,92 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {render_footer()}"""
     return page_shell(titulo_seo, fm.get("meta_description", ""), canonical, "article", main, jsonld_scripts,
                        og_image=og_image)
+
+
+# ---- Revisão veterinária (28/10/2026): parceria com a médica veterinária Natasha Braga ----
+# REGRA INEGOCIÁVEL: o selo "Revisado por" só aparece em artigo com revisado_por E revisado_em no frontmatter.
+def _pessoa(pid) -> dict | None:
+    p = ((EQUIPE.get("pessoas") or {}).get(str(pid or "").strip()))
+    return p if isinstance(p, dict) and p.get("nome") else None
+
+
+def _crmv_txt(p: dict) -> str:
+    if not p.get("crmv"):
+        return ""
+    uf = str(p.get("crmv_uf") or "").strip().upper()
+    return f"CRMV-{uf} {p['crmv']}" if uf else f"CRMV {p['crmv']}"
+
+
+def _data_num(valor) -> str:
+    """'2026-10-28' -> '28/10/2026' ('' se nao der para ler)."""
+    try:
+        a, m, d = str(valor)[:10].split("-")
+        return f"{int(d):02d}/{int(m):02d}/{a}"
+    except Exception:
+        return ""
+
+
+def _revisao_do_artigo(fm: dict) -> tuple[dict, str] | None:
+    """(pessoa, data DD/MM/AAAA) se o artigo tem revisado_por E revisado_em validos; senao None."""
+    p = _pessoa(fm.get("revisado_por"))
+    d = _data_num(fm.get("revisado_em")) if fm.get("revisado_em") else ""
+    return (p, d) if p and d else None
+
+
+def _iniciais(nome: str) -> str:
+    partes = [x for x in str(nome).split() if x[:1].isalpha()]
+    return "".join(x[0].upper() for x in (partes[:1] + partes[-1:])) if partes else ""
+
+
+def render_pessoa_card(p: dict) -> str:
+    foto = str(p.get("foto") or "").strip()
+    avatar = (f'<img class="pessoa-foto" src="/{html_lib.escape(foto.lstrip("/"))}" alt="{html_lib.escape(p["nome"])}" width="96" height="96" loading="lazy">'
+              if foto else f'<div class="pessoa-foto pessoa-iniciais" aria-hidden="true">{html_lib.escape(_iniciais(p["nome"]))}</div>')
+    crmv = _crmv_txt(p)
+    linhas = [f'<strong class="pessoa-nome">{html_lib.escape(p["nome"])}</strong>',
+              f'<span>{html_lib.escape(p.get("papel", ""))}</span>']
+    if crmv:
+        linhas.append(f'<span>{html_lib.escape(crmv)}</span>')
+    if p.get("bio"):
+        linhas.append(f'<p>{html_lib.escape(p["bio"])}</p>')
+    if p.get("instagram"):
+        usuario = p.get("instagram_usuario") or "Instagram"
+        linhas.append(f'<a href="{html_lib.escape(p["instagram"])}" rel="noopener" target="_blank">Instagram {html_lib.escape(usuario)}</a>')
+    return f'<div class="pessoa-card">{avatar}<div class="pessoa-info">{"".join(linhas)}</div></div>'
+
+
+PESSOA_CSS = (".pessoa-card{display:flex;gap:16px;align-items:flex-start;margin:16px 0;padding:16px;border:1px solid #e5e7eb;border-radius:12px;background:#fafafa}"
+              ".pessoa-foto{width:96px;height:96px;border-radius:50%;object-fit:cover;flex:none}"
+              ".pessoa-iniciais{display:flex;align-items:center;justify-content:center;background:var(--color-primary,#f97316);color:#fff;font-size:1.8rem;font-weight:700}"
+              ".pessoa-info{display:flex;flex-direction:column;gap:2px}.pessoa-info p{margin:6px 0}"
+              ".revisado-por{font-size:.92rem;margin:-6px 0 12px;color:var(--color-text-muted,#555)}"
+              "@media(max-width:520px){.pessoa-card{flex-direction:column;align-items:center;text-align:center}}")
+
+
+def build_revisao_page(fm: dict, body: str, site: dict, pilares: dict, md_to_html, artigos: list[dict]) -> str:
+    """Página /revisao-veterinaria: política (markdown) + cartão da revisora + lista automática dos artigos revisados."""
+    dominio = site["dominio"].rstrip("/")
+    p = _pessoa(EQUIPE.get("revisora_veterinaria"))
+    quem = f'<h2 id="quem-revisa">Quem revisa</h2>{render_pessoa_card(p)}' if p else ""
+    revisados = sorted(((f, _revisao_do_artigo(f)) for f in artigos if _revisao_do_artigo(f)),
+                       key=lambda t: (t[1][1][6:] + t[1][1][3:5] + t[1][1][:2]), reverse=True)
+    if revisados:
+        itens = "".join(f'<li><a href="/{f["slug"]}">{html_lib.escape(f["titulo"])}</a> '
+                        f'<span class="revisado-por">revisado em {d}</span></li>' for f, (_p, d) in revisados)
+        lista = f'<h2 id="artigos-revisados">Artigos revisados</h2><ul>{itens}</ul>'
+    else:
+        lista = ('<h2 id="artigos-revisados">Artigos revisados</h2>'
+                 '<p>Os primeiros artigos revisados saem em breve. Assim que a médica veterinária aprovar o primeiro, ele aparece nesta lista, com a data da revisão.</p>')
+    main = f"""{render_header(site["nome"], pilares)}
+<main class="legal">
+{md_to_html(body)}
+{quem}
+{lista}
+</main>
+{render_footer()}"""
+    return page_shell(fm.get("titulo", "Revisão veterinária") + " | " + site["nome"],
+                      "Como funciona a revisão veterinária dos guias do Tutorial Pet: o que é revisado, quem revisa e como ler o selo.",
+                      f"{dominio}/revisao-veterinaria", "website", main)
 
 
 def build_legal_page(slug: str, fm: dict, body: str, site: dict, pilares: dict, md_to_html) -> str:
@@ -819,7 +905,10 @@ def run(site_id: str) -> dict:
         if not legal_path.exists():
             continue
         fm, body = read_markdown(legal_path)
-        html_out = build_legal_page(slug, fm, body, site, pilares, md_to_html)
+        if slug == "revisao-veterinaria":
+            html_out = build_revisao_page(fm, body, site, pilares, md_to_html, [a[0] for a in artigos])
+        else:
+            html_out = build_legal_page(slug, fm, body, site, pilares, md_to_html)
         (BUILD_DIR / f"{slug}.html").write_text(html_out, encoding="utf-8")
         legal_gerados.append(slug)
 
