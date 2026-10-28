@@ -1,0 +1,20 @@
+{
+  "exemplo": true,
+  "aprovado": true,
+  "recebido_em": "2026-10-27",
+  "entidade_nome": "ONG Exemplo Gatos SP",
+  "entidade_cidade_uf": "São Paulo/SP",
+  "tipo_entidade": "ong",
+  "contato_publico_entidade": "Instagram @ongexemplogatos (DM)",
+  "contato_e_da_entidade": true,
+  "especie": "Gato",
+  "nome_animal": "Mingau (exemplo)",
+  "porte": "Pequeno",
+  "idade_aproximada": "1 ano",
+  "sexo": "Macho",
+  "temperamento": "Dócil, convive com crianças e outros gatos; adapta-se bem a apartamento com telas.",
+  "saude_vacinas": "Vacinado, vermifugado e castrado.",
+  "foto_url": "https://exemplo.invalid/mingau.jpg",
+  "responsavel_confirmado": true,
+  "autoriza_publicacao": true
+}

@@ -1,0 +1,21 @@
+{
+  "exemplo": true,
+  "aprovado": true,
+  "recebido_em": "2026-10-27",
+  "entidade_nome": "Abrigo Exemplo Patas",
+  "entidade_cidade_uf": "Taboão da Serra/SP",
+  "tipo_entidade": "abrigo",
+  "contato_publico_entidade": "WhatsApp do abrigo (11) 90000-0000",
+  "contato_e_da_entidade": true,
+  "especie": "Cachorro",
+  "nome_animal": "Pipoca (exemplo)",
+  "porte": "Médio",
+  "idade_aproximada": "3 anos",
+  "sexo": "Fêmea",
+  "temperamento": "Brincalhona; convive com outros cães; precisa de passeios diários.",
+  "saude_vacinas": "Vacinada e castrada; vermífugo em dia.",
+  "foto_url": "https://exemplo.invalid/pipoca.jpg",
+  "responsavel_confirmado": true,
+  "autoriza_publicacao": true,
+  "cpf_responsavel": "000.000.000-00"
+}
