@@ -61,81 +61,83 @@ imagem_selecionada_em: '2026-10-22T18:29:32+00:00'
 
 # Alimentos proibidos para cachorro
 
-Quem convive com cães sabe bem como funciona a hora da refeição: basta um olhar pidão e aquele focinho encostado na nossa perna para bater a dúvida se podemos ou não dividir o nosso prato com ele. O sistema digestivo dos cães funciona de um jeito bem diferente do nosso. Por isso, o que é um petisco inofensivo para humanos pode se transformar em um grave problema de saúde. 
+Nenhum cão precisa de comida de gente, e vários alimentos comuns na cozinha brasileira são tóxicos para ele. Abaixo respondemos, em ordem, às dúvidas que os tutores mais fazem sobre o assunto, desde "o que nunca dar" até "o que fazer se ele já comeu".
 
-Conhecer a lista de alimentos perigosos é essencial para qualquer casa, seja você um tutor experiente com vários animais ou alguém que acabou de adotar e ainda está entendendo a rotina, como quando você pesquisa sobre [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro) para preparar o lar. A seguir, separamos os principais itens proibidos, explicamos o motivo de fazerem mal e mostramos o que fazer caso aconteça um acidente.
+## Quais são os alimentos mais perigosos para o cachorro?
 
-## Chocolate, café e cafeína: o perigo dos estimulantes
+Os mais citados por entidades veterinárias são chocolate, uvas e passas, cebola e alho, xilitol (adoçante de balas e gomas), abacate, macadâmia, álcool e ossos cozidos. A lista da [ASPCA](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) e os alertas do CFMV batem nesses itens. Vale decorar o grupo, porque o perigo muda pouco de uma casa para outra: está na mesa de centro, no lixo da cozinha e na bolsa esquecida no chão.
 
-O chocolate lidera o ranking dos alimentos mais perigosos na mente dos tutores, e por um motivo sério. Ele contém teobromina e cafeína, substâncias que os cães metabolizam de forma extremamente lenta. Enquanto o nosso organismo elimina esses compostos com facilidade, no corpo do cachorro eles se acumulam e provocam uma sobrecarga nos sistemas nervoso e cardíaco.
+## Por que o chocolate faz mal ao cachorro?
 
-O metabolismo canino é incapaz de processar essas moléculas com eficiência, o que gera quadros de intoxicação rápida. Quanto mais escuro o chocolate, maior é a concentração de teobromina e, consequentemente, maior o perigo para o animal, mesmo em porções que parecem pequenas.
+Porque contém teobromina e cafeína, substâncias que o cão elimina muito devagar e que se acumulam no organismo. Elas aceleram o coração e agitam o sistema nervoso, o que explica vômito, tremores, inquietação e, nos casos graves, convulsões. O CFMV tem um alerta específico sobre o tema: [chocolate não é bom pra cachorro](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/).
 
-### O que acontece no organismo e sinais de alerta
-A ingestão provoca aceleração dos batimentos cardíacos, tremores musculares, agitação intensa, vômitos e diarreia. Em casos mais graves, pode levar a convulsões.
+Quanto mais escuro e concentrado o chocolate (cacau em pó, chocolate amargo, de culinária), maior o risco, mesmo em porções pequenas. O café e os chás com cafeína entram na mesma conta.
 
-- **Erros comuns:** Achar que um pedacinho pequeno de chocolate ao leite não faz mal ou dar alimentos que contêm café e chás com cafeína.
-- **Sinais de alerta:** Inquietação excessiva, respiração ofegante sem motivo aparente e vômito logo após o consumo.
+Exemplo prático: a barra esquecida na mesa de centro foi comida. Anote a marca, o tipo e a quantidade aproximada, e ligue para o médico-veterinário antes de os sintomas aparecerem, porque a conduta depende do peso do cão e do tipo de chocolate.
 
-**Exemplo prático:** Se você deixou uma barra de chocolate esquecida na mesa de centro e o cão alcançou, não espere os sintomas aparecerem. O ideal é anotar a quantidade estimada que ele comeu e contatar o médico-veterinário imediatamente.
+## Cachorro pode comer uva ou passa?
 
-## Uvas e passas: o perigo misterioso para os rins
+Não. Uvas e passas podem causar insuficiência renal aguda em alguns cães, e ainda não se sabe qual substância é responsável nem a partir de que quantidade o risco aparece. Um cão pode comer algumas sem problema e outro adoecer com poucas, por isso a regra é não arriscar.
 
-As uvas, sejam frescas ou secas (passas), entram na lista dos alimentos mais perigosos porque podem causar insuficiência renal aguda nos cães. O mecanismo exato da toxina ainda é estudado pela ciência, mas a gravidade da reação é imprevisível: um único cão pode tolerar uma uva enquanto outro sofre danos renais graves com a mesma quantidade.
+Cuidado com as passas escondidas em panetone, bolo, farofa e mistura de castanhas, comuns nas festas de fim de ano. Sinais como apatia, vômito e perda súbita de apetite pedem atendimento veterinário, onde exames de sangue avaliam os rins.
 
-Como o rim é o órgão responsável por filtrar as toxinas do sangue, a falência renal interrompe esse processo, causando um acúmulo perigoso de resíduos no organismo do animal.
+## Cebola e alho fazem mal mesmo em pouca quantidade?
 
-### Passos para identificar a ingestão acidental
-Muitas vezes, as passas estão escondidas em panetones, bolos ou misturas de castanhas que caem no chão durante as refeições em família.
+Fazem, principalmente quando o cão come com frequência. Os compostos sulfurados da cebola e do alho, crus, cozidos ou em pó, danificam os glóbulos vermelhos e podem causar anemia. Os sinais incluem gengivas pálidas, urina escura, fraqueza e cansaço fácil, e podem aparecer só depois de dias.
 
-1. Recolha imediatamente qualquer resto de alimento que contenha uvas ou passas.
-2. Observe o comportamento do cão nas horas seguintes.
-3. Busque atendimento veterinário caso perceba apatia ou falta de apetite súbita.
+O perigo costuma estar escondido: caldo pronto, tempero em cubo, molho, carne marinada e sobra de panela têm alho e cebola. Por isso "só uma colherzinha da comida de casa" não é inofensiva.
 
-**Exemplo prático:** Durante as festas de fim de ano, um prato de frutas secas ficou ao alcance na mesa de centro. Se notar que o cachorro comeu passas, o acompanhamento profissional deve ser imediato, pois os exames de sangue ajudam a monitorar a função renal antes que o quadro se agrave.
+## O que é xilitol e por que é tão perigoso?
 
-## Alho e cebola: o ataque aos glóbulos vermelhos
+Xilitol é um adoçante usado em balas, gomas de mascar, pastas de dente e alguns doces e produtos "zero açúcar". No cão, ele causa queda brusca de açúcar no sangue e pode lesar o fígado. É emergência: leve o cão ao veterinário imediatamente, sem esperar sintomas. Leia o rótulo de tudo que o cachorro possa alcançar, inclusive pasta de amendoim "fit", que em alguns produtos leva o adoçante.
 
-A cebola e o alho — crus, cozidos, em pó ou desidratados — contêm compostos sulfurados que destroem os glóbulos vermelhos do sangue dos cães. Como os glóbulos vermelhos são os responsáveis por transportar oxigênio para todo o corpo, a destruição dessas células provoca um quadro conhecido como anemia hemolítica.
+## Abacate e macadâmia também são proibidos?
 
-O organismo do cachorro não consegue repor essas células na mesma velocidade em que são destruídas, o que gera fraqueza generalizada e falta de ar.
+Sim. O abacate tem persina, que pode causar vômito e diarreia, e o caroço grande pode entalar ou obstruir o intestino. A noz-macadâmia pode causar fraqueza nas patas traseiras, tremores e vômito. Se o cachorro pegou um pedaço, observe e consulte o veterinário.
 
-### Quando o perigo está nos ingredientes ocultos
-O maior risco não está apenas na cebola crua, mas em caldos prontos, sopas, molhos e restos de comida caseira que levam esses temperos no preparo.
+## Cachorro pode roer osso?
 
-- **Erros comuns:** Dar comida de panela temperada "porque tem pouco alho" ou oferecer pedaços de carne que foram marinados com cebola.
-- **Sinais de alerta:** Gengivas pálidas, urina com coloração escura, fraqueza nas patas traseiras e cansaço rápido ao caminhar.
+Osso cozido não. O cozimento deixa o osso quebradiço, e as lascas podem perfurar o esôfago, o estômago ou o intestino, além de causar obstrução. Osso de frango é especialmente perigoso. Mesmo os crus têm risco de dente quebrado e engasgo, então o mais seguro é conversar com o veterinário sobre mordedores adequados ao porte do cão.
 
-**Exemplo prático:** Sobras de um ensopado de carne com cebola e alho não devem ser oferecidas ao pet. Se precisar mudar a alimentação dele de forma segura, vale a pena conferir orientações sobre [como trocar a ração do cachorro](/como-trocar-a-racao-do-cachorro) sem causar distúrbios digestivos.
+Exemplo prático: o cão pegou os ossos de frango do almoço no lixo. Se ele salivar muito, vomitar, parecer com dor na barriga ou ficar prostrado, vá ao veterinário na hora.
 
-## Ossos cozidos e pedaços perigosos
+## Álcool, massa crua e outros alimentos também entram na lista?
 
-Embora muitos tutores pensem nos ossos como um petisco tradicional, oferecer ossos cozidos é um risco enorme para a segurança do animal. O processo de cozimento deixa a estrutura do osso quebradiça, fazendo com que ele estilhace facilmente ao ser mastigado.
+Entram. Álcool, inclusive em bolo e sobremesa, é tóxico mesmo em pouca quantidade. A massa de pão crua cresce e fermenta no estômago, podendo causar distensão e intoxicação alcoólica. Alimentos muito gordurosos, como pele de frango frita e churrasco, podem desencadear vômitos e pancreatite. Sal e temperos fortes em excesso também fazem mal.
 
-Essaspontas afiadas podem perfurar o esôfago, o estômago ou o intestino do cão, além de causarem obstruções graves que exigem cirurgia de emergência.
+## O que fazer se o cachorro comeu algo proibido?
 
-### O que fazer em caso de acidente alimentar
-Se o seu cachorro consumiu algum alimento proibido ou perigoso, manter a calma é o primeiro passo para agir com eficiência.
+Siga esta ordem:
 
-1. **Afaste o pet** do restante da comida para evitar novas ingestões.
-2. **Não tente provocar vômito** por conta própria, pois isso pode agravar lesões no esôfago.
-3. **Ligue para o médico-veterinário** de confiança para relatar o que aconteceu, o horário e a quantidade aproximada.
-4. **Guarde a embalagem** ou o rótulo do alimento para mostrar ao profissional, facilitando o diagnóstico.
+1. Afaste o cão do alimento e recolha o que sobrou, para evitar nova ingestão.
+2. Anote o que ele comeu, quanto, quando e o peso dele.
+3. Ligue já para o veterinário de confiança ou para uma clínica 24 horas, informando esses dados.
+4. Guarde a embalagem ou o rótulo para mostrar ao profissional.
+5. Não provoque vômito por conta própria nem ofereça leite, óleo ou "remédio caseiro". Em alguns casos o vômito piora a situação, e só o veterinário sabe se é indicado.
 
-**Exemplo prático:** Se o cão roeu ossos de frango que sobraram do almoço e começou a salivar muito ou demonstrar dor abdominal ao toque, a ida ao consultório deve ser imediata para avaliar possíveis perfurações no trato digestivo.
+## Como saber se o cachorro está intoxicado?
 
-Outros guias do Tutorial Pet que combinam com este assunto: [quais legumes cachorro pode comer cozidos sem tempero](/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero) e [ração para filhote de cachorro](/racao-para-filhote-de-cachorro).
+Os sinais variam, mas os mais comuns são vômito, diarreia, salivação excessiva, tremores, agitação ou, ao contrário, muito sono e apatia, respiração acelerada, gengivas pálidas e perda de apetite. Alguns alimentos, como uvas e cebola, demoram a dar sinais. Se você sabe que ele comeu algo da lista, não espere os sintomas.
+
+## Como evitar acidentes dentro de casa?
+
+Prevenir é mais barato e mais simples que socorrer. Mantenha lixo com tampa, guarde chocolates e doces em armários altos, avise visitas e crianças para não darem petiscos, e nunca deixe pratos ao alcance quando for atender a porta. Se quiser oferecer algo diferente, prefira alimentos seguros, como os de [quais legumes cachorro pode comer cozidos sem tempero](/quais-legumes-cachorro-pode-comer-cozidos-sem-tempero), em pequena quantidade e sem tempero.
+
+Ao montar a casa para um filhote, inclua esse cuidado no [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro): potes que não viram, lixeira fechada e um lugar fixo para a comida. Se for mudar a alimentação, veja antes [como trocar a ração do cachorro](/como-trocar-a-racao-do-cachorro) sem causar distúrbios, e confirme com o veterinário qual a [ração para filhote de cachorro](/racao-para-filhote-de-cachorro) adequada à fase dele.
 
 ## Perguntas frequentes
 
 **O meu cachorro comeu um pedaço pequeno de cebola, o que devo fazer?**
-Mesmo em pequenas quantidades, a cebola pode afetar o sangue. Monitore o pet de perto e consulte um médico-veterinário para avaliar a necessidade de exames preventivos.
+Mesmo em pequena quantidade, a cebola pode afetar o sangue. Observe o pet de perto e converse com o médico-veterinário para saber se há necessidade de exames.
 
 **Cachorro pode comer abacate?**
-Não. O abacate contém persina, uma substância tóxica para os cães que pode causar vômitos, diarreia e problemas respiratórios.
+Não é recomendado. A persina pode causar vômito e diarreia, e o caroço pode obstruir o intestino.
 
-**O que fazer se o cachorro comer doce com adoçante xilitol?**
-O xilitol causa uma queda drástica na glicemia e falência hepática rápida. Trata-se de uma emergência veterinária absoluta; leve o animal ao atendimento imediatamente.
+**O que fazer se o cachorro comer doce com xilitol?**
+Leve ao veterinário imediatamente. O xilitol derruba o açúcar no sangue e pode lesar o fígado em pouco tempo.
+
+**Posso dar leite ao cachorro intoxicado?**
+Não. Leite não neutraliza toxinas e pode causar diarreia. Só o veterinário pode orientar o que fazer.
 
 ## Fontes e referências
 
@@ -147,7 +149,4 @@ O xilitol causa uma queda drástica na glicemia e falência hepática rápida. T
 
 ## Para fechar
 
-Cuidar da alimentação do seu cão vai muito além de escolher um bom alimento comercial; envolve manter a cozinha e a despensa protegidas contra acidentes domésticos. Pequenos deslizes podem trazer grandes sustos, por isso a prevenção continua sendo a melhor forma de garantir uma vida longa e saudável ao seu companheiro. 
-
-Se você gosta de cuidar de cada detalhe da rotina do seu pet, continue explorando nossos artigos para descobrir mais dicas práticas de convivência, saúde e bem-estar animal.
-
+A regra que resolve quase tudo: na dúvida, não ofereça e, se já comeu, ligue para o veterinário antes de esperar sintomas. Com lixo fechado, doces fora de alcance e visitas avisadas, a maioria dos sustos nunca acontece. Continue explorando o blog para mais guias práticos de saúde e rotina do seu cão.
