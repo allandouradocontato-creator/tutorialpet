@@ -61,3 +61,4 @@ igual este arquivo nasceu de uma falha registrada.
 - 2026-10-22 | Diretores (Produto/Estrategista) | IDs D01/D02 reusados no livro | causa: ID escolhido de memória | correção: E49 (grep do próximo ID livre)
 - 2026-10-24 | Criador de Audiência | Rodada de sábado entregou só trends + 3 ideias, sem a matriz (gancho em 3 peças, pilares, prova/teste, CTA); T9 (b) falhou | causa: rodada curta tratada como exceção à matriz | correção: E109 (matriz obrigatória em toda rodada)
 - 2026-10-25 | Executor | git pull --rebase estourou 2 min (branch media) | usar fetch origin main + merge --ff-only
+- 2026-10-27 | Fábrica/Publicar Blog | 10 runs da Fábrica e 3 do Publicar Blog vermelhos em ~12 h; blog 0 artigos em 24 h e vídeo parado | causa: preflight de voz e cota Gemini tratados como erro fatal, sem caminho degradado (só artigo, capa de banco) | correção: E131 (degradar em vez de falhar) + E132 (cobrança ao Diretor de Conteúdo)
