@@ -64,9 +64,11 @@ Ensinar as regras da casa para um cãozinho recém-chegado exige método, paciê
 
 Com um plano consistente logo nos [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa), o aprendizado acontece de forma natural. O segredo não está em corrigir os erros, mas em prever os momentos certos e recompensar os acertos com precisão.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## 1. Escolha estratégica do local e montagem do espaço
 
-Cães têm uma aversão instintiva a eliminar fezes e urina perto de onde comem ou dormem. Se você colocar o tapete higiênico ao lado da caminha ou da tigela de água, o filhote vai procurar outro canto do cômodo para não sujar a própria área de descanso.
+Cães têm uma aversão instintiva a eliminar fezes e urina perto de onde comem ou dormem. Se você colocar o [tapete higiênico](https://s.shopee.com.br/80DeUBPsiG) ao lado da caminha ou da tigela de água, o filhote vai procurar outro canto do cômodo para não sujar a própria área de descanso.
 
 O ideal é posicionar o tapete em um local calmo, de fácil acesso e longe da circulação pesada de pessoas. Lavanderias bem ventiladas, banheiros pouco usados ou cantos protegidos da sala funcionam muito bem.
 

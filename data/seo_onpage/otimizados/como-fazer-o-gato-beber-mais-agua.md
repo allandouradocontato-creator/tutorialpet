@@ -66,6 +66,8 @@ Quem convive com felinos sabe que eles parecem ter uma aversão natural à água
 
 Para ajudar o seu companheiro a se manter hidratado, vale a pena entender o comportamento felino e aplicar algumas mudanças simples na rotina da casa. Além de ajustar a hidratação, quem tem mais de um animal em casa também precisa [como organizar a rotina de alimentacao de caes e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos) para garantir que cada um tenha acesso tranquilo aos recursos essenciais, incluindo a água fresca.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Escolha os recipientes certos e mude a localização
 
 Os gatos são animais extremamente sensíveis a cheiros, gostos e ao formato dos objetos ao seu redor. Se o pote de água for muito fundo, os bigodes sensíveis do gato encostam nas bordas a cada gole, gerando um incômodo físico conhecido como fadiga de bigode. Além disso, materiais como plástico costumam acumular microfissuras que retêm bactérias e odores desagradáveis, fazendo com que o gato recuse a água.
@@ -80,7 +82,7 @@ Prefira potes largos e rasos feitos de vidro, inox ou cerâmica, que não altera
 
 ## Aposte em fontes de água corrente
 
-A atração dos gatos por água corrente não é por acaso: na natureza, o movimento indica que a água é fresca e própria para o consumo, enquanto a água parada pode transmitir doenças. As fontes elétricas para pets imitam esse fluxo constante, oxigenando o líquido e mantendo-o com uma temperatura mais agradável.
+A atração dos gatos por água corrente não é por acaso: na natureza, o movimento indica que a água é fresca e própria para o consumo, enquanto a água parada pode transmitir doenças. As [fontes elétricas](https://s.shopee.com.br/8V9v5D7kIB) para pets imitam esse fluxo constante, oxigenando o líquido e mantendo-o com uma temperatura mais agradável.
 
 O barulho suave da água corrente atrai a curiosidade do felino, estimulando-o a se aproximar e beber com muito mais frequência ao longo do dia. Para quem busca outras formas de enriquecer o ambiente e cuidar do bem-estar geral, vale conferir dicas complementares, assim como entender [como evitar a obesidade em gatos castrados de apartamento](/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento), já que a hidratação adequada também ajuda no metabolismo.
 

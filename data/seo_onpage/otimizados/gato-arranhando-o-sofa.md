@@ -53,6 +53,8 @@ Ver o seu móvel favorito virando alvo das garras do felino é um dos maiores su
 
 Neste artigo, vamos explicar o porquê desse hábito, como redirecionar a energia do bichinho e o que fazer para salvar a sua sala de estar. Se você notar qualquer mudança brusca ou ferimento nas patinhas, lembre-se de consultar o médico-veterinário do pet.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Por que o gato arranha o sofá?
 
 Para entender o problema, precisamos olhar o mundo pelos olhos do gato. Arranhar não serve apenas para afiar as unhas, mas cumpre funções vitais na rotina e na comunicação felina. 
@@ -65,7 +67,7 @@ O sofá costuma ser a vítima perfeita porque fica na área central da casa, tem
 
 *   Brigar ou borrifar água no gato (isso só gera medo e quebra a confiança).
 *   Esconder o sofá de um jeito que deixe o gato estressado.
-*   Comprar um arranhador inadequado e desistir rápido demais.
+*   Comprar um [arranhador](https://s.shopee.com.br/4fxCWJjJ7e) inadequado e desistir rápido demais.
 
 Exemplo prático: Quando o gato for para cima do sofá, em vez de gritar, faça um som neutro para interromper, pegue-o com calma e leve-o para perto da área permitida.
 

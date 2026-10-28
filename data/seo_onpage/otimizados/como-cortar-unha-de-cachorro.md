@@ -66,13 +66,15 @@ A hora de aparar as garras do seu peludo pode parecer um verdadeiro desafio, pri
 
 Antes de começar qualquer rotina de cuidados físicos, é sempre prudente conversar com o médico-veterinário do seu pet para entender o ritmo ideal de crescimento das unhas e garantir que não há nenhuma questão dermatológica ou sensibilidade oculta.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Entendendo a anatomia da unha canina
 
 Para fazer o corte sem sustos, você precisa entender o porquê daquela estrutura existir e como ela funciona por dentro. As unhas dos cães têm uma parte viva chamada "tugo" ou "carneinha", que contém vasos sanguíneos e terminações nervosas. 
 
 Se você cortar essa área, vai doer e sangrar. Nos cães de unha clara, essa parte rosada é bem visível. Já nos cães de unha escura, ela fica totalmente oculta, exigindo ainda mais cautela e cortes bem superficiais apenas na pontinha transparente.
 
-Erros comuns incluem tentar cortar tudo de uma vez só ou usar um alicate cego que esmaga a unha em vez de fatiar. O segredo está em lixar ou cortar milímetro por milímetro, parando assim que notar uma mancha redonda e escura no centro da unha cortada, sinal de que o vaso sanguíneo está perto.
+Erros comuns incluem tentar cortar tudo de uma vez só ou usar um [alicate](https://s.shopee.com.br/7VHNtt3EP8) cego que esmaga a unha em vez de fatiar. O segredo está em lixar ou cortar milímetro por milímetro, parando assim que notar uma mancha redonda e escura no centro da unha cortada, sinal de que o vaso sanguíneo está perto.
 
 **Exemplo prático:** 
 Imagine que a unha do seu cão é um lápis. Você não aponta o lápis inteiro de uma vez; você tira só a pontinha que está sem corte. Com a unha, faça exatamente o mesmo movimento gradual.

@@ -79,9 +79,11 @@ imagens_corpo:
 
 Há algo profundamente terno em ver o focinho de um cão colado à janela do carro, sentindo o vento suave e acompanhando a paisagem que se transforma. Dividir o banco do carro com quem nos ama é um dos pequenos rituais mais doces da vida a dois — ou em matilha. Mas esse momento de cumplicidade pede um cuidado essencial: garantir que cada curva e cada freada sejam seguras para o nosso companheiro. Vamos direto ao ponto, com um passo a passo simples de aplicar hoje mesmo para escolher o cinto ideal.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## O abraço que protege: entendendo a importância do cinto pet
 
-Mais do que uma exigência de trânsito, o cinto de segurança é um elo de proteção que mantém a nossa paz de espírito. Quando o carro entra em movimento, o corpo do pet fica sujeito às leis da física tanto quanto o nosso. Usar o equipamento correto evita que ele seja arremessado e também impede que pule no colo do motorista, transformando um trajeto comum em um risco desnecessário. 
+Mais do que uma exigência de trânsito, o [cinto de segurança](https://s.shopee.com.br/2Vshvpzg66) é um elo de proteção que mantém a nossa paz de espírito. Quando o carro entra em movimento, o corpo do pet fica sujeito às leis da física tanto quanto o nosso. Usar o equipamento correto evita que ele seja arremessado e também impede que pule no colo do motorista, transformando um trajeto comum em um risco desnecessário. 
 
 Antes de escolher o acessório, vale lembrar que a segurança começa muito antes de dar a partida. Assim como garantimos que o ambiente da casa esteja adaptado, o mesmo vale para os passeios, seja cuidando de detalhes como a [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro) ou garantindo que a transição para o veículo seja tranquila.
 

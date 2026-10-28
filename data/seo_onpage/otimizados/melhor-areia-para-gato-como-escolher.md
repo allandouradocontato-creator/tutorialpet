@@ -75,15 +75,17 @@ A escolha do substrato sanitário é uma das decisões mais importantes na rotin
 
 Quando o substrato não agrada ao pet, manifestações comportamentais indesejadas costumam surgir, como a eliminação em locais inadequados ou a retenção prolongada de urina, fator que exige atenção e acompanhamento de um médico-veterinário para evitar complicações urinárias. Para tomar uma decisão fundamentada e aplicável de imediato, apresentamos a seguir os conceitos técnicos, as opções de mercado e os passos para definir a melhor alternativa para o seu lar.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## 1. Conheça as principais categorias de substrato
 
-O mercado pet oferece diversas composições de areia sanitária. Compreender as particularidades químicas e mecânicas de cada matéria-prima é o primeiro passo para alinhar o custo-benefício às necessidades da rotina.
+O mercado pet oferece diversas composições de [areia sanitária](https://s.shopee.com.br/7VHNtYy6yX). Compreender as particularidades químicas e mecânicas de cada matéria-prima é o primeiro passo para alinhar o custo-benefício às necessidades da rotina.
 
 ### Argila e bentonita (minerais aglomerantes)
 A bentonita é uma argila natural conhecida pelo seu alto poder de absorção e capacidade de aglutinação rápida. Em contato com líquidos, ela forma torrões compactos e sólidos que facilitam o descarte pontual. Costuma apresentar excelente aceitação pela maioria dos gatos devido à granulometria fina, semelhante à terra encontrada na natureza. A ressalva fica por conta do peso das embalagens e da necessidade de selecionar marcas que passem por processos industriais de despoeiramento.
 
 ### Sílica (cristais e micropérolas)
-Composta por dióxido de silício sintético, a sílica opera por retenção direta da umidade no interior de seus microporos, neutralizando odores sem formar torrões no caso da urina. As fezes continuam sendo recolhidas diariamente, enquanto o mineral amarela gradativamente até o momento da troca total da bandeja. Alguns gatos mostram relutância com esse material, pois o atrito das pedras gera estalos ao escavar, além de bordas que podem incomodar patas mais sensíveis.
+Composta por dióxido de silício sintético, a [sílica](https://s.shopee.com.br/9Kj24yceUK) opera por retenção direta da umidade no interior de seus microporos, neutralizando odores sem formar torrões no caso da urina. As fezes continuam sendo recolhidas diariamente, enquanto o mineral amarela gradativamente até o momento da troca total da bandeja. Alguns gatos mostram relutância com esse material, pois o atrito das pedras gera estalos ao escavar, além de bordas que podem incomodar patas mais sensíveis.
 
 ### Fibras vegetais e biodegradáveis
 Produzidas a partir de subprodutos de fontes renováveis — como sabugo de milho, mandioca, casca de café ou aparas de pinus prensadas —, essas areias ganharam destaque no mercado. As versões finas à base de mandioca e milho oferecem torrões extremamente firmes e produzem índices baixos de resíduo aéreo. Além disso, algumas opções permitem o descarte dos torrões individuais diretamente no vaso sanitário, respeitando a tubulação local.

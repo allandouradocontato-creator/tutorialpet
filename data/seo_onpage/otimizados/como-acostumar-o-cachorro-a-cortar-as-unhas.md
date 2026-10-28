@@ -57,9 +57,11 @@ imagem_selecionada_em: '2026-10-14T22:47:33+00:00'
 
 # Como acostumar o cachorro a cortar as unhas: guia prático
 
-Imagine a cena: você está sentado no sofá, o dia foi longo e o seu companheiro de quatro patas deita a cabeça no seu colo pedindo carinho. Tudo é paz, até que você repara no comprimento das garras tocando o piso e resolve pegar o alicate. Em uma fração de segundo, aquele animal tranquilo se transforma: puxa a pata como se tivesse levado um choque, arregala os olhos e, se bobear, vai parar embaixo da cama. 
+Imagine a cena: você está sentado no sofá, o dia foi longo e o seu companheiro de quatro patas deita a cabeça no seu colo pedindo carinho. Tudo é paz, até que você repara no comprimento das garras tocando o piso e resolve pegar o [alicate](https://s.shopee.com.br/7VHNtt3EP8). Em uma fração de segundo, aquele animal tranquilo se transforma: puxa a pata como se tivesse levado um choque, arregala os olhos e, se bobear, vai parar embaixo da cama. 
 
 Se isso soa familiar, saiba que você não está sozinho. A maioria dos cães não nasce odiando o corte de unhas; eles apenas associam o objeto, o barulho do corte ou a contenção física a momentos de susto e desconforto. A boa notícia é que dá para desmanchar esse medo. Com paciência, petiscos saborosos e um roteiro simples, é perfeitamente possível transformar esse drama em um momento rotineiro e tranquilo.
+
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
 
 ## Por que as patas são uma zona tão sensível?
 

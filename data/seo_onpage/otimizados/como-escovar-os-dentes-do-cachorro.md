@@ -61,6 +61,8 @@ Se você acabou de adotar um peludo, logo vai perceber que o hálito dele não c
 
 A boca dos cães acumula restos de alimentos e placa bacteriana com muita facilidade. Quando essa placa não é removida, ela endurece e vira tártaro, o que pode causar dor, perda de dentes e até problemas renais ou cardíacos graves. Por isso, antes de qualquer rotina nova, é fundamental consultar o médico-veterinário para avaliar se a gengiva já apresenta inflamações. Vamos conversar sobre como transformar essa limpeza em um momento tranquilo para vocês.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Por que a escovação dentária é indispensável para o cão
 
 Muitos tutores pensam que apenas dar ração seca ou ossinhos resolve a higiene bucal. No entanto, a mastigação por si só não alcança todos os cantinhos dos dentes, especialmente nos molares. A anatomia da boca canina favorece o acúmulo de sujeira exatamente na linha da gengiva, onde as bactérias adoram se instalar.
@@ -73,7 +75,7 @@ Exemplo prático: Se o seu cão come petiscos úmidos ou [ração para filhote d
 
 A regra de ouro número um é nunca usar pasta de dente humana. Os cremes dentais para pessoas contêm flúor e substâncias espumantes que são altamente tóxicas se engolidas pelos animais, além do xilitol, um adoçante mortal para eles.
 
-Você precisará de uma escova de cerdas macias (existem modelos próprios para cães ou dedeiras de silicone) e uma pasta de dente veterinária com sabor de carne ou frango. Os animais adoram o gosto, o que facilita muito o treinamento.
+Você precisará de uma escova de cerdas macias (existem modelos próprios para cães ou [dedeiras](https://s.shopee.com.br/4qGcj2KpnD) de silicone) e uma pasta de dente veterinária com sabor de carne ou frango. Os animais adoram o gosto, o que facilita muito o treinamento.
 
 Erros comuns: Comprar escovas duras demais que machucam a gengiva sensível do animal ou usar pastas humanas refrescantes que causam vômito imediato.
 

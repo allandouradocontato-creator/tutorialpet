@@ -59,6 +59,8 @@ Quem divide a casa com um felino sabe que a energia acumulada precisa de um dest
 
 Neste artigo, vamos explicar o porquê de os gatos precisarem arranhar, os erros mais comuns na hora da compra e como acertar no modelo para manter a harmonia do lar.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Por que os gatos precisam arranhar?
 
 Arranhar não é uma birra ou tentativa de estragar a sua decoração. Para os felinos, esse comportamento é uma necessidade fisiológica e instintiva fundamental. 
@@ -73,7 +75,7 @@ Exemplo prático: se você notar o seu felino atacando a lateral da mobília da 
 
 ## Altura e estabilidade: os pilares da escolha
 
-Para que o gato use o arranhador com gosto, o objeto precisa oferecer resistência e tamanho adequado. A física do movimento exige firmeza total.
+Para que o gato use o [arranhador](https://s.shopee.com.br/4fxCWJjJ7e) com gosto, o objeto precisa oferecer resistência e tamanho adequado. A física do movimento exige firmeza total.
 
 Os gatos adoram se espreguiçar totalmente na vertical. Por isso, um arranhador baixo costuma ser ignorado por animais adultos, já que não permite que eles estiquem a coluna por completo.
 

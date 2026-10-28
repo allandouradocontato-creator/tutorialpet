@@ -65,6 +65,8 @@ Deixar o cão sozinho em casa gera preocupação em muitos tutores de primeira v
 
 Neste artigo, vamos explicar como escolher os itens certos para entreter seu peludo enquanto você estiver fora, transformando momentos de solidão em oportunidades de diversão segura. Lembre-se de que a segurança vem sempre em primeiro lugar, e vale a pena conversar com um médico-veterinário caso seu pet apresente sinais de estresse extremo.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## O poder dos brinquedos recheáveis e interativos
 
 Para entender o porquê de um brinquedo funcionar, precisamos olhar para a instintiva busca do cão por forrageamento. Na natureza, os ancestrais dos nossos cães gastavam horas farejando, caçando e roendo para conseguir alimento. Quando colocamos ração ou petiscos dentro de um objeto oco, recriamos essa dinâmica ancestral de caça.
@@ -118,7 +120,7 @@ Erros comuns: Comprar ossos de couro industrializado de baixa qualidade ou permi
 
 Sinais de alerta: Vômitos, apatia, falta de apetite ou tentativa constante de vomitar após o retorno para casa podem indicar que o animal engoliu algum fragmento. Se isso acontecer, procure um médico-veterinário imediatamente.
 
-Exemplo prático: O tutor substitui os velhos sapatos de couro por um mordedor de nylon texturizado e resistente. O cão passa parte da tarde roendo o objeto sem risco de estragar móveis ou engolir pedaços perigosos.
+Exemplo prático: O tutor substitui os velhos sapatos de couro por um [mordedor](https://s.shopee.com.br/3VlF7zIvWX) de nylon texturizado e resistente. O cão passa parte da tarde roendo o objeto sem risco de estragar móveis ou engolir pedaços perigosos.
 
 ## Rotação de brinquedos para manter o interesse
 

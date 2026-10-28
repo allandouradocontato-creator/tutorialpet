@@ -57,6 +57,8 @@ imagem_selecionada_em: '2026-10-14T18:45:11+00:00'
 
 Manter o banheiro felino impecável vai muito além de agradar o olfato da família; é uma questão crucial de saúde e bem-estar para o animal. Gatos são extremamente higiênicos por natureza e possuem um olfato superpoderoso, o que significa que uma caixa suja pode fazê-los recusar o espaço e procurar o sofá ou o tapete para suas necessidades. 
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## A rotina diária: o que remover e com que frequência
 
 Para garantir que o gato use o banheiro sem estresse, a limpeza diária é inegociável. Os dejetos sólidos e os torrões de xixi devem ser retirados em média duas vezes por dia, usando uma pá adequada para o tipo de granulado escolhido. 
@@ -84,7 +86,7 @@ Exemplo prático: Escolha um dia fixo no mês para esvaziar tudo. Enquanto a cai
 
 ## O tipo de areia e o impacto na limpeza
 
-O mercado oferece diversas opções de substratos, como areia comum, sílica, bentonita (argila torrão) e opções ecológicas de madeira ou milho. A escolha do material muda completamente a frequência e a facilidade de como limpar caixa de areia do gato.
+O mercado oferece diversas opções de substratos, como areia comum, sílica, bentonita (argila torrão) e opções ecológicas de madeira ou milho. A escolha do material muda completamente a frequência e a facilidade de como limpar [caixa de areia](https://s.shopee.com.br/80DeUUVCPi) do gato.
 
 A lógica aqui é a formação de torrões firmes. Substratos que absorvem o líquido e formam blocos sólidos facilitam a remoção porque impedem que o xixi se espalhe pelo fundo da bandeja. Já os materiais que apenas desmancham exigem a troca total da areia muito mais cedo, gerando desperdício.
 

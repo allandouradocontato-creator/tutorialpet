@@ -66,6 +66,8 @@ imagens_corpo:
 
 Conforme o cão envelhece, o corpo perde flexibilidade, a visão e a audição podem falhar, e a rotina diária exige pequenos ajustes de segurança e conforto em cada cômodo da casa.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Pisos, tapetes e a segurança contra escorregões
 
 Com o desgaste natural das articulações e a perda de massa muscular, cães idosos perdem tração ao caminhar em pisos lisos como porcelanato, cerâmica ou madeira encerrada. O medo de escorregar gera tensão muscular crônica e pode provocar quedas perigosas, resultando em luxações ou fraturas. 
@@ -78,7 +80,7 @@ Exemplo prático: Crie "trilhas" de tapetes emborrachados ligando a caminha até
 
 Cães idosos com displasia, artrose ou rigidez matinal sentem dor intensa ao pular de sofstas, camas ou ao tentar subir em veículos. Permitir que eles continuem saltando acelera o desgaste das articulações e agrava quadros inflamatórios crônicos. 
 
-Substitua os saltos por rampas de inclinação suave revestidas com carpete ou borracha antiderrapante. Se o cão adora dormir com você, uma pequena escadinha firme para pets ajuda muito, mas a rampa costuma ser mais gentil para a coluna e para as patas traseiras cansadas.
+Substitua os saltos por rampas de inclinação suave revestidas com carpete ou borracha antiderrapante. Se o cão adora dormir com você, uma pequena [escadinha](https://s.shopee.com.br/7puEIKsfIn) firme para pets ajuda muito, mas a rampa costuma ser mais gentil para a coluna e para as patas traseiras cansadas.
 
 Exemplo prático: Posicione uma rampa firme encostada no sofá da sala, treinando o cão com petiscos para usá-la em vez de tentar o salto direto.
 

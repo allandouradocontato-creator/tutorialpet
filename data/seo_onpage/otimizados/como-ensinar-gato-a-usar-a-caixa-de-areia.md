@@ -61,6 +61,8 @@ Ainda assim, o sucesso desse aprendizado depende muito de como você prepara o a
 
 Neste guia, vamos mostrar o passo a passo para acertar na escolha dos acessórios, montar o banheiro ideal, evitar erros comuns e garantir que o seu companheiro use a caixa sempre. Vamos lá?
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Escolhendo a caixa de areia ideal para o seu gato
 
 O primeiro passo para o sucesso é entender que o gato é um animal exigido com o próprio espaço. Na natureza, eles evitam locais apertados onde possam ficar presos caso um predador se aproxime. Por isso, bandejas muito pequenas ou caixas com teto fechado e porta de vai-vem costumam gerar rejeição em muitos felinos, embora alguns aceitem bem com o tempo.
@@ -75,7 +77,7 @@ Outro ponto fundamental é a quantidade de banheiros na casa. A recomendação g
 
 O local onde o banheiro do gato fica instalado interfere diretamente no uso. Os felinos são extremamente higiênicos e detestam fazer suas necessidades perto de onde comem ou bebem. Além disso, eles precisam de tranquilidade. Colocar a caixa na lavanderia logo ao lado da máquina de lavar barulhenta é um erro clássico que costuma afastar o animal.
 
-Escolha um lugar calmo, de fácil acesso, mas que ofereça certa privacidade. Cantos de corredores pouco movimentados ou banheiros de visitas (desde que a porta fique sempre aberta) são ótimas opções. Se a sua casa tem mais de um andar, é fundamental ter pelo menos uma caixa de areia em cada pavimento para que o gato não precise cruzar a casa inteira com urgência.
+Escolha um lugar calmo, de fácil acesso, mas que ofereça certa privacidade. Cantos de corredores pouco movimentados ou banheiros de visitas (desde que a porta fique sempre aberta) são ótimas opções. Se a sua casa tem mais de um andar, é fundamental ter pelo menos uma [caixa de areia](https://s.shopee.com.br/80DeUUVCPi) em cada pavimento para que o gato não precise cruzar a casa inteira com urgência.
 
 Evite também colocar o comedouro e o bebedouro no mesmo cômodo da caixa de areia. Na cabeça do felino, comer perto do banheiro vai contra o instinto de preservação de higiene. Garanta que a comida fique bem distante da área de dejeção.
 

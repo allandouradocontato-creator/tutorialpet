@@ -59,6 +59,8 @@ A chegada de um novo pet traz muitas dúvidas práticas para quem comprou os ite
 
 Muitos tutores de primeira viagem compram o primeiro modelo que encontram na loja sem saber como a anatomia do animal reage à pressão. Entender a diferença entre os equipamentos evita desconforto e torna o momento do passeio muito mais agradável e seguro.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Como a anatomia canina influencia a escolha do acessório
 
 A escolha entre os modelos de condução não deve se basear apenas na estética ou na facilidade de colocar o item no animal. A tração exercida pela guia afeta diretamente a saúde física e o comportamento do cão durante as caminhadas diárias.
@@ -109,7 +111,7 @@ Essa mecânica protege as vias aéreas do animal e reduz drasticamente o risco d
 4. Confirme com o médico-veterinário do pet se o encaixe está correto e não restringe os movimentos dos ombros.
 
 ### Exemplo prático:
-Durante um passeio no parque, o cão avança rapidamente para cheirar um arbusto. Com o modelo de tórax, a força do movimento é absorvida pelo peitoral, mantendo a respiração do animal totalmente livre e sem tosses.
+Durante um passeio no parque, o cão avança rapidamente para cheirar um arbusto. Com o modelo de tórax, a força do movimento é absorvida pelo [peitoral](https://s.shopee.com.br/4B0vvWZ6wJ), mantendo a respiração do animal totalmente livre e sem tosses.
 
 ## Sinais de alerta e quando procurar ajuda profissional
 

@@ -392,6 +392,10 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                       f'<figcaption style="text-align:center;font-size:.9rem">Veja em vídeo (30 segundos)</figcaption></figure>')
 
     body_html = md_to_html(_variar_fecho(body, slug))
+    # Links de afiliado (Shopee): sempre rel="sponsored nofollow noopener" e nova aba, mesmo que o markdown traga o link simples.
+    import re as _raf
+    body_html = _raf.sub(r'<a href="(https://s\.shopee\.com\.br/[^"]+)">',
+                         r'<a href="\1" rel="sponsored nofollow noopener" target="_blank">', body_html)
     # Imagens no meio do artigo (Allan, 22/10/2026): front-matter imagens_corpo: [{arquivo, alt, fotografo, fonte_url}]
     _ic = [x for x in (fm.get("imagens_corpo") or []) if isinstance(x, dict) and x.get("arquivo")]
     if _ic:

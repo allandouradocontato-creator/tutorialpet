@@ -68,6 +68,8 @@ A resposta direta e sem rodeios: **o ideal absoluto é escovar uma vez ao dia**.
 
 ---
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## A frequência ideal para a escovação canina
 
 A placa bacteriana começa a se mineralizar e formar o tártaro (cálculo dentário) em cerca de 24 a 48 horas. Por isso, a periodicidade faz toda a diferença nos resultados práticos:
@@ -113,7 +115,7 @@ Não tente fazer uma limpeza completa de primeira se o cachorro não estiver aco
 
 ### 1. Reúna os itens corretos
 * **Pasta de dente veterinária:** Nunca use pasta humana (o flúor e o xilitol são tóxicos para cães). Pastas para pets têm sabor palatável (frango, carne, menta leve) e podem ser engolidas.
-* **Escova adequada:** Escovas caninas com cerdas macias, escovas infantis extra macias ou dedeiras de silicone para cães menores.
+* **Escova adequada:** Escovas caninas com cerdas macias, escovas infantis extra macias ou [dedeiras](https://s.shopee.com.br/4qGcj2KpnD) de silicone para cães menores.
 
 ### 2. O roteiro de adaptação (3 a 5 dias)
 1. **Dia 1 — O gosto:** Coloque um pouco de pasta própria no seu dedo e deixe o pet lamber. Não tente encostar nos dentes ainda.

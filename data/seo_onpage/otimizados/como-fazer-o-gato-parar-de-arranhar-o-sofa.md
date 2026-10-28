@@ -61,6 +61,8 @@ Uma casa compartilhada com um felino é um espaço onde o afeto se manifesta nos
 
 A boa notícia é que você não precisa escolher entre um sofá preservado e a alegria do seu companheiro de quatro patas. Com um plano de ação simples, respeito à natureza felina e paciência, é perfeitamente possível redirecionar esse comportamento a partir de hoje.
 
+**Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
+
 ## Compreender para acolher: o que o gato está dizendo ao arranhar?
 
 Antes de mudar a rota das patinhas, vale entender a poesia silenciosa desse hábito. As almofadinhas das patas guardam glândulas que liberam feromônios, marcas invisíveis de calma e território. Ao esticar o corpo contra o tecido, o gato faz duas coisas: renova as bainhas das unhas e espalha o próprio cheiro exatamente onde o seu cheiro é mais forte. 
@@ -71,7 +73,7 @@ O sofá é o coração da sala, o ponto de encontro da família. Quando o felino
 
 ## Passo 1: Posicione a alternativa ideal no local estratégico
 
-O erro mais comum ao tentar corrigir esse hábito é colocar uma alternativa longe dos olhos da casa. Se o sofá é o palco principal, o novo objeto precisa estar sob os mesmos holofotes. Um bom arranhador precisa ser firme, alto o suficiente para que o corpo do animal se estique por inteiro e não balance na hora do uso. Se ele tombar na primeira tentativa, o felino dificilmente voltará a confiar nele.
+O erro mais comum ao tentar corrigir esse hábito é colocar uma alternativa longe dos olhos da casa. Se o sofá é o palco principal, o novo objeto precisa estar sob os mesmos holofotes. Um bom [arranhador](https://s.shopee.com.br/4fxCWJjJ7e) precisa ser firme, alto o suficiente para que o corpo do animal se estique por inteiro e não balance na hora do uso. Se ele tombar na primeira tentativa, o felino dificilmente voltará a confiar nele.
 
 Ao avaliar o [arranhador para gato, qual escolher](/arranhador-para-gato-qual-escolher), prefira materiais que ofereçam boa resistência, como corda de sisal grossa ou papelão prensado de alta densidade. O segredo de ouro para hoje: coloque essa nova peça colada na quina do sofá que ele costuma danificar. Não a esconda no corredor ou na lavanderia. O gato precisa ver a alternativa exatamente no trajeto que ele já costuma fazer.
 
