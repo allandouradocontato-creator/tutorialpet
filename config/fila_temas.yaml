@@ -309,7 +309,8 @@ temas:
   status: pendente
 - termo: como acostumar cachorro com a chegada de um bebe
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-28'
 - termo: como hidratar a racao seca de gato idoso
   pilar: alimentacao
   status: rascunho_pronto
@@ -905,5 +906,11 @@ temas:
   pilar: alimentacao
   status: pendente
 - termo: o que verificar ao comprar petiscos mastigáveis naturais para filhotes
+  pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como congelar petiscos naturais caseiros para dias quentes
+  pilar: alimentacao
+  status: pendente
+- termo: o que colocar no enxoval do primeiro gatinho adoptado
   pilar: primeiros_passos_filhotes
   status: pendente
