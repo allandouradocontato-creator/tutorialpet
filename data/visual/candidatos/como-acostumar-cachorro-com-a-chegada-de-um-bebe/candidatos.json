@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35522277,
+    "url_download": "https://images.pexels.com/photos/35522277/pexels-photo-35522277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/curious-xoloitzcuintli-puppy-sniffing-outdoors-35522277/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 4617,
+    "altura": 3078,
+    "query": "dog alone sniffing baby clothes",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-acostumar-cachorro-com-a-chegada-de-um-bebe/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35285315,
+    "url_download": "https://images.pexels.com/photos/35285315/pexels-photo-35285315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-border-collie-in-a-garden-35285315/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog alone sniffing baby clothes",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-acostumar-cachorro-com-a-chegada-de-um-bebe/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34182718,
+    "url_download": "https://images.pexels.com/photos/34182718/pexels-photo-34182718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/curious-brown-dog-sniffing-ground-outdoors-34182718/",
+    "fotografo": "Meaw  Zara",
+    "fotografo_url": "https://www.pexels.com/@elizara",
+    "largura": 4928,
+    "altura": 3264,
+    "query": "dog alone sniffing baby clothes",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-acostumar-cachorro-com-a-chegada-de-um-bebe/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6782544,
+    "url_download": "https://images.pexels.com/photos/6782544/pexels-photo-6782544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/two-dogs-starting-a-friendship-6782544/",
+    "fotografo": ".M.Q Huang",
+    "fotografo_url": "https://www.pexels.com/@hrvvv1994",
+    "largura": 5892,
+    "altura": 3928,
+    "query": "dog alone sniffing baby clothes",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-acostumar-cachorro-com-a-chegada-de-um-bebe/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5662137,
+    "url_download": "https://images.pexels.com/photos/5662137/pexels-photo-5662137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/mongrel-smelling-autumn-leaves-in-park-5662137/",
+    "fotografo": "Mathias Reding",
+    "fotografo_url": "https://www.pexels.com/@matreding",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "dog alone sniffing baby clothes",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-acostumar-cachorro-com-a-chegada-de-um-bebe/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30667256,
+    "url_download": "https://images.pexels.com/photos/30667256/pexels-photo-30667256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-puppy-relaxing-on-a-staircase-30667256/",
+    "fotografo": "Pankaj Saxena",
+    "fotografo_url": "https://www.pexels.com/@pankaj-saxena-2149150053",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog looking away studio background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-acostumar-cachorro-com-a-chegada-de-um-bebe/5.jpg"
+  }
+]

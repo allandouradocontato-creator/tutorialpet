@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como acostumar cachorro com a chegada de um bebe: guia prático",
+    "description": "Como acostumar cachorro com a chegada de um bebe: guia prático. Sabe aquela sensação de que a casa vai virar de cabeça para baixo com a chegada de um...",
+    "datePublished": "2026-10-28",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-acostumar-cachorro-com-a-chegada-de-um-bebe",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-acostumar-cachorro-com-a-chegada-de-um-bebe"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-acostumar-cachorro-com-a-chegada-de-um-bebe.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro pode dormir no mesmo quarto onde o bebê dorme?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nunca sem supervisão. Na fase de recém-nascido, o mais seguro é manter o cachorro fora do quarto à noite, com a porta fechada ou uma portinha de proteção, e conversar com o seu médico-veterinário e o pediatra sobre a organização que faz sentido para a sua casa.  - **E se o cachorro rosnar para o bebê?**   Não puna o cachorro por rosnar, porque o rosnado é o aviso dele de que está desconfortável. Afaste o bebê imediatamente, separe os dois e procure um profissional de comportamento animal ou o médico-veterinário para avaliar o caso com urgência.  - **Preciso de um adestrador para preparar o cachorro?**   Nem sempre. Treinos básicos diários, com consistência e paciência, ajudam bastante em muitos casos. Mas se o seu cachorro já mostrou medo, ciúme intenso ou agressividade, vale buscar a ajuda de um profissional antes de o bebê chegar.  - **Quanto tempo antes devo começar a preparação?**   Em geral, quanto antes, melhor. Muitas orientações sugerem começar a apresentar sons e cheiros por volta de quatro meses antes do parto e ajustar a rotina de um a dois meses antes."
+        }
+      }
+    ]
+  }
+}
