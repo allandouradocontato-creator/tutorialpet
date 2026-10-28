@@ -190,7 +190,16 @@ jobs:
           git config user.email "fabrica@tutorialpet.com.br"
           git add -A
           git commit -m "pacote diario $(date -u +%F)" || echo "nada a commitar"
-          git push origin media
+          # 28/10/2026: push rejeitado (non-fast-forward) porque outro fluxo escreveu na media durante a rodada e o
+          # passo 'Guardar fila e rascunhos' era pulado (rascunho perdido). Agora refaz o rebase e tenta 5x.
+          ok=0
+          for i in 1 2 3 4 5; do
+            git fetch origin media
+            git rebase origin/media || { git rebase --abort || true; git merge -X ours --no-edit origin/media || true; }
+            if git push origin media; then ok=1; break; fi
+            sleep $((i*4))
+          done
+          [ "$ok" = 1 ] || { echo "::error::push da media falhou 5x"; exit 1; }
 
       - name: Guardar fila e rascunhos (main)
         run: |
