@@ -292,10 +292,11 @@ temas:
   data: '2026-10-27'
 - termo: como escolher a melhor fonte de agua eletrica para gatos
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
 - termo: como manter a pelagem de caes senior livre de nos sem estresse
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-28'
 - termo: como escolher comedouro lento ideal para caes de focinho curto
   pilar: produtos_compras
   status: pendente
@@ -891,4 +892,10 @@ temas:
   status: pendente
 - termo: o que fazer na primeira semana com um filhote de gato
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como montar um cardápio de revezamento de ração úmida para gatos
+  pilar: alimentacao
+  status: pendente
+- termo: como lidar com cães de diferentes idades na hora da refeição
+  pilar: comportamento
   status: pendente
