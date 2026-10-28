@@ -299,7 +299,8 @@ temas:
   data: '2026-10-28'
 - termo: como escolher comedouro lento ideal para caes de focinho curto
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-28'
 - termo: cuidados diarios com o pelo de caes que nadam muito na piscina
   pilar: cuidados_diarios
   status: pendente
@@ -898,4 +899,10 @@ temas:
   status: pendente
 - termo: como lidar com cães de diferentes idades na hora da refeição
   pilar: comportamento
+  status: pendente
+- termo: como montar um rodízio de petiscos naturais para cães e gatos
+  pilar: alimentacao
+  status: pendente
+- termo: o que verificar ao comprar petiscos mastigáveis naturais para filhotes
+  pilar: primeiros_passos_filhotes
   status: pendente

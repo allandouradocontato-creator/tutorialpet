@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como escolher comedouro lento para cães de focinho curto",
+  "gancho_3s": "Seu cachorro de focinho curto engole a ração em segundos?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro de focinho curto engole a ração em segundos?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro engole a ração correndo?"
+    },
+    {
+      "narracao": "Cães braquicefálicos costumam comer muito rápido, o que causa engasgos e gases.",
+      "visual_busca_banco_livre": "pug eating fast close up",
+      "texto_na_tela": "Cachorro afobado para comer?"
+    },
+    {
+      "narracao": "Comedouros tradicionais fundos fazem o cachorro bater o nariz e se frustrar.",
+      "visual_busca_banco_livre": "french bulldog eating from bowl",
+      "texto_na_tela": "Prato fundo não funciona"
+    },
+    {
+      "narracao": "[short pause] O ideal são obstáculos baixos e largos que não machucam o focinho.",
+      "visual_busca_banco_livre": "pug looking at food bowl",
+      "texto_na_tela": "Obstáculos baixos"
+    },
+    {
+      "narracao": "Prefira silicone macio com base aderente para absorver o impacto e não escorregar.",
+      "visual_busca_banco_livre": "dog silicone slow feeder close up",
+      "texto_na_tela": "Silicone macio"
+    },
+    {
+      "narracao": "Umedecer levemente a ração ajuda na adaptação sem traumas.",
+      "visual_busca_banco_livre": "dog licking bowl close up",
+      "texto_na_tela": "Ajude na adaptação"
+    },
+    {
+      "narracao": "[thoughtful] Se o cachorro continuar engasgando ou vomitando, procure um médico veterinário.",
+      "visual_busca_banco_livre": "dog resting head on floor",
+      "texto_na_tela": "Procure um veterinário"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. [smiling] Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#caes",
+    "#pug",
+    "#buldoguete",
+    "#cachorrosfofos",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cão de focinho curto engole a ração em segundos?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto\n\n#caes #pug #buldoguete #cachorrosfofos #dicaspet",
+  "slug": "como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 4
+}

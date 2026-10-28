@@ -1,4 +1,4 @@
-# Guardião de Marca e Variedade — qual-a-melhor-racao-para-filhote-de-cachorro
+# Guardião de Marca e Variedade — quanto-tempo-um-cachorro-pode-ficar-sozinho
 Parecer: **REVISAR**
 
 - ATENÇÃO: vídeo sem registro de clipes (clips_usados.json): não dá para garantir variedade
