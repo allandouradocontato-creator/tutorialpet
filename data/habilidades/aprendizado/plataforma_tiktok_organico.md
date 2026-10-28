@@ -22,3 +22,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-26 | J5 (DM sem comentário→DM): CTA 'mande SOZINHO no direct' só ao vivo com ok do Allan | TikTok 21 seguidores, DM 0 (n=0) | mantém
 2026-10-27 | regras TikTok (música da Biblioteca Comercial, cortes ≤25 s, 1º item da reposição é gato) | 3 ideias, n=0 leituras; fila atual 7/7 cachorro 42-53 s | mantém
 2026-10-28 | skill lida por título; hipótese: gato entra na fila TikTok em corte ≤10 s (fila 100% cachorro, tempo 2,2 s) | G4/C7 propostos; n=0 | mantém
+2026-10-28 | portão frame 0 + estoque 12:15 | 2 pacotes ok barrados (14 e 12 palavras), 0 agendáveis; 2 posts Buffer TikTok (29/10 C, 30/10 A) com erro de URL (video ausente na media); fábrica redisparada | n=2 | mantém; fábrica precisa gerar frame 0 ≤6 palavras e manter video.mp4 na media
