@@ -28,3 +28,9 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 - Interesses (Cães, Adestramento, Petz/Cobasi/Petlove) NÃO aplicados: o Windsor não busca IDs de interesse e a API exige ID. O conjunto roda com Advantage+ aberto (São Paulo, 25-55 sugerido); o criativo faz a segmentação (playbook Andromeda). Se o Allan quiser sinais de interesse, adicionar no Gerenciador.
 - BRAZIL_REGULATION / identidade verificada: a API NÃO pediu nada ao criar o conjunto (sem erro "Advertiser is missing").
 - Nada ativado. Pendências só do Allan: marcar "conteúdo gerado por IA" nos anúncios; conferir pagamento/saldo; ativar.
+
+## Landing publicada em 28/10/2026 (commit 228ccf0, repo sozinho-em-casa-app)
+- Aplicados os 8 itens do plano; VSL v12 reencodada (720x1280, CRF 26, 8,5 MB) em landing/vsl-v12.mp4; 3 telas do app em landing/fotos/app-tela-1..3.png; Shopee removida; rodapé com razão social + CNPJ 65.211.970/0001-81 + e-mail.
+- Fonte da frase sobre ansiedade de separação: PubMed 18672155 (só o resumo foi lido; afirma "especialmente prevalentes", sem número). A PMC8868415 bloqueou leitura (reCAPTCHA) e não foi usada.
+- Tela do plano do app capturada rolada para não exibir o cartão "Sinais de ansiedade de separação" (evita afirmar algo sobre o cachorro).
+- ATENÇÃO (decisão do Fable mantida, mas conferir): o texto do anúncio e da landing diz que o app ajusta ao porte, "à raça" e ao temperamento, porém o onboarding do app pergunta porte, fase, energia e temperamento (não raça).
