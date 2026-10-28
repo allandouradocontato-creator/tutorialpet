@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Adotar ou Comprar um Cachorro: O Que Ninguém Te Conta",
+  "gancho_3s": "Vai adotar ou comprar um cachorro? Calma, veja isto antes de decidir!",
+  "cenas": [
+    {
+      "narracao": "Escolher entre adotar ou comprar exige avaliar muito além da euforia. O foco principal deve ser sempre o bem-estar animal.",
+      "visual_busca_banco_livre": "sad shelter dog looking through bars",
+      "texto_na_tela": "Adoção vs Compra"
+    },
+    {
+      "narracao": "Adotar é transformador. Cães de abrigo podem trazer histórico de medo, exigindo paciência e perguntas sobre o comportamento.",
+      "visual_busca_banco_livre": "dog waiting for adoption in kennel",
+      "texto_na_tela": "Realidade da Adoção"
+    },
+    {
+      "narracao": "Se optar por comprar, cuidado extremo com fábricas de filhotes. Exija laudos de saúde dos pais e visite o canil.",
+      "visual_busca_banco_livre": "cute puppy looking curious close up",
+      "texto_na_tela": "Compra Responsável"
+    },
+    {
+      "narracao": "Não olhe só o preço inicial. Custos invisíveis incluem alimentação, vacinas, remédios e manutenção mensal do pet.",
+      "visual_busca_banco_livre": "dog eating food from bowl close up",
+      "texto_na_tela": "Custos Invisíveis"
+    },
+    {
+      "narracao": "Se o pet apresentar apatia ou vômito, procure imediatamente um médico veterinário. Nunca medique por conta própria.",
+      "visual_busca_banco_livre": "sick puppy resting on floor",
+      "texto_na_tela": "Alerta de Saúde"
+    }
+  ],
+  "chamada_final": "Avalie sua rotina e calcule os custos antes de decidir.",
+  "hashtags": [
+    "#adocaoresponsavel",
+    "#compraconsciente",
+    "#filhotes",
+    "#cuidadospet",
+    "#bemestaranimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai adotar ou comprar um cachorro? Calma, veja isto antes de decidir!\n\n📖 Artigo completo: https://tutorialpet.com.br/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir\n\n#adocaoresponsavel #compraconsciente #filhotes #cuidadospet #bemestaranimal",
+  "slug": "adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir"
+}
