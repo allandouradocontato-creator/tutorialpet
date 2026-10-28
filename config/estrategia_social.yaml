@@ -340,3 +340,27 @@ rodada_2026_10_28:   # data/social/estrategia_social.md (17a edicao); plano: dat
     tiktok: {views_mediana: 300, tempo_medio_s: 3, shares_a_cada_4_posts: 1, comentarios_terceiros_por_semana: 1, seguidores_dia: 1}
   criterio_trocar: "Gatilho de regra_mudanca_rapida.md: 2+ posts do mesmo formato em 3 dias abaixo do limite (FB <6 s, IG skip >70%, TikTok <4 s ou <1 share/4 posts). Horario so muda com >=5 posts por slot e ganho >=30% sustentado; gancho/CTA: troca 1 fator por vez, leitura em 24 h, nunca decidir com post <24 h ou <5 posts por variacao."
   estado_isca_2026_10_28: "landing e /7-erros.pdf HTTP 200 (curl 28/10); landing mostra R$ 27 e R$ 97; ManyChat/Brevo/Kiwify ao vivo: sem dado (sem PC). GUIA suspenso e MIMO nao ligado = decisao do Allan 21/10 e pedido aberto de 25/10 (nao repetir como criacao)."
+
+moldes_remix_2026_10_28:   # data/remix/estrategia_remix_2026-10-28.md secao 5 (decisao do Allan 28/10: remix de virais com comentario nosso). Fila da fabrica: so video, nada estatico.
+  regra_geral: "molde entra na producao normal (rodizio de ganchos/CTAs, Guardiao de marca, portao frame 0 <=6 palavras); rotulo de conteudo de IA ligado; Duda so do avatar oficial; sem Fortaleza; legenda nunca com 'cao/caes' (usar cachorro/pet)"
+  medicao: "24 h por post em data/remix/resultados.csv: alcance, views, seguidores ganhos, cliques no link; comparar com a MEDIA dos nossos posts da semana. >=3x a media = molde ganha prioridade na fabrica no dia seguinte; <1x = nao repetir o formato"
+  M1_pergunta_de_comportamento_explicada:
+    origem: "remix 2 (Guavet Pet Hospital Veterinario, 25,1 mil reacoes): pergunta real de tutor -> explicacao curta e confiante -> 'e o seu faz isso?'"
+    duracao_s: "10-15"
+    formato: "legenda-pergunta real (comentarios dos virais do nicho + data/pergunta_veterinaria/fila_perguntas.md) no frame 0 com ate 6 palavras; Duda explica 1 comportamento em 2-3 frases; fecha com pergunta binaria ou aberta (nunca 'curta/comente/compartilhe')"
+    quando_saude: "vira video da Natasha (revisao veterinaria), sem alegacao medica categorica; perfil dela cita Fortaleza so no perfil dela, nunca em collab nem no @tutorialpetbr (regra 33)"
+    redes: [facebook, instagram, tiktok]
+    status: ABERTO
+  M2_pet_de_ia_fazendo_coisa_de_gente:
+    origem: "remix 3 (The Meow Moves, conteudo de IA, 32,9 mil reacoes e 13,3 mil compartilhamentos); molde ja decidido em 16/10, agora com prova de que rende"
+    duracao_s: "6-12"
+    formato: "legenda curta tipo 'POV:'; pet de IA em situacao humana (cuida, cobra, negocia); rotulo de IA obrigatorio; humor sem animal triste/doente/abrigo"
+    redes: [facebook, instagram]
+    status: ABERTO
+  M3_cachorro_dando_aula:
+    origem: "remix 4 (Caramela e Boris Fiapo, 11,3 mil reacoes, 38,9 mil compartilhamentos); ponte para o personagem Fiapo (decisao do Allan 25/10)"
+    duracao_s: "15-20"
+    formato: "aula sobre 1 dica real com humor na postura de professor; cachorro-professor; fecha com 'compartilha com quem precisa dessa aula'"
+    redes: [facebook, instagram, tiktok]
+    status: ABERTO
+  molde_5_fofura_com_dica: "ja existe como CTA 'siga' na fabrica; reforco: cena fofa real + 1 dica propria, nunca so fofura"
