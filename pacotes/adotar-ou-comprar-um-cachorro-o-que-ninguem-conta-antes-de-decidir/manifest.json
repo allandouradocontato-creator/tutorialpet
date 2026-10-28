@@ -1,0 +1,31 @@
+{
+  "slug": "adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-28T20:11:23+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "1 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025)",
+      "gancho repetido de um dos últimos 5 vídeos (abertura_lista_ninguem_conta)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 5/5 quadros conferem [cf]"
+    ],
+    "em": "2026-10-28T20:13:27+00:00"
+  }
+}
