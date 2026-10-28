@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher comedouro lento ideal para caes de focinho curto: guia prático",
+    "description": "Como escolher comedouro lento ideal para caes de focinho curto: guia prático. Se você já teve a alegria (e o leve desespero) de conviver com um cão de...",
+    "datePublished": "2026-10-28",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O comedouro lento resolve totalmente os gases do meu cachorro de focinho curto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ele pode ajudar o cão a comer mais devagar, e comer devagar em geral é melhor do que engolir tudo de uma vez. Mas os gases têm várias causas possíveis, como a dieta e o funcionamento do aparelho digestivo, e o formato do focinho também pode influenciar a forma de respirar e comer. O prato é uma ferramenta útil, não uma solução garantida; se os gases forem frequentes, converse com o veterinário.  - **Posso usar comedouro lento para ração úmida e sachê?**   Sim, desde que o modelo seja de silicone ou plástico com relevos fáceis de limpar. Alguns tutores também usam brinquedos e comedouros para espalhar ou congelar a comida úmida, o que prolonga a refeição; observe sempre se o seu cão consegue lamber sem esforço nem engasgos.  - **Como limpar cantinhos difíceis do comedouro lento?**   Use uma escova de dentes velha ou uma escova de cerdas macias própria para mamadeiras e louças. Deixar de molho em água morna com detergente neutro por alguns minutos costuma ajudar a soltar restos de comida ressecada; enxágue bem antes de servir a próxima refeição.  - **Quando devo procurar o veterinário por causa da forma como o cão come?**   Se mesmo com o comedouro lento o cão continuar engasgando frequentemente, apresentando apatia, perda de peso inexplicável ou vômitos constantes após as refeições, consulte um médico-veterinário para descartar problemas respiratórios ou gastrointestinais mais graves. Procure atendimento sem demora se houver respiração muito difícil, gengivas azuladas ou arroxeadas, colapso, ou sinais como barriga inchada, inquietação e tentativas de vomitar sem sucesso, que podem indicar uma emergência."
+        }
+      }
+    ]
+  }
+}
