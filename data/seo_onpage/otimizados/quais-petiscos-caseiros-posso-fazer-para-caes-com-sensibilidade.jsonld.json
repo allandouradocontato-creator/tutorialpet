@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quais petiscos caseiros posso fazer para caes com sensibilidade: guia prático",
+    "description": "Quais petiscos caseiros posso fazer para caes com sensibilidade: guia prático. Quem convive com um cachorro de digestão melindrosa conhece o drama:...",
+    "datePublished": "2026-10-24",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Biscoito caseiro engorda menos que o industrializado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente. Ele é mais saudável e livre de químicos artificiais, mas calorias de aveia, batata ou carne ainda contam no total diário do animal e precisam ser dosadas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usar farinha de trigo comum nas receitas de petisco?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É preferível evitar para animais sensíveis. Prefira aveia moída, farinha de arroz ou purês vegetais integrais, já que o trigo refinado pode agravar processos inflamatórios em cães predispostos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo dura um petisco caseiro sem conservantes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Snacks secos e crocantes (como chips assados) duram em média 5 a 7 dias em potes bem fechados. Biscoitos mais úmidos ou carnes devem ficar na geladeira por no máximo 3 a 4 dias ou serem congelados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se o petisco causou alergia no meu cão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Observe sinais nas 24 a 48 horas seguintes: lamber excessivo das patas, coceira na orelha, fezes amolecidas, gases com odor forte ou vômito. Caso note algo diferente, suspenda o alimento e relate ao veterinário."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 1204222,
+    "url_download": "https://images.pexels.com/photos/1204222/pexels-photo-1204222.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/person-holding-biscuit-with-both-hands-1204222/",
+    "fotografo": "Cats Coming",
+    "fotografo_url": "https://www.pexels.com/@catscoming",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog eating homemade treat close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20210438,
+    "url_download": "https://images.pexels.com/photos/20210438/pexels-photo-20210438.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/head-of-australian-shepherd-20210438/",
+    "fotografo": "Karlee Heck",
+    "fotografo_url": "https://www.pexels.com/@karlee-heck-767022502",
+    "largura": 4201,
+    "altura": 3000,
+    "query": "dog eating homemade treat close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14476393,
+    "url_download": "https://images.pexels.com/photos/14476393/pexels-photo-14476393.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-walnuts-and-pralines-on-a-wooden-board-with-carrots-in-the-background-14476393/",
+    "fotografo": "Esra Erdem",
+    "fotografo_url": "https://www.pexels.com/@esrakorkmaz",
+    "largura": 5550,
+    "altura": 3700,
+    "query": "healthy dog treats on wooden board",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6594991,
+    "url_download": "https://images.pexels.com/photos/6594991/pexels-photo-6594991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cookies-with-strawberries-6594991/",
+    "fotografo": "ROMAN ODINTSOV",
+    "fotografo_url": "https://www.pexels.com/@roman-odintsov",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "healthy dog treats on wooden board",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4114118,
+    "url_download": "https://images.pexels.com/photos/4114118/pexels-photo-4114118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/peeled-banana-on-wooden-board-with-walnut-4114118/",
+    "fotografo": "alleksana",
+    "fotografo_url": "https://www.pexels.com/@alleksana",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "healthy dog treats on wooden board",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade/4.jpg"
+  }
+]
