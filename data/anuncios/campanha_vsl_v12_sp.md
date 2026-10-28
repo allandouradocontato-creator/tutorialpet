@@ -43,3 +43,9 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 - Anúncio B 120253387471630134: sem "raça" no texto; destino com utm_content=ad_b; PAUSED.
 - Landing (commit f2258ec): "à raça" → "à energia" (meta, hero, card do app; 0 ocorrências de "raça" na página publicada), eyebrow "Em 1 minuto", title "Sozinho em Casa — manual + app, R$ 27". Frase de ansiedade de separação MANTIDA com PubMed 18672155: o estudo finlandês (Salonen 2020, Sci Rep) não pôde ser lido (nature.com fora da lista; resumos em portais não trazem a % de separação; só 32% para ruídos), então não foi citado número.
 - Nada ativado. Só o Allan: marcar "conteúdo gerado por IA", conferir pagamento/saldo, (opcional) restringir o local a São Paulo, ativar.
+
+## Região SP corrigida e conferida em 28/10/2026 16:17 (Sonnet)
+- Conjunto 120253387467550134 agora: geo_locations.regions [{key 460, name "São Paulo (state)", country BR}] (lido de volta; substitui o fallback Brasil inteiro). Orçamento 3000, PAUSED, início 28/10 23:00Z.
+- Mapa de keys de região do Meta (BR) lido na API: Ceará 443, Piauí 453, Rio Grande do Sul 456, São Paulo (state) 460, Goiás 462. (Deduzido pela ordem alfabética; 471-476 e 3864 pertencem a outros países; 3864 = Massachusetts/US.)
+- Atenção na leitura: o Windsor guarda em cache a resposta de consultas IDÊNTICAS (mesmos campos/filtros/período); para ler o estado novo depois de um update, mudar a lista de campos ou o date_preset.
+- Pendência única: rótulo "conteúdo gerado por IA" nos 2 anúncios (só pelo Gerenciador, perfil Allan Dourado). Regra 26: não ativar antes. Depois: ativar campanha+conjunto+2 anúncios e religar o Auditor (trig_019JjHRfcjsdBSoWXLQiddsG, 09:34 Fortaleza).
