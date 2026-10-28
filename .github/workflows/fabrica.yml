@@ -11,8 +11,7 @@ on:
     - cron: "37 9 * * *"
     - cron: "37 13 * * *"
     - cron: "37 17 * * *"
-    - cron: "7 21 * * *"   # 18:07 Fortaleza: 4a producao SO em dia de ano par (ritmo 3/4 do teste AdSense, config/ritmo_blog.yaml)
-    - cron: "37 21 * * *"
+    # 28/10/2026: ritmo FIXO de 3 artigos/dia (06h, 10h e 14h em Fortaleza). Fim da 4a producao das 18h (antes: dias pares).
   workflow_dispatch: {}
   push:                 # disparo sem token: acrescentar uma linha em config/fabrica_disparo.txt e dar push na main
     branches: [main]
@@ -39,8 +38,6 @@ jobs:
         run: |
           # manual e push sempre rodam; agendado so roda se nao houve rodada com sucesso nas ultimas 2 h
           if [ "$EVENTO" != "schedule" ]; then echo "rodar=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-          # 4a rodada (21h UTC) so em dia de ano par; impar = 3 artigos (teste AdSense 22/10 a 18/11)
-          if [ "$(date -u +%H)" = "21" ] && [ $((10#$(date -u +%j) % 2)) -eq 1 ]; then echo "dia de 3 artigos: sem 4a rodada"; echo "rodar=false" >> "$GITHUB_OUTPUT"; exit 0; fi
           desde=$(date -u -d '2 hours ago' +%Y-%m-%dT%H:%M:%SZ)
           n=$(gh api "repos/${{ github.repository }}/actions/workflows/fabrica.yml/runs?status=success&created=>$desde&per_page=5" --jq '.workflow_runs | length' 2>/dev/null || echo 0)
           echo "rodadas com sucesso nas ultimas 2h: $n"

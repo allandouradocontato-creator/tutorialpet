@@ -54,6 +54,29 @@ def slugs_existentes() -> set[str]:
     return {p.stem for p in RASCUNHOS.glob("*.md")}
 
 
+def escolher_proximo(fila: dict) -> dict | None:
+    """RODIZIO DE PILARES (28/10/2026, ritmo fixo de 3 artigos/dia, config/ritmo_blog.yaml): nunca dois artigos
+    seguidos do mesmo pilar. A fila guarda so a DATA da producao, entao bloqueia os pilares ja usados na data mais
+    recente (cobre o 2o e o 3o artigo do dia e a virada de dia) e, entre os demais, escolhe o pendente cujo pilar
+    foi usado ha mais tempo (pilar nunca usado vem primeiro). Se nao houver alternativa, cai no primeiro pendente."""
+    pendentes = [t for t in fila["temas"] if t.get("status") == "pendente"]
+    if not pendentes:
+        return None
+    usados = [t for t in fila["temas"] if t.get("status") != "pendente" and t.get("data") and t.get("pilar")]
+    if not usados:
+        return pendentes[0]
+    ultima = max(str(t["data"]) for t in usados)
+    bloqueados = {t["pilar"] for t in usados if str(t["data"]) == ultima}
+    ultimo_uso: dict[str, str] = {}
+    for t in usados:
+        ultimo_uso[t["pilar"]] = max(ultimo_uso.get(t["pilar"], ""), str(t["data"]))
+    livres = [t for t in pendentes if t.get("pilar") not in bloqueados]
+    if not livres:
+        log(f"AVISO: so ha pendentes dos pilares {sorted(bloqueados)} (usados em {ultima}); repondo a fila deveria trazer outros pilares")
+        return pendentes[0]
+    return min(livres, key=lambda t: (ultimo_uso.get(t.get("pilar"), ""), pendentes.index(t)))
+
+
 def repor_fila(fila: dict) -> None:
     pendentes = [t for t in fila["temas"] if t.get("status") == "pendente"]
     if len(pendentes) >= 3:
@@ -65,6 +88,8 @@ def repor_fila(fila: dict) -> None:
         f"Nicho: {site['nicho']}. Público: tutores de primeira viagem no Brasil.\n"
         f"Pilares permitidos: {', '.join(pilares)}.\n"
         f"Já existem estes artigos (slugs), NÃO repita nem faça variações próximas: {', '.join(ja)}.\n"
+        "Distribua os temas entre TODOS os pilares permitidos (no minimo 1 por pilar; nunca mais de 2 do mesmo pilar), "
+        "porque a fabrica alterna os pilares e nao publica dois seguidos do mesmo. "
         "Sugira 8 novos temas com demanda real de busca no Google Brasil (perguntas que tutores iniciantes fazem). "
         "Responda SOMENTE JSON: [{\"termo\": str, \"pilar\": str}]"
     )
@@ -101,7 +126,7 @@ def main() -> int:
         if t.get("status") == "pendente" and slugify(t["termo"]) in existentes:
             t["status"] = "rascunho_pronto"
             log(f"tema já tinha rascunho, marcado como pronto: {t['termo']}")
-    proximo = next((t for t in fila["temas"] if t.get("status") == "pendente"), None)
+    proximo = escolher_proximo(fila)
     if not proximo:
         log("ERRO: fila vazia e sem como repor. Nada produzido.")
         salvar_fila(fila)

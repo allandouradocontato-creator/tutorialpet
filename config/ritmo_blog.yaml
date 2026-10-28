@@ -1,7 +1,8 @@
-# Ritmo do blog nas 4 semanas de teste para o AdSense (Allan, 22/10/2026): variar 3 e 4 artigos/dia para medir o que a audiência e o Google respondem.
+# Ritmo do blog (Allan, 22/10/2026; REVISADO em 28/10/2026 na correcao do AdSense):
+# FIXO em 3 artigos por dia, todo dia (antes variava 3 e 4 por paridade do dia do ano). Fonte unica da regra.
 inicio: 2026-10-22
-fim: 2026-11-18            # 4 semanas
-padrao: "dia de ano par = 4 artigos; dia de ano impar = 3 artigos (22/10 = dia 295 = 3; 23/10 = 4)"
+fim: 2026-11-18            # 4 semanas de teste; depois vira o molde dos proximos blogs
+artigos_por_dia: 3         # fixo; slots da fabrica.yml: 06h, 10h e 14h (Fortaleza). Sem 4a producao.
 minimo_sempre: 3           # nenhum dia abaixo disso; abaixo = ALERTA do Vigia
 formatos_rodizio:          # variar o formato, nao so o tema; cada dia usa 2+ formatos diferentes
   - guia_passo_a_passo
@@ -11,5 +12,7 @@ formatos_rodizio:          # variar o formato, nao so o tema; cada dia usa 2+ fo
   - mito_ou_verdade
   - pet_celebridade           # quinta, 1 por semana
   - resposta_de_pergunta_real # nasce de pergunta publica com fonte (Search Console, PAA); enquete so com audiencia (>=300 seguidores)
-pilares_rodizio: [cuidados_diarios, alimentacao, comportamento, saude, primeiros_passos_filhotes, produtos_compras]
-regra_pilar: "no maximo 2 artigos do mesmo pilar no dia; todos os pilares aparecem em 3 dias"
+# RODIZIO DE PILARES (28/10/2026): os 5 pilares do site, nesta ordem de volta. Nunca dois artigos seguidos do mesmo pilar
+# (nem entre o ultimo de um dia e o primeiro do dia seguinte). Quem aplica: rotina_diaria.py (escolha do proximo tema da fila).
+pilares_rodizio: [cuidados_diarios, alimentacao, comportamento, primeiros_passos_filhotes, produtos_compras]
+regra_pilar: "nunca 2 seguidos do mesmo pilar; escolhe o pendente do pilar usado ha mais tempo; os 3 do dia saem de 3 pilares diferentes"

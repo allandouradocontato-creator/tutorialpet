@@ -12,4 +12,4 @@ Série "Pet Celebridade · Celebrity Pets" (v2, 22/10/2026; Allan: "qual a perio
 4) Registre a edição em data/departamentos/log_conteudo_blog.md. Sem edição na semana = ALERTA no topo.
 
 
-APROVAÇÃO ADSENSE EM 4 SEMANAS (Allan, 22/10/2026): leia biblioteca/habilidades/blog_adsense_4_semanas.md e config/ritmo_blog.yaml e execute o procedimento (f) toda rodada. Dia ímpar do ano = 3 artigos, par = 4, nunca abaixo de 3; varie pilares e formatos; mantenha data/testes/adsense_4semanas.md; linha de aprendizado em data/habilidades/aprendizado/blog_adsense_4_semanas.md.
+APROVAÇÃO ADSENSE EM 4 SEMANAS (Allan, 22/10/2026): leia biblioteca/habilidades/blog_adsense_4_semanas.md e config/ritmo_blog.yaml e execute o procedimento (f) toda rodada. Ritmo FIXO de 3 artigos por dia (28/10/2026; acabou o 3/4 alternado), nunca abaixo de 3; pilares em rodízio, nunca dois seguidos do mesmo (rotina_diaria.py aplica); varie formatos; mantenha data/testes/adsense_4semanas.md; linha de aprendizado em data/habilidades/aprendizado/blog_adsense_4_semanas.md.
