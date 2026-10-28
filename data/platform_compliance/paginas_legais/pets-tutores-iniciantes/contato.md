@@ -4,7 +4,7 @@ slug: contato
 tipo: pagina_legal
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-17T12:07:21+00:00'
-atualizado_em: '2026-10-25'
+atualizado_em: '2026-10-28'
 gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---
@@ -17,6 +17,7 @@ Quer tirar uma dúvida, sugerir um assunto ou avisar sobre algo que precisa de c
 
 - **E-mail**: allandouradocontato@gmail.com
 - **Instagram, TikTok e Facebook**: @tutorialpetbr (mensagem direta)
+- **Pergunta para a veterinária**: escreva para o e-mail acima com o assunto "Pergunta para a veterinária", contando a espécie, a idade do pet e a dúvida. As perguntas mais frequentes são respondidas pela médica veterinária parceira na coluna [Pergunte à veterinária](/categoria/pergunte-a-veterinaria). Não enviamos resposta individual de saúde: se o seu pet está mal, procure um veterinário.
 - **Responsável editorial**: Allan Dourado
 - **Empresa**: Dourado Falcão Educação Corporativa LTDA, Fortaleza, Ceará (CNPJ 65.211.970/0001-81)
 

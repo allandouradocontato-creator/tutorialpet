@@ -4,7 +4,7 @@ slug: sobre
 tipo: pagina_legal
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-17T12:07:21+00:00'
-atualizado_em: '2026-10-25'
+atualizado_em: '2026-10-28'
 gerado_por: 06_platform_compliance
 revisao_humana_pendente: false
 ---
@@ -32,7 +32,7 @@ O **Tutorial Pet** é um blog e um canal de vídeos curtos para tutores de cacho
 
 O conteúdo conta com a colaboração editorial de **Rosana Cardoso** e **Mariah Maitre**.
 
-A revisão veterinária está sendo estruturada. Quando um guia for revisado por médica-veterinária, o nome e o registro profissional (CRMV) dela aparecerão no topo daquele guia. Guias sem esse selo não passaram por revisão veterinária.
+**Revisão veterinária.** A médica veterinária **Natasha Braga** (CRMV 6174), com atendimento domiciliar em Fortaleza e Região e foco em cães e gatos, é a revisora técnica parceira do Tutorial Pet. Quando ela revisa um guia, o nome, o registro profissional e a data da revisão aparecem logo abaixo do autor. Guias sem esse selo não passaram por revisão veterinária. Veja como funciona na página [Revisão veterinária](/revisao-veterinaria).
 
 ## Quem está por trás do site
 
