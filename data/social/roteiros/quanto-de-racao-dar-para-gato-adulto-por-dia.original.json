@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Quanto de ração dar para o gato por dia?",
+  "gancho_3s": "Deixar o pote sempre cheio pode prejudicar a saúde do seu gato.",
+  "cenas": [
+    {
+      "narracao": "Deixar o pote de ração sempre cheio ou medir no olhômetro facilita o sobrepeso.",
+      "visual_busca_banco_livre": "chubby cat sitting on floor looking bored",
+      "texto_na_tela": "Pote sempre cheio?"
+    },
+    {
+      "narracao": "Em média, um gato adulto de quatro quilos come de 45 a 65 gramas por dia.",
+      "visual_busca_banco_livre": "domestic adult cat sitting looking forward",
+      "texto_na_tela": "45g a 65g por dia"
+    },
+    {
+      "narracao": "Consulte a tabela da embalagem pelo peso ideal e use uma balança de cozinha para pesar com precisão.",
+      "visual_busca_banco_livre": "curious cat looking at camera indoors",
+      "texto_na_tela": "Pese na balança digital"
+    },
+    {
+      "narracao": "Fracione essa quantidade diária em três a cinco pequenas refeições ao longo do dia.",
+      "visual_busca_banco_livre": "cat eating dry food from shallow bowl",
+      "texto_na_tela": "Divida em 3 a 5 vezes"
+    },
+    {
+      "narracao": "Se oferecer sachê, lembre-se de descontar o equivalente em gramas da ração seca.",
+      "visual_busca_banco_livre": "cat eating wet food close up",
+      "texto_na_tela": "Desconte o sachê"
+    },
+    {
+      "narracao": "Confirme sempre a meta de peso do seu gato com o médico-veterinário.",
+      "visual_busca_banco_livre": "healthy cat sitting looking at camera",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salve este vídeo e compartilhe com quem tem gato em casa!",
+  "hashtags": [
+    "#gatos",
+    "#alimentacaofelina",
+    "#cuidadoscomgatos",
+    "#saudefelina",
+    "#reelsdegatos"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nDeixar o pote sempre cheio pode prejudicar a saúde do seu gato.\n\n📖 Artigo completo: https://tutorialpet.com.br/quanto-de-racao-dar-para-gato-adulto-por-dia\n\n#gatos #alimentacaofelina #cuidadoscomgatos #saudefelina #reelsdegatos",
+  "slug": "quanto-de-racao-dar-para-gato-adulto-por-dia"
+}

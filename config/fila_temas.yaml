@@ -332,7 +332,8 @@ temas:
   data: '2026-10-29'
 - termo: quanto de racao dar para gato adulto por dia
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-29'
 - termo: cachorro pode comer banana
   pilar: alimentacao
   status: pendente
@@ -1165,4 +1166,13 @@ temas:
   status: pendente
 - termo: melhores bebedouros de fonte para gatos que vivem em apartamento
   pilar: produtos_compras
+  status: pendente
+- termo: como lidar com ciume entre caes e gatos na mesma casa
+  pilar: comportamento
+  status: pendente
+- termo: por que gatos idosos dormem mais do que o normal
+  pilar: utilidade_publica
+  status: pendente
+- termo: como escolher a melhor raao umida para gatos adultos
+  pilar: alimentacao
   status: pendente
