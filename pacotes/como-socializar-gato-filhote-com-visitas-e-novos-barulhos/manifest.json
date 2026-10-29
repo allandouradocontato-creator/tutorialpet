@@ -1,31 +1,9 @@
 {
   "slug": "como-socializar-gato-filhote-com-visitas-e-novos-barulhos",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-29T16:12:53+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-socializar-gato-filhote-com-visitas-e-novos-barulhos",
-  "voz": {
-    "motor": "elevenlabs",
-    "cenas_elevenlabs": 8,
-    "cenas_edge_tts": 0,
-    "voice_id": "iScHbNW8K33gNo3lGgbo",
-    "modelo": "eleven_v4",
-    "stability": 0.26
-  },
-  "guardiao": {
-    "status": "ok",
-    "problemas": [],
-    "ok": [
-      "sem cenas repetidas no vídeo",
-      "16 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (alex-morgan-upbeat-591314.mp3)",
-      "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "gancho diferente dos últimos vídeos (abertura_problema_pet)",
-      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
-      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie gato: 6/6 quadros conferem [cf]"
-    ],
-    "em": "2026-10-29T16:14:37+00:00"
-  },
-  "aprovado_por": "auto (Guardiao ok)"
+  "guardiao": {"status": "ok"},
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {"por": "Agendador 16:15 29/10", "zernio_facebook": "6ae39d4c8962cd50f89dc2c3", "zernio_instagram": "6ae39d4e8962cd50f89dc2d3", "buffer_tiktok": "6ae39d50c76443534241bd22", "datas": "FB 2026-10-30 14:00; TikTok 2026-10-30 14:20; IG 2026-10-30 15:00", "obs": "artigo 404 as 16:17; Publicador 07:10 de 30/10 o publica antes do post"}
 }
