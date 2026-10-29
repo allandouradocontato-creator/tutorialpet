@@ -121,3 +121,7 @@ Contagem: decididas abertas ~40 / feitas +1 (E124: config/estilo_viral.yaml regr
 ## Regra 37 (28/10 16:10, Allan): operação sem depender da Natasha
 Nada espera revisão dela; saúde sai com cautela padrão; revisão dela é opcional e sem prazo; selo só se ela revisar. Itens "depende da Natasha" removidos das pendências do Allan (lote 1 e lote 2 viram disponíveis para ela quando quiser).
 - 28/10 16:19: Natasha respondeu "Ok. Aceito!" ao uso da linha de diretrizes editoriais (prova em data/pergunte_veterinaria/aceite_natasha_diretrizes_editoriais_2026-10-28.md). ONGs de SP (9; falta a 10ª), mensagem de abordagem, molde da vitrine e script montar_vitrine_adocao.py entregues pelo agente e já no main. Allan decide: 10ª ONG e quem faz o contato.
+
+
+## Decisões — rodada do Executor 29/10
+Contagem: decididas abertas ~25 / feitas +1 (E130: bloco 'Para o Allan (receita)' em 06 Pendências; E133 já fechada pela Operação, trig_01T84gNiDZh5LQVN8AjzPJfb habilitada) / atrasadas 14 (mesmas) / só Allan: A02 (2FA, TikTok), Kiwify identidade, MIMO ao vivo+OAuth, ok para religar D02/E09. Painel de Decisões sem comentário novo (rev 16). Não feito: E129 (edição em massa de legendas, precisa distinguir agendadas) e E131/V19 (fabrica.yml). Nada publicado nem agendado. add_repo indisponível; usei o clone local.

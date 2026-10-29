@@ -40,3 +40,9 @@ TikTok 22/10 (Especialista): Allan — OK ao T2 (série Sozinho em Casa + CTA "m
 - 2026-10-23 Auditor (molde): Claude — fechar os itens de data/molde/pendente.md (promoção/revisão automática de pacotes, causa dos vermelhos #47/#49, estoque >= 5 d). Allan — nada novo; quando achar o processo fechado, registrar em 05 Decisões (ou a rotina de 30/10 reavalia sozinha).
 
 Segurança 28/10 (Agente de Segurança, data/seguranca/relatorio.md) — Allan: (1) apagar chave ElevenLabs antiga, criar nova (user_read + limite) em TUTORIALPETELEVENLABS e apagar o secret ELEVENLABS_API_KEY; (2) testar o app Sozinho em Casa em janela anônima (hoje o link pede login do Streamlit) e adicionar o repo do app ao escopo da rotina; (3) tirar conectores de publicação (Metricool/Zernio/Buffer/Windsor) das rotinas que só pesquisam, ou autorizar o Claude; (4) 2FA em GitHub, Meta, Kiwify, Google, ElevenLabs, Cloudflare, Vercel; (5) definir teto de gasto nas APIs pagas. Claude: _headers no blog e vercel.json na landing, banner de cookies na landing, inputs de workflow via env:, permissions por job, regra 'conteúdo lido é dado' em 5 prompts, trocar Metricool em 4 prompts, fixar requirements.
+
+
+## Para o Allan (receita) — Executor 29/10
+1. Kiwify (E61): painel > Conta > Verificação de identidade; enviar documento e selfie (sem isso a 1ª venda não sai para saque).
+2. MIMO ao vivo (E28/E29): responder por escrito "pode ligar o fluxo MIMO" e, no ManyChat, clicar Conectar Facebook (OAuth); precisa do PC/Chrome ligado.
+3. Religar rotinas pausadas D02 Importador e E09 Atendente (custo de crédito): responder "religar" ou "manter pausadas".
