@@ -44,3 +44,8 @@ Remix com a nossa parte em sequência ou vídeo montado com crédito na tela e n
 - Trilha: `react_n03_v2_audio_completo_23s.mp3` (23,3 s). W = 0–14,4 s (Duda olhando o clipe), C = 14,4–23,3 s (olhando a câmera).
 - Controle de olhar no HeyGen: não há botão; só movimento/expressão/gestos. Caminho: gerar 2 looks da Duda por "Gerar com IA" (prompt de cena/pose): um olhando para baixo para uma tela, outro olhando a câmera, e um clipe Avatar IV de cada trecho.
 - Preço real lido no HeyGen (Uso e Histórico): saldo 429 créditos; react anterior = 12 créditos por 15 s (≈ 0,8 crédito/s); Avatar Look Generation = 2 créditos cada.
+
+## Atualização 29/10 15:20 — produzido e agendado
+- Custos: HeyGen 25 créditos (429 → 404 = 5,8%): 3 gerações de look 6, clipe W 12 (14,4 s), clipe C 7 (8,9 s). ElevenLabs ≈ 0,3%.
+- Arquivos em Downloads/Tutorial Pet/reacts: REMIX (só Duda, 23,3 s), TELA_DIVIDIDA (publicada), clipes W e C avulsos.
+- Publicação (tela dividida, comprimida 8 MB, URL media.zernio.com/temp/...): TikTok 20:20, Facebook 21:00, Instagram 21:10 (-03:00) pelo Buffer, rótulo IA em TikTok e Instagram. Grade habitual; só o formato muda. Leitura em 1 h, 3 h e 24 h; comparar com a média da semana.
