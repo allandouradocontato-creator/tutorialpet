@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32858167,
+    "url_download": "https://images.pexels.com/photos/32858167/pexels-photo-32858167.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-doberman-pinscher-puppy-indoors-32858167/",
+    "fotografo": "Mads Terkelsen",
+    "fotografo_url": "https://www.pexels.com/@mads-terkelsen-3787385",
+    "largura": 3073,
+    "altura": 2048,
+    "query": "cute pinscher dog portrait",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11654756,
+    "url_download": "https://images.pexels.com/photos/11654756/pexels-photo-11654756.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-dog-11654756/",
+    "fotografo": "adrian vieriu",
+    "fotografo_url": "https://www.pexels.com/@printexstar",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "cute pinscher dog portrait",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11654758,
+    "url_download": "https://images.pexels.com/photos/11654758/pexels-photo-11654758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-sitting-on-the-grass-field-11654758/",
+    "fotografo": "adrian vieriu",
+    "fotografo_url": "https://www.pexels.com/@printexstar",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "cute pinscher dog portrait",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11654747,
+    "url_download": "https://images.pexels.com/photos/11654747/pexels-photo-11654747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-sitting-on-the-concrete-floor-11654747/",
+    "fotografo": "adrian vieriu",
+    "fotografo_url": "https://www.pexels.com/@printexstar",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "cute pinscher dog portrait",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11654751,
+    "url_download": "https://images.pexels.com/photos/11654751/pexels-photo-11654751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-miniature-pinscher-on-the-grass-11654751/",
+    "fotografo": "adrian vieriu",
+    "fotografo_url": "https://www.pexels.com/@printexstar",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "cute pinscher dog portrait",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5108126,
+    "url_download": "https://images.pexels.com/photos/5108126/pexels-photo-5108126.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-miniature-pinscher-puppy-running-5108126/",
+    "fotografo": "Brigitte Pellerin",
+    "fotografo_url": "https://www.pexels.com/@brigitte-pellerin-1069170",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "miniature pinscher running outdoor",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza/5.jpg"
+  }
+]

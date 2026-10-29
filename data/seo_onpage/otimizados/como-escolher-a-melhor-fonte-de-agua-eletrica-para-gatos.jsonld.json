@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher a melhor fonte de agua eletrica para gatos: guia prático",
+    "description": "Como escolher a melhor fonte de agua eletrica para gatos: guia prático. Sabe aquela cena clássica de você abrir a torneira da pia para o gato beber...",
+    "datePublished": "2026-10-28",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Com que frequência devo trocar a água da fonte elétrica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A água deve ser trocada em média a cada dois dias, mesmo com o filtro, para garantir total frescor.  - **De quanto em quanto tempo preciso trocar o refil do filtro?**   Costuma variar de trinta a sessenta dias, dependendo do modelo do aparelho e da quantidade de pets que usam.  - **O que fazer se o gato ignorar a nova fonte?**   Deixe o pote antigo por perto nos primeiros dias e desligue o motor temporariamente caso ele se assuste com o movimento da água.  - **Fonte elétrica gasta muita energia?**   Não, a maioria dos motores consome uma quantidade extremamente baixa de eletricidade, funcionando como um pequeno carregador de celular."
+        }
+      }
+    ]
+  }
+}
