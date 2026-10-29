@@ -309,7 +309,8 @@ temas:
   data: '2026-10-28'
 - termo: cuidados diarios com o pelo de caes que nadam muito na piscina
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-29'
 - termo: como escolher carrinho de passeio para cachorro idoso
   pilar: produtos_compras
   status: pendente
@@ -1151,4 +1152,7 @@ temas:
   status: pendente
 - termo: como ensinar comandos basicos para adotados adultos resgatados
   pilar: adocao
+  status: pendente
+- termo: o que verificar ao alugar um apartamento pet friendly na cidade
+  pilar: utilidade_publica
   status: pendente

@@ -1,18 +1,18 @@
-# Auditoria do processo — 2026-10-29 16:13 UTC
+# Auditoria do processo — 2026-10-29 19:09 UTC
 
-Pacote: `como-socializar-gato-filhote-com-visitas-e-novos-barulhos` — 1 aviso(s)
+Pacote: `cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina` — 1 aviso(s)
 
-- **OK ** duração 46 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.8 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 56 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.5 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 7 palavras (padrão: até ~12)
+- **OK ** gancho com 10 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
-- **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful']
+- **OK ** tags usadas: ['short pause', 'smiling', 'warmly']
 - **OK ** sem risada e no máximo um [excited]
 - **OK ** narração tem tags de emoção (a Duda sorri pela tag)
 - **OK ** CTA presente (seguir, comentar, compartilhar, salvar ou blog)
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~608 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~725 (saldo do plano: ver painel)
