@@ -2,3 +2,4 @@
 2026-10-22 | J6 teste único: links internos (2 de entrada p/ artigos com 1) | linha-base 6 cliques/7d; leitura em 72 h (25/10) | mantém, resultado pendente
 2026-10-24 | ritmo + auditoria (J1/J3) | 2/3 no ar às 14:30; estoque aprovado 0 para 25/10 (plano 4); 7 rascunhos sem autor/fonte | altera: Conferente prepara 4 aprovados com fonte até 08:00 (E102)
 2026-10-26 | ritmo + auditoria (J1/J3) | 1/3 no ar às 11:39; aprovados 0; 13 rascunhos sem autor/fonte; reescrita automática recolocou reprovado | altera: autor+fonte antes de aprovar e bloquear recolocação (E119/E120); 2ª semana com estoque 0 = propor edição da skill
+2026-10-29 | ritmo + Pet Celebridade (J1/J3) | 0/3 no ar às 11:55, 3 aprovados sem página por capa (V22), rascunho Giselle pronto | altera: capa de banco na 2ª tentativa (E144); 2ª semana com capa como gargalo = propor edição da skill

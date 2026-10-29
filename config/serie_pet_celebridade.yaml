@@ -46,6 +46,7 @@ serie:
     artista: Luísa Sonza
     pet: Giselle
     raca: pinscher
+    status: rascunho_pronto_29_10   # rascunho em data/content_writer/rascunhos/pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza.md
     fonte: https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml
     observacao: "Inspirou a música Cachorrinhas e a capa da revista Dogue Brasil (UAI). Conferir 2ª fonte; ligar a cuidados com raça pequena/frio."
   - ordem: 5
@@ -60,5 +61,11 @@ serie:
     raca: a confirmar
     fonte: https://www.cnnbrasil.com.br/pop/conheca-6-caes-de-famosos-que-chamam-a-atencao-nas-redes-sociais/
     observacao: "Edição com gato para variar; raça não informada na CNN (Band 08/2025 cita Sonza entre famosos com gatos). Se não achar raça, usar foto_ilustrativa e tema 'gato de apartamento'."
+  - ordem: 7
+    artista: Marina Ruy Barbosa
+    pet: a confirmar (cachorro dálmata adotado)
+    raca: dálmata
+    fonte: https://www.purepeople.com.br/noticia/marina-ruy-barbos-exibe-novo-cachorro-apos-adocao-e-entrega-detalhe-curioso_a317454/1
+    observacao: "Candidato novo 29/10: conferir nome do pet, data e 2ª fonte antes de escrever; ligar a adoção + energia de raça grande."
 
   ligacao_com_produto: "cada edição aponta para o artigo do blog da raça/tema e para o produto do catálogo (config/catalogo_tema_produto.yaml)"
