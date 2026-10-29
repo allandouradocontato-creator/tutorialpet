@@ -21,3 +21,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-10-28 | pacote de vídeo com Guardião em "revisar" (clipe reaproveitado, CTA repetido, espécie errada) não vai para a fila | n=2 pacotes de 27/10 barrados | mantém
 2026-10-28 | Série nova com prioridade (adocao/utilidade_publica, 1/dia) e ideias de audiência trazidas sem pedido (regra 36) | n=0, ainda sem medida; medir cliques/sessões das categorias após 7 dias | mantém
 2026-10-29 | regras 4 (matriz), 5 (gancho curto), 6 (CTA binário/aberto) e 7 (cadência, 10 min de folga) em rodada curta | n=0 posts do lote lidos; 3/3 ideias com T0 ≤6 palavras, 2/3 com fórmula de prova | mantém
+2026-10-29 | regra de CTA binário/aberto e pergunta de comentário: 3 ideias novas (regra 36) com T0 curto, Mito ou Verdade = binária | n=0 posts medidos; FB 9 (+1/7d), comentário de terceiro 0 | mantém

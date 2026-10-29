@@ -158,3 +158,6 @@ Zernio accounts_get_follower_stats FUNCIONA com from_date/to_date (sem limit): F
 
 ## Atualização 27/10 09:45 (Diretor de Audiência)
 Zernio follower-stats (from_date/to_date): FB 9 (+2 em 7 dias), IG 0 (71 posts), TikTok 21. Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca fora do ar = NEUTRO.
+
+## Atualização 29/10 09:35 (Diretor de Audiência)
+Zernio follower-stats 22–29/10 (atualizado 07:12Z): FB 9 (+1 em 7 dias, parado desde 25/10), IG 0 (77 posts), TikTok 21 (último valor). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca MIMO fora do ar = NEUTRO.
