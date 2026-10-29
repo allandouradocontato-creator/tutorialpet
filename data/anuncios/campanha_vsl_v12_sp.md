@@ -61,3 +61,14 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 - Verificação de organização enviada pelo Allan (CNPJ + contrato social); status "em andamento" (análise leva algumas horas). Atenção: nome comercial cadastrado ficou "allan dourado", não a razão social — se recusar, reenviar com "Dourado Falcão Educação Corporativa LTDA".
 - E-mail do domínio para a verificação: Cloudflare Email Routing ativado em tutorialpet.com.br (3 MX Cloudflare, DKIM; MX nulo "." e SPF "-all" antigos removidos/substituídos; catch-all → Gmail do Allan, ativo). O código do Meta chegou na conversa "Facebook" da caixa de entrada.
 - Pendente só do Allan: saldo/forma de pagamento da conta de anúncios.
+
+## Atualização 29/10/2026 (execução do plano_execucao_sonnet_2026-10-29_checkout.md, itens 1-2; item 3 NÃO: verba segue R$ 30/dia)
+- ~11:40 Kiwify (produto "Sozinho em Casa" R$ 27, link NcQChat): produto renomeado para "Sozinho em Casa — Manual + Aplicativo (plano de 14 dias)". Feito.
+- ~11:50 Order bump "Kit Rotina Pré-Saída R$ 19,90" removido do produto (Configurações > Order bump: "Não há nenhum order bump"). Feito. O produto Kit continua existindo; para voltar é só re-adicionar.
+- ~11:55 Checkout A (builder): texto no topo "R$ 27 à vista · pagamento único · Garantia de 14 dias (o tempo do plano inteiro). Acesso imediato ao app e ao manual." Salvo e visível no checkout ao vivo. O builder da Kiwify não tem resumo de valor nem selo pronto de garantia com esse texto; usei o componente Texto.
+- Pix pré-selecionado: NÃO existe configuração na Kiwify (cartão fica como padrão; Pix é a 3ª aba). Não feito. Parcelamento "6x de R$ 5,07" continua aparecendo no cartão (config "Até 12x").
+- Recuperação de carrinho: a Kiwify só oferece o "Agente recuperador de vendas" (IA que contata leads, 0/6 campos de treino preenchidos). Liguei e desliguei na hora, para não deixar uma IA sem treino falando em nome da marca. Não ligado. Decisão do Allan.
+- Obs.: "Disparar Purchase ao gerar Pix" está desligado (evento só dispara na compra paga). Não mexi.
+- Verificação 390×844: playwright da nuvem recebe checkout em inglês/dólar (IP dos EUA), então a conferência foi na janela do Chrome do Allan (visão desktop): título novo, texto R$ 27 + garantia visíveis, bump sumido.
+- ~12:00 Meta (Windsor update_adset 120253387467550134): Instagram Feed removido. Lido de volta (campos diferentes): publisher facebook+instagram, facebook_positions [feed, facebook_reels], instagram_positions [reels], SP (460), idade 25-65 (sugestão 25-55), advantage_audience 1; orçamento diário R$ 30 e fim 01/11 02:59Z intactos; status IN_PROCESS (revisão da alteração).
+- Próximo: leitura 30/10 09:00 (checkouts × Pix/pedidos Kiwify × compras). Auditor 09:34. Regra do R$ 17 segue suspensa até lá.
