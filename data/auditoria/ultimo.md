@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-10-29 11:17 UTC
+# Auditoria do processo — 2026-10-29 11:39 UTC
 
-Pacote: `maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar` — 1 aviso(s)
+Pacote: `fabrica-de-filhotes-o-que-e-por-que-e-cruel-e-como-reconhecer` — 1 aviso(s)
 
-- **OK ** duração 50 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 51 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.7 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 11 palavras (padrão: até ~12)
+- **OK ** gancho com 12 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~642 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~691 (saldo do plano: ver painel)
