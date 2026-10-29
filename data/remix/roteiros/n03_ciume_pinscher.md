@@ -1,5 +1,5 @@
 # Roteiro n03 — "Ciúme de quatro patas" (Metrópoles) — tom HUMOR
-Data: 28/10/2026. Status: AGUARDANDO "pode" do Allan (regra 40). Nenhuma voz nem Duda gerada.
+Data: 28/10/2026. Status: PRODUZIDO em 29/10 (Downloads/Tutorial Pet/reacts/) e REPROVADO pelo Allan: fala não complementa o vídeo. Refazer pelo metodo_react_v2_2026-10-29.md; aproveitar a Duda de 14 s como Remix em sequência.
 
 ## Original (assistido por quadros, sem áudio)
 - Link: https://www.tiktok.com/@metropolesoficial/video/7701040812146117909 (publicado 26/10; 100,2 mil curtidas, 2147 comentários, 28,4 mil compartilhamentos, 48,1 s).

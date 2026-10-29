@@ -1,5 +1,5 @@
 # Roteiro n02 — "José Augusto, o dengoso" (Metrópoles) — tom HUMOR
-Data: 28/10/2026. Status: AGUARDANDO "pode" do Allan (regra 40). Nenhuma voz nem Duda gerada.
+Data: 28/10/2026. Status: DESCARTADO pelo Allan em 29/10 (só o n03 rodou).
 
 ## Original (assistido por quadros, sem áudio)
 - Link: https://www.tiktok.com/@metropolesoficial/video/7699958437073014037 (publicado 23/10; 600,8 mil curtidas, 2204 comentários, 60,5 mil compartilhamentos, 24,8 s).

@@ -1,5 +1,5 @@
 # Roteiro e04 — "Esperando no portão" (viral de fora) — ORIGINAL ADAPTADO, tom ILUSTRATIVO
-Data: 28/10/2026. Status: AGUARDANDO "pode" do Allan (regra 40). Nenhuma voz nem Duda gerada.
+Data: 28/10/2026. Status: DESCARTADO pelo Allan em 29/10 (só o n03 rodou).
 Não é remix: não usa o vídeo do outro. Refazemos a ideia com a Duda e o caramelo, em português (linha "original adaptado", plano seção 6). Publica nas 3 redes (não depende do botão Remix).
 
 ## Original (assistido por quadros, sem áudio)
