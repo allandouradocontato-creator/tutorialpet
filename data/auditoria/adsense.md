@@ -1,4 +1,4 @@
-# Auditoria AdSense (2026-10-28)
+# Auditoria AdSense (2026-10-29)
 
 | Item | Resultado | Detalhe |
 |---|---|---|
@@ -10,7 +10,7 @@
 | robots.txt nao bloqueia Mediapartners/Google | PASSA |  |
 | sitemap.xml | PASSA |  |
 | volume >= 30 artigos | PASSA | 86 artigos |
-| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-28 (0 dias) |
+| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-10-28 (1 dias) |
 | sem buracos > 3 dias nos ultimos 30 dias | FALHA | buracos: [('2026-09-15', '2026-10-06')] |
 | artigos >= 900 palavras | PASSA | 0 curtos: [] |
 | estrutura com >= 3 subtitulos | PASSA | [] |

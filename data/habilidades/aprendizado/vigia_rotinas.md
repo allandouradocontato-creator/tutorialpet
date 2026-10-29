@@ -27,3 +27,4 @@
 2026-10-28 | 11:35 promoveu 2 aprovados com Fontes (slow-feed, petiscos-caseiros; blog 1/4); fabrica nao redisparada (E34, ElevenLabs 306 vs 712) + aviso ao Allan | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
 2026-10-28 | 15:20 fabrica verde #178-180; promoveu slow-feed (unico com Fontes; blog 2/3); posts em erro Zernio iguais | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
 2026-10-28 | 19:20 tudo verde (fabrica #186-188, blog 4/3); fire_trigger do Agendador NEGADO pelo classificador; abri ficha V21 (estoque posts ~29/10; ElevenLabs 306) | aguardando Agendador 29/10 08:15 (E34, n=1) | mantém
+2026-10-29 | 07:25 promoveu 2 aprovados com Fontes (hidratar-racao-gato-idoso, slow-feed; blog 0/3); 5 rascunhos sem Fontes ficam fora; fabrica nao redisparada (E34, ElevenLabs 306) | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
