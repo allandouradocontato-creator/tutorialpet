@@ -1,12 +1,15 @@
-Dados até 2026-10-29 11:50 (Fortaleza) | Vigia v2 | Número do dia: rotinas falhando/suspensas = 0 de 25 ativas (meta zero)
-CORRIGI: 1 (blog: 2 aprovados com Fontes re-promovidos) | PRECISO DO ALLAN: 1 (ElevenLabs/vídeo V19, sem mudança)
-| rotina | estado | último run / idade | problema | correção |
+Dados até 2026-10-29 15:30 (Fortaleza)
+| rotina | estado | último run | problema | correção |
 |---|---|---|---|---|
-| rotinas ativas | ok | todas SUCCEEDED; Vigia PENDING = esta rodada; nenhuma next_run vencida (Conteúdo e Blog 11:37 em atraso de minutos, normal) | - | nada |
-| fabrica.yml | VERDE #190 (11:39Z 29/10, ~3 h) | issues #19-37 antigas abertas | ruído | Executor fecha (V20) |
-| publicar_blog.yml | #71 VERMELHO 10:47Z; último verde 19:25Z 28/10 (~19 h) | capa barrada: Gemini 503/timeout + foto sem tema nos 2 aprovados; issue #38 | blog 0/3 | re-promovi os 2 (commit "vigia: promove aprovados"); ficha V22 |
-| Zernio | 8 posts em erro (mídia 404/422), iguais a 27/10; FB/IG publicaram hoje 10:02 | V10/V14/E126 | retry proibido | ficha existente |
-| Buffer/TikTok | publicou 13:22Z; 3 agendados até 30/10 13:20Z; 0 em erro | - | - | - |
-| estoque posts | 2 pares FB/IG + 3 TikTok agendados | Agendador roda 12:15 | baixo | Agendador aplica evergreen; V19 é do Allan |
-| AdSense | 1 FALHA histórica: buraco 15/09-06/10 (não corrigível) | - | - | manter 3/dia |
-Idade do último resultado: artigo ~19 h; fábrica verde ~3 h; publicar_blog verde ~19 h; post TikTok ~1,5 h; FB/IG ~1,5 h.
+| Vigia (esta) | PENDING (rodando agora) | 15:19 | - | - |
+| Executor, Diretores, Criador, Auditor, SEO, Conferente, Agendador, Estrategista, Medidor | ok | SUCCEEDED hoje/ontem (Medidor 28/10 21:11) | - | - |
+| Guerrilha (3x/dia) | ok | 10:24 SUCCEEDED | - | - |
+| 9 rotinas pausadas (Humorista, Utilidade, Cobrança, Afiliados, Fábrica Produtos, Criativo, Atendente, Revisão, Esp. TikTok, Pesq. Formato/Mercado) | enabled=false desde 22/10 | - | decisão do Allan | nenhuma |
+| Lembretes react n03 e B×C 20h | agendados, dependem do computador do Allan | - | rodam 20h/21h30 | - |
+| fabrica.yml | verde | #192 16:22Z | - | - |
+| publicar_blog.yml | VERMELHO (#71, #72, #73 hoje) | #73 14:18 | blog 0/3 hoje: Gemini 429 (cota) e portão de capa reprova foto de banco ("não mostra o tema"); slow-feed e hidratar-ração caíram de novo (4ª vez) | promovi fonte-de-água-gatos, maus-tratos-lei, pinscher-Luisa Sonza (#74 em andamento); não repromovi os 2 travados; E144 (Executor 30/10 06:53) corrige capa |
+| Zernio | 8 posts em erro (mídia 404/422), iguais a 27/10 | - | retry proibido | ficha V10/V14 existente |
+| Buffer/TikTok | 0 em erro; 5 agendados até 30/10 23:20Z | - | - | - |
+| estoque posts | TikTok até 30/10 20:20; FB/IG 3 pares Zernio + react 29/10 21:00-21:10 | - | ok (>1 dia) | - |
+| Issues abertas | 28 ("falhou"/"nao publicou") | - | ruído de alerta | fechar quando publicar_blog ficar verde |
+Idade do último resultado: artigo no ar ~1 dia (nenhum hoje); fábrica verde ~2 h; publicar_blog verde ~1 dia (28/10); FB/IG/TikTok publicados hoje.
