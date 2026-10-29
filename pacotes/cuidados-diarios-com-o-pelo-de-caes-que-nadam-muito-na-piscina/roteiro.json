@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Cuidados com o pelo do cão após a piscina",
+  "gancho_3s": "Seu cachorro nada na piscina? O cloro estraga o pelo.",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro nada na piscina? O cloro estraga o pelo.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro ama piscina?"
+    },
+    {
+      "narracao": "O cloro e os produtos químicos da piscina acabam com a pelagem e a pele do cachorro, deixando o pelo opaco e cheio de nós.",
+      "visual_busca_banco_livre": "dog swimming in pool water close up",
+      "texto_na_tela": "Cloro estraga o pelo do cão!"
+    },
+    {
+      "narracao": "[short pause] O maior erro é deixar o cloro secar. Assim que ele sair da água, faça um enxágue rápido com água limpa.",
+      "visual_busca_banco_livre": "wet golden retriever shaking water outdoors",
+      "texto_na_tela": "Enxágue imediato com água limpa"
+    },
+    {
+      "narracao": "Passe bem as mãos por toda a pelagem, alcançando a pele, especialmente nas dobras e na barriga.",
+      "visual_busca_banco_livre": "dog taking a bath water splash close up",
+      "texto_na_tela": "Foque nas dobras e barriga"
+    },
+    {
+      "narracao": "A química da piscina acelera os nós. Escove o cachorro antes da natação para tirar os fios mortos.",
+      "visual_busca_banco_livre": "dog brushing fur close up",
+      "texto_na_tela": "Escove antes de nadar"
+    },
+    {
+      "narracao": "[warmly] A umidade acumulada cria fungos. Use o secador em temperatura morna ou fria na raiz.",
+      "visual_busca_banco_livre": "dog hair dryer grooming close up",
+      "texto_na_tela": "Secagem completa é essencial"
+    }
+  ],
+  "chamada_final": "Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. [smiling] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorro",
+    "#pelogrosso",
+    "#piscina",
+    "#cuidadoscompet",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cão ama piscina? Cuidado com o cloro no pelo!\n\n📖 Artigo completo: https://tutorialpet.com.br/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina\n\n#cachorro #pelogrosso #piscina #cuidadoscompet #dicaspet",
+  "slug": "cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 3
+}
