@@ -37,3 +37,10 @@ Clipe em tela cheia, texto na voz do pet: 1,5 s "A cachorra: com licença." · 3
 
 ## Publicação
 Remix com a nossa parte em sequência ou vídeo montado com crédito na tela e na legenda: "Vídeo original de @metropolesoficial (via @dienifersilvabarbosa)". Rótulo de IA ligado.
+
+## Atualização 29/10 12:55 — decisão do Allan: a Duda tem que ATUAR (react vivo) e o teste é pelo Remix
+- Duda aparece o vídeo todo, olhando para o clipe (olhar para baixo se o clipe estiver embaixo) e vira para a câmera nas falas/reações. Sem Duda, o react não vale (versão B descartada como teste principal).
+- CTA completo na voz: "Time beija ou time não beija? Comenta aí!" (trilha com 3,5 s de silêncio no começo para alinhar com o tempo do ORIGINAL: o Remix toca o original desde 0 s).
+- Trilha: `react_n03_v2_audio_completo_23s.mp3` (23,3 s). W = 0–14,4 s (Duda olhando o clipe), C = 14,4–23,3 s (olhando a câmera).
+- Controle de olhar no HeyGen: não há botão; só movimento/expressão/gestos. Caminho: gerar 2 looks da Duda por "Gerar com IA" (prompt de cena/pose): um olhando para baixo para uma tela, outro olhando a câmera, e um clipe Avatar IV de cada trecho.
+- Preço real lido no HeyGen (Uso e Histórico): saldo 429 créditos; react anterior = 12 créditos por 15 s (≈ 0,8 crédito/s); Avatar Look Generation = 2 créditos cada.
