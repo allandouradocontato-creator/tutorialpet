@@ -1,3 +1,19 @@
+Dados até 2026-10-29 08:35 (Fortaleza) — estrategia_social/plano_de_mudanca de 29/10 07:15 (Zernio sync 29/10 06:16; Buffer defasagem até 24 h); sem leitura nova minha de Zernio/Buffer.
+# Medição — quinta 29/10 (meta de 14 dias 15-28/10 encerrou ontem; abaixo, números de 29/10). Os 5 números
+1. Comentários de terceiros: FB 57 em 98 posts (≈1/post = nosso link), IG 50 (nossos), TikTok 6 em 53. Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: não atingida.
+2. Compartilhamentos: FB 0, IG 6 (74 posts), TikTok 16 (53 posts; 1 nos últimos 7 d).
+3. Seguidores: sem leitura nova (28/10: FB 9, IG 0, TikTok 21).
+4. Cliques no blog: FB 179 somados; IG 0. Sessões orgânicas e cliques do Search Console: sem dado (pendência: exportar Desempenho > Consultas, login Google).
+5. Vendas: sem dado (Kiwify não lido).
+Campeão para comentário: nenhum. Em views: F2 flagrante (FB 562). Formato IG alcance/skip: ≤15 s n15 = 102/58% x 30-45 s n24 = 35/70% x 45 s+ n26 = 31/75%. FB tempo 3,3 s; TikTok 2,2 s.
+## Prova do lote r29 (3 ideias; n<5 por braço, só acumula com r26-r28; leitura 02/11 e 05/11)
+X30 F2 flagrante (M1) x F1 tutor-pet (M3) x F14 teste (M2): views em 72 h contra mediana FB 206 / IG 34,5. Uma variável: a fórmula.
+X31 T0 ≤6 palavras + payoff s4 (as 3): prova = FB tempo ≥4,5 s e ret. s5 ≥55%; IG skip ≤60%; TikTok tempo ≥3 s (acumula X25).
+X32 Tema de data (M1 Halloween, perde 01/11) x evergreen (M2, M3): views em 72 h (acumula X28).
+X18 CTA A binária (M1, M3) x B aberta (M2): comentário de terceiro por 1.000 views (continua).
+Hashtags: FB 3, IG 5, TikTok 3-4, comparar só dentro da mesma rede (X9). Horário: M1 sáb 31/10 17:00 FB / 17:10 IG; M3 sex 30/10 13:00 IG; M2 dom 01/11 08:30 FB / 08:40 IG / 11:20 TikTok; meme não vai ao FB às 12:00 (E135); conferir slot livre ≥10 min de outro post.
+Próxima leitura: 30/10 e 02/11.
+
 Dados até 2026-10-28 08:50 (Fortaleza) — estrategia_social.md de 28/10 07:10 (Zernio sync 28/10 06:30; Buffer defasagem até 24 h); sem leitura nova minha de Zernio/Buffer.
 # Medição — quarta 28/10 (meta de 14 dias: 15/10 a 28/10, encerra hoje). Os 5 números
 1. Comentários de terceiros: FB 54 em 95 posts (≈1/post = nosso link), IG 47 (nossos), TikTok 6 em 49. Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: NÃO atingida.
