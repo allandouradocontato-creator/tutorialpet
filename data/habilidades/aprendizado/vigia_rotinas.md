@@ -28,3 +28,4 @@
 2026-10-28 | 15:20 fabrica verde #178-180; promoveu slow-feed (unico com Fontes; blog 2/3); posts em erro Zernio iguais | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
 2026-10-28 | 19:20 tudo verde (fabrica #186-188, blog 4/3); fire_trigger do Agendador NEGADO pelo classificador; abri ficha V21 (estoque posts ~29/10; ElevenLabs 306) | aguardando Agendador 29/10 08:15 (E34, n=1) | mantém
 2026-10-29 | 07:25 promoveu 2 aprovados com Fontes (hidratar-racao-gato-idoso, slow-feed; blog 0/3); 5 rascunhos sem Fontes ficam fora; fabrica nao redisparada (E34, ElevenLabs 306) | aguardando publicar_blog verde + 200 (E34, n=1) | mantém
+2026-10-29 | 11:50 re-promoveu hidratar-racao-gato-idoso e slow-feed (publicar_blog #71 vermelho por capa/Gemini 503; blog 0/3); ficha V22; fabrica verde #190, nao redisparada | aguardando publicar_blog verde + 200 (E34, n=2) | mantém
