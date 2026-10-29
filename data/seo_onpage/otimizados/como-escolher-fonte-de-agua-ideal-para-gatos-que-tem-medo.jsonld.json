@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como escolher fonte de agua ideal para gatos que tem medo: guia prático",
-    "description": "Como escolher fonte de agua ideal para gatos que tem medo: guia prático. Muitos felinos rejeitam a água parada, mas o barulho ou o formato de alguns...",
+    "description": "Como escolher fonte de agua ideal para gatos que tem medo: guia prático. Gatos costumam desconfiar de novidades por instinto de sobrevivência, e um...",
     "datePublished": "2026-10-25",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Qual é o melhor material de fonte para gatos mediosos?",
+        "name": "Posso deixar a fonte ligada 24 horas por dia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Cerâmica e aço inoxidável são os mais recomendados, pois não acumulam odores e são mais pesados, evitando que o gato assustado derrube o aparelho.  - **O barulho da bomba pode prejudicar a audição do gato?**   Não chega a prejudicar a audição, mas o zumbido constante estressa gatos sensíveis, fazendo com que evitem beber água.  - **Posso deixar a fonte ligada 24 horas por dia?**   Sim, a maioria das bombas foi feita para funcionamento contínuo, desde que o nível de água seja monitorado diariamente para evitar que queime.  - **O que fazer se o gato continuar com medo após uma semana?**   Desligue o motor e deixe a água apenas acumulada na bacia. Aos poucos, religue a função de fluxo por apenas alguns minutos por dia."
+          "text": "Sim, a maioria foi feita para uso contínuo, mas confirme as instruções do fabricante e higienize o aparelho em média a cada três dias, conversando com o veterinário sobre a qualidade da água oferecida.  * **O que fazer se o gato continuar com medo após uma semana?** Desligue o aparelho, volte para a tigela comum e tente reapresentar o equipamento de forma bem mais lenta e distante da área de alimentação.  * **Qual é o melhor local da casa para colocar a fonte?** Em um ambiente calmo, longe de barulhos intensos de eletrodomésticos, correntes de ar fortes e da caixa de areia.  * **Preciso trocar o filtro da fonte com que frequência?** Em média a cada quatro semanas, dependendo do modelo e da quantidade de pelos na casa, para manter a água sempre limpa e sem odores."
         }
       }
     ]

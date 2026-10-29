@@ -1,7 +1,11 @@
-# Relatório do Curador do Blog — 26/10/2026 22:47
+# Relatório do Curador do Blog — 29/10/2026 22:38
 
-95 artigos auditados, 5 com problema bloqueante.
+110 artigos auditados, 14 com problema bloqueante.
 
+- ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
+    - [aviso] curto (864 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] título com 81 caracteres (ideal até 70)
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | ansiedade-de-separacao-em-caes
@@ -31,15 +35,18 @@
 - ok | com-que-frequencia-escovar-os-dentes-do-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
-- ok | como-acalmar-cachorro-idoso-assustado-com-fogos-de-artificio
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-acalmar-cachorro-idoso-assustado-com-fogos-de-artificio
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
     - [aviso] título com 74 caracteres (ideal até 70)
+- ok | como-acostumar-cachorro-com-a-chegada-de-um-bebe
 - ok | como-acostumar-gato-adulto-com-novo-comedouro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-acostumar-gato-e-cachorro-a-conviverem-em-paz
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
 - ok | como-acostumar-o-cachorro-a-cortar-as-unhas
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
@@ -64,24 +71,33 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] menos de 4 seções H2
     - [aviso] título com 80 caracteres (ideal até 70)
+- ok | como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade
+    - [aviso] FAQ com 6 perguntas (ideal 3 a 5)
+    - [aviso] título com 78 caracteres (ideal até 70)
 - ok | como-dar-banho-em-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
     - [aviso] título com 81 caracteres (ideal até 70)
 - ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-ensinar-gato-a-usar-a-caixa-de-areia
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos
+    - [aviso] curto (806 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-a-melhor-guia-e-peitoral-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-escolher-caixa-de-transporte-para-viagem-de-aviao
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-escolher-carrinho-de-passeio-para-cachorro-idoso
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-cinto-de-seguranca-pet-para-carro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -89,10 +105,12 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-comedouro-duplo-elevado-para-gatos-idosos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto
+    - [bloqueante] links internos insuficientes: 1 (mínimo 2)
+    - [aviso] título com 76 caracteres (ideal até 70)
 - ok | como-escolher-fonte-bebedouro-eletrica-para-varios-pets
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo
-    - [aviso] curto (830 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 71 caracteres (ideal até 70)
 - REPROVADO | como-escolher-rampa-pet-para-sofa-e-cama-alta
@@ -105,8 +123,9 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-estimular-o-olfato-de-caes-idosos-dentro-de-casa
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-estimular-o-olfato-de-caes-idosos-dentro-de-casa
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -114,7 +133,7 @@
 - ok | como-evitar-bola-de-pelo-em-gato-com-escovacao
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-evitar-choque-termico-em-cachorros-nos-dias-quentes
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-evitar-que-o-filhote-chore-a-noite
     - [aviso] curto (819 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -130,9 +149,12 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-fazer-o-gato-parar-de-arranhar-o-sofa
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-hidratar-a-racao-seca-de-gato-idoso
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
+    - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
 - ok | como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno
-    - [aviso] curto (825 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] curto (872 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 85 caracteres (ideal até 70)
 - ok | como-introduzir-um-segundo-gato-na-casa-sem-brigas
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -144,6 +166,8 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-limpar-orelha-de-cachorro-em-casa-sem-machucar
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-manter-a-pelagem-de-caes-senior-livre-de-nos-sem-estresse
+    - [aviso] título com 76 caracteres (ideal até 70)
 - ok | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 73 caracteres (ideal até 70)
@@ -151,6 +175,8 @@
     - [aviso] curto (872 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 72 caracteres (ideal até 70)
+- ok | como-montar-um-espaco-de-descompressao-para-caes-agitados
+    - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 71 caracteres (ideal até 70)
@@ -159,25 +185,37 @@
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-saber-se-o-asfalto-esta-quente-para-passear
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | como-saber-se-o-asfalto-esta-quente-para-passear
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
 - ok | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-socializar-filhote-de-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-socializar-gato-filhote-com-visitas-e-novos-barulhos
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-trocar-a-racao-do-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] título com 76 caracteres (ideal até 70)
 - ok | cuidados-essenciais-com-as-patas-de-caes-no-inverno
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | enxoval-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | fabrica-de-filhotes-o-que-e-por-que-e-cruel-e-como-reconhecer
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] título com 77 caracteres (ideal até 70)
 - ok | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | gato-arranhando-o-sofa
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar
+    - [aviso] título com 87 caracteres (ideal até 70)
 - ok | melhor-areia-para-gato-como-escolher
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
@@ -188,12 +226,16 @@
     - [aviso] curto (779 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 78 caracteres (ideal até 70)
-- ok | melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
+    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
     - [aviso] título com 71 caracteres (ideal até 70)
     - [aviso] parágrafo acima de 130 palavras
 - ok | o-que-comprar-antes-de-adotar-um-gatinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- REPROVADO | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
+    - [bloqueante] autor preenchido ('Equipe Tutorial Pet'): a assinatura é Equipe Tutorial Pet
+    - [aviso] título com 75 caracteres (ideal até 70)
 - ok | plantas-toxicas-para-gatos
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | pode-dar-sache-para-gato-todos-os-dias
@@ -230,6 +272,8 @@
     - [bloqueante] sem seção 'Perguntas frequentes'
     - [bloqueante] sem seção 'Para fechar'
     - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+- ok | quanto-de-racao-dar-para-gato-adulto-por-dia
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - REPROVADO | quantos-dias-o-gato-pode-ficar-sozinho-em-casa

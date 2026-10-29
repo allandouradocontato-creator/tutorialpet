@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático",
-    "description": "Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático. Quando decidi deixar o meu cão nadar na piscina pela primeira vez, eu...",
+    "description": "Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático. Se o seu cachorro passa horas se divertindo na água, você provavelmente...",
     "datePublished": "2026-10-29",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina"
-    },
-    "image": "https://tutorialpet.com.br/imagens/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Preciso usar shampoo todas as vezes que o cão nada na piscina?",
+        "name": "Posso deixar o cachorro nadar na piscina todos os dias?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não. O uso excessivo de shampoo remove a proteção natural da pele. O ideal é usar água limpa na maioria dos dias de natação e reservar o banho com shampoo adequado para uma frequência menor, confirmando sempre com o médico-veterinário do pet.  * **O cloro da piscina pode causar alergia na pele do meu cachorro?**   Sim. Alguns cães têm a pele mais sensível e podem apresentar coceira, vermelhidão ou descamação após o contato frequente com o cloro.  * **Posso deixar o cachorro secar naturalmente ao sol depois da piscina?**   Não é recomendado para cães de pelagem densa, pois a umidade retida na raiz pode causar micoses, orelhas inflamadas e dermatites severas.  * **Qual é o melhor momento para escovar o pelo do cão que nada muito?**   O ideal é escovar antes da natação para remover nós frouxos e logo após a secagem completa pós-enxágue, evitando que o pelo molhado embaraçe ainda mais."
+          "text": "Sim, desde que você faça o enxágue com água limpa e a secagem completa rigorosamente após cada sessão de natação para evitar ressecamento e fungos.  - **Preciso usar shampoo em todas as vezes que ele sair da piscina?** Não é recomendado. O uso diário de shampoo remove totalmente a proteção natural da pele; reserve os produtos de limpeza para os banhos regulares, usando apenas água limpa no pós-piscina diário.  - **A água da piscina pode causar infecção de ouvido nos cães?** Sim, a umidade retida no canal auditivo combinada com o cloro favorece otites. Utilize protetores auriculares ou limpe delicadamente as orelhas com produtos específicos recomendados pelo veterinário após o nado.  - **O cloro pode mudar a cor do pelo do cachorro?** Sim, cães de pelagem escura podem apresentar desbotamento e tons avermelhados, enquanto cães brancos podem ficar com amarelamento nos fios devido à oxidação química."
         }
       }
     ]
