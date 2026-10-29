@@ -1059,3 +1059,63 @@ temas:
 - termo: o que fazer quando o pet come lixo na rua
   pilar: utilidade_publica
   status: pendente
+- termo: 'plantas de natal toxicas para cachorro e gato: quais evitar em casa'
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'SERP 29/10: Petlove, Canaltech, portais; formato lista por planta + o que fazer. Saúde: fonte veterinária nomeada, sem dose. Vídeo: sim. Publicar até 10/12.'
+- termo: 'ceia de natal e ano novo: o que cachorro e gato podem comer'
+  pilar: alimentacao
+  status: pendente
+  nota: 'Lista pode/com cuidado/não pode com fonte veterinária; sem dose. Vídeo: sim. Publicar até 18/12.'
+- termo: 'enfeites e pisca-pisca de natal: riscos para gato e cachorro e como proteger'
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'Casa segura: checklist por enfeite; sem alegação médica; fonte. Pauta de ideias.md 29/10 (decoração). Vídeo: sim.'
+- termo: 'cachorro enjoado no carro: por que acontece e o que fazer'
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'Busca de viagem; passo a passo + quando ir ao veterinário; sem medicamento/dose. Link interno: cinto de segurança pet. Vídeo: sim.'
+- termo: 'microchip para cachorro e gato: o que e, para que serve e onde fazer'
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'Intenção informativa/utilidade; só fonte oficial (CFMV/prefeitura) com link; sem prometer preço ou vaga. Vídeo: não.'
+- termo: 'coceira no cachorro: causas comuns e quando ir ao veterinario'
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'Pergunta real de alto volume; SERP loja/clínica. Saúde: fonte nomeada, sem diagnóstico nem dose. Vídeo: sim.'
+- termo: como limpar o ouvido do cachorro sem machucar
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'Passo a passo + quando NÃO limpar (procurar veterinário); sem produto medicamentoso. Vídeo: sim.'
+- termo: 'gato fazendo xixi fora da caixa: causas e o que fazer'
+  pilar: comportamento
+  status: pendente
+  nota: 'Pergunta real; causas comportamentais e de ambiente, quando é caso de veterinário; fonte. Link interno: caixa de areia. Vídeo: sim.'
+- termo: 'cachorro nao quer comer a racao: o que fazer'
+  pilar: alimentacao
+  status: pendente
+  nota: 'Pergunta real; checklist (rotina, ração, ambiente) + quando procurar veterinário; sem dose. Vídeo: sim.'
+- termo: 'gato sem comer: quando e preocupante'
+  pilar: cuidados_diarios
+  status: pendente
+  nota: 'Saúde: fonte veterinária, sem diagnóstico, aviso de procurar veterinário. Vídeo: não.'
+- termo: 'racao umida ou seca para gato: qual e melhor'
+  pilar: alimentacao
+  status: pendente
+  nota: 'Comparação com tabela (vantagens/limites) e fonte; sem alegação categórica. Cauda de melhor ração. Vídeo: não.'
+- termo: 'melhor racao umida (sache) para gato: como comparar rotulos'
+  pilar: produtos_compras
+  status: pendente
+  nota: 'Comercial; tabela de comparação por critério de rótulo; aviso de afiliado visível e rel=sponsored se houver link (google.md §6). Black Friday 27/11. Vídeo: não.'
+- termo: 'black friday pet: o que vale comprar e como conferir o preco'
+  pilar: produtos_compras
+  status: pendente
+  nota: 'Comercial/sazonal; checklist de preço histórico, sem promessa de desconto; aviso de afiliado. Publicar a partir de 16/11. Vídeo: sim.'
+- termo: 'coleira antipulgas: funciona e como escolher'
+  pilar: produtos_compras
+  status: pendente
+  nota: 'Comercial+saúde: fonte veterinária, sem dose; tabela de comparação; aviso de afiliado. Vídeo: não.'
+- termo: 'quanto custa manter um cachorro por mes: custos reais'
+  pilar: primeiros_passos_filhotes
+  status: pendente
+  nota: 'Intenção de decisão (antes de adotar/comprar); tabela de categorias de gasto sem inventar preço (faixas com fonte ou varia). Liga com série Adoção. Vídeo: sim.'
