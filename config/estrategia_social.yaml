@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 19
-atualizado_em: "2026-10-28 07:20 Fortaleza"
+versao: 20
+atualizado_em: "2026-10-29 07:35 Fortaleza"
+versao_anterior_atualizado_em_19: "2026-10-28 07:20"
 versao_anterior_atualizado_em_18: "2026-10-27 07:35"
 versao_anterior_atualizado_em_17: "2026-10-26 07:35"
 versao_anterior_atualizado_em_16: "2026-10-25 07:08"
@@ -364,3 +365,34 @@ moldes_remix_2026_10_28:   # data/remix/estrategia_remix_2026-10-28.md secao 5 (
     redes: [facebook, instagram, tiktok]
     status: ABERTO
   molde_5_fofura_com_dica: "ja existe como CTA 'siga' na fabrica; reforco: cena fofa real + 1 dica propria, nunca so fofura"
+rodada_2026_10_29:   # data/social/estrategia_social.md (18a edicao); plano: data/social/plano_de_mudanca_2026-10-29.md (E141-E142)
+  dados_ate: "2026-10-29 07:15 Fortaleza"
+  leitura_24h_mais: {facebook: {n: 98, views_mediana: 206, tempo_medio_s: 3.3, ultimos_7d_views: 173, comentarios: 57, shares: 0, cliques: 179}, instagram: {n: 74, alcance_mediana: 34.5, skip_mediana_pct: 67, skip_acima_70: "31 de 74", ate_15s_alcance: 102, de_30s_alcance: 31}, tiktok: {n: 53, views_mediana: 181, tempo_medio_s: 2.2, abaixo_4s: "45 de 53", shares: 16, ate_16s_tempo_s: 1.6}}
+  horarios: {facebook: {melhores: ["10:00", "19:00"], extras_meme: ["21:00"], observacao: "08:30 caiu para mediana 121 (n8); 12:00 mediana 61 (n13); 21:00 260 (n6)"}, instagram: {melhores: ["11:00", "20:00"], extras_meme: ["13:00", "21:10", "08:40"], observacao: "15:00 mediana 30 (n13); 12:00 mediana 5"}, tiktok: {melhores: ["10:20", "20:20"], observacao: "10:20 187 (n13), 14:20 195 (n12), 20:20 180 (n18): sem sinal de horario"}}
+  hashtags_quantidade_fonte: "Envox, 20/01/2026: Instagram limita a 5 por publicacao (posts e Reels); TikTok e Facebook: sem fonte aberta nova, mantidos 3-5 e 0-3"
+  gatilho: "DISPAROU (FB 3,3 s; TikTok 2,2 s e 1 share em 17 posts nos ultimos 7 dias; IG skip >70% em 31/74)"
+perguntas_lote_2026_10_29:   # binario/numerado; lote: gato idoso, petiscos, caixa de transporte, cachorro lambe o focinho; link so no 1o comentario
+  gato_idoso:
+    - "Quantos anos tem o seu gato? Responde só o número."
+    - "Seu gato idoso dorme mais de manhã ou de tarde?"
+    - "Seu gato idoso ainda pula no sofá? Sim ou não?"
+    - "Qual é o lugar preferido dele para tirar a soneca: janela, cama ou colo?"
+    - "Quando foi a última vez que ele foi ao veterinário? Só pergunta, sem julgamento."
+  petiscos_naturais:
+    - "Qual petisco natural o seu pet mais pede? Conta aqui."
+    - "Você confere a lista de alimentos proibidos antes de dar petisco? Sim ou não?"
+    - "Seu pet come petisco 1, 2 ou 3 vezes por dia?"
+    - "Cenoura ou maçã: qual o seu pet aceita?"
+    - "Quem decide o petisco aí em casa: você ou ele?"
+  caixa_de_transporte:
+    - "Seu pet entra sozinho na caixa de transporte? Sim ou não?"
+    - "Onde fica a caixa na sua casa: sala, quarto ou guardada?"
+    - "Qual foi a viagem mais difícil com o seu pet? Conta aqui."
+    - "Cobertor, brinquedo ou petisco: o que ajuda mais na caixa?"
+    - "Gato ou cachorro: quem dá mais trabalho para entrar na caixa?"
+  cachorro_lambe_focinho:
+    - "Seu cachorro lambe o focinho quando fica ansioso? Sim ou não?"
+    - "Em qual momento ele faz mais isso: visita, barulho ou veterinário?"
+    - "Seu cachorro tem alguma mania que só você entende? Conta aqui."
+    - "Quantas vezes por dia você percebe isso: 1, 2 ou mais?"
+    - "Se o comportamento muda de repente, você já falou com o veterinário? Sim ou não?"
