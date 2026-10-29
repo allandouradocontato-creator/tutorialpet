@@ -1,19 +1,17 @@
-# Auditoria de Anúncios - 2026-10-22
-Dados até 2026-10-22 09:35 (Fortaleza). WINDSOR OK: Meta Ads 1213984913380523 (Allan Dourado), única conta.
+# Auditoria de Anúncios - 2026-10-29
+Dados até 2026-10-29 09:50 (Fortaleza). WINDSOR OK: Meta Ads 1213984913380523 (Allan Dourado), única conta.
 ## Alerta
-Gasto 7 dias: R$ 0,00 (último gasto 01/10, R$ 0,34). Nenhuma campanha gastando sem controle. Sem mudança desde 20/10.
-Pendente de baixo risco: 10 campanhas "[3 quartos 5 banheiros – Casa] Marketplace turbinado" (21/07-06/09) seguem ACTIVE, sem gasto desde 10/09 (R$ 8-24 cada, total R$ 220 em 90 dias). Não são Tutorial Pet; conferir de quem são e desligar no Gerenciador (eu não mexo). Já registrado em 06 Pendências (20/10).
+Sem alerta de gasto solto: a campanha "Sozinho em Casa - VSL v12 - SP apartamento - teste 3 dias" (120253387444780134) está ACTIVE (ligada pelo Allan após 28/10), com teto R$ 30/dia e fim 31/10 23:59 (-03), 2 anúncios ACTIVE (A problema, B benefício). Gasto dentro do teto.
+Outras campanhas ativas (10 "Marketplace turbinado") são de outro produto do Allan: não tocar (decisão 22/10).
 ## Número do departamento (Ofertas e Vendas)
-Gasto da semana R$ 0,00. Custo por checkout iniciado nos testes Sozinho em Casa (28 dias): R$ 73,15 / 10 checkouts = R$ 7,32. Os 2 melhores testes: R$ 3,54 e R$ 4,14.
-## Campanhas Sozinho em Casa (todas PAUSED)
-Teste 29/09-01/10: R$ 31,83, 146 cliques, 9 checkouts (R$ 3,54). Tráfego Amplo 22-26/09: R$ 47,22, 831 cliques, 1 checkout (R$ 47,22; CPC baixo mas não converte). Teste 11-13/09: R$ 4,14/checkout.
+Gasto 28-29/10: R$ 19,31 (A R$ 10,50 · B R$ 8,81). 64 cliques, 915 impressões, 4 checkouts iniciados = R$ 4,83/checkout (referência 28 dias: R$ 7,32). 0 compras (cedo; Kiwify não cruzada).
+## Por anúncio (2 dias)
+A problema: 36 cliques, CTR 6,2%, CPC R$ 0,29, CPM R$ 17-19, 1 checkout (R$ 10,50). B benefício: 28 cliques, CTR 7,8-8,6%, CPC R$ 0,27-0,33, CPM R$ 21-29, 3 checkouts (R$ 2,94). Frequência 1,1-1,3 (sem fadiga).
 ## Já funciona / replicar
-Replicar público e criativo do "teste sozinho em casa" (~6% dos cliques viram checkout). Não replicar Tráfego Amplo.
+B (benefício) lidera em CTR e checkout (n pequeno: 4 checkouts, não conclui). Replicar: manter os 2 até 300 cliques (hoje 64) antes de culpar anúncio ou landing.
 ## Habilidade que falta / teste grátis
-Custo por venda real: cruzar os checkouts com vendas do Kiwify (grátis). Checkout iniciado não é venda.
-## Decisão (regra anuncios_meta_decisao): MANTER tudo pausado
-Decisão do Allan de 16/10: foco sem anúncios; sem verba autorizada, nenhum teste pago sugerido.
+Custo por venda real: cruzar checkouts com Kiwify (grátis, Chrome do Allan; não lido nesta rodada). Checkout não é venda.
+## Decisão (regra anuncios_meta_decisao): MANTER
+Gasto R$ 19,31 < R$ 54 (2x preço) sem venda: ainda não pausa criativo. Regra do desvio de 20/10: ≥100 visitas reais e 0 vendas em 3 dias → preço R$ 17 por 3 dias (decisão do Allan).
 ## Não verificado (Unknown)
-Rascunhos pendentes, UTM e tetos de orçamento: o conector não traz esses campos. Compliance de plataforma: biblioteca/regras_plataformas/meta_facebook_instagram.md ainda não existe (pendente em 06); só google.md conferido, nada a ativar.
-
-> 22/10/2026 (decisão do Allan): as campanhas "Marketplace turbinado" são de OUTRO produto dele (imóvel), sem relação com o Tutorial Pet. NÃO desligar, NÃO mexer e NÃO tratar como problema da fábrica.
+UTM nos anúncios, rótulo "conteúdo gerado por IA", Audience Network desligado, saldo/pagamento e região (BR inteiro, não SP): o conector não traz; Allan confere no Gerenciador (checklist em data/anuncios/campanha_vsl_v12_sp.md). Compliance de texto lido vs meta_facebook_instagram.md/google.md: sem "cura", sem "seu cachorro tem"; texto cita "à raça" e o app não pergunta raça (risco de promessa que o app não cumpre).

@@ -8,3 +8,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-10-25 | lida; sem anúncio pago (decisão do Allan), regra não acionada | n=0 | mantém
 2026-10-26 | lida; sem anúncio pago (decisão do Allan), regra não acionada | n=0 | mantém
 2026-10-29 | lida; sem anúncio pago (decisão do Allan), regra não acionada | n=0 | mantém
+2026-10-29 | passos 1-7 (Windsor + decisão) | n=64 cliques, 4 checkouts, R$ 4,83/checkout, 0 compras; decisão: manter | mantém
