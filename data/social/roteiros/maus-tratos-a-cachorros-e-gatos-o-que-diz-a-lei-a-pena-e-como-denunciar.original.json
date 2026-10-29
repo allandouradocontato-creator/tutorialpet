@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Maus-tratos a cães e gatos: o que diz a lei e as penas",
+  "gancho_3s": "Você sabia que negligência com cães e gatos pode levar à prisão?",
+  "cenas": [
+    {
+      "narracao": "Você sabia que manter animais sem abrigo ou sem alimento diário é crime com pena de prisão?",
+      "visual_busca_banco_livre": "dog sitting alone outdoors looking sad",
+      "texto_na_tela": "Negligência dá prisão?"
+    },
+    {
+      "narracao": "A lei não pune apenas agressão física. Privar de água limpa, deixar acorrentado ou sem socorro veterinário também é crime.",
+      "visual_busca_banco_livre": "dog lying on ground looking tired",
+      "texto_na_tela": "Privação e abandono são crimes"
+    },
+    {
+      "narracao": "Pela Lei Sansão, crimes contra cães e gatos preveem reclusão de dois a cinco anos, multa e perda da guarda.",
+      "visual_busca_banco_livre": "cat looking through fence close up",
+      "texto_na_tela": "Pena: 2 a 5 anos de reclusão"
+    },
+    {
+      "narracao": "Por ter pena superior a dois anos, não cabe fiança simples em delegacia e pode haver prisão em flagrante.",
+      "visual_busca_banco_livre": "dog looking attentive outdoors",
+      "texto_na_tela": "Sem fiança na delegacia"
+    },
+    {
+      "narracao": "Em caso de emergência ou flagrante, acione o 190. Para denúncias anônimas, utilize o 181 ou o Ministério Público.",
+      "visual_busca_banco_livre": "cat sitting alert outdoors",
+      "texto_na_tela": "Denuncie: ligue 190 ou 181"
+    },
+    {
+      "narracao": "Identificou um animal ferido ou doente? Busque assistência médico-veterinária e denuncie nos canais oficiais.",
+      "visual_busca_banco_livre": "dog looking healthy in garden",
+      "texto_na_tela": "Procure um veterinário e denuncie"
+    }
+  ],
+  "chamada_final": "Salve este guia para consultar os canais de denúncia sempre que precisar.",
+  "hashtags": [
+    "#direitodosanimais",
+    "#leisansao",
+    "#protecaoanimal",
+    "#maustratosnao",
+    "#denuncie"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVocê sabia que negligência com cães e gatos pode levar à prisão?\n\n📖 Artigo completo: https://tutorialpet.com.br/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar\n\n#direitodosanimais #leisansao #protecaoanimal #maustratosnao #denuncie",
+  "slug": "maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar"
+}

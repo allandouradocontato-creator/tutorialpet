@@ -979,10 +979,11 @@ temas:
     + exemplo São Paulo; liga com a série Utilidade Pública'
 - termo: 'maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'data/utilidade_publica/lei-protecao-maus-tratos-federal.md e denuncia-maus-tratos-federal-ce.md;
     conferir telefone do Ibama no site oficial. Gancho: Lei 9.605/1998 art. 32 + Lei
     14.064/2020; canais oficiais; sem imagem chocante'
+  data: '2026-10-29'
 - termo: 'castração gratuita de cachorro e gato: como conseguir'
   pilar: utilidade_publica
   status: pendente
@@ -1047,4 +1048,7 @@ temas:
   status: pendente
 - termo: quais sao os documentos necessarios para adotar um pet
   pilar: adocao
+  status: pendente
+- termo: como planejar viagem de carro com cachorro e gato juntos
+  pilar: cuidados_diarios
   status: pendente
