@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como Socializar Gato Filhote Sem Medo",
+  "gancho_3s": "Seu gato entra em pânico com visitas?",
+  "cenas": [
+    {
+      "narracao": "Seu gato entra em pânico com visitas?",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Gato assustado com visitas e barulhos?"
+    },
+    {
+      "narracao": "[thoughtful] Seu filhote se assusta com barulhos e visitas? A adaptação tem que ser aos pouquinhos.",
+      "visual_busca_banco_livre": "curious kitten looking alert indoor close up",
+      "texto_na_tela": "Adaptação gradual para filhotes"
+    },
+    {
+      "narracao": "[short pause] Começa tocando sons no celular bem baixinho e dá um petisco gostoso pra ele.",
+      "visual_busca_banco_livre": "kitten eating food bowl close up",
+      "texto_na_tela": "Sons baixos + petisco"
+    },
+    {
+      "narracao": "Aumenta o volume devagar a cada dois dias, pra ele associar com coisa boa.",
+      "visual_busca_banco_livre": "playful kitten scratching pole close up",
+      "texto_na_tela": "Aumente aos poucos"
+    },
+    {
+      "narracao": "Pra receber visitas, deixa um quartinho seguro com caminha, água e areia.",
+      "visual_busca_banco_livre": "kitten resting in pet bed cozy room",
+      "texto_na_tela": "Crie um refúgio seguro"
+    },
+    {
+      "narracao": "Nunca puxa o gatinho à força, deixa ele escolher a hora de vir.",
+      "visual_busca_banco_livre": "kitten walking slowly exploring floor",
+      "texto_na_tela": "Nunca force a aproximação"
+    },
+    {
+      "narracao": "[softly] Se ele encolher o corpo ou achatar as orelhas, para tudo. Se o medo continuar, fala com o veterinário.",
+      "visual_busca_banco_livre": "scared kitten crouching wide eyes ears back",
+      "texto_na_tela": "Respeite os limites do pet"
+    }
+  ],
+  "chamada_final": "[smiling] Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatofilhote",
+    "#socializacaofelina",
+    "#comportamentofelino",
+    "#gatosfofos",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gatinho entra em pânico com visitas e barulhos altos?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-socializar-gato-filhote-com-visitas-e-novos-barulhos\n\n#gatofilhote #socializacaofelina #comportamentofelino #gatosfofos #dicaspet",
+  "slug": "como-socializar-gato-filhote-com-visitas-e-novos-barulhos",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 2
+}
