@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 30655024,
+    "url_download": "https://images.pexels.com/photos/30655024/pexels-photo-30655024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dog-in-stroller-on-urban-pathway-30655024/",
+    "fotografo": "Ibiyaya Support",
+    "fotografo_url": "https://www.pexels.com/@ibiyaya-support-2149510283",
+    "largura": 7008,
+    "altura": 4672,
+    "query": "dog in pet stroller",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escolher-carrinho-de-passeio-para-cachorro-idoso/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 18063896,
+    "url_download": "https://images.pexels.com/photos/18063896/pexels-photo-18063896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/poodles-in-carriage-18063896/",
+    "fotografo": "Jeffry Surianto",
+    "fotografo_url": "https://www.pexels.com/@andromeda99",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "dog in pet stroller",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escolher-carrinho-de-passeio-para-cachorro-idoso/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27666736,
+    "url_download": "https://images.pexels.com/photos/27666736/pexels-photo-27666736.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/two-french-bulldogs-in-strollers-at-an-airport-27666736/",
+    "fotografo": "Hugo Sykes",
+    "fotografo_url": "https://www.pexels.com/@hugosykes",
+    "largura": 9185,
+    "altura": 6123,
+    "query": "dog in pet stroller",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-escolher-carrinho-de-passeio-para-cachorro-idoso/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8165509,
+    "url_download": "https://images.pexels.com/photos/8165509/pexels-photo-8165509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-chihuahua-on-stroller-8165509/",
+    "fotografo": "MATSUDA Akihiro",
+    "fotografo_url": "https://www.pexels.com/@akihiromatsuda",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog in pet stroller",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-escolher-carrinho-de-passeio-para-cachorro-idoso/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37852142,
+    "url_download": "https://images.pexels.com/photos/37852142/pexels-photo-37852142.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/small-white-dog-in-stroller-on-city-street-37852142/",
+    "fotografo": "Alexis B",
+    "fotografo_url": "https://www.pexels.com/@alexis-b-1699196",
+    "largura": 2785,
+    "altura": 1884,
+    "query": "dog in pet stroller",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-escolher-carrinho-de-passeio-para-cachorro-idoso/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35387812,
+    "url_download": "https://images.pexels.com/photos/35387812/pexels-photo-35387812.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/small-dog-in-stroller-on-cobblestone-street-35387812/",
+    "fotografo": "Lies",
+    "fotografo_url": "https://www.pexels.com/@lies-3701025",
+    "largura": 7008,
+    "altura": 3944,
+    "query": "senior dog sitting in stroller",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-escolher-carrinho-de-passeio-para-cachorro-idoso/5.jpg"
+  }
+]

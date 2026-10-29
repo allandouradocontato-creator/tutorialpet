@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher carrinho de passeio para cachorro idoso: guia prático",
+    "description": "Como escolher carrinho de passeio para cachorro idoso: guia prático. Envelhecer é uma arte que exige equipamentos, e o seu senhorzinho de quatro patas...",
+    "datePublished": "2026-10-29",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-carrinho-de-passeio-para-cachorro-idoso",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-carrinho-de-passeio-para-cachorro-idoso"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-carrinho-de-passeio-para-cachorro-idoso.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro não vai estranhar o carrinho logo de cara?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "É provável que sim. O segredo é acostumar o pet dentro de casa com petiscos e elogios antes de encarar o primeiro passeio na rua.  * **Posso usar o carrinho para gatos ou outros pets?**   Sim, desde que o peso e o espaço interno sejam compatíveis com o tamanho do animal, garantindo que ele não escape.  * **Existe limite de idade para o cão começar a andar de carrinho?**   Nenhum. Cães com problemas ortopédicos graves ou em recuperação cirúrgica de qualquer idade se beneficiam do equipamento.  * **Como limpar o carrinho após pegar chuva ou lama?**   Use pano úmido com sabão neutro nas partes metálicas e aspire o tecido interno após a secagem completa à sombra.  * **Quando devo procurar o veterinário antes de comprar o carrinho?**   Sempre que notar apatia súbita, dor intensa ao caminhar ou perda de equilíbrio, pois o médico precisa avaliar a origem desses sintomas."
+        }
+      }
+    ]
+  }
+}

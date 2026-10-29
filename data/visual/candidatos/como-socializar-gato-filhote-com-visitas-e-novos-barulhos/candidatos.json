@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 14005287,
+    "url_download": "https://images.pexels.com/photos/14005287/pexels-photo-14005287.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-white-and-black-cat-while-standing-14005287/",
+    "fotografo": "gusat silviu",
+    "fotografo_url": "https://www.pexels.com/@modus-vivendi",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "kitten isolated on white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-socializar-gato-filhote-com-visitas-e-novos-barulhos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13078136,
+    "url_download": "https://images.pexels.com/photos/13078136/pexels-photo-13078136.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photo-of-a-kitten-standing-on-the-road-13078136/",
+    "fotografo": "Nothing Ahead",
+    "fotografo_url": "https://www.pexels.com/@ian-panelo",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "kitten isolated on white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-socializar-gato-filhote-com-visitas-e-novos-barulhos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15554606,
+    "url_download": "https://images.pexels.com/photos/15554606/pexels-photo-15554606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/charcoal-cat-licking-nose-15554606/",
+    "fotografo": "KIEU TRUONG",
+    "fotografo_url": "https://www.pexels.com/@kieutruongphoto",
+    "largura": 4000,
+    "altura": 2670,
+    "query": "kitten isolated on white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-socializar-gato-filhote-com-visitas-e-novos-barulhos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36639147,
+    "url_download": "https://images.pexels.com/photos/36639147/pexels-photo-36639147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-domestic-cat-staring-36639147/",
+    "fotografo": "Jeffry Surianto",
+    "fotografo_url": "https://www.pexels.com/@andromeda99",
+    "largura": 5000,
+    "altura": 3333,
+    "query": "kitten isolated on white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-socializar-gato-filhote-com-visitas-e-novos-barulhos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7875593,
+    "url_download": "https://images.pexels.com/photos/7875593/pexels-photo-7875593.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-with-black-and-brown-fur-7875593/",
+    "fotografo": "Elizabeth Iris",
+    "fotografo_url": "https://www.pexels.com/@outandaboutwithliz",
+    "largura": 6291,
+    "altura": 4194,
+    "query": "kitten isolated on white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-socializar-gato-filhote-com-visitas-e-novos-barulhos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6900232,
+    "url_download": "https://images.pexels.com/photos/6900232/pexels-photo-6900232.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-cute-kitten-6900232/",
+    "fotografo": "Abdullah Ali Mansour",
+    "fotografo_url": "https://www.pexels.com/@abdullah-ali-mansour-2020362",
+    "largura": 8256,
+    "altura": 5504,
+    "query": "cute kitten studio shot no people",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-socializar-gato-filhote-com-visitas-e-novos-barulhos/5.jpg"
+  }
+]

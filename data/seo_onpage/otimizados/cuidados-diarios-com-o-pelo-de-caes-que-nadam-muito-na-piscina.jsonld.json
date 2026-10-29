@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático",
+    "description": "Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático. Quando decidi deixar o meu cão nadar na piscina pela primeira vez, eu...",
+    "datePublished": "2026-10-29",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina"
+    },
+    "image": "https://tutorialpet.com.br/imagens/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Preciso usar shampoo todas as vezes que o cão nada na piscina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O uso excessivo de shampoo remove a proteção natural da pele. O ideal é usar água limpa na maioria dos dias de natação e reservar o banho com shampoo adequado para uma frequência menor, confirmando sempre com o médico-veterinário do pet.  * **O cloro da piscina pode causar alergia na pele do meu cachorro?**   Sim. Alguns cães têm a pele mais sensível e podem apresentar coceira, vermelhidão ou descamação após o contato frequente com o cloro.  * **Posso deixar o cachorro secar naturalmente ao sol depois da piscina?**   Não é recomendado para cães de pelagem densa, pois a umidade retida na raiz pode causar micoses, orelhas inflamadas e dermatites severas.  * **Qual é o melhor momento para escovar o pelo do cão que nada muito?**   O ideal é escovar antes da natação para remover nós frouxos e logo após a secagem completa pós-enxágue, evitando que o pelo molhado embaraçe ainda mais."
+        }
+      }
+    ]
+  }
+}
