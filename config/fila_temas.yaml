@@ -313,7 +313,8 @@ temas:
   data: '2026-10-29'
 - termo: como escolher carrinho de passeio para cachorro idoso
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-29'
 - termo: como acostumar cachorro com a chegada de um bebe
   pilar: comportamento
   status: rascunho_pronto
@@ -1155,4 +1156,13 @@ temas:
   status: pendente
 - termo: o que verificar ao alugar um apartamento pet friendly na cidade
   pilar: utilidade_publica
+  status: pendente
+- termo: como viajar de carro com gato sem estresse
+  pilar: cuidados_diarios
+  status: pendente
+- termo: quais petiscos naturais são seguros para cães idosos
+  pilar: alimentacao
+  status: pendente
+- termo: melhores bebedouros de fonte para gatos que vivem em apartamento
+  pilar: produtos_compras
   status: pendente
