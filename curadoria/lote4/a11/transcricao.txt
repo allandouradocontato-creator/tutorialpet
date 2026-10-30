@@ -1,0 +1,6 @@
+idioma=en (0.97)
+[000.0-007.0] Like seriously dude?
+[007.0-011.0] Are you done?
+[011.0-014.0] What is that?
+[014.0-021.0] He's going but not going?
+[021.0-024.0] That is straight up dog digging.

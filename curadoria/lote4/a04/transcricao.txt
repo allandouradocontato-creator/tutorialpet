@@ -1,0 +1,7 @@
+idioma=pt (0.95)
+[000.0-002.0] Ele vai pegar com você?
+[002.0-003.0] Oi?
+[003.0-004.0] Ele vai pegar com você?
+[004.0-005.0] Pega?
+[005.0-006.0] É, ele pega!
+[006.0-007.0] Sem morde!

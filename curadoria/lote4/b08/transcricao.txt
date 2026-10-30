@@ -1,0 +1,10 @@
+idioma=pt (1.00)
+[000.0-007.3] 130 reais foi o valor da multa que eu recebi por andar com meu cachorro solto no carro.
+[007.3-010.4] E esse é um apto muito comum para a maioria dos brasileiros.
+[010.4-015.5] Se eu quero colocar a vida do seu cachorro em risco, você ainda pode acabar levando uma multa como essa.
+[015.5-019.4] Mas isso pode ser resolvido facilmente com um simples dispositivo como esse,
+[019.4-021.2] um cinto de segurança para pétio.
+[021.2-025.2] Você só precisa encaixar o dispositivo na favela do cinto, de segurança do carro
+[025.2-028.0] e prender a outra ponta na coleira ou petrol do cachorro.
+[028.0-030.4] Assim, seu animal fica mais seguro durante o trajeto,
+[030.4-034.9] você evita deixar ele solto dentro do carro e ainda evita tomar uma multa como essa.

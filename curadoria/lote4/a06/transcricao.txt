@@ -1,0 +1,10 @@
+idioma=pt (0.97)
+[000.0-002.0] José Augusto?
+[003.0-005.0] Ô José Augusto, vem aqui!
+[005.0-006.0] Vem!
+[006.0-008.0] José Augusto!
+[009.0-013.0] Vem aqui! Cadê o seu José?
+[013.0-015.0] Que que isso?
+[015.0-019.0] Cadê seu José? Cadê seu José Augusto?
+[019.0-023.0] Vem aqui! Vem aqui! Vem José!
+[023.0-024.0] Que isso?

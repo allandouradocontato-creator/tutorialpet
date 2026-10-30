@@ -1,0 +1,8 @@
+idioma=pt (1.00)
+[000.0-002.5] Seu pet sofre pra comer com potes baixos?
+[002.5-007.8] Aproveita, de R$ 29 por só R$ 14 nesse comedor elevado que resolve isso agora.
+[007.8-012.9] A altura perfeita que reduz esforço no pescoço, melhora a digestão e ainda deixa o cantinho
+[012.9-015.7] do seu pet muito mais organizado e higiênico.
+[015.7-017.8] Clica no carrinho laranja agora.
+[017.8-021.3] Esse preço é por tempo limitado e pode subir a qualquer momento.
+[021.3-023.4] Não deixa seu pet continuar sofrendo.

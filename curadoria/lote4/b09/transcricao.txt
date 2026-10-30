@@ -1,0 +1,2 @@
+idioma=es (0.47)
+[000.0-010.5] Yo que fui tormenta, yo que fui tornado, yo que fui volnaz.

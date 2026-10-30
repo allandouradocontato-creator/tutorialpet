@@ -1,0 +1,2 @@
+idioma=es (0.32)
+[000.0-003.0] ¡Oh no, no, no, no!

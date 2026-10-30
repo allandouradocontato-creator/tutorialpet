@@ -1,0 +1,7 @@
+idioma=en (0.76)
+[000.0-007.0] Today the music died
+[007.0-014.0] And they were singing by, by Miss American Pie
+[014.0-020.0] I drove my Chevy to the levee, but the levee was dry
+[020.0-025.0] And then good old boys were drinking whiskey and rye
+[025.0-030.0] Singing this will be the day that I die
+[030.0-034.0] This will be the day that I die

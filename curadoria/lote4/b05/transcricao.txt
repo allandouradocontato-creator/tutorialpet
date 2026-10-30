@@ -1,0 +1,10 @@
+idioma=pt (0.99)
+[000.0-002.8] Você entende a importância de escovar os dentes do seu cachorro?
+[002.8-005.3] O nosso cachorro estava com os dentes assim.
+[005.3-008.7] Precisou arrancar alguns dentes e ele ficou assim,
+[008.7-011.2] limpinho depois de uma mini cirurgia.
+[011.2-013.6] Isso pode causar doenças graves no seu cachorro
+[013.6-015.9] que pode ir para com o rente sanguíneo e ainda morrer.
+[015.9-017.3] Então, nós compramos essa escovinha,
+[017.3-019.5] que eu deixei o link para vocês aqui no carrinho laranja,
+[019.5-022.4] que ajuda muito e facilita na escovação diária dele.

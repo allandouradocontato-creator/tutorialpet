@@ -1,0 +1,5 @@
+idioma=en (0.86)
+[000.0-002.0] Trees? You guys want your trees?
+[030.0-032.0] What the heck?
+[032.0-034.0] What the hell?
+[034.0-036.0] What did you bring me?

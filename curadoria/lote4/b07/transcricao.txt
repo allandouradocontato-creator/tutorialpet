@@ -1,0 +1,10 @@
+idioma=pt (1.00)
+[000.0-003.9] E hoje vamos ofertar o café da manhã da Laninha no tapete Lambe Lampe.
+[003.9-008.4] Ah, mas pra que isso? Gente, o tapete Lambe Lampe é uma ótima ferramenta para os pets
+[008.4-011.2] que comem desesperadamente como se não houvesse amanhã.
+[011.2-015.5] Então ele vai proporcionar que o pet coma de forma mais lenta, mais tranquila.
+[015.5-019.9] Olha só como ele fica bem espalhado. Então o pet vai ter que colocar mais esforço
+[019.9-024.2] para conseguir ter o alimento. E agora vamos ofertar para ela.
+[024.2-028.6] Olha a cara de quem acabou de acordar toda descabelada, mas ela ama.
+[028.7-033.4] Eu tô dando aqui ele em natura, mas para aumentar a dificuldade você também pode congelar.
+[033.4-037.0] É uma ótima opção. Com esse calor então vai ter super bem-vindo.
