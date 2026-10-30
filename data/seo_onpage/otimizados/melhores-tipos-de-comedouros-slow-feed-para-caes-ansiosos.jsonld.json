@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Melhores tipos de comedouros slow feed para caes ansiosos: guia prático",
+    "description": "Melhores tipos de comedouros slow feed para caes ansiosos: guia prático. Ver um cão devorar o prato em menos de um minuto não é apenas sinal de...",
+    "datePublished": "2026-10-17",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Comedouro lento pode substituir o tratamento da ansiedade do cão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Ele é um suporte físico indispensável para evitar engasgos e vômitos imediatos, mas a ansiedade de fundo precisa de avaliação ambiental e acompanhamento com médico-veterinário de sua confiança."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo costuma durar a refeição em um comedouro slow feed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, uma porção que era consumida em 30 segundos costuma passar para 5 a 15 minutos, dependendo da complexidade do labirinto e do treino prévio do cão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cachorros idosos podem usar esse tipo de comedouro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que os relevos sejam baixos e o comedouro fique em uma base elevada confortável, sem forçar o pescoço ou as articulações envelhecidas do animal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O cão pode engolir ar mesmo usando o comedouro lento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A ingestão de ar diminui bastante porque ele para de engolir os grãos inteiros em grandes blocos, mas ainda é essencial monitorar se ele mastiga com calma."
+        }
+      }
+    ]
+  }
+}

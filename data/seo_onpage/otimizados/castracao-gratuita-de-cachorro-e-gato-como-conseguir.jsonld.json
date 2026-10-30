@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Castração gratuita de cachorro e gato: como conseguir: guia prático",
+    "description": "Castração gratuita de cachorro e gato: como conseguir: guia prático. Se você já fez as contas de quanto custa uma cirurgia particular e pensou que...",
+    "datePublished": "2026-10-30",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/castracao-gratuita-de-cachorro-e-gato-como-conseguir",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/castracao-gratuita-de-cachorro-e-gato-como-conseguir"
+    },
+    "image": "https://tutorialpet.com.br/imagens/castracao-gratuita-de-cachorro-e-gato-como-conseguir.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Precisa estar inscrito no CadÚnico para conseguir castração gratuita?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A maioria dos programas municipais exige comprovação de baixa renda por meio do CadÚnico ou de programas sociais, mas existem exceções onde o atendimento é universal para munícipes. Consulte sempre o edital da sua cidade. *   **Filhotes muito novos podem ser castrados de graça pelo governo?**     Em média, os programas aceitam pets a partir de 6 meses de idade, mas isso varia conforme o protocolo do órgão público e a avaliação pré-anestésica do médico-veterinário. *   **O governo fornece os remédios do pós-operatório?**     Alguns mutirões entregam um kit pós-cirúrgico com analisador de dor e antibiótico, enquanto outros apenas receitam os medicamentos para que o tutor compre por conta própria. Verifique essa regra antes da cirurgia. *   **Posso levar um animal de rua para castrar no mutirão público?**     Depende. Vários programas aceitam protetores independentes cadastrados, mas há prefeituras que exigem que o tutor seja o proprietário legal com comprovante de residência em próprio nome."
+        }
+      }
+    ]
+  }
+}
