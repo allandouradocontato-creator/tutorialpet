@@ -158,3 +158,8 @@ Contagem: decididas abertas ~30 / feitas +1 (V18 fechada: fallback Cloudflare em
 
 ## 30/10 — lote 5 (Sonnet, coleta)
 Entregue `data/remix/curadoria_lote5_tabela.md`: humor 30/30 passando (a01–a30), produto 19/20 passando (b02,b03,b06,b07,b10,b17,b20,b25,b26,b27,b29,b31,b32,b39,b41–b45; Shopee ≥1 mil vendas e ≤R$100 conferida). Originais em `Downloads/Tutorial Pet/reacts/originais_lote5/`. Zero crédito ElevenLabs/HeyGen. Pendente: Fable julga (assistindo com áudio); Shorts/Reels não coletados; 60 candidatos de produto só tiveram comentários checados, não baixados.
+
+## 30/10/2026 — julgamento + animáticos lote 5
+- Fable julgou (data/remix/julgamento_lote5_fable.md): finalistas a09, a16, a17 (humor) e b32, b03, b31 (produto Shopee); reservas a05, a10, b29, b42.
+- Voz Marianne gerada linha a linha (18 falas) em animaticos/lote5/voz; 6 animáticos (Duda parada, zero HeyGen) em animaticos/lote5 e na pasta Downloads/Tutorial Pet/reacts/animaticos_lote5.
+- Próximo: Allan ouve; só com novo "pode" vai ao HeyGen (looks B1/B2r já salvos). Builder: scripts/animatico_lote5.py.
