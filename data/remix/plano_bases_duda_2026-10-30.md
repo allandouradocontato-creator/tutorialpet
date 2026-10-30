@@ -43,3 +43,13 @@ Baixar cada foto com nome: duda_base2_sofa_W_cima_esquerda.jpg, duda_base2_sofa_
 2. Clipes HeyGen: r01 em B1 (3,7 %), r02 em B2 (2,9 %), r05 em B3 (3,0 %).
 3. Montagem (B1/B3 padrão; B2 invertida conforme seção 5) → 5 quadros → Buffer no horário do plano.
 4. Registrar as bases em biblioteca/habilidades/react_duda_padrao.md (seção "Bases") e em resultados.csv (coluna voz: anotar a base).
+
+## 3b. Versão REALISTA dos prompts (Allan, 30/10 00h47: "menos profissional, mais realidade, menos rico")
+Regra: a Duda é uma tutora comum filmando no celular dela, não modelo em estúdio. Os 4 looks de 3 ficam como reserva; gerar 4 novos (8 créditos = 2,0 % de 396).
+Bloco comum (colar no fim de todo prompt): "Casual phone selfie, slightly off-center, phone held at arm's length, mild lens distortion, slight grain. No-makeup look, natural skin texture with minor imperfections, a few loose hair strands. Ordinary light, no studio lighting, nothing staged. Same face as the reference."
+- B2r-W-esq: "Same woman, messy high ponytail, worn light grey hoodie, sitting on an ordinary sofa in a small Brazilian apartment at night, plain white walls, a folded blanket and a TV remote on the sofa, a small white poodle lying on her lap. She is looking UP toward the LEFT side of the image, amused half-smile, as if watching a video above her." + bloco comum
+- B2r-C: idem, "looking directly at the phone camera, relaxed smile" + bloco comum
+- B3r-W-esq: "Same woman, hair in a loose bun, plain slightly wrinkled black t-shirt, on a simple apartment balcony on an overcast day, clothesline and a plastic chair behind her, neighbor buildings in the background, elbow on the railing. She is looking DOWN toward the LEFT side of the image, eyes clearly lowered, head tilted down, playful smile, as if watching a video below her." + bloco comum
+- B3r-C: idem, "looking directly at the phone camera, relaxed smile" + bloco comum
+Nomes: duda_base2r_sofa_real_W_cima_esquerda.jpg, duda_base2r_sofa_real_C_camera.jpg, duda_base3r_varanda_real_W_baixo_esquerda.jpg, duda_base3r_varanda_real_C_camera.jpg. Mostrar os 4 ao Allan e parar (sem clipe até o "pode").
+Critério de aprovação: parece foto de celular de uma pessoa real; rosto = Duda; olhar certo. Se sair "bonito demais" de novo, 1 refino (2 créditos) acrescentando "amateur snapshot, not a professional photo".
