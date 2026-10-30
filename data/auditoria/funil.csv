@@ -7,3 +7,11 @@ data,etapa,parados,mais_antigo_h,causa_provavel
 2026-10-23,6 artigo no ar sem post agendado,,,NAO MEDIDO: posts do Zernio/Buffer nao trazem slug; ver amostra na semanal
 2026-10-23,7 estoque de posts (dias),0,,Zernio 23 posts ate 25/10 23:00Z (~2.4 d); Buffer TikTok 9 posts ate 25/10 23:20Z (~2.5 d); acima de 2 d mas no limite
 2026-10-23,8 post em erro,0,0,Zernio failed=0; Buffer error=0
+2026-10-30,1 tema na fila (pendente),242 rascunho_pronto/1191 linhas,,estoque de temas; nao e gargalo
+2026-10-30,2 rascunho sem SEO (nao promovido),3,>=24,hidratar-gato-idoso + slow-feed + maus-tratos: rascunho+SEO existem mas nao entram em blog_aprovados porque a capa e barrada (Gemini/"nenhuma mostra o tema"; 5a vez V23)
+2026-10-30,3 SEO sem pacote,0,0,nao medido por slug
+2026-10-30,4 pacote aguardando_revisao,nao medido,,branch media nao varrida nesta rodada (sem evidencia nova)
+2026-10-30,5 pacote aprovado sem artigo no ar (404),3,~40,os mesmos 3 slugs da etapa 2 (curl 404 em 30/10); 4 aprovados sem capa tem capas_refazer em andamento (run 41064656546)
+2026-10-30,6 artigo no ar sem post agendado,,,NAO MEDIDO: Zernio/Buffer nao trazem slug
+2026-10-30,7 estoque de posts (dias),2 redes <2 d,,TikTok/Buffer 8 na fila ate 31/10 23:20Z = 1.4 d (teto 10); FB+IG/Zernio 8 posts ate 31/10 18:00Z = 1.2 d; VERMELHO (regra: estoque <2 d vence tudo)
+2026-10-30,8 post em erro,8 antigos,~100+,Zernio failed=8 (26/10 video nao buscavel + 2 de imagem); Buffer error=0; E151 ja cobra HTTP 200 antes de agendar

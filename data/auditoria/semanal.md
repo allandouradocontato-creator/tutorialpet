@@ -39,3 +39,9 @@ Nada a assinar (Buffer grátis cobre ~3 dias de TikTok com 10 na fila; Zernio ok
 
 ## Tarefas manuais devolvidas ao Allan
 0 por falha de processo nesta rodada. Só identidade/login: recriar chave ElevenLabs (user_read) e conferir qual secret o creditos_eleven.yml usa, 2FA, verificação TikTok.
+
+## Semana 2026-10-30 (Removedor de Gargalos, 2ª rodada)
+- Gargalo nº 1 (parados×horas): ESTOQUE de posts <2 dias em 2 redes (TikTok 1,4 d; FB/IG 1,2 d). Vence qualquer outro pela regra. Causa (c)/(d): repor = agendar, que a rotina não faz; ficha E153 para o Agendador/Diretor de Audiência (só itens NÃO agendados, HTTP 200 antes).
+- Gargalo removível (a): 3 artigos prontos (hidratar-ração-gato-idoso, slow-feed, maus-tratos) sem página há >24 h por capa barrada (5ª vez, V22/V23/E144). Correção: plano B de capa em blog_publicar_nuvem.py (foto de banco do mesmo animal, espécie conferida, não proibida/usada) — commit nesta rodada. Evidência pendente: próximo Publicar Blog verde + curl 200 dos 3.
+- Régua 7: nenhuma skill nova saiu de rascunho (decifrador e blog_adsense têm n=0 lidos). Régua 5: 0 propostas pendentes (nenhuma skill com 3 linhas iguais).
+- Próximo gargalo previsto: Publicar Blog (taxa de reprovação por capa) e reservas de vídeo; Zernio failed=8 antigos sem limpeza.

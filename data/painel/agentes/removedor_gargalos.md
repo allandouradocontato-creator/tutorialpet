@@ -18,3 +18,8 @@ Custo de credito conhecido: nao conhecido (rotina na nuvem nao verificada por li
 - Prova: data/auditoria/funil.csv (8 etapas, 7 medidas), linha em aprendizado/remocao_de_gargalos.md, ficha E56 em execucao.md, bloco em semanal.md. Rodou como rotina de nuvem (sessão agendada), sem o Allan.
 - Nota de robustez: 2 (era 1). Sobe porque há saída em arquivo; não passa de 2 até o Juiz (nota ≥ 7) julgar a rodada e a de 30/10 mostrar o número caindo.
 - Lacunas: etapa 6 (artigo no ar sem post agendado) não medível porque Zernio/Buffer não trazem slug; agir é limitado a ficha quando a correção é promover/publicar; o contrato fala em horas e o prompt em semana (alinhar).
+
+## Atualização 30/10/2026 (2ª rodada real)
+- Prova: funil.csv (7/8 etapas), semanal.md, linha de aprendizado, fichas E153/E154, commit no plano B de capa. Rotina de nuvem confirmada (esta sessão agendada).
+- Nota de robustez: 2 → 3. Sobe porque a rodada repetiu com saída em arquivo e uma correção (a) com commit; não passa de 3 até o curl 200 dos 3 slugs e o Juiz (nota ≥ 7).
+- Lacunas: etapas 4 (branch media) e 6 (slug nos posts) não medidas; estoque não removível por mim (agendar é proibido), vira ficha; prompt ainda diz semanal e contrato diz horas.

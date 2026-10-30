@@ -21,3 +21,6 @@
 ## Limites
 - plataforma_meta_organico.md (passo 8 grade, rótulo de IA, hashtags, link no 1º comentário) e plataforma_tiktok_organico.md (J2 música CML, J3 rótulo IA/comercial, J6 sem 'link no perfil').
 - Os 6 posts do teste CTA não são tocados; fila grátis do Buffer limitada a 10 posts no TikTok; postagens nunca coladas uma na outra.
+
+## Atualização 30/10/2026 (Removedor de Gargalos)
+- Lacuna: estoque <2 d (TikTok 1,4 d; FB/IG 1,2 d) e 8 failed no Zernio; E153 cobra reposição com HTTP 200 antes (E151). Prova de aprendizado: nenhuma nova nesta rodada.

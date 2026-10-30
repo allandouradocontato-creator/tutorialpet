@@ -171,6 +171,22 @@ def preparar(slug: str, indice: str, media: Path | None) -> None:
                 shutil.rmtree(cand, ignore_errors=True)
                 run([sys.executable, "blog_imagens_nuvem.py", slug])
                 idx, motivo = escolher(slug)
+            if idx is None and not motivo.startswith("visao indisponivel") and especie:
+                # 30/10 (Removedor de Gargalos, E144/V23): 5a barra de capa por Gemini/"nenhuma mostra o tema". Depois das candidatas
+                # novas, aceita foto de banco do mesmo animal (especie conferida), nao proibida e nao usada em outro artigo; nunca capa sem relacao.
+                try:
+                    from core.capa import proibidas, usadas_por_outros, _md5
+                    from core.coerencia import verificar_imagens as _vi
+                    _ban, _usadas = proibidas(), usadas_por_outros(slug)
+                    for _f in sorted(cand.glob("*.jpg"), key=lambda f: int(f.stem)):
+                        if _md5(_f) in _ban or _md5(_f) in _usadas:
+                            continue
+                        _ok, _mot = _vi([_f.read_bytes()], especie, "", primeira_obrigatoria=True)
+                        if _ok and not _mot.startswith("nenhum animal") and "nao verificada" not in _mot and "não verificada" not in _mot:
+                            idx, motivo = int(_f.stem), f"plano B banco: foto do mesmo animal ({especie}) sem relacao exata com o tema; {_mot}"
+                            break
+                except Exception as _exc:  # noqa: BLE001
+                    print("[capa] plano B banco falhou:", str(_exc)[:100])
             if idx is None:
                 if motivo.startswith("visao indisponivel"):
                     print("[capa] nao verificada:", motivo)

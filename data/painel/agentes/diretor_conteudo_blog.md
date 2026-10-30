@@ -24,3 +24,6 @@
 
 ## Atualização 23/10/2026 (Removedor de Gargalos)
 - E35 (promover cinto, asfalto, caixa-de-transporte em 23/10) está aberta: cinto e caixa já aparecem como agendado, asfalto segue aguardando_revisao há 168 h sem aprovação. Reforço em E56. Próximo diretor: segunda 26/10 11:37 (lacuna de 3 dias sem diretor; o Vigia cobre a promoção nesse intervalo).
+
+## Atualização 30/10/2026 (Removedor de Gargalos)
+- Mudou: blog_publicar_nuvem.py ganhou plano B de capa (foto de banco do mesmo animal). Lacuna: 3 artigos (hidratar-gato-idoso, slow-feed, maus-tratos) ainda sem página até o próximo Publicar Blog verde; nota não sobe até o curl 200.
