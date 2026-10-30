@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Cachorro Pode Comer Banana? Guia Prático",
+  "gancho_3s": "Seu cachorro pede banana? Até meia fruta por dia.",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro pede banana? Até meia fruta por dia.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Cachorro pode comer banana?"
+    },
+    {
+      "narracao": "[smiling] Seu cachorro fica pidão comendo banana? Ele pode sim!",
+      "visual_busca_banco_livre": "curious dog looking up waiting for treat indoor",
+      "texto_na_tela": "Cachorro pode comer banana?"
+    },
+    {
+      "narracao": "[warmly] A fruta tem potássio, mas também açúcar. Sirva só como petisco.",
+      "visual_busca_banco_livre": "happy dog licking nose sitting on floor",
+      "texto_na_tela": "Rica em nutrientes, mas com frutose"
+    },
+    {
+      "narracao": "[thoughtful] A dose certa é uma rodelinha para pequenos, ou até meia para grandões.",
+      "visual_busca_banco_livre": "small puppy eating slowly from pet mat",
+      "texto_na_tela": "Porte pequeno: 1 a 2 rodelas"
+    },
+    {
+      "narracao": "[softly] Nunca dê a casca, porque ela pode causar engasgo.",
+      "visual_busca_banco_livre": "dog looking attentively at ground indoor",
+      "texto_na_tela": "Nunca dê a casca!"
+    },
+    {
+      "narracao": "[short pause] Você pode dar fresca, congelada ou amassadinha.",
+      "visual_busca_banco_livre": "dog licking rubber enrichment toy on carpet",
+      "texto_na_tela": "Fresca, congelada ou amassadinha"
+    },
+    {
+      "narracao": "[warmly] E antes de mudar a dieta, fale com o veterinário.",
+      "visual_busca_banco_livre": "calm dog lying on floor looking at camera",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#alimentacaocanina",
+    "#cachorro",
+    "#petisconatural",
+    "#dicaspet",
+    "#saudedocao"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro pede um pedaço de banana? Veja como oferecer sem perigo!\n\n📖 Artigo completo: https://tutorialpet.com.br/cachorro-pode-comer-banana\n\n#alimentacaocanina #cachorro #petisconatural #dicaspet #saudedocao",
+  "slug": "cachorro-pode-comer-banana",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 1
+}
