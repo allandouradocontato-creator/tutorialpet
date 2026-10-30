@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Adotar ou comprar um cachorro: o que ninguém conta antes de decidir",
+    "description": "Adotar ou comprar um cachorro: o que ninguém conta antes de decidir. Decidir trazer um novo cão para a rotina exige reflexão profunda sobre tempo,...",
+    "datePublished": "2026-10-28",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual é a principal vantagem de adotar um cachorro adulto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O temperamento, o porte definitivo e o nível de energia já estão formados, o que ajuda a encontrar um pet que se encaixe perfeitamente na sua rotina.  - **Comprar um cachorro de raça garante que ele não terá problemas de saúde?**   Não. Embora criadores éticos façam triagens genéticas, qualquer cão pode desenvolver condições de saúde ao longo da vida, exigindo acompanhamento veterinário regular.  - **O custo de manter um cachorro de raça é maior do que o de um cão sem raça definida?**   Não necessariamente. Os custos básicos de alimentação, vacinas e cuidados de saúde costumam ser semelhantes, variando mais de acordo com o porte do animal do que com a sua origem.  - **Como saber se estou pronto para ter um cachorro?**   Você estará pronto quando tiver estabilidade financeira para imprevistos, tempo diário disponível para atenção e disposição para adaptar sua rotina por mais de uma década."
+        }
+      }
+    ]
+  }
+}

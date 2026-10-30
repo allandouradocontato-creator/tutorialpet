@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quanto de racao dar para gato adulto por dia: guia prático",
+    "description": "Descubra quanto de ração dar para gato adulto por dia com base no peso, nível de atividade e castração. Guia prático e seguro.",
+    "datePublished": "2026-10-29",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quanto-de-racao-dar-para-gato-adulto-por-dia",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quanto-de-racao-dar-para-gato-adulto-por-dia"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso deixar a ração à vontade o dia todo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gatos que sabem autorregular a fome podem ter ração à vontade, mas a maioria acaba comendo por tédio, o que leva rapidamente à obesidade.  - **Como calcular a porção se misturo ração seca e sachê?**   Você deve subtribuir parte da ração seca proporcionalmente às calorias fornecidas pelo sachê, seguindo sempre a tabela de equivalência do verso das embalagens.  - **Qual é o melhor horário para pesar a ração do gato?**   O ideal é pesar a porção total do dia inteiro pela manhã e guardá-la em um potinho fechado, garantindo controle absoluto sobre o que ele come.  - **Quando devo procurar o médico-veterinário por causa do peso?**   Sempre que notar ganho ou perda de peso rápida sem mudança na dieta, ou se o gato recusar a comida por mais de 24 horas seguidas."
+        }
+      }
+    ]
+  }
+}

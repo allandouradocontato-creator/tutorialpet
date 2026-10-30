@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Quais frutas cachorro pode comer no verao com seguranca: guia prático",
-    "description": "Quais frutas cachorro pode comer no verao com seguranca: guia prático. Quando os dias quentes chegam, a gente só quer saber de se refrescar com uma...",
+    "description": "Quais frutas cachorro pode comer no verao com seguranca: guia prático. Nos dias de calor intenso, refrescar o pet de forma saudável é uma das maiores...",
     "datePublished": "2026-10-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca"
-    },
-    "image": "https://tutorialpet.com.br/imagens/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Pode dar maçã com casca para o cachorro?",
+        "name": "1. Todo cachorro pode comer frutas no verão?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, mas lave muito bem e retire completamente o cabo e as sementes, pois elas contêm substâncias tóxicas."
+          "text": "A maioria dos cães saudáveis pode consumir frutas seguras com moderação, mas filhotes muito novos, cães com estômago sensível ou animais com doenças metabólicas precisam de avaliação veterinária prévia."
         }
       },
       {
         "@type": "Question",
-        "name": "Quantas vezes por semana posso dar fruta?",
+        "name": "2. Posso dar a fruta com casca para o cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, de duas a três vezes por semana é um bom começo, sempre em pequenas porções e com orientação do médico-veterinário do pet."
+          "text": "Depende da fruta. Maçã e pera devem ter a casca muito bem lavada ou retirada se o cão tiver digestão sensível, enquanto melancia, melão e banana devem ter a casca totalmente descartada por serem indigestas ou tóxicas."
         }
       },
       {
         "@type": "Question",
-        "name": "Cachorro pode comer manga?",
+        "name": "3. Quantas vezes por semana posso dar fruta congelada?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, a polpa da manga é segura, desde que você remova totalmente o caroço grande que apresenta risco de engasgo."
+          "text": "Pode ser oferecida de duas a três vezes por semana como um agrado refrescante, desde que respeitado o limite calórico diário de petiscos da dieta do animal."
         }
       },
       {
         "@type": "Question",
-        "name": "O que fazer se o cachorro recusar a fruta?",
+        "name": "4. O que fazer se meu cachorro comer uva por engano?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não force. Cada cão tem seu paladar próprio, e está tudo bem se ele preferir continuar apenas com a rotina normal de comidinhas."
+          "text": "Entre em contato com um médico-veterinário imediatamente, pois a uva é altamente tóxica para cães e pode comprometer rapidamente a função dos rins."
         }
       }
     ]
