@@ -133,3 +133,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 
 - 30/10/2026 (lote 5, Fable): julguei humor por folha de quadros e escolhi picos MUDOS com números grandes; o Allan reprovou os 6 animáticos. A régua "≤ 7 dias" cortou os clipes que viralizam de verdade (pet "falando", 10-60 mi views, meses de idade). Correção: régua v6 (regra 45): pico com som/história + paralelo humano; frescor é só desempate.
 - 2026-10-30: Bash com 'while read' + ffmpeg sem -nostdin: ffmpeg consome o stdin e pula arquivos. Sempre usar -nostdin (ou for em glob).
+- 2026-10-30: Julgamento lote 6 (Fable) marcou o corte do h1 em 25–45 s, mas o pico ('Or what', legenda do criador) está em 15,0–15,5 s — o animático saiu sem o pico. Regra: o segundo exato do pico é lido em grade de quadros (fps=1 com faixa das legendas) + transcrição ANTES de fixar o corte, e o corte é escrito como 'pico em X s → corte X-7..X+13'.
