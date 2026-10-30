@@ -9,6 +9,6 @@ Número do dia: rotinas falhando ou suspensas = 0 ativas com falha (12 pausadas 
 | publicar_blog.yml | #75 verde 29/10 19:26 (dispatch) | #75 | 12 h | #72/#73 vermelhos ontem; issues #21-#40 abertas (antigas, fábrica/blog de 27-29/10) | nenhuma pendente de ação nova |
 | Blog | 0 artigos hoje (plano 3); último build 29/10 19:38; sem aprovado sem página | - | 12 h | 3 com Fontes (hidratar-a-racao-seca-de-gato-idoso, melhores-tipos-de-comedouros-slow-feed, maus-tratos-...) são os travados por capa; maus-tratos e pinscher reprovados no #74 | NÃO repromovi (5a queda por capa seria repetição; regra de 29/10 15:30); fábrica disparada reescreve; ficha V23 |
 | AdSense (auditoria) | 3 FALHA | - | - | buraco 15/09-06/10 (histórico, não corrigível); 4 sem capa e 4-5 sem Fontes | os mesmos slugs travados; reforco_blog dispara depois que a fábrica passar |
-| Zernio | 8 em erro (mídia 404/422, antigos: 3 grupos de 26-28/10); 8 agendados; publicado: banho-cachorro (hoje 07:xx) | - | <3 h | retry proibido | ficha V10/V14 existente |
+| Zernio | 8 em erro (mídia 404/422, antigos: 3 grupos de 26-28/10); 8 agendados; último publicado: banho-cachorro (hora não lida) | - | <3 h | retry proibido | ficha V10/V14 existente |
 | Buffer/TikTok | org ok (sem leitura de posts nesta rodada: limite de tempo) | - | - | - | - |
 | ElevenLabs | 306 créditos, preflight reprova vídeo de 31 s | - | - | só artigo sem voz; vídeo só após renovação 07/11 | ficha V19 existente |
