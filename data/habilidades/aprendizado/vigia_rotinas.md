@@ -32,3 +32,4 @@
 2026-10-29 | 15:30 promoveu fonte-de-agua-gatos, maus-tratos-lei, pinscher-Luisa (3 com Fontes, sem capa travada); NAO repromoveu slow-feed/hidratar (4a queda por capa/Gemini 429); blog 0/3 | aguardando publicar_blog #74 verde + 200 (E34, n=3) | altera: parar de repromover travados, esperar E144
 2026-10-29 | 19:25 #74 verde (3 artigos no ar), fabrica verde #197; 3 aprovados sem pagina (socializar-gato, piscina, carrinho): dispatch REST publicar_blog + reforco_blog (fonte-de-agua sem Fontes) | aguardando nova rodada publicar_blog verde + 3 paginas 200 (E34, n=1) | mantém
 2026-10-30 | 07:30 fabrica sem rodada das 06h (nem reserva): dispatch REST; blog 0/3; travados por capa NAO repromovidos; V23 | aguardando fabrica verde + 1o artigo 200 (E34, n=1) | mantém
+2026-10-30 | 12:05 blog 0/3: promovi hidratar, slow-feed, maus-tratos (plano B de capa já na main); redes e fábrica verdes | aguardando publicar_blog verde + 3 páginas 200 (E34, n=1) | mantém
