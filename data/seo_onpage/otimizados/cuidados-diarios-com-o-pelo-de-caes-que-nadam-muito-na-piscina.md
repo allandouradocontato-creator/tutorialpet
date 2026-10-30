@@ -108,3 +108,10 @@ Sim, cães de pelagem escura podem apresentar desbotamento e tons avermelhados, 
 Cuidar da pelagem de um cão que adora nadar exige consistência, mas o esforço vale a pena para garantir que ele aproveite a piscina com saúde e conforto. Lembre-se de que cada raça tem necessidades específicas e que o acompanhamento veterinário é indispensável para ajustar a rotina de banhos e hidratação. 
 
 Esperamos que este guia tenha ajudado a esclarecer suas dúvidas. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais o vínculo com o seu companheiro de quatro patas.
+
+## Fontes e referências
+
+- [Are Chlorine Pools Safe for Dogs? Swimming and Safety Tips](https://www.akc.org/expert-advice/health/can-dogs-swim-in-chlorine-pools/) — American Kennel Club (EUA, fonte estrangeira).
+- [How to Pool-Proof Your Dog's Coat](https://www.akc.org/expert-advice/health/how-to-pool-proof-your-dogs-coat/) — American Kennel Club (EUA, fonte estrangeira).
+
+Não há, até a data desta revisão, uma posição específica de entidade veterinária brasileira (como o CFMV) sobre este tema; por isso as referências acima são internacionais. Em caso de dúvida sobre a saúde do seu pet, consulte um médico-veterinário.

@@ -20,13 +20,12 @@
 | sem capa proibida (agressiva) | PASSA | [] |
 | todos com capa | FALHA | ['como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo', 'cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina', 'como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos', 'como-socializar-gato-filhote-com-visitas-e-novos-barulhos'] |
 | artigos de saude citam veterinario | PASSA | [] |
-| TODOS os artigos com secao Fontes e referencias (>=2 links) | FALHA | 5 sem fonte: ['como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo', 'cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina', 'como-escolher-carrinho-de-passeio-para-cachorro-idoso', 'como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos'] |
+| TODOS os artigos com secao Fontes e referencias (>=2 links) | PASSA | 0 sem fonte: [] |
 | sem texto de modelo visivel | PASSA |  |
 | autor nomeado (pessoa) nos artigos | PASSA | byline ainda 'Equipe Tutorial Pet' |
 | Sobre tem secao de equipe/autor | PASSA |  |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (3)
+## Corrigir (2)
 - **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
 - **todos com capa**: ['como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo', 'cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina', 'como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos', 'como-socializar-gato-filhote-com-visitas-e-novos-barulhos'] -> gerar capa
-- **TODOS os artigos com secao Fontes e referencias (>=2 links)**: 5 sem fonte: ['como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo', 'cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina', 'como-escolher-carrinho-de-passeio-para-cachorro-idoso', 'como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos'] -> pesquisar fontes reais e inserir antes do fechamento

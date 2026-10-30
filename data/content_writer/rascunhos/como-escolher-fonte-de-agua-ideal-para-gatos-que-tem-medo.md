@@ -86,3 +86,11 @@ Em média a cada quatro semanas, dependendo do modelo e da quantidade de pelos n
 ## Para fechar
 
 Escolher a fonte ideal para um gato medioso exige paciência, observação do comportamento e respeito ao tempo de adaptação do animal. Cada detalhe, desde o nível de ruído até o material do recipiente, faz diferença para que o pet se sinta seguro e hidratado todos os dias. Continue navegando pelo blog para descobrir mais dicas práticas e cuidar ainda melhor do seu companheiro.
+
+## Fontes e referências
+
+- [How To Get Your Cat To Drink More Water](https://vcahospitals.com/resources/preventive-cat/nutrition/tips-to-encourage-cats-to-drink-more-water) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Cat Carer Guide: encouraging your cat to drink](https://icatcare.org/resources/cat-carer-guide-encouraging-your-cat-to-drink.pdf) — International Cat Care (Reino Unido, fonte estrangeira).
+- [Proper Nutrition for Cats](https://www.merckvetmanual.com/cat-owners/selecting-and-providing-a-home-for-a-cat/proper-nutrition-for-cats) — Merck Veterinary Manual (EUA, fonte estrangeira).
+
+Não há, até a data desta revisão, uma posição específica de entidade veterinária brasileira (como o CFMV) sobre este tema; por isso as referências acima são internacionais. Em caso de dúvida sobre a saúde do seu pet, consulte um médico-veterinário.

@@ -86,3 +86,11 @@ Exemplo prático: Antes de aposentar totalmente as caminhadas curtas que ele ain
 ## Para fechar
 
 Escolher um carrinho de passeio para o seu veterano peludo é um ato de amor prático que devolve a liberdade de explorar o mundo a quem já andou tanto ao seu lado. Com a estrutura certa, rodas que enfrentam qualquer calçada e muito carinho, cada volta no quarteirão volta a ser o momento mais aguardado do dia. Continue navegando pelo blog para descobrir mais dicas essenciais e garantir que a rotina do seu companheiro idoso seja impecável em todas as fases.
+
+## Fontes e referências
+
+- [How to Make Your Home More Accessible for Your Senior Dog](https://www.akc.org/expert-advice/home-living/making-home-accessible-for-senior-dog/) — American Kennel Club (EUA, fonte estrangeira).
+- [Osteoarthritis (Degenerative Joint Disease) — Dog Owners](https://www.merckvetmanual.com/dog-owners/bone-joint-and-muscle-disorders-of-dogs/osteoarthritis-degenerative-joint-disease) — Merck Veterinary Manual (EUA, fonte estrangeira).
+- [Exercising Dogs with Osteoarthritis](https://vcahospitals.com/know-your-pet/exercising-dogs-with-osteoarthritis) — VCA Animal Hospitals (EUA, fonte estrangeira).
+
+Não há, até a data desta revisão, uma posição específica de entidade veterinária brasileira (como o CFMV) sobre este tema; por isso as referências acima são internacionais. Em caso de dúvida sobre a saúde do seu pet, consulte um médico-veterinário.

@@ -63,3 +63,11 @@ Se notar alteração drástica na quantidade de água ingerida, apatia ou dificu
 ## Para fechar
 
 Escolher a melhor fonte elétrica para o seu gato exige avaliar o comportamento do pet, a facilidade de limpeza do material e a eficiência do sistema de filtragem. Com um equipamento adequado e limpo regularmente, você protege a saúde urinária e renal do seu felino de forma simples e natural. Continue navegando pelo nosso blog para descobrir mais dicas essenciais para o dia a dia com os seus animais de estimação.
+
+## Fontes e referências
+
+- [How To Get Your Cat To Drink More Water](https://vcahospitals.com/resources/preventive-cat/nutrition/tips-to-encourage-cats-to-drink-more-water) — VCA Animal Hospitals (EUA, fonte estrangeira).
+- [Cat Carer Guide: encouraging your cat to drink](https://icatcare.org/resources/cat-carer-guide-encouraging-your-cat-to-drink.pdf) — International Cat Care (Reino Unido, fonte estrangeira).
+- [Proper Nutrition for Cats](https://www.merckvetmanual.com/cat-owners/selecting-and-providing-a-home-for-a-cat/proper-nutrition-for-cats) — Merck Veterinary Manual (EUA, fonte estrangeira).
+
+Não há, até a data desta revisão, uma posição específica de entidade veterinária brasileira (como o CFMV) sobre este tema; por isso as referências acima são internacionais. Em caso de dúvida sobre a saúde do seu pet, consulte um médico-veterinário.
