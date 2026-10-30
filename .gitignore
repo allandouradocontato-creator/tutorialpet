@@ -10,3 +10,8 @@ data/keyword_research/*/
 /STOP
 
 data/acelerador/
+
+# Curadoria lote 4: mídia pesada fica só no PC (Downloads\Tutorial Pet\reacts\originais_lote4); no repositório vão transcrições, comentários e capturas
+curadoria/lote4/*/original.mp4
+curadoria/lote4/*/audio.wav
+curadoria/lote4/*/folha.jpg
