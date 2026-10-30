@@ -1,0 +1,2 @@
+idioma=nn (0.39)
+(sem fala detectada)

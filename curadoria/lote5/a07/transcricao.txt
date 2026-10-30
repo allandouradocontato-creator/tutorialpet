@@ -1,0 +1,7 @@
+idioma=es (0.69)
+[000.0-002.0] Que no existe
+[002.0-005.0] Imaginate mi cuarta
+[005.0-007.0] Comiéndote a beso
+[007.0-010.0] Como en los viejos tiempos
+[010.0-012.0] Que rico sería eso
+[012.0-015.0] Imaginate mi cuarta

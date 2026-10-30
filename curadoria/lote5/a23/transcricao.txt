@@ -1,0 +1,5 @@
+idioma=en (0.75)
+[000.0-002.0] But it was kung fu fighting
+[004.0-008.0] Those kids were fast as lightning
+[009.0-012.0] And the fact it was a little bit frightening
+[013.0-015.0] But they gave it a...

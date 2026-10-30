@@ -1,0 +1,13 @@
+idioma=pt (0.98)
+[000.0-002.0] Estou ensinando meu cachorro e vá, assim ó
+[003.0-005.0] Aooo
+[005.0-007.0] Tem que levantar mais a cabeça, mais assim
+[008.0-010.0] Aooo
+[011.0-013.0] Isso, um pouquinho mais forte
+[014.0-016.0] Eu moro lá, eu moro
+[017.0-020.0] Isso, mas aí tem que continuar, oooo
+[020.0-021.0] Mais uma vez, ó
+[022.0-024.0] Aooooo
+[026.0-027.0] Mais longo, ó
+[027.0-029.0] O que é isso?
+[029.0-031.0] É isso do bem.

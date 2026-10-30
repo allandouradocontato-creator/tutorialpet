@@ -17,7 +17,8 @@ def med(i):
     try:
         o=subprocess.run(["yt-dlp","-j","--no-download",url],capture_output=True,text=True,timeout=120).stdout
         d=json.loads([x for x in o.splitlines() if x.startswith('{')][0])
-        return dict(id=i,conta=u,fonte=s,link=url,views=d.get('view_count'),curtidas=d.get('like_count'),coment=d.get('comment_count'),compart=d.get('repost_count'),dur=d.get('duration'),ts=d.get('timestamp'),titulo=(d.get('title') or '')[:90].replace('\n',' '))
+        real='@'+(d.get('uploader') or u.lstrip('@')); url=f'https://www.tiktok.com/{real}/video/{i}'
+        return dict(id=i,conta=real,fonte=s,link=url,views=d.get('view_count'),curtidas=d.get('like_count'),coment=d.get('comment_count'),compart=d.get('repost_count'),dur=d.get('duration'),ts=d.get('timestamp'),titulo=(d.get('title') or '')[:90].replace('\n',' '))
     except Exception as e:
         return dict(id=i,conta=u,fonte=s,link=url,views=None,titulo='ERRO '+str(e)[:40])
 with ThreadPoolExecutor(8) as ex: rows=list(ex.map(med,links))

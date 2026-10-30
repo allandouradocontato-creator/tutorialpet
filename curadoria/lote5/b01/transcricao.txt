@@ -1,0 +1,2 @@
+idioma=en (0.26)
+(sem fala detectada)

@@ -1,0 +1,5 @@
+idioma=pt (0.99)
+[000.0-003.8] Seu pet sofre com o calor, o tapete refrescante garante alívio imediato.
+[003.8-005.9] Ele traz mais conforto e energia para o seu amigo.
+[005.9-008.1] A superfície fresquinha é perfeita para os dias quentes.
+[008.1-009.8] É bem-estar e saúde para todos os dias.

@@ -1,0 +1,11 @@
+idioma=pt (0.99)
+[000.0-002.6] Aproximou e começa a funcionar.
+[002.6-010.2] Essa aqui é a fonte de ácido inoxidável que fica funcionando sem precisar ser conectada na tomada.
+[010.2-018.0] Ela tem três modos, eu deixei conectada no modo de sensor, então se eu peço e chega perto, a fonte começa a funcionar.
+[018.0-021.6] Também fica com um pouco de água aqui em cima, mesmo depois que ela para.
+[021.6-025.8] A parte de dentro ela ainda tem um sistema aqui de filtro que é muito legal.
+[025.8-033.0] Tem capacidade para 3,2 litros de água e nesse visor aqui você consegue ver quando a água está acabando.
+[033.0-036.8] O Pamaik é uma fonte super silenciosa, não faz barulho nenhum.
+[036.8-040.2] Eu comprei a minha na loja oficial da New Pet, aqui do Tik Tok.
+[040.2-043.0] Vou deixar a indicação para vocês aqui no carrinho laranja.
+[043.0-046.2] É só você tocar para você pegar a sua fonte também.

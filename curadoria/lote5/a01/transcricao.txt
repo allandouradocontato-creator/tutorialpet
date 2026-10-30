@@ -1,0 +1,6 @@
+idioma=es (0.80)
+[000.0-007.5] Escucha las palabras de las brujas, los secretos escondidos en la noche, los antiguos dioses invocamos ahora la obra de la magia oculta.
+[008.0-015.5] ¡Potlum cuida, maleda arroz! ¡Arroz! ¡Sama kopni! ¡Se sopide!
+[016.0-019.5] Esta noche al amanecer hemos llamado al antiguo poder.
+[020.0-025.5] ¡Muy connace!
+[026.0-026.5] Aquí ahora...

@@ -1,0 +1,2 @@
+idioma=es (0.44)
+[000.0-015.0] Subtítulos por la comunidad de Amara.org

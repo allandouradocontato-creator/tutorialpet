@@ -155,3 +155,6 @@ Contagem: decididas abertas ~30 / feitas +1 (V18 fechada: fallback Cloudflare em
 - ElevenLabs gastou ≈ 953 créditos ≈ 0,8 % do saldo (115,4 mil); estimativa do plano (0,3 %) estava baixa porque as falas finais são longas. Tela mostrou 115.485 depois (contador inconsistente; conferir).
 - Alertas: tempo de falas > plano (R4-1 +5 s, R4-2 +10 s, R4-P1 +11 s); original do R4-1 tem logo Metrópoles; original do R4-P2 tem texto "SOLICITA CATÁLOGO DE COLORES" queimado e título em espanhol.
 - Gatilho diário de virais criado (07:00). Reforço: ver seção "Reforço" da tabela do lote 4.
+
+## 30/10 — lote 5 (Sonnet, coleta)
+Entregue `data/remix/curadoria_lote5_tabela.md`: humor 30/30 passando (a01–a30), produto 19/20 passando (b02,b03,b06,b07,b10,b17,b20,b25,b26,b27,b29,b31,b32,b39,b41–b45; Shopee ≥1 mil vendas e ≤R$100 conferida). Originais em `Downloads/Tutorial Pet/reacts/originais_lote5/`. Zero crédito ElevenLabs/HeyGen. Pendente: Fable julga (assistindo com áudio); Shorts/Reels não coletados; 60 candidatos de produto só tiveram comentários checados, não baixados.

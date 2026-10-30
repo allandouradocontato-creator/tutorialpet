@@ -1,0 +1,10 @@
+idioma=pt (1.00)
+[000.0-002.3] Faz 8 meses que não pago o banho no Pet Shop.
+[002.3-005.6] Uma mão segura o shampoo, a outra segura o dog e falta uma, né?
+[005.6-007.3] Olha essa escova de banho pra pet.
+[007.3-010.3] É de silicone, cerdas macias e tem reservatório pra shampoo.
+[010.3-012.1] É só abrir, encher e fechar.
+[012.1-012.9] Dá uma esfregada.
+[012.9-015.3] O shampoo sai sozinho e ainda massagei a pele.
+[015.3-017.7] Um banho no Pet Shop custa mais do que essa escova.
+[017.7-020.7] Aproveita o frete grátis, toque no carrinho laranja e leva a sua.

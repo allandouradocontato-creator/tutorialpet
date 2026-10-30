@@ -1,0 +1,2 @@
+idioma=en (0.55)
+[000.0-013.2] Thanks for watching!

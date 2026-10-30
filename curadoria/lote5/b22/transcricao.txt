@@ -1,0 +1,9 @@
+idioma=pt (0.99)
+[000.0-002.3] Quem inventou isso merece um aumento.
+[002.3-006.3] Abre a tampa, coloque o shampoo, adiciona a água para diminuir.
+[006.3-010.2] Agita um pouco e, ao apertar, sai bastante espuma.
+[010.2-012.4] Essa escova limpa enquanto massageia.
+[012.4-015.1] O cachorro fica confortável, sem resistir,
+[015.1-017.2] e até entre os dedos ela ajuda a limpar.
+[017.2-020.4] É melhor você pedir logo, porque o estoque está sempre acabando.
+[020.4-021.8] Limpa o botão abaixo.

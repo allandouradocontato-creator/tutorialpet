@@ -1,0 +1,2 @@
+idioma=en (0.58)
+[000.0-007.0] Tango didn't look stuck by you from the clue

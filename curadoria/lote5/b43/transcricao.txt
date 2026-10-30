@@ -1,0 +1,3 @@
+idioma=en (0.64)
+[000.0-007.0] The day the music died
+[007.0-015.0] And they were singing bye-bye, Miss American Pie

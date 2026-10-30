@@ -1,0 +1,4 @@
+idioma=pt (0.97)
+[000.0-006.0] Se tem bigodes de foca, nariz de tamanduá
+[006.0-008.0] E o dedo de caminho, Nettie?
+[008.0-013.0] É, mas se é amigo de fato, a gente...

@@ -1,0 +1,5 @@
+idioma=pt (0.99)
+[000.0-003.2] vai sair de casa, você não pode esquecer de levar a garrafinha do seu pé,
+[003.2-005.6] porque o mais gosto nessa garrafa aqui é que ela não vaza.
+[005.6-009.9] E ela é muito prática para você usar quando você for sair com seu cachorrinho.
+[009.9-012.9] Vou deixar para vocês aqui no carrinho laranja, onde eu peguei essa garrafa.

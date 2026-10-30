@@ -1,0 +1,5 @@
+idioma=en (0.71)
+[000.0-002.0] Don't you sweat it baby
+[002.0-003.5] It's alright
+[003.5-006.0] You were dancing through the light
+[006.0-008.0] Then it strikes also

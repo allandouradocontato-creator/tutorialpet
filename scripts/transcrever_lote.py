@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Transcreve audio.wav de cada pasta curadoria/lote4/<id>/ com faster-whisper (carrega WAV com wave+numpy)."""
+"""Transcreve audio.wav de cada pasta curadoria/lote5/<id>/ com faster-whisper (carrega WAV com wave+numpy)."""
 import sys,glob,os,wave
 import numpy as np
 from faster_whisper import WhisperModel
 m=WhisperModel("small",device="cpu",compute_type="int8")
-for p in sorted(glob.glob("curadoria/lote4/*/audio.wav")):
+for p in sorted(glob.glob("curadoria/lote5/*/audio.wav")):
     d=os.path.dirname(p); out=d+"/transcricao.txt"
     if os.path.exists(out): continue
     w=wave.open(p); a=np.frombuffer(w.readframes(w.getnframes()),dtype=np.int16).astype(np.float32)/32768

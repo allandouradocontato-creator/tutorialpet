@@ -1,0 +1,5 @@
+idioma=en (0.70)
+[000.0-003.2] Let's go, so won't you please?
+[003.2-007.0] Be mine, be my baby, my new baby
+[007.0-009.8] I'm a one and only baby
+[009.8-010.8] Be my girl

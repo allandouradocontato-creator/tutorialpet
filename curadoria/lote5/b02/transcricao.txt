@@ -1,0 +1,2 @@
+idioma=pt (0.95)
+[000.0-029.0] O que é isso?

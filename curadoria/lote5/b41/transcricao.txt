@@ -1,0 +1,5 @@
+idioma=pt (1.00)
+[000.0-002.5] Olha o detalhe desse portão que eu achei muito inteligente.
+[002.5-005.0] Quando preciso é só puxar e ele fecha toda essa passagem.
+[005.0-007.5] E quando não preciso ele recolhe e praticamente não ocupa esse passo.
+[007.5-010.0] Se você quer praticidade assim em casa, confere no carrinho laranja.
