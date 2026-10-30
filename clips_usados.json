@@ -622,6 +622,35 @@
    ],
    "reusos": [],
    "musica": "lnplusmusic-happy-happy-music-611028.mp3"
+  },
+  {
+   "slug": "o-que-faz-um-bom-criador-de-cachorro-e-os-sinais-de-um-mau-criador",
+   "quando": "2026-10-30T10:38:02+00:00",
+   "clipes": [
+    "pexels:10050402",
+    "pexels:10409740",
+    "pexels:10976377",
+    "pexels:10996178",
+    "pexels:28829625",
+    "pexels:29477854",
+    "pexels:31500738",
+    "pexels:34931516",
+    "pexels:36413850",
+    "pexels:37366628",
+    "pexels:39918378",
+    "pexels:39995025",
+    "pexels:5728452",
+    "pexels:7189578",
+    "pexels:7199249",
+    "pexels:7516712"
+   ],
+   "reusos": [
+    "pexels:39995025",
+    "pexels:7516712",
+    "pexels:28829625",
+    "pexels:10050402"
+   ],
+   "musica": "gr0za-happy-happy-music-569345.mp3"
   }
  ]
 }
