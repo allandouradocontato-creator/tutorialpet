@@ -40,8 +40,8 @@ calculados** (`score_prioridade`, `intencao_busca`, `sazonalidade`) e pode:
 {
   "id": 1,
   "termo_origem": "como cortar unha de cachorro",
-  "titulo": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem",
-  "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico...",
+  "titulo": "Como cortar unha de cachorro: guia passo a passo",
+  "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico...",
   "intencao_busca": "informacional",
   "prioridade": "ALTA",
   "score_prioridade": 78.5,

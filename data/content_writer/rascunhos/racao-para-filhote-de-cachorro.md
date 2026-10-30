@@ -9,7 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 titulo: Ração para filhote de cachorro
-meta_description: 'Guia completo sobre ração para filhote de cachorro: escolha ideal, quantidade correta, erros comuns e dicas para tutores de primeira viagem.'
+meta_description: 'Guia completo sobre ração para filhote de cachorro: escolha ideal, quantidade correta, erros comuns e dicas para quem tem filhote em casa.'
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true

@@ -169,9 +169,9 @@ def render_about(site: dict) -> str:
     aviso_saude = site.get("compliance", {}).get("aviso_saude", "").strip()
     return f"""# Sobre o {nome}
 
-O **{nome}** nasceu para ajudar tutores de primeira viagem a atravessar a fase mais
-incerta de ter um cão ou gato: aquela em que tudo é novo e cada dúvida parece grande
-demais para perguntar. Aqui, tratamos cada assunto com um tom {tom} — como uma conversa
+O **{nome}** nasceu para ajudar tutores de cães e gatos, de qualquer nível de experiência, a cuidar
+melhor dos seus pets: do primeiro dia em casa à rotina de todo dia, com respostas claras
+para as dúvidas que aparecem pelo caminho. Aqui, tratamos cada assunto com um tom {tom} — como uma conversa
 entre amigos, não uma aula técnica.
 
 ## O que você encontra por aqui

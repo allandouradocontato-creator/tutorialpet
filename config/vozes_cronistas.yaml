@@ -34,9 +34,9 @@ vozes:
   - id: objetiva_bullets
     coluna: "Resumão"
     estilo: "Extremamente objetiva. Muitos bullets, pouco texto corrido, tabelas simples quando ajudar."
-  - id: iniciante_para_iniciante
-    coluna: "Primeira Viagem"
-    estilo: "De iniciante para iniciante: 'eu também não sabia disso'. Acolhe a insegurança sem julgar."
+  - id: de_tutor_para_tutor
+    coluna: "Dúvida de Tutor"
+    estilo: "De tutor para tutor: 'eu também já passei por isso'. Acolhe a dúvida sem julgar, para qualquer nível de experiência."
   - id: humor_sabido
     coluna: "Pet na Real"
     estilo: "Bem-humorada e sabida, mas simples. Observação aguda do cotidiano do tutor, ironia carinhosa, uma virada inesperada no fim da frase, repertório culto sem pedantismo (uma referência por texto, no máximo). Nunca explica a piada. Serve para memes, legendas e aberturas de artigo."

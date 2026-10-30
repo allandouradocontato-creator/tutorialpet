@@ -134,4 +134,4 @@ Para aprofundar o assunto, vale ler também [como fazer o gato parar de arranhar
 
 Proteger o sofá da curiosidade felina exige paciência, observação e substituição inteligente de hábitos. Entender que o seu gato está apenas seguindo o próprio instinto ajuda a manter a harmonia na convivência diária.
 
-Com os estímulos certos, os móveis da sua casa ficam seguros e o seu companheiro cresce feliz e satisfeito. Continue navegando pelo nosso blog para descobrir mais dicas práticas para tutores de primeira viagem!
+Com os estímulos certos, os móveis da sua casa ficam seguros e o seu companheiro cresce feliz e satisfeito. Continue navegando pelo nosso blog para descobrir mais dicas práticas para tutores de cães e gatos!

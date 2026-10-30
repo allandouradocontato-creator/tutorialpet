@@ -43,7 +43,7 @@ Os modelos recheáveis de borracha atóxica são clássicos e duráveis, ideais 
 
 ### Exemplo prático:
 
-Para um cão iniciante em desafios mentais, escolha um tabuleiro simples com gavetas fáceis de empurrar. Conforme ele entender a dinâmica, aumente o nível de dificuldade bloqueando algumas aberturas para prolongar o tempo de entretenimento.
+Para um cachorro que está começando nos desafios mentais, escolha um tabuleiro simples com gavetas fáceis de empurrar. Conforme ele entender a dinâmica, aumente o nível de dificuldade bloqueando algumas aberturas para prolongar o tempo de entretenimento.
 
 ## Como preparar e rechear os acessórios com segurança
 

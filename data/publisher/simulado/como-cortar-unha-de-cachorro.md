@@ -1,8 +1,6 @@
 ---
-titulo: 'Como cortar unha de cachorro: guia passo a passo para tutores de primeira
-  viagem'
-meta_description: 'Como cortar unha de cachorro: guia passo a passo para tutores de
-  primeira viagem. Se você chegou até aqui é porque provavelmente está no meio dessa...'
+titulo: 'Como cortar unha de cachorro: guia passo a passo para qualquer tutor'
+meta_description: 'Como cortar unha de cachorro: guia passo a passo para qualquer tutor. Se você chegou até aqui é porque provavelmente está no meio dessa...'
 data: '2026-09-15'
 status: publicado_simulado
 slug: como-cortar-unha-de-cachorro
@@ -53,7 +51,7 @@ arquivo_preview: data\publisher\simulado\como-cortar-unha-de-cachorro.html
 data_sugerida_calendario: '2026-09-16'
 ---
 
-# Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem
+# Como cortar unha de cachorro: guia passo a passo
 
 Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.
 

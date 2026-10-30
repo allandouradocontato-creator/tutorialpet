@@ -13,8 +13,8 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-15T17:34:17+00:00'
 aviso_saude_aplicavel: false
 estrutura_abertura: pergunta_retorica
-voz: iniciante_para_iniciante
-coluna: Primeira Viagem
+voz: de_tutor_para_tutor
+coluna: Dúvida de Tutor
 assinatura: Equipe Tutorial Pet
 revisado_por_agente_04: true
 revisado_em: '2026-10-16T13:54:31+00:00'

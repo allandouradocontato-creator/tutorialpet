@@ -9,7 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 titulo: Arranhador para gato, qual escolher
-meta_description: Descubra como escolher o arranhador para gato ideal. Guia completo para tutores iniciantes salvarem seus móveis e garantirem o bem-estar felino.
+meta_description: Descubra como escolher o arranhador para gato ideal. Guia completo para salvar seus móveis e garantir o bem-estar do seu gato.
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true

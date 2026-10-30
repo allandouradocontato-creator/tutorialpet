@@ -11,7 +11,7 @@ Comentar PELA CONTA DA MARCA (Tutorial Pet) em posts de páginas e criadores pet
 4. Resposta em vídeo: transformar o melhor comentário (nosso ou alheio) em vídeo curto da Duda no TikTok ("você perguntou...").
 5. Pergunta de uma palavra no vídeo e no 1º comentário ("gato ou cachorro?") para gerar comentário fácil.
 6. Duetos/stitch/collab com criadores pet pequenos (500 a 20 mil), que respondem mais que os gigantes.
-7. Achar "tutor de primeira viagem": buscar perguntas reais em posts/grupos ("meu filhote chora de noite") e responder útil; o artigo só se perguntarem.
+7. Achar tutor com dúvida real: buscar perguntas reais em posts/grupos ("meu filhote chora de noite") e responder útil; o artigo só se perguntarem.
 8. Grupos de tutores no Facebook (regras de cada grupo): participar com resposta útil; nunca divulgar sem permissão do grupo.
 9. Pedir ao Allan (e à rede dele) seguir/curtir/compartilhar os 5 primeiros vídeos: semente inicial de prova social.
 10. Hashtag de comunidade própria (#tutorialpet) + convite "mostre seu pet seguindo o tutorial": conteúdo de usuário, repostado com crédito e permissão.

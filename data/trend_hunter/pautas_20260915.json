@@ -10,7 +10,7 @@
   "pautas": [
     {
       "termo_origem": "como cortar unha de cachorro",
-      "titulo": "Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem",
+      "titulo": "Como cortar unha de cachorro: guia passo a passo",
       "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
@@ -37,7 +37,7 @@
     {
       "termo_origem": "cachorro latindo muito o que fazer",
       "titulo": "Cachorro latindo muito o que fazer sem sofrimento: um guia prático e sem enrolação",
-      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "angulo_gancho": "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
       "score_prioridade": 47.5,
@@ -49,8 +49,8 @@
     },
     {
       "termo_origem": "como trocar a ração do cachorro",
-      "titulo": "Como lidar com como trocar a ração do cachorro: o que todo tutor iniciante precisa saber",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "titulo": "Como lidar com como trocar a ração do cachorro: o que todo tutor precisa saber",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
       "score_prioridade": 45.6,
@@ -62,8 +62,8 @@
     },
     {
       "termo_origem": "como dar banho em gato",
-      "titulo": "Como dar banho em gato: guia passo a passo para tutores de primeira viagem",
-      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "titulo": "Como dar banho em gato: guia passo a passo",
+      "angulo_gancho": "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
       "score_prioridade": 44.9,
@@ -75,7 +75,7 @@
     },
     {
       "termo_origem": "quantas vezes por dia alimentar gato",
-      "titulo": "Como lidar com quantas vezes por dia alimentar gato: o que todo tutor iniciante precisa saber",
+      "titulo": "Como lidar com quantas vezes por dia alimentar gato: o que todo tutor precisa saber",
       "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
@@ -88,7 +88,7 @@
     },
     {
       "termo_origem": "como escovar os dentes do cachorro",
-      "titulo": "Como escovar os dentes do cachorro: guia passo a passo para tutores de primeira viagem",
+      "titulo": "Como escovar os dentes do cachorro: guia passo a passo",
       "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
@@ -101,8 +101,8 @@
     },
     {
       "termo_origem": "caixa de transporte para gato",
-      "titulo": "Caixa de transporte para gato: guia passo a passo para tutores de primeira viagem",
-      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "titulo": "Caixa de transporte para gato: como escolher e usar sem estresse",
+      "angulo_gancho": "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
       "score_prioridade": 43.2,
@@ -122,8 +122,8 @@
     },
     {
       "termo_origem": "gato arranhando o sofá",
-      "titulo": "Como lidar com gato arranhando o sofá: o que todo tutor iniciante precisa saber",
-      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "titulo": "Como lidar com gato arranhando o sofá: o que todo tutor precisa saber",
+      "angulo_gancho": "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
       "score_prioridade": 42.6,
@@ -135,8 +135,8 @@
     },
     {
       "termo_origem": "coleira ou peitoral para cachorro",
-      "titulo": "Como lidar com coleira ou peitoral para cachorro: o que todo tutor iniciante precisa saber",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "titulo": "Como lidar com coleira ou peitoral para cachorro: o que todo tutor precisa saber",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "MEDIA",
       "score_prioridade": 41.5,
@@ -148,8 +148,8 @@
     },
     {
       "termo_origem": "enxoval para filhote de cachorro",
-      "titulo": "Como lidar com enxoval para filhote de cachorro: o que todo tutor iniciante precisa saber",
-      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "titulo": "Como lidar com enxoval para filhote de cachorro: o que todo tutor precisa saber",
+      "angulo_gancho": "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 39.8,
@@ -172,7 +172,7 @@
     {
       "termo_origem": "ração para filhote de cachorro",
       "titulo": "Ração para filhote de cachorro sem sofrimento: um guia prático e sem enrolação",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 36.5,
@@ -195,7 +195,7 @@
     {
       "termo_origem": "como ensinar cachorro a fazer xixi no lugar certo",
       "titulo": "Como ensinar cachorro a fazer xixi no lugar certo sem sofrimento: um guia prático e sem enrolação",
-      "angulo_gancho": "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
+      "angulo_gancho": "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 35.3,
@@ -208,7 +208,7 @@
     {
       "termo_origem": "primeiros dias do filhote em casa",
       "titulo": "Primeiros dias do filhote em casa sem sofrimento: um guia prático e sem enrolação",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 34.8,
@@ -230,7 +230,7 @@
     },
     {
       "termo_origem": "vacinas para filhote de cachorro",
-      "titulo": "Como lidar com vacinas para filhote de cachorro: o que todo tutor iniciante precisa saber",
+      "titulo": "Como lidar com vacinas para filhote de cachorro: o que todo tutor precisa saber",
       "angulo_gancho": "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
@@ -254,7 +254,7 @@
     {
       "termo_origem": "como limpar caixa de areia do gato",
       "titulo": "Como limpar caixa de areia do gato sem sofrimento: um guia prático e sem enrolação",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 31.4,
@@ -302,8 +302,8 @@
     },
     {
       "termo_origem": "alimentos proibidos para cachorro",
-      "titulo": "Como lidar com alimentos proibidos para cachorro: o que todo tutor iniciante precisa saber",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "titulo": "Como lidar com alimentos proibidos para cachorro: o que todo tutor precisa saber",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 17.1,
@@ -316,7 +316,7 @@
     {
       "termo_origem": "ansiedade de separação em cães",
       "titulo": "Ansiedade de separação em cães sem sofrimento: um guia prático e sem enrolação",
-      "angulo_gancho": "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
+      "angulo_gancho": "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
       "intencao_busca": "informacional",
       "prioridade": "BAIXA",
       "score_prioridade": 16.0,

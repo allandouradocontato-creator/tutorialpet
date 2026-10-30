@@ -18,7 +18,7 @@ Se um LLM for usado para enriquecer a saída, ele recebe o JSON de `opportunitie
 
 - Classificar a **intenção de busca** de cada termo: informacional, comercial, transacional, navegacional.
 - Agrupar termos em **clusters** (um artigo por cluster, evitando canibalização).
-- Sugerir um **ângulo editorial** útil para tutores iniciantes.
+- Sugerir um **ângulo editorial** útil para o tutor, de qualquer nível.
 
 ### Regras invioláveis
 - **Nunca inventar, estimar ou alterar** `volume_mensal`, `cpc_medio`, `concorrencia` ou `score_oportunidade`.

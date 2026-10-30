@@ -62,7 +62,7 @@ Erros comuns nessa fase incluem forçar o contato ou expor o pet a barulhos muit
 
 1. Comece mantendo o filhote em um cômodo calmo nos [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) para ele reconhecer o território básico.
 2. Apresente cheiros novos usando paninhos com o odor de outras pessoas da casa antes do contato direto.
-3. Acostume o bichano com a manipulação leve das patinhas e orelhas para facilitar cuidados futuros, como o uso de uma [caixa de transporte para gato: guia passo a passo para tutores de primeira viagem](/caixa-de-transporte-para-gato).
+3. Acostume o bichano com a manipulação leve das patinhas e orelhas para facilitar cuidados futuros, como o uso de uma [caixa de transporte para gato: como escolher e usar sem estresse](/caixa-de-transporte-para-gato).
 
 > Exemplo prático: Para acostumar o filhote com visitas, peça para amigos entrarem calmamente na sala, sentarem no chão e oferecerem um petisco saboroso sem tentar agarrar o animal à força.
 

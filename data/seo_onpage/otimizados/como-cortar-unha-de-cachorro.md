@@ -8,10 +8,9 @@ intencao_busca: informacional
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T20:00:04+00:00'
 aviso_saude_aplicavel: false
-titulo: 'Como cortar unha de cachorro: guia passo a passo para tutores de primeira
-  viagem'
+titulo: 'Como cortar unha de cachorro: guia passo a passo para qualquer tutor'
 meta_description: Aprenda como cortar unha de cachorro em casa sem medo. Guia passo
-  a passo para tutores de primeira viagem com dicas simples e seguras.
+  a passo para qualquer tutor, com dicas simples e seguras.
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true
@@ -58,7 +57,7 @@ imagem_url_pagina: https://www.pexels.com/photo/a-woman-grooming-a-dog-6131568/
 imagem_selecionada_em: '2026-10-14T22:47:33+00:00'
 ---
 
-# Como cortar unha de cachorro: guia passo a passo para tutores de primeira viagem
+# Como cortar unha de cachorro: guia passo a passo
 
 A hora de aparar as garras do seu peludo pode parecer um verdadeiro desafio, principalmente se você nunca fez isso antes. Quem nunca ficou com medo de machucar o animal que atire a primeira pedra. 
 

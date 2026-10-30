@@ -122,12 +122,12 @@ def repor_fila(fila: dict) -> None:
     pilares = list((site.get("pilares") or {}).keys())
     ja = sorted(slugs_existentes() | {slugify(t["termo"]) for t in fila["temas"]})
     prompt = (
-        f"Nicho: {site['nicho']}. Público: tutores de primeira viagem no Brasil.\n"
+        f"Nicho: {site['nicho']}. Público: todos os tutores de cães e gatos no Brasil, de qualquer nível.\n"
         f"Pilares permitidos: {', '.join(pilares)}.\n"
         f"Já existem estes artigos (slugs), NÃO repita nem faça variações próximas: {', '.join(ja)}.\n"
         "Distribua os temas entre TODOS os pilares permitidos (no minimo 1 por pilar; nunca mais de 2 do mesmo pilar), "
         "porque a fabrica alterna os pilares e nao publica dois seguidos do mesmo. "
-        "Sugira 8 novos temas com demanda real de busca no Google Brasil (perguntas que tutores iniciantes fazem). "
+        "Sugira 8 novos temas com demanda real de busca no Google Brasil (perguntas que tutores de cães e gatos fazem). "
         "Responda SOMENTE JSON: [{\"termo\": str, \"pilar\": str}]"
     )
     txt = gerar_texto(prompt, sistema="Você é pesquisador de pautas de SEO para blog de pets em pt-BR.", temperatura=0.7)

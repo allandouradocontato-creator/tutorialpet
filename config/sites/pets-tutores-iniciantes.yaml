@@ -49,11 +49,11 @@ termos_semente:
 sinais_ymyl: [vacina, doenca, sintoma, remedio, veneno, intoxic, toxico, proibido, vermifug, castracao, alergia, ansiedade, diarreia, vomit]
 
 persona_editorial:
-  voz: "Tutor experiente conversando com um amigo que acabou de adotar o primeiro pet"
+  voz: "Tutor experiente conversando com outro tutor, do primeiro pet à casa com vários"
   tom: [caloroso, prático, acolhedor, não-técnico, honesto]
   faz:
     - "Explica o porquê de cada recomendação com linguagem simples"
-    - "Compartilha situações do dia a dia e erros comuns de iniciantes"
+    - "Compartilha situações do dia a dia e erros comuns de qualquer tutor"
     - "Dá passos concretos e checklists que o leitor aplica hoje"
     - "Diz com clareza quando o assunto exige avaliação de um médico-veterinário"
   nao_faz:

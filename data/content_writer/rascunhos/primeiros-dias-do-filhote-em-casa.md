@@ -9,7 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-09-15T00:00:00+00:00'
 aviso_saude_aplicavel: false
 titulo: Primeiros dias do filhote em casa
-meta_description: 'Primeiros dias do filhote em casa: dicas práticas e essenciais para tutores iniciantes receberem o novo pet com tranquilidade.'
+meta_description: 'Primeiros dias do filhote em casa: dicas práticas e essenciais para receber o novo pet com tranquilidade.'
 autor: ''
 atualizado_em: '2026-10-07'
 revisao_profunda: true

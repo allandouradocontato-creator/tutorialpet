@@ -17,7 +17,7 @@ revisao_profunda: true
 
 # Brinquedos para cachorro que fica sozinho
 
-Deixar o cão sozinho em casa gera preocupação em muitos tutores de primeira viagem. O silêncio da ausência costuma trazer tédio, e o tédio muitas vezes vira destruição de móveis. A boa notícia é que existem soluções inteligentes para gastar a energia física e mental do animal. 
+Deixar o cão sozinho em casa gera preocupação em muitos tutores. O silêncio da ausência costuma trazer tédio, e o tédio muitas vezes vira destruição de móveis. A boa notícia é que existem soluções inteligentes para gastar a energia física e mental do animal. 
 
 Neste artigo, vamos explicar como escolher os itens certos para entreter seu peludo enquanto você estiver fora, transformando momentos de solidão em oportunidades de diversão segura. Lembre-se de que a segurança vem sempre em primeiro lugar, e vale a pena conversar com um médico-veterinário caso seu pet apresente sinais de estresse extremo.
 

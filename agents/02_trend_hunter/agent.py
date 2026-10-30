@@ -95,8 +95,8 @@ def _cap(term: str) -> str:
 
 TITLE_TEMPLATES = {
     "informacional": [
-        "{termo_cap}: guia passo a passo para tutores de primeira viagem",
-        "Como lidar com {termo}: o que todo tutor iniciante precisa saber",
+        "{termo_cap}: guia passo a passo",
+        "Como lidar com {termo}: o que todo tutor precisa saber",
         "{termo_cap} sem sofrimento: um guia prático e sem enrolação",
     ],
     "transacional": [
@@ -110,9 +110,9 @@ HOOK_TEMPLATES = {
     "informacional": [
         "Se você chegou até aqui é porque provavelmente está no meio dessa situação agora — e a boa "
         "notícia é que ela tem solução prática, sem drama e sem precisar virar especialista.",
-        "Quase todo tutor de primeira viagem passa por isso e se sente meio perdido no começo. Vamos "
+        "Quase todo tutor passa por isso e se sente meio perdido em algum momento. Vamos "
         "destrinchar o assunto com calma, do jeito que eu gostaria que alguém tivesse me explicado.",
-        "Erro comum: iniciante vê esse problema e já entra em pânico. Respira — dá para resolver com "
+        "Erro comum: muita gente vê esse problema e já entra em pânico. Respira — dá para resolver com "
         "alguns ajustes simples na rotina, e é exatamente isso que vamos ver aqui.",
     ],
     "transacional": [
