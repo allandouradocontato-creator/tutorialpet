@@ -1,4 +1,5 @@
 # Curadoria lote 5 — tabela única (30/10/2026) · régua v5
+> Veredito do julgamento (Fable, 30/10 12h): ver `data/remix/julgamento_lote5_fable.md` — reprova adicionalmente a01-a04, a08, a11-a13, a24 (IA/compilação/página/rua/sem virada) e b02, b17, b41 (CTA na tela / sem pet em uso).
 
 Gerada por `scripts/tabela_lote5.py`. Passou = pré-requisitos NUMÉRICOS da v5 + (B) sinal de compra nos 10 comentários + Shopee. Julgar humor (riso) e "produto visível em uso" é com o Fable, assistindo com áudio; nada aqui é opinião.
 

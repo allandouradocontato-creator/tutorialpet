@@ -8,3 +8,11 @@ Regra de processo: antes de exportar, listar os clipes usados e conferir contra 
 - vizinho_15_estressado_maos_na_cabeca.mp4 (mesmo homem de terno azul/barba branca, aparecia aos 7 s) — banido em 29/10
 - cachorro_07_pulando_na_cama_bagunca.mp4 (cachorro peludo feio de costas, apareceu aos 12 s) — banido em 29/10
 - Vizinho que PODE: vizinho_23_estressado_na_porta_do_apartamento_IA_HeyGen (homem de camisa branca)
+
+## 30/10/2026 — contas banidas no julgamento do lote 5 (Fable): compilação/IA/página de repost
+- @sky_raiding (a02, a11: compilações com cenas de IA, #aigenerated no título)
+- @zivy13.gm (a04: galo vs fisiculturista = IA)
+- @content_video_clips (a03: gatos "em pé" editados, marca d'água Catboss)
+- @lipponvs (a12: compilação de memes com gato de braços humanos)
+- @meowtakeover (a08, a24: filhotes de rua à noite em rodovia + marca de página)
+- @therealmeowfia (a13: trend editada "gato com copo")
