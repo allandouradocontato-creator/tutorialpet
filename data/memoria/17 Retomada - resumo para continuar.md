@@ -136,3 +136,8 @@ Contagem: decididas abertas ~25 / feitas +1 (E130: bloco 'Para o Allan (receita)
 
 ## Decisões — rodada do Executor 30/10 (06:53 Fortaleza)
 Contagem: decididas abertas ~30 / feitas +1 (V18 fechada: fallback Cloudflare em core/coerencia.py + Fábrica #186-#197 success) e V20/E131/E140/E148 parciais (falta capa Pexels afrouxada na 2ª tentativa em blog_imagens_nuvem.py) / atrasadas 14 nominais (D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31, E45, V06, D10) + V15/V17/E140 vencidas / só Allan: A02 (2FA, TikTok), Kiwify identidade, MIMO ao vivo+OAuth, ok para religar D02/E09, V19 (ElevenLabs a/b). Painel de Decisões sem comentário novo. Nada comprado, publicado ou agendado. D09 (molde) segue com a rodada de reserva trig_013xrX6NyjFxenJ9WEcx9LT9 (30/10 15:17Z, enabled).
+
+## Retomada 30/10/2026 09h30 (Fable) — lote 4 de reacts
+- Régua final escrita: `data/remix/regua_final_lote4_2026-10-30.md` (A humor: ≥ 1 mi views, ≤ 7 d, 20-45 s com história, entra ≥ 80 = nível do n03 v2; B produto Shopee: produto em uso + "onde compro?", entra ≥ 70; 3 produtos diferentes, ordem xixi › dedeira › comedouro lento › tapete de lamber › cinto carro › escada).
+- Cartão do Sonnet para coletar e medir: `data/remix/cartao_sonnet_coleta_lote4_2026-10-30.md` (hashtags/termos/perfis, script, 25 baixados com folha 1 fps + transcrição + top 10 comentários, tabela `curadoria_lote4_tabela_2026-10-30.md`).
+- Falta (próxima conversa do Fable, depois do Sonnet): julgar a tabela e as folhas, escolher 3 + 3, mapa de batidas e 6 roteiros com falas por timestamp (regra 41), cartão para o Sonnet produzir o animático; "pode" do Allan antes de qualquer voz/HeyGen.
