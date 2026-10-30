@@ -34,3 +34,4 @@
 2026-10-30 | 07:30 fabrica sem rodada das 06h (nem reserva): dispatch REST; blog 0/3; travados por capa NAO repromovidos; V23 | aguardando fabrica verde + 1o artigo 200 (E34, n=1) | mantém
 2026-10-30 | 12:05 blog 0/3: promovi hidratar, slow-feed, maus-tratos (plano B de capa já na main); redes e fábrica verdes | aguardando publicar_blog verde + 3 páginas 200 (E34, n=1) | mantém
 2026-10-30 | 15:50 diagnostico real: publicar_blog 12:00 reprovou hidratar/slow-feed por 'autor_preenchido' (autor 'Equipe Tutorial Pet' em 11 rascunhos), nao por capa; blanquei autor, promovi hidratar, slow-feed, castracao-gratuita | aguardando publicar_blog verde + 3 paginas 200 (E34, n=1) | altera: olhar quality_editor/reprovados antes de culpar capa
+2026-10-30 | 16:10 slow-feed e castracao-gratuita 200 no ar (publicar_blog 41106404820); hidratar nao saiu no mesmo run, re-promovido | aguardando 200 de hidratar (E34, n=1) | mantém
