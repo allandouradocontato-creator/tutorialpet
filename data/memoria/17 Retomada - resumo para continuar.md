@@ -125,3 +125,11 @@ Nada espera revisão dela; saúde sai com cautela padrão; revisão dela é opci
 
 ## Decisões — rodada do Executor 29/10
 Contagem: decididas abertas ~25 / feitas +1 (E130: bloco 'Para o Allan (receita)' em 06 Pendências; E133 já fechada pela Operação, trig_01T84gNiDZh5LQVN8AjzPJfb habilitada) / atrasadas 14 (mesmas) / só Allan: A02 (2FA, TikTok), Kiwify identidade, MIMO ao vivo+OAuth, ok para religar D02/E09. Painel de Decisões sem comentário novo (rev 16). Não feito: E129 (edição em massa de legendas, precisa distinguir agendadas) e E131/V19 (fabrica.yml). Nada publicado nem agendado. add_repo indisponível; usei o clone local.
+
+## Retomada 30/10/2026 02h30 (Fable) — curadoria de reacts
+- Lote 2 (r01/r02/r05) reprovado pelo Allan: onda pequena (100-200 mil views), sem contexto. Erro da escolha (Fable), não da execução. r01 fica agendado só como teste das bases (FB sex 21:00, IG 21:10); levas do r02/r05 canceladas.
+- Feito e salvo: régua v4 (`data/remix/criterios_curadoria_v4_2026-10-30.md`), script `scripts/curadoria_tiktok.py` (yt-dlp mede views/curtidas/coment/compart/mediana da conta), habilidade `biblioteca/habilidades/curadoria_viral_v4.md`, regra de ouro 43, ficha `data/departamentos/fichas/2026-10-30_otimizador_curadoria_reacts.md`.
+- Lote 3 em `data/remix/plano_reacts_lote3_2026-10-30.md` NÃO aprovado (vídeos curtos, sem contexto). Serve só de modelo de formato.
+- Próximo passo (decisão do Allan 02:25): nova conversa de dia. Fable escreve as buscas/hashtags e a régua final (≥ 1 mi views, ≤ 7 d, 20-45 s com história, ≥ 2 de educativo/ilustrativo/engraçado) + régua de produto (Shopee, produto em uso + "onde compro?"); Sonnet coleta e mede (barato); Fable julga a tabela + folhas e escreve 6 roteiros (3 humor + 3 produto); animático antes de qualquer HeyGen.
+- Fontes que funcionam: hashtags do TikTok logado no Chrome (#cachorro deu 164 links; Explorar trava em ~29; busca não filtra por data), yt-dlp no sandbox, faster-whisper (carregar WAV com wave+numpy).
+- Medir o custo: Allan anota Configurações › Uso antes e depois do lote de curadoria.
