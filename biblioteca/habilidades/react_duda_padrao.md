@@ -20,3 +20,11 @@ Decisão do Allan: o react n03 v2 "fiscal do beijo" é o PADRÃO. Repetir igual;
 
 ## Custos de referência
 HeyGen 25 créditos no total (6 looks + 12 W + 7 C) = 5,8 % de 429. ElevenLabs ≈ 0,3 %. Meta para o próximo: ≤ 20 créditos (looks já salvos).
+
+## Bases visuais da Duda (30/10/2026)
+Cada react usa uma base diferente (mesma personagem). Looks salvos no avatar Duda do HeyGen; fotos em Downloads/Tutorial Pet/reacts/bases_duda/.
+- B1 cozinha, camisa estampada, cabelo solto, Duda em cima: "Smiling person in patterned shirt" (W baixo-direita) + "Duda" (C).
+- B2 sofá (Duda EMBAIXO, clipe em cima): "Cozy hoodie wearer with puppy" (W cima-esquerda) + "Cozy hoodie owner with puppy" (C). Rabo de cavalo, moletom cinza, poodle no colo, luz de abajur. O gerador ignorou "cima-reto" (saiu olhando a câmera): não gerar de novo, usar cima-esquerda.
+- B3 varanda (Duda em cima): "Smiling balcony dreamer" (W baixo-esquerda) + "Smiling balcony sunlit friend" (C). Coque, camiseta preta, planta e grade.
+- Lição de prompt: o Look Studio devolve 2 opções por geração (a 1ª geração custou 2 créditos); para olhar lateral/baixo funciona ("eyes clearly lowered, head tilted down"); olhar "reto para cima" não funciona.
+- Custo das 4 gerações: 8 créditos = 2,0 % de 404 (saldo 396).
