@@ -21,7 +21,7 @@ Proteção de Dados (LGPD — Lei nº 13.709/2018).
 - Responsável: DOURADO FALCAO EDUCACAO CORPORATIVA LTDA (nome fantasia: Dourado Falcão)
 - CNPJ: 65.211.970/0001-81
 - Localização: Fortaleza, CE
-- Contato: allandouradocontato@gmail.com
+- Contato: contato@tutorialpet.com.br
 
 ## 2. Quais dados coletamos
 
@@ -71,7 +71,7 @@ Você pode, a qualquer momento, solicitar:
 - Exclusão dos dados pessoais que você nos forneceu diretamente;
 - Informações sobre com quem compartilhamos seus dados.
 
-Para exercer esses direitos, entre em contato pelo e-mail allandouradocontato@gmail.com.
+Para exercer esses direitos, entre em contato pelo e-mail contato@tutorialpet.com.br.
 
 ## 7. Alterações a esta política
 
@@ -81,4 +81,4 @@ página.
 
 ## 8. Contato
 
-Dúvidas sobre esta Política de Privacidade podem ser enviadas para allandouradocontato@gmail.com.
+Dúvidas sobre esta Política de Privacidade podem ser enviadas para contato@tutorialpet.com.br.

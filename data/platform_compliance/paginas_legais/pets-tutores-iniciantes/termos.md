@@ -60,4 +60,4 @@ Estes termos são regidos pelas leis da República Federativa do Brasil.
 
 ## 9. Contato
 
-Dúvidas sobre estes Termos de Uso podem ser enviadas para allandouradocontato@gmail.com.
+Dúvidas sobre estes Termos de Uso podem ser enviadas para contato@tutorialpet.com.br.

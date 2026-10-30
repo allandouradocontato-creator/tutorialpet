@@ -15,7 +15,7 @@ Quer tirar uma dúvida, sugerir um assunto ou avisar sobre algo que precisa de c
 
 ## Como falar com a gente
 
-- **E-mail**: allandouradocontato@gmail.com
+- **E-mail**: contato@tutorialpet.com.br
 - **Instagram, TikTok e Facebook**: @tutorialpetbr (mensagem direta)
 - **Pergunta para a veterinária**: escreva para o e-mail acima com o assunto "Pergunta para a veterinária", contando a espécie, a idade do pet e a dúvida. As perguntas mais frequentes são respondidas pela médica veterinária parceira na coluna [Pergunte à veterinária](/categoria/pergunte-a-veterinaria). Não enviamos resposta individual de saúde: se o seu pet está mal, procure um veterinário.
 - **Responsável editorial**: Allan Dourado
