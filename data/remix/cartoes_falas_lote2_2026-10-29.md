@@ -33,3 +33,10 @@ Mapas conferidos no clipe real (quadros a cada 0,5 s + Whisper). Onde difere do 
 ## Pendências a decidir
 - Slots de TikTok do plano (sex 10:20 e sex 20:20) coincidem com posts de artigo já agendados no Buffer: ver aviso ao Allan.
 - Limite do Buffer: 10 posts agendados.
+
+## ATUALIZAÇÃO 30/10 00h — vozes geradas (ElevenLabs, 16 takes, 1,2 % do saldo) e animáticos prontos (HeyGen ainda NÃO gerado)
+As takes reais são mais longas que o previsto (sem acelerar a voz, regra 26), então as linhas do tempo mudaram. Takes em ~/Downloads (ElevenLabs_2026-10-30T02_22_28…02_29_01) e cópias descritivas em Downloads/Tutorial Pet/reacts/vozes_lote2 (voz_r01_P1_olha_o_treino.mp3 etc.).
+- **r01** corte 1,5-20,0 s (18,5 s). Voz em: P1 0,2 · P2 2,4 · P3 4,6 · P4(pet) 8,8 · P5 11,9 · P6 CTA 15,7. W 0-11,6 s / C 11,6-18,5 s. Crop do original y=60. HeyGen ≈ 14,8 créditos = 3,7 % de 404.
+- **r02** corte 3,0-17,6 s (14,6 s). P1 0,2 · P2 3,0 · P3(pet) 5,5 · P4 8,7 · P5 CTA 11,6. W 0-8,5 s / C 8,5-14,6 s. Crop y=60. HeyGen ≈ 11,7 = 2,9 %.
+- **r05** corte 2,0-16,9 s (14,9 s; clipe só tem 16,9 s). A fala P4 "Não fui eu! Eu tava só passeando!" foi CORTADA por falta de tempo (voz gerada, guardada). P1 0,3 · P2(pet) 4,5 · P3 8,9 · P5 CTA 12,0. W 0-11,7 s / C 11,7-14,9 s. Crop y=20 (a manchete da iG sobe até y≈1290). HeyGen ≈ 11,9 = 3,0 %.
+- Total HeyGen das 3 peças ≈ 38,4 créditos = 9,5 % do saldo de 404 (r01 sozinho 3,7 %).
