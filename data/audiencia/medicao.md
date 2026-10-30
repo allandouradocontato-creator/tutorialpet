@@ -1,3 +1,21 @@
+Dados até 2026-10-30 08:28 (Fortaleza) — plano_de_mudanca de 30/10 07:10 (Zernio sync 30/10 06:17; Buffer até 29/10 22:14, defasagem até 24 h); sem leitura nova minha de Zernio/Buffer.
+# Medição — sexta 30/10 (lote cheio r30; meta do painel mínimo até 11/11, hipótese). Os 5 números
+1. Comentários de terceiros: FB 57 em 98 posts (~1/post = nosso link), IG 50 (nossos), TikTok 6 em 53 (leitura de 29/10, sem número novo). Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: não atingida.
+2. Compartilhamentos: FB 0; IG 2 shares/saves em 16 posts (7 d); TikTok 1 em 12 posts (7 d), 2 desde 21/10 em 22 posts. Melhor TikTok: 29/10 14:21 gato idoso 44 s, 422 views, 48 reações, 3 shares (parcial 17 h).
+3. Seguidores: sem leitura nova (28/10: FB 9, IG 0, TikTok 21).
+4. Cliques no blog: FB 179 somados (29/10); IG 0. Sessões orgânicas e cliques do Search Console: sem dado (pendência: exportar Desempenho > Consultas, login Google).
+5. Vendas: sem dado (Kiwify não lido).
+Campeão: nenhum para comentário. Em views segue F2 flagrante (FB 562). Sinal de retenção (n=1 por rede, parcial 10-17 h): react 23 s com Duda, 29/10 21:00: FB 279 views, 8,2 s (mediana 3,8 s); IG skip 25% (mediana 76%). Réplica do campeão: B1/B2 entram no lote r30 com fórmula de prova (F14 n=2 com r29 M2; B2 gato julga o tutor).
+## Prova do lote r30 (14 ideias; uma variável por vez; leitura 72 h; n≥5 por braço só fecha acumulando r29 e r30)
+X33 CTA-a binária (FB) x CTA-b aberta (IG), mesma arte, em todas as 14: prova = comentário de terceiro por 1.000 views (continua X18; n hoje 0).
+X34 Formato vídeo (10) x imagem (4: G5, G7, D5, D7): views em 72 h contra mediana FB 204 / IG 32,5; imagem passa se ≥1,5x em 3 de 4.
+X35 Ideia de radar internacional (G1 EUA, D2 EUA, D3 Colômbia) x fórmula já nossa: views em 72 h; mantém radar se 2 de 3 baterem a mediana.
+X36 F14 flagrante/disfarça acumula n=2 (r29 M2 em 01/11 + D1 em 05/11) contra F2 (FB 562): prova = views e tempo médio.
+X37 Tema de data (G1 Halloween, G4/D5 Black Friday, G5 Enem) x evergreen (as outras 10): views em 72 h; data que passa do prazo vira "perdeu".
+X31 T0 ≤6 palavras + payoff até o s4 (todas): prova = FB tempo ≥4,5 s e ret. s5 ≥55%; IG skip ≤60%; TikTok tempo ≥3 s.
+Hashtags H1 iguais em todas (controle; FB 3, IG 5, TikTok 3-4); horário: extras nos picos da grade (FB 10:00/19:00, IG 11:00/20:00, TikTok 10:20/20:20), sem 12:00 no FB para meme (E135); conferir slot livre ≥10 min de outro post. Hashtag e horário NÃO variam neste lote (só CTA).
+Próxima leitura: G1 em 03/11 (72 h do post de 31/10); D2 em 04/11; demais 72 h após cada post. Skill ganchos: 1 linha por rodada em data/habilidades/aprendizado/.
+
 Dados até 2026-10-29 08:35 (Fortaleza) — estrategia_social/plano_de_mudanca de 29/10 07:15 (Zernio sync 29/10 06:16; Buffer defasagem até 24 h); sem leitura nova minha de Zernio/Buffer.
 # Medição — quinta 29/10 (meta de 14 dias 15-28/10 encerrou ontem; abaixo, números de 29/10). Os 5 números
 1. Comentários de terceiros: FB 57 em 98 posts (≈1/post = nosso link), IG 50 (nossos), TikTok 6 em 53. Terceiros identificáveis: 0 FB/IG. Meta ≥5/vídeo: não atingida.

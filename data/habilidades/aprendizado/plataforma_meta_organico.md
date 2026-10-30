@@ -30,3 +30,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-28 | agenda lida: Zernio 4 pares FB+IG até 30/10 e Buffer 5 TikToks até 30/10 10:20 (41 a 57 s); plano grátis do Buffer = teto de 10 agendados, então 3/dia por 5 dias (15) não cabe | n=1 conta | altera: TikTok até 10 agendados (2/dia nos horários 10:20 e 20:20); reposição só com pacote de Guardião "ok"
 2026-10-29 | estoque <3 posts/24h e 2 pacotes novos bloqueados (revisar + artigo 404) -> evergreen com legenda nova | n=2 videos reusados, resultado a medir em 72h | mantem
 2026-10-30 | slots livres vs saturados (FB/IG 4 posts hoje, TikTok 4) | carrinho-de-passeio levado para 31/10 B/C | n=3 posts | mantem
+2026-10-30 | jogadas 'sem engagement bait' e 'pergunta genuína + link no 1º comentário': 14 CTAs sem comando, link só no 1º comentário, meme no IG nos picos 11:00/20:00 | n=0 posts do lote lidos (comparar com os 10 anteriores em 03/11) | mantém
