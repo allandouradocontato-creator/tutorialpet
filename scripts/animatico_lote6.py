@@ -11,9 +11,9 @@ MUS = sorted(glob.glob(f"{R}/biblioteca/musica/*.mp3"))[:1]
 
 # t = segundos DO CLIPE em que a fala começa (P) ; C começa ao fim do clipe.
 REELS = {
- "h1": dict(cid="h1", cut=(25, 45), layout="top", W="b1_W_opcao1", C="b1_W_opcao1", ogvol=0.5,
-   P=[("h1_P1_briga_de_casal", None), ("h1_P2_ele_respondeu", 11.0)], Cv="h1_C_quem_responde",
-   txt=[("BRIGA DE CASAL, VERSÃO PET", "h", 0, 0), ("ELE RESPONDEU: OU O QUÊ?", "c", 11, 19.9), ("QUEM RESPONDE EM CASA?", "t", 0, 0)]),
+ "h1": dict(cid="h1", cut=(8, 28), layout="top", W="b1_W_opcao1", C="b1_W_opcao1", ogvol=0.5,
+   P=[("h1_P1_briga_de_casal", None), ("h1_P2_ele_respondeu", 8.0)], Cv="h1_C_quem_responde",
+   txt=[("BRIGA DE CASAL, VERSÃO PET", "h", 0, 0), ("ELE RESPONDEU: OU O QUÊ?", "c", 8, 19.9), ("QUEM RESPONDE EM CASA?", "t", 0, 0)]),
  "h2": dict(cid="h2", cut=(0, 12), layout="bottom", W="b2r_W", C="b2r_C", ogvol=1.0,
    P=[("h2_P1_golden_uma_palavra", None), ("h2_P2_mamae", 4.0)], Cv="h2_C_ja_te_chamou",
    txt=[("O GOLDEN APRENDEU UMA PALAVRA", "h", 0, 0), ("MAMÃE, MAMÃE, MAMÃE…", "c", 4, 11.9), ("O SEU JÁ TE CHAMOU DE ALGO?", "t", 0, 0)]),
@@ -21,11 +21,11 @@ REELS = {
    P=[("h3_P1_faz_que_nao_quer", None), ("h3_P2_para_continua", 14.0)], Cv="h3_C_time_para",
    txt=[("ELA FAZ QUE NÃO QUER…", "h", 0, 0), ("PARA… NÃO, CONTINUA!", "c", 14, 21.9), ("TIME PARA OU TIME CONTINUA?", "t", 0, 0)]),
  "h4": dict(cid="h4", cut=(0, 34), layout="bottom", W="b2r_W", C="b2r_C", ogvol=0.8,
-   P=[("h4_P1_toda_bronca", None), ("h4_P2_girou_de_novo", 24.0)], Cv="h4_C_igual_crianca",
-   txt=[("TODA BRONCA TEM A MESMA RESPOSTA", "h", 0, 0), ("GIROU DE NOVO!", "c", 24, 33.9), ("O SEU FINGE QUE NÃO OUVE?", "t", 0, 0)]),
- "h5": dict(cid="h5", cut=(0, 24), layout="top", W="b1_W_opcao1", C="b1_W_opcao1", ogvol=0.5,
-   P=[("h5_P1_hoje_nao_tem_janta", None), ("h5_P2_respondeu", 20.0)], Cv="h5_C_resmunga",
-   txt=[("HOJE NÃO TEM JANTA!", "h", 0, 0), ("RESPONDEU! ADOLESCENTE PET", "c", 20, 23.9), ("O SEU RESMUNGA NA BRONCA?", "t", 0, 0)]),
+   P=[("h4_P1_toda_bronca", None), ("h4_P2_girou_de_novo", 26.5)], Cv="h4_C_igual_crianca",
+   txt=[("TODA BRONCA TEM A MESMA RESPOSTA", "h", 0, 0), ("GIROU DE NOVO!", "c", 26.5, 33.9), ("O SEU FINGE QUE NÃO OUVE?", "t", 0, 0)]),
+ "h5": dict(cid="h5", cut=(0, 26.5), layout="top", W="b1_W_opcao1", C="b1_W_opcao1", ogvol=0.5,
+   P=[("h5_P1_hoje_nao_tem_janta", None), ("h5_P2_respondeu", 22.3)], Cv="h5_C_resmunga",
+   txt=[("HOJE NÃO TEM JANTA!", "h", 0, 0), ("RESPONDEU! ADOLESCENTE PET", "c", 22.3, 26.4), ("O SEU RESMUNGA NA BRONCA?", "t", 0, 0)]),
 }
 
 def dur(p):
