@@ -15,20 +15,20 @@ YS = {"top": int(os.environ.get("YS_TOP", 110)), "bottom": int(os.environ.get("Y
 # linhas do meio: (tipo, nome, início em segundos do CLIPE, atempo, legenda). tipo P = fala original (voz/), E = explicação (explicacao/)
 REELS = {
  "b32": dict(slug="escova_secadora", orig="b32_valentina_shihtzu2_escova_secadora_para.mp4", cut=(0, 33.0), layout="bottom", wn="37s", cn="6s",
-   P1="b32_P1_pelo_da_trabalho", Cv="b32_C_escova_shopee", hook="PELO DÁ TRABALHO? OLHA ISSO", tag="ESCOVA SECADORA PET · SHOPEE",
+   P1="b32_P1_pelo_da_trabalho", Cv="b32_C_escova_shopee_sem_plantao", hook="PELO DÁ TRABALHO? OLHA ISSO", tag="ESCOVA SECADORA PET · SHOPEE",
    L=[("V","b32_V1",0.4,1,"Quem tem cachorro de pelo longo sabe: secar depois do banho é uma hora de secador e cachorro tremendo."),
       ("P","b32_P2_seca_e_escova",9.0,1,"SECA E ESCOVA JUNTO"),
       ("V","b32_V2",14.2,1,"O ar quente sai pelas cerdas, então você desembaraça e seca na mesma passada, e o nó nem forma."),
       ("V","b32_V3",23.0,1,"Mais de dez mil tutores já levaram, por menos de cinquenta reais. Um banho e tosa custa isso."),
       ]),
  "b03": dict(slug="toca_de_gato", orig="b03_mimoracat_esta_fue_la.mp4", cut=(0, 20.0), ext=True, layout="top", wn="18s", cn="5s",
-   P1="b03_P1_desde_que_comprei", Cv="b03_C_toca_shopee", hook="DESDE QUE EU COMPREI ISSO…", tag="TOCA DE GATO · SHOPEE",
+   P1="b03_P1_desde_que_comprei", Cv="b03_C_toca_shopee_sem_plantao", hook="DESDE QUE EU COMPREI ISSO…", tag="TOCA DE GATO · SHOPEE",
    L=[("V","b03_V1",0.3,1,"Gato dormindo em cima de você a noite inteira, pelo no travesseiro… eu sei."),
       ("P","b03_P2_cada_no_seu_cantinho",6.6,1,"CADA UM NO SEU CANTINHO"),
       ("V","b03_V2",13.2,1,"Mais de três mil tutores já levaram, e custa menos de quarenta reais."),
       ]),
  "b31": dict(slug="fonte_automatica", orig="b31_laarissatenorio_bebedouro_fonte_de.mp4", cut=(0, 33.5), layout="bottom", wn="37s", cn="6s",
-   P1="b31_P1_pet_bebe_agua_parada", Cv="b31_C_fonte_shopee", hook="SEU PET BEBE ÁGUA PARADA?", tag="FONTE AUTOMÁTICA · SHOPEE",
+   P1="b31_P1_pet_bebe_agua_parada", Cv="b31_C_fonte_shopee_sem_plantao", hook="SEU PET BEBE ÁGUA PARADA?", tag="FONTE AUTOMÁTICA · SHOPEE",
    L=[("P","b31_P2_agua_fresca_sensor",3.0,1,"O SENSOR LIGA SOZINHO"),
       ("V","b31_V1",8.2,1,"Água parada esquenta, junta pelo e poeira… e ele bebe cada vez menos."),
       ("V","b31_V2",15.0,1,"E pet que bebe pouca água é o que mais dá problema de rim. Veterinário vive falando isso."),
@@ -46,7 +46,7 @@ def build(k):
     r = REELS[k]; os.makedirs(OUT, exist_ok=True)
     pv = lambda n: (f"{E}/voz_{n}.mp3" if n[4] in "EV" else f"{V}/voz_{n}.mp3")
     H = dur(pv(r["P1"])) + 0.3; cs, ce = r["cut"]; Cd = dur(pv(r["Cv"]))
-    Tc = H + (ce - cs); T = Tc + 0.3 + Cd + 0.5
+    Tc = H + (ce - cs); T = Tc + 0.3 + Cd + 0.2
     W = f"{DL}/react_{k}_duda_clipe_W_olhando_clipe_{r['wn']}.mp4"; C = f"{DL}/react_{k}_duda_clipe_C_camera_{r['cn']}.mp4"
     top = r["layout"] == "top"; ys = YS["top" if top else "bottom"]; seam = 672 if top else 1248
     orig = f"{OR}/{r['orig']}"

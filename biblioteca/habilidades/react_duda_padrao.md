@@ -8,7 +8,7 @@ Decisão do Allan: o react n03 v2 "fiscal do beijo" é o PADRÃO. Repetir igual;
 
 ## Receita (ordem fixa)
 1. **Clipe na mão** (yt-dlp) + transcrição + mapa de batidas segundo a segundo (regra 41). Guardar na fila o link do Instagram E do TikTok do original.
-2. **Cartão de texto para o "pode"**: falas por linha, com timestamp, bordão da casa ("É isso aí, ela tá de plantão!"), CTA de escolha entre posições reconhecíveis ("Time beija ou time não beija? Comenta aí!") e custo em % do saldo. Fala não repete o que a imagem já mostra (não dizer "a cachorra").
+2. **Cartão de texto para o "pode"**: falas por linha, com timestamp, CTA de escolha entre posições reconhecíveis ("Time beija ou time não beija? Comenta aí!") e custo em % do saldo. Fala não repete o que a imagem já mostra (não dizer "a cachorra").
 3. **Voz** (ElevenLabs Marianne, v4, stability 0,26, tags [playful]/[laughing]) gerada LINHA POR LINHA, para trocar uma sem refazer tudo. Montar a trilha na linha do tempo (voz_timeline) com 3,5 s de silêncio inicial se for Remix (o app toca o original do 0 s).
 4. **Animático** (clipe + voz + Duda parada) para o Allan ouvir o tempo. Só com "pode" vai para o HeyGen.
 5. **Looks**: no HeyGen não há controle de olhar; o olhar vem da foto. Looks salvos no avatar Duda: "Duda" (câmera) e "Smiling person in patterned shirt" (olhando para baixo-direita, com celular). Se precisar de outro olhar: Look Studio > Gerar com IA, descrever o lado pelo LADO DA IMAGEM ("looking down toward the RIGHT side of the image") em inglês; refinar custa 2 créditos por rodada; limite 6 créditos sem novo "pode".
