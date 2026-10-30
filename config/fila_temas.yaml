@@ -337,7 +337,8 @@ temas:
   data: '2026-10-29'
 - termo: cachorro pode comer banana
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-30'
 - termo: como dar remedio para gato que cospe
   pilar: cuidados_diarios
   status: pendente
@@ -1196,4 +1197,13 @@ temas:
   status: pendente
 - termo: como escolher a melhor mochila de transporte para pets pequenos
   pilar: produtos_compras
+  status: pendente
+- termo: quais petiscos naturais posso incluir na alimentacao do cachorro idoso
+  pilar: alimentacao
+  status: pendente
+- termo: como escolher bebedouros de inox ou ceramica para multiplos pets
+  pilar: produtos_compras
+  status: pendente
+- termo: como preparar um espaco seguro para o pet idoso durante reformas
+  pilar: utilidade_publica
   status: pendente
