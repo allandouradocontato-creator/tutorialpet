@@ -28,3 +28,10 @@ Cada react usa uma base diferente (mesma personagem). Looks salvos no avatar Dud
 - B3 varanda (Duda em cima): "Smiling balcony dreamer" (W baixo-esquerda) + "Smiling balcony sunlit friend" (C). Coque, camiseta preta, planta e grade.
 - Lição de prompt: o Look Studio devolve 2 opções por geração (a 1ª geração custou 2 créditos); para olhar lateral/baixo funciona ("eyes clearly lowered, head tilted down"); olhar "reto para cima" não funciona.
 - Custo das 4 gerações: 8 créditos = 2,0 % de 404 (saldo 396).
+
+### Versão REALISTA das bases B2/B3 (30/10/2026, preferida; as "bonitas" acima ficam de reserva)
+Pedido do Allan: menos produzido, mais gente comum. Prompt = texto do look + bloco comum "selfie de celular, sem maquiagem, textura de pele, luz comum, nada posado". Fotos em Downloads/Tutorial Pet/reacts/bases_duda/ (comparacao_bases_antigas_vs_realistas.jpg mostra antigos x novos).
+- B2r sofá real (Duda EMBAIXO, clipe em cima): duda_base2r_sofa_real_W_cima_esquerda.jpg (HeyGen "Cozy hoodie wearer with puppy", o 2º com esse nome, o mais recente) + duda_base2r_sofa_real_C_camera.jpg ("Cozy hoodie girl with puppy"). Rabo bagunçado, moletom cinza, poodle no colo, controle e manta no sofá.
+- B3r varanda real (Duda em cima): duda_base3r_varanda_real_W_baixo_esquerda.jpg ("Smiling balcony dweller", 2º da grade) + duda_base3r_varanda_real_C_camera.jpg ("Smiling balcony dweller", 1º da grade). Coque solto, camiseta preta amassada, varal e cadeira de plástico, céu nublado.
+- Os 4 saíram na 1ª tentativa (a 1ª opção de cada geração era a boa; a 2ª demorou ou falhou), sem refino. Nomes iguais no HeyGen: identificar pelo id (sofá W = a55f5f9d…, sofá C = 2d9af092…, varanda W = 74bcc0c0…, varanda C = f1b246ba…).
+- Custo: 4 gerações = 8 créditos = 2,0 % de 396 (saldo ≈ 388, conferir no HeyGen).
