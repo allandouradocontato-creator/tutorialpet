@@ -35,3 +35,9 @@ Pedido do Allan: menos produzido, mais gente comum. Prompt = texto do look + blo
 - B3r varanda real (Duda em cima): duda_base3r_varanda_real_W_baixo_esquerda.jpg ("Smiling balcony dweller", 2º da grade) + duda_base3r_varanda_real_C_camera.jpg ("Smiling balcony dweller", 1º da grade). Coque solto, camiseta preta amassada, varal e cadeira de plástico, céu nublado.
 - Os 4 saíram na 1ª tentativa (a 1ª opção de cada geração era a boa; a 2ª demorou ou falhou), sem refino. Nomes iguais no HeyGen: identificar pelo id (sofá W = a55f5f9d…, sofá C = 2d9af092…, varanda W = 74bcc0c0…, varanda C = f1b246ba…).
 - Custo: 4 gerações = 8 créditos = 2,0 % de 396 (saldo ≈ 388, conferir no HeyGen).
+
+## Clipes e montagem com as bases B1/B2r/B3r (30/10/2026)
+- 6 clipes HeyGen (W+C por react, ~48 s no total, ≈ 38 créditos ≈ 9,8 % do saldo de ~388); conferir o saldo na tela e corrigir se divergir.
+- Áudio: enviar ao HeyGen o MP3 da Marianne por trecho; a montagem usa a voz limpa do ElevenLabs, não o áudio do HeyGen.
+- Montagem: Duda 1080x672 + original 1080x1248; áudio original 25 %, música 10 %, loudnorm 2 passadas + alimiter level=0 (−14,3 LUFS). Receita em reacts_final/mont.py.
+- Original com segundos mortos: jump cut antes. Publicação: Zernio presign + Buffer em ondas (limite 10).
