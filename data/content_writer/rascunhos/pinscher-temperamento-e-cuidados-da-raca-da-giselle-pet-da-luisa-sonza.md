@@ -14,7 +14,7 @@ pilar: comportamento
 intencao_busca: informacional
 site_id: pets-tutores-iniciantes
 aviso_saude_aplicavel: false
-autor: Equipe Tutorial Pet
+autor: ''
 fontes:
   - https://www.metropoles.com/colunas/e-o-bicho/conheca-gisele-pinscher-de-luisa-sonza-que-virou-capa-de-revista
   - https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml

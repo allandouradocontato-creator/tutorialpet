@@ -9,7 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-22T15:40:00+00:00'
 titulo: 'Quantas vezes por dia o cachorro precisa passear?'
 meta_description: Quantas vezes por dia o cachorro precisa passear? Uma história de rotina e a orientação prática para ajustar passeios por idade, porte e energia.
-autor: Equipe Tutorial Pet
+autor: ''
 aviso_saude_aplicavel: true
 estrutura_abertura: resposta_direta
 voz: historia_curta_com_orientacao

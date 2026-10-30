@@ -8,7 +8,7 @@ slug: como-saber-se-o-asfalto-esta-quente-para-passear
 termo_origem: como saber se o asfalto esta quente para passear
 pilar: cuidados_diarios
 intencao_busca: informacional
-autor: Equipe Tutorial Pet
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-16T13:41:48+00:00'
 aviso_saude_aplicavel: false

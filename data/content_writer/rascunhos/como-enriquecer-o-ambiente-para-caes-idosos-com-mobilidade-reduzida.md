@@ -9,7 +9,7 @@ slug: como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
 termo_origem: como enriquecer o ambiente para caes idosos com mobilidade reduzida
 pilar: comportamento
 intencao_busca: informacional
-autor: Equipe Tutorial Pet
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-17T12:38:18+00:00'
 aviso_saude_aplicavel: false

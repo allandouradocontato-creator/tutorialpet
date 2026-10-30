@@ -8,7 +8,7 @@ slug: como-estimular-o-olfato-de-caes-idosos-dentro-de-casa
 termo_origem: como estimular o olfato de caes idosos dentro de casa
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-autor: Equipe Tutorial Pet
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-24T23:11:05+00:00'
 aviso_saude_aplicavel: false

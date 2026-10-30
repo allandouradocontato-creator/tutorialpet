@@ -9,7 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-22T15:00:00+00:00'
 titulo: 'Cachorro chorando quando fico sozinho: o que fazer nos 5 primeiros minutos'
 meta_description: Seu cachorro chora quando você sai? Veja o que fazer nos 5 primeiros minutos, minuto a minuto, o treino da semana e quando chamar o veterinário.
-autor: Equipe Tutorial Pet
+autor: ''
 aviso_saude_aplicavel: true
 estrutura_abertura: resposta_direta
 voz: pratica_passo_a_passo

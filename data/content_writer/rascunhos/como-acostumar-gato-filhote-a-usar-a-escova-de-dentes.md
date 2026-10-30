@@ -8,7 +8,7 @@ slug: como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
 termo_origem: como acostumar gato filhote a usar a escova de dentes
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
-autor: Equipe Tutorial Pet
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-23T14:02:24+00:00'
 aviso_saude_aplicavel: false

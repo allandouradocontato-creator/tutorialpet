@@ -8,7 +8,7 @@ slug: melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
 termo_origem: melhores tipos de comedouros slow feed para caes ansiosos
 pilar: produtos_compras
 intencao_busca: informacional
-autor: Equipe Tutorial Pet
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-17T15:22:10+00:00'
 aviso_saude_aplicavel: false

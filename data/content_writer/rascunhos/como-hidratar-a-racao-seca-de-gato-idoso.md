@@ -8,7 +8,7 @@ slug: como-hidratar-a-racao-seca-de-gato-idoso
 termo_origem: como hidratar a racao seca de gato idoso
 pilar: alimentacao
 intencao_busca: informacional
-autor: 'Equipe Tutorial Pet'
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-28T16:45:09+00:00'
 aviso_saude_aplicavel: false

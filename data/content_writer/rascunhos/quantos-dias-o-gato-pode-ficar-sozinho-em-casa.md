@@ -9,7 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-22T15:20:00+00:00'
 titulo: 'Quantos dias o gato pode ficar sozinho em casa numa viagem?'
 meta_description: Vai viajar e quer saber quantos dias o gato pode ficar sozinho em casa? Respostas diretas sobre água, comida, areia e quando chamar alguém.
-autor: Equipe Tutorial Pet
+autor: ''
 aviso_saude_aplicavel: true
 estrutura_abertura: resposta_direta
 voz: pergunta_resposta

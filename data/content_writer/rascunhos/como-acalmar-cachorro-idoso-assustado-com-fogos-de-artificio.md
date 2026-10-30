@@ -8,7 +8,7 @@ slug: como-acalmar-cachorro-idoso-assustado-com-fogos-de-artificio
 termo_origem: como acalmar cachorro idoso assustado com fogos de artificio
 pilar: comportamento
 intencao_busca: informacional
-autor: Equipe Tutorial Pet
+autor: ''
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-24T12:19:44+00:00'
 aviso_saude_aplicavel: false
