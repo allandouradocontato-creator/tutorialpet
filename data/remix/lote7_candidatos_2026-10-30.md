@@ -27,3 +27,14 @@ Fontes: #caramelo #viralata #gangdocaramelo (176 links, só 1 ≥5 mi) + varredu
 | @cleitinhofuba_br | 3.2 mi | 1.7% | 487 d | 61 s | https://www.tiktok.com/@cleitinhofuba_br/video/7521862476049173816 | Cleitinho fubá e seus amigos vão pra igreja #cacho | 0s Hoje é dia de culto no Morro dos Sibitos e a pastora Rebecca Latifino, que está fazendo |
 | @bernardo.adestra | 3.1 mi | 0.1% | 316 d | 30 s | https://www.tiktok.com/@bernardo.adestra/video/7585218085548821767 | Qual raça faz mais estrago?#adestramento #adestram | 0s Qual raça faz uma área estrago quando morde uma pessoa? |
 | @viralata_dede | 3.0 mi | 0.0% | 549 d | 65 s | https://www.tiktok.com/@viralata_dede/video/7498751780088597766 | Tem cor mais linda que o clássico e patrimônio nac | 0s Dedé, eu tenho uma coisa séria pra te falar. O aniversário do funcionário tá chegando e |
+
+## Rodada 2 (busca por termos: "cachorro caramelo engraçado", "cachorro falando com o dono", "cachorro responde bronca") — finalistas para o Allan ver (links)
+- @malcomsalsicha 4,1 mi 37 s https://www.tiktok.com/@malcomsalsicha/video/7655691915425303816 — salsicha travado no sofá, dublagem PT ("tô travado na rampa"), dono rindo
+- @malcomsalsicha 3,0 mi 32 s https://www.tiktok.com/@malcomsalsicha/video/7622405777503931655 — "cadê o tio Málco?", cães recebem o dono, dublagem PT
+- @coxinha.caramelo 26,6 mi 7 s https://www.tiktok.com/@coxinha.caramelo/video/7606382783224646919 — caramelo de pé sorrindo ("smile stile")
+- @coxinha.caramelo 5,2 mi 13 s https://www.tiktok.com/@coxinha.caramelo/video/7632095415587966215 — "ensinar karatê pra essa cachorrada" (checar se é IA)
+- @malcomsalsicha 3,3 mi 20 s https://www.tiktok.com/@malcomsalsicha/video/7419341709575867654 — "NÃO DÁ"
+- @ottopetbr 7,6 mi 67 s https://www.tiktok.com/@ottopetbr/video/7670161535980899592 — "O que você tem na boca?" (longo, precisa de corte)
+- @dalvarothi 4,8 mi 32 s https://www.tiktok.com/@dalvarothi/video/7635335937811057941 e 4,0 mi 60 s https://www.tiktok.com/@dalvarothi/video/7658694976443780372 — desenho "Se meu cachorro falasse"
+- @viralata_dede 5,2 mi 80 s https://www.tiktok.com/@viralata_dede/video/7485096772629433606 — caramelo e a patinha
+- @rockyctba 10,2 mi 12 s https://www.tiktok.com/@rockyctba/video/7341762352712338694 — caramelos no ônibus (música em inglês, sem história)
