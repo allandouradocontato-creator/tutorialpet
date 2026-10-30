@@ -31,3 +31,11 @@ Regras de leitura:
 - Pela régua v3 nenhum dos três passaria de ~40 pontos (viralidade relativa 0, engajamento não medido, pico fraco).
 - Mantê-los só como **teste de formato** (as bases B1/B2r/B3r e a montagem nova), com leitura de 24 h; não são referência de conteúdo.
 - Próximo lote: re-pontuar n01, n02 e e01 pela v3 (candidatos óbvios) e buscar 10 novos pela v3 antes de qualquer crédito.
+
+## 4. Segunda trilha (decisão do Allan, 30/10 01:45): react de PRODUTO
+Além dos virais de humor, procurar vídeos de **uso dos produtos que estamos cadastrando na Shopee** (`data/produtos/afiliados_shopee.md`) e a Duda reage ao uso: mostra como funciona, por que é útil, o problema que resolve ("mão na roda").
+- Fonte: TikTok/IG/YouTube Shorts com a busca pelo nome do produto + "pet"/"cachorro"/"gato" (tapete de lamber, comedouro lento, fonte bebedouro, cinto de segurança pet, escada pet, caixa de transporte, educador de xixi, arranhador protetor de sofá, kit dedeira dental, alicate de unha).
+- Pré-requisitos iguais à v3 (crédito, sem marca d'água). Pontuação adaptada: viralidade relativa 15, compartilhamento 15, comentários com DÚVIDA de uso ("onde compro?", "funciona mesmo?") 20, produto claramente visível em uso e resultado visível (antes/depois ou pet usando) 25, dor real do tutor (xixi fora do lugar, gato não bebe água, come rápido demais) 15, corte de 15 s se sustenta 10.
+- Roteiro da Duda: tutora, 1ª pessoa, "eu uso / eu testei"; 1 frase do problema, 1 frase do que o produto resolve, CTA "link na bio" (link de afiliado Shopee com rótulo). Nada de afirmação de saúde; se envolver saúde, "converse com o veterinário".
+- Medição: além de views, **cliques no link de afiliado em 24 h** por produto (é o que paga). Cada react de produto registra em resultados.csv o produto e o link usado.
+- Prioridade inicial: produtos com dor mais frequente e comissão ≥ 10 % (educador de xixi 16 %, dedeira dental 15 %, comedouro lento 14 %, tapete de lamber 14 %, cinto de segurança 14 %, escada pet 14 %).
