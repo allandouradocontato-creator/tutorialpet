@@ -1,0 +1,47 @@
+name: Voz explicação lote 6 (N) (ElevenLabs Marianne)
+# Gera as falas de explicação do produto (animaticos/lote6/explicacao/falas.json) com a voz oficial da Duda,
+# guarda os mp3 no repositório e imprime o saldo de caracteres antes/depois. A chave nunca é impressa.
+on:
+  push:
+    paths: ["animaticos/lote6/explicacao/falas.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Gerar falas
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import importlib.util, json, os, sys, urllib.request
+          from pathlib import Path
+          sys.path.insert(0, "agents/17_video")
+          spec = importlib.util.spec_from_file_location("mv6", "agents/17_video/montar_video6.py")
+          m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+          def saldo():
+              r = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": os.environ["ELEVENLABS_API_KEY"].strip()})
+              d = json.load(urllib.request.urlopen(r, timeout=30)); return d["character_limit"] - d["character_count"], d["character_limit"]
+          a, lim = saldo(); print("SALDO_ANTES", a, "de", lim)
+          falas = json.loads(Path("animaticos/lote6/explicacao/falas.json").read_text(encoding="utf-8"))
+          for k, t in falas.items():
+              out = Path(f"animaticos/lote6/explicacao/voz_{k}.mp3")
+              if out.exists(): continue
+              if m._tts_elevenlabs(t, out) is None: raise SystemExit(f"falhou {k}")
+              print("ok", k, out.stat().st_size)
+          b, _ = saldo(); print("SALDO_DEPOIS", b, "gasto", a - b, "caracteres")
+          PY
+      - name: Guardar mp3
+        run: |
+          git config user.name "voz-bot"; git config user.email "bot@users.noreply.github.com"
+          git add animaticos/lote6/explicacao
+          git commit -m "voz explicação lote 6 (N) (Marianne)" || exit 0
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
