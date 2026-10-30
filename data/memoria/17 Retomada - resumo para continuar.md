@@ -149,3 +149,9 @@ Contagem: decididas abertas ~30 / feitas +1 (V18 fechada: fallback Cloudflare em
 - Scripts novos: `scripts/medir_lote.py`, `varrer_perfis.py`, `preparar_candidato.py`, `transcrever_lote.py`. Lição: hashtag do TikTok só entrega 3-5 % de vídeos ≤ 7 d; varrer perfis por yt-dlp rende mais; views só pelo yt-dlp (navegador é bloqueado).
 - Próximo: Fable julga a tabela e escreve os 6 roteiros; nada de voz/HeyGen antes do "pode". Ponto de partida de uso: sessão 8 %, semana 58 %, Fable 63 % (30/10 09:30); falta o print "depois".
 - 30/10 10h45 (Fable): lote 4 julgado em `data/remix/plano_reacts_lote4_2026-10-30.md`: humor a06 (96) + a11 (80) entram, a13 (80) reserva; produto b09 rampa (79) entra, b03 educador xixi (75) depende do Allan aceitar idade > 30 d na vertente B; 3º de produto não existe (b05 63, b07 61). Cartão do Sonnet = animáticos dos 4 + coleta de reforço (varredura diária de perfis). Aguardando o "pode" do Allan.
+
+## 30/10 11h (Sonnet produtor) — animáticos do lote 4 prontos, aguardando "pode"
+- 14 falas ElevenLabs Marianne (v4, estab. 0,26) em `animaticos/lote4/voz/`; 4 animáticos em `animaticos/lote4/` (R4-1 35 s, R4-2 39 s, R4-P1 51 s, R4-P2 28 s), script `scripts/animatico_lote4.py`. Fala "cão" trocada por "cachorro" no R4-P2.
+- ElevenLabs gastou ≈ 953 créditos ≈ 0,8 % do saldo (115,4 mil); estimativa do plano (0,3 %) estava baixa porque as falas finais são longas. Tela mostrou 115.485 depois (contador inconsistente; conferir).
+- Alertas: tempo de falas > plano (R4-1 +5 s, R4-2 +10 s, R4-P1 +11 s); original do R4-1 tem logo Metrópoles; original do R4-P2 tem texto "SOLICITA CATÁLOGO DE COLORES" queimado e título em espanhol.
+- Gatilho diário de virais criado (07:00). Reforço: ver seção "Reforço" da tabela do lote 4.

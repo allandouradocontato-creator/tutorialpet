@@ -106,3 +106,7 @@ Demais 83 vídeos de produto medidos têm < 100 mil views (descartados por "view
 - Hashtags do TikTok devolvem ~170 links, mas só 3-5 % têm ≤ 7 d: adotei o filtro pela data embutida no ID (sem custo) e varri 72 perfis por yt-dlp; ainda assim só 25 vídeos humor passam de 700 mil views. Solução proposta: manter a varredura diária dos perfis que estouraram (script `scripts/varrer_perfis.py`) em vez de depender de hashtag.
 - Leitura de views direto no navegador é bloqueada (desafio anti-robô do TikTok); a medição é só pelo yt-dlp.
 - Quadros: `lote4_montagem_0/1/2.jpg` em `data/remix/capturas/` (8 quadros-chave de cada vídeo, 9 vídeos por imagem) são a forma mais barata de julgar; as folhas 1 fps completas estão em `lote4_<id>_folha.jpg`.
+## Reforço (30/10, Sonnet, zero crédito)
+- Humor: 39 perfis varridos (`scripts/varrer_perfis.py`, ≤ 7,5 d, ≥ 1 mi) → 14 vídeos ≥ 1 mi, **todos já medidos no lote** (nenhum novo na faixa 20-45 s). Único não visto: @totoro.o.gato 1,7 mi, 77 s (longo, fora). CSV: `curadoria_lote4_reforco_A_2026-10-30.csv`. Conclusão: a onda de 7 dias está esgotada; só novos virais de amanhã mudam o quadro (gatilho diário criado).
+- Produto: 10 perfis (≤ 60 d, ≥ 100 mil) → só @sofpet.cl rendeu: 7700218482218126610 (184 mil) e 7684627680733449479 (175 mil), além do b09. Os outros 8 perfis tinham 0 acima de 100 mil. **Hashtags de produto no Chrome NÃO foram feitas ainda** (pendente).
+- Gatilho diário: "Virais do dia (varredura de perfis, 07:00)", 07:00 de Brasília, grava `data/remix/virais_do_dia.csv` (a IA só roda o script; não julga).
