@@ -8,3 +8,4 @@ Skill: biblioteca/habilidades/analise_referencia_viral.md (v2, 22/10/2026). Uma 
 2026-10-25 | lida; Guerrilha 24/10 sem post elegível de referência (casos sensíveis pulados) | n=0 | mantém
 2026-10-26 | lida; Guerrilha 25/10 sem post elegível de referência | n=0 | mantém
 2026-10-29 | lida; referência = F14 pego no flagra e Pet Fiscal do Criador (29/10); sem post elegível novo da Guerrilha | n=0 | mantém
+2026-10-30 | lida; referência = lote de 14 do Criador (provas B1-B10); sem post elegível novo da Guerrilha | n=0 | mantém

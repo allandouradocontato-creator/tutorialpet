@@ -23,3 +23,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-10-29 | regras 4 (matriz), 5 (gancho curto), 6 (CTA binário/aberto) e 7 (cadência, 10 min de folga) em rodada curta | n=0 posts do lote lidos; 3/3 ideias com T0 ≤6 palavras, 2/3 com fórmula de prova | mantém
 2026-10-29 | regra de CTA binário/aberto e pergunta de comentário: 3 ideias novas (regra 36) com T0 curto, Mito ou Verdade = binária | n=0 posts medidos; FB 9 (+1/7d), comentário de terceiro 0 | mantém
 2026-10-30 | regras 4 (matriz), 5 (gancho T0 ≤6 palavras), 6 (CTA a/b: binária no FB x aberta no IG) e 7 (cadência, 1 extra por dia, 10 min de folga) em lote cheio de 14 | n=0 posts do lote lidos; 14/14 com T0 ≤6 palavras, 12/14 com fórmula de prova (86%), 3 de radar; leitura 72 h a partir de 03/11 | mantém
+2026-10-30 | regra 6 (CTA binário/aberto) nas 3 ideias novas (duelo = binária) | n=0 posts medidos; FB 9, IG 0, comentário de terceiro 0 | mantém

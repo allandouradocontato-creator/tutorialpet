@@ -10,3 +10,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-10-25 | n<3 = NEUTRO: T6/T7 sem dado, não inferi causa; E112 busca outra leitura de seguidores | n=0 | mantém
 2026-10-26 | n<3 = NEUTRO; seguidores lidos (FB 9, IG 0, TT 21), causa não inferida | n=0 janelas de isca | mantém
 2026-10-29 | leitura de sinal: salvamento/compartilhamento como alvo do Checklist salvável | n=0, ainda sem medida; FB 9, IG 0, TikTok 21 | mantém
+2026-10-30 | leitura de sinal: seguidores parados (FB 9 desde 25/10, IG 0), causa não inferida | n=0 janelas de isca; NEUTRO | mantém

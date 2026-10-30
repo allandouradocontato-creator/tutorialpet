@@ -58,3 +58,9 @@
 - Pareceres: Estrategista (plano_de_mudanca 29/10: E141 tags, E142 fila de cortes 15-25 s), Criador (ideias 29/10: M1-M3, série Pet Fiscal). Sem parecer novo de Especialista TikTok/Atendente (rotinas pausadas). Sem divergência.
 - DECISÃO: isca, textos e gatilho de troca mantidos (sem dado ao vivo, trocar seria chute). Nova: E143 leva 3 ideias de audiência (regra 36) ao próximo lote.
 - Pedido ao Allan (inalterado, já consolidado): ok por escrito para ligar o fluxo MIMO, OAuth do Facebook no ManyChat, Claude no PC com Chrome (E28/E29).
+
+## Revisão 30/10/2026 12:45 (Fortaleza) — Diretor de Audiência
+- Medição (Zernio follower-stats 23–30/10, atualizado 07:00Z): FB 9 (parado desde 25/10), IG 0 (81 posts, 8 pontos parados), TikTok 21 (último valor). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca MIMO ainda fora do ar (E28/E29 bloqueadas: PC/Chrome + ok do Allan) = janela de 72 h não começou = NEUTRO.
+- Pareceres: Estrategista (30/10 07:10: gatilho disparou, R1 react curto / R2 gato sênior / R3 cachorro-sozinho, E149-E151), Criador (30/10: lote de 14 com matriz, TR1 Halloween 31/10, sem parecer sobre a isca), Otimizador (curadoria de reacts v4). Sem parecer novo de Especialista TikTok/Atendente/Guerrilha (rotinas pausadas). Sem divergência.
+- DECISÃO: isca, textos e gatilho de troca mantidos (sem dado ao vivo, trocar seria chute). Nova: E152 leva 3 ideias de audiência (regra 36) ao próximo lote, só itens não agendados.
+- Pedido ao Allan (inalterado, 1 mensagem): ok por escrito para ligar o fluxo MIMO; OAuth do Facebook no ManyChat; Claude no PC com Chrome para E28/E29.
