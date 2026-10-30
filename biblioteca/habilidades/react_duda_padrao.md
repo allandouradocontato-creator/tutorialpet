@@ -41,3 +41,11 @@ Pedido do Allan: menos produzido, mais gente comum. Prompt = texto do look + blo
 - Áudio: enviar ao HeyGen o MP3 da Marianne por trecho; a montagem usa a voz limpa do ElevenLabs, não o áudio do HeyGen.
 - Montagem: Duda 1080x672 + original 1080x1248; áudio original 25 %, música 10 %, loudnorm 2 passadas + alimiter level=0 (−14,3 LUFS). Receita em reacts_final/mont.py.
 - Original com segundos mortos: jump cut antes. Publicação: Zernio presign + Buffer em ondas (limite 10).
+
+## Tom do react de PRODUTO (v3, 30/10/2026, pedido do Allan)
+- Conversa de amiga contando um achado: energia de venda, mas natural ("olha, essa é mão na roda", "gente, olha essa cena"). Nada de texto educativo seco nem de locução de comercial.
+- A Duda REAGE e OPINA; NÃO diz que comprou, usou ou testou o produto (é avatar: evitar falso depoimento). Gancho e fechamento seguem a mesma regra.
+- CTA ("o link tá na bio") SÓ no fechamento C2, uma vez. Sem bordão ("tá de plantão" não é do Tutorial Pet).
+- Duda só no gancho (P1) e no fechamento (C2) em tela dividida; miolo = original em tela cheia + voz da Duda (Marianne) + legenda em blocos. Builder: reacts_final/mont_v3.py (YS_TOP=410).
+- Antes de posicionar as falas N, ouvir/ler o P2 já gravado para não repetir a mesma ideia.
+
