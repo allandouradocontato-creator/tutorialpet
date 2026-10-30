@@ -163,3 +163,4 @@ Entregue `data/remix/curadoria_lote5_tabela.md`: humor 30/30 passando (a01–a30
 - Fable julgou (data/remix/julgamento_lote5_fable.md): finalistas a09, a16, a17 (humor) e b32, b03, b31 (produto Shopee); reservas a05, a10, b29, b42.
 - Voz Marianne gerada linha a linha (18 falas) em animaticos/lote5/voz; 6 animáticos (Duda parada, zero HeyGen) em animaticos/lote5 e na pasta Downloads/Tutorial Pet/reacts/animaticos_lote5.
 - Próximo: Allan ouve; só com novo "pode" vai ao HeyGen (looks B1/B2r já salvos). Builder: scripts/animatico_lote5.py.
+- 2026-10-30: Lote 6 humor (h1–h5, régua v6): voz Marianne (15 falas) + 5 animáticos Duda parada em animaticos/lote6/ (scripts/animatico_lote6.py). Aguardando 'pode' para HeyGen/publicação.
