@@ -8,6 +8,8 @@ O que confere (e corrige):
   2. Blog: todo slug de config/blog_aprovados.txt tem de responder 200 em tutorialpet.com.br. Se não, dispara publicar_blog.yml.
   3. Reprovados: artigo com 3 tentativas de reescrita sem sucesso vira pendência humana.
   4. Falha repetida: se a fábrica falhou 3x seguidas NÃO redispara em loop; abre alerta.
+  5. (30/10/2026) Artigo novo hoje: pelo menos 1 após 11h, 2 após 15h e 3 após 19h (Fortaleza); abaixo disso, alerta.
+  6. (30/10/2026) Links quebrados: amostra rotativa de 12 URLs do sitemap por rodada; 2 tentativas antes de alertar.
 Alerta (só quando não conseguiu consertar): issue "SAUDE (automatico)" + Telegram se TELEGRAM_BOT_TOKEN/CHAT_ID existirem.
 Limites: no máximo 6 disparos de fábrica e 3 de publicar_blog por dia (evita laço infinito).
 """
@@ -147,9 +149,51 @@ def main() -> int:
     if humanos:
         alertas.append(f"Artigo(s) reprovado(s) que a reescrita automática não resolveu (3 tentativas): {', '.join(humanos)}.")
 
+    # 4) ARTIGO NOVO HOJE (30/10/2026, Allan: "alguém tem que conferir o que deveria ter acontecido e não aconteceu") -----
+    local = agora - dt.timedelta(hours=3)
+    hoje_local = local.strftime("%Y-%m-%d")
+    novos_hoje = 0
+    try:
+        import glob
+        import re as _re
+        for f in glob.glob("data/seo_onpage/otimizados/*.md"):
+            cab = open(f, encoding="utf-8").read(600)
+            m = _re.search(r"^data:\s*'?(\d{4}-\d{2}-\d{2})", cab, _re.M)
+            if m and m.group(1) == hoje_local:
+                novos_hoje += 1
+    except Exception as exc:  # noqa: BLE001
+        print(f"[artigos] nao consegui contar: {exc}")
+    meta_dia = 3 if local.hour >= 19 else (2 if local.hour >= 15 else (1 if local.hour >= 11 else 0))
+    print(f"[artigos] novos_hoje={novos_hoje} esperados_ate_agora={meta_dia}")
+    if novos_hoje < meta_dia:
+        alertas.append(f"Blog: só {novos_hoje} artigo(s) novo(s) hoje; o esperado até agora era {meta_dia} (ritmo fixo de 3/dia). Conferir a fábrica e o publicar_blog.")
+
+    # 5) LINKS QUEBRADOS: amostra rotativa de 12 URLs do sitemap por rodada (o site todo gira em ~8 rodadas) ------------
+    quebrados: list[str] = []
+    try:
+        import re as _re2
+        req = urllib.request.Request(f"{SITE}/sitemap.xml", headers={"User-Agent": "saude-tutorialpet"})
+        locs = _re2.findall(r"<loc>([^<]+)</loc>", urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore"))
+        if locs:
+            passo = 12
+            ini_i = (int(agora.timestamp() // 3600) * passo) % len(locs)
+            amostra = [locs[(ini_i + k) % len(locs)] for k in range(min(passo, len(locs)))]
+            for u in amostra:
+                slug = u.replace(SITE, "").lstrip("/")
+                cod = http_ok(slug, agora)
+                if cod != 200:
+                    cod = http_ok(slug, agora)   # 2a tentativa antes de acusar
+                if cod != 200:
+                    quebrados.append(f"{u} ({cod})")
+        print(f"[links] sitemap={len(locs)} quebrados={quebrados}")
+    except Exception as exc:  # noqa: BLE001
+        print(f"[links] nao consegui ler o sitemap: {exc}")
+    if quebrados:
+        alertas.append("Link(s) do sitemap fora do ar: " + "; ".join(quebrados[:5]))
+
     # RESUMO + ALERTA ----------------------------------------------------------------------------
     linhas = [f"Saúde da fábrica — {agora:%Y-%m-%d %H:%M}Z",
-              f"- pacotes hoje: {feitos}/{esperados}; artigos aprovados fora do ar: {len(fora)}"]
+              f"- pacotes hoje: {feitos}/{esperados}; artigos aprovados fora do ar: {len(fora)}; artigos novos hoje: {novos_hoje}; links quebrados na amostra: {len(quebrados)}"]
     linhas += [f"- ação: {a}" for a in acoes] + [f"- ALERTA: {a}" for a in alertas]
     texto = "\n".join(linhas)
     print(texto)
