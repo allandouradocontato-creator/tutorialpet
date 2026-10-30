@@ -32,3 +32,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-30 | slots livres vs saturados (FB/IG 4 posts hoje, TikTok 4) | carrinho-de-passeio levado para 31/10 B/C | n=3 posts | mantem
 2026-10-30 | jogadas 'sem engagement bait' e 'pergunta genuína + link no 1º comentário': 14 CTAs sem comando, link só no 1º comentário, meme no IG nos picos 11:00/20:00 | n=0 posts do lote lidos (comparar com os 10 anteriores em 03/11) | mantém
 2026-10-30 | CTA sem comando de engajamento e pergunta genuína nas 3 ideias novas | n=0 posts medidos | mantém
+2026-10-30 | hipótese: reserva evergreen (gancho pergunta concreta, legenda nova) cobre dias sem pacote novo com gancho liberado | n=3 vídeos reagendados (arranhar-sofa, patas-inverno, plantas), resultado em 72 h | mantém
