@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 20
-atualizado_em: "2026-10-29 07:35 Fortaleza"
+versao: 21
+atualizado_em: "2026-10-30 07:40 Fortaleza"
+versao_anterior_atualizado_em_20: "2026-10-29 07:35"
 versao_anterior_atualizado_em_19: "2026-10-28 07:20"
 versao_anterior_atualizado_em_18: "2026-10-27 07:35"
 versao_anterior_atualizado_em_17: "2026-10-26 07:35"
@@ -396,3 +397,41 @@ perguntas_lote_2026_10_29:   # binario/numerado; lote: gato idoso, petiscos, cai
     - "Seu cachorro tem alguma mania que só você entende? Conta aqui."
     - "Quantas vezes por dia você percebe isso: 1, 2 ou mais?"
     - "Se o comportamento muda de repente, você já falou com o veterinário? Sim ou não?"
+
+leitura_2026_10_30:   # rodada 30/10 07:10; dados Zernio sync 30/10 06:17 e Buffer 29/10 22:14; n pequeno: numero sim, causa nao
+  gatilho: "DISPAROU (FB tempo mediano 3,8 s; IG skip mediano 76% e 9/16 acima de 70%; TikTok 2,25 s e 1 share em 12). Plano: data/social/plano_de_mudanca_2026-10-30.md (E149-E151)"
+  sinal_novo: "React curto com Duda (23 s, tela dividida) 29/10 21:00-21:10: FB 279 views, 9 curtidas, 8,2 s de tempo medio (mediana da conta 3,8 s); IG skip 25% e 8,5 s (mediana 76%). n=1 por rede, parcial (10 h): hipotese, nao regra"
+  tiktok_destaque: "29/10 14:21 gato idoso 44 s: 422 views, 48 reacoes, 3 shares (melhor da conta; parcial 17 h; tempo 2,7 s, entao o ganho veio de tema/gancho, nao de retencao)"
+  horarios: {decisao: "grade mantida; reacts em FB 21:00 e IG 21:10 (onde o meme rendeu); FB 08:30 e TikTok 11:20 aparecem na fila Buffer de 30/10 e nao tem prova (08:30 caiu: 121, n8)", ordem_sem_conflito: "FB 08:30, IG 08:40, TikTok 10:20/11:20, FB 10:00, IG 11:00, FB 21:00, IG 21:10, TikTok 20:20"}
+  teste_R1_react_curto: {formato: "react 18-25 s, Duda, tela dividida, gancho no s0, pergunta binaria", n: 5, redes: [facebook, instagram, tiktok], leitura: "24 h por post", aprova_se: "FB tempo >=6 s e IG skip <=55% em 3 de 5; TikTok tempo >=4 s ou >=1 share em 3 de 5", reprova_se: "2 primeiros abaixo de FB 4 s e IG skip 70%", ressalva: "conteudo de terceiros: ver regra (e) na decisao 3 do relatorio"}
+perguntas_lote_2026_10_30:   # tema dos posts agendados 30-31/10; binarias ou numeradas; sem tema de saude; link so no 1o comentario
+  cachorro_piscina:
+    - "Seu cachorro entra na piscina sozinho ou precisa de convite?"
+    - "Depois da piscina, ele toma banho de água doce? Sim ou não?"
+    - "Piscina, mar ou rio: onde o seu cachorro mais se diverte?"
+    - "Seu cachorro pula de cabeça ou entra devagar?"
+    - "Quantas vezes por semana ele nada? Responde só o número."
+  gato_agua:
+    - "Seu gato bebe da tigela, da torneira ou de um copo?"
+    - "Quantas tigelas de água tem na sua casa? Só o número."
+    - "Fonte de água: seu gato usa ou ignora?"
+    - "Onde fica a tigela dele: perto ou longe da comida?"
+    - "Seu gato prefere água gelada ou natural? Conta aqui."
+  gato_visitas:
+    - "Quando chega visita, seu gato some ou aparece? Conta aqui."
+    - "Qual é o esconderijo dele quando a campainha toca?"
+    - "Barulho de aspirador: seu gato foge? Sim ou não?"
+    - "Quantas visitas ele aceita por vez: 1, 2 ou nenhuma?"
+    - "Seu gato já fez amizade com alguma visita? Conta aqui."
+  gato_idoso:
+    - "Quantos anos tem o seu gato? Responde só o número."
+    - "Ele ainda sobe no sofá sozinho? Sim ou não?"
+    - "Soneca da manhã ou da tarde: qual ele prefere?"
+    - "Qual é a mania mais fofa do seu gato mais velho?"
+    - "Quando foi o último check-up dele? Só curiosidade, sem julgamento."
+  react_humor:
+    - "Time beija ou time não beija? Comenta aí!"
+    - "Seu cachorro deixa estranho chegar perto? Sim ou não?"
+    - "De 0 a 10, quanto o seu pet é ciumento?"
+    - "Quem manda aí em casa: você ou ele?"
+    - "Marca quem tem um pet assim."
