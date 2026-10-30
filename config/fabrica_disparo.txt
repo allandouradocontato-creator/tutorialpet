@@ -33,3 +33,4 @@ disparo agendador 2026-10-28 16:3x Fortaleza: estoque ~1,2 dia (FB/IG ate 30/10 
 disparo Conferente 2026-10-29 07:55 Fortaleza (estoque vídeo ~1,1 dia agendado até 30/10 10:00-10:20, ~1,8 com 2 pacotes prontos; falta 29/10 19:00 FB/IG)
 disparo agendador 2026-10-29 08:3x Fortaleza: estoque ~1,1 dia (FB/IG ate 30/10 10:00-11:00, TikTok ate 30/10 10:20; falta 29/10 C FB/IG e 30/10 B/C); 2 pacotes ok barrados pelo portao (frame 0 > 6 palavras); evergreen sem video na media; demais em revisar
 2026-10-29 16:25 (Fortaleza) | Agendador: estoque ate 31/10 manha; faltam 30/10 C? (ok), 31/10 B/C e 01/11; sem pacote novo pronto alem dos 2 agendados
+disparo agendador 2026-10-30 12:2x Fortaleza: estoque ate 31/10 14:00-15:00 (FB/IG) e 31/10 23:20Z TikTok; falta 31/10 C FB/IG e 01/11 em diante; 2 pacotes ok (gato-filhote x caes-adultos, fonte-de-agua-gatos-medo) barrados pelo portao de gancho; evergreen sem mp4 na media
