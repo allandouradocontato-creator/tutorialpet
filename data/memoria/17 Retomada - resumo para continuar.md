@@ -142,3 +142,9 @@ Contagem: decididas abertas ~30 / feitas +1 (V18 fechada: fallback Cloudflare em
 - Cartão do Sonnet para coletar e medir: `data/remix/cartao_sonnet_coleta_lote4_2026-10-30.md` (hashtags/termos/perfis, script, 25 baixados com folha 1 fps + transcrição + top 10 comentários, tabela `curadoria_lote4_tabela_2026-10-30.md`).
 - Falta (próxima conversa do Fable, depois do Sonnet): julgar a tabela e as folhas, escolher 3 + 3, mapa de batidas e 6 roteiros com falas por timestamp (regra 41), cartão para o Sonnet produzir o animático; "pode" do Allan antes de qualquer voz/HeyGen.
 - Ponto de partida do custo do lote 4 (print do Allan, 30/10 09:30): sessão 8 %, semana 58 %, Fable 63 % do teto de 50 % (reset domingo 01:00). Medir de novo depois da coleta do Sonnet e depois do julgamento do Fable.
+
+## Retomada 30/10/2026 10h30 (Sonnet) — lote 4: coleta e medição concluídas
+- 319 medidos (177 humor, 142 produto), 25 baixados (a01-a15 humor, b01-b10 produto); tabela `data/remix/curadoria_lote4_tabela_2026-10-30.md`, CSVs completos `curadoria_lote4_A/B_2026-10-30.csv`, quadros-chave `data/remix/capturas/lote4_montagem_0/1/2.jpg`, transcrições e comentários em `curadoria/lote4/<id>/`. Originais e folhas no PC: Downloads\Tutorial Pet\reacts\originais_lote4 (50 arquivos conferidos).
+- Humor: só 6 passam em todos os pré-requisitos (a06, a11, a12, a13, a14, a15; a12/a14 compilações, a06 = n02 já visto). Produto: quase tudo > 30 d (só b09 21 d; b08 31,8 d).
+- Scripts novos: `scripts/medir_lote.py`, `varrer_perfis.py`, `preparar_candidato.py`, `transcrever_lote.py`. Lição: hashtag do TikTok só entrega 3-5 % de vídeos ≤ 7 d; varrer perfis por yt-dlp rende mais; views só pelo yt-dlp (navegador é bloqueado).
+- Próximo: Fable julga a tabela e escreve os 6 roteiros; nada de voz/HeyGen antes do "pode". Ponto de partida de uso: sessão 8 %, semana 58 %, Fable 63 % (30/10 09:30); falta o print "depois".
