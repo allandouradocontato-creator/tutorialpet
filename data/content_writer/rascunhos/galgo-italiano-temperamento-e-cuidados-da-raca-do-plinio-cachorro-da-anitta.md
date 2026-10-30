@@ -1,7 +1,8 @@
 ---
-titulo: 'Galgo italiano: temperamento e cuidados com a raça do Plínio, pet da Anitta'
-meta_description: 'Conheça o galgo italiano, raça do Plínio, pet da Anitta: temperamento, cuidados com o frio, a saúde e dicas práticas para o dia a dia.'
+titulo: 'Qual a raça do Plínio, cachorro da Anitta? Galgo italiano'
+meta_description: 'O Plínio, cachorro da Anitta, é um galgo italiano. Veja a raça, o temperamento e os cuidados que esse cão esguio e friorento pede.'
 data: '2026-10-15'
+atualizado_em: '2026-10-30'
 status: rascunho_pendente_revisao
 slug: galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
 termo_origem: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da Anitta
@@ -32,7 +33,7 @@ foto_artista:
 
 # Galgo italiano: temperamento e cuidados com a raça do Plínio, pet da Anitta
 
-Você já parou para olhar com calma um galgo italiano? As pernas finas, o corpo esguio e o olhar atento chamam atenção em qualquer calçada. A raça ficou ainda mais conhecida por causa do Plínio, o cão da cantora Anitta. Vamos conhecer o Plínio e, principalmente, o que esse jeito de ser pede de quem divide a casa com um galgo.
+**A raça do Plínio, cachorro da Anitta, é galgo italiano.** Você já parou para olhar com calma um galgo italiano? As pernas finas, o corpo esguio e o olhar atento chamam atenção em qualquer calçada. A raça ficou ainda mais conhecida por causa do Plínio, o cão da cantora Anitta. Vamos conhecer o Plínio e, principalmente, o que esse jeito de ser pede de quem divide a casa com um galgo.
 
 *Este é um conteúdo editorial do Tutorial Pet. Não há parceria nem aprovação da artista ou do Plínio sobre este blog ou sobre qualquer produto.*
 

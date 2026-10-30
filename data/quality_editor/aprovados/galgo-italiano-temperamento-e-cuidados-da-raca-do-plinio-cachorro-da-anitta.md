@@ -9,8 +9,8 @@ intencao_busca: informacional
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-15T10:56:25+00:00'
 aviso_saude_aplicavel: false
-titulo: 'Galgo italiano: temperamento e cuidados com a raça'
-meta_description: 'Conheça tudo sobre o galgo italiano: temperamento, sensibilidade
+titulo: 'Qual a raça do Plínio, cachorro da Anitta? Galgo italiano'
+meta_description: 'O Plínio, cachorro da Anitta, é um galgo italiano. Veja a raça, o temperamento e os cuidados que esse cão esguio e friorento pede.'
   ao frio, necessidade de exercícios e cuidados essenciais com a raça.'
 autor: ''
 atualizado_em: '2026-10-22'
