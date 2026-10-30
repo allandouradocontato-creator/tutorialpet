@@ -939,9 +939,10 @@ temas:
   data: '2026-10-29'
 - termo: o que faz um bom criador de cachorro e os sinais de um mau criador
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção; sem nomear criador; fontes: CFMV e CRMV. Gancho: Checklist
     de visita e perguntas; práticas, não pessoas'
+  data: '2026-10-30'
 - termo: como adotar um cachorro passo a passo
   pilar: adocao
   status: pendente
@@ -1175,4 +1176,16 @@ temas:
   status: pendente
 - termo: como escolher a melhor raao umida para gatos adultos
   pilar: alimentacao
+  status: pendente
+- termo: como adaptar cachorro adotado medroso a nova rotina
+  pilar: adocao
+  status: pendente
+- termo: como descongelar comida natural para cachorro com seguranca
+  pilar: alimentacao
+  status: pendente
+- termo: como escolher tapete gelado refrescante para cachorro
+  pilar: produtos_compras
+  status: pendente
+- termo: como viajar de onibus interestadual com cachorro
+  pilar: utilidade_publica
   status: pendente
