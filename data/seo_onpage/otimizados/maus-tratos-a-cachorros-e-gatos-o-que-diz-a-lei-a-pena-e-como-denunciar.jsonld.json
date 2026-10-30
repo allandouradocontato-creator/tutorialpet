@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar: guia prático",
+    "description": "Maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar: guia prático. Muitas informações que circulam na internet sobre crimes...",
+    "datePublished": "2026-10-29",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar"
+    },
+    "image": "https://tutorialpet.com.br/imagens/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cidadão comum pode arrombar um portão para resgatar um animal maltratado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não sem respaldo legal. O Código Penal tipifica invasão de domicílio. A entrada forçada sem ordem judicial só tem respaldo se houver perigo iminente comprovado, conduzida preferencialmente por policiais militares pelo 190."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A denúncia anônima pelo 181 realmente gera investigação?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. As denúncias do Disque Denúncia são encaminhadas para a Polícia Civil e Militar para verificação preliminar. Dados precisos aumentam a chance de vistoria."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O síndico ou condomínio podem aplicar sanções além da polícia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O condomínio pode aplicar advertências e multas se a conduta violar o regulamento interno. No entanto, essas multas administrativas não substituem o boletim de ocorrência criminal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que acontece com o animal após a comprovação de maus-tratos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O responsável perde a posse provisória do pet. O animal é encaminhado a centros de controle de zoonoses municipais, ONGs cadastradas ou fiéis depositários nomeados pela autoridade competente.  ---"
+        }
+      }
+    ]
+  }
+}

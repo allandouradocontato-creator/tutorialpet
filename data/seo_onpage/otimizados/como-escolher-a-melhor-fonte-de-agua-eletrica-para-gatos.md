@@ -15,12 +15,12 @@ autor: ''
 atualizado_em: '2026-10-29'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-29T22:38:54+00:00'
+revisado_em: '2026-10-30T15:08:10+00:00'
 checagens_qualidade: []
 titulo_seo: Como escolher a melhor fonte de água elétrica para gatos
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-29T22:38:54+00:00'
+otimizado_em: '2026-10-30T15:08:10+00:00'
 checagens_seo:
 - título original (70 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -40,6 +40,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos.jsonld.json
+imagem_capa: imagens/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos.jpg
+imagem_fonte: pexels
+imagem_fotografo: Valeria Makai
+imagem_fotografo_url: https://www.pexels.com/@valeria-makai-84331105
+imagem_url_pagina: https://www.pexels.com/photo/black-cat-drinking-water-8881548/
+imagem_selecionada_em: '2026-10-30T15:08:10+00:00'
 ---
 
 # Como escolher a melhor fonte de água elétrica para gatos: guia prático

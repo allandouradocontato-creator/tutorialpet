@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

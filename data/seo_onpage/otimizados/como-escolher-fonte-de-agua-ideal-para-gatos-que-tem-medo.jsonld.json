@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

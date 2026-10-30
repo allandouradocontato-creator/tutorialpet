@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-29'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-29T22:38:54+00:00'
+revisado_em: '2026-10-30T15:08:10+00:00'
 checagens_qualidade: []
 ---
 

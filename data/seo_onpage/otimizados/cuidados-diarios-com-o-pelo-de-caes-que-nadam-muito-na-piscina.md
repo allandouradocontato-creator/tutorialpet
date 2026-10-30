@@ -15,11 +15,11 @@ autor: ''
 atualizado_em: '2026-10-29'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-29T22:38:54+00:00'
+revisado_em: '2026-10-30T15:12:25+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
-  descricao: 1/50 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
+  descricao: 1/56 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
     — simplificar.
   trechos:
   - '37 palavras: "Para cães idosos, que merecem atenção redobrada com o conforto
@@ -27,7 +27,7 @@ checagens_qualidade:
 titulo_seo: Cuidados diarios com o pelo de caes que nadam muito na
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-29T22:38:54+00:00'
+otimizado_em: '2026-10-30T15:12:26+00:00'
 checagens_seo:
 - título original (76 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -49,6 +49,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jsonld.json
+imagem_capa: imagens/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jpg
+imagem_fonte: pexels
+imagem_fotografo: Andrew Patrick Photo
+imagem_fotografo_url: https://www.pexels.com/@am83
+imagem_url_pagina: https://www.pexels.com/photo/a-dog-running-through-the-water-in-the-park-26965522/
+imagem_selecionada_em: '2026-10-30T15:12:26+00:00'
 ---
 
 # Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático

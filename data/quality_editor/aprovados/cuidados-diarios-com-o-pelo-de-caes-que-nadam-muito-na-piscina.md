@@ -15,11 +15,11 @@ autor: ''
 atualizado_em: '2026-10-29'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-29T22:38:54+00:00'
+revisado_em: '2026-10-30T15:12:25+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
-  descricao: 1/50 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
+  descricao: 1/56 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
     — simplificar.
   trechos:
   - '37 palavras: "Para cães idosos, que merecem atenção redobrada com o conforto

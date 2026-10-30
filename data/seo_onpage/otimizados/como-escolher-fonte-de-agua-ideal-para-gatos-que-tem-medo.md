@@ -16,12 +16,12 @@ autor: ''
 atualizado_em: '2026-10-29'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-29T22:38:54+00:00'
+revisado_em: '2026-10-30T15:06:55+00:00'
 checagens_qualidade: []
 titulo_seo: Como escolher fonte de agua ideal para gatos que tem medo
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-29T22:38:54+00:00'
+otimizado_em: '2026-10-30T15:06:55+00:00'
 checagens_seo:
 - título original (71 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -41,6 +41,21 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo.jsonld.json
+imagem_capa: imagens/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo.jpg
+imagem_fonte: pexels
+imagem_fotografo: Alexander Popadin
+imagem_fotografo_url: https://www.pexels.com/@irrabagon
+imagem_url_pagina: https://www.pexels.com/photo/ginger-cat-drinking-by-a-tranquil-pond-35279529/
+imagem_selecionada_em: '2026-10-30T15:06:55+00:00'
+imagens_corpo:
+- arquivo: imagens/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo-corpo-1.jpg
+  alt: 'como escolher fonte de agua ideal para gatos que tem medo'
+  fotografo: 'Mak_ jp'
+  fonte_url: 'https://www.pexels.com/photo/orange-cat-drinking-water-12121261/'
+- arquivo: imagens/como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo-corpo-2.jpg
+  alt: 'como escolher fonte de agua ideal para gatos que tem medo'
+  fotografo: 'Cathy B.'
+  fonte_url: 'https://www.pexels.com/photo/cat-curiously-exploring-a-street-bucket-35802248/'
 ---
 
 # Como escolher fonte de agua ideal para gatos que tem medo: guia prático
