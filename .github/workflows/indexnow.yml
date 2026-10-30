@@ -1,0 +1,40 @@
+name: IndexNow (avisar buscadores de pagina nova)
+
+# 30/10/2026: quando o sitemap ganha URL nova na main, avisa Bing e parceiros (IndexNow). Sem IA, sem custo.
+# O Google nao usa IndexNow (vale o sitemap no Search Console). "todas = true" manda o sitemap inteiro.
+on:
+  push:
+    branches: [main]
+    paths: ["site/build/sitemap.xml"]
+  workflow_dispatch:
+    inputs:
+      todas:
+        description: "true = avisar todas as URLs do sitemap"
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 50
+      - name: Avisar
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ "${{ github.event.inputs.todas }}" = "true" ]; then
+            python3 scripts/indexnow.py --todas
+          else
+            python3 scripts/indexnow.py
+          fi

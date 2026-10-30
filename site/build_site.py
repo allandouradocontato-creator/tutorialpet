@@ -228,6 +228,34 @@ CSS = BASE_CSS
 
 
 _PILARES_GLOBAL: dict = {}
+_TODOS_ARTIGOS: list = []   # frontmatters de todos os artigos do build (preenchido em run())
+
+
+def render_leia_tambem(fm: dict, n_mesmo: int = 3, n_outro: int = 1) -> str:
+    """Bloco 'Leia também' (30/10/2026, SEO): links internos reais entre artigos. Escolha determinística (hash do par),
+    então cada artigo recebe vizinhos diferentes, o site todo fica a poucos cliques da home e não há link para página inexistente."""
+    import hashlib
+    slug, pilar = fm.get("slug"), fm.get("pilar")
+    outros = [x for x in _TODOS_ARTIGOS if x.get("slug") and x.get("slug") != slug and x.get("titulo")]
+    def _especie(s: str) -> str:
+        s = f"-{s}-"
+        if any(k in s for k in ("-gato-", "-gatos-", "-gatinho-", "-gatinhos-", "-felino-", "-felinos-")):
+            return "gato"
+        if any(k in s for k in ("-cachorro-", "-cachorros-", "-caes-", "-cao-", "-cachorrinho-")):
+            return "cachorro"
+        return ""
+    esp = _especie(str(slug))
+    # prefere vizinhos da mesma espécie (gato com gato, cachorro com cachorro); depois desempata por hash estável
+    chave = lambda x: (0 if (not esp or _especie(x["slug"]) in ("", esp)) else 1,
+                       hashlib.md5(f"{slug}|{x['slug']}".encode()).hexdigest())
+    mesmo = sorted((x for x in outros if x.get("pilar") == pilar), key=chave)[:n_mesmo]
+    fora = sorted((x for x in outros if x.get("pilar") != pilar), key=chave)[:n_outro]
+    itens = mesmo + fora
+    if not itens:
+        return ""
+    lis = "".join(f'<li><a href="/{html_lib.escape(x["slug"])}">{html_lib.escape(str(x["titulo"]))}</a></li>' for x in itens)
+    return (f'<aside class="leia-tambem" style="margin:28px 0"><h2 style="font-size:1.15rem">Leia também</h2>'
+            f'<ul style="padding-left:20px;line-height:1.7">{lis}</ul></aside>')
 
 
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
@@ -254,6 +282,9 @@ def render_footer(pilares: dict | None = None) -> str:
 def page_shell(title: str, meta_description: str, canonical: str, og_type: str, body_html: str,
                extra_head: str = "", og_image: str = "") -> str:
     og_image_tag = f'<meta property="og:image" content="{html_lib.escape(og_image)}">' if og_image else ""
+    # 30/10/2026 (SEO/Discover): paginas indexaveis liberam imagem grande e trecho sem limite; noindex mantem o seu.
+    if 'name="robots"' not in extra_head:
+        extra_head = '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">\n' + extra_head
     return f"""<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -463,6 +494,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                          f'sob responsabilidade editorial de <a href="/sobre#equipe">{html_lib.escape(_ed2.get("nome", "Equipe Tutorial Pet"))}</a>. '
                          f'Atualizado em {_atu}. As regras mudam e variam por cidade: confirme no órgão competente. Não substitui orientação de advogado. '
                          'Viu algum erro? <a href="/contato">Avise a gente</a>.</aside>')
+    leia_tambem = render_leia_tambem(fm)
     cta = (f'<div class="cta-box"><p>Gostou deste guia? Tem mais conteúdo sobre '
            f'{html_lib.escape(pilar_titulo.lower())} esperando por você.</p>'
            f'<a class="btn" href="{cat_url(pilar_key)}">Ver mais sobre {html_lib.escape(pilar_titulo)}</a></div>')
@@ -481,6 +513,7 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
 {transparencia}
 {produto_faixa}
 {cta_adocao}
+{leia_tambem}
 {cta}
 {render_redes("Gostou? Siga o Tutorial Pet e receba um vídeo novo por dia")}
 </main>
@@ -968,6 +1001,9 @@ def run(site_id: str) -> dict:
         structured_data = json.loads(jsonld_path.read_text(encoding="utf-8")) if jsonld_path.exists() else {}
         artigos.append((fm, body, structured_data))
 
+    _TODOS_ARTIGOS.clear()
+    _TODOS_ARTIGOS.extend(fm for fm, _b, _s in artigos)
+
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
 
     # 25/10/2026: os video.mp4 da branch media somem com o tempo e a TV/artigos ficavam com video morto.
@@ -1091,6 +1127,9 @@ def run(site_id: str) -> dict:
     ads_txt_src = TECH_DIR / site_id / "ads.txt"
     if ads_txt_src.exists():
         (BUILD_DIR / "ads.txt").write_text(ads_txt_src.read_text(encoding="utf-8"), encoding="utf-8")
+
+    for _k in (TECH_DIR / site_id).glob("indexnow_*.txt"):   # 30/10/2026: chave do IndexNow, servida em /<chave>.txt
+        (BUILD_DIR / (_k.stem.replace("indexnow_", "", 1) + ".txt")).write_text(_k.read_text(encoding="utf-8").strip(), encoding="utf-8")
 
     for _g in (TECH_DIR / site_id).glob("google*.html"):
         (BUILD_DIR / _g.name).write_text(_g.read_text(encoding="utf-8"), encoding="utf-8")
