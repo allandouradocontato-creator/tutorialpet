@@ -124,3 +124,6 @@ Windsor: "Write actions are disabled" para allandouradocontato@gmail.com. Para o
 2. Acesso vitalício no Kiwify: área de membros "Sozinho em Casa" > Configurações e aba Geral do produto não têm campo de validade/expiração de acesso. Nada limita o acesso na interface; vitalício vale como configurado.
 3. Agente recuperador (Ana): Relatórios > Agente recuperador de vendas = 0 leads atendidos, 0 vendas, R$ 0,00. Esperado: ainda sem carrinho abandonado com WhatsApp. Ativo nos 2 produtos.
 Pendente: leitura 18h; Auditor 09:34 (31/10); campanha termina 31/10 23:59; verificação de organização (CNPJ) na Meta.
+
+## 30/10 12:15 — Verificação de organização (Meta)
+Enviada: Dourado Falcão Educação Corporativa LTDA (CNPJ achado no registro oficial, melhor correspondência), confirmada por código via WhatsApp. Status: "Verificação em andamento" (análise leva algumas horas). Depois de aprovada, a empresa vira anunciante padrão. Conferir resultado na leitura das 18h.
