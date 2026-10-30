@@ -998,10 +998,11 @@ temas:
   data: '2026-10-29'
 - termo: 'castração gratuita de cachorro e gato: como conseguir'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'data/utilidade_publica/castracao-microchipagem-federal.md e sao-paulo-capital-e-estado.md.
     Gancho: Lei 13.426/2017 + Decreto 12.439/2025; programas municipais; depende de
     vaga'
+  data: '2026-10-30'
 - termo: 'sinpatinhas: como cadastrar seu cachorro ou gato de graça'
   pilar: utilidade_publica
   status: pendente
@@ -1188,4 +1189,10 @@ temas:
   status: pendente
 - termo: como viajar de onibus interestadual com cachorro
   pilar: utilidade_publica
+  status: pendente
+- termo: como evitar que o gato derrube a agua da fonte
+  pilar: comportamento
+  status: pendente
+- termo: como escolher a melhor mochila de transporte para pets pequenos
+  pilar: produtos_compras
   status: pendente

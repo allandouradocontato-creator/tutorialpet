@@ -1,0 +1,54 @@
+{
+  "titulo_video": "Como conseguir castração gratuita para cachorro e gato",
+  "gancho_3s": "Você já parou pra pensar que castrar de graça é direito?",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Você já parou pra pensar que castrar de graça é direito?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Quer castrar seu cachorro sem gastar?"
+    },
+    {
+      "narracao": "[softly] A castração gratuita é garantida por lei no Brasil para cuidar dos animais.",
+      "visual_busca_banco_livre": "cute golden retriever puppy running on grass",
+      "texto_na_tela": "Castração gratuita é lei!"
+    },
+    {
+      "narracao": "[short pause] O primeiro passo é olhar o site da prefeitura, na parte de saúde ou proteção animal.",
+      "visual_busca_banco_livre": "cat sitting on wooden floor looking curious",
+      "texto_na_tela": "Consulte a Prefeitura"
+    },
+    {
+      "narracao": "Tenha em mãos seu RG, CPF, comprovante de residência e o CadÚnico.",
+      "visual_busca_banco_livre": "puppy lying down indoors close up",
+      "texto_na_tela": "Documentos e CadÚnico"
+    },
+    {
+      "narracao": "A vaga depende de recursos da cidade e de novos editais abertos.",
+      "visual_busca_banco_livre": "funny cat yawning close up",
+      "texto_na_tela": "Fila de espera"
+    },
+    {
+      "narracao": "[thoughtful] Conseguiu a vaga? Siga direitinho o jejum de água e comida que o veterinário passou.",
+      "visual_busca_banco_livre": "dog waiting patiently close up",
+      "texto_na_tela": "Jejum obrigatório"
+    },
+    {
+      "narracao": "[warmly] No pós-operatório, cuide do repouso e siga toda a receita para o seu bichinho ficar bem.",
+      "visual_busca_banco_livre": "cat resting peacefully indoors",
+      "texto_na_tela": "Cuidados pós-cirúrgicos"
+    }
+  ],
+  "chamada_final": "[smiling] Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#castracaogratuita",
+    "#catdog",
+    "#pet",
+    "#saudeanimal",
+    "#gatos",
+    "#cachorros"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nAchou que castração gratuita de pet é impossível?\n\n📖 Artigo completo: https://tutorialpet.com.br/castracao-gratuita-de-cachorro-e-gato-como-conseguir\n\n#castracaogratuita #catdog #pet #saudeanimal #gatos #cachorros",
+  "slug": "castracao-gratuita-de-cachorro-e-gato-como-conseguir",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 7
+}

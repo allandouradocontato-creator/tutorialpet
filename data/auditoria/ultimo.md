@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-10-30 10:47 UTC
+# Auditoria do processo — 2026-10-30 15:35 UTC
 
-Pacote: `o-que-faz-um-bom-criador-de-cachorro-e-os-sinais-de-um-mau-criador` — 1 aviso(s)
+Pacote: `castracao-gratuita-de-cachorro-e-gato-como-conseguir` — 1 aviso(s)
 
-- **OK ** duração 53 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 48 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.7 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 10 palavras (padrão: até ~12)
+- **OK ** gancho com 11 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `o-que-faz-um-bom-criador-de-cachorro-e-os-sinais-de-um-mau-criador` —
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~711 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~635 (saldo do plano: ver painel)
