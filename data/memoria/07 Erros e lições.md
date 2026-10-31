@@ -153,3 +153,6 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 31/10/2026 (v9): cortei o vídeo 1,5 s antes do fim e comi o 'Aproveita!'. Regra: o vídeo só termina depois da última palavra falada; conferir o último quadro/áudio antes de enviar.
 
 - (31/10/2026) CAPA SUMIU DE ARTIGOS NO AR: o reforço de artigos (reforco_blog.yml) regerava o otimizado pelo agente 05 sem carregar imagem_capa (cinto de segurança perdeu a capa) e o build publicava artigo sem capa (puxar-a-guia, gato-sozinho, adotar, racao-gato) sem nenhuma trava; o Vigia viu '1 sem capa' e declarou TUDO OK, a auditoria AdSense marcou 5 FALHA. Correção: agente 05 preserva imagem*, build_site religa capa existente (autocura) e grava data/operacoes/capas_faltando.txt + ::warning::; slugs sem foto vão para config/capas_refazer.txt (push dispara capas_coerentes).
+- 31/10/2026: v10 do vídeo explicativo (v2/explicativo_landing_v10_com_dra_natasha.mp4) tem cartão com foto + @vetnatasha de 95 a 100,5 s (regra 51). VSL e anúncios ainda precisam do cartão (card em /tmp/gr/card_natasha.png, refazer com PIL se sumir).
+
+- 31/10/2026: v10 (cartão com foto da Dra. Natasha no vídeo) foi reprovada pelo Allan ("ficou feio"); vale a v11 só com carimbo discreto @vetnatasha (regra 52).
