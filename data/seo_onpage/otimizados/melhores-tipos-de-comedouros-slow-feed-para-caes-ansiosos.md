@@ -5,6 +5,8 @@ meta_description: 'Melhores tipos de comedouros slow feed para cachorros ansioso
 data: '2026-10-17'
 status: otimizado_seo
 slug: melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: melhores tipos de comedouros slow feed para caes ansiosos
 pilar: produtos_compras
 intencao_busca: informacional

@@ -6,6 +6,8 @@ meta_description: 'Sinpatinhas: como cadastrar seu cachorro ou gato de graça: g
 data: '2026-10-31'
 status: otimizado_seo
 slug: sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: 'sinpatinhas: como cadastrar seu cachorro ou gato de graça'
 pilar: utilidade_publica
 intencao_busca: informacional

@@ -5,6 +5,8 @@ meta_description: Descubra como acostumar o cachorro a cortar as unhas sem estre
 data: '2026-10-14'
 status: rascunho_pendente_revisao
 slug: como-acostumar-o-cachorro-a-cortar-as-unhas
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como acostumar o cachorro a cortar as unhas
 pilar: cuidados_diarios
 intencao_busca: informacional

@@ -5,6 +5,8 @@ meta_description: Guia prático de como conseguir castração gratuita de cachor
 data: '2026-10-30'
 status: rascunho_pendente_revisao
 slug: castracao-gratuita-de-cachorro-e-gato-como-conseguir
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: 'castração gratuita de cachorro e gato: como conseguir'
 pilar: utilidade_publica
 intencao_busca: informacional

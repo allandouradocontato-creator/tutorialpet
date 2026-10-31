@@ -2,6 +2,8 @@
 data: '2026-10-29'
 status: otimizado_seo
 slug: como-socializar-gato-filhote-com-visitas-e-novos-barulhos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como socializar gato filhote com visitas e novos barulhos
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

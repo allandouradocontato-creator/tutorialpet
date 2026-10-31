@@ -2,6 +2,8 @@
 data: '2026-10-28'
 status: rascunho_pendente_revisao
 slug: adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: 'adotar ou comprar um cachorro: o que ninguém conta antes de decidir'
 pilar: adocao
 intencao_busca: informacional

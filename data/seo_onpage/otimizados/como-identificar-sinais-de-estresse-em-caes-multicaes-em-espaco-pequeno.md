@@ -2,6 +2,8 @@
 data: '2026-10-25'
 status: otimizado_seo
 slug: como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como identificar sinais de estresse em caes multicaes em espaco pequeno
 pilar: comportamento
 intencao_busca: informacional

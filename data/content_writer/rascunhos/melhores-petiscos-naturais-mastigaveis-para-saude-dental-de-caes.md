@@ -2,6 +2,8 @@
 data: '2026-10-24'
 status: rascunho_pendente_revisao
 slug: melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: melhores petiscos naturais mastigaveis para saude dental de caes
 pilar: produtos_compras
 intencao_busca: informacional

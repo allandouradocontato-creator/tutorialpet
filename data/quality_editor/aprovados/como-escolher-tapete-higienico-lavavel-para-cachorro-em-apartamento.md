@@ -2,6 +2,8 @@
 data: '2026-10-14'
 status: aprovado_qualidade
 slug: como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher tapete higienico lavavel para cachorro em apartamento
 pilar: produtos_compras
 intencao_busca: informacional

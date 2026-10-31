@@ -2,6 +2,8 @@
 data: '2026-10-29'
 status: rascunho_pendente_revisao
 slug: quanto-de-racao-dar-para-gato-adulto-por-dia
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quanto de racao dar para gato adulto por dia
 pilar: alimentacao
 intencao_busca: informacional

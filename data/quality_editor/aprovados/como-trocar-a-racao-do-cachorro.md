@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: aprovado_qualidade
 slug: como-trocar-a-racao-do-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como trocar a ração do cachorro
 pilar: alimentacao
 intencao_busca: informacional

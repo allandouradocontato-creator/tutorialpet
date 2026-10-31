@@ -5,6 +5,8 @@ meta_description: 'Sinais de envelhecimento em gatos senior que passam desperceb
 data: '2026-10-16'
 status: otimizado_seo
 slug: sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: sinais de envelhecimento em gatos senior que passam despercebidos
 pilar: cuidados_diarios
 intencao_busca: informacional

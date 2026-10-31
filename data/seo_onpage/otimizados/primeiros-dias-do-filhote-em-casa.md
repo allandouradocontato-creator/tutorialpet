@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: otimizado_seo
 slug: primeiros-dias-do-filhote-em-casa
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: primeiros dias do filhote em casa
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

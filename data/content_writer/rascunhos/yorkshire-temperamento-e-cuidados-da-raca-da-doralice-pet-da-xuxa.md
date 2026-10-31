@@ -4,6 +4,8 @@ meta_description: 'Yorkshire terrier: temperamento, pelagem, rotina e como ajuda
 data: '2026-10-22'
 status: rascunho_pendente_revisao
 slug: yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: yorkshire temperamento e cuidados da raça da Doralice, pet da Xuxa
 serie: pet-celebridade
 artista: Xuxa

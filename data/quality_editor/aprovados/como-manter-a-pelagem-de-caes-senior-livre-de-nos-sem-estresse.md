@@ -5,6 +5,8 @@ meta_description: Descubra como manter a pelagem de cachorros sênior livre de n
 data: '2026-10-28'
 status: aprovado_qualidade
 slug: como-manter-a-pelagem-de-caes-senior-livre-de-nos-sem-estresse
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como manter a pelagem de caes senior livre de nos sem estresse
 pilar: cuidados_diarios
 intencao_busca: informacional

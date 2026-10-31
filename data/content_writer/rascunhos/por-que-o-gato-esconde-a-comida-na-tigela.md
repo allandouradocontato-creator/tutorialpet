@@ -5,6 +5,8 @@ meta_description: Descubra por que o gato tenta enterrar a tigela de comida e ve
 data: '2026-10-13'
 status: rascunho_pendente_revisao
 slug: por-que-o-gato-esconde-a-comida-na-tigela
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: por que o gato esconde a comida na tigela
 pilar: comportamento
 intencao_busca: informacional

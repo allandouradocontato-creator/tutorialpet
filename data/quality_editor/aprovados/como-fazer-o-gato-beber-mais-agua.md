@@ -2,6 +2,8 @@
 data: '2026-10-08'
 status: aprovado_qualidade
 slug: como-fazer-o-gato-beber-mais-agua
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como fazer o gato beber mais agua
 pilar: cuidados_diarios
 intencao_busca: informacional

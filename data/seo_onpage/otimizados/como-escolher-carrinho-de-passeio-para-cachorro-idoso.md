@@ -5,6 +5,8 @@ meta_description: 'Como escolher carrinho de passeio para cachorro idoso: guia p
 data: '2026-10-29'
 status: otimizado_seo
 slug: como-escolher-carrinho-de-passeio-para-cachorro-idoso
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher carrinho de passeio para cachorro idoso
 pilar: produtos_compras
 intencao_busca: informacional

@@ -2,6 +2,8 @@
 data: '2026-10-29'
 status: rascunho_pendente_revisao
 slug: cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: cuidados diarios com o pelo de caes que nadam muito na piscina
 pilar: cuidados_diarios
 intencao_busca: informacional

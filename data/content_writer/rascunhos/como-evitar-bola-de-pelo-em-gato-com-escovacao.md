@@ -5,6 +5,8 @@ meta_description: Descubra como evitar bola de pelo em gato com escovação efic
 data: '2026-10-15'
 status: rascunho_pendente_revisao
 slug: como-evitar-bola-de-pelo-em-gato-com-escovacao
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como evitar bola de pelo em gato com escovacao
 pilar: cuidados_diarios
 intencao_busca: informacional

@@ -5,6 +5,8 @@ meta_description: Aprenda a identificar se o cachorro está acima do peso ideal 
 data: '2026-10-21'
 status: aprovado_qualidade
 slug: como-saber-se-o-cachorro-esta-acima-do-peso-ideal
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como saber se o cachorro esta acima do peso ideal
 pilar: cuidados_diarios
 intencao_busca: informacional

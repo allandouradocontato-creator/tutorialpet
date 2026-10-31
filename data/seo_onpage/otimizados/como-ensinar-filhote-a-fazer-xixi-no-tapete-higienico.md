@@ -2,6 +2,8 @@
 data: '2026-10-22'
 status: otimizado_seo
 slug: como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como ensinar filhote a fazer xixi no tapete higienico
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

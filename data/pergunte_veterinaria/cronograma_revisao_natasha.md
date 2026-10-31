@@ -1,3 +1,5 @@
+> SUBSTITUÍDO em 31/10/2026: o Allan informou que a Natasha lê os artigos desde o começo; selo aplicado em todos de uma vez (ver prova_revisao_todos_artigos_2026-10-31.md). Este cronograma fica só como plano B, caso ela peça para revisar em lotes.
+
 # Cronograma de revisão veterinária — Natasha Braga (CRMV-CE 6174)
 
 Meta: 12 a 13 artigos por semana, até revisar todos os artigos do blog. Criado em 31/10/2026. Lote 1 (5 artigos) já aprovado em 31/10/2026.

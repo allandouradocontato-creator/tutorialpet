@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: otimizado_seo
 slug: como-limpar-caixa-de-areia-do-gato
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como limpar caixa de areia do gato
 pilar: cuidados_diarios
 intencao_busca: informacional

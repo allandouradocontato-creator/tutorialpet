@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: aprovado_qualidade
 slug: como-socializar-filhote-de-gato
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como socializar filhote de gato
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

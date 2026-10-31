@@ -2,6 +2,8 @@
 data: '2026-10-25'
 status: aprovado_qualidade
 slug: como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como ensinar filhote de gato a interagir com caes adultos
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

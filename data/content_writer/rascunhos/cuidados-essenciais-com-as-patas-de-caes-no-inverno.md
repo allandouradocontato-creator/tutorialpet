@@ -5,6 +5,8 @@ meta_description: Aprenda a proteger as almofadinhas do seu cachorro no frio, de
 data: '2026-10-17'
 status: rascunho_pendente_revisao
 slug: cuidados-essenciais-com-as-patas-de-caes-no-inverno
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: cuidados essenciais com as patas de caes no inverno
 pilar: cuidados_diarios
 intencao_busca: informacional

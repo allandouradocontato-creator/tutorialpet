@@ -2,6 +2,8 @@
 data: '2026-10-26'
 status: rascunho_pendente_revisao
 slug: como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como adaptar a rotina da casa para caes e gatos seniores
 pilar: cuidados_diarios
 intencao_busca: informacional

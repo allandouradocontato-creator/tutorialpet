@@ -2,6 +2,8 @@
 data: '2026-10-26'
 status: rascunho_pendente_revisao
 slug: como-escolher-fonte-bebedouro-eletrica-para-varios-pets
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher fonte bebedouro eletrica para varios pets
 pilar: produtos_compras
 intencao_busca: informacional

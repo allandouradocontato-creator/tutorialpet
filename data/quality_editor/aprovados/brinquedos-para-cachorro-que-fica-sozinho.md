@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: aprovado_qualidade
 slug: brinquedos-para-cachorro-que-fica-sozinho
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: brinquedos para cachorro que fica sozinho
 pilar: produtos_compras
 intencao_busca: informacional

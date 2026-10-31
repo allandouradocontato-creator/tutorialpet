@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: otimizado_seo
 slug: coleira-ou-peitoral-para-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: coleira ou peitoral para cachorro
 pilar: produtos_compras
 intencao_busca: transacional

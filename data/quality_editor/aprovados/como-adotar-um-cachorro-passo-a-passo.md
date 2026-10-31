@@ -2,6 +2,8 @@
 data: '2026-10-31'
 status: aprovado_qualidade
 slug: como-adotar-um-cachorro-passo-a-passo
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como adotar um cachorro passo a passo
 pilar: adocao
 intencao_busca: informacional

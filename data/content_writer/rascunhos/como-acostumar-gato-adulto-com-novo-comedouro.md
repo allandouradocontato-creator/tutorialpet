@@ -5,6 +5,8 @@ meta_description: Veja como acostumar gato adulto com novo comedouro de forma se
 data: '2026-10-10'
 status: rascunho_pendente_revisao
 slug: como-acostumar-gato-adulto-com-novo-comedouro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como acostumar gato adulto com novo comedouro
 pilar: comportamento
 intencao_busca: informacional

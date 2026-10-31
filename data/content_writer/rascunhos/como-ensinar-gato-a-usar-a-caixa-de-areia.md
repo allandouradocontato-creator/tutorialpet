@@ -2,6 +2,8 @@
 data: '2026-10-07'
 status: rascunho_pendente_revisao
 slug: como-ensinar-gato-a-usar-a-caixa-de-areia
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como ensinar gato a usar a caixa de areia
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

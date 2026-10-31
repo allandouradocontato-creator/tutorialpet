@@ -5,6 +5,8 @@ meta_description: Aprenda a escolher o comedouro lento ideal para cachorros de f
 data: '2026-10-28'
 status: aprovado_qualidade
 slug: como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher comedouro lento ideal para caes de focinho curto
 pilar: produtos_compras
 intencao_busca: informacional

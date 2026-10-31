@@ -5,6 +5,8 @@ meta_description: Aprenda a montar um espaço seguro e vertical para gatos em ca
 data: '2026-10-24'
 status: aprovado_qualidade
 slug: como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como montar um espaco seguro para gatos em casas pequenas
 pilar: cuidados_diarios
 intencao_busca: informacional

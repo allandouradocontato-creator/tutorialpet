@@ -2,6 +2,8 @@
 data: '2026-10-25'
 status: rascunho_pendente_revisao
 slug: como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como calcular a quantidade certa de petiscos naturais na dieta diaria
 pilar: alimentacao
 intencao_busca: informacional

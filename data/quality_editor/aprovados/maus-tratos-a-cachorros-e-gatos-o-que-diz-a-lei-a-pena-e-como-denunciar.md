@@ -6,6 +6,8 @@ meta_description: Veja o que diz a Lei Sansão sobre maus-tratos a cachorros e g
 data: '2026-10-29'
 status: aprovado_qualidade
 slug: maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: 'maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar'
 pilar: utilidade_publica
 intencao_busca: informacional

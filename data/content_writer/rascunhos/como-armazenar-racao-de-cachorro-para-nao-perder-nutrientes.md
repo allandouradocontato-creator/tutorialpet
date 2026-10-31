@@ -2,6 +2,8 @@
 data: '2026-10-23'
 status: rascunho_pendente_revisao
 slug: como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como armazenar racao de cachorro para nao perder nutrientes
 pilar: alimentacao
 intencao_busca: informacional

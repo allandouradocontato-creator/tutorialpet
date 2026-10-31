@@ -2,6 +2,8 @@
 data: '2026-10-19'
 status: otimizado_seo
 slug: como-escovar-pelo-de-gato-que-nao-gosta-de-escova
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escovar pelo de gato que nao gosta de escova
 pilar: cuidados_diarios
 intencao_busca: informacional

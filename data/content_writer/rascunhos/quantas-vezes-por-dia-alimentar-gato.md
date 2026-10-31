@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: quantas-vezes-por-dia-alimentar-gato
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quantas vezes por dia alimentar gato
 pilar: alimentacao
 intencao_busca: informacional

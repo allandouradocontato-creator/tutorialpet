@@ -5,6 +5,8 @@ meta_description: Descubra quais legumes cachorro pode comer cozidos sem tempero
 data: '2026-10-18'
 status: rascunho_pendente_revisao
 slug: quais-legumes-cachorro-pode-comer-cozidos-sem-tempero
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quais legumes cachorro pode comer cozidos sem tempero
 pilar: alimentacao
 intencao_busca: informacional

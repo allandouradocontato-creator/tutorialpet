@@ -2,6 +2,8 @@
 data: '2026-10-15'
 status: aprovado_qualidade
 slug: galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da
   Anitta
 pilar: cuidados_diarios

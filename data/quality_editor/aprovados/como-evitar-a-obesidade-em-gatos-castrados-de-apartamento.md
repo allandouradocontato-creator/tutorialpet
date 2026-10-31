@@ -2,6 +2,8 @@
 data: '2026-10-19'
 status: aprovado_qualidade
 slug: como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como evitar a obesidade em gatos castrados de apartamento
 pilar: cuidados_diarios
 intencao_busca: informacional

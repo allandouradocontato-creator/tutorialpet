@@ -2,6 +2,8 @@
 data: '2026-10-06'
 status: rascunho_pendente_revisao
 slug: como-fazer-filhote-de-cachorro-parar-de-morder
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como fazer filhote de cachorro parar de morder
 pilar: comportamento
 intencao_busca: informacional

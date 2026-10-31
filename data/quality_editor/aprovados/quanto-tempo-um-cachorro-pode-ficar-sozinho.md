@@ -2,6 +2,8 @@
 data: '2026-10-06'
 status: aprovado_qualidade
 slug: quanto-tempo-um-cachorro-pode-ficar-sozinho
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quanto tempo um cachorro pode ficar sozinho
 pilar: comportamento
 intencao_busca: informacional

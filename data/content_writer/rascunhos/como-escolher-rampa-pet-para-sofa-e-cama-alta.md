@@ -5,6 +5,8 @@ meta_description: Aprenda a escolher rampa pet para sofa e cama alta com medidas
 data: '2026-10-16'
 status: rascunho_pendente_revisao
 slug: como-escolher-rampa-pet-para-sofa-e-cama-alta
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher rampa pet para sofa e cama alta
 pilar: produtos_compras
 intencao_busca: informacional

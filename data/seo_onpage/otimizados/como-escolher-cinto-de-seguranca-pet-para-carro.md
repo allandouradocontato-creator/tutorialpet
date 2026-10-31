@@ -2,6 +2,8 @@
 data: '2026-10-21'
 status: otimizado_seo
 slug: como-escolher-cinto-de-seguranca-pet-para-carro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher cinto de seguranca pet para carro
 pilar: produtos_compras
 intencao_busca: informacional

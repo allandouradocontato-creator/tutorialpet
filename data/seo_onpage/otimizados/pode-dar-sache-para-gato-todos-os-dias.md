@@ -2,6 +2,8 @@
 data: '2026-10-07'
 status: otimizado_seo
 slug: pode-dar-sache-para-gato-todos-os-dias
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: pode dar sache para gato todos os dias
 pilar: alimentacao
 intencao_busca: informacional

@@ -5,6 +5,8 @@ meta_description: 'Como criar rotina de exercicios para cachorros braquicefalico
 data: '2026-10-25'
 status: otimizado_seo
 slug: como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como criar rotina de exercicios para caes braquicefalicos no calor
 pilar: cuidados_diarios
 intencao_busca: informacional

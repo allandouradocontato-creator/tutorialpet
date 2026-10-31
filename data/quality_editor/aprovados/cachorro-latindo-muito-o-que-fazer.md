@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: aprovado_qualidade
 slug: cachorro-latindo-muito-o-que-fazer
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: cachorro latindo muito o que fazer
 pilar: comportamento
 intencao_busca: informacional

@@ -5,6 +5,8 @@ meta_description: Descubra com que frequência escovar os dentes do cachorro, qu
 data: '2026-10-12'
 status: aprovado_qualidade
 slug: com-que-frequencia-escovar-os-dentes-do-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: com que frequência escovar os dentes do cachorro
 pilar: cuidados_diarios
 intencao_busca: informacional

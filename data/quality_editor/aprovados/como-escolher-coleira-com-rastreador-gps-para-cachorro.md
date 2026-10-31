@@ -2,6 +2,8 @@
 data: '2026-10-23'
 status: aprovado_qualidade
 slug: como-escolher-coleira-com-rastreador-gps-para-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher coleira com rastreador gps para cachorro
 pilar: produtos_compras
 intencao_busca: informacional

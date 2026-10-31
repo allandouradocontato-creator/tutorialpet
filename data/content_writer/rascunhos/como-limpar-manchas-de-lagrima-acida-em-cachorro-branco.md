@@ -5,6 +5,8 @@ meta_description: Aprenda o passo a passo prático para limpar manchas de lágri
 data: '2026-10-20'
 status: rascunho_pendente_revisao
 slug: como-limpar-manchas-de-lagrima-acida-em-cachorro-branco
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como limpar manchas de lagrima acida em cachorro branco
 pilar: cuidados_diarios
 intencao_busca: informacional

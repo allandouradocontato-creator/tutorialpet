@@ -6,6 +6,8 @@ meta_description: 'Como criar um cantinho relaxante para pets em dias de tempest
 data: '2026-10-27'
 status: otimizado_seo
 slug: como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como criar um cantinho relaxante para pets em dias de tempestade
 pilar: comportamento
 intencao_busca: informacional

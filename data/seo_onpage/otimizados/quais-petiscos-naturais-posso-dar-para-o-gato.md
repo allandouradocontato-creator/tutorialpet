@@ -5,6 +5,8 @@ meta_description: 'Quais petiscos naturais posso dar para o gato: guia prático.
 data: '2026-10-21'
 status: otimizado_seo
 slug: quais-petiscos-naturais-posso-dar-para-o-gato
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quais petiscos naturais posso dar para o gato
 pilar: alimentacao
 intencao_busca: informacional

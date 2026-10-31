@@ -5,6 +5,8 @@ meta_description: Aprenda receitas simples de petiscos caseiros para cachorros c
 data: '2026-10-24'
 status: rascunho_pendente_revisao
 slug: quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quais petiscos caseiros posso fazer para caes com sensibilidade
 pilar: alimentacao
 intencao_busca: informacional

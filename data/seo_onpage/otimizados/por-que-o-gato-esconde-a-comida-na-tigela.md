@@ -6,6 +6,8 @@ meta_description: 'Por que o gato esconde a comida na tigela: guia prático. Se 
 data: '2026-10-13'
 status: otimizado_seo
 slug: por-que-o-gato-esconde-a-comida-na-tigela
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: por que o gato esconde a comida na tigela
 pilar: comportamento
 intencao_busca: informacional

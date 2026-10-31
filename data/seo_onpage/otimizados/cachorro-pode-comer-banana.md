@@ -5,6 +5,8 @@ meta_description: Descubra se cachorro pode comer banana, a quantidade segura po
 data: '2026-10-30'
 status: otimizado_seo
 slug: cachorro-pode-comer-banana
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: cachorro pode comer banana
 pilar: alimentacao
 intencao_busca: informacional

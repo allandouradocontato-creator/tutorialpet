@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como ensinar cachorro a fazer xixi no lugar certo
 pilar: comportamento
 intencao_busca: informacional

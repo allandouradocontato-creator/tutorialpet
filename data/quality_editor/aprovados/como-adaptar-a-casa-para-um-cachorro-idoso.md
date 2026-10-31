@@ -2,6 +2,8 @@
 data: '2026-10-14'
 status: aprovado_qualidade
 slug: como-adaptar-a-casa-para-um-cachorro-idoso
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como adaptar a casa para um cachorro idoso
 pilar: cuidados_diarios
 intencao_busca: informacional

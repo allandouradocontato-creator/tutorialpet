@@ -5,6 +5,8 @@ meta_description: Descubra o que comprar antes de adotar um gatinho. Um guia pr√
 data: '2026-10-12'
 status: otimizado_seo
 slug: o-que-comprar-antes-de-adotar-um-gatinho
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: o que comprar antes de adotar um gatinho
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

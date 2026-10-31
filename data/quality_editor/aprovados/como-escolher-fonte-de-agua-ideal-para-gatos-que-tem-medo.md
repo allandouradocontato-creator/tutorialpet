@@ -2,6 +2,8 @@
 data: '2026-10-25'
 status: aprovado_qualidade
 slug: como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher fonte de agua ideal para gatos que tem medo
 pilar: produtos_compras
 intencao_busca: informacional

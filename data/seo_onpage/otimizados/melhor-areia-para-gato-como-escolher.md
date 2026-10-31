@@ -6,6 +6,8 @@ meta_description: 'Melhor areia para gato como escolher: guia prático. A escolh
 data: '2026-10-10'
 status: otimizado_seo
 slug: melhor-areia-para-gato-como-escolher
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: melhor areia para gato como escolher
 pilar: produtos_compras
 intencao_busca: informacional

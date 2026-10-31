@@ -2,6 +2,8 @@
 data: '2026-10-31'
 status: aprovado_qualidade
 slug: como-fazer-cachorro-parar-de-puxar-a-guia
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como fazer cachorro parar de puxar a guia
 pilar: comportamento
 intencao_busca: informacional

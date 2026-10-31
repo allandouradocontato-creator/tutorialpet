@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: arranhador-para-gato-qual-escolher
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: arranhador para gato qual escolher
 pilar: produtos_compras
 intencao_busca: transacional

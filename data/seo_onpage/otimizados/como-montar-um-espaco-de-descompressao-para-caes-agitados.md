@@ -5,6 +5,8 @@ meta_description: 'Como montar um espaco de descompressao para cachorros agitado
 data: '2026-10-27'
 status: otimizado_seo
 slug: como-montar-um-espaco-de-descompressao-para-caes-agitados
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como montar um espaco de descompressao para caes agitados
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

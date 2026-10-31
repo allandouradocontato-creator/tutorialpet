@@ -6,6 +6,8 @@ meta_description: 'Como fazer caldo de ossos caseiro para cachorro: guia prátic
 data: '2026-10-20'
 status: otimizado_seo
 slug: como-fazer-caldo-de-ossos-caseiro-para-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como fazer caldo de ossos caseiro para cachorro
 pilar: alimentacao
 intencao_busca: informacional

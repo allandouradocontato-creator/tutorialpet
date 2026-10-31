@@ -5,6 +5,8 @@ meta_description: Descubra como escolher o comedouro duplo elevado ideal para ga
 data: '2026-10-23'
 status: aprovado_qualidade
 slug: como-escolher-comedouro-duplo-elevado-para-gatos-idosos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher comedouro duplo elevado para gatos idosos
 pilar: produtos_compras
 intencao_busca: informacional

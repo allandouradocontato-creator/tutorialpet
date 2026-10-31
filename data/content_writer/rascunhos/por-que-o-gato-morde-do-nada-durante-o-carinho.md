@@ -5,6 +5,8 @@ meta_description: Entenda por que o gato morde de repente durante o carinho, sep
 data: '2026-10-21'
 status: rascunho_pendente_revisao
 slug: por-que-o-gato-morde-do-nada-durante-o-carinho
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: por que o gato morde do nada durante o carinho
 pilar: comportamento
 intencao_busca: informacional

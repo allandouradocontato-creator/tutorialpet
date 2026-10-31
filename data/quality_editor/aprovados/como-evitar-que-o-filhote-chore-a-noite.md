@@ -2,6 +2,8 @@
 data: '2026-10-13'
 status: aprovado_qualidade
 slug: como-evitar-que-o-filhote-chore-a-noite
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como evitar que o filhote chore à noite
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

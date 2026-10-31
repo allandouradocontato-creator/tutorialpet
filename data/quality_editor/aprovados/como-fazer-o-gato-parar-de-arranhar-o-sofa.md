@@ -5,6 +5,8 @@ meta_description: Descubra como fazer o gato parar de arranhar o sofá com um pa
 data: '2026-10-18'
 status: aprovado_qualidade
 slug: como-fazer-o-gato-parar-de-arranhar-o-sofa
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como fazer o gato parar de arranhar o sofa
 pilar: comportamento
 intencao_busca: informacional

@@ -2,6 +2,8 @@
 data: '2026-10-22'
 status: rascunho_pendente_revisao
 slug: como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como montar um cronograma de enriquecimento ambiental para cachorros sozinhos
 pilar: comportamento
 intencao_busca: informacional

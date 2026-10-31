@@ -5,6 +5,8 @@ meta_description: Aprenda como limpar orelha de cachorro em casa sem machucar. D
 data: '2026-10-15'
 status: otimizado_seo
 slug: como-limpar-orelha-de-cachorro-em-casa-sem-machucar
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como limpar orelha de cachorro em casa sem machucar
 pilar: cuidados_diarios
 intencao_busca: informacional

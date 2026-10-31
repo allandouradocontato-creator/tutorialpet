@@ -2,6 +2,8 @@
 data: '2026-10-22'
 status: aprovado_qualidade
 slug: como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como tirar cheiro de xixi de cachorro do quintal
 pilar: cuidados_diarios
 intencao_busca: informacional

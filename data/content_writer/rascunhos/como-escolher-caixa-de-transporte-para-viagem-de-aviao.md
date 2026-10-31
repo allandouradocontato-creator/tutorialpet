@@ -5,6 +5,8 @@ meta_description: Saiba como escolher a caixa de transporte ideal para avião. D
 data: '2026-10-20'
 status: rascunho_pendente_revisao
 slug: como-escolher-caixa-de-transporte-para-viagem-de-aviao
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como escolher caixa de transporte para viagem de aviao
 pilar: produtos_compras
 intencao_busca: informacional

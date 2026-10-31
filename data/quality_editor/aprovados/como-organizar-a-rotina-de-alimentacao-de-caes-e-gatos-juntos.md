@@ -2,6 +2,8 @@
 data: '2026-10-16'
 status: aprovado_qualidade
 slug: como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como organizar a rotina de alimentacao de caes e gatos juntos
 pilar: alimentacao
 intencao_busca: informacional

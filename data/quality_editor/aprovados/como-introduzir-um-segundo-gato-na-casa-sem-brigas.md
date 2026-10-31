@@ -5,6 +5,8 @@ meta_description: Descubra como introduzir um segundo gato na casa sem brigas co
 data: '2026-10-20'
 status: aprovado_qualidade
 slug: como-introduzir-um-segundo-gato-na-casa-sem-brigas
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como introduzir um segundo gato na casa sem brigas
 pilar: comportamento
 intencao_busca: informacional

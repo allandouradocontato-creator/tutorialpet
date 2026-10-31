@@ -2,6 +2,8 @@
 data: '2026-10-11'
 status: otimizado_seo
 slug: melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: melhores brinquedos interativos para cachorros ansiosos sozinhos
 pilar: produtos_compras
 intencao_busca: informacional

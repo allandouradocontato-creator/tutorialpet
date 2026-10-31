@@ -2,6 +2,8 @@
 data: '2026-10-14'
 status: otimizado_seo
 slug: como-misturar-racao-seca-e-umida-para-cachorro-corretamente
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como misturar racao seca e umida para cachorro corretamente
 pilar: alimentacao
 intencao_busca: informacional

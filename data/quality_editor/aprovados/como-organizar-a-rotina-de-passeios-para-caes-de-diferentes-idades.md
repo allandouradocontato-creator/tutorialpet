@@ -2,6 +2,8 @@
 data: '2026-10-23'
 status: aprovado_qualidade
 slug: como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como organizar a rotina de passeios para cachorros de diferentes idades
 pilar: cuidados_diarios
 intencao_busca: informacional

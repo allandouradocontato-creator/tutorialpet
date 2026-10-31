@@ -2,6 +2,8 @@
 data: '2026-10-22'
 status: aprovado_qualidade
 slug: quantos-dias-o-gato-pode-ficar-sozinho-em-casa
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quantos dias o gato pode ficar sozinho em casa
 pilar: cuidados_diarios
 intencao_busca: informacional

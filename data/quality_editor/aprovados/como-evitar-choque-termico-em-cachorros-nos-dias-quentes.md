@@ -2,6 +2,8 @@
 data: '2026-10-24'
 status: aprovado_qualidade
 slug: como-evitar-choque-termico-em-cachorros-nos-dias-quentes
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como evitar choque termico em cachorros nos dias quentes
 pilar: cuidados_diarios
 intencao_busca: informacional

@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: otimizado_seo
 slug: como-dar-banho-em-gato
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como dar banho em gato
 pilar: cuidados_diarios
 intencao_busca: informacional

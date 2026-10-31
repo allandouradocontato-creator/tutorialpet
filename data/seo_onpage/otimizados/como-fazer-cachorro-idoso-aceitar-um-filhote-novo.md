@@ -2,6 +2,8 @@
 data: '2026-10-14'
 status: otimizado_seo
 slug: como-fazer-cachorro-idoso-aceitar-um-filhote-novo
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como fazer cachorro idoso aceitar um filhote novo
 pilar: comportamento
 intencao_busca: informacional

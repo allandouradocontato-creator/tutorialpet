@@ -2,6 +2,8 @@
 data: '2026-10-25'
 status: rascunho_pendente_revisao
 slug: como-criar-rotina-de-exercicios-mentais-para-gatos-idosos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como criar rotina de exercicios mentais para gatos idosos
 pilar: comportamento
 intencao_busca: informacional

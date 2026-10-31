@@ -2,6 +2,8 @@
 data: '2026-10-23'
 status: aprovado_qualidade
 slug: como-limpar-as-patas-do-cachorro-depois-do-passeio
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como limpar as patas do cachorro depois do passeio
 pilar: cuidados_diarios
 intencao_busca: informacional

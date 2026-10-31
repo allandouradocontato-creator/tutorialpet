@@ -2,6 +2,8 @@
 data: '2026-10-15'
 status: rascunho_pendente_revisao
 slug: como-acostumar-gato-e-cachorro-a-conviverem-em-paz
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como acostumar gato e cachorro a conviverem em paz
 pilar: comportamento
 intencao_busca: informacional

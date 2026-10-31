@@ -14,6 +14,8 @@ foto_artista:
   licenca: CC BY 3.0
   licenca_url: https://creativecommons.org/licenses/by/3.0/
 slug: galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: galgo italiano temperamento e cuidados da raça do Plínio, cachorro da Anitta
 serie: pet-celebridade
 artista: Anitta

@@ -6,6 +6,8 @@ meta_description: 'Yorkshire: temperamento e cuidados com a raça da Doralice, p
 data: '2026-10-22'
 status: otimizado_seo
 slug: yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: yorkshire temperamento e cuidados da raça da Doralice, pet da Xuxa
 serie: pet-celebridade
 artista: Xuxa

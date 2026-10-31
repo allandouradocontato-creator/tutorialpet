@@ -2,6 +2,8 @@
 data: '2026-10-07'
 status: aprovado_qualidade
 slug: com-que-frequencia-dar-banho-em-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: com que frequencia dar banho em cachorro
 pilar: cuidados_diarios
 intencao_busca: informacional

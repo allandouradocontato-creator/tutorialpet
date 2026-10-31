@@ -2,6 +2,8 @@
 data: '2026-10-15'
 status: rascunho_pendente_revisao
 slug: quais-frutas-cachorro-pode-comer-no-verao-com-seguranca
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: quais frutas cachorro pode comer no verao com seguranca
 pilar: alimentacao
 intencao_busca: informacional

@@ -6,6 +6,8 @@ meta_description: 'Como acostumar cachorro com a chegada de um bebe: guia práti
 data: '2026-10-28'
 status: otimizado_seo
 slug: como-acostumar-cachorro-com-a-chegada-de-um-bebe
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: como acostumar cachorro com a chegada de um bebe
 pilar: comportamento
 intencao_busca: informacional
