@@ -86,3 +86,4 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 - Sozinho em Casa é só para CACHORRO: nenhuma imagem/clipe de gato em vídeo, landing ou anúncio do produto.
 - Vídeos do produto usam a música da VSL (gr0za-party-party-music-569750, baixinha) e imagem sincronizada com a frase que está sendo dita.
 - 31/10/2026: frases que freiam a compra ('Assista antes de decidir', 'Antes de decidir') são proibidas na landing/VSL: toda frase tem que empurrar para a compra, nunca criar objeção.
+- 31/10/2026: fotos da landing/vídeos: nada de cachorro triste/abandonado/de rua; sempre cachorro feliz, boca aberta, sorrindo.
