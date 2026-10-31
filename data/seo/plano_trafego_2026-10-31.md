@@ -1,0 +1,4 @@
+# Plano de tráfego do blog — 31/10/2026
+Situação (Search Console, 31/10): 68 páginas indexadas, 8 não (4 URLs cortadas que davam 404 → redirecionadas; 1 redirecionamento; 3 rastreadas e não indexadas: rampa-pet-para-sofa, legumes-cozidos, radio/faixas.json). Sitemap enviado em 22/10 e lido hoje (111 páginas descobertas; agora são 118). ~10 cliques em 3 meses.
+Feito hoje: IndexNow com as 118 URLs; /cdn-cgi/ fora do robots; redirects das URLs cortadas; selo de revisão nos 102 artigos.
+Próximos passos: (1) todo vídeo publicado leva o link do artigo na descrição (pipeline-video-pet-social); (2) Pinterest: criar conta de negócios e fixar 1 pin por artigo (imagem de capa + título) — criação de conta é com o Allan; (3) @vetnatasha cita o blog nos stories/bio; (4) pedir indexação manual no Search Console dos 10 artigos novos por semana; (5) reler Pages no Search Console toda segunda; (6) esperar 2–4 semanas do recrawl antes de pedir o AdSense (regra 31).
