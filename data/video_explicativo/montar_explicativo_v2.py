@@ -1,22 +1,23 @@
 """Monta o vídeo explicativo da landing (9:16, 720x1280): Duda abre e fecha (cartão, versão grátis), miolo com e-book, clipes, app.
-Uso: python montar_explicativo_v2.py <saida.mp4>   (falas em audios_v2/explicativo_fala_NN.mp3; imagens em app/, paginas_ebook/, clipes/)"""
+Uso: python montar_explicativo_v2.py <saida.mp4>   (falas em audios_v3/explicativo_fala_NN.mp3; imagens em app/, paginas_ebook/, clipes/)"""
 import json,subprocess,sys,os,re,textwrap,glob
 H=os.path.dirname(os.path.abspath(__file__));out=sys.argv[1];W=f'/tmp/gr/expl';os.makedirs(W,exist_ok=True)
 F=json.load(open(f'{H}/falas_explicativo_v2.json'))
 FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf';BG='0xFFF3E3'
 def dur(p):return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p],capture_output=True,text=True).stdout)
-aud={k:f'{H}/audios_v2/explicativo_fala_{k.zfill(2)}.mp3' for k in F};D={k:dur(aud[k])+0.25 for k in F}
+aud={k:f'{H}/audios_v3/explicativo_fala_{k.zfill(2)}.mp3' for k in F};D={k:dur(aud[k])+0.25 for k in F}
 g=lambda pat:sorted(glob.glob(f'{H}/{pat}'))[0]
 app=lambda n:g(f'app/app_sozinho_em_casa_{n}_*');pg=lambda n:g(f'paginas_ebook/*_{n}_*')
 cl=lambda n:g(f'clipes/pexels_{n}_*')
 # (tipo, arquivo, início do clipe)
-S={'1':[('duda',None,0)],
+DC=lambda n:f'{H}/duda_clips_heygen/{n}.mp4'
+S={'1':[('dclip',DC('gancho'),0,2.78)],
 '2':[('img',pg('01'),0),('img',pg('02'),0),('img',pg('03'),0),('img',pg('04'),0),('img',pg('05'),0),('img',pg('06'),0)],
 '3':[('clip',cl('7682708'),1.0),('clip',cl('8730835'),2.0),('clip',cl('7682708'),6.0),('clip',cl('8730835'),7.5)],
 '4':[('app',app('04'),0),('app',app('03'),0),('app',app('05'),0),('app',app('06'),0),('app',app('07'),0)],
 '5':[('app',app('10'),0),('app',app('11'),0),('app',app('12'),0),('app',app('14'),0),('app',app('13'),0)],
-'6':[('clip',cl('6477490'),3.0),('clip',cl('7676931'),0.5),('clip',cl('8730835'),4.0),('clip',cl('7682708'),3.0),('clip',cl('7676931'),6.0),('clip',cl('8730835'),9.0),('clip',cl('7682708'),9.0),('clip',cl('7676931'),9.5),('clip',cl('8730835'),1.0),('img',pg('07'),0)],
-'7':[('duda',None,1)]}
+'6':[('clip',cl('6477490'),3.0,3.5),('clip',cl('7676931'),0.5,3.5),('clip',cl('8730835'),4.0,3.5),('dclip',DC('climax'),0,8.5),('clip',cl('7682708'),3.0),('clip',cl('7676931'),6.0),('clip',cl('8730835'),9.0),('clip',cl('7682708'),9.0),('img',pg('07'),0)],
+'7':[('dclip',DC('oferta'),0,10.02)]}
 def cap_chunks(k):
     sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',re.sub(r'^\[\w+\]\s*','',F[k])) if s.strip()];ch=[]
     for s in sents:
@@ -25,12 +26,15 @@ def cap_chunks(k):
     return ch
 shots=[];caps=[];t=0.0;n=0
 for k in F:
-    sh=S[k];per=D[k]/len(sh)
-    for (typ,f,ss) in sh:
+    sh=S[k];fixed=sum(x[3] for x in sh if len(x)>3);free=[x for x in sh if len(x)<=3];per0=(D[k]-fixed)/max(1,len(free))
+    for x in sh:
+        typ,f,ss=x[:3];per=x[3] if len(x)>3 else per0
         o=f'{W}/s{n:03d}.mp4';n+=1
         if typ=='clip':
             vf=f"scale=-2:1280,crop=720:1280:(iw-720)/2:0,fps=30,setsar=1"
             cmd=['ffmpeg','-v','error','-y','-ss',str(ss),'-t',f'{per:.3f}','-i',f,'-vf',vf,'-an']
+        elif typ=='dclip':
+            cmd=['ffmpeg','-v','error','-y','-ss',str(ss),'-t',f'{per:.3f}','-i',f,'-vf','scale=720:1280,fps=30,setsar=1,tpad=stop_mode=clone:stop_duration=1','-t',f'{per:.3f}','-an']
         elif typ=='duda':
             cmd=['ffmpeg','-v','error','-y','-loop','1','-t',f'{per:.3f}','-i',f'{H}/duda_capa_cartao.jpg','-vf',
               f"scale=640:-2,pad=720:1280:40:260:color={BG},fps=30,drawtext=fontfile={FONT}:text='Duda · imagem criada com IA':fontsize=24:fontcolor=#9a8a78:x=(w-text_w)/2:y=830",'-an']
