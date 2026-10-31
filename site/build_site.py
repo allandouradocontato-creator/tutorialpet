@@ -312,6 +312,7 @@ def page_shell(title: str, meta_description: str, canonical: str, og_type: str, 
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="p:domain_verify" content="eb0b8515160241ee3b3fa10f6bfa4134"/>
 <title>{html_lib.escape(title)}</title>
 <meta name="description" content="{html_lib.escape(meta_description)}">
 <link rel="canonical" href="{html_lib.escape(canonical)}">
