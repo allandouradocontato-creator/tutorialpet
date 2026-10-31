@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Guia prático para adotar um cachorro",
+  "gancho_3s": "Quer adotar um cachorro mas acha que é burocrático?",
+  "cenas": [
+    {
+      "narracao": "Primeiro mito: não precisa de quintal gigante. Apartamento ou casa, o que importa é a sua rotina.",
+      "visual_busca_banco_livre": "dog looking out apartment window",
+      "texto_na_tela": "Quintal gigante? Mito!"
+    },
+    {
+      "narracao": "Cães resgatados são adaptáveis e ONGs sérias entregam pets já castrados e vacinados.",
+      "visual_busca_banco_livre": "mixed breed dog resting indoor",
+      "texto_na_tela": "Adaptáveis e saudáveis"
+    },
+    {
+      "narracao": "Segundo passo: alinhe o orçamento. Ração de qualidade e consultas exigem planejamento financeiro.",
+      "visual_busca_banco_livre": "dog eating from bowl close up",
+      "texto_na_tela": "Planejamento financeiro"
+    },
+    {
+      "narracao": "Instituições idôneas exigem entrevista e termo de adoção responsável para garantir o bem-estar.",
+      "visual_busca_banco_livre": "dog resting on floor calm",
+      "texto_na_tela": "ONGs sérias e seguras"
+    },
+    {
+      "narracao": "Nos primeiros dias, evite visitas. O cão precisa de descompressão e de um ambiente silencioso.",
+      "visual_busca_banco_livre": "dog sleeping in cozy bed",
+      "texto_na_tela": "Dias de descompressão"
+    },
+    {
+      "narracao": "Consulte sempre um médico-veterinário para avaliar a saúde e atualizar a vacinação do pet.",
+      "visual_busca_banco_livre": "dog looking curious close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Pesquise abrigos idôneos e prepare sua casa para a adoção!",
+  "hashtags": [
+    "#adocaoresponsavel",
+    "#adoçãodecachorro",
+    "#cachorro",
+    "#amopets",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer adotar um cachorro mas acha que é burocrático?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-adotar-um-cachorro-passo-a-passo\n\n#adocaoresponsavel #adoçãodecachorro #cachorro #amopets #dicapet",
+  "slug": "como-adotar-um-cachorro-passo-a-passo"
+}

@@ -948,9 +948,10 @@ temas:
   data: '2026-10-30'
 - termo: como adotar um cachorro passo a passo
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção. Gancho: Documentos, termo de adoção, visita, adaptação; ONG
     x protetor x abrigo'
+  data: '2026-10-31'
 - termo: como adotar um gato adulto e por que ele é mais fácil do que parece
   pilar: adocao
   status: pendente
@@ -1210,4 +1211,7 @@ temas:
   status: pendente
 - termo: como planejar a rotina de exercicios para caes adultos ativos
   pilar: cuidados_diarios
+  status: pendente
+- termo: como preparar um espaco seguro para adocao de caes adultos resgatados
+  pilar: adocao
   status: pendente
