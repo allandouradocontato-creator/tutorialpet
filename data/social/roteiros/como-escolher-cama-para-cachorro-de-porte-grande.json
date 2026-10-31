@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como escolher a cama certa para cão de porte grande",
+  "gancho_3s": "Seu cachorro de porte grande destruiu a cama?",
+  "cenas": [
+    {
+      "narracao": "[smiling] Seu cachorro de porte grande destruiu a cama?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Cama fina que afunda toda?"
+    },
+    {
+      "narracao": "[thoughtful] Não confie só na etiqueta: meça do focinho à cauda e adicione trinta centímetros.",
+      "visual_busca_banco_livre": "golden retriever sleeping on hard floor",
+      "texto_na_tela": "A cama afundou rápido?"
+    },
+    {
+      "narracao": "[warmly] Prefira espuma densa, como a D28 ou ortopédica, para proteger as articulações.",
+      "visual_busca_banco_livre": "large dog sleeping stretched out floor",
+      "texto_na_tela": "Meça: focinho à cauda + 30 cm"
+    },
+    {
+      "narracao": "[short pause] Se ele dorme esticado, use colchonetes planos. Se apoia a cabeça, prefira modelos tipo sofá.",
+      "visual_busca_banco_livre": "labrador resting comfortable dog bed",
+      "texto_na_tela": "Espuma firme ortopédica (D28 a D33)"
+    },
+    {
+      "narracao": "[smiling] No calor, as camas suspensas ajudam muito. E escolha tecidos resistentes com zíper.",
+      "visual_busca_banco_livre": "large dog resting head on pillow",
+      "texto_na_tela": "Observe como ele dorme"
+    },
+    {
+      "narracao": "[thoughtful] Se tiver dúvidas sobre o peso ideal e as articulações, consulte sempre o veterinário.",
+      "visual_busca_banco_livre": "dog lying on elevated dog bed",
+      "texto_na_tela": "Capa lavável e tecido resistente"
+    },
+    {
+      "narracao": "[warmly] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+      "visual_busca_banco_livre": "big dog relaxing peaceful indoor",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "caesgrandes",
+    "confortocanino",
+    "camaparacachorro",
+    "cuidadoscomcaes",
+    "dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nA caminha do seu cão grande virou uma folha no chão?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-cama-para-cachorro-de-porte-grande\n\n#caesgrandes #confortocanino #camaparacachorro #cuidadoscomcaes #dicaspet",
+  "slug": "como-escolher-cama-para-cachorro-de-porte-grande",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 6
+}

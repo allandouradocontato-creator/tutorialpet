@@ -355,7 +355,8 @@ temas:
   status: pendente
 - termo: como escolher cama para cachorro de porte grande
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-31'
 - termo: melhor fonte de agua para gato vale a pena
   pilar: produtos_compras
   status: pendente
@@ -1225,4 +1226,10 @@ temas:
   status: pendente
 - termo: quais documentos levar para viajar de onibus com caes e gatos
   pilar: utilidade_publica
+  status: pendente
+- termo: como evitar que gatos idosos tenham ciumes de filhotes novos
+  pilar: comportamento
+  status: pendente
+- termo: regras de convivencia em parques para caes e tutores de primeira viagem
+  pilar: primeiros_passos_filhotes
   status: pendente
