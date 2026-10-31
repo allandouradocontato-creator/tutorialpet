@@ -72,6 +72,12 @@ A apresentação deve ocorrer em um ambiente neutro, de forma gradual e sempre c
 - **Quando devo levar o cachorro adotado ao veterinário?**
 O ideal é agendar uma consulta logo na primeira semana após a chegada para um check-up geral, atualização de vacinas e avaliação de saúde.
 
+## Fontes e referências
+
+- [Guarda-Responsável, tudo começa com consciência](https://prefeitura.sp.gov.br/web/saude/w/noticias/275899) — Secretaria Municipal da Saúde de São Paulo, 2019.
+- [Selecting a Dog](https://ebusiness.avma.org/files/productdownloads/ClientBroch_SelectingADog.pdf) — AVMA, Associação Americana de Medicina Veterinária (entidade dos Estados Unidos).
+- [AVMA offers tips on how to pick a pooch during Adopt-A-Dog Month](https://prnewswire.com/news-releases/avma-offers-tips-on-how-to-pick-a-pooch-during-adopt-a-dog-month-226915501.html) — AVMA (entidade dos Estados Unidos), 2013.
+
 ## Para fechar
 
 Adotar um cachorro é um ato de amor que exige responsabilidade, paciência e dedicação de longo prazo para garantir o bem-estar do novo integrante da família. Cada etapa, desde a escolha consciente até a adaptação da rotina, fortalece o vínculo entre tutor e pet. Continue navegando pelo blog Tutorial Pet para encontrar mais dicas práticas sobre comportamento, saúde e cuidados diários.

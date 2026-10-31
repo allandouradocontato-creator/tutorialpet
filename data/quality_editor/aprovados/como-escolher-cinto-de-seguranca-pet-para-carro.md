@@ -30,7 +30,7 @@ checagens_qualidade:
 
 Levar o cão para passear de carro é uma delícia, mas garantir a segurança dele durante o trajeto vai muito além de apenas colocá-lo no banco de trás. Um cinto inadequado pode machucar o animal em uma freada brusca ou até se romper facilmente.
 
-A escolha certa protege a integridade física do seu companheiro, evita multas de trânsito e impede que ele distraia quem está no volante. 
+A escolha certa protege a integridade física do seu companheiro e impede que ele distraia quem está no volante. 
 
 ## Por que o uso do cinto de segurança pet é indispensável
 
@@ -77,6 +77,13 @@ Não diretamente. O cinto mantém a estabilidade física, mas o enjoo envolve qu
 
 - **Como acostumar o cachorro a usar o cinto pela primeira vez?**
 Coloque o peitoral e o cinto ainda com o carro desligado, oferecendo petiscos e elogios para associar o acessório a uma experiência positiva.
+
+## Fontes e referências
+
+- [Detran-PR ensina a forma correta para o transporte de animais](https://www.detran.pr.gov.br/Noticia/Detran-PR-ensina-forma-correta-para-o-transporte-de-animais) — Detran-PR, 2020.
+- [Detran|ES: saiba como transportar animais de estimação no carro](https://www.es.gov.br/Noticia/detran-es-saiba-como-transportar-animais-de-estimacao-no-carro) — Detran-ES, 2015.
+- [Safe non-commercial transport of pets in motor vehicles](https://www.avma.org/resources-tools/avma-policies/safe-transport-pets-motor-vehicles) — AVMA, Associação Americana de Medicina Veterinária (entidade dos Estados Unidos).
+- [Data, safety regulations lacking when it comes to pets and vehicles](https://avma.org/news/data-safety-regulations-lacking-when-it-comes-pets-and-vehicles) — AVMA News (entidade dos Estados Unidos), 2023.
 
 ## Para fechar
 

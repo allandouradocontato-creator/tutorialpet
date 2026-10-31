@@ -39,7 +39,7 @@ Puxar a guia é um comportamento comum que acontece porque o cachorro se move ma
 O cão puxa porque a nossa velocidade de caminhada é naturalmente mais lenta do que a corrida ou trote dele. Além disso, existe o reflexo de oposição: quando aplicamos pressão contrária na coleira, o instinto do animal é empurrar ainda mais na direção oposta para tentar se livrar da tensão. 
 
 ### A recompensa invisível do movimento
-Cada vez que o cão puxa e você dá mais alguns passos, o cérebro dele registra que esticar a guia funciona. Para ele, o prêmio não é o elogio, mas sim alcançar aquele poste ou arbusto novinho. Para alinhar as expectativas da rotina, vale a pena entender [como organizar a rotina de passeios para cães de diferentes idades](/como-organizar-a-rotina-de-passeios-para-cães-de-diferentes-idades), garantindo que o cansaço físico e mental seja adequado.
+Cada vez que o cão puxa e você dá mais alguns passos, o cérebro dele registra que esticar a guia funciona. Para ele, o prêmio não é o elogio, mas sim alcançar aquele poste ou arbusto novinho. Para alinhar as expectativas da rotina, vale a pena entender [como organizar a rotina de passeios para cães de diferentes idades](/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades), garantindo que o cansaço físico e mental seja adequado.
 
 Exemplo prático: se o cão puxa em direção à portaria do prédio, pare imediatamente e só avance quando a guia estiver totalmente em “U”, sem nenhuma tensão.
 
@@ -86,6 +86,12 @@ Exemplo prático: segure alguns pedacinhos de carne desidratada na mão junto ao
 
 - **O que fazer se o cachorro for muito forte e eu não conseguir segurá-lo?**
   Procure um adestrador positivo para auxiliar nas técnicas de manejo e consulte um médico-veterinário para descartar dores ou desconfortos físicos que gerem ansiedade na rua.
+
+## Fontes e referências
+
+- [Loose Leash Walking](https://healthtopics.vetmed.ucdavis.edu/node/1061) — UC Davis School of Veterinary Medicine (universidade dos Estados Unidos).
+- [Humane Training of Dogs](https://www.canadianveterinarians.net/policy-and-outreach/position-statements/statements/humane-training-of-dogs/) — Associação Canadense de Medicina Veterinária (CVMA, entidade do Canadá), 2021.
+- [Loose Leash Walking](https://resources.sdhumane.org/Resource_Center/Behavior_and_Training/Dogs_and_Puppies/Training_Your_Dog_to_Walk_on_a_Leash) — San Diego Humane Society (entidade dos Estados Unidos).
 
 ## Para fechar
 
