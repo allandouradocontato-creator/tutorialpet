@@ -186,3 +186,6 @@ Zernio follower-stats 23–30/10 (07:00Z): FB 9 (parado desde 25/10), IG 0 (81 p
 ## Atualização sáb 31/10 08:23 (Criador de Audiência, dia curto; sem leitura nova de Zernio/Buffer)
 Números de 30/10 e do estado de 31/10 (estrategia_social 07:07): comentário de terceiro ~0 FB/IG, TikTok 4 em 20; shares FB 0, IG 1, TikTok 5 (20 posts); seguidores FB 9, IG 0, TikTok 21 (28/10); cliques FB 7 (24-31/10); sessões orgânicas e cliques Search Console: sem dado (pendência: export de Consultas, login Google); vendas: sem dado.
 Testes de hoje (uma variável por vez): S1 (trend Halloween, CTA a/b, 1 dia de validade): 24 h a 01/11. S2 (série Mentiras de pet, ep.2): 72 h a 05/11, junto com D3. S3 (feriado, tutor em casa): 72 h a 04/11. Régua: 1,5x a mediana (FB views 189, IG 29), mínimo 5 posts por braço; abaixo disso é PARCIAL. Campeão: nenhum novo.
+
+## Atualização sáb 31/10 09:25 (Diretor de Audiência)
+Zernio follower-stats 24–31/10 (07:03Z): FB 10 (+1 em 31/10, 1º aumento desde 25/10), IG 1 (PRIMEIRO seguidor real, 86 posts), TikTok 21 (último valor). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca MIMO fora do ar = NEUTRO (n<3).

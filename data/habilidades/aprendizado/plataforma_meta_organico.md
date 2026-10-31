@@ -34,3 +34,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-30 | CTA sem comando de engajamento e pergunta genuína nas 3 ideias novas | n=0 posts medidos | mantém
 2026-10-30 | hipótese: reserva evergreen (gancho pergunta concreta, legenda nova) cobre dias sem pacote novo com gancho liberado | n=3 vídeos reagendados (arranhar-sofa, patas-inverno, plantas), resultado em 72 h | mantém
 2026-10-31 | sem comando de curtir/comentar/compartilhar na legenda; pergunta binária divide, CTA a/b | n=0 posts medidos (3 ideias propostas); FB mediana 189 views, comentário de terceiro ~0 | mantém
+2026-10-31 | regra: início de conta pequena depende de constância; 1º seguidor IG após 86 posts | IG 0→1, FB 9→10 (n=1) | mantém
