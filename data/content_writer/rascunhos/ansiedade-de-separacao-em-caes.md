@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: rascunho_pendente_revisao
 slug: ansiedade-de-separacao-em-caes
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: ansiedade de separação em cachorros
 pilar: comportamento
 intencao_busca: informacional

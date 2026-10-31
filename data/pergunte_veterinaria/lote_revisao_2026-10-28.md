@@ -6,11 +6,11 @@ Critério do lote 1: os 4 artigos com `aviso_saude_aplicavel: true` + o guia de 
 
 | # | Artigo | Link ao vivo | Status |
 |---|---|---|---|
-| 1 | Alimentos proibidos para cachorro | https://tutorialpet.com.br/alimentos-proibidos-para-cachorro | aguardando |
-| 2 | Vacinas para filhote de cachorro | https://tutorialpet.com.br/vacinas-para-filhote-de-cachorro | aguardando |
-| 3 | Com quantos meses o cachorro pode sair na rua? | https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua | aguardando |
-| 4 | Ansiedade de separação em cães | https://tutorialpet.com.br/ansiedade-de-separacao-em-caes | aguardando |
-| 5 | Plantas tóxicas para gatos | https://tutorialpet.com.br/plantas-toxicas-para-gatos | aguardando |
+| 1 | Alimentos proibidos para cachorro | https://tutorialpet.com.br/alimentos-proibidos-para-cachorro | aprovado em 31/10/2026 |
+| 2 | Vacinas para filhote de cachorro | https://tutorialpet.com.br/vacinas-para-filhote-de-cachorro | aprovado em 31/10/2026 |
+| 3 | Com quantos meses o cachorro pode sair na rua? | https://tutorialpet.com.br/com-quantos-meses-o-cachorro-pode-sair-na-rua | aprovado em 31/10/2026 |
+| 4 | Ansiedade de separação em cães | https://tutorialpet.com.br/ansiedade-de-separacao-em-caes | aprovado em 31/10/2026 |
+| 5 | Plantas tóxicas para gatos | https://tutorialpet.com.br/plantas-toxicas-para-gatos | aprovado em 31/10/2026 |
 
 ## Resumos para aprovação (3 linhas cada)
 

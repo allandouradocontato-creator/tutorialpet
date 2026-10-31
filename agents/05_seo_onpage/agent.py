@@ -274,7 +274,7 @@ def run(context: dict) -> dict:
         try:
             _fm_ant, _ = read_markdown(_ant)
             for _k, _v in _fm_ant.items():
-                if str(_k).startswith("imagem") and _k not in novo_front_matter:
+                if (str(_k).startswith("imagem") or _k in ("revisado_por", "revisado_vet_em")) and _k not in novo_front_matter:
                     novo_front_matter[_k] = _v
         except MarkdownError:
             pass

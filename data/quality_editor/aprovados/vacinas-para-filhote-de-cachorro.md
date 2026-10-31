@@ -2,6 +2,8 @@
 data: '2026-09-15'
 status: aprovado_qualidade
 slug: vacinas-para-filhote-de-cachorro
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: vacinas para filhote de cachorro
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional

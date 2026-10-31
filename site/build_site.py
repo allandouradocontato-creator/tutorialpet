@@ -576,7 +576,7 @@ def _revisao_do_artigo(fm: dict) -> tuple[dict, str] | None:
     # Só vale a data pura AAAA-MM-DD da revisão veterinária; timestamp nunca gera selo.
     import re as _rr
     p = _pessoa(fm.get("revisado_por"))
-    v = str(fm.get("revisado_em") or "").strip()
+    v = str(fm.get("revisado_vet_em") or fm.get("revisado_em") or "").strip()   # revisado_vet_em: data da leitura da veterinária (31/10); revisado_em é timestamp do agente 04
     d = _data_num(v) if _rr.fullmatch(r"\d{4}-\d{2}-\d{2}", v) else ""
     return (p, d) if p and d else None
 

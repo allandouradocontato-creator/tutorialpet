@@ -5,6 +5,8 @@ meta_description: Conheça as principais plantas tóxicas para gatos, aprenda a 
 data: '2026-10-09'
 status: rascunho_pendente_revisao
 slug: plantas-toxicas-para-gatos
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: plantas toxicas para gatos
 pilar: cuidados_diarios
 intencao_busca: informacional

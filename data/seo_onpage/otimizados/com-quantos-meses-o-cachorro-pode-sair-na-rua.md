@@ -2,6 +2,8 @@
 data: '2026-10-06'
 status: otimizado_seo
 slug: com-quantos-meses-o-cachorro-pode-sair-na-rua
+revisado_por: natasha-braga
+revisado_vet_em: '2026-10-31'
 termo_origem: com quantos meses o cachorro pode sair na rua
 pilar: primeiros_passos_filhotes
 intencao_busca: informacional
