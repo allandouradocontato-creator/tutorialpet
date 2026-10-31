@@ -18,7 +18,7 @@
 | autoria/assinatura visivel | PASSA | [] |
 | capa unica por artigo | PASSA | 0 artigos em 0 grupos repetidos |
 | sem capa proibida (agressiva) | PASSA | [] |
-| todos com capa | FALHA | ['como-escolher-cinto-de-seguranca-pet-para-carro', 'quantos-dias-o-gato-pode-ficar-sozinho-em-casa', 'como-adotar-um-cachorro-passo-a-passo', 'como-fazer-cachorro-parar-de-puxar-a-guia', 'quanto-de-racao-dar-para-gato-adulto-por-dia'] |
+| todos com capa | FALHA | ['como-adotar-um-cachorro-passo-a-passo', 'como-fazer-cachorro-parar-de-puxar-a-guia', 'quanto-de-racao-dar-para-gato-adulto-por-dia'] |
 | artigos de saude citam veterinario | PASSA | [] |
 | TODOS os artigos com secao Fontes e referencias (>=2 links) | FALHA | 12 sem fonte: ['como-escolher-cinto-de-seguranca-pet-para-carro', 'como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas', 'como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno', 'cachorro-pode-comer-banana'] |
 | sem texto de modelo visivel | PASSA |  |
@@ -28,5 +28,5 @@
 
 ## Corrigir (3)
 - **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
-- **todos com capa**: ['como-escolher-cinto-de-seguranca-pet-para-carro', 'quantos-dias-o-gato-pode-ficar-sozinho-em-casa', 'como-adotar-um-cachorro-passo-a-passo', 'como-fazer-cachorro-parar-de-puxar-a-guia', 'quanto-de-racao-dar-para-gato-adulto-por-dia'] -> gerar capa
+- **todos com capa**: ['como-adotar-um-cachorro-passo-a-passo', 'como-fazer-cachorro-parar-de-puxar-a-guia', 'quanto-de-racao-dar-para-gato-adulto-por-dia'] -> gerar capa
 - **TODOS os artigos com secao Fontes e referencias (>=2 links)**: 12 sem fonte: ['como-escolher-cinto-de-seguranca-pet-para-carro', 'como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas', 'como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno', 'cachorro-pode-comer-banana'] -> pesquisar fontes reais e inserir antes do fechamento
