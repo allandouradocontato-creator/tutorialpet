@@ -31,6 +31,12 @@ otimizado_em: '2026-10-31T14:26:29+00:00'
 checagens_seo: []
 sugestoes_links_internos: []
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quantos-dias-o-gato-pode-ficar-sozinho-em-casa.jsonld.json
+imagem_capa: imagens/quantos-dias-o-gato-pode-ficar-sozinho-em-casa.jpg
+imagem_fonte: pexels
+imagem_fotografo: ivi nnnnnn
+imagem_fotografo_url: https://www.pexels.com/@ivi-nnnnnn-129330
+imagem_url_pagina: https://www.pexels.com/photo/cute-ginger-kitten-sitting-on-a-mat-indoors-35316398/
+imagem_selecionada_em: '2026-10-31T18:25:38+00:00'
 ---
 
 > Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.

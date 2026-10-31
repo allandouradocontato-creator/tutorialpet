@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quantos-dias-o-gato-pode-ficar-sozinho-em-casa"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/quantos-dias-o-gato-pode-ficar-sozinho-em-casa.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

@@ -9,8 +9,7 @@ site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-21T17:53:09+00:00'
 aviso_saude_aplicavel: false
 titulo: 'Como escolher cinto de segurança pet para carro: guia prático'
-meta_description: 'Como escolher cinto de segurança pet para carro: veja tipos, tamanhos
-  certos, materiais seguros e como proteger seu cão com conforto.'
+meta_description: 'Como escolher cinto de segurança pet para carro: veja tipos, tamanhos certos, materiais seguros e como proteger seu cão com conforto.'
 autor: ''
 atualizado_em: '2026-10-31'
 revisao_profunda: true
@@ -19,18 +18,15 @@ revisado_em: '2026-10-31T14:26:29+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
-  descricao: 1/45 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
-    — simplificar.
+  descricao: 1/45 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras — simplificar.
   trechos:
-  - '36 palavras: "Para quem tem uma rotina intensa de passeios com animais de diferentes
-    idades, v..."'
+  - '36 palavras: "Para quem tem uma rotina intensa de passeios com animais de diferentes idades, v..."'
 titulo_seo: 'Como escolher cinto de segurança pet para carro: guia'
 keyword_density: 0.0
 otimizado_por_agente_05: true
 otimizado_em: '2026-10-31T14:26:29+00:00'
 checagens_seo:
-- título original (61 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
-  truncado para uso na tag de página, H1 do artigo mantido intacto.
+- título original (61 caracteres) excede o recomendado para <title> — gerado 'titulo_seo' truncado para uso na tag de página, H1 do artigo mantido intacto.
 sugestoes_links_internos:
 - termo_relacionado: caixa de transporte para gato
   slug_provavel: caixa-de-transporte-para-gato
@@ -45,6 +41,12 @@ sugestoes_links_internos:
   ancora_sugerida: coleira ou peitoral para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-cinto-de-seguranca-pet-para-carro.jsonld.json
+imagem_capa: imagens/como-escolher-cinto-de-seguranca-pet-para-carro.jpg
+imagem_fonte: pexels
+imagem_fotografo: John Wu
+imagem_fotografo_url: https://www.pexels.com/@john-wu-820554380
+imagem_url_pagina: https://www.pexels.com/photo/adorable-dog-enjoying-car-ride-outdoors-34623759/
+imagem_selecionada_em: '2026-10-22T16:45:37+00:00'
 ---
 
 # Como escolher cinto de segurança pet para carro: guia prático
