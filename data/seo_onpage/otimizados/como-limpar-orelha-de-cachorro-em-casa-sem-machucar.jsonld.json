@@ -23,7 +23,7 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar soro fisiológico para limpar o ouvido do cão?",
+        "name": "Posso usar soro fisiológico para limpar o ouvido do cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Não é o ideal. O soro fisiológico é composto basicamente por água e cloreto de sódio. Ele não dissolve cerume à base de gordura e deixa o canal auditivo úmido por mais tempo, aumentando o risco de proliferação de fungos se a secagem não for impecável."
@@ -42,7 +42,7 @@
         "name": "Meu cachorro começou a coçar muito a orelha logo após a limpeza. É normal?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ele pode se coçar ou chacoalhar a cabeça por 1 ou 2 minutos pelo incômodo passageiro da umidade. Se a coceira persistir por horas, se ele gemer ao tocar na orelha ou andar com a cabeça inclinada para um dos lados, suspenda qualquer limpeza e leve o cão para ser avaliado clinicamente."
+          "text": "Ele pode se coçar ou chacoalhar a cabeça por 1 ou 2 minutos pelo incômodo passageiro da umidade. Se a coceira persistir por horas, se ele gemer ao tocar na orelha ou andar com a cabeça inclinada para um dos lados, suspenda qualquer limpeza e leve o cachorro para ser avaliado clinicamente."
         }
       },
       {
@@ -50,7 +50,7 @@
         "name": "Posso usar óleo de coco ou azeite de oliva para amolecer a cera?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Evite totalmente. Óleos vegetais alimentícios formam uma película que impede a ventilação correta do canal e podem alimentar certas leveduras oportunistas já presentes na pele do cão. Utilize apenas ceruminolíticos veterinários próprios para evaporação e equilíbrio dérmico.  ---"
+          "text": "Evite totalmente. Óleos vegetais alimentícios formam uma película que impede a ventilação correta do canal e podem alimentar certas leveduras oportunistas já presentes na pele do cachorro. Utilize apenas ceruminolíticos veterinários próprios para evaporação e equilíbrio dérmico.  ---"
         }
       }
     ]

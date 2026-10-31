@@ -26,7 +26,7 @@
         "name": "Até quantos meses devo dar ração de filhote?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, cães de pequeno e médio porte comem ração de filhote até os 10 ou 12 meses. Já raças grandes e gigantes costumam fazer essa transição mais tarde, entre 15 e 24 meses. Confirme sempre o momento da troca com o médico-veterinário."
+          "text": "Em média, cachorros de pequeno e médio porte comem ração de filhote até os 10 ou 12 meses. Já raças grandes e gigantes costumam fazer essa transição mais tarde, entre 15 e 24 meses. Confirme sempre o momento da troca com o médico-veterinário."
         }
       },
       {
@@ -42,12 +42,12 @@
         "name": "Ração com grãos ou ração grain free: qual é a melhor?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende de cada animal. Cães saudáveis digerem bem grãos de qualidade, como arroz integral e aveia. Rações sem grãos são úteis caso o cão tenha alguma sensibilidade específica, algo que só o veterinário pode avaliar."
+          "text": "Depende de cada animal. Cachorros saudáveis digerem bem grãos de qualidade, como arroz integral e aveia. Rações sem grãos são úteis caso o cachorro tenha alguma sensibilidade específica, algo que só o veterinário pode avaliar."
         }
       },
       {
         "@type": "Question",
-        "name": "Como saber se a ração fez bem para o meu cão?",
+        "name": "Como saber se a ração fez bem para o meu cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Olhe para o próprio animal. Fezes firmes e fáceis de recolher, pelos brilhantes, disposição para brincar e ganho de peso constante na balança são os melhores sinais de que o alimento está cumprindo o papel.  ---"

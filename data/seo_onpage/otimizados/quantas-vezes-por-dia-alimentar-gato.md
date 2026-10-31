@@ -48,7 +48,7 @@ imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
 
 Quando a gente adota um gatinho pela primeira vez, uma das maiores dúvidas que surge na rotina é sobre a frequência das refeições. Afinal, colocar comida à vontade no pote parece prático, mas será que é o melhor para a saúde do felino?
 
-## Por que os gatos comem de forma diferente dos cães
+## Por que os gatos comem de forma diferente dos cachorros
 
 Para entender quantas vezes por dia alimentar gato, precisamos olhar para a natureza desses animais. Na vida selvagem, os felinos são pequenos predadores que consomem várias presas pequenas ao longo de 24 horas. O estômago de um gato adulto tem o tamanho aproximado de uma noz, o que explica perfeitamente por que eles preferem fazer refeições pequenas e frequentes em vez de dois pratos cheios.
 
@@ -107,7 +107,7 @@ Se o seu gato passar a rejeitar a comida de rotina ou, pelo contrário, apresent
 
 Nunca tente medicar o animal por conta própria ou mudar drasticamente a dieta sem orientação profissional. A segurança e o bem-estar do seu companheiro dependem de um acompanhamento clínico adequado e preventivo.
 
-Outros guias do Tutorial Pet que combinam com este assunto: [pode dar sachê para gato todos os dias](/pode-dar-sache-para-gato-todos-os-dias), [como organizar a rotina de alimentação de cães e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos) e [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato).
+Outros guias do Tutorial Pet que combinam com este assunto: [pode dar sachê para gato todos os dias](/pode-dar-sache-para-gato-todos-os-dias), [como organizar a rotina de alimentação de cachorros e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos) e [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato).
 
 ## Perguntas frequentes
 

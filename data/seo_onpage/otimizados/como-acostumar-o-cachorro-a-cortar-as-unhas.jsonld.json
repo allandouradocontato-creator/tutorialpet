@@ -23,10 +23,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto tempo costuma levar para o cão se acostumar com o corte?",
+        "name": "Quanto tempo costuma levar para o cachorro se acostumar com o corte?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, cães filhotes ou sem traumas prévios levam de uma a três semanas de treino diário para relaxar completamente. Pets que já tiveram experiências dolorosas podem levar alguns meses. Respeite sempre o ritmo do seu amigo."
+          "text": "Em média, cachorros filhotes ou sem traumas prévios levam de uma a três semanas de treino diário para relaxar completamente. Pets que já tiveram experiências dolorosas podem levar alguns meses. Respeite sempre o ritmo do seu amigo."
         }
       },
       {
@@ -34,7 +34,7 @@
         "name": "Lixadores elétricos para pet funcionam melhor do que alicates?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Costumam ser uma ótima alternativa para cães que se assustam com o estalo do alicate manual. No entanto, o motor emite uma vibração e um zumbido que também exigem um processo idêntico de adaptação prévia."
+          "text": "Costumam ser uma ótima alternativa para cachorros que se assustam com o estalo do alicate manual. No entanto, o motor emite uma vibração e um zumbido que também exigem um processo idêntico de adaptação prévia."
         }
       },
       {
@@ -50,7 +50,7 @@
         "name": "Passear no asfalto substitui o corte de unhas?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Costuma ajudar muito no desgaste natural das unhas da frente e de trás em cães ativos, mas raramente desgasta a unha do \"polegar\" (o ergô), que fica mais alta na pata e não toca o chão durante a caminhada."
+          "text": "Costuma ajudar muito no desgaste natural das unhas da frente e de trás em cachorros ativos, mas raramente desgasta a unha do \"polegar\" (o ergô), que fica mais alta na pata e não toca o chão durante a caminhada."
         }
       }
     ]

@@ -68,7 +68,7 @@ Erros comuns nessa fase incluem forçar o contato ou expor o pet a barulhos muit
 
 ## Apresentando o gatinho a novas pessoas
 
-Os gatos não possuem a mesma necessidade social dos cães, mas precisam aprender que humanos estranhos não são perigosos. Como o instinto felino é de predador e presa ao mesmo tempo, qualquer movimento brusco pode assustar o pequeno. O segredo é deixar que o gatinho tome a iniciativa da aproximação.
+Os gatos não possuem a mesma necessidade social dos cachorros, mas precisam aprender que humanos estranhos não são perigosos. Como o instinto felino é de predador e presa ao mesmo tempo, qualquer movimento brusco pode assustar o pequeno. O segredo é deixar que o gatinho tome a iniciativa da aproximação.
 
 O motivo fisiológico para essa cautela é a alta sensibilidade auditiva e visual da espécie. Sons agudos e gestos rápidos ativam o sistema de alerta do cérebro felino instantaneamente. Portanto, controle o tom de voz no ambiente durante a recepção de visitas.
 
@@ -114,7 +114,7 @@ Erros comuns incluem balançar os dedos na frente do rosto do filhote para provo
 
 > Exemplo prático: Se o gatinho pular no seu tornozelo, fique imóvel por um instante, pegue uma varinha com penas e comece a balançá-la longe de você para atrair a atenção dele para o brinquedo certo.
 
-Para aprofundar o assunto, vale ler também [como ensinar filhote de gato a interagir com cães adultos](/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos) e [o que comprar antes de adotar um gatinho](/o-que-comprar-antes-de-adotar-um-gatinho).
+Para aprofundar o assunto, vale ler também [como ensinar filhote de gato a interagir com cachorros adultos](/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos) e [o que comprar antes de adotar um gatinho](/o-que-comprar-antes-de-adotar-um-gatinho).
 
 ## Perguntas frequentes
 

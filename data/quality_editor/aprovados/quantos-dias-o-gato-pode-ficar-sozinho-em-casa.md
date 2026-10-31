@@ -3,7 +3,7 @@ data: '2026-10-22'
 status: aprovado_qualidade
 slug: quantos-dias-o-gato-pode-ficar-sozinho-em-casa
 termo_origem: quantos dias o gato pode ficar sozinho em casa
-pilar: rotina_gatos
+pilar: cuidados_diarios
 intencao_busca: informacional
 site_id: pets-tutores-iniciantes
 gerado_em: '2026-10-22T15:20:00+00:00'
@@ -40,7 +40,7 @@ Quantas horas um gato pode ficar sozinho sem supervisão? Em média, um dia inte
 
 Deixar o gato sozinho por três dias ou mais sem visitas é totalmente desaconselhado, mesmo com fartura de mantimentos. Se a comida úmida ficar exposta por muito tempo, ela estraga, e as caixas de areia sujas farão o gato procurar outros locais da casa para fazer as necessidades.
 
-Exemplo prático: Em uma viagem de fim de semana de dois dias, peça para um amigo ou um profissional de *pet sitting* visitar o apartamento pelo menos uma vez ao dia para trocar a água, repor a ração e recolher os dejetos. Para garantir hidratação contínua, vale a pena investir em [como escolher a melhor fonte de água elétrica para gatos](/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos) antes de pegar a estrada.
+Exemplo prático: Em uma viagem de fim de semana de dois dias, peça para um amigo ou um profissional de *pet sitting* visitar o apartamento, idealmente duas vezes ao dia, para trocar a água, repor a ração e recolher os dejetos. Para garantir hidratação contínua, vale a pena investir em [como escolher a melhor fonte de água elétrica para gatos](/como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos) antes de pegar a estrada.
 
 ## Riscos invisíveis de deixar o gato sozinho por muito tempo
 
@@ -64,7 +64,7 @@ Como saber se o gato sofreu demais com a nossa ausência após o retorno da viag
 
 Miados excessivos, rejeição à caixa de areia, agressividade repentina ou apatia profunda exigem atenção veterinária imediata para descartar doenças silenciosas agravadas pelo estresse.
 
-Exemplo prático: Ao voltar para casa e notar que o gato vomitou várias vezes ou urinou fora do lugar, agende uma avaliação com o médico-veterinário. Para prevenir episódios de estresse crônico que afetam o trato urinário, vale a pena aprender [como fazer o gato beber mais agua](/como-fazê-o-gato-beber-mais-agua) e estimular a hidratação diária na rotina normal.
+Exemplo prático: Ao voltar para casa e notar que o gato vomitou várias vezes ou urinou fora do lugar, agende uma avaliação com o médico-veterinário. Para prevenir episódios de estresse crônico que afetam o trato urinário, vale a pena aprender [como fazer o gato beber mais agua](/como-fazer-o-gato-beber-mais-agua) e estimular a hidratação diária na rotina normal.
 
 ## Perguntas frequentes
 
@@ -79,6 +79,13 @@ Depende da personalidade do pet. Gatos territorialistas sofrem muito com a mudan
 
 - **Quantas caixas de areia devo deixar se for viajar por dois dias?**
 A regra básica é o número de gatos mais um. Para um único gato, deixe pelo menos duas caixas limpas em locais tranquilos.
+
+## Fontes e referências
+
+- [Ansiedade de separação em felinos domésticos](https://ojs.periodicos.unis.edu.br/agrovetsulminas/article/download/1105/789/4304) — Agroveterinária, Centro Universitário do Sul de Minas (UNIS-MG), 2026.
+- [Feline Hepatic Lipidosis](https://www.msdvetmanual.com/digestive-system/hepatic-disease-in-small-animals/feline-hepatic-lipidosis) — MSD Veterinary Manual (entidade dos Estados Unidos).
+- [Going On Holiday Without Your Cat](https://www.cats.org.uk/help-and-advice/home-and-environment/going-on-holiday) — Cats Protection (entidade do Reino Unido).
+- [While Youre Away](https://www.catwatchnewsletter.com/?p=2296) — CatWatch Newsletter, produzido em colaboração com o Cornell Feline Health Center (Estados Unidos), 2019.
 
 ## Para fechar
 

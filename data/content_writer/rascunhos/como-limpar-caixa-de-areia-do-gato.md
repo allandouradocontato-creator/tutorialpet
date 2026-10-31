@@ -62,7 +62,7 @@ Isso acontece porque os gatos têm hierarquias sociais sutis. Se um gato dominan
 
 Erros comuns incluem colocar todas as caixas no mesmo cômodo, o que para o gato conta como se fosse apenas um único banheiro grande, já que o território é compartilhado.
 
-Exemplo prático: Se você tem dois gatos, o ideal são três caixas espalhadas por cômodos tranquilos e silenciosos da casa, longe de barulhos de eletrodomésticos e dos potes de comida. Para quem está montando o ambiente e também tem cães, vale a pena conferir dicas de [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro) para garantir que os animais respeitem o espaço um do outro desde o início.
+Exemplo prático: Se você tem dois gatos, o ideal são três caixas espalhadas por cômodos tranquilos e silenciosos da casa, longe de barulhos de eletrodomésticos e dos potes de comida. Para quem está montando o ambiente e também tem cachorros, vale a pena conferir dicas de [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro) para garantir que os animais respeitem o espaço um do outro desde o início.
 
 ## Perguntas frequentes
 

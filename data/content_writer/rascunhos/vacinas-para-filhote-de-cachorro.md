@@ -17,7 +17,7 @@ revisao_profunda: true
 
 # Vacinas para filhote de cachorro: o que saber para proteger seu pet
 
-A chegada de um novo filhote em casa traz aquela alegria contagiante, mas também uma enorme responsabilidade com a saúde do animal. Entre as principais dúvidas de quem convive com um cãozinho nessa fase estão os cuidados com a imunização. Entender o calendário e a importância de cada dose é o primeiro passo para garantir que ele cresça forte e protegido contra doenças graves.
+A chegada de um novo filhote em casa traz aquela alegria contagiante, mas também uma enorme responsabilidade com a saúde do animal. Entre as principais dúvidas de quem convive com um cachorrinho nessa fase estão os cuidados com a imunização. Entender o calendário e a importância de cada dose é o primeiro passo para garantir que ele cresça forte e protegido contra doenças graves.
 
 > Este conteúdo é informativo e não substitui a consulta com um médico-veterinário.
 
@@ -37,7 +37,7 @@ O protocolo vacinal costuma começar em média entre a sexta e a oitava semana d
 
 As vacinas polivalentes (como a V8 ou V10) protegem contra várias doenças graves de uma só vez, incluindo cinomose, parvovirose e leptospirose. Além delas, a vacina contra a raiva é obrigatória por lei e costuma ser aplicada mais adiante no primeiro ano de vida.
 
-Passos numerados para organizar a imunização do seu cão:
+Passos numerados para organizar a imunização do seu cachorro:
 1. **Consulta inicial:** Leve o filhote para um exame clínico completo antes de aplicar a primeira dose.
 2. **Aplicação das doses múltiplas:** Siga rigorosamente os retornos recomendados, geralmente em intervalos de três a quatro semanas.
 3. **Reforço anual:** Após o primeiro ano, o médico-veterinário indicará as doses de reforço necessárias.
@@ -85,11 +85,11 @@ Entre em contato com o médico-veterinário o quanto antes. Dependendo do tempo 
 Animais adultos sem histórico vacinal também precisam de um protocolo de imunização adaptado, que costuma envolver doses iniciais e reforços avaliados pelo profissional.
 
 **Posso dar remédio para dor por conta própria se o filhote ficar manhoso?**
-Nunca dê medicamentos humanos ou analgésicos sem prescrição veterinária, pois muitas substâncias comuns são altamente tóxicas para cães.
+Nunca dê medicamentos humanos ou analgésicos sem prescrição veterinária, pois muitas substâncias comuns são altamente tóxicas para cachorros.
 
 ## Para fechar
 
-Cuidar da imunização do seu cãozinho é um ato de carinho que garante anos de companhia saudável e cheia de brincadeiras. Seguir o calendário recomendado pelo médico-veterinário e respeitar o tempo de cada etapa faz toda a diferença para o bem-estar do animal.
+Cuidar da imunização do seu cachorrinho é um ato de carinho que garante anos de companhia saudável e cheia de brincadeiras. Seguir o calendário recomendado pelo médico-veterinário e respeitar o tempo de cada etapa faz toda a diferença para o bem-estar do animal.
 
 Convidamos você a continuar explorando os conteúdos do nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais a convivência com o seu companheiro de quatro patas.
 

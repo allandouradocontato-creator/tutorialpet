@@ -77,7 +77,7 @@ As principais são:
 
 - **Polivalente (V8 ou V10):** protege contra doenças como cinomose, parvovirose, hepatite infecciosa e leptospirose, entre outras, conforme o tipo de vacina.
 - **Antirrábica:** protege contra a raiva, que é grave e transmissível a pessoas. Costuma ser aplicada a partir dos 3 a 4 meses e é exigida em campanhas oficiais de vacinação e em viagens. O Ministério da Agricultura (MAPA) e os órgãos de saúde animal do seu município divulgam as regras e campanhas.
-- **Tosse dos canis e giárdia:** são opcionais e dependem do risco do cão, por exemplo se ele frequenta creche, hotel ou parques. Só o veterinário indica.
+- **Tosse dos canis e giárdia:** são opcionais e dependem do risco do cachorro, por exemplo se ele frequenta creche, hotel ou parques. Só o veterinário indica.
 
 ## Quantas doses são e de quanto em quanto tempo?
 
@@ -99,7 +99,7 @@ Procure atendimento na mesma hora se houver inchaço no rosto ou focinho, coceir
 
 ## Posso dar remédio de gente se ele ficar dolorido?
 
-Não. Paracetamol, dipirona e anti-inflamatórios humanos podem ser tóxicos para cães. Qualquer medicação só com prescrição do veterinário.
+Não. Paracetamol, dipirona e anti-inflamatórios humanos podem ser tóxicos para cachorros. Qualquer medicação só com prescrição do veterinário.
 
 ## Quando o filhote pode passear depois das vacinas?
 
@@ -107,7 +107,7 @@ Em média, cerca de 10 a 15 dias depois da última dose da série, quando o vete
 
 ## Como preparar a casa e a rotina enquanto as vacinas não terminam?
 
-Mantenha o filhote em ambiente limpo, higienize a área do xixi com frequência (veja [como ensinar cachorro a fazer xixi no lugar certo](/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo)), peça que visitas lavem as mãos e deixem os sapatos de rua na entrada, e evite contato com cães de vacinação desconhecida. Monte o espaço com o que sugerimos no [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro), organize os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) e confirme com o veterinário a [ração para filhote de cachorro](/racao-para-filhote-de-cachorro) adequada, porque boa nutrição ajuda a resposta imune.
+Mantenha o filhote em ambiente limpo, higienize a área do xixi com frequência (veja [como ensinar cachorro a fazer xixi no lugar certo](/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo)), peça que visitas lavem as mãos e deixem os sapatos de rua na entrada, e evite contato com cachorros de vacinação desconhecida. Monte o espaço com o que sugerimos no [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro), organize os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) e confirme com o veterinário a [ração para filhote de cachorro](/racao-para-filhote-de-cachorro) adequada, porque boa nutrição ajuda a resposta imune.
 
 ## E o que fazer se eu esquecer o reforço?
 

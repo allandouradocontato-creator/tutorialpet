@@ -112,7 +112,7 @@ Para aprofundar o assunto, vale ler também [como escovar pelo de gato que não 
   Na maioria das vezes, os gatos não precisam de banho com água, pois fazem a própria higiene. Banhos costumam ser pontuais, apenas em casos de sujeira extrema ou recomendação médica. Confirme sempre com o médico-veterinário.
 
 * **Posso usar shampoo humano ou de cachorro no gato?**
-  Não. O pH da pele humana e a formulação de produtos para cães podem causar alergias graves e intoxicação nos felinos. Use apenas produtos específicos para gatos.
+  Não. O pH da pele humana e a formulação de produtos para cachorros podem causar alergias graves e intoxicação nos felinos. Use apenas produtos específicos para gatos.
 
 * **O que fazer se o gato ficar muito agressivo no banho?**
   Interrompa imediatamente para evitar machucar você ou o animal. Enrole-o na toalha, deixe-o ir para um local seguro e procure orientação profissional de um banhista especializado ou do médico-veterinário.

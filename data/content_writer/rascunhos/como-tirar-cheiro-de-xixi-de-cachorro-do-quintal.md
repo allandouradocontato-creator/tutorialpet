@@ -17,19 +17,19 @@ revisao_profunda: true
 
 # Como tirar cheiro de xixi de cachorro do quintal: guia prático
 
-Manter o quintal limpo e sem odores fortes é um dos maiores desafios para quem convive com cães em casa. A urina do cachorro contém ureia, ácido úrico e creatinina que, ao entrarem em contato com o calor e as bactérias do ambiente, liberam aquela fragrância incômoda de amônia. O olfato canino é extremamente sensível, o que significa que apenas disfarçar o odor com perfumes fortes não resolve o problema. Se o cheiro persistir, o cão entenderá que aquele cantinho é o banheiro oficial. 
+Manter o quintal limpo e sem odores fortes é um dos maiores desafios para quem convive com cachorros em casa. A urina do cachorro contém ureia, ácido úrico e creatinina que, ao entrarem em contato com o calor e as bactérias do ambiente, liberam aquela fragrância incômoda de amônia. O olfato canino é extremamente sensível, o que significa que apenas disfarçar o odor com perfumes fortes não resolve o problema. Se o cheiro persistir, o cachorro entenderá que aquele cantinho é o banheiro oficial. 
 
 Entender a química por trás da limpeza ajuda a eliminar o problema na raiz, sem danificar o piso ou prejudicar a saúde do seu peludo. Além disso, manter o quintal agradável faz parte de uma convivência harmoniosa, assim como cuidar da rotina de [como ensinar cachorro a fazer xixi no lugar certo](/como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo) em qualquer fase da vida do animal. Vamos ver passo a passo como acabar com esse odor de vez.
 
 ## Por que os produtos comuns não tiram o cheiro do quintal?
 
-Muitos tutores recorrem a desinfetantes comuns, água sanitária pura ou detergentes perfumados na tentativa de limpar o quintal. O grande erro está na composição desses produtos. A lixívia e os desinfetantes à base de amônia podem intensificar o cheiro para o focinho do cachorro, pois a amônia faz parte da própria urina. O cão sente o estímulo e continua urinando no mesmo lugar.
+Muitos tutores recorrem a desinfetantes comuns, água sanitária pura ou detergentes perfumados na tentativa de limpar o quintal. O grande erro está na composição desses produtos. A lixívia e os desinfetantes à base de amônia podem intensificar o cheiro para o focinho do cachorro, pois a amônia faz parte da própria urina. O cachorro sente o estímulo e continua urinando no mesmo lugar.
 
 Para neutralizar o odor de verdade, você precisa quebrar as moléculas de ácido úrico. É por isso que os limpadores enzimáticos ou soluções caseiras com vinagre funcionam tão bem. Eles não mascaram; eles destroem a sujeira na origem.
 
 ### O perigo de misturar produtos de limpeza
 
-Misturar cloro com vinagre ou amônia libera gases tóxicos perigosos para humanos e animais. Sempre enxágue muito bem o piso antes de aplicar qualquer nova substância. Se o seu cão passa muito tempo no pátio, vale a pena conferir dicas sobre [quanto tempo um cachorro pode ficar sozinho](/quanto-tempo-um-cachorro-pode-ficar-sozinho) para garantir que ele tenha um ambiente seguro e limpo o dia todo.
+Misturar cloro com vinagre ou amônia libera gases tóxicos perigosos para humanos e animais. Sempre enxágue muito bem o piso antes de aplicar qualquer nova substância. Se o seu cachorro passa muito tempo no pátio, vale a pena conferir dicas sobre [quanto tempo um cachorro pode ficar sozinho](/quanto-tempo-um-cachorro-pode-ficar-sozinho) para garantir que ele tenha um ambiente seguro e limpo o dia todo.
 
 Exemplo prático: se você jogou água sanitária pela manhã, espere pelo menos algumas horas e enxágue com bastante água pura antes de usar qualquer vinagre ou neutralizador enzimático no piso do quintal.
 
@@ -55,7 +55,7 @@ Quintais com grama natural exigem um cuidado totalmente diferente, pois o excess
 Para odores na grama, os produtos enzimáticos vendidos em pet shops são os maiores aliados. Eles contêm bactérias benéficas que se alimentam da matéria orgânica da urina sem prejudicar a vegetação ou o solo.
 
 * **Diluição correta:** Siga sempre as instruções do fabricante do produto enzimático para gramados.
-* **Irrigação frequente:** Regar a grama abundantemente logo após o cão urinar ajuda a diluir a ureia e salvar as plantas.
+* **Irrigação frequente:** Regar a grama abundantemente logo após o cachorro urinar ajuda a diluir a ureia e salvar as plantas.
 * **Áreas de transição:** Se o quintal for misto, vale a pena organizar espaços específicos, combinando o manejo externo com dicas de [como escolher tapete higienico lavavel para cachorro em apartamento](/como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento) caso você tenha áreas cobertas integradas.
 
 Exemplo prático: borrife o neutralizador enzimático na grama no final do the tardezinha, quando o sol já estiver fraco. Assim, o produto age durante a noite inteira sem evaporar rapidamente sob o sol forte.
@@ -83,10 +83,10 @@ O vinagre branco de álcool costuma ser seguro em pisos cerâmicos e cimento, ma
 Limpadores enzimáticos específicos para pets são os mais eficientes para quebrar moléculas de urina antigas acumuladas na porosidade do cimento.
 
 * **Com que frequência devo lavar o quintal para evitar o cheiro?**
-Em média, uma lavagem leve diária com água e uma limpeza profunda semanal com produtos adequados costumam manter o quintal livre de odores, dependendo do tamanho do cão.
+Em média, uma lavagem leve diária com água e uma limpeza profunda semanal com produtos adequados costumam manter o quintal livre de odores, dependendo do tamanho do cachorro.
 
 ## Para fechar
 
 Cuidar da limpeza do quintal é um ato de carinho com a nossa própria casa e com o bem-estar do nosso pet, que merece viver em um ambiente limpo e livre de odores fortes que agridem seu olfato sensível. Com paciência, os produtos certos e uma rotina simples de manutenção, você consegue eliminar o cheiro de xixi de cachorro do quintal de forma definitiva e segura.
 
-Continue navegando pelo nosso blog para descobrir mais dicas práticas, orientações de comportamento e cuidados diários que tornam a vida com cães e gatos muito mais leve e organizada para toda a família!
+Continue navegando pelo nosso blog para descobrir mais dicas práticas, orientações de comportamento e cuidados diários que tornam a vida com cachorros e gatos muito mais leve e organizada para toda a família!

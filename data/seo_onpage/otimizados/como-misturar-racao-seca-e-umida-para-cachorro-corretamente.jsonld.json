@@ -31,7 +31,7 @@
       },
       {
         "@type": "Question",
-        "name": "O que fazer se o cão tiver diarreia após começar a mistura?",
+        "name": "O que fazer se o cachorro tiver diarreia após começar a mistura?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Suspenda temporariamente o ingrediente novo, retorne à dieta anterior e procure o médico-veterinário para investigar a sensibilidade digestiva."

@@ -19,7 +19,7 @@ revisao_profunda: true
 
 Quando a gente adota um gatinho pela primeira vez, uma das maiores dúvidas que surge na rotina é sobre a frequência das refeições. Afinal, colocar comida à vontade no pote parece prático, mas será que é o melhor para a saúde do felino?
 
-## Por que os gatos comem de forma diferente dos cães
+## Por que os gatos comem de forma diferente dos cachorros
 
 Para entender quantas vezes por dia alimentar gato, precisamos olhar para a natureza desses animais. Na vida selvagem, os felinos são pequenos predadores que consomem várias presas pequenas ao longo de 24 horas. O estômago de um gato adulto tem o tamanho aproximado de uma noz, o que explica perfeitamente por que eles preferem fazer refeições pequenas e frequentes em vez de dois pratos cheios.
 

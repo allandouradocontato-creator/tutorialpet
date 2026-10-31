@@ -32,7 +32,7 @@ Vamos direto ao ponto com um passo a passo simples de aplicar hoje mesmo, usando
 
 ## O que a lei diz sobre a esterilização de animais
 
-A gente adora reclamar da burocracia, mas a União e os estados têm arcabouço jurídico para o controle populacional de cães e gatos. O manejo populacional ético de cães e gatos é regulamentado em âmbito federal pela [Lei nº 13.423, de 27 de março de 2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13423.htm) (consulta em 07/10/2026), que altera diretrizes sobre feiras de adoção e controle de zoonoses. Além disso, estados como São Paulo possuem iniciativas próprias, a exemplo do programa de controle populacional gerido pela Secretaria de Meio Ambiente, Infraestrutura e Logística conforme decretos estaduais vigentes.
+A gente adora reclamar da burocracia, mas a União e os estados têm arcabouço jurídico para o controle populacional de cachorros e gatos. O manejo populacional ético de cachorros e gatos é regulamentado em âmbito federal pela [Lei nº 13.423, de 27 de março de 2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13423.htm) (consulta em 07/10/2026), que altera diretrizes sobre feiras de adoção e controle de zoonoses. Além disso, estados como São Paulo possuem iniciativas próprias, a exemplo do programa de controle populacional gerido pela Secretaria de Meio Ambiente, Infraestrutura e Logística conforme decretos estaduais vigentes.
 
 Isso significa que o poder público tem o dever de planejar ações de castração. Contudo, vale o aviso de amigo: isso não significa vaga garantida na hora que você bem entender. O benefício depende da disponibilidade de recursos do município, de cadastros socioeconômicos (como o CadÚnico) e da abertura de editais específicos. Não é golpe, mas exige paciência na fila de espera. 
 
@@ -42,7 +42,7 @@ Exemplo prático: Dona Maria viu no jornal que a prefeitura abriu cem vagas para
 
 Como o Brasil é continental e cada município dita suas próprias regras de execução, o caminho das pedras começa na prefeitura local. A maioria das cidades de médio e grande porte possui Centros de Controle de Zoonoses (CCZ) ou Secretarias de Bem-Estar Animal que realizam o procedimento de graça ou a preços populares.
 
-Antes de sair correndo atrás de um [gato arranhando o sofá](/gato-arranhando-o-sofa) achando que a culpa é dos hormônios (e olha, até pode ser), acesse o site oficial da sua prefeitura. Procure por termos como "programa municipal de esterilização gratuita de cães e gatos". Caso sua cidade seja pequena e não ofereça o serviço direto, consulte se há convênios com universidades locais de Medicina Veterinária ou mutirões itinerantes patrocinados pelo governo estadual.
+Antes de sair correndo atrás de um [gato arranhando o sofá](/gato-arranhando-o-sofa) achando que a culpa é dos hormônios (e olha, até pode ser), acesse o site oficial da sua prefeitura. Procure por termos como "programa municipal de esterilização gratuita de cachorros e gatos". Caso sua cidade seja pequena e não ofereça o serviço direto, consulte se há convênios com universidades locais de Medicina Veterinária ou mutirões itinerantes patrocinados pelo governo estadual.
 
 Lembre-se de que a aprovação do cadastro está sujeita aos critérios da localidade, como comprovação de renda baixa ou residência fixa no município. Ninguém vai te dar um vale-cirurgia na padaria da esquina; o processo é formal.
 
@@ -52,7 +52,7 @@ Exemplo prático: João entrou no site da prefeitura do seu município, localizo
 
 Conseguiu a vaga? Excelente! Mas o serviço público costuma entregar orientações rápidas e enxutas, então cabe a você fazer o dever de casa para o bichinho não passar apuro. A cirurgia é segura, mas envolve anestesia. 
 
-Siga à risca o jejum de água e comida recomendado pelo médico-veterinário responsável pelo mutirão — ignorar isso é pedir para o animal vomitar na mesa de cirurgia, o que cancela o procedimento na hora. Depois que o pet voltar para casa, o resguardo é sagrado. Se ele for um cão ativo, você vai precisar de [brinquedos para cachorro que fica sozinho](/brinquedos-para-cachorro-que-fica-sozinho) para mantê-lo entretido sem correr pela casa e abrir os pontos. No caso dos felinos, vale garantir que o ambiente tenha uma boa [caixa de transporte para gato](/caixa-de-transporte-para-gato) para evitar fugas e estresse no trajeto de ida e volta.
+Siga à risca o jejum de água e comida recomendado pelo médico-veterinário responsável pelo mutirão — ignorar isso é pedir para o animal vomitar na mesa de cirurgia, o que cancela o procedimento na hora. Depois que o pet voltar para casa, o resguardo é sagrado. Se ele for um cachorro ativo, você vai precisar de [brinquedos para cachorro que fica sozinho](/brinquedos-para-cachorro-que-fica-sozinho) para mantê-lo entretido sem correr pela casa e abrir os pontos. No caso dos felinos, vale garantir que o ambiente tenha uma boa [caixa de transporte para gato](/caixa-de-transporte-para-gato) para evitar fugas e estresse no trajeto de ida e volta.
 
 Exemplo prático: O gato de Carlos fez a cirurgia pelo programa municipal. Carlos comprou a roupa cirúrgica recomendada na triagem, isolou o animal em um quarto tranquilo para evitar saltos em lugares altos e garantiu que ele tomasse os anti-inflamatórios nos horários certos, tudo conforme a receita do veterinário.
 
@@ -78,5 +78,8 @@ Se curtiu este guia prático, continue navegando pelo nosso blog para descobrir 
 *   Presidência da República — Lei nº 13.423, de 27 de março de 2017. Disponível em: <http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13423.htm>. Acesso em: 07/10/2026.
 *   Conselho Federal de Medicina Veterinária (CFMV) — Resoluções sobre procedimentos cirúrgicos e bem-estar animal. Disponível em: <https://www.in.gov.br>. Acesso em: 07/10/2026.
 *   Governo do Estado de São Paulo — Diretrizes de proteção animal e controle populacional. Disponível em: <https://www.legislacao.sp.gov.br>. Acesso em: 07/10/2026.
+- [Resolução CFMV nº 962, de 27 de agosto de 2010](https://www.crmv-ce.org.br/images/962.pdf) — CFMV (Conselho Federal de Medicina Veterinária), 2010.
+- [RESOLUÇÃO Nº 1.596, DE 26 DE MARÇO DE 2024](https://manual.cfmv.gov.br/arquivos/resolucao/1596.pdf) — CFMV (Conselho Federal de Medicina Veterinária), 2024.
+- [LEI Nº 13.426, DE 30 DE MARÇO DE 2017](https://www2.camara.leg.br/legin/fed/lei/2017/lei-13426-30-marco-2017-784551-veto-152275-pl.html) — Câmara dos Deputados (Legislação Informatizada), 2017.
 
 > Confirme no órgão do seu município ou estado: as regras e os programas mudam e variam por cidade. Este conteúdo é informativo e não substitui a orientação de um advogado ou do órgão competente.

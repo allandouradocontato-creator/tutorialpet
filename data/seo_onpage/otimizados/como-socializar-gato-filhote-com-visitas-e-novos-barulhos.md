@@ -133,7 +133,7 @@ Nunca. Forçar a interação destrói a sensação de segurança do felino e pod
 
 Socializar um gato filhote com visitas e novos barulhos é um investimento de longo prazo na qualidade de vida e na saúde mental do seu companheiro de quatro patas. Com constância, respeito ao tempo de adaptação do animal e associações positivas, o felino aprenderá que o mundo externo pode ser seguro e previsível.
 
-Continue navegando pelo Tutorial Pet para descobrir mais dicas valiosas sobre o universo dos felinos e cães, garantindo o bem-estar da sua família multiespécie todos os dias.
+Continue navegando pelo Tutorial Pet para descobrir mais dicas valiosas sobre o universo dos felinos e cachorros, garantindo o bem-estar da sua família multiespécie todos os dias.
 
 ## Fontes e referências
 

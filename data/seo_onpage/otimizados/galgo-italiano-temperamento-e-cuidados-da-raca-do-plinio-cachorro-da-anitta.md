@@ -1,6 +1,6 @@
 ---
 titulo: 'Qual a raça do Plínio, cachorro da Anitta? Galgo italiano'
-meta_description: 'O Plínio, cachorro da Anitta, é um galgo italiano. Veja a raça, o temperamento e os cuidados que esse cão esguio e friorento pede.'
+meta_description: 'O Plínio, cachorro da Anitta, é um galgo italiano. Veja a raça, o temperamento e os cuidados que esse cachorro esguio e friorento pede.'
 data: '2026-10-15'
 atualizado_em: '2026-10-30'
 status: otimizado_seo
@@ -83,12 +83,12 @@ Exemplo prático: para acalmar um galgo ansioso quando ele chega em casa nova, s
 
 ## Origem do galgo italiano e o instinto de perseguição
 
-Os galgos são cães de caça por visão: foram criados para avistar uma presa de longe e correr atrás dela em velocidade. É daí que vem a fama de "cachorro de corrida", que na prática pertence ao galgo inglês, o greyhound, maior e usado em pistas. O galgo italiano é a versão em miniatura do grupo e foi criado para companhia, mas herdou o corpo de velocista e o instinto de perseguir tudo que se move.
+Os galgos são cachorros de caça por visão: foram criados para avistar uma presa de longe e correr atrás dela em velocidade. É daí que vem a fama de "cachorro de corrida", que na prática pertence ao galgo inglês, o greyhound, maior e usado em pistas. O galgo italiano é a versão em miniatura do grupo e foi criado para companhia, mas herdou o corpo de velocista e o instinto de perseguir tudo que se move.
 
 Na vida com ele, isso muda o passeio:
 
 - **Use sempre guia e coleira ou peitoral bem ajustados.** Ele pode disparar atrás de um gato, de um pássaro ou de uma moto em segundos.
-- **Não confie só no "vem aqui".** Em área aberta, mesmo um cão bem treinado pode ignorar o chamado quando algo corre.
+- **Não confie só no "vem aqui".** Em área aberta, mesmo um cachorro bem treinado pode ignorar o chamado quando algo corre.
 - **Dê espaço seguro para correr.** Uma área fechada e cercada, em piques curtos, ajuda a gastar a energia sem risco.
 - **Cuide dos ossos finos.** Corrida em piso escorregadio ou saltos de sofá alto aumentam o risco de lesão.
 
@@ -110,7 +110,7 @@ A alimentação também pede cuidado. Mudanças bruscas no cardápio podem incom
 
 Exemplo prático: crie o hábito de olhar a gengiva e os dentes do seu cachorro toda semana. Se notar vermelhidão ou mau hálito, marque uma consulta.
 
-Para aprofundar o assunto, vale ler também [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores), [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro) e [como saber se o cachorro está acima do peso ideal](/como-saber-se-o-cachorro-esta-acima-do-peso-ideal).
+Para aprofundar o assunto, vale ler também [como adaptar a rotina da casa para cachorros e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores), [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro) e [como saber se o cachorro está acima do peso ideal](/como-saber-se-o-cachorro-esta-acima-do-peso-ideal).
 
 ## Perguntas frequentes
 

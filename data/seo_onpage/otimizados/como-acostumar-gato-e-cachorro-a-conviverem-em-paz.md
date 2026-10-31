@@ -70,32 +70,32 @@ imagens_corpo:
 
 # Como acostumar gato e cachorro a conviverem em paz: guia prático
 
-A convivência entre cães e gatos costuma gerar muitas dúvidas em quem deseja unificar a família ou integrar um novo membro peludo na rotina. Afinal, estamos unindo espécies com formas de comunicação e instintos totalmente diferentes. Enquanto o cão descende de predadores sociais que caçam em matilha, o gato carrega a herança de um caçador solitário e territorialista. Essa diferença de linguagem corporal pode causar sustos e mal-entendidos. 
+A convivência entre cachorros e gatos costuma gerar muitas dúvidas em quem deseja unificar a família ou integrar um novo membro peludo na rotina. Afinal, estamos unindo espécies com formas de comunicação e instintos totalmente diferentes. Enquanto o cachorro descende de predadores sociais que caçam em matilha, o gato carrega a herança de um caçador solitário e territorialista. Essa diferença de linguagem corporal pode causar sustos e mal-entendidos. 
 
-Compreender a fisiologia e o comportamento natural de ambos é o primeiro passo para criar um ambiente seguro. Se você já tem uma casa multiespécie ou precisa [como organizar a rotina de alimentacao de caes e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos), o segredo do sucesso reside na paciência e no respeito ao tempo de cada animal. Vamos mostrar um caminho estruturado para que essa amizade floresça sem estresse.
+Compreender a fisiologia e o comportamento natural de ambos é o primeiro passo para criar um ambiente seguro. Se você já tem uma casa multiespécie ou precisa [como organizar a rotina de alimentacao de cachorros e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos), o segredo do sucesso reside na paciência e no respeito ao tempo de cada animal. Vamos mostrar um caminho estruturado para que essa amizade floresça sem estresse.
 
 ## O primeiro contato: olfato antes da visão
 
-Antes de colocar os animais no mesmo ambiente, você precisa permitir que eles se conheçam pelo cheiro. O olfato é o principal sentido que cães e gatos usam para mapear o mundo. Apresentar o cheiro do outro reduz drasticamente o fator surpresa e o susto, diminuindo as chances de reações agressivas ou de fuga.
+Antes de colocar os animais no mesmo ambiente, você precisa permitir que eles se conheçam pelo cheiro. O olfato é o principal sentido que cachorros e gatos usam para mapear o mundo. Apresentar o cheiro do outro reduz drasticamente o fator surpresa e o susto, diminuindo as chances de reações agressivas ou de fuga.
 
-Para iniciar esse processo, mantenha os animais em cômodos separados por alguns dias. Troque os cobertores ou camas de lugar para que o cão sinta o cheiro do gato e vice-versa. Se perceber que o felino precisa de mais espaço ou suporte, lembre-se de consultar dicas sobre [como introduzir um segundo gato na casa sem brigas](/como-introduzir-um-segundo-gato-na-casa-sem-brigas) para entender a dinâmica territorial deles.
+Para iniciar esse processo, mantenha os animais em cômodos separados por alguns dias. Troque os cobertores ou camas de lugar para que o cachorro sinta o cheiro do gato e vice-versa. Se perceber que o felino precisa de mais espaço ou suporte, lembre-se de consultar dicas sobre [como introduzir um segundo gato na casa sem brigas](/como-introduzir-um-segundo-gato-na-casa-sem-brigas) para entender a dinâmica territorial deles.
 
 ### Passos para a troca de cheiros
-1. Deixe um pano limpo esfregado suavemente no corpo do gato próximo à tigela de comida do cão.
-2. Faça o mesmo invertendo os papéis, colocando um item do cão perto de onde o gato descansa.
+1. Deixe um pano limpo esfregado suavemente no corpo do gato próximo à tigela de comida do cachorro.
+2. Faça o mesmo invertendo os papéis, colocando um item do cachorro perto de onde o gato descansa.
 3. Observe se há reações de ojeriza, como pelos eriçados ou rosnados intensos diante do objeto.
 4. Avance para a próxima etapa apenas quando ambos demonstrarem total indiferença ao cheiro alheio.
 
-Exemplo prático: Esfregue uma meia velha no pescoço do gato e coloque-a no chão perto da caminha do cachorro. Se o cão cheirar e continuar calmo, ofereça um petisco para associar aquele cheiro a algo positivo.
+Exemplo prático: Esfregue uma meia velha no pescoço do gato e coloque-a no chão perto da caminha do cachorro. Se o cachorro cheirar e continuar calmo, ofereça um petisco para associar aquele cheiro a algo positivo.
 
 ## A primeira troca de olhares de forma segura
 
-Quando os animais já estiverem acostumados com o aroma um do outro, é hora de permitir o contato visual, mas sempre com barreiras físicas seguras. Uma porta de tela, um portãozinho para bebês ou até mesmo manter o cão na guia e peitoral são estratégias excelentes para evitar qualquer acidente por impulso.
+Quando os animais já estiverem acostumados com o aroma um do outro, é hora de permitir o contato visual, mas sempre com barreiras físicas seguras. Uma porta de tela, um portãozinho para bebês ou até mesmo manter o cachorro na guia e peitoral são estratégias excelentes para evitar qualquer acidente por impulso.
 
-O erro mais comum nessa fase é soltar os dois animais de uma vez só esperando que eles se resolvam. O gato pode correr por medo, o que ativa instantaneamente o instinto de perseguição do cão, transformando a apresentação em um jogo de caça perigoso.
+O erro mais comum nessa fase é soltar os dois animais de uma vez só esperando que eles se resolvam. O gato pode correr por medo, o que ativa instantaneamente o instinto de perseguição do cachorro, transformando a apresentação em um jogo de caça perigoso.
 
 ### Sinais de alerta durante o contato visual
-* **No cão:** Olhar fixo, corpo rígido, tentativas insistentes de avançar ou choros agudos de excitação.
+* **No cachorro:** Olhar fixo, corpo rígido, tentativas insistentes de avançar ou choros agudos de excitação.
 * **No gato:** Pupilas extremamente dilatadas, rabo batendo com força no chão, orelhas viradas para trás e corpo encolhido.
 * **O que fazer:** Se notar qualquer um desses sinais, afaste os animais calmamente, diminua o ritmo e tente novamente em outro horário.
 
@@ -103,24 +103,24 @@ Exemplo prático: Instale uma cerca de proteção em uma das portas da casa. Ali
 
 ## Espaços verticais e rotas de fuga para o felino
 
-Para que o gato se sinta confiante na presença de um cão, ele precisa saber que tem para onde escapar caso se sinta ameaçado. Os felinos encontram segurança nas alturas. Prateleiras na parede, torres de arranhadores altos e móveis desimpedidos funcionam como verdadeiros refúgios.
+Para que o gato se sinta confiante na presença de um cachorro, ele precisa saber que tem para onde escapar caso se sinta ameaçado. Os felinos encontram segurança nas alturas. Prateleiras na parede, torres de arranhadores altos e móveis desimpedidos funcionam como verdadeiros refúgios.
 
-Além de garantir a paz, dar acesso a locais altos ajuda a evitar problemas comportamentais relacionados ao estresse crônico. Inclusive, se você notar qualquer alteração nos hábitos diários do felino — como deixar de usar o toalete adequadamente —, vale a pena revisar o ambiente e aprender [como ensinar gato a usar a caixa de areia](/como-ensinar-gato-a-usar-a-caixa-de-areia) longe do alcance do cão.
+Além de garantir a paz, dar acesso a locais altos ajuda a evitar problemas comportamentais relacionados ao estresse crônico. Inclusive, se você notar qualquer alteração nos hábitos diários do felino — como deixar de usar o toalete adequadamente —, vale a pena revisar o ambiente e aprender [como ensinar gato a usar a caixa de areia](/como-ensinar-gato-a-usar-a-caixa-de-areia) longe do alcance do cachorro.
 
 ### Erros comuns na gestão do espaço
 * Deixar a caixa de areia e os potes de comida do gato em locais onde o cachorro consiga encurralá-lo.
-* Forçar aproximação segurando o gato no colo perto de um cão agitado.
+* Forçar aproximação segurando o gato no colo perto de um cachorro agitado.
 * Esquecer de fornecer estímulos mentais separados para ambas as espécies.
 
-Exemplo prático: Coloque a caixa de areia do gato em um cômodo onde o acesso do cão seja bloqueado por um portãozinho elevado ou onde caiba apenas o felino, garantindo privacidade total na hora das necessidades.
+Exemplo prático: Coloque a caixa de areia do gato em um cômodo onde o acesso do cachorro seja bloqueado por um portãozinho elevado ou onde caiba apenas o felino, garantindo privacidade total na hora das necessidades.
 
 ## Interações livres monitoradas e paciência
 
-Com o passar das semanas e o sucesso das etapas anteriores, você poderá permitir que fiquem no mesmo ambiente sem barreiras, mas **sempre sob a sua supervisão direta**. Nunca deixe cão e gato sozinhos em um mesmo cômodo até ter certeza absoluta de que a relação é pacífica e previsível.
+Com o passar das semanas e o sucesso das etapas anteriores, você poderá permitir que fiquem no mesmo ambiente sem barreiras, mas **sempre sob a sua supervisão direta**. Nunca deixe cachorro e gato sozinhos em um mesmo cômodo até ter certeza absoluta de que a relação é pacífica e previsível.
 
-O reforço positivo é o seu maior aliado. Sempre que o cão ignorar o gato pacificamente ou demonstrar autocontrole, recompense-o com petiscos saborosos e elogios calmos. Lembre-se de que cada animal possui um tempo próprio de adaptação; enquanto alguns se toleram em poucos dias, outros podem levar meses. Se houver qualquer dúvida sobre o comportamento ou se notar agressividade persistente, consulte o médico-veterinário ou um profissional de comportamento animal.
+O reforço positivo é o seu maior aliado. Sempre que o cachorro ignorar o gato pacificamente ou demonstrar autocontrole, recompense-o com petiscos saborosos e elogios calmos. Lembre-se de que cada animal possui um tempo próprio de adaptação; enquanto alguns se toleram em poucos dias, outros podem levar meses. Se houver qualquer dúvida sobre o comportamento ou se notar agressividade persistente, consulte o médico-veterinário ou um profissional de comportamento animal.
 
-Exemplo prático: Sente-se no sofá para assistir TV com o cão deitado aos seus pés e o gato dormindo no alto do arranhador. Fique atento e recompense o cão por permanecer relaxado, ignorando os movimentos do felino.
+Exemplo prático: Sente-se no sofá para assistir TV com o cachorro deitado aos seus pés e o gato dormindo no alto do arranhador. Fique atento e recompense o cachorro por permanecer relaxado, ignorando os movimentos do felino.
 
 Outros guias do Tutorial Pet que combinam com este assunto: [como fazer cachorro idoso aceitar um filhote novo](/como-fazer-cachorro-idoso-aceitar-um-filhote-novo) e [como acostumar gato adulto com novo comedouro](/como-acostumar-gato-adulto-com-novo-comedouro).
 
@@ -130,7 +130,7 @@ Outros guias do Tutorial Pet que combinam com este assunto: [como fazer cachorro
 Geralmente é excitação ou instinto de perseguição. Treinamento de obediência básica, comandos de foco e dessensibilização gradual ajudam muito a reduzir essa reatividade com o tempo.
 
 * **Posso deixar a ração do gato no chão à vontade?**
-Não é recomendado. A maioria dos cães adora ração de gato, que costuma ser mais gordurosa e aromática, o que pode causar problemas gastrointestinais no cão e deixar o gato sem comida.
+Não é recomendado. A maioria dos cachorros adora ração de gato, que costuma ser mais gordurosa e aromática, o que pode causar problemas gastrointestinais no cachorro e deixar o gato sem comida.
 
 * **Quanto tempo demora para eles conviverem em paz?**
 Varia muito. Alguns pares se adaptam em poucos dias, enquanto outros levam meses de trabalho diário. Respeite o ritmo individual de cada pet.
@@ -148,4 +148,4 @@ Sim. Um arranhão certeiro no focinho ou nos olhos pode causar lesões sérias. 
 
 Acostumar gato e cachorro a conviverem em paz exige constância, observação atenta da linguagem corporal e muita paciência. Ao respeitar o tempo de adaptação de cada espécie e garantir que ambos tenham seus próprios recursos e espaços seguros, a harmonia deixa de ser um sonho distante e passa a fazer parte da rotina da sua casa. 
 
-Se gostou deste guia, continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o universo dos pets, comportamento animal e cuidados diários que tornam a vida com cães e gatos ainda mais especial.
+Se gostou deste guia, continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o universo dos pets, comportamento animal e cuidados diários que tornam a vida com cachorros e gatos ainda mais especial.

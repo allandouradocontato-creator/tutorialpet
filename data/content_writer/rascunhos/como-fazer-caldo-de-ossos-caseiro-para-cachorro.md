@@ -22,13 +22,13 @@ assinatura: Equipe Tutorial Pet
 
 Se você me dissesse há alguns anos que eu estaria na cozinha de madrugada, vigiando uma panela cheia de pés de galinha e ossos bovinos para um cachorro, eu provavelmente sugeriria um chá de camomila. Mas a vida de tutor é assim: a gente janta um pão com queijo na pressa, mas vira sous-chef profissional quando o assunto é mimar e nutrir o nosso companheiro de quatro patas 🥣.
 
-O caldo de ossos virou febre nas conversas de praça e nos grupos de tutores por um bom motivo. Ele é rico em colágeno, ajuda na hidratação, costuma salvar a vida de quem tem cão enjoado para comer e ainda dá uma força danada para as articulações dos mais velhos. 
+O caldo de ossos virou febre nas conversas de praça e nos grupos de tutores por um bom motivo. Ele é rico em colágeno, ajuda na hidratação, costuma salvar a vida de quem tem cachorro enjoado para comer e ainda dá uma força danada para as articulações dos mais velhos. 
 
 A melhor parte? É incrivelmente fácil de fazer. Você não precisa de dotes culinários refinados, apenas de paciência e de alguns cuidados simples. Vamos direto ao ponto para você preparar essa iguaria canina ainda hoje.
 
 ## O que você vai precisar (e o que jamais deve colocar)
 
-Para fazer uma receita básica e infalível, a lista de ingredientes é surpreendentemente curta. A simplicidade aqui não é só economia: é segurança digestiva para o seu cão.
+Para fazer uma receita básica e infalível, a lista de ingredientes é surpreendentemente curta. A simplicidade aqui não é só economia: é segurança digestiva para o seu cachorro.
 
 Você vai precisar de:
 - **Ossos ricos em cartilagem e colágeno:** pés de galinha, carcaça de frango, ossobuco, mocotó ou juntas bovinas. Peça no açougue ossos frescos com cartilagem;
@@ -37,7 +37,7 @@ Você vai precisar de:
 
 Agora, o aviso mais importante da sua jornada gastronômica: **não adicione sal, pimenta, óleo, cebola ou alho**. 
 
-Enquanto a cebola e o alho fazem a base do nosso feijão caseiro, eles são extremamente perigosos para os cães. Vale muito a pena conferir a lista completa de [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro) para não cometer um deslize acidental achando que está caprichando no tempero. Se quiser aromatizar de leve, uma pitadinha tímida de cúrcuma (açafrão-da-terra) ou um galho minúsculo de salsa pode ser usado, mas a versão pura já faz o maior sucesso.
+Enquanto a cebola e o alho fazem a base do nosso feijão caseiro, eles são extremamente perigosos para os cachorros. Vale muito a pena conferir a lista completa de [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro) para não cometer um deslize acidental achando que está caprichando no tempero. Se quiser aromatizar de leve, uma pitadinha tímida de cúrcuma (açafrão-da-terra) ou um galho minúsculo de salsa pode ser usado, mas a versão pura já faz o maior sucesso.
 
 **Exemplo prático:**  
 Na sua próxima ida ao açougue ou feira, compre 1 kg de pés de frango bem limpos (sem as pontas das unhas) e uma junta de boi cortada. Coloque tudo na pia, enxágue em água corrente e pronto: a sua base está pronta para ir ao fogo sem nenhum misterioso tempero humano.
@@ -56,7 +56,7 @@ Coloque os ossos na panela (pode ser de pressão, panela comum grande ou panela 
 ### 3. Coagem obrigatória: o momento mais crítico
 Terminado o cozimento, desligue o fogo e espere esfriar um pouco. Agora vem a regra de ouro que você não pode ignorar: **coe todo o líquido em uma peneira fina e descarte absolutamente todos os ossos cozidos**. 
 
-Ossos cozidos ficam quebradiços e podem se estilhaçar no estômago ou no intestino do animal, causando acidentes graves. Nenhum pedacinho de osso cozido pode ir para a tigela do seu cão, por mais que ele fique ali do lado te olhando com cara de coitado. O que nos interessa é puramente o líquido dourado.
+Ossos cozidos ficam quebradiços e podem se estilhaçar no estômago ou no intestino do animal, causando acidentes graves. Nenhum pedacinho de osso cozido pode ir para a tigela do seu cachorro, por mais que ele fique ali do lado te olhando com cara de coitado. O que nos interessa é puramente o líquido dourado.
 
 ### 4. O resfriamento e a retirada da gordura
 Depois de coar o caldo em um pote de vidro ou inox, leve-o para a geladeira por algumas horas (o ideal é deixar de um dia para o outro). 
@@ -74,17 +74,17 @@ Você preparou o caldo no domingo à tarde. Às 18h, coou tudo e colocou a vasil
 
 Depois de pronto e desengordurado, como você coloca essa maravilha na rotina do pet? 
 
-Você pode oferecer o caldo levemente aquecido (apenas morno, nunca pelando) ou em temperatura ambiente, momento em que ele volta à forma líquida. Se o seu cão anda meio desanimado com o comedouro, regar a refeição dele com umas colheradas mornas costuma transformar a ração no prato mais disputado da casa. Aprender [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente) é um ótimo complemento para manter as refeições equilibradas sem exagerar nas calorias.
+Você pode oferecer o caldo levemente aquecido (apenas morno, nunca pelando) ou em temperatura ambiente, momento em que ele volta à forma líquida. Se o seu cachorro anda meio desanimado com o comedouro, regar a refeição dele com umas colheradas mornas costuma transformar a ração no prato mais disputado da casa. Aprender [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente) é um ótimo complemento para manter as refeições equilibradas sem exagerar nas calorias.
 
 Além disso, em períodos em que você precisa saber [como trocar a ração do cachorro](/como-trocar-a-racao-do-cachorro), um pouquinho de caldo ajuda a mascarar o cheiro do alimento novo e facilita a adaptação sem estresse 🐶.
 
 ### Quantidade diária
 Tudo que é bom em excesso pode desandar o intestino. Como recomendação geral de bom senso, considere as medidas abaixo:
-- **Cães pequenos (até 10 kg):** em média 1 a 2 colheres de sopa por dia;
-- **Cães médios (10 a 25 kg):** em média 3 a 4 colheres de sopa por dia;
-- **Cães grandes (mais de 25 kg):** em média 1/4 a 1/2 xícara por dia.
+- **Cachorros pequenos (até 10 kg):** em média 1 a 2 colheres de sopa por dia;
+- **Cachorros médios (10 a 25 kg):** em média 3 a 4 colheres de sopa por dia;
+- **Cachorros grandes (mais de 25 kg):** em média 1/4 a 1/2 xícara por dia.
 
-Essas porções são orientativas; se o seu cão tiver questões de saúde crônicas, sempre consulte o médico-veterinário dele antes de incluir qualquer novidade na rotina.
+Essas porções são orientativas; se o seu cachorro tiver questões de saúde crônicas, sempre consulte o médico-veterinário dele antes de incluir qualquer novidade na rotina.
 
 ### Armazenamento
 - **Na geladeira:** dura em média de 4 a 5 dias bem fechado.
@@ -111,4 +111,4 @@ Casos com histórico de pancreatite ou doença renal demandam controle rigoroso 
 
 Preparar caldo de ossos caseiro pode parecer uma excentricidade de quem mima demais o próprio pet, mas a verdade é que se trata de uma das formas mais baratas, práticas e naturais de dar um salto na hidratação e no bem-estar do seu amigo. Sem conservantes, sem corantes e feito com ingredientes que você escolheu na feira.
 
-Depois que a sua cozinha exalar aquele aroma de aconchego e o seu cão lamber os bigodes até o último pingo, você vai ver que as horas de panela valeram cada minuto. Que tal continuar explorando formas criativas de cuidar do seu bichinho? Dê uma volta pelos outros artigos aqui do blog e descubra ainda mais dicas para descomplicar a sua rotina com o pet!
+Depois que a sua cozinha exalar aquele aroma de aconchego e o seu cachorro lamber os bigodes até o último pingo, você vai ver que as horas de panela valeram cada minuto. Que tal continuar explorando formas criativas de cuidar do seu bichinho? Dê uma volta pelos outros artigos aqui do blog e descubra ainda mais dicas para descomplicar a sua rotina com o pet!

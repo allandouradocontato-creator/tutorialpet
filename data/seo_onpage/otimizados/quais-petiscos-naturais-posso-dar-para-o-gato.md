@@ -68,7 +68,7 @@ imagem_selecionada_em: '2026-10-22T17:57:08+00:00'
 
 # Quais petiscos naturais posso dar para o gato: guia prático
 
-Oferecer agrados fora da ração seca é uma excelente maneira de variar texturas, criar momentos de carinho e até facilitar treinos. No entanto, o organismo dos felinos exige cautela: gatos são carnívoros estritos e processam nutrientes de forma diferente de nós ou dos cães. 
+Oferecer agrados fora da ração seca é uma excelente maneira de variar texturas, criar momentos de carinho e até facilitar treinos. No entanto, o organismo dos felinos exige cautela: gatos são carnívoros estritos e processam nutrientes de forma diferente de nós ou dos cachorros. 
 
 Petiscos naturais bem escolhidos complementam a rotina sem prejudicar a digestão, desde que você saiba exatamente o que colocar no pratinho e como preparar cada item.
 
@@ -113,7 +113,7 @@ O metabolismo do gato não tolera compostos químicos que os humanos metabolizam
 
 * **Cebola, alho, alho-poró e cebolinha:** destroem os glóbulos vermelhos dos felinos, podendo causar anemia grave, mesmo em pó ou cozidos no caldo.
 * **Ossos cozidos:** ficam quebradiços com o calor, soltam lascas pontiagudas e causam perfurações no esôfago, estômago ou intestino.
-* **Uvas e passas:** tóxicas para os rins de cães e gatos, mesmo em pequeníssimas porções.
+* **Uvas e passas:** tóxicas para os rins de cachorros e gatos, mesmo em pequeníssimas porções.
 * **Chocolate, café e chá preto:** contêm teobromina e cafeína, estimulantes cardíacos que o organismo do gato não consegue eliminar.
 * **Leite e queijos com lactose:** a maioria dos felinos adultos perde as enzimas digestivas para lácteos, resultando em diarreias intensas e cólicas.
 * **Carnes e peixes crus de procedência incerta:** risco elevado de contaminação por *Salmonella* e parasitas.
@@ -154,7 +154,7 @@ Petisco não substitui a refeição principal. As rações comerciais de boa qua
 
 ---
 
-Se quiser seguir nesse tema, veja [como organizar a rotina de alimentação de cães e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos).
+Se quiser seguir nesse tema, veja [como organizar a rotina de alimentação de cachorros e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos).
 
 ## Perguntas frequentes
 

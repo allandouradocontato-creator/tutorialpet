@@ -33,9 +33,9 @@ checagens_qualidade:
     caixa plástica o..."'
   - '38 palavras: "Para quem busca variar a rotina e gosta de oferecer opções mais
     palatáveis, vale..."'
-  - '138 palavras: "| Porte do cão | Consumo médio diário | Tamanho ideal de embalagem
+  - '138 palavras: "| Porte do cachorro | Consumo médio diário | Tamanho ideal de embalagem
     | Tempo médio..."'
-  - '138 palavras: "| Porte do cão | Consumo médio diário | Tamanho ideal de embalagem
+  - '138 palavras: "| Porte do cachorro | Consumo médio diário | Tamanho ideal de embalagem
     | Tempo médio..."'
 titulo_seo: Como armazenar ração de cachorro para não perder nutrientes
 keyword_density: 0.0055
@@ -68,7 +68,7 @@ imagem_selecionada_em: '2026-10-28T15:30:03+00:00'
 
 # Como armazenar ração de cachorro para não perder nutrientes
 
-Comprar um alimento de alta qualidade é um investimento na saúde e na longevidade do seu cão. No entanto, se o armazenamento for inadequado após a abertura da embalagem, o alimento perde vitaminas essenciais, as gorduras oxidam e o sabor é prejudicado.
+Comprar um alimento de alta qualidade é um investimento na saúde e na longevidade do seu cachorro. No entanto, se o armazenamento for inadequado após a abertura da embalagem, o alimento perde vitaminas essenciais, as gorduras oxidam e o sabor é prejudicado.
 
 Entender a forma correta de guardar os grãos garante que seu companheiro receba 100% da nutrição planejada pelos fabricantes em cada refeição. Pequenos cuidados diários evitam desperdício e problemas gastrointestinais.
 
@@ -123,7 +123,7 @@ Nunca mantenha o pacote em contato direto com o piso ou apoiado diretamente na p
 O manuseio diário também exige regras de higiene simples para evitar contaminações cruzadas:
 
 1. **Use dosadores limpos e secos:** nunca pegue o grão com as mãos sujas ou úmidas.
-2. **Não devolva sobras:** grãos que caíram no chão ou que o cão não comeu no prato não devem retornar ao saco.
+2. **Não devolva sobras:** grãos que caíram no chão ou que o cachorro não comeu no prato não devem retornar ao saco.
 3. **Feche imediatamente:** retire a porção da refeição e lacre o pacote em seguida, reduzindo a troca de ar.
 4. **Lave o dosador regularmente:** o copo medidor acumula gordura e deve ser lavado com detergente neutro semanalmente.
 
@@ -135,15 +135,15 @@ Para quem busca variar a rotina e gosta de oferecer opções mais palatáveis, v
 
 ## Tamanho do pacote e tempo seguro de consumo
 
-Comprar sacos grandes costuma ser economicamente vantajoso, mas para quem tem cães pequenos isso pode significar fornecer alimento sem valor nutricional por meses a fio.
+Comprar sacos grandes costuma ser economicamente vantajoso, mas para quem tem cachorros pequenos isso pode significar fornecer alimento sem valor nutricional por meses a fio.
 
 Após aberta a embalagem original, o prazo ideal para o consumo total do conteúdo costuma ser de **4 a 6 semanas, em média**. Passado esse período, mesmo com boa vedação, o contato repetido com o oxigênio inevitavelmente reduz os níveis de antioxidantes e vitaminas do produto.
 
-Antes de adquirir embalagens promocionais de 10 kg ou 15 kg, calcule o consumo diário do seu cão. Se a quantidade diária recomendada fizer o pacote durar mais de 45 dias, a economia na compra não compensa a perda nutricional sofrida pelo animal na segunda metade do saco.
+Antes de adquirir embalagens promocionais de 10 kg ou 15 kg, calcule o consumo diário do seu cachorro. Se a quantidade diária recomendada fizer o pacote durar mais de 45 dias, a economia na compra não compensa a perda nutricional sofrida pelo animal na segunda metade do saco.
 
 Se você notar alterações nos grãos e precisar fazer uma substituição emergencial, consulte o método sobre [como trocar a ração do cachorro](/como-trocar-a-racao-do-cachorro) para evitar desconfortos intestinais repentinos causados pela mudança rápida.
 
-| Porte do cão | Consumo médio diário | Tamanho ideal de embalagem | Tempo médio de consumo |
+| Porte do cachorro | Consumo médio diário | Tamanho ideal de embalagem | Tempo médio de consumo |
 | :--- | :--- | :--- | :--- |
 | Miniatura (até 5 kg) | 40 g a 90 g | 1 kg a 2,5 kg | 20 a 30 dias |
 | Pequeno (5 a 10 kg) | 90 g a 150 g | 2,5 kg a 3 kg | 20 a 30 dias |
@@ -151,22 +151,22 @@ Se você notar alterações nos grãos e precisar fazer uma substituição emerg
 | Grande (+ de 25 kg) | Acima de 320 g | 12 kg a 15 kg | 30 a 45 dias |
 *Valores médios que variam conforme idade, nível de atividade e marca da ração; consulte o médico-veterinário.*
 
-**Exemplo prático:** se você tem um cão de 4 kg que consome 70 gramas diárias, um pacote de 2,5 kg dura cerca de 35 dias, mantendo os nutrientes preservados do início ao fim. Comprar o saco de 15 kg faria o alimento ficar aberto por mais de 7 meses.
+**Exemplo prático:** se você tem um cachorro de 4 kg que consome 70 gramas diárias, um pacote de 2,5 kg dura cerca de 35 dias, mantendo os nutrientes preservados do início ao fim. Comprar o saco de 15 kg faria o alimento ficar aberto por mais de 7 meses.
 
 ---
 
 ## Sinais de que a ração perdeu a qualidade ou estragou
 
-Mesmo tomando cuidados, variações climáticas intensas ou falhas na embalagem podem comprometer o alimento antes do tempo. Observar os grãos e o comportamento do cão ajuda a evitar problemas de saúde.
+Mesmo tomando cuidados, variações climáticas intensas ou falhas na embalagem podem comprometer o alimento antes do tempo. Observar os grãos e o comportamento do cachorro ajuda a evitar problemas de saúde.
 
 * **Cheiro de ranço ou óleo velho:** a gordura oxidada tem odor parecido com tinta a óleo, cera ou papelão molhado. O aroma atrativo do produto desaparece.
 * **Aspecto visual alterado:** pontos esbranquiçados, grãos esverdeados ou teias finas indicam presença de fungos ou ácaros.
 * **Perda de textura:** grãos moles, esfarelando com facilidade ou úmidos ao toque perderam a integridade e não devem ser oferecidos.
-* **Recusa repentina do animal:** cães possuem olfato apurado e costumam rejeitar o prato se detectarem toxinas fúngicas ou gordura rançosa.
+* **Recusa repentina do animal:** cachorros possuem olfato apurado e costumam rejeitar o prato se detectarem toxinas fúngicas ou gordura rançosa.
 
 Ao identificar qualquer um desses sinais, descarte o lote imediatamente e procure o fabricante por meio do SAC impresso no rótulo. A ingestão de alimentos estragados pode causar vômitos, diarreia e apatia, exigindo avaliação de um médico-veterinário.
 
-**Exemplo prático:** seu cão costuma comer com entusiasmo, mas de repente cheira a tigela e se afasta. Ao aproximar o nariz do saco, você percebe um odor apagado ou rançoso. Isso é um sinal claro de que as gorduras oxidaram e o alimento perdeu sua qualidade.
+**Exemplo prático:** seu cachorro costuma comer com entusiasmo, mas de repente cheira a tigela e se afasta. Ao aproximar o nariz do saco, você percebe um odor apagado ou rançoso. Isso é um sinal claro de que as gorduras oxidaram e o alimento perdeu sua qualidade.
 
 ---
 
@@ -194,6 +194,6 @@ Não é recomendado. Os grãos do saco antigo já tiveram semanas de contato com
 
 ## Para fechar
 
-Preservar o valor nutricional da ração é tão importante quanto escolher uma fórmula premium. Ao manter o produto em sua embalagem original, bem vedada contra luz, calor e ar, você assegura que seu cão absorva todas as vitaminas e minerais que mantêm sua saúde em dia.
+Preservar o valor nutricional da ração é tão importante quanto escolher uma fórmula premium. Ao manter o produto em sua embalagem original, bem vedada contra luz, calor e ar, você assegura que seu cachorro absorva todas as vitaminas e minerais que mantêm sua saúde em dia.
 
 Gostou destas orientações práticas? Continue navegando pelo blog Tutorial Pet para conferir outros artigos e dicas sobre alimentação, bem-estar e cuidados essenciais para o seu pet!

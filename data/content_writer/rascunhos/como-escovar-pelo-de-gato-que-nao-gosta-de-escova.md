@@ -48,7 +48,7 @@ Como acostumar o gato a aceitar a escova passo a passo? O segredo absoluto é a 
 3. **Toques curtos:** Comece encostando a escova levemente no queixo ou nas bochechas — locais onde eles adoram cocecas — por apenas dois segundos.
 4. **Aumento progressivo:** Conforme o gato relaxar, desça o instrumento para o dorso e os flancos, sempre recompensando a cada duas passadas bem-sucedidas.
 
-Para tutores que também convivem com cães e precisam equilibrar a rotina da casa toda, vale a pena manter a organização da rotina e dos horários para evitar conflitos de atenção. Se houver cães idosos ou filhotes exigindo tempo, planeje momentos exclusivos e curtos para o felino, garantindo um ambiente tranquilo para ambos, assim como se faz ao [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
+Para tutores que também convivem com cachorros e precisam equilibrar a rotina da casa toda, vale a pena manter a organização da rotina e dos horários para evitar conflitos de atenção. Se houver cachorros idosos ou filhotes exigindo tempo, planeje momentos exclusivos e curtos para o felino, garantindo um ambiente tranquilo para ambos, assim como se faz ao [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
 
 Exemplo prático: faça sessões diárias de apenas um minuto. Acabou o tempo ou o gato mostrou orelhas para trás? Pare imediatamente e deixe o pet livre, garantindo que a experiência termine bem.
 
@@ -78,4 +78,4 @@ Exemplo prático: se o gato mia alto ou tenta morder a sua mão sempre que você
 
 Cuidar da pelagem de um gato que rejeita a escova exige paciência, constância e muito respeito pelo tempo de adaptação do animal. Ao transformar a ferramenta de limpeza em uma extensão do carinho diário, você fortalece o vínculo com o seu felino e previne uma série de problemas de saúde. 
 
-Continue explorando nossos conteúdos no blog para descobrir mais dicas práticas que tornam a convivência com cães e gatos ainda mais harmoniosa e feliz para toda a família.
+Continue explorando nossos conteúdos no blog para descobrir mais dicas práticas que tornam a convivência com cachorros e gatos ainda mais harmoniosa e feliz para toda a família.

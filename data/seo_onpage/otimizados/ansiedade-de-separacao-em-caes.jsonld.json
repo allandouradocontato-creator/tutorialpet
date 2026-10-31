@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Ansiedade de separação em cães: como identificar e ajudar",
-    "description": "Entenda a ansiedade de separação em cães, reconheça os sinais de sofrimento e descubra passos práticos para ajudar seu pet a ficar sozinho.",
+    "headline": "Ansiedade de separação em cachorros: como identificar e ajudar",
+    "description": "Entenda a ansiedade de separação em cachorros, reconheça os sinais de sofrimento e descubra passos práticos para ajudar seu pet a ficar sozinho.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -23,10 +23,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Cães idosos podem desenvolver ansiedade de separação de repente?",
+        "name": "Cachorros idosos podem desenvolver ansiedade de separação de repente?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim. Mudanças na rotina da casa, perda de outro animal da família ou o início de problemas cognitivos e sensoriais na velhice podem despertar esse medo repentino.  *   **Deixar a televisão ou o rádio ligados ajuda o cachorro a se sentir acompanhado?**     Para alguns cães, o som humano ajuda a abafar ruídos externos da rua, mas não resolve a raiz do problema de apego se ele não souber lidar com a solidão.  *   **Castigar o cachorro pelo estrago na porta resolve o comportamento?**     Não. A punição pós-fato apenas gera medo do tutor e aumenta ainda mais o nível geral de estresse e ansiedade do animal.  *   **Quanto tempo leva para o cão superar a ansiedade de separação?**     O tempo varia muito de acordo com o histórico e o grau de apego do pet, exigindo constância e treinos diários por semanas ou meses."
+          "text": "Sim. Mudanças na rotina da casa, perda de outro animal da família ou o início de problemas cognitivos e sensoriais na velhice podem despertar esse medo repentino.  *   **Deixar a televisão ou o rádio ligados ajuda o cachorro a se sentir acompanhado?**     Para alguns cachorros, o som humano ajuda a abafar ruídos externos da rua, mas não resolve a raiz do problema de apego se ele não souber lidar com a solidão.  *   **Castigar o cachorro pelo estrago na porta resolve o comportamento?**     Não. A punição pós-fato apenas gera medo do tutor e aumenta ainda mais o nível geral de estresse e ansiedade do animal.  *   **Quanto tempo leva para o cachorro superar a ansiedade de separação?**     O tempo varia muito de acordo com o histórico e o grau de apego do pet, exigindo constância e treinos diários por semanas ou meses."
         }
       }
     ]

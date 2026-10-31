@@ -131,4 +131,4 @@ Muitos aprendem com reforço positivo e sessões curtas, desde que o treino resp
 
 ## Para fechar
 
-Cinco a dez minutos por dia de cheirar, pescar e observar já fazem diferença para o gato idoso, desde que o desafio seja fácil, a dor esteja controlada e o veterinário acompanhe de perto qualquer mudança. Continue navegando pelo blog para mais dicas de cuidado diário com cães e gatos.
+Cinco a dez minutos por dia de cheirar, pescar e observar já fazem diferença para o gato idoso, desde que o desafio seja fácil, a dor esteja controlada e o veterinário acompanhe de perto qualquer mudança. Continue navegando pelo blog para mais dicas de cuidado diário com cachorros e gatos.

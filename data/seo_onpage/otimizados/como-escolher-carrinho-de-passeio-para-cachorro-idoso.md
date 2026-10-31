@@ -72,11 +72,11 @@ Envelhecer é uma arte que exige equipamentos, e o seu senhorzinho de quatro pat
 
 ## Tamanho, peso e a matemática implacável da balança
 
-O erro clássico é comprar um carrinho olhando apenas para o comprimento do cachorro, esquecendo que cães idosos costumam esticar as pernas como quem domina o sofá inteiro. Meça o peludo do focinho à base da cauda e some em média 10 centímetros para garantir que ele consiga deitar e girar sem parecer um rocambole apertado. 
+O erro clássico é comprar um carrinho olhando apenas para o comprimento do cachorro, esquecendo que cachorros idosos costumam esticar as pernas como quem domina o sofá inteiro. Meça o peludo do focinho à base da cauda e some em média 10 centímetros para garantir que ele consiga deitar e girar sem parecer um rocambole apertado. 
 
 O limite de peso do fabricante não é uma sugestão amigável, é uma linha vermelha que você não deve cruzar. Lembre-se de somar o peso do animal com o de eventuais mantinhas ou acessórios, pois a estrutura precisa aguentar o tranco sem ranger como porta de armário antigo. 
 
-Exemplo prático: Se o seu cão pesa em média 12 quilos, compre um modelo com capacidade para pelo menos 15 quilos, garantindo folga para que ele viaje esparramado e confortável. Para organizar melhor as saídas e garantir o bem-estar geral, vale dar uma olhada em dicas de [como organizar a rotina de passeios para cães de diferentes idades](/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades) e adaptar o ritmo da casa.
+Exemplo prático: Se o seu cachorro pesa em média 12 quilos, compre um modelo com capacidade para pelo menos 15 quilos, garantindo folga para que ele viaje esparramado e confortável. Para organizar melhor as saídas e garantir o bem-estar geral, vale dar uma olhada em dicas de [como organizar a rotina de passeios para cachorros de diferentes idades](/como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades) e adaptar o ritmo da casa.
 
 ## Rodas, amortecedores e o asfalto brasileiro
 
@@ -96,9 +96,9 @@ Exemplo prático: Teste o mecanismo de fechamento antes de comprar ou assista a 
 
 ## Segurança interna e materiais fáceis de limpar
 
-A carroceria precisa ter travas internas de segurança que se prendem ao peitoral do cão — nunca à coleira de pescoço, para evitar trancos perigosos caso o veículo passe por um desnível brusco. O tecido interno deve ser impermeável ou facilmente removível para lavagem, afinal, imprevistos gástricos ou escapes de incontinência na terceira idade acontecem nas melhores famílias.
+A carroceria precisa ter travas internas de segurança que se prendem ao peitoral do cachorro — nunca à coleira de pescoço, para evitar trancos perigosos caso o veículo passe por um desnível brusco. O tecido interno deve ser impermeável ou facilmente removível para lavagem, afinal, imprevistos gástricos ou escapes de incontinência na terceira idade acontecem nas melhores famílias.
 
-Verifique se a capota oferece proteção contra raios solares e se há telas de ventilação generosas em todas as direções. Cães idosos sentem calor com mais facilidade e precisam de brisa circulando livremente ao redor.
+Verifique se a capota oferece proteção contra raios solares e se há telas de ventilação generosas em todas as direções. Cachorros idosos sentem calor com mais facilidade e precisam de brisa circulando livremente ao redor.
 
 Exemplo prático: Antes de aposentar totalmente as caminhadas curtas que ele ainda consegue fazer, vale a pena conferir estratégias de [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso) e garantir que o conforto continue o mesmo dentro e fora do lar.
 
@@ -110,8 +110,8 @@ Exemplo prático: Antes de aposentar totalmente as caminhadas curtas que ele ain
 * **Posso usar o carrinho para gatos ou outros pets?**
   Sim, desde que o peso e o espaço interno sejam compatíveis com o tamanho do animal, garantindo que ele não escape.
 
-* **Existe limite de idade para o cão começar a andar de carrinho?**
-  Nenhum. Cães com problemas ortopédicos graves ou em recuperação cirúrgica de qualquer idade se beneficiam do equipamento.
+* **Existe limite de idade para o cachorro começar a andar de carrinho?**
+  Nenhum. Cachorros com problemas ortopédicos graves ou em recuperação cirúrgica de qualquer idade se beneficiam do equipamento.
 
 * **Como limpar o carrinho após pegar chuva ou lama?**
   Use pano úmido com sabão neutro nas partes metálicas e aspire o tecido interno após a secagem completa à sombra.

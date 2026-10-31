@@ -23,7 +23,7 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto tempo costuma levar para o cão idoso aceitar o filhote?",
+        "name": "Quanto tempo costuma levar para o cachorro idoso aceitar o filhote?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Em média, o processo de adaptação tranquila costuma levar de duas a seis semanas, dependendo do temperamento de cada animal e do nível de manejo do ambiente implementado pelos tutores."
@@ -31,7 +31,7 @@
       },
       {
         "@type": "Question",
-        "name": "É normal o cão idoso rosnar para o filhote novo?",
+        "name": "É normal o cachorro idoso rosnar para o filhote novo?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Sim. O rosnado faz parte da comunicação canina saudável e serve para ensinar limites espaciais ao filhote, desde que não venha acompanhado de tentativas reais de mordida ou perseguição agressiva."
@@ -42,15 +42,15 @@
         "name": "Devo deixar os dois sozinhos soltos na casa logo de início?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nunca. Durante os primeiros meses, cães idosos e filhotes só devem interagir sob supervisão humana direta. Em momentos de ausência, mantenha-os separados por barreiras físicas para evitar acidentes."
+          "text": "Nunca. Durante os primeiros meses, cachorros idosos e filhotes só devem interagir sob supervisão humana direta. Em momentos de ausência, mantenha-os separados por barreiras físicas para evitar acidentes."
         }
       },
       {
         "@type": "Question",
-        "name": "Como dar atenção ao filhote sem causar ciúmes no cão idoso?",
+        "name": "Como dar atenção ao filhote sem causar ciúmes no cachorro idoso?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mantenha rigorosamente os horários e rituais do veterano (passeios exclusivos, carinho preferencial matinal) e sempre ofereça recompensas ao cão idoso quando o filhote estiver por perto, criando uma associação positiva.  ---"
+          "text": "Mantenha rigorosamente os horários e rituais do veterano (passeios exclusivos, carinho preferencial matinal) e sempre ofereça recompensas ao cachorro idoso quando o filhote estiver por perto, criando uma associação positiva.  ---"
         }
       }
     ]

@@ -79,7 +79,7 @@ Já os filhotes de porte grande ou gigante crescem devagar, às vezes até quase
 Se o seu pet acabou de chegar e estava acostumado com outro alimento na casa anterior, nada de trocar tudo de uma vez. Vale conferir [como trocar a ração do cachorro](/como-trocar-a-racao-do-cachorro) aos poucos para poupar o filhote de diarreias chatas.
 
 **Exemplo prático:**  
-Dar ração para cão de grande porte a um filhote de Spitz Alemão vai fazer o bichinho sofrer para quebrar o grão com a boca. O inverso também é perigoso: dar ração de cão pequeno para um Pastor Alemão pode acelerar o ganho de peso e prejudicar as patas traseiras em crescimento.
+Dar ração para cachorro de grande porte a um filhote de Spitz Alemão vai fazer o bichinho sofrer para quebrar o grão com a boca. O inverso também é perigoso: dar ração de cachorro pequeno para um Pastor Alemão pode acelerar o ganho de peso e prejudicar as patas traseiras em crescimento.
 
 ---
 
@@ -89,25 +89,25 @@ Achou a ração ideal? Excelente. Agora vem a rotina prática. Filhote não deve
 
 Em média, filhotes com até 4 meses costumam comer de 3 a 4 vezes ao dia. Entre 4 e 6 meses, essa frequência costuma cair para 3 vezes diárias. Depois disso, 2 vezes ao dia costuma ser o suficiente para a maioria das raças, mas lembre-se sempre de alinhar o cronograma exato com o médico-veterinário do seu companheiro.
 
-Consulte a tabela atrás do pacote. Ela indica a quantidade total em gramas para o dia inteiro, baseada no peso atual ou no peso que o cão deve atingir quando adulto. Pegue essa quantia total, divida pelo número de refeições e sirva sempre em horários parecidos. Essa rotina faz maravilhas durante os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa), inclusive para prever a hora que ele vai precisar fazer as necessidades.
+Consulte a tabela atrás do pacote. Ela indica a quantidade total em gramas para o dia inteiro, baseada no peso atual ou no peso que o cachorro deve atingir quando adulto. Pegue essa quantia total, divida pelo número de refeições e sirva sempre em horários parecidos. Essa rotina faz maravilhas durante os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa), inclusive para prever a hora que ele vai precisar fazer as necessidades.
 
 **Exemplo prático:**  
-Se a tabela do fabricante sugerir 120 gramas por dia para o peso do seu cãozinho de 3 meses, você separa 4 porções de 30 gramas ao longo do dia: café da manhã, almoço, final da tarde e início da noite. Use uma balancinha de cozinha para não errar no olho.
+Se a tabela do fabricante sugerir 120 gramas por dia para o peso do seu cachorrinho de 3 meses, você separa 4 porções de 30 gramas ao longo do dia: café da manhã, almoço, final da tarde e início da noite. Use uma balancinha de cozinha para não errar no olho.
 
 ---
 
 ## Perguntas frequentes
 
 **Até quantos meses devo dar ração de filhote?**  
-Em média, cães de pequeno e médio porte comem ração de filhote até os 10 ou 12 meses. Já raças grandes e gigantes costumam fazer essa transição mais tarde, entre 15 e 24 meses. Confirme sempre o momento da troca com o médico-veterinário.
+Em média, cachorros de pequeno e médio porte comem ração de filhote até os 10 ou 12 meses. Já raças grandes e gigantes costumam fazer essa transição mais tarde, entre 15 e 24 meses. Confirme sempre o momento da troca com o médico-veterinário.
 
 **Posso misturar água morna na ração seca?**  
 Sim, isso costuma ajudar bastante na fase do desmame ou quando os dentes de leite estão caindo. Apenas não deixe a mistura úmida no prato por mais de 30 minutos, pois ela azeda rápido.
 
 **Ração com grãos ou ração grain free: qual é a melhor?**  
-Depende de cada animal. Cães saudáveis digerem bem grãos de qualidade, como arroz integral e aveia. Rações sem grãos são úteis caso o cão tenha alguma sensibilidade específica, algo que só o veterinário pode avaliar.
+Depende de cada animal. Cachorros saudáveis digerem bem grãos de qualidade, como arroz integral e aveia. Rações sem grãos são úteis caso o cachorro tenha alguma sensibilidade específica, algo que só o veterinário pode avaliar.
 
-**Como saber se a ração fez bem para o meu cão?**  
+**Como saber se a ração fez bem para o meu cachorro?**  
 Olhe para o próprio animal. Fezes firmes e fáceis de recolher, pelos brilhantes, disposição para brincar e ganho de peso constante na balança são os melhores sinais de que o alimento está cumprindo o papel.
 
 ---

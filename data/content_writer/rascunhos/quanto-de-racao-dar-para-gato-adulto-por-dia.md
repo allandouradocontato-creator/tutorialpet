@@ -31,7 +31,7 @@ Exemplo prático: Se o seu gato pesa 4,5 kg e a tabela indica 12 gramas por quil
 
 A castração altera o perfil hormonal do felino, diminuindo o gasto energético diário em média de 20% a 30%, enquanto costuma aumentar o apetite. Por causa dessa mudança fisiológica, gatos castrados precisam de fórmulas específicas e porções controladas para prevenir problemas urinários e o sobrepeso, tema detalhado em [como evitar a obesidade em gatos castrados de apartamento](/como-evitar-a-obesidade-em-gatos-castrados-de-apartamento).
 
-Gatos que passam o dia inteiro dormindo gastam muito menos energia do que aqueles que caçam brinquedos e escalam prateleiras, exigindo porções menores para manter o peso ideal. Além disso, vale a pena entender [quantas vezes por dia alimentar gato](/quantas vezes por dia alimentar gato) para fracionar essa quantidade diária em porções menores e mais naturais para o estômago deles.
+Gatos que passam o dia inteiro dormindo gastam muito menos energia do que aqueles que caçam brinquedos e escalam prateleiras, exigindo porções menores para manter o peso ideal. Além disso, vale a pena entender [quantas vezes por dia alimentar gato](/quantas-vezes-por-dia-alimentar-gato) para fracionar essa quantidade diária em porções menores e mais naturais para o estômago deles.
 
 Exemplo prático: Um gato persa adulto e sedentário de 4 kg que foi castrado precisará de uma porção menor do que um gato sem raça definida de 4 kg que passa o dia inteiro correndo e brincando.
 
@@ -62,6 +62,13 @@ Exemplo prático: Se ao acariciar a barriga do gato você notar um acúmulo exce
 
 - **Quando devo procurar o médico-veterinário por causa do peso?**
   Sempre que notar ganho ou perda de peso rápida sem mudança na dieta, ou se o gato recusar a comida por mais de 24 horas seguidas.
+
+## Fontes e referências
+
+- [Necessidades nutricionais de animais de pequeno porte](https://www.msdvetmanual.com/pt/management-and-nutrition/nutrição-animais-de-pequeno-porte/necessidades-nutricionais-de-animais-de-pequeno-porte) — Manual MSD de Veterinária (entidade dos Estados Unidos).
+- [Pet Calorie Calculators & Feeding Guide](https://www.petobesityprevention.org/calculators) — Association for Pet Obesity Prevention (entidade dos Estados Unidos).
+- [Obesity](https://www.vet.cornell.edu/node/4071) — Cornell Feline Health Center, Cornell University (instituição dos Estados Unidos).
+- [Ask Elizabeth: Care of Obese Cats](https://www.vet.cornell.edu/node/4072) — Cornell Feline Health Center, Cornell University (instituição dos Estados Unidos).
 
 ## Para fechar
 

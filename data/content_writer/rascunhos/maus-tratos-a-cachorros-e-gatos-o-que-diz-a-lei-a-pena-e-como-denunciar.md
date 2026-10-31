@@ -1,7 +1,7 @@
 ---
 titulo: 'Maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar:
   guia prático'
-meta_description: Veja o que diz a Lei Sansão sobre maus-tratos a cães e gatos, as
+meta_description: Veja o que diz a Lei Sansão sobre maus-tratos a cachorros e gatos, as
   penas previstas e o passo a passo com canais oficiais para registrar denúncias.
 data: '2026-10-29'
 status: rascunho_pendente_revisao
@@ -56,9 +56,9 @@ Um tutor mantém seu cachorro preso a uma corrente curta, sem cobertura, exposto
 
 **Mito comum:** quem comete crime contra cachorros sempre responde em liberdade sem consequências penais.
 
-**O que diz o fato:** a legislação endureceu as sanções criminais quando as vítimas são cães ou gatos, prevendo prisão.
+**O que diz o fato:** a legislação endureceu as sanções criminais quando as vítimas são cachorros ou gatos, prevendo prisão.
 
-A [Lei Federal nº 14.064, de 29 de setembro de 2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14064.htm), conhecida como Lei Sansão, alterou a Lei 9.605/1998. O texto estabelece: quando a agressão envolve cão ou gato, a pena é de reclusão de 2 a 5 anos, multa e proibição da guarda. 
+A [Lei Federal nº 14.064, de 29 de setembro de 2020](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14064.htm), conhecida como Lei Sansão, alterou a Lei 9.605/1998. O texto estabelece: quando a agressão envolve cachorro ou gato, a pena é de reclusão de 2 a 5 anos, multa e proibição da guarda. 
 
 Como a pena ultrapassa dois anos, o caso sai dos Juizados Especiais. Se houver flagrante, o acusado pode ser detido de imediato para audiência de custódia. A pena aumenta se a conduta provocar a morte do animal.
 

@@ -70,4 +70,4 @@ Facilite o acesso deixando o alimento à mostra e reduza a dificuldade. Gatos id
 
 ## Para fechar
 
-Estimular a mente de um gato idoso é uma forma maravilhosa de demonstrar carinho, fortalecer o vínculo e garantir que ele viva seus anos dourados com alegria e dignidade. Com pequenas mudanças na rotina e muita paciência, você transforma a casa em um ambiente estimulante e seguro. Continue navegando pelo blog Tutorial Pet para descobrir mais dicas práticas para o cuidado diário com cães e gatos.
+Estimular a mente de um gato idoso é uma forma maravilhosa de demonstrar carinho, fortalecer o vínculo e garantir que ele viva seus anos dourados com alegria e dignidade. Com pequenas mudanças na rotina e muita paciência, você transforma a casa em um ambiente estimulante e seguro. Continue navegando pelo blog Tutorial Pet para descobrir mais dicas práticas para o cuidado diário com cachorros e gatos.

@@ -111,7 +111,7 @@ Instalar prateleiras em diferentes alturas, disponibilizar caixas de papelão pa
 
 Exemplo prático: Espalhe pequenas porções da ração diária em locais altos ou dentro de caixas de papelão vazias pela casa. Isso obriga o gato a "caçar" o próprio alimento ao longo do dia, unindo o estímulo mental à queima de calorias.
 
-Se quiser seguir nesse tema, veja [sinais de envelhecimento em gatos senior que passam despercebidos](/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos) e [como adaptar a rotina da casa para cães e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores).
+Se quiser seguir nesse tema, veja [sinais de envelhecimento em gatos senior que passam despercebidos](/sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos) e [como adaptar a rotina da casa para cachorros e gatos seniores](/como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores).
 
 ## Perguntas frequentes
 
@@ -137,4 +137,4 @@ Sim, desde que programados para liberar pequenas porções fracionadas ao longo 
 
 Evitar a obesidade em gatos castrados que vivem em apartamento é um exercício diário de paciência, observação e carinho. Pequenos ajustes na forma de servir a comida, aliados a momentos diários de brincadeira e exploração do espaço, fazem toda a diferença para garantir longevidade e qualidade de vida ao seu felino. 
 
-Continue navegando pelo Tutorial Pet para descobrir mais dicas práticas sobre comportamento, nutrição e bem-estar para cães e gatos de todas as idades!
+Continue navegando pelo Tutorial Pet para descobrir mais dicas práticas sobre comportamento, nutrição e bem-estar para cachorros e gatos de todas as idades!

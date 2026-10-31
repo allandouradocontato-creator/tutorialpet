@@ -20,7 +20,7 @@ assinatura: Equipe Tutorial Pet
 
 # Como limpar manchas de lagrima acida em cachorro branco: guia prático
 
-O escurecimento dos pelos ao redor dos olhos é uma queixa recorrente entre tutores de cães de pelagem clara. Em raças como Maltês, Poodle, Spitz Alemão, Bichon Frisé e Shih Tzu, as marcas em tons de marrom-avermelhado tornam-se visíveis rapidamente. Embora o problema costume ser chamado popularmente de "lágrima ácida", essa definição técnica é incorreta: o pH da lágrima canina é praticamente neutro.
+O escurecimento dos pelos ao redor dos olhos é uma queixa recorrente entre tutores de cachorros de pelagem clara. Em raças como Maltês, Poodle, Spitz Alemão, Bichon Frisé e Shih Tzu, as marcas em tons de marrom-avermelhado tornam-se visíveis rapidamente. Embora o problema costume ser chamado popularmente de "lágrima ácida", essa definição técnica é incorreta: o pH da lágrima canina é praticamente neutro.
 
 A alteração de cor ocorre pela presença de porfirinas — substâncias orgânicas que contêm ferro, naturalmente eliminadas na lágrima, na saliva e na urina. Quando a lágrima extravasa com frequência e entra em contato com o ar e com a luz solar, o ferro presente oxida, tingindo os pelos brancos de ferrugem. 
 
@@ -35,7 +35,7 @@ Quando os ductos estão temporariamente obstruídos, ou quando há conformação
 Antes de qualquer protocolo estético, é indispensável que o médico-veterinário avalie a saúde ocular do animal. Cílios invertidos (distiquíase), entrópio, conjuntivite, alergias alimentares ou até infecções periodontais podem desencadear a produção excessiva de lágrima.
 
 **Exemplo prático:**  
-Um tutor nota que seu cão da raça Poodle começou a apresentar manchas escuras apenas no olho esquerdo. Em vez de insistir em produtos clareadores, leva o pet à clínica veterinária e descobre que um fio de pelo microscópico estava voltado para dentro, irritando a córnea. Resolvida a causa física, o lacrimejamento cessa e as manchas não voltam a surgir.
+Um tutor nota que seu cachorro da raça Poodle começou a apresentar manchas escuras apenas no olho esquerdo. Em vez de insistir em produtos clareadores, leva o pet à clínica veterinária e descobre que um fio de pelo microscópico estava voltado para dentro, irritando a córnea. Resolvida a causa física, o lacrimejamento cessa e as manchas não voltam a surgir.
 
 ## Passo a passo diário para limpar a região dos olhos
 
@@ -52,7 +52,7 @@ Tenha à mão:
 Umedeça a gaze no soro fisiológico ou na loção veterinária. Pressione suavemente a compressa sobre a região manchada por cerca de 10 a 20 segundos para amolecer secreções secas acumuladas no canto medial do olho. Nunca puxe secreções secas com força, pois isso arranca os fios e causa microlesões na pele.
 
 ### 3. Limpeza direcional
-Com outra gaze umedecida, faça movimentos suaves sempre de dentro para fora (do canto interno em direção à lateral do focinho). Nunca esfregue em círculos e jamais encoste o material na córnea do cão. Utilize uma gaze exclusiva para cada olho a fim de evitar contaminação cruzada.
+Com outra gaze umedecida, faça movimentos suaves sempre de dentro para fora (do canto interno em direção à lateral do focinho). Nunca esfregue em círculos e jamais encoste o material na córnea do cachorro. Utilize uma gaze exclusiva para cada olho a fim de evitar contaminação cruzada.
 
 ### 4. Penteado e secagem completa
 Passe o pente fino para retirar resíduos soltos do pelo úmido. Em seguida, utilize o lenço seco para absorver toda a umidade remanescente. Manter a pele completamente seca é a etapa mais crítica: a umidade retida acelera o escurecimento e alimenta fungos. Recomenda-se realizar essa rotina 1 a 2 vezes ao dia, de acordo com o volume de lacrimejamento do pet.
@@ -60,11 +60,11 @@ Passe o pente fino para retirar resíduos soltos do pelo úmido. Em seguida, uti
 Assim como você cuida dos olhos, vale a pena integrar esse momento com outros cuidados básicos essenciais, conferindo também [como limpar orelha de cachorro em casa sem machucar](/como-limpar-orelha-de-cachorro-em-casa-sem-machucar) para manter a higiene facial completa.
 
 **Exemplo prático:**  
-Pela manhã, logo após o primeiro passeio, o tutor reserva dois minutos para higienizar o focinho do cão com gaze e soro fisiológico, finalizando com papel-toalha suave dando batidinhas leves até constatar que o pelo está completamente seco ao toque.
+Pela manhã, logo após o primeiro passeio, o tutor reserva dois minutos para higienizar o focinho do cachorro com gaze e soro fisiológico, finalizando com papel-toalha suave dando batidinhas leves até constatar que o pelo está completamente seco ao toque.
 
 ## Erros comuns e produtos que você nunca deve usar
 
-Na ânsia de clarear a pelagem rapidamente, muitos tutores recorrem a soluções caseiras perigosas encontradas na internet. A pele ao redor dos olhos dos cães é extremamente delgada e a proximidade com o globo ocular exige cautela redobrada.
+Na ânsia de clarear a pelagem rapidamente, muitos tutores recorrem a soluções caseiras perigosas encontradas na internet. A pele ao redor dos olhos dos cachorros é extremamente delgada e a proximidade com o globo ocular exige cautela redobrada.
 
 - **Água oxigenada e descolorantes:** Produtos oxidantes destroem a barreira protetora da derme e, em caso de contato acidental com os olhos, podem causar queimaduras químicas severas e cegueira permanente.
 - **Bicarbonato de sódio e amido:** O pó pode facilmente entrar em contato com os olhos, gerando abrasão corneana por atrito mecânico.
@@ -74,7 +74,7 @@ Na ânsia de clarear a pelagem rapidamente, muitos tutores recorrem a soluções
 Para banhos gerais, consulte [com que frequencia dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro) para não remover a proteção natural da pelagem nem ressecar as áreas sensíveis do focinho.
 
 **Exemplo prático:**  
-Ao ler em fóruns que vinagre diluído clarearia o pelo, uma tutora optou por consultar o veterinário antes de testar. O profissional explicou o risco iminente de úlcera de córnea caso o líquido escorresse, direcionando-a para uma loção tópica segura à base de extratos suaves aprovada para cães.
+Ao ler em fóruns que vinagre diluído clarearia o pelo, uma tutora optou por consultar o veterinário antes de testar. O profissional explicou o risco iminente de úlcera de córnea caso o líquido escorresse, direcionando-a para uma loção tópica segura à base de extratos suaves aprovada para cachorros.
 
 ## Cuidados no dia a dia para prevenir novas manchas
 
@@ -98,16 +98,16 @@ Ao trocar as tigelas de plástico por modelos de inox e substituir a água da to
 Não. O pelo que já oxidou permanece manchado até ser tosado ou cair naturalmente na troca de pelagem. O objetivo da limpeza diária é impedir a retenção de novos resíduos e garantir que os novos pelos cresçam limpos.
 
 **Com que frequência devo fazer a limpeza dos olhos?**  
-Em média, uma vez ao dia costuma ser suficiente para a maioria dos animais, mas cães com lacrimejamento abundante podem se beneficiar de duas limpezas diárias. Confirme sempre com o médico-veterinário a periodicidade ideal para o seu pet.
+Em média, uma vez ao dia costuma ser suficiente para a maioria dos animais, mas cachorros com lacrimejamento abundante podem se beneficiar de duas limpezas diárias. Confirme sempre com o médico-veterinário a periodicidade ideal para o seu pet.
 
 **Posso cortar os pelos manchados ao redor dos olhos em casa?**  
-Não utilize tesouras pontiagudas próximo aos olhos se o cão for inquieto. O ideal é solicitar ao profissional de tosa que faça a tosa higiênica facial com tesoura de ponta redonda ou máquina apropriada.
+Não utilize tesouras pontiagudas próximo aos olhos se o cachorro for inquieto. O ideal é solicitar ao profissional de tosa que faça a tosa higiênica facial com tesoura de ponta redonda ou máquina apropriada.
 
 **Rações específicas para pelo branco realmente funcionam?**  
-Muitas fórmulas comerciais focadas em cães brancos reduzem corantes e ajustam o equilíbrio de aminoácidos para diminuir a excreção de porfirinas. O efeito costuma ser observado em média após 6 a 8 semanas, mas os resultados variam para cada indivíduo e a troca deve ser validada por um veterinário.
+Muitas fórmulas comerciais focadas em cachorros brancos reduzem corantes e ajustam o equilíbrio de aminoácidos para diminuir a excreção de porfirinas. O efeito costuma ser observado em média após 6 a 8 semanas, mas os resultados variam para cada indivíduo e a troca deve ser validada por um veterinário.
 
 ## Para fechar
 
-Tratar manchas de lágrima dita ácida em cães brancos requer paciência, método e constância. Não existem fórmulas mágicas instantâneas: o segredo está no tripé de higienização regular, secagem rigorosa da região facial e controle de gatilhos como tigelas plásticas e dieta inadequada.
+Tratar manchas de lágrima dita ácida em cachorros brancos requer paciência, método e constância. Não existem fórmulas mágicas instantâneas: o segredo está no tripé de higienização regular, secagem rigorosa da região facial e controle de gatilhos como tigelas plásticas e dieta inadequada.
 
 Mantenha o acompanhamento veterinário em dia para afastar problemas oculares ocultos. Para conferir outros guias sobre saúde, higiene e bem-estar do seu pet, continue explorando nossos artigos no blog Tutorial Pet.

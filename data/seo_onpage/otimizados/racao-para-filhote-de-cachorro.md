@@ -52,7 +52,7 @@ Neste guia, reunimos orientações práticas para ajudar você a navegar por ess
 
 ## Por que a ração de filhote é diferente?
 
-O organismo de um cãozinho em desenvolvimento funciona em ritmo acelerado. Por isso, a **[ração para filhote de cachorro](/qual-a-melhor-racao-para-filhote-de-cachorro)** possui mais calorias, proteínas de alta qualidade, cálcio e fósforo em comparação com a comida de adultos. 
+O organismo de um cachorrinho em desenvolvimento funciona em ritmo acelerado. Por isso, a **[ração para filhote de cachorro](/qual-a-melhor-racao-para-filhote-de-cachorro)** possui mais calorias, proteínas de alta qualidade, cálcio e fósforo em comparação com a comida de adultos. 
 
 O sistema digestivo e o esqueleto do animal precisam desse suporte reforçado para evitar problemas futuros de articulação e crescimento. Dar um alimento inadequado pode comprometer o desenvolvimento dos ossos e a energia diária que ele gasta nas brincadeiras.
 
@@ -82,7 +82,7 @@ Para entender melhor a transição de cardápio caso precise mudar a marca, vale
 
 Quando o filhote chega à sua casa, ele geralmente já está acostumado com um tipo específico de comida. Mudar isso da noite para o dia costuma causar diarreia e desconforto abdominal, pois a flora intestinal ainda é muito sensível.
 
-A troca deve acontecer de forma gradual, misturando o alimento antigo com o novo ao longo de uma semana. Isso dá tempo para que o sistema digestivo do cãozinho se adapte aos novos nutrientes e texturas.
+A troca deve acontecer de forma gradual, misturando o alimento antigo com o novo ao longo de uma semana. Isso dá tempo para que o sistema digestivo do cachorrinho se adapte aos novos nutrientes e texturas.
 
 Para organizar melhor a rotina da casa e garantir que o animal se adapte bem, veja também nossas dicas sobre os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa).
 
@@ -90,7 +90,7 @@ Para organizar melhor a rotina da casa e garantir que o animal se adapte bem, ve
 
 ## Sinais de que a ração não está fazendo bem
 
-Nem todo alimento funciona da mesma forma para todos os cães. Observar o comportamento e as eliminações do seu pet é a melhor forma de saber se a escolha foi certeira.
+Nem todo alimento funciona da mesma forma para todos os cachorros. Observar o comportamento e as eliminações do seu pet é a melhor forma de saber se a escolha foi certeira.
 
 Fezes muito moles, queda excessiva de pelo, falta de apetite ou apatia são sinais de alerta. Caso perceba qualquer alteração persistente, procure o médico-veterinário para investigar intolerâncias ou alergias alimentares.
 
@@ -104,13 +104,13 @@ Fezes muito moles, queda excessiva de pelo, falta de apetite ou apatia são sina
 ## Perguntas frequentes
 
 *   **Com quantos meses o cachorro pode parar de comer ração de filhote?**
-    Em média, cães de pequeno porte mudam para a fase adulta aos 12 meses, enquanto raças grandes podem precisar da ração de filhote até os 18 meses, sempre com aval do médico-veterinário.
+    Em média, cachorros de pequeno porte mudam para a fase adulta aos 12 meses, enquanto raças grandes podem precisar da ração de filhote até os 18 meses, sempre com aval do médico-veterinário.
 
 *   **Posso misturar comida caseira na ração do filhote?**
     Misturas sem orientação podem desbalancear os nutrientes essenciais. Consulte um médico-veterinário antes de adicionar qualquer ingrediente caseiro.
 
 *   **O filhote pode comer ração de gato?**
-    Não. A ração de felinos tem níveis de proteína e gordura inadequados para cães, o que pode sobrecarregar os órgãos do filhote.
+    Não. A ração de felinos tem níveis de proteína e gordura inadequados para cachorros, o que pode sobrecarregar os órgãos do filhote.
 
 *   **Quanto tempo dura um pacote aberto de ração?**
     O ideal é consumir em poucas semanas e manter o pacote bem fechado em local fresco para preservar o sabor e evitar umidade.

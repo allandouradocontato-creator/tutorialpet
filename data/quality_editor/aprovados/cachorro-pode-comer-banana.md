@@ -32,7 +32,7 @@ checagens_qualidade:
 
 Sabe aquele barulhinho suave de quando você descasca uma banana e, de repente, surge um focinho colado na sua perna? Aquele olhar pidão não falha: se você está comendo, ele também quer um pedaço. Mas será que faz mal dividir? 
 
-Pode ficar tranquilo. Sim, cachorro pode comer banana! Essa fruta não é tóxica para os cães e costuma ser uma das favoritas de quase todo peludo. Porém, como tudo na rotina de alimentação, o segredo mora na quantidade e no modo de servir. 
+Pode ficar tranquilo. Sim, cachorro pode comer banana! Essa fruta não é tóxica para os cachorros e costuma ser uma das favoritas de quase todo peludo. Porém, como tudo na rotina de alimentação, o segredo mora na quantidade e no modo de servir. 
 
 Vamos direto ao que interessa para você dividir um lanchinho saboroso com seu amigo sem nenhuma dor de barriga.
 
@@ -58,7 +58,7 @@ Para facilitar no dia a dia, use estas medidas como referência prática:
 
 Entender [como calcular a quantidade certa de petiscos naturais na dieta diaria](/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria) evita problemas comuns como sobrepeso e diarreia. Fique ainda mais atento se o seu pet passa a maior parte do tempo deitado no sofá. Manter o olho aberto para [como saber se o cachorro esta acima do peso ideal](/como-saber-se-o-cachorro-esta-acima-do-peso-ideal) ajuda a dosar melhor as frutas da semana.
 
-**Exemplo prático:** se você tem um cãozinho de quatro quilos, corte uma rodela fina de meio centímetro e divida em quatro pedacinhos. Use cada pedaço como recompensa por ele ter sentado ou esperado você limpar as patas dele.
+**Exemplo prático:** se você tem um cachorrinho de quatro quilos, corte uma rodela fina de meio centímetro e divida em quatro pedacinhos. Use cada pedaço como recompensa por ele ter sentado ou esperado você limpar as patas dele.
 
 ## O que você nunca deve fazer: casca e frituras
 
@@ -68,33 +68,39 @@ Outro erro comum: dividir banana chips de pacote, banana frita ou doce de banana
 
 Na dúvida sobre o que deixar longe da tigela, consulte sempre a lista de [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro) para evitar visitas emergenciais à clínica.
 
-**Exemplo prático:** sempre descasque a fruta bem longe do alcance do animal e jogue a casca diretamente na lixeira com tampa. Se uma casca cair no chão, peça para o cão sentar e recolha antes que ele tente engolir inteiro por pura curiosidade.
+**Exemplo prático:** sempre descasque a fruta bem longe do alcance do animal e jogue a casca diretamente na lixeira com tampa. Se uma casca cair no chão, peça para o cachorro sentar e recolha antes que ele tente engolir inteiro por pura curiosidade.
 
 ## Como servir banana hoje mesmo: 3 formas práticas
 
-Preparar essa fruta para o seu cão leva menos de dois minutos e não exige habilidades de cozinha. Escolha a fruta madura (nem verde demais, nem passada) e use uma destas opções:
+Preparar essa fruta para o seu cachorro leva menos de dois minutos e não exige habilidades de cozinha. Escolha a fruta madura (nem verde demais, nem passada) e use uma destas opções:
 
 1. **Rodelinhas frescas:** corte rodelas proporcionais à boca dele. Nunca ofereça a banana inteira na pata do cachorro, pois muitos tendem a engolir tudo de uma vez sem mastigar.
-2. **Sorvetinho de banana:** corte rodelas e leve ao congelador em um pote fechado por duas horas. Em dias quentes, é um petisco refrescante que faz os cães se divertirem mastigando devagar.
+2. **Sorvetinho de banana:** corte rodelas e leve ao congelador em um pote fechado por duas horas. Em dias quentes, é um petisco refrescante que faz os cachorros se divertirem mastigando devagar.
 3. **Pastinha no tapete de lamber:** amasse duas rodelas com um garfo até formar um purê liso. Espalhe no fundo de um comedouro lento ou brinquedo recheável. Isso distrai o animal e acalma a mente dele por vários minutos.
 
-Antes de introduzir qualquer alimento novo na rotina, converse com o médico-veterinário do seu cão, especialmente se o peludo tiver histórico de diabetes, gastrite ou problemas renais.
+Antes de introduzir qualquer alimento novo na rotina, converse com o médico-veterinário do seu cachorro, especialmente se o peludo tiver histórico de diabetes, gastrite ou problemas renais.
 
 **Exemplo prático:** amasse meia rodela de banana, passe na cavidade de um brinquedo de borracha resistente e coloque no congelador por uma hora antes de sair para o trabalho. O pet vai passar um bom tempo entretido lambendo a fruta gelada.
 
 ## Perguntas frequentes
 
 **Banana verde faz mal para o cachorro?**
-Não é tóxica, mas é muito rica em amido resistente e amarga. Ela costuma travar o intestino, causar gases incômodos e empanturrar o estômago do cão. Prefira frutas maduras.
+Não é tóxica, mas é muito rica em amido resistente e amarga. Ela costuma travar o intestino, causar gases incômodos e empanturrar o estômago do cachorro. Prefira frutas maduras.
 
 **Filhote de cachorro pode comer banana?**
 Pode, desde que já tenha desmamado e esteja comendo ração sólida com regularidade. Sirva apenas uma lasquinha minúscula para avaliar a adaptação do estômago dele.
 
 **Banana ajuda cachorro com diarreia?**
-As fibras solúveis podem ajudar a encorpar as fezes em casos leves, mas se o cão estiver com diarreia persistente, não tente tratar com frutas. Leve-o ao médico-veterinário para investigar a causa.
+As fibras solúveis podem ajudar a encorpar as fezes em casos leves, mas se o cachorro estiver com diarreia persistente, não tente tratar com frutas. Leve-o ao médico-veterinário para investigar a causa.
 
 **Cachorro diabético pode comer banana?**
 Geralmente não é recomendado, pois a fruta concentra açúcares simples (frutose) de rápida absorção. Consulte sempre o veterinário responsável antes de oferecer frutas doces a animais diabéticos.
+
+## Fontes e referências
+
+- [Alimentação natural para cães e gatos](https://www.scielo.br/j/rbz/a/55HCT9X4Wt9ThgsbL5Gc5ZL/?lang=pt) — Revista Brasileira de Zootecnia (SciELO), 2010.
+- [Can Dogs Eat Bananas?](https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/) — American Kennel Club (entidade dos Estados Unidos).
+- [Pet Friendly Human Food](https://www.petpoisonhelpline.com/uncategorized/pet-friendly-human-food/) — Pet Poison Helpline (entidade dos Estados Unidos).
 
 ## Para fechar
 

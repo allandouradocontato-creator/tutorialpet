@@ -22,13 +22,13 @@ assinatura: Equipe Tutorial Pet
 
 Imagine a cena: você está sentado no sofá, o dia foi longo e o seu companheiro de quatro patas deita a cabeça no seu colo pedindo carinho. Tudo é paz, até que você repara no comprimento das garras tocando o piso e resolve pegar o alicate. Em uma fração de segundo, aquele animal tranquilo se transforma: puxa a pata como se tivesse levado um choque, arregala os olhos e, se bobear, vai parar embaixo da cama. 
 
-Se isso soa familiar, saiba que você não está sozinho. A maioria dos cães não nasce odiando o corte de unhas; eles apenas associam o objeto, o barulho do corte ou a contenção física a momentos de susto e desconforto. A boa notícia é que dá para desmanchar esse medo. Com paciência, petiscos saborosos e um roteiro simples, é perfeitamente possível transformar esse drama em um momento rotineiro e tranquilo.
+Se isso soa familiar, saiba que você não está sozinho. A maioria dos cachorros não nasce odiando o corte de unhas; eles apenas associam o objeto, o barulho do corte ou a contenção física a momentos de susto e desconforto. A boa notícia é que dá para desmanchar esse medo. Com paciência, petiscos saborosos e um roteiro simples, é perfeitamente possível transformar esse drama em um momento rotineiro e tranquilo.
 
 ## Por que as patas são uma zona tão sensível?
 
-Para entender a reação do seu peludo, vale olhar o mundo pela perspectiva dele. As patas dos cães são repletas de terminações nervosas extremamente sensíveis. Elas servem para ele sentir o chão, amortecer impactos e manter o equilíbrio. Além disso, no estado selvagem, um animal que tem a pata imobilizada perde a sua principal ferramenta de fuga ou defesa.
+Para entender a reação do seu peludo, vale olhar o mundo pela perspectiva dele. As patas dos cachorros são repletas de terminações nervosas extremamente sensíveis. Elas servem para ele sentir o chão, amortecer impactos e manter o equilíbrio. Além disso, no estado selvagem, um animal que tem a pata imobilizada perde a sua principal ferramenta de fuga ou defesa.
 
-Quando seguramos uma pata com firmeza e nos debruçamos sobre o cão com uma ferramenta de metal brilhante, o cérebro dele dispara um alerta imediato de perigo. Se em algum momento passado alguém cortou um pedaço da carne interna da unha (o sabugo) e causou dor ou sangramento, o trauma fica gravado com ainda mais força. Por isso, antes de cortar qualquer coisa, precisamos devolver a ele a sensação de que tocar nas patas é algo seguro e recompensador. 
+Quando seguramos uma pata com firmeza e nos debruçamos sobre o cachorro com uma ferramenta de metal brilhante, o cérebro dele dispara um alerta imediato de perigo. Se em algum momento passado alguém cortou um pedaço da carne interna da unha (o sabugo) e causou dor ou sangramento, o trauma fica gravado com ainda mais força. Por isso, antes de cortar qualquer coisa, precisamos devolver a ele a sensação de que tocar nas patas é algo seguro e recompensador. 
 
 Assim como ensinamos a tolerar outros cuidados essenciais — como descobrir [com que frequência escovar os dentes do cachorro](/com-que-frequencia-escovar-os-dentes-do-cachorro) —, a manipulação das patas precisa se tornar parte do cotidiano, sem sobressaltos.
 
@@ -44,12 +44,12 @@ O primeiro objetivo é fazer seu cachorro aceitar que você mexa nos dedos e alm
 Comece tocando a pata de leve, dê um petisco e pare. Quando ele estiver calmo com isso, comece a segurar a pata suavemente por três segundos. Aos poucos, passe a separar os dedinhos e apertar de leve a base de cada unha, sempre recompensando imediatamente após o toque. Se ele puxar a pata, não brigue e não segure à força; apenas solte, espere alguns instantes e volte um passo atrás no treino.
 
 ### Etapa 2: Apresentando o cortador sem cortar nada
-Muitos cães começam a tremer só de ouvir o barulho da gaveta onde o alicate fica guardado. Precisamos mudar essa associação.
+Muitos cachorros começam a tremer só de ouvir o barulho da gaveta onde o alicate fica guardado. Precisamos mudar essa associação.
 
-Coloque o cortador no chão e espalhe petiscos deliciosos em volta dele. Deixe o cão cheirar a ferramenta livremente. No dia seguinte, segure o alicate em uma mão e faça carinho no pet com a outra, sempre oferecendo guloseimas. Encoste a lateral fria do metal na pata do cachorro por um segundo, recompense e guarde a ferramenta. O cortador deve se tornar um símbolo de que coisas boas caem do céu.
+Coloque o cortador no chão e espalhe petiscos deliciosos em volta dele. Deixe o cachorro cheirar a ferramenta livremente. No dia seguinte, segure o alicate em uma mão e faça carinho no pet com a outra, sempre oferecendo guloseimas. Encoste a lateral fria do metal na pata do cachorro por um segundo, recompense e guarde a ferramenta. O cortador deve se tornar um símbolo de que coisas boas caem do céu.
 
 ### Etapa 3: Simulando o som e a pressão
-O estalo que o cortador faz ao cortar a unha costuma assustar os cães tanto quanto a pressão aplicada. Para contornar isso, use um macarrão cru do tipo espaguete.
+O estalo que o cortador faz ao cortar a unha costuma assustar os cachorros tanto quanto a pressão aplicada. Para contornar isso, use um macarrão cru do tipo espaguete.
 
 Enquanto segura o cortador perto da pata do pet, corte um pedaço do macarrão com a ferramenta. O barulho de estalo é bastante parecido. Assim que fizer o "crec", elogie calorosamente e dê o prêmio. Faça isso algumas vezes até que ele ouça o estalo sem demonstrar nenhuma preocupação.
 
@@ -75,17 +75,17 @@ Lembre-se: em caso de dúvidas sobre a saúde das patas, infecções nas unhas o
 
 ## Perguntas frequentes
 
-**Quanto tempo costuma levar para o cão se acostumar com o corte?**  
-Em média, cães filhotes ou sem traumas prévios levam de uma a três semanas de treino diário para relaxar completamente. Pets que já tiveram experiências dolorosas podem levar alguns meses. Respeite sempre o ritmo do seu amigo.
+**Quanto tempo costuma levar para o cachorro se acostumar com o corte?**  
+Em média, cachorros filhotes ou sem traumas prévios levam de uma a três semanas de treino diário para relaxar completamente. Pets que já tiveram experiências dolorosas podem levar alguns meses. Respeite sempre o ritmo do seu amigo.
 
 **Lixadores elétricos para pet funcionam melhor do que alicates?**  
-Costumam ser uma ótima alternativa para cães que se assustam com o estalo do alicate manual. No entanto, o motor emite uma vibração e um zumbido que também exigem um processo idêntico de adaptação prévia.
+Costumam ser uma ótima alternativa para cachorros que se assustam com o estalo do alicate manual. No entanto, o motor emite uma vibração e um zumbido que também exigem um processo idêntico de adaptação prévia.
 
 **O que fazer se eu cortar o sabugo e começar a sangrar?**  
 Mantenha a calma para não transmitir pânico ao pet. Pressione suavemente a ponta da unha com um pó hemostático veterinário ou um pouco de amido de milho limpo até estancar. Se o sangramento não parar em poucos minutos, consulte um médico-veterinário.
 
 **Passear no asfalto substitui o corte de unhas?**  
-Costuma ajudar muito no desgaste natural das unhas da frente e de trás em cães ativos, mas raramente desgasta a unha do "polegar" (o ergô), que fica mais alta na pata e não toca o chão durante a caminhada.
+Costuma ajudar muito no desgaste natural das unhas da frente e de trás em cachorros ativos, mas raramente desgasta a unha do "polegar" (o ergô), que fica mais alta na pata e não toca o chão durante a caminhada.
 
 ## Para fechar
 

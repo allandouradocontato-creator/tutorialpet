@@ -87,4 +87,4 @@ Sim, desde que programados para liberar pequenas porções fracionadas ao longo 
 
 Evitar a obesidade em gatos castrados que vivem em apartamento é um exercício diário de paciência, observação e carinho. Pequenos ajustes na forma de servir a comida, aliados a momentos diários de brincadeira e exploração do espaço, fazem toda a diferença para garantir longevidade e qualidade de vida ao seu felino. 
 
-Continue navegando pelo Tutorial Pet para descobrir mais dicas práticas sobre comportamento, nutrição e bem-estar para cães e gatos de todas as idades!
+Continue navegando pelo Tutorial Pet para descobrir mais dicas práticas sobre comportamento, nutrição e bem-estar para cachorros e gatos de todas as idades!

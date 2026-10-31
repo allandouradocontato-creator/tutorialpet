@@ -21,7 +21,7 @@ checagens_qualidade: []
 
 # Enxoval para filhote de cachorro
 
-A chegada de um novo cãozinho exige preparação e escolhas certeiras para garantir que o ambiente seja seguro e acolhedor desde o primeiro dia. Organizar os itens necessários evita gastos desnecessários e ajuda a focar no que realmente importa para o desenvolvimento saudável do animal. 
+A chegada de um novo cachorrinho exige preparação e escolhas certeiras para garantir que o ambiente seja seguro e acolhedor desde o primeiro dia. Organizar os itens necessários evita gastos desnecessários e ajuda a focar no que realmente importa para o desenvolvimento saudável do animal. 
 
 Montar um enxoval eficiente exige entender o comportamento canino e as fases de crescimento do pet. Antes de encher o carrinho de compras, vale a pena planejar cada categoria de produto com cuidado, pensando na durabilidade e na segurança do filhote.
 
@@ -36,7 +36,7 @@ O tamanho do recipiente precisa ser proporcional ao porte do animal. Para defini
 * **Passo 2:** Prefira bordas arredondadas e bases emborrachadas antiderrapantes.
 * **Passo 3:** Tenha pelo menos dois jogos de potes para facilitar a rotina de higienização.
 
-**Erros comuns:** Comprar comedouros gigantes achando que o cão vai crescer rápido demais, o que dificulta o acesso do filhote à comida.
+**Erros comuns:** Comprar comedouros gigantes achando que o cachorro vai crescer rápido demais, o que dificulta o acesso do filhote à comida.
 
 **Exemplo prático:** Se você adotou um filhote de porte pequeno, use um comedouro raso de inox com base de borracha para evitar que ele empurre o pote pela cozinha inteira durante as refeições.
 
@@ -60,7 +60,7 @@ Para conter os impulsos exploratórios e evitar acidentes domésticos quando voc
 ### Guias, peitorais e plaquinhas
 O passeio é uma das atividades mais importantes para gastar energia e socializar, mas para começar com o pé direito, você precisa do equipamento adequado. Antes de ir para a rua, lembre-se de verificar [com quantos meses o cachorro pode sair na rua](/com-quantos-meses-o-cachorro-pode-sair-na-rua) e alinhar o calendário de imunização com o médico-veterinário do pet.
 
-A plaquinha de identificação na coleira é obrigatória desde o primeiro dia, contendo o nome do cão e o seu telefone atualizado. Para a tração do passeio, escolha o acessório ideal entendendo as diferenças no artigo sobre [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro).
+A plaquinha de identificação na coleira é obrigatória desde o primeiro dia, contendo o nome do cachorro e o seu telefone atualizado. Para a tração do passeio, escolha o acessório ideal entendendo as diferenças no artigo sobre [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro).
 
 * **Passo 1:** Adquira uma coleira leve apenas para fixar a plaquinha de identificação.
 * **Passo 2:** Escolha um peitoral confortável do tipo H ou anti-puxão para os passeios.
@@ -75,7 +75,7 @@ A plaquinha de identificação na coleira é obrigatória desde o primeiro dia, 
 ### Gastando energia mental e física
 Os dentes dos filhotes estão nascendo e coçando intensamente, o que gera uma necessidade biológica de morder objetos. Oferecer brinquedos adequados é a única forma de salvar seus móveis e sapatos da destruição total.
 
-Brinquedos interativos e mordedores de borracha atóxica ajudam a entreter o cãozinho e previnem problemas comportamentais futuros. Para saber como lidar com essa fase intensa de mordidas, consulte nossas dicas sobre [como fazer filhote de cachorro parar de morder](/como-fazer-filhote-de-cachorro-parar-de-morder).
+Brinquedos interativos e mordedores de borracha atóxica ajudam a entreter o cachorrinho e previnem problemas comportamentais futuros. Para saber como lidar com essa fase intensa de mordidas, consulte nossas dicas sobre [como fazer filhote de cachorro parar de morder](/como-fazer-filhote-de-cachorro-parar-de-morder).
 
 * **Passo 1:** Compre mordedores de borracha firme que não soltem pedaços.
 * **Passo 2:** Invista em brinquedos recheáveis para estimular o raciocínio.
@@ -88,7 +88,7 @@ Brinquedos interativos e mordedores de borracha atóxica ajudam a entreter o cã
 ## Perguntas frequentes
 
 **Preciso comprar roupas para o filhote no enxoval?**
-Em média, cães saudáveis de pelagem normal não precisam de roupas, pois o próprio pelo regula a temperatura. Consulte o médico-veterinário do pet se a raça for muito pelada ou se viver em regiões de frio extremo.
+Em média, cachorros saudáveis de pelagem normal não precisam de roupas, pois o próprio pelo regula a temperatura. Consulte o médico-veterinário do pet se a raça for muito pelada ou se viver em regiões de frio extremo.
 
 **Quantos brinquedos devo comprar para começar?**
 Três a quatro brinquedos de tipos diferentes costumam ser suficientes para iniciar, incluindo um mordedor resistente e um brinquedo interativo.
@@ -100,4 +100,4 @@ Tecidos impermeáveis ou fáceis de lavar na máquina são os melhores, pois fil
 
 Montar o enxoval perfeito para o seu novo companheiro é uma delícia e faz parte da preparação para viver momentos inesquecíveis ao lado dele. Comprar com planejamento evita desperdícios e garante que o animal tenha tudo o que precisa para crescer saudável, seguro e feliz em sua nova casa.
 
-Continue explorando os artigos do nosso blog para descobrir mais dicas práticas sobre rotina, comportamento e cuidados diários com cães e gatos. Cada leitura traz um aprendizado novo para fortalecer ainda mais a sua relação com o seu pet.
+Continue explorando os artigos do nosso blog para descobrir mais dicas práticas sobre rotina, comportamento e cuidados diários com cachorros e gatos. Cada leitura traz um aprendizado novo para fortalecer ainda mais a sua relação com o seu pet.

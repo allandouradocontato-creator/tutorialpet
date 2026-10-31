@@ -34,7 +34,7 @@
         "name": "Posso usar farinha de trigo comum nas receitas de petisco?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "É preferível evitar para animais sensíveis. Prefira aveia moída, farinha de arroz ou purês vegetais integrais, já que o trigo refinado pode agravar processos inflamatórios em cães predispostos."
+          "text": "É preferível evitar para animais sensíveis. Prefira aveia moída, farinha de arroz ou purês vegetais integrais, já que o trigo refinado pode agravar processos inflamatórios em cachorros predispostos."
         }
       },
       {
@@ -47,7 +47,7 @@
       },
       {
         "@type": "Question",
-        "name": "Como saber se o petisco causou alergia no meu cão?",
+        "name": "Como saber se o petisco causou alergia no meu cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Observe sinais nas 24 a 48 horas seguintes: lamber excessivo das patas, coceira na orelha, fezes amolecidas, gases com odor forte ou vômito. Caso note algo diferente, suspenda o alimento e relate ao veterinário."

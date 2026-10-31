@@ -29,7 +29,7 @@ checagens_qualidade:
     | :--- | :--- | :..."'
   - '40 palavras: "Exemplo prático: Ao invés de tentar segurar o focinho por 5 minutos
     no primeiro ..."'
-  - "147 palavras: \"* Porte do animal:\n  * Cães pequenos e minis (Yorkshire, Poodle,\
+  - "147 palavras: \"* Porte do animal:\n  * Cachorros pequenos e minis (Yorkshire, Poodle,\
     \ Shih Tzu, Maltê...\""
 titulo_seo: 'Com que frequência escovar os dentes do cachorro: guia'
 keyword_density: 0.0
@@ -62,7 +62,7 @@ imagem_selecionada_em: '2026-10-13T15:53:38+00:00'
 
 # Com que frequência escovar os dentes do cachorro: guia prático
 
-Cuidar da saúde bucal do cão costuma ser uma tarefa adiada por muitos tutores, mas a falta de higiene dental traz problemas sérios a curto e longo prazo. A placa bacteriana endurece rapidamente na boca do pet, abrindo espaço para inflamações, dor e perda dentária.
+Cuidar da saúde bucal do cachorro costuma ser uma tarefa adiada por muitos tutores, mas a falta de higiene dental traz problemas sérios a curto e longo prazo. A placa bacteriana endurece rapidamente na boca do pet, abrindo espaço para inflamações, dor e perda dentária.
 
 A resposta direta e sem rodeios: **o ideal absoluto é escovar uma vez ao dia**. Se a rotina estiver corrida, o mínimo aceitável para manter a proteção básica é **pelo menos três vezes por semana**.
 
@@ -79,7 +79,7 @@ A placa bacteriana começa a se mineralizar e formar o tártaro (cálculo dentá
 | **Diária (7x na semana)** | Excelente (Padrão ouro) | Remove a placa antes que ela endureça. Previne gengivite e mau hálito. |
 | **3 a 4x na semana** | Bom (Manutenção) | Reduz bastante o acúmulo de sujeira, embora exija atenção periódica. |
 | **1x na semana** | Baixo | Quase ineficaz contra o tártaro, pois a placa já mineralizou nos dias anteriores. |
-| **Quinzenal ou mensal** | Ineficiente | Serve apenas para dessensibilizar o cão ao toque, sem ganho profilático real. |
+| **Quinzenal ou mensal** | Ineficiente | Serve apenas para dessensibilizar o cachorro ao toque, sem ganho profilático real. |
 
 Principais pontos sobre os intervalos:
 * **Escovação diária:** Leva em média 2 minutos e evita procedimentos veterinários sob anestesia geral para limpeza no futuro.
@@ -87,23 +87,23 @@ Principais pontos sobre os intervalos:
 * **Consistência antes de perfeição:** Uma escovação rápida de 60 segundos todo dia funciona muito melhor do que uma sessão longa e estressante uma vez por mês.
 * **Validação clínica:** O médico-veterinário de sua confiança pode avaliar a boca do animal e indicar ajustes conforme o histórico clínico individual.
 
-> **Exemplo prático:** Você escova os dentes do seu cão todas as noites logo após o último passeio. Como o hábito virou parte da rotina noturna, a sessão dura menos de dois minutos e a boca dele permanece livre de placas amareladas ao longo do ano.
+> **Exemplo prático:** Você escova os dentes do seu cachorro todas as noites logo após o último passeio. Como o hábito virou parte da rotina noturna, a sessão dura menos de dois minutos e a boca dele permanece livre de placas amareladas ao longo do ano.
 
 ---
 
 ## Fatores que alteram a necessidade de escovação
 
-Nem todos os cães acumulam placas no mesmo ritmo. Alguns grupos exigem foco redobrado na higiene diária:
+Nem todos os cachorros acumulam placas no mesmo ritmo. Alguns grupos exigem foco redobrado na higiene diária:
 
 * **Porte do animal:**
-  * **Cães pequenos e minis (Yorkshire, Poodle, Shih Tzu, Maltês):** Têm dentes muito próximos em mandíbulas reduzidas. Costumam reter mais comida e precisam de escovação estritamente diária.
-  * **Cães médios e grandes (Labrador, Golden, Pastor Alemão):** Dentes mais espaçados acumulam placa de forma um pouco mais lenta, mas ainda demandam ao menos 3 sessões semanais.
+  * **Cachorros pequenos e minis (Yorkshire, Poodle, Shih Tzu, Maltês):** Têm dentes muito próximos em mandíbulas reduzidas. Costumam reter mais comida e precisam de escovação estritamente diária.
+  * **Cachorros médios e grandes (Labrador, Golden, Pastor Alemão):** Dentes mais espaçados acumulam placa de forma um pouco mais lenta, mas ainda demandam ao menos 3 sessões semanais.
 * **Formato anatômico do crânio:**
   * Raças braquicefálicas (focinho curto, como Pug e Buldogue) têm arcadas dentárias desalinhadas, retendo restos de alimentos com extrema facilidade.
 * **Tipo de alimentação:**
-  * Alimentos úmidos caseiros ou patês grudam mais nas gengivas do que a ração seca. Cães que consomem dieta úmida precisam de escovação diária sem exceção. Fique atento também aos [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro), que jamais devem ser oferecidos como petiscos.
+  * Alimentos úmidos caseiros ou patês grudam mais nas gengivas do que a ração seca. Cachorros que consomem dieta úmida precisam de escovação diária sem exceção. Fique atento também aos [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro), que jamais devem ser oferecidos como petiscos.
 * **Idade:**
-  * Cães idosos costumam ter retração gengival e fluxo salivar menor, o que acelera infecções bucais.
+  * Cachorros idosos costumam ter retração gengival e fluxo salivar menor, o que acelera infecções bucais.
 
 > **Exemplo prático:** Um tutor com um Spitz Alemão escova os dentes do pet todos os dias após a janta, pois sabe que raças pequenas acumulam tártaro em ritmo acelerado. Já seu amigo com um Boxer ajusta a limpeza para 4 vezes por semana com autorização do veterinário.
 
@@ -114,8 +114,8 @@ Nem todos os cães acumulam placas no mesmo ritmo. Alguns grupos exigem foco red
 Não tente fazer uma limpeza completa de primeira se o cachorro não estiver acostumado. Trate o processo como um treino gradual, assim como o aprendizado de [como cortar unha de cachorro](/como-cortar-unha-de-cachorro) ou a definição da [frequência ideal para dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro).
 
 ### 1. Reúna os itens corretos
-* **Pasta de dente veterinária:** Nunca use pasta humana (o flúor e o xilitol são tóxicos para cães). Pastas para pets têm sabor palatável (frango, carne, menta leve) e podem ser engolidas.
-* **Escova adequada:** Escovas caninas com cerdas macias, escovas infantis extra macias ou [dedeiras](https://s.shopee.com.br/4qGcj2KpnD) de silicone para cães menores.
+* **Pasta de dente veterinária:** Nunca use pasta humana (o flúor e o xilitol são tóxicos para cachorros). Pastas para pets têm sabor palatável (frango, carne, menta leve) e podem ser engolidas.
+* **Escova adequada:** Escovas caninas com cerdas macias, escovas infantis extra macias ou [dedeiras](https://s.shopee.com.br/4qGcj2KpnD) de silicone para cachorros menores.
 
 ### 2. O roteiro de adaptação (3 a 5 dias)
 1. **Dia 1 — O gosto:** Coloque um pouco de pasta própria no seu dedo e deixe o pet lamber. Não tente encostar nos dentes ainda.
@@ -125,15 +125,15 @@ Não tente fazer uma limpeza completa de primeira se o cachorro não estiver aco
 
 Para dominar os movimentos corretos e a postura sem estresse, veja nosso guia completo com o método de [como escovar os dentes do cachorro](/como-escovar-os-dentes-do-cachorro).
 
-*Dica prática:* Você não precisa abrir a boca do cachorro à força para escovar a parte de dentro dos dentes. A língua do cão costuma limpar a face interna; seu foco principal deve ser a face externa dos dentes, voltada para as bochechas.
+*Dica prática:* Você não precisa abrir a boca do cachorro à força para escovar a parte de dentro dos dentes. A língua do cachorro costuma limpar a face interna; seu foco principal deve ser a face externa dos dentes, voltada para as bochechas.
 
-> **Exemplo prático:** Ao invés de tentar segurar o focinho por 5 minutos no primeiro dia, você passa apenas o dedo com pasta sabor frango nos dentes caninos por 10 segundos, faz um carinho e encerra o treino com um passeio. O cão associa o momento a algo prazeroso.
+> **Exemplo prático:** Ao invés de tentar segurar o focinho por 5 minutos no primeiro dia, você passa apenas o dedo com pasta sabor frango nos dentes caninos por 10 segundos, faz um carinho e encerra o treino com um passeio. O cachorro associa o momento a algo prazeroso.
 
 ---
 
 ## Sinais de alerta na boca do pet
 
-Acompanhe a boca do cão semanalmente. Caso note algum destes pontos, interrompa a escovação caseira e leve-o a uma clínica:
+Acompanhe a boca do cachorro semanalmente. Caso note algum destes pontos, interrompa a escovação caseira e leve-o a uma clínica:
 
 * **Mau hálito forte e persistente:** Cheiro muito azedo ou podre não é normal da espécie.
 * **Gengivas avermelhadas ou sangrando:** Indício claro de gengivite avançada.
@@ -171,6 +171,6 @@ Dê passos para trás: use apenas gaze enrolada no dedo com caldo caseiro sem sa
 
 ## Para fechar
 
-Escovar os dentes do cão diariamente é um investimento direto em qualidade e expectativa de vida. Se a rotina diária não for possível, manter o hábito de 3 a 4 vezes na semana já garante uma barreira importante contra o tártaro. Comece aos poucos, torne o momento agradável e nunca hesite em consultar o médico-veterinário caso perceba sangramentos ou tártaro já endurecido.
+Escovar os dentes do cachorro diariamente é um investimento direto em qualidade e expectativa de vida. Se a rotina diária não for possível, manter o hábito de 3 a 4 vezes na semana já garante uma barreira importante contra o tártaro. Comece aos poucos, torne o momento agradável e nunca hesite em consultar o médico-veterinário caso perceba sangramentos ou tártaro já endurecido.
 
 Quer manter a saúde do seu pet em dia com dicas práticas e sem rodeios? Continue navegando pelo blog do Tutorial Pet e confira outros tutoriais pensados para simplificar o seu dia a dia!

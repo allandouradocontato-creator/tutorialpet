@@ -24,11 +24,11 @@ checagens_qualidade:
   trechos:
   - '45 palavras: "Além disso, no asfalto quente, o atrito e o calor exigem atenção
     redobrada, assi..."'
-  - '38 palavras: "Exemplo prático: se o cão passeia em um parque com grama úmida,
+  - '38 palavras: "Exemplo prático: se o cachorro passeia em um parque com grama úmida,
     a terra acumulad..."'
   - '41 palavras: "Exemplo prático: ao voltar de um passeio em um dia de chuva, coloque
     um tapete a..."'
-  - '44 palavras: "Exemplo prático: se o cão voltar do passeio mancando levemente
+  - '44 palavras: "Exemplo prático: se o cachorro voltar do passeio mancando levemente
     e você notar um p..."'
   - '41 palavras: "Em situações pontuais, os lenços de bebê sem perfume quebram o
     galho, mas o idea..."'
@@ -78,9 +78,9 @@ Depois do passeio, tire a sujeira das patas com água e seque bem, principalment
 
 ## Por que limpar as patas depois do passeio?
 
-Porque as patas encostam em tudo: poeira, lama, restos de óleo e produtos de limpeza urbana. O cão lambe as patas para se limpar e pode ingerir o que estiver ali, o que causa desde incômodo no estômago até irritação na pele. Limpar também mantém a casa limpa e permite ver cortes e espinhos cedo.
+Porque as patas encostam em tudo: poeira, lama, restos de óleo e produtos de limpeza urbana. O cachorro lambe as patas para se limpar e pode ingerir o que estiver ali, o que causa desde incômodo no estômago até irritação na pele. Limpar também mantém a casa limpa e permite ver cortes e espinhos cedo.
 
-Exemplo prático: o cão pisa na água suja de uma calçada lavada com produto químico. Se ele lamber as patas, engole o resíduo. Limpar logo na entrada reduz esse risco. A [AKC](https://www.akc.org/expert-advice/health/clean-dog-paws/) recomenda fazer isso como rotina.
+Exemplo prático: o cachorro pisa na água suja de uma calçada lavada com produto químico. Se ele lamber as patas, engole o resíduo. Limpar logo na entrada reduz esse risco. A [AKC](https://www.akc.org/expert-advice/health/clean-dog-paws/) recomenda fazer isso como rotina.
 
 ## O que acontece se eu nunca limpar?
 
@@ -93,29 +93,29 @@ Não. Se o passeio foi curto e seco, em chão limpo, um pano úmido ou lenço pa
 ## Como limpar, passo a passo?
 
 1. **Deixe o kit perto da porta:** toalha limpa, água em temperatura ambiente ou morna e lenços próprios para pets, sem álcool e sem perfume forte.
-2. **Peça para o cão sentar na entrada.** A rotina ajuda a acalmar.
+2. **Peça para o cachorro sentar na entrada.** A rotina ajuda a acalmar.
 3. **Remova o grosso:** terra, folhas e pedrinhas entre os dedos e as unhas.
 4. **Lave ou limpe cada pata,** sem esfregar forte.
 5. **Seque muito bem,** principalmente entre os dedos e nas dobrinhas.
 6. **Olhe os coxins:** cortes, rachaduras, vermelhidão e corpos estranhos.
 
-Exemplo prático: em dia de chuva, deixe um tapete absorvente na porta, tire a lama com lenço pet e finalize com uma toalha seca que seja só do cão.
+Exemplo prático: em dia de chuva, deixe um tapete absorvente na porta, tire a lama com lenço pet e finalize com uma toalha seca que seja só do cachorro.
 
 ## Que produtos posso usar?
 
-Água pura, xampu neutro para cães ou lenço próprio para pets. Não use álcool, cloro, desinfetante, sabonete comum ou produtos de pessoas, que podem ressecar e irritar. Lenços de bebê sem perfume ajudam em emergência, mas o ideal é o de uso veterinário. Para hidratar coxins ressecados, peça indicação ao veterinário.
+Água pura, xampu neutro para cachorros ou lenço próprio para pets. Não use álcool, cloro, desinfetante, sabonete comum ou produtos de pessoas, que podem ressecar e irritar. Lenços de bebê sem perfume ajudam em emergência, mas o ideal é o de uso veterinário. Para hidratar coxins ressecados, peça indicação ao veterinário.
 
 ## E se a pata sujou de óleo ou graxa?
 
-Não esfregue com força nem use solvente. Passe um xampu para cães próprio para tirar gordura, enxágue bem com água morna e seque. Se não sair ou a pele irritar, chame o veterinário. Para saber a frequência do banho completo, veja [com que frequência dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro).
+Não esfregue com força nem use solvente. Passe um xampu para cachorros próprio para tirar gordura, enxágue bem com água morna e seque. Se não sair ou a pele irritar, chame o veterinário. Para saber a frequência do banho completo, veja [com que frequência dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro).
 
-## E se o cão não gosta que mexam nas patas?
+## E se o cachorro não gosta que mexam nas patas?
 
 Treine devagar: toque de leve nas patas quando ele estiver relaxado, dê um petisco e pare. Aumente aos poucos o tempo e a firmeza. Nunca force nem puxe. Aproveite para acostumar também com o corte de unhas ([como cortar unha de cachorro](/como-cortar-unha-de-cachorro)).
 
 ## E no calor e no frio?
 
-No calor, o asfalto queima. Teste com as costas da mão por 10 segundos: se está desconfortável para você, está para o cão. Veja [como evitar choque térmico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes). No frio e em locais com sal e produtos para derreter gelo, a limpeza é ainda mais importante: veja [cuidados com as patas de cães no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno) e o alerta da [ASPCA sobre produtos de degelo](https://www.aspca.org/news/keeping-pets-safe-during-winter-dangers-ice-melts).
+No calor, o asfalto queima. Teste com as costas da mão por 10 segundos: se está desconfortável para você, está para o cachorro. Veja [como evitar choque térmico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes). No frio e em locais com sal e produtos para derreter gelo, a limpeza é ainda mais importante: veja [cuidados com as patas de cachorros no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno) e o alerta da [ASPCA sobre produtos de degelo](https://www.aspca.org/news/keeping-pets-safe-during-winter-dangers-ice-melts).
 
 ## Por que o cuidado com os pelos entre os dedos importa?
 
@@ -123,19 +123,19 @@ Pelos longos entre os coxins retêm sujeira e umidade. Pergunte ao profissional 
 
 ## Dá para tornar a limpeza menos trabalhosa?
 
-Dá. Deixe um cantinho fixo na entrada com a toalha, o lenço e uma bacia, para não precisar procurar tudo com o cão puxando a guia. Tenha duas toalhas e alterne, lavando a usada depois de cada uso com sabão neutro, porque toalha úmida guardada cheira mal e pode espalhar fungos. Em casa com mais de um cão, limpe um de cada vez, para que nenhum fique esperando agitado. Em apartamento, um tapete absorvente na porta recolhe boa parte da sujeira antes de ela chegar ao piso.
+Dá. Deixe um cantinho fixo na entrada com a toalha, o lenço e uma bacia, para não precisar procurar tudo com o cachorro puxando a guia. Tenha duas toalhas e alterne, lavando a usada depois de cada uso com sabão neutro, porque toalha úmida guardada cheira mal e pode espalhar fungos. Em casa com mais de um cachorro, limpe um de cada vez, para que nenhum fique esperando agitado. Em apartamento, um tapete absorvente na porta recolhe boa parte da sujeira antes de ela chegar ao piso.
 
-Se o cão faz o trajeto sempre pelo mesmo tipo de piso, observe o padrão: o que costuma grudar nas patas (barro, areia, grama) diz qual limpeza é suficiente e quando a água é indispensável. Passear por trechos de grama limpa e evitar poças reduz o trabalho depois.
+Se o cachorro faz o trajeto sempre pelo mesmo tipo de piso, observe o padrão: o que costuma grudar nas patas (barro, areia, grama) diz qual limpeza é suficiente e quando a água é indispensável. Passear por trechos de grama limpa e evitar poças reduz o trabalho depois.
 
 ## Quais sinais pedem o veterinário?
 
 Vermelhidão intensa, inchaço, lambedura excessiva, manqueira, mau cheiro persistente, corte profundo, sangramento, corpo estranho cravado ou dor ao toque. Nesses casos, lave só com água corrente, seque e leve ao veterinário. Não use pomadas humanas.
 
-Exemplo prático: o cão volta mancando com um corte na almofada. Lave com água corrente, seque com cuidado e leve para avaliação, sem tentar curativo caseiro.
+Exemplo prático: o cachorro volta mancando com um corte na almofada. Lave com água corrente, seque com cuidado e leve para avaliação, sem tentar curativo caseiro.
 
 ## Quanto tempo leva?
 
-Poucos minutos, e vira rotina. Quanto mais cedo você acostuma o filhote, melhor. Para cães maiores, uma bacia rasa na área de serviço ajuda; para pequenos, uma toalha e um lenço.
+Poucos minutos, e vira rotina. Quanto mais cedo você acostuma o filhote, melhor. Para cachorros maiores, uma bacia rasa na área de serviço ajuda; para pequenos, uma toalha e um lenço.
 
 ## Perguntas frequentes
 
@@ -145,7 +145,7 @@ Em situações pontuais, sem perfume, sim. O ideal é o específico para pets.
 **Com que frequência devo hidratar os coxins?**
 Só quando houver ressecamento ou rachadura, com produto indicado pelo veterinário.
 
-**O cão pode lamber a pata depois de limpar?**
+**O cachorro pode lamber a pata depois de limpar?**
 Sim, se estiver limpa e seca. Lambedura insistente pode indicar alergia, dor ou ansiedade.
 
 **Preciso limpar a pata de filhote que ainda não saiu?**

@@ -56,7 +56,7 @@ imagem_selecionada_em: '2026-10-14T18:45:12+00:00'
 
 # Como trocar a ração do cachorro sem bagunça no estômago
 
-Trocar a alimentação do seu cão pode parecer uma tarefa simples, mas o sistema digestivo canino é bastante sensível a mudanças bruscas. O estômago e o intestino do animal abrigam uma flora de bactérias que se acostuma a um tipo específico de ingrediente, teor de gordura e proteína. 
+Trocar a alimentação do seu cachorro pode parecer uma tarefa simples, mas o sistema digestivo canino é bastante sensível a mudanças bruscas. O estômago e o intestino do animal abrigam uma flora de bactérias que se acostuma a um tipo específico de ingrediente, teor de gordura e proteína. 
 
 Quando mudamos o cardápio de uma só vez, o organismo não tem tempo de se adaptar, resultando em diarreias, vômitos e muita dor de barriga. Se você vai fazer essa transição, seja por mudança de idade, fase de vida ou para oferecer um alimento de melhor qualidade — como explicamos em detalhes no guia sobre [ração para filhote de cachorro](/racao-para-filhote-de-cachorro) —, é preciso planejamento. 
 
@@ -64,14 +64,14 @@ Neste artigo, vamos mostrar o passo a passo ideal para fazer essa mudança de fo
 
 ## Por que a transição de ração deve ser gradual?
 
-Para entender o processo, precisamos olhar para a fisiologia do cão. O trato digestivo dos cachorros possui enzimas específicas e uma microbiota intestinal adaptada à dieta atual. 
+Para entender o processo, precisamos olhar para a fisiologia do cachorro. O trato digestivo dos cachorros possui enzimas específicas e uma microbiota intestinal adaptada à dieta atual. 
 
 Uma mudança drástica na composição nutricional choca esse ecossistema interno. As bactérias benéficas sofrem uma desestabilização, o que impede a absorção correta dos nutrientes e irrita a mucosa intestinal. O resultado visível é a rejeição da comida ou problemas gastrointestinais severos.
 
 Fazer a mistura gradual serve para dar tempo às células do intestino e às bactérias de produzirem novas enzimas. É um processo biológico de adaptação que evita desconfortos desnecessários e garante que o animal aceite bem o novo sabor.
 
 ### Exemplo prático:
-Imagine que o seu cão come uma marca de frango e você comprou uma de cordeiro com alta concentração de gordura. Se você colocar apenas a nova no pote, ele provavelmente terá diarreia no dia seguinte. Misturando os grãos aos poucos, o organismo aprende a processar a nova gordura sem sustos.
+Imagine que o seu cachorro come uma marca de frango e você comprou uma de cordeiro com alta concentração de gordura. Se você colocar apenas a nova no pote, ele provavelmente terá diarreia no dia seguinte. Misturando os grãos aos poucos, o organismo aprende a processar a nova gordura sem sustos.
 
 ## O cronograma ideal de dias para a mistura
 
@@ -98,7 +98,7 @@ Outro erro frequente é misturar restos de comida caseira ou petiscos inadequado
 Por fim, evite trocar de marca com muita frequência. A menos que haja recomendação veterinária ou alergia, manter uma rotina alimentar estável é o melhor para a saúde a longo prazo.
 
 ### Exemplo prático:
-O tutor resolve dar um punhado da ração nova pura para ver se o cão gosta do cheiro. O cão come, mas apresenta vômito horas depois. Não foi rejeição à ração, mas sim o impacto de uma proteína totalmente nova sem preparo.
+O tutor resolve dar um punhado da ração nova pura para ver se o cachorro gosta do cheiro. O cachorro come, mas apresenta vômito horas depois. Não foi rejeição à ração, mas sim o impacto de uma proteína totalmente nova sem preparo.
 
 ## Sinais de alerta: quando procurar o veterinário
 
@@ -113,14 +113,14 @@ Fique atento aos seguintes sinais de alerta:
 Caso esses sintomas apareçam, suspenda a introdução da ração nova imediatamente, volte para a dieta anterior e procure um médico-veterinário para uma avaliação completa do sistema digestivo do animal.
 
 ### Exemplo prático:
-Se o cão apresentar um episódio de fezes amolecidas no quarto dia, espere. Mas se ele recusar a comida por completo e vomitar três vezes no mesmo dia, o sinal amarelo acendeu e o profissional de saúde deve ser consultado.
+Se o cachorro apresentar um episódio de fezes amolecidas no quarto dia, espere. Mas se ele recusar a comida por completo e vomitar três vezes no mesmo dia, o sinal amarelo acendeu e o profissional de saúde deve ser consultado.
 
 Outros guias do Tutorial Pet que combinam com este assunto: [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente).
 
 ## Perguntas frequentes
 
 **O que fazer se o meu cachorro recusar a mistura e catar só a ração velha?**
-Alguns cães são verdadeiros especialistas em separar os grãos. Para resolver isso, você pode umedecer levemente a mistura com água morna ou caldo de carne sem tempero e sal, formando uma papa homogênea que impede a seleção.
+Alguns cachorros são verdadeiros especialistas em separar os grãos. Para resolver isso, você pode umedecer levemente a mistura com água morna ou caldo de carne sem tempero e sal, formando uma papa homogênea que impede a seleção.
 
 **Posso trocar a ração de um dia para o outro se for uma emergência?**
 Não é o ideal, pois o risco de diarreia e vômito é alto. Se a ração antiga acabou e você precisa usar outra urgentemente, tente misturar um pouco de frango cozido desfiado sem tempero com arroz papinha para suavizar o impacto no estômago até conseguir a ração correta.
@@ -139,6 +139,6 @@ Não. Filhotes exigem nutrientes específicos para o crescimento ósseo e muscul
 
 ## Para fechar
 
-Mudar a alimentação do seu cão é um ato de cuidado que exige paciência e observação diária. Respeitar o tempo do organismo canino evita o estresse de visitas inesperadas à clínica veterinária e garante que o seu peludo aproveite ao máximo os nutrientes do novo prato. 
+Mudar a alimentação do seu cachorro é um ato de cuidado que exige paciência e observação diária. Respeitar o tempo do organismo canino evita o estresse de visitas inesperadas à clínica veterinária e garante que o seu peludo aproveite ao máximo os nutrientes do novo prato. 
 
 Esperamos que este guia ajude na rotina da sua casa. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o universo dos pets e fortalecer ainda mais a convivência com o seu companheiro de quatro patas.

@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como organizar a rotina de passeios para cães de diferentes idades",
-    "description": "Como organizar a rotina de passeios para cães de diferentes idades. O passeio diário vai muito além de dar uma volta para o cão fazer necessidades. Ele...",
+    "headline": "Como organizar a rotina de passeios para cachorros de diferentes idades",
+    "description": "Como organizar a rotina de passeios para cachorros de diferentes idades. O passeio diário vai muito além de dar uma volta para o cachorro fazer necessidades. Ele...",
     "datePublished": "2026-10-23",
     "inLanguage": "pt-BR",
     "author": {
@@ -31,7 +31,7 @@
       },
       {
         "@type": "Question",
-        "name": "Quantas vezes por dia o cão idoso precisa sair?",
+        "name": "Quantas vezes por dia o cachorro idoso precisa sair?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Costuma ser melhor oferecer de 2 a 3 passeios muito curtos (em torno de 10 a 15 minutos) do que uma única saída longa, respeitando o cansaço e a mobilidade do pet."
@@ -39,15 +39,15 @@
       },
       {
         "@type": "Question",
-        "name": "Passear em ritmo acelerado cansa o cão mais rápido?",
+        "name": "Passear em ritmo acelerado cansa o cachorro mais rápido?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O exercício físico vigoroso gasta calorias, mas o ato de farejar em ritmo calmo cansa a mente e relaxa o cão de forma muito mais profunda e equilibrada."
+          "text": "O exercício físico vigoroso gasta calorias, mas o ato de farejar em ritmo calmo cansa a mente e relaxa o cachorro de forma muito mais profunda e equilibrada."
         }
       },
       {
         "@type": "Question",
-        "name": "O cão empacou e deitou no meio do passeio, o que fazer?",
+        "name": "O cachorro empacou e deitou no meio do passeio, o que fazer?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Não puxe a guia à força. Espere alguns minutos na sombra, ofereça água e avalie se o chão está quente, se há cansaço extremo ou dor. Se o comportamento for frequente, procure uma avaliação veterinária."

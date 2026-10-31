@@ -64,7 +64,7 @@ imagens_corpo:
 
 Quem convive com felinos sabe que eles parecem ter uma aversão natural à água parada na tigela. Na natureza, os ancestrais dos nossos gatos obtinham boa parte da hidratação diretamente das presas que caçavam, o que fez com que eles perdessem a sensação aguda de sede que outras espécies possuem. O problema é que, hoje em dia, muitos gatos comem principalmente ração seca, o que exige um esforço extra de nossa parte para evitar problemas renais e urinários. 
 
-Para ajudar o seu companheiro a se manter hidratado, vale a pena entender o comportamento felino e aplicar algumas mudanças simples na rotina da casa. Além de ajustar a hidratação, quem tem mais de um animal em casa também precisa [como organizar a rotina de alimentacao de caes e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos) para garantir que cada um tenha acesso tranquilo aos recursos essenciais, incluindo a água fresca.
+Para ajudar o seu companheiro a se manter hidratado, vale a pena entender o comportamento felino e aplicar algumas mudanças simples na rotina da casa. Além de ajustar a hidratação, quem tem mais de um animal em casa também precisa [como organizar a rotina de alimentacao de cachorros e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos) para garantir que cada um tenha acesso tranquilo aos recursos essenciais, incluindo a água fresca.
 
 **Transparência:** este artigo contém links de afiliado. Se você comprar por eles, o Tutorial Pet recebe uma pequena comissão, sem custo extra para você.
 

@@ -43,7 +43,7 @@ Erros comuns nessa fase incluem forçar o contato ou expor o pet a barulhos muit
 
 ## Apresentando o gatinho a novas pessoas
 
-Os gatos não possuem a mesma necessidade social dos cães, mas precisam aprender que humanos estranhos não são perigosos. Como o instinto felino é de predador e presa ao mesmo tempo, qualquer movimento brusco pode assustar o pequeno. O segredo é deixar que o gatinho tome a iniciativa da aproximação.
+Os gatos não possuem a mesma necessidade social dos cachorros, mas precisam aprender que humanos estranhos não são perigosos. Como o instinto felino é de predador e presa ao mesmo tempo, qualquer movimento brusco pode assustar o pequeno. O segredo é deixar que o gatinho tome a iniciativa da aproximação.
 
 O motivo fisiológico para essa cautela é a alta sensibilidade auditiva e visual da espécie. Sons agudos e gestos rápidos ativam o sistema de alerta do cérebro felino instantaneamente. Portanto, controle o tom de voz no ambiente durante a recepção de visitas.
 

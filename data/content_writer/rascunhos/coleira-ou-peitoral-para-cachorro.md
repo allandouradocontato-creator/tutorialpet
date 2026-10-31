@@ -23,18 +23,18 @@ Muitos tutores compram o primeiro modelo que encontram na loja sem saber como a 
 
 ## Como a anatomia canina influencia a escolha do acessório
 
-A escolha entre os modelos de condução não deve se basear apenas na estética ou na facilidade de colocar o item no animal. A tração exercida pela guia afeta diretamente a saúde física e o comportamento do cão durante as caminhadas diárias.
+A escolha entre os modelos de condução não deve se basear apenas na estética ou na facilidade de colocar o item no animal. A tração exercida pela guia afeta diretamente a saúde física e o comportamento do cachorro durante as caminhadas diárias.
 
 ### Por que a tração na região do pescoço exige cuidado
 
-O pescoço do cachorro abriga estruturas extremamente sensíveis, como a traqueia, a glândula tireoide e diversos vasos sanguíneos importantes. Quando um cão puxa usando um modelo tradicional de pescoço, toda a força do impacto recae diretamente sobre essa área delicada.
+O pescoço do cachorro abriga estruturas extremamente sensíveis, como a traqueia, a glândula tireoide e diversos vasos sanguíneos importantes. Quando um cachorro puxa usando um modelo tradicional de pescoço, toda a força do impacto recae diretamente sobre essa área delicada.
 
 Esse tipo de pressão constante pode causar tosses, engasgos e, em casos de tração intensa e contínua, danos à traqueia do animal. Por isso, compreender a fisiologia do pescoço canino ajuda a explicar o porquê de muitos profissionais recomendarem alternativas que distribuem melhor o peso.
 
 Antes de decidir, lembre-se de que cada animal tem uma estrutura corporal única. Vale a pena conversar com o médico-veterinário do pet para avaliar se há alguma restrição física antes de iniciar as caminhadas, especialmente se ele já passou da fase descrita em [com quantos meses o cachorro pode sair na rua](/com-quantos-meses-o-cachorro-pode-sair-na-rua).
 
 ### Exemplo prático:
-Se o seu cão tem o hábito de dar trancos fortes quando vê outro animal na rua, usar um modelo inadequado pode fazer com que ele engasgue imediatamente. Trocar o ponto de fixação da guia ajuda a amenizar esse impacto físico direto no pescoço.
+Se o seu cachorro tem o hábito de dar trancos fortes quando vê outro animal na rua, usar um modelo inadequado pode fazer com que ele engasgue imediatamente. Trocar o ponto de fixação da guia ajuda a amenizar esse impacto físico direto no pescoço.
 
 ## Vantagens e limitações do modelo de pescoço
 
@@ -42,11 +42,11 @@ O acessório tradicional de pescoço é muito prático para colocar rapidamente 
 
 ### Quando o modelo tradicional funciona bem
 
-Esse formato é útil para cães que já sabem caminhar ao lado sem puxar a guia e para raças que não se beneficiam de trações distribuídas. Ele também facilita a identificação visual rápida do pet através das tradicionais medalhas penduradas.
+Esse formato é útil para cachorros que já sabem caminhar ao lado sem puxar a guia e para raças que não se beneficiam de trações distribuídas. Ele também facilita a identificação visual rápida do pet através das tradicionais medalhas penduradas.
 
 ### Erros comuns na utilização
 
-O principal erro é usar esse equipamento em cães que puxam muito, achando que o incômodo vai fazê-los parar. Na prática, o animal continua puxando por excitação, ignorando a dor física na traqueia.
+O principal erro é usar esse equipamento em cachorros que puxam muito, achando que o incômodo vai fazê-los parar. Na prática, o animal continua puxando por excitação, ignorando a dor física na traqueia.
 
 Outro erro frequente é deixar o ajuste muito frouxo, permitindo que o animal escape facilmente ao se assustar com barulhos na rua.
 
@@ -59,7 +59,7 @@ O modelo que abraça o tronco costuma ser o mais recomendado, principalmente dur
 
 ### A física da distribuição de força
 
-Quando o cão puxa usando um equipamento que envolve o tórax, a força exercida pela guia é distribuída por uma área muito maior do corpo. Em vez de concentrar o impacto na traqueia, a pressão recae sobre os ombros e o peito.
+Quando o cachorro puxa usando um equipamento que envolve o tórax, a força exercida pela guia é distribuída por uma área muito maior do corpo. Em vez de concentrar o impacto na traqueia, a pressão recae sobre os ombros e o peito.
 
 Essa mecânica protege as vias aéreas do animal e reduz drasticamente o risco de lesões decorrentes de trancos inesperados. É o mesmo raciocínio que aplicamos ao escolher [brinquedos para cachorro que fica sozinho](/brinquedos-para-cachorro-que-fica-sozinho): priorizamos sempre a integridade física do pet.
 
@@ -71,14 +71,14 @@ Essa mecânica protege as vias aéreas do animal e reduz drasticamente o risco d
 4. Confirme com o médico-veterinário do pet se o encaixe está correto e não restringe os movimentos dos ombros.
 
 ### Exemplo prático:
-Durante um passeio no parque, o cão avança rapidamente para cheirar um arbusto. Com o modelo de tórax, a força do movimento é absorvida pelo peitoral, mantendo a respiração do animal totalmente livre e sem tosses.
+Durante um passeio no parque, o cachorro avança rapidamente para cheirar um arbusto. Com o modelo de tórax, a força do movimento é absorvida pelo peitoral, mantendo a respiração do animal totalmente livre e sem tosses.
 
 ## Sinais de alerta e quando procurar ajuda profissional
 
 Identificar quando um acessório está machucando ou gerando estresse no animal é fundamental para garantir o bem-estar durante os passeios diários. Alguns comportamentos revelam que a adaptação não está funcionando como esperado.
 
 ### Sinais de que o equipamento está inadequado:
-- O cão tenta se esquivar ou foge quando vê o acessório.
+- O cachorro tenta se esquivar ou foge quando vê o acessório.
 - Aparecem marcas de atrito, vermelhidão ou queda de pelos na pele.
 - O animal tosse com frequência durante ou após as caminhadas.
 - O tutor percebe que o pet manca ou tem a movimentação dos membros travada.
@@ -94,7 +94,7 @@ O tutor nota que o cachorro coça constantemente a região das axilas após os p
 Não é recomendado. O uso contínuo pode emaranhar o pelo, causar atrito na pele e prender o animal em móveis por descuido. Deixe apenas a identificação básica.
 
 **Qual opção é melhor para ensinar o cachorro a não puxar?**
-O modelo de tórax protege a traqueia, mas o treino de obediência e paciência é o que realmente ensina o cão a caminhar junto sem fazer força excessiva.
+O modelo de tórax protege a traqueia, mas o treino de obediência e paciência é o que realmente ensina o cachorro a caminhar junto sem fazer força excessiva.
 
 **Como saber se o equipamento está muito apertado?**
 Em média, você deve conseguir passar dois dedos entre a fita do acessório e o corpo do animal, garantindo firmeza sem restringir a circulação ou a respiração.

@@ -95,7 +95,7 @@ Execute o treino com estes passos:
 ## Perguntas frequentes
 
 **Rampa ou escada pet: qual das duas opções é melhor?**  
-A rampa é melhor para cães com problemas de coluna e raças como Dachshunds e Corgis, pois elimina o impacto vertical. As escadas atendem animais jovens, mas a rampa é mais anatômica a longo prazo.
+A rampa é melhor para cachorros com problemas de coluna e raças como Dachshunds e Corgis, pois elimina o impacto vertical. As escadas atendem animais jovens, mas a rampa é mais anatômica a longo prazo.
 
 **Qual peso uma rampa pet costuma suportar?**  
 Modelos compactos suportam de 15 kg a 25 kg. Modelos de madeira reforçada suportam de 40 kg a 60 kg ou mais. Confira sempre a ficha técnica do fabricante.

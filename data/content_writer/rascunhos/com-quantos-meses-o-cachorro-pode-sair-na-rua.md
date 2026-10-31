@@ -31,12 +31,12 @@ Exemplo prático: O tutor percebe que o filhote tem **três meses** e quer levá
 
 ## A janela de socialização: como expor o pet com segurança
 
-Apesar de a rua poder oferecer riscos antes da vacinação completa, o confinamento total também traz um desafio comportamental: a perda da janela de socialização. Entre a **sexta e a décima sexta semana de vida**, os cães passam por um período crucial em que absorvem novos estímulos com facilidade. Se não conhecerem barulhos, pessoas e outros animais nessa fase, podem se tornar cães medrosos ou reativos no futuro.
+Apesar de a rua poder oferecer riscos antes da vacinação completa, o confinamento total também traz um desafio comportamental: a perda da janela de socialização. Entre a **sexta e a décima sexta semana de vida**, os cachorros passam por um período crucial em que absorvem novos estímulos com facilidade. Se não conhecerem barulhos, pessoas e outros animais nessa fase, podem se tornar cachorros medrosos ou reativos no futuro.
 
 Como resolver esse impasse? Enquanto a calçada da rua ainda é proibida devido ao risco de doenças deixadas por outros animais, o filhote pode (e deve!) passear no colo do tutor. Leve-o dentro de uma bolsa de transporte, ande de carro ou sente-se em locais limpos, como um banco de praça, sempre mantendo o corpinho dele longe do chão.
 
 Passos numerados para a socialização segura no colo:
-1. Escolha locais tranquilos e com menor circulação de cães desconhecidos.
+1. Escolha locais tranquilos e com menor circulação de cachorros desconhecidos.
 2. Segure o filhote firme no colo, permitindo que ele observe carros, bicicletas e pedestres.
 3. Ofereça petiscos e elogios sempre que ele demonstrar curiosidade calma diante de um som novo.
 4. Respeite o limite do animal: se ele tremer ou se esconder, encerre o passeio e tente novamente em outro dia.
@@ -45,11 +45,11 @@ Erros comuns: Deixar o filhote caminhar em áreas comuns de condomínios ou cal�
 
 ## Escolhendo os acessórios certos para a primeira caminhada na rua
 
-Quando a tão sonhada liberação veterinária finalmente chegar, o tutor precisará equipar o animal adequadamente. A escolha do equipamento de contenção interfere diretamente no conforto e na segurança da caminhada, evitando que o cão se assuste e fuja ou machuque o pescoço ao puxar a guia.
+Quando a tão sonhada liberação veterinária finalmente chegar, o tutor precisará equipar o animal adequadamente. A escolha do equipamento de contenção interfere diretamente no conforto e na segurança da caminhada, evitando que o cachorro se assuste e fuja ou machuque o pescoço ao puxar a guia.
 
 Para entender as diferenças e escolher a melhor opção para a anatomia e o temperamento do animal, vale a leitura sobre [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro). De modo geral, o peitoral antitração costuma ser o mais indicado para passeios urbanos com filhotes que ainda estão aprendendo a caminhar ao lado do tutor.
 
-Exemplo prático: Um filhote de **cinco meses** foi liberado pelo veterinário e ganha seu primeiro peitoral. O tutor faz os primeiros testes dentro de casa por alguns minutos diários, associando o acessório a petiscos, para que o cão não estranhe a sensação na hora de ir para a calçada.
+Exemplo prático: Um filhote de **cinco meses** foi liberado pelo veterinário e ganha seu primeiro peitoral. O tutor faz os primeiros testes dentro de casa por alguns minutos diários, associando o acessório a petiscos, para que o cachorro não estranhe a sensação na hora de ir para a calçada.
 
 ## Sinais de alerta e quando procurar o médico-veterinário
 
@@ -69,7 +69,7 @@ Diante de qualquer sintoma gastrointestinal ou respiratório, procure imediatame
 Não. A primeira dose é apenas o início do processo de estímulo imunológico. O filhote só está protegido em média após o término de todo o protocolo de vacinação e o prazo de ação estipulado pelo médico-veterinário do pet.
 
 **Existe algum lugar onde o filhote pode caminhar antes dos quatro meses?**
-Apenas em ambientes controlados, higienizados e exclusivos para cães saudáveis e devidamente imunizados, como creches especializadas ou áreas internas livres do contato com fezes de animais desconhecidos.
+Apenas em ambientes controlados, higienizados e exclusivos para cachorros saudáveis e devidamente imunizados, como creches especializadas ou áreas internas livres do contato com fezes de animais desconhecidos.
 
 **Como acostumar o filhote a fazer xixi na rua se ele passa meses preso em casa?**
 Você pode usar tapetes higienizados em áreas internas durante a fase de isolamento e, após a liberação, reforçar positivamente com petiscos e festas sempre que ele eliminar as necessidades no solo durante os passeios.

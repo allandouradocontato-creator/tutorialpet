@@ -56,7 +56,7 @@ A resposta curta: em média, por volta dos 4 meses, cerca de 10 a 15 dias depois
 
 ## Por que o filhote não pode pisar na rua antes da vacinação completa?
 
-Porque a rua tem vírus que sobrevivem por meses no chão e podem ser fatais para filhotes. A parvovirose e a cinomose são as principais: o vírus chega pelas fezes, urina e secreções de outros cães e pode ser carregado até no sapato. Até que o corpo do filhote produza suas próprias defesas, ele está vulnerável. Veja a explicação completa em [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro).
+Porque a rua tem vírus que sobrevivem por meses no chão e podem ser fatais para filhotes. A parvovirose e a cinomose são as principais: o vírus chega pelas fezes, urina e secreções de outros cachorros e pode ser carregado até no sapato. Até que o corpo do filhote produza suas próprias defesas, ele está vulnerável. Veja a explicação completa em [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro).
 
 ## A primeira dose de vacina já libera o passeio?
 
@@ -66,7 +66,7 @@ Exemplo prático: um filhote de três meses que tomou só duas doses ainda não 
 
 ## Existe um lugar seguro para ele andar antes disso?
 
-Só em ambiente controlado: o chão de casa, um quintal que nenhum cão desconhecido frequenta, a casa de um amigo que tenha cão saudável e vacinado, ou a creche e a clínica que exijam vacinação em dia e higienizem o piso. Calçada, praça, estacionamento de pet shop e áreas comuns de condomínio são ambiente de risco, porque ali passam cães de saúde desconhecida.
+Só em ambiente controlado: o chão de casa, um quintal que nenhum cachorro desconhecido frequenta, a casa de um amigo que tenha cachorro saudável e vacinado, ou a creche e a clínica que exijam vacinação em dia e higienizem o piso. Calçada, praça, estacionamento de pet shop e áreas comuns de condomínio são ambiente de risco, porque ali passam cachorros de saúde desconhecida.
 
 ## Passear no colo vale como passeio?
 
@@ -75,13 +75,13 @@ Vale como socialização, sim, e ajuda muito. Leve o filhote no colo, em uma bol
 1. Deixe-o observar carros, bicicletas e pessoas de uma distância confortável.
 2. Ofereça petiscos sempre que ele reagir com curiosidade calma.
 3. Se ele tremer, se esconder ou puxar o corpo, encerre e tente outro dia.
-4. Não permita que cães desconhecidos cheirem o filhote.
+4. Não permita que cachorros desconhecidos cheirem o filhote.
 
 ## Por que não dá para esperar tudo terminar sem socializar?
 
-Porque existe uma janela de socialização, aproximadamente entre a 6ª e a 16ª semana de vida, em que o cão aceita melhor novidades. Quem passa esse período sem ver barulhos, pessoas e outros animais tende a ser mais medroso ou reativo depois. Associações de comportamento animal, como a [AVSAB](https://avsab.org/wp-content/uploads/2018/03/Puppy_Socialization_Position_Statement_Download_-_10-3-14.pdf), defendem socializar o filhote cedo, com segurança sanitária, e a [AVMA](https://www.avma.org/resources-tools/animal-health-and-welfare/socialization-dogs-and-cats) também trata do tema. A saída é socializar controlado, e não trancar o filhote.
+Porque existe uma janela de socialização, aproximadamente entre a 6ª e a 16ª semana de vida, em que o cachorro aceita melhor novidades. Quem passa esse período sem ver barulhos, pessoas e outros animais tende a ser mais medroso ou reativo depois. Associações de comportamento animal, como a [AVSAB](https://avsab.org/wp-content/uploads/2018/03/Puppy_Socialization_Position_Statement_Download_-_10-3-14.pdf), defendem socializar o filhote cedo, com segurança sanitária, e a [AVMA](https://www.avma.org/resources-tools/animal-health-and-welfare/socialization-dogs-and-cats) também trata do tema. A saída é socializar controlado, e não trancar o filhote.
 
-Exemplo prático: convide visitas para a casa, deixe o filhote ouvir aspirador e campainha em volume baixo, e apresente-o a um cão adulto da família que seja vacinado e tranquilo.
+Exemplo prático: convide visitas para a casa, deixe o filhote ouvir aspirador e campainha em volume baixo, e apresente-o a um cachorro adulto da família que seja vacinado e tranquilo.
 
 ## Quanto tempo depois da última vacina ele pode ir à rua?
 
@@ -109,13 +109,13 @@ O veterinário vai definir um protocolo para a idade dele, que costuma ter menos
 Não. A proteção ainda não está completa. Espere o término do protocolo e a liberação do veterinário.
 
 **Existe algum lugar onde o filhote pode andar antes dos quatro meses?**
-Apenas em ambientes controlados e higienizados, com cães saudáveis e vacinados, como creches que exijam vacinas em dia ou a casa de amigos com cães imunizados.
+Apenas em ambientes controlados e higienizados, com cachorros saudáveis e vacinados, como creches que exijam vacinas em dia ou a casa de amigos com cachorros imunizados.
 
 **E o xixi, como ensinar se ele fica meses sem sair?**
 Use o tapete higiênico ou um cantinho no quintal limpo, premie cada acerto e, depois da liberação, leve-o à rua e comemore quando fizer ali. Veja [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa).
 
 **Filhote de apartamento precisa esperar também?**
-Sim. O vírus entra em casa nos sapatos, e o elevador e o hall são áreas de circulação de outros cães.
+Sim. O vírus entra em casa nos sapatos, e o elevador e o hall são áreas de circulação de outros cachorros.
 
 ## Fontes e referências
 
@@ -127,4 +127,4 @@ Sim. O vírus entra em casa nos sapatos, e o elevador e o hall são áreas de ci
 
 ## Para fechar
 
-O filhote sai na rua quando a vacinação estiver completa e o veterinário liberar, em média por volta dos 4 meses, mas isso não significa esperar de braços cruzados: socialize no colo e em ambientes seguros desde as primeiras semanas. Continue acompanhando o blog para os próximos passos da vida do seu cão.
+O filhote sai na rua quando a vacinação estiver completa e o veterinário liberar, em média por volta dos 4 meses, mas isso não significa esperar de braços cruzados: socialize no colo e em ambientes seguros desde as primeiras semanas. Continue acompanhando o blog para os próximos passos da vida do seu cachorro.

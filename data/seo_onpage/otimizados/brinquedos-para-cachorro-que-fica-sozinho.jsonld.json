@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Brinquedos para cachorro que fica sozinho",
-    "description": "Brinquedos para cachorro que fica sozinho. Deixar o cão sozinho em casa gera preocupação em muitos tutores. O silêncio da ausência...",
+    "description": "Brinquedos para cachorro que fica sozinho. Deixar o cachorro sozinho em casa gera preocupação em muitos tutores. O silêncio da ausência...",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -23,7 +23,7 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso deixar qualquer pelúcia com o meu cão quando eu sair?",
+        "name": "Posso deixar qualquer pelúcia com o meu cachorro quando eu sair?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Não. Pelúcias comuns contêm enchimento de fibra e olhos de plástico que podem ser engolidos facilmente, causando engasgos ou obstrução intestinal grave. Prefira apenas itens supervisionados ou específicos e ultra resistentes."
@@ -31,7 +31,7 @@
       },
       {
         "@type": "Question",
-        "name": "O que fazer se o cão destruir o brinquedo em poucos minutos?",
+        "name": "O que fazer se o cachorro destruir o brinquedo em poucos minutos?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Isso indica que o material é fraco para a força da mandíbula dele. Recolha os pedaços imediatamente para evitar acidentes e invista em opções feitas de borracha maciça de alta durabilidade."
@@ -39,7 +39,7 @@
       },
       {
         "@type": "Question",
-        "name": "Brinquedo cansa o cão o suficiente para ele dormir o dia todo?",
+        "name": "Brinquedo cansa o cachorro o suficiente para ele dormir o dia todo?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Sim, especialmente os modelos que exigem raciocínio lógico ou esforço de lambedura. O gasto mental esgota a energia do animal de maneira muito parecida com o exercício físico."
@@ -50,7 +50,7 @@
         "name": "Existe algum risco em congelar o recheio do brinquedo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Geralmente não, desde que os ingredientes usados sejam totalmente seguros para cães e oferecidos em porções moderadas. Em caso de dúvidas sobre a dieta, consulte sempre o médico-veterinário."
+          "text": "Geralmente não, desde que os ingredientes usados sejam totalmente seguros para cachorros e oferecidos em porções moderadas. Em caso de dúvidas sobre a dieta, consulte sempre o médico-veterinário."
         }
       }
     ]

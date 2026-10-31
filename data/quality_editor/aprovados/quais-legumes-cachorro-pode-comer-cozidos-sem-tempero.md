@@ -40,9 +40,9 @@ Para acabar com a insegurança e ir direto ao ponto, reuni aqui os principais le
 
 ## 1. Por que legumes cozidos e sem nenhum tempero?
 
-Quando falamos em oferecer comida caseira como agrado, o segredo principal está na simplicidade. No trato digestivo dos cães, o excesso de fibras cruas pode ser difícil de quebrar, provocando gases ou fezes moles. O cozimento amolece as paredes celulares dos vegetais, facilitando a digestão e a absorção dos nutrientes.
+Quando falamos em oferecer comida caseira como agrado, o segredo principal está na simplicidade. No trato digestivo dos cachorros, o excesso de fibras cruas pode ser difícil de quebrar, provocando gases ou fezes moles. O cozimento amolece as paredes celulares dos vegetais, facilitando a digestão e a absorção dos nutrientes.
 
-Além disso, a regra de ouro é: nada de sal, óleo, azeite, pimenta e, principalmente, alho ou cebola. O alho e a cebola contêm substâncias tóxicas que destroem os glóbulos vermelhos dos cães. Na dúvida sobre outros itens da sua despensa, vale consultar nosso guia sobre [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro) para não correr riscos desnecessários.
+Além disso, a regra de ouro é: nada de sal, óleo, azeite, pimenta e, principalmente, alho ou cebola. O alho e a cebola contêm substâncias tóxicas que destroem os glóbulos vermelhos dos cachorros. Na dúvida sobre outros itens da sua despensa, vale consultar nosso guia sobre [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro) para não correr riscos desnecessários.
 
 Cozinhar no vapor ou em água pura preserva os nutrientes e entrega um agrado seguro, sem sobrecarregar os rins nem irritar o estômago do animal.
 
@@ -55,10 +55,10 @@ Cozinhar no vapor ou em água pura preserva os nutrientes e entrega um agrado se
 Nem todo vegetal que faz bem para nós pode ir para a tigela do pet. Por sorte, os mais fáceis de achar na feira costumam ser os mais indicados:
 
 ### Cenoura
-A queridinha da maioria dos cães. Cozida, ela fica levemente adocicada e muito macia. É rica em betacaroteno (precursor da vitamina A) e fibras que auxiliam o trânsito intestinal.
+A queridinha da maioria dos cachorros. Cozida, ela fica levemente adocicada e muito macia. É rica em betacaroteno (precursor da vitamina A) e fibras que auxiliam o trânsito intestinal.
 
 ### Chuchu
-Perfeito para cães que precisam controlar o peso ou que bebem pouca água. O chuchu tem sabor neutro, pouquíssimas calorias e altíssimo teor de umidade. Cozido em cubos, costuma ser aceito com facilidade.
+Perfeito para cachorros que precisam controlar o peso ou que bebem pouca água. O chuchu tem sabor neutro, pouquíssimas calorias e altíssimo teor de umidade. Cozido em cubos, costuma ser aceito com facilidade.
 
 ### Abobrinha (verde ou italiana)
 Leve, rica em água e fácil de digerir. Retire as pontas duras e cozinhe com a casca mesmo, desde que bem higienizada, até ficar macia.
@@ -67,7 +67,7 @@ Leve, rica em água e fácil de digerir. Retire as pontas duras e cozinhe com a 
 Excelente para regular o intestino. A polpa cozida e amassada é muito palatável e traz conforto digestivo. Apenas certifique-se de retirar toda a casca grossa e as sementes antes do cozimento.
 
 ### Vagem
-Rica em fibras e com textura agradável. Cozinhe bem e corte em pedacinhos de cerca de um centímetro para evitar que o cão engula pedaços compridos inteiros.
+Rica em fibras e com textura agradável. Cozinhe bem e corte em pedacinhos de cerca de um centímetro para evitar que o cachorro engula pedaços compridos inteiros.
 
 Se você gosta de variar o cardápio com opções refrescantes nos dias quentes, também pode alternar esses legumes com [quais frutas cachorro pode comer no verão com segurança](/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca), sempre respeitando os limites diários.
 
@@ -80,10 +80,10 @@ Se você gosta de variar o cardápio com opções refrescantes nos dias quentes,
 Não há segredo culinário, mas alguns passos evitam bagunça e problemas na digestão:
 
 1. **Higienize bem:** Lave os legumes em água corrente para retirar qualquer resíduo de terra ou impurezas.
-2. **Pique em pedaços proporcionais:** Para cães pequenos, use cubinhos de meio centímetro; para cães de médio a grande porte, cubos de um a dois centímetros evitam engasgos.
+2. **Pique em pedaços proporcionais:** Para cachorros pequenos, use cubinhos de meio centímetro; para cachorros de médio a grande porte, cubos de um a dois centímetros evitam engasgos.
 3. **Cozinhe até amaciar:** Use uma panela com água fervente ou cesto de vapor. Evite deixar desmanchar em pasta, mas garanta que esteja bem macio.
-4. **Espere esfriar totalmente:** Cães são gulosos e podem queimar a língua se o alimento estiver morno demais por dentro.
-5. **Controle a quantidade:** Legumes devem entrar como petisco ou complemento, nunca substituindo a base alimentar. A regra geral costuma ser que petiscos e extras não passem de, em média, 10% da quantidade diária de calorias que o cão consome. Converse sempre com o médico-veterinário para definir a porção ideal para o peso e a rotina do seu cão.
+4. **Espere esfriar totalmente:** Cachorros são gulosos e podem queimar a língua se o alimento estiver morno demais por dentro.
+5. **Controle a quantidade:** Legumes devem entrar como petisco ou complemento, nunca substituindo a base alimentar. A regra geral costuma ser que petiscos e extras não passem de, em média, 10% da quantidade diária de calorias que o cachorro consome. Converse sempre com o médico-veterinário para definir a porção ideal para o peso e a rotina do seu cachorro.
 
 Se a sua intenção é enriquecer a refeição principal, veja as dicas sobre [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente), aplicando a mesma lógica de equilíbrio para não descompensar a dieta.
 
@@ -97,7 +97,7 @@ Quando eu comecei a testar legumes, cometi o erro de oferecer vários tipos no m
 
 Apresente um legume por vez. Dê um pedacinho hoje e observe a digestão e as fezes pelas próximas 24 horas. Se tudo correr bem, você já sabe que aquele vegetal é bem tolerado pelo organismo dele. Se notar fezes amolecidas ou desconforto, suspenda a oferta e converse com o veterinário.
 
-Lembre-se também de que cães com condições específicas de saúde, como histórico de cálculos urinários, problemas renais ou diabetes, precisam de autorização profissional antes de consumir vegetais com teores específicos de minerais e carboidratos.
+Lembre-se também de que cachorros com condições específicas de saúde, como histórico de cálculos urinários, problemas renais ou diabetes, precisam de autorização profissional antes de consumir vegetais com teores específicos de minerais e carboidratos.
 
 **Exemplo prático:** Comece na segunda-feira oferecendo apenas dois cubinhos de cenoura cozida. Mantenha essa rotina por três dias seguidos observando o cocô do pet. Se a consistência continuar firme, na quinta-feira você pode introduzir o chuchu da mesma maneira.
 
@@ -109,7 +109,7 @@ Lembre-se também de que cães com condições específicas de saúde, como hist
 Depende do vegetal. Cascas finas, como a da abobrinha ou da cenoura, podem ser consumidas se estiverem bem lavadas e cozidas. Já cascas duras e fibrosas, como a da abóbora, devem ser sempre retiradas porque dificultam a mastigação e a digestão.
 
 **Posso colocar uma pitadinha de sal na água do cozimento?**  
-Não. O organismo dos cães é muito mais sensível ao sódio do que o nosso, e a ração de boa qualidade já contém todo o sal necessário para a saúde dele. Cozinhe sempre em água pura.
+Não. O organismo dos cachorros é muito mais sensível ao sódio do que o nosso, e a ração de boa qualidade já contém todo o sal necessário para a saúde dele. Cozinhe sempre em água pura.
 
 **Os legumes cozidos podem substituir a ração comercial?**  
 Não. A ração de qualidade é formulada com um equilíbrio complexo de proteínas, gorduras, vitaminas e minerais essenciais. Os legumes funcionam apenas como agrado ou petisco complementar e não formam uma refeição completa sozinhos.

@@ -34,9 +34,9 @@ sugestoes_links_internos:
   slug_provavel: como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
-- termo_relacionado: ansiedade de separação em cães
+- termo_relacionado: ansiedade de separação em cachorros
   slug_provavel: ansiedade-de-separacao-em-caes
-  ancora_sugerida: ansiedade de separação em cães
+  ancora_sugerida: ansiedade de separação em cachorros
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/gato-arranhando-o-sofa.jsonld.json
 imagem_capa: imagens/gato-arranhando-o-sofa.jpg
@@ -134,4 +134,4 @@ Para aprofundar o assunto, vale ler também [como fazer o gato parar de arranhar
 
 Proteger o sofá da curiosidade felina exige paciência, observação e substituição inteligente de hábitos. Entender que o seu gato está apenas seguindo o próprio instinto ajuda a manter a harmonia na convivência diária.
 
-Com os estímulos certos, os móveis da sua casa ficam seguros e o seu companheiro cresce feliz e satisfeito. Continue navegando pelo nosso blog para descobrir mais dicas práticas para tutores de cães e gatos!
+Com os estímulos certos, os móveis da sua casa ficam seguros e o seu companheiro cresce feliz e satisfeito. Continue navegando pelo nosso blog para descobrir mais dicas práticas para tutores de cachorros e gatos!

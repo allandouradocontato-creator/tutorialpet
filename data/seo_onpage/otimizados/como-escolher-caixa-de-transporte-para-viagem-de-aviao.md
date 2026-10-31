@@ -90,12 +90,12 @@ Comprar a caixa "no olho" é a receita perfeita para ter problemas no portão de
 Pegue uma fita métrica e faça três medições básicas:
 
 1. **Comprimento:** meça da ponta do focinho até a base do rabo (não conte a cauda inteira). A caixa costuma precisar ter esse valor mais alguns centímetros de folga.
-2. **Altura:** meça do chão até a ponta das orelhas (ou topo da cabeça, se for cão de orelha caída). Ao ficar em pé, a cabeça não pode encostar no teto.
+2. **Altura:** meça do chão até a ponta das orelhas (ou topo da cabeça, se for cachorro de orelha caída). Ao ficar em pé, a cabeça não pode encostar no teto.
 3. **Largura:** meça a largura dos ombros ou da parte mais larga das costas e multiplique em média por duas vezes para garantir giro confortável.
 
 As companhias aéreas exigem que a soma das dimensões ou o peso total (caixa + pet) fique dentro de faixas estritas, que variam de empresa para empresa. Confirme os limites no site oficial da companhia antes de passar o cartão.
 
-> **Exemplo prático:** Ao medir seu cãozinho, você anotou 40 cm de comprimento e 28 cm de altura. A caixa de transporte precisa ter no mínimo uns 50 cm de comprimento e cerca de 35 cm de altura interna. Se a orelha tocar a grade superior quando ele estiver ereto, o funcionário do check-in pode barrar o embarque.
+> **Exemplo prático:** Ao medir seu cachorrinho, você anotou 40 cm de comprimento e 28 cm de altura. A caixa de transporte precisa ter no mínimo uns 50 cm de comprimento e cerca de 35 cm de altura interna. Se a orelha tocar a grade superior quando ele estiver ereto, o funcionário do check-in pode barrar o embarque.
 
 ---
 
@@ -122,7 +122,7 @@ Comprou a caixa certa? Ótimo, mas seu trabalho só começou. Colocar um pet den
 
 Comece o treino pelo menos três a quatro semanas antes da data do embarque. Deixe a caixa aberta na sala, retire a portinha nos primeiros dias e coloque a caminha ou um cobertor com o cheiro da casa lá dentro. Ofereça petiscos, brinquedos e até refeições completas no fundo da caixa.
 
-O objetivo é transformar aquele objeto em um porto seguro. Animais acostumados com o espaço dormem boa parte do trajeto e sofrem bem menos. Esse processo reduz o estresse do confinamento e ajuda a prevenir crises parecidas com a [ansiedade de separação em cães](/ansiedade-de-separacao-em-caes) durante o voo. Converse com o médico-veterinário sobre estratégias adicionais para manter a calma do seu parceiro durante a rota.
+O objetivo é transformar aquele objeto em um porto seguro. Animais acostumados com o espaço dormem boa parte do trajeto e sofrem bem menos. Esse processo reduz o estresse do confinamento e ajuda a prevenir crises parecidas com a [ansiedade de separação em cachorros](/ansiedade-de-separacao-em-caes) durante o voo. Converse com o médico-veterinário sobre estratégias adicionais para manter a calma do seu parceiro durante a rota.
 
 > **Exemplo prático:** Sirva o sachê ou a ração do seu pet diariamente dentro da caixa de transporte aberta. Depois de uma semana, feche a portinha por cerca de dois minutos enquanto ele come e abra logo em seguida com muita festa. Aos poucos, aumente esse tempo até ele relaxar lá dentro.
 

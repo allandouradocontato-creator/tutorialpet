@@ -26,7 +26,7 @@
         "name": "1. Todo cachorro pode comer frutas no verão?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A maioria dos cães saudáveis pode consumir frutas seguras com moderação, mas filhotes muito novos, cães com estômago sensível ou animais com doenças metabólicas precisam de avaliação veterinária prévia."
+          "text": "A maioria dos cachorros saudáveis pode consumir frutas seguras com moderação, mas filhotes muito novos, cachorros com estômago sensível ou animais com doenças metabólicas precisam de avaliação veterinária prévia."
         }
       },
       {
@@ -34,7 +34,7 @@
         "name": "2. Posso dar a fruta com casca para o cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Depende da fruta. Maçã e pera devem ter a casca muito bem lavada ou retirada se o cão tiver digestão sensível, enquanto melancia, melão e banana devem ter a casca totalmente descartada por serem indigestas ou tóxicas."
+          "text": "Depende da fruta. Maçã e pera devem ter a casca muito bem lavada ou retirada se o cachorro tiver digestão sensível, enquanto melancia, melão e banana devem ter a casca totalmente descartada por serem indigestas ou tóxicas."
         }
       },
       {
@@ -50,7 +50,7 @@
         "name": "4. O que fazer se meu cachorro comer uva por engano?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Entre em contato com um médico-veterinário imediatamente, pois a uva é altamente tóxica para cães e pode comprometer rapidamente a função dos rins."
+          "text": "Entre em contato com um médico-veterinário imediatamente, pois a uva é altamente tóxica para cachorros e pode comprometer rapidamente a função dos rins."
         }
       }
     ]

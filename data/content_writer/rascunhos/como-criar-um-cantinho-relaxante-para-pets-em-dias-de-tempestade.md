@@ -1,7 +1,7 @@
 ---
 titulo: 'Como criar um cantinho relaxante para pets em dias de tempestade: guia prático'
 meta_description: Guia prático e direto para montar um cantinho relaxante para pets
-  em dias de tempestade. Veja como ajudar cães e gatos com medo de trovões.
+  em dias de tempestade. Veja como ajudar cachorros e gatos com medo de trovões.
 data: '2026-10-27'
 status: rascunho_pendente_revisao
 slug: como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade
@@ -24,17 +24,17 @@ O som de trovões e os clarões de raios causam medo em muitos animais de estima
 
 ## Como saber se o meu pet está com medo da tempestade?
 
-Os sinais variam de leves a intensos. Em cães, os mais comuns são tremer, ofegar, andar de um lado para o outro, salivar mais que o normal, latir ou chorar, se esconder, arranhar portas e tentar fugir. Gatos tendem a ser mais discretos: podem se esconder, miar ou uivar demais, ficar inquietos, fazer xixi ou cocô fora da caixa de areia e se lamber em excesso. Se o comportamento muda de repente e não está ligado ao barulho, vale investigar com o veterinário, porque dor e doença também deixam o bicho mais assustado.
+Os sinais variam de leves a intensos. Em cachorros, os mais comuns são tremer, ofegar, andar de um lado para o outro, salivar mais que o normal, latir ou chorar, se esconder, arranhar portas e tentar fugir. Gatos tendem a ser mais discretos: podem se esconder, miar ou uivar demais, ficar inquietos, fazer xixi ou cocô fora da caixa de areia e se lamber em excesso. Se o comportamento muda de repente e não está ligado ao barulho, vale investigar com o veterinário, porque dor e doença também deixam o bicho mais assustado.
 
 ## Escolhendo o local ideal para o refúgio
 
-O primeiro passo é encontrar um cômodo da casa que seja o mais silencioso possível, mais distante do barulho e com poucas janelas ou nenhuma. Banheiros internos, closets e corredores costumam ajudar, porque em geral abafam o som e reduzem a luz dos relâmpagos. Para cães, prefira um local que ele já conhece e no qual se sente à vontade. Para gatos, um quarto com cortinas grossas ou um closet funciona bem, e muitos também gostam de um ponto alto e firme, como o topo de um armário, de onde observam tudo com segurança.
+O primeiro passo é encontrar um cômodo da casa que seja o mais silencioso possível, mais distante do barulho e com poucas janelas ou nenhuma. Banheiros internos, closets e corredores costumam ajudar, porque em geral abafam o som e reduzem a luz dos relâmpagos. Para cachorros, prefira um local que ele já conhece e no qual se sente à vontade. Para gatos, um quarto com cortinas grossas ou um closet funciona bem, e muitos também gostam de um ponto alto e firme, como o topo de um armário, de onde observam tudo com segurança.
 
 Exemplo prático: se a sua lavanderia fica no centro da casa e não tem janelas grandes para a rua, teste colocar a caminha do pet ali. Ambientes internos costumam deixar o som da chuva e dos trovões menos intenso.
 
 ## Montando um ambiente aconchegante e seguro
 
-Depois de escolher o cômodo, é hora de transformar o espaço em uma toca acolhedora. Muitos cães e gatos procuram locais apertados e cobertos quando estão com medo, então vale oferecer essa opção, sem obrigar o animal a usá-la.
+Depois de escolher o cômodo, é hora de transformar o espaço em uma toca acolhedora. Muitos cachorros e gatos procuram locais apertados e cobertos quando estão com medo, então vale oferecer essa opção, sem obrigar o animal a usá-la.
 
 * Use caminhas com bordas altas ou faça uma tenda improvisada com cadeiras e cobertores pesados. Caixa de transporte aberta só funciona se o pet já a conhece e a vê como lugar bom; se ele tem aversão a ela, não use.
 * Forre o espaço com cobertores macios que tenham o cheiro habitual do pet.
@@ -49,13 +49,13 @@ O barulho repentino é um dos principais gatilhos do medo. Para amenizar o impac
 
 * Feche portas e janelas com antecedência, antes que a tempestade comece de fato.
 * Ligue um ventilador, um umidificador ou coloque uma música calma em volume moderado para mascarar o som dos trovões. Combinar dois sons diferentes, como música e ruído de ventilador, em geral cobre melhor o barulho de fora.
-* Ofereça opções de entretenimento que exijam foco, como petiscos recheados, brinquedos de comida ou [melhores brinquedos interativos para cães ansiosos sozinhos](/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos).
+* Ofereça opções de entretenimento que exijam foco, como petiscos recheados, brinquedos de comida ou [melhores brinquedos interativos para cachorros ansiosos sozinhos](/melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos).
 
-Exemplo prático: deixe a televisão ligada na sala ou um ventilador girando no quarto onde o pet está. O ruído constante ajuda a encobrir o som agudo e repentino dos trovões e pode diminuir o susto a cada estrondo. Se o seu pet também sofre com outros tipos de estresse, vale a pena entender mais sobre [ansiedade de separação em cães](/ansiedade-de-separacao-em-caes) para diferenciar os gatilhos.
+Exemplo prático: deixe a televisão ligada na sala ou um ventilador girando no quarto onde o pet está. O ruído constante ajuda a encobrir o som agudo e repentino dos trovões e pode diminuir o susto a cada estrondo. Se o seu pet também sofre com outros tipos de estresse, vale a pena entender mais sobre [ansiedade de separação em cachorros](/ansiedade-de-separacao-em-caes) para diferenciar os gatilhos.
 
 ## O que fazer durante a tempestade
 
-Se possível, fique em casa com o pet. A ausência do tutor tende a aumentar a ansiedade, principalmente em cães que já sofrem quando ficam sozinhos. Se precisar sair, peça a alguém de confiança que o acompanhe.
+Se possível, fique em casa com o pet. A ausência do tutor tende a aumentar a ansiedade, principalmente em cachorros que já sofrem quando ficam sozinhos. Se precisar sair, peça a alguém de confiança que o acompanhe.
 
 * Mantenha a calma e a rotina. O animal percebe o seu estado emocional, e uma postura tranquila ajuda.
 * Deixe o pet escolher onde ficar: debaixo da cama, atrás do sofá ou no banheiro são lugares comuns e, se forem seguros, podem ser respeitados.
@@ -70,9 +70,9 @@ Se possível, fique em casa com o pet. A ausência do tutor tende a aumentar a a
 * Não deixe o pet solto em quintal ou varanda aberta durante o temporal, porque o medo pode levar à fuga.
 * Não dê remédio por conta própria, nem os chamados calmantes naturais, sem orientação profissional.
 
-## Cães e gatos reagem do mesmo jeito?
+## Cachorros e gatos reagem do mesmo jeito?
 
-Não exatamente. Cães costumam demonstrar o medo de forma mais visível, com tremores, latidos e tentativas de fuga, e muitas vezes procuram o tutor. Gatos tendem a sumir: se escondem em lugares apertados ou altos e podem ficar horas sem aparecer. Por isso, o cantinho do cão deve ser acessível e perto de você, enquanto o do gato precisa ter ao menos um esconderijo e, de preferência, um ponto alto. Em ambos, a regra é a mesma: oferecer a opção, não impor.
+Não exatamente. Cachorros costumam demonstrar o medo de forma mais visível, com tremores, latidos e tentativas de fuga, e muitas vezes procuram o tutor. Gatos tendem a sumir: se escondem em lugares apertados ou altos e podem ficar horas sem aparecer. Por isso, o cantinho do cachorro deve ser acessível e perto de você, enquanto o do gato precisa ter ao menos um esconderijo e, de preferência, um ponto alto. Em ambos, a regra é a mesma: oferecer a opção, não impor.
 
 ## Perguntas frequentes
 

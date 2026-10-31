@@ -116,7 +116,7 @@ Outro cuidado silencioso envolve as plantas: muitas espécies comuns em vasos do
 
 **Exemplo prático:** Ajoelhe-se no chão da sala para enxergar o ambiente da altura dos olhos de um filhote; você notará frestas atrás de estantes e fios soltos que passariam despercebidos do alto.
 
-Para aprofundar o assunto, vale ler também [como ensinar filhote de gato a interagir com cães adultos](/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos) e [como socializar filhote de gato](/como-socializar-filhote-de-gato).
+Para aprofundar o assunto, vale ler também [como ensinar filhote de gato a interagir com cachorros adultos](/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos) e [como socializar filhote de gato](/como-socializar-filhote-de-gato).
 
 ## Perguntas frequentes
 

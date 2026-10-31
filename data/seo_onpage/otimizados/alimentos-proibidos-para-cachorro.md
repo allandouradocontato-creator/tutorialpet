@@ -22,11 +22,11 @@ checagens_qualidade:
   descricao: 3/69 frases acima de 35 palavras e 0 parágrafo(s) acima de 130 palavras
     — simplificar.
   trechos:
-  - '37 palavras: "Quem convive com cães sabe bem como funciona a hora da refeição:
+  - '37 palavras: "Quem convive com cachorros sabe bem como funciona a hora da refeição:
     basta um olhar ..."'
   - '45 palavras: "Conhecer a lista de alimentos perigosos é essencial para qualquer
     casa, seja voc..."'
-  - '38 palavras: "Exemplo prático: Se o cão roeu ossos de frango que sobraram do
+  - '38 palavras: "Exemplo prático: Se o cachorro roeu ossos de frango que sobraram do
     almoço e começou ..."'
 titulo_seo: Alimentos proibidos para cachorro
 keyword_density: 0.0035
@@ -61,7 +61,7 @@ imagem_selecionada_em: '2026-10-22T18:29:32+00:00'
 
 # Alimentos proibidos para cachorro
 
-Nenhum cão precisa de comida de gente, e vários alimentos comuns na cozinha brasileira são tóxicos para ele. Abaixo respondemos, em ordem, às dúvidas que os tutores mais fazem sobre o assunto, desde "o que nunca dar" até "o que fazer se ele já comeu".
+Nenhum cachorro precisa de comida de gente, e vários alimentos comuns na cozinha brasileira são tóxicos para ele. Abaixo respondemos, em ordem, às dúvidas que os tutores mais fazem sobre o assunto, desde "o que nunca dar" até "o que fazer se ele já comeu".
 
 ## Quais são os alimentos mais perigosos para o cachorro?
 
@@ -69,27 +69,27 @@ Os mais citados por entidades veterinárias são chocolate, uvas e passas, cebol
 
 ## Por que o chocolate faz mal ao cachorro?
 
-Porque contém teobromina e cafeína, substâncias que o cão elimina muito devagar e que se acumulam no organismo. Elas aceleram o coração e agitam o sistema nervoso, o que explica vômito, tremores, inquietação e, nos casos graves, convulsões. O CFMV tem um alerta específico sobre o tema: [chocolate não é bom pra cachorro](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/).
+Porque contém teobromina e cafeína, substâncias que o cachorro elimina muito devagar e que se acumulam no organismo. Elas aceleram o coração e agitam o sistema nervoso, o que explica vômito, tremores, inquietação e, nos casos graves, convulsões. O CFMV tem um alerta específico sobre o tema: [chocolate não é bom pra cachorro](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/).
 
 Quanto mais escuro e concentrado o chocolate (cacau em pó, chocolate amargo, de culinária), maior o risco, mesmo em porções pequenas. O café e os chás com cafeína entram na mesma conta.
 
-Exemplo prático: a barra esquecida na mesa de centro foi comida. Anote a marca, o tipo e a quantidade aproximada, e ligue para o médico-veterinário antes de os sintomas aparecerem, porque a conduta depende do peso do cão e do tipo de chocolate.
+Exemplo prático: a barra esquecida na mesa de centro foi comida. Anote a marca, o tipo e a quantidade aproximada, e ligue para o médico-veterinário antes de os sintomas aparecerem, porque a conduta depende do peso do cachorro e do tipo de chocolate.
 
 ## Cachorro pode comer uva ou passa?
 
-Não. Uvas e passas podem causar insuficiência renal aguda em alguns cães, e ainda não se sabe qual substância é responsável nem a partir de que quantidade o risco aparece. Um cão pode comer algumas sem problema e outro adoecer com poucas, por isso a regra é não arriscar.
+Não. Uvas e passas podem causar insuficiência renal aguda em alguns cachorros, e ainda não se sabe qual substância é responsável nem a partir de que quantidade o risco aparece. Um cachorro pode comer algumas sem problema e outro adoecer com poucas, por isso a regra é não arriscar.
 
 Cuidado com as passas escondidas em panetone, bolo, farofa e mistura de castanhas, comuns nas festas de fim de ano. Sinais como apatia, vômito e perda súbita de apetite pedem atendimento veterinário, onde exames de sangue avaliam os rins.
 
 ## Cebola e alho fazem mal mesmo em pouca quantidade?
 
-Fazem, principalmente quando o cão come com frequência. Os compostos sulfurados da cebola e do alho, crus, cozidos ou em pó, danificam os glóbulos vermelhos e podem causar anemia. Os sinais incluem gengivas pálidas, urina escura, fraqueza e cansaço fácil, e podem aparecer só depois de dias.
+Fazem, principalmente quando o cachorro come com frequência. Os compostos sulfurados da cebola e do alho, crus, cozidos ou em pó, danificam os glóbulos vermelhos e podem causar anemia. Os sinais incluem gengivas pálidas, urina escura, fraqueza e cansaço fácil, e podem aparecer só depois de dias.
 
 O perigo costuma estar escondido: caldo pronto, tempero em cubo, molho, carne marinada e sobra de panela têm alho e cebola. Por isso "só uma colherzinha da comida de casa" não é inofensiva.
 
 ## O que é xilitol e por que é tão perigoso?
 
-Xilitol é um adoçante usado em balas, gomas de mascar, pastas de dente e alguns doces e produtos "zero açúcar". No cão, ele causa queda brusca de açúcar no sangue e pode lesar o fígado. É emergência: leve o cão ao veterinário imediatamente, sem esperar sintomas. Leia o rótulo de tudo que o cachorro possa alcançar, inclusive pasta de amendoim "fit", que em alguns produtos leva o adoçante.
+Xilitol é um adoçante usado em balas, gomas de mascar, pastas de dente e alguns doces e produtos "zero açúcar". No cachorro, ele causa queda brusca de açúcar no sangue e pode lesar o fígado. É emergência: leve o cachorro ao veterinário imediatamente, sem esperar sintomas. Leia o rótulo de tudo que o cachorro possa alcançar, inclusive pasta de amendoim "fit", que em alguns produtos leva o adoçante.
 
 ## Abacate e macadâmia também são proibidos?
 
@@ -97,9 +97,9 @@ Sim. O abacate tem persina, que pode causar vômito e diarreia, e o caroço gran
 
 ## Cachorro pode roer osso?
 
-Osso cozido não. O cozimento deixa o osso quebradiço, e as lascas podem perfurar o esôfago, o estômago ou o intestino, além de causar obstrução. Osso de frango é especialmente perigoso. Mesmo os crus têm risco de dente quebrado e engasgo, então o mais seguro é conversar com o veterinário sobre mordedores adequados ao porte do cão.
+Osso cozido não. O cozimento deixa o osso quebradiço, e as lascas podem perfurar o esôfago, o estômago ou o intestino, além de causar obstrução. Osso de frango é especialmente perigoso. Mesmo os crus têm risco de dente quebrado e engasgo, então o mais seguro é conversar com o veterinário sobre mordedores adequados ao porte do cachorro.
 
-Exemplo prático: o cão pegou os ossos de frango do almoço no lixo. Se ele salivar muito, vomitar, parecer com dor na barriga ou ficar prostrado, vá ao veterinário na hora.
+Exemplo prático: o cachorro pegou os ossos de frango do almoço no lixo. Se ele salivar muito, vomitar, parecer com dor na barriga ou ficar prostrado, vá ao veterinário na hora.
 
 ## Álcool, massa crua e outros alimentos também entram na lista?
 
@@ -109,7 +109,7 @@ Entram. Álcool, inclusive em bolo e sobremesa, é tóxico mesmo em pouca quanti
 
 Siga esta ordem:
 
-1. Afaste o cão do alimento e recolha o que sobrou, para evitar nova ingestão.
+1. Afaste o cachorro do alimento e recolha o que sobrou, para evitar nova ingestão.
 2. Anote o que ele comeu, quanto, quando e o peso dele.
 3. Ligue já para o veterinário de confiança ou para uma clínica 24 horas, informando esses dados.
 4. Guarde a embalagem ou o rótulo para mostrar ao profissional.
@@ -149,4 +149,4 @@ Não. Leite não neutraliza toxinas e pode causar diarreia. Só o veterinário p
 
 ## Para fechar
 
-A regra que resolve quase tudo: na dúvida, não ofereça e, se já comeu, ligue para o veterinário antes de esperar sintomas. Com lixo fechado, doces fora de alcance e visitas avisadas, a maioria dos sustos nunca acontece. Continue explorando o blog para mais guias práticos de saúde e rotina do seu cão.
+A regra que resolve quase tudo: na dúvida, não ofereça e, se já comeu, ligue para o veterinário antes de esperar sintomas. Com lixo fechado, doces fora de alcance e visitas avisadas, a maioria dos sustos nunca acontece. Continue explorando o blog para mais guias práticos de saúde e rotina do seu cachorro.

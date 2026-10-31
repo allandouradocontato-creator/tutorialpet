@@ -75,15 +75,15 @@ Porque a ração completa e balanceada leva todos os nutrientes na proporção c
 
 ## Como descobrir quantas calorias o meu pet precisa por dia?
 
-O jeito mais seguro é perguntar ao veterinário. Para ter uma ideia, a estimativa usada na nutrição é a energia de repouso (70 × peso em kg elevado a 0,75), multiplicada por um fator de atividade. Exemplo: um cão adulto castrado de 10 kg gasta, em média, cerca de 600 kcal por dia; um gato adulto castrado de 4 kg, algo perto de 200 a 250 kcal. São números de referência, e a embalagem da ração também traz uma tabela de porções.
+O jeito mais seguro é perguntar ao veterinário. Para ter uma ideia, a estimativa usada na nutrição é a energia de repouso (70 × peso em kg elevado a 0,75), multiplicada por um fator de atividade. Exemplo: um cachorro adulto castrado de 10 kg gasta, em média, cerca de 600 kcal por dia; um gato adulto castrado de 4 kg, algo perto de 200 a 250 kcal. São números de referência, e a embalagem da ração também traz uma tabela de porções.
 
 ## Quanto isso dá em petiscos?
 
 Exemplo prático:
 
-- **Cão de 10 kg, cerca de 600 kcal/dia:** até 60 kcal de petiscos.
+- **Cachorro de 10 kg, cerca de 600 kcal/dia:** até 60 kcal de petiscos.
 - **Gato de 4 kg, cerca de 220 kcal/dia:** até 22 kcal de petiscos, o que é bem pouco.
-- **Cão de porte grande com 1000 kcal/dia:** até 100 kcal.
+- **Cachorro de porte grande com 1000 kcal/dia:** até 100 kcal.
 
 Se você oferece petiscos, a ração do dia deve ser reduzida na mesma proporção, para não passar do total.
 
@@ -107,7 +107,7 @@ Corte em pedaços do tamanho de um grão de feijão ou menores, e use poucos tip
 
 ## Quanto desconto na ração?
 
-Se os petiscos do dia somarem 50 kcal, tire cerca de 50 kcal da refeição. Se você usa porções em copo, converta para gramas e pese. Para quem mistura ração seca e úmida, veja [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente) e [como organizar a rotina de alimentação de cães e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos).
+Se os petiscos do dia somarem 50 kcal, tire cerca de 50 kcal da refeição. Se você usa porções em copo, converta para gramas e pese. Para quem mistura ração seca e úmida, veja [como misturar ração seca e úmida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente) e [como organizar a rotina de alimentação de cachorros e gatos juntos](/como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos).
 
 ## O que fazer com os petiscos de casa que eu já dou sem contar?
 
@@ -115,15 +115,15 @@ Anote por uma semana tudo que o pet comeu fora da tigela. Muitos tutores se surp
 
 ## Como saber se estou exagerando?
 
-O peso que sobe aos poucos, a barriga que cresce, a dificuldade de sentir as costelas e a recusa da ração (porque ele espera o petisco) são sinais. Para checar o corpo do cão em casa, veja [como saber se o cachorro está acima do peso ideal](/como-saber-se-o-cachorro-esta-acima-do-peso-ideal). Fezes amolecidas e vômito também podem indicar excesso ou intolerância; suspenda o petisco e converse com o veterinário.
+O peso que sobe aos poucos, a barriga que cresce, a dificuldade de sentir as costelas e a recusa da ração (porque ele espera o petisco) são sinais. Para checar o corpo do cachorro em casa, veja [como saber se o cachorro está acima do peso ideal](/como-saber-se-o-cachorro-esta-acima-do-peso-ideal). Fezes amolecidas e vômito também podem indicar excesso ou intolerância; suspenda o petisco e converse com o veterinário.
 
-## Gato e cão podem ter a mesma porção?
+## Gato e cachorro podem ter a mesma porção?
 
-Não. Gatos têm necessidade calórica menor, então qualquer agrado é proporcionalmente maior. Alguns alimentos seguros para cães não são para gatos. Veja ideias em [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato) e a orientação da [WSAVA para gatos](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-cat-v2.pdf).
+Não. Gatos têm necessidade calórica menor, então qualquer agrado é proporcionalmente maior. Alguns alimentos seguros para cachorros não são para gatos. Veja ideias em [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato) e a orientação da [WSAVA para gatos](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-cat-v2.pdf).
 
 ## E se o pet tem doença, alergia ou está em dieta?
 
-Cães e gatos com diabetes, doença renal, pancreatite, alergia ou sobrepeso precisam de orientação individual, porque o petisco pode piorar o quadro. Pergunte antes de oferecer qualquer coisa nova.
+Cachorros e gatos com diabetes, doença renal, pancreatite, alergia ou sobrepeso precisam de orientação individual, porque o petisco pode piorar o quadro. Pergunte antes de oferecer qualquer coisa nova.
 
 ## Perguntas frequentes
 

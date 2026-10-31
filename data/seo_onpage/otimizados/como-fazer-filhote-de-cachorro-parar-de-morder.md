@@ -62,28 +62,28 @@ imagem_selecionada_em: '2026-10-14T22:47:33+00:00'
 
 Quem convive com um pequeno canino sabe bem o quanto aqueles dentinhos afiados parecem agulhas. Essa fase de mordidas constantes costuma testar a paciência de qualquer família, mas entender o motivo por trás desse comportamento é o primeiro passo para lidar com ele da melhor maneira possível.
 
-Os cães pequenos exploram o mundo através da boca. Assim como as crianças humanas levam objetos às mãos para sentir texturas, os cães usam os dentes e a língua. Além disso, a troca dos dentes de leite costuma acontecer em média entre o terceiro e o sexto mês de vida, gerando coceira e incômodo na gengiva. Ajudar o animal nessa fase exige paciência, consistência e orientação do médico-veterinário para descartar qualquer problema de saúde ou dor excessiva.
+Os cachorros pequenos exploram o mundo através da boca. Assim como as crianças humanas levam objetos às mãos para sentir texturas, os cachorros usam os dentes e a língua. Além disso, a troca dos dentes de leite costuma acontecer em média entre o terceiro e o sexto mês de vida, gerando coceira e incômodo na gengiva. Ajudar o animal nessa fase exige paciência, consistência e orientação do médico-veterinário para descartar qualquer problema de saúde ou dor excessiva.
 
 ## Por que o filhote morde tanto?
 
-Entender a fisiologia e o comportamento canino ajuda a evitar frustrações. Na ninhada, os irmãos aprendem limites através da interação: quando um morde o outro forte demais, o colega solta um ganido e interrompe a brincadeira. É assim que o cão entende a força da própria mordida. 
+Entender a fisiologia e o comportamento canino ajuda a evitar frustrações. Na ninhada, os irmãos aprendem limites através da interação: quando um morde o outro forte demais, o colega solta um ganido e interrompe a brincadeira. É assim que o cachorro entende a força da própria mordida. 
 
-Quando chegam à nova casa, os animais precisam transferir esse aprendizado para os humanos. Muitas vezes, a nossa reação — gritar, puxar a mão rapidamente ou rir — faz com que o cão entenda a situação como um jogo divertido. Para evitar que isso vire um hábito permanente, vale a pena conferir dicas sobre os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) e organizar o ambiente com os acessórios certos descritos no guia de [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro).
+Quando chegam à nova casa, os animais precisam transferir esse aprendizado para os humanos. Muitas vezes, a nossa reação — gritar, puxar a mão rapidamente ou rir — faz com que o cachorro entenda a situação como um jogo divertido. Para evitar que isso vire um hábito permanente, vale a pena conferir dicas sobre os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) e organizar o ambiente com os acessórios certos descritos no guia de [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro).
 
 ### O papel da energia acumulada
-Cães cheios de energia precisam de estímulos mentais e físicos adequados. Um filhote entediado frequentemente recorre às pernas, tornozelos e mãos dos tutores como forma de chamar atenção ou gastar o excesso de disposição.
+Cachorros cheios de energia precisam de estímulos mentais e físicos adequados. Um filhote entediado frequentemente recorre às pernas, tornozelos e mãos dos tutores como forma de chamar atenção ou gastar o excesso de disposição.
 
 ### Exemplo prático:
-Se o cãozinho vier correndo morder a sua barra da calça, em vez de correr ou gritar (o que simula uma presa fugindo), fique totalmente imóvel, cruze os braços e vire de costas. Assim que ele se acalmar e parar de insistir, ofereça um brinquedo adequado e elogie.
+Se o cachorrinho vier correndo morder a sua barra da calça, em vez de correr ou gritar (o que simula uma presa fugindo), fique totalmente imóvel, cruze os braços e vire de costas. Assim que ele se acalmar e parar de insistir, ofereça um brinquedo adequado e elogie.
 
 ## Passos práticos para redirecionar a mordida
 
 A melhor estratégia nunca é a punição física, que apenas gera medo ou agressividade defensiva, mas sim o redirecionamento. O animal precisa aprender o que pode e o que não pode morder.
 
 1. **Tenha brinquedos estratégicos por perto:** Mantenha mordedores de borracha ou corda acessíveis em vários cômodos da casa.
-2. **Intercepte antes do contato:** Ao ver que o cão vai abocanhar sua mão, coloque o brinquedo na frente da boca dele com calma.
+2. **Intercepte antes do contato:** Ao ver que o cachorro vai abocanhar sua mão, coloque o brinquedo na frente da boca dele com calma.
 3. **Recompense o acerto:** Quando ele morder o objeto correto, faça festa, use tom de voz animado e dê um petisco.
-4. **Interrompa a interação:** Se os dentes encerrarem na sua pele, diga um "não" firme, porém sem gritar, e ignore o cão por alguns minutos saindo do cômodo.
+4. **Interrompa a interação:** Se os dentes encerrarem na sua pele, diga um "não" firme, porém sem gritar, e ignore o cachorro por alguns minutos saindo do cômodo.
 
 ### Exemplo prático:
 Ao sentar no sofá para assistir à TV, mantenha um brinquedo recheado e gelado (preparado com alimentos permitidos) no colo. Se o filhote tentar morder seus dedos, direcione o brinquedo para a boca dele, transformando o foco da mordida para o objeto liberado.
@@ -92,9 +92,9 @@ Ao sentar no sofá para assistir à TV, mantenha um brinquedo recheado e gelado 
 
 Mesmo com a melhor das intenções, alguns hábitos cotidianos podem confundir a cabeça do filhote e prolongar a fase das mordidas.
 
-* **Usar as mãos como brinquedo:** Brigar com o cão usando os dedos para provocá-lo ensina que a pele humana é um alvo legítimo.
+* **Usar as mãos como brinquedo:** Brigar com o cachorro usando os dedos para provocá-lo ensina que a pele humana é um alvo legítimo.
 * **Brincadeiras de cabo de guerra agressivas:** Puxar com força excessiva pode deixar o animal muito excitado e levá-lo a perder o controle dos próprios impulsos.
-* **Inconsistência nas regras:** Se um membro da família deixa o cão morder a mão e outro briga, o animal não entende o limite.
+* **Inconsistência nas regras:** Se um membro da família deixa o cachorro morder a mão e outro briga, o animal não entende o limite.
 
 Para garantir que o crescimento ocorra de forma saudável, lembre-se também de cuidar da nutrição oferecendo uma [ração para filhote de cachorro](/racao-para-filhote-de-cachorro) de boa qualidade e, no futuro, manter a saúde bucal em dia aprendendo [como escovar os dentes do cachorro](/como-escovar-os-dentes-do-cachorro).
 
@@ -119,7 +119,7 @@ Em complemento a este guia, o Tutorial Pet também explica [como ensinar cachorr
 * **Posso dar tapinhas no focinho quando ele morder?**
   Não. Punições físicas prejudicam o vínculo de confiança e podem ensinar o animal a ter medo ou a morder por defesa.
 * **O que fazer se o filhote morder muito forte as crianças?**
-  Ensine as crianças a cruzarem os braços e ficarem estátuas caso o cão venha em direção a elas, além de supervisionar sempre todas as interações.
+  Ensine as crianças a cruzarem os braços e ficarem estátuas caso o cachorro venha em direção a elas, além de supervisionar sempre todas as interações.
 * **Brinquedos congelados ajudam nessa fase?**
   Sim. Itens gelados ajudam a aliviar o incômodo e a coceira na gengiva durante o período de troca dos dentes.
 

@@ -17,7 +17,7 @@ revisao_profunda: true
 
 # Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático
 
-Oferecer petiscos naturais é uma excelente forma de enriquecer a rotina e fortalecer o vínculo com cães e gatos, mas exagerar nas porções pode desbalancear a nutrição diária. Entender o limite calórico e nutricional evita que o pet ganhe peso excessivo ou desenvolva problemas de saúde.
+Oferecer petiscos naturais é uma excelente forma de enriquecer a rotina e fortalecer o vínculo com cachorros e gatos, mas exagerar nas porções pode desbalancear a nutrição diária. Entender o limite calórico e nutricional evita que o pet ganhe peso excessivo ou desenvolva problemas de saúde.
 
 ## Por que a regra dos 10% é o padrão de ouro para petiscos
 
@@ -28,7 +28,7 @@ Quando passamos desse limite, a dieta perde o equilíbrio. Um pedaço de queijo 
 Para entender melhor como estruturar a rotina de alimentação, vale a pena conferir [como misturar racao seca e umida para cachorro corretamente](/como-misturar-racao-seca-e-umida-para-cachorro-corretamente), o que ajuda a entender a base alimentar.
 
 ### Exemplo prático:
-Se um cão adulto consome em média 1000 calorias por dia em sua ração habitual, o limite máximo para petiscos naturais deve ser de 100 calorias diárias. Se você optar por oferecer cenoura cozida, que possui baixa densidade calórica, o volume permitido será bem maior do que se escolher cubinhos de queijo magro.
+Se um cachorro adulto consome em média 1000 calorias por dia em sua ração habitual, o limite máximo para petiscos naturais deve ser de 100 calorias diárias. Se você optar por oferecer cenoura cozida, que possui baixa densidade calórica, o volume permitido será bem maior do que se escolher cubinhos de queijo magro.
 
 ## Como calcular as calorias dos alimentos naturais
 
@@ -43,7 +43,7 @@ Se o seu gato adora um pedacinho de frango cozido sem tempero, pese a quantidade
 
 Petiscos são ferramentas fundamentais para reforçar comportamentos positivos, mas o uso frequente durante adestramentos exige estratégia. Se você passa meia hora ensinando comandos e usando pedaços de comida a cada acerto, o animal pode ingerir metade das suas calorias diárias apenas durante a sessão de treino.
 
-Para evitar esse problema, a dica é fracionar os petiscos naturais em pedaços microscópicos. Para cães de pequeno porte ou gatos, um cubo de carne do tamanho de um grão de feijão já cumpre o papel de recompensa sem sobrecarregar o metabolismo.
+Para evitar esse problema, a dica é fracionar os petiscos naturais em pedaços microscópicos. Para cachorros de pequeno porte ou gatos, um cubo de carne do tamanho de um grão de feijão já cumpre o papel de recompensa sem sobrecarregar o metabolismo.
 
 ### Exemplo prático:
 Ao treinar obediência, corte um pedaço de peito de frango cozido em dezenas de mini cubos. Assim, o pet recebe dezenas de recompensas motivadoras, mas o peso total consumido ao final da sessão não passa de algumas gramas, preservando a saúde e mantendo o foco no aprendizado.
@@ -68,9 +68,9 @@ Consulte listas de alimentos permitidos e proibidos e confirme sempre com o méd
 - **Preciso descontar a ração se der petiscos naturais?**
 Sim, caso a quantidade de petiscos ultrapasse pequenos mimos e o pet tenha tendência a engordar, é fundamental reduzir levemente a porção da ração.
 
-- **Gatos podem comer a mesma quantidade de petiscos naturais que cães?**
+- **Gatos podem comer a mesma quantidade de petiscos naturais que cachorros?**
 Não. Como os gatos geralmente têm menor porte e necessidades calóricas bem menores, a porção de petiscos deve ser proporcionalmente muito menor.
 
 ## Para fechar
 
-Calcular a quantidade certa de petiscos naturais na dieta diária é um ato de cuidado que garante longevidade, disposição e um peso saudável para cães e gatos. Com pequenas adaptações e atenção às porções, você agrada o seu companheiro sem compromisso nutricional. Continue explorando nosso blog para descobrir mais dicas práticas sobre o universo pet e cuidar ainda melhor de quem te faz companhia todos os dias.
+Calcular a quantidade certa de petiscos naturais na dieta diária é um ato de cuidado que garante longevidade, disposição e um peso saudável para cachorros e gatos. Com pequenas adaptações e atenção às porções, você agrada o seu companheiro sem compromisso nutricional. Continue explorando nosso blog para descobrir mais dicas práticas sobre o universo pet e cuidar ainda melhor de quem te faz companhia todos os dias.
