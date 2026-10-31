@@ -16,7 +16,7 @@ autor: ''
 atualizado_em: '2026-10-30'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-30T22:24:55+00:00'
+revisado_em: '2026-10-31T10:33:58+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -32,7 +32,7 @@ checagens_qualidade:
 titulo_seo: Como identificar sinais de estresse em cães multicaes em
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-30T22:24:55+00:00'
+otimizado_em: '2026-10-31T10:33:58+00:00'
 checagens_seo:
 - título original (85 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -52,6 +52,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno.jsonld.json
+imagem_capa: imagens/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno.jpg
+imagem_fonte: pexels
+imagem_fotografo: Jozef Fehér
+imagem_fotografo_url: https://www.pexels.com/@jozef-feher-356581
+imagem_url_pagina: https://www.pexels.com/photo/a-cute-dalmatian-dog-looking-14336463/
+imagem_selecionada_em: '2026-10-31T10:33:58+00:00'
 ---
 
 # Como identificar sinais de estresse em cães multicaes em espaco pequeno: guia prático

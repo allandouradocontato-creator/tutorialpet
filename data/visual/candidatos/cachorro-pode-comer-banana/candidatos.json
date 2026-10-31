@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7678414,
+    "url_download": "https://images.pexels.com/photos/7678414/pexels-photo-7678414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-border-collie-sitting-on-brown-wicker-armchair-7678414/",
+    "fotografo": "KoolShooters",
+    "fotografo_url": "https://www.pexels.com/@koolshooters",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "cute dog eating banana",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/cachorro-pode-comer-banana/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7678421,
+    "url_download": "https://images.pexels.com/photos/7678421/pexels-photo-7678421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-border-collie-sitting-on-brown-wicker-armchair-7678421/",
+    "fotografo": "KoolShooters",
+    "fotografo_url": "https://www.pexels.com/@koolshooters",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "cute dog eating banana",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/cachorro-pode-comer-banana/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13386204,
+    "url_download": "https://images.pexels.com/photos/13386204/pexels-photo-13386204.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-monkey-on-brown-rock-13386204/",
+    "fotografo": "Eyup  Sayar",
+    "fotografo_url": "https://www.pexels.com/@eyup-sayar-290427017",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute dog eating banana",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/cachorro-pode-comer-banana/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 321552,
+    "url_download": "https://images.pexels.com/photos/321552/pexels-photo-321552.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-monkey-321552/",
+    "fotografo": "Atlantic Ambience",
+    "fotografo_url": "https://www.pexels.com/@freestockpro",
+    "largura": 4256,
+    "altura": 2832,
+    "query": "cute dog eating banana",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/cachorro-pode-comer-banana/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20807036,
+    "url_download": "https://images.pexels.com/photos/20807036/pexels-photo-20807036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-down-and-biting-toy-20807036/",
+    "fotografo": "Rob Bach",
+    "fotografo_url": "https://www.pexels.com/@rob-bach-2256873",
+    "largura": 5351,
+    "altura": 3567,
+    "query": "happy dog with banana close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/cachorro-pode-comer-banana/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30586500,
+    "url_download": "https://images.pexels.com/photos/30586500/pexels-photo-30586500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-happy-dog-outdoors-30586500/",
+    "fotografo": "Fernanda Leticia",
+    "fotografo_url": "https://www.pexels.com/@fernanda-leticia-536417725",
+    "largura": 2560,
+    "altura": 1706,
+    "query": "happy dog with banana close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/cachorro-pode-comer-banana/5.jpg"
+  }
+]

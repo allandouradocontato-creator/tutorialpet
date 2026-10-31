@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

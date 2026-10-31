@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-10-30'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-10-30T22:24:55+00:00'
+revisado_em: '2026-10-31T10:32:57+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -27,7 +27,7 @@ checagens_qualidade:
 titulo_seo: Quais frutas cachorro pode comer no verao com seguranca
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-10-30T22:24:55+00:00'
+otimizado_em: '2026-10-31T10:32:57+00:00'
 checagens_seo:
 - título original (69 caracteres) excede o recomendado para <title> — gerado 'titulo_seo'
   truncado para uso na tag de página, H1 do artigo mantido intacto.
@@ -47,6 +47,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca.jsonld.json
+imagem_capa: imagens/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca.jpg
+imagem_fonte: pexels
+imagem_fotografo: Barnabas Davoti
+imagem_fotografo_url: https://www.pexels.com/@barnabas-davoti-31615494
+imagem_url_pagina: https://www.pexels.com/photo/golden-retriever-lying-on-green-grass-field-11106504/
+imagem_selecionada_em: '2026-10-31T10:32:58+00:00'
 ---
 
 # Quais frutas cachorro pode comer no verao com seguranca: guia prático

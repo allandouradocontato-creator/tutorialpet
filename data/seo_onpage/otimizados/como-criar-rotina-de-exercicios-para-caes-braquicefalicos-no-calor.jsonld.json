@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como criar rotina de exercicios para caes braquicefalicos no calor: guia prático",
+    "description": "Como criar rotina de exercicios para caes braquicefalicos no calor: guia prático. > Este conteúdo é informativo e não substitui a consulta com um...",
+    "datePublished": "2026-10-25",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar coleira de pescoço em cães braquicefálicos no calor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Qualquer pressão no pescoço pode comprimir ainda mais a traqueia e dificultar a respiração. Utilize sempre um modelo adequado, conforme orientações em [coleira ou peitoral para cachorro](/coleira-ou-peitoral-para-cachorro), dando preferência absoluta ao peitoral antitração que distribui a força pelo tórax.  *   **Banho gelado resolve o calor do cão braquicefálico?**     Água muito gelada causa choque térmico. O ideal é usar água em temperatura ambiente para umedecer levemente a barriga e as patinhas, ou seguir as dicas de [como evitar choque termico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes).  *   **Quanto tempo deve durar o passeio no calor?**     O tempo deve ser reduzido pela metade ou até mais. Em vez de trinta minutos, faça caminhadas leves de dez a quinze minutos, sempre monitorando o ritmo e parando na sombra.  *   **Posso molhar o focinho do cachorro para refrescar?**     Sim, mas com cuidado para não deixar a água entrar no nariz ou na boca de forma abrupta. Um pano úmido na cabeça, na nuca e na barriga ajuda bastante a baixar a temperatura corporal com segurança."
+        }
+      }
+    ]
+  }
+}

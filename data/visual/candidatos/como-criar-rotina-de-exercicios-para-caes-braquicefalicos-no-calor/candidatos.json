@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 34593299,
+    "url_download": "https://images.pexels.com/photos/34593299/pexels-photo-34593299.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-pug-panting-in-summer-sunlight-34593299/",
+    "fotografo": "Davide Negro",
+    "fotografo_url": "https://www.pexels.com/@davide-negro-2157018402",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "pug resting panting close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7788864,
+    "url_download": "https://images.pexels.com/photos/7788864/pexels-photo-7788864.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/pug-puppy-lying-on-the-floorboards-7788864/",
+    "fotografo": "Ivan Babydov",
+    "fotografo_url": "https://www.pexels.com/@babydov",
+    "largura": 5079,
+    "altura": 3386,
+    "query": "pug resting panting close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5825484,
+    "url_download": "https://images.pexels.com/photos/5825484/pexels-photo-5825484.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/pug-on-floor-5825484/",
+    "fotografo": "Michelle Middleton",
+    "fotografo_url": "https://www.pexels.com/@michelle-middleton-3910175",
+    "largura": 4592,
+    "altura": 3448,
+    "query": "pug resting panting close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34593301,
+    "url_download": "https://images.pexels.com/photos/34593301/pexels-photo-34593301.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/happy-pug-dog-on-a-bright-sunny-day-34593301/",
+    "fotografo": "Davide Negro",
+    "fotografo_url": "https://www.pexels.com/@davide-negro-2157018402",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "pug resting panting close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 347687,
+    "url_download": "https://images.pexels.com/photos/347687/pexels-photo-347687.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-of-tan-dog-lying-on-sofa-347687/",
+    "fotografo": "Torsten Dettlaff",
+    "fotografo_url": "https://www.pexels.com/@tdcat",
+    "largura": 5463,
+    "altura": 3642,
+    "query": "pug resting panting close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10497114,
+    "url_download": "https://images.pexels.com/photos/10497114/pexels-photo-10497114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-of-french-bulldog-on-blur-background-10497114/",
+    "fotografo": "준섭 윤",
+    "fotografo_url": "https://www.pexels.com/@107012008",
+    "largura": 4233,
+    "altura": 3200,
+    "query": "french bulldog breathing heavily portrait",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor/5.jpg"
+  }
+]

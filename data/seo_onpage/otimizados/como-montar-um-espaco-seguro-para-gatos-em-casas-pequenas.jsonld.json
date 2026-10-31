@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como montar um espaco seguro para gatos em casas pequenas: guia prático",
+    "description": "Como montar um espaco seguro para gatos em casas pequenas: guia prático. Quando montei a primeira casa com meu gato em um apartamento de menos de 40...",
+    "datePublished": "2026-10-24",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Gato sofre por viver em apartamento muito pequeno?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, desde que o ambiente seja enriquecido com rotas altas, brinquedos interativos e rotinas diárias de interação com o tutor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantas caixas de areia preciso ter em uma casa pequena?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A indicação habitual costuma ser o número de gatos mais um. Para quem tem um único felino, ter pelo menos uma caixa grande e bem higienizada (ou duas menores em locais diferentes) costuma atender bem."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar a janela só na fresta se não tiver tela?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nunca. Gatos têm anatomia flexível e conseguem passar por frestas incrivelmente estreitas quando focados em um pássaro ou inseto. A tela de proteção é essencial."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se o meu gato está estressado com o espaço?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sinais como fazer xixi fora da caixa, lamber a barriga até arrancar pelos ou miados excessivos à noite indicam desconforto. Se notar esses comportamentos, converse com um médico-veterinário para descartar dores físicas e avaliar o bem-estar da rotina."
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cachorro pode comer banana: guia prático",
+    "description": "Descubra se cachorro pode comer banana, a quantidade segura por porte e o passo a passo fácil para oferecer essa fruta deliciosa hoje mesmo.",
+    "datePublished": "2026-10-30",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/cachorro-pode-comer-banana",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/cachorro-pode-comer-banana"
+    },
+    "image": "https://tutorialpet.com.br/imagens/cachorro-pode-comer-banana.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Banana verde faz mal para o cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é tóxica, mas é muito rica em amido resistente e amarga. Ela costuma travar o intestino, causar gases incômodos e empanturrar o estômago do cão. Prefira frutas maduras."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhote de cachorro pode comer banana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, desde que já tenha desmamado e esteja comendo ração sólida com regularidade. Sirva apenas uma lasquinha minúscula para avaliar a adaptação do estômago dele."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Banana ajuda cachorro com diarreia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As fibras solúveis podem ajudar a encorpar as fezes em casos leves, mas se o cão estiver com diarreia persistente, não tente tratar com frutas. Leve-o ao médico-veterinário para investigar a causa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cachorro diabético pode comer banana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Geralmente não é recomendado, pois a fruta concentra açúcares simples (frutose) de rápida absorção. Consulte sempre o veterinário responsável antes de oferecer frutas doces a animais diabéticos."
+        }
+      }
+    ]
+  }
+}

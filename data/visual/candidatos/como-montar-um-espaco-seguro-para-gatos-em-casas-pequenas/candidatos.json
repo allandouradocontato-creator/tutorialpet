@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7725639,
+    "url_download": "https://images.pexels.com/photos/7725639/pexels-photo-7725639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-tabby-cat-in-close-up-photography-7725639/",
+    "fotografo": "Arina Krasnikova",
+    "fotografo_url": "https://www.pexels.com/@arina-krasnikova",
+    "largura": 4000,
+    "altura": 2670,
+    "query": "cat resting alone indoors",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35224529,
+    "url_download": "https://images.pexels.com/photos/35224529/pexels-photo-35224529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-gray-cat-relaxing-indoors-on-colorful-blanket-35224529/",
+    "fotografo": "Rino Adamo",
+    "fotografo_url": "https://www.pexels.com/@rinoadamo",
+    "largura": 9026,
+    "altura": 5156,
+    "query": "cat resting alone indoors",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39604091,
+    "url_download": "https://images.pexels.com/photos/39604091/pexels-photo-39604091.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cozy-black-and-white-cat-relaxing-in-bed-39604091/",
+    "fotografo": "Jelena Kazak",
+    "fotografo_url": "https://www.pexels.com/@selena1965",
+    "largura": 3900,
+    "altura": 2600,
+    "query": "cat resting alone indoors",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40143604,
+    "url_download": "https://images.pexels.com/photos/40143604/pexels-photo-40143604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calico-cat-relaxing-indoors-on-a-bed-40143604/",
+    "fotografo": "Ayşegül  Aytören",
+    "fotografo_url": "https://www.pexels.com/@aysegul-aytoren-46790226",
+    "largura": 5719,
+    "altura": 4160,
+    "query": "cat resting alone indoors",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33585484,
+    "url_download": "https://images.pexels.com/photos/33585484/pexels-photo-33585484.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-gray-tabby-cat-lounging-by-the-window-33585484/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "cat resting alone indoors",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4386125,
+    "url_download": "https://images.pexels.com/photos/4386125/pexels-photo-4386125.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-fluffy-cat-on-white-background-4386125/",
+    "fotografo": "Mathias Reding",
+    "fotografo_url": "https://www.pexels.com/@matreding",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "isolated cat on white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas/5.jpg"
+  }
+]
