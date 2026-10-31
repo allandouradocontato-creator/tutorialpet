@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 14116529,
+    "url_download": "https://images.pexels.com/photos/14116529/pexels-photo-14116529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-curious-dog-14116529/",
+    "fotografo": "Valeria Boltneva",
+    "fotografo_url": "https://www.pexels.com/@valeriya",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog pulling leash outdoors close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13228217,
+    "url_download": "https://images.pexels.com/photos/13228217/pexels-photo-13228217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-brown-dog-13228217/",
+    "fotografo": "Artem Makarov",
+    "fotografo_url": "https://www.pexels.com/@artem-makarov-289670876",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog pulling leash outdoors close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14174177,
+    "url_download": "https://images.pexels.com/photos/14174177/pexels-photo-14174177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-brown-dog-14174177/",
+    "fotografo": "Anton Kudryashov",
+    "fotografo_url": "https://www.pexels.com/@anton-kudryashov-118639843",
+    "largura": 6016,
+    "altura": 4000,
+    "query": "dog pulling leash outdoors close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11710885,
+    "url_download": "https://images.pexels.com/photos/11710885/pexels-photo-11710885.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-dogs-11710885/",
+    "fotografo": "Dmitry",
+    "fotografo_url": "https://www.pexels.com/@dmitry-208341916",
+    "largura": 4438,
+    "altura": 4000,
+    "query": "dog pulling leash outdoors close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12506580,
+    "url_download": "https://images.pexels.com/photos/12506580/pexels-photo-12506580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-dog-12506580/",
+    "fotografo": "王 俊瑋",
+    "fotografo_url": "https://www.pexels.com/@1644428",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog pulling leash outdoors close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10738351,
+    "url_download": "https://images.pexels.com/photos/10738351/pexels-photo-10738351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-pomeranian-on-dirt-ground-10738351/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cute dog walking solo street",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/5.jpg"
+  }
+]
