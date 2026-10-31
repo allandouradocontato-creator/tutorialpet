@@ -45,10 +45,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quanto-de-racao-dar-para-gato-adulto-por-dia.jsonld.json
 imagem_capa: imagens/quanto-de-racao-dar-para-gato-adulto-por-dia.jpg
 imagem_fonte: pexels
-imagem_fotografo: Doğan Alpaslan  Demir
-imagem_fotografo_url: https://www.pexels.com/@izafi
-imagem_url_pagina: https://www.pexels.com/photo/two-cats-are-playing-with-each-other-on-a-box-26236633/
-imagem_selecionada_em: '2026-10-31T19:31:11+00:00'
+imagem_fotografo: Pitipat Usanakornkul
+imagem_fotografo_url: https://www.pexels.com/@pitipat-usanakornkul-542797332
+imagem_url_pagina: https://www.pexels.com/photo/young-asian-woman-cat-owner-giving-food-to-her-cute-domestic-cat-at-home-adorable-shorthair-cat-be-feed-by-owner-in-living-room-human-and-pet-relation-domestic-lifestyle-concept-focus-o-16597610/
+imagem_selecionada_em: '2026-10-31T19:38:28+00:00'
 ---
 
 # Quanto de racao dar para gato adulto por dia: guia prático
