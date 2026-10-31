@@ -25,3 +25,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-28 | portão frame 0 + estoque 12:15 | 2 pacotes ok barrados (14 e 12 palavras), 0 agendáveis; 2 posts Buffer TikTok (29/10 C, 30/10 A) com erro de URL (video ausente na media); fábrica redisparada | n=2 | mantém; fábrica precisa gerar frame 0 ≤6 palavras e manter video.mp4 na media
 2026-10-30 | jogada 'duração T3': cortes de 6-10 s no TikTok (G1, G2, G3, G6, D1, D2, D3, D4, D6) nos picos 10:20/20:20 | n=0 posts do lote lidos; base atual 2,25 s e 177 views (n12) | mantém
 2026-10-30 | vídeo ≤10 s com T0 ≤6 palavras nas ideias Tradutor e duelo | n=0; TikTok 21 seguidores | mantém
+2026-10-31 | corte ≤10 s, T0 curto, música só da Biblioteca Comercial, sem #fyp | n=0 posts medidos (S1 e S3 propostos para 20:20); TikTok tempo médio 2,88 s (n=20) | mantém
