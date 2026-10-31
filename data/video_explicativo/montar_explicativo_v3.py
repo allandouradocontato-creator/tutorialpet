@@ -14,18 +14,15 @@ PET=lambda n:g(f'clipes_pets/pexels_{n}_*')
 MUSICA=f'{H}/../../biblioteca/musica/gr0za-party-party-music-569750.mp3'  # mesma da VSL
 # clipes fofos (gatos, filhotes, treino, carinho); banidos/descartados fora: 10164584, 30346566, 35556872, 8498743
 CAT=[]  # produto só para cachorro: NUNCA gato
-PUP=['13260951','14562775','17921122','35172441','9314159']
-TRE=['7189527','7189535','7189541','7189598','7197703','7515913','7525615']
-AFE=['6568510','6574015','6825849','7572163','8498665']
-SS=[0.3,2.4,4.4,6.2];usados=set();idx={}
+PUP=['13260951','14562775','17921122','35172441','9314159','10884663','13260857','19770674','19770675','35556868','35556869','39995025','40558772','5728455','5641753','6272399','7280806','7297313','35637297','8498464','13588264']
+TRE=['7189527','7189535','7189541','7189598','7197703','7515913','7525615','7189526','7189537','7189540','7189606','7197974','7197983','28777603','34129571','17029736']
+AFE=['6568510','6574015','6825849','7572163','8498665','5229788','5229965','5229966','6264930','6576492','6651613','6825117','6825844','8473681','8498662','7515915','7267553','8498742']
+SS=[0.4,2.6,4.8];usados={};
 def pick(cats):
-    # próximo trecho de clipe fofo ainda não usado, alternando entre as categorias
-    i=idx.get(id(cats),0)
-    for _ in range(400):
-        c=cats[i%len(cats)];ss=SS[(i//len(cats))%len(SS)];i+=1
-        if (c,ss) not in usados:
-            usados.add((c,ss));idx[id(cats)]=i;return ('clip',PET(c),ss)
-    raise SystemExit('sem clipes')
+    # clipe menos usado do pool (nenhum repete antes de todos terem passado uma vez)
+    cands=[c for c in cats if glob.glob(f'{H}/clipes_pets/pexels_{c}_*')]
+    c=min(cands,key=lambda x:(usados.get(x,0),cands.index(x)));n=usados.get(c,0);usados[c]=n+1
+    return ('clip',PET(c),SS[n%len(SS)])
 def mont(imgs,secs,cats,per=0.92):
     n=max(1,round(secs/per));out=[];k=0
     for i in range(n):
@@ -77,7 +74,7 @@ def cap_chunks(k):
         w=textwrap.wrap(s,23)
         for j in range(0,len(w),2):ch.append('\n'.join(w[j:j+2]))
     return ch
-shots=[];caps=[];t=0.0;n=0
+shots=[];caps=[];t=0.0;n=0;cum=0.0;fr_done=0
 for k in F:
     sh=S[k];fixed=sum(x[3] for x in sh if len(x)>3);free=[x for x in sh if len(x)<=3];per0=(D[k]-fixed)/max(1,len(free))
     for x in sh:
@@ -95,7 +92,9 @@ for k in F:
             sc=1100 if typ=='img' else 1040
             cmd=['ffmpeg','-v','error','-y','-loop','1','-t',f'{per:.3f}','-i',f,'-vf',f"scale=-2:{sc},zoompan=z='1+0.0006*on':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=-1x-1:fps=30,pad=720:1280:(720-iw)/2:30:color={BG}",'-an']
             cmd[cmd.index('-vf')+1]=f"scale=640:{sc}:force_original_aspect_ratio=decrease,pad=720:1280:(ow-iw)/2:30:color={BG},fps=30"
-        cmd+=['-c:v','libx264','-preset','veryfast','-crf','22','-pix_fmt','yuv420p',o];subprocess.run(cmd,check=True);shots.append(o)
+        cum+=per;nf=round(cum*30)-fr_done;fr_done+=nf
+        cmd=[(f'{per+0.3:.3f}' if x==f'{per:.3f}' else x) for x in cmd]
+        cmd+=['-frames:v',str(nf),'-c:v','libx264','-preset','veryfast','-crf','22','-pix_fmt','yuv420p',o];subprocess.run(cmd,check=True);shots.append(o)
     # legendas
     ch=cap_chunks(k);tot=sum(len(c) for c in ch);tt=t
     for c in ch:
