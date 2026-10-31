@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Qual a idade ideal para castrar filhote?",
+  "gancho_3s": "Quer saber a idade certa para castrar seu filhote de cachorro?",
+  "cenas": [
+    {
+      "narracao": "A idade ideal para a castração varia conforme o porte do animal e seu crescimento.",
+      "visual_busca_banco_livre": "cute small puppy running living room",
+      "texto_na_tela": "Idade varia por porte"
+    },
+    {
+      "narracao": "Cães pequenos costumam estar prontos em média aos seis meses de idade.",
+      "visual_busca_banco_livre": "small puppy sitting floor close up",
+      "texto_na_tela": "Pequeno porte: ~6 meses"
+    },
+    {
+      "narracao": "Raças médias e grandes esperam entre nove e doze meses para o esqueleto se desenvolver.",
+      "visual_busca_banco_livre": "medium dog walking indoor",
+      "texto_na_tela": "Médio e grande: 9 a 12 meses"
+    },
+    {
+      "narracao": "Já os cães gigantes podem precisar esperar até dezoito meses, sempre com avaliação.",
+      "visual_busca_banco_livre": "large breed puppy sitting floor",
+      "texto_na_tela": "Cães gigantes: até 18 meses"
+    },
+    {
+      "narracao": "O planejamento exige exames em dia, jejum pré-operatório e um espaço seguro em casa.",
+      "visual_busca_banco_livre": "dog resting comfortably on pet bed",
+      "texto_na_tela": "Planejamento e exames"
+    },
+    {
+      "narracao": "A recuperação leva de sete a dez dias, com uso obrigatório de roupa cirúrgica ou colar.",
+      "visual_busca_banco_livre": "puppy wearing surgical recovery suit",
+      "texto_na_tela": "Recuperação de 7 a 10 dias"
+    }
+  ],
+  "chamada_final": "Consulte sempre o médico-veterinário para avaliar o desenvolvimento individual do seu pet.",
+  "hashtags": [
+    "#castracaocanina",
+    "#filhotes",
+    "#saudecanina",
+    "#cuidadospet",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer saber a idade certa para castrar seu filhote de cachorro?\n\n📖 Artigo completo: https://tutorialpet.com.br/quando-castrar-cachorro-filhote-idade-ideal\n\n#castracaocanina #filhotes #saudecanina #cuidadospet #dicapet",
+  "slug": "quando-castrar-cachorro-filhote-idade-ideal"
+}
