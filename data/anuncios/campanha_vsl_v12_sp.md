@@ -140,3 +140,9 @@ Enviada: Dourado Falcão Educação Corporativa LTDA (CNPJ achado no registro of
 - GATILHO do remarketing (Parte C da ordem): quando (Visitantes + Assistiu vídeo) ≥ 500 pessoas — ver o tamanho em Públicos junto do Auditor 09:34. Antes disso o conjunto subentrega (o Meta rotula "tráfego baixo no site"). Copy já pronta em data/anuncios/copy_remarketing.md. Se o Allan mandar ligar antes, ligar com R$ 6/dia saindo do conjunto mulheres (30 → 24).
 - Regra de escala (Fable): só aumentar verba com ≥ 3 vendas e custo/venda ≤ R$ 27; no máximo +50% por dia. Conta: R$ 8/checkout; para custo/venda ≤ R$ 27 precisaria de ~30% dos checkouts pagando. 0 vendas em ≥ 10 checkouts pós-correção (desde 31/10 10:00) = checkout tratado como quebrado.
 - Compra-teste real pelo celular via Pix (B1): pedida ao Allan; resultado abaixo quando vier.
+
+## 31/10/2026 10:36 — Compra-teste do Allan (B1) concluída
+- Allan comprou pelo celular: recebeu o WhatsApp de acesso, entrou na área de membros e abriu o app. Kiwify mostra 1 venda, líquido R$ 22,08.
+- O passo que trava ainda não foi relatado por ele (a compra passou). O checkout mobile corrigido funcionou para ele; a taxa real de conversão só sai com as próximas visitas.
+- Ajuste pedido por ele: vídeo "como usar o app" (2 min 52 s) passou a ser o PRIMEIRO item da tela Hoje do app (aberto até a 1ª sessão). Commit 0c17699, SW v16, conferido ao vivo em viewport mobile.
+- A aula da área de membros (Kiwify > Seu Protocolo de 14 Dias) tem só o link "Abrir o app" e o PDF; o campo de vídeo da aula está vazio.
