@@ -1004,7 +1004,7 @@ def build_sitemap(site: dict, artigos: list[dict], tv: bool = False, categorias:
 
 def build_robots(site: dict) -> str:
     dominio = site["dominio"].rstrip("/")
-    return f"User-agent: *\nAllow: /\n\nSitemap: {dominio}/sitemap.xml\n"
+    return f"User-agent: *\nAllow: /\nDisallow: /cdn-cgi/\n\nSitemap: {dominio}/sitemap.xml\n"
 
 
 def run(site_id: str) -> dict:
@@ -1160,6 +1160,7 @@ def run(site_id: str) -> dict:
     if tv:
         (BUILD_DIR / "tv.html").write_text(build_tv_page(site, pilares, tv), encoding="utf-8")
     (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar, tv), encoding="utf-8")
+    (BUILD_DIR / "_redirects").write_text("/alimentos-proi /alimentos-proibidos-para-cachorro 301\n/br / 301\n/cac / 301\n", encoding="utf-8")
     (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos], bool(tv), cats_geradas), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
 

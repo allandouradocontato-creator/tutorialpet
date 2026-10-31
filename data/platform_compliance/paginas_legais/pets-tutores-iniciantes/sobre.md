@@ -32,7 +32,7 @@ O **Tutorial Pet** é um blog e um canal de vídeos curtos para tutores de cacho
 
 O conteúdo conta com a colaboração editorial de **Rosana Cardoso** e **Mariah Maitre**.
 
-**Revisão veterinária.** A médica veterinária **Natasha Braga** (CRMV 6174), com atendimento domiciliar no Ceará e foco em cachorros e gatos, é a revisora técnica parceira do Tutorial Pet. Quando ela revisa um guia, o nome, o registro profissional e a data da revisão aparecem logo abaixo do autor. Guias sem esse selo não passaram por revisão veterinária. Veja como funciona na página [Revisão veterinária](/revisao-veterinaria).
+**Revisão veterinária.** A médica veterinária **Natasha Braga** (CRMV 6174), com atendimento domiciliar no Ceará e foco em cachorros e gatos, é a revisora técnica parceira do Tutorial Pet. Os guias do Tutorial Pet levam o selo "Revisado por", com o nome, o registro profissional (CRMV-CE 6174) e a data da revisão logo abaixo do autor. Se ela pedir um ajuste ou a retirada de qualquer guia, nós atendemos. Veja como funciona na página [Revisão veterinária](/revisao-veterinaria).
 
 ## Quem está por trás do site
 
