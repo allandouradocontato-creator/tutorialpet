@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 21
-atualizado_em: "2026-10-30 07:40 Fortaleza"
+versao: 22
+atualizado_em: "2026-10-31 07:07 Fortaleza"
+versao_anterior_atualizado_em_21: "2026-10-30 07:40"
 versao_anterior_atualizado_em_20: "2026-10-29 07:35"
 versao_anterior_atualizado_em_19: "2026-10-28 07:20"
 versao_anterior_atualizado_em_18: "2026-10-27 07:35"
@@ -435,3 +436,12 @@ perguntas_lote_2026_10_30:   # tema dos posts agendados 30-31/10; binarias ou nu
     - "De 0 a 10, quanto o seu pet é ciumento?"
     - "Quem manda aí em casa: você ou ele?"
     - "Marca quem tem um pet assim."
+leitura_2026_10_31:   # 20a edicao; plano data/social/plano_de_mudanca_2026-10-31.md
+  gatilho: "disparou nos explicadores (FB 3,9 s; IG skip 72,7%; TikTok 2,88 s); R1 react curto GANHOU provisorio (n=3)"
+  horarios_react: {facebook: ["08:30", "21:00"], instagram: ["21:10"], tiktok: ["10:20", "20:20"], fora: "IG 08:40 (1 view)"}
+  proporcao_producao: "60% R1/R1b react 18-25 s, 40% exploracao; explicador 40 s+ no max 1 a cada 3"
+  teste_interacao_I1: "pergunta de 2 opcoes na legenda e repetida no 1o comentario com o link; aprova 1 comentario de terceiro em 2 de 6"
+perguntas_lote_2026_10_31:
+  gato: ["Time sofá ou time arranhador?", "Seu gato bebe na torneira ou na tigela?", "Planta na sala: sim ou não com gato?", "Qual a hora do nada do seu gato?", "Seu gato aceita escova: sim ou não?"]
+  cachorro: ["Piso frio ou tapete: onde o seu deita?", "Seu cachorro encara chuva ou foge dela?", "Passeio de manhã ou de noite?", "Quem rouba a ração do outro na sua casa?", "Seu cachorro fica de boa sozinho: sim ou não?"]
+  idoso: ["Seu pet idoso ainda quer passear todo dia?", "Qual idade tem seu pet sênior?", "Cama ortopédica: já usa?", "Passeio curto e mais vezes ou um longo?", "Qual mania nova ele ganhou com a idade?"]
