@@ -36,13 +36,13 @@ Quanto custa manter um cachorro ao longo da vida? O valor inicial da adoção ou
 
 Por que o planejamento financeiro falha na maioria das vezes? Muitos tutores focam apenas no preço do filhote ou na taxa de resgate, esquecendo que imprevistos de saúde e emergências médicas exigem uma reserva financeira dedicada exclusivamente ao pet.
 
-Exemplo prático: Um cachorro de porte médio consome ração, petiscos e itens de higiene que geram um gasto mensal previsível, ao qual se somam exames de rotina e vacinação. Antes de fechar qualquer decisão, vale a pena pesquisar os custos de uma [racao-para-filhote-de-cachorro](/racao-para-filhote-de-cachorro) e simular o orçamento anual.
+Exemplo prático: Um cachorro de porte médio consome ração, petiscos e itens de higiene que geram um gasto mensal previsível, ao qual se somam exames de rotina e vacinação. Antes de fechar qualquer decisão, vale a pena pesquisar os custos de uma [Ração para filhote de cachorro](/racao-para-filhote-de-cachorro) e simular o orçamento anual.
 
 ## Tempo de dedicação diária e a realidade da rotina
 
 Quanto tempo livre você realmente tem no dia a dia? Cachorros são animais sociais que necessitam de interações constantes, passeios diários e estímulos mentais para evitar o tédio e problemas de comportamento destrutivo.
 
-Como a rotina da casa se transforma com a chegada do pet? Animais deixados sozinhos por longos períodos podem desenvolver quadros de estresse, o que torna fundamental avaliar [quanto-tempo-um-cachorro-pode-ficar-sozinho](/quanto-tempo-um-cachorro-pode-ficar-sozinho) sem que isso afete o bem-estar físico e emocional do animal.
+Como a rotina da casa se transforma com a chegada do pet? Animais deixados sozinhos por longos períodos podem desenvolver quadros de estresse, o que torna fundamental avaliar [Quanto tempo um cachorro pode ficar sozinho: guia prático](/quanto-tempo-um-cachorro-pode-ficar-sozinho) sem que isso afete o bem-estar físico e emocional do animal.
 
 Exemplo prático: Se a família passa o dia todo fora trabalhando, a adoção de um cachorro adulto com nível de energia mais baixo pode ser mais compatível do que a escolha de um filhote hiperativo que exige atenção ininterrupta nas primeiras semanas.
 

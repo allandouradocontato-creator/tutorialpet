@@ -47,17 +47,6 @@ A embalagem original do fabricante é desenvolvida com tecnologia multicamadas (
 
 A melhor maneira de usar o porta-ração é **colocar o saco original inteiro dentro do recipiente fechado**. Dobre muito bem a boca da embalagem original, prenda com um prendedor firme e feche a tampa do balde hermético por cima.
 
-```
-+---------------------------------------------------+
-|               Recipiente Hermético                |
-|  +---------------------------------------------+  |
-|  |           Embalagem Original                |  |
-|  |   (barreira multicamada contra luz e ar)   |  |
-|  |                                             |  |
-|  |               [ Grãos de Ração ]            |  |
-|  +---------------------------------------------+  |
-+---------------------------------------------------+
-```
 
 **Exemplo prático:** em vez de virar um saco de 15 kg dentro de uma caixa plástica organizadora, dobre bem o topo do próprio saco aluminizado com um grampo de vedação largo e guarde o pacote fechado dentro do galão com tampa de rosca.
 

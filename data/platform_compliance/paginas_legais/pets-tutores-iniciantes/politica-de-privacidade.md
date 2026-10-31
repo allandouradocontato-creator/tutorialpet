@@ -10,7 +10,7 @@ revisao_humana_pendente: false
 
 # Política de Privacidade — Tutorial Pet
 
-*Última atualização: 17/09/2026*
+Última atualização: 31/10/2026
 
 Esta Política de Privacidade explica como o site **Tutorial Pet** (https://tutorialpet.com.br) coleta, usa e
 protege informações de quem visita nossas páginas, em conformidade com a Lei Geral de

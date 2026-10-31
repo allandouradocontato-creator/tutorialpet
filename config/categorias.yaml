@@ -3,12 +3,12 @@
 alimentacao:
   slug: alimentacao
   descricao:
-    - "O que vai na tigela define energia, peso, pelagem e até o humor de cães e gatos. Aqui você encontra guias sobre escolha de ração, troca gradual de alimento, porções, petiscos naturais, frutas e legumes permitidos e a lista do que nunca deve ser oferecido."
+    - "O que vai na tigela define energia, peso, pelagem e até o humor de cachorros e gatos. Aqui você encontra guias sobre escolha de ração, troca gradual de alimento, porções, petiscos naturais, frutas e legumes permitidos e a lista do que nunca deve ser oferecido."
     - "Cada artigo explica o porquê das recomendações e indica quando vale conversar com o médico-veterinário, principalmente em casos de filhotes, idosos e animais com alguma condição de saúde."
 comportamento:
   slug: comportamento
   descricao:
-    - "Latidos, arranhões, mordidas, medo de ficar sozinho e dificuldade de conviver com outros animais quase sempre têm uma causa que dá para entender. Nesta categoria reunimos guias práticos para interpretar o comportamento do seu cão ou gato e agir sem punição."
+    - "Latidos, arranhões, mordidas, medo de ficar sozinho e dificuldade de conviver com outros animais quase sempre têm uma causa que dá para entender. Nesta categoria reunimos guias práticos para interpretar o comportamento do seu cachorro ou gato e agir sem punição."
     - "Os textos trazem passos simples para aplicar em casa, sinais de estresse para observar e o momento certo de buscar ajuda de um profissional de comportamento ou de um veterinário."
 cuidados_diarios:
   slug: cuidados-diarios
@@ -41,11 +41,11 @@ pet-celebridade:
   slug: pet-celebridade
   titulo: "Pet Celebridade"
   descricao:
-    - "A série Pet Celebridade conta como vivem os animais de artistas conhecidos: quem é o pet, qual é a raça e o que a rotina deles ensina para quem tem um cão ou gato em casa."
+    - "A série Pet Celebridade conta como vivem os animais de artistas conhecidos: quem é o pet, qual é a raça e o que a rotina deles ensina para quem tem um cachorro ou gato em casa."
     - "As informações vêm de perfis oficiais e de fontes públicas citadas em cada texto, e sempre terminam em dicas práticas de cuidado."
 pergunte-a-veterinaria:
   slug: pergunte-a-veterinaria
   titulo: "Pergunte à veterinária"
   descricao:
-    - "A coluna Pergunte à veterinária reúne dúvidas reais de tutores de cães e gatos, as mesmas que aparecem nas buscas e nas mensagens que recebemos: vacina, vermífugo, febre, vômito, castração, quando levar ao veterinário. Cada resposta é escrita em primeira pessoa pela médica veterinária parceira do Tutorial Pet, Natasha Braga."
+    - "A coluna Pergunte à veterinária reúne dúvidas reais de tutores de cachorros e gatos, as mesmas que aparecem nas buscas e nas mensagens que recebemos: vacina, vermífugo, febre, vômito, castração, quando levar ao veterinário. Cada resposta é escrita em primeira pessoa pela médica veterinária parceira do Tutorial Pet, Natasha Braga."
     - "As respostas são informação geral para ajudar você a entender a situação e decidir o próximo passo. Elas não substituem a consulta: só o médico-veterinário que examina o animal pode diagnosticar, receitar ou indicar tratamento. Cada texto termina com os sinais que pedem atendimento sem esperar."

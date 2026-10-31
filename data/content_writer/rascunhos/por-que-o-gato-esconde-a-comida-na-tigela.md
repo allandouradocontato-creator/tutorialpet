@@ -69,15 +69,6 @@ Um tutor coloca 80g de ração seca de uma só vez pela manhã. Às 15h, o gato 
 
 Você não precisa repreender o animal — repreensões só aumentam a ansiedade e pioram o quadro. Aplique os quatro passos abaixo para cessar a tentativa contínua de enterrar o prato:
 
-```
-Passo 1: Fracione as porções diárias
-   ↓
-Passo 2: Substitua o modelo do comedouro
-   ↓
-Passo 3: Isole o ambiente das refeições
-   ↓
-Passo 4: Remova as sobras em 20 minutos
-```
 
 ### Passo 1: Fracione as porções diárias
 Em vez de servir grandes volumes, divida a quantidade diária recomendada pelo médico-veterinário em 3 a 5 pequenas porções ao longo do dia. Tigela vazia após a refeição significa que não há o que enterrar.

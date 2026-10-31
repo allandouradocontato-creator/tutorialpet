@@ -63,13 +63,6 @@ Para executar uma migração sem atritos, utilize a regra do método progressivo
 * **Dias 7 a 9:** Aumente a concentração para 75% da areia nova e apenas 25% da antiga.
 * **Dia 10 em diante:** Realize a higienização completa da bacia e abasteça integralmente com o novo substrato ecológico ou mineral escolhido.
 
-```
-Transição Gradual de Substrato (Média de 10 dias)
-[Dias 1-3]  75% Antiga  | 25% Nova
-[Dias 4-6]  50% Antiga  | 50% Nova
-[Dias 7-9]  25% Antiga  | 75% Nova
-[Dia 10+]   0% Antiga   | 100% Nova
-```
 
 Se você possui espaço para duas caixas de areia, uma abordagem ainda mais segura consiste em manter uma caixa intacta com o material antigo e colocar a segunda caixa logo ao lado com a nova opção, deixando o felino escolher livremente até demonstrar preferência espontânea.
 

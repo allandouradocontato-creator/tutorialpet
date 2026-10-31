@@ -65,16 +65,6 @@ Deixe o frasco da solução auricular fechado no chão para o cachorro cheirar. 
 
 O canal auditivo do cachorro tem formato de "L": ele desce na vertical e depois dobra em direção ao tímpano. Isso significa que você não precisa ter pavor de encostar no tímpano com um chumaço de algodão na superfície, mas também significa que qualquer sujeira empurrada fica presa na curva.
 
-```
-            ORELHA EXTERNA (pavilhão)
-                    \      /
-                     \    /
-                      |  |   <-- Canal vertical (onde limpamos com gaze)
-                      |  |
-                      |   \_____ Canal horizontal (não mexer!)
-                      |________/
-                                 ==> Tímpano
-```
 
 Siga este roteiro objetivo:
 

@@ -118,6 +118,6 @@ Cuidar de um animal de estimação é um ato diário de amor que se traduz em pe
 
 ## Fontes e referências
 
-- Secretaria de Infraestrutura e Meio Ambiente do Estado de São Paulo (SEMIL) — Portal institucional e diretrizes sobre programas de proteção e bem-estar animal. Consulta realizada em 28 de outubro de 2026. Disponível em: [https://www.infraestruturameioambiente.sp.gov.br](https://www.infraestruturameioambiente.sp.gov.br)
+- [Cadastrar cães e gatos (SinPatinhas)](https://www.gov.br/pt-br/servicos/cadastrar-caes-e-gatos) — Governo Federal (gov.br), Ministério do Meio Ambiente e Mudança do Clima.
 
 > Confirme no órgão do seu município ou estado: as regras e os programas mudam e variam por cidade. Este conteúdo é informativo e não substitui a orientação de um advogado ou do órgão competente.

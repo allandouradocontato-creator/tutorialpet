@@ -18,6 +18,7 @@ import html as html_lib
 import importlib.util
 import json
 import sys
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -140,6 +141,26 @@ RADIO_JS = (
 )
 
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
+def _faq_pares(body: str) -> list[tuple[str, str]]:
+    """Pares pergunta/resposta da seção 'Perguntas frequentes' (aceita '**P?**', '* **P?**', '- **P?**', resposta na mesma linha ou abaixo)."""
+    m = re.search(r"^## Perguntas frequentes\s*\n(.*?)(?=\n## |\Z)", body, flags=re.M | re.S)
+    if not m:
+        return []
+    pares, q, resp = [], None, []
+    for ln in m.group(1).splitlines():
+        mq = re.match(r"^\s*(?:[*-]\s+)?\*\*(.+?\?)\*\*\s*(.*)$", ln)
+        if mq:
+            if q and resp:
+                pares.append((q, " ".join(resp)))
+            q, resp = mq.group(1).strip(), ([mq.group(2).strip()] if mq.group(2).strip() else [])
+        elif q and ln.strip():
+            resp.append(ln.strip())
+    if q and resp:
+        pares.append((q, " ".join(resp)))
+    clean = lambda s: re.sub(r"\s+", " ", re.sub(r"\*\*|\[([^\]]+)\]\([^)]*\)", r"\1", s)).strip()
+    return [(clean(a), clean(b)) for a, b in pares]
+
+
 _CAPAS_FALTANDO: list[str] = []   # artigos publicados sem imagem_capa (lido pelo Vigia)
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
@@ -789,7 +810,7 @@ def render_tv_home(tv: list[dict]) -> str:
     img = f'<img src="/{v["capa"]}" alt="{html_lib.escape(v["titulo"])}" loading="lazy" width="940" height="627">' if v["capa"] else ""
     return (f'<section class="tv-home" aria-label="Tutorial Pet TV"><a href="/tv">{img}'
             f'<span class="tv-home-texto"><span class="novo-selo">▶ Tutorial Pet TV</span>'
-            f'<span class="novo-titulo">Vídeos curtos de cuidados com cães e gatos, um atrás do outro</span>'
+            f'<span class="novo-titulo">Vídeos curtos de cuidados com cachorros e gatos, um atrás do outro</span>'
             f'<span class="slide-cta">Assistir agora →</span></span></a></section>')
 
 
@@ -813,7 +834,7 @@ def build_tv_page(site: dict, pilares: dict, tv: list[dict]) -> str:
     corpo = f"""{render_header(site["nome"], pilares)}
 <main class="tv">
 <h1 class="tv-h1">📺 Tutorial Pet TV</h1>
-<p class="tv-sub">Vídeos curtos de cuidados com cães e gatos. Toque no play: ao terminar, o próximo começa sozinho.</p>
+<p class="tv-sub">Vídeos curtos de cuidados com cachorros e gatos. Toque no play: ao terminar, o próximo começa sozinho.</p>
 <div class="tv-set">
   <div class="tv-topo"><span class="tv-logo">📺 TUTORIAL PET TV</span><span class="tv-no-ar"><i></i> NO AR</span></div>
   <div class="tv-tela"><video id="tvPlayer" controls playsinline preload="none"></video></div>
@@ -826,8 +847,8 @@ def build_tv_page(site: dict, pilares: dict, tv: list[dict]) -> str:
 <div class="tv-lista">{itens}</div>
 </main>
 {render_footer()}{TV_JS}"""
-    return page_shell("Tutorial Pet TV: vídeos de cuidados com cães e gatos | " + site["nome"],
-                      "Assista aos vídeos curtos do Tutorial Pet sobre cuidados, comportamento e rotina de cães e gatos, um atrás do outro.",
+    return page_shell("Tutorial Pet TV: vídeos de cuidados com cachorros e gatos | " + site["nome"],
+                      "Assista aos vídeos curtos do Tutorial Pet sobre cuidados, comportamento e rotina de cachorros e gatos, um atrás do outro.",
                       f"{dominio}/tv", "website", corpo)
 
 
@@ -963,7 +984,7 @@ def build_category_page(key: str, titulo: str, itens: list[dict], site: dict, pi
 <nav class="cat-outras" aria-label="Outras categorias"><h2>Outras categorias</h2>{outras}</nav>
 </main>
 {render_footer(pilares)}"""
-    return page_shell(f"{titulo}: guias para cães e gatos | {site['nome']}", meta, canonical, "website", main, extra_head)
+    return page_shell(f"{titulo}: guias para cachorros e gatos | {site['nome']}", meta, canonical, "website", main, extra_head)
 
 
 def build_sitemap(site: dict, artigos: list[dict], tv: bool = False, categorias: list[str] | None = None) -> str:
@@ -988,6 +1009,18 @@ def build_robots(site: dict) -> str:
 def run(site_id: str) -> dict:
     site = load_site(site_id)
     md_to_html = load_agent07_markdown_converter()
+    _md_base = md_to_html
+
+    def md_to_html(texto: str) -> str:  # 31/10/2026: lista "* item" virava parágrafo com asterisco solto (45 artigos)
+        texto = re.sub(r"^[ \t]*[*-][ \t]+(?=\S)", "- ", texto, flags=re.M)   # inclui sublistas (achata)
+        texto = re.sub(r"^\*\*\*\*?\s*$", "---", texto, flags=re.M)
+        _ls, _out = texto.split("\n"), []
+        for _i, _l in enumerate(_ls):   # lista logo após parágrafo, sem linha em branco, não é lista no markdown
+            if _l.startswith("- ") and _out and _out[-1].strip() and not _out[-1].lstrip().startswith(("- ", "  ", "#", ">")):
+                _out.append("")
+            _out.append(_l)
+        texto = "\n".join(_out)
+        return _md_base(texto)
     pilares = site.get("pilares", {})
     _PILARES_GLOBAL.clear()
     _PILARES_GLOBAL.update(pilares)
@@ -1009,6 +1042,10 @@ def run(site_id: str) -> dict:
             _CAPAS_FALTANDO.append(_slug_a)
         jsonld_path = ROOT / fm.get("dados_estruturados_arquivo", "")
         structured_data = json.loads(jsonld_path.read_text(encoding="utf-8")) if jsonld_path.exists() else {}
+        _pares = _faq_pares(body)
+        if _pares:
+            structured_data["faq"] = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in _pares]}
         artigos.append((fm, body, structured_data))
 
     _TODOS_ARTIGOS.clear()

@@ -16,11 +16,11 @@
 # confirmando "som original + plano único"; (8) nossos Reels do Instagram de 28-30/09 (>48h) tiveram 0-2 views cada (ver fechar_ciclo): conta nova, sem tração orgânica ainda.
 # Achados do estudo 5: (9) @norcianic (863 seguidores!) fez 718k views em 8s com 9,2% shares/views e 17,9% curtidas/views: filhote de dachshund crescendo em time-lapse, legenda com CTA de curtir,
 # trilha instrumental lenta (piano valsa) -> prova de que ritmo visual rápido (transformação em 8s) + trilha calma e curta funciona; replicar: 8s, uma transformação visível, texto/legenda curta com CTA.
-# (10) a tag #cachorrofofo continua com a mesma "moda": filhote/cão em close, 7-15s, som original ou piano/instrumental, ganchos 'Atenção: nível de fofura', 'Já manda pro seu papai'.
+# (10) a tag #cachorrofofo continua com a mesma "moda": filhote/cachorro em close, 7-15s, som original ou piano/instrumental, ganchos 'Atenção: nível de fofura', 'Já manda pro seu papai'.
 versao: 7
 atualizado_em: "2026-10-15"
 criterios:
-  nicho: "pets (cães e gatos); cuidado, comportamento, rotina e fofura saudável. Fora: animal doente, abrigo, doação, resgate, pessoas em destaque"
+  nicho: "pets (cachorros e gatos); cuidado, comportamento, rotina e fofura saudável. Fora: animal doente, abrigo, doação, resgate, pessoas em destaque"
   plataformas: [tiktok, instagram_reels, facebook_reels]   # o mesmo vídeo sai nas 3 redes
   recencia_dias: 30   # evergreen mais antigo só se marcado "evergreen"
   desempenho_relativo: "shares/views >= 1% (peso maior), curtidas/views >= 8%, comentários e salvamentos desempatam; priorizar contas pequenas/médias com views muito acima dos seguidores"

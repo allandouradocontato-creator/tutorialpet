@@ -75,7 +75,7 @@ Se curtiu este guia prático, continue navegando pelo nosso blog para descobrir 
 
 ## Fontes e referências
 
-- [Resolução CFMV nº 962, de 27 de agosto de 2010](https://www.crmv-ce.org.br/images/962.pdf) — CFMV (Conselho Federal de Medicina Veterinária), 2010.
+- [Resolução CFMV nº 962, de 27 de agosto de 2010](https://www.normasbrasil.com.br/norma/resolucao-962-2010_112025.html) — CFMV (Conselho Federal de Medicina Veterinária), 2010.
 - [RESOLUÇÃO Nº 1.596, DE 26 DE MARÇO DE 2024](https://manual.cfmv.gov.br/arquivos/resolucao/1596.pdf) — CFMV (Conselho Federal de Medicina Veterinária), 2024.
 - [LEI Nº 13.426, DE 30 DE MARÇO DE 2017](https://www2.camara.leg.br/legin/fed/lei/2017/lei-13426-30-marco-2017-784551-veto-152275-pl.html) — Câmara dos Deputados (Legislação Informatizada), 2017.
 

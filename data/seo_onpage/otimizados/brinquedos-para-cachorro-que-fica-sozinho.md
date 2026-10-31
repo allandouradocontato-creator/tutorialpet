@@ -80,7 +80,7 @@ O ato de lamber e roer libera endorfina no cérebro do animal, o que gera uma se
 
 Erros comuns: Usar alimentos que derretem rápido demais ou oferecer objetos que podem ser engolidos inteiros se forem pequenos demais para o porte do animal.
 
-Sinais de alerta: Se o cachorro ignorar o brinquedo e começar a salivar excessivamente ou uivar logo que você sai, pode ser hora de revisar a rotina e ler mais sobre [ansiedade-de-separacao-em-caes](/ansiedade-de-separacao-em-caes) para entender melhor o comportamento dele.
+Sinais de alerta: Se o cachorro ignorar o brinquedo e começar a salivar excessivamente ou uivar logo que você sai, pode ser hora de revisar a rotina e ler mais sobre [Ansiedade de separação em cachorros: como identificar e ajudar](/ansiedade-de-separacao-em-caes) para entender melhor o comportamento dele.
 
 Exemplo prático: O tutor mistura a ração diária com um pouco de pasta de amendoim sem açúcar (verificando antes os [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro)), enche o brinquedo de borracha e o congela de noite. Pela manhã, o cachorro gasta em média quarenta minutos (confirme o tempo ideal com o médico-veterinário) tentando lamber todo o conteúdo gelado, mantendo a mente ocupada logo na largada.
 

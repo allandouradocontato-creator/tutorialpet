@@ -25,7 +25,7 @@ def render_privacy_policy(site: dict) -> str:
     dominio = site["dominio"]
     return f"""# Política de Privacidade — {nome}
 
-*Última atualização: {_hoje()}*
+Última atualização: {_hoje()}
 
 Esta Política de Privacidade explica como o site **{nome}** ({dominio}) coleta, usa e
 protege informações de quem visita nossas páginas, em conformidade com a Lei Geral de
@@ -106,7 +106,7 @@ def render_terms(site: dict) -> str:
     aviso_saude = site.get("compliance", {}).get("aviso_saude", "").strip()
     return f"""# Termos de Uso — {nome}
 
-*Última atualização: {_hoje()}*
+Última atualização: {_hoje()}
 
 Ao acessar e usar o site **{nome}** ({dominio}), você concorda com os termos descritos
 abaixo. Se não concordar com algum ponto, recomendamos não utilizar o site.

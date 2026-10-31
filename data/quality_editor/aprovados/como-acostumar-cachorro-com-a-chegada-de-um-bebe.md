@@ -50,7 +50,7 @@ Aproveite esse período para uma consulta de rotina com o médico-veterinário. 
 
 A gente costuma mudar tudo de uma vez quando o bebê nasce, e para o cachorro isso é um choque. Se ele está acostumado a passear sempre às sete da manhã ou a dormir grudado no seu pé, o ideal é mexer nesses horários com antecedência, em vez de fazer tudo depois que o bebê chegar. Assim ele não associa a mudança ao novo morador.
 
-Diminua o grude aos poucos. Ensine o cachorro a ficar bem em outro cômodo ou a curtir momentos sozinho, o que também ajuda a evitar problemas como a [ansiedade-de-separacao-em-caes](/ansiedade-de-separacao-em-caes). Defina desde já as regras novas da casa: se o sofá, a cama e o quarto do bebê deixam de ser liberados, comece a aplicar isso agora, com recompensa quando ele acertar. Combine também quem vai passear com ele nos primeiros dias depois do parto, porque os pais podem estar ocupados ou fora de casa.
+Diminua o grude aos poucos. Ensine o cachorro a ficar bem em outro cômodo ou a curtir momentos sozinho, o que também ajuda a evitar problemas como a [Ansiedade de separação em cachorros: como identificar e ajudar](/ansiedade-de-separacao-em-caes). Defina desde já as regras novas da casa: se o sofá, a cama e o quarto do bebê deixam de ser liberados, comece a aplicar isso agora, com recompensa quando ele acertar. Combine também quem vai passear com ele nos primeiros dias depois do parto, porque os pais podem estar ocupados ou fora de casa.
 
 Vale ainda acostumar o cachorro com os barulhos de bebê, tocando gravações de choro e balbucios em volume baixo enquanto ele ganha um petisco. Assim ele começa a associar o som a algo bom. Se ele demonstrar medo, comece ainda mais baixo e aumente bem devagar.
 
@@ -70,7 +70,7 @@ Exemplo prático: deixe uma roupinha limpa do bebê no chão da sala e espere o 
 
 Na correria com um recém-nascido, você vai precisar de ferramentas rápidas para manter a segurança. Comandos como "senta", "fica" e "deita" deixam de ser apenas truques bonitos e viram aliados essenciais, por exemplo para evitar que o cachorro pule em você quando estiver com o bebê no colo. Outros comandos úteis são "larga" e "vem", além de ensinar um cantinho onde ele vai e fica quando você pedir.
 
-Treine esses comandos por poucos minutos todos os dias, com recompensas, e vá aumentando a dificuldade e as distrações. Dá para ensaiar com uma boneca: peça "fica" enquanto você a segura, balança ou troca a fralda. Se o seu peludo tem o hábito de latir por qualquer movimentação na porta, vale a pena olhar as dicas sobre [cachorro-latindo-muito-o-que-fazer](/cachorro-latindo-muito-o-que-fazer) antes da grande chegada.
+Treine esses comandos por poucos minutos todos os dias, com recompensas, e vá aumentando a dificuldade e as distrações. Dá para ensaiar com uma boneca: peça "fica" enquanto você a segura, balança ou troca a fralda. Se o seu peludo tem o hábito de latir por qualquer movimentação na porta, vale a pena olhar as dicas sobre [Cachorro latindo muito o que fazer](/cachorro-latindo-muito-o-que-fazer) antes da grande chegada.
 
 Exemplo prático: treine o comando "fica" usando um tapete no chão. Peça para o cachorro sentar no tapete e dê dois passos para trás. Se ele não sair do lugar, volte e recompense. Isso cria uma "zona segura" para ele quando você estiver ocupado.
 

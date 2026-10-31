@@ -10,7 +10,7 @@ revisao_humana_pendente: false
 
 # Termos de Uso — Tutorial Pet
 
-*Última atualização: 17/09/2026*
+Última atualização: 31/10/2026
 
 Ao acessar e usar o site **Tutorial Pet** (https://tutorialpet.com.br), você concorda com os termos descritos
 abaixo. Se não concordar com algum ponto, recomendamos não utilizar o site.

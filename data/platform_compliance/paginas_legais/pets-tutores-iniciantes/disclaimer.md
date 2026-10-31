@@ -10,13 +10,13 @@ revisao_humana_pendente: false
 
 # Disclaimer (Aviso Legal) — Tutorial Pet
 
-*Última atualização: 28/10/2026*
+Última atualização: 31/10/2026
 
 Esta página reúne os avisos importantes sobre como usar o conteúdo do **Tutorial Pet** (https://tutorialpet.com.br). Ela complementa os [Termos de Uso](/termos) e a [Política de Privacidade](/politica-de-privacidade).
 
 ## Conteúdo informativo, não é orientação veterinária
 
-Os artigos do Tutorial Pet têm finalidade **informativa e educativa** e foram escritos para tutores de cães e gatos. Eles **não substituem** a consulta, o diagnóstico, o exame ou o tratamento feito por um médico-veterinário. Nunca adie, mude ou interrompa o cuidado profissional por causa de algo que leu aqui. Se o seu animal estiver doente, machucado, com dor, sem comer ou com comportamento diferente do normal, procure um veterinário. Em caso de suspeita de intoxicação ou emergência, não espere: vá a uma clínica ou hospital veterinário imediatamente.
+Os artigos do Tutorial Pet têm finalidade **informativa e educativa** e foram escritos para tutores de cachorros e gatos. Eles **não substituem** a consulta, o diagnóstico, o exame ou o tratamento feito por um médico-veterinário. Nunca adie, mude ou interrompa o cuidado profissional por causa de algo que leu aqui. Se o seu animal estiver doente, machucado, com dor, sem comer ou com comportamento diferente do normal, procure um veterinário. Em caso de suspeita de intoxicação ou emergência, não espere: vá a uma clínica ou hospital veterinário imediatamente.
 
 O site não prescreve medicamentos, doses ou tratamentos. Quantidades, rotinas e exemplos são referências gerais e podem não servir para o seu animal, que tem idade, porte, histórico e necessidades próprias.
 
