@@ -32,7 +32,7 @@ Vamos direto ao ponto com um passo a passo simples de aplicar hoje mesmo, usando
 
 ## O que a lei diz sobre a esterilização de animais
 
-A gente adora reclamar da burocracia, mas a União e os estados têm arcabouço jurídico para o controle populacional de cachorros e gatos. O manejo populacional ético de cachorros e gatos é regulamentado em âmbito federal pela [Lei nº 13.423, de 27 de março de 2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13423.htm) (consulta em 07/10/2026), que altera diretrizes sobre feiras de adoção e controle de zoonoses. Além disso, estados como São Paulo possuem iniciativas próprias, a exemplo do programa de controle populacional gerido pela Secretaria de Meio Ambiente, Infraestrutura e Logística conforme decretos estaduais vigentes.
+A gente adora reclamar da burocracia, mas existe base legal para o controle populacional de cachorros e gatos. No âmbito federal, a [Lei nº 13.426, de 30 de março de 2017](https://www2.camara.leg.br/legin/fed/lei/2017/lei-13426-30-marco-2017-784551-veto-152275-pl.html) institui a política de controle de natalidade de cachorros e gatos, e os programas de castração gratuita de estados e municípios se apoiam nesse tipo de norma. Por isso, a regra e a disponibilidade de vagas variam por cidade: confirme sempre no órgão do seu município.
 
 Isso significa que o poder público tem o dever de planejar ações de castração. Contudo, vale o aviso de amigo: isso não significa vaga garantida na hora que você bem entender. O benefício depende da disponibilidade de recursos do município, de cadastros socioeconômicos (como o CadÚnico) e da abertura de editais específicos. Não é golpe, mas exige paciência na fila de espera. 
 
@@ -75,9 +75,6 @@ Se curtiu este guia prático, continue navegando pelo nosso blog para descobrir 
 
 ## Fontes e referências
 
-*   Presidência da República — Lei nº 13.423, de 27 de março de 2017. Disponível em: <http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13423.htm>. Acesso em: 07/10/2026.
-*   Conselho Federal de Medicina Veterinária (CFMV) — Resoluções sobre procedimentos cirúrgicos e bem-estar animal. Disponível em: <https://www.in.gov.br>. Acesso em: 07/10/2026.
-*   Governo do Estado de São Paulo — Diretrizes de proteção animal e controle populacional. Disponível em: <https://www.legislacao.sp.gov.br>. Acesso em: 07/10/2026.
 - [Resolução CFMV nº 962, de 27 de agosto de 2010](https://www.crmv-ce.org.br/images/962.pdf) — CFMV (Conselho Federal de Medicina Veterinária), 2010.
 - [RESOLUÇÃO Nº 1.596, DE 26 DE MARÇO DE 2024](https://manual.cfmv.gov.br/arquivos/resolucao/1596.pdf) — CFMV (Conselho Federal de Medicina Veterinária), 2024.
 - [LEI Nº 13.426, DE 30 DE MARÇO DE 2017](https://www2.camara.leg.br/legin/fed/lei/2017/lei-13426-30-marco-2017-784551-veto-152275-pl.html) — Câmara dos Deputados (Legislação Informatizada), 2017.

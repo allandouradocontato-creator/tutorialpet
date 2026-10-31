@@ -24,6 +24,10 @@ def main() -> int:
     sem_fontes = [s for s, b in B.items() if not re.search(r"^## Fontes e refer", b, re.M)]
     if sem_fontes:
         crit.append(f"{len(sem_fontes)}/{n} artigos sem 'Fontes e referências'")
+    # Palavra proibida (Allan, 15/10 e 31/10/2026): "cão/cães" fora da seção de fontes (títulos de fontes podem conter)
+    com_cao = [s for s, b in B.items() if re.search(r"\b(cão|cães|cãozinho|cãezinhos)\b", re.split(r"^## Fontes e refer", b, flags=re.M)[0], re.I)]
+    if com_cao:
+        crit.append(f"{len(com_cao)} artigos com a palavra proibida 'cão/cães': {com_cao[:5]}")
     curtos = [s for s, b in B.items() if len(re.sub(r"[#*>\[\]()]", " ", b).split()) < 700]
     if curtos:
         crit.append(f"{len(curtos)} artigos com menos de 700 palavras: {curtos[:5]}")

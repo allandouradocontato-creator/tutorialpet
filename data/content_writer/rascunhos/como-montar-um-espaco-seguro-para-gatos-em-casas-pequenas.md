@@ -83,6 +83,7 @@ Sinais como fazer xixi fora da caixa, lamber a barriga até arrancar pelos ou mi
 - [2019 Meeting the Physical and Emotional Needs of Owned Indoor Cats](https://catvets.com/guidelines/position-statements/physical-emotional-needs-indoor-cats-welfare-statement) — AAFP (American Association of Feline Practitioners, entidade dos Estados Unidos), 2019.
 - [Environmental Enrichment for Indoor Cats](https://indoorpet.osu.edu/sites/default/files/imce/Herron10_EE_for_Indoor_Cats.pdf) — Herron e Buffington, Ohio State University (instituição dos Estados Unidos), 2010.
 - [Feline Behavior Problems: House Soiling](https://www.vet.cornell.edu/node/3981) — Cornell Feline Health Center, Cornell University (instituição dos Estados Unidos).
+- [ASPCA Urges Pet Owners to Install Window Screens to Prevent "High-Rise Syndrome"](https://www.aspca.org/about-us/press-releases/aspca-urges-pet-owners-install-window-screens-prevent-high-rise-syndrome) — ASPCA (entidade dos Estados Unidos).
 - [Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants) — ASPCA (entidade dos Estados Unidos).
 
 ## Para fechar

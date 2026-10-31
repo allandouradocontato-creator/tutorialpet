@@ -98,7 +98,7 @@ Geralmente não é recomendado, pois a fruta concentra açúcares simples (fruto
 
 ## Fontes e referências
 
-- [Alimentação natural para cães e gatos](https://www.scielo.br/j/rbz/a/55HCT9X4Wt9ThgsbL5Gc5ZL/?lang=pt) — Revista Brasileira de Zootecnia (SciELO), 2010.
+- [Can Dogs Eat Bananas? Benefits and Risks](https://www.petmd.com/dog/nutrition/can-dogs-eat-bananas) — PetMD (portal de veterinária dos Estados Unidos).
 - [Can Dogs Eat Bananas?](https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/) — American Kennel Club (entidade dos Estados Unidos).
 - [Pet Friendly Human Food](https://www.petpoisonhelpline.com/uncategorized/pet-friendly-human-food/) — Pet Poison Helpline (entidade dos Estados Unidos).
 
