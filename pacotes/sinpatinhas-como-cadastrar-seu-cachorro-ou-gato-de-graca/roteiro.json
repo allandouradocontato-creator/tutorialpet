@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Cadastre seu pet de graça no Sinpatinhas SP",
+  "gancho_3s": "Se você é tutor em SP e quer registrar seu cachorro, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "Se você é tutor em SP e quer registrar seu cachorro, assiste isso.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Quer identificar seu cachorro de graça?"
+    },
+    {
+      "narracao": "Moradores de São Paulo podem cadastrar cães e gatos de graça.",
+      "visual_busca_banco_livre": "cat looking out window close up",
+      "texto_na_tela": "Cadastro gratuito em SP"
+    },
+    {
+      "narracao": "O Sinpatinhas é um sistema que funciona como a identidade oficial do seu gato.",
+      "visual_busca_banco_livre": "puppy portrait looking at camera",
+      "texto_na_tela": "Identidade oficial do pet"
+    },
+    {
+      "narracao": "[thoughtful] Basta acessar o portal oficial, criar uma conta e preencher os dados.",
+      "visual_busca_banco_livre": "cat resting on table",
+      "texto_na_tela": "Passo a passo digital"
+    },
+    {
+      "narracao": "[short pause] Informe raça, cor, porte, idade e o número do microchip, se tiver.",
+      "visual_busca_banco_livre": "dog face close up bokeh",
+      "texto_na_tela": "Dados e características"
+    },
+    {
+      "narracao": "Animais sem raça definida também podem e devem ser cadastrados.",
+      "visual_busca_banco_livre": "kitten playing playful",
+      "texto_na_tela": "Pets SRD são bem-vindos"
+    },
+    {
+      "narracao": "[softly] Lembrando que o registro não substitui o veterinário.",
+      "visual_busca_banco_livre": "dog resting calmly indoors",
+      "texto_na_tela": "Consulte um veterinário"
+    }
+  ],
+  "chamada_final": "Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. [smiling] Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#Sinpatinhas",
+    "#GatosSP",
+    "#CachorrosSP",
+    "#BemEstarAnimal",
+    "#PetsSP"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nJá conhece o sistema Sinpatinhas para cães e gatos em São Paulo?\n\n📖 Artigo completo: https://tutorialpet.com.br/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca\n\n#Sinpatinhas #GatosSP #CachorrosSP #BemEstarAnimal #PetsSP",
+  "slug": "sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 4
+}

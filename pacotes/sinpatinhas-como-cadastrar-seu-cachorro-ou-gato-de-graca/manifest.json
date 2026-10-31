@@ -1,0 +1,30 @@
+{
+  "slug": "sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca",
+  "status": "aprovado",
+  "criado_em": "2026-10-31T15:21:00+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_chamada_direta)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-10-31T15:22:22+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)"
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 20028681,
+    "url_download": "https://images.pexels.com/photos/20028681/pexels-photo-20028681.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-puppy-dog-20028681/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy white background isolated",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20028574,
+    "url_download": "https://images.pexels.com/photos/20028574/pexels-photo-20028574.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/puppy-on-white-20028574/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy white background isolated",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10149129,
+    "url_download": "https://images.pexels.com/photos/10149129/pexels-photo-10149129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-an-adorable-dog-10149129/",
+    "fotografo": "Vitalii Odobesku",
+    "fotografo_url": "https://www.pexels.com/@odobesku",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "cute puppy white background isolated",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32476519,
+    "url_download": "https://images.pexels.com/photos/32476519/pexels-photo-32476519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-in-studio-portrait-32476519/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "cute puppy white background isolated",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20028648,
+    "url_download": "https://images.pexels.com/photos/20028648/pexels-photo-20028648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-puppy-dog-in-snow-20028648/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy white background isolated",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1120049,
+    "url_download": "https://images.pexels.com/photos/1120049/pexels-photo-1120049.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-white-and-black-kitten-1120049/",
+    "fotografo": "Dương Nhân",
+    "fotografo_url": "https://www.pexels.com/@d-ng-nhan-324384",
+    "largura": 3456,
+    "altura": 2304,
+    "query": "cute kitten white background isolated",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca/5.jpg"
+  }
+]
