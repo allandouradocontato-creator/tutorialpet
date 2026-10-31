@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Sinpatinhas: como cadastrar seu cachorro ou gato de graça: guia prático",
+    "description": "Sinpatinhas: como cadastrar seu cachorro ou gato de graça: guia prático. Existe um laço invisível, mas indestrutível, que une o nosso coração ao do...",
+    "datePublished": "2026-10-31",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca"
+    },
+    "image": "https://tutorialpet.com.br/imagens/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cadastro no Sinpatinhas é obrigatório para todos os pets?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O sistema é uma ferramenta pública de incentivo à identificação e cidadania animal, sendo disponibilizado de forma gratuita pelo governo estadual para fortalecer as políticas de proteção.  - **Precisa pagar alguma taxa para registrar o cachorro ou gato?** Não. O serviço oferecido pelo portal oficial é inteiramente gratuito para os tutores residentes no Estado de São Paulo.  - **Posso cadastrar animais sem raça definida (SRD)?** Sim, o sistema aceita perfeitamente o cadastro de cães e gatos sem raça definida, bastando selecionar a opção correspondente no formulário.  - **Onde devo procurar ajuda se tiver dúvidas técnicas no site?** As dúvidas sobre o funcionamento da plataforma devem ser direcionadas aos canais de suporte técnico informados no próprio portal oficial da Secretaria de Meio Ambiente, Infraestrutura e Logística."
+        }
+      }
+    ]
+  }
+}
