@@ -83,3 +83,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 48. (31/10/2026) CHECKOUT KIWIFY: todo ajuste de texto/layout é feito nos DOIS layouts (botão "Copiar do desktop" na visão celular) e só vale CONFERIDO ao vivo em viewport de celular (pay.kiwify.com.br/NcQChat?cb=N, buscar o texto novo na página); "Tudo certo!" ao salvar não prova nada.
 
 49. (31/10/2026, cobrado 3x pelo Allan) NUNCA ENTREGAR TAREFA AO ALLAN: se um passo pode ser feito no Chrome dele (já logado), por ferramenta ou por agente, o Claude FAZ (criar chave de API, trocar PDF no Kiwify, salvar look no HeyGen, subir arquivo, config). Escrever "faça X"/passo a passo só para senha, 2FA, pagamento ou decisão de estratégia. Antes de enviar qualquer instrução a ele, perguntar-se: "alguma ferramenta faz isso?".
+- Sozinho em Casa é só para CACHORRO: nenhuma imagem/clipe de gato em vídeo, landing ou anúncio do produto.
+- Vídeos do produto usam a música da VSL (gr0za-party-party-music-569750, baixinha) e imagem sincronizada com a frase que está sendo dita.

@@ -11,9 +11,9 @@ app=lambda n:g(f'app/app_sozinho_em_casa_{n}_*');pg=lambda n:g(f'paginas_ebook/*
 cl=lambda n:g(f'clipes/pexels_{n}_*')
 DC=lambda n:f'{H}/duda_clips_heygen/{n}.mp4'
 PET=lambda n:g(f'clipes_pets/pexels_{n}_*')
-MUSICA=f'{H}/../../biblioteca/musica/goldensoundlabs-dances-with-kittens-216892.mp3'
+MUSICA=f'{H}/../../biblioteca/musica/gr0za-party-party-music-569750.mp3'  # mesma da VSL
 # clipes fofos (gatos, filhotes, treino, carinho); banidos/descartados fora: 10164584, 30346566, 35556872, 8498743
-CAT=['11788446','13599098','13925471','37464840','38495358']
+CAT=[]  # produto só para cachorro: NUNCA gato
 PUP=['13260951','14562775','17921122','35172441','9314159']
 TRE=['7189527','7189535','7189541','7189598','7197703','7515913','7525615']
 AFE=['6568510','6574015','6825849','7572163','8498665']
@@ -35,14 +35,17 @@ def mont(imgs,secs,cats,per=0.92):
 def mont_clips(secs,cats,per=0.95):
     return [pick(cats) for _ in range(max(1,round(secs/per)))]
 B=lambda n:g(f'bonus/{n}*')
+P8=lambda n:g(f'paginas_v8/p{n}-*')
+PRAT=[pg('03'),P8('11'),P8('12'),pg('04'),P8('16'),pg('05'),P8('17')]
+TEO=[P8('27'),P8('29'),pg('06'),P8('33'),P8('35'),P8('37')]
 Z={}
 Z['1']=[('dclip',DC('gancho_duda_sozinha'),0,2.3),('mont',[pg('01')],None,[AFE])]
-Z['2']=[('mont',[pg('01'),app('04'),pg('02')],None,[TRE,CAT])]
-Z['3']=[('mont',[pg('02'),pg('03'),pg('04'),pg('05'),pg('06')],None,[CAT,TRE,PUP,AFE])]
-Z['4']=[('dclip',DC('app_celular'),0,2.5),('dclip',DC('app_camera'),0,2.52),('mont',[app('04'),app('03'),app('05'),app('06'),app('07')],None,[TRE,PUP,CAT])]
-Z['5']=[('mont',[app('10'),app('11'),app('12'),app('13'),app('14'),app('08'),app('09')],None,[TRE,CAT,AFE,PUP])]
-Z['6']=[('mont',[B('kit_capa'),B('kit_faro'),B('kit_planner')],10.2,[CAT,PUP]),('mont',[B('pnp_capa'),B('pnp_semaforo'),B('pnp_chocolate')],None,[AFE,CAT,TRE])]
-Z['7']=[('mont_clips',None,10.5,[AFE,PUP,CAT]),('dclip',DC('climax_duda_sozinha'),0,8.44),('mont',[pg('07')],None,[AFE,TRE,PUP,CAT])]
+Z['2']=[('mont',[],0.42,[AFE,PUP]),('mont',[pg('01'),P8('02')],0.30,[TRE]),('mont',[app('04'),app('06')],None,[PUP])]
+Z['3']=[('mont',PRAT,'S0',[TRE,PUP]),('mont',TEO,'S1',[AFE,PUP]),('mont',[P8('59'),P8('02'),P8('59')],'S2',[PUP,AFE])]
+Z['4']=[('dclip',DC('app_junto'),0,5.02),('mont',[app('04'),app('03')],1.4,[PUP]),('mont',[app('05'),app('06'),app('07'),app('08')],None,[TRE,PUP,AFE])]
+Z['5']=[('mont',[app('10'),app('11')],'S0',[TRE,PUP]),('mont',[app('12')],'W0.17',[PUP]),('mont',[app('14')],'W0.17',[AFE]),('mont',[app('13')],'W0.16',[PUP])]
+Z['6']=[('mont',[B('kit_capa'),B('pnp_capa')],'S0',[PUP]),('mont',[B('kit_faro'),B('kit_planner'),B('kit_capa')],'S1',[PUP,AFE]),('mont',[B('pnp_capa'),B('pnp_semaforo'),B('pnp_chocolate')],'S2',[AFE,PUP])]
+Z['7']=[('mont_clips',None,3.3,[AFE]),('mont_clips',None,3.6,[PUP,AFE]),('mont_clips',None,3.46,[AFE,PUP]),('dclip',DC('climax_duda_sozinha'),0,8.44),('mont_clips',None,11.8,[PUP,AFE,TRE]),('mont',[pg('07')],None,[PUP])]
 OF=DC('oferta_duda_sozinha');SFX8=[];
 def fecho():
     L=[('dclip',OF,0,10.4)];t=10.4;pup=[('13588264',0.5),('13588262',1.5),('14562775',2.0),('35172441',3.0),('8498665',1.0),('9314159',1.2)];i=0
@@ -53,16 +56,20 @@ def fecho():
     L.append(('dclip',OF,t,19.22-t));return L
 Z['8']=fecho()
 S={}
+def sent_w(k):
+    sents=[x for x in re.split(r'(?<=[.!?])\s+',re.sub(r'^\[\w+\]\s*','',F[k])) if x.strip()];n=[len(x) for x in sents];return [x/sum(n) for x in n]
 for k,ents in Z.items():
-    fixed=sum(e[3] for e in ents if e[0] in ('dclip','clip'))+sum(e[2] for e in ents if e[0].startswith('mont') and e[2])
-    free=[e for e in ents if e[0].startswith('mont') and e[2] is None];rem=(D[k]-fixed)/max(1,len(free));L=[]
+    num=lambda e:(e[3] if e[0] in ('dclip','clip') else (e[2] if e[0].startswith('mont') and isinstance(e[2],(int,float)) else 0))
+    fixed=sum(num(e) for e in ents);strs=[e for e in ents if e[0]=='mont' and isinstance(e[2],str)]
+    nones=[e for e in ents if e[0].startswith('mont') and e[2] is None]
+    Tfree=D[k]-fixed;SW=sent_w(k);wt=lambda e:(SW[int(e[2][1:])] if e[2][0]=='S' else float(e[2][1:]))
+    tw=sum(wt(e) for e in strs) or 1;rem=Tfree/max(1,len(nones)) if nones else 0;L=[]
     for e in ents:
-        if e[0] in ('dclip','clip'):L.append(e)
-        elif e[0]=='mont':
-            sec=e[2] or rem;items=mont(e[1],sec,e[3][0] if len(e[3])==1 else sum(e[3],[]))
-            tot=sec;per=tot/len(items);L+=[it+(per,) for it in items]
-        else:
-            sec=e[2];items=mont_clips(sec,sum(e[3],[]));per=sec/len(items);L+=[it+(per,) for it in items]
+        if e[0] in ('dclip','clip'):L.append(e);continue
+        sec=(Tfree*wt(e)/tw) if isinstance(e[2],str) else (e[2] if e[2] is not None else rem)
+        if e[0]=='mont':items=mont(e[1],sec,e[3][0] if len(e[3])==1 else sum(e[3],[])) if e[1] else mont_clips(sec,sum(e[3],[]))
+        else:items=mont_clips(sec,sum(e[3],[]))
+        per=sec/len(items);L+=[it+(per,) for it in items]
     S[k]=L
 def cap_chunks(k):
     sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',re.sub(r'^\[\w+\]\s*','',F[k])) if s.strip()];ch=[]
@@ -90,7 +97,7 @@ for k in F:
             cmd[cmd.index('-vf')+1]=f"scale=640:{sc}:force_original_aspect_ratio=decrease,pad=720:1280:(ow-iw)/2:30:color={BG},fps=30"
         cmd+=['-c:v','libx264','-preset','veryfast','-crf','22','-pix_fmt','yuv420p',o];subprocess.run(cmd,check=True);shots.append(o)
     # legendas
-    ch=cap_chunks(k);tot=sum(len(c) for c in ch);tt=t+0.1
+    ch=cap_chunks(k);tot=sum(len(c) for c in ch);tt=t
     for c in ch:
         sg=(D[k]-0.25)*len(c)/tot;fn=f'{W}/c{len(caps)}.txt';open(fn,'w').write(c);caps.append((fn,tt,tt+sg));tt+=sg
     t+=D[k]
@@ -98,7 +105,7 @@ open(f'{W}/lista.txt','w').write(''.join(f"file '{s}'\n" for s in shots))
 subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',f'{W}/lista.txt','-c','copy',f'{W}/mudo.mp4'],check=True)
 inp=['-i',f'{W}/mudo.mp4'];fc=[];lab=[];tt=0.0
 for i,k in enumerate(F):
-    inp+=['-i',aud[k]];ms=int((tt+0.1)*1000);fc.append(f'[{i+1}:a]adelay={ms}|{ms}[a{i}]');lab.append(f'[a{i}]');tt+=D[k]
+    inp+=['-i',aud[k]];ms=int(tt*1000);fc.append(f'[{i+1}:a]adelay={ms}|{ms}[a{i}]');lab.append(f'[a{i}]');tt+=D[k]
 fc.append(''.join(lab)+f'amix=inputs={len(F)}:normalize=0[vo]')
 t8=sum(D[k] for k in F if k!='8');LAT=sorted(glob.glob('/home/claude/sozinho-em-casa-app/landing/app/som/real/latido*.mp3'));sx=[]
 for j,tt0 in enumerate(SFX8):
