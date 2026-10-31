@@ -1,4 +1,2 @@
-# 31/10/2026: lista reduzida aos pendentes (a lista antiga inteira estourava os 30 min do workflow e era cancelada).
-como-adotar-um-cachorro-passo-a-passo
-como-fazer-cachorro-parar-de-puxar-a-guia
+# 31/10/2026: so o pendente (2 de 3 capas ja aplicadas)
 quanto-de-racao-dar-para-gato-adulto-por-dia
