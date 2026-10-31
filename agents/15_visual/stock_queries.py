@@ -30,7 +30,7 @@ QUERIES = {
     "como-fazer-caldo-de-ossos-caseiro-para-cachorro": ["dog bone broth bowl", "dog eating from bowl", "dog bone treat"],
     "racao-para-filhote-de-cachorro": ["cute puppy portrait", "adorable puppy playing"],
     "quantas-vezes-por-dia-alimentar-gato": ["cute cat portrait", "happy cat indoors"],
-    "quanto-de-racao-dar-para-gato-adulto-por-dia": ["cat eating from food bowl no people", "cat next to bowl of dry cat food", "cute cat eating kibble from bowl at home"],
+    "quanto-de-racao-dar-para-gato-adulto-por-dia": ["cat eating", "cat food bowl", "cat eating dry food", "cute cat kibble"],
     "alimentos-proibidos-para-cachorro": ['dog sniffing chocolate and grapes on kitchen table, no people', 'dog looking at chocolate bar on table', 'dog next to forbidden food on counter, no people'],
     "como-trocar-a-racao-do-cachorro": ["happy dog portrait", "cute dog playing"],
     "cachorro-latindo-muito-o-que-fazer": ["dog barking", "dog barking outdoor"],
