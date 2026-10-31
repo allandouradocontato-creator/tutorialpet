@@ -43,6 +43,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quanto-de-racao-dar-para-gato-adulto-por-dia.jsonld.json
+imagem_capa: imagens/quanto-de-racao-dar-para-gato-adulto-por-dia.jpg
+imagem_fonte: pexels
+imagem_fotografo: Doğan Alpaslan  Demir
+imagem_fotografo_url: https://www.pexels.com/@izafi
+imagem_url_pagina: https://www.pexels.com/photo/two-cats-are-playing-with-each-other-on-a-box-26236633/
+imagem_selecionada_em: '2026-10-31T19:31:11+00:00'
 ---
 
 # Quanto de racao dar para gato adulto por dia: guia prático

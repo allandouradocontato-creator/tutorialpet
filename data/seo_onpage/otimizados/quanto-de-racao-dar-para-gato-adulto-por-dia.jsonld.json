@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quanto-de-racao-dar-para-gato-adulto-por-dia"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/quanto-de-racao-dar-para-gato-adulto-por-dia.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
