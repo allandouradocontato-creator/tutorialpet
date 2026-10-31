@@ -156,3 +156,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 31/10/2026: v10 do vídeo explicativo (v2/explicativo_landing_v10_com_dra_natasha.mp4) tem cartão com foto + @vetnatasha de 95 a 100,5 s (regra 51). VSL e anúncios ainda precisam do cartão (card em /tmp/gr/card_natasha.png, refazer com PIL se sumir).
 
 - 31/10/2026: v10 (cartão com foto da Dra. Natasha no vídeo) foi reprovada pelo Allan ("ficou feio"); vale a v11 só com carimbo discreto @vetnatasha (regra 52).
+
+- 31/10/2026: erro: "meta de hoje" no texto do app/vídeo; Allan pediu "meta do dia". Corrigido em app, falas, voz (fala 4 regerada) e telas; regra 53.
