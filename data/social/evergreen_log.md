@@ -6,3 +6,4 @@
 2026-10-30 16:25 (Fortaleza) | como-fazer-o-gato-parar-de-arranhar-o-sofa | FB 31/10 19:00 6ae4ef175102bd8cac895d83; IG 31/10 20:00 6ae4ef19d1265466c0f5bc4a (TikTok 31/10 sem vaga: 3 slots ocupados) (video fixado no commit b8adc86)
 2026-10-30 16:25 | cuidados-essenciais-com-as-patas-de-caes-no-inverno | FB 01/11 10:00 6ae4ef1f5102bd8cac895dc2; IG 01/11 11:00 6ae4ef205102bd8cac895dca; TikTok 01/11 10:20 Buffer 6ae4ef2298505e7f522e6b0e (video fixado no commit b5cbd66)
 2026-10-30 16:25 | plantas-toxicas-para-gatos | FB 01/11 14:00 6ae4ef295102bd8cac895e10; IG 01/11 15:00 6ae4ef2d5102bd8cac895e24; TikTok 01/11 14:20 Buffer 6ae4ef2fcd8290b9b90b55fa (video fixado no commit 3a99f9e)
+2026-10-31 08:25 (Fortaleza) | quais-legumes-cachorro-pode-comer-cozidos-sem-tempero | FB 01/11 19:00 6ae5cf3982d0d990f63527eb; IG 01/11 20:00 6ae5cf3c82d0d990f63527fb; TikTok 01/11 20:20 Buffer 6ae5cf3eb84259308bd270a6 (video fixado no commit dc4aff0)
