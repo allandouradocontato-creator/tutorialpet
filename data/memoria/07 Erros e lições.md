@@ -150,3 +150,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 31/10/2026 (v7): música de fundo escolhida sem checar a da VSL (gr0za-party-party-music-569750, mesma "party-music"); usar sempre a música da VSL em vídeos do produto; fala e imagem tinham que ser sincronizadas por frase (imagem do que está sendo dito), com áudio sem atraso extra de 0,1 s.
 - 31/10/2026 (v7): "Duda olha o celular e depois vira para frente" tem que ser UM clipe contínuo (não dois cortes).
 - 31/10/2026 (v8): vídeo saía 1,5 s mais longo que a voz (cada cena arredondada para cima em frames) e a Duda dessincronizava no meio e no fim; e os clipes fofos repetiam (poucos clipes). Regra: montar com quantidade EXATA de frames por cena e ter pool grande de clipes (≥50) sem repetir.
+- 31/10/2026 (v9): cortei o vídeo 1,5 s antes do fim e comi o 'Aproveita!'. Regra: o vídeo só termina depois da última palavra falada; conferir o último quadro/áudio antes de enviar.

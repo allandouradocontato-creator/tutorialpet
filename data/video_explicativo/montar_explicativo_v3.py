@@ -116,5 +116,5 @@ fc.append(f'[{mi}:a]atrim=0:{TT:.2f},volume=0.13,afade=t=in:d=1,afade=t=out:st={
 fc.append('[vo2][mu]amix=inputs=2:normalize=0:duration=first,loudnorm=I=-16:TP=-1.5[ao]')
 dt=','.join(f"drawtext=fontfile={FONT}:textfile={fn}:fontsize=46:fontcolor=white:borderw=4:bordercolor=#1B1464:line_spacing=10:x=(w-text_w)/2:y=1030:enable='between(t,{a:.2f},{b:.2f})'" for fn,a,b in caps)
 fc.append(f'[0:v]{dt}[v]')
-subprocess.run(['ffmpeg','-v','error','-y']+inp+['-filter_complex',';'.join(fc),'-map','[v]','-map','[ao]','-c:v','libx264','-preset','veryfast','-crf','23','-pix_fmt','yuv420p','-c:a','aac','-b:a','128k','-t',f'{TT-1.5:.2f}',out],check=True)
+subprocess.run(['ffmpeg','-v','error','-y']+inp+['-filter_complex',';'.join(fc),'-map','[v]','-map','[ao]','-c:v','libx264','-preset','veryfast','-crf','23','-pix_fmt','yuv420p','-c:a','aac','-b:a','128k','-t',f'{TT-0.25:.2f}',out],check=True)
 print('ok',out,round(t,1),'s',len(shots),'cenas')
