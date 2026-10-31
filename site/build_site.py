@@ -478,6 +478,12 @@ def build_article_page(fm: dict, body: str, structured_data: dict, site: dict, p
                       f'<figcaption style="text-align:center;font-size:.9rem">Veja em vídeo (30 segundos)</figcaption></figure>')
 
     body_html = md_to_html(_variar_fecho(body, slug))
+    if (BUILD_DIR / "pins" / f"{slug}.jpg").exists():   # pin vertical (Pinterest, 31/10/2026)
+        _u = html_lib.escape(f"{dominio}/{slug}", quote=True)
+        _m = html_lib.escape(f"{dominio}/pins/{slug}.jpg", quote=True)
+        _d = html_lib.escape(fm["titulo"], quote=True).replace(" ", "%20")
+        body_html += (f'<aside class="pin-salvar"><img src="/pins/{slug}.jpg" alt="Pin: {html_lib.escape(fm["titulo"])}" width="300" height="450" loading="lazy">'
+                      f'<a class="btn" rel="noopener" target="_blank" href="https://www.pinterest.com/pin/create/button/?url={_u}&media={_m}&description={_d}">Salvar no Pinterest</a></aside>')
     # Links de afiliado (Shopee): sempre rel="sponsored nofollow noopener" e nova aba, mesmo que o markdown traga o link simples.
     import re as _raf
     body_html = _raf.sub(r'<a href="(https://s\.shopee\.com\.br/[^"]+)">',
@@ -1054,6 +1060,12 @@ def run(site_id: str) -> dict:
     _TODOS_ARTIGOS.extend(fm for fm, _b, _s in artigos)
 
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import gerar_pins as _gp
+        _gp.main(BUILD_DIR)
+    except Exception as _e:   # nunca derruba o build
+        print(f"[pins] ignorado: {_e}")
 
     # 25/10/2026: os video.mp4 da branch media somem com o tempo e a TV/artigos ficavam com video morto.
     # Copia para o proprio site (Cloudflare Pages, limite 25 MB por arquivo) os videos de artigos que ja estao no ar.
