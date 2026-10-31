@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal.jsonld.json
 imagem_capa: imagens/como-tirar-cheiro-de-xixi-de-cachorro-do-quintal.jpg
 imagem_fonte: pexels
-imagem_fotografo: JacLou- DL
-imagem_fotografo_url: https://www.pexels.com/@jaclou-dl
-imagem_url_pagina: https://www.pexels.com/photo/adorable-puppy-sniffing-a-purple-flower-in-garden-37662145/
-imagem_selecionada_em: '2026-10-26T22:37:41+00:00'
+imagem_fotografo: Chimango Hara
+imagem_fotografo_url: https://www.pexels.com/@chimango-hara-2155071143
+imagem_url_pagina: https://www.pexels.com/photo/small-dog-in-green-garden-with-trees-33574377/
+imagem_selecionada_em: '2026-10-31T10:51:26+00:00'
 ---
 
 # Como tirar cheiro de xixi de cachorro do quintal: guia prático

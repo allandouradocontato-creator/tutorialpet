@@ -56,19 +56,19 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-socializar-gato-filhote-com-visitas-e-novos-barulhos.jsonld.json
 imagem_capa: imagens/como-socializar-gato-filhote-com-visitas-e-novos-barulhos.jpg
 imagem_fonte: pexels
-imagem_fotografo: Jeffry Surianto
-imagem_fotografo_url: https://www.pexels.com/@andromeda99
-imagem_url_pagina: https://www.pexels.com/photo/close-up-portrait-of-a-domestic-cat-staring-36639147/
-imagem_selecionada_em: '2026-10-30T15:09:20+00:00'
+imagem_fotografo: Dmytro Koplyk
+imagem_fotografo_url: https://www.pexels.com/@dmytkopl
+imagem_url_pagina: https://www.pexels.com/photo/playful-tabby-kitten-leaping-indoors-39705290/
+imagem_selecionada_em: '2026-10-31T10:49:27+00:00'
 imagens_corpo:
 - arquivo: imagens/como-socializar-gato-filhote-com-visitas-e-novos-barulhos-corpo-1.jpg
-  alt: 'como socializar gato filhote com visitas e novos barulhos'
-  fotografo: 'Nothing Ahead'
-  fonte_url: 'https://www.pexels.com/photo/grayscale-photo-of-a-kitten-standing-on-the-road-13078136/'
+  alt: como socializar gato filhote com visitas e novos barulhos
+  fotografo: Nothing Ahead
+  fonte_url: https://www.pexels.com/photo/grayscale-photo-of-a-kitten-standing-on-the-road-13078136/
 - arquivo: imagens/como-socializar-gato-filhote-com-visitas-e-novos-barulhos-corpo-2.jpg
-  alt: 'como socializar gato filhote com visitas e novos barulhos'
-  fotografo: 'KIEU TRUONG'
-  fonte_url: 'https://www.pexels.com/photo/charcoal-cat-licking-nose-15554606/'
+  alt: como socializar gato filhote com visitas e novos barulhos
+  fotografo: KIEU TRUONG
+  fonte_url: https://www.pexels.com/photo/charcoal-cat-licking-nose-15554606/
 ---
 
 # Como socializar gato filhote com visitas e novos barulhos: guia prático

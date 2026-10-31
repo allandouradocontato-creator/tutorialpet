@@ -54,10 +54,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno.jsonld.json
 imagem_capa: imagens/como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno.jpg
 imagem_fonte: pexels
-imagem_fotografo: Jozef Fehér
-imagem_fotografo_url: https://www.pexels.com/@jozef-feher-356581
-imagem_url_pagina: https://www.pexels.com/photo/a-cute-dalmatian-dog-looking-14336463/
-imagem_selecionada_em: '2026-10-31T10:33:58+00:00'
+imagem_fotografo: Nancy Guth
+imagem_fotografo_url: https://www.pexels.com/@nancy-guth-269359
+imagem_url_pagina: https://www.pexels.com/photo/photography-of-three-dogs-looking-up-850602/
+imagem_selecionada_em: '2026-10-31T10:44:52+00:00'
 ---
 
 # Como identificar sinais de estresse em cães multicaes em espaco pequeno: guia prático

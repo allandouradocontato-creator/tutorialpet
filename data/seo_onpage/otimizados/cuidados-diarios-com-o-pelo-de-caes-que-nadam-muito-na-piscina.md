@@ -51,10 +51,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jsonld.json
 imagem_capa: imagens/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina.jpg
 imagem_fonte: pexels
-imagem_fotografo: Andrew Patrick Photo
-imagem_fotografo_url: https://www.pexels.com/@am83
-imagem_url_pagina: https://www.pexels.com/photo/a-dog-running-through-the-water-in-the-park-26965522/
-imagem_selecionada_em: '2026-10-30T15:12:26+00:00'
+imagem_fotografo: Mia Vargas
+imagem_fotografo_url: https://www.pexels.com/@mia-vargas-32248139
+imagem_url_pagina: https://www.pexels.com/photo/a-black-dog-in-the-water-9308417/
+imagem_selecionada_em: '2026-10-31T10:53:31+00:00'
 ---
 
 # Cuidados diarios com o pelo de caes que nadam muito na piscina: guia prático

@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

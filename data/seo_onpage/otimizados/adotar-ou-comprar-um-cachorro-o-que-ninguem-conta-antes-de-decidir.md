@@ -37,6 +37,12 @@ checagens_seo:
   manual.
 sugestoes_links_internos: []
 dados_estruturados_arquivo: data/seo_onpage/otimizados/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir.jsonld.json
+imagem_capa: imagens/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir.jpg
+imagem_fonte: pexels
+imagem_fotografo: Sam Lion
+imagem_fotografo_url: https://www.pexels.com/@sam-lion
+imagem_url_pagina: https://www.pexels.com/photo/adorable-dog-lying-on-floor-near-book-5732457/
+imagem_selecionada_em: '2026-10-31T10:30:05+00:00'
 ---
 
 # Adotar ou comprar um cachorro: o que ninguém conta antes de decidir

@@ -49,10 +49,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jsonld.json
 imagem_capa: imagens/como-escovar-pelo-de-gato-que-nao-gosta-de-escova.jpg
 imagem_fonte: pexels
-imagem_fotografo: Cats Coming
-imagem_fotografo_url: https://www.pexels.com/@catscoming
-imagem_url_pagina: https://www.pexels.com/photo/cat-licking-its-paw-3712095/
-imagem_selecionada_em: '2026-10-26T22:32:17+00:00'
+imagem_fotografo: Engin Akyurt
+imagem_fotografo_url: https://www.pexels.com/@enginakyurt
+imagem_url_pagina: https://www.pexels.com/photo/a-cat-licking-it-s-paw-9880705/
+imagem_selecionada_em: '2026-10-31T10:42:03+00:00'
 ---
 
 # Como escovar pelo de gato que nao gosta de escova: guia prático

@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 5733178,
+    "url_download": "https://images.pexels.com/photos/5733178/pexels-photo-5733178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-fluffy-puppy-against-white-background-5733178/",
+    "fotografo": "Sam Lion",
+    "fotografo_url": "https://www.pexels.com/@sam-lion",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog alone studio white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5732457,
+    "url_download": "https://images.pexels.com/photos/5732457/pexels-photo-5732457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-dog-lying-on-floor-near-book-5732457/",
+    "fotografo": "Sam Lion",
+    "fotografo_url": "https://www.pexels.com/@sam-lion",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog alone studio white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35261898,
+    "url_download": "https://images.pexels.com/photos/35261898/pexels-photo-35261898.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sleeping-cocker-spaniel-dog-portrait-35261898/",
+    "fotografo": "Christopher Welsch Leveroni",
+    "fotografo_url": "https://www.pexels.com/@christopher-welsch-leveroni-2150186467",
+    "largura": 6054,
+    "altura": 4028,
+    "query": "dog alone studio white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15305297,
+    "url_download": "https://images.pexels.com/photos/15305297/pexels-photo-15305297.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photograph-of-dogs-on-shelves-15305297/",
+    "fotografo": "Ayyeee Ayyeee",
+    "fotografo_url": "https://www.pexels.com/@ayyeee-ayyeee-434363205",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog alone studio white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32476517,
+    "url_download": "https://images.pexels.com/photos/32476517/pexels-photo-32476517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-portrait-32476517/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 7028,
+    "altura": 4687,
+    "query": "cute puppy isolated portrait",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15175664,
+    "url_download": "https://images.pexels.com/photos/15175664/pexels-photo-15175664.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-black-puppy-15175664/",
+    "fotografo": "Sharon  Snider",
+    "fotografo_url": "https://www.pexels.com/@sharon-snider-2339082",
+    "largura": 5844,
+    "altura": 4037,
+    "query": "cute puppy isolated portrait",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/5.jpg"
+  }
+]

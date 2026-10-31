@@ -45,7 +45,7 @@ imagem_fonte: pexels
 imagem_fotografo: Valeria Makai
 imagem_fotografo_url: https://www.pexels.com/@valeria-makai-84331105
 imagem_url_pagina: https://www.pexels.com/photo/black-cat-drinking-water-8881548/
-imagem_selecionada_em: '2026-10-30T15:08:10+00:00'
+imagem_selecionada_em: '2026-10-31T10:37:26+00:00'
 ---
 
 # Como escolher a melhor fonte de água elétrica para gatos: guia prático

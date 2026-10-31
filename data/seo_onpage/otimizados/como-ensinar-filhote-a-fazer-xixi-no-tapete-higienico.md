@@ -52,10 +52,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico.jsonld.json
 imagem_capa: imagens/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico.jpg
 imagem_fonte: pexels
-imagem_fotografo: Rahul Katare
-imagem_fotografo_url: https://www.pexels.com/@rhlkatare
-imagem_url_pagina: https://www.pexels.com/photo/adorable-labrador-puppy-sitting-indoors-35942005/
-imagem_selecionada_em: '2026-10-25T14:26:22+00:00'
+imagem_fotografo: ClickerHappy
+imagem_fotografo_url: https://www.pexels.com/@clickerhappy
+imagem_url_pagina: https://www.pexels.com/photo/animal-dog-pet-bulldog-616/
+imagem_selecionada_em: '2026-10-31T10:35:38+00:00'
 ---
 
 # Como ensinar filhote a fazer xixi no tapete higiênico
