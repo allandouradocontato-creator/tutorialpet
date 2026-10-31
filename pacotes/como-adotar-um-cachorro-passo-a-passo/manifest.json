@@ -1,6 +1,6 @@
 {
   "slug": "como-adotar-um-cachorro-passo-a-passo",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-31T13:18:23+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-adotar-um-cachorro-passo-a-passo",
   "voz": {
@@ -27,5 +27,12 @@
     ],
     "em": "2026-10-31T13:21:32+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "turno": "B",
+    "dia": "2026-11-02",
+    "zernio_facebook": "6ae606abc165f529c47378d2",
+    "zernio_instagram": "6ae606adc165f529c47378ef",
+    "buffer_tiktok": "6ae606b01ee172cd6daaecc6"
+  }
 }
