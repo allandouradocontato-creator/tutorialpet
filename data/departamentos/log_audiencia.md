@@ -24,3 +24,4 @@
 1. **Pet na janela (vigia do bairro)** (vídeo ≤8 s, pet olhando a rua, T0 ≤6 palavras, pergunta "o seu também vigia?"). Atrai: identificação imediata e comentário fácil de tutor. Risco: baixo (humor de rotina, sem saúde). Custo: baixo (clipe de banco, sem voz).
 2. **Pet no feriadão: o que muda na rotina** (carrossel salvável, 5 cartões; ligado ao feriado de 02/11, sem citar Finados). Atrai: salvamento e marcação do tutor. Risco: baixo (sem alegação médica; "procure um veterinário"). Custo: baixo (template de cartão; conferir falhas E117).
 
+| 2026-10-31 09:50 | Diretor de Audiência | Allan reprovou a Carteirinha e escolheu o e-book 'Pode ou Não Pode?'; ficha 2026-10-31_isca_pode_ou_nao_pode.md, E163-E165; Carteirinha vira brinde opcional |
