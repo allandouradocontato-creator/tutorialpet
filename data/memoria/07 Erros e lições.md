@@ -158,3 +158,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 31/10/2026: v10 (cartão com foto da Dra. Natasha no vídeo) foi reprovada pelo Allan ("ficou feio"); vale a v11 só com carimbo discreto @vetnatasha (regra 52).
 
 - 31/10/2026: erro: "meta de hoje" no texto do app/vídeo; Allan pediu "meta do dia". Corrigido em app, falas, voz (fala 4 regerada) e telas; regra 53.
+- 31/10/2026 (Vigia): apresentei problema (artigo aprovado em 404) sem solução e deixei 'aguardando'; o Allan cobrou e disse que a regra já tinha sido pedida e não estava escrita | a regra nunca foi gravada em 01/regras_de_ouro | gravada agora como regra de ouro 54 e em 01 Regras do Allan.
