@@ -34,9 +34,9 @@ Um criador idôneo não trabalha apenas para vender filhotes; ele se dedica a pr
 O primeiro sinal visível de seriedade é a total transparência. Um bom canil abre as portas para visitação física ou, quando a distância exige (como em estados diferentes), faz chamadas de vídeo sem cortes, mostrando o ambiente onde os animais dormem, brincam e se alimentam. O local deve ser limpo, arejado, sem superlotação e sem cheiro forte de urina acumulada.
 
 Além disso, o criador ético tem critérios rígidos de saúde:
-* **Exames genéticos e preventivos:** os pais passam por exames para evitar doenças hereditárias comuns à raça, como displasia coxofemoral em cães de porte grande ou problemas cardíacos em raças menores.
+* **Exames genéticos e preventivos:** os pais passam por exames para evitar doenças hereditárias comuns à raça, como displasia coxofemoral em cachorros de porte grande ou problemas cardíacos em raças menores.
 * **Acompanhamento veterinário:** a carteira de imunização deve ser assinada por um médico-veterinário com registro ativo no Conselho Regional de Medicina Veterinária (CRMV), detalhando as primeiras [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro) e o calendário de vermifugação.
-* **Contrato de compra e venda:** o documento deve oferecer garantias de saúde contra doenças congênitas e prever uma cláusula de acolhimento caso a família passe por alguma emergência extrema no futuro e não possa mais cuidar do cão.
+* **Contrato de compra e venda:** o documento deve oferecer garantias de saúde contra doenças congênitas e prever uma cláusula de acolhimento caso a família passe por alguma emergência extrema no futuro e não possa mais cuidar do cachorro.
 * **Pedigree oficial e microchip:** o filhote já é entregue microchipado e com registro em entidades cinófilas oficiais reconhecidas no Brasil, sem cobrança de taxas extras por esse documento.
 
 Outro detalhe fundamental: um bom profissional faz dezenas de perguntas para você. Ele quer saber sobre a rotina da casa, o espaço disponível, se há crianças e se você tem orçamento para a manutenção do animal. Se ele perceber que o perfil daquela raça não combina com a sua rotina, ele não hesitará em recusar a venda.
@@ -51,7 +51,7 @@ Infelizmente, as fábricas de filhotes e os criadores de fundo de quintal ainda 
 Se a pessoa propõe entregar o filhote em estacionamentos de shoppings, postos de gasolina ou estações de metrô, recuse de imediato. Quem não permite que você veja onde a mãe e a ninhada vivem geralmente tem algo grave a esconder, como gaiolas minúsculas, falta de higiene e animais subnutridos.
 
 ### Separação precoce da mãe
-O desmame nunca deve acontecer antes do tempo biológico e comportamental correto. Um filhote precisa ficar com a mãe e com os irmãos por um período de, em média, 60 a 70 dias. É nesse convívio que ele aprende a inibição da mordida, limites de convivência e recebe anticorpos vitais pelo leite materno. Criadores que entregam cães com 30 ou 40 dias querem apenas cortar custos com ração, repassando um animal vulnerável para os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) com risco de adoecer gravemente.
+O desmame nunca deve acontecer antes do tempo biológico e comportamental correto. Um filhote precisa ficar com a mãe e com os irmãos por um período de, em média, 60 a 70 dias. É nesse convívio que ele aprende a inibição da mordida, limites de convivência e recebe anticorpos vitais pelo leite materno. Criadores que entregam cachorros com 30 ou 40 dias querem apenas cortar custos com ração, repassando um animal vulnerável para os [primeiros dias do filhote em casa](/primeiros-dias-do-filhote-em-casa) com risco de adoecer gravemente.
 
 ### "Pronta entrega" de múltiplas raças
 Desconfie de canis que oferecem cinco, seis ou mais raças diferentes o ano todo. Manter uma criação ética exige dedicação profunda a cada linhagem. Quem tem dezenas de filhotes de raças variadas disponíveis a qualquer momento costuma operar esquemas industriais de reprodução forçada, submetendo matrizes a cios sucessivos sem nenhum descanso.
@@ -66,11 +66,11 @@ Criar com responsabilidade custa caro: envolve alimentação super premium, exam
 A mãe dos filhotes conta a verdadeira história do criadouro. Mesmo que o filhote pareça saudável e brincalhão, o estado físico e emocional da fêmea revela como a rotina daquele local realmente funciona no dia a dia.
 
 Ao visitar o espaço, observe atentamente:
-1. **Comportamento da matriz:** ela é dócil, sociável e curiosa, ou demonstra medo excessivo, encolhendo-se quando o tutor se aproxima? Cães que vivem em cativeiro isolado costumam ter reações de pavor ou apatia severa.
+1. **Comportamento da matriz:** ela é dócil, sociável e curiosa, ou demonstra medo excessivo, encolhendo-se quando o tutor se aproxima? Cachorros que vivem em cativeiro isolado costumam ter reações de pavor ou apatia severa.
 2. **Condição corporal:** embora a amamentação desgaste o corpo da fêmea, ela não deve apresentar ossos excessivamente salientes, feridas na pele, falhas graves na pelagem ou olhar opaco.
 3. **Histórico de crias:** de acordo com as diretrizes do Conselho Federal de Medicina Veterinária (CFMV) sobre bem-estar animal, fêmeas precisam de períodos de descanso entre as gestações. Pergunte quantas crias aquela cadela já teve e com qual frequência.
 
-Observe também o ambiente de estímulo dos filhotes. Criadores dedicados investem em enriquecimento ambiental precoce: apresentam superfícies diferentes (grama, piso frio, tapetes), brinquedos de texturas variadas e sons do cotidiano. Esse trabalho diminui as chances de o cão desenvolver fobias graves antes mesmo do período em [com quantos meses o cachorro pode sair na rua](/com-quantos-meses-o-cachorro-pode-sair-na-rua) em segurança.
+Observe também o ambiente de estímulo dos filhotes. Criadores dedicados investem em enriquecimento ambiental precoce: apresentam superfícies diferentes (grama, piso frio, tapetes), brinquedos de texturas variadas e sons do cotidiano. Esse trabalho diminui as chances de o cachorro desenvolver fobias graves antes mesmo do período em [com quantos meses o cachorro pode sair na rua](/com-quantos-meses-o-cachorro-pode-sair-na-rua) em segurança.
 
 > **Exemplo prático:** Ao conhecer a ninhada, você repara que os filhotes estão em uma área ampla, com panos limpos, brinquedos mastigáveis e sons baixos de rádio tocando ao fundo para que se acostumem com ruídos humanos. A mãe entra e sai livremente do cercado quando quer descansar, mostrando autonomia e tranquilidade.
 
@@ -86,12 +86,12 @@ Antes de qualquer depósito de reserva ou pagamento final, solicite a visualiza�
 
 Tenha esses documentos guardados junto com os itens do [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro), garantindo que todo o histórico inicial do animal fique acessível para as primeiras consultas de rotina.
 
-> **Exemplo prático:** O criador envia previamente por e-mail a minuta do contrato de compra para você ler com calma no fim de semana. No texto, há garantias claras de cobertura veterinária para viroses nos primeiros 15 dias e contra displasia grave até os dois anos de idade do cão.
+> **Exemplo prático:** O criador envia previamente por e-mail a minuta do contrato de compra para você ler com calma no fim de semana. No texto, há garantias claras de cobertura veterinária para viroses nos primeiros 15 dias e contra displasia grave até os dois anos de idade do cachorro.
 
 ## Perguntas frequentes
 
 **Pedigree garante que o cachorro nunca terá problemas de saúde?**  
-Não. O pedigree certifica a pureza da raça e a linhagem genealógica do cão. Para diminuir os riscos de doenças congênitas, é indispensável exigir os laudos negativos de saúde dos pais, além do registro genealógico.
+Não. O pedigree certifica a pureza da raça e a linhagem genealógica do cachorro. Para diminuir os riscos de doenças congênitas, é indispensável exigir os laudos negativos de saúde dos pais, além do registro genealógico.
 
 **Qual a idade mínima recomendada para levar um filhote para casa?**  
 Em média, a partir de 60 dias de vida (8 semanas completas). Antes desse período, a convivência diária com a mãe e os irmãos de ninhada é essencial para o equilíbrio comportamental e imunológico do animal.
@@ -100,7 +100,7 @@ Em média, a partir de 60 dias de vida (8 semanas completas). Antes desse perío
 Não. O registro de uma ninhada junto aos clubes cinófilos tem um custo administrativo baixo. Cobrar valores altos adicionais "pelo documento" é uma tática típica de comerciantes desonestos para vender animais mestiços ou sem procedência.
 
 **Posso denunciar se suspeitar de um canil clandestino?**  
-Sim. Maus-tratos a cães e gatos são crimes previstos pela Lei Federal 14.064/2020. Denúncias podem ser feitas na Delegacia Eletrônica de Proteção Animal da sua região, no Ministério Público ou na Secretaria Municipal de Meio Ambiente.
+Sim. Maus-tratos a cachorros e gatos são crimes previstos pela Lei Federal 14.064/2020. Denúncias podem ser feitas na Delegacia Eletrônica de Proteção Animal da sua região, no Ministério Público ou na Secretaria Municipal de Meio Ambiente.
 
 ## Para fechar
 

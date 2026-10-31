@@ -69,7 +69,7 @@ def _tem_fontes(h):
     return bool(m) and len(re.findall(r'href="https?://(?!tutorialpet)', m.group(1))) >= 2
 sem_fonte = [s for s in art if not _tem_fontes(art[s])]
 ck("TODOS os artigos com secao Fontes e referencias (>=2 links)", not sem_fonte, f"{len(sem_fonte)} sem fonte: {sem_fonte[:4]}", "pesquisar fontes reais e inserir antes do fechamento")
-ck("sem texto de modelo visivel", not [f.name for f in B.glob("*.html") if re.search(r"PREENCHER|Nota para revis|lorem ipsum|\{\{", txt(f.read_text(encoding="utf-8")), re.I)], "", "remover nota/modelo")
+ck("sem texto de modelo visivel", not [f.name for f in B.glob("*.html") if (re.search(r"\bPREENCHER\b|\[PREENCHER", txt(f.read_text(encoding="utf-8"))) or re.search(r"Nota para revis|lorem ipsum|\{\{", txt(f.read_text(encoding="utf-8")), re.I))], "", "remover nota/modelo")
 ck("autor nomeado (pessoa) nos artigos", not [s for s, h in art.items() if re.search(r'class="byline">\s*Por\s+Equipe', h)], "byline ainda 'Equipe Tutorial Pet'", "config/sites/equipe.json")
 ck("Sobre tem secao de equipe/autor", 'id="equipe"' in (B / "sobre.html").read_text(encoding="utf-8"), "", "adicionar quem escreve e responde")
 # 6 privacidade

@@ -63,7 +63,7 @@ imagem_selecionada_em: '2026-10-31T18:52:16+00:00'
 
 # Sinpatinhas: como cadastrar seu cachorro ou gato de graça: guia prático
 
-Existe um laço invisível, mas indestrutível, que une o nosso coração ao do nosso companheiro de quatro patas. Proteger esse vínculo vai muito além de carinhos e petiscos; significa garantir segurança jurídica e institucional ao nome de quem nos ama sem pedir nada em troca. Para quem vive no Estado de São Paulo, o sistema Sinpatinhas surge como uma ferramenta valiosa de cidadania e cuidado animal, permitindo registrar os dados de cães e gatos de forma totalmente gratuita e oficial.
+Existe um laço invisível, mas indestrutível, que une o nosso coração ao do nosso companheiro de quatro patas. Proteger esse vínculo vai muito além de carinhos e petiscos; significa garantir segurança jurídica e institucional ao nome de quem nos ama sem pedir nada em troca. Para quem vive no Estado de São Paulo, o sistema Sinpatinhas surge como uma ferramenta valiosa de cidadania e cuidado animal, permitindo registrar os dados de cachorros e gatos de forma totalmente gratuita e oficial.
 
 ## Canais oficiais
 
@@ -74,7 +74,7 @@ Existe um laço invisível, mas indestrutível, que une o nosso coração ao do 
 
 O Sinpatinhas é um sistema informatizado estadual criado para reunir informações sobre a fauna doméstica, funcionando como um mecanismo de identificação e gestão de políticas públicas voltadas para animais de estimação. 
 
-Qualquer cidadão residente no Estado de São Paulo que possua cães ou gatos pode realizar o cadastro. O procedimento não acarreta custos financeiros ao tutor e serve para integrar o pet aos registros oficiais do Estado, fortalecendo as estatísticas de bem-estar animal e auxiliando em programas de saúde pública.
+Qualquer cidadão residente no Estado de São Paulo que possua cachorros ou gatos pode realizar o cadastro. O procedimento não acarreta custos financeiros ao tutor e serve para integrar o pet aos registros oficiais do Estado, fortalecendo as estatísticas de bem-estar animal e auxiliando em programas de saúde pública.
 
 Exemplo prático: se você adotou um pet recentemente, conforme orientações detalhadas em [como adotar um cachorro passo a passo](/como-adotar-um-cachorro-passo-a-passo), o registro no sistema funciona como o documento de identidade oficial do novo membro da família.
 
@@ -84,7 +84,7 @@ O processo de cadastramento é digital e pode ser feito diretamente por computad
 
 Para iniciar, o tutor deve acessar a plataforma oficial do programa e criar uma conta de acesso unificado, utilizando os dados pessoais padrão exigidos por sistemas governamentais, como número de CPF e endereço residencial atualizado.
 
-Em seguida, na seção destinada ao cadastro de animais, será necessário preencher as características físicas do cão ou gato, como espécie, raça (ou indicação de animal sem raça definida), cor predominante, porte, faixa etária aproximada e a presença de eventuais sinais particulares, a exemplo de manchas ou cicatrizes. 
+Em seguida, na seção destinada ao cadastro de animais, será necessário preencher as características físicas do cachorro ou gato, como espécie, raça (ou indicação de animal sem raça definida), cor predominante, porte, faixa etária aproximada e a presença de eventuais sinais particulares, a exemplo de manchas ou cicatrizes. 
 
 Caso o animal possua microchip de identificação implantado por um médico-veterinário, o número correspondente deve ser informado no campo específico do formulário eletrônico, pois isso garante maior precisão ao registro oficial.
 
@@ -107,14 +107,14 @@ O sistema é uma ferramenta pública de incentivo à identificação e cidadania
 Não. O serviço oferecido pelo portal oficial é inteiramente gratuito para os tutores residentes no Estado de São Paulo.
 
 - **Posso cadastrar animais sem raça definida (SRD)?**
-Sim, o sistema aceita perfeitamente o cadastro de cães e gatos sem raça definida, bastando selecionar a opção correspondente no formulário.
+Sim, o sistema aceita perfeitamente o cadastro de cachorros e gatos sem raça definida, bastando selecionar a opção correspondente no formulário.
 
 - **Onde devo procurar ajuda se tiver dúvidas técnicas no site?**
 As dúvidas sobre o funcionamento da plataforma devem ser direcionadas aos canais de suporte técnico informados no próprio portal oficial da Secretaria de Meio Ambiente, Infraestrutura e Logística.
 
 ## Para fechar
 
-Cuidar de um animal de estimação é um ato diário de amor que se traduz em pequenos e grandes gestos, desde a atenção aos detalhes da rotina até a formalização legal da sua existência ao nosso lado. Conhecer e utilizar ferramentas públicas como o Sinpatinhas é garantir que a história compartilhada com o seu companheiro seja respeitada, protegida e reconhecida. Continue navegando pelo blog para descobrir mais dicas práticas e informações valiosas sobre o universo dos cães e gatos.
+Cuidar de um animal de estimação é um ato diário de amor que se traduz em pequenos e grandes gestos, desde a atenção aos detalhes da rotina até a formalização legal da sua existência ao nosso lado. Conhecer e utilizar ferramentas públicas como o Sinpatinhas é garantir que a história compartilhada com o seu companheiro seja respeitada, protegida e reconhecida. Continue navegando pelo blog para descobrir mais dicas práticas e informações valiosas sobre o universo dos cachorros e gatos.
 
 ## Fontes e referências
 

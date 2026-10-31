@@ -26,7 +26,7 @@ Vamos direto ao ponto, com um passo a passo simples de aplicar hoje mesmo para e
 
 ## O que é uma fábrica de filhotes e como ela opera?
 
-Uma fábrica de filhotes — conhecida no exterior como *puppy mill* — é um estabelecimento de criação intensiva e comercial de cães e gatos, onde o único objetivo é o lucro financeiro em larga escala. Nesses locais, os animais reprodutores vivem confinados em espaços exíguos, muitas vezes sem ver a luz do sol, sem socialização e tratados apenas como máquinas de produzir ninhadas sequenciais. 
+Uma fábrica de filhotes — conhecida no exterior como *puppy mill* — é um estabelecimento de criação intensiva e comercial de cachorros e gatos, onde o único objetivo é o lucro financeiro em larga escala. Nesses locais, os animais reprodutores vivem confinados em espaços exíguos, muitas vezes sem ver a luz do sol, sem socialização e tratados apenas como máquinas de produzir ninhadas sequenciais. 
 
 Diferente de criadores responsáveis, que cuidam da saúde genética e emocional de poucas matrizes, as fábricas negligenciam completamente o bem-estar. As fêmeas cruzam em absolutamente todos os cios até a exaustão física, sem intervalo para recuperação. Quando perdem a capacidade reprodutiva, esses animais costumam ser descartados ou abandonados.
 
@@ -40,9 +40,9 @@ Exemplo prático: Enquanto um criador ético faz perguntas detalhadas sobre a su
 
 ## Por que essa prática é tão cruel?
 
-A crueldade das fábricas de filhotes vai muito além da falta de carinho; ela fere profundamente a integridade física e psicológica de cães e gatos. O confinamento prolongado causa atrofia muscular, problemas de pele, doenças respiratórias crônicas e infestações graves de parasitas que raramente recebem tratamento adequado.
+A crueldade das fábricas de filhotes vai muito além da falta de carinho; ela fere profundamente a integridade física e psicológica de cachorros e gatos. O confinamento prolongado causa atrofia muscular, problemas de pele, doenças respiratórias crônicas e infestações graves de parasitas que raramente recebem tratamento adequado.
 
-Do ponto de vista comportamental, filhotes nascidos nesses locais são separados das mães antes do tempo ideal — que costuma ser em média por volta dos dois meses de idade, conforme orientação do Conselho Federal de Medicina Veterinária (CFMV). Essa separação precoce gera traumas profundos, fobias e dificuldades imensas de socialização, o que pode desencadear problemas futuros como a [ansiedade de separação em cães](/ansiedade-de-separacao-em-caes).
+Do ponto de vista comportamental, filhotes nascidos nesses locais são separados das mães antes do tempo ideal — que costuma ser em média por volta dos dois meses de idade, conforme orientação do Conselho Federal de Medicina Veterinária (CFMV). Essa separação precoce gera traumas profundos, fobias e dificuldades imensas de socialização, o que pode desencadear problemas futuros como a [ansiedade de separação em cachorros](/ansiedade-de-separacao-em-caes).
 
 ### O reflexo na saúde a longo prazo
 

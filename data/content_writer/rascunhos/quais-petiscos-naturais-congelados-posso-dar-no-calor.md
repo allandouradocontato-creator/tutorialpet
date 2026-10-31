@@ -1,7 +1,7 @@
 ---
 titulo: 'Quais petiscos naturais congelados posso dar no calor: guia prático'
 meta_description: Descubra receitas e dicas de petiscos naturais congelados para refrescar
-  cães e gatos no calor com carinho, nutrição e total segurança.
+  cachorros e gatos no calor com carinho, nutrição e total segurança.
 data: '2026-10-26'
 status: rascunho_pendente_revisao
 slug: quais-petiscos-naturais-congelados-posso-dar-no-calor
@@ -28,7 +28,7 @@ Com ingredientes simples que costumamos ter na cozinha, dá para criar opções 
 
 ## Frutas e legumes seguros para transformar em cubos de alívio
 
-Frutas ricas em água e legumes leves são a melhor base para combater o mormaço. Melancia sem sementes, melão, morango, mirtilo e fatias de banana são escolhas seguras que hidratam e despertam o entusiasmo dos cães. Antes de picar, confira com calma [quais frutas cachorro pode comer no verao com seguranca](/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca) e certifique-se de manter longe da tigela uvas, carambolas ou qualquer semente, respeitando a lista de [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro). 
+Frutas ricas em água e legumes leves são a melhor base para combater o mormaço. Melancia sem sementes, melão, morango, mirtilo e fatias de banana são escolhas seguras que hidratam e despertam o entusiasmo dos cachorros. Antes de picar, confira com calma [quais frutas cachorro pode comer no verao com seguranca](/quais-frutas-cachorro-pode-comer-no-verao-com-seguranca) e certifique-se de manter longe da tigela uvas, carambolas ou qualquer semente, respeitando a lista de [alimentos proibidos para cachorro](/alimentos-proibidos-para-cachorro). 
 
 Vegetais como a cenoura raspada ou a abobrinha crua em rodelas também congelam muito bem, oferecendo uma crocância satisfatória que alivia o calor enquanto entretém a mente. Para preparar, basta cortar o alimento em pedaços compatíveis com o tamanho da boca do animal ou bater a polpa no liquidificador com um pingo de água filtrada, distribuindo em forminhas de gelo de silicone. 
 
@@ -36,9 +36,9 @@ Vegetais como a cenoura raspada ou a abobrinha crua em rodelas também congelam 
 
 ---
 
-## Picolés de sachê e caldos nutritivos para cães e felinos
+## Picolés de sachê e caldos nutritivos para cachorros e felinos
 
-Gatos costumam ser mais seletivos e raramente se interessam por frutas, mas encontram um conforto imenso em aromas de carne bem preservados. Para os felinos e cães de paladar exigente, o melhor caminho é aproveitar a comida úmida que eles já amam ou preparar uma infusão saborosa. Se quiser diversificar o cardápio do seu bichano com carinho, vale conferir também [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato) além das versões congeladas.
+Gatos costumam ser mais seletivos e raramente se interessam por frutas, mas encontram um conforto imenso em aromas de carne bem preservados. Para os felinos e cachorros de paladar exigente, o melhor caminho é aproveitar a comida úmida que eles já amam ou preparar uma infusão saborosa. Se quiser diversificar o cardápio do seu bichano com carinho, vale conferir também [quais petiscos naturais posso dar para o gato](/quais-petiscos-naturais-posso-dar-para-o-gato) além das versões congeladas.
 
 Você pode diluir o sachê de rotina em um pouco de água para criar pequenos bombons de patê congelado. Outra opção maravilhosa e profundamente reconfortante é usar um caldo caseiro sem tempero, alho ou cebola — como ensinamos no passo a passo de [como fazer caldo de ossos caseiro para cachorro](/como-fazer-caldo-de-ossos-caseiro-para-cachorro). As forminhas de gelo transformam esse líquido rico em nutrientes em pedrinhas mágicas de hidratação, que derretem suavemente na boca sem exigir esforço do pet.
 
@@ -52,14 +52,14 @@ A alegria de ver o animal se deliciar não pode nos fazer esquecer da sensibilid
 
 Outro detalhe precioso é a moderação. Petiscos refrescantes não devem substituir as refeições completas, e os especialistas em nutrição animal orientam que mimos não ultrapassem, em média, 10% das calorias diárias necessárias. Entender [como calcular a quantidade certa de petiscos naturais na dieta diaria](/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria) mantém o peso sob controle e a digestão serena. Na dúvida sobre a tolerância gastrointestinal do seu amigo, o médico-veterinário é sempre o guia definitivo.
 
-**Exemplo prático:** Antes de dar um bloco congelado de caldo de carne ao seu cão, passe o cubo por cinco segundos na água corrente da pia. Você vai notar que a camada esbranquiçada e seca de gelo some na hora, tornando o petisco imediatamente liso e seguro para a lambedura.
+**Exemplo prático:** Antes de dar um bloco congelado de caldo de carne ao seu cachorro, passe o cubo por cinco segundos na água corrente da pia. Você vai notar que a camada esbranquiçada e seca de gelo some na hora, tornando o petisco imediatamente liso e seguro para a lambedura.
 
 ---
 
 ## Perguntas frequentes
 
 **Dar gelo comum ao pet faz mal para a saúde?**  
-Não faz mal, desde que oferecido em pedaços pequenos ou boiando na tigela de água fresca, sempre com cautela para cães muito afobados não engolirem inteiro.
+Não faz mal, desde que oferecido em pedaços pequenos ou boiando na tigela de água fresca, sempre com cautela para cachorros muito afobados não engolirem inteiro.
 
 **Gatos realmente aceitam petiscos congelados no verão?**  
 Sim, especialmente quando feitos à base de sachê, atum em água ou caldo de carne, embora a maioria prefira lamber o petisco conforme ele derrete em vez de mastigar.

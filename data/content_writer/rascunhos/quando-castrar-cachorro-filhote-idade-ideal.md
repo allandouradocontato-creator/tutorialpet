@@ -28,15 +28,15 @@ Lembre-se sempre de conversar com o médico-veterinário do pet para avaliar o d
 
 A faixa etária varia conforme o porte do animal. Não existe uma regra única, mas sim estimativas baseadas no crescimento ósseo e hormonal.
 
-* **Cães de pequeno porte:** Costumam estar prontos em média aos **6 meses de idade**.
-* **Cães de médio e grande porte:** Costumam ser liberados em média entre **9 e 12 meses**, permitindo que o sistema esquelético se desenvolva completamente.
-* **Cães gigantes:** Podem precisar esperar até **12 a 18 meses**, sempre com avaliação veterinária.
+* **Cachorros de pequeno porte:** Costumam estar prontos em média aos **6 meses de idade**.
+* **Cachorros de médio e grande porte:** Costumam ser liberados em média entre **9 e 12 meses**, permitindo que o sistema esquelético se desenvolva completamente.
+* **Cachorros gigantes:** Podem precisar esperar até **12 a 18 meses**, sempre com avaliação veterinária.
 
 Exemplo prático: Se você adotou um filhote de raça pequena, o planejamento costuma começar perto do final do esquema de [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro), enquanto pets maiores pedem um tempo extra de crescimento.
 
 ## Fatores que influenciam o momento da cirurgia
 
-O relógio biológico do cão dita o ritmo da decisão. Vários elementos pesam na balança além da idade cronológica.
+O relógio biológico do cachorro dita o ritmo da decisão. Vários elementos pesam na balança além da idade cronológica.
 
 * **Desenvolvimento hormonal:** O primeiro cio nas fêmeas ou a maturidade comportamental nos machos ajudam a balizar o prazo.
 * **Histórico de saúde:** A caderneta de vacinação em dia e exames de sangue pré-operatórios são inegociáveis.
@@ -71,6 +71,6 @@ Exemplo prático: Para facilitar a recuperação nos primeiros dias em casa, val
 
 ## Para fechar
 
-Definir a idade ideal para castrar o filhote exige alinhar o calendário de crescimento do cão com a orientação profissional do veterinário de confiança. Com planejamento, exames em dia e um pós-operatório cuidadoso, o procedimento transcorre com tranquilidade e garante mais saúde para o peludo a longo prazo.
+Definir a idade ideal para castrar o filhote exige alinhar o calendário de crescimento do cachorro com a orientação profissional do veterinário de confiança. Com planejamento, exames em dia e um pós-operatório cuidadoso, o procedimento transcorre com tranquilidade e garante mais saúde para o peludo a longo prazo.
 
 Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o universo pet e fortalecer ainda mais a rotina de cuidados em casa.

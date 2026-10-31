@@ -28,25 +28,25 @@ Abaixo, você confere um resumo direto ao ponto com os principais tipos de peito
 
 ---
 
-## 1. Tipos de peitoral: qual é o melhor para o seu cão?
+## 1. Tipos de peitoral: qual é o melhor para o seu cachorro?
 
 Nem todo peitoral serve para todo perfil de animal. O modelo ideal depende do nível de energia, do porte e do comportamento durante o passeio:
 
 *   **Peitoral em H (ou em Y):**
     *   *Como funciona:* as tiras passam pelo peito formando um desenho anatômico que contorna a base do pescoço e o tórax, deixando as escápulas e ombros totalmente livres.
     *   *Vantagens:* excelente distribuição de impacto, muito confortável para caminhadas diárias e difícil de escapar se bem ajustado.
-    *   *Para quem é indicado:* cães de todos os portes que passeiam de forma equilibrada ou filhotes em adaptação.
+    *   *Para quem é indicado:* cachorros de todos os portes que passeiam de forma equilibrada ou filhotes em adaptação.
 *   **Peitoral anti-puxão (engate frontal / *Easy Walk*):**
-    *   *Como funciona:* a guia é presa em uma argola localizada na frente, no peito do cão. Quando ele puxa, o próprio impulso vira o corpo dele suavemente de volta para você.
+    *   *Como funciona:* a guia é presa em uma argola localizada na frente, no peito do cachorro. Quando ele puxa, o próprio impulso vira o corpo dele suavemente de volta para você.
     *   *Vantagens:* desencoraja puxões fortes sem sufocar e sem dor.
-    *   *Para quem é indicado:* cães com muita energia, porte médio a grande ou animais que arrastam o tutor.
+    *   *Para quem é indicado:* cachorros com muita energia, porte médio a grande ou animais que arrastam o tutor.
 *   **Peitoral de tração (ou norueguês / alça horizontal):**
     *   *Como funciona:* possui uma faixa reta horizontal no peito e uma alça de apoio nas costas.
     *   *Atenção:* embora seja fácil de vestir, a tira horizontal pode prender o movimento natural das escápulas em passadas longas. Use apenas se recomendado para atividades específicas de tração.
 *   **Peitoral tipo colete:**
     *   *Como funciona:* feito de tecido acolchoado que envolve o tórax com fechamento por velcro ou presilha.
     *   *Vantagens:* muito macio e aconchegante.
-    *   *Para quem é indicado:* cães de pequeno porte ou cães idosos que não puxam.
+    *   *Para quem é indicado:* cachorros de pequeno porte ou cachorros idosos que não puxam.
 
 | Modelo de peitoral | Liberdade de movimento | Controle de puxões | Nível de conforto |
 | :--- | :--- | :--- | :--- |
@@ -55,7 +55,7 @@ Nem todo peitoral serve para todo perfil de animal. O modelo ideal depende do n�
 | **Colete acolchoado** | Média | Baixo | Muito alto |
 | **Norueguês** | Baixa a média | Alto | Médio |
 
-**Exemplo prático:** Se você tem um cão de porte médio que adora disparar ao ver outros animais na calçada, o peitoral com engate frontal associado a uma argola nas costas oferece controle imediato do impulso sem forçar a região do pescoço.
+**Exemplo prático:** Se você tem um cachorro de porte médio que adora disparar ao ver outros animais na calçada, o peitoral com engate frontal associado a uma argola nas costas oferece controle imediato do impulso sem forçar a região do pescoço.
 
 ---
 
@@ -65,11 +65,11 @@ A guia é a linha direta de comunicação e segurança entre você e o pet. O co
 
 *   **Guia fixa padrão (1,5 m a 2 m):**
     *   O modelo mais recomendado para calçadas urbanas e ruas movimentadas.
-    *   Garante distância segura de carros, ciclistas e outros cães.
+    *   Garante distância segura de carros, ciclistas e outros cachorros.
     *   Costuma ser feita de fita de nylon tramada ou corda de escalada, materiais muito resistentes.
 *   **Guia longa (3 m a 5 m ou mais):**
     *   Excelente para enriquecimento ambiental em parques, praças abertas e praias.
-    *   Permite que o cão fareje com autonomia sem ficar solto onde não é permitido.
+    *   Permite que o cachorro fareje com autonomia sem ficar solto onde não é permitido.
     *   Exige atenção constante para não enroscar em pernas ou galhos.
 *   **Guia retrátil (linha extensível):**
     *   *Prós:* dá liberdade aparente em descampados.
@@ -83,20 +83,20 @@ A guia é a linha direta de comunicação e segurança entre você e o pet. O co
 
 ---
 
-## 3. Como medir o cão e garantir o ajuste perfeito
+## 3. Como medir o cachorro e garantir o ajuste perfeito
 
-Comprar o tamanho errado pode causar assaduras nas axilas ou permitir fugas acidentais em momentos de susto. Antes de encomendar, meça o corpo do cão com uma fita métrica maleável:
+Comprar o tamanho errado pode causar assaduras nas axilas ou permitir fugas acidentais em momentos de susto. Antes de encomendar, meça o corpo do cachorro com uma fita métrica maleável:
 
 *   **Circunferência do pescoço:** meça a base do pescoço, onde a coleira naturalmente repousaria.
 *   **Circunferência do tórax (peito):** passe a fita na parte mais larga do tronco, costuma ser cerca de dois a três dedos atrás das patas dianteiras.
 *   **Comprimento do peito (para peitorais em H):** meça a distância entre o osso frontal do esterno até a linha logo atrás das costelas.
 *   **A regra dos dois dedos:** com o peitoral colocado e fechado, você deve conseguir deslizar dois dedos confortavelmente sob qualquer tira.
-    *   *Muito frouxo:* o cão consegue dar ré e escapar passando os cotovelos pelas alças.
+    *   *Muito frouxo:* o cachorro consegue dar ré e escapar passando os cotovelos pelas alças.
     *   *Muito apertado:* comprime a musculatura, prende a respiração e assa a pele sensível das axilas.
 
 Se o pet for filhote e você estiver montando o primeiro [enxoval para filhote de cachorro](/enxoval-para-filhote-de-cachorro), prefira modelos que possuam regulagem ampla em quatro pontos distintos, já que o corpo muda semanalmente nessa fase. Lembre-se sempre de conferir com o médico-veterinário [com quantos meses o cachorro pode sair na rua](/com-quantos-meses-o-cachorro-pode-sair-na-rua) de acordo com o esquema vacinal antes de iniciar os passeios externos.
 
-**Exemplo prático:** Ao ajustar um peitoral em H no seu cão, passe a mão entre a fita e a axila dele. Se seus dedos passarem com leve resistência sem prender, o ajuste está perfeito para a caminhada sem riscos de assaduras.
+**Exemplo prático:** Ao ajustar um peitoral em H no seu cachorro, passe a mão entre a fita e a axila dele. Se seus dedos passarem com leve resistência sem prender, o ajuste está perfeito para a caminhada sem riscos de assaduras.
 
 ---
 
@@ -116,17 +116,17 @@ A qualidade dos componentes faz a diferença entre um equipamento duradouro e um
 
 ## Perguntas frequentes
 
-**O peitoral anti-puxão machuca as articulações do cão?**  
+**O peitoral anti-puxão machuca as articulações do cachorro?**  
 Não, desde que tenha formato em Y/H na frente e fique bem ajustado acima das escápulas. Evite apenas modelos com faixas horizontais baixas que pressionam a frente das patas durante a passada.
 
-**Posso deixar o peitoral no cão o dia todo dentro de casa?**  
+**Posso deixar o peitoral no cachorro o dia todo dentro de casa?**  
 Não é recomendado. O uso contínuo pode quebrar os pelos, causar nós, acumular umidade na pele e criar o risco de a alça prender em maçanetas ou móveis.
 
 **Qual a largura ideal da fita da guia e do peitoral?**  
-Para cães pequenos, fitas de cerca de 1,5 cm de largura costumam ser suficientes e leves. Para animais de porte médio a grande (em média acima de 15 kg), prefira fitas de 2 cm a 2,5 cm de espessura para suportar a carga.
+Para cachorros pequenos, fitas de cerca de 1,5 cm de largura costumam ser suficientes e leves. Para animais de porte médio a grande (em média acima de 15 kg), prefira fitas de 2 cm a 2,5 cm de espessura para suportar a carga.
 
 **Cachorros idosos precisam de um peitoral diferente?**  
-Sim. Para cães idosos, modelos com alça de suporte superior nas costas e forro macio de neoprene são ideais, pois ajudam o tutor a dar suporte ao subir degraus ou ao levantar de pisos lisos.
+Sim. Para cachorros idosos, modelos com alça de suporte superior nas costas e forro macio de neoprene são ideais, pois ajudam o tutor a dar suporte ao subir degraus ou ao levantar de pisos lisos.
 
 ---
 
@@ -134,4 +134,4 @@ Sim. Para cães idosos, modelos com alça de suporte superior nas costas e forro
 
 Acertar na escolha da guia e do peitoral transforma o passeio em um momento prazeroso de conexão, bem-estar e exercício para o seu melhor amigo. Avalie o porte físico, o nível de energia e a força do pet para escolher materiais resistentes e confortáveis.
 
-Continue explorando o blog da Tutorial Pet para descobrir mais dicas de cuidados diários, adestramento positivo e bem-estar para cães e gatos de todas as idades!
+Continue explorando o blog da Tutorial Pet para descobrir mais dicas de cuidados diários, adestramento positivo e bem-estar para cachorros e gatos de todas as idades!

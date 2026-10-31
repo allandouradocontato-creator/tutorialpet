@@ -20,7 +20,7 @@ assinatura: Equipe Tutorial Pet
 
 # Como remover subpelo de cachorro na epoca de muda: guia prático
 
-Durante as estações de transição, especialmente na primavera e no outono, cães com pelagem dupla passam por uma intensa troca de pelos. O subpelo morto que se desprende da pele costuma ficar preso sob a camada superficial de proteção, formando tufos visíveis, retendo umidade e propiciando a formação de nós compactos se não for extraído adequadamente.
+Durante as estações de transição, especialmente na primavera e no outono, cachorros com pelagem dupla passam por uma intensa troca de pelos. O subpelo morto que se desprende da pele costuma ficar preso sob a camada superficial de proteção, formando tufos visíveis, retendo umidade e propiciando a formação de nós compactos se não for extraído adequadamente.
 
 Remover essa camada densa não exige procedimentos complexos, mas demanda técnica precisa e o uso dos instrumentos apropriados. A seguir, apresentamos um método estruturado para eliminar o subpelo solto com segurança, mantendo o animal confortável e o ambiente doméstico sob controle.
 
@@ -36,7 +36,7 @@ Para retirar os fios mortos retidos nessa camada sem danificar a pele sensível 
 2. **Rasqueadeira com cerdas longas e sem pontas plásticas:** Indicada para abrir mechas e alinhar a cobertura antes da passagem do ancinho.
 3. **Pente de metal com dentes combinados (fino e largo):** Serve para checar se ainda restam nós na raiz ou acúmulo de fios frouxos após a passagem do ancinho.
 
-Evite lâminas cortantes não reguladas ou equipamentos sem recomendação técnica, pois eles fraturam o pelo de guarda em vez de apenas extrair os fios que já se soltaram do folículo. Para entender como cuidar da textura dos pelos sem puxões em animais mais sensíveis, veja [como manter a pelagem de cães sênior livre de nós sem estresse](/como-manter-a-pelagem-de-caes-senior-livre-de-nos-sem-estresse).
+Evite lâminas cortantes não reguladas ou equipamentos sem recomendação técnica, pois eles fraturam o pelo de guarda em vez de apenas extrair os fios que já se soltaram do folículo. Para entender como cuidar da textura dos pelos sem puxões em animais mais sensíveis, veja [como manter a pelagem de cachorros sênior livre de nós sem estresse](/como-manter-a-pelagem-de-caes-senior-livre-de-nos-sem-estresse).
 
 > **Exemplo prático:** Ao passar os dedos na pelagem de um Pastor Alemão durante a muda, surgem tufos opacos e acinzentados que se soltam facilmente com um puxão leve. Essa é a indicação clara de que o ancinho deve ser utilizado, pois a escova comum de cerdas macias apenas deslizará sobre o pelo de cobertura, sem alcançar a raiz.
 
@@ -65,7 +65,7 @@ Em períodos de pico, sessões curtas de 15 a 20 minutos, em dias alternados, co
 
 A água e o fluxo de ar são aliados fundamentais para soltar grandes volumes de subpelo que continuam presos aos folículos. O banho estratégico encurta o período de queda massiva pela metade se executado na ordem correta.
 
-Antes de molhar o animal, faça uma escovação prévia para retirar o excesso; molhar pelos densamente embaraçados fecha os nós e transforma a pelagem em uma massa compacta e difícil de secar. Durante o banho, a massagem com água morna e xampu neutro para cães ajuda a dilatar suavemente os poros, soltando os fios enfraquecidos.
+Antes de molhar o animal, faça uma escovação prévia para retirar o excesso; molhar pelos densamente embaraçados fecha os nós e transforma a pelagem em uma massa compacta e difícil de secar. Durante o banho, a massagem com água morna e xampu neutro para cachorros ajuda a dilatar suavemente os poros, soltando os fios enfraquecidos.
 
 A etapa determinante, contudo, é a secagem com soprador de ar:
 * O soprador de alta vazão (não um secador quente doméstico) sopra o subpelo para fora da pele por pressão mecânica.
@@ -73,28 +73,28 @@ A etapa determinante, contudo, é a secagem com soprador de ar:
 
 Avalie com o profissional de estética canina ou com o veterinário [com que frequência dar banho em cachorro](/com-que-frequencia-dar-banho-em-cachorro), pois o excesso de lavagens retira a oleosidade natural da pele e pode provocar dermatites ou descamação.
 
-> **Exemplo prático:** Ao levar o cão para o banho no ápice da muda, solicite ao profissional de banho e tosa que utilize o soprador na pelagem ainda úmida antes de passar para a escovação final. Nuvens de subpelo se soltarão sem necessidade de tracionar a pele com escovas.
+> **Exemplo prático:** Ao levar o cachorro para o banho no ápice da muda, solicite ao profissional de banho e tosa que utilize o soprador na pelagem ainda úmida antes de passar para a escovação final. Nuvens de subpelo se soltarão sem necessidade de tracionar a pele com escovas.
 
 ---
 
-## O que nunca fazer com cães de pelagem dupla
+## O que nunca fazer com cachorros de pelagem dupla
 
-O erro mais comum cometido por tutores diante do acúmulo de pelos na casa é recorrer à tosa baixa ou raspagem da pelagem dupla. Raspar um cão com subpelo compromete gravemente sua saúde dermatológica e seu equilíbrio fisiológico.
+O erro mais comum cometido por tutores diante do acúmulo de pelos na casa é recorrer à tosa baixa ou raspagem da pelagem dupla. Raspar um cachorro com subpelo compromete gravemente sua saúde dermatológica e seu equilíbrio fisiológico.
 
-Ao tosar na máquina um cão de pelo duplo:
+Ao tosar na máquina um cachorro de pelo duplo:
 * **Interrompe-se a termorregulação natural:** O pelo e o subpelo formam uma camada isolante de ar que retém o calor no inverno e protege a pele do calor irradiado no verão. Sem essa barreira, o animal fica vulnerável a queimaduras solares severas e superaquecimento; entenda detalhadamente [como evitar choque térmico em cachorros nos dias quentes](/como-evitar-choque-termico-em-cachorros-nos-dias-quentes).
 * **Provoca-se a alopecia pós-tosa:** O pelo pode levar meses para rebrotar ou crescer de maneira falha, com textura modificada e áspera.
 * **Aumenta-se o risco de nós severos futuros:** O subpelo cresce mais rápido do que o pelo primário, sufocando os novos fios que tentam despontar e gerando embolamentos piores do que os originais.
 
 A tosa higiênica nas almofadas plantares e na região perianal é a única intervenção de corte recomendada de rotina para essas raças, salvo por estrita orientação médica.
 
-> **Exemplo prático:** Um tutor decide raspar seu cão nórdico no verão acreditando que ele sentirá menos calor. Poucos dias depois, o animal apresenta prostração precoce durante o dia e a pele avermelhada, pois perdeu a proteção térmica contra o calor externo e os raios UV, exigindo acompanhamento veterinário para reverter a inflamação cutânea.
+> **Exemplo prático:** Um tutor decide raspar seu cachorro nórdico no verão acreditando que ele sentirá menos calor. Poucos dias depois, o animal apresenta prostração precoce durante o dia e a pele avermelhada, pois perdeu a proteção térmica contra o calor externo e os raios UV, exigindo acompanhamento veterinário para reverter a inflamação cutânea.
 
 ---
 
 ## Perguntas frequentes
 
-**Quanto tempo costuma durar a época de muda em cães?**  
+**Quanto tempo costuma durar a época de muda em cachorros?**  
 Em média, a troca de pelagem sazonal dura de 3 a 8 semanas, dependendo do clima da região, da quantidade de luz solar diária e do tipo de pelagem do pet.
 
 **Pode usar a lâmina de desfilamento (Furminator) todos os dias?**  
@@ -110,6 +110,6 @@ O subpelo costuma ser significativamente mais claro, fino e opaco do que os fios
 
 ## Para fechar
 
-Controlar a muda de pelos exige constância e o uso do instrumental correto, e não medidas drásticas como a tosa integral. Ao integrar o ancinho de subpelo, a escovação em mechas e banhos bem planejados à rotina, o processo transcorre de forma limpa, confortável e segura para a integridade dermatológica do seu cão. 
+Controlar a muda de pelos exige constância e o uso do instrumental correto, e não medidas drásticas como a tosa integral. Ao integrar o ancinho de subpelo, a escovação em mechas e banhos bem planejados à rotina, o processo transcorre de forma limpa, confortável e segura para a integridade dermatológica do seu cachorro. 
 
 Continue acompanhando o Tutorial Pet para consultar outros manuais práticos sobre bem-estar, higiene e cuidados diários com a saúde do seu companheiro.

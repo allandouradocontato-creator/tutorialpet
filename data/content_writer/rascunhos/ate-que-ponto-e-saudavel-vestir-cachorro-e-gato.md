@@ -21,28 +21,28 @@ Casaquinho de lã, capa de chuva, fantasia de festa junina: a roupinha para cach
 
 ## Quando a roupa pode ser uma ajuda de verdade
 
-Segundo a rede de hospitais veterinários VCA, alguns cães perdem calor com facilidade e podem se beneficiar de um casaco:
+Segundo a rede de hospitais veterinários VCA, alguns cachorros perdem calor com facilidade e podem se beneficiar de um casaco:
 
-- **Cães pequenos**, como chihuahuas e yorkshires.
-- **Cães magros**, como galgos e whippets, que não retêm bem o calor.
-- **Cães de pernas curtas**, que podem ficar gelados quando a barriga encosta em chão frio ou molhado.
-- **Cães tosados bem rente**, que perdem parte do isolamento natural.
-- **Filhotes e cães idosos**, que regulam a temperatura do corpo com menos eficiência.
-- **Cães com doenças**, como diabetes ou problemas nos rins, que podem sofrer mais com o frio intenso.
+- **Cachorros pequenos**, como chihuahuas e yorkshires.
+- **Cachorros magros**, como galgos e whippets, que não retêm bem o calor.
+- **Cachorros de pernas curtas**, que podem ficar gelados quando a barriga encosta em chão frio ou molhado.
+- **Cachorros tosados bem rente**, que perdem parte do isolamento natural.
+- **Filhotes e cachorros idosos**, que regulam a temperatura do corpo com menos eficiência.
+- **Cachorros com doenças**, como diabetes ou problemas nos rins, que podem sofrer mais com o frio intenso.
 
-A Faculdade de Medicina Veterinária da Universidade Cornell acrescenta que cães de pelagem curta ou fina sentem mais frio do que raças de pelo duplo e grosso, como o husky e o malamute. Para raças sem pelo ou de pelo muito curto, a Ontario SPCA também aponta que casacos podem ser úteis.
+A Faculdade de Medicina Veterinária da Universidade Cornell acrescenta que cachorros de pelagem curta ou fina sentem mais frio do que raças de pelo duplo e grosso, como o husky e o malamute. Para raças sem pelo ou de pelo muito curto, a Ontario SPCA também aponta que casacos podem ser úteis.
 
-Se você tem um galgo, conheça o [galgo italiano, raça de pelo curto e muito sensível ao frio](/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta). O frio também chega às patas: veja os [cuidados com as patas de cães no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno). Quem convive com um cão mais velho encontra ideias de conforto em [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
+Se você tem um galgo, conheça o [galgo italiano, raça de pelo curto e muito sensível ao frio](/galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta). O frio também chega às patas: veja os [cuidados com as patas de cachorros no inverno](/cuidados-essenciais-com-as-patas-de-caes-no-inverno). Quem convive com um cachorro mais velho encontra ideias de conforto em [como adaptar a casa para um cachorro idoso](/como-adaptar-a-casa-para-um-cachorro-idoso).
 
-Segundo o Vetstreet, também ajudam a capa de chuva e o agasalho para cães em recuperação de cirurgia, já que a anestesia pode prejudicar o controle da temperatura. Nesse caso, siga o que o médico-veterinário orientar.
+Segundo o Vetstreet, também ajudam a capa de chuva e o agasalho para cachorros em recuperação de cirurgia, já que a anestesia pode prejudicar o controle da temperatura. Nesse caso, siga o que o médico-veterinário orientar.
 
 ## Quando é só decoração ou vontade do tutor
 
 Muita roupa de pet não protege de nada: é fantasia, vestidinho de festa, acessório para foto. Nesse caso a pergunta deixa de ser "ele precisa?" e vira "ele aceita bem e fica confortável?".
 
-Um cão de pelagem grossa, em um dia ameno, geralmente não precisa de nada por cima, e a Ontario SPCA lembra que cães podem superaquecer com facilidade.
+Um cachorro de pelagem grossa, em um dia ameno, geralmente não precisa de nada por cima, e a Ontario SPCA lembra que cachorros podem superaquecer com facilidade.
 
-Se for só por diversão, as orientações do American Kennel Club para fantasias valem como regra: prefira algo simples, como um lenço ou uma coleira decorada, no lugar de um traje completo, deixe o cão experimentar em casa antes e mantenha o momento curto e positivo, com petisco e elogio.
+Se for só por diversão, as orientações do American Kennel Club para fantasias valem como regra: prefira algo simples, como um lenço ou uma coleira decorada, no lugar de um traje completo, deixe o cachorro experimentar em casa antes e mantenha o momento curto e positivo, com petisco e elogio.
 
 ## E os gatos?
 
@@ -57,7 +57,7 @@ As fontes consultadas apontam problemas bem concretos:
 - **Superaquecimento.** Roupa pesada ou fechada demais, ou o aquecimento do próprio exercício, pode esquentar o animal.
 - **Restrição de movimento.** Peças apertadas ou que mudam o jeito de andar atrapalham o passo, o sentar e o deitar.
 - **Irritação na pele.** Em reportagem do Correio Braziliense, uma médica-veterinária relata que alguns animais coçam ao usar certos tecidos, com risco de ferida. Se houver coceira persistente ou perda de pelo, a roupa deve sair.
-- **Engasgo e ingestão.** O American Kennel Club recomenda verificar peças pequenas e soltas, como botões e pedrinhas, que o cão pode arrancar e engolir.
+- **Engasgo e ingestão.** O American Kennel Club recomenda verificar peças pequenas e soltas, como botões e pedrinhas, que o cachorro pode arrancar e engolir.
 - **Estresse.** Ser vestido envolve segurar, virar e puxar o animal.
 
 ## O que costuma ser seguro
@@ -73,7 +73,7 @@ Estes cuidados reduzem os riscos. Boa parte vem das orientações das fontes ao 
 7. **Supervisão sempre.** Nunca deixe o animal sozinho vestido.
 8. **Tirar ao menor sinal de desconforto.**
 
-Se a pele do seu cão anda sensível ou a roupa suja com frequência, veja [quando e como dar banho sem agredir a pele](/com-que-frequencia-dar-banho-em-cachorro).
+Se a pele do seu cachorro anda sensível ou a roupa suja com frequência, veja [quando e como dar banho sem agredir a pele](/com-que-frequencia-dar-banho-em-cachorro).
 
 ## Quando roupa não é boa ideia
 
@@ -103,7 +103,7 @@ Se aparecer qualquer um, tire a roupa e deixe o pet descansar.
 ## Perguntas frequentes
 
 **Todo cachorro precisa de roupa no inverno?**
-Não. Raças de pelo grosso e duplo costumam lidar melhor com o frio, enquanto cães pequenos, magros, de pelo curto, filhotes, idosos ou com certas doenças podem precisar de ajuda. Seu médico-veterinário pode dizer o que faz sentido para o seu cão.
+Não. Raças de pelo grosso e duplo costumam lidar melhor com o frio, enquanto cachorros pequenos, magros, de pelo curto, filhotes, idosos ou com certas doenças podem precisar de ajuda. Seu médico-veterinário pode dizer o que faz sentido para o seu cachorro.
 
 **Gato pode usar roupinha?**
 Em geral, os gatos toleram mal, e a Cats Protection considera que a maioria fica estressada. As exceções são raças sem pelo e roupas de proteção indicadas pelo veterinário.
@@ -115,7 +115,7 @@ A peça deve cobrir costas e peito, sem apertar e sem sobrar, e deixar o pet and
 Não necessariamente. Uma peça leve, do tamanho certo e usada por pouco tempo, só quando há frio, costuma ser segura. O problema aparece com peça apertada, quente demais, com enfeites soltos ou usada sem necessidade e sem supervisão.
 
 **Pode deixar o cachorro dormindo de roupa?**
-O mais prudente é não deixar. Sem supervisão, ele pode se enroscar, esquentar demais ou mastigar a peça. Se a noite é fria, prefira cobertor e caminha aquecida, e converse com o veterinário sobre o caso do seu cão.
+O mais prudente é não deixar. Sem supervisão, ele pode se enroscar, esquentar demais ou mastigar a peça. Se a noite é fria, prefira cobertor e caminha aquecida, e converse com o veterinário sobre o caso do seu cachorro.
 
 ## O que as entidades veterinárias dizem sobre isso
 

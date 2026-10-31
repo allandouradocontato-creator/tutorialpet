@@ -32,7 +32,7 @@ def main() -> int:
     alto = [x for x in alto if x[0] > 0.25]
     if alto:
         crit.append(f"pares com texto muito parecido (>25%): {alto[:3]}")
-    pat = re.compile(r"PREENCHER|Nota para revis|lorem ipsum|\{\{|undefined|revisao_humana: true", re.I)
+    pat = re.compile(r"\bPREENCHER\b|\[PREENCHER|(?i:Nota para revis|lorem ipsum|\{\{|undefined|revisao_humana: true)")   # PREENCHER só em maiúsculas: "preencher" é verbo normal (falso positivo no sinpatinhas, 31/10)
     for h in BUILD.glob("*.html"):
         t = re.sub(r"<(script|style).*?</\1>", "", h.read_text(encoding="utf-8", errors="ignore"), flags=re.S)
         if pat.search(t):
