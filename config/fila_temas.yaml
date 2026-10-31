@@ -344,7 +344,8 @@ temas:
   status: pendente
 - termo: como fazer cachorro parar de puxar a guia
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-10-31'
 - termo: quando castrar cachorro filhote idade ideal
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -1206,4 +1207,7 @@ temas:
   status: pendente
 - termo: como preparar um espaco seguro para o pet idoso durante reformas
   pilar: utilidade_publica
+  status: pendente
+- termo: como planejar a rotina de exercicios para caes adultos ativos
+  pilar: cuidados_diarios
   status: pendente
