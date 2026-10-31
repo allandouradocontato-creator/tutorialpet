@@ -146,3 +146,13 @@ Enviada: Dourado Falcão Educação Corporativa LTDA (CNPJ achado no registro of
 - O passo que trava ainda não foi relatado por ele (a compra passou). O checkout mobile corrigido funcionou para ele; a taxa real de conversão só sai com as próximas visitas.
 - Ajuste pedido por ele: vídeo "como usar o app" (2 min 52 s) passou a ser o PRIMEIRO item da tela Hoje do app (aberto até a 1ª sessão). Commit 0c17699, SW v16, conferido ao vivo em viewport mobile.
 - A aula da área de membros (Kiwify > Seu Protocolo de 14 Dias) tem só o link "Abrir o app" e o PDF; o campo de vídeo da aula está vazio.
+
+## Leitura das 18h de 31/10/2026 (Sonnet, rotina trig_01H8941aADwW9bQAHD47uo8B; Windsor em cache, plano FREE, granularidade diária)
+- Campanha 120253387444780134, 28–31/10: gasto R$ 85,27; cliques no link 151; checkouts 11; compras 0.
+- Conjunto mulheres 120253418313330134 (C v13): 30/10 R$ 7,55 / 2 checkouts; 31/10 R$ 15,04 / 710 impressões / 25 cliques no link / 2 checkouts / 0 compras. Conjunto antigo (120253387467550134): 31/10 R$ 5,70 / 0 checkouts.
+- Desde 31/10 10:00 (checkout corrigido): no máximo 2 checkouts do conjunto mulheres (o Windsor só dá o dia inteiro) → abaixo de 10, regra "checkout quebrado" NÃO se aplica ainda.
+- Kiwify > Vendas (Todas): 4 vendas na história; a única de 31/10 é a compra-teste do próprio Allan (10:28, Pix, líquido R$ 22,08) → o checkout corrigido funciona. Vendas reais de anúncio: 0. Custo por venda: indefinido (0 vendas).
+- Recuperador (Ana), produto novo ativo desde 29/10: R$ 0,00, 0 vendas, 0 leads atendidos; aba Conversas vazia.
+- Públicos (gatilho 500 para remarketing): "Assistiu VSL anúncio engajado 30d", "Iniciou checkout Sozinho 30d", "Visitantes landing Sozinho em Casa 30d" — todos "Abaixo de 1.000" e "em preenchimento"; o Meta não mostra o número exato, então não dá para confirmar ≥ 500. Remarketing continua desligado.
+- Escala: não (0 vendas; regra pede ≥3 vendas e custo/venda ≤ R$ 27).
+- Decisão recomendada (única): conjunto termina hoje 23:59; estender 1 dia (R$ 30) para medir a landing nova (vídeo no topo, fotos, botões) com checkout já corrigido; reler amanhã 09:34 — com ≥10 checkouts pós-correção e 0 vendas, o problema é oferta/landing (o checkout já foi provado pela compra-teste).
