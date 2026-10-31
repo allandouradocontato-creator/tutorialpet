@@ -18,7 +18,7 @@
 | autoria/assinatura visivel | PASSA | [] |
 | capa unica por artigo | PASSA | 0 artigos em 0 grupos repetidos |
 | sem capa proibida (agressiva) | PASSA | [] |
-| todos com capa | FALHA | ['como-adotar-um-cachorro-passo-a-passo', 'como-fazer-cachorro-parar-de-puxar-a-guia', 'quanto-de-racao-dar-para-gato-adulto-por-dia'] |
+| todos com capa | PASSA | [] |
 | artigos de saude citam veterinario | PASSA | [] |
 | TODOS os artigos com secao Fontes e referencias (>=2 links) | PASSA | 0 sem fonte: [] |
 | sem texto de modelo visivel | PASSA |  |
@@ -26,6 +26,5 @@
 | Sobre tem secao de equipe/autor | PASSA |  |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (2)
+## Corrigir (1)
 - **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
-- **todos com capa**: ['como-adotar-um-cachorro-passo-a-passo', 'como-fazer-cachorro-parar-de-puxar-a-guia', 'quanto-de-racao-dar-para-gato-adulto-por-dia'] -> gerar capa
