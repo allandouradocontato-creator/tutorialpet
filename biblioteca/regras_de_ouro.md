@@ -81,3 +81,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 45. (30/10/2026, decisão do Allan) REACT SÓ DE VIRAL EM PORTUGUÊS OU SEM FALA: criador brasileiro (caramelo, vira-lata, pet de casa), piada que o público entende em 1 segundo sem tradução. Vídeo com fala em inglês/outra língua não entra na piscina, nem com legenda PT. A Duda reage e opina; nunca traduz. Lote 6 (5 virais americanos) foi reprovado por isso.
 
 48. (31/10/2026) CHECKOUT KIWIFY: todo ajuste de texto/layout é feito nos DOIS layouts (botão "Copiar do desktop" na visão celular) e só vale CONFERIDO ao vivo em viewport de celular (pay.kiwify.com.br/NcQChat?cb=N, buscar o texto novo na página); "Tudo certo!" ao salvar não prova nada.
+
+49. (31/10/2026, cobrado 3x pelo Allan) NUNCA ENTREGAR TAREFA AO ALLAN: se um passo pode ser feito no Chrome dele (já logado), por ferramenta ou por agente, o Claude FAZ (criar chave de API, trocar PDF no Kiwify, salvar look no HeyGen, subir arquivo, config). Escrever "faça X"/passo a passo só para senha, 2FA, pagamento ou decisão de estratégia. Antes de enviar qualquer instrução a ele, perguntar-se: "alguma ferramenta faz isso?".
