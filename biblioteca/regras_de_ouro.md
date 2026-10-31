@@ -79,3 +79,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 47. (30/10/2026, pedido do Allan) REACT DE PRODUTO: o miolo é COPY DE VENDA dita pela Duda (dor do tutor → mecanismo em 1 frase → prova social + âncora de preço conferidos na Shopee no dia → CTA só no fechamento), nunca texto educativo seco. HeyGen só no gancho (W ≈ 4 s) e no fechamento (C ≈ 5 s); no miolo a Duda some (original em tela cheia + voz + legenda em blocos de 2 linhas). Corta ~85 % do HeyGen. Builder: reacts_final/mont_v2.py.
 
 45. (30/10/2026, decisão do Allan) REACT SÓ DE VIRAL EM PORTUGUÊS OU SEM FALA: criador brasileiro (caramelo, vira-lata, pet de casa), piada que o público entende em 1 segundo sem tradução. Vídeo com fala em inglês/outra língua não entra na piscina, nem com legenda PT. A Duda reage e opina; nunca traduz. Lote 6 (5 virais americanos) foi reprovado por isso.
+
+48. (31/10/2026) CHECKOUT KIWIFY: todo ajuste de texto/layout é feito nos DOIS layouts (botão "Copiar do desktop" na visão celular) e só vale CONFERIDO ao vivo em viewport de celular (pay.kiwify.com.br/NcQChat?cb=N, buscar o texto novo na página); "Tudo certo!" ao salvar não prova nada.
