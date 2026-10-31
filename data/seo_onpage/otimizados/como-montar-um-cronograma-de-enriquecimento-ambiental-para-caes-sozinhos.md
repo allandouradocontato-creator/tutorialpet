@@ -151,13 +151,13 @@ Pode ser sinal de ansiedade. Se acontecer sempre, converse com o veterinário.
 **Preciso de câmera?**
 Ajuda a ver o que ele realmente faz sozinho, mas não é obrigatório.
 
+## Para fechar
+
+Um cronograma simples, com um foco por dia, rodízio de brinquedos e segurança em primeiro lugar, transforma o tempo sozinho em tempo de ocupação. Observe o cachorro, ajuste o plano e converse com o veterinário se notar sinais de sofrimento. Continue lendo o blog para mais dicas de rotina.
+
 ## Fontes e referências
 
 - [Enrichment: Supporting your pet's mental and emotional wellbeing at home](https://www.aaha.org/resources/enrichment-supporting-your-pets-mental-and-emotional-wellbeing-at-home/) — AAHA, 2026 (fonte estrangeira).
 - [Canine DIY Enrichment](https://www.aspca.org/pet-care/dog-care/canine-diy-enrichment) — ASPCA (fonte estrangeira).
 - [Preventing Separation Anxiety in Dogs](https://www.aspcapro.org/sites/default/files/behavior-2020-preventing-anxiety.pdf) — ASPCA, 2020 (fonte estrangeira).
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
-
-## Para fechar
-
-Um cronograma simples, com um foco por dia, rodízio de brinquedos e segurança em primeiro lugar, transforma o tempo sozinho em tempo de ocupação. Observe o cachorro, ajuste o plano e converse com o veterinário se notar sinais de sofrimento. Continue lendo o blog para mais dicas de rotina.

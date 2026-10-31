@@ -95,13 +95,13 @@ Exemplo prático: Um tutor experiente que planeja o futuro já antecipa que, na 
 - **Como saber se estou pronto para ter um cachorro?**
   Você estará pronto quando tiver estabilidade financeira para imprevistos, tempo diário disponível para atenção e disposição para adaptar sua rotina por mais de uma década.
 
+## Para fechar
+
+Escolher entre adotar ou comprar um cachorro é um marco importante que exige honestidade sobre estilo de vida, finanças e disponibilidade de tempo. Seja qual for o caminho escolhido, o mais importante é garantir que o animal encontre um lar preparado para oferecer amor, segurança e cuidados veterinários de qualidade ao longo de toda a sua vida. Continue explorando nossos artigos para descobrir mais dicas práticas sobre o universo pet.
+
 ## Fontes e referências
 
 - [Guarda-Responsável, tudo começa com consciência](https://prefeitura.sp.gov.br/web/saude/w/noticias/275899) — Secretaria Municipal da Saúde de São Paulo, 2019.
 - [Selecting a Dog](https://ebusiness.avma.org/files/productdownloads/ClientBroch_SelectingADog.pdf) — AVMA, Associação Americana de Medicina Veterinária (entidade dos Estados Unidos).
 - [AVMA offers tips on how to pick a pooch during Adopt-A-Dog Month](https://prnewswire.com/news-releases/avma-offers-tips-on-how-to-pick-a-pooch-during-adopt-a-dog-month-226915501.html) — AVMA (entidade dos Estados Unidos), 2013.
 - [How to Find an Ethical Dog Breeder | Humane World](https://www.humaneworld.org/breeders) — Humane World for Animals, antiga Humane Society of the United States (entidade dos Estados Unidos).
-
-## Para fechar
-
-Escolher entre adotar ou comprar um cachorro é um marco importante que exige honestidade sobre estilo de vida, finanças e disponibilidade de tempo. Seja qual for o caminho escolhido, o mais importante é garantir que o animal encontre um lar preparado para oferecer amor, segurança e cuidados veterinários de qualidade ao longo de toda a sua vida. Continue explorando nossos artigos para descobrir mais dicas práticas sobre o universo pet.

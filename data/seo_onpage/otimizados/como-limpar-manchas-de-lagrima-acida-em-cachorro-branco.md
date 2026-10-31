@@ -152,14 +152,14 @@ Não utilize tesouras pontiagudas próximo aos olhos se o cachorro for inquieto.
 **Rações específicas para pelo branco realmente funcionam?**  
 Muitas fórmulas comerciais focadas em cachorros brancos reduzem corantes e ajustam o equilíbrio de aminoácidos para diminuir a excreção de porfirinas. O efeito costuma ser observado em média após 6 a 8 semanas, mas os resultados variam para cada indivíduo e a troca deve ser validada por um veterinário.
 
-## Fontes e referências
-
-- [What is epiphora? (Eye discharge in dogs)](https://vcahospitals.com/know-your-pet/eye-discharge-or-epiphora-in-dogs) — VCA Animal Hospitals (fonte estrangeira).
-- [Dog Tear Stains: Causes, Treatment, and Prevention](https://www.petmd.com/dog/general-health/dog-tear-stains) — PetMD (conteúdo veterinário, fonte estrangeira).
-- [Epiphora in Dogs: Causes and Treatment](https://www.petmd.com/dog/conditions/eyes/watery-eyes-epiphora-dogs) — PetMD (conteúdo veterinário, fonte estrangeira).
-
 ## Para fechar
 
 Tratar manchas de lágrima dita ácida em cachorros brancos requer paciência, método e constância. Não existem fórmulas mágicas instantâneas: o segredo está no tripé de higienização regular, secagem rigorosa da região facial e controle de gatilhos como tigelas plásticas e dieta inadequada.
 
 Mantenha o acompanhamento veterinário em dia para afastar problemas oculares ocultos. Para conferir outros guias sobre saúde, higiene e bem-estar do seu pet, continue explorando nossos artigos no blog Tutorial Pet.
+
+## Fontes e referências
+
+- [What is epiphora? (Eye discharge in dogs)](https://vcahospitals.com/know-your-pet/eye-discharge-or-epiphora-in-dogs) — VCA Animal Hospitals (fonte estrangeira).
+- [Dog Tear Stains: Causes, Treatment, and Prevention](https://www.petmd.com/dog/general-health/dog-tear-stains) — PetMD (conteúdo veterinário, fonte estrangeira).
+- [Epiphora in Dogs: Causes and Treatment](https://www.petmd.com/dog/conditions/eyes/watery-eyes-epiphora-dogs) — PetMD (conteúdo veterinário, fonte estrangeira).

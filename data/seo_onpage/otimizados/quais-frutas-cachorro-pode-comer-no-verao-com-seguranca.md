@@ -105,6 +105,10 @@ Pode ser oferecida de duas a três vezes por semana como um agrado refrescante, 
 **4. O que fazer se meu cachorro comer uva por engano?**
 Entre em contato com um médico-veterinário imediatamente, pois a uva é altamente tóxica para cachorros e pode comprometer rapidamente a função dos rins.
 
+## Para fechar
+
+Oferecer frutas no verão é uma excelente alternativa para manter o cachorro hidratado, feliz e bem nutrido nos dias de calor. Com cuidado na escolha dos ingredientes, atenção às porções e retirada de sementes e cascas, o pet aproveita o melhor da estação com segurança total. Continue navegando pelo nosso blog para descobrir mais dicas práticas de alimentação, cuidados diários e bem-estar para cachorros e gatos em todas as fases da vida.
+
 ## Fontes e referências
 
 - [Alimentação natural para cães e gatos](https://www.scielo.br/j/rbz/a/55HCT9X4Wt9ThgsbL5Gc5ZL/?lang=pt) — Revista Brasileira de Zootecnia (SciELO), 2010.
@@ -112,7 +116,3 @@ Entre em contato com um médico-veterinário imediatamente, pois a uva é altame
 - [Can Dogs Eat Raisins? Emergency Guide](https://www.petpoisonhelpline.com/uncategorized/what-happens-if-a-dog-eats-raisins/) — Pet Poison Helpline (entidade dos Estados Unidos).
 - [Pet Friendly Human Food](https://www.petpoisonhelpline.com/uncategorized/pet-friendly-human-food/) — Pet Poison Helpline (entidade dos Estados Unidos).
 - [Can Dogs Eat Bananas?](https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/) — American Kennel Club (entidade dos Estados Unidos).
-
-## Para fechar
-
-Oferecer frutas no verão é uma excelente alternativa para manter o cachorro hidratado, feliz e bem nutrido nos dias de calor. Com cuidado na escolha dos ingredientes, atenção às porções e retirada de sementes e cascas, o pet aproveita o melhor da estação com segurança total. Continue navegando pelo nosso blog para descobrir mais dicas práticas de alimentação, cuidados diários e bem-estar para cachorros e gatos em todas as fases da vida.

@@ -117,6 +117,10 @@ Use o tapete higiênico ou um cantinho no quintal limpo, premie cada acerto e, d
 **Filhote de apartamento precisa esperar também?**
 Sim. O vírus entra em casa nos sapatos, e o elevador e o hall são áreas de circulação de outros cachorros.
 
+## Para fechar
+
+O filhote sai na rua quando a vacinação estiver completa e o veterinário liberar, em média por volta dos 4 meses, mas isso não significa esperar de braços cruzados: socialize no colo e em ambientes seguros desde as primeiras semanas. Continue acompanhando o blog para os próximos passos da vida do seu cachorro.
+
 ## Fontes e referências
 
 - [Diretrizes de 2024 para a vacinação de cães e gatos](https://wsava.org/wp-content/uploads/2024/07/WSAVA-VC-Guidelines-2024-Portuguese.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais, entidade internacional), 2024.
@@ -124,7 +128,3 @@ Sim. O vírus entra em casa nos sapatos, e o elevador e o hall são áreas de ci
 - [Vacinas ajudam a proteger saúde de cães e gatos](https://crmvsp.gov.br/vacinas-ajudam-a-proteger-saude-de-caes-e-gatos/) — CRMV-SP.
 - [Socialization of dogs and cats](https://www.avma.org/resources-tools/animal-health-and-welfare/socialization-dogs-and-cats) — AVMA (Associação Veterinária Americana, Estados Unidos).
 - [AVSAB Position Statement on Puppy Socialization](https://avsab.org/wp-content/uploads/2018/03/Puppy_Socialization_Position_Statement_Download_-_10-3-14.pdf) — AVSAB (American Veterinary Society of Animal Behavior, Estados Unidos), 2014.
-
-## Para fechar
-
-O filhote sai na rua quando a vacinação estiver completa e o veterinário liberar, em média por volta dos 4 meses, mas isso não significa esperar de braços cruzados: socialize no colo e em ambientes seguros desde as primeiras semanas. Continue acompanhando o blog para os próximos passos da vida do seu cachorro.

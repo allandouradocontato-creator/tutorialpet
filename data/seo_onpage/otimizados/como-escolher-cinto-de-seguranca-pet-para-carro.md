@@ -101,15 +101,15 @@ Não diretamente. O cinto mantém a estabilidade física, mas o enjoo envolve qu
 - **Como acostumar o cachorro a usar o cinto pela primeira vez?**
 Coloque o peitoral e o cinto ainda com o carro desligado, oferecendo petiscos e elogios para associar o acessório a uma experiência positiva.
 
+## Para fechar
+
+Escolher o cinto de segurança pet adequado é um ato de cuidado essencial para garantir que cada passeio de carro seja seguro, tranquilo e livre de sustos para toda a família. Lembre-se de verificar o estado das costuras e das travas periodicamente.
+
+Continue acompanhando nosso blog para descobrir mais dicas práticas sobre o universo dos cachorros e gatos, garantindo o máximo de bem-estar para o seu companheiro em todas as fases da vida.
+
 ## Fontes e referências
 
 - [Detran-PR ensina a forma correta para o transporte de animais](https://www.detran.pr.gov.br/Noticia/Detran-PR-ensina-forma-correta-para-o-transporte-de-animais) — Detran-PR, 2020.
 - [Detran|ES: saiba como transportar animais de estimação no carro](https://www.es.gov.br/Noticia/detran-es-saiba-como-transportar-animais-de-estimacao-no-carro) — Detran-ES, 2015.
 - [Safe non-commercial transport of pets in motor vehicles](https://www.avma.org/resources-tools/avma-policies/safe-transport-pets-motor-vehicles) — AVMA, Associação Americana de Medicina Veterinária (entidade dos Estados Unidos).
 - [Data, safety regulations lacking when it comes to pets and vehicles](https://avma.org/news/data-safety-regulations-lacking-when-it-comes-pets-and-vehicles) — AVMA News (entidade dos Estados Unidos), 2023.
-
-## Para fechar
-
-Escolher o cinto de segurança pet adequado é um ato de cuidado essencial para garantir que cada passeio de carro seja seguro, tranquilo e livre de sustos para toda a família. Lembre-se de verificar o estado das costuras e das travas periodicamente.
-
-Continue acompanhando nosso blog para descobrir mais dicas práticas sobre o universo dos cachorros e gatos, garantindo o máximo de bem-estar para o seu companheiro em todas as fases da vida.

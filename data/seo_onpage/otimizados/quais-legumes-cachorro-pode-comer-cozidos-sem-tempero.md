@@ -157,6 +157,12 @@ Sim, desde que já estejam comendo ração seca sem dificuldades e em pedaços b
 
 ---
 
+## Para fechar
+
+Oferecer legumes cozidos e sem tempero é uma das maneiras mais carinhosas e econômicas de mimar o seu companheiro sem recorrer a petiscos ultraprocessados cheios de corantes. Com um pouco de paciência e observação, você descobre rapidinho qual é o vegetal favorito do seu pet.
+
+Quer continuar aprendendo a cuidar do seu bichinho com segurança e sem complicação? Dê uma olhada nos outros artigos aqui do blog Tutorial Pet e compartilhe com outros tutores que também adoram dividir a rotina com seus peludos!
+
 ## Fontes e referências
 
 - [Fruits and Vegetables Dogs Can or Can't Eat](https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/) — American Kennel Club (EUA, fonte estrangeira).
@@ -164,9 +170,3 @@ Sim, desde que já estejam comendo ração seca sem dificuldades e em pedaços b
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (EUA, fonte estrangeira).
 - [Kitchen Toxins To Pets](https://www.petpoisonhelpline.com/pet-owners/poison-proof-your-home/kitchen/) — Pet Poison Helpline (EUA, fonte estrangeira).
 - [Chocolate não é bom pra cachorro!](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/) — CFMV, 2021.
-
-## Para fechar
-
-Oferecer legumes cozidos e sem tempero é uma das maneiras mais carinhosas e econômicas de mimar o seu companheiro sem recorrer a petiscos ultraprocessados cheios de corantes. Com um pouco de paciência e observação, você descobre rapidinho qual é o vegetal favorito do seu pet.
-
-Quer continuar aprendendo a cuidar do seu bichinho com segurança e sem complicação? Dê uma olhada nos outros artigos aqui do blog Tutorial Pet e compartilhe com outros tutores que também adoram dividir a rotina com seus peludos!

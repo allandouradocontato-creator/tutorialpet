@@ -139,6 +139,10 @@ Leve ao veterinário imediatamente. O xilitol derruba o açúcar no sangue e pod
 **Posso dar leite ao cachorro intoxicado?**
 Não. Leite não neutraliza toxinas e pode causar diarreia. Só o veterinário pode orientar o que fazer.
 
+## Para fechar
+
+A regra que resolve quase tudo: na dúvida, não ofereça e, se já comeu, ligue para o veterinário antes de esperar sintomas. Com lixo fechado, doces fora de alcance e visitas avisadas, a maioria dos sustos nunca acontece. Continue explorando o blog para mais guias práticos de saúde e rotina do seu cachorro.
+
 ## Fontes e referências
 
 - [Chocolate não é bom pra cachorro!](https://www.cfmv.gov.br/chocolate-nao-e-bom-pra-cachorro/comunicacao/noticias/2021/03/31/) — CFMV (Conselho Federal de Medicina Veterinária), 2021.
@@ -146,7 +150,3 @@ Não. Leite não neutraliza toxinas e pode causar diarreia. Só o veterinário p
 - [Intoxicações em cães e gatos por alimentos humanos: o que não fornecer aos animais?](https://lume.ufrgs.br/bitstream/handle/10183/251914/001153640.pdf?sequence=1) — Veterinária em Foco (UFPel/UFRGS), 2013.
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
 - [ASPCA: central de controle de intoxicação animal e lista de alimentos perigosos](https://www.aspca.org/pet-care/animal-poison-control)
-
-## Para fechar
-
-A regra que resolve quase tudo: na dúvida, não ofereça e, se já comeu, ligue para o veterinário antes de esperar sintomas. Com lixo fechado, doces fora de alcance e visitas avisadas, a maioria dos sustos nunca acontece. Continue explorando o blog para mais guias práticos de saúde e rotina do seu cachorro.

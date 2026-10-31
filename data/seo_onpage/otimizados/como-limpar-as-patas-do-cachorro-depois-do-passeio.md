@@ -151,12 +151,12 @@ Sim, se estiver limpa e seca. Lambedura insistente pode indicar alergia, dor ou 
 **Preciso limpar a pata de filhote que ainda não saiu?**
 Se ele só anda em casa, não é necessário na rotina. Quando liberarem a rua, comece o hábito.
 
+## Para fechar
+
+Limpar as patas é um hábito de poucos minutos: tirar a sujeira, secar bem entre os dedos e olhar os coxins. Use só produtos próprios para pets e leve ao veterinário qualquer ferida, mancar ou lambedura insistente. Continue navegando pelo blog para mais dicas de rotina.
+
 ## Fontes e referências
 
 - [How to clean dog paws](https://www.akc.org/expert-advice/health/clean-dog-paws/) — American Kennel Club (Estados Unidos).
 - [Keeping Pets Safe during Winter: The Dangers of Ice Melts](https://www.aspca.org/news/keeping-pets-safe-during-winter-dangers-ice-melts) — ASPCA (Estados Unidos); trata de produtos de degelo, mas o princípio de limpar as patas para evitar lambedura de resíduos vale para qualquer substância irritante.
 - [Dog grooming tips](https://www.aspca.org/pet-care/dog-care/dog-grooming-tips) — ASPCA (Estados Unidos).
-
-## Para fechar
-
-Limpar as patas é um hábito de poucos minutos: tirar a sujeira, secar bem entre os dedos e olhar os coxins. Use só produtos próprios para pets e leve ao veterinário qualquer ferida, mancar ou lambedura insistente. Continue navegando pelo blog para mais dicas de rotina.

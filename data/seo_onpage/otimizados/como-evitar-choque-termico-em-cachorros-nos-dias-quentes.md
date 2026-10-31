@@ -134,12 +134,12 @@ Em média, um cachorro precisa de cerca de 50ml a 60ml de água por quilo de pes
 - **Deixar o cachorro no carro com a janela aberta é seguro no calor?**
 Nunca. A temperatura dentro de um veículo estacionado sobe a níveis fatais em poucos minutos, mesmo com as janelas abertas na sombra. 
 
+## Para fechar
+
+Proteger seu companheiro do calor intenso é uma questão de observar os limites do corpo dele, adaptar a rotina e garantir um ambiente fresco e hidratado. Pequenos cuidados diários evitam grandes sustos e garantem que os dias quentes sejam aproveitados com segurança. Continue explorando nossos artigos para descobrir mais dicas práticas sobre o cuidado diário com cachorros e gatos.
+
 ## Fontes e referências
 
 - [Heatstroke: A medical emergency](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/heatstroke-medical-emergency) — Riney Canine Health Center, Universidade Cornell (Estados Unidos).
 - [Heatstroke and brachycephalic dogs – is there an increased risk?](https://veterinaryevidence.org/index.php/ve/article/download/534/881?inline=1) — Veterinary Evidence (revista científica do RCVS Knowledge, Reino Unido).
 - [Calor do cão: o que fazer com os pets em dias de altas temperaturas?](https://www.ufmg.br/espacodoconhecimento/calor-do-cao-o-que-fazer-com-os-pets-em-dias-de-altas-temperaturas/) — UFMG, Espaço do Conhecimento.
-
-## Para fechar
-
-Proteger seu companheiro do calor intenso é uma questão de observar os limites do corpo dele, adaptar a rotina e garantir um ambiente fresco e hidratado. Pequenos cuidados diários evitam grandes sustos e garantem que os dias quentes sejam aproveitados com segurança. Continue explorando nossos artigos para descobrir mais dicas práticas sobre o cuidado diário com cachorros e gatos.

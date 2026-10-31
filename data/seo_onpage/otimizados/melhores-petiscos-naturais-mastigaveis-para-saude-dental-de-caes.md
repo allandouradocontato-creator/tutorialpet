@@ -140,13 +140,13 @@ Não. Estilhaçam e podem ferir a boca e o aparelho digestivo.
 **Como saber se o petisco fez mal?**
 Vômito, diarreia ou apatia. Suspenda e procure o veterinário.
 
+## Para fechar
+
+Mastigáveis seguros, de tamanho certo e oferecidos com supervisão ajudam o cachorro a se divertir e a manter a boca melhor, mas o que mais protege os dentes é a escovação e a consulta periódica. Continue lendo o blog para mais guias de cuidados diários.
+
 ## Fontes e referências
 
 - [Veterinary Oral Health Council](https://vohc.org/) — VOHC (conselho de dentistas veterinários dos Estados Unidos que concede selo a produtos com eficácia comprovada contra placa e tártaro).
 - [Risks from a fractured tooth](https://www.vet.cornell.edu/departments/riney-canine-health-center/canine-health-information/risks-fractured-tooth) — Riney Canine Health Center, Universidade Cornell (Estados Unidos).
 - [Brushing your dog's teeth](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/brushing-your-dogs-teeth) — Riney Canine Health Center, Universidade Cornell (Estados Unidos).
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
-
-## Para fechar
-
-Mastigáveis seguros, de tamanho certo e oferecidos com supervisão ajudam o cachorro a se divertir e a manter a boca melhor, mas o que mais protege os dentes é a escovação e a consulta periódica. Continue lendo o blog para mais guias de cuidados diários.

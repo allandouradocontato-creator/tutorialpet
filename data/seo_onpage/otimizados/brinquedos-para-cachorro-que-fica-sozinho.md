@@ -157,15 +157,15 @@ Sim, especialmente os modelos que exigem raciocínio lógico ou esforço de lamb
 **Existe algum risco em congelar o recheio do brinquedo?**
 Geralmente não, desde que os ingredientes usados sejam totalmente seguros para cachorros e oferecidos em porções moderadas. Em caso de dúvidas sobre a dieta, consulte sempre o médico-veterinário.
 
+## Para fechar
+
+Escolher os brinquedos certos para o seu cachorro passar o tempo sozinho é um ato de carinho que protege os seus móveis e, principalmente, a saúde e o bem-estar do seu fiel companheiro. Combinar mordedores seguros, petiscos congelados e muita criatividade na rotina faz toda a diferença no dia a dia.
+
+Esperamos que este guia ajude você a deixar a casa mais divertida e segura para o seu peludo. Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o universo pet e garantir uma convivência cada vez mais harmoniosa com o seu novo amigo!
+
 ## Fontes e referências
 
 - [Boredom Busters: Indoor Enrichment for Dogs](https://www.aaha.org/resources/boredom-busters-indoor-enrichment-for-dogs/) — AAHA, associação veterinária dos Estados Unidos.
 - [Destructive Chewing](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/destructive-chewing) — ASPCA (Estados Unidos).
 - [How to pick the best and safest dog toys](https://www.humanesociety.org/resources/safe-dog-toys) — Humane Society of the United States (Estados Unidos).
 - [Separation Anxiety](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety) — ASPCA (Estados Unidos).
-
-## Para fechar
-
-Escolher os brinquedos certos para o seu cachorro passar o tempo sozinho é um ato de carinho que protege os seus móveis e, principalmente, a saúde e o bem-estar do seu fiel companheiro. Combinar mordedores seguros, petiscos congelados e muita criatividade na rotina faz toda a diferença no dia a dia.
-
-Esperamos que este guia ajude você a deixar a casa mais divertida e segura para o seu peludo. Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o universo pet e garantir uma convivência cada vez mais harmoniosa com o seu novo amigo!

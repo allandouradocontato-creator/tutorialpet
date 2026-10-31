@@ -96,14 +96,14 @@ As fibras solúveis podem ajudar a encorpar as fezes em casos leves, mas se o ca
 **Cachorro diabético pode comer banana?**
 Geralmente não é recomendado, pois a fruta concentra açúcares simples (frutose) de rápida absorção. Consulte sempre o veterinário responsável antes de oferecer frutas doces a animais diabéticos.
 
-## Fontes e referências
-
-- [Can Dogs Eat Bananas? Benefits and Risks](https://www.petmd.com/dog/nutrition/can-dogs-eat-bananas) — PetMD (portal de veterinária dos Estados Unidos).
-- [Can Dogs Eat Bananas?](https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/) — American Kennel Club (entidade dos Estados Unidos).
-- [Pet Friendly Human Food](https://www.petpoisonhelpline.com/uncategorized/pet-friendly-human-food/) — Pet Poison Helpline (entidade dos Estados Unidos).
-
 ## Para fechar
 
 Dividir um pedaço de banana com seu companheiro de quatro patas é um agrado simples, barato e muito saudável quando feito com bom senso. Basta tirar a casca, cortar em pedacinhos adequados ao tamanho dele e não exagerar na dose.
 
 Quer aprender mais truques fáceis para enriquecer a rotina e a alimentação do seu peludo? Continue navegando pelos artigos do blog e descubra como pequenos cuidados tornam a vida com seu pet muito mais tranquila!
+
+## Fontes e referências
+
+- [Can Dogs Eat Bananas? Benefits and Risks](https://www.petmd.com/dog/nutrition/can-dogs-eat-bananas) — PetMD (portal de veterinária dos Estados Unidos).
+- [Can Dogs Eat Bananas?](https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bananas/) — American Kennel Club (entidade dos Estados Unidos).
+- [Pet Friendly Human Food](https://www.petpoisonhelpline.com/uncategorized/pet-friendly-human-food/) — Pet Poison Helpline (entidade dos Estados Unidos).

@@ -66,7 +66,7 @@ Quando chega o dia de sair, a forma como você conduz a caixa faz toda a diferen
 ### Fixação e estabilidade no veículo
 Movimentos bruscos e freadas repentinas assustam muito o gato. Por isso, a caixa de transporte deve ser colocada sempre no banco traseiro do carro e presa firmemente com o cinto de segurança, ou posicionada no assoalho atrás do banco dianteiro, onde há menos balanço. Cubra a caixa com uma manta leve e respirável para bloquear o excesso de estímulos visuais da rua, o que costuma acalmar bastante a maioria dos felinos.
 
-Exemplo prático: para viagens mais longas, converse com o médico-veterinário do pet para saber se o animal precisa de jejum prévio ou de algum suporte fitoterápico para controlar náuseas durante o trajeto.
+Exemplo prático: para viagens mais longas, converse com o médico-veterinário do pet para saber se o animal precisa de jejum prévio ou de alguma orientação para controlar náuseas durante o trajeto.
 
 * Erro comum: carregar a caixa balançando-a no colo ou deixá-la solta no banco da frente, onde pode deslizar em uma curva.
 * Sinais de alerta: respiração muito acelerada, vômitos ou tentativas desesperadas de forçar a portinha para escapar.

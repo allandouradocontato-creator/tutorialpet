@@ -139,6 +139,10 @@ Sim, principalmente se o pet tem tendência a engordar.
 **Dar petisco demais atrapalha o apetite?**
 Sim. Se o pet recusa a ração e só aceita agrados, reduza os petiscos até o apetite voltar.
 
+## Para fechar
+
+Descubra as calorias do dia com o veterinário, reserve até 10% para os petiscos, pese o que oferecer e desconte da refeição. Com isso, o agrado continua sendo carinho, sem virar quilos extras. Continue lendo o blog para mais guias de alimentação.
+
 ## Fontes e referências
 
 - [Feeding treats to your dog](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais).
@@ -146,7 +150,3 @@ Sim. Se o pet recusa a ração e só aceita agrados, reduza os petiscos até o a
 - [Treat guidelines for dogs](https://nutrition.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/Treats-guidelines-for-dogs.pdf) — Nutrition Support Service, Universidade da Califórnia em Davis (Estados Unidos).
 - [FoodData Central](https://fdc.nal.usda.gov/) — USDA (Departamento de Agricultura dos Estados Unidos), base de calorias de alimentos.
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (Estados Unidos).
-
-## Para fechar
-
-Descubra as calorias do dia com o veterinário, reserve até 10% para os petiscos, pese o que oferecer e desconte da refeição. Com isso, o agrado continua sendo carinho, sem virar quilos extras. Continue lendo o blog para mais guias de alimentação.

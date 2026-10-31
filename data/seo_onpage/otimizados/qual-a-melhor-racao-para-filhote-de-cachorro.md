@@ -141,6 +141,12 @@ Olhe para o próprio animal. Fezes firmes e fáceis de recolher, pelos brilhante
 
 ---
 
+## Para fechar
+
+Escolher a comida do seu filhote não é nenhum bicho de sete cabeças. Busque uma opção com boas fontes de proteína no topo do rótulo, respeite o porte da raça e mantenha horários certinhos para servir. O bolso se organiza e a saúde do novo amigo agradece.
+
+Ficou com alguma dúvida sobre essa fase cheia de novidades? Continue navegando pelo blog Tutorial Pet para pegar mais dicas práticas sobre o dia a dia com seu parceiro de quatro patas!
+
 ## Fontes e referências
 
 - [Guidelines on Selecting Pet Foods](https://wsava.org/wp-content/uploads/2021/04/Selecting-a-pet-food-for-your-pet-updated-2021_WSAVA-Global-Nutrition-Toolkit.pdf) — WSAVA Global Nutrition Committee, 2021 (internacional, fonte estrangeira).
@@ -148,9 +154,3 @@ Olhe para o próprio animal. Fezes firmes e fáceis de recolher, pelos brilhante
 - [Nutritional Requirements of Large and Giant Breed Puppies](https://vcahospitals.com/valley-va/know-your-pet/nutritional-requirements-of-large-and-giant-breed-puppies) — VCA Animal Hospitals (EUA, fonte estrangeira).
 - [Table: Feeding Schedule for Puppies](https://www.merckvetmanual.com/multimedia/table/feeding-schedule-for-puppies) — Merck Veterinary Manual (EUA, fonte estrangeira).
 - [When To Switch Puppy To Adult Food](https://vcahospitals.com/pediatric/puppy/nutrition/when-to-switch-puppy-to-adult-food) — VCA Animal Hospitals (EUA, fonte estrangeira).
-
-## Para fechar
-
-Escolher a comida do seu filhote não é nenhum bicho de sete cabeças. Busque uma opção com boas fontes de proteína no topo do rótulo, respeite o porte da raça e mantenha horários certinhos para servir. O bolso se organiza e a saúde do novo amigo agradece.
-
-Ficou com alguma dúvida sobre essa fase cheia de novidades? Continue navegando pelo blog Tutorial Pet para pegar mais dicas práticas sobre o dia a dia com seu parceiro de quatro patas!

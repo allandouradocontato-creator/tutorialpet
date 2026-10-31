@@ -87,12 +87,12 @@ Exemplo prático: segure alguns pedacinhos de carne desidratada na mão junto ao
 - **O que fazer se o cachorro for muito forte e eu não conseguir segurá-lo?**
   Procure um adestrador positivo para auxiliar nas técnicas de manejo e consulte um médico-veterinário para descartar dores ou desconfortos físicos que gerem ansiedade na rua.
 
+## Para fechar
+
+Ensinar o cachorro a caminhar sem puxar exige consistência, paciência e constância em todos os passeios, sem abrir exceções nos dias de pressa. Com o tempo e a prática correta, o trajeto que antes era estressante se torna o momento favorito do dia para ambos. Continue navegando pelo blog para descobrir mais dicas sobre comportamento e bem-estar animal.
+
 ## Fontes e referências
 
 - [Loose Leash Walking](https://healthtopics.vetmed.ucdavis.edu/node/1061) — UC Davis School of Veterinary Medicine (universidade dos Estados Unidos).
 - [Humane Training of Dogs](https://www.canadianveterinarians.net/policy-and-outreach/position-statements/statements/humane-training-of-dogs/) — Associação Canadense de Medicina Veterinária (CVMA, entidade do Canadá), 2021.
 - [Loose Leash Walking](https://resources.sdhumane.org/Resource_Center/Behavior_and_Training/Dogs_and_Puppies/Training_Your_Dog_to_Walk_on_a_Leash) — San Diego Humane Society (entidade dos Estados Unidos).
-
-## Para fechar
-
-Ensinar o cachorro a caminhar sem puxar exige consistência, paciência e constância em todos os passeios, sem abrir exceções nos dias de pressa. Com o tempo e a prática correta, o trajeto que antes era estressante se torna o momento favorito do dia para ambos. Continue navegando pelo blog para descobrir mais dicas sobre comportamento e bem-estar animal.

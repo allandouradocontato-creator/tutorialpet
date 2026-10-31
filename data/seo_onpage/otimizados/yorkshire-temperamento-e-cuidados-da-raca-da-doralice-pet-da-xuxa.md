@@ -129,6 +129,12 @@ Depende do cuidado que você consegue manter com o pelo comprido. Muitos tutores
 **Yorkshire se adapta a apartamento?**
 Pelo tamanho, costuma se adaptar bem, desde que tenha passeios, brincadeiras e companhia.
 
+## Para fechar
+
+A Doralice mostra como um pet pequeno ocupa um espaço enorme na vida de quem o ama. Para o seu yorkshire, ou para qualquer pet apegado, o caminho é o mesmo: rotina, paciência e presença.
+
+Continue navegando pelo blog para mais dicas práticas sobre o dia a dia com o seu pet.
+
 ## Fontes e referências
 
 - [Is the Yorkshire Terrier the Right Breed for Your Lifestyle?](https://www.akc.org/expert-advice/dog-breeds/yorkshire-terrier-right-for-you/) — American Kennel Club (EUA, fonte estrangeira).
@@ -136,9 +142,3 @@ Pelo tamanho, costuma se adaptar bem, desde que tenha passeios, brincadeiras e c
 - [Mau hálito](https://www.cfmv.gov.br/mau-halito/comunicacao/noticias/2013/06/03/) — CFMV, 2013 (tártaro e escovação diária dos dentes).
 - [Síndrome de ansiedade de separação em cães](https://lume.ufrgs.br/handle/10183/106627) — UFRGS, 2014.
 - [Separation Anxiety in Dogs](https://www.rspca.org.uk/adviceandwelfare/pets/dogs/behaviour/separationrelatedbehaviour) — RSPCA (Reino Unido, fonte estrangeira).
-
-## Para fechar
-
-A Doralice mostra como um pet pequeno ocupa um espaço enorme na vida de quem o ama. Para o seu yorkshire, ou para qualquer pet apegado, o caminho é o mesmo: rotina, paciência e presença.
-
-Continue navegando pelo blog para mais dicas práticas sobre o dia a dia com o seu pet.

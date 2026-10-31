@@ -64,6 +64,10 @@ O limite do exercício de um cachorro braquicefálico no calor não é ditado pe
 *   **Posso molhar o focinho do cachorro para refrescar?**
     Sim, mas com cuidado para não deixar a água entrar no nariz ou na boca de forma abrupta. Um pano úmido na cabeça, na nuca e na barriga ajuda bastante a baixar a temperatura corporal com segurança.
 
+## Para fechar
+
+Cuidar de um cachorro de focinho achatado durante as épocas mais quentes do ano exige paciência e observação constante, mas com pequenos ajustes na rotina é totalmente possível manter o pet feliz, ativo e seguro. Lembre-se de que os limites do seu amigo peludo mudam conforme o clima, e adaptar as atividades é a maior prova de carinho que você pode dar a ele. Se quiser continuar navegando pelo nosso blog, aproveite para conferir outros conteúdos sobre o bem-estar animal e descubra dicas práticas para o dia a dia com seu companheiro de quatro patas.
+
 ## Fontes e referências
 
 - [Alterações anatômicas em cães com síndrome braquiocefálica](https://www.unicruz.edu.br/seminario/anais/anais-2012/ccs/alteracoes%20anatomicas%20em%20caes%20com%20sindrome%20braquiocefalica.pdf) — Universidade de Cruz Alta (Unicruz), 2012.
@@ -71,7 +75,3 @@ O limite do exercício de um cachorro braquicefálico no calor não é ditado pe
 - [Heatstroke: A medical emergency](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-information/heatstroke-medical-emergency) — Cornell University College of Veterinary Medicine (entidade dos Estados Unidos).
 - [Brachycephalic Obstructive Airway Syndrome (BOAS)](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/brachycephalic-obstructive-airway-syndrome-boas) — Cornell University College of Veterinary Medicine (entidade dos Estados Unidos).
 - [Brachycephalic Airway Syndrome in Dogs](https://vcahospitals.com/know-your-pet/brachycephalic-airway-syndrome) — VCA Animal Hospitals (entidade dos Estados Unidos).
-
-## Para fechar
-
-Cuidar de um cachorro de focinho achatado durante as épocas mais quentes do ano exige paciência e observação constante, mas com pequenos ajustes na rotina é totalmente possível manter o pet feliz, ativo e seguro. Lembre-se de que os limites do seu amigo peludo mudam conforme o clima, e adaptar as atividades é a maior prova de carinho que você pode dar a ele. Se quiser continuar navegando pelo nosso blog, aproveite para conferir outros conteúdos sobre o bem-estar animal e descubra dicas práticas para o dia a dia com seu companheiro de quatro patas.

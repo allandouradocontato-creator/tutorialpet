@@ -122,13 +122,13 @@ Facilite o acesso, troque o prêmio, tente em outro horário ou outro lugar. Se 
 **Gatos idosos também podem aprender truques?**
 Muitos aprendem com reforço positivo e sessões curtas, desde que o treino respeite o limite físico.
 
+## Para fechar
+
+Cinco a dez minutos por dia de cheirar, pescar e observar já fazem diferença para o gato idoso, desde que o desafio seja fácil, a dor esteja controlada e o veterinário acompanhe de perto qualquer mudança. Continue navegando pelo blog para mais dicas de cuidado diário com cachorros e gatos.
+
 ## Fontes e referências
 
 - [Cognitive Dysfunction](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/cognitive-dysfunction) — Cornell Feline Health Center (Universidade Cornell, Estados Unidos).
 - [AAFP and ISFM Feline Environmental Needs Guidelines](https://catvets.com/wp-content/uploads/2024/01/EnvironmentalNeedsGLS.pdf) — AAFP e ISFM (associações veterinárias felinas dos Estados Unidos e internacional), Journal of Feline Medicine and Surgery, 2013.
 - [2023 AAHA Senior Care Guidelines for Dogs and Cats](https://www.aaha.org/globalassets/02-guidelines/2023-aaha-senior-care-guidelines-for-dogs-and-cats/resources/2023-aaha-senior-care-guidelines-for-dogs-and-cats.pdf) — AAHA (American Animal Hospital Association, entidade dos Estados Unidos), 2023.
 - [Common Cat Behavior Issues](https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues) — ASPCA (entidade dos Estados Unidos).
-
-## Para fechar
-
-Cinco a dez minutos por dia de cheirar, pescar e observar já fazem diferença para o gato idoso, desde que o desafio seja fácil, a dor esteja controlada e o veterinário acompanhe de perto qualquer mudança. Continue navegando pelo blog para mais dicas de cuidado diário com cachorros e gatos.

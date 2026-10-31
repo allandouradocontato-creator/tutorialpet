@@ -158,14 +158,14 @@ Mantenha rigorosamente os horários e rituais do veterano (passeios exclusivos, 
 
 ---
 
-## Fontes e referências
-
-- [How to Introduce Puppies Into Homes With Senior Dogs](https://www.akc.org/expert-advice/puppy-information/introducing-puppies-to-senior-dogs/) — American Kennel Club (AKC), EUA (fonte internacional).
-- [Introducing Your New Puppy To Your Senior Dog](https://www.hsnt.org/post/introducing-your-new-puppy-to-your-senior-dog) — Humane Society of North Texas, EUA, 2025 (fonte internacional).
-- [Multi-Dog Households: From First Date to After the Honeymoon](https://aspcapro.org/sites/default/files/aspca_webinar_slides_Multi-Dog_Household.pdf) — ASPCA, EUA, 2013 (fonte internacional).
-
 ## Para fechar
 
 A aproximação entre um cachorro idoso e um filhote exige paciência, tempo e empatia para respeitar o ritmo biológico de cada fase da vida canina. Com limites bem estabelecidos, o sênior ganhará um companheiro de descanso e o novato terá um professor calmo para guiar seus passos.
 
 Quer continuar aprimorando o bem-estar e a convivência dos seus pets? Continue navegando pelo nosso blog e confira mais conteúdos práticos para cuidar da sua matilha com carinho e informação de qualidade!
+
+## Fontes e referências
+
+- [How to Introduce Puppies Into Homes With Senior Dogs](https://www.akc.org/expert-advice/puppy-information/introducing-puppies-to-senior-dogs/) — American Kennel Club (AKC), EUA (fonte internacional).
+- [Introducing Your New Puppy To Your Senior Dog](https://www.hsnt.org/post/introducing-your-new-puppy-to-your-senior-dog) — Humane Society of North Texas, EUA, 2025 (fonte internacional).
+- [Multi-Dog Households: From First Date to After the Honeymoon](https://aspcapro.org/sites/default/files/aspca_webinar_slides_Multi-Dog_Household.pdf) — ASPCA, EUA, 2013 (fonte internacional).

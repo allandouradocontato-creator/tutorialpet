@@ -93,7 +93,6 @@ Para fazer uma receita básica e infalível, a lista de ingredientes é surpreen
 Você vai precisar de:
 - **Ossos ricos em cartilagem e colágeno:** pés de galinha, carcaça de frango, ossobuco, mocotó ou juntas bovinas. Peça no açougue ossos frescos com cartilagem;
 - **Água filtrada:** o suficiente para cobrir os ossos com folga (em média de 3 a 5 dedos acima do nível dos ossos);
-- **Vinagre de maçã:** cerca de 2 colheres de sopa para cada 2 litros de água. O ácido do vinagre ajuda a extrair os minerais e o colágeno das cartilagens para o líquido. Não se preocupe com o cheiro, ele evapora durante a fervura prolongada.
 
 Agora, o aviso mais importante da sua jornada gastronômica: **não adicione sal, pimenta, óleo, cebola ou alho**. 
 
@@ -107,7 +106,7 @@ Na sua próxima ida ao açougue ou feira, compre 1 kg de pés de frango bem limp
 O segredo do caldo de ossos não é a complexidade, mas sim o tempo. Quanto mais o osso cozinha em fogo baixo, mais gelatina e nutrientes são liberados.
 
 ### 1. Aqueça a panela
-Coloque os ossos na panela (pode ser de pressão, panela comum grande ou panela elétrica de cozimento lento). Cubra com a água filtrada e acrescente as duas colheres de vinagre de maçã. Deixe descansar por cerca de 20 a 30 minutos em temperatura ambiente antes de ligar o fogo; esse tempinho ajuda o ácido a começar a agir.
+Coloque os ossos na panela (pode ser de pressão, panela comum grande ou panela elétrica de cozimento lento). Cubra com a água filtrada e leve ao fogo.
 
 ### 2. O tempo de fogo
 - **Na panela de pressão:** costuma levar em média de 2 a 3 horas no fogo bem baixo depois que pegou pressão. Fique de olho na quantidade de água para não secar.
@@ -167,14 +166,14 @@ Sim! Para filhotes em crescimento, o caldo ajuda no aporte hídrico; para idosos
 **Cachorros com problemas renais ou pancreatite podem consumir?**  
 Casos com histórico de pancreatite ou doença renal demandam controle rigoroso de fósforo, proteínas e gorduras residuais. Nesses cenários, a liberação do médico-veterinário é indispensável antes de oferecer.
 
-## Fontes e referências
-
-- [How to Make Bone Broth for Dogs (and When to Buy It Instead)](https://www.vetstreet.com/our-pet-experts/how-to-make-bone-broth-for-dogs) — Vetstreet, EUA, 2026 (fonte internacional).
-- [Dog Bone Safety: What You Need to Know](https://www.zoetispetcare.com/blog/article/dog-bone-safety) — Zoetis Petcare, EUA (fonte internacional).
-- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA Animal Poison Control, EUA (fonte internacional).
-
 ## Para fechar
 
 Preparar caldo de ossos caseiro pode parecer uma excentricidade de quem mima demais o próprio pet, mas a verdade é que se trata de uma das formas mais baratas, práticas e naturais de dar um salto na hidratação e no bem-estar do seu amigo. Sem conservantes, sem corantes e feito com ingredientes que você escolheu na feira.
 
 Depois que a sua cozinha exalar aquele aroma de aconchego e o seu cachorro lamber os bigodes até o último pingo, você vai ver que as horas de panela valeram cada minuto. Que tal continuar explorando formas criativas de cuidar do seu bichinho? Dê uma volta pelos outros artigos aqui do blog e descubra ainda mais dicas para descomplicar a sua rotina com o pet!
+
+## Fontes e referências
+
+- [How to Make Bone Broth for Dogs (and When to Buy It Instead)](https://www.vetstreet.com/our-pet-experts/how-to-make-bone-broth-for-dogs) — Vetstreet, EUA, 2026 (fonte internacional).
+- [Dog Bone Safety: What You Need to Know](https://www.zoetispetcare.com/blog/article/dog-bone-safety) — Zoetis Petcare, EUA (fonte internacional).
+- [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/aspca-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA Animal Poison Control, EUA (fonte internacional).

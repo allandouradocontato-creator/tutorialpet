@@ -51,10 +51,6 @@ imagem_fotografo_url: https://www.pexels.com/@antonio-lorenzana-bermejo-35357072
 imagem_url_pagina: https://www.pexels.com/photo/dogs-in-basket-18735033/
 imagem_selecionada_em: '2026-10-22T16:45:37+00:00'
 imagens_corpo:
-- arquivo: imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao-corpo-1.jpg
-  alt: Dois chihuahuas confortáveis dentro de uma caixa de transporte
-  fotografo: Antonio Lorenzana Bermejo
-  fonte_url: https://www.pexels.com/photo/dogs-in-basket-18735033/
 - arquivo: imagens/como-escolher-caixa-de-transporte-para-viagem-de-aviao-corpo-2.jpg
   alt: Gato tranquilo em um cesto de transporte
   fotografo: Bunkac Bebec
@@ -144,14 +140,14 @@ Cole adesivos com a palavra "ANIMAL VIVO" em letras grandes, além de etiquetas 
 
 ---
 
-## Fontes e referências
-
-- [Traveling with Pets](https://www.iata.org/en/youandiata/travelers/traveling-with-pets) — IATA, Associação Internacional de Transporte Aéreo (fonte estrangeira).
-- [Pet Container Requirements](https://www.iata.org/contentassets/b0016da92c86449f850fe9560827bbea/pet-container-requirements.pdf) — IATA, Live Animals Regulations (fonte estrangeira).
-- [Saiba como transportar seu animal de estimação em viagens de ônibus e avião](https://idec.org.br/consultas/dicas-e-direitos/saiba-como-transportar-seu-animal-de-estimaco-em-viagens-de-onibus-e-avio) — Idec, Instituto Brasileiro de Defesa do Consumidor.
-
 ## Para fechar
 
 Escolher a caixa de transporte certa para uma viagem de avião exige atenção às regras, fita métrica na mão e um bom período de treino em casa. Quando você resolve essa etapa com antecedência, a viagem fica leve para todo mundo, inclusive para o seu pet, que chega ao destino pronto para curtir novas aventuras ao seu lado.
 
 Tem mais dúvidas sobre rotinas, passeios e cuidados para o dia a dia do seu parceiro de quatro patas? Continue navegando pelo blog da Tutorial Pet e confira outros guias práticos feitos de tutor para tutor!
+
+## Fontes e referências
+
+- [Traveling with Pets](https://www.iata.org/en/youandiata/travelers/traveling-with-pets) — IATA, Associação Internacional de Transporte Aéreo (fonte estrangeira).
+- [Pet Container Requirements](https://www.iata.org/contentassets/b0016da92c86449f850fe9560827bbea/pet-container-requirements.pdf) — IATA, Live Animals Regulations (fonte estrangeira).
+- [Saiba como transportar seu animal de estimação em viagens de ônibus e avião](https://idec.org.br/consultas/dicas-e-direitos/saiba-como-transportar-seu-animal-de-estimaco-em-viagens-de-onibus-e-avio) — Idec, Instituto Brasileiro de Defesa do Consumidor.

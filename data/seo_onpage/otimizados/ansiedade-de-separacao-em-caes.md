@@ -38,7 +38,7 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/ansiedade-de-separacao-em-caes.jsonld.json
 imagem_capa: imagens/ansiedade-de-separacao-em-caes.jpg
 imagem_fonte: pexels
-imagem_fotografo: https://kaboompics.com/
+imagem_fotografo: Kaboompics
 imagem_fotografo_url: https://www.pexels.com/@karola-g
 imagem_url_pagina: https://www.pexels.com/photo/woman-feeding-a-short-coated-dog-5426937/
 imagem_selecionada_em: '2026-10-14T22:47:32+00:00'
@@ -124,13 +124,13 @@ Nem sempre. Alguns cachorros são apegados às pessoas, e não a outros cachorro
 **Quanto tempo leva para melhorar?**
 Varia muito, de semanas a meses, com treino diário e constância.
 
+## Para fechar
+
+Ansiedade de separação é um sofrimento real, e a ajuda mais eficaz combina consulta veterinária, treino gradual e paciência. Comece pelos pequenos gatilhos, aumente o tempo devagar e peça ajuda profissional cedo se o cachorro se machucar. Continue com a gente para mais guias de rotina e comportamento.
+
 ## Fontes e referências
 
 - [Separation Anxiety](https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety) — ASPCA (entidade dos Estados Unidos).
 - [Separation Anxiety in Pets: Signs, Causes, and Solutions](https://aaha.org/resources/dont-go-separation-anxiety-in-pets) — AAHA, associação veterinária dos Estados Unidos.
 - [Separation Anxiety in Dogs](https://vcahospitals.com/know-your-pet/separation-anxiety-in-dogs) — VCA Animal Hospitals (Estados Unidos).
 - [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/) — para encontrar profissionais registrados.
-
-## Para fechar
-
-Ansiedade de separação é um sofrimento real, e a ajuda mais eficaz combina consulta veterinária, treino gradual e paciência. Comece pelos pequenos gatilhos, aumente o tempo devagar e peça ajuda profissional cedo se o cachorro se machucar. Continue com a gente para mais guias de rotina e comportamento.

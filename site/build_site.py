@@ -992,7 +992,8 @@ def build_sitemap(site: dict, artigos: list[dict], tv: bool = False, categorias:
     urls = [f"{dominio}/"] + [f"{dominio}/{slug}" for slug in LEGAL_PAGES_ORDER] + \
            [f"{dominio}{cat_url(k)}" for k in (categorias or [])] + \
            [f"{dominio}/{fm['slug']}" for fm in artigos] + ([f"{dominio}/tv"] if tv else [])
-    entries = "\n".join(f"  <url>\n    <loc>{u}</loc>\n  </url>" for u in urls)
+    _lm = {f"{dominio}/{fm['slug']}": str(fm.get("data_atualizacao") or fm.get("data") or "")[:10] for fm in artigos}
+    entries = "\n".join(f"  <url>\n    <loc>{u}</loc>\n" + (f"    <lastmod>{_lm[u]}</lastmod>\n" if _lm.get(u) else "") + "  </url>" for u in urls)
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'

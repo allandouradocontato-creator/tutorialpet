@@ -69,15 +69,15 @@ Depende da personalidade do pet. Gatos territorialistas sofrem muito com a mudan
 - **Quantas caixas de areia devo deixar se for viajar por dois dias?**
 A regra básica é o número de gatos mais um. Para um único gato, deixe pelo menos duas caixas limpas em locais tranquilos.
 
+## Para fechar
+
+Deixar o gato sozinho em casa exige bom senso, respeito aos limites do animal e uma rede de apoio confiável para visitas diárias. Planejar cada detalhe da rotina garante que o felino permaneça seguro e tranquilo até o seu retorno. 
+
+Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre comportamento, enriquecimento ambiental e saúde para cuidar ainda melhor do seu companheiro de quatro patas.
+
 ## Fontes e referências
 
 - [Ansiedade de separação em felinos domésticos](https://ojs.periodicos.unis.edu.br/agrovetsulminas/article/download/1105/789/4304) — Agroveterinária, Centro Universitário do Sul de Minas (UNIS-MG), 2026.
 - [Feline Hepatic Lipidosis](https://www.msdvetmanual.com/digestive-system/hepatic-disease-in-small-animals/feline-hepatic-lipidosis) — MSD Veterinary Manual (entidade dos Estados Unidos).
 - [Going On Holiday Without Your Cat](https://www.cats.org.uk/help-and-advice/home-and-environment/going-on-holiday) — Cats Protection (entidade do Reino Unido).
 - [While Youre Away](https://www.catwatchnewsletter.com/?p=2296) — CatWatch Newsletter, produzido em colaboração com o Cornell Feline Health Center (Estados Unidos), 2019.
-
-## Para fechar
-
-Deixar o gato sozinho em casa exige bom senso, respeito aos limites do animal e uma rede de apoio confiável para visitas diárias. Planejar cada detalhe da rotina garante que o felino permaneça seguro e tranquilo até o seu retorno. 
-
-Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre comportamento, enriquecimento ambiental e saúde para cuidar ainda melhor do seu companheiro de quatro patas.

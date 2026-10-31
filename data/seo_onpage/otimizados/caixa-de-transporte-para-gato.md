@@ -110,7 +110,7 @@ Quando chega o dia de sair, a forma como você conduz a caixa faz toda a diferen
 ### Fixação e estabilidade no veículo
 Movimentos bruscos e freadas repentinas assustam muito o gato. Por isso, a caixa de transporte deve ser colocada sempre no banco traseiro do carro e presa firmemente com o cinto de segurança, ou posicionada no assoalho atrás do banco dianteiro, onde há menos balanço. Cubra a caixa com uma manta leve e respirável para bloquear o excesso de estímulos visuais da rua, o que costuma acalmar bastante a maioria dos felinos.
 
-Exemplo prático: para viagens mais longas, converse com o médico-veterinário do pet para saber se o animal precisa de jejum prévio ou de algum suporte fitoterápico para controlar náuseas durante o trajeto.
+Exemplo prático: para viagens mais longas, converse com o médico-veterinário do pet para saber se o animal precisa de jejum prévio ou de alguma orientação para controlar náuseas durante o trajeto.
 
 * Erro comum: carregar a caixa balançando-a no colo ou deixá-la solta no banco da frente, onde pode deslizar em uma curva.
 * Sinais de alerta: respiração muito acelerada, vômitos ou tentativas desesperadas de forçar a portinha para escapar.
@@ -131,13 +131,13 @@ Se quiser seguir nesse tema, veja [arranhador para gato, qual escolher](/arranha
 * **Como limpar a caixa após um incidente no transporte?**
   Lave com água corrente e sabão neutro. Evite produtos com cheiro muito forte ou cloro, pois o olfato sensível do gato pode rejeitar o objeto depois.
 
+## Para fechar
+
+A escolha e o uso correto da caixa de transporte são passos fundamentais para garantir a saúde e a integridade do seu felino em qualquer deslocamento. Com paciência, petiscos e transformando o objeto em parte da rotina da casa, você elimina o trauma e torna as idas ao veterinário muito mais tranquilas para toda a família. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o comportamento e o bem-estar dos seus animais de estimação.
+
 ## Fontes e referências
 
 - [Getting Your Cat to the Veterinarian](https://catfriendly.com/be-a-cat-friendly-caregiver/getting-cat-veterinarian/) — Cat Friendly Homes / AAFP (Estados Unidos).
 - [Como reduzir o estresse das consultas veterinárias para você e seu gato](https://catfriendly.com/wp-content/uploads/2022/04/AAFPCatToVetBrochurePT.pdf) — AAFP (Estados Unidos), versão em português, 2022.
 - [Helping Your Cat Get Comfortable in a Travel Crate](https://www.aaha.org/resources/helping-your-cat-get-comfortable-in-a-travel-crate/) — AAHA (Estados Unidos).
 - [Transportation of Cats in Motor Vehicles (position statement)](https://catvets.com/resource/transportation-of-cats-in-motor-vehicles-position-statement/) — AAFP (Estados Unidos), 2020.
-
-## Para fechar
-
-A escolha e o uso correto da caixa de transporte são passos fundamentais para garantir a saúde e a integridade do seu felino em qualquer deslocamento. Com paciência, petiscos e transformando o objeto em parte da rotina da casa, você elimina o trauma e torna as idas ao veterinário muito mais tranquilas para toda a família. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o comportamento e o bem-estar dos seus animais de estimação.

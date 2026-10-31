@@ -135,12 +135,12 @@ Exemplo prático: Se dois cachorros costumam se estranhar no corredor estreito n
 - **Qual é o erro mais comum dos tutores de múltiplos cachorros em espaços compactos?**  
   Acreditar que os cachorros resolvem os conflitos sozinhos. Em locais apertados, a intervenção humana preventiva é essencial para garantir o bem-estar de todos.
 
+## Para fechar
+
+Viver com vários cachorros em um espaço pequeno é perfeitamente possível, mas exige observação constante e adaptações inteligentes por parte da família. Ao identificar os sinais sutis de estresse logo no início e multiplicar os recursos e áreas de descanso da casa, você garante a harmonia e a saúde mental de todos os pets. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o comportamento e os cuidados diários com os seus animais de estimação.
+
 ## Fontes e referências
 
 - [Manifestações comportamentais de stress em cães, e influência do treino, durante consultas médico-veterinárias](http://hdl.handle.net/10174/36543) — Universidade de Évora (Portugal), 2024.
 - [Canine Communication - Interpreting Dog Language](https://vcahospitals.com/know-your-pet/canine-communication) — VCA Animal Hospitals (entidade dos Estados Unidos).
 - [Anxious behavior: How to help your dog cope with unsettling situations](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/anxious-behavior-how-help-your-dog-cope-unsettling-situations) — Cornell University College of Veterinary Medicine (entidade dos Estados Unidos).
-
-## Para fechar
-
-Viver com vários cachorros em um espaço pequeno é perfeitamente possível, mas exige observação constante e adaptações inteligentes por parte da família. Ao identificar os sinais sutis de estresse logo no início e multiplicar os recursos e áreas de descanso da casa, você garante a harmonia e a saúde mental de todos os pets. Continue navegando pelo nosso blog para descobrir mais dicas práticas sobre o comportamento e os cuidados diários com os seus animais de estimação.

@@ -117,12 +117,12 @@ Se quiser seguir nesse tema, veja [como escolher fonte de água ideal para gatos
 - **Quando devo procurar o médico-veterinário em relação à hidratação?**
   Se notar sede excessiva repentina ou recusa total em beber água, consulte o veterinário para descartar problemas renais ou urinários.
 
+## Para fechar
+
+Escolher uma fonte bebedouro elétrica para vários pets exige atenção à capacidade de armazenamento, à qualidade do material e à facilidade de limpeza diária. Com um equipamento adequado, você garante água limpa e fresca para todos, reduzindo o estresse e estimulando o consumo saudável. Lembre-se de que cada espécie tem suas preferências, e observar o comportamento deles ao redor do bebedouro é o melhor termômetro para saber se a escolha deu certo. Continue explorando nossos artigos para descobrir mais dicas práticas de convivência e bem-estar animal!
+
 ## Fontes e referências
 
 - [Hydration](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/hydration) — Cornell Feline Health Center (Universidade Cornell, Estados Unidos).
 - [Quantified water intake in laboratory cats from still, free-falling and circulating water bowls, and its effects on selected urinary parameters](https://pmc.ncbi.nlm.nih.gov/articles/PMC10814304/) — Journal of Feline Medicine and Surgery, via PubMed Central (estudo científico).
 - [AAFP and ISFM Feline Environmental Needs Guidelines](https://catvets.com/wp-content/uploads/2024/01/EnvironmentalNeedsGLS.pdf) — AAFP e ISFM (associações veterinárias felinas dos Estados Unidos e internacional), Journal of Feline Medicine and Surgery, 2013.
-
-## Para fechar
-
-Escolher uma fonte bebedouro elétrica para vários pets exige atenção à capacidade de armazenamento, à qualidade do material e à facilidade de limpeza diária. Com um equipamento adequado, você garante água limpa e fresca para todos, reduzindo o estresse e estimulando o consumo saudável. Lembre-se de que cada espécie tem suas preferências, e observar o comportamento deles ao redor do bebedouro é o melhor termômetro para saber se a escolha deu certo. Continue explorando nossos artigos para descobrir mais dicas práticas de convivência e bem-estar animal!

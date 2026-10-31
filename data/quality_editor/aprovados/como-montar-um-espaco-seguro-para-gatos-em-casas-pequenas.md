@@ -94,6 +94,12 @@ Nunca. Gatos têm anatomia flexível e conseguem passar por frestas incrivelment
 **Como saber se o meu gato está estressado com o espaço?**  
 Sinais como fazer xixi fora da caixa, lamber a barriga até arrancar pelos ou miados excessivos à noite indicam desconforto. Se notar esses comportamentos, converse com um médico-veterinário para descartar dores físicas e avaliar o bem-estar da rotina.
 
+## Para fechar
+
+Montar um lar confortável para o seu companheiro em uma casa compacta é um exercício gostoso de observação. Você vai notar que pequenos detalhes — liberar o topo de um armário, proteger um maço de fios ou colocar um potinho de água no caminho do corredor — mudam completamente a segurança e a calma do pet. Dê esse primeiro passo com o que você já tem em casa hoje mesmo.
+
+Quer continuar deixando a rotina do seu felino mais feliz e harmoniosa? Explore os outros artigos aqui do Tutorial Pet para aprender truques simples de comportamento, alimentação e cuidados diários!
+
 ## Fontes e referências
 
 - [2019 Meeting the Physical and Emotional Needs of Owned Indoor Cats](https://catvets.com/guidelines/position-statements/physical-emotional-needs-indoor-cats-welfare-statement) — AAFP (American Association of Feline Practitioners, entidade dos Estados Unidos), 2019.
@@ -101,9 +107,3 @@ Sinais como fazer xixi fora da caixa, lamber a barriga até arrancar pelos ou mi
 - [Feline Behavior Problems: House Soiling](https://www.vet.cornell.edu/node/3981) — Cornell Feline Health Center, Cornell University (instituição dos Estados Unidos).
 - [ASPCA Urges Pet Owners to Install Window Screens to Prevent "High-Rise Syndrome"](https://www.aspca.org/about-us/press-releases/aspca-urges-pet-owners-install-window-screens-prevent-high-rise-syndrome) — ASPCA (entidade dos Estados Unidos).
 - [Toxic and Non-Toxic Plants](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants) — ASPCA (entidade dos Estados Unidos).
-
-## Para fechar
-
-Montar um lar confortável para o seu companheiro em uma casa compacta é um exercício gostoso de observação. Você vai notar que pequenos detalhes — liberar o topo de um armário, proteger um maço de fios ou colocar um potinho de água no caminho do corredor — mudam completamente a segurança e a calma do pet. Dê esse primeiro passo com o que você já tem em casa hoje mesmo.
-
-Quer continuar deixando a rotina do seu felino mais feliz e harmoniosa? Explore os outros artigos aqui do Tutorial Pet para aprender truques simples de comportamento, alimentação e cuidados diários!

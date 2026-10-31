@@ -74,13 +74,13 @@ Exemplo prático: Se ao acariciar a barriga do gato você notar um acúmulo exce
 - **Quando devo procurar o médico-veterinário por causa do peso?**
   Sempre que notar ganho ou perda de peso rápida sem mudança na dieta, ou se o gato recusar a comida por mais de 24 horas seguidas.
 
+## Para fechar
+
+Controlar a quantidade de ração diária do gato adulto é um ato de cuidado que previne doenças graves e garante mais anos de vida saudável ao lado da família. Lembre-se de que cada animal possui necessidades únicas, e o médico-veterinário é o profissional ideal para definir a dieta perfeita para o seu felino. Continue navegando pelo blog para descobrir mais dicas práticas sobre o universo dos pets e melhorar ainda mais a rotina da sua casa.
+
 ## Fontes e referências
 
 - [Necessidades nutricionais de animais de pequeno porte](https://www.msdvetmanual.com/pt/management-and-nutrition/nutrição-animais-de-pequeno-porte/necessidades-nutricionais-de-animais-de-pequeno-porte) — Manual MSD de Veterinária (entidade dos Estados Unidos).
 - [Pet Calorie Calculators & Feeding Guide](https://www.petobesityprevention.org/calculators) — Association for Pet Obesity Prevention (entidade dos Estados Unidos).
 - [Obesity](https://www.vet.cornell.edu/node/4071) — Cornell Feline Health Center, Cornell University (instituição dos Estados Unidos).
 - [Ask Elizabeth: Care of Obese Cats](https://www.vet.cornell.edu/node/4072) — Cornell Feline Health Center, Cornell University (instituição dos Estados Unidos).
-
-## Para fechar
-
-Controlar a quantidade de ração diária do gato adulto é um ato de cuidado que previne doenças graves e garante mais anos de vida saudável ao lado da família. Lembre-se de que cada animal possui necessidades únicas, e o médico-veterinário é o profissional ideal para definir a dieta perfeita para o seu felino. Continue navegando pelo blog para descobrir mais dicas práticas sobre o universo dos pets e melhorar ainda mais a rotina da sua casa.

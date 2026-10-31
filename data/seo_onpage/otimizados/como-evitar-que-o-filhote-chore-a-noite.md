@@ -123,12 +123,12 @@ Em complemento a este guia, o Tutorial Pet também explica [como ensinar filhote
 - **Posso colocar música para acalmar o filhote?**  
   Sim, sons relaxantes ou ruído branco em volume baixo ajudam a abafar barulhos externos e trazem conforto.
 
+## Para fechar
+
+Ajudar o filhote a superar o medo da noite exige paciência, firmeza gentil e muita observação. Cada pequeno passo na rotina fortalece o vínculo de confiança entre vocês e logo as noites de sono estarão restabelecidas. Lembre-se de conversar com o médico-veterinário caso o choro persista por muitas semanas sem melhora. Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o desenvolvimento saudável do seu pet!
+
 ## Fontes e referências
 
 - [Settling puppies at night](https://rspcaqld.org.au/~/media/rspca/animal%20fact%20sheets%202019/0fssettling%20puppies%20at%20night.ashx?la=en) — RSPCA Queensland, Austrália, 2018 (fonte internacional).
 - [How to stop your puppy from crying at night](https://www.agriapet.co.uk/guides-and-advice/how-to-stop-puppy-from-crying-at-night/) — Agria Pet Insurance, Reino Unido (fonte internacional).
 - [How to Help Your Crying Puppy](https://www.whole-dog-journal.com/?p=507845) — Whole Dog Journal, EUA (fonte internacional).
-
-## Para fechar
-
-Ajudar o filhote a superar o medo da noite exige paciência, firmeza gentil e muita observação. Cada pequeno passo na rotina fortalece o vínculo de confiança entre vocês e logo as noites de sono estarão restabelecidas. Lembre-se de conversar com o médico-veterinário caso o choro persista por muitas semanas sem melhora. Continue navegando pelo nosso blog para descobrir mais dicas valiosas sobre o desenvolvimento saudável do seu pet!

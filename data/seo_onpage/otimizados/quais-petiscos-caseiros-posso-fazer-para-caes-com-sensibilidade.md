@@ -130,12 +130,12 @@ Snacks secos e crocantes (como chips assados) duram em média 5 a 7 dias em pote
 **Como saber se o petisco causou alergia no meu cachorro?**
 Observe sinais nas 24 a 48 horas seguintes: lamber excessivo das patas, coceira na orelha, fezes amolecidas, gases com odor forte ou vômito. Caso note algo diferente, suspenda o alimento e relate ao veterinário.
 
+## Para fechar
+
+Preparar petiscos caseiros para um cachorro com sensibilidade não é capricho; é um gesto de cuidado prático que poupa idas de emergência à clínica e noites em claro limpando o tapete da sala. Comece com porções pequenas, teste um ingrediente por semana e descubra quais texturas agradam mais o seu companheiro. Para continuar descomplicando a convivência e a rotina de cuidados com o seu pet, acompanhe os outros guias práticos do blog.
+
 ## Fontes e referências
 
 - [People Foods to Avoid Feeding Your Pets](https://www.aspca.org/pet-care/animal-poison-control/people-foods-avoid-feeding-your-pets) — ASPCA (entidade dos Estados Unidos).
 - [Treat guidelines for dogs](https://nutrition.vetmed.ucdavis.edu/sites/g/files/dgvnsk491/files/inline-files/Treats-guidelines-for-dogs.pdf) — Nutrition Support Service, Universidade da Califórnia em Davis (Estados Unidos).
 - [Feeding treats to your dog](https://wsava.org/wp-content/uploads/2024/06/Feeding-treats-to-your-dog-v2.pdf) — WSAVA (Associação Mundial de Veterinários de Pequenos Animais).
-
-## Para fechar
-
-Preparar petiscos caseiros para um cachorro com sensibilidade não é capricho; é um gesto de cuidado prático que poupa idas de emergência à clínica e noites em claro limpando o tapete da sala. Comece com porções pequenas, teste um ingrediente por semana e descubra quais texturas agradam mais o seu companheiro. Para continuar descomplicando a convivência e a rotina de cuidados com o seu pet, acompanhe os outros guias práticos do blog.

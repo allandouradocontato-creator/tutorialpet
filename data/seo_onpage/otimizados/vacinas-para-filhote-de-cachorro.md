@@ -127,6 +127,10 @@ Nenhuma vacina garante 100%, mas reduz muito o risco e a gravidade das doenças.
 **Cachorro de apartamento também precisa vacinar?**
 Sim. O vírus entra em casa nos sapatos e nas roupas, e a antirrábica pode ser exigida por lei e em viagens.
 
+## Para fechar
+
+Vacinar o filhote é uma série de doses, não uma picada só: cada uma cobre uma brecha deixada pela anterior. Siga as datas da carteirinha, observe as reações nas primeiras horas e só libere a rua com o aval do veterinário. Continue lendo o blog para os próximos passos do seu filhote.
+
 ## Fontes e referências
 
 - [2024 Guidelines for the Vaccination of Dogs and Cats](https://wsava.org/wp-content/uploads/2024/05/2024-Guidelines-for-the-Vaccination-of-Dogs-and-Cats.pdf) — WSAVA, 2024 (fonte estrangeira).
@@ -134,7 +138,3 @@ Sim. O vírus entra em casa nos sapatos e nas roupas, e a antirrábica pode ser 
 - [Vacinas ajudam a proteger saúde de cães e gatos](https://crmvsp.gov.br/vacinas-ajudam-a-proteger-saude-de-caes-e-gatos/) — CRMV-SP.
 - [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
 - [MAPA: Ministério da Agricultura e Pecuária](https://www.gov.br/agricultura/pt-br)
-
-## Para fechar
-
-Vacinar o filhote é uma série de doses, não uma picada só: cada uma cobre uma brecha deixada pela anterior. Siga as datas da carteirinha, observe as reações nas primeiras horas e só libere a rua com o aval do veterinário. Continue lendo o blog para os próximos passos do seu filhote.

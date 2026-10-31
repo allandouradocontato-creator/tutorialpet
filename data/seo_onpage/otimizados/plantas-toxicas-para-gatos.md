@@ -137,12 +137,12 @@ Em geral sim, se for cultivado sem agrotóxicos e fertilizantes químicos, e em 
 **Se o gato vomitou e parece bem, preciso ir ao veterinário?**
 Se a planta for tóxica ou desconhecida, sim. Alguns sinais demoram a aparecer, e o lírio é uma emergência mesmo sem sintomas.
 
+## Para fechar
+
+Cheque cada planta de casa, retire os lírios e as espécies tóxicas, substitua por opções seguras e, se o gato mastigar algo suspeito, vá ao veterinário em vez de esperar. Continue acompanhando o blog para mais cuidados com a rotina do seu gato.
+
 ## Fontes e referências
 
 - [ASPCA: lista de plantas tóxicas e não tóxicas para animais](https://www.aspca.org/pet-care/animal-poison-control/toxic-and-non-toxic-plants)
 - [ASPCA: plantas tóxicas para gatos](https://www.aspca.org/pet-care/animal-poison-control/cats-plant-list)
 - [CFMV (Conselho Federal de Medicina Veterinária)](https://www.cfmv.gov.br/)
-
-## Para fechar
-
-Cheque cada planta de casa, retire os lírios e as espécies tóxicas, substitua por opções seguras e, se o gato mastigar algo suspeito, vá ao veterinário em vez de esperar. Continue acompanhando o blog para mais cuidados com a rotina do seu gato.

@@ -132,15 +132,15 @@ O jornal absorve menos, vaza com facilidade e solta tinta nas patas, além de co
 **Xixi muito frequente ou em pequenas gotas pode indicar dor?**
 Sim. Se o animal tenta urinar repetidamente sem sair quase nada ou demonstrar desconforto, consulte um médico-veterinário para descartar infecção de urina.
 
+## Para fechar
+
+Ensinar o filhote a usar o tapete higiênico é um exercício diário de observação e afeto. Quando estruturamos o ambiente a favor das necessidades naturais do cachorro, os acidentes diminuem semana a semana e a convivência fica muito mais tranquila.
+
+Continue explorando nossos guias sobre filhotes para acompanhar cada fase do desenvolvimento do seu companheiro com segurança e informação de qualidade.
+
 ## Fontes e referências
 
 - [Produtos de educação sanitária para cães não substituem adestramento](https://www.itatiaia.com.br/pets-e-animais/produtos-de-educacao-sanitaria-para-caes-nao-substituem-adestramento/) — Rádio Itatiaia, com orientações da ABMVAC (Associação Brasileira de Médicos-Veterinários de Animais de Companhia).
 - [Puppy Potty Training Timeline](https://www.akc.org/learn/akc-training/puppy-potty-training-timeline/) — American Kennel Club (fonte estrangeira).
 - [House-Training Your Puppy](https://www.sfspca.org/wp-content/uploads/2023/02/dog_behavior_house-training_puppy.pdf) — San Francisco SPCA, 2023 (fonte estrangeira).
 - [Why You Need To Reward Your Dog in Training, According to the Experts](https://avsab.org/why-you-need-to-reward-your-dog-in-training-according-to-the-experts/) — American Veterinary Society of Animal Behavior, AVSAB (fonte estrangeira).
-
-## Para fechar
-
-Ensinar o filhote a usar o tapete higiênico é um exercício diário de observação e afeto. Quando estruturamos o ambiente a favor das necessidades naturais do cachorro, os acidentes diminuem semana a semana e a convivência fica muito mais tranquila.
-
-Continue explorando nossos guias sobre filhotes para acompanhar cada fase do desenvolvimento do seu companheiro com segurança e informação de qualidade.

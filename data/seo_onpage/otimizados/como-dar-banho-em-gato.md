@@ -117,14 +117,14 @@ Para aprofundar o assunto, vale ler também [como escovar pelo de gato que não 
 * **O que fazer se o gato ficar muito agressivo no banho?**
   Interrompa imediatamente para evitar machucar você ou o animal. Enrole-o na toalha, deixe-o ir para um local seguro e procure orientação profissional de um banhista especializado ou do médico-veterinário.
 
-## Fontes e referências
-
-- [Banhos em gato devem ser exceção e exigem cuidados especiais](https://www.itatiaia.com.br/pets-e-animais/banhos-em-gato-devem-ser-excecao-e-exigem-cuidados-especiais/) — Rádio Itatiaia, com a professora Rosângela Zacarias, da Faculdade de Medicina Veterinária da USP.
-- [How to Bathe a Kitten](https://vcahospitals.com/pediatric/kitten/health-wellness/how-to-bathe-a-kitten) — VCA Animal Hospitals (fonte estrangeira).
-- [Guide to bathing your cat](https://ontariospca.ca/?p=37011) — Ontario SPCA (fonte estrangeira).
-
 ## Para fechar
 
 Cuidar da higiene de um felino exige paciência, respeito aos limites do animal e muita observação. Embora a maioria dos gatos limpe a sua própria pelagem diariamente, saber como agir em situações excepcionais garante a segurança de todos. Lembre-se de que qualquer sinal de irritação na pele ou mudança drástica de comportamento exige avaliação profissional.
 
 Se você gostou deste guia e quer continuar aprendendo sobre o universo dos pets, navegue pelos outros artigos do nosso blog e descubra dicas valiosas para o dia a dia com o seu companheiro de quatro patas.
+
+## Fontes e referências
+
+- [Banhos em gato devem ser exceção e exigem cuidados especiais](https://www.itatiaia.com.br/pets-e-animais/banhos-em-gato-devem-ser-excecao-e-exigem-cuidados-especiais/) — Rádio Itatiaia, com a professora Rosângela Zacarias, da Faculdade de Medicina Veterinária da USP.
+- [How to Bathe a Kitten](https://vcahospitals.com/pediatric/kitten/health-wellness/how-to-bathe-a-kitten) — VCA Animal Hospitals (fonte estrangeira).
+- [Guide to bathing your cat](https://ontariospca.ca/?p=37011) — Ontario SPCA (fonte estrangeira).
