@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quando castrar cachorro filhote idade ideal: guia prático",
+    "description": "Quando castrar cachorro filhote idade ideal: guia prático. A decisão de quando castrar cachorro filhote gera muitas dúvidas na rotina da casa. Vamos...",
+    "datePublished": "2026-10-31",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quando-castrar-cachorro-filhote-idade-ideal",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quando-castrar-cachorro-filhote-idade-ideal"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quando-castrar-cachorro-filhote-idade-ideal.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro sente dor durante a castração?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, o procedimento é realizado sob anestesia geral. O controle da dor é feito com analgésicos no pós-operatório.  * **A castração acalma o cachorro macho automaticamente?**     Não de forma mágica. O procedimento reduz comportamentos ligados a hormônios, mas a educação e os passeios continuam essenciais.  * **Quanto tempo dura a recuperação completa?**     Em média de **7 a 10 dias**, período em que os pontos costumam ser removidos pelo veterinário.  * **Existe opção de castração gratuita?**     Sim, muitas prefeituras e ONGs oferecem o serviço; veja mais detalhes em [castração gratuita de cachorro e gato: como conseguir](/castracao-gratuita-de-cachorro-e-gato-como-conseguir)."
+        }
+      }
+    ]
+  }
+}

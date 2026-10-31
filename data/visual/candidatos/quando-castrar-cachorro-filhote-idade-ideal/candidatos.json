@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 20028679,
+    "url_download": "https://images.pexels.com/photos/20028679/pexels-photo-20028679.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-puppy-in-snow-20028679/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "puppy close up white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quando-castrar-cachorro-filhote-idade-ideal/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29381501,
+    "url_download": "https://images.pexels.com/photos/29381501/pexels-photo-29381501.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-puppy-resting-on-grass-in-daylight-29381501/",
+    "fotografo": "Sudhir Sangwan",
+    "fotografo_url": "https://www.pexels.com/@sudhirsangwan",
+    "largura": 5328,
+    "altura": 4000,
+    "query": "puppy close up white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quando-castrar-cachorro-filhote-idade-ideal/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4587965,
+    "url_download": "https://images.pexels.com/photos/4587965/pexels-photo-4587965.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-french-bulldog-puppy-4587965/",
+    "fotografo": "Anna Shvets",
+    "fotografo_url": "https://www.pexels.com/@shvetsa",
+    "largura": 6112,
+    "altura": 4075,
+    "query": "puppy close up white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quando-castrar-cachorro-filhote-idade-ideal/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10149129,
+    "url_download": "https://images.pexels.com/photos/10149129/pexels-photo-10149129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-an-adorable-dog-10149129/",
+    "fotografo": "Vitalii Odobesku",
+    "fotografo_url": "https://www.pexels.com/@odobesku",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "puppy close up white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quando-castrar-cachorro-filhote-idade-ideal/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 18529716,
+    "url_download": "https://images.pexels.com/photos/18529716/pexels-photo-18529716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/puppy-in-black-and-white-18529716/",
+    "fotografo": "Alice Castro",
+    "fotografo_url": "https://www.pexels.com/@alicedecasttro",
+    "largura": 4608,
+    "altura": 3072,
+    "query": "puppy close up white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quando-castrar-cachorro-filhote-idade-ideal/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32476517,
+    "url_download": "https://images.pexels.com/photos/32476517/pexels-photo-32476517.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-portrait-32476517/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 7028,
+    "altura": 4687,
+    "query": "cute puppy portrait isolated",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quando-castrar-cachorro-filhote-idade-ideal/5.jpg"
+  }
+]
