@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como escolher cinto de seguranca pet para carro: guia prático",
-    "description": "Como escolher cinto de seguranca pet para carro: guia prático. Há algo profundamente terno em ver o focinho de um cão colado à janela do carro,...",
+    "headline": "Como escolher cinto de segurança pet para carro: guia prático",
+    "description": "Como escolher cinto de segurança pet para carro: veja tipos, tamanhos certos, materiais seguros e como proteger seu cão com conforto.",
     "datePublished": "2026-10-21",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escolher-cinto-de-seguranca-pet-para-carro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-escolher-cinto-de-seguranca-pet-para-carro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar o mesmo cinto de segurança para gatos?",
+        "name": "Posso usar o cinto de segurança humano no cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não é recomendado. Gatos têm anatomia flexível e reagem de forma diferente ao estresse do carro. Para felinos, a melhor opção costuma ser a [caixa de transporte para gato](/caixa-de-transporte-para-gato) presa firmemente pelo cinto de segurança do veículo."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qualquer peitoral serve para usar com o cinto?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O ideal é utilizar peitorais reforçados de passeio ou específicos para automóveis. Evite peitorais finos de tecido frágil ou enfeites decorativos que possam se romper sob pressão."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Existe tamanho único de cinto pet?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não. Embora a fita de adaptação ao cinto do carro costuma ser ajustável, o peitoral acoplado deve corresponder exatamente ao peso e à circunferência do tórax do seu animal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O cinto impede totalmente que o cão se movimente?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não. Ele limita o espaço para garantir a segurança em caso de impacto, mas permite que o pet mude de posição, sente ou deite durante viagens longas."
+          "text": "Não, o cinto de uso humano não se adapta à anatomia canina e pode causar ferimentos graves no abdômen do animal em caso de impacto.  - **Qualquer peitoral serve para usar com o cinto de carro?** Não. O ideal é usar peitorais firmes, acolchoados e de corpo inteiro que distribuam a força do tranco pelo peito e costas.  - **O cinto de segurança impede que o cachorro enjoe no carro?** Não diretamente. O cinto mantém a estabilidade física, mas o enjoo envolve questões vestibulares e ansiedade que devem ser avaliadas com um profissional.  - **Como acostumar o cachorro a usar o cinto pela primeira vez?** Coloque o peitoral e o cinto ainda com o carro desligado, oferecendo petiscos e elogios para associar o acessório a uma experiência positiva."
         }
       }
     ]

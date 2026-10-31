@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como adotar um cachorro passo a passo: guia prático",
+    "description": "Como adotar um cachorro passo a passo com segurança, preparando a casa e a rotina para receber o novo membro da família da melhor forma.",
+    "datePublished": "2026-10-31",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-adotar-um-cachorro-passo-a-passo",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-adotar-um-cachorro-passo-a-passo"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual é a idade ideal para adotar um cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não existe uma idade ideal única, pois depende da disponibilidade da família. Filhotes exigem mais tempo de treino, enquanto adultos e idosos oferecem companionship com rotinas mais previsíveis.  - **Preciso pagar taxa de adoção em ONGs?** Sim, muitas organizações cobram uma taxa simbólica que cobre custos de castração, vacinação e microchipagem já realizados no animal.  - **Como apresentar o novo cão aos pets que já moram na casa?** A apresentação deve ocorrer em um ambiente neutro, de forma gradual e sempre com supervisão constante para evitar conflitos por território.  - **Quando devo levar o cachorro adotado ao veterinário?** O ideal é agendar uma consulta logo na primeira semana após a chegada para um check-up geral, atualização de vacinas e avaliação de saúde."
+        }
+      }
+    ]
+  }
+}

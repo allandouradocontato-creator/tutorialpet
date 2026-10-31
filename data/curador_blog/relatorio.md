@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 30/10/2026 22:24
+# Relatório do Curador do Blog — 31/10/2026 14:26
 
-114 artigos auditados, 6 com problema bloqueante.
+116 artigos auditados, 5 com problema bloqueante.
 
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
     - [aviso] curto (835 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
@@ -54,6 +54,9 @@
     - [aviso] curto (824 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | como-adotar-um-cachorro-passo-a-passo
+    - [aviso] curto (793 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -133,6 +136,8 @@
 - ok | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
+- ok | como-fazer-cachorro-parar-de-puxar-a-guia
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-fazer-caldo-de-ossos-caseiro-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-fazer-filhote-de-cachorro-parar-de-morder
@@ -268,11 +273,8 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- REPROVADO | quantos-dias-o-gato-pode-ficar-sozinho-em-casa
+- ok | quantos-dias-o-gato-pode-ficar-sozinho-em-casa
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] sem seção 'Perguntas frequentes'
-    - [bloqueante] sem seção 'Para fechar'
-    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
 - ok | racao-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos

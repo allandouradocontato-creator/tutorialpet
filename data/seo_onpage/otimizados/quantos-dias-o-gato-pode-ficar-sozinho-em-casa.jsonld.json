@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quantos dias o gato pode ficar sozinho em casa numa viagem?",
+    "description": "Descubra quantos dias o gato pode ficar sozinho em casa, os riscos para a saúde e a rotina ideal de cuidados durante viagens.",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quantos-dias-o-gato-pode-ficar-sozinho-em-casa",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quantos-dias-o-gato-pode-ficar-sozinho-em-casa"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso deixar um filhote de gato sozinho em um final de semana?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Filhotes exigem alimentação fracionada várias vezes ao dia, supervisão constante e não devem ficar sozinhos por mais do que algumas horas.  - **Comida à vontade resolve o problema de uma viagem longa?** Não. Além de a ração seca perder o aroma e o frescor, o gato pode comer tudo nas primeiras horas ou recusar o alimento se a tigela acumular poeira.  - **O que é melhor: hotel para gatos ou visitas em casa?** Depende da personalidade do pet. Gatos territorialistas sofrem muito com a mudança de ambiente, tornando as visitas diárias em casa a opção menos estressante.  - **Quantas caixas de areia devo deixar se for viajar por dois dias?** A regra básica é o número de gatos mais um. Para um único gato, deixe pelo menos duas caixas limpas em locais tranquilos."
+        }
+      }
+    ]
+  }
+}
