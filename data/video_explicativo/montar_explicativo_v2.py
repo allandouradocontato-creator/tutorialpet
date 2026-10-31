@@ -1,23 +1,24 @@
 """Monta o vídeo explicativo da landing (9:16, 720x1280): Duda abre e fecha (cartão, versão grátis), miolo com e-book, clipes, app.
-Uso: python montar_explicativo_v2.py <saida.mp4>   (falas em audios_v3/explicativo_fala_NN.mp3; imagens em app/, paginas_ebook/, clipes/)"""
+Uso: python montar_explicativo_v2.py <saida.mp4>   (falas em audios_v4/explicativo_fala_NN.mp3; imagens em app/, paginas_ebook/, clipes/)"""
 import json,subprocess,sys,os,re,textwrap,glob
 H=os.path.dirname(os.path.abspath(__file__));out=sys.argv[1];W=f'/tmp/gr/expl';os.makedirs(W,exist_ok=True)
-F=json.load(open(f'{H}/falas_explicativo_v2.json'))
+F=json.load(open(f'{H}/falas_explicativo_v3.json'))
 FONT='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf';BG='0xFFF3E3'
 def dur(p):return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',p],capture_output=True,text=True).stdout)
-aud={k:f'{H}/audios_v3/explicativo_fala_{k.zfill(2)}.mp3' for k in F};D={k:dur(aud[k])+0.25 for k in F}
+aud={k:f'{H}/audios_v4/explicativo_fala_{k.zfill(2)}.mp3' for k in F};D={k:dur(aud[k])+0.25 for k in F}
 g=lambda pat:sorted(glob.glob(f'{H}/{pat}'))[0]
 app=lambda n:g(f'app/app_sozinho_em_casa_{n}_*');pg=lambda n:g(f'paginas_ebook/*_{n}_*')
 cl=lambda n:g(f'clipes/pexels_{n}_*')
 # (tipo, arquivo, início do clipe)
 DC=lambda n:f'{H}/duda_clips_heygen/{n}.mp4'
 S={'1':[('dclip',DC('gancho'),0,2.78)],
-'2':[('img',pg('01'),0),('img',pg('02'),0),('img',pg('03'),0),('img',pg('04'),0),('img',pg('05'),0),('img',pg('06'),0)],
-'3':[('clip',cl('7682708'),1.0),('clip',cl('8730835'),2.0),('clip',cl('7682708'),6.0),('clip',cl('8730835'),7.5)],
-'4':[('app',app('04'),0),('app',app('03'),0),('app',app('05'),0),('app',app('06'),0),('app',app('07'),0)],
+'2':[('img',pg('01'),0),('app',app('04'),0)],
+'3':[('img',pg('02'),0),('img',pg('03'),0),('img',pg('04'),0),('img',pg('05'),0),('img',pg('06'),0)],
+'4':[('dclip',DC('app_celular'),0,6.0),('app',app('04'),0),('app',app('03'),0),('app',app('05'),0)],
 '5':[('app',app('10'),0),('app',app('11'),0),('app',app('12'),0),('app',app('14'),0),('app',app('13'),0)],
-'6':[('clip',cl('6477490'),3.0,3.5),('clip',cl('7676931'),0.5,3.5),('clip',cl('8730835'),4.0,3.5),('dclip',DC('climax'),0,8.5),('clip',cl('7682708'),3.0),('clip',cl('7676931'),6.0),('clip',cl('8730835'),9.0),('clip',cl('7682708'),9.0),('img',pg('07'),0)],
-'7':[('dclip',DC('oferta'),0,10.02)]}
+'6':[('img',g(f'bonus/kit_capa*'),0),('img',g(f'bonus/kit_faro*'),0),('img',g(f'bonus/pnp_capa*'),0),('img',g(f'bonus/pnp_semaforo*'),0),('img',g(f'bonus/pnp_chocolate*'),0)],
+'7':[('clip',cl('6477490'),3.0,3.5),('clip',cl('7676931'),0.5,3.5),('clip',cl('8730835'),4.0,3.5),('dclip',DC('climax'),0,8.5),('clip',cl('7682708'),3.0),('clip',cl('7676931'),6.0),('clip',cl('8730835'),9.0),('clip',cl('7682708'),9.0),('img',pg('07'),0)],
+'8':[('dclip',DC('oferta'),0,13.6)]}
 def cap_chunks(k):
     sents=[s.strip() for s in re.split(r'(?<=[.!?])\s+',re.sub(r'^\[\w+\]\s*','',F[k])) if s.strip()];ch=[]
     for s in sents:
