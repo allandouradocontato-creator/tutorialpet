@@ -140,6 +140,7 @@ RADIO_JS = (
 )
 
 OTIMIZADOS_DIR = ROOT / "data" / "seo_onpage" / "otimizados"
+_CAPAS_FALTANDO: list[str] = []   # artigos publicados sem imagem_capa (lido pelo Vigia)
 LEGAL_DIR = ROOT / "data" / "platform_compliance" / "paginas_legais"
 TECH_DIR = ROOT / "data" / "platform_compliance" / "arquivos_tecnicos"
 BUILD_DIR = ROOT / "site" / "build"
@@ -992,11 +993,20 @@ def run(site_id: str) -> dict:
     _PILARES_GLOBAL.update(pilares)
 
     artigos = []
+    _CAPAS_FALTANDO.clear()
     for path in sorted(OTIMIZADOS_DIR.glob("*.md")):
         try:
             fm, body = read_markdown(path)
         except MarkdownError:
             continue
+        # 31/10/2026: autocura de capa. Se o front matter perdeu imagem_capa mas a foto escolhida existe, religa; sem foto, alarme.
+        _slug_a = str(fm.get("slug") or path.stem)
+        _foto = ROOT / "data" / "visual" / "imagens" / f"{_slug_a}.jpg"
+        if not fm.get("imagem_capa") and _foto.exists():
+            fm["imagem_capa"] = f"imagens/{_slug_a}.jpg"
+            print(f"[capa] autocura: {_slug_a} religado a {fm['imagem_capa']}")
+        if not fm.get("imagem_capa"):
+            _CAPAS_FALTANDO.append(_slug_a)
         jsonld_path = ROOT / fm.get("dados_estruturados_arquivo", "")
         structured_data = json.loads(jsonld_path.read_text(encoding="utf-8")) if jsonld_path.exists() else {}
         artigos.append((fm, body, structured_data))
@@ -1163,6 +1173,11 @@ def main() -> int:
     print(f"Site montado em {resultado['build_dir']}")
     print(f"  Artigos: {resultado['n_artigos']}")
     print(f"  Páginas legais: {resultado['n_paginas_legais']}")
+    _cf = ROOT / "data" / "operacoes" / "capas_faltando.txt"
+    _cf.parent.mkdir(parents=True, exist_ok=True)
+    _cf.write_text("\n".join(sorted(set(_CAPAS_FALTANDO))) + ("\n" if _CAPAS_FALTANDO else ""), encoding="utf-8")
+    if _CAPAS_FALTANDO:
+        print("::warning::ARTIGOS SEM CAPA NO AR (%d): %s" % (len(set(_CAPAS_FALTANDO)), ", ".join(sorted(set(_CAPAS_FALTANDO)))))
     print(f"  Imagens publicadas: {resultado['n_imagens']}")
     print(f"  Arquivos: {', '.join(resultado['arquivos_gerados'])}")
     return 0

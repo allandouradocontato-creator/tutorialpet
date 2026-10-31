@@ -87,3 +87,5 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 - Vídeos do produto usam a música da VSL (gr0za-party-party-music-569750, baixinha) e imagem sincronizada com a frase que está sendo dita.
 - 31/10/2026: frases que freiam a compra ('Assista antes de decidir', 'Antes de decidir') são proibidas na landing/VSL: toda frase tem que empurrar para a compra, nunca criar objeção.
 - 31/10/2026: fotos da landing/vídeos: nada de cachorro triste/abandonado/de rua; sempre cachorro feliz, boca aberta, sorrindo.
+
+39. (31/10/2026) NENHUM artigo fica no ar sem capa: antes de pedir AdSense, data/operacoes/capas_faltando.txt tem que estar vazio e a auditoria 'todos com capa' em PASSA. O Vigia trata QUALQUER capa faltando como CRÍTICO (não 'tudo ok') e enfileira o slug em config/capas_refazer.txt. Regerar otimizado/rascunho nunca pode apagar campos imagem*.

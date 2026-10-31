@@ -191,9 +191,25 @@ def main() -> int:
     if quebrados:
         alertas.append("Link(s) do sitemap fora do ar: " + "; ".join(quebrados[:5]))
 
+    # 6) CAPA (31/10/2026, AdSense): artigo no ar sem imagem_capa é CRÍTICO, nunca "tudo ok" ---------------------------------
+    sem_capa: list[str] = []
+    try:
+        import glob as _g
+        import os as _o
+        for f in sorted(_g.glob("data/seo_onpage/otimizados/*.md")):
+            cab = open(f, encoding="utf-8").read(6000).split("\n---", 2)[0]
+            if "imagem_capa:" not in cab:
+                sem_capa.append(_o.path.basename(f)[:-3])
+    except Exception as exc:  # noqa: BLE001
+        print(f"[capas] nao consegui conferir: {exc}")
+    print(f"[capas] sem_capa={sem_capa}")
+    if sem_capa:
+        alertas.append(f"CAPA: {len(sem_capa)} artigo(s) no ar sem capa (risco AdSense): {', '.join(sem_capa[:6])}. "
+                       "Acrescentar o slug em config/capas_refazer.txt (push dispara capas_coerentes).")
+
     # RESUMO + ALERTA ----------------------------------------------------------------------------
     linhas = [f"Saúde da fábrica — {agora:%Y-%m-%d %H:%M}Z",
-              f"- pacotes hoje: {feitos}/{esperados}; artigos aprovados fora do ar: {len(fora)}; artigos novos hoje: {novos_hoje}; links quebrados na amostra: {len(quebrados)}"]
+              f"- pacotes hoje: {feitos}/{esperados}; artigos aprovados fora do ar: {len(fora)}; artigos novos hoje: {novos_hoje}; links quebrados na amostra: {len(quebrados)}; artigos sem capa: {len(sem_capa)}"]
     linhas += [f"- ação: {a}" for a in acoes] + [f"- ALERTA: {a}" for a in alertas]
     texto = "\n".join(linhas)
     print(texto)

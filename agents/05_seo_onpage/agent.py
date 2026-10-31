@@ -267,6 +267,17 @@ def run(context: dict) -> dict:
         "sugestoes_links_internos": sugestoes_links,
         "dados_estruturados_arquivo": str(jsonld_path.relative_to(ROOT)),
     }
+    # 31/10/2026 (E-capa): regerar o otimizado (reforço de artigos) apagou imagem_capa/imagens_corpo do cinto de segurança.
+    # Capa já escolhida nunca se perde: carrega do otimizado anterior tudo que for imagem*.
+    _ant = OUT_DIR / f"{slug}.md"
+    if _ant.exists():
+        try:
+            _fm_ant, _ = read_markdown(_ant)
+            for _k, _v in _fm_ant.items():
+                if str(_k).startswith("imagem") and _k not in novo_front_matter:
+                    novo_front_matter[_k] = _v
+        except MarkdownError:
+            pass
     out_path = write_markdown(OUT_DIR / f"{slug}.md", novo_front_matter, body)
 
     pendencias = ["Seguir para o agente 06 (platform compliance) e depois para a aprovação final de publicação."]
