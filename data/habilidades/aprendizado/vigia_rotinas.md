@@ -37,3 +37,4 @@
 2026-10-30 | 16:10 slow-feed e castracao-gratuita 200 no ar (publicar_blog 41106404820); hidratar nao saiu no mesmo run, re-promovido | aguardando 200 de hidratar (E34, n=1) | mantém
 2026-10-30 | 19:25 blog 3/3 ok; #78 falhou so em hidratar (capa 429, 6a vez), nao re-promovi; castracao sem Fontes (AdSense): reforco_blog.yml via REST; ficha V25 | aguardando reforco verde + castracao com Fontes e fallback de capa (E34, n=1) | altera: parar de re-promover slug que falha por capa
 2026-10-31 | 07:27 blog 0/3 e fabrica sem turno 06h: promovi 3 rascunhos, fabrica.yml por REST, reforco_blog.yml, 4 capas em capas_refazer | aguardando fabrica #41192773541 e publicar_blog 41192774188 verdes + páginas 200 (E34, n=1) | mantém
+2026-10-31 | 11:30 blog 3/3, fabrica e publicar_blog verdes, redes ok; reforco_blog #16 cancelado -> redisparado por REST (8 artigos sem Fontes) | aguardando reforco verde + auditoria sem FALHA de Fontes (E34, n=1) | mantém
