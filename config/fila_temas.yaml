@@ -1009,9 +1009,10 @@ temas:
   data: '2026-10-30'
 - termo: 'sinpatinhas: como cadastrar seu cachorro ou gato de graça'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'data/utilidade_publica/posse-responsavel-sinpatinhas-federal.md. Gancho:
     MMA + Decreto 12.439/2025; para que serve; não afirmar obrigatoriedade'
+  data: '2026-10-31'
 - termo: 'abandono de animal é crime: multa, pena e o que fazer se não puder mais
     cuidar'
   pilar: utilidade_publica
@@ -1214,4 +1215,13 @@ temas:
   status: pendente
 - termo: como preparar um espaco seguro para adocao de caes adultos resgatados
   pilar: adocao
+  status: pendente
+- termo: como identificar ingredientes seguros em petiscos naturais para caes e gatos
+  pilar: alimentacao
+  status: pendente
+- termo: como adaptar a rotina da casa para gatos senior com perda devisao
+  pilar: comportamento
+  status: pendente
+- termo: quais documentos levar para viajar de onibus com caes e gatos
+  pilar: utilidade_publica
   status: pendente
