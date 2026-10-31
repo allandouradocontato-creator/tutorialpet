@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-fazer-cachorro-parar-de-puxar-a-guia"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-cachorro-parar-de-puxar-a-guia.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

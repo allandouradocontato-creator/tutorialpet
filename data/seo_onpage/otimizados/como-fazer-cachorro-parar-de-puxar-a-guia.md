@@ -44,6 +44,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-fazer-cachorro-parar-de-puxar-a-guia.jsonld.json
+imagem_capa: imagens/como-fazer-cachorro-parar-de-puxar-a-guia.jpg
+imagem_fonte: pexels
+imagem_fotografo: Vova Kras
+imagem_fotografo_url: https://www.pexels.com/@vovaflame
+imagem_url_pagina: https://www.pexels.com/photo/purebred-dogs-with-leashes-standing-on-asphalt-path-4317149/
+imagem_selecionada_em: '2026-10-31T19:07:15+00:00'
 ---
 
 # Como fazer cachorro parar de puxar a guia: guia prático

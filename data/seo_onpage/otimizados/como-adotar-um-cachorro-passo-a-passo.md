@@ -37,6 +37,12 @@ checagens_seo:
   manual.
 sugestoes_links_internos: []
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-adotar-um-cachorro-passo-a-passo.jsonld.json
+imagem_capa: imagens/como-adotar-um-cachorro-passo-a-passo.jpg
+imagem_fonte: pexels
+imagem_fotografo: Tatiana LM
+imagem_fotografo_url: https://www.pexels.com/@tatiana-lm-360892
+imagem_url_pagina: https://www.pexels.com/photo/pembroke-welsh-corgi-photography-976924/
+imagem_selecionada_em: '2026-10-31T19:02:28+00:00'
 ---
 
 # Como adotar um cachorro passo a passo: guia prático

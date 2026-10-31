@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 4453132,
+    "url_download": "https://images.pexels.com/photos/4453132/pexels-photo-4453132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/fluffy-dog-relaxing-on-lawn-4453132/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cachorro sozinho em um parque",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-adotar-um-cachorro-passo-a-passo/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 976924,
+    "url_download": "https://images.pexels.com/photos/976924/pexels-photo-976924.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/pembroke-welsh-corgi-photography-976924/",
+    "fotografo": "Tatiana LM",
+    "fotografo_url": "https://www.pexels.com/@tatiana-lm-360892",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "cachorro sozinho em um parque",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-adotar-um-cachorro-passo-a-passo/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29209881,
+    "url_download": "https://images.pexels.com/photos/29209881/pexels-photo-29209881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calm-dog-resting-in-an-indoor-sports-arena-29209881/",
+    "fotografo": "Bruno Galvão",
+    "fotografo_url": "https://www.pexels.com/@bruno-galvao-1654572933",
+    "largura": 4618,
+    "altura": 3464,
+    "query": "cachorro sozinho em um parque",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-adotar-um-cachorro-passo-a-passo/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35541050,
+    "url_download": "https://images.pexels.com/photos/35541050/pexels-photo-35541050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/family-enjoying-a-day-at-the-beach-35541050/",
+    "fotografo": "Anderson Portella",
+    "fotografo_url": "https://www.pexels.com/@andersonportella",
+    "largura": 3532,
+    "altura": 2383,
+    "query": "cachorro sozinho em um parque",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-adotar-um-cachorro-passo-a-passo/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29093276,
+    "url_download": "https://images.pexels.com/photos/29093276/pexels-photo-29093276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/bulldog-in-a-sunny-park-on-a-leisurely-day-29093276/",
+    "fotografo": "Andreas Schnabl",
+    "fotografo_url": "https://www.pexels.com/@andreas-schnabl-1775843",
+    "largura": 9504,
+    "altura": 6336,
+    "query": "cachorro sozinho em um parque",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-adotar-um-cachorro-passo-a-passo/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8473665,
+    "url_download": "https://images.pexels.com/photos/8473665/pexels-photo-8473665.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-dog-sitting-on-the-floor-8473665/",
+    "fotografo": "Cup of  Couple",
+    "fotografo_url": "https://www.pexels.com/@cup-of-couple",
+    "largura": 5808,
+    "altura": 3872,
+    "query": "cachorro sentado em uma sala vazia",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-adotar-um-cachorro-passo-a-passo/5.jpg"
+  }
+]

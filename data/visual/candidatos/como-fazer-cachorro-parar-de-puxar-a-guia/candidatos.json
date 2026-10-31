@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 4317149,
+    "url_download": "https://images.pexels.com/photos/4317149/pexels-photo-4317149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/purebred-dogs-with-leashes-standing-on-asphalt-path-4317149/",
+    "fotografo": "Vova Kras",
+    "fotografo_url": "https://www.pexels.com/@vovaflame",
+    "largura": 3861,
+    "altura": 2574,
+    "query": "dog pulling leash alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5962107,
+    "url_download": "https://images.pexels.com/photos/5962107/pexels-photo-5962107.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photo-of-woman-in-black-jacket-walking-with-her-dog-5962107/",
+    "fotografo": "Martin Dalsgaard",
+    "fotografo_url": "https://www.pexels.com/@martin-dalsgaard-2746111",
+    "largura": 3000,
+    "altura": 1688,
+    "query": "dog pulling leash alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11512046,
+    "url_download": "https://images.pexels.com/photos/11512046/pexels-photo-11512046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dogs-on-the-leash-pulling-towards-water-11512046/",
+    "fotografo": "gabesdotphotos photographer",
+    "fotografo_url": "https://www.pexels.com/@gabesphotos",
+    "largura": 7422,
+    "altura": 4950,
+    "query": "dog pulling leash alone",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7587180,
+    "url_download": "https://images.pexels.com/photos/7587180/pexels-photo-7587180.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/woman-and-her-pet-dog-walking-on-unpaved-pathway-7587180/",
+    "fotografo": "Martin Dalsgaard",
+    "fotografo_url": "https://www.pexels.com/@martin-dalsgaard-2746111",
+    "largura": 3000,
+    "altura": 1688,
+    "query": "dog pulling leash alone",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15047486,
+    "url_download": "https://images.pexels.com/photos/15047486/pexels-photo-15047486.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dogs-on-beach-15047486/",
+    "fotografo": "Matt Barnard",
+    "fotografo_url": "https://www.pexels.com/@matt-barnard-21952098",
+    "largura": 3616,
+    "altura": 2411,
+    "query": "dog pulling leash alone",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29403293,
+    "url_download": "https://images.pexels.com/photos/29403293/pexels-photo-29403293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-white-dog-on-green-grass-outdoors-29403293/",
+    "fotografo": "Jay Brand",
+    "fotografo_url": "https://www.pexels.com/@jay-brand-1763356224",
+    "largura": 4821,
+    "altura": 3438,
+    "query": "dog pulling leash outdoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-cachorro-parar-de-puxar-a-guia/5.jpg"
+  }
+]
