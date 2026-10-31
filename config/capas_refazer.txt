@@ -1,23 +1,4 @@
-# 24/10/2026: so os 2 que falharam por falta de foto do tema (buscas novas em stock_queries.py)
-como-escolher-comedouro-duplo-elevado-para-gatos-idosos
-como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
-# retry 24/10 0323
-# retry 24/10 0345 (plano B IA)
-# Vigia 25/10 07:20 (E103, auditoria AdSense: 5 sem capa)
-como-misturar-racao-seca-e-umida-para-cachorro-corretamente
-como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
-como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
-como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
-como-escovar-pelo-de-gato-que-nao-gosta-de-escova
-# 30/10/2026 Sonnet (auditoria AdSense: 4 sem capa)
-como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo
-cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina
-como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos
-como-socializar-gato-filhote-com-visitas-e-novos-barulhos
-como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno
-adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
-quais-frutas-cachorro-pode-comer-no-verao-com-seguranca
-quanto-de-racao-dar-para-gato-adulto-por-dia
+# 31/10/2026: lista reduzida aos pendentes (a lista antiga inteira estourava os 30 min do workflow e era cancelada).
 como-adotar-um-cachorro-passo-a-passo
 como-fazer-cachorro-parar-de-puxar-a-guia
 quanto-de-racao-dar-para-gato-adulto-por-dia
