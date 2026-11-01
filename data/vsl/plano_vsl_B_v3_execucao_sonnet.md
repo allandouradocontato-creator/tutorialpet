@@ -31,3 +31,16 @@ A) Abertura: inverter a ordem, acusação direta primeiro. Nova fala da cabeça 
 B) Oferta na voz (s31): trocar "Vinte e sete reais, pagamento único, acesso vitalício." por "De noventa e sete por apenas vinte e sete, por tempo limitado. Aproveita: pagamento único, acesso vitalício." Regerar o corpo inteiro no ElevenLabs (1 áudio, <1% do saldo mensal), medir a duração nova, recortar as cenas pela nova marcação de silêncios (vídeo vai a ≈57 s; avisar o Allan da duração medida). Sem HeyGen (não há Duda no meio).
 C) Landing: adicionar junto do preço "Oferta de lançamento por tempo limitado" (opção a, recomendada e aprovada por padrão), publicar e conferir no ar.
 Ordem: landing → ElevenLabs (corpo + cabeça A) → perguntar "pode" do HeyGen (ou caminho 2) → re-cortar → prévia A → "pode" → B e C → salvar → "pode" dos anúncios.
+
+## Adendo v3.2 — decisão do Allan em 01/11/2026, 17:00 (depois da prévia A da v3.1)
+Erro crasso pego pelo Allan: a abertura acusava ("Você é preguiçosa") sem dizer do que o vídeo trata; "cachorro" só entrava na voz aos 15 s. Regra nova (regras_de_ouro): o PROBLEMA (cachorro sozinho em casa destrói/late/chora) aparece em voz E legenda nos primeiros 2 s; a acusação vem depois.
+Opção escolhida: 1 — abertura "problema primeiro", SEM Duda falando (zero HeyGen). Duda só no fechamento. Corpo v31 continua igual.
+Falas novas das 3 cabeças (ElevenLabs, Marianne, Eleven v4, Stability 30%, Similarity 56%, velocidade 100, tag [excited], nunca acelerar; ≈0,1% do saldo mensal cada):
+- A: [excited] Seu cachorro destrói tudo quando fica sozinho… e ainda te chamam de preguiçosa.
+- B: [excited] Seu cachorro chora sozinho em casa… e te dizem: devolve esse cachorro.
+- C: [excited] Seu cachorro late sozinho o dia inteiro… e dizem que você está piorando ele.
+Salvar como vslB_voz_cabeca_A_v32.mp3 / _B_v32 / _C_v32 em Downloads e em VSL_Sozinho_em_Casa/vozes/.
+Visual da cabeça (cenas ≤1,5 s, sem Duda): cachorro_21 (filhote rasgando travesseiro) → cachorro_22 (arranhando porta) → cachorro_21 outro trecho → cachorro_22 outro trecho, até a fala acabar.
+Legendas da cabeça: quadro 0 até a reticência: "Cachorro sozinho em casa destruindo tudo?" (amarelo em "sozinho em casa"); da reticência ao fim: A "…e te chamam de preguiçosa" (amarelo "preguiçosa"), B "…devolve esse cachorro" (amarelo "devolve"), C "…você está piorando ele" (amarelo "piorando"). Marcar a troca pelo silêncio da reticência (silencedetect). Mesma regra de 1 linha, pop e descida de 60 px.
+Áudio da cabeça: mp3 original do ElevenLabs (ganho só para igualar o corpo), fade 0,05 s; corpo v31 cortado em 43,97 s; fechamento igual. Medir a duração de cada cabeça e avisar a duração final medida.
+Ordem: ElevenLabs das 3 cabeças → recortar (build_cuts4/legends4/final4 no scratchpad, trocando só a cabeça) → prévia A + grade de 12 quadros + duração medida → "pode" → B e C → conferir 1080x1920, 30 fps, −14 LUFS, pico ≤ −1 dB → salvar no PC como vsl_B_v3_A_voce_e_preguicosa.mp4 / vsl_B_v3_B_devolve.mp4 / vsl_B_v3_C_piorando.mp4 (≤30 MB) → entregar com custo em % → "pode" dos anúncios (Fase 6).
