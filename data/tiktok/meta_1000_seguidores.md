@@ -17,3 +17,5 @@ Regras de todos: gancho de dor ≤ 6 palavras no frame 0 (portao_gancho.py), cen
 
 ## Log diário (1 linha: data | seguidores | % | vídeos postados | campeão | cortado)
 - 01/11/2026 | 21 (último valor, 24/10) | 2,1% | meta criada | - | -
+
+- 01/11/2026 15:39 (Allan): TikTok FICA no Buffer (opção 1); Zernio sem TikTok, sem cartão. Leitura de seguidores pelo Buffer/TikTok Studio.
