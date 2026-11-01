@@ -1020,9 +1020,10 @@ temas:
 - termo: 'abandono de animal é crime: multa, pena e o que fazer se não puder mais
     cuidar'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'pesquisar fonte oficial; rodapé jurídico. Gancho: Lei 9.605/1998 art. 32;
     alternativas legais; antes de dezembro'
+  data: '2026-11-01'
 - termo: 'vacina antirrábica gratuita para cachorro e gato: onde e quando'
   pilar: utilidade_publica
   status: pendente
@@ -1246,4 +1247,13 @@ temas:
   status: pendente
 - termo: quais petiscos naturais posso incluir na alimentacao de gatos seniors
   pilar: alimentacao
+  status: pendente
+- termo: sinais de estresse em caes que ficam sozinhos o dia todo
+  pilar: comportamento
+  status: pendente
+- termo: cuidados para adaptar a rotina de caes idosos no calor
+  pilar: cuidados_diarios
+  status: pendente
+- termo: como apresentar um novo pet para caes e gatos ja idosos
+  pilar: primeiros_passos_filhotes
   status: pendente
