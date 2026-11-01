@@ -58,3 +58,13 @@ Tom aprovado: risada LEVE e CURTA, só o primeiro segundo; a parte em que a risa
 - Clipes fixos em `animaticos/lote7/heygen/banco/clipes/`: A (risada + "Ai, meu Deus do céu!", look olhando celular, 2,6 s) e D ("Segue o tutorial pet", look câmera, 2,2 s). Custo total ≈ 11% do saldo; reaproveitar sempre, 0 crédito por vídeo novo.
 - Lição: o HeyGen NÃO aceita áudio só de risada (botão Continuar não avança); precisa de fala junto.
 - Lição: o look "Smiling person in patterned shirt" levanta o olhar para a câmera por ~1 s no meio do clipe; não há controle do olhar.
+
+## PADRÃO v3 TRAVADO (01/11/2026, após erro no @celiaepeggy v1) — o único formato de react até o Allan mudar
+Erro que originou: Sonnet trocou tela dividida por Duda em tela inteira e trocou a pergunta final combinada por CTA genérico. Lição: custo reduz TEMPO da Duda, nunca muda o FORMATO.
+Linha do tempo fixa (1080x1920, 30 fps):
+1. ABERTURA 0–2,6 s — TELA DIVIDIDA: em cima clipe do banco A (risada + "Ai, meu Deus do céu!", crop 1080x672 y=450); embaixo o original (scale -2:1248, pad 1080x1248) já rodando do seu beat 0. Crédito "@autor (rede)" na emenda (y≈640).
+2. MEIO — ORIGINAL EM TELA INTEIRA, sem Duda na imagem; crédito continua. Áudio: original a 90%; por cima, risadas do banco (risada_1s_a/b/c.mp3) nos beats e a(s) fala(s) curta(s) da Duda (ElevenLabs, já aprovadas em cartão). Enquanto a Duda fala, original a 30% (duck).
+3. FECHAMENTO últimos 2,2 s — TELA DIVIDIDA de novo: em cima clipe do banco D ("Segue o tutorial pet", look câmera); embaixo o original continua (ou congela no último quadro se acabou).
+Fixos: clipes A e D em animaticos/lote7/heygen/banco/clipes/ (0 crédito HeyGen por vídeo). Variáveis por vídeo: corte do original, falas da Duda, crédito.
+ElevenLabs no mínimo: reaproveitar risadas do banco; gerar só a fala única do vídeo (≤ 90 caracteres por linha, 1 a 2 linhas); gerar pelo workflow voz_lote7 em lote.
+Antes de renderizar: postar cartão de 5 linhas (beats: segundo × o que acontece × áudio). Depois de renderizar: folha de 5 quadros + o mp4. Carimbo, música baixa e versões por rede entram na etapa de publicação (regra 25/10).
