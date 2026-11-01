@@ -7,11 +7,11 @@ Tese da marca: "Amar é saber cuidar. Mas ninguém nasce sabendo — a gente apr
 - Toda acusação ao tutor vem na boca de TERCEIROS (vizinho, família, amiga, "todo mundo") ou da própria pessoa; a Duda só relata até o s16 e depois DEFENDE ("não é preguiça, é falta de plano"). A única afirmação dela na agitação é "dica solta não funciona" (refuta a objeção "acho isso de graça na internet").
 - Legendas grandes desde o frame 0, até 6 palavras; na agitação, entre aspas (fala de terceiros).
 - Cenas de no máximo 1,5 s. Cachorro sempre feliz, boca aberta, em movimento, mesmo nas cenas de bagunça. Só cachorro. Nunca a palavra "cão". Nada de cachorro triste/abandonado. Conferir biblioteca/clipes_banidos.md.
-- Duda só na abertura (0–2 s) e no fechamento (31–36 s). Voz com energia alta e constante, ritmo natural, sem acelerar.
+- Duda só na abertura (0–2 s) e no fechamento (31–42 s). Voz com energia alta e constante, ritmo natural, sem acelerar.
 - Carimbo "Tutorial Pet · @vetnatasha" discreto embaixo o vídeo inteiro (regra 52). Sem foto da Natasha.
 - Música gr0za party-music baixinha (ducking). Mix final −14 LUFS, pico ≤ −1 dB. Vertical 9:16.
 - Preço entra até o s22 (janela dos cliques). Nenhuma frase que freie a compra.
-- Duração escrita ≈36 s; no ritmo natural ≈39 s (dentro do teto de 50 s). Não cortar blocos.
+- Duração escrita ≈42 s; no ritmo natural ≈45 s (dentro do teto de 50 s). Não cortar blocos.
 
 ## Versão A — "todo mundo diz"
 
@@ -25,13 +25,16 @@ Tese da marca: "Amar é saber cuidar. Mas ninguém nasce sabendo — a gente apr
 | 19–24 s | Tutora com o app no celular, cachorro ao lado | (sem legenda de aspas; pode mostrar "R$ 27 · pagamento único") | O Sozinho em Casa é esse plano: aplicativo e manual com base científica, 14 dias, dez minutos por dia — R$ 27, pagamento único, acesso vitalício. |
 | 24–28 s | Telas do app (plano personalizado, meta do dia) | — | O app monta o plano para o porte, a raça e o temperamento dele. Sem grito, sem punição. |
 | 28–31 s | Cachorro deitado tranquilo, tutora saindo em paz | Garantia de 14 dias | Garantia de 14 dias: não gostou, devolvemos tudo. |
-| 31–36 s | Duda + botão | Amar é saber cuidar. | Amar é saber cuidar. Vem aprender hoje — toca no botão. |
+| 31–42 s | Duda + botão; legenda secundária "Acesso imediato por e-mail" | Amar é saber cuidar. | Amar é saber cuidar. Vem aprender hoje — toca no botão, garante o seu manual e aplicativo Sozinho em Casa, recebe tudo no seu e-mail rapidinho e começa hoje a transformar a vida do seu melhor amigo. |
 
 ## Versões B e C — trocam SÓ os 2 primeiros segundos (corpo idêntico a partir do s2)
 - **B ("devolve")** — Legenda: "Devolve esse cachorro." (aspas). Duda: Já te disseram isso? "Devolve, você não dá conta."
 - **C ("piorando")** — Legenda: "Você está piorando ele." (aspas). Duda: Já ouviu isso? "Cada bronca sua deixa ele pior."
 
-Produção: um corpo (s2–s36) e três cabeças. Um áudio da Duda para o corpo e três frases curtas para as aberturas.
+Produção: um corpo (s2–s42) e três cabeças. Um áudio da Duda para o corpo e três frases curtas para as aberturas.
 
 ## Leitura do teste (mesmo dia)
 Retenção no s3 e cliques por versão; a cabeça que segurar mais vira base das próximas. Anúncio C atual continua no ar; as três versões entram como anúncios novos no conjunto "SP mulheres 25-54".
+
+## Fechamento (decisão do Allan, 12:00)
+O CTA diz o que a pessoa recebe, por onde e quando (manual + app, e-mail, na hora) para garantir que ela conclua o checkout.
