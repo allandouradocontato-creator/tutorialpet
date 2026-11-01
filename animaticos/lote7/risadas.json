@@ -1,5 +1,5 @@
 {
- "exclama_a": "[laughs softly] Meu Deus, que coisa mais linda!",
- "exclama_b": "[chuckles] Ai, meu Deus... que lindo!",
- "exclama_c": "[giggles] Que coisa mais linda, gente!"
+ "espontanea_a": "[gasps] Ai, meu Deus! [laughs softly] Que coisa mais linda!",
+ "espontanea_b": "[chuckles] Ai, gente... [laughs softly] meu Deus, que lindo!",
+ "espontanea_c": "[laughs] Ai, meu Deus do céu! [giggles] Que coisa mais linda!"
 }
