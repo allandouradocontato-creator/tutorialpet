@@ -52,3 +52,9 @@ Pedido do Allan: menos produzido, mais gente comum. Prompt = texto do look + blo
 
 ## Risada da Duda (decisão do Allan, 01/11/2026)
 Tom aprovado: risada LEVE e CURTA, só o primeiro segundo; a parte em que a risada cresce está reprovada. Receita: voz oficial (Marianne, eleven_v4, estabilidade 0,26, sem mexer nos botões) + tags curtas no texto: "[chuckles] Hahaha!", "[laughs] Ha ha ha!", "[giggles] Hehehe... [laughs] ha!"; cortar em 1,0 s com fade de 0,15 s (ffmpeg -t 1.0 -af afade=t=out:st=0.85:d=0.15). Arquivos prontos: animaticos/lote7/risada_1s_a|b|c.mp3. Risada longa, gargalhada e efeito sonoro genérico (SFX) não servem. 2 a 3 risadas de 1 s por vídeo, nos pontos de ação do clipe; nunca por cima da fala.
+
+## Banco de reações da Duda (decisão do Allan 01/11/2026, para não gastar crédito por vídeo)
+- Duda só aparece no 1º segundo (abertura) e no final (chamada); o meio é o vídeo original em tela cheia, com comentário só em voz.
+- Clipes fixos em `animaticos/lote7/heygen/banco/clipes/`: A (risada + "Ai, meu Deus do céu!", look olhando celular, 2,6 s) e D ("Segue o tutorial pet", look câmera, 2,2 s). Custo total ≈ 11% do saldo; reaproveitar sempre, 0 crédito por vídeo novo.
+- Lição: o HeyGen NÃO aceita áudio só de risada (botão Continuar não avança); precisa de fala junto.
+- Lição: o look "Smiling person in patterned shirt" levanta o olhar para a câmera por ~1 s no meio do clipe; não há controle do olhar.
