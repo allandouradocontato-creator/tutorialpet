@@ -16,7 +16,7 @@ Mantém todos os mecanismos da v1: acusação só na boca de terceiros, "dica so
 
 | Tempo | Cena | Legenda | Duda (voz) |
 |---|---|---|---|
-| 3–10 | Celular, TV ligada, petisco na mão, arranhando porta | "Isso é desespero, não cuidado." | Você tenta de tudo: internet, bronca, petisco… e ouve: "isso é desespero, não é cuidado". Dica solta não funciona. |
+| 3–10 | Celular, TV ligada, petisco na mão, arranhando porta | "Isso é desespero, não cuidado." | Você tenta de tudo: dicas da internet, bronca, petisco… e ouve: "isso é desespero, não é cuidado". Dica solta não funciona. |
 | 10–15 | Vizinho na porta; idosa reprovando | "Isso é preguiça sua." → "Você não dá atenção." | O vizinho diz que é preguiça. A família, desleixo e descaso. |
 | 15–19 | Tutora com cachorro lambendo o rosto | "Não consigo nem cuidar dele." | E aí bate: "não consigo cuidar do cachorro que eu amo". |
 | 19–23 | Filhote correndo na luz | Ninguém nasce sabendo. | Calma. Não é preguiça. Ninguém nasce sabendo: a gente aprende. |
@@ -26,7 +26,7 @@ Mantém todos os mecanismos da v1: acusação só na boca de terceiros, "dica so
 | 40–50 | Duda + botão | Amar é saber cuidar. · Acesso imediato por e-mail | Amar é saber cuidar. Vem aprender hoje: toca no botão, garante seu manual e app, recebe no e-mail agora e começa hoje a transformar a vida do seu melhor amigo. |
 
 Texto corrido do corpo (para colar no ElevenLabs, com tags):
-[excited] Você tenta de tudo: internet, bronca, petisco… e ouve: "isso é desespero, não é cuidado". Dica solta não funciona. O vizinho diz que é preguiça. A família, desleixo e descaso. E aí bate: "não consigo cuidar do cachorro que eu amo". [excited] Calma. Não é preguiça. Ninguém nasce sabendo: a gente aprende. O Sozinho em Casa é o plano: app e manual com base científica, catorze dias, dez minutos por dia. Vinte e sete reais, pagamento único, acesso vitalício. Feito pro temperamento dele. Sem grito, sem punição. Não gostou? Devolvemos tudo. [excited] Amar é saber cuidar. Vem aprender hoje: toca no botão, garante seu manual e app, recebe no e-mail agora e começa hoje a transformar a vida do seu melhor amigo.
+[excited] Você tenta de tudo: dicas da internet, bronca, petisco… e ouve: "isso é desespero, não é cuidado". Dica solta não funciona. O vizinho diz que é preguiça. A família, desleixo e descaso. E aí bate: "não consigo cuidar do cachorro que eu amo". [excited] Calma. Não é preguiça. Ninguém nasce sabendo: a gente aprende. O Sozinho em Casa é o plano: app e manual com base científica, catorze dias, dez minutos por dia. Vinte e sete reais, pagamento único, acesso vitalício. Feito pro temperamento dele. Sem grito, sem punição. Não gostou? Devolvemos tudo. [excited] Amar é saber cuidar. Vem aprender hoje: toca no botão, garante seu manual e app, recebe no e-mail agora e começa hoje a transformar a vida do seu melhor amigo.
 
 ## Aberturas (0–3 s) — três áudios curtos, cena: travesseiro rasgado (cachorro_21)
 - **A "todo mundo diz"** — legenda "Você não sabe cuidar dele." — voz: [excited] Todo mundo diz: "você não sabe cuidar dele". → vslB_voz_cabeca_A.mp3
