@@ -341,7 +341,8 @@ temas:
   data: '2026-10-30'
 - termo: como dar remedio para gato que cospe
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-01'
 - termo: como fazer cachorro parar de puxar a guia
   pilar: comportamento
   status: rascunho_pronto
@@ -1232,4 +1233,13 @@ temas:
   status: pendente
 - termo: regras de convivencia em parques para caes e tutores de primeira viagem
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: como montar um jardim pet friendly com plantas seguras
+  pilar: utilidade_publica
+  status: pendente
+- termo: como acostumar o gato a viajar na caixa
+  pilar: comportamento
+  status: pendente
+- termo: cuidados diarios com a pelagem de caes idosos
+  pilar: cuidados_diarios
   status: pendente
