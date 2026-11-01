@@ -75,3 +75,6 @@ TESTE DE HOJE 22/10/2026 (ordem do Allan): leia data/testes/audiencia_2026-10-22
 
 ## E109 (25/10/2026, T9 PERDEU em 22/10 e 24/10)
 TODA rodada, mesmo curta, entrega a MATRIZ: no mínimo 1 gancho em 3 peças (visual/fala/texto), 1 pilar, prova/teste (métrica e data) e CTA. Só trends + ideias soltas = rodada incompleta (registrada em biblioteca/habilidades/registro_de_falhas.md). Prova: próxima rodada (25/10 ou 26/10) com a matriz.
+
+## META Nº 1 (decisão do Allan, 01/11/2026): 1.000 seguidores no TikTok @tutorialpetbr
+Seguidores do TikTok é a métrica nº 1 de toda rodada até bater 1.000 (destrava o afiliado do TikTok Shop). Leia data/tiktok/meta_1000_seguidores.md: produção de 3 vídeos/dia (produto ou Duda dubla; dúvida real em SÉRIE numerada; vídeo IA engraçado), corte em 24 h, relatório "TikTok N/1000 = X%". React de humor de terceiros continua pausado até novo "pode" do Allan. Ao ler >= 1.000, avisar o Allan na hora.

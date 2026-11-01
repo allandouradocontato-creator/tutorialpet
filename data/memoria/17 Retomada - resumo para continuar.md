@@ -177,3 +177,6 @@ Blog: slow-feed, castração e maus-tratos no ar (Publicar Blog #77 success, run
 
 ## Decisões — Executor 01/11/2026 (06:53 Fortaleza)
 Painel de Decisões rev 16 sem decisão nova do Allan. E166 feita (runs success: Publicar Blog 41231339529/41247855426/41247856690, Fábrica #214, Saúde #99). Decididas e ainda não executadas: E160-E164 (nuvem), E165 (bloqueada: PC/Chrome). Atrasadas: 14 nominais (iguais a 31/10). Só Allan: 2FA, verificação TikTok, ok para religar rotinas pausadas (D02).
+
+## 01/11/2026 15:40 — META Nº 1: 1.000 seguidores TikTok (decisão do Allan)
+Destrava o afiliado do TikTok Shop (renda além do e-book/app). Plano e log: data/tiktok/meta_1000_seguidores.md; E172-E175 no livro. Produção: 3 vídeos/dia (produto/Duda dubla; dúvida real em série; IA engraçado); react de humor de terceiros segue pausado (30/10). Corte em 24 h; relatório "TikTok N/1000 = X%". Loja de vendedor: Allan pergunta ao contador (CNAE comércio + IE); não bloqueia. Zernio sem TikTok (3ª conta paga ~US$ 6/mês); TikTok sai pelo Buffer.

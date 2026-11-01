@@ -469,3 +469,6 @@ perguntas_lote_2026_11_01:   # binarias ou numeradas; sem tema de saude; link so
   adocao: ["Já adotou um pet: sim ou não?", "Cachorro ou gato: qual você adotaria?", "Filhote ou adulto?", "Sabe o que é o Sinpatinhas: sim ou não?", "Quantos pets moram com você?"]
   idoso: ["Seu pet idoso ainda quer passear todo dia?", "Passeio curto e mais vezes ou um longo?", "Cama ortopédica: já usa?", "Qual idade tem seu pet sênior?", "Qual mania nova ele ganhou com a idade?"]
   produto: ["Já comprou algo assim para o seu pet: sim ou não?", "Qual acessório mais ajudou a rotina de vocês?", "Bebedouro, comedouro ou cama: o que falta aí?", "Comenta 1 se já usa, 2 se quer testar.", "Marca quem precisa ver isso."]
+
+# META Nº 1 (decisão do Allan, 01/11/2026): seguidores TikTok até 1.000 (destrava afiliado TikTok Shop). Detalhe: data/tiktok/meta_1000_seguidores.md
+meta_prioritaria_tiktok: {seguidores_alvo: 1000, largada: 21, largada_data: "2026-10-24", producao_diaria: 3, formatos: ["produto_ou_duda_dubla", "duvida_real_serie_numerada", "ia_engracado"], react_humor_terceiros: "pausado_ate_novo_ok_do_allan", corte_horas: 24, aviso_ao_bater: "avisar o Allan na hora"}
