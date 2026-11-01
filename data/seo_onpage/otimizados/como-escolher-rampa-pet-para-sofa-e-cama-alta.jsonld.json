@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como escolher rampa pet para sofa e cama alta: guia prático",
-    "description": "Como escolher rampa pet para sofa e cama alta: guia prático. Saltar do sofá ou da cama alta pode parecer um movimento banal para cachorros e gatos....",
+    "description": "Como escolher rampa pet para sofa e cama alta com segurança, altura ideal, material antiderrapante e proteção para as articulações do pet.",
     "datePublished": "2026-10-16",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escolher-rampa-pet-para-sofa-e-cama-alta"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-escolher-rampa-pet-para-sofa-e-cama-alta.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Rampa ou escada pet: qual das duas opções é melhor?",
+        "name": "Rampa é melhor do que escadinha pet para cachorros pequenos?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A rampa é melhor para cachorros com problemas de coluna e raças como Dachshunds e Corgis, pois elimina o impacto vertical. As escadas atendem animais jovens, mas a rampa é mais anatômica a longo prazo."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Qual peso uma rampa pet costuma suportar?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Modelos compactos suportam de 15 kg a 25 kg. Modelos de madeira reforçada suportam de 40 kg a 60 kg ou mais. Confira sempre a ficha técnica do fabricante."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Gatos realmente usam rampa pet?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Gatos idosos com osteoartrite ou com sobrepeso aproveitam muito. Certifique-se de que a rampa não balance e posicione-a voltada para um ponto de observação confortável."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como higienizar a superfície de carpete da rampa?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Passe o aspirador de pó de duas a três vezes por semana. Para limpar manchas, use um pano levemente umedecido com água e sabão neutro. Deixe secar à sombra antes de liberar o uso.  ---"
+          "text": "Sim, na maioria dos casos. A rampa evita o impacto repetitivo dos saltos entre os degraus curtos da escadinha, preservando melhor as articulações.  *   **Qual é a inclinação máxima recomendada para uma rampa de sofá?**     O ideal é que o ângulo não ultrapasse 25 a 30 graus, garantindo uma subida confortável sem exigir esforço excessivo das patas traseiras.  *   **Gatos também conseguem usar rampa para subir na cama?**     Sim, embora os felinos prefiram pular, gatos idosos ou com mobilidade reduzida aproveitam muito a rampa para alcançar locais altos com conforto.  *   **O que fazer se o cachorro escorregar na rampa na primeira tentativa?**     Aplique fitas antiderrapantes na superfície ou cole um pedaço de carpete extra para garantir tração imediata e devolver a confiança ao animal."
         }
       }
     ]

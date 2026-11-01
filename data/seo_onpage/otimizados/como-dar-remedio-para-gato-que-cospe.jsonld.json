@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como dar remedio para gato que cospe: guia prático",
+    "description": "Aprenda como dar remédio para gato que cospe com técnicas seguras, evitando o estresse e garantindo que o seu pet aceite o tratamento.",
+    "datePublished": "2026-11-01",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-dar-remedio-para-gato-que-cospe",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-dar-remedio-para-gato-que-cospe"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso triturar qualquer comprimido para misturar na comida do gato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, comprimidos com revestimento entérico ou de liberação prolongada nunca devem ser triturados, pois isso altera a absorção do princípio ativo. Sempre consulte o veterinário antes de modificar a estrutura do remédio.  * **O que fazer se o gato vomitar o remédio logo após engolir?** Aguarde alguns minutos para que o estômago acalme e entre em contato com o médico-veterinário para saber se é necessário repetir a dose, pois parte do princípio ativo pode ter sido perdida.  * **Como evitar que o gato fuja na hora do remédio?** Crie uma rotina tranquila, associando o momento a um petisco saboroso logo em seguida, e evite correr atrás do animal pela casa para não gerar trauma preventivo.  * **Existe pílula saborizada para gatos?** Sim, farmácias de manipulação veterinária podem produzir comprimidos com sabores atrativos como peixe ou frango, reduzindo drasticamente a rejeição."
+        }
+      }
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Quando castrar cachorro filhote idade ideal: guia prático",
-    "description": "Quando castrar cachorro filhote idade ideal: guia prático. A decisão de quando castrar cachorro filhote gera muitas dúvidas na rotina da casa. Vamos...",
+    "headline": "Quando castrar cachorro filhote: idade ideal e guia prático",
+    "description": "Quando castrar cachorro filhote: idade ideal e guia prático. Decidir a época certa para a esterilização cirúrgica gera muitas dúvidas. Durante muito...",
     "datePublished": "2026-10-31",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quando-castrar-cachorro-filhote-idade-ideal"
-    },
-    "image": "https://tutorialpet.com.br/imagens/quando-castrar-cachorro-filhote-idade-ideal.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O cachorro sente dor durante a castração?",
+        "name": "Castrar o cachorro filhote faz ele parar de crescer?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não, o procedimento é realizado sob anestesia geral. O controle da dor é feito com analgésicos no pós-operatório.  * **A castração acalma o cachorro macho automaticamente?**     Não de forma mágica. O procedimento reduz comportamentos ligados a hormônios, mas a educação e os passeios continuam essenciais.  * **Quanto tempo dura a recuperação completa?**     Em média de **7 a 10 dias**, período em que os pontos costumam ser removidos pelo veterinário.  * **Existe opção de castração gratuita?**     Sim, muitas prefeituras e ONGs oferecem o serviço; veja mais detalhes em [castração gratuita de cachorro e gato: como conseguir](/castracao-gratuita-de-cachorro-e-gato-como-conseguir)."
+          "text": "Não. O que acontece é justamente o oposto: a ausência precoce de hormônios sexuais pode atrasar o fechamento das cartilagens ósseas, fazendo com que alguns ossos longos fiquem ligeiramente mais compridos do que o habitual."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A castração muda a personalidade do filhote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O temperamento básico não muda. O pet continuará brincalhão, afetuoso ou vigilante conforme sua índole; apenas comportamentos motivados por impulsos sexuais reprodutivos (como inquietação com fêmeas no cio) serão atenuados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "É obrigatório esperar o primeiro cio da fêmea para castrar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é obrigatório. Em cadelas de pequeno porte, operar antes do primeiro ciclo reduz quase a zero o risco de câncer de mama. Já em raças grandes, aguardar o primeiro ciclo pode ser vantajoso para o desenvolvimento ósseo e articular."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo demora a cicatrização dos pontos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, a cicatrização superficial leva entre 10 e 14 dias. A retirada de pontos (ou a absorção dos fios internos) deve ser avaliada pelo médico-veterinário nesse retorno de controle."
         }
       }
     ]

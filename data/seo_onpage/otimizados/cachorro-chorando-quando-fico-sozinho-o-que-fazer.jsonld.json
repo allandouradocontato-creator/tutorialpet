@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cachorro chorando quando fico sozinho: o que fazer",
+    "description": "Cachorro chorando quando fico sozinho: o que fazer. Ver seu melhor amigo chorar assim que você fecha a porta aperta o coração de qualquer tutor. Esse...",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/cachorro-chorando-quando-fico-sozinho-o-que-fazer",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/cachorro-chorando-quando-fico-sozinho-o-que-fazer"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "É normal o cachorro chorar quando saio de casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, um breve chorinho inicial ou sinal de frustração pode acontecer, mas deve cessar em poucos minutos após a sua saída.  - **Devo voltar para consolar o cachorro se ele estiver chorando muito?** Não, voltar enquanto ele chora reforça o comportamento e aumenta a ansiedade, pois ele aprende que o choro traz você de volta.  - **Deixar a televisão ou o rádio ligado ajuda a acalmar?** Pode ajudar a abafar barulhos externos da rua, mas não substitui o treino de independência e o enriquecimento ambiental.  - **Quanto tempo dura o processo de adaptação para o pet ficar sozinho?** Varia muito conforme a idade e o histórico do animal, levando em média de semanas a meses de treino consistente."
+        }
+      }
+    ]
+  }
+}
