@@ -1,0 +1,46 @@
+name: SFX risada natural (ElevenLabs Sound Effects)
+# Gera 3 variações de risada feminina natural para a Duda (animaticos/lote7/sfx_risada_N.mp3) e mostra o saldo antes/depois.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sfx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar risadas
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          from pathlib import Path
+          k = os.environ["ELEVENLABS_API_KEY"].strip()
+          def saldo():
+              r = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": k})
+              d = json.load(urllib.request.urlopen(r, timeout=30)); return d["character_limit"] - d["character_count"]
+          a = saldo(); print("SALDO_ANTES", a)
+          prompts = {
+            1: "A young Brazilian woman laughing genuinely and spontaneously while watching a funny video, warm natural giggle building into a short real laugh, close to the phone microphone, no music",
+            2: "A woman laughing out loud naturally, real unscripted belly laugh with a breath at the end, casual home recording, no background noise",
+            3: "A woman trying to hold back laughter then breaking into a soft real laugh, amused and warm, close microphone, no music",
+          }
+          Path("animaticos/lote7").mkdir(parents=True, exist_ok=True)
+          for n, p in prompts.items():
+              body = json.dumps({"text": p, "duration_seconds": 4, "prompt_influence": 0.6}).encode()
+              req = urllib.request.Request("https://api.elevenlabs.io/v1/sound-generation", data=body, headers={"xi-api-key": k, "Content-Type": "application/json"})
+              try:
+                  out = urllib.request.urlopen(req, timeout=90).read()
+                  Path(f"animaticos/lote7/sfx_risada_{n}.mp3").write_bytes(out); print("ok", n, len(out))
+              except Exception as e:
+                  print("falhou", n, str(e)[:200])
+          b = saldo(); print("SALDO_DEPOIS", b, "gasto", a - b)
+          PY
+      - name: Guardar mp3
+        run: |
+          git config user.name "voz-bot"; git config user.email "bot@users.noreply.github.com"
+          git add animaticos/lote7
+          git commit -m "sfx risada natural (ElevenLabs)" || exit 0
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
