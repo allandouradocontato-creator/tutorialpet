@@ -37,3 +37,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-10-31 | regra: início de conta pequena depende de constância; 1º seguidor IG após 86 posts | IG 0→1, FB 9→10 (n=1) | mantém
 2026-10-31 | pacote com artigo 404 (quando-castrar) não agendar; aguardar | n=1 | mantém
 2026-11-01 | sem pedir curtir/comentar como comando; CTA binário FB x aberto IG em N1-N3; link só no 1º comentário | n=0 posts; humor IG skip 22-30% x explicador 64-70% (n=20, 30-31/10) | mantém
+2026-11-01 | rodada 16:15: remedio-gato agendado 04/11 A (gancho pergunta+número, FB/IG/TT) | n=1, sem métrica ainda | mantém
