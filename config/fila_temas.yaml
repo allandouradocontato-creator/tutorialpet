@@ -957,9 +957,10 @@ temas:
   data: '2026-10-31'
 - termo: como adotar um gato adulto e por que ele é mais fácil do que parece
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção. Gancho: Mitos sobre gato adulto, adaptação, perfil de gato
     por casa'
+  data: '2026-11-01'
 - termo: 'primeiros 30 dias do pet adotado: regra 3-3-3 e checklist'
   pilar: adocao
   status: pendente
@@ -1242,4 +1243,7 @@ temas:
   status: pendente
 - termo: cuidados diarios com a pelagem de caes idosos
   pilar: cuidados_diarios
+  status: pendente
+- termo: quais petiscos naturais posso incluir na alimentacao de gatos seniors
+  pilar: alimentacao
   status: pendente
