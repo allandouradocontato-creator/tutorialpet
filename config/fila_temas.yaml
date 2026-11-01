@@ -378,7 +378,8 @@ temas:
   status: pendente
 - termo: gato pode comer atum
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-01'
 - termo: como tirar pelo de cachorro do sofa e da roupa
   pilar: cuidados_diarios
   status: pendente
@@ -1256,4 +1257,7 @@ temas:
   status: pendente
 - termo: como apresentar um novo pet para caes e gatos ja idosos
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: guia para transporte seguro de pets em transporte publico
+  pilar: utilidade_publica
   status: pendente

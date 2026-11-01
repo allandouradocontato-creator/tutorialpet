@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Gato pode comer atum? Saiba como oferecer com segurança",
+  "gancho_3s": "O cheiro do atum atrai qualquer gato, mas será que ele pode comer?",
+  "cenas": [
+    {
+      "narracao": "O cheiro do atum atrai qualquer gato, mas será que ele pode comer?",
+      "visual_busca_banco_livre": "curious cat looking up meowing",
+      "texto_na_tela": "Gato pode comer atum?"
+    },
+    {
+      "narracao": "Sim, mas apenas como petisco raro, nunca como refeição principal.",
+      "visual_busca_banco_livre": "cat eating food from plate close up",
+      "texto_na_tela": "Apenas como agrado ocasional"
+    },
+    {
+      "narracao": "O atum puro não tem nutrientes essenciais e o excesso vicia, fazendo ele rejeitar a ração.",
+      "visual_busca_banco_livre": "cat looking at food bowl and looking away",
+      "texto_na_tela": "Não substitui a ração"
+    },
+    {
+      "narracao": "Jamais dê atum em óleo ou cru. Cozinhe o peixe apenas na água, sem sal, alho ou cebola.",
+      "visual_busca_banco_livre": "cat licking lips close up",
+      "texto_na_tela": "Sem sal, alho ou óleo"
+    },
+    {
+      "narracao": "Sirva no máximo uma colher de chá, a cada quinze dias, misturado na água para hidratar.",
+      "visual_busca_banco_livre": "cat drinking water from bowl",
+      "texto_na_tela": "Porção mínima a cada 15 dias"
+    },
+    {
+      "narracao": "Na dúvida sobre a dieta, consulte sempre o médico-veterinário de sua confiança!",
+      "visual_busca_banco_livre": "happy healthy cat resting indoor",
+      "texto_na_tela": "Consulte o médico-veterinário"
+    }
+  ],
+  "chamada_final": "Salve este vídeo para não esquecer como preparar o petisco do seu bichano!",
+  "hashtags": [
+    "gatopodecomeretum",
+    "alimentacaofelina",
+    "cuidadoscomgatos",
+    "saudefelina",
+    "dicaspet"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nO cheiro do atum atrai qualquer gato, mas será que ele pode comer?\n\n📖 Artigo completo: https://tutorialpet.com.br/gato-pode-comer-atum\n\n#gatopodecomeretum #alimentacaofelina #cuidadoscomgatos #saudefelina #dicaspet",
+  "slug": "gato-pode-comer-atum"
+}
