@@ -27,7 +27,7 @@ REPO = os.environ.get("GITHUB_REPOSITORY", "allandouradocontato-creator/tutorial
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
 SITE = "https://tutorialpet.com.br"
-SLOTS_Z = [9, 13, 17]          # 06:00, 10:00, 14:00 em Fortaleza (UTC-3)
+SLOTS_Z = [9]                  # 01/11/2026 (Allan): 1 pacote/dia, slot 06:00 Fortaleza (UTC-3)
 GRACA_MIN = 100                # tempo para o cron (atrasado) + a rodada de ~25 min terminar
 MAX_DISPAROS_FABRICA = 6
 MAX_DISPAROS_BLOG = 3
@@ -163,10 +163,10 @@ def main() -> int:
                 novos_hoje += 1
     except Exception as exc:  # noqa: BLE001
         print(f"[artigos] nao consegui contar: {exc}")
-    meta_dia = 3 if local.hour >= 19 else (2 if local.hour >= 15 else (1 if local.hour >= 11 else 0))
+    meta_dia = 1 if local.hour >= 11 else 0   # 01/11/2026 (Allan): ritmo de 1 artigo/dia
     print(f"[artigos] novos_hoje={novos_hoje} esperados_ate_agora={meta_dia}")
     if novos_hoje < meta_dia:
-        alertas.append(f"Blog: só {novos_hoje} artigo(s) novo(s) hoje; o esperado até agora era {meta_dia} (ritmo fixo de 3/dia). Conferir a fábrica e o publicar_blog.")
+        alertas.append(f"Blog: só {novos_hoje} artigo(s) novo(s) hoje; o esperado até agora era {meta_dia} (ritmo fixo de 1/dia). Conferir a fábrica e o publicar_blog.")
 
     # 5) LINKS QUEBRADOS: amostra rotativa de 12 URLs do sitemap por rodada (o site todo gira em ~8 rodadas) ------------
     quebrados: list[str] = []
