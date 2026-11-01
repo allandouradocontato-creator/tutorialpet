@@ -1,6 +1,6 @@
 {
   "slug": "cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-29T19:07:46+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina",
   "voz": {
@@ -27,5 +27,12 @@
     ],
     "em": "2026-10-29T19:10:49+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio_facebook": "6ae7203ab9672db8e8b404ae",
+    "zernio_instagram": "6ae7203db9672db8e8b404b6",
+    "buffer_tiktok": "6ae7203fab019b9087563523",
+    "dia": "2026-11-03",
+    "turno": "C"
+  }
 }
