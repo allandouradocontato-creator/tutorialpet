@@ -8,6 +8,7 @@ banho, escovar dente, cortar unha), a busca é pelo animal isolado num contexto 
 from __future__ import annotations
 
 QUERIES = {
+    "quais-petiscos-naturais-congelados-posso-dar-no-calor": ['dog licking frozen treat summer', 'dog eating ice cube treat outdoors', 'dog with frozen popsicle treat hot day', 'happy dog eating fruit treat'],
     "yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa": ['yorkshire terrier dog portrait at home', 'yorkshire terrier small dog sitting on sofa', 'yorkshire terrier long silky hair close up'],
     "quais-petiscos-naturais-posso-dar-para-o-gato": ['cat eating small piece of cooked chicken from bowl, no people', 'cat sniffing treat in bowl on kitchen floor, no people', 'cat eating natural treat from plate'],
     "por-que-o-gato-morde-do-nada-durante-o-carinho": ['cat playfully biting hand while being petted, no face', 'cat nibbling fingers during petting close up', 'cat on lap being stroked turning head, no person face'],
