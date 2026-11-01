@@ -43,6 +43,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quantas-vezes-por-dia-o-cachorro-precisa-passear.jsonld.json
+imagem_capa: imagens/quantas-vezes-por-dia-o-cachorro-precisa-passear.jpg
+imagem_fonte: pexels
+imagem_fotografo: gabesdotphotos photographer
+imagem_fotografo_url: https://www.pexels.com/@gabesphotos
+imagem_url_pagina: https://www.pexels.com/photo/a-dog-on-a-leash-11512077/
+imagem_selecionada_em: '2026-11-01T22:37:02+00:00'
 ---
 
 # Quantas vezes por dia o cachorro precisa passear?

@@ -45,6 +45,12 @@ sugestoes_links_internos:
   ancora_sugerida: como ensinar cachorro a fazer xixi no lugar certo
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/cachorro-chorando-quando-fico-sozinho-o-que-fazer.jsonld.json
+imagem_capa: imagens/cachorro-chorando-quando-fico-sozinho-o-que-fazer.jpg
+imagem_fonte: pexels
+imagem_fotografo: Jozef Fehér
+imagem_fotografo_url: https://www.pexels.com/@jozef-feher-356581
+imagem_url_pagina: https://www.pexels.com/photo/a-cute-dalmatian-dog-looking-14336463/
+imagem_selecionada_em: '2026-11-01T22:37:00+00:00'
 ---
 
 # Cachorro chorando quando fico sozinho: o que fazer

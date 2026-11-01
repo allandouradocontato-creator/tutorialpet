@@ -56,6 +56,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-saber-se-o-asfalto-esta-quente-para-passear.jsonld.json
+imagem_capa: imagens/como-saber-se-o-asfalto-esta-quente-para-passear.jpg
+imagem_fonte: pexels
+imagem_fotografo: Nothing Ahead
+imagem_fotografo_url: https://www.pexels.com/@ian-panelo
+imagem_url_pagina: https://www.pexels.com/photo/a-close-up-shot-of-a-dog-s-feet-8726499/
+imagem_selecionada_em: '2026-11-01T22:37:01+00:00'
 ---
 
 # Como saber se o asfalto esta quente para passear: guia prático
