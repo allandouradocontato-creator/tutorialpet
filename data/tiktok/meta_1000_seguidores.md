@@ -19,3 +19,4 @@ Regras de todos: gancho de dor ≤ 6 palavras no frame 0 (portao_gancho.py), cen
 - 01/11/2026 | 21 (último valor, 24/10) | 2,1% | meta criada | - | -
 
 - 01/11/2026 15:39 (Allan): TikTok FICA no Buffer (opção 1); Zernio sem TikTok, sem cartão. Leitura de seguidores pelo Buffer/TikTok Studio.
+- 01/11/2026 15:45 (Allan): react de HUMOR segue como está (pausado) até ele mandar a LISTA de virais dele; outra conversa testa vídeos de cachorros animados falando (open source) e/ou clipes baixáveis. Falta uma curadoria mais inteligente para escolher os mais virais: ao receber a lista, rodar scripts/curadoria_tiktok.py (régua v6) e devolver em cartão de texto, sem gastar voz/Duda.
