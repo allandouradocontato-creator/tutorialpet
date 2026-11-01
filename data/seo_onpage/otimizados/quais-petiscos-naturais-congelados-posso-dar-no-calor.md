@@ -47,6 +47,12 @@ sugestoes_links_internos:
   ancora_sugerida: alimentos proibidos para cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/quais-petiscos-naturais-congelados-posso-dar-no-calor.jsonld.json
+imagem_capa: imagens/quais-petiscos-naturais-congelados-posso-dar-no-calor.jpg
+imagem_fonte: pexels
+imagem_fotografo: Barnabas Davoti
+imagem_fotografo_url: https://www.pexels.com/@barnabas-davoti-31615494
+imagem_url_pagina: https://www.pexels.com/photo/golden-retriever-portrait-in-lush-summer-greenery-32742546/
+imagem_selecionada_em: '2026-11-01T22:43:32+00:00'
 ---
 
 # Quais petiscos naturais congelados posso dar no calor: guia prático

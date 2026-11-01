@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/quais-petiscos-naturais-congelados-posso-dar-no-calor"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/quais-petiscos-naturais-congelados-posso-dar-no-calor.jpg"
   },
   "faq": {
     "@context": "https://schema.org",
