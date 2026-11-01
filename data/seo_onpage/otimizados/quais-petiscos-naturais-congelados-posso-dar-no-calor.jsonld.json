@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quais petiscos naturais congelados posso dar no calor: guia prático",
+    "description": "Quais petiscos naturais congelados posso dar no calor: guia prático. Os dias de calor intenso exigem criatividade para manter o seu melhor amigo...",
+    "datePublished": "2026-10-26",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quais-petiscos-naturais-congelados-posso-dar-no-calor",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quais-petiscos-naturais-congelados-posso-dar-no-calor"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar cubo de gelo comum para o cachorro no calor?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, o gelo de água pura é seguro para a maioria dos cachorros, desde que oferecido em tamanhos adequados para evitar engasgos ou danos aos dentes.  * **Gatos podem comer petiscos congelados no verão?** Sim, gatos podem consumir sorvetes naturais feitos de sachê ou caldo de carne sem tempero, desde que adaptados ao paladar felino e servidos em porções pequenas.  * **Qual a quantidade máxima de petiscos congelados por dia?** Os petiscos, somados, não devem ultrapassar em média 10% das calorias diárias recomendadas para manter o peso saudável do seu animal.  * **Existe risco de diarreia ao dar frutas congeladas?** Sim, o excesso de fibras e a temperatura baixa podem soltar o intestino, por isso comece oferecendo apenas pedacinhos pequenos para teste."
+        }
+      }
+    ]
+  }
+}

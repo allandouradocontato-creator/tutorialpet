@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Sinpatinhas: como cadastrar seu cachorro ou gato de graça: guia prático",
-    "description": "Sinpatinhas: como cadastrar seu cachorro ou gato de graça: guia prático. Existe um laço invisível, mas indestrutível, que une o nosso coração ao do...",
+    "headline": "Sinpatinhas: como cadastrar seu cachorro ou gato de graça",
+    "description": "Sinpatinhas: como cadastrar seu cachorro ou gato de graça. Garantir que seu melhor amigo tenha uma identificação oficial é um dos passos mais...",
     "datePublished": "2026-10-31",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca"
-    },
-    "image": "https://tutorialpet.com.br/imagens/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O cadastro no Sinpatinhas é obrigatório para todos os pets?",
+        "name": "O cadastro no Sinpatinhas é realmente gratuito?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "O sistema é uma ferramenta pública de incentivo à identificação e cidadania animal, sendo disponibilizado de forma gratuita pelo governo estadual para fortalecer as políticas de proteção.  - **Precisa pagar alguma taxa para registrar o cachorro ou gato?** Não. O serviço oferecido pelo portal oficial é inteiramente gratuito para os tutores residentes no Estado de São Paulo.  - **Posso cadastrar animais sem raça definida (SRD)?** Sim, o sistema aceita perfeitamente o cadastro de cães e gatos sem raça definida, bastando selecionar a opção correspondente no formulário.  - **Onde devo procurar ajuda se tiver dúvidas técnicas no site?** As dúvidas sobre o funcionamento da plataforma devem ser direcionadas aos canais de suporte técnico informados no próprio portal oficial da Secretaria de Meio Ambiente, Infraestrutura e Logística."
+          "text": "Sim, o serviço municipal de cadastro de animais é público e totalmente gratuito, não exigindo pagamento de taxas para o registro básico.  * **Preciso levar o pet pessoalmente para fazer o registro?** Na maioria dos casos, o processo é digital e feito inteiramente online por meio de fotos e documentos enviados pelo site.  * **Gatos que não saem de casa precisam ser cadastrados?** Sim, mesmo felinos estritamente domiciliares podem escapar em situações inesperadas, como descuidos com janelas ou mudanças, tornando o registro essencial.  * **O que fazer se eu perder a senha de acesso ao sistema?** Basta utilizar a opção \"Esqueci minha senha\" na página de login do portal para receber um link de recuperação no seu e-mail cadastrado."
         }
       }
     ]

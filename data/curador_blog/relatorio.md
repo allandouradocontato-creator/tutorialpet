@@ -1,7 +1,9 @@
-# Relatório do Curador do Blog — 01/11/2026 18:29
+# Relatório do Curador do Blog — 01/11/2026 22:29
 
-121 artigos auditados, 3 com problema bloqueante.
+123 artigos auditados, 2 com problema bloqueante.
 
+- ok | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
+    - [aviso] título com 92 caracteres (ideal até 70)
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -176,7 +178,8 @@
 - ok | como-remover-subpelo-de-cachorro-na-epoca-de-muda
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-saber-se-o-asfalto-esta-quente-para-passear
-    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] parágrafo acima de 130 palavras
 - ok | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-socializar-filhote-de-gato
@@ -201,6 +204,8 @@
 - ok | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | gato-arranhando-o-sofa
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+- ok | gato-pode-comer-atum
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar
     - [aviso] título com 87 caracteres (ideal até 70)
@@ -246,7 +251,6 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 82 caracteres (ideal até 70)
 - ok | quais-petiscos-naturais-congelados-posso-dar-no-calor
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | quais-petiscos-naturais-posso-dar-para-o-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
@@ -256,11 +260,8 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | quantas-vezes-por-dia-alimentar-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- REPROVADO | quantas-vezes-por-dia-o-cachorro-precisa-passear
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] sem seção 'Perguntas frequentes'
-    - [bloqueante] sem seção 'Para fechar'
-    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+- ok | quantas-vezes-por-dia-o-cachorro-precisa-passear
+    - [aviso] curto (833 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | quanto-de-racao-dar-para-gato-adulto-por-dia
 - ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -271,8 +272,6 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
-    - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [aviso] título com 71 caracteres (ideal até 70)
 - ok | vacinas-para-filhote-de-cachorro
 - ok | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)

@@ -1,0 +1,57 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como saber se o asfalto esta quente para passear: guia prático",
+    "description": "Descubra como saber se o asfalto está quente para passear, aprenda o teste dos 7 segundos e proteja as patas do seu cachorro de queimaduras.",
+    "datePublished": "2026-10-16",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-saber-se-o-asfalto-esta-quente-para-passear",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-saber-se-o-asfalto-esta-quente-para-passear"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A partir de qual temperatura externa o asfalto já queima?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Com temperaturas ambientes a partir de 25 °C o asfalto exposto ao sol direto já pode acumular calor acima de 50 °C, patamar suficiente para causar queimaduras graves nas almofadinhas das patas em poucos minutos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Botinhas de borracha protegem o pet do chão quente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Embora isolem o contato térmico, a maioria das botinhas impede a evaporação do suor das patas e pode causar superaquecimento corporal. O mais seguro é simplesmente mudar o horário e o local do passeio para pisos frios."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que passar na pata do cachorro se o chão estava quente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lave a região imediatamente com água corrente em temperatura ambiente para resfriar a pele. Não aplique pomadas humanas, manteiga ou gelo, e leve o pet ao médico-veterinário para tratar possíveis queimaduras."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Passear na calçada clara é mais seguro do que no asfalto escuro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A calçada clara retém ligeiramente menos calor que o asfalto preto, mas ainda esquenta o bastante para machucar. O teste dos 7 segundos com as costas da mão deve ser feito em qualquer superfície antes da caminhada.  ---"
+        }
+      }
+    ]
+  }
+}

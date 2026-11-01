@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quantas vezes por dia o cachorro precisa passear?",
+    "description": "Descubra quantas vezes por dia o cachorro precisa passear de verdade. Guia completo com dicas de rotina, idade e saúde para seu pet.",
+    "datePublished": "2026-10-22",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quantas-vezes-por-dia-o-cachorro-precisa-passear",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quantas-vezes-por-dia-o-cachorro-precisa-passear"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Filhotes podem passear quantas vezes por dia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Filhotes que ainda não completaram o ciclo de vacinação não devem ir à rua, mas podem dar passos curtos em locais seguros se o veterinário liberar. Após a imunização completa, quatro saídas curtas ajudam na socialização e no aprendizado.  * **Quanto tempo deve durar cada passeio?**   Em média, cada passeio deve durar entre **20 a 40 minutos**, dependendo da disposição física, da raça e da idade do cachorro.  * **Cachorros que têm quintal grande precisam passear na rua?**   Sim, pois o quintal oferece sempre o mesmo ambiente e os mesmos cheiros. O passeio na rua traz novidades olfativas essenciais para o cérebro e o enriquecimento ambiental do cachorro.  * **O que fazer se o cachorro puxar muito a guia durante o passeio?**   Treine o cachorro com petiscos e pausas sempre que a guia esticar, ensinando que o passeio só continua quando a coleira estiver frouxa.  ---"
+        }
+      }
+    ]
+  }
+}
