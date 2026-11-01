@@ -193,3 +193,4 @@ Quem roda: o Executor de Decisões (nuvem, diário 06:53 Fortaleza). Dono "Allan
 
 ## Atualização dom 01/11 09:20 (Diretor de Audiência)
 Zernio follower-stats 30/10–01/11: FB 10 (parado), IG 2 (+1 hoje, 90 posts), TikTok 21 (último valor). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca fora do ar = NEUTRO (n<3). Ficha da semana mantida (e-book Pode ou Não Pode); gargalo = E163/E164 sem entrega (E171) e E28/E29 (PC/Chrome + ok do Allan).
+| V27 | 01/11 | Vigia 15:19: reforco_blog sem push (pull --rebase com unstaged) corrigido em fff191c; petiscos-congelados parado em config/capas_pendentes.txt (capa) e remedio-gato-que-cospe 404 | Executor 02/11: conferir reforço verde, auditoria sem FALHA de Fontes e as 2 páginas 200; se petiscos seguir sem capa, trocar por pacote com capa | nuvem | 1 dia | aberto | origem: Vigia |
