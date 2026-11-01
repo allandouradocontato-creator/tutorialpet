@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como Dar Remédio Para Gato Sem Ele Cuspir",
+  "gancho_3s": "Seu gato cospe o remédio? Segundos bastam pra cuspir.",
+  "cenas": [
+    {
+      "narracao": "Seu gato cospe o remédio? Segundos bastam pra cuspir.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Seu gato sempre cospe o remédio?"
+    },
+    {
+      "narracao": "[thoughtful] Seu gato sempre joga o remédio longe na hora da medicação?",
+      "visual_busca_banco_livre": "cat making funny face close up",
+      "texto_na_tela": "Gato cuspindo remédio?"
+    },
+    {
+      "narracao": "Eles odeiam o gosto amargo e usam a língua pra empurrar a pílula bem rápido.",
+      "visual_busca_banco_livre": "cat licking lips showing tongue close up",
+      "texto_na_tela": "Sensibilidade ao sabor amargo"
+    },
+    {
+      "narracao": "[softly] Pra ajudar, envolva o corpinho dele com calma numa toalha, feito um pacotinho.",
+      "visual_busca_banco_livre": "cute cat wrapped in towel alone",
+      "texto_na_tela": "Técnica do gato burrito"
+    },
+    {
+      "narracao": "[short pause] Coloque o comprimido no fundo da língua, feche a boquinha e massageie a garganta.",
+      "visual_busca_banco_livre": "cat tilting head looking up indoor",
+      "texto_na_tela": "Base da língua e massagem suave"
+    },
+    {
+      "narracao": "[smiling] Quando ele lamber o focinho, é o sinal certo de que engoliu direitinho.",
+      "visual_busca_banco_livre": "cat licking nose close up",
+      "texto_na_tela": "Lambeu o focinho: engoliu!"
+    },
+    {
+      "narracao": "Outra opção é misturar num sachê saboroso ou numa pasta própria indicada pelo veterinário.",
+      "visual_busca_banco_livre": "domestic cat eating wet food from bowl",
+      "texto_na_tela": "Disfarce com sachê"
+    }
+  ],
+  "chamada_final": "[warmly] Me conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#cuidadoscomgatos",
+    "#saudefelina",
+    "#felinos",
+    "#medicarpet"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato cospe o remédio toda vez?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-dar-remedio-para-gato-que-cospe\n\n#gatos #cuidadoscomgatos #saudefelina #felinos #medicarpet",
+  "slug": "como-dar-remedio-para-gato-que-cospe",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 7
+}
