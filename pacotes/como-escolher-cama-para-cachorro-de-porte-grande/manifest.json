@@ -1,6 +1,6 @@
 {
   "slug": "como-escolher-cama-para-cachorro-de-porte-grande",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-10-31T20:34:00+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-cama-para-cachorro-de-porte-grande",
   "voz": {
@@ -27,5 +27,12 @@
     ],
     "em": "2026-10-31T20:35:32+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "zernio_facebook": "6ae7200e509d89e565b99b71",
+    "zernio_instagram": "6ae720108ffc11d6b48961a9",
+    "buffer_tiktok": "6ae72018f0984eef335fd8a3",
+    "dia": "2026-11-03",
+    "turno": "A"
+  }
 }

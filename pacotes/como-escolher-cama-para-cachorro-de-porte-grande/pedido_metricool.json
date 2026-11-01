@@ -1,0 +1,42 @@
+{
+  "brand_id": 7123441,
+  "timezone": "America/Fortaleza",
+  "turno": "A",
+  "posts": [
+    {
+      "rede": "facebook",
+      "agendar_para": "2026-11-03T10:00:00",
+      "legenda": "A caminha do seu cão grande virou uma folha no chão?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#caesgrandes #confortocanino #camaparacachorro",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-cama-para-cachorro-de-porte-grande",
+      "facebookData": {
+        "type": "REEL",
+        "title": "Como escolher a cama certa para cão de porte grande"
+      }
+    },
+    {
+      "rede": "instagram",
+      "agendar_para": "2026-11-03T11:00:00",
+      "legenda": "A caminha do seu cão grande virou uma folha no chão?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#caesgrandes #confortocanino #camaparacachorro",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-cama-para-cachorro-de-porte-grande",
+      "instagramData": {
+        "type": "REEL",
+        "showReelOnFeed": true,
+        "isAiGenerated": true
+      }
+    },
+    {
+      "rede": "tiktok",
+      "agendar_para": "2026-11-03T10:20:00",
+      "legenda": "Seu cachorro de porte grande destruiu a cama? Confira o artigo completo em tutorialpet.com.br. #caesgrandes #confortocanino #camaparacachorro #tutorialpet",
+      "primeiro_comentario": "",
+      "tiktokData": {
+        "privacyOption": "PUBLIC_TO_EVERYONE",
+        "title": "Como escolher a cama certa para cão de porte grande",
+        "isAigc": true
+      }
+    }
+  ],
+  "video_url_publica": "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/como-escolher-cama-para-cachorro-de-porte-grande/video.mp4",
+  "slug": "como-escolher-cama-para-cachorro-de-porte-grande",
+  "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário"
+}
