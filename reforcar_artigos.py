@@ -52,6 +52,10 @@ def precisa(path: Path) -> bool:
         return False
     if not fm.get("revisao_profunda"):
         return True
+    # 01/11/2026 (Vigia V2.1): artigo ja revisado mas sem secao "Fontes e referencias" com >=2 links externos (exigencia do AdSense) tambem entra
+    m = re.search(r"##\s*Fontes e refer.ncias(.*)", body, re.S | re.I)
+    if not m or len(re.findall(r"https?://", m.group(1))) < 2:
+        return True
     return any(n == "bloqueante" for n, _ in curador.auditar(path.stem, fm, body, curador.todos_slugs()))
 
 
