@@ -98,3 +98,4 @@ Atualizada em 21/10/2026. Cada regra nasceu de um erro real (detalhe em data/mem
 - Toda VSL/anúncio: o PROBLEMA do nicho (cachorro sozinho em casa destrói/late/chora) aparece em voz e legenda nos primeiros 2 s; gancho/acusação vem depois, nunca antes de dizer do que se trata (01/11/2026).
 - (01/11/2026, Allan) Vídeo de TESTE: mandar sempre a versão LEVE (540p, ~1 MB) para ele ver; a versão cheia só na publicação.
 - Antes de enviar QUALQUER prévia: extrair quadros do INÍCIO, MEIO e FIM e conferir Duda, produto (antes de 8 s), texto da voz e queda de áudio; todo caminho de arquivo é checado com ls antes do render; prévia de teste sempre na versão leve (540p, ≤5 MB) (01/11/2026).
+- (01/11/2026, Allan) VIGIA: achou problema = aciona o agente/workflow que resolve na mesma rodada e mostra solução + evidência; nunca só anotar. Tabela em config/prompts/vigia_rotinas.md (V2.1).
