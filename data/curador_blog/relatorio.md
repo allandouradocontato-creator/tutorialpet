@@ -1,4 +1,4 @@
-# Relatório do Curador do Blog — 01/11/2026 22:29
+# Relatório do Curador do Blog — 01/11/2026 22:41
 
 123 artigos auditados, 2 com problema bloqueante.
 
@@ -53,7 +53,6 @@
 - ok | como-adotar-um-cachorro-passo-a-passo
     - [aviso] curto (882 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | como-adotar-um-gato-adulto-e-por-que-ele-e-mais-facil-do-que-parece
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 81 caracteres (ideal até 70)
 - ok | como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -93,7 +92,6 @@
 - ok | como-escolher-caixa-de-transporte-para-viagem-de-aviao
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-cama-para-cachorro-de-porte-grande
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-escolher-carrinho-de-passeio-para-cachorro-idoso
 - ok | como-escolher-cinto-de-seguranca-pet-para-carro
 - ok | como-escolher-coleira-com-rastreador-gps-para-cachorro
@@ -176,7 +174,6 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-remover-subpelo-de-cachorro-na-epoca-de-muda
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-saber-se-o-asfalto-esta-quente-para-passear
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras

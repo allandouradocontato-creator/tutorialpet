@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Como remover subpelo de cachorro na epoca de muda: guia prático",
-    "description": "Como remover subpelo de cachorro na epoca de muda: guia prático. Durante as estações de transição, especialmente na primavera e no outono, cachorros...",
+    "headline": "Como remover subpelo de cachorro na época de muda: guia prático",
+    "description": "Aprenda como remover subpelo de cachorro na época de muda com ferramentas certas, passos simples e dicas para manter a casa limpa e o pet livre de nós.",
     "datePublished": "2026-10-30",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-remover-subpelo-de-cachorro-na-epoca-de-muda"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-remover-subpelo-de-cachorro-na-epoca-de-muda.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Quanto tempo costuma durar a época de muda em cachorros?",
+        "name": "Todo cachorro tem subpelo?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, a troca de pelagem sazonal dura de 3 a 8 semanas, dependendo do clima da região, da quantidade de luz solar diária e do tipo de pelagem do pet."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Pode usar a lâmina de desfilamento (Furminator) todos os dias?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não. O uso deve ser restrito a uma ou duas vezes por semana durante a muda, aplicando movimentos suaves e sem pressionar a lâmina de aço contra a derme para evitar escoriações."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como saber se a queda de pelo é natural ou um problema de saúde?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A muda natural ocorre de modo uniforme pelo corpo, sem deixar áreas de pele totalmente peladas (falhas circulares), cascas, vermelhidão ou coceira intensa. Caso note esses sinais, procure um médico-veterinário."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Por que o subpelo parece ter uma cor diferente do resto do corpo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "O subpelo costuma ser significativamente mais claro, fino e opaco do que os fios de guarda exteriores, conferindo uma tonalidade cinzenta, creme ou esbranquiçada quando se solta da raiz.  ---"
+          "text": "Não, raças como Poodles e Maltês possuem apenas pelo de crescimento contínuo e não passam por essa troca intensa de subpelo.  * **Com que frequência devo escovar o cachorro na época de muda?** O ideal é realizar a escovação diariamente por alguns minutos para evitar que o subpelo morto forme nós na raiz.  * **Posso tosquiar o cachorro para resolver o problema da muda?** A tosa não é recomendada para a maioria das raças com subpelo, pois a camada dupla protege contra o calor e o sol, e a pelagem pode crescer danificada.  * **Quando devo procurar um médico-veterinário por causa da queda de pelo?** Procure ajuda se houver perda de pelos em formato de placas, pele vermelha, descamação ou coceira constante."
         }
       }
     ]
