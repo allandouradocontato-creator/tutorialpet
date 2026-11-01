@@ -27,3 +27,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-10-30 | vídeo ≤10 s com T0 ≤6 palavras nas ideias Tradutor e duelo | n=0; TikTok 21 seguidores | mantém
 2026-10-31 | corte ≤10 s, T0 curto, música só da Biblioteca Comercial, sem #fyp | n=0 posts medidos (S1 e S3 propostos para 20:20); TikTok tempo médio 2,88 s (n=20) | mantém
 2026-10-31 | TikTok parado em 21 seguidores; 4 comentários em 20 posts | n=20 posts, seguidores +0 | mantém R1 (E160)
+2026-11-01 | agendar 2 pacotes ok em 03/11 (A e B) com URL fixada por SHA | n=2 pacotes, 6 posts criados | mantém
