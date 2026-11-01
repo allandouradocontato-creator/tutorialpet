@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como hidratar a racao seca de gato idoso: guia prático",
+    "description": "Aprenda como hidratar a ração seca de gato idoso com um passo a passo prático para melhorar a hidratação e a digestão do seu felino.",
+    "datePublished": "2026-10-28",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-hidratar-a-racao-seca-de-gato-idoso",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-hidratar-a-racao-seca-de-gato-idoso"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-hidratar-a-racao-seca-de-gato-idoso.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso deixar a ração hidratada o dia todo na tigela?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendado. A ração umedecida é mais perecível, e o mais seguro é retirar a sobra em pouco tempo, em geral em torno de 30 minutos, descartando o que não foi consumido.  * **Qualquer tipo de ração seca pode ser hidratada?**   Em geral sim, mas algumas rações absorvem a água mais rápido do que outras, e rações terapêuticas devem seguir a orientação do veterinário. Se o seu gato usa uma dieta específica, pergunte antes de alterar o preparo.  * **Posso usar leite para umedecer a ração do meu gato?**   Não é indicado. Segundo a ASPCA, animais de estimação têm pouca lactase, a enzima que digere a lactose, e leite e derivados podem causar diarreia e desconforto digestivo. Prefira água.  * **Hidratar a ração substitui a necessidade de o gato beber água?**   Não. Ajuda na ingestão de líquidos, mas o felino deve ter acesso constante a água fresca e limpa em vários pontos da casa.  * **A ração hidratada trata ou previne doença renal?**   Não. Ela pode ajudar a aumentar a ingestão de água, mas não trata doença renal nem substitui exames e a dieta indicada pelo veterinário."
+        }
+      }
+    ]
+  }
+}

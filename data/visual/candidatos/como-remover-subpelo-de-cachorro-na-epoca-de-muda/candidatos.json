@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35541050,
+    "url_download": "https://images.pexels.com/photos/35541050/pexels-photo-35541050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/family-enjoying-a-day-at-the-beach-35541050/",
+    "fotografo": "Anderson Portella",
+    "fotografo_url": "https://www.pexels.com/@andersonportella",
+    "largura": 3532,
+    "altura": 2383,
+    "query": "cachorro sozinho em ambiente natural",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-remover-subpelo-de-cachorro-na-epoca-de-muda/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2829945,
+    "url_download": "https://images.pexels.com/photos/2829945/pexels-photo-2829945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-standing-on-hill-2829945/",
+    "fotografo": "Lucas Pezeta",
+    "fotografo_url": "https://www.pexels.com/@lucaspezeta",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cachorro sozinho em ambiente natural",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-remover-subpelo-de-cachorro-na-epoca-de-muda/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2423383,
+    "url_download": "https://images.pexels.com/photos/2423383/pexels-photo-2423383.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-grass-field-2423383/",
+    "fotografo": "Lucas Pezeta",
+    "fotografo_url": "https://www.pexels.com/@lucaspezeta",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cachorro sozinho em ambiente natural",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-remover-subpelo-de-cachorro-na-epoca-de-muda/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3772361,
+    "url_download": "https://images.pexels.com/photos/3772361/pexels-photo-3772361.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/single-dog-on-meadow-in-green-highlands-3772361/",
+    "fotografo": "Lucas Pezeta",
+    "fotografo_url": "https://www.pexels.com/@lucaspezeta",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cachorro sozinho em ambiente natural",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-remover-subpelo-de-cachorro-na-epoca-de-muda/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2829944,
+    "url_download": "https://images.pexels.com/photos/2829944/pexels-photo-2829944.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-and-white-dog-2829944/",
+    "fotografo": "Lucas Pezeta",
+    "fotografo_url": "https://www.pexels.com/@lucaspezeta",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cachorro sozinho em ambiente natural",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-remover-subpelo-de-cachorro-na-epoca-de-muda/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32561056,
+    "url_download": "https://images.pexels.com/photos/32561056/pexels-photo-32561056.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-jack-russell-terrier-puppy-portrait-32561056/",
+    "fotografo": "Nenad Delibos",
+    "fotografo_url": "https://www.pexels.com/@deliboss",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "cachorro isolado em fundo branco",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-remover-subpelo-de-cachorro-na-epoca-de-muda/5.jpg"
+  }
+]
