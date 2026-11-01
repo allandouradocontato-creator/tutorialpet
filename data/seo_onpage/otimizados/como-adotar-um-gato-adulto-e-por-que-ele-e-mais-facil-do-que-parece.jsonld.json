@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como adotar um gato adulto e por que ele é mais fácil do que parece: guia prático",
+    "description": "Como adotar um gato adulto e por que ele é mais fácil do que parece: guia prático. Adotar um gato adulto elimina as surpresas imprevisíveis dos...",
+    "datePublished": "2026-11-01",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-adotar-um-gato-adulto-e-por-que-ele-e-mais-facil-do-que-parece",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-adotar-um-gato-adulto-e-por-que-ele-e-mais-facil-do-que-parece"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-adotar-um-gato-adulto-e-por-que-ele-e-mais-facil-do-que-parece.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Gatos adultos estranham a mudança de casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, nos primeiros dias é normal demonstrarem timidez ou se esconderem, mas com paciência e um ambiente tranquilo, a adaptação costuma acontecer em média entre uma e duas semanas, confirme com o médico-veterinário do pet caso ele persista muito assustado.  * **Como saber se o gato adulto já é castrado?** ONGs e abrigos entregam o animal com essa informação no termo de adoção. Caso seja um resgate independente, o médico-veterinário consegue avaliar isso no primeiro exame clínico.  * **Gatos adultos dão mais trabalho que filhotes?** Não. Eles exigem menos supervisão direta com travessuras destrutivas e já possuem hábitos de higiene consolidados, tornando a rotina doméstica muito mais previsível.  * **Posso adotar um gato adulto se moro em apartamento pequeno?** Com certeza. Gatos se adaptam perfeitamente a espaços compactos, desde que o ambiente conte com enriquecimento ambiental adequado, prateleiras e janelas protegidas com telas de segurança."
+        }
+      }
+    ]
+  }
+}

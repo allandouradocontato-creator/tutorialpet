@@ -14,7 +14,8 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-dar-remedio-para-gato-que-cospe"
-    }
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-dar-remedio-para-gato-que-cospe.jpg"
   },
   "faq": {
     "@context": "https://schema.org",

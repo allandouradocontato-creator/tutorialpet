@@ -15,7 +15,7 @@ autor: ''
 atualizado_em: '2026-11-01'
 revisao_profunda: true
 revisado_por_agente_04: true
-revisado_em: '2026-11-01T18:29:01+00:00'
+revisado_em: '2026-11-01T20:02:36+00:00'
 checagens_qualidade:
 - checagem: legibilidade
   severidade: aviso
@@ -33,7 +33,7 @@ checagens_qualidade:
 titulo_seo: 'Como dar remedio para gato que cospe: guia prático'
 keyword_density: 0.0
 otimizado_por_agente_05: true
-otimizado_em: '2026-11-01T18:29:01+00:00'
+otimizado_em: '2026-11-01T20:02:36+00:00'
 checagens_seo:
 - nenhum H2 contém uma palavra-chave central do termo de origem — considerar ajuste
   manual.
@@ -51,6 +51,12 @@ sugestoes_links_internos:
   ancora_sugerida: como cortar unha de cachorro
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-dar-remedio-para-gato-que-cospe.jsonld.json
+imagem_capa: imagens/como-dar-remedio-para-gato-que-cospe.jpg
+imagem_fonte: pexels
+imagem_fotografo: Pitipat Usanakornkul
+imagem_fotografo_url: https://www.pexels.com/@pitipat-usanakornkul-542797332
+imagem_url_pagina: https://www.pexels.com/photo/close-up-cute-cat-having-big-yawn-showing-sharp-teeth-and-tongue-with-mouth-open-wide-16597606/
+imagem_selecionada_em: '2026-11-01T20:02:36+00:00'
 ---
 
 # Como dar remedio para gato que cospe: guia prático

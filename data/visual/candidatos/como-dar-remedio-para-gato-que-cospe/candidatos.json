@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 8089102,
+    "url_download": "https://images.pexels.com/photos/8089102/pexels-photo-8089102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/person-holding-red-capsule-8089102/",
+    "fotografo": "Yaroslav Shuraev",
+    "fotografo_url": "https://www.pexels.com/@yaroslav-shuraev",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "cat taking pill close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7659692,
+    "url_download": "https://images.pexels.com/photos/7659692/pexels-photo-7659692.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/overhead-shot-of-a-person-opening-a-blister-pack-7659692/",
+    "fotografo": "Thirdman",
+    "fotografo_url": "https://www.pexels.com/@thirdman",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "cat taking pill close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7551642,
+    "url_download": "https://images.pexels.com/photos/7551642/pexels-photo-7551642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-person-holding-medicine-pills-7551642/",
+    "fotografo": "Kampus Production",
+    "fotografo_url": "https://www.pexels.com/@kampus",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cat taking pill close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7588303,
+    "url_download": "https://images.pexels.com/photos/7588303/pexels-photo-7588303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-person-taking-medicine-tablets-from-a-bottle-7588303/",
+    "fotografo": "https://kaboompics.com/",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "cat taking pill close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16597606,
+    "url_download": "https://images.pexels.com/photos/16597606/pexels-photo-16597606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-cute-cat-having-big-yawn-showing-sharp-teeth-and-tongue-with-mouth-open-wide-16597606/",
+    "fotografo": "Pitipat Usanakornkul",
+    "fotografo_url": "https://www.pexels.com/@pitipat-usanakornkul-542797332",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "angry cat medicine isolate background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10404485,
+    "url_download": "https://images.pexels.com/photos/10404485/pexels-photo-10404485.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-cat-10404485/",
+    "fotografo": "Ralph",
+    "fotografo_url": "https://www.pexels.com/@ralph-407274",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "angry cat medicine isolate background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/5.jpg"
+  }
+]
