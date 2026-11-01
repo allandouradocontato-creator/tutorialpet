@@ -159,3 +159,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 
 - 31/10/2026: erro: "meta de hoje" no texto do app/vídeo; Allan pediu "meta do dia". Corrigido em app, falas, voz (fala 4 regerada) e telas; regra 53.
 - 31/10/2026 (Vigia): apresentei problema (artigo aprovado em 404) sem solução e deixei 'aguardando'; o Allan cobrou e disse que a regra já tinha sido pedida e não estava escrita | a regra nunca foi gravada em 01/regras_de_ouro | gravada agora como regra de ouro 54 e em 01 Regras do Allan.
+- 01/11/2026 (Fable): roteiro VSL B v1 escrito como "≈42–45 s" deu 74,6 s na voz real (189 palavras ÷ 2,53/s). Regra: antes de aprovar roteiro de vídeo, contar palavras e dividir por 2,5 palavras/s; teto 50 s = no máximo ~125 palavras com abertura. Corrigido na v2 (data/vsl/roteiro_vsl_B_v2_aprovado_50s.md).
