@@ -174,3 +174,6 @@ Entregue `data/remix/curadoria_lote5_tabela.md`: humor 30/30 passando (a01–a30
 ## Decisões — rodada do Executor 31/10 (10:00 Fortaleza)
 Contagem: decididas abertas ~85 (livro acumulado) / feitas hoje 2 (E155 sem dado PC ausente; E156 texto sem "raça" pronto) / atrasadas 14 nominais (D02, D08, E09, E11, E13, E14, E15, E23, E25, E26, E31, E45, V06, D10) / só Allan 0 novos. Painel de Decisões (rev 16) sem decisão nova.
 Blog: slow-feed, castração e maus-tratos no ar (Publicar Blog #77 success, run 41106404820); hidratar-a-ração-seca-de-gato-idoso segue sem página (#78 falhou, issue #41; já fora de blog_aprovados). Repor tema livre = promover ao ar, fica com o Publicador (candidatos: cachorro-pode-comer-banana, subpelo na muda, petiscos congelados no calor). V24: causa de autor "Equipe" não está no código. Estoque de posts E153 e tags E150/E151 não verificados nesta rodada (sem rota para Buffer/Zernio no escopo).
+
+## Decisões — Executor 01/11/2026 (06:53 Fortaleza)
+Painel de Decisões rev 16 sem decisão nova do Allan. E166 feita (runs success: Publicar Blog 41231339529/41247855426/41247856690, Fábrica #214, Saúde #99). Decididas e ainda não executadas: E160-E164 (nuvem), E165 (bloqueada: PC/Chrome). Atrasadas: 14 nominais (iguais a 31/10). Só Allan: 2FA, verificação TikTok, ok para religar rotinas pausadas (D02).
