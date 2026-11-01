@@ -49,3 +49,6 @@ Pedido do Allan: menos produzido, mais gente comum. Prompt = texto do look + blo
 - Duda só no gancho (P1) e no fechamento (C2) em tela dividida; miolo = original em tela cheia + voz da Duda (Marianne) + legenda em blocos. Builder: reacts_final/mont_v3.py (YS_TOP=410).
 - Antes de posicionar as falas N, ouvir/ler o P2 já gravado para não repetir a mesma ideia.
 
+
+## Risada da Duda (decisão do Allan, 01/11/2026)
+Tom aprovado: risada LEVE e CURTA, só o primeiro segundo; a parte em que a risada cresce está reprovada. Receita: voz oficial (Marianne, eleven_v4, estabilidade 0,26, sem mexer nos botões) + tags curtas no texto: "[chuckles] Hahaha!", "[laughs] Ha ha ha!", "[giggles] Hehehe... [laughs] ha!"; cortar em 1,0 s com fade de 0,15 s (ffmpeg -t 1.0 -af afade=t=out:st=0.85:d=0.15). Arquivos prontos: animaticos/lote7/risada_1s_a|b|c.mp3. Risada longa, gargalhada e efeito sonoro genérico (SFX) não servem. 2 a 3 risadas de 1 s por vídeo, nos pontos de ação do clipe; nunca por cima da fala.
