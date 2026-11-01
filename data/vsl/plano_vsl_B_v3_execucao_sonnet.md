@@ -22,3 +22,12 @@ Regra absoluta: ZERO crédito (nada de HeyGen, ElevenLabs, gerador de imagem ou 
 1. Renderizar só a A, mandar ao Allan 1 grade de 12 quadros + o vídeo, esperar "pode".
 2. Com o "pode", renderizar B e C, conferir duração/LUFS/pico/quadros, salvar no PC (arquivo ≤30 MB por causa do limite de transferência: crf 23, maxrate 4200k).
 3. Entregar com custo em % (aqui: 0%) e esperar "pode" para criar os anúncios (Fase 6).
+
+## Adendo v3.1 — decisões do Allan em 01/11/2026, 16:29 (depois da prévia A da v3)
+Aprovado "pode" para os 3 ajustes (clipe do petisco → cachorro_09/moça27; legenda "Sem grito" em y≈1430; miniaturas dos bônus maiores com nome). Mais 2 mudanças de FALA (voz nova só no ElevenLabs, voz Marianne, mesmas configurações; nunca acelerar):
+A) Abertura: inverter a ordem, acusação direta primeiro. Nova fala da cabeça A: [excited] "Você é preguiçosa." Todo mundo diz. Mas a verdade… — legenda A: "Você é preguiçosa." (B "devolve" e C "piorando" ficam como estão). Como a boca da Duda muda, há 2 caminhos; Sonnet pergunta com custo em % e espera "pode" ANTES de gastar HeyGen:
+   1. (recomendado) ElevenLabs (~0,1% do saldo mensal) + HeyGen lip-sync 3 s ≈ 3 créditos ≈ 8% do saldo de 40.
+   2. Zero HeyGen: abertura A sem a Duda (cena do travesseiro + cachorro_22) com a voz nova; Duda só no fechamento.
+B) Oferta na voz (s31): trocar "Vinte e sete reais, pagamento único, acesso vitalício." por "De noventa e sete por apenas vinte e sete, por tempo limitado. Aproveita: pagamento único, acesso vitalício." Regerar o corpo inteiro no ElevenLabs (1 áudio, <1% do saldo mensal), medir a duração nova, recortar as cenas pela nova marcação de silêncios (vídeo vai a ≈57 s; avisar o Allan da duração medida). Sem HeyGen (não há Duda no meio).
+C) Landing: adicionar junto do preço "Oferta de lançamento por tempo limitado" (opção a, recomendada e aprovada por padrão), publicar e conferir no ar.
+Ordem: landing → ElevenLabs (corpo + cabeça A) → perguntar "pode" do HeyGen (ou caminho 2) → re-cortar → prévia A → "pode" → B e C → salvar → "pode" dos anúncios.
