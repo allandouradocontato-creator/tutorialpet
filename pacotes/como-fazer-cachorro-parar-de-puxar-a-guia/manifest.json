@@ -1,6 +1,6 @@
 {
   "slug": "como-fazer-cachorro-parar-de-puxar-a-guia",
-  "status": "aguardando_revisao",
+  "status": "aprovado",
   "criado_em": "2026-10-31T10:48:00+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-fazer-cachorro-parar-de-puxar-a-guia",
   "voz": {
@@ -27,5 +27,6 @@
       "coerência espécie cachorro: 6/6 quadros conferem"
     ],
     "em": "2026-10-31T10:49:33+00:00"
-  }
+  },
+  "aprovado_por": "Conferente: gancho repetido apenas (2026-11-01)"
 }
