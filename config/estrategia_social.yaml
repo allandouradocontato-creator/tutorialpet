@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 22
-atualizado_em: "2026-10-31 07:07 Fortaleza"
+versao: 23
+atualizado_em: "2026-11-01 07:10 Fortaleza"
+versao_anterior_atualizado_em_22: "2026-10-31 07:07"
 versao_anterior_atualizado_em_21: "2026-10-30 07:40"
 versao_anterior_atualizado_em_20: "2026-10-29 07:35"
 versao_anterior_atualizado_em_19: "2026-10-28 07:20"
@@ -18,11 +19,12 @@ status_publicacao:
   buffer_metricas_por_post: "list_posts includeMetrics=true entrega views/curtidas/tempo medio por post do TikTok"
 horarios:
   regra: "Slots fixos todos os dias; nunca duas redes no mesmo horario. CONGELADOS (nao testar horario agora)."
-  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00", meme: "12:00"}
+  facebook: {manha: "10:00", tarde: "14:00", noite: "19:00", curto: ["08:30", "21:00"]}   # 12:00 FECHADO em 01/11 (mediana 9 views, n9; E168)
   tiktok: {manha: "10:20", tarde: "14:20", noite: "20:20", meme_curto: "17:10"}
-  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00", meme: "13:00"}
+  instagram: {manha: "11:00", tarde: "15:00", noite: "20:00", curto: ["21:10"]}   # 13:00 meme suspenso
   grade_2_melhores: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"]}
   dias: [seg, ter, qua, qui, sex, sab, dom]
+  base_01_11: "Posts >=24h, 13/10+: FB 08h 342 (n6), 10h 213 (n15), 14h 225 (n15), 19h 209 (n18), 21h 292 (n6), 12h 9 (n9); IG 11h 32 (n15), 20h 52 (n18), 21h 122 (n7, curtos); TikTok 10:21 197 (n10), 14:21 201 (n13), 20:21 185 (n18). Formato pesa mais que hora. Metricool Instagram 2026 (24 mi posts, 01/07/2026): pico 20h; alcance qua 11-13h; interacao sab 9-13h."
   base: "Nossos dados (n pequeno, parciais): FB 10h ~210, 19h ~240; IG 11h 55-67, 20h 39-101. Zernio best_time inconclusivo. Benchmark Metricool PT jul/2026: FB 10-14h; IG/TikTok pico 18-21h."
 hashtags:
   quantidade: {instagram: "3-5 (limite 5, nunca 6: Tecnoblog 18/12/2025)", tiktok: "3-5", facebook: "0-3 (cortar de 5 para 3)"}   # Metricool, 29/06/2026, metricool.com/how-many-hashtags-to-use
@@ -33,6 +35,8 @@ hashtags:
   ansiedade_separacao: ["#ansiedadedeseparacao", "#comportamentocanino", "#cachorrosozinho", "#cachorro", "#tutorialpet"]
   saude_alimentacao: ["#saudepet", "#alimentacaopet", "#cuidadospet", "#pets", "#tutorialpet"]
   humor: ["#humorpet", "#gatos", "#cachorros", "#tutorialpet"]
+  humor_extra_01_11: ["#animaisfofos", "#animaisengraçados"]   # Nuvemshop 26/07/2026, so IG/TikTok e so no humor; sem prova de efeito em pet BR
+  achados_pet_01_11: "Mundo do Marketing 24/04/2024 (500 posts pet, Buzzmonitor): post de produto/utilidade de compra lidera engajamento (28,7%). Nao usar a palavra cao."
   nota: "Pet BR: sem fonte aberta do que funciona; hashtag do animal tem de bater com o tema do artigo. FB usa as 3 primeiras do conjunto."
 cta_artigo: "Confira o artigo completo em tutorialpet.com.br"
 cta_regras: "Link clicavel so no PRIMEIRO COMENTARIO (FB/IG). TikTok: digitar o dominio; NAO escrever 'link no perfil/na bio' (nao confirmado). Sem alegacao medica ('pode ser fatal', 'atrapalhando o crescimento'); saude = consulte o veterinario."
@@ -49,6 +53,10 @@ modelos_legenda:   # {gancho}=pergunta do video; {valor}=1 linha de utilidade
     - "{gancho} {valor_curto} {pergunta_curta} {cta_artigo} {hashtags_3a5}"
     - "{gancho} Salva esse vídeo. {pergunta_curta} {cta_artigo} {hashtags_3a5}"
     - "{gancho} {valor_curto} Manda pra quem precisa ver. {cta_artigo} {hashtags_3a5}"
+  react_produto:   # E169 (01/11): link SO no 1o comentario; sem "link na bio" ate o Allan confirmar a bio do IG
+    facebook: "{gancho_produto}\n{valor_1_linha}\n{pergunta_binaria}\nVideo original: @{criador}\n#tutorialpet #{animal} #achadospet"
+    instagram: "{gancho_produto}\n\n{valor_1_linha}\n{pergunta_binaria}\nVideo original: @{criador}\n\n#tutorialpet #{animal} #dicaspet #achadospet"
+    tiktok: "{gancho_produto} Achei na Shopee: busque \"{termo}\". {pergunta_curta} Video original: @{criador} #tutorialpet #{animal} #achadospet"
   tiktok_opcoes: {isAigc: true, commercialContentOwnBrand: "ligar quando o video citar o Sozinho em Casa"}
 perguntas_interacao:
   gato:
@@ -445,3 +453,19 @@ perguntas_lote_2026_10_31:
   gato: ["Time sofá ou time arranhador?", "Seu gato bebe na torneira ou na tigela?", "Planta na sala: sim ou não com gato?", "Qual a hora do nada do seu gato?", "Seu gato aceita escova: sim ou não?"]
   cachorro: ["Piso frio ou tapete: onde o seu deita?", "Seu cachorro encara chuva ou foge dela?", "Passeio de manhã ou de noite?", "Quem rouba a ração do outro na sua casa?", "Seu cachorro fica de boa sozinho: sim ou não?"]
   idoso: ["Seu pet idoso ainda quer passear todo dia?", "Qual idade tem seu pet sênior?", "Cama ortopédica: já usa?", "Passeio curto e mais vezes ou um longo?", "Qual mania nova ele ganhou com a idade?"]
+leitura_2026_11_01:   # 21a edicao; plano data/social/plano_de_mudanca_2026-11-01.md (E167-E170)
+  gatilho: "disparou nos explicadores (FB 3,9 s n96; TikTok 2,3 s n57; IG skip 73,7% nos >=33 s n59); mediana de views abaixo da meta nas 3 redes"
+  conflito_E160: "R1 eram reacts de terceiros e o Allan pausou o react de humor (30/10 17:50). Vale o FORMATO (18-25 s, pergunta binaria, gancho no frame 0) com fonte original; E167 corrige"
+  horarios: {facebook: ["10:00", "19:00"], instagram: ["11:00", "20:00"], tiktok: ["10:20", "20:20"], curto: {facebook: ["08:30", "21:00"], instagram: ["21:10"]}, fechado: "FB 12:00"}
+  proporcao_producao: "60% T-A (Duda dubla, 18-25 s, fonte original), 40% exploracao; explicador 40 s+ no max 1 a cada 3"
+  regra_agenda: "duas postagens da mesma rede nunca no mesmo minuto (01/11 10:00 FB e 11:00 IG tem dois: ids no plano)"
+  testes:
+    T_A_duda_dubla_original: {duracao_s: "18-25", n: 6, aprova: "em 4 de 6: FB >=6 s, IG skip <=55%, TikTok >=4 s", reprova: "nos 3 primeiros: IG skip >=75% e FB <4 s"}
+    T_B_react_produto: {n: 3, posts: "b32 31/10, b31 01/11, b03 02/11", aprova: "IG skip <=55% e FB >=6 s em 2 de 3, mais >=1 clique no 1o comentario"}
+    T_C_interacao_I1: {n: 6, aprova: "1 comentario de terceiro em 2 de 6", depende: "Atendente (E09) pausado"}
+perguntas_lote_2026_11_01:   # binarias ou numeradas; sem tema de saude; link so no 1o comentario; tema dos agendados 01-02/11 e do T-A
+  gato: ["Fonte de água ou tigela: qual o seu gato prefere?", "Toca fechada ou caixa aberta: onde ele dorme?", "Planta na sala: sim ou não com gato?", "Seu gato bebe 1 vez ou várias por dia?", "Time sofá ou time arranhador?"]
+  cachorro: ["Piso frio ou tapete: onde o seu deita?", "Quantos passeios por dia o seu faz?", "Escova em casa ou pet shop?", "Seu cachorro fica de boa sozinho: sim ou não?", "Legume cozido ou petisco comprado: qual ele prefere?"]
+  adocao: ["Já adotou um pet: sim ou não?", "Cachorro ou gato: qual você adotaria?", "Filhote ou adulto?", "Sabe o que é o Sinpatinhas: sim ou não?", "Quantos pets moram com você?"]
+  idoso: ["Seu pet idoso ainda quer passear todo dia?", "Passeio curto e mais vezes ou um longo?", "Cama ortopédica: já usa?", "Qual idade tem seu pet sênior?", "Qual mania nova ele ganhou com a idade?"]
+  produto: ["Já comprou algo assim para o seu pet: sim ou não?", "Qual acessório mais ajudou a rotina de vocês?", "Bebedouro, comedouro ou cama: o que falta aí?", "Comenta 1 se já usa, 2 se quer testar.", "Marca quem precisa ver isso."]
