@@ -68,3 +68,9 @@ Linha do tempo fixa (1080x1920, 30 fps):
 Fixos: clipes A e D em animaticos/lote7/heygen/banco/clipes/ (0 crédito HeyGen por vídeo). Variáveis por vídeo: corte do original, falas da Duda, crédito.
 ElevenLabs no mínimo: reaproveitar risadas do banco; gerar só a fala única do vídeo (≤ 90 caracteres por linha, 1 a 2 linhas); gerar pelo workflow voz_lote7 em lote.
 Antes de renderizar: postar cartão de 5 linhas (beats: segundo × o que acontece × áudio). Depois de renderizar: folha de 5 quadros + o mp4. Carimbo, música baixa e versões por rede entram na etapa de publicação (regra 25/10).
+
+## Correções do Allan em 01/11/2026 (react @celiaepeggy v3)
+- O ORIGINAL TEM QUE IR CONTÍNUO, na ordem real (nunca pular trechos): o corte "prévia" saltava de ~5 s para ~13 s e sumia a sequência "Se você está contente faz AU AU" + latido. Conferir por quadros que o original não pula.
+- A Duda NÃO começa rindo: primeiro ASSISTE (séria, boca fechada), e só ri DEPOIS do latido/ação.
+- Em tela dividida o vídeo de baixo tem a MESMA LARGURA da Duda (1080): scale largura 1080 + crop de altura (y≈330 mantém a letra e os cachorros), nunca pad com faixas pretas.
+- Trecho "assistindo calada" já existe: Downloads/Tutorial Pet/reacts/clipes_heygen_lote5/react_b03_duda_clipe_W_olhando_clipe_18s.mp4, silêncio real em 3,4–10,1 s (usar 4,8–9,1 s, mudo); risada visual em 11,3–14,0 s. Reaproveitar (0 crédito) em vez de gerar clipe novo.
