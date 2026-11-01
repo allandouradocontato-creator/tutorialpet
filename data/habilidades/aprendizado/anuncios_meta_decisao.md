@@ -13,3 +13,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-10-30 | lida; sem anúncio pago do departamento, regra não acionada (decisão do dia no Auditor: manter) | n=0 | mantém
 2026-10-31 | tabela de decisão (gasto 2x preço sem venda + CTR baixo) | n=2 anúncios ativos, gatilho R$ 54 vencido (R$ 72,31) | mantém
 2026-11-01 | sem anúncio ativo de audiência; não aplicada (pago só com pedido ao Allan) | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém
+| 2026-11-01 | passo 1-4 + cortes de perfil | n=13 inícios, 0 compras; decisão: manter e propor corte do Feed FB | mantém |

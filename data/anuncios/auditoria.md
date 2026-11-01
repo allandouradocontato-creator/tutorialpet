@@ -1,18 +1,18 @@
-# Auditoria de Anúncios - 2026-10-31
-Dados até 2026-10-31 09:40 (Fortaleza). WINDSOR OK: Meta Ads 1213984913380523 (Allan Dourado), única conta.
+# Auditoria de Anúncios - 2026-11-01
+Dados até 2026-11-01 09:35 (Fortaleza). WINDSOR OK: Meta Ads 1213984913380523, única conta.
 ## Alerta
-Sem alerta de gasto solto: campanha "Sozinho em Casa - VSL v12 - SP apartamento - teste 3 dias" (120253387444780134) ACTIVE, teto R$ 30/dia (maior dia: 30/10 R$ 29,83), termina HOJE 31/10 23:59. Marketplace turbinado: outro produto, não tocar.
+Sem alerta de gasto solto: campanha 120253387444780134 ACTIVE; só o conjunto mulheres 25-54 (C v13) ativo, R$ 30/dia, fim 03/11 23:59; conjunto misto PAUSADO. Marketplace turbinado: outro produto, não tocar.
 ## Número do departamento (Ofertas e Vendas)
-Gasto 28-31/10: R$ 72,31 (28 R$ 13,87 · 29 R$ 20,67 · 30 R$ 29,83 · 31 parcial R$ 7,94). 159 cliques, 9 checkouts = R$ 8,03/checkout (ref. 28 dias R$ 7,32). Compras conhecidas: 0 (Windsor sem purchase; Kiwify não lida na nuvem).
-## Por anúncio (28-31/10)
-B benefício (ATIVO): R$ 45,32, 76 cliques, 6 checkouts = R$ 7,55; CTR 8,9% > 4,8% > 3,4% > 4,2% hoje, CPC R$ 0,81 hoje.
-C preço cedo, conjunto mulheres (ATIVO, novo 30/10): R$ 9,71, 36 cliques, 2 checkouts = R$ 4,86; CTR 10,3% (30/10) e 6,5% (hoje), CPC R$ 0,25-0,37. n pequeno.
-A problema (PAUSADO): R$ 16,41, 43 cliques, 1 checkout. C original (PAUSADO): R$ 0,87, 4 cliques, 0 checkouts.
+Gasto 28/10-01/11: R$ 93,79 · 169 cliques no link · 13 inícios de compra = R$ 7,21/início · 0 compras no pixel (Kiwify não lida na nuvem; compra-teste do Allan em 31/10 não conta). Semana: mesmo valor (campanha só existe desde 28/10).
 ## Já funciona / replicar
-C conjunto mulheres tem o menor custo por checkout e o melhor CTR; replicar = mais verba nele e criativo novo no mesmo molde, só se o Allan renovar a campanha (texto sem "raça" pronto em texto_corrigido_sem_raca_2026-10-31.md).
+Reels (R$ 5,37/início, 13% dos cliques viram início) e mulher 25-34 (R$ 3,94/início). Conjunto mulheres: R$ 5,19/início. Replicar = mais Reels para mulher 25-34 com o criativo C v13. Detalhe: seção "Perfil que clica - 01/11" em campanha_vsl_v12_sp.md.
+## O que não funciona
+Feed do Facebook: R$ 16,20/início (2 de 83 cliques). Homem 25-54: R$ 11,22/início.
+## Landing nova (31/10 ~16h)
+01/11 madrugada: 6 visitas, 2 inícios (33%) contra 6% em 31/10. n=6, só direção.
 ## Habilidade que falta / teste grátis
-Custo por venda real: cruzar checkouts x Kiwify (grátis; precisa do Chrome do Allan). Checkout não é venda.
-## Decisão (anuncios_meta_decisao): PAUSAR criativo B
-Campanha passou de R$ 54 (2x preço) sem venda confirmada e B tem CTR/CPC pior que C. Quem pausa é o Allan/Executor (eu só leio); como a campanha acaba hoje 23:59, o ganho é só o resto do dia (~R$ 10-15). Renovação = decisão de estratégia/verba do Allan (E157).
-## Não verificado (Unknown)
-UTM, rótulo IA, Audience Network, saldo/pagamento, região: conector não traz; checklist em campanha_vsl_v12_sp.md. Anúncio A ainda cita "raça" (pausado, sem efeito). Cobertura de passos com dado: 4 de 6.
+Pixel do vídeo (Explicativo_*, VSL_*) volta 0 no Windsor: conferir no Gerenciador de Eventos (grátis). Venda real por origem: cruzar Kiwify (precisa do Chrome do Allan).
+## Decisão (anuncios_meta_decisao): MANTER e propor corte
+Sem pausa (gasto < 2x preço por venda não aplicável: 0 vendas, mas teto e prazo controlados). Recomendo ao Allan cortar Feed FB e concentrar em Reels/mulheres 25-34 se 02-03/11 repetir.
+## Unknown
+UTM, rótulo IA, saldo/pagamento: conector não traz. Compras Kiwify: não lidas. Eventos de vídeo do pixel: 0 no Windsor.

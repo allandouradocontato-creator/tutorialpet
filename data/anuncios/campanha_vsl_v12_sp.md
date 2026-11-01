@@ -156,3 +156,24 @@ Enviada: Dourado Falcão Educação Corporativa LTDA (CNPJ achado no registro of
 - Públicos (gatilho 500 para remarketing): "Assistiu VSL anúncio engajado 30d", "Iniciou checkout Sozinho 30d", "Visitantes landing Sozinho em Casa 30d" — todos "Abaixo de 1.000" e "em preenchimento"; o Meta não mostra o número exato, então não dá para confirmar ≥ 500. Remarketing continua desligado.
 - Escala: não (0 vendas; regra pede ≥3 vendas e custo/venda ≤ R$ 27).
 - Decisão recomendada (única): conjunto termina hoje 23:59; estender 1 dia (R$ 30) para medir a landing nova (vídeo no topo, fotos, botões) com checkout já corrigido; reler amanhã 09:34 — com ≥10 checkouts pós-correção e 0 vendas, o problema é oferta/landing (o checkout já foi provado pela compra-teste).
+
+## Perfil que clica - 01/11 (Auditor, leitura 01/11 09:35 Fortaleza; Windsor facebook, conta 1213984913380523, 28/10 a 01/11; plano grátis, granularidade diária)
+Totais: gasto R$ 93,79 (ad) / 94,26 (posicionamento e região; 01/11 parcial difere 0,47 por cache) · 169 cliques no link · 13 inícios de compra · 0 compras no pixel (Kiwify não lida na nuvem). n MUITO pequeno: 13 inícios. Isto é DIREÇÃO, não veredito.
+**1) Idade x sexo (gasto / cliques / inícios / R$ por início)**
+- Mulher 25-34: 19,68 / 45 / 5 / 3,94 · Mulher 35-44: 7,16 / 11 / 1 / 7,16 · Mulher 45-54: 11,38 / 20 / 1 / 11,38 → mulher 25-54: 38,22 / 76 / 7 / 5,46.
+- Homem 25-34: 25,25 / 30 / 3 / 8,42 · Homem 35-44: 4,67 / 4 / 0 · Homem 45-54: 3,74 / 2 / 0 → homem 25-54: 33,66 / 36 / 3 / 11,22.
+- 65+ (só 28-29/10, antes do corte de idade das 13:08 de 29/10): 20,08 / 51 / 3 / 6,69 (mulher 14,07, 2 inícios; homem 6,01, 1 início). 55-64: 1,69 / 6 / 0. Desde 30/10 não há entrega acima de 54 (corte funcionou).
+- Leitura: mulher 25-34 é a melhor célula (3,94). Homem 25-54 custa o dobro por início. 65+ NÃO foi pior em custo por início (6,69) e deu 3 de 13 inícios; o motivo para cortar é compra (0 compras de 65+ e decisão de 30/10), não o custo bruto. Já está fora.
+**2) Região**: só São Paulo (state) em todos os dias (alvo do conjunto); Windsor não dá cidade. Nada a cortar; inícios por região não vêm neste corte (0 em todas as linhas = campo não atribui por região).
+**3) Posicionamento (gasto / cliques / inícios / R$ por início / R$ por clique)**
+- FB Reels: 26,17 / 50 / 5 / 5,23 / 0,52 · IG Reels: 32,93 / 35 / 6 / 5,49 / 0,94 → Reels juntos: 59,10 / 85 / 11 / 5,37 (13% dos cliques viram início).
+- FB Feed (quase tudo mobile_app): 32,40 / 83 / 2 / 16,20 / 0,39 (2,4% dos cliques viram início). Clique barato, não compra.
+- IG Feed (removido em 29/10): 2,76 / 1 / 0. Dispositivo: ~99% mobile_app; desktop/mobile_web irrelevantes (R$ 0,27).
+**4) Por conjunto / anúncio**
+- Conjunto SP 25-55 (misto, PAUSADO desde 31/10): 62,68 / 100 cliques / 7 inícios / 8,95. Anúncio A: 16,41 / 35 / 1 · B: 45,40 / 62 / 6 (7,57) · C antigo: 0,87 / 3 / 0.
+- Conjunto mulheres 25-54 C v13 (ATIVO, R$ 30/dia, fim 03/11 23:59): 31,11 / 69 / 6 / 5,19; cliques 0,45; visitas 55 (80% dos cliques).
+**Depois da landing nova (31/10 ~16h; só diário: 01/11 vs 31/10, conjunto mulheres)**
+- 31/10 (dia misto: ~16h antigas + 8h novas): 18,83 / 37 cliques / 33 visitas / 2 inícios (R$ 9,42 por início; visita→início 6%).
+- 01/11 (madrugada até 09h, só Reels FB): 4,73 / 6 cliques / 6 visitas / 2 inícios (R$ 2,37; visita→início 33%). Direção positiva, mas n=6 visitas: NÃO cravar; reler 02/11 com o dia cheio.
+**Vídeo do pixel**: Explicativo_Play/Som/25/50/75/100 e VSL_Play/50/100 existem como campos no Windsor mas voltam 0 em todas as linhas (28/10-01/11). Não é prova de que não disparam: Windsor só atribui eventos personalizados ligados ao anúncio. Unknown; conferir no Gerenciador de Eventos (pixel 2135885120651427).
+**Recomendação (sem executar; decisão do Allan/Executor)**: (1) cortar Feed do Facebook (R$ 16,20 por início contra 5,37 em Reels; 83 cliques → 2 inícios); (2) concentrar em Reels (FB e IG) e em mulheres 25-34, com 35-54 mantida como cauda até ter n maior; (3) manter 65+ fora (já está). Se os números mantiverem em 02-03/11 (≥ 10 inícios novos), vira regra; com menos, é só direção. Opção B se o Allan preferir não mexer no conjunto que está aprendendo: duplicar o conjunto só com Reels e baixar o antigo, para não resetar o aprendizado.
