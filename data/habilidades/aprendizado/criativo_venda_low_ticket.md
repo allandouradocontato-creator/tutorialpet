@@ -9,3 +9,4 @@ Skill: biblioteca/habilidades/criativo_venda_low_ticket.md (v2, 22/10/2026). Uma
 2026-10-26 | venda só depois do mimo: nada de venda hoje; posts do app agendados antes do mimo seguem como pedido ao Allan | n=0 vendas | mantém
 2026-10-29 | venda só depois do mimo: nada de venda hoje; posts do app agendados antes do mimo seguem como pedido ao Allan | n=0 vendas | mantém
 2026-10-30 | venda só depois do mimo: nada de venda hoje | n=0 vendas | mantém
+2026-11-01 | não aplicada: prioridade é audiência antes de venda (decisão 21/10) | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém

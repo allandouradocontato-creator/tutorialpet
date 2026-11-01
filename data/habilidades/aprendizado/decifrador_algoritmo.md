@@ -11,3 +11,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-10-26 | n<3 = NEUTRO; seguidores lidos (FB 9, IG 0, TT 21), causa não inferida | n=0 janelas de isca | mantém
 2026-10-29 | leitura de sinal: salvamento/compartilhamento como alvo do Checklist salvável | n=0, ainda sem medida; FB 9, IG 0, TikTok 21 | mantém
 2026-10-30 | leitura de sinal: seguidores parados (FB 9 desde 25/10, IG 0), causa não inferida | n=0 janelas de isca; NEUTRO | mantém
+2026-11-01 | humor curto FB 563-690 views x explicador 177-233 (leitura Zernio 30-31/10) usado para manter 60% curto | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém

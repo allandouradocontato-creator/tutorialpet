@@ -12,3 +12,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-10-30 | passos 1-7 (Windsor + decisão) | n=90 cliques, 4 checkouts, R$ 10,18/checkout (gasto 29/10 estava subestimado), 0 compras; B com CTR caindo 8,9%→1,6%; decisão: manter | mantém
 2026-10-30 | lida; sem anúncio pago do departamento, regra não acionada (decisão do dia no Auditor: manter) | n=0 | mantém
 2026-10-31 | tabela de decisão (gasto 2x preço sem venda + CTR baixo) | n=2 anúncios ativos, gatilho R$ 54 vencido (R$ 72,31) | mantém
+2026-11-01 | sem anúncio ativo de audiência; não aplicada (pago só com pedido ao Allan) | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém

@@ -25,3 +25,9 @@
 2. **Pet no feriadão: o que muda na rotina** (carrossel salvável, 5 cartões; ligado ao feriado de 02/11, sem citar Finados). Atrai: salvamento e marcação do tutor. Risco: baixo (sem alegação médica; "procure um veterinário"). Custo: baixo (template de cartão; conferir falhas E117).
 
 | 2026-10-31 09:50 | Diretor de Audiência | Allan reprovou a Carteirinha e escolheu o e-book 'Pode ou Não Pode?'; ficha 2026-10-31_isca_pode_ou_nao_pode.md, E163-E165; Carteirinha vira brinde opcional |
+| 2026-11-01 09:20 | Diretor de Audiência | FB 10 (parado), IG 2 (+1, 90 posts), TikTok 21; comentário 0, DM 0; isca fora do ar = NEUTRO; ficha mantida; E163/E164 sem entrega -> E171; add_repo indisponível (repo já clonado, main = origin/main); 5 linhas de aprendizado |
+
+## Ideias novas (regra 36) — 01/11/2026
+1. **Quiz "Que tutor sou eu?"** (carrossel de 5 cartões, 4 perfis de tutor com humor). Atrai: autoidentificação gera compartilhamento e comentário do resultado. Risco: baixo (sem saúde, sem dado pessoal). Custo: baixo (template de cartão; conferir E117).
+2. **Pet de segunda (foto/vídeo enviado por seguidor)** — só depois de ter comentário de terceiro; pedir autorização por escrito de cada tutor adulto. Atrai: pertencimento e UGC. Risco: médio (direitos de imagem, moderação); só após ok do Allan. Custo: médio.
+3. **Mini-série "30 s de calma pro pet"** (vídeo ≤15 s, rotina de enriquecimento: caixa de papelão, tapete de farejar), com "procure um veterinário" se houver mudança de comportamento. Atrai: salvamento. Risco: baixo-médio (sem alegação médica, regra 37). Custo: baixo (banco livre).
