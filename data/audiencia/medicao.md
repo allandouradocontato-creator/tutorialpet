@@ -189,3 +189,13 @@ Testes de hoje (uma variável por vez): S1 (trend Halloween, CTA a/b, 1 dia de v
 
 ## Atualização sáb 31/10 09:25 (Diretor de Audiência)
 Zernio follower-stats 24–31/10 (07:03Z): FB 10 (+1 em 31/10, 1º aumento desde 25/10), IG 1 (PRIMEIRO seguidor real, 86 posts), TikTok 21 (último valor). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Isca MIMO fora do ar = NEUTRO (n<3).
+
+## Atualização dom 01/11 08:30 (Criador de Audiência, dia curto; Zernio analytics sync 01/11 09:43Z, 20 posts de 30-31/10)
+1. Comentários de terceiros: 0 nos 20 posts FB/IG (o "1" por post é o nosso comentário com o link); TikTok sem leitura nova (31/10: 4 em 20).
+2. Compartilhamentos: FB 0, IG 0 nos 20 posts; TikTok sem leitura nova.
+3. Seguidores: FB 10, IG 1 (Zernio 31/10), TikTok 21 (último valor).
+4. Cliques no blog: FB 7 (24-31/10, leitura de 31/10); Search Console e sessões orgânicas: sem dado (pendência do Allan: export de Consultas, login Google).
+5. Vendas: sem dado (Kiwify; 0 no baseline de 21/10).
+Formato que ganhou (n pequeno): humor curto no FB, 563 e 690 views contra 177-233 dos explicadores (mediana FB 215); no IG o humor tem skip 22-30% contra 64-70%. Campeão para replicar: "pergunta binária de time" (Time beija / não beija) e flagrante do pet; o lote de hoje segue o formato.
+Testes de hoje (uma variável por vez, régua 1,5x mediana FB 215 = 323, mín. 5 posts por braço; abaixo é PARCIAL): N1 (pet cobra a hora, teste sem prova numérica) 72 h a 05/11; N2 (B2, calor) 72 h a 07/11, régua IG skip ≤ 65%; N3 (B9, Natal) 72 h a 09/11. X2 CTA a binária (FB) x b aberta (IG), mesma arte, vale para as 3. S1 e S3 de 31/10 não foram ao ar (PERDEU): sem dado.
+
