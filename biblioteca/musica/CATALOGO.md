@@ -14,3 +14,4 @@ Para acrescentar: coloque o .mp3 nesta pasta (nome original do Pixabay) e regist
 | maksymmalko-pts-music-funny-cute-dog-cat-puppy-kitty-background-intro-theme-263187.mp3 | 1:23 |
 | starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3 | 2:17 |
 | velariomusic-happy-vibes-591803.mp3 | 0:46 |
+- fesliyan-rasta-dreads-reggae.mp3 — reggae estilo Bob Marley, 3:35, Fesliyan Studios (grátis; creditar 'Music: Fesliyan Studios' na descrição). Usar nos vídeos da campanha escova (cachorro rastafari).
