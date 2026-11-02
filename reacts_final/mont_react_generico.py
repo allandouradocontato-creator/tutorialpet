@@ -15,7 +15,11 @@ GAP = 0.3; T0 = 0.5; ds = [dur(f"{V}/voz_{c}.mp3") for c,_ in S]; starts = []; t
 for d in ds: starts.append(t); t += d + GAP
 T = t + 0.5
 def esc(x): return x.replace("'", "").replace(":", "\\:").replace(",", "\\,")
-fc = ["[0:v]scale=1080:1920,fps=30,format=yuv420p,setsar=1[vv]"]; cur = "vv"; j = 0
+COVER = os.environ.get("COVER")  # "x:y:w:h" caixa para cobrir texto do original
+vf0 = "[0:v]scale=1080:1920,fps=30,format=yuv420p,setsar=1" + (f",drawbox={COVER.replace(':',':',3)}:color=black@0.92:t=fill" if False else "")
+fc = [vf0 + "[vv]"]; cur = "vv"; j = 0
+if COVER:
+    x,y,w_,h_ = COVER.split(":"); fc[0] = vf0 + f",drawbox=x={x}:y={y}:w={w_}:h={h_}:color=black@0.95:t=fill[vv]"
 for i,(c,bl) in enumerate(S):
     seg = ds[i]/len(bl)
     for q,b in enumerate(bl):
