@@ -50,6 +50,10 @@ def auditar(slug: str, fm: dict, body: str, slugs: set[str]) -> list[tuple[str, 
     externos = re.findall(r"\]\((https?://[^)\s]+)\)", body)
     if len(externos) < 3:
         p.append(("aviso", f"poucas fontes citadas com link ({len(externos)}): artigo precisa de mais fontes (meta: 3 ou mais)"))
+    # 02/11/2026: sem 'Fontes e referencias' com >=2 links externos NAO passa (era so aviso e o artigo ia ao ar sem fonte; exigencia do AdSense)
+    _mf = re.search(r"##\s*Fontes e refer.ncias(.*)", body, re.S | re.I)
+    if not _mf or len(re.findall(r"https?://", _mf.group(1))) < 2:
+        p.append(("bloqueante", "secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)"))
     if (fm.get("autor") or "").strip():
         p.append(("bloqueante", f"autor preenchido ('{fm.get('autor')}'): a assinatura é Equipe Tutorial Pet"))
     persona = str(fm.get("persona") or "")

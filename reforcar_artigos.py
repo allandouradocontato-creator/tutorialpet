@@ -116,7 +116,8 @@ def main() -> int:
         fm, _ = curador.ler(p)
         if p.stem in no_ar:
             infos.append((p.stem, titulo_limpo(fm)))
-    alvos = [RASC / f"{a.slug}.md"] if a.slug else [p for p in arquivos if precisa(p)][: a.lote]
+    # 02/11/2026 (E-fontes/capa): rascunho SEM pagina nao entra no reforco (o build o publicava sem capa e sem fontes, driblando o portao do blog_publicar_nuvem). Quem publica e o publicar_blog.
+    alvos = [RASC / f"{a.slug}.md"] if a.slug else [p for p in arquivos if p.stem in no_ar and precisa(p)][: a.lote]
     print("alvos:", [p.stem for p in alvos], flush=True)
     if a.dry:
         return 0

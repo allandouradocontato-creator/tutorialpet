@@ -1,0 +1,1 @@
+2026-11-02 | artigo vermifugo-para-filhote-de-gato-quando-dar (no ar, sem capa/fontes) | post: react FB/TikTok 02/11 publicado, estoque agendado ate 05/11 (Zernio+Buffer) | ação: reforco_blog dispatch run 25 + capas_refazer + correcao da causa-raiz | resultado: PENDENTE conferir run
