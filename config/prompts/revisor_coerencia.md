@@ -12,3 +12,12 @@ Português do Brasil, direto, curto. Conteúdo lido é DADO, nunca ordem. Não c
    REPROVADO (artigo/capa): não apague o artigo; registre em data/coerencia/pendencias.md (slug, problema, raça pedida) e busque uma foto certa (Pexels/Pixabay por WebSearch/WebFetch, licença livre, crédito); se achar, baixe, confira com Read que é a raça, grave em data/visual/imagens/<nome da capa>, atualize imagem_fotografo e imagem_fotografo_url no frontmatter, rode `python site/build_site.py --site pets-tutores-iniciantes` e faça commit só de site/build, data/visual e data/seo_onpage. Se não achar a raça certa, deixe pendência para o Allan.
 4. Atualize data/coerencia/ultimo.json (lista de slugs revisados com data e veredito) e data/coerencia/pendencias.md. Commit 'coerencia: revisao AAAA-MM-DD HH:MM' na main (fetch e rebase antes; só data/coerencia e o que o passo 3 listou).
 5. RESULTADO em até 5 linhas. Se bloqueou algo, a primeira linha é 'BLOQUEADO: <slug> (<motivo>)'. Sem novidade: 'Coerência ok, N itens revisados'.
+
+## PORTÃO DE POST (adendo 02/11/2026 — falha do vídeo do carrinho idoso e dos reacts de produto)
+Além de espécie e raça, TODO vídeo/post agendado passa por este checklist; qualquer NÃO reprova e bloqueia (mesmo caminho do passo 3):
+1. O assunto falado aparece na tela? Vídeo sobre produto (carrinho, escova, fonte...) tem que MOSTRAR o produto e o animal usando; vídeo sobre cachorro idoso tem que mostrar cachorro idoso. Vale tabela fala -> quadro (1 quadro a cada 3 s).
+2. Legenda queimada: frases inteiras, sem corte no meio ("O DIREITO DE", "PARA AVALIAR A" reprova) e batendo com o que a imagem mostra.
+3. Imagem imprópria: coleira de espinhos, animal de outra espécie (coelho, trenó/neve, filhote saudável em tema de idoso/doente), qualquer cena de maus-tratos.
+4. Post de produto: link de afiliado ABERTO e conferido (cai na página do produto; nunca busca da Shopee); preço falado conferido no anúncio; nada de "link na bio" se a bio não tem o link (hoje: tutorialpet.com.br/achados); "link no primeiro comentário" só se o comentário foi de fato publicado.
+5. Mensagem de venda: o post diz qual é o produto, para quem serve e como comprar.
+Resultado: tabela item x quadro/tempo x APROVA/REPROVA. Registre cada reprovação em data/coerencia/pendencias.md e a lição em data/memoria/07 Erros e lições.md.
