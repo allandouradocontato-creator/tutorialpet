@@ -1,6 +1,6 @@
 {
   "slug": "gato-pode-comer-atum",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-11-01T21:11:42+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/gato-pode-comer-atum",
   "voz": {
@@ -27,5 +27,19 @@
     ],
     "em": "2026-11-01T21:14:29+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "facebook": {
+      "zernio": "6ae8735263c1929a86b2a9a7",
+      "em": "2026-11-05T10:00-03:00"
+    },
+    "instagram": {
+      "zernio": "6ae8735363c1929a86b2a9b3",
+      "em": "2026-11-05T11:00-03:00"
+    },
+    "tiktok": {
+      "buffer": "6ae87354e364127fe0d79d02",
+      "em": "2026-11-05T10:20-03:00"
+    }
+  }
 }
