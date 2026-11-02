@@ -1,0 +1,23 @@
+# Página /achados (link da bio do Instagram e do TikTok). Só entra produto com link de afiliado CONFERIDO
+# (abre direto na página do produto, com parâmetros de afiliado; nunca link de busca). Sem preço na página:
+# o preço da Shopee muda e a página só pode dizer o que é verdade (regra do Allan, 02/11/2026).
+# Para incluir produto: gerar o link em affiliate.shopee.com.br/offer/product_offer, abrir o link e conferir o produto.
+titulo: "Achados pet do Tutorial Pet"
+intro: "Os produtos que aparecem nos nossos vídeos, com o link direto para comprar na Shopee."
+produtos:
+  - nome: "Escova secadora 2 em 1 para cachorro de pelo longo"
+    video: "Dá trabalho pentear e secar? Essa escova faz os dois ao mesmo tempo."
+    link: "https://s.shopee.com.br/LoUFMIHqj"
+    conferido_em: "2026-11-02"
+  - nome: "Fonte bebedouro automática para gatos"
+    video: "Água em movimento para o gato beber mais."
+    link: "https://s.shopee.com.br/8V9v5D7kIB"
+    conferido_em: "2026-11-02"
+  - nome: "Tapete de lamber em labirinto para cachorro"
+    video: "Transforma a hora da refeição em atividade e faz o cachorro comer mais devagar."
+    link: "https://s.shopee.com.br/5LCtJqUYei"
+    conferido_em: "2026-11-02"
+  - nome: "Toca de pelúcia (saco de dormir) para gato"
+    video: "O gato entra, fica quentinho e não quer mais sair."
+    link: "https://s.shopee.com.br/LoUEcS8bl"
+    conferido_em: "2026-11-02"

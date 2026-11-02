@@ -686,6 +686,30 @@ def build_adocao_enviar_page(site: dict, pilares: dict) -> str:
                       f"{dominio}/adocao/enviar", "website", main)
 
 
+def build_achados_page(site: dict, pilares: dict) -> str:
+    """/achados (02/11/2026): página-destino do 'link na bio' do Instagram/TikTok com os produtos de afiliado dos vídeos.
+    Lê config/achados.yaml; só links de afiliado conferidos. noindex e fora do sitemap (é página de tráfego social, não de busca)."""
+    cfg = load_yaml(ROOT / "config" / "achados.yaml") or {}
+    dominio = site["dominio"].rstrip("/")
+    esc = html_lib.escape
+    cards = "".join(
+        f'<li style="margin:0 0 18px;padding:16px;border:1px solid #e5e5e5;border-radius:12px">'
+        f'<strong>{esc(str(p["nome"]))}</strong><br><span>{esc(str(p.get("video", "")))}</span><br>'
+        f'<a class="btn" style="display:inline-block;margin-top:10px" href="{esc(str(p["link"]))}" '
+        f'target="_blank" rel="sponsored nofollow noopener">Ver na Shopee</a></li>'
+        for p in (cfg.get("produtos") or []) if p.get("nome") and p.get("link"))
+    main = f"""{render_header(site["nome"], pilares)}
+<main class="legal">
+<h1>{esc(str(cfg.get("titulo", "Achados pet")))}</h1>
+<p>{esc(str(cfg.get("intro", "")))}</p>
+<ul style="list-style:none;padding:0">{cards}</ul>
+<p><small>Divulgação: o Tutorial Pet recebe uma comissão se você comprar pelos links, sem custo extra para você. Veja também o nosso <a href="/disclaimer">disclaimer</a>.</small></p>
+</main>
+{render_footer()}"""
+    return page_shell(str(cfg.get("titulo", "Achados pet")), "Produtos pet dos vídeos do Tutorial Pet com link direto para comprar na Shopee.",
+                      f"{dominio}/achados", "website", main, extra_head='<meta name="robots" content="noindex">')
+
+
 # ---- Ícones de seguir (15/10/2026): redes do Tutorial Pet, com clique direto ----
 ICONE_REDE = {
     "Instagram": '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/></svg>',
@@ -1145,6 +1169,10 @@ def run(site_id: str) -> dict:
     if _ad.exists():
         (BUILD_DIR / "adocao").mkdir(exist_ok=True)
         (BUILD_DIR / "adocao" / "enviar.html").write_text(build_adocao_enviar_page(site, pilares), encoding="utf-8")
+
+    # Página /achados (02/11/2026): destino do "link na bio" (Instagram/TikTok); noindex e fora do sitemap
+    if (ROOT / "config" / "achados.yaml").exists():
+        (BUILD_DIR / "achados.html").write_text(build_achados_page(site, pilares), encoding="utf-8")
 
     # Páginas de categoria (/categoria/<slug>): uma por pilar com artigos + a série Pet Celebridade
     (BUILD_DIR / "categoria").mkdir(exist_ok=True)
