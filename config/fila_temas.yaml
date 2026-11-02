@@ -2,18 +2,27 @@ temas:
 - termo: cachorro com a cabeca para fora da janela do carro pode? beneficios e riscos
   pilar: cuidados_diarios
   status: pendente
-  nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do shih-tzu na janela do carro (@clarinhashitzu0); responder beneficios (estimulo
-    dos cheiros) e riscos (poeira, insetos, pedras, queda em freada), cinto/guia/caixa de transporte, janela entreaberta, paradas na viagem; sem alegacao medica, aviso de procurar veterinario
-- termo: cachorro grande e cachorro pequeno podem comer no mesmo pote? como alimentar dois cachorros de portes diferentes
+  nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do shih-tzu na janela
+    do carro (@clarinhashitzu0); responder beneficios (estimulo dos cheiros) e riscos
+    (poeira, insetos, pedras, queda em freada), cinto/guia/caixa de transporte, janela
+    entreaberta, paradas na viagem; sem alegacao medica, aviso de procurar veterinario
+- termo: cachorro grande e cachorro pequeno podem comer no mesmo pote? como alimentar
+    dois cachorros de portes diferentes
   pilar: alimentacao
   status: pendente
-  nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do pitbull e pinscher no mesmo pote (@furryhousefinds); porte, idade e ritmo pedem porcao/racao
-    diferente, potes e cantinhos separados, supervisao no comeco, convivencia pacifica entre portes distintos; quem define racao e quantidade e o veterinario
+  nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do pitbull e pinscher
+    no mesmo pote (@furryhousefinds); porte, idade e ritmo pedem porcao/racao diferente,
+    potes e cantinhos separados, supervisao no comeco, convivencia pacifica entre
+    portes distintos; quem define racao e quantidade e o veterinario
 - termo: como fazer o gato se exercitar dentro de casa e evitar sedentarismo e obesidade
   pilar: cuidados_diarios
   status: pendente
-  nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do gatinho atras da luz (@wattsonon); gato doméstico fica preso em casa, diferente do cachorro que passeia;
-    sedentarismo, excesso de peso e saude do coracao (sem alegacao medica categorica); atividades em casa - luzinha (nunca nos olhos, terminar com petisco), varinha com pena, bolinhas, prateleiras e arranhador alto, caixas e tuneis, comedouro-desafio; 10 a 15 min varias vezes ao dia; aviso de procurar veterinario
+  nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do gatinho atras
+    da luz (@wattsonon); gato doméstico fica preso em casa, diferente do cachorro
+    que passeia; sedentarismo, excesso de peso e saude do coracao (sem alegacao medica
+    categorica); atividades em casa - luzinha (nunca nos olhos, terminar com petisco),
+    varinha com pena, bolinhas, prateleiras e arranhador alto, caixas e tuneis, comedouro-desafio;
+    10 a 15 min varias vezes ao dia; aviso de procurar veterinario
 - termo: pinscher temperamento e cuidados da raça da Giselle, pet da Luísa Sonza
   pilar: comportamento
   status: rascunho_pronto
@@ -368,7 +377,8 @@ temas:
   data: '2026-10-31'
 - termo: vermifugo para filhote de gato quando dar
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-02'
 - termo: como escolher cama para cachorro de porte grande
   pilar: produtos_compras
   status: rascunho_pronto
