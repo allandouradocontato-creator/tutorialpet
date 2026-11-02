@@ -1,0 +1,11 @@
+# FICHA — Plano de conteúdo da semana — Diretor de Conteúdo e Blog / 2026-11-02 12:57 (Fortaleza)
+- Assunto e objetivo: blog saudável para AdSense; ritmo atual 1 artigo + 1 post por dia (ordem do Allan 01/11).
+- Pareceres: SEO (relatório 29/10 + plano_trafego 31/10; absorvido por mim desde 02/11, config/prompts/seo.md); Operação (ficha 02/11 noite: 4 artigos em 24 h, 0 FALHA); Conferente, Revisor de Coerência, Humorista e Utilidade Pública: sem parecer novo; Editor de Afiliados: data/ofertas sem arquivo novo (achados no site 02/11).
+- Anti-gap: (a) 2 artigos novos no ar hoje (07:02Z e 10:27Z), 4 nas últimas 24 h da ficha de operação; sem gap. (b) 66 slugs em blog_aprovados.txt, 0 sem página. (c) 124 rascunhos; 101 temas livres/rascunho_pronto na fila. Site responde 200. SEM ALERTA.
+- Pet Celebridade: ATRASADA. Última no ar 22/10 (Doralice); edição de 29/10 (Giselle/Sonza) tem rascunho pronto, não aprovado. DECISÃO: aprovar para publicar (E181). Fatos com link: Metrópoles (capa da Dogue Brasil), UAI 26/08/2026, Meio&Mensagem (Dogue Brasil), AKC (miniature pinscher). Foto ilustrativa (foto_ilustrativa: true). Fila de candidatos: 3 (Angélica/Gringa, Sonza/gatas, Marina Ruy Barbosa/dálmata); próxima edição quinta 05/11 = Angélica/Gringa (golden doodle), preparar rascunho na rodada de quinta. Latino segue com o Allan, não trava.
+- Auditoria AdSense 02/11: 3 itens: buraco histórico 15/09–06/10 (não corrigível), 1 sem capa e 2 sem Fontes (E182).
+- Conflito SEO x humor x utilidade pública: nenhum; rodízio de pilares mantém. Prioridade da semana: pilares produtos_compras e alimentação (demanda SEO: cinto/cadeirinha, caixa de transporte, coleira x peitoral, plantas de Natal tóxicas até 10/12).
+- Lote veterinário 2 gravado (data/pergunte_veterinaria/lote_revisao_2026-11-02.md); revisão opcional, sem cobrança.
+- Ações: E181, E182.
+- Pedido ao Allan: nenhum.
+- Status: aprovada pelo Diretor
