@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Gato pode comer atum: guia prático",
-    "description": "Gato pode comer atum? Descubra como oferecer esse peixe com segurança, os riscos da lata comum e o passo a passo prático para seu felino.",
+    "description": "Descubra se gato pode comer atum com segurança, quais são os riscos do excesso de sal, metais pesados e como servir da forma correta.",
     "datePublished": "2026-11-01",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/gato-pode-comer-atum"
-    },
-    "image": "https://tutorialpet.com.br/imagens/gato-pode-comer-atum.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Gato pode comer atum cru direto da peixaria?",
+        "name": "Gato pode comer atum enlatado em água e sal?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não é recomendável. O peixe cru contém uma enzima que destrói a vitamina B1 no organismo do felino, além de carregar risco de parasitas e bactérias. Cozinhe sempre em água ou vapor antes de servir."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso dar a água da lata de atum para o gato beber?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Apenas se for atum enlatado específico para pets. A água da lata tradicional para humanos vem carregada de sódio e conservantes, o que sobrecarrega os rins sensíveis dos bichanos."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Por que os gatos enlouquecem com o cheiro de atum?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Gatos são atraídos por aromas fortes e ricos em proteínas e aminoácidos específicos. O cheiro marcante do atum ativa os receptores olfativos do animal instantaneamente, fazendo com que ele pareça hipnotizado pela comida."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O óleo da lata de atum ajuda a soltar bolas de pelo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não use esse óleo. Ele costuma causar diarreia severa e vômitos, sem contar o risco de pancreatite pela alta carga lipídica. Para bolas de pelo, utilize pastas e produtos veterinários apropriados."
+          "text": "Não é recomendado de forma rotineira, pois o teor de sódio é muito alto para os rins do felino. Se for usar esporadicamente, lave bem o peixe para retirar o sal.  * **O atum cru transmite parasitas para o gato?** Sim, peixes crus podem conter bactérias e parasitas nocivos. O ideal é oferecer o atum sempre cozido e sem nenhum tipo de tempero.  * **Posso misturar atum na ração seca para o gato comer?** Você pode usar uma pitada pequena para estimular o apetite em dias específicos, mas evite transformar isso em um hábito diário para não causar desbalanço nutricional.  * **O cheiro forte do atum vicia o gato?** Sim, o aroma intenso costuma atrair muito os felinos, fazendo com que eles rejeitem a ração comum se perceberem que sempre ganham petiscos saborosos."
         }
       }
     ]

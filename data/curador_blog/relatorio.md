@@ -1,65 +1,83 @@
-# Relatório do Curador do Blog — 02/11/2026 16:11
+# Relatório do Curador do Blog — 02/11/2026 22:26
 
-124 artigos auditados, 2 com problema bloqueante.
+125 artigos auditados, 75 com problema bloqueante.
 
-- ok | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
+- REPROVADO | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 92 caracteres (ideal até 70)
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | ansiedade-de-separacao-em-caes
+- REPROVADO | ansiedade-de-separacao-em-caes
     - [aviso] poucas fontes citadas com link (1): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | arranhador-para-gato-qual-escolher
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | arranhador-para-gato-qual-escolher
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | ate-que-ponto-e-saudavel-vestir-cachorro-e-gato
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | ate-que-ponto-e-saudavel-vestir-cachorro-e-gato
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | brinquedos-para-cachorro-que-fica-sozinho
+- REPROVADO | brinquedos-para-cachorro-que-fica-sozinho
     - [aviso] poucas fontes citadas com link (1): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | cachorro-chorando-quando-fico-sozinho-o-que-fazer
-- ok | cachorro-latindo-muito-o-que-fazer
+- REPROVADO | cachorro-latindo-muito-o-que-fazer
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | cachorro-pode-comer-banana
-- ok | caixa-de-transporte-para-gato
+- REPROVADO | caixa-de-transporte-para-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | castracao-gratuita-de-cachorro-e-gato-como-conseguir
     - [aviso] parágrafo acima de 130 palavras
-- ok | coleira-ou-peitoral-para-cachorro
+- REPROVADO | coleira-ou-peitoral-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | com-quantos-meses-o-cachorro-pode-sair-na-rua
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | com-quantos-meses-o-cachorro-pode-sair-na-rua
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | com-que-frequencia-dar-banho-em-cachorro
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | com-que-frequencia-dar-banho-em-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | com-que-frequencia-escovar-os-dentes-do-cachorro
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | com-que-frequencia-escovar-os-dentes-do-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-acalmar-cachorro-idoso-assustado-com-fogos-de-artificio
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 74 caracteres (ideal até 70)
 - ok | como-acostumar-cachorro-com-a-chegada-de-um-bebe
-- ok | como-acostumar-gato-adulto-com-novo-comedouro
+- REPROVADO | como-acostumar-gato-adulto-com-novo-comedouro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-acostumar-gato-e-cachorro-a-conviverem-em-paz
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-acostumar-gato-e-cachorro-a-conviverem-em-paz
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-acostumar-gato-filhote-a-usar-a-escova-de-dentes
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-acostumar-o-cachorro-a-cortar-as-unhas
+- REPROVADO | como-acostumar-o-cachorro-a-cortar-as-unhas
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-adaptar-a-casa-para-um-cachorro-idoso
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores
+- REPROVADO | como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-adotar-um-cachorro-passo-a-passo
     - [aviso] curto (882 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | como-adotar-um-gato-adulto-e-por-que-ele-e-mais-facil-do-que-parece
     - [aviso] título com 81 caracteres (ideal até 70)
-- ok | como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
+- REPROVADO | como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 83 caracteres (ideal até 70)
-- ok | como-cortar-unha-de-cachorro
+- REPROVADO | como-cortar-unha-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-criar-rotina-de-exercicios-mentais-para-gatos-idosos
     - [aviso] curto (840 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] título com 71 caracteres (ideal até 70)
@@ -68,146 +86,184 @@
 - ok | como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade
     - [aviso] FAQ com 6 perguntas (ideal 3 a 5)
     - [aviso] título com 78 caracteres (ideal até 70)
-- ok | como-dar-banho-em-gato
+- REPROVADO | como-dar-banho-em-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-dar-remedio-para-gato-que-cospe
 - ok | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 86 caracteres (ideal até 70)
-- ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
+- REPROVADO | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 76 caracteres (ideal até 70)
-- ok | como-ensinar-gato-a-usar-a-caixa-de-areia
+- REPROVADO | como-ensinar-gato-a-usar-a-caixa-de-areia
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-escolher-a-melhor-fonte-de-agua-eletrica-para-gatos
-- ok | como-escolher-a-melhor-guia-e-peitoral-para-cachorro
+- REPROVADO | como-escolher-a-melhor-guia-e-peitoral-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | como-escolher-caixa-de-transporte-para-viagem-de-aviao
+- REPROVADO | como-escolher-caixa-de-transporte-para-viagem-de-aviao
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-escolher-cama-para-cachorro-de-porte-grande
 - ok | como-escolher-carrinho-de-passeio-para-cachorro-idoso
 - ok | como-escolher-cinto-de-seguranca-pet-para-carro
-- ok | como-escolher-coleira-com-rastreador-gps-para-cachorro
+- REPROVADO | como-escolher-coleira-com-rastreador-gps-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-escolher-comedouro-duplo-elevado-para-gatos-idosos
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-escolher-comedouro-duplo-elevado-para-gatos-idosos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - REPROVADO | como-escolher-comedouro-lento-ideal-para-caes-de-focinho-curto
     - [bloqueante] links internos insuficientes: 1 (mínimo 2)
     - [aviso] título com 81 caracteres (ideal até 70)
-- ok | como-escolher-fonte-bebedouro-eletrica-para-varios-pets
+- REPROVADO | como-escolher-fonte-bebedouro-eletrica-para-varios-pets
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-escolher-fonte-de-agua-ideal-para-gatos-que-tem-medo
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-escolher-rampa-pet-para-sofa-e-cama-alta
-- ok | como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento
+- REPROVADO | como-escolher-tapete-higienico-lavavel-para-cachorro-em-apartamento
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 81 caracteres (ideal até 70)
-- ok | como-escovar-os-dentes-do-cachorro
+- REPROVADO | como-escovar-os-dentes-do-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-estimular-o-olfato-de-caes-idosos-dentro-de-casa
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 72 caracteres (ideal até 70)
     - [aviso] parágrafo acima de 130 palavras
-- ok | como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
+- REPROVADO | como-evitar-a-obesidade-em-gatos-castrados-de-apartamento
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 71 caracteres (ideal até 70)
-- ok | como-evitar-bola-de-pelo-em-gato-com-escovacao
+- REPROVADO | como-evitar-bola-de-pelo-em-gato-com-escovacao
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-evitar-choque-termico-em-cachorros-nos-dias-quentes
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-evitar-que-o-filhote-chore-a-noite
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
+- REPROVADO | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-fazer-cachorro-parar-de-puxar-a-guia
-- ok | como-fazer-caldo-de-ossos-caseiro-para-cachorro
+- REPROVADO | como-fazer-caldo-de-ossos-caseiro-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-fazer-filhote-de-cachorro-parar-de-morder
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-fazer-filhote-de-cachorro-parar-de-morder
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | como-fazer-o-gato-beber-mais-agua
+- REPROVADO | como-fazer-o-gato-beber-mais-agua
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-fazer-o-gato-parar-de-arranhar-o-sofa
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-fazer-o-gato-parar-de-arranhar-o-sofa
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - REPROVADO | como-hidratar-a-racao-seca-de-gato-idoso
     - [bloqueante] alegação de credencial ou estudo/estatística sem fonte
 - ok | como-identificar-sinais-de-estresse-em-caes-multicaes-em-espaco-pequeno
     - [aviso] título com 94 caracteres (ideal até 70)
-- ok | como-introduzir-um-segundo-gato-na-casa-sem-brigas
+- REPROVADO | como-introduzir-um-segundo-gato-na-casa-sem-brigas
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-limpar-as-patas-do-cachorro-depois-do-passeio
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-limpar-as-patas-do-cachorro-depois-do-passeio
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-limpar-caixa-de-areia-do-gato
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-limpar-caixa-de-areia-do-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-limpar-manchas-de-lagrima-acida-em-cachorro-branco
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-limpar-manchas-de-lagrima-acida-em-cachorro-branco
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-limpar-orelha-de-cachorro-em-casa-sem-machucar
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-limpar-orelha-de-cachorro-em-casa-sem-machucar
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-manter-a-pelagem-de-caes-senior-livre-de-nos-sem-estresse
     - [aviso] título com 81 caracteres (ideal até 70)
-- ok | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
+- REPROVADO | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 73 caracteres (ideal até 70)
-- ok | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
+- REPROVADO | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
     - [aviso] curto (872 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 77 caracteres (ideal até 70)
 - ok | como-montar-um-espaco-de-descompressao-para-caes-agitados
     - [aviso] título com 76 caracteres (ideal até 70)
 - ok | como-montar-um-espaco-seguro-para-gatos-em-casas-pequenas
     - [aviso] título com 71 caracteres (ideal até 70)
-- ok | como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
+- REPROVADO | como-organizar-a-rotina-de-alimentacao-de-caes-e-gatos-juntos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 80 caracteres (ideal até 70)
-- ok | como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades
+- REPROVADO | como-organizar-a-rotina-de-passeios-para-caes-de-diferentes-idades
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-remover-subpelo-de-cachorro-na-epoca-de-muda
 - ok | como-saber-se-o-asfalto-esta-quente-para-passear
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
-- ok | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
+- REPROVADO | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-socializar-filhote-de-gato
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-socializar-filhote-de-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-socializar-gato-filhote-com-visitas-e-novos-barulhos
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 71 caracteres (ideal até 70)
-- ok | como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
+- REPROVADO | como-tirar-cheiro-de-xixi-de-cachorro-do-quintal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | como-trocar-a-racao-do-cachorro
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-trocar-a-racao-do-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 81 caracteres (ideal até 70)
-- ok | cuidados-essenciais-com-as-patas-de-caes-no-inverno
+- REPROVADO | cuidados-essenciais-com-as-patas-de-caes-no-inverno
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | enxoval-para-filhote-de-cachorro
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | enxoval-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | fabrica-de-filhotes-o-que-e-por-que-e-cruel-e-como-reconhecer
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | fabrica-de-filhotes-o-que-e-por-que-e-cruel-e-como-reconhecer
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 77 caracteres (ideal até 70)
-- ok | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
+- REPROVADO | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | gato-arranhando-o-sofa
     - [aviso] curto (878 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | gato-pode-comer-atum
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] curto (830 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar
     - [aviso] título com 87 caracteres (ideal até 70)
-- ok | melhor-areia-para-gato-como-escolher
+- REPROVADO | melhor-areia-para-gato-como-escolher
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
+- REPROVADO | melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 78 caracteres (ideal até 70)
 - ok | melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -215,56 +271,75 @@
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 76 caracteres (ideal até 70)
     - [aviso] parágrafo acima de 130 palavras
-- ok | o-que-comprar-antes-de-adotar-um-gatinho
+- REPROVADO | o-que-comprar-antes-de-adotar-um-gatinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | o-que-faz-um-bom-criador-de-cachorro-e-os-sinais-de-um-mau-criador
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | o-que-faz-um-bom-criador-de-cachorro-e-os-sinais-de-um-mau-criador
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 80 caracteres (ideal até 70)
     - [aviso] parágrafo acima de 130 palavras
-- ok | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
+- REPROVADO | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | plantas-toxicas-para-gatos
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | pode-dar-sache-para-gato-todos-os-dias
+- REPROVADO | pode-dar-sache-para-gato-todos-os-dias
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | por-que-o-gato-esconde-a-comida-na-tigela
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | por-que-o-gato-esconde-a-comida-na-tigela
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | por-que-o-gato-morde-do-nada-durante-o-carinho
+- REPROVADO | por-que-o-gato-morde-do-nada-durante-o-carinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | primeiros-dias-do-filhote-em-casa
+- REPROVADO | primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist
+    - [bloqueante] link interno para página inexistente: cachorro-latindo-muito-o-que-fazero-que-fazer, como-montar-um-espaco-seguro-para-gatos-casas-pequenas
+    - [aviso] título com 71 caracteres (ideal até 70)
+- REPROVADO | primeiros-dias-do-filhote-em-casa
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quais-frutas-cachorro-pode-comer-no-verao-com-seguranca
-- ok | quais-legumes-cachorro-pode-comer-cozidos-sem-tempero
+- REPROVADO | quais-legumes-cachorro-pode-comer-cozidos-sem-tempero
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade
+- REPROVADO | quais-petiscos-caseiros-posso-fazer-para-caes-com-sensibilidade
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 82 caracteres (ideal até 70)
 - ok | quais-petiscos-naturais-congelados-posso-dar-no-calor
-- ok | quais-petiscos-naturais-posso-dar-para-o-gato
+- REPROVADO | quais-petiscos-naturais-posso-dar-para-o-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] parágrafo acima de 130 palavras
-- ok | qual-a-melhor-racao-para-filhote-de-cachorro
+- REPROVADO | qual-a-melhor-racao-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quando-castrar-cachorro-filhote-idade-ideal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | quantas-vezes-por-dia-alimentar-gato
+- REPROVADO | quantas-vezes-por-dia-alimentar-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quantas-vezes-por-dia-o-cachorro-precisa-passear
     - [aviso] curto (833 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | quanto-de-racao-dar-para-gato-adulto-por-dia
-- ok | quanto-tempo-um-cachorro-pode-ficar-sozinho
+- REPROVADO | quanto-tempo-um-cachorro-pode-ficar-sozinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quantos-dias-o-gato-pode-ficar-sozinho-em-casa
-- ok | racao-para-filhote-de-cachorro
+- REPROVADO | racao-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-- ok | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
 - ok | vacinas-para-filhote-de-cachorro
 - ok | vermifugo-para-filhote-de-gato-quando-dar
-- ok | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
+- REPROVADO | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
