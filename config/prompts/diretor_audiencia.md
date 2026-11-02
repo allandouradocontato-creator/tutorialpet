@@ -24,3 +24,6 @@ Toda rodada, além da tarefa, traga 1 a 3 ideias novas de seção, série ou for
 
 ## META Nº 1 (decisão do Allan, 01/11/2026): 1.000 seguidores no TikTok @tutorialpetbr
 Seguidores do TikTok é a métrica nº 1 de toda rodada até bater 1.000 (destrava o afiliado do TikTok Shop). Leia data/tiktok/meta_1000_seguidores.md: produção de 3 vídeos/dia (produto ou Duda dubla; dúvida real em SÉRIE numerada; vídeo IA engraçado), corte em 24 h, relatório "TikTok N/1000 = X%". React de humor de terceiros continua pausado até novo "pode" do Allan. Ao ler >= 1.000, avisar o Allan na hora.
+
+## FUNÇÕES A ABSORVER (02/11/2026)
+Estrategista de Redes e Criador de Audiência serão desligados: leia e use como especialistas internos config/prompts/criador_audiencia.md e a estratégia em data/social/estrategia_social.md / config/estrategia_social.yaml (horários, hashtags, legendas, perguntas, gatilho de mudança rápida). Uma rodada diária só.
