@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Vermífugo para filhote de gato quando dar: guia prático",
-    "description": "Vermífugo para filhote de gato quando dar: guia prático. Dar o primeiro vermífugo para filhote de gato é uma das tarefas mais importantes para garantir...",
+    "description": "Vermífugo para filhote de gato quando dar: guia prático. Proteger a saúde do seu novo gatinho exige atenção especial ao calendário de desparasitação,...",
     "datePublished": "2026-11-02",
     "inLanguage": "pt-BR",
     "author": {
@@ -22,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Com que idade o filhote de gato pode tomar o primeiro vermífugo?",
+        "name": "Posso dar vermífugo caseiro para o filhote de gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média a partir das duas a três semanas de vida, sempre sob orientação do médico-veterinário.  - **Posso dar vermífugo de cachorro para gato filhote?**   Não. Muitos princípios ativos seguros para cachorros são extremamente tóxicos e fatais para gatos.  - **O filhote precisa repetir a dose do vermífugo?**   Sim, o reforço quinzenal nos primeiros meses é necessário para eliminar os parasitas que eclodem dos ovos após a primeira aplicação.  - **O gatinho pode tomar vacina e vermífugo no mesmo período?**   Geralmente o protocolo exige a eliminação dos vermes antes de iniciar as vacinas, para garantir que o sistema imunológico responda bem, mas o veterinário definirá o cronograma exato."
+          "text": "Não. Receitas caseiras não possuem eficácia comprovada contra parasitas e podem causar graves intoxicações no fígado do filhote.  * **O filhote pode tomar vermífugo e vacina no mesmo dia?** Depende da avaliação do médico-veterinário. Muitas vezes é necessário espaçar os procedimentos para não sobrecarregar o sistema imunológico do pet.  * **Gatos que moram em apartamento precisam tomar vermífugo?** Sim. Os ovos de parasitas podem ser trazidos da rua na sola dos sapatos do tutor ou através de insetos e plantas.  * **O que fazer se o filhote vomitar logo após receber o remédio?** Entre em contato imediatamente com o médico-veterinário para informar a quantidade que foi expelida e verificar a necessidade de uma nova dose."
         }
       }
     ]

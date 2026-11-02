@@ -1,4 +1,4 @@
-# Relatório do Curador do Blog — 02/11/2026 14:51
+# Relatório do Curador do Blog — 02/11/2026 16:11
 
 124 artigos auditados, 2 com problema bloqueante.
 
@@ -266,6 +266,5 @@
 - ok | sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
 - ok | vacinas-para-filhote-de-cachorro
 - ok | vermifugo-para-filhote-de-gato-quando-dar
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
