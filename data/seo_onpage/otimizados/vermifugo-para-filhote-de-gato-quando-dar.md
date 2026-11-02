@@ -38,6 +38,12 @@ sugestoes_links_internos:
   ancora_sugerida: como socializar filhote de gato
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/vermifugo-para-filhote-de-gato-quando-dar.jsonld.json
+imagem_capa: imagens/vermifugo-para-filhote-de-gato-quando-dar.jpg
+imagem_fonte: pexels
+imagem_fotografo: Nothing Ahead
+imagem_fotografo_url: https://www.pexels.com/@ian-panelo
+imagem_url_pagina: https://www.pexels.com/photo/adorable-calico-kitten-peeking-over-wooden-surface-35968047/
+imagem_selecionada_em: '2026-11-02T16:23:31+00:00'
 ---
 
 # Vermífugo para filhote de gato quando dar: guia prático

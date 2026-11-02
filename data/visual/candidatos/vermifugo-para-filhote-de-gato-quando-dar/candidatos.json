@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 6900232,
+    "url_download": "https://images.pexels.com/photos/6900232/pexels-photo-6900232.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-cute-kitten-6900232/",
+    "fotografo": "Abdullah Ali Mansour",
+    "fotografo_url": "https://www.pexels.com/@abdullah-ali-mansour-2020362",
+    "largura": 8256,
+    "altura": 5504,
+    "query": "cute kitten white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/vermifugo-para-filhote-de-gato-quando-dar/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 21047223,
+    "url_download": "https://images.pexels.com/photos/21047223/pexels-photo-21047223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/kittens-lying-on-a-soft-duvet-21047223/",
+    "fotografo": "Beyzaa",
+    "fotografo_url": "https://www.pexels.com/@beyzaa-279977530",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "cute kitten white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/vermifugo-para-filhote-de-gato-quando-dar/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3907099,
+    "url_download": "https://images.pexels.com/photos/3907099/pexels-photo-3907099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-and-black-kittens-lying-on-pink-and-white-textile-3907099/",
+    "fotografo": "Emila Yusof",
+    "fotografo_url": "https://www.pexels.com/@emilayusof",
+    "largura": 4928,
+    "altura": 3264,
+    "query": "cute kitten white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/vermifugo-para-filhote-de-gato-quando-dar/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16804387,
+    "url_download": "https://images.pexels.com/photos/16804387/pexels-photo-16804387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-cat-head-16804387/",
+    "fotografo": "Rodion Kutsaiev",
+    "fotografo_url": "https://www.pexels.com/@frostroomhead",
+    "largura": 4222,
+    "altura": 2814,
+    "query": "cute kitten white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/vermifugo-para-filhote-de-gato-quando-dar/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11568560,
+    "url_download": "https://images.pexels.com/photos/11568560/pexels-photo-11568560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-and-black-cat-on-gray-textile-11568560/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 3000,
+    "altura": 2004,
+    "query": "cute kitten white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/vermifugo-para-filhote-de-gato-quando-dar/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35968047,
+    "url_download": "https://images.pexels.com/photos/35968047/pexels-photo-35968047.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-calico-kitten-peeking-over-wooden-surface-35968047/",
+    "fotografo": "Nothing Ahead",
+    "fotografo_url": "https://www.pexels.com/@ian-panelo",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "small kitten close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/vermifugo-para-filhote-de-gato-quando-dar/5.jpg"
+  }
+]
