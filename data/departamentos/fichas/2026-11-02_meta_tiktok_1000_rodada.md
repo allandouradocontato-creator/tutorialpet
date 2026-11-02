@@ -1,0 +1,12 @@
+# FICHA — Campanha de audiência da semana (rodada 02/11 09:30 Fortaleza): META Nº 1 TikTok 1.000
+- Departamento / Diretor / data-hora: Audiência e Redes / Diretor de Audiência / 2026-11-02 09:30
+- Objetivo: TikTok @tutorialpetbr 1.000 seguidores (destrava afiliado TikTok Shop). Último valor lido: 21 (24/10) = 2,1%. HOJE: sem dado novo (Zernio não tem TikTok; Buffer/Studio sem leitura nesta rodada).
+- Estado real (Zernio 02/11): FB 10 (parado desde 31/10), IG 2 (parado desde 01/11, 95 posts). Comentário de terceiro: 0 confirmado (commentCount=1 em vários posts é provavelmente o 1º comentário próprio com link; não conferido). DM 0, contatos ManyChat 0.
+- Pareceres: Estrategista/Criador (absorvidos, estratégia_social): horários/pergunta binária mantidos, sem parecer novo. Decifrador: sem leitura TikTok 24 h. Atendente: sem parecer. Humorista/Utilidade Pública: ideias abaixo.
+- Divergências: Meta nº 1 (TikTok) x isca "Pode ou Não Pode" (FB/IG). Decido: TikTok é prioridade; isca segue como apoio (DM do TikTok), mas NÃO bloqueia a produção.
+- DECISÃO: (1) 3 vídeos/dia no TikTok conforme data/tiktok/meta_1000_seguidores.md; (2) toda legenda TikTok termina com CTA de seguir falado e escrito + @vetnatasha; (3) FB/IG continuam como espelho, mas link só no 1º comentário (E169); (4) falta de leitura do TikTok é o gargalo: sem número não há corte em 24 h.
+- Textos: sem texto novo ao público nesta rodada (nada vai ao ar sem ficha de texto).
+- Métrica/gatilho: GANHOU = >= +3 seguidores TikTok/dia por 3 dias; NEUTRO se n<3 posts lidos; PERDEU = ritmo < 80% do necessário (~33/dia para 1.000 em 30 dias) -> cortar o formato pior no mesmo dia (regra_mudanca_rapida).
+- Ações: E178, E179, E180 em execucao.md.
+- Pedido ao Allan: nenhum (se o Buffer não der leitura em 1 dia, avisar com solução: ele abre TikTok Studio no Chrome já logado).
+- Status: aprovada.

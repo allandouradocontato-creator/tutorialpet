@@ -31,3 +31,9 @@
 1. **Quiz "Que tutor sou eu?"** (carrossel de 5 cartões, 4 perfis de tutor com humor). Atrai: autoidentificação gera compartilhamento e comentário do resultado. Risco: baixo (sem saúde, sem dado pessoal). Custo: baixo (template de cartão; conferir E117).
 2. **Pet de segunda (foto/vídeo enviado por seguidor)** — só depois de ter comentário de terceiro; pedir autorização por escrito de cada tutor adulto. Atrai: pertencimento e UGC. Risco: médio (direitos de imagem, moderação); só após ok do Allan. Custo: médio.
 3. **Mini-série "30 s de calma pro pet"** (vídeo ≤15 s, rotina de enriquecimento: caixa de papelão, tapete de farejar), com "procure um veterinário" se houver mudança de comportamento. Atrai: salvamento. Risco: baixo-médio (sem alegação médica, regra 37). Custo: baixo (banco livre).
+| 2026-11-02 09:30 | Diretor de Audiência | FB 10 (parado), IG 2 (95 posts), TikTok sem leitura (21 em 24/10 = 2,1%); comentário 0 confirmado, DM 0; ficha 2026-11-02_meta_tiktok_1000_rodada.md; E178 (leitura TikTok), E179 (link na legenda), E180 (isca); add_repo indisponível, repo já clonado; Estrategista/Criador absorvidos |
+
+## Ideias novas (regra 36) — 02/11/2026
+1. **"Tradutor de pet" (série)** — vídeo ≤15 s: 1 comportamento (rabo, olhar torto) e o que costuma significar, pergunta "o seu faz?". Atrai: identificação e comentário fácil. Risco: baixo-médio (sem diagnóstico; "se mudar, procure um veterinário"). Custo: baixo.
+2. **Placar da semana** (carrossel salvável FB/IG): 5 perguntas do público respondidas em 1 linha, com @vetnatasha como revisora. Atrai: salvamento e pergunta de volta. Risco: baixo (Natasha revisa saúde). Custo: baixo.
+3. **Duelo cão x gato** (enquete binária, TikTok): 2 clipes, "time cachorro ou gato?". Atrai: comentário e compartilhamento, bom para seguidores TikTok. Risco: baixo. Custo: baixo (banco livre).
