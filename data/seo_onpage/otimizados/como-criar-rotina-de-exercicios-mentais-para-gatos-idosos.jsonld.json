@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como criar rotina de exercicios mentais para gatos idosos: guia prático",
-    "description": "Como criar rotina de exercicios mentais para gatos idosos: guia prático. Manter o cérebro do felino ativo na terceira idade é essencial para preservar...",
+    "description": "Como criar rotina de exercicios mentais para gatos idosos: guia prático. Manter o cérebro ativo na fase sênior é tão importante quanto cuidar das...",
     "datePublished": "2026-10-25",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,34 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Com que idade um gato é considerado idoso para começar esses exercícios?",
+        "name": "Com qual idade o gato passa a ser considerado idoso?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, os gatos passam a ser considerados sênior ou idosos a partir dos sete a dez anos de vida, momento ideal para adaptar a rotina preventiva."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Meu gato idoso passa o dia todo dormindo. Devo acordá-lo para brincar?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não. O ideal é aproveitar os momentos em que ele já demonstra sinais naturais de vigília para propor os desafios mentais de forma leve."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso usar qualquer tipo de petisco nos quebra-cabeças mentais?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Prefira petiscos saudáveis, aromáticos e em pedaços bem pequenos para não desbalancear a dieta diária nem sobrecarregar o sistema digestivo do animal."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O que fazer se o gato ignorar completamente o brinquedo interativo?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Facilite o acesso deixando o alimento à mostra e reduza a dificuldade. Gatos idosos podem perder o interesse rapidamente se o desafio parecer frustrante demais."
+          "text": "Em média, os gatos entram na fase sênior por volta dos 7 a 10 anos de idade, dependendo da raça e do estilo de vida. Confirme sempre com o médico-veterinário do pet.  * **O que fazer se o meu gato idoso ignorar os brinquedos novos?**   Gatos mais velhos são resistentes a mudanças; introduza os novos estímulos bem devagar, misturando com itens que ele já conhece e gosta.  * **Quanto tempo deve durar cada sessão de exercício mental?**   Costuma ser ideal fazer sessões curtas de 3 a 5 minutos, duas vezes ao dia, para não cansar o animal nem causar dores nas articulações."
         }
       }
     ]

@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Gato arranhando o sofá",
-    "description": "Gato arranhando o sofá. Ver o seu móvel favorito virando alvo das garras do felino é um dos maiores sustos para quem acabou de adotar. A boa notícia é...",
+    "description": "Gato arranhando o sofá. Ver o seu móvel favorito virar alvo das garras do pet costuma gerar frustração e muitas dúvidas. Afinal, por que os felinos...",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/gato-arranhando-o-sofa"
-    },
-    "image": "https://tutorialpet.com.br/imagens/gato-arranhando-o-sofa.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Por que o gato ignora o arranhador novo?",
+        "name": "Por que meu gato prefere o sofá em vez do arranhador que comprei?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pode ser pelo tamanho inadequado, instabilidade ou localização ruim. Gatos preferem locais estratégicos e de grande circulação.  *   **Posso borrifar vinagre ou limão no sofá?**     Odores fortes podem afastar o gato temporariamente, mas não resolvem a causa raiz e podem apenas fazê-lo procurar outro móvel.  *   **Como proteger o sofá enquanto o gato aprende?**     Use capas protetoras de tecido liso, fitas dupla face próprias para pets ou mantas grossas que não facilitem a enfiada de unhas.  *   **Cortar as unhas do gato resolve o problema?**     Ajuda a diminuir os danos físicos, mas não elimina a necessidade instintiva de arranhar. O arranhador continua sendo obrigatório."
+          "text": "O sofá oferece firmeza, tamanho ideal para o corpo dele se espreguiçar e fica em uma área de destaque na casa. Se o arranhador for frágil ou estiver escondido, ele será ignorado.  * **Posso cortar as unhas do gato para evitar estragos na mobília?** Sim, aparar as pontinhas das unhas com cuidado reduz os danos, mas não elimina a necessidade natural de arranhar. Faça isso com tesouras próprias e consulte um profissional se tiver dúvidas.  * **Repreender o gato funciona para fazê-lo parar de arranhar?** Não. Brigar só ensina o pet a ter medo de você ou a arranhar escondido quando a casa estiver vazia. O correto é oferecer opções melhores e bloquear o acesso ao móvel.  * **O que fazer se o gato continuar ignorando o novo arranhador?** Mude o objeto de lugar, escolha uma textura diferente como papelão ou carpete, e use atrativos naturais para estimular o interesse do felino de forma positiva."
         }
       }
     ]

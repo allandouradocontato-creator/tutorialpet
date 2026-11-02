@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 02/11/2026 10:43
+# Relatório do Curador do Blog — 02/11/2026 14:51
 
-123 artigos auditados, 2 com problema bloqueante.
+124 artigos auditados, 2 com problema bloqueante.
 
 - ok | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
     - [aviso] título com 92 caracteres (ideal até 70)
@@ -61,8 +61,7 @@
 - ok | como-cortar-unha-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-criar-rotina-de-exercicios-mentais-para-gatos-idosos
-    - [aviso] curto (865 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] curto (840 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] título com 71 caracteres (ideal até 70)
 - ok | como-criar-rotina-de-exercicios-para-caes-braquicefalicos-no-calor
     - [aviso] título com 75 caracteres (ideal até 70)
@@ -199,7 +198,7 @@
 - ok | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | gato-arranhando-o-sofa
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [aviso] curto (878 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
 - ok | gato-pode-comer-atum
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar
@@ -266,5 +265,7 @@
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
 - ok | vacinas-para-filhote-de-cachorro
+- ok | vermifugo-para-filhote-de-gato-quando-dar
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)

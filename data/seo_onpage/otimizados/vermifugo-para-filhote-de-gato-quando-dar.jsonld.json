@@ -1,0 +1,33 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Vermífugo para filhote de gato quando dar: guia prático",
+    "description": "Vermífugo para filhote de gato quando dar: guia prático. Dar o primeiro vermífugo para filhote de gato é uma das tarefas mais importantes para garantir...",
+    "datePublished": "2026-11-02",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/vermifugo-para-filhote-de-gato-quando-dar",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/vermifugo-para-filhote-de-gato-quando-dar"
+    }
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Com que idade o filhote de gato pode tomar o primeiro vermífugo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média a partir das duas a três semanas de vida, sempre sob orientação do médico-veterinário.  - **Posso dar vermífugo de cachorro para gato filhote?**   Não. Muitos princípios ativos seguros para cachorros são extremamente tóxicos e fatais para gatos.  - **O filhote precisa repetir a dose do vermífugo?**   Sim, o reforço quinzenal nos primeiros meses é necessário para eliminar os parasitas que eclodem dos ovos após a primeira aplicação.  - **O gatinho pode tomar vacina e vermífugo no mesmo período?**   Geralmente o protocolo exige a eliminação dos vermes antes de iniciar as vacinas, para garantir que o sistema imunológico responda bem, mas o veterinário definirá o cronograma exato."
+        }
+      }
+    ]
+  }
+}
