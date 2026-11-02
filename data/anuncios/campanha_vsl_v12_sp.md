@@ -191,3 +191,10 @@ Totais: gasto R$ 93,79 (ad) / 94,26 (posicionamento e região; 01/11 parcial dif
 - Anúncios novos ATIVOS no conjunto 120253418313330134 (mesma copy/link, utm_content=vslb_v4_a/b/c): A 120253446194900134 · B 120253446195190134 · C 120253446195720134.
 - Pausados (versão de 64 s): 120253445600410134, 120253445600710134, 120253445601180134. Controle 120253418315150134 segue ATIVO. Orçamento inalterado (R$ 30/dia, fim 03/11).
 - Pendente: confirmar saída de "Em processamento"; rótulo de IA se o Meta pedir; leitura 02/11 09:34; Kiwify (vendas) ainda não conferida.
+
+## 01/11/2026 21:55 — Checkout Kiwify (NcQChat) encurtado e com autoridade (autorizado pelo Allan: "sim"; Natasha liberou nome, CRMV e @)
+- Diagnóstico no celular (375x812): formulário só começava a 968 px (1,2 telas), Pix/Cartão a 1.228 px e "Pagar agora" a 1.609 px; primeira tela era só lista de 7 itens + título grande.
+- Alterado no Checkout Builder (layouts DESKTOP e MOBILE são separados — editar os dois): lista de 7 para 5 itens (manual+app+diário, acesso vitalício, garantia 14 dias, 2 bônus, "Revisado pela médica veterinária Natasha Braga (CRMV 6174) · @vetnatasha"); título do mobile encurtado ("Falta 1 passo para seu cachorrinho ficar tranquilo. Só R$ 27, pagamento único.").
+- Resultado mobile: campo Nome 968→662 px (dentro da 1ª tela), Pix 1.228→922, "Pagar agora" 1.609→1.303, página 1.913→1.606.
+- Pendente/ideias: Pix como método padrão (Kiwify mostra Cartão primeiro; não achei opção — conferir com suporte/Configurações); selo de garantia gráfico; cronômetro só com prazo real; order bump só depois de haver vendas. Agente recuperador de vendas da Kiwify já existe (contato em até 30 min).
+- Lição: no Kiwify Checkout Builder, salvar no layout desktop não muda o celular (tráfego do anúncio); sempre conferir o checkout público em 375 px.
