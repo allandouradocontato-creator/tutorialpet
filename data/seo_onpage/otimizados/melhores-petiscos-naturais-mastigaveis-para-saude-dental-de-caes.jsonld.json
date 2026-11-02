@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Melhores petiscos naturais mastigáveis para saúde dental de cachorros: guia prático",
-    "description": "Melhores petiscos naturais mastigáveis para saúde dental de cachorros: guia prático. > Este conteúdo é informativo e não substitui a consulta com um...",
+    "headline": "Melhores petiscos naturais mastigáveis para saúde dental de cachorros",
+    "description": "Melhores petiscos naturais mastigáveis para saúde dental de cachorros. A formação de placa bacteriana e o acúmulo de tártaro afetam a grande maioria...",
     "datePublished": "2026-10-24",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes"
-    },
-    "image": "https://tutorialpet.com.br/imagens/melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Cachorros filhotes podem comer petiscos mastigáveis duros?",
+        "name": "Os petiscos mastigáveis naturais substituem totalmente a escovação dentária?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, filhotes com dentes de leite não devem consumir itens muito duros para não machucar a gengiva ou quebrar os dentes em formação; prefira opções macias ou específicas para a idade.  - **Com que frequência devo oferecer petiscos mastigáveis?**   Costuma ser seguro oferecer de duas a três vezes por semana, controlando as calorias diárias para evitar o ganho de peso do animal.  - **Ossos naturais cozidos são seguros para os dentes?**   Não. Ossos cozidos estilhaçam com facilidade e podem perfurar o trato digestivo ou causar sérios danos à boca do cachorro.  - **Como saber se o petisco está fazendo mal ao estômago do cachorro?**   Fique atento a sinais como vômitos, diarreia ou apatia após o consumo; caso ocorram, suspenda o petisco e consulte o médico-veterinário."
+          "text": "Não. Eles são complementos muito eficientes no controle da placa diária, mas a escovação manual com pasta veterinária continua sendo o padrão ouro para alcançar a linha subgengival."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Filhotes podem roer mastigáveis desidratados?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que com peças adequadas à idade. Filhotes em troca de dentição (costuma ocorrer entre 4 e 6 meses) se beneficiam de itens mais macios, como esôfagos trançados e tendões maleáveis, aliviando a coceira nas gengivas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência posso oferecer mastigáveis funcionais ao pet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, de 2 a 3 vezes por semana para manutenção de higiene bucal. Sempre consulte o médico-veterinário para alinhar a frequência com a dieta e o gasto calórico do seu amigo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ossos naturais de açougue cozidos servem para limpar dentes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nunca dê ossos cozidos. O cozimento altera a estrutura do colágeno e torna o osso quebradiço, facilitando estilhaços que perfuram o trato digestivo do pet. Apenas ossos crus recreativos e adequados ao porte podem ser avaliados."
         }
       }
     ]

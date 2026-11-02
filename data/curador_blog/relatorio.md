@@ -1,4 +1,4 @@
-# Relatório do Curador do Blog — 01/11/2026 22:41
+# Relatório do Curador do Blog — 02/11/2026 10:43
 
 123 artigos auditados, 2 com problema bloqueante.
 
@@ -46,7 +46,6 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] parágrafo acima de 130 palavras
 - ok | como-adaptar-a-casa-para-um-cachorro-idoso
-    - [aviso] curto (824 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-adaptar-a-rotina-da-casa-para-caes-e-gatos-seniores
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -125,7 +124,6 @@
 - ok | como-evitar-choque-termico-em-cachorros-nos-dias-quentes
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-evitar-que-o-filhote-chore-a-noite
-    - [aviso] curto (819 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
 - ok | como-fazer-cachorro-idoso-aceitar-um-filhote-novo
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -213,9 +211,7 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 78 caracteres (ideal até 70)
 - ok | melhores-petiscos-naturais-mastigaveis-para-saude-dental-de-caes
-    - [aviso] curto (779 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [aviso] título com 83 caracteres (ideal até 70)
 - ok | melhores-tipos-de-comedouros-slow-feed-para-caes-ansiosos
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 76 caracteres (ideal até 70)
