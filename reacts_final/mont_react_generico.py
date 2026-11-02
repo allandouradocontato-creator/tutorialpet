@@ -19,7 +19,7 @@ COVER = os.environ.get("COVER")  # "x:y:w:h" caixa para cobrir texto do original
 vf0 = "[0:v]scale=1080:1920,fps=30,format=yuv420p,setsar=1" + (f",drawbox={COVER.replace(':',':',3)}:color=black@0.92:t=fill" if False else "")
 fc = [vf0 + "[vv]"]; cur = "vv"; j = 0
 if COVER:
-    x,y,w_,h_ = COVER.split(":"); fc[0] = vf0 + f",drawbox=x={x}:y={y}:w={w_}:h={h_}:color=black@0.95:t=fill[vv]"
+    x,y,w_,h_ = COVER.split(":"); fc[0] = vf0 + f",drawbox=x={x}:y={y}:w={w_}:h={h_}:color=black@1:t=fill:enable='gte(t,3.4)'[vv]"
 for i,(c,bl) in enumerate(S):
     seg = ds[i]/len(bl)
     for q,b in enumerate(bl):
