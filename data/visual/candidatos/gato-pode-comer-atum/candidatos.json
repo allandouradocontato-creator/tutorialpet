@@ -1,0 +1,67 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7790677,
+    "url_download": "https://images.pexels.com/photos/7790677/pexels-photo-7790677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-cat-on-yellow-background-7790677/",
+    "fotografo": "Ivan Babydov",
+    "fotografo_url": "https://www.pexels.com/@babydov",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cat close up isolated background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/gato-pode-comer-atum/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7254591,
+    "url_download": "https://images.pexels.com/photos/7254591/pexels-photo-7254591.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-tabby-cat-7254591/",
+    "fotografo": "dio arapogiannis",
+    "fotografo_url": "https://www.pexels.com/@dio-arapogiannis-40036220",
+    "largura": 2528,
+    "altura": 1688,
+    "query": "cat close up isolated background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/gato-pode-comer-atum/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36639147,
+    "url_download": "https://images.pexels.com/photos/36639147/pexels-photo-36639147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-domestic-cat-staring-36639147/",
+    "fotografo": "Jeffry Surianto",
+    "fotografo_url": "https://www.pexels.com/@andromeda99",
+    "largura": 5000,
+    "altura": 3333,
+    "query": "cat close up isolated background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/gato-pode-comer-atum/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37143684,
+    "url_download": "https://images.pexels.com/photos/37143684/pexels-photo-37143684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-cat-s-face-with-focus-on-fur-and-eyes-37143684/",
+    "fotografo": "Reinis Brūzītis",
+    "fotografo_url": "https://www.pexels.com/@reinis-bruzitis-2153679369",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cat close up isolated background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/gato-pode-comer-atum/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12842868,
+    "url_download": "https://images.pexels.com/photos/12842868/pexels-photo-12842868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photo-of-a-tabby-cat-12842868/",
+    "fotografo": "Mert aslan",
+    "fotografo_url": "https://www.pexels.com/@gezginfoto",
+    "largura": 4928,
+    "altura": 3264,
+    "query": "cat close up isolated background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/gato-pode-comer-atum/4.jpg"
+  }
+]
