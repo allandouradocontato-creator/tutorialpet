@@ -11,7 +11,9 @@ def main():
     out = Path(sys.argv[1]); out.mkdir(parents=True, exist_ok=True); n = int(sys.argv[2]) if len(sys.argv) > 2 else 2
     key = os.environ["PEXELS_API_KEY"].strip(); idx = []
     for q in Q:
-        d = get("https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": q, "per_page": 12, "orientation": "portrait"}), key)
+        try: d = get("https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": q, "per_page": 12, "orientation": "portrait"}), key)
+        except Exception as e:
+            print("busca falhou", q, e); continue
         got = 0
         for v in d.get("videos", []):
             if got >= n: break
@@ -20,7 +22,10 @@ def main():
             if not fs: continue
             f = sorted(fs, key=lambda x: x["height"])[0]
             p = out / f"{q.replace(' ', '_')}_{v['id']}.mp4"
-            urllib.request.urlretrieve(f["link"], p)
+            try:
+                rq = urllib.request.Request(f["link"], headers={"User-Agent": "Mozilla/5.0 tutorialpet"}); p.write_bytes(urllib.request.urlopen(rq, timeout=90).read())
+            except Exception as e:
+                print("falhou", v["id"], e); continue
             idx.append({"busca": q, "id": v["id"], "arquivo": p.name, "dur": v["duration"], "autor": v["user"]["name"], "url": v["url"], "altura": f["height"]}); got += 1
     (out / "indice.json").write_text(json.dumps(idx, ensure_ascii=False, indent=1), encoding="utf-8"); print(len(idx), "clipes")
 main()
