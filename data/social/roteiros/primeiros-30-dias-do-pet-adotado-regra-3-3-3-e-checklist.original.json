@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Regra 3-3-3: O Guia de Adaptação do Pet Adotado",
+  "gancho_3s": "Acabou de adotar um pet e não sabe o que fazer nos primeiros dias?",
+  "cenas": [
+    {
+      "narracao": "A adaptação do novo pet tem um segredo: entender a regra 3-3-3 para evitar desespero e respeitar o tempo dele.",
+      "visual_busca_banco_livre": "dog looking around timidly indoor",
+      "texto_na_tela": "Conheça a regra 3-3-3"
+    },
+    {
+      "narracao": "Nos primeiros 3 dias, o pet está assustado e estressado. Dê espaço, evite visitas e deixe-o em um cômodo calmo.",
+      "visual_busca_banco_livre": "dog hiding under bed anxious",
+      "texto_na_tela": "3 dias de descompressão"
+    },
+    {
+      "narracao": "Nas primeiras 3 semanas, ele entende a rotina e a verdadeira personalidade começa a aparecer. Mantenha horários fixos.",
+      "visual_busca_banco_livre": "dog eating food from bowl close up",
+      "texto_na_tela": "3 semanas de rotina"
+    },
+    {
+      "narracao": "Aos 3 meses, o pet já absorveu a dinâmica da família, confia plenamente em você e sente que finalmente está em seu lar.",
+      "visual_busca_banco_livre": "dog relaxing calmly on living room floor",
+      "texto_na_tela": "3 meses de pertencimento"
+    },
+    {
+      "narracao": "Antes de ele chegar, prepare um enxoval básico com comedouros, ração adequada, área de descanso e itens de segurança.",
+      "visual_busca_banco_livre": "dog bed and bowls indoor",
+      "texto_na_tela": "Checklist básico"
+    }
+  ],
+  "chamada_final": "Em caso de dúvidas na saúde do pet, consulte sempre um veterinário.",
+  "hashtags": [
+    "#adocaodepet",
+    "#regra333",
+    "#cachorro",
+    "#gato",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nAcabou de adotar um pet e não sabe o que fazer nos primeiros dias?\n\n📖 Artigo completo: https://tutorialpet.com.br/primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist\n\n#adocaodepet #regra333 #cachorro #gato #dicapet",
+  "slug": "primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist"
+}
