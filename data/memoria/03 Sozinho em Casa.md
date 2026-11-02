@@ -5,3 +5,4 @@
 - Política de privacidade e página de obrigado publicadas; identidade Kiwify verificada em 08/10/2026.
 - Empresa: Dourado Falcão Educação Corporativa LTDA.
 - Repositório: allandouradocontato-creator/sozinho-em-casa-app
+- (01/11/2026) Funil melhorado: checkout com selo GARANTIA 14 DIAS + cartão da Dra. Natasha + linha do Pix; landing com selo de compra segura/garantia sob os botões (commit 85d4aeb no repo sozinho-em-casa-app). VSL B v4 <60 s no ar (3 anúncios). Leitura em 02/11 09:34: checkouts iniciados x compras.
