@@ -1,0 +1,22 @@
+name: Clipes Pexels do escova (cachorro peludo rastafari)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  clipes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python3 scripts/clipes_escova1.py out 2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clipes-escova1
+          path: out
+          retention-days: 3
