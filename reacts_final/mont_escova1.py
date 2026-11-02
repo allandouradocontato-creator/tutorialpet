@@ -44,11 +44,11 @@ n = len(S); ns = k
 ins += ["-i", STAMP]
 fc.append(f"[{ns}:v]scale=170:-1[stmp];[{cur}][stmp]overlay=W-w-30:H-h-30[vout]")
 for c,_,_ in S: ins += ["-i", f"{V}/voz_{c}.mp3"]
-ins += ["-stream_loop","-1","-ss","12","-i",MUS]
+ins += ["-stream_loop","-1","-ss","22","-i",MUS]
 a = [f"[{ns+1+i}:a]adelay={int(starts[i]*1000)}|{int(starts[i]*1000)},volume=1.3[a{i}]" for i in range(n)]
-a.append(f"[{ns+1+n}:a]volume=0.6,atrim=0:{T:.2f},afade=t=in:st=0:d=0.5[mu]")
+a.append(f"[{ns+1+n}:a]volume=0.9,atrim=0:{T:.2f},afade=t=in:st=0:d=0.5[mu]")
 a.append("".join(f"[a{i}]" for i in range(n)) + f"amix=inputs={n}:duration=longest:normalize=0[vz];[vz]asplit[vz1][vz2]")
-a.append("[mu][vz1]sidechaincompress=threshold=0.02:ratio=10:attack=15:release=400[mud]")
+a.append("[mu][vz1]sidechaincompress=threshold=0.02:ratio=5:attack=15:release=400[mud]")
 a.append(f"[vz2][mud]amix=inputs=2:duration=longest:normalize=0,atrim=0:{T:.2f},loudnorm=I=-14:TP=-1.5:LRA=11,aformat=sample_rates=48000:channel_layouts=stereo[aout]")
 out = f"{OUT}/escova_rastafari_v2.mp4"
 subprocess.run(["ffmpeg","-loglevel","error","-y"]+ins+["-filter_complex",";".join(fc+a),"-map","[vout]","-map","[aout]","-t",f"{T:.2f}","-c:v","libx264","-preset","veryfast","-b:v","1300k","-maxrate","1600k","-bufsize","3000k","-c:a","aac","-b:a","96k","-movflags","+faststart",out],check=True)
