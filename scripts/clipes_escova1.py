@@ -3,7 +3,7 @@
 Baixa preferindo retrato (altura>largura), HD, 5-20 s; grava out/<busca>_<id>.mp4 e out/indice.json (credito do autor)."""
 import os, sys, json, urllib.request, urllib.parse
 from pathlib import Path
-Q = ["shaggy dog", "messy fluffy dog", "long haired dog", "dog shaking off water", "dog grooming brush", "funny dog hair", "dog after bath towel"]
+Q = ["dog blow drying", "dog grooming salon", "fluffy puppy", "shih tzu", "poodle grooming", "dog brushing fur", "golden retriever fur", "dog bath tub", "dog hair wind", "dog shaking fur"]
 def get(url, key):
     r = urllib.request.Request(url, headers={"Authorization": key, "User-Agent": "tutorialpet/1.0"})
     return json.load(urllib.request.urlopen(r, timeout=40))
