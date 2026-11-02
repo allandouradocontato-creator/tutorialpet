@@ -183,3 +183,11 @@ Totais: gasto R$ 93,79 (ad) / 94,26 (posicionamento e região; 01/11 parcial dif
 - 3 anúncios novos no conjunto 120253418313330134 (mulheres 25-54, R$ 30/dia, fim 03/11 23:59, orçamento inalterado), criados ATIVOS: A 120253445600410134 (utm_content=vslb_v3_a) · B 120253445600710134 (vslb_v3_b) · C 120253445601180134 (vslb_v3_c). Copy do anúncio C atual (acesso vitalício), título "Plano de 14 dias com app · R$ 27", botão Comprar agora. Anúncio 120253418315150134 (v13) continua ATIVO como controle.
 - Gerenciador às 19:50: os 3 novos "Em processamento" (entram em revisão do Meta); Windsor ainda não mostra (cache). NÃO feito: rótulo "conteúdo gerado por IA" (create_ad não tem esse campo) — marcar no Gerenciador se o Meta pedir.
 - Leitura: retenção (ThruPlay/75%), CTR e checkout por anúncio — hoje à noite e 02/11 09:34.
+
+## 01/11/2026 21:10 — VSL B v4 (menos de 1 min) substitui os testes v3 (Sonnet 5.5, autorizado pelo Allan: "vamos subir para a campanha")
+- Motivo: Meta/Facebook favorece vídeo com menos de 1 min (+32% de visualização, notificação recebida pelo Allan) e o anúncio estava com 64 s. Corte aprovado: sai "e ouve / isso é desespero / não é cuidado" (emenda direto em "Dica solta não funciona"), "Vem aprender hoje" e "Recebe no email agora" ficaram no corte de 59,8 s com cortes de silêncio; voz sem acelerar.
+- Durações finais: A 59,8 s · B 59,3 s · C 59,6 s; −14 LUFS, pico ≤ −2 dB; 25 MB cada. Salvos em C:\Users\allan\Downloads\VSL_Sozinho_em_Casa\ (vsl_B_v3_{A_voce_e_preguicosa,B_devolve,C_piorando}.mp4).
+- Hospedagem: branch `media-vsl-v4` (anuncios/...). Vídeos Meta: A 1116859234316239 · B 1171334032531621 · C 1508752391086206.
+- Anúncios novos ATIVOS no conjunto 120253418313330134 (mesma copy/link, utm_content=vslb_v4_a/b/c): A 120253446194900134 · B 120253446195190134 · C 120253446195720134.
+- Pausados (versão de 64 s): 120253445600410134, 120253445600710134, 120253445601180134. Controle 120253418315150134 segue ATIVO. Orçamento inalterado (R$ 30/dia, fim 03/11).
+- Pendente: confirmar saída de "Em processamento"; rótulo de IA se o Meta pedir; leitura 02/11 09:34; Kiwify (vendas) ainda não conferida.
