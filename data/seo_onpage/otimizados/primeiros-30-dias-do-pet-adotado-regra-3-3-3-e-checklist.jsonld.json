@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Primeiros 30 dias do pet adotado: regra 3-3-3 e checklist: guia prático",
+    "description": "Primeiros 30 dias do pet adotado: regra 3-3-3 e checklist: guia prático. Você acabou de buscar o seu novo melhor amigo na ONG ou no abrigo, trouxe ele...",
+    "datePublished": "2026-11-02",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist"
+    },
+    "image": "https://tutorialpet.com.br/imagens/primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O pet pode estranhar a ração nova nos primeiros dias?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, mudanças bruscas no cardápio costumam causar problemas estomacais. O ideal é manter a mesma comida dos primeiros dias e, depois, fazer a troca gradual misturando os grãos antigos com os novos ao longo de uma semana."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo dar banho no pet logo no primeiro dia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A menos que ele esteja extremamente sujo ou com cheiro muito forte, o melhor é esperar alguns dias. O banho é um processo estressante que envolve cheiros novos, barulho de secador e manipulação intensa, o que pode piorar a ansiedade na chegada."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se o comportamento do pet é timidez normal ou medo patológico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A timidez normal diminui gradualmente ao longo dos primeiros dias com petiscos e paciência. Se o animal passar semanas tremendo sem parar, recusar totalmente a água por mais de 24 horas ou apresentar agressividade extrema por medo, procure orientação de um médico-veterinário ou de um profissional especializado em comportamento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso deixar o pet solto pela casa inteira no dia em que ele chega?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendado. O ideal é restringir o acesso a um ou dois cômodos no começo para facilitar a adaptação, o aprendizado do local correto de fazer as necessidades e evitar que o animal se sinta perdido em um território muito grande."
+        }
+      }
+    ]
+  }
+}
