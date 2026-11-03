@@ -1,0 +1,30 @@
+{
+  "slug": "adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce",
+  "status": "aprovado",
+  "criado_em": "2026-11-03T17:24:27+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "14 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (gr0za-happy-happy-music-569345.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_dor)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-11-03T17:25:44+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)"
+}
