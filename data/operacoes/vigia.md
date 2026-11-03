@@ -1,13 +1,12 @@
-Dados até 2026-11-02 19:25 (Fortaleza)
-Número do dia: rotinas falhando ou suspensas por erro = 0 (desligadas por ordem do Allan 02/11, E177). CORRIGI: 1 | PRECISO DO ALLAN: 0
+Dados até 2026-11-03 07:25 (Fortaleza)
+Número do dia: rotinas falhando ou suspensas por erro = 0 (desligadas por ordem do Allan 02/11). CORRIGI: 1 | PRECISO DO ALLAN: 0
 | rotina | estado | último run | idade do último resultado | problema | correção |
 |---|---|---|---|---|---|
-| Rotinas ativas (1+1, Diretores Op/Cont/Prod/Aud, Medidor, Auditor Anúncios, Agendador, Segurança, Vigia + lembretes) | ok | todas SUCCEEDED, next_run futuro | <=22 h | nenhuma falha | - |
-| fabrica.yml | verde | #41512554603 19:43Z | ~2,6 h | cron 06h segue sem rodar (dispatch cobre) | - |
-| publicar_blog.yml | verde | push #41428320519 10:22Z | ~12 h | issue #42 aberta (sanada) | proxy nega fechar |
-| reforco_blog.yml | rodando | #41536683165 (dispatch 22:22Z, slug gato-pode-comer-atum) | - | atum no ar SEM Fontes (conferido ao vivo e em site/build; ronda das 15:19 errou ao dar como ok) | dispatch com slugs; conferir na próxima ronda (E34) |
-| Blog hoje | 1/1 | artigo 02/11 no ar | ~12 h | - | ok |
-| AdSense | FALHA: atum sem Fontes (em correção) + buraco 15/09-06/10 (irrecuperável) | - | - | - | reforço em curso |
-| Zernio FB/IG | 8 failed antigos (mídia 422), nenhum novo; 10 agendados | - | agendados até 03/11+ | - | ficha E151 existente |
-| Buffer TikTok/FB/IG | 0 erro; 9 agendados até 05/11 13:20Z | - | estoque >2 dias | - | Agendador cobre |
-| Issues abertas | #42 e antigas #14-#41 (sanadas) | - | - | - | Allan/Executor fecha |
+| Rotinas ativas (1+1, Diretores Op/Aud/Prod/Cont, Medidor, Auditor Anúncios, Agendador, Segurança, Vigia + lembretes) | ok | todas SUCCEEDED, next_run futuro | <=11 h | nenhuma falha | - |
+| fabrica.yml | verde | #41512554603 02/11 19:43Z | ~14,5 h | cron 06h Fortaleza não rodou de novo | blog coberto por promoção (abaixo) |
+| publicar_blog.yml | verde | push #41428320519 02/11 10:22Z | ~21 h | issue #42 aberta (antiga) | dispara no push desta ronda |
+| saude.yml | verde | #41595348849 03/11 07:17Z | 3 h | - | - |
+| Blog hoje | 0/1 às 07:25 | último artigo 02/11 | ~21 h | dia sem artigo | promovi primeiros-30-dias-do-pet-adotado-regra-3-3-3-e-checklist (config/blog_aprovados.txt); conferir 200 na ronda 11:19 |
+| AdSense | só buraco 15/09-06/10 (irrecuperável); atum agora com Fontes (cfmv, msd, aaha) | - | - | - | - |
+| Zernio FB/IG | 5 failed antigos (mídia 422), nenhum novo; 10 agendados | - | - | - | ficha E151 existente |
+| Buffer TikTok | conta ok (limite 10 na fila grátis) | - | - | - | Agendador cobre |
