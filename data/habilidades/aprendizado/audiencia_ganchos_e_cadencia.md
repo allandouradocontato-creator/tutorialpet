@@ -29,3 +29,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-11-01 | regras 4 (matriz), 5 (T0 ≤6 palavras), 6 (CTA a/b) e 7 (extra com folga) em dia curto: 3 ideias N1-N3 com matriz, trends com fonte e validade | n=0 posts do lote lidos (S1/S3 de 31/10 não foram ao ar); leitura Zernio 30-31/10 n=20: humor FB 563-690 views x explicador 177-233, comentário de terceiro 0 | mantém
 2026-11-01 | regra 5 (T0 ≤6 palavras) e 6 (CTA a/b) mantidas; E171 cobra a isca | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém
 2026-11-02 | regras 5 (T0 ≤6 palavras) e 6 (CTA a/b) mantidas na ficha TikTok | FB 10, IG 2, TikTok sem leitura; n<3 = NEUTRO | mantém
+2026-11-03 | regra aplicada: gancho T0 <=6 palavras + CTA seguir (regras 5/6) na ficha | n=8 posts TikTok, adoção 331 views (3x mediana 105) | mantém

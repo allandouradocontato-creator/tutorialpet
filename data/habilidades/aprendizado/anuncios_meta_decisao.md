@@ -16,3 +16,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 | 2026-11-01 | passo 1-4 + cortes de perfil | n=13 inícios, 0 compras; decisão: manter e propor corte do Feed FB | mantém |
 2026-11-02 | não aplicada: sem anúncio (prioridade audiência, decisão 21/10) | n=0 | mantém
 2026-11-02 | passo 6 (perfil: Reels x Feed, idade x sexo) | n=16 inícios: Reels R$7,49 vs Feed R$16,20; mulher 25-34 R$3,94→R$8,23 (regrediu com n maior) | mantém Reels sem Feed; descarta 'mulher 25-34' como regra
+2026-11-03 | não aplicada (sem anúncio nesta rodada) | n=0 | mantém

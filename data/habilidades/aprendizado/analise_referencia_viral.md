@@ -11,3 +11,4 @@ Skill: biblioteca/habilidades/analise_referencia_viral.md (v2, 22/10/2026). Uma 
 2026-10-30 | lida; referência = lote de 14 do Criador (provas B1-B10); sem post elegível novo da Guerrilha | n=0 | mantém
 2026-11-01 | sem referência nova lida nesta rodada; nenhuma regra aplicada além da direção E167 | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém
 2026-11-02 | sem referência nova lida nesta rodada; nenhuma regra aplicada | n=0 | mantém
+2026-11-03 | não aplicada (sem referência nova) | n=0 | mantém

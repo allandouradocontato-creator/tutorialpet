@@ -30,3 +30,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-11-01 | agendar 2 pacotes ok em 03/11 (A e B) com URL fixada por SHA | n=2 pacotes, 6 posts criados | mantém
 2026-11-01 | clipe 6-10 s sem Duda, música só Biblioteca Comercial, sem #fyp; abertura com T0 ≤6 palavras | n=0 posts do lote; TikTok sem leitura nova (Buffer atrasa) | mantém
 2026-11-01 | rodada 16:15: remedio-gato 04/11 10:20 TikTok, gancho pergunta+segundos | n=1, sem métrica ainda | mantém
+2026-11-03 | regra TikTok: conteúdo de utilidade/adoção em série com CTA seguir | n=1 vídeo de adoção 331 views (tendência, n<3) | mantém

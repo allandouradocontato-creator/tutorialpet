@@ -1,0 +1,13 @@
+# FICHA — Campanha de audiência da semana (rodada 03/11 09:19 Fortaleza)
+- Departamento / Diretor: Audiência e Redes / Diretor de Audiência / 2026-11-03 09:19
+- Objetivo: TikTok @tutorialpetbr 1.000 seguidores. TikTok N/1000: SEM DADO de seguidores (Buffer dá views por post, não seguidores; Zernio sem TikTok; sem Chrome nesta rodada). Último valor: 21 (24/10) = 2,1%.
+- Estado real (Zernio 03/11 08:10): FB 10 (+1 em 7 d), IG 3 (+1 hoje, 98 posts). Comentário de terceiro 0, DM 0, contatos ManyChat 0.
+- Leitura Buffer TikTok, 8 posts enviados 31/10-02/11 (views | curtidas | tempo médio): adoção "3 coisas que ninguém te conta" 331 | 32 | 2,05 s (1 compartilhamento, 1 comentário); patas no frio 180 | 6 | 4,56 s; legumes 171 | 10 | 5,07 s; planta tóxica 105 | 2 | 2,37 s; carrinho idoso 101 | 2 | 1,16 s; fonte automática (react produto) 77 | 0 | 1,86 s; Sinpatinhas (postado ontem 20h) 27 | 1 | 1,24 s (ainda cedo); toca de gato (react produto) 0 views (métrica não atualizada). Mediana dos 7 com leitura madura ≈ 105.
+- Pareceres: Decifrador: sem relatório novo (E178 aberta). Estrategista/Criador absorvidos: mantêm pergunta binária e CTA de seguir. Atendente: sem comentário novo. Humorista/Utilidade Pública: ideias no log. Sem parecer de Especialista TikTok.
+- Divergências: dado de views (adoção 3x mediana) x plano de 3 vídeos/dia sem tema definido. Decido: adoção/utilidade pública é o tema de 24 h a ganhar 2x; temas de dúvida (patas, legumes: 5 s de retenção, a melhor) seguem como segundo formato. Reacts de PRODUTO (n=2: 77 e 0 views) = amostra insuficiente (n<3, NEUTRO), mas tendência fraca: não aumentar a cota até ter n>=3 e leitura de seguidores.
+- DECISÃO: (1) próximos 3 vídeos/dia: 1 adoção/utilidade pública (formato "3 coisas que ninguém te conta sobre X"), 1 dúvida real em série numerada, 1 IA engraçado; produto só 1 slot; (2) gancho já sai com T0 <=6 palavras e CTA de seguir falado+escrito (as legendas atuais só dizem "Confira o artigo": trocar); (3) E180: o rascunho Pode ou Não Pode não foi entregue em 3 dias, então TROCO a isca por 1 página "Semáforo" (rascunho em data/audiencia/mimo/semaforo_pode_ou_nao_pode_1pagina.md); depende da Dra. Natasha e do ok do Allan para ir ao ar.
+- Textos: nenhum texto novo ao público aprovado nesta rodada (o semáforo é rascunho).
+- Métrica/gatilho: GANHOU = >= +3 seguidores TikTok/dia por 3 dias OU adoção >= 250 views repetido em 2 vídeos; NEUTRO se n<3; PERDEU = ritmo < ~33 seguidores/dia (1.000 em 30 d) -> cortar o pior formato no mesmo dia.
+- Ações: E184 (leitura de seguidores via TikTok Studio), E185 (série adoção + trocar CTA).
+- Pedido ao Allan: nenhum. Solução para o gargalo de dado: Claude abre TikTok Studio no Chrome já logado (E184).
+- Status: aprovada.

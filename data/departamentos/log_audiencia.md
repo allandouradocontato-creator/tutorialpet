@@ -37,3 +37,9 @@
 1. **"Tradutor de pet" (série)** — vídeo ≤15 s: 1 comportamento (rabo, olhar torto) e o que costuma significar, pergunta "o seu faz?". Atrai: identificação e comentário fácil. Risco: baixo-médio (sem diagnóstico; "se mudar, procure um veterinário"). Custo: baixo.
 2. **Placar da semana** (carrossel salvável FB/IG): 5 perguntas do público respondidas em 1 linha, com @vetnatasha como revisora. Atrai: salvamento e pergunta de volta. Risco: baixo (Natasha revisa saúde). Custo: baixo.
 3. **Duelo cão x gato** (enquete binária, TikTok): 2 clipes, "time cachorro ou gato?". Atrai: comentário e compartilhamento, bom para seguidores TikTok. Risco: baixo. Custo: baixo (banco livre).
+| 2026-11-03 09:35 | Diretor de Audiência | FB 10, IG 3 (+1), TikTok sem leitura de seguidores (Buffer: 8 posts, mediana ~105 views; adoção 331 = campeão, produto n=2 NEUTRO); comentário 0, DM 0; E180 não entregue -> isca trocada por Semáforo 1 página (rascunho); ficha 2026-11-03_audiencia_leitura_tiktok_e_isca.md; E184, E185; add_repo indisponível, clone novo da main |
+
+## Ideias novas (regra 36) — 03/11/2026
+1. **"3 coisas que ninguém te conta sobre..." (série adoção/utilidade)** — vídeo ≤45 s, replica o campeão (331 views). Atrai: curiosidade + adoção engaja. Risco: baixo (sem saúde; sem animal triste, regra 29). Custo: baixo.
+2. **Semáforo da semana (carrossel salvável)** — 1 alimento por semana: verde/amarelo/vermelho com @vetnatasha. Atrai: salvamento e marcação. Risco: médio (saúde: Natasha revisa, sem dose). Custo: baixo.
+3. **Antes e depois da adoção (tutor envia)** — só depois de comentário de terceiros e autorização escrita de tutor adulto. Atrai: UGC e emoção. Risco: médio (imagem; ok do Allan). Custo: médio.
