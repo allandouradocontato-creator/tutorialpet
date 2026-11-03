@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como montar um cronograma de enriquecimento ambiental para cachorros sozinhos",
-    "description": "Como montar um cronograma de enriquecimento ambiental para cachorros sozinhos. Deixar o cachorro sozinho em casa pode gerar preocupação, especialmente quando...",
+    "description": "Como montar um cronograma de enriquecimento ambiental para cachorros sozinhos. Manter o seu melhor amigo entretido enquanto você sai para trabalhar ou...",
     "datePublished": "2026-10-22",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,26 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O que fazer se o meu cachorro ignorar os brinquedos interativos no começo?",
+        "name": "O que fazer se o cachorro ignorar os brinquedos interativos no início?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Isso costuma acontecer porque o desafio é difícil demais ou o recheio não é atraente o suficiente. Comece facilitando o acesso ao petisco e use alimentos muito saborosos, como pasta de amendoim integral sem açúcar ou sachê."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso deixar o mesmo brinquedo recheado todos os dias?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Não é recomendado, pois o cachorro pode enjoar da dinâmica ou do sabor. O ideal é variar os recheios e alternar os tipos de acessórios ao longo da semana para manter o interesse alto."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Preciso gastar muito dinheiro para montar um cronograma eficiente?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "De jeito nenhum. É possível criar ótimos desafios usando caixas de papelão limpas, garrafas pet furadas para liberar ração e toalhas velhas amarradas com petiscos dentro, conhecidas como tapetes de faro artesanais."
+          "text": "No começo, facilite o desafio colocando petiscos muito cheirosos e fáceis de cair para que ele entenda rapidamente como o brinquedo funciona.  - **Posso deixar qualquer tipo de osso ou brinquedo para o cachorro sozinho?**   Não. Brinquedos que soltam pedaços pequenos, ossos trituráveis ou varinhas de pelúcia sem supervisão podem causar engasgos ou obstruções graves.  - **Com qual frequência devo trocar os brinquedos do cronograma?**   O ideal é fazer um rodízio semanal, guardando alguns itens por alguns dias para devolvê-los depois com aspecto de novidade.  - **Quando devo procurar ajuda veterinária ou de um adestrador?**   Se o cachorro se machucar tentando roer portas, se recusar a comer na sua ausência ou apresentar salivação excessiva e automutilação, consulte um médico-veterinário e um profissional de comportamento."
         }
       }
     ]

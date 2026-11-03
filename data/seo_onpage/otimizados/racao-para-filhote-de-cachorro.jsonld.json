@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Ração para filhote de cachorro",
-    "description": "Guia completo sobre ração para filhote de cachorro: escolha ideal, quantidade correta, erros comuns e dicas para quem tem filhote em casa.",
+    "description": "Descubra como escolher a ração para filhote de cachorro ideal, entender quantidades, fases de crescimento e garantir um desenvolvimento saudável.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/racao-para-filhote-de-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/racao-para-filhote-de-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -26,7 +25,7 @@
         "name": "Com quantos meses o cachorro pode parar de comer ração de filhote?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em média, cachorros de pequeno porte mudam para a fase adulta aos 12 meses, enquanto raças grandes podem precisar da ração de filhote até os 18 meses, sempre com aval do médico-veterinário.  *   **Posso misturar comida caseira na ração do filhote?**     Misturas sem orientação podem desbalancear os nutrientes essenciais. Consulte um médico-veterinário antes de adicionar qualquer ingrediente caseiro.  *   **O filhote pode comer ração de gato?**     Não. A ração de felinos tem níveis de proteína e gordura inadequados para cachorros, o que pode sobrecarregar os órgãos do filhote.  *   **Quanto tempo dura um pacote aberto de ração?**     O ideal é consumir em poucas semanas e manter o pacote bem fechado em local fresco para preservar o sabor e evitar umidade."
+          "text": "Em média, cães de pequeno porte atingem a fase adulta por volta dos 10 a 12 meses, enquanto raças grandes e gigantes continuam crescendo até os 18 ou 24 meses, exigindo a ração específica por mais tempo.  * **Posso umedecer a ração seca com água morna para o filhote?**   Sim, especialmente nas primeiras semanas após o desmame, quando os dentinhos ainda são muito pequenos e frágeis, facilitando a mastigação e a digestão.  * **Filhote pode comer comida natural junto com a ração?**   Pode, desde que haja um acompanhamento veterinário especializado em nutrição para equilibrar vitaminas e minerais, evitando carências nutricionais graves.  * **Por que o filhote come as próprias fezes?**   Esse comportamento (coprofagia) pode indicar carência nutricional, ansiedade ou apenas curiosidade da idade, exigindo ajuste na dieta e remoção imediata do ambiente."
         }
       }
     ]

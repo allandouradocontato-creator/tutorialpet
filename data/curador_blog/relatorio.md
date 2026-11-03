@@ -1,10 +1,12 @@
-# Relatório do Curador do Blog — 02/11/2026 22:26
+# Relatório do Curador do Blog — 03/11/2026 22:33
 
-125 artigos auditados, 75 com problema bloqueante.
+127 artigos auditados, 72 com problema bloqueante.
 
 - REPROVADO | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 92 caracteres (ideal até 70)
+- ok | adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce
+    - [aviso] título com 84 caracteres (ideal até 70)
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -93,9 +95,7 @@
 - ok | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 86 caracteres (ideal até 70)
-- REPROVADO | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-ensinar-cachorro-a-fazer-xixi-no-lugar-certo
 - REPROVADO | como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -199,10 +199,7 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 73 caracteres (ideal até 70)
-- REPROVADO | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
-    - [aviso] curto (872 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
     - [aviso] título com 77 caracteres (ideal até 70)
 - ok | como-montar-um-espaco-de-descompressao-para-caes-agitados
     - [aviso] título com 76 caracteres (ideal até 70)
@@ -330,14 +327,13 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quantos-dias-o-gato-pode-ficar-sozinho-em-casa
-- REPROVADO | racao-para-filhote-de-cachorro
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | racao-para-filhote-de-cachorro
 - REPROVADO | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
+- ok | vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando
 - ok | vacinas-para-filhote-de-cachorro
 - ok | vermifugo-para-filhote-de-gato-quando-dar
 - REPROVADO | yorkshire-temperamento-e-cuidados-da-raca-da-doralice-pet-da-xuxa
