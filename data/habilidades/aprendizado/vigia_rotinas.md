@@ -51,3 +51,4 @@
 2026-11-03 | 07:20 ronda: rotinas ok, fábrica sem turno 06h de novo, blog 0/1 às 07:20 -> promovi primeiros-30-dias-do-pet-adotado (rascunho com Fontes); atum agora com Fontes institucionais (E34 n=2) | aguardando publicar_blog verde + página 200 com Fontes (E34, n=1) | mantém
 2026-11-03 | 11:25 ronda: 17 rotinas ok, fábrica/publicar_blog/saude verdes, artigo de 03/11 no ar (1/1), Buffer FB/IG/TikTok <2 h e 0 erros, Zernio sem conexão (timeout) | nada a corrigir (E34 n/a) | mantém; reler Zernio na próxima
 2026-11-03 | 15:19 ronda: 17 rotinas ok, fábrica/publicar_blog/saude verdes, artigo de 03/11 no ar (1/1), Buffer FB/IG/TikTok 0 erros, Zernio lido (8 falhos antigos, 0 novos) | nada a corrigir (E34 n/a) | mantém
+2026-11-03 | AdSense: artigo sem Fontes -> dispatch reforco_blog.yml (run 41730562623) | a conferir na ronda de 04/11 | mantém
