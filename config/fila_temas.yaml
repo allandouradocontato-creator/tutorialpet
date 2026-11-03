@@ -1090,9 +1090,10 @@ temas:
   data: '2026-11-01'
 - termo: 'vacina antirrábica gratuita para cachorro e gato: onde e quando'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'pesquisar fonte oficial por município. Gancho: Campanhas anuais; SP; Ministério
     da Saúde/secretarias'
+  data: '2026-11-03'
 - termo: como se cadastrar como protetor de animais e quais benefícios existem
   pilar: utilidade_publica
   status: pendente
@@ -1325,5 +1326,11 @@ temas:
   pilar: utilidade_publica
   status: pendente
 - termo: como criar um espaco seguro para gatos em varanda de apartamento
+  pilar: utilidade_publica
+  status: pendente
+- termo: por que gatos idosos dormem tanto e quando devo me preocupar
+  pilar: comportamento
+  status: pendente
+- termo: como planejar as ferias levando cachorro e gato juntos
   pilar: utilidade_publica
   status: pendente

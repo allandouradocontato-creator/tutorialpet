@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Guia prático da vacina antirrábica gratuita para pets",
+  "gancho_3s": "Saiba onde e quando encontrar a vacina antirrábica gratuita para seu pet!",
+  "cenas": [
+    {
+      "narracao": "A vacina antirrábica protege seu cachorro e seu gato contra uma doença letal e é totalmente gratuita pelo SUS.",
+      "visual_busca_banco_livre": "healthy dog and cat looking at camera",
+      "texto_na_tela": "Vacina antirrábica gratuita!"
+    },
+    {
+      "narracao": "Para encontrar as datas e locais na sua região, acesse o site oficial da prefeitura do seu município.",
+      "visual_busca_banco_livre": "dog looking up curious close up",
+      "texto_na_tela": "Consulte a prefeitura"
+    },
+    {
+      "narracao": "A campanha atende cães e gatos saudáveis a partir dos três meses de idade.",
+      "visual_busca_banco_livre": "cute kitten looking around",
+      "texto_na_tela": "A partir de 3 meses"
+    },
+    {
+      "narracao": "No dia, leve seu cão com coleira e guia firmes, ou use uma caixa de transporte segura para o seu gato.",
+      "visual_busca_banco_livre": "cat inside transport box looking out",
+      "texto_na_tela": "Segurança no transporte"
+    },
+    {
+      "narracao": "Após a aplicação, guarde o comprovante de vacinação e procure um médico-veterinário em caso de reações intensas.",
+      "visual_busca_banco_livre": "dog sleeping peacefully on floor",
+      "texto_na_tela": "Guarde o comprovante"
+    }
+  ],
+  "chamada_final": "Confira os canais oficiais da sua cidade para não perder a campanha!",
+  "hashtags": [
+    "#vacinaantirrabica",
+    "#saudepet",
+    "#gatos",
+    "#cachorros",
+    "#cuidadopet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSaiba onde e quando encontrar a vacina antirrábica gratuita para seu pet!\n\n📖 Artigo completo: https://tutorialpet.com.br/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando\n\n#vacinaantirrabica #saudepet #gatos #cachorros #cuidadopet",
+  "slug": "vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando"
+}
