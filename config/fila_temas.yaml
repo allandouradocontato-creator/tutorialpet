@@ -1031,9 +1031,10 @@ temas:
   data: '2026-11-02'
 - termo: 'adoção responsável: o que a lei exige e o que a ONG pode pedir de você'
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção; pilar com componente jurídico leve. Gancho: Termo de adoção,
     castração, vacina, posse responsável; só fonte oficial'
+  data: '2026-11-03'
 - termo: 'feiras e ONGs de adoção em São Paulo: como funcionam e como participar'
   pilar: adocao
   status: pendente
@@ -1333,4 +1334,7 @@ temas:
   status: pendente
 - termo: como planejar as ferias levando cachorro e gato juntos
   pilar: utilidade_publica
+  status: pendente
+- termo: como identificar e prevenir comportamentos destrutivos em caes adolescentes
+  pilar: comportamento
   status: pendente

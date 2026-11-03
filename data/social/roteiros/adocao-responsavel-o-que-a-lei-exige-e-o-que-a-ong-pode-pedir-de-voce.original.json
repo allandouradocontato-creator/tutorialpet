@@ -1,0 +1,41 @@
+{
+  "titulo_video": "O que a lei e as ONGs exigem na adoção de pets?",
+  "gancho_3s": "Quer adotar um pet mas acha que a burocracia é excessiva?",
+  "cenas": [
+    {
+      "narracao": "A lei federal não exige antecedentes criminais para adotar, mas o termo de adoção assinado com a ONG tem valor legal e serve como prova contra maus-tratos.",
+      "visual_busca_banco_livre": "dog looking through window close up",
+      "texto_na_tela": "Termo de adoção tem valor legal"
+    },
+    {
+      "narracao": "É legítimo que a ONG peça comprovante de residência, fotos de segurança do local e entrevista para entender sua rotina.",
+      "visual_busca_banco_livre": "cat sitting on sofa relaxed",
+      "texto_na_tela": "Exigências reais das ONGs"
+    },
+    {
+      "narracao": "Telas em janelas para gatos são fundamentais para evitar quedas e garantir a segurança contra fugas.",
+      "visual_busca_banco_livre": "cat looking out window curious",
+      "texto_na_tela": "Segurança e telas nas janelas"
+    },
+    {
+      "narracao": "Taxas de adoção cobradas por ONGs são legítimas quando cobrem custos com castração, vacinas e exames veterinários.",
+      "visual_busca_banco_livre": "puppy playing with toy indoor",
+      "texto_na_tela": "Taxa de adoção cobre custos"
+    },
+    {
+      "narracao": "Desconfie de exigências abusivas, como visitas sem agendamento após a adoção ou perguntas invasivas sobre sua vida pessoal.",
+      "visual_busca_banco_livre": "dog resting head on floor",
+      "texto_na_tela": "Fique atento a exageros"
+    }
+  ],
+  "chamada_final": "Consulte sempre um médico-veterinário e garanta uma adoção responsável.",
+  "hashtags": [
+    "adocaoresponsavel",
+    "adotaretudodebom",
+    "cuidadoscompets",
+    "direitosdosanimais",
+    "petfeliz"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer adotar um pet mas acha que a burocracia é excessiva?\n\n📖 Artigo completo: https://tutorialpet.com.br/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce\n\n#adocaoresponsavel #adotaretudodebom #cuidadoscompets #direitosdosanimais #petfeliz",
+  "slug": "adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce"
+}
