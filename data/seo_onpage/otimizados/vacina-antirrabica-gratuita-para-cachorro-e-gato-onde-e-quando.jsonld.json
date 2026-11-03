@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Vacina antirrábica gratuita para cachorro e gato: onde e quando: guia prático",
+    "description": "Vacina antirrábica gratuita para cachorro e gato: onde e quando: guia prático. Proteger seu melhor amigo contra a raiva é um ato de cuidado essencial...",
+    "datePublished": "2026-11-03",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando"
+    },
+    "image": "https://tutorialpet.com.br/imagens/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A vacina antirrábica gratuita protege por quanto tempo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costuma ter validade de um ano, exigindo reforço anual conforme as diretrizes dos órgãos de saúde pública e do médico-veterinário.  - **Filhote de dois meses pode tomar a vacina de graça no posto?**   Em média, a campanha pública orienta a imunização apenas para filhotes a partir dos três meses de idade. Confirme sempre a regra da sua cidade.  - **Gatos de casa que não saem precisam tomar a vacina?**   Sim, a vacinação é obrigatória por lei em muitas localidades e protege o gato caso um morcego infectado entre na residência acidentalmente.  - **O que acontece se eu perder a campanha anual na minha cidade?**   Muitas prefeituras mantêm postos permanentes de vacinação em centros de zoonoses ou programam campanhas de repescagem ao longo do ano."
+        }
+      }
+    ]
+  }
+}
