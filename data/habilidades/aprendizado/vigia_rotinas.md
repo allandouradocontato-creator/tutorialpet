@@ -54,3 +54,4 @@
 2026-11-03 | AdSense: artigo sem Fontes -> dispatch reforco_blog.yml (run 41730562623) | a conferir na ronda de 04/11 | mantém
 2026-11-04 | 07:20 ronda: rotinas ok, fábrica 17 h (cron 06h não rodou de novo), blog 0/1 -> promovi adocao-responsavel (20e7b97); atum/vacina com Fontes (E34 fechado, n=3); TikTok ~1 dia de estoque | aguardando publicar_blog verde + 200 na ronda 11:19 | mantém
 2026-11-04 | 11:22 ronda: 17 rotinas ok, artigo do dia no ar (200), publicar_blog verde, TikTok ~2 dias, Zernio 0 falha nova; fábrica sem turno 06h de novo (21 h) -> dispatch fabrica.yml run 41846720151 | conferir verde na ronda 15:19 (E34) | mantém
+2026-11-04 | 15:35 ronda: fábrica verde (E34 fechado), blog 1/1, V2.3 TikTok 0 hoje -> fire Operador negado pelo classificador, ficha E195 | conferir painel 05/11 | mantém
