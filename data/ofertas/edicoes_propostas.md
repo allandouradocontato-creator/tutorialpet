@@ -12,3 +12,7 @@ slug | onde entra | texto do bloco | link | motivo
 ## Renda
 Número do departamento: 0 cliques medidos por artigo (UTM); 53 das 61 páginas do site têm link do produto próprio (aside), 0 com afiliado.
 Já funciona: só o artigo do Plínio/Anitta traz impressão (69) → replicar a pauta "pet celebridade" com o mesmo bloco. Habilidade que falta: ler cliques por UTM; teste grátis: relatório GA4 por utm_content após 7 dias.
+
+## PROPOSTA R$ 17 (04/11/2026, Diretor de Operação, E188) — NÃO APLICAR sem ok escrito do Allan e leitura Kiwify
+Gatilho: campanha 28/10-03/11 com R$ 209,97 gastos, 274 visitas à landing, 44 checkouts iniciados e 0 compras no pixel. Só vale se a Kiwify confirmar 0 pedidos pagos.
+Proposta: entrada R$ 17 (âncora R$ 97, pagamento único, nunca "por dia/mês"); upsell R$ 47 igual; janela de 3 dias com tráfego orgânico; leitura em 24 h. Nada foi editado na Kiwify.
