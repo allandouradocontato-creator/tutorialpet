@@ -2,7 +2,7 @@ temas:
 - termo: como um pet pacifica o casal e a casa - os bem-aventurados pacificadores
     (animal de estimacao, bem-estar e convivencia do casal)
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
   nota: PRIORIDADE (pedido do Allan 02/11/2026), nasce de reel viral do Rui Quental
     em que o cachorro senta entre o casal e acalma a discussao; abordagem fluida e
     afetuosa, tom "bem-aventurados os pacificadores", SEO comecando pelas 10 a 15
@@ -14,6 +14,7 @@ temas:
     SELO "Revisado pela Dra. Natasha Braga (CRMV 6174)" so quando ela ler (regra 38)
     e @vetnatasha na legenda; mesmo texto vira legenda de Facebook, Instagram e TikTok;
     sem usar a palavra "cao", sem citar Fortaleza
+  data: '2026-11-04'
 - termo: socializar cachorros de racas e portes diferentes no mesmo ambiente - como
     evitar brigas e acidentes
   pilar: comportamento
@@ -1336,5 +1337,11 @@ temas:
   pilar: utilidade_publica
   status: pendente
 - termo: como identificar e prevenir comportamentos destrutivos em caes adolescentes
+  pilar: comportamento
+  status: pendente
+- termo: como escolher comedouros interativos para gatos comilhoes de diferentes idades
+  pilar: produtos_compras
+  status: pendente
+- termo: como acostumar caes e gatos a dividirem o mesmo espaco de descanso
   pilar: comportamento
   status: pendente
