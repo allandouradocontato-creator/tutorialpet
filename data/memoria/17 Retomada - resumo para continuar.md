@@ -180,3 +180,6 @@ Painel de Decisões rev 16 sem decisão nova do Allan. E166 feita (runs success:
 
 ## 01/11/2026 15:40 — META Nº 1: 1.000 seguidores TikTok (decisão do Allan)
 Destrava o afiliado do TikTok Shop (renda além do e-book/app). Plano e log: data/tiktok/meta_1000_seguidores.md; E172-E175 no livro. Produção: 3 vídeos/dia (produto/Duda dubla; dúvida real em série; IA engraçado); react de humor de terceiros segue pausado (30/10). Corte em 24 h; relatório "TikTok N/1000 = X%". Loja de vendedor: Allan pergunta ao contador (CNAE comércio + IE); não bloqueia. Zernio sem TikTok (3ª conta paga ~US$ 6/mês); TikTok sai pelo Buffer.
+
+## 04/11/2026 — Audiência: plano "Distribuição Emprestada" (decisão do Allan)
+Operador de Audiência (diário 07:41, config/prompts/operador_audiencia.md) publica 3 vídeos/dia (TikTok+Reel IG/FB), lê 24 h e grava em data/audiencia/aprendizado.md; painel em data/audiencia/painel.md (FB 13, IG 4, TikTok 21 em 24/10). Metas 30 dias: TikTok 1.000, IG 500. Criador/Humorista/Pesquisador de Formato em reserva; Estrategista semanal (seg 07:07). Pendente PC: grupos FB (grupos_fb.md), seguidores TikTok Studio (E184). Collab Natasha só com ok do Allan. Guerrilha continua excluída.

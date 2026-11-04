@@ -23,3 +23,6 @@ regra_pilar: "nunca 2 seguidos do mesmo pilar; escolhe o pendente do pilar usado
 
 # 01/11/2026 (Allan): ritmo reduzido para 1 artigo + 1 post (video nas 3 redes) por dia; rotina diaria em config/prompts/rotina_diaria_1mais1.md.
 posts_por_dia: 1
+
+# 04/11/2026 (Allan, plano Distribuicao Emprestada): artigos seguem 1/dia; videos de audiencia = 3/dia no TikTok + Reel IG/FB (inclui o 1 da Rotina 1+1). Operador: config/prompts/operador_audiencia.md.
+videos_audiencia_por_dia: 3

@@ -3,6 +3,8 @@ criado: 2026-10-21
 versao: v2 — 22/10/2026
 base_externa: skills_externas/marketingskills/social (SKILL.md + references/short-form-video.md), skills_externas/marketingskills/ad-creative/references/hook-system.md, skills_externas/openclaudia/content-calendar
 ---
+
+> 04/11/2026 (Allan): LEIA TAMBÉM data/audiencia/aprendizado.md (leitura de 24 h por vídeo escrita pelo Operador de Audiência) antes de recomendar. O Estrategista roda semanal (seg 07:07) e só recomenda; quem publica é o Operador (config/prompts/operador_audiencia.md).
 v2 — 22/10/2026 — status: ROBUSTA desde 23/10/2026 (régua 7 conferida pelo Removedor: regras 1, 4, 5, 6, 8 aplicadas em 22-23/10, 4 linhas em aprendizado/audiencia_ganchos_e_cadencia.md; resultado de métrica ainda n=0, vale só como prova de uso)
 
 # Habilidade: criar audiência com vídeo curto — ganchos, matriz, cadência e funil de comentário (Criador de Audiência, Diretor de Audiência, Humorista, Atendente de Comentários)

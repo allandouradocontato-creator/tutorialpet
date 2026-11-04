@@ -35,3 +35,7 @@ Tabela problema -> aciona: artigo sem capa -> slug em config/capas_refazer.txt +
 
 
 ## REGRA V2.2 (Allan, 01/11/2026, PREVALECE sobre qualquer '3 por dia' acima): ritmo = 1 ARTIGO e 1 POST (video, nas 3 redes) por dia. Piso de alerta: 1 artigo e 1 post por dia (config/ritmo_blog.yaml, artigos_por_dia 1). Dia com 0 artigo ou 0 post = ação na hora (promover aprovado, fabrica.yml, Agendador). Nao promova 3 aprovados por rodada: so o necessario para fechar o 1 do dia. A Rotina Diaria 1+1 (config/prompts/rotina_diaria_1mais1.md) garante o dia; o Vigia confere ela.
+
+
+## REGRA V2.3 (Allan, 04/11/2026): audiência não pode parar sem ninguém perceber
+Nova checagem de TODA rodada (além do piso de 1 artigo/dia): (a) TikTok com menos de 3 vídeos publicados/agendados para hoje (Buffer list_posts; conte também os agendados nas próximas 24 h) ou (b) algum vídeo com 0 views depois de 24 h (Buffer includeMetrics) ou (c) data/audiencia/painel.md sem linha do dia = ALERTA + fire_trigger do Operador de Audiência (trig_01MZnsgkXcaennHcUFYWKGrC, no máximo 1x/dia) + evidência na tabela (E34: só vale CORRIGI com last_run SUCCEEDED e commit em data/audiencia/). Piso de posts da V2.2 ('1 por dia') continua sendo o MÍNIMO de alerta; a meta de audiência é 3 vídeos/dia. A Guerrilha continua EXCLUÍDA (31/10): não a reative.
