@@ -1,6 +1,6 @@
 {
   "slug": "vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-11-03T12:21:44+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando",
   "voz": {
@@ -26,5 +26,12 @@
     ],
     "em": "2026-11-03T12:22:30+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado": {
+    "data": "2026-11-06",
+    "turno": "A",
+    "zernio_facebook": "6aeb1543a725daf39079014f",
+    "zernio_instagram": "6aeb15456c370887406e259b",
+    "buffer_tiktok": "6aeb15479b828eded3a7f78c"
+  }
 }
