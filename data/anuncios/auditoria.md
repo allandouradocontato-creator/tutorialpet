@@ -1,12 +1,12 @@
-# Auditoria de anúncios - 03/11/2026 09:36 (Fortaleza). Dados até 03/11 09:36, Windsor facebook conta 1213984913380523
-Campanha única: "Sozinho em Casa - VSL v12 - SP apartamento" (ATIVA, fim 03/11 23:59). Detalhe e perfil em campanha_vsl_v12_sp.md.
-- Número do departamento: R$ 5,73 por checkout iniciado (31 inícios) · gasto 28/10-03/11 R$ 177,65 · 319 cliques · 0 compras no pixel. Vendas na Kiwify: UNKNOWN (sem Chrome na nuvem).
-- Conjuntos ativos: "mulheres 25-54 C v13" (landing, R$ 30/dia: R$ 100,61 / 12 inícios = 8,38) e "SP apto - DIRETO CHECKOUT B" (checkout direto, R$ 30/dia: R$ 14,36 / 12 inícios = 1,20). Teto somado R$ 60/dia; 02/11 gastou R$ 37,07.
-- ATENÇÃO: o conjunto DIRETO CHECKOUT B não está em 05 Decisões nem no arquivo da campanha; conferir se foi o Allan. Início pelo checkout direto não é comparável ao da landing.
-- Gasto R$ 177,65 > 2x o preço (R$ 54) sem venda comprovada: regra pede pausar criativo/decidir; o teste de 3 dias acaba hoje.
-- Perfil: Feed FB zerado desde 01/11 (era R$ 16,20/início); Reels FB R$ 4,03/início; só mulher 25-34 recebe entrega; 65+ fora; região só SP.
-- Compliance: sem Audience Network; UTM nos anúncios v4 (vslb_v4); rótulo de IA: não verificado hoje (Unknown).
-- Dados faltando: venda real (Kiwify), eventos de vídeo do pixel, status real dos v3 (ainda gastam).
-- REPLICAR: FB Reels + anúncio C v13 (mais barato por início); checkout direto converte 50% dos cliques em início, só vale se gerar venda.
-- DECISÃO ÚNICA (pedir ao Allan): não prorrogar a campanha após 23:59 sem venda confirmada na Kiwify; se houver venda, prorrogar só o conjunto que a gerou.
-- Habilidade que falta: cruzar venda Kiwify x anúncio sem Chrome. Teste grátis: e-mail de venda da Kiwify em contato@ lido por rotina, ou export CSV semanal.
+# Auditoria de anúncios - 04/11/2026 09:36 (Fortaleza). Dados até 04/11 09:36, Windsor facebook conta 1213984913380523
+Campanha única: "Sozinho em Casa - VSL v12 - SP apartamento" (fim agendado 03/11 23:59 Fortaleza, CUMPRIDO: gasto 04/11 = R$ 0,00; o Meta ainda mostra status ACTIVE, mas sem entrega). Sem campanha gastando: sem ALERTA. Detalhe e perfil em campanha_vsl_v12_sp.md.
+- Número do departamento: R$ 4,67 por checkout iniciado (45 inícios) · gasto 28/10-03/11 R$ 210,01 · 358 cliques no link · 0 compras no pixel. Vendas na Kiwify: UNKNOWN (sem Chrome na nuvem).
+- Por conjunto: landing (mulheres + antigo SP 25-55) R$ 175,04 / 20 inícios = R$ 8,75 · DIRETO CHECKOUT B (02-03/11) R$ 34,97 / 49 cliques / 25 inícios = R$ 1,40. Início do direto = abrir o checkout; não é comparável e só vale se virar venda.
+- Gasto R$ 210,01 = 3,9x o preço (R$ 54) sem venda comprovada. Teste terminou; regra: não prorrogar sem venda.
+- Perfil: só mulher 25-34 recebe entrega; FB Reels R$ 122,62 / 37 inícios = 3,31 (puxado pelo direto; no conjunto landing R$ 81,71 / 11 = 7,43); IG Reels 52,23 / 6 = 8,71; Feed FB 32,40 / 2 = 16,20 (zerado desde 01/11); 65+ e homens fora; região só SP.
+- Criativos: v3 (A/B/C) aparecem ACTIVE e ainda gastaram R$ 3,20 em 03/11, apesar do registro de pausa de 01/11: conferir/pausar. v4 59 s: R$ 3,95 em 03/11, 1 início; sem sinal.
+- Compliance: sem Audience Network nos cortes; UTM vslb_v4 nos v4; rótulo de IA: Unknown.
+- Dados faltando: venda real (Kiwify), eventos de vídeo do pixel, conjunto DIRETO fora de 05 Decisões.
+- REPLICAR: FB Reels + anúncio C v13; checkout direto gera ~50% de clique→início (vs 6-8% pela landing).
+- DECISÃO ÚNICA (Allan, dinheiro): 1) RECOMENDADO: manter encerrado e conferir a Kiwify (24h de vendas 31/10-03/11 por UTM); 2) se houver venda vinda do DIRETO, reabrir só ele (R$ 30/dia, 2 dias); 3) sem venda: o gargalo é oferta/checkout (Pix não pré-selecionado), não público.
+- Habilidade que falta: cruzar venda Kiwify x anúncio sem Chrome. Teste grátis: e-mail de venda da Kiwify em contato@ lido por rotina, ou CSV semanal.
