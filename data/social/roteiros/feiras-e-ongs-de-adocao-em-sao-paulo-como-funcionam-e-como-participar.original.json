@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como funcionam as feiras e ONGs de adoção em São Paulo",
+  "gancho_3s": "Quer adotar um pet em São Paulo? Veja como funcionam as feiras e ONGs!",
+  "cenas": [
+    {
+      "narracao": "Em São Paulo, centenas de animais resgatados esperam por uma chance em abrigos e feiras de adoção todos os finais de semana.",
+      "visual_busca_banco_livre": "dog waiting in shelter cage close up",
+      "texto_na_tela": "Feiras e ONGs em SP"
+    },
+    {
+      "narracao": "As ONGs mantêm abrigos ou redes de lares temporários, sobrevivendo por meio de doações e trabalho voluntário.",
+      "visual_busca_banco_livre": "cat in temporary foster home looking around",
+      "texto_na_tela": "Como funcionam as ONGs"
+    },
+    {
+      "narracao": "Todo animal resgatado passa por avaliação clínica com médico-veterinário, ficando livre de doenças, vermifugado e microchipado.",
+      "visual_busca_banco_livre": "dog health check veterinary closeup",
+      "texto_na_tela": "Saúde em dia"
+    },
+    {
+      "narracao": "Nas feiras presenciais, você interage diretamente com o pet e passa por uma triagem inicial para encontrar o animal compatível.",
+      "visual_busca_banco_livre": "puppy meeting people at adoption event",
+      "texto_na_tela": "Feiras presenciais"
+    },
+    {
+      "narracao": "Para participar, leve documento com foto, comprovante de residência e responda com sinceridade sobre sua rotina e segurança do lar.",
+      "visual_busca_banco_livre": "cat sitting by window with safety mesh",
+      "texto_na_tela": "Documentos e entrevista"
+    },
+    {
+      "narracao": "As exigências incluem maior idade, telas de proteção para felinos e concordância de todos os moradores da casa.",
+      "visual_busca_banco_livre": "dog resting comfortably on apartment floor",
+      "texto_na_tela": "Exigências para adotar"
+    }
+  ],
+  "chamada_final": "Consulte um médico-veterinário para confirmar o histórico de saúde do pet e adote com responsabilidade!",
+  "hashtags": [
+    "#AdocaoResponsavel",
+    "#PetsSaoPaulo",
+    "#AdoteUmPet",
+    "#OngsDeAnimais",
+    "#FeiraDeAdocao"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer adotar um pet em São Paulo? Veja como funcionam as feiras e ONGs!\n\n📖 Artigo completo: https://tutorialpet.com.br/feiras-e-ongs-de-adocao-em-sao-paulo-como-funcionam-e-como-participar\n\n#AdocaoResponsavel #PetsSaoPaulo #AdoteUmPet #OngsDeAnimais #FeiraDeAdocao",
+  "slug": "feiras-e-ongs-de-adocao-em-sao-paulo-como-funcionam-e-como-participar"
+}

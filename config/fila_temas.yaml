@@ -1038,10 +1038,11 @@ temas:
   data: '2026-11-03'
 - termo: 'feiras e ONGs de adoção em São Paulo: como funcionam e como participar'
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção; sem indicar entidade como melhor; só fatos públicos. Gancho:
     Como funciona uma feira, o que levar, como avaliar uma ONG; começa por SP, série
     por estado depois'
+  data: '2026-11-04'
 - termo: 'adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos'
   pilar: adocao
   status: pendente
@@ -1343,5 +1344,8 @@ temas:
   pilar: produtos_compras
   status: pendente
 - termo: como acostumar caes e gatos a dividirem o mesmo espaco de descanso
+  pilar: comportamento
+  status: pendente
+- termo: por que gatos idosos mudam o padrao de miado durante a noite
   pilar: comportamento
   status: pendente
