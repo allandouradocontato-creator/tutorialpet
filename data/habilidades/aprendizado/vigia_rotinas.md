@@ -53,3 +53,4 @@
 2026-11-03 | 15:19 ronda: 17 rotinas ok, fábrica/publicar_blog/saude verdes, artigo de 03/11 no ar (1/1), Buffer FB/IG/TikTok 0 erros, Zernio lido (8 falhos antigos, 0 novos) | nada a corrigir (E34 n/a) | mantém
 2026-11-03 | AdSense: artigo sem Fontes -> dispatch reforco_blog.yml (run 41730562623) | a conferir na ronda de 04/11 | mantém
 2026-11-04 | 07:20 ronda: rotinas ok, fábrica 17 h (cron 06h não rodou de novo), blog 0/1 -> promovi adocao-responsavel (20e7b97); atum/vacina com Fontes (E34 fechado, n=3); TikTok ~1 dia de estoque | aguardando publicar_blog verde + 200 na ronda 11:19 | mantém
+2026-11-04 | 11:22 ronda: 17 rotinas ok, artigo do dia no ar (200), publicar_blog verde, TikTok ~2 dias, Zernio 0 falha nova; fábrica sem turno 06h de novo (21 h) -> dispatch fabrica.yml run 41846720151 | conferir verde na ronda 15:19 (E34) | mantém
