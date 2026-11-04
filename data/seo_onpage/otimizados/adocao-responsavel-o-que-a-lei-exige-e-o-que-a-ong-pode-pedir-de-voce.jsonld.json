@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Adoção responsável: o que a lei exige e o que a ONG pode pedir de você: guia prático",
+    "description": "Adoção responsável: o que a lei exige e o que a ONG pode pedir de você: guia prático. Se você já pensou em expandir a família com um pet, provavelmente...",
+    "datePublished": "2026-11-03",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce"
+    },
+    "image": "https://tutorialpet.com.br/imagens/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "É obrigatório pagar taxa de adoção nas ONGs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não existe lei federal que obrigue o pagamento, mas a taxa cobrada pelas ONGs é um costume legítimo para ajudar a custear vacinas, castração, exames e ração dos demais animais resgatados. Os valores variam em média de acordo com a região e o porte do pet, e devem ser confirmados diretamente com a instituição.  - **A ONG pode pegar o animal de volta se eu não cumprir o contrato?**   Sim. Como o termo de adoção assinado é um documento de responsabilidade civil, cláusulas contratuais costumam prever a retomada da guarda em caso de comprovação de maus-tratos, abandono ou descumprimento das regras acordadas.  - **Como saber se a ONG ou o protetor é confiável antes de adotar?**   Pesquise o histórico nas redes sociais, converse com quem já adotou com eles, verifique se há transparência na prestação de contas e se os animais entregues passam por avaliação em clínicas veterinárias parceiras.  - **Posso adotar um pet se moro em casa alugada?**   Sim, desde que você apresente uma autorização por escrito do proprietário ou imobiliária permitindo a permanência de animais de estimação no imóvel, evitando futuros conflitos de despejo ou abandono."
+        }
+      }
+    ]
+  }
+}
