@@ -20,3 +20,4 @@ Regras de todos: gancho de dor ≤ 6 palavras no frame 0 (portao_gancho.py), cen
 
 - 01/11/2026 15:39 (Allan): TikTok FICA no Buffer (opção 1); Zernio sem TikTok, sem cartão. Leitura de seguidores pelo Buffer/TikTok Studio.
 - 01/11/2026 15:45 (Allan): react de HUMOR segue como está (pausado) até ele mandar a LISTA de virais dele; outra conversa testa vídeos de cachorros animados falando (open source) e/ou clipes baixáveis. Falta uma curadoria mais inteligente para escolher os mais virais: ao receber a lista, rodar scripts/curadoria_tiktok.py (régua v6) e devolver em cartão de texto, sem gastar voz/Duda.
+- 04/11/2026 | TikTok N/1000: SEM DADO de seguidores (Buffer só views; sem Chrome; E184 aberta) | último 21 = 2,1% | postados 31/10-04/11: 11 (Buffer) | campeão: adoção 331 views | cortar: react de produto (n=3: 77/0/35) para 1/semana

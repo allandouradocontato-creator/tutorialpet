@@ -12,3 +12,4 @@ Skill: biblioteca/habilidades/criativo_venda_low_ticket.md (v2, 22/10/2026). Uma
 2026-11-01 | não aplicada: prioridade é audiência antes de venda (decisão 21/10) | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém
 2026-11-02 | não aplicada: audiência antes de venda | n=0 | mantém
 2026-11-03 | não aplicada: audiência antes de venda | n=0 | mantém
+2026-11-04 | não aplicada (receita é do Diretor de Produto); react de produto n=3 (77/0/35 views) = tendência ruim, reduzir a 1/semana | n=3, NEUTRO | altera (cota)

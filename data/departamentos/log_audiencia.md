@@ -43,3 +43,9 @@
 1. **"3 coisas que ninguém te conta sobre..." (série adoção/utilidade)** — vídeo ≤45 s, replica o campeão (331 views). Atrai: curiosidade + adoção engaja. Risco: baixo (sem saúde; sem animal triste, regra 29). Custo: baixo.
 2. **Semáforo da semana (carrossel salvável)** — 1 alimento por semana: verde/amarelo/vermelho com @vetnatasha. Atrai: salvamento e marcação. Risco: médio (saúde: Natasha revisa, sem dose). Custo: baixo.
 3. **Antes e depois da adoção (tutor envia)** — só depois de comentário de terceiros e autorização escrita de tutor adulto. Atrai: UGC e emoção. Risco: médio (imagem; ok do Allan). Custo: médio.
+| 2026-11-04 09:30 | Diretor de Audiência | FB 13 (+3, maior salto), IG 4 (+1), TikTok sem leitura de seguidores (21 em 24/10 = 2,1%; Buffer: Sinpatinhas 102, cama 42, carrinho 35 views; react produto n=3 NEUTRO ruim); comentário 0, DM 0; ficha 2026-11-04_audiencia_rodada.md; E191 (origem do +3 FB); E184/E185/E190 abertas; isca Semáforo ainda rascunho; add_repo indisponível, clone da main atualizado |
+
+## Ideias novas (regra 36) — 04/11/2026
+1. **"Quem manda em casa?" (enquete pet x tutor)** — vídeo ≤12 s, pet ocupando o sofá/cama, pergunta "quem manda aí?" com CTA de seguir. Atrai: identificação e comentário fácil (replica o post humor que coincidiu com o +3 FB). Risco: baixo (sem saúde). Custo: baixo (banco livre, sem voz).
+2. **"Adoção: perguntas que todo mundo faz" (série numerada, TikTok)** — extensão do campeão de 331 views, parte 1/3 com "segue pra parte 2". Atrai: curiosidade + seguir pela sequência. Risco: baixo (sem animal triste, regra 29; sem Fortaleza). Custo: baixo.
+3. **Mapa do feriado/fim de semana do pet (carrossel salvável)** — 5 cartões com rotina simples, @vetnatasha revisora, "procure um veterinário" se mudar o comportamento. Atrai: salvamento e marcação. Risco: baixo-médio (regra 37, sem dose). Custo: baixo (template).

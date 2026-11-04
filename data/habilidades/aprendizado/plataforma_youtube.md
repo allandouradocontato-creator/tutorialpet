@@ -7,3 +7,4 @@ Formato: data | hipótese | resultado (n, métrica) | mantém/altera regra
 2026-10-25 | lida; canal fora do piloto de audiência, sem decisão | n=0 | mantém
 2026-10-26 | lida; canal fora do piloto de audiência, sem decisão | n=0 | mantém
 2026-10-30 | lida; sem canal ativo no YouTube, regra não acionada | n=0 | mantém
+2026-11-04 | decisão por skill (sem pesquisa nova); CTA de seguir e T0 curto | FB 13, IG 4, TikTok sem dado | mantém

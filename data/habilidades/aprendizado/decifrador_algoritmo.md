@@ -14,3 +14,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-11-01 | humor curto FB 563-690 views x explicador 177-233 (leitura Zernio 30-31/10) usado para manter 60% curto | FB 10, IG 2, TikTok 21; comentário 0, DM 0; n<3 = NEUTRO | mantém
 2026-11-02 | regra de corte em 24 h pedida (E178) mas sem leitura TikTok | n=0; gargalo = fonte de dados | altera: Chrome/TikTok Studio como fallback
 2026-11-03 | corte em 24 h por views (Buffer): adoção campeão, produto n=2 NEUTRO | n=8, seguidores sem leitura | altera: seguidor exige TikTok Studio (E184)
+2026-11-04 | leitura 24 h: cama 42 views/4,36 s/2 compart. melhor retenção; castração e piscina sem leitura madura | n=5 posts maduros, n<3 por formato = NEUTRO | mantém

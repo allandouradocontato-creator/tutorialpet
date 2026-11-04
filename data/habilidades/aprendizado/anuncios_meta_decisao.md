@@ -18,3 +18,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-02 | passo 6 (perfil: Reels x Feed, idade x sexo) | n=16 inícios: Reels R$7,49 vs Feed R$16,20; mulher 25-34 R$3,94→R$8,23 (regrediu com n maior) | mantém Reels sem Feed; descarta 'mulher 25-34' como regra
 2026-11-03 | não aplicada (sem anúncio nesta rodada) | n=0 | mantém
 2026-11-03 | passo 6 (perfil + conjunto novo DIRETO CHECKOUT B) | n=31 inícios, 0 compras no pixel; direto R$1,20/início (12) x landing R$8,38 (12); gasto R$177,65 > 2x preço | altera: início direto não é comparável, julgar por venda Kiwify; decisão: não prorrogar sem venda (Allan)
+2026-11-04 | não aplicada (sem anúncio de audiência; campanha encerrada 03/11, Operação cuida) | n=0 | mantém
