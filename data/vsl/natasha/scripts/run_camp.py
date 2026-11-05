@@ -49,7 +49,7 @@ def make(k):
     for c,l in zip(ch,n):
         a=map_time(seg,cum/tot); cum+=l; b=map_time(seg,cum/tot); tm.append((a,b))
     times=[(0 if i==0 else tm[i][0], tm[i+1][0] if i+1<len(tm) else T) for i in range(len(tm))]
-    sp=slots(PROB) ; sc=slots(CALM)
+    sp=slots(PROB) ; sc=[x for x in slots(CALM) if 'cachorro_01_' not in x[0]]
     off=['C1','C2','C3','C5','C6'].index(k)*3
     sp=sp[off%max(1,len(sp)):]+sp[:off%max(1,len(sp))]
     cuts=[]; used=set(); firstprod=False
@@ -62,7 +62,9 @@ def make(k):
     for i,((a,b),c) in enumerate(zip(times,ch)):
         d=b-a; items=[]
         low=c.lower()
-        if c.startswith('Clique'): items=[(V+'cta.mp4',0,round(d,3))] if d<=1.85 else [(V+'cta.mp4',0,1.8)]+fill(d-1.8,sc)
+        if c.startswith('Todo dia ele te olha'):
+            L=round(d/2,3); items=[(C+'cachorro_01_deitado_no_chao_esperando.mp4',0.6,L),(C+'cachorro_01_deitado_no_chao_esperando.mp4',6.0,round(d-L,3))]
+        elif c.startswith('Clique'): items=[(V+'cta.mp4',0,round(d,3))] if d<=1.85 else [(V+'cta.mp4',0,1.8)]+fill(d-1.8,sc)
         elif c.startswith('Vem fazer') or c.startswith('ficar tranquilo'):
             st=0 if c.startswith('Vem') else 1.9
             items=[(V+'produto_anim.mp4',st,round(min(d,1.9),3))]
