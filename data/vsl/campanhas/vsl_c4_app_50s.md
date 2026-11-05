@@ -1,16 +1,16 @@
-# VSL C4 APP POR DENTRO — Sozinho em Casa (E3 v4) — v4 Fable, resultado, legenda própria, aprovado Allan 05/11/2026 01:50 — ≈40 s (SEM VOZ NOVA)
+# VSL C4 APP POR DENTRO — Sozinho em Casa (E3 v5) — v5 Fable, produto claro até 10 s, legenda própria, aprovado Allan 05/11/2026 02:20 — ≈40 s (SEM VOZ NOVA)
 Só legendas sobre gravação REAL do app + party-music; único áudio de voz = fecho gravado.
 
 1. Cachorro sofre sozinho em casa? Veja o plano por dentro
-2. Em 14 dias ele aprende a ficar sozinho com calma
-3. 10 minutos por dia, e o resto do dia é seu
+2. Esse é o Sozinho em Casa: plano de 14 dias, com manual e aplicativo (card do produto: manual + app)
+3. 10 minutos por dia, e ele fica tranquilo quando você sai
 4. Você sai sem culpa
 5. Ele dorme enquanto você trabalha
 6. Menos estresse, mais saúde
 7. Manual + app + 2 bônus
 8. R$ 97 → R$ 27 · pagamento único · seu para sempre
 9. Se não gostar, devolvemos tudo, sem pergunta
-10. Fecho gravado: "Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora! ("Tutorial Pet" só na tela, não falado)"
+10. Fecho gravado: "Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora!" (card: Sozinho em Casa · R$ 27; sem "Tutorial Pet" em legenda)
 
 
 ## Criativos (≤30 s) — legenda = voz
