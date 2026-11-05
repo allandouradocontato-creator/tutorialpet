@@ -12,3 +12,17 @@ Meta (Allan, 04/11/2026): TikTok 1.000 seguidores e IG 500 em 30 dias (até 04/1
 | data | FB | IG | TikTok | ganho do dia (FB/IG/TT) | vídeos agendados | melhor formato 24 h |
 |---|---|---|---|---|---|---|
 | 04/11 | 13 | 4 | 21 (24/10) | linha de base | 0 (plano começa hoje) | — |
+| 05/11 | 13 | 4 | SEM DADO (Buffer só views) | 0/0/? | TikTok 10:20 atum, 14:20 banho, 20:20 castração gratuita (extra); FB 19:00 e IG 20:00 castração (extra) | dúvida real (castração 550 views, cama grande 549) |
+
+## Views 24 h (Buffer, leitura 05/11 07:43; TikTok)
+| vídeo | postado | views | curtidas | comentários |
+|---|---|---|---|---|
+| castração idade certa | 03/11 14:20 | 550 | 51 | 1 |
+| cama porte grande | 03/11 10:20 | 549 | 26 | 0 |
+| registro SP (Sinpatinhas) | 02/11 20:20 | 134 | 3 | 0 |
+| idoso passear | 03/11 10:40 | 108 | 1 | 0 |
+| piscina e cloro | 03/11 20:20 | 102 | 2 | 0 |
+| gato cospe remédio | 04/11 10:20 | 38 (só ~21 h) | 3 | 0 |
+
+TikTok: SEM DADO de seguidores (Buffer só views; E184 aberta) — ficha para a sessão PC ler no TikTok Studio.
+Posts em erro no Zernio (8, todos antigos): IG/FB 'Sozinho em Casa' x2, gatinho x1, 'Quem mais? Conta aqui' x1 — mídia inacessível/422; não reenviei (ver execucao.md).

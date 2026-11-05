@@ -21,3 +21,4 @@ Cota: 2 de 3 com PROVA numérica (67%: N2, N3) + 1 teste (N1); abaixo de 70% por
 - {id: r01-n3-arvore, classe: liberada, animal: gato, formato: video, busca: "cat sniffing christmas tree indoor", topo: "Árvore de Natal montada.", base: "Gato: obra nova, cadê o alvará?"}
 ## Pauta para o SEO (proposta; fila_temas intocada): "enfeites e pisca-pisca de Natal: riscos" (já nº 3 do SEO 29/10) ganha vídeo N3; "cachorro comeu chocolate" segue URGENTE no relatório SEO de 29/10 (Halloween passou: conferir se subiu).
 ## Decisão do Allan: nenhuma nova.
+- 05/11 tema para fila_temas (proposta): "como parar de puxar a guia" (repetição do padrão cama grande 549 views); "castração gratuita: documentos e fila" (castração 550 views).

@@ -24,3 +24,11 @@ Views em 24 h por vídeo: ≥1.000 → replicar 3x no dia seguinte; 200-999 → 
 - 05/11: VSL Natasha v8: CTA final 'Clique no botão agora!' gerado SEM tag (com [excited] ficou exagerado para o Allan); cartão CTA = ícone do app + botão COMPRAR AGORA + garantia 14 dias (assets/marca/cta_card.png). Regra: CTA e fecho em tom contido; energia alta só no meio/oferta.
 - 05/11: VSL Natasha v9: cartão animado do produto entra na 1ª apresentação ('Manual e aplicativo…') e no fecho; virou regra 61 em regras_de_ouro.
 - 05/11: VSL2-6 (C1..C6) v1 usaram clipes por rotação, sem ilustrar a frase; Allan cobrou: imagem tem que ilustrar a voz (regra 62). C1 'Todo dia ele te olha assim' = cachorro_01_deitado olhando a câmera. Próximo: mapa frase→cena nos scripts (run_camp.py).
+
+- 05/11 | TikTok | B dúvida real | castração idade certa | 550 | 200-999: repetir 1x com ajuste → castração gratuita (tema vizinho, 20:20 hoje)
+- 05/11 | TikTok | B dúvida real | cama grande destruída | 549 | 200-999: repetir 1x com ajuste → próximo tema de comportamento (parar de puxar a guia) amanhã
+- 05/11 | TikTok | B | registro SP Sinpatinhas | 134 | <200: não repetir gancho
+- 05/11 | TikTok | B | idoso quer passear | 108 | <200: não repetir gancho
+- 05/11 | TikTok | B | piscina e cloro | 102 | <200: não repetir gancho (tempo médio 3,4 s)
+- 05/11 | TikTok | B | gato cospe remédio (04/11) | 38 em ~21 h | ainda sem 24 h; reler amanhã
+Amostra pequena (6 vídeos): direção, não causa — temas de decisão do tutor (castrar, cama) passaram de 500; temas burocráticos/idoso/piscina ficaram ~100. Seguidores FB 13 e IG 4 sem ganho em 05/11.
