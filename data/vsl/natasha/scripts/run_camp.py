@@ -69,7 +69,8 @@ def slots(pool):
     return out
 def make(k):
     t=body(k); ch=chunks_of(t)+["Vem fazer seu amiguinho","ficar tranquilo, sozinho em casa!","Clique no botão agora!"]
-    audio=f"/home/claude/tutorialpet/data/vsl/natasha/vozes/completos/VOZ_{AUDIO[k]}_natasha_com_fecho.mp3"
+    import os
+    audio=os.environ.get("VOZ_AUDIO") or f"/home/claude/tutorialpet/data/vsl/natasha/vozes/completos/VOZ_{AUDIO[k]}_natasha_com_fecho.mp3"
     sol=next(i for i,c in enumerate(ch) if c.startswith('Em 14 dias'))
     seg,D=speech_axis(audio); T=D+0.7
     n=[len(c) for c in ch]; tot=sum(n); cum=0; tm=[]
@@ -113,7 +114,7 @@ def make(k):
         tot_=sum(x[2] for x in items); items[-1]=(items[-1][0],items[-1][1],round(items[-1][2]+d-tot_,3))
         cuts+=items
     global TIMES_OVERRIDE; TIMES_OVERRIDE=times
-    name=f"{KEYS[k][1]}_natasha_sozinho_em_casa_{AUDIO[k]}_v2"
+    name=f"{KEYS[k][1]}_natasha_sozinho_em_casa_{AUDIO[k]}_{os.environ.get('VOZ_TAG','v2')}"
     import builtins
     build(name,audio,lambda tm_,T_:cuts,ch,"gr0za-party-party-music-569750.mp3",musvol=0.10)
 if __name__=='__main__': make(sys.argv[1])
