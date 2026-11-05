@@ -53,6 +53,7 @@ serie:
     artista: Angélica
     pet: Gringa
     raca: golden doodle
+    status: adiada_05_11   # Gringa (9 anos) em tratamento delicado desde 31/08/2026 (Imirante/O Globo, diagnóstico não revelado); só voltar com notícia boa da própria Angélica, tom respeitoso
     fonte: https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml
     observacao: "9 anos, ~64 mil seguidores (UAI 08/2026). Conferir 2ª fonte; ligar a pelagem/escovação e energia."
   - ordem: 6
@@ -68,4 +69,10 @@ serie:
     fonte: https://www.purepeople.com.br/noticia/marina-ruy-barbos-exibe-novo-cachorro-apos-adocao-e-entrega-detalhe-curioso_a317454/1
     observacao: "Candidato novo 29/10: conferir nome do pet, data e 2ª fonte antes de escrever; ligar a adoção + energia de raça grande."
 
+  - ordem: 8
+    artista: Anitta
+    pet: Petrúquio (adotado com ajuda de Luisa Mell)
+    raca: a confirmar
+    fonte: https://www.metropoles.com/colunas/pipocando/anitta-adota-novo-caozinho-com-ajuda-de-luisa-mell-conheca-petruquio
+    observacao: "Candidato novo 05/11: encaixa na série Adoção; conferir data, raça e 2ª fonte antes de escrever; sem foto da artista."
   ligacao_com_produto: "cada edição aponta para o artigo do blog da raça/tema e para o produto do catálogo (config/catalogo_tema_produto.yaml)"

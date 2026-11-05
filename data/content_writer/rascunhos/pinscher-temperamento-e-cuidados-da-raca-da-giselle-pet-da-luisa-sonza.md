@@ -1,7 +1,7 @@
 ---
 titulo: 'Pinscher: temperamento e cuidados com a raça da Giselle, pet da Luísa Sonza'
 meta_description: 'Pinscher: temperamento, frio, rotina e cuidados do dia a dia, com a história da Giselle, a cachorrinha da cantora Luísa Sonza que virou capa de revista.'
-data: '2026-10-29'
+data: '2026-11-05'
 status: rascunho_pendente_revisao
 slug: pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
 termo_origem: pinscher temperamento e cuidados da raça da Giselle, pet da Luísa Sonza
@@ -32,9 +32,9 @@ Pequena no tamanho e enorme na personalidade: assim a Giselle, pinscher da canto
 
 ## Quem é a Giselle
 
-Segundo a [coluna E o Bicho, do Metrópoles](https://www.metropoles.com/colunas/e-o-bicho/conheca-gisele-pinscher-de-luisa-sonza-que-virou-capa-de-revista), a pinscher de Luísa Sonza, que aparece nas redes como Gisele Pinscher, é pequena, tem perfil próprio nas redes sociais e já participou de um clipe com mais de 60 milhões de visualizações. A matéria a descreve como estilosa, temperamental e persistente: costuma se esconder quando chegam visitas, é ciumenta e late para chamar atenção.
+Segundo a [coluna E o Bicho, do Metrópoles](https://www.metropoles.com/colunas/e-o-bicho/conheca-gisele-pinscher-de-luisa-sonza-que-virou-capa-de-revista), a pinscher de Luísa Sonza aparece nas redes como Gisele Pinscher. Segundo a coluna, ela é pequena, tem perfil próprio nas redes sociais e já participou de um clipe com mais de 60 milhões de visualizações. A matéria a descreve como estilosa, temperamental e persistente: costuma se esconder quando chegam visitas, é ciumenta e late para chamar atenção.
 
-Uma [matéria do UAI de agosto de 2026](https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml) lista a Giselle entre os cachorros de famosos que viraram sensação e registra que ela inspirou a canção "Cachorrinhas" e apareceu na capa da revista Dogue Brasil. Segundo o [Meio & Mensagem](https://www.meioemensagem.com.br/midia/vogue-brasil-lanca-dogue-revista-sobre-o-universo-pet), a primeira edição brasileira da Dogue, lançada pela Vogue Brasil em 2025, dedicada a moda, estilo de vida e ao universo pet, teve três cachorros na capa, e a pinscher de Luísa foi um deles.
+Uma [matéria do UAI de agosto de 2026](https://www.uai.com.br/app/entretenimento/famosos/2026/08/26/not-famosos,389699/de-pets-a-celebridades-os-cachorros-dos-famosos-que-viraram-sensacao.shtml) lista a Giselle entre os cachorros de famosos que viraram sensação e registra que ela inspirou a canção "Cachorrinhas" e apareceu na capa da revista Dogue Brasil. De acordo com o [Meio & Mensagem](https://www.meioemensagem.com.br/midia/vogue-brasil-lanca-dogue-revista-sobre-o-universo-pet), a Dogue é a revista da Vogue Brasil sobre o universo pet, lançada em 2025. A primeira edição teve três cachorros na capa, e a pinscher de Luísa foi um deles.
 
 As fontes consultadas não informam a idade da Giselle nem as circunstâncias em que ela chegou à família, por isso não vamos afirmar nada sobre isso.
 

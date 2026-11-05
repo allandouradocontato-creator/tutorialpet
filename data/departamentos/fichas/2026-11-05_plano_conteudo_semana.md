@@ -1,0 +1,12 @@
+# FICHA — Plano de conteúdo da semana — Diretor de Conteúdo e Blog / 2026-11-05 11:50 (Fortaleza)
+- Assunto e objetivo: blog saudável para AdSense; ritmo 1 artigo/dia (ordem do Allan 01/11); Pet Celebridade em dia na quinta.
+- Pareceres: SEO (config/prompts/seo.md, absorvido; plano_trafego 31/10 sem novidade); Audiência (ficha 05/11: dúvida de decisão do tutor vence; temas castração/cama de porte grande têm 5x a mediana); Operação (vigia 11:21); Conferente, Revisor de Coerência, Humorista, Utilidade Pública e Editor de Afiliados: sem parecer novo.
+- Anti-gap: (a) 1 artigo no ar hoje (feiras-e-ongs, 10:25Z), plano 1/dia; 72 h: 3 (adoção-responsável, adotar-ou-comprar, feiras). Sem gap. (b) 70 slugs aprovados, 0 sem página. (c) 130 rascunhos; fila com temas livres. SEM ALERTA.
+- Pet Celebridade: ATRASADA (última no ar 22/10, 14 dias). Causa: Giselle/Sonza reprovada 3x só pela checagem autor_preenchido (bloqueante) + 2 frases longas; E181 ficou bloqueada. DECISÃO: reescrevi à mão (frases curtas, autor vazio, data 05/11), zerei o contador em blog_reprovados.txt e peço ao Executor aprovar e publicar (E201). Fatos com link: Metrópoles, UAI 26/08/2026, Meio&Mensagem, AKC.
+- Angélica/Gringa ADIADA: a cachorra (9 anos) está em tratamento desde 31/08/2026 (Imirante/O Globo, diagnóstico não revelado); não escrever edição leve agora. Volta só com notícia da própria Angélica.
+- Fila de candidatos (3): Sonza/gatas, Marina Ruy Barbosa/dálmata, Anitta/Petrúquio (novo, adoção; conferir 2ª fonte). Latino segue com o Allan, não trava. Próxima edição quinta 12/11.
+- Prioridade da semana (SEO x audiência): dúvidas de decisão do tutor (quando castrar, cama por porte, vacina de filhote) em pilares primeiros_passos e produtos_compras; plantas de Natal tóxicas até 10/12. Conflito SEO x humor x utilidade pública: nenhum.
+- Lote veterinário: só segunda (próximo 09/11). Revisão dela opcional.
+- Ações: E201 (publicar Giselle), E202 (checar o bloqueio autor_preenchido, que reprova artigo bom).
+- Pedido ao Allan: nenhum.
+- Status: aprovada pelo Diretor
