@@ -1,0 +1,20 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como se cadastrar como protetor de animais e quais benefícios existem: guia prático",
+    "description": "Como se cadastrar como protetor de animais e quais benefícios existem: guia prático. Se você, assim como eu, já se pegou resgatando um animal em...",
+    "datePublished": "2026-11-05",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem.jpg"
+  }
+}
