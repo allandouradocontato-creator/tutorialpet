@@ -17,3 +17,6 @@ Pasta `vozes/`: VOZ_C1_culpa (42,9 s), C2_vizinho (44,3 s), C3_dica_solta (46,4 
 
 ### Atualização 05/11 01:30 — vozes aprovadas pelo Allan com tag leve [cheerful] (meio-termo: animado p/ vender, credível)
 `vozes/completos/VOZ_<Cn>_natasha_com_fecho.mp3` = corpo [cheerful] + fecho gravado ("Vem fazer seu amiguinho ficar tranquilo, sozinho em casa!" + "Clique no botão agora!"). Durações: C1 48,3 s · C2 49,7 s · C3 50,9 s · C5 52,4 s · C6 48,2 s. `vozes/VOZ_*_corpo_cheerful.mp3` = só o corpo. Os 5 primeiros áudios sem tag foram trocados (eram ~12% mais calmos que a VSL1).
+
+### VSL2..VSL6 (montadas 05/11 ~02:00, v1, voz [cheerful] + fecho) — script scripts/run_camp.py <C1|C2|C3|C5|C6>
+VSL2=C1 culpa · VSL3=C2 vizinho · VSL4=C3 dica solta · VSL5=C5 erro na saída · VSL6=C6 identificação. Vídeos em outputs/VSL_Natasha/VSL<n>_<nome>/. Card do produto no "O app monta/diz o plano" e no fecho; preço e garantia em cards; cortes ≤1,9 s.
