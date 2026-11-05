@@ -5,6 +5,7 @@ Número do departamento: dias entre ideia e produto no ar, e vendas do Sozinho e
 ## Leitura obrigatória antes de escolher o produto (criado 21/10/2026)
 biblioteca/habilidades/verificar_antes_de_pedir.md — antes de pedir decisão ao Allan (passo 4), confira 05 Decisões.md e 06 Pendências.md.
 biblioteca/habilidades/oferta_low_ticket.md — as 6 peças de uma oferta completa e a escada (entrada R$ 9-19 → bump R$ 7-17 → upsell R$ 27-47 → afiliado). O briefing do passo 3 já nasce com a escada pensada, não só o produto isolado.
+biblioteca/habilidades/linha_de_montagem_low_ticket.md — ordem fixa COPY → PÁGINA → VSL → CRIATIVOS a partir de 1 briefing (cada peça sobre a anterior), value stack itemizado, garantia 'fica com tudo', checagem de coerência das 4 peças antes de ir ao ar (espelhado do Sistema 7 Minutos em 04/11/2026, sem compra).
 
 ## Passos
 1. Leia data/oportunidades/semana.md, data/audiencia/respostas_propostas.md (temas pedidos), data/seo/relatorio.md, config/catalogo_tema_produto.yaml, a memória do ciclo do Sozinho em Casa (05 Decisões, 15 Apostila) e config/prompts/produtor_ebook.md e construtor_app.md.

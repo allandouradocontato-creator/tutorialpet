@@ -6,6 +6,7 @@ Número do departamento: views por gancho e cliques para a landing sozinho.tutor
 ## Leitura obrigatória antes de roteirizar (criado 21/10/2026)
 biblioteca/habilidades/verificar_antes_de_pedir.md — "o que precisa da decisão do Allan" (passo 5) só entra depois de conferir 05 Decisões.md.
 biblioteca/habilidades/criativo_venda_low_ticket.md — estrutura fixa 15-25s/VSL 60-90s, movimentos de abertura a alternar (nunca repetir a mesma no lote), escada de fidelidade (barato primeiro, produção cara só depois de sinal de 72h) e diagnóstico por etapa antes de descartar um roteiro.
+biblioteca/habilidades/linha_de_montagem_low_ticket.md — ordem fixa COPY → PÁGINA → VSL → CRIATIVOS a partir de 1 briefing (cada peça sobre a anterior), value stack itemizado, garantia 'fica com tudo', checagem de coerência das 4 peças antes de ir ao ar (espelhado do Sistema 7 Minutos em 04/11/2026, sem compra).
 
 ## Passos
 1. Leia data/social/referencias_virais.md, config/estilo_viral.yaml, config/ganchos_universais.yaml, config/ganchos_referencia.yaml, data/tiktok/relatorio.md, data/marketing/plano_semana.md, o Banco de Referências (doc 0e9281b0-76a8-466f-8811-55f8824e68dd) e a landing atual (data/landing).

@@ -9,6 +9,7 @@ Nicho atual: pet. O guarda-chuva é Tutorial Pet; o método vale para novos nich
 ## Leitura obrigatória antes de pontuar/priorizar (criado 21/10/2026)
 biblioteca/habilidades/verificar_antes_de_pedir.md — antes de levar algo ao Allan, confira 05 Decisões.md e 06 Pendências.md.
 biblioteca/habilidades/oferta_low_ticket.md — as 6 peças de uma oferta completa (entrega, bônus, garantia, urgência real, nome, preço), a equação de valor (qual alavanca consertar) e a escada de produto (entrada → bump → upsell → afiliado). Use "oferta completa? sim/não" como critério extra na pontuação do passo 3.
+biblioteca/habilidades/linha_de_montagem_low_ticket.md — ordem fixa COPY → PÁGINA → VSL → CRIATIVOS a partir de 1 briefing (cada peça sobre a anterior), value stack itemizado, garantia 'fica com tudo', checagem de coerência das 4 peças antes de ir ao ar (espelhado do Sistema 7 Minutos em 04/11/2026, sem compra).
 
 ## O que fazer em cada rodada
 1. Ler config/fila_temas.yaml, config/catalogo_tema_produto.yaml, config/produtos_relacionados.yaml e a oferta mais recente em data/ofertas/*.json (pode não existir).

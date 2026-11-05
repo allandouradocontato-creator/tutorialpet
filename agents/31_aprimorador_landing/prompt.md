@@ -5,6 +5,7 @@ Regra de divisão: o script mede e escolhe a alavanca; o Claude (Sonnet) escreve
 
 ## Leitura obrigatória antes de escrever a variante B (criado 21/10/2026)
 biblioteca/habilidades/oferta_low_ticket.md — estrutura de página low-ticket (gancho na linguagem do público, promessa de primeiro resultado, prova honesta, preço com âncora, 1 CTA, FAQ curto) e anatomia da oferta (bônus/garantia/urgência real) para a alavanca "OFERTA" do diagnóstico abaixo.
+biblioteca/habilidades/linha_de_montagem_low_ticket.md — ordem fixa COPY → PÁGINA → VSL → CRIATIVOS a partir de 1 briefing (cada peça sobre a anterior), value stack itemizado, garantia 'fica com tudo', checagem de coerência das 4 peças antes de ir ao ar (espelhado do Sistema 7 Minutos em 04/11/2026, sem compra).
 
 ## Entrada
 - `data/landing/metricas.csv` com colunas `data,slug,visitas,cliques_checkout,vendas` (uma linha por dia e landing).
