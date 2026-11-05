@@ -3,7 +3,7 @@ Narração inteira: voz da Dra. Natasha. Duda fora da tela; cartão da Natasha (
 Cortes ≤1,5 s, cenas brasileiras de apartamento, legenda grande, party-music baixa, carimbo Tutorial Pet · @vetnatasha, 1080x1920. Legenda pequena: Cada cachorro tem seu ritmo.
 
 ## Voz (corpo, a gravar)
-Cachorro que sofre quando fica sozinho em casa. [AVATAR: Oi! Eu sou a doutora Natasha.] E esse é o Sozinho em Casa: um plano de catorze dias, com manual e aplicativo, que ensina seu cachorro a ficar sozinho com calma. Dez minutos por dia, e ele fica tranquilo quando você sai. Pra você: pega a chave e sai sem culpa, trabalha sem olhar a câmera, volta e encontra a casa inteira. Pra ele: dorme enquanto você está fora, come direito, o coração não dispara quando a porta fecha. Cachorro calmo é cachorro mais saudável. Você leva o manual, o app que monta o plano pro temperamento dele, e dois bônus de presente.
+Cachorro que sofre quando fica sozinho em casa. [AVATAR: Oi! Eu sou a doutora Natasha.] E esse é o Sozinho em Casa: um plano de catorze dias, com manual e aplicativo, que ensina seu cachorro a ficar sozinho com calma. Dez minutos por dia, e ele fica tranquilo quando você sai. Pra você: pega a chave e sai sem culpa, trabalha sem ligar pra saber como ele está, volta e encontra a casa inteira. Pra ele: relaxa enquanto você está fora, come direito, o coração não dispara quando a porta fecha. Cachorro calmo é cachorro mais saudável. Você leva o manual, o app que monta o plano pro temperamento dele, e dois bônus de presente.
 
 ## Preço + garantia (voz)
 De noventa e sete por vinte e sete, pagamento único, seu para sempre. Se não gostar, devolvemos tudo, sem pergunta.
