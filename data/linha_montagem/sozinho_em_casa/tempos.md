@@ -8,3 +8,4 @@
 ## Rodada 6 campanhas
 - E0 plano salvo | 05/11 00:33–00:35
 - E1 COPY x6 | 05/11 00:35–00:41 | gate de proibidos = 0 | C5 depende de confirmar texto do Kit Rotina Pré-Saída antes da voz
+- E3 VSL x6 | 05/11 00:41–00:52 | 5 roteiros com voz (47–48 s) + C4 sem voz | gate = 0 | PARADA p/ aprovação em lote do Allan; C5 bloqueado até confirmar texto do Kit Rotina Pré-Saída
