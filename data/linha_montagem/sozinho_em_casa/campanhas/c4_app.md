@@ -1,30 +1,27 @@
-# Campanha C4 DEMONSTRAÇÃO — Sozinho em Casa (E1 COPY) — 05/11/2026
-Adjetivo-guia: "simples". utm_campaign=c4_app. Slug da página: /c/c4_app/.
-Fonte de verdade da oferta: data/ofertas/sozinho_em_casa.md (preço, bônus, garantia FIXOS).
+# Campanha C4 APP POR DENTRO — Sozinho em Casa (E1 COPY) — v2 Fable, aprovado Allan 05/11/2026 00:45
+utm_campaign=c4_app. Página: /c/c4_app/. Oferta fixa: data/ofertas/sozinho_em_casa.md.
 
-## Headline
-Veja por dentro: diagnóstico, 14 níveis, diploma
+## Headline (H1)
+Veja por dentro o plano que ensina seu cachorro a ficar sozinho em casa: diagnóstico, 14 níveis, diploma.
 
 ## Subheadline
-Responda 1 minuto sobre ele, o app monta o plano, você marca cada dia. Sem precisar entender de tecnologia.
+Responda 1 minuto sobre ele, o app monta o plano, você marca cada dia. Sem entender de tecnologia.
 
-## Gancho 0–2 s (voz + legenda)
-A: É assim o primeiro dia do plano.
-B: Veja o app por dentro, em 15 segundos.
-Cena do gancho: Gravação de tela REAL do app já publicada na página: diagnóstico, plano de 14 níveis, registro diário, diploma. Sem voz nova (legenda + música).
+## Botão
+Quero ver meu plano
 
-## Dor em 2 frases
-Comprar sem ver por dentro dá medo de ser mais uma promessa. Aqui você vê o app, o plano e o diploma antes de decidir o clique.
+## Antes × depois (1ª linha)
+Hoje: você não sabe se está ajudando → Com o plano: registro diário e o diploma no fim.
 
-## Promessa (frase-mãe, igual em todas)
-Em 14 dias, 10 minutos por dia, você ensina seu cachorro a ficar sozinho com calma, sem grito, para sair de casa em paz.
-Legenda pequena: Cada cachorro tem seu ritmo.
+## Ganchos dos criativos
+A: Cachorro sofre sozinho em casa? É assim o dia 1 do plano.
+B: Veja em 15 segundos o app que monta o plano do seu cachorro.
 
-## Oferta (fixa)
-Manual prático do plano de 14 dias + base teórica; aplicativo (diagnóstico, plano de 14 níveis, registro diário e diploma); Bônus 1: Kit Rotina Pré-Saída; Bônus 2: guia Pode ou Não Pode. Valor de referência R$ 97, hoje R$ 27, pagamento único, acesso vitalício.
+## Promessa (em todas)
+Em 14 dias, 10 minutos por dia, você ensina seu cachorro a ficar sozinho com calma, sem grito. Legenda pequena: Cada cachorro tem seu ritmo.
 
 ## Garantia (texto-padrão)
-Faz o plano. Se não gostar, devolvemos 100% em até 14 dias, sem pergunta, e o manual em PDF que você baixou continua com você.
+Garantia de 14 dias, sem pergunta. Devolvemos 100% e o manual em PDF fica com você.
 
 ## Ordem das 5 objeções (1ª = a que o ângulo ataca)
 1. **Preciso entender de tecnologia?** Não. Logo após o pagamento você recebe por e-mail o link do app (abre no celular) e o manual em PDF; é só seguir o dia 1.
@@ -33,13 +30,12 @@ Faz o plano. Se não gostar, devolvemos 100% em até 14 dias, sem pergunta, e o 
 4. **E se não der certo para mim?** Garantia de 14 dias, sem pergunta: devolvemos 100% e o manual em PDF que você baixou continua com você.
 5. **Por que pagar se tem dica de graça na internet?** Dica solta, pesquisada na correria e aplicada sem saber como, não funciona. Aqui você tem um plano construído, na ordem certa, com a base científica de cada passo.
 
-## Texto do anúncio (≤3 linhas)
-Veja por dentro o app do Sozinho em Casa.
-R$ 27 (de R$ 97), pagamento único, acesso vitalício.
-Garantia de 14 dias.
+
+## Texto do anúncio
+Veja por dentro o app do Sozinho em Casa. R$ 27, pagamento único, garantia de 14 dias.
 
 ## Legenda final
 Sozinho em Casa · R$ 27 · garantia de 14 dias
 
-## Fecho (SLOT Dra. Natasha, outra sessão grava)
-Eu sou a Dra. Natasha. Vem fazer seu amiguinho ficar bem sozinho em casa. Tutorial Pet.
+## Fecho
+JÁ GRAVADO em outra sessão (voz Dra. Natasha). Não regravar. Texto: "Vem fazer agora o seu amiguinho ficar tranquilo, sozinho em casa. Clica no botão agora. Tutorial Pet."

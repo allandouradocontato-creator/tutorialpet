@@ -1,18 +1,18 @@
-# VSL C4 DEMONSTRAÇÃO — Sozinho em Casa (E3) — 05/11/2026 — ≈40 s (sem voz nova)
-STATUS: AGUARDA APROVAÇÃO DO ALLAN em lote. Custo de voz = ZERO, só o slot da Dra. Natasha (outra sessão).
-Gravação de tela REAL do app já publicada na página; nada inventado. Música party-music, legendas grandes, cortes ≤1,5 s.
+# VSL C4 APP POR DENTRO — Sozinho em Casa (E3 v2) — v2 Fable, aprovado Allan 05/11/2026 00:45 — ≈40 s (SEM VOZ NOVA)
+Só legendas sobre gravação REAL do app + party-music; único áudio de voz = fecho gravado.
 
-| Tempo | Cena | Legenda (única fonte de texto) |
-|---|---|---|
-| 0–4 s | Tela real do app | É assim o primeiro dia do plano. |
-| 4–7 s | Tela real do app | Você responde 1 minuto sobre ele |
-| 7–10 s | Tela real do app | O app monta o plano de 14 dias |
-| 10–14 s | Tela real do app | Você marca cada dia |
-| 14–18 s | Tela real do app | No fim, o diploma do seu cachorro |
-| 18–21 s | Capas dos bônus | E vêm 2 bônus: Kit Rotina Pré-Saída e Pode ou Não Pode |
-| 21–24 s | Cena DEPOIS (mesmo cachorro) | DEPOIS: cachorro calmo, tutor sai em paz |
-| 24–28 s | Texto sobre cena calma | Em 14 dias, 10 min por dia: ficar sozinho com calma, sem grito |
-| 28–32 s | Texto sobre cena calma | R$ 97 → R$ 27 · pagamento único |
-| 32–35 s | Texto sobre cena calma | Faz o plano. Se não gostar, devolvemos 100% em até 14 dias. |
-| 35–38 s | Texto sobre cena calma | Cada cachorro tem seu ritmo. |
-| 38–50 s | Dra. Natasha + botão | Eu sou a Dra. Natasha. Vem fazer seu amiguinho ficar bem sozinho em casa. Tutorial Pet. (voz: outra sessão) |
+1. Cachorro sofre sozinho em casa? Veja o plano por dentro.
+2. Você responde 1 minuto sobre ele
+3. O app monta o plano de 14 dias, pro temperamento dele
+4. 10 minutos por dia, você marca cada dia
+5. No fim, o diploma do seu cachorro
+6. Mais 2 bônus: Kit Rotina Pré-Saída e Pode ou Não Pode
+7. DEPOIS (legenda: Ficar sozinho com calma, sem grito)
+8. R$ 97 → R$ 27 · pagamento único · seu para sempre
+9. Faz o plano. Se não gostar, devolvemos 100% em até 14 dias.
+10. Fecho gravado: "Vem fazer agora o seu amiguinho ficar tranquilo, sozinho em casa. Clica no botão agora. Tutorial Pet."
+
+## Criativos (≤30 s)
+A: Cachorro sofre sozinho em casa? É assim o dia 1 do plano.
+B: Veja em 15 segundos o app que monta o plano do seu cachorro.
+Texto: Veja por dentro o app do Sozinho em Casa. R$ 27, pagamento único, garantia de 14 dias.

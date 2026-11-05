@@ -1,18 +1,22 @@
-# VSL C3 GRÁTIS×PLANO — Sozinho em Casa (E3) — 05/11/2026 — ≈46 s
-STATUS: AGUARDA APROVAÇÃO DO ALLAN em lote. Voz só depois do OK.
-Estrutura do plano: gancho → dor → promessa → benefícios → DEPOIS → preço+garantia → slot Natasha. Palavras (voz Duda + slot): 117; ritmo natural 2,53 palavras/s. Teto 50 s.
-Regras: legenda grande, cenas ≤1,5 s, cenas brasileiras de apartamento, Duda só no começo e no fim, música party-music baixa, carimbo Tutorial Pet · @vetnatasha, 1080x1920.
+# VSL C3 DICA SOLTA × PLANO — Sozinho em Casa (E3 v2) — v2 Fable, aprovado Allan 05/11/2026 00:45 — ≈57 s
+Narração inteira: voz da Dra. Natasha. Duda fora da tela; cartão da Natasha (foto + CRMV 6174 + @vetnatasha) na abertura e no fecho. Estrutura: problema 0–2 s → apresentação → dor → promessa → benefícios + DEPOIS → preço+garantia → fecho gravado (≈8 s). Corpo: 124 palavras ≈ 49 s + fecho 8 s.
+Cortes ≤1,5 s, cenas brasileiras de apartamento, legenda grande, party-music baixa, carimbo Tutorial Pet · @vetnatasha, 1080x1920. Legenda pequena: Cada cachorro tem seu ritmo.
 
-| Bloco | Cena | Legenda | Voz (Duda) | Origem |
-|---|---|---|---|---|
-| 0–3 s gancho | Celular rolando pilha de abas e dicas | Já tentou dez dicas da internet e ele continua destruindo tudo? | Já tentou dez dicas da internet e ele continua destruindo tudo? | [NOVA] |
-| 3–10 s dor | Almofada destruída no chão; Abas viram uma lista única e organizada na tela | frases curtas da dor | Cada dica diz uma coisa e nenhuma diz por onde começar. Dica solta não é plano. | [NOVA] (a frase 'ninguém nasce sabendo' existe gravada em vslB_voz_corpo.mp3) |
-| 10–19 s promessa | Tutora e cachorro, mesma cena do 'antes' | Em 14 dias, 10 min por dia · Cada cachorro tem seu ritmo. | Em catorze dias, dez minutos por dia, você ensina seu cachorro a ficar sozinho com calma, sem grito, para sair de casa em paz. | [NOVA] |
-| 19–29 s benefícios | Telas reais do app (plano, registro, diploma); 2 capas dos bônus | App ajusta ao porte e temperamento · Sem grito, sem punição | O app monta o plano pro temperamento dele, com registro diário e diploma. Mais dois bônus: Kit Rotina Pré-Saída e Pode ou Não Pode. | [NOVA] ('Feito pro temperamento dele. Sem grito, sem punição.' existe gravada, pode ser cortada de vslB_voz_corpo.mp3) |
-| 29–33 s DEPOIS | MESMO cachorro deitado calmo no sofá; tutor fecha a porta tranquilo; tutor volta, sem bagunça | Sair em paz | (sem voz, música) | cena |
-| 33–42 s preço+garantia | Preço riscado R$ 97 → R$ 27 | R$ 97 → R$ 27 · pagamento único · garantia de 14 dias | De noventa e sete por vinte e sete reais, pagamento único. Faz o plano. Se não gostar, devolvemos cem por cento em até catorze dias. | [NOVA] ('Vinte e sete reais, pagamento único' gravada difere: não usa a âncora) |
-| 42–50 s fecho | Dra. Natasha + botão | Sozinho em Casa · R$ 27 · garantia de 14 dias | Eu sou a Dra. Natasha. Vem fazer seu amiguinho ficar bem sozinho em casa. Tutorial Pet. | OUTRA SESSÃO GRAVA (não duplicar) |
+## Voz (corpo, a gravar)
+Cachorro destruindo tudo quando fica sozinho em casa? Eu sou a Dra. Natasha, médica veterinária. Você já tentou dez dicas da internet: petisco, bronca, vídeo, grupo de tutores. Cada uma diz uma coisa e nenhuma diz por onde começar. Dica solta não é plano. Em catorze dias, dez minutos por dia, na ordem certa, você ensina seu cachorro a ficar sozinho com calma. O app diz o que fazer em cada dia, pro temperamento dele, e explica o porquê de cada passo. Mais dois bônus: Kit Rotina Pré-Saída e Pode ou Não Pode.
 
-Texto corrido para o ElevenLabs (Duda, sem o slot): [excited] Já tentou dez dicas da internet e ele continua destruindo tudo? Cada dica diz uma coisa e nenhuma diz por onde começar. Dica solta não é plano. Em catorze dias, dez minutos por dia, você ensina seu cachorro a ficar sozinho com calma, sem grito, para sair de casa em paz. O app monta o plano pro temperamento dele, com registro diário e diploma. Mais dois bônus: Kit Rotina Pré-Saída e Pode ou Não Pode. De noventa e sete por vinte e sete reais, pagamento único. Faz o plano. Se não gostar, devolvemos cem por cento em até catorze dias.
+## Preço + garantia (voz)
+De noventa e sete por vinte e sete reais, pagamento único, e é seu para sempre. Faz o plano. Se não gostar, devolvemos cem por cento em até catorze dias.
+Legenda: R$ 97 → R$ 27 · pagamento único · garantia de 14 dias
 
-Puts proibidos: 9,90, 37, 7 dias, cão, 'por tempo limitado', 'revisado', 'o latido acaba', resultado garantido, preço com 'por dia/mês'.
+## Fecho (JÁ GRAVADO, não regravar)
+Vem fazer agora o seu amiguinho ficar tranquilo, sozinho em casa. Clica no botão agora. Tutorial Pet.
+Tela: capas dos 2 e-books + telas do app + botão + legenda Sozinho em Casa · R$ 27 · garantia de 14 dias.
+
+## Cenas
+celular rolando abas / almofada destruída / abas viram lista única no app / DEPOIS: tutor marcando o dia 7 no app, cachorro calmo ao lado
+
+## Criativos (≤30 s)
+A: Já tentou dez dicas e ele continua destruindo tudo sozinho em casa?
+B: Dica solta não é plano. Cachorro sozinho em casa precisa de ordem, não de mais uma dica.
+Texto: Dica solta não é plano. Sozinho em Casa: 14 dias, na ordem certa, com a base de cada passo. R$ 27, pagamento único, garantia de 14 dias, e o manual fica com você.

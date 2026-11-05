@@ -9,3 +9,4 @@
 - E0 plano salvo | 05/11 00:33–00:35
 - E1 COPY x6 | 05/11 00:35–00:41 | gate de proibidos = 0 | C5 depende de confirmar texto do Kit Rotina Pré-Saída antes da voz
 - E3 VSL x6 | 05/11 00:41–00:52 | 5 roteiros com voz (47–48 s) + C4 sem voz | gate = 0 | PARADA p/ aprovação em lote do Allan; C5 bloqueado até confirmar texto do Kit Rotina Pré-Saída
+- E1/E3 v2 (textos Fable aprovados, narração Natasha) | 05/11 00:46–00:58 | c1..c6.md + vsl_c1..c6 + vozes_natasha_para_gravar.md regravados | gate de proibidos = 0 | durações estimadas 54–57 s (corpo + fecho 8 s), acima do teto de 50 s do plano; abaixo de 60 s | fecho NÃO localizado no repo (nenhum áudio natasha/fecho/cta em data/ ou animaticos/); procurar no PC do Allan
