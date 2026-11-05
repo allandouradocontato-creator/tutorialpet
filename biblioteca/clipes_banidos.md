@@ -16,3 +16,7 @@ Regra de processo: antes de exportar, listar os clipes usados e conferir contra 
 - @lipponvs (a12: compilação de memes com gato de braços humanos)
 - @meowtakeover (a08, a24: filhotes de rua à noite em rodovia + marca de página)
 - @therealmeowfia (a13: trend editada "gato com copo")
+
+## 05/11/2026 (Allan)
+- 10914654-hd_1080_1920_30fps.mp4 (Pexels, cachorro marrom molhado no chuveiro) — "parece cachorrinho maltratado"; já tinha pedido para tirar e voltou na VSL v4 (C2, 23 s). BANIDO.
+- Reconfirmados e filtrados no run_camp_v5: cachorro_01, cachorro_04 (poodle filhote vermelho), cachorro_07, vizinho_13/14/15. Regra: run_camp_v5 lê esta lista antes de montar.
