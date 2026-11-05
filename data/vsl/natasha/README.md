@@ -14,3 +14,6 @@ Mais BENEFÍCIOS/RESULTADO (o que a pessoa ganha, não como resolver) nas próxi
 
 ## Vozes dos corpos C1–C6 (gravadas 05/11/2026, ElevenLabs v4, IVC Natasha, estab. 20%, sim. 75%)
 Pasta `vozes/`: VOZ_C1_culpa (42,9 s), C2_vizinho (44,3 s), C3_dica_solta (46,4 s), C5_erro_na_saida (46,5 s), C6_identificacao (43,2 s). C4 sem voz. Texto: data/vsl/campanhas/vozes_natasha_para_gravar.md (corrigido o espaço em "Pode ou Não Pode. De noventa"). Sem o fecho (já gravado). Duração dos corpos ainda passa de 40 s: somar o fecho (~6 s) pode ultrapassar 50 s.
+
+### Atualização 05/11 01:30 — vozes aprovadas pelo Allan com tag leve [cheerful] (meio-termo: animado p/ vender, credível)
+`vozes/completos/VOZ_<Cn>_natasha_com_fecho.mp3` = corpo [cheerful] + fecho gravado ("Vem fazer seu amiguinho ficar tranquilo, sozinho em casa!" + "Clique no botão agora!"). Durações: C1 48,3 s · C2 49,7 s · C3 50,9 s · C5 52,4 s · C6 48,2 s. `vozes/VOZ_*_corpo_cheerful.mp3` = só o corpo. Os 5 primeiros áudios sem tag foram trocados (eram ~12% mais calmos que a VSL1).
