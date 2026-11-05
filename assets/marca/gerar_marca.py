@@ -40,7 +40,7 @@ def ebook(w=420):
     # light edge
     return b
 def phone(w=400):
-    app=Image.open('/tmp/nat/prod/app_full.png').convert('RGB'); h=int(w*1.95)
+    app=Image.open('/tmp/nat/prod/app_full.png').convert('RGB'); h=int(w*1.72)
     scr=app.resize((w-30,int((w-30)*app.height/app.width))).crop((0,0,w-30,h-30))
     fr=Image.new('RGBA',(w,h),(20,16,40,255)); fr=rr(fr,48)
     s=rr(scr,34); fr.alpha_composite(s,(15,15))
@@ -70,3 +70,19 @@ if __name__=='__main__':
     card().save('/tmp/nat/prod/produto_card.png'); card(video=True).save('/tmp/nat/prod/produto_card_video.png')
     logo(1400).save('/tmp/nat/prod/logo_sozinho_em_casa.png')
     appicon().save('/tmp/nat/prod/icone_app_sozinho_em_casa.png')
+
+
+def card_top():
+    W,H=1080,1920; bg=Image.new('RGBA',(W,H),CREAM+(255,)); d=ImageDraw.Draw(bg)
+    d.ellipse((-300,-300,520,520),fill=PINK); d.ellipse((700,-200,1400,500),fill=TEAL)
+    d.ellipse((-200,1250,380,1830),fill=PUR); d.ellipse((780,1480,1350,2050),fill=YEL)
+    L=logo(800); plate=Image.new('RGBA',(L.width+90,L.height+70),CREAM+(255,)); plate=rr(plate,46)
+    paste_sh(bg,plate,((W-plate.width)//2,315),off=(0,10),blur=18,op=70); bg.alpha_composite(L,((W-L.width)//2,350))
+    # moldura em volta da janela de video
+    d=ImageDraw.Draw(bg); d.rounded_rectangle((96,576,984,1234),70,fill=NAVY)
+    hole=Image.new('L',(W,H),255); ImageDraw.Draw(hole).rounded_rectangle((110,590,970,1220),56,fill=0)
+    a=bg.split()[3]; bg.putalpha(ImageChops.multiply(a,hole))
+    eb=ebook(330).rotate(7,expand=True,resample=Image.BICUBIC); paste_sh(bg,eb,(60,900))
+    pm=phone(310).rotate(-5,expand=True,resample=Image.BICUBIC); paste_sh(bg,pm,(670,860))
+    return bg
+card_top().save('/tmp/nat/prod/produto_top.png')
