@@ -49,3 +49,9 @@
 1. **"Quem manda em casa?" (enquete pet x tutor)** — vídeo ≤12 s, pet ocupando o sofá/cama, pergunta "quem manda aí?" com CTA de seguir. Atrai: identificação e comentário fácil (replica o post humor que coincidiu com o +3 FB). Risco: baixo (sem saúde). Custo: baixo (banco livre, sem voz).
 2. **"Adoção: perguntas que todo mundo faz" (série numerada, TikTok)** — extensão do campeão de 331 views, parte 1/3 com "segue pra parte 2". Atrai: curiosidade + seguir pela sequência. Risco: baixo (sem animal triste, regra 29; sem Fortaleza). Custo: baixo.
 3. **Mapa do feriado/fim de semana do pet (carrossel salvável)** — 5 cartões com rotina simples, @vetnatasha revisora, "procure um veterinário" se mudar o comportamento. Atrai: salvamento e marcação. Risco: baixo-médio (regra 37, sem dose). Custo: baixo (template).
+| 2026-11-05 09:20 | Diretor de Audiência | FB 13, IG 4 (parados), TikTok sem leitura de seguidores (21 em 24/10 = 2,1%); campeão novo: castração 550 e cama grande 549 views (5x mediana), burocrático ~100; comentário 0, DM 0; ficha 2026-11-05_audiencia_rodada.md; E199 (temas de decisão do tutor); E198 aberta; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 05/11/2026
+1. **"Quando castrar? por porte" (série numerada, TikTok)** — Parte 1 cão pequeno, 2 grande, 3 gata; replica o campeão de 550 views. Risco: médio (saúde, @vetnatasha revisa, sem dose, "procure um veterinário"). Custo: baixo.
+2. **"Cama certa pro seu pet" (guia de porte, carrossel salvável)** — extensão do vídeo de 549 views; salvamento. Risco: baixo. Custo: baixo (template).
+3. **"Decisão da semana" (enquete de tutor)** — 1 dúvida de escolha (ração A ou B, cama alta ou baixa) com pergunta binária; comentário fácil. Risco: baixo (sem marca citada em saúde). Custo: baixo.

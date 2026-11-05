@@ -32,3 +32,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-11-01 | rodada 16:15: remedio-gato 04/11 10:20 TikTok, gancho pergunta+segundos | n=1, sem métrica ainda | mantém
 2026-11-03 | regra TikTok: conteúdo de utilidade/adoção em série com CTA seguir | n=1 vídeo de adoção 331 views (tendência, n<3) | mantém
 2026-11-04 | decisão por skill (sem pesquisa nova); CTA de seguir e T0 curto | FB 13, IG 4, TikTok sem dado | mantém
+2026-11-05 | plataforma TikTok: dúvida real com decisão do tutor retém e é curtida (51 curtidas na castração) | n=2 acima de 500 | mantém

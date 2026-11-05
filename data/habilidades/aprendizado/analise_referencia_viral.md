@@ -13,3 +13,4 @@ Skill: biblioteca/habilidades/analise_referencia_viral.md (v2, 22/10/2026). Uma 
 2026-11-02 | sem referência nova lida nesta rodada; nenhuma regra aplicada | n=0 | mantém
 2026-11-03 | não aplicada (sem referência nova) | n=0 | mantém
 2026-11-04 | não aplicada nesta rodada (sem referência viral nova; react de humor pausado) | n=0 | mantém
+2026-11-05 | análise de referência: viral de terceiros segue pausado; referência interna = vídeos de decisão do tutor | n=2 | mantém

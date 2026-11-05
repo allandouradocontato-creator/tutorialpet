@@ -1,0 +1,13 @@
+# FICHA — Campanha de audiência da semana (rodada 05/11 09:20 Fortaleza)
+- Departamento / Diretor: Audiência e Redes / Diretor de Audiência / 2026-11-05 09:20
+- Objetivo: TikTok @tutorialpetbr 1.000 seguidores. TikTok N/1000: SEM DADO de seguidores (Buffer só dá views; Zernio sem TikTok; sem Chrome nesta rodada). Último valor: 21 (24/10) = 2,1%.
+- Estado real (Zernio 05/11 07:44Z): FB 13 (parado desde o salto de 04/11), IG 4 (106 posts, parado). Comentário de terceiro 0, DM 0, contatos ManyChat 0.
+- Leitura 24 h TikTok (painel do Operador, Buffer 05/11): castração idade certa 550 views/51 curtidas/1 comentário (3/11 14:20) e cama porte grande 549 (3/11 10:20) = 5x a mediana (~105) e novo campeão, acima da adoção (331). Burocracia/idoso/piscina/Sinpatinhas ~100-134 = abaixo de 200, não repetir gancho. Gato cospe remédio 38 em ~21 h: reler amanhã.
+- Pareceres: Operador de Audiência: dúvida de decisão do tutor (castrar, cama) > burocrático; Decifrador: sem relatório (seguidores dependem do TikTok Studio, E184/E198); Atendente: sem comentário novo; Estrategista/Criador absorvidos: mantêm pergunta + CTA de seguir. Sem parecer de Especialista TikTok.
+- Divergência: Operador sugere repost A (virais) x pausa do react de humor de terceiros (Allan 30/10). Decido: repost de terceiros segue PAUSADO; formato B (dúvida real em série) ganha 2x produção amanhã por ser o vencedor de 24 h (n=2 acima de 500, n<3 = tendência, não veredito).
+- DECISÃO: (1) dobrar o slot "dúvida real" com temas de DECISÃO do tutor (quando castrar, que cama/porte, quando vacinar filhote, quanto passeio) em série numerada com "segue pra parte 2"; (2) cortar temas burocráticos/idoso/piscina; (3) manter 1 react de produto/semana; (4) seguir 1 adoção/dia ("3 coisas que ninguém te conta"). Isca Semáforo 1 página segue rascunho; nada ao vivo no ManyChat.
+- Textos: nenhum texto novo ao público aprovado hoje (CTA "segue o @tutorialpetbr" já aprovado na ficha 03/11); sem Fortaleza (regra 33), sem alegação médica (temas de saúde com @vetnatasha, "procure um veterinário").
+- Métrica/gatilho: GANHOU = >= +3 seguidores TikTok/dia por 3 dias OU FB >= +2/dia por 3 dias OU 2 vídeos de decisão >= 400 views; NEUTRO n<3; PERDEU = views de decisão < 200 em 3 vídeos -> mudar tema na hora.
+- Ações: E199 (nuvem, 1 dia): gravar em data/social/fila_duvidas_reais.md 6 temas de decisão do tutor (série numerada); E198 (leitura de seguidores TikTok Studio) segue aberta.
+- Pedido ao Allan: nenhum novo. Gargalo único: seguidor TikTok sem leitura há 12 dias (Chrome/PC, E198/E184).
+- Status: aprovada.
