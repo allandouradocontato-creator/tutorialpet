@@ -5,3 +5,6 @@
 | 2. PÁGINA B | 04/11 22:38 | 04/11 22:55 | 17 min | Sonnet | - | sozinho.tutorialpet.com.br/b/ no ar (noindex), conferida ao vivo: 7 CTAs com UTM lm1, 0 imagem quebrada; celular+desktop sem rolagem lateral; barra fixa ok; pixel CTA_Click |
 | 3. VSL | 04/11 22:55 | 04/11 23:10 | 15 min | Sonnet | decisão sobre regravar 2 frases (só VSL longa) | etapa3_vsl_alinhamento.md; achei v3 pronta no PC; 3 divergências listadas |
 | 4. CRIATIVOS | 04/11 23:10 | 04/11 23:52 | 42 min | Sonnet | - | 3 vídeos ≈27 s, −14 LUFS; travou em ffmpeg (overlay em loop sem fim) e blur inválido: ~15 min perdidos |
+## Rodada 6 campanhas
+- E0 plano salvo | 05/11 00:33–00:35
+- E1 COPY x6 | 05/11 00:35–00:41 | gate de proibidos = 0 | C5 depende de confirmar texto do Kit Rotina Pré-Saída antes da voz
