@@ -44,3 +44,27 @@ Métrica por criativo (Kiwify utm_content + pixel CTA_Click): clique no botão /
 
 ## O que NÃO é problema só de criativo (honesto)
 31 checkouts iniciados e 0 compras indicam que o gargalo também pode estar no checkout (Pix/cartão, selo, bônus) — por isso a Etapa 5 (Kiwify) segue na fila logo após estes roteiros. Criativo novo sem checkout alinhado pode trazer o mesmo resultado.
+
+## PROMESSA E BENEFÍCIOS (Allan, 05/11 00:11) — vale para todos os criativos D–I e para os próximos
+Problema detectado: os criativos mostram a dor, mas não deixam claro o que a pessoa GANHA. Regra: toda peça tem (1) a promessa em 1 frase, (2) o "depois" mostrado em cena, (3) os benefícios concretos do produto, (4) a garantia como prova de confiança. Sem garantir resultado.
+
+**Promessa única (frase-mãe, voz + legenda, até 3 s do meio do vídeo):**
+"Em 14 dias, 10 minutos por dia, você ensina seu cachorro a ficar sozinho com calma, sem grito, para sair de casa em paz."
+É o OBJETIVO do plano, dito como o que o método propõe, não como resultado garantido. Aviso pequeno na legenda final: "Cada cachorro tem seu ritmo."
+**Promessa de risco zero (fecha o vídeo, mais forte que qualquer adjetivo):** "Faz o plano. Se não gostar, devolvemos 100% em até 14 dias." (verdadeira: a garantia é incondicional; é mais ampla que "se não funcionar", então não exagera.)
+
+**O "depois" em cena (obrigatório em todo criativo, 2–3 s, mesmo cachorro do "antes"):** cachorro deitado calmo no sofá/cama enquanto o tutor fecha a porta e sai tranquilo; tutor voltando e cachorro sem bagunça. Só mostrar cena plausível, sem "milagre" (nada de cachorro "curado" em 1 dia).
+
+**Benefícios que PODEM ser ditos (todos existem no produto):**
+- passo a passo de 14 dias, 10 minutos por dia (sabe o que fazer a cada dia)
+- app ajusta ao porte, à energia e ao temperamento do seu cachorro
+- sem grito e sem punição
+- registro diário no app e diploma no fim (você vê a evolução)
+- 2 bônus: Kit Rotina Pré-Saída e guia Pode ou Não Pode
+- R$ 97 em valor, R$ 27 pagamento único, acesso vitalício
+- garantia de 14 dias (você fica com o manual em PDF)
+**NÃO dizer:** "o latido acaba", "o vizinho sossega", "resultado garantido", número de clientes, "revisado pela Dra.", urgência inventada.
+
+**Estrutura de todo criativo a partir de agora (≈25–30 s):**
+0–2 s problema (gancho) → 2–10 s dor/culpa → 10–14 s PROMESSA (frase-mãe) → 14–22 s benefícios em 3 cenas (app, plano de 14 dias, bônus) + "DEPOIS" calmo → 22–25 s preço R$ 27 de R$ 97 + garantia 14 dias → 25–30 s SLOT Dra. Natasha ("Eu sou a Dra. Natasha. Adquira já o Sozinho em Casa e siga o Tutorial Pet.").
+Os 3 anúncios lm1 já entregues são de gancho + fechamento curto e não têm esse bloco de promessa/benefício: ficam como controle; os novos (lm2) seguem esta estrutura.
