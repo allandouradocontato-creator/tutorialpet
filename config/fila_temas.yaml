@@ -64,8 +64,9 @@ temas:
 - termo: pinscher temperamento e cuidados da raça da Giselle, pet da Luísa Sonza
   pilar: comportamento
   status: rascunho_pronto
-  nota: Pet Celebridade (edição 05/11/2026, reescrita à mão pelo Diretor, frases longas cortadas); fatos com link na ficha 2026-10-29_pet_celebridade_giselle.md;
-    Executor aprova em blog_aprovados.txt (E201)
+  nota: Pet Celebridade (edição 05/11/2026, reescrita à mão pelo Diretor, frases longas
+    cortadas); fatos com link na ficha 2026-10-29_pet_celebridade_giselle.md; Executor
+    aprova em blog_aprovados.txt (E201)
   data: '2026-11-05'
 - termo: yorkshire temperamento e cuidados da raça da Doralice, pet da Xuxa
   pilar: comportamento
@@ -1045,10 +1046,11 @@ temas:
   data: '2026-11-04'
 - termo: 'adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos'
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção; saúde: publicar sem esperar a Natasha (cautela padrão, sem
     alegação médica categórica); selo só se ela revisar depois. Gancho: Cuidados,
     custos médios, benefícios, adaptações da casa'
+  data: '2026-11-05'
 - termo: 'devolver um animal adotado: por que acontece, como evitar e o que fazer'
   pilar: adocao
   status: pendente

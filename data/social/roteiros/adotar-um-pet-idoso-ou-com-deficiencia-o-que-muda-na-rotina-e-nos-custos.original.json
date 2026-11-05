@@ -1,0 +1,46 @@
+{
+  "titulo_video": "O que muda ao adotar um pet idoso ou com deficiência",
+  "gancho_3s": "Vai adotar um pet idoso ou com deficiência? Veja o que muda na rotina!",
+  "cenas": [
+    {
+      "narracao": "Adotar um pet sênior ou com deficiência pede um olhar atento ao layout da sua casa.",
+      "visual_busca_banco_livre": "senior dog walking slowly indoor",
+      "texto_na_tela": "Atenção ao layout da casa"
+    },
+    {
+      "narracao": "Tapetes antiderrapantes nos corredores evitam que as patas derrapem no piso liso.",
+      "visual_busca_banco_livre": "dog paw close up floor",
+      "texto_na_tela": "Pisos antiderrapantes"
+    },
+    {
+      "narracao": "O foco passa a ser o conforto e a preservação de energia, longe da correria de um filhote.",
+      "visual_busca_banco_livre": "old cat sleeping peacefully",
+      "texto_na_tela": "Foco no conforto"
+    },
+    {
+      "narracao": "Financeiramente, espere gastos mais frequentes com exames preventivos, rações específicas e suplementos.",
+      "visual_busca_banco_livre": "elderly dog resting comfortable bed",
+      "texto_na_tela": "Gastos com exames e ração"
+    },
+    {
+      "narracao": "Em compensação, você economiza naquilo que seria o caos inicial de um filhote.",
+      "visual_busca_banco_livre": "calm senior dog portrait",
+      "texto_na_tela": "Sem o caos de filhote"
+    },
+    {
+      "narracao": "Qualquer alteração de comportamento exige comunicação imediata com o médico veterinário.",
+      "visual_busca_banco_livre": "sick cat looking out window",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Consulte sempre o veterinário para garantir saúde e conforto ao seu pet!",
+  "hashtags": [
+    "#petidoso",
+    "#adocaoresponsavel",
+    "#petsenior",
+    "#caoidoso",
+    "#gatosenior"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai adotar um pet idoso ou com deficiência? Veja o que muda na rotina!\n\n📖 Artigo completo: https://tutorialpet.com.br/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos\n\n#petidoso #adocaoresponsavel #petsenior #caoidoso #gatosenior",
+  "slug": "adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos"
+}
