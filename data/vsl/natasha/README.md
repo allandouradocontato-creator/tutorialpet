@@ -20,3 +20,6 @@ Pasta `vozes/`: VOZ_C1_culpa (42,9 s), C2_vizinho (44,3 s), C3_dica_solta (46,4 
 
 ### VSL2..VSL6 (montadas 05/11 ~02:00, v1, voz [cheerful] + fecho) — script scripts/run_camp.py <C1|C2|C3|C5|C6>
 VSL2=C1 culpa · VSL3=C2 vizinho · VSL4=C3 dica solta · VSL5=C5 erro na saída · VSL6=C6 identificação. Vídeos em outputs/VSL_Natasha/VSL<n>_<nome>/. Card do produto no "O app monta/diz o plano" e no fecho; preço e garantia em cards; cortes ≤1,9 s.
+
+### 05/11 01:55 — PAUSA ordenada pelo Allan; estado
+VSL2..6 v2 montadas (texto v2 = o do áudio gravado; copia em scripts/textos_v2_usados_nas_vozes.md; a v3 do Fable NÃO tem áudio ainda). Imagem agora ilustra a frase por palavra-chave (regra 62). Vídeos em outputs/VSL_Natasha/VSL<n>_<nome>/ (fora do git). Voz: ElevenLabs "Dra Natasha Braga - Tutorial Pet (clone autorizado)", Eleven v4, estab. ~20%, sim. ~75%, tag [cheerful] no início do corpo; fecho = trecho 38,55 s em diante de VSL1 (audio_v9). Voice ID não lido.
