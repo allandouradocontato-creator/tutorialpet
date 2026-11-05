@@ -3,7 +3,7 @@ Narração inteira: voz da Dra. Natasha. Duda fora da tela; cartão da Natasha (
 Cortes ≤1,5 s, cenas brasileiras de apartamento, legenda grande, party-music baixa, carimbo Tutorial Pet · @vetnatasha, 1080x1920. Legenda pequena: Cada cachorro tem seu ritmo.
 
 ## Voz (corpo, a gravar)
-Cachorro sozinho em casa latindo o dia todo. [AVATAR: Oi! Eu sou a doutora Natasha.] E esse é o Sozinho em Casa: um plano de catorze dias, com manual e aplicativo, que ensina seu cachorro a ficar sozinho com calma. Dez minutos por dia, e ele fica em paz quando você sai. Pra você: silêncio no corredor, nenhum bilhete na porta, e você cruza com o vizinho sem pedir desculpa. Pra ele: latir o dia inteiro é estresse, garganta e coração acelerado. Um cachorro em paz dorme, descansa e envelhece melhor. Você leva o manual, o app que monta o plano pro temperamento dele, e dois bônus de presente.
+Cachorro sozinho em casa latindo o dia todo. [AVATAR: Oi! Eu sou a doutora Natasha.] E esse é o Sozinho em Casa: um plano de catorze dias, com manual e aplicativo, que ensina seu cachorro a ficar sozinho com calma. Dez minutos por dia, e ele fica em paz quando você sai. Pra você: silêncio no corredor, nenhum bilhete na porta, e você cruza com o vizinho sem pedir desculpa. Pra ele: latir o dia inteiro é estresse, cansaço e coração acelerado. Um cachorro em paz dorme, descansa e envelhece melhor. Você leva o manual, o app que monta o plano pro temperamento dele, e dois bônus de presente.
 
 ## Preço + garantia (voz)
 De noventa e sete por vinte e sete, pagamento único, seu para sempre. Se não gostar, devolvemos tudo, sem pergunta.
