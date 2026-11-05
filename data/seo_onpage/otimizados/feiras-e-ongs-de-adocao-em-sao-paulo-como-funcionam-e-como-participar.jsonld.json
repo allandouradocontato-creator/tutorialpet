@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Feiras e ONGs de adoção em São Paulo: como funcionam e como participar: guia prático",
+    "description": "Feiras e ONGs de adoção em São Paulo: como funcionam e como participar: guia prático. Participar de feiras e interagir com ONGs é o caminho mais direto...",
+    "datePublished": "2026-11-04",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/feiras-e-ongs-de-adocao-em-sao-paulo-como-funcionam-e-como-participar",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/feiras-e-ongs-de-adocao-em-sao-paulo-como-funcionam-e-como-participar"
+    },
+    "image": "https://tutorialpet.com.br/imagens/feiras-e-ongs-de-adocao-em-sao-paulo-como-funcionam-e-como-participar.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Precisa pagar taxa para adotar em feiras e ONGs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, as instituições não cobram taxa de adoção, mas algumas solicitam uma contribuição voluntária ou a doação de um pacote de ração para ajudar na manutenção do abrigo.  - **Posso adotar no mesmo dia e levar o pet para casa?**   Depende da ONG. Algumas realizam a entrega no mesmo dia após a aprovação da entrevista, enquanto outras exigem vistoria prévia na residência do adotante.  - **O que acontece se o pet não se adaptar à minha rotina?**   As ONGs sérias possuem contrato que obriga a devolução do animal exclusivamente para a instituição caso ocorra qualquer incompatibilidade, proibindo o repasse a terceiros.  - **Posso adotar em São Paulo mesmo morando em outra cidade?**   Costuma ser permitido desde que o adotante consiga comparecer presencialmente à feira ou abrigo para a entrevista e arque com o transporte seguro do animal.  - **Filhotes adotados já vêm castrados?**   Se já tiverem a idade mínima recomendada pelo médico-veterinário (em média a partir dos 6 meses, variando conforme o porte), sim. Caso contrário, a ONG exige um termo de compromisso para realizar o procedimento posteriormente."
+        }
+      }
+    ]
+  }
+}
