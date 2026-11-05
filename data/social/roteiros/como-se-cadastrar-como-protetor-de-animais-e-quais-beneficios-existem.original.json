@@ -1,0 +1,45 @@
+{
+  "titulo_video": "Como se formalizar como protetor de animais",
+  "gancho_3s": "Quer ser um protetor de animais reconhecido? Descubra como funciona o registro oficial!",
+  "cenas": [
+    {
+      "narracao": "Muita gente pergunta se existe uma carteirinha única para protetores de animais. A resposta é não.",
+      "visual_busca_banco_livre": "stray dog looking sad street",
+      "texto_na_tela": "Existe carteirinha de protetor?"
+    },
+    {
+      "narracao": "O caminho é a formalização por meio de associações ou parcerias com o poder público municipal.",
+      "visual_busca_banco_livre": "shelter dog looking through fence",
+      "texto_na_tela": "Formalização municipal"
+    },
+    {
+      "narracao": "Cada prefeitura possui autonomia. Verifique no site da sua cidade na aba de Bem-Estar Animal ou Zoonoses.",
+      "visual_busca_banco_livre": "cat resting indoors close up",
+      "texto_na_tela": "Consulte sua prefeitura"
+    },
+    {
+      "narracao": "Muitas cidades oferecem o Cadastro de Protetores Independentes ou ONGs parceiras.",
+      "visual_busca_banco_livre": "dog playing in yard joyful",
+      "texto_na_tela": "Cadastro de protetores"
+    },
+    {
+      "narracao": "Isso facilita o acesso a mutirões de castração gratuita, apoio logístico e campanhas de vacinação.",
+      "visual_busca_banco_livre": "veterinary cat examining table healthy",
+      "texto_na_tela": "Acesso a castração e vacinas"
+    },
+    {
+      "narracao": "Lembre-se de avaliar sua capacidade de suporte e conhecer bem as leis de proteção animal.",
+      "visual_busca_banco_livre": "dog resting comfortably on floor",
+      "texto_na_tela": "Atue com responsabilidade"
+    }
+  ],
+  "chamada_final": "Consulte os órgãos da sua cidade para saber as regras locais e consulte um veterinário sempre que precisar!",
+  "hashtags": [
+    "#protecaoanimal",
+    "#caesegatos",
+    "#guardaresponsavel",
+    "#bemestaranimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer ser um protetor de animais reconhecido? Descubra como funciona o registro oficial!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem\n\n#protecaoanimal #caesegatos #guardaresponsavel #bemestaranimal",
+  "slug": "como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem"
+}

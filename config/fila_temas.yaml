@@ -1099,9 +1099,10 @@ temas:
   data: '2026-11-03'
 - termo: como se cadastrar como protetor de animais e quais benefícios existem
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'data/utilidade_publica/cadastro-protetor-municipios.md. Gancho: Cadastros
     municipais; o que muda; sem prometer benefício'
+  data: '2026-11-05'
 - termo: 'pet em condomínio e aluguel: o que o síndico e o proprietário podem exigir'
   pilar: utilidade_publica
   status: pendente
@@ -1348,4 +1349,13 @@ temas:
   status: pendente
 - termo: por que gatos idosos mudam o padrao de miado durante a noite
   pilar: comportamento
+  status: pendente
+- termo: como criar espacos separados para gatos e caes na mesma casa
+  pilar: comportamento
+  status: pendente
+- termo: como escolher comedouros automaticos para caes e gatos com horarios diferentes
+  pilar: produtos_compras
+  status: pendente
+- termo: como planejar a alimentacao natural caseira segura para gatos adultos
+  pilar: alimentacao
   status: pendente
