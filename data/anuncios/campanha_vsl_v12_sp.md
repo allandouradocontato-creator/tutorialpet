@@ -230,3 +230,6 @@ Fim: adset_end_time 04/11 02:59 UTC (= 03/11 23:59 Fortaleza); 04/11 gasto R$ 0,
 **Por anúncio (03/11)**: C v13 landing R$ 9,70 / 13 cliques / 0 inícios · DIRETO C v13 24,41 / 34 / 18 · v4 A+B 2,61 / 7 / 1 · v3 A/B/C 3,20 / 4 / 0 (ainda ACTIVE).
 **Depois da landing nova**: sem dado novo útil; inícios pela landing em 03/11 = 1 (v4 B) em R$ 15,5 do conjunto mulheres; landing não mostrou ganho.
 **Recomendação (sem executar)**: (1) Feed do FB fora (já zerado). (2) Reels FB concentra o sinal; IG Reels fraco (n=6). (3) 65+ fora. (4) Não concentrar só em mulher 25-34 por decisão nossa: o Meta já faz isso. (5) Julgar o DIRETO só por VENDA na Kiwify. (6) Não prorrogar sem venda confirmada.
+
+## 05/11/2026 09:36 — Auditor (Windsor facebook, até 05/11)
+Sem mudança: gasto total segue R$ 210,01 (45 inícios, 0 compras no pixel); 04/11 R$ 0,00, 05/11 sem entrega. O EXTRA de perfil (31/10) já está registrado em 01-04/11; não repeti. Vendas Kiwify: Unknown. Decisão do Allan segue aberta (ver auditoria.md).
