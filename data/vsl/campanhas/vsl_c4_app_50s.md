@@ -10,7 +10,7 @@ Só legendas sobre gravação REAL do app + party-music; único áudio de voz = 
 7. Manual + app + 2 bônus
 8. R$ 97 → R$ 27 · pagamento único · seu para sempre
 9. Se não gostar, devolvemos tudo, sem pergunta
-10. Fecho gravado: "Vem fazer agora o seu amiguinho ficar tranquilo, sozinho em casa. Clica no botão agora. Tutorial Pet."
+10. Fecho gravado: "Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora! ("Tutorial Pet" só na tela, não falado)"
 
 
 ## Criativos (≤30 s) — legenda = voz

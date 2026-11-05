@@ -9,8 +9,8 @@ Cachorro sofrendo sozinho em casa. Eu sou a Dra. Natasha, médica veterinária. 
 De noventa e sete por vinte e sete, pagamento único, seu para sempre. Se não gostar, devolvemos tudo, sem pergunta.
 Legenda = a fala. Card na tela: R$ 97 → R$ 27 · pagamento único
 
-## Fecho (JÁ GRAVADO, não regravar)
-Vem fazer agora o seu amiguinho ficar tranquilo, sozinho em casa. Clica no botão agora. Tutorial Pet.
+## Fecho OFICIAL (já gravado pela sessão da Natasha; único para todas as campanhas)
+Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora! ("Tutorial Pet" só na tela, não falado)
 Tela: capas dos 2 e-books + telas do app + botão + legenda Sozinho em Casa · R$ 27.
 
 ## Cenas

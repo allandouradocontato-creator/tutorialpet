@@ -2,7 +2,7 @@
 Pedido do Allan (23:52): mais opções de criativo/copy que realmente vendam (0 vendas até agora). NÃO repete: os 3 anúncios lm1 (preguiçosa / devolve / piorando) nem a VSL com a voz da Dra. Natasha (outra sessão). Todo roteiro termina num SLOT DE FECHAMENTO que a outra sessão preenche com a voz dela.
 Regras fixas: R$ 27 (de R$ 97), pagamento único, vitalício, garantia 14 dias, só cachorro, sem "cão", sem "por dia/mês" junto de preço, sem "por tempo limitado", sem "revisado pela" (regra 38), sem promessa de resultado ("o latido acaba"). Gancho = problema nos 2 primeiros segundos. Cortes ≤ 2 s. Música da VSL, legenda grande.
 
-SLOT DE FECHAMENTO (igual em todos, voz Natasha, ≈5 s; decisão do Allan 05/11 00:12): "Eu sou a Dra. Natasha. Vem fazer seu amiguinho ficar bem sozinho em casa. Tutorial Pet." (variações aceitas: terminar só em "Tutorial Pet" ou "Adquira já o Sozinho em Casa e siga o Tutorial Pet") + legenda "Sozinho em Casa · R$ 27 · garantia de 14 dias" + botão.
+SLOT DE FECHAMENTO (igual em todos, voz Natasha, ≈5 s; decisão do Allan 05/11 00:12, ATUALIZADA 05/11 01:55 para o fecho já gravado pela sessão da Natasha): "Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora!" (Tutorial Pet só na tela) (variações aceitas: terminar só em "Tutorial Pet" ou "Adquira já o Sozinho em Casa e siga o Tutorial Pet") + legenda "Sozinho em Casa · R$ 27 · garantia de 14 dias" + botão.
 Obs.: a frase "Eu sou a Dra. Natasha" é dela falando de si, verdadeira; não usar "revisado/aprovado por ela" sem ela ter lido o material.
 
 ## D — O bilhete do vizinho (prova social do problema)
@@ -69,4 +69,6 @@ Problema detectado: os criativos mostram a dor, mas não deixam claro o que a pe
 0–2 s problema (gancho) → 2–10 s dor/culpa → 10–14 s PROMESSA (frase-mãe) → 14–22 s benefícios em 3 cenas (app, plano de 14 dias, bônus) + "DEPOIS" calmo → 22–25 s preço R$ 27 de R$ 97 + garantia 14 dias → 25–30 s SLOT Dra. Natasha ("Eu sou a Dra. Natasha. Adquira já o Sozinho em Casa e siga o Tutorial Pet.").
 Os 3 anúncios lm1 já entregues são de gancho + fechamento curto e não têm esse bloco de promessa/benefício: ficam como controle; os novos (lm2) seguem esta estrutura.
 
-**Fechamento fixado (Allan 05/11 00:12):** "Eu sou a Dra. Natasha. Vem fazer seu amiguinho ficar bem sozinho em casa. Tutorial Pet." Texto mantido como estava; sem acréscimos.
+**Fechamento fixado (Allan 05/11 00:12):** "Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora!" (Tutorial Pet só na tela) Texto mantido como estava; sem acréscimos.
+
+**Fecho OFICIAL único (Allan 05/11 01:55, via Fable):** "Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora!" Tutorial Pet só na tela.

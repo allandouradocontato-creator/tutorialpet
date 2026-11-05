@@ -1,4 +1,4 @@
-# VSL C1 CULPA — Sozinho em Casa (E3 v4) — v4 Fable, benefício de resultado + legenda = voz, aprovado Allan 05/11/2026 01:50 — ≈59 s
+# VSL C1 CULPA — Sozinho em Casa (E3 v4) — v4 Fable, benefício de resultado + legenda = voz, aprovado Allan 05/11/2026 01:50 — voz v4 medida 45,3 s + fecho ≈8 s ≈ 53 s
 Narração inteira: voz da Dra. Natasha. Duda fora da tela; cartão da Natasha (foto + CRMV 6174 + @vetnatasha) na abertura e no fecho. Estrutura: problema 0–2 s → apresentação → dor → promessa → resultado (vida do tutor + saúde do cachorro) → preço+garantia → fecho gravado (≈8 s). Corpo (com resultado e preço): 130 palavras ≈ 51 s + fecho 8 s. Legenda grande = transcrição literal da voz, frase a frase. Únicos extras na tela: cartão da Natasha (foto + CRMV 6174 + @vetnatasha) durante a apresentação e card de preço "R$ 97 → R$ 27 · pagamento único" no bloco de preço. Prazo da garantia só na página e no checkout.
 Cortes ≤1,5 s, cenas brasileiras de apartamento, legenda grande, party-music baixa, carimbo Tutorial Pet · @vetnatasha, 1080x1920. Legenda pequena: Cada cachorro tem seu ritmo.
 
@@ -9,8 +9,8 @@ Cachorro que sofre quando fica sozinho em casa. Eu sou a Dra. Natasha, médica v
 De noventa e sete por vinte e sete, pagamento único, seu para sempre. Se não gostar, devolvemos tudo, sem pergunta.
 Legenda = a fala. Card na tela: R$ 97 → R$ 27 · pagamento único
 
-## Fecho (JÁ GRAVADO, não regravar)
-Vem fazer agora o seu amiguinho ficar tranquilo, sozinho em casa. Clica no botão agora. Tutorial Pet.
+## Fecho OFICIAL (já gravado pela sessão da Natasha; único para todas as campanhas)
+Eu sou a doutora Natasha. Vem fazer seu amiguinho ficar tranquilo, sozinho em casa! Clique no botão agora! ("Tutorial Pet" só na tela, não falado)
 Tela: capas dos 2 e-books + telas do app + botão + legenda Sozinho em Casa · R$ 27.
 
 ## Cenas
