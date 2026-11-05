@@ -18,3 +18,12 @@ Seu cachorro late, destrói, faz xixi ou chora quando fica sozinho em casa? [AVA
 
 ## Total
 3739 caracteres nos 5 corpos. C1+C2 = 1437 caracteres.
+
+## V18 problema C1
+Seu cachorro chora toda vez que você sai de casa? Ele late, arranha a porta, destrói o sofá... e você sai com o coração apertado.
+
+## V18 problema C2
+O vizinho já reclamou do latido? Seu cachorro passa o dia latindo, estressado... e você volta com bilhete na porta.
+
+## V18 corpo
+Sou veterinária, e vejo isso toda semana no consultório. Isso não é manha: é ansiedade de separação. E tem jeito. Começa pela despedida: sem festa, sem "já volto, amor". Pega a chave, sai em silêncio... e volta em um minuto. Isso é o dia um do Sozinho em Casa: catorze dias, dez minutos por dia, e ele fica tranquilo quando você sai. Você sai sem culpa, trabalha sem ligar pra saber como ele está, e volta pra casa inteira. Ele relaxa, come direito, e o coração não dispara quando a porta fecha. Garantia de catorze dias: o tempo do plano inteiro. De noventa e sete por vinte e sete, pagamento único, só até domingo.
