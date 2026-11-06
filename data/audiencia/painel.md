@@ -13,6 +13,7 @@ Meta (Allan, 04/11/2026): TikTok 1.000 seguidores e IG 500 em 30 dias (até 04/1
 |---|---|---|---|---|---|---|
 | 04/11 | 13 | 4 | 21 (24/10) | linha de base | 0 (plano começa hoje) | — |
 | 05/11 | 13 | 4 | SEM DADO (Buffer só views) | 0/0/? | TikTok 10:20 atum, 14:20 banho, 20:20 castração gratuita (extra); FB 19:00 e IG 20:00 castração (extra) | dúvida real (castração 550 views, cama grande 549) |
+| 06/11 | 14 | 4 | SEM DADO (Buffer só views) | +1/0/? | TikTok 10:20 vacina 3 meses (Agendador); 07/11 10:20 fujão e 08/11 10:20 petisco gato na fila. Extras: 0 (sem insumo, ver execucao.md) | sem leitura 24 h fechada (banho e castração de 05/11 ainda <24 h) |
 
 ## Views 24 h (Buffer, leitura 05/11 07:43; TikTok)
 | vídeo | postado | views | curtidas | comentários |
@@ -26,3 +27,15 @@ Meta (Allan, 04/11/2026): TikTok 1.000 seguidores e IG 500 em 30 dias (até 04/1
 
 TikTok: SEM DADO de seguidores (Buffer só views; E184 aberta) — ficha para a sessão PC ler no TikTok Studio.
 Posts em erro no Zernio (8, todos antigos): IG/FB 'Sozinho em Casa' x2, gatinho x1, 'Quem mais? Conta aqui' x1 — mídia inacessível/422; não reenviei (ver execucao.md).
+
+## Leitura 06/11 07:50 (Buffer includeMetrics, TikTok)
+| vídeo | postado | views | curtidas | comentários |
+|---|---|---|---|---|
+| gato cospe remédio | 04/11 10:20 | 169 | 5 | 0 |
+| piscina e cloro | 03/11 20:20 | 131 | 2 | 0 |
+| atum (gato) | 05/11 10:20 | não aparece na lista do Buffer (E200: erro 'unknown error'; conferir se foi reagendado) | — | — |
+| banho cheiro | 05/11 14:20 | 0 (métrica ainda não sincronizada, <24 h) | 0 | 0 |
+| castração gratuita | 05/11 20:20 | 0 (métrica ainda não sincronizada, <24 h) | 0 | 0 |
+Teto Buffer: 3 agendados no TikTok (limite 10), folga.
+TikTok: SEM DADO de seguidores (Buffer só views; E184 aberta).
+Zernio 06/11: FB 14 (+1 em 1 dia, +4 desde 03/11), IG 4 (0; +1 desde 03/11). IG: 112 posts. Fila Zernio: 14 agendados FB/IG. Posts em erro: os mesmos 8 antigos (mídia inacessível), não reenviados.
