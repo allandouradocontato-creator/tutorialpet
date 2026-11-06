@@ -1,4 +1,4 @@
-# Auditoria AdSense (2026-11-05)
+# Auditoria AdSense (2026-11-06)
 
 | Item | Resultado | Detalhe |
 |---|---|---|
@@ -9,9 +9,9 @@
 | ads.txt com pub-id | PASSA |  |
 | robots.txt nao bloqueia Mediapartners/Google | PASSA |  |
 | sitemap.xml | PASSA |  |
-| volume >= 30 artigos | PASSA | 119 artigos |
-| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-11-05 (0 dias) |
-| sem buracos > 3 dias nos ultimos 30 dias | FALHA | buracos: [('2026-09-15', '2026-10-06')] |
+| volume >= 30 artigos | PASSA | 120 artigos |
+| ultimo artigo <= 2 dias | PASSA | ultimo em 2026-11-05 (1 dias) |
+| sem buracos > 3 dias nos ultimos 30 dias | PASSA | buracos: [] |
 | artigos >= 900 palavras | PASSA | 0 curtos: [] |
 | estrutura com >= 3 subtitulos | PASSA | [] |
 | meta description em todos | PASSA | [] |
@@ -20,11 +20,11 @@
 | sem capa proibida (agressiva) | PASSA | [] |
 | todos com capa | PASSA | [] |
 | artigos de saude citam veterinario | PASSA | [] |
-| TODOS os artigos com secao Fontes e referencias (>=2 links) | PASSA | 0 sem fonte: [] |
+| TODOS os artigos com secao Fontes e referencias (>=2 links) | FALHA | 1 sem fonte: ['pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza'] |
 | sem texto de modelo visivel | PASSA |  |
 | autor nomeado (pessoa) nos artigos | PASSA | byline ainda 'Equipe Tutorial Pet' |
 | Sobre tem secao de equipe/autor | PASSA |  |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
 ## Corrigir (1)
-- **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-09-15', '2026-10-06')] -> manter 1+ artigo/dia
+- **TODOS os artigos com secao Fontes e referencias (>=2 links)**: 1 sem fonte: ['pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza'] -> pesquisar fontes reais e inserir antes do fechamento
