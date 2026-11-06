@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos: guia prático",
+    "description": "Adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos: guia prático. Quem decide colocar um tapete antiderrapante na sala inteira...",
+    "datePublished": "2026-11-05",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Pet idoso dá mais trabalho que filhote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não necessariamente. Eles exigem mais cuidados de saúde e adaptação física da casa, mas costumam ser muito mais calmos, limpos e previsíveis na rotina diária.  * **Preciso reformar a casa inteira para um pet com deficiência?**   Não. Pequenos ajustes, como rampas portáteis, remoção de tapetes soltos e potes de comida elevados, já resolvem a maior parte dos desafios do dia a dia.  * **Quanto custa em média o tratamento de um pet idoso?**   O valor varia conforme a região e as condições de saúde individuais, mas é prudente reservar uma verba mensal para consultas de rotina e exames preventivos, conversando sempre com o veterinário para planejar os custos.  * **Como saber se o pet está sentindo dor?**   Sinais sutis como hesitar antes de subir no sofá, lamber insistente uma pata, alteração no sono ou perda de apetite exigem avaliação veterinária imediata."
+        }
+      }
+    ]
+  }
+}
