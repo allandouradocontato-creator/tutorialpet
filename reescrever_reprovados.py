@@ -120,7 +120,7 @@ def reescrever(slug: str, tentativa: int) -> bool:
         return False
     backup = arq.with_suffix(".md.bak")
     backup.write_text(arq.read_text(encoding="utf-8"), encoding="utf-8")
-    fm = {**fm, "status": "rascunho_pendente_revisao", "reescrito_automatico": tentativa + 1}
+    fm = {**fm, "status": "rascunho_pendente_revisao", "reescrito_automatico": tentativa + 1, "autor": ""}  # E202 (05/11): autor so humano; a assinatura "Equipe Tutorial Pet" vive em assinatura/byline, nunca em autor
     write_markdown(arq, fm, novo)
     if editor_aprova(slug):
         backup.unlink(missing_ok=True)
