@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 06/11/2026 14:30
+# Relatório do Curador do Blog — 06/11/2026 15:29
 
-132 artigos auditados, 70 com problema bloqueante.
+132 artigos auditados, 69 com problema bloqueante.
 
 - REPROVADO | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -285,8 +285,7 @@
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 80 caracteres (ideal até 70)
     - [aviso] parágrafo acima de 130 palavras
-- REPROVADO | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | plantas-toxicas-para-gatos
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
