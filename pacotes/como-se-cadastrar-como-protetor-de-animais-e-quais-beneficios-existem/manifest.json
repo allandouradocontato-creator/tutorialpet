@@ -1,6 +1,6 @@
 {
   "slug": "como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-11-05T10:49:46+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem",
   "voz": {
@@ -14,17 +14,13 @@
   "guardiao": {
     "status": "ok",
     "problemas": [],
-    "ok": [
-      "sem cenas repetidas no vídeo",
-      "16 clipes, todos inéditos nos últimos 20 vídeos",
-      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
-      "carimbo da marca disponível e aplicado pela montagem",
-      "CTA diferente dos últimos vídeos",
-      "gancho diferente dos últimos vídeos (abertura_pensar)",
-      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
-      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis"
-    ],
     "em": "2026-11-05T10:51:06+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-11-06T11:22:00+00:00",
+  "agendamento": {
+    "facebook": {"zernio_id": "6aedb851a627d98495966e3f", "quando": "2026-11-08T14:00:00-03:00"},
+    "instagram": {"zernio_id": "6aedb85328335f5c1ca4d3ec", "quando": "2026-11-08T15:00:00-03:00"},
+    "tiktok": {"buffer_id": "6aedb85cc57409593f9c75cc", "quando": "2026-11-08T14:20:00-03:00"}
+  }
 }
