@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-11-05 17:32 UTC
+# Auditoria do processo — 2026-11-06 12:02 UTC
 
-Pacote: `adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos` — 1 aviso(s)
+Pacote: `melhor-fonte-de-agua-para-gato-vale-a-pena` — 1 aviso(s)
 
-- **OK ** duração 45 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.5 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 43 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.9 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 8 palavras (padrão: até ~12)
+- **OK ** gancho com 7 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custo
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~595 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~578 (saldo do plano: ver painel)

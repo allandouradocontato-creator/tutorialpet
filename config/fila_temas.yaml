@@ -424,7 +424,8 @@ temas:
   data: '2026-10-31'
 - termo: melhor fonte de agua para gato vale a pena
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-06'
 - termo: por que o cachorro come grama
   pilar: comportamento
   status: pendente
@@ -1360,4 +1361,10 @@ temas:
   status: pendente
 - termo: como planejar a alimentacao natural caseira segura para gatos adultos
   pilar: alimentacao
+  status: pendente
+- termo: como adaptar a rotina de alimentação para pets de idades diferentes
+  pilar: alimentacao
+  status: pendente
+- termo: como escolher a coleira peitoral ideal para cães que puxam muito
+  pilar: produtos_compras
   status: pendente
