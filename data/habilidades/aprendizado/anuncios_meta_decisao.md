@@ -20,3 +20,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-03 | passo 6 (perfil + conjunto novo DIRETO CHECKOUT B) | n=31 inícios, 0 compras no pixel; direto R$1,20/início (12) x landing R$8,38 (12); gasto R$177,65 > 2x preço | altera: início direto não é comparável, julgar por venda Kiwify; decisão: não prorrogar sem venda (Allan)
 2026-11-04 | não aplicada (sem anúncio de audiência; campanha encerrada 03/11, Operação cuida) | n=0 | mantém
 2026-11-05 | não aplicada (campanha encerrada 03/11; gasto 04-05/11 = R$ 0) | n=0 | mantém
+2026-11-06 | não aplicada (campanha encerrada 03/11; sem anúncio ativo) | n=0 | mantém

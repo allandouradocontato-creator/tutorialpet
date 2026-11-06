@@ -55,3 +55,9 @@
 1. **"Quando castrar? por porte" (série numerada, TikTok)** — Parte 1 cão pequeno, 2 grande, 3 gata; replica o campeão de 550 views. Risco: médio (saúde, @vetnatasha revisa, sem dose, "procure um veterinário"). Custo: baixo.
 2. **"Cama certa pro seu pet" (guia de porte, carrossel salvável)** — extensão do vídeo de 549 views; salvamento. Risco: baixo. Custo: baixo (template).
 3. **"Decisão da semana" (enquete de tutor)** — 1 dúvida de escolha (ração A ou B, cama alta ou baixa) com pergunta binária; comentário fácil. Risco: baixo (sem marca citada em saúde). Custo: baixo.
+| 2026-11-06 09:35 | Diretor de Audiência | FB 14 (+1), IG 4 (parado), TikTok sem leitura de seguidores (21 em 24/10 = 2,1%); Buffer: castração 551/cama 549/adoção 536 views MAS tempo médio 1,7-2,2 s (retenção ruim), gato remédio 9,4 s; comentário 0, DM 0; ficha 2026-11-06_audiencia_rodada.md; E207 (E199 não aplicada), E208 (teste retenção 15-20 s); E198/E206 abertas; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 06/11/2026
+1. **"Resposta em 5 segundos" (série ≤15 s)** — pergunta do tutor, resposta no primeiro 5 s, sem introdução. Atrai: retenção alta e seguir pela sequência. Risco: baixo (saúde com @vetnatasha, "procure um veterinário"). Custo: baixo.
+2. **"Certo ou errado?" (enquete de mito, TikTok/FB)** — 1 mito de tutor (ex.: "cachorro come osso?") e resposta no fim; quem quer saber assiste até o fim. Risco: médio (saúde: sem dose, sem diagnóstico). Custo: baixo.
+3. **Carrossel "Cartão do porte" (salvável FB/IG)** — cama, castração e passeio por porte (pequeno/médio/grande) em 5 cartões; extensão dos 2 campeões de views. Atrai: salvamento e marcação. Risco: baixo. Custo: baixo (template).

@@ -16,3 +16,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-11-03 | corte em 24 h por views (Buffer): adoção campeão, produto n=2 NEUTRO | n=8, seguidores sem leitura | altera: seguidor exige TikTok Studio (E184)
 2026-11-04 | leitura 24 h: cama 42 views/4,36 s/2 compart. melhor retenção; castração e piscina sem leitura madura | n=5 posts maduros, n<3 por formato = NEUTRO | mantém
 2026-11-05 | regra de leitura 24 h: castração 550 e cama 549 campeões, 5x mediana; seguidores sem leitura (E198) | n=6 vídeos, n<3 por formato = NEUTRO | mantém
+2026-11-06 | regra de leitura 24 h: campeão passa a exigir views E tempo médio >= 5 s (castração 1,68; cama 2,11; adoção 2,22; gato remédio 9,42 s) | n=9 vídeos, n<3 por formato = NEUTRO | altera (critério de campeão inclui retenção)

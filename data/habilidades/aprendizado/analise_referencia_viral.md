@@ -14,3 +14,4 @@ Skill: biblioteca/habilidades/analise_referencia_viral.md (v2, 22/10/2026). Uma 
 2026-11-03 | não aplicada (sem referência nova) | n=0 | mantém
 2026-11-04 | não aplicada nesta rodada (sem referência viral nova; react de humor pausado) | n=0 | mantém
 2026-11-05 | análise de referência: viral de terceiros segue pausado; referência interna = vídeos de decisão do tutor | n=2 | mantém
+2026-11-06 | análise de referência: referência interna = gato cospe remédio (9,4 s) para estrutura de retenção; viral de terceiros segue pausado | n=1 | mantém
