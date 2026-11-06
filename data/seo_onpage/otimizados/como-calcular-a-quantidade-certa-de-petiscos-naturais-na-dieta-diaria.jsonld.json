@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático",
-    "description": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático. Oferecer petiscos naturais é uma excelente forma de enriquecer a...",
+    "description": "Como calcular a quantidade certa de petiscos naturais na dieta diaria: guia prático. Oferecer petiscos naturais é uma excelente forma de agradar o seu...",
     "datePublished": "2026-10-25",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso dar frutas e legumes todos os dias como petiscos?",
+        "name": "Posso dar petiscos naturais todos os dias para o meu pet?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sim, desde que estejam dentro do limite calórico diário de 10% e sejam opções seguras para a espécie, sempre sem açúcar, sal ou temperos.  - **Como saber se o petisco natural é seguro para o meu animal?** Consulte listas de alimentos permitidos e proibidos e confirme sempre com o médico-veterinário, pois itens comuns na nossa cozinha podem ser tóxicos para pets.  - **Preciso descontar a ração se der petiscos naturais?** Sim, caso a quantidade de petiscos ultrapasse pequenos mimos e o pet tenha tendência a engordar, é fundamental reduzir levemente a porção da ração.  - **Gatos podem comer a mesma quantidade de petiscos naturais que cachorros?** Não. Como os gatos geralmente têm menor porte e necessidades calóricas bem menores, a porção de petiscos deve ser proporcionalmente muito menor."
+          "text": "Sim, desde que eles estejam dentro da cota calórica diária recomendada e sejam alimentos seguros e livres de temperos, sal ou açúcar.  * **Frutas e legumes contam como petiscos na dieta?** Sim, qualquer alimento oferecido fora da refeição principal, seja fruta, legume ou carne, entra na contagem de calorias diárias do animal.  * **O que fazer se o pet recusar a ração porque só quer petisco natural?** Retire o comedouro após vinte minutos e não ofereça petiscos até a próxima refeição programada, evitando ceder aos pedidos para não reforçar o comportamento.  * **Existe diferença na quantidade de petiscos para cachorros e gatos?** Sim, os gatos costumam ter menor gasto calórico diário e exigem porções de petiscos muito menores do que a maioria dos cachorros, sempre priorizando opções carnívoras adequadas."
         }
       }
     ]

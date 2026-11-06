@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como limpar as patas do cachorro depois do passeio: guia prático",
-    "description": "Aprenda como limpar as patas do cachorro depois do passeio de forma correta, evitando sujeira em casa e protegendo a pele do pet.",
+    "description": "Aprenda como limpar as patas do cachorro depois do passeio com um guia prático, proteja a casa e garanta a saúde do seu melhor amigo.",
     "datePublished": "2026-10-23",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-limpar-as-patas-do-cachorro-depois-do-passeio"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-limpar-as-patas-do-cachorro-depois-do-passeio.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar lenço umedecido de bebê para limpar as patas do cachorro?",
+        "name": "Posso usar álcool em gel para limpar a pata do cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Em situações pontuais, os lenços de bebê sem perfume quebram o galho, mas o ideal é usar lenços específicos para pets, pois o pH da pele do cachorro é diferente do nosso e produtos inadequados podem causar alergias a longo prazo.  * **É preciso lavar as quatro patas após todo e qualquer passeio?**   Se o passeio foi rápido na calçada seca e limpa, passar um pano seco ou um lenço umedecido costuma bastar. Se houve contato com lama, terra, grama molhada ou asfalto muito sujo, a lavagem com água e secagem são indispensáveis.  * **Com que frequência devo hidratar os coxins do meu cachorro?**   A hidratação depende do clima e do tipo de piso onde ele caminha. Em épocas muito secas ou frias, aplicar um bálsamo específico para coxins algumas vezes por semana costuma prevenir rachaduras, sempre com orientação do veterinário.  * **O que fazer se o cachorro não gosta que mexam nas patas dele?**   Acostume-os aos poucos oferecendo petiscos e associando o toque a algo positivo. Toque levemente nas patas durante momentos de descanso e recompense a paciência antes de tentar a limpeza completa após o passeio."
+          "text": "Não. O álcool em gel resseca excessivamente a pele, causa irritação, dor nas fissuras e pode ser tóxico se o animal lamber a pata logo em seguida.  * **Preciso lavar com água e sabão todos os dias?** Geralmente, o uso de um pano úmido com água ou lenços umedecidos próprios para pets é suficiente para o dia a dia, reservando a água e o sabão neutro para os dias de lama ou sujeira intensa.  * **O que fazer se o cachorro não deixa tocar nas patas?** Você deve dessensibilizar o pet aos poucos, tocando levemente nas patas durante momentos de descanso e oferecendo petiscos saborosos para criar uma associação positiva.  * **Qualquer toalha serve para secar as patas?** Sim, mas o ideal é separar uma toalha exclusiva para o seu melhor amigo e garantir que ela esteja sempre limpa e seca para evitar odores e proliferação de bactérias."
         }
       }
     ]

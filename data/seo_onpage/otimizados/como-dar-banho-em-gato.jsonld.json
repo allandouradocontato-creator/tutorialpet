@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como dar banho em gato",
-    "description": "Aprenda como dar banho em gato sem estresse. Guia prático com dicas essenciais para cuidar bem do seu felino.",
+    "description": "Aprenda como dar banho em gato sem estresse. Passo a passo prático, produtos certos e dicas para manter seu pet limpo e seguro em casa.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-dar-banho-em-gato"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-dar-banho-em-gato.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Com que frequência devo dar banho em gato?",
+        "name": "Posso usar secador de cabelo humano quente no gato?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Na maioria das vezes, os gatos não precisam de banho com água, pois fazem a própria higiene. Banhos costumam ser pontuais, apenas em casos de sujeira extrema ou recomendação médica. Confirme sempre com o médico-veterinário.  * **Posso usar shampoo humano ou de cachorro no gato?**   Não. O pH da pele humana e a formulação de produtos para cachorros podem causar alergias graves e intoxicação nos felinos. Use apenas produtos específicos para gatos.  * **O que fazer se o gato ficar muito agressivo no banho?**   Interrompa imediatamente para evitar machucar você ou o animal. Enrole-o na toalha, deixe-o ir para um local seguro e procure orientação profissional de um banhista especializado ou do médico-veterinário."
+          "text": "Não. O ar muito quente queima facilmente a pele sensível do felino e desidrata os pelos. Utilize sempre a temperatura morna ou fria e mantenha distância.  - **Com que frequência devo dar banho no meu gato?** A maioria dos gatos nunca precisa de banho com água, exceto em casos de recomendação médica ou sujeira extrema. A limpeza diária com escovação costuma ser suficiente.  - **O que fazer se o gato me arranhar durante o banho?** Mantenha a calma, envolva o animal em uma toalha para imobilizá-lo com segurança e interrompa o procedimento se o nível de estresse for excessivo para ambos.  - **Posso dar banho a seco com produtos em pó ou espuma?** Sim, esses produtos são ótimas alternativas para limpezas pontuais e reduzem drasticamente o estresse comparado ao banho tradicional com água."
         }
       }
     ]

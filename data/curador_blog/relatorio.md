@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 03/11/2026 22:33
+# Relatório do Curador do Blog — 06/11/2026 14:30
 
-127 artigos auditados, 72 com problema bloqueante.
+132 artigos auditados, 70 com problema bloqueante.
 
 - REPROVADO | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -8,6 +8,9 @@
 - ok | adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce
     - [aviso] título com 84 caracteres (ideal até 70)
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
+- ok | adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos
+    - [aviso] curto (856 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [aviso] título com 87 caracteres (ideal até 70)
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - REPROVADO | ansiedade-de-separacao-em-caes
@@ -73,9 +76,7 @@
 - REPROVADO | como-armazenar-racao-de-cachorro-para-nao-perder-nutrientes
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
-- REPROVADO | como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-calcular-a-quantidade-certa-de-petiscos-naturais-na-dieta-diaria
     - [aviso] título com 83 caracteres (ideal até 70)
 - REPROVADO | como-cortar-unha-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -88,9 +89,7 @@
 - ok | como-criar-um-cantinho-relaxante-para-pets-em-dias-de-tempestade
     - [aviso] FAQ com 6 perguntas (ideal 3 a 5)
     - [aviso] título com 78 caracteres (ideal até 70)
-- REPROVADO | como-dar-banho-em-gato
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-dar-banho-em-gato
 - ok | como-dar-remedio-para-gato-que-cospe
 - ok | como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
@@ -181,9 +180,7 @@
 - REPROVADO | como-introduzir-um-segundo-gato-na-casa-sem-brigas
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
-- REPROVADO | como-limpar-as-patas-do-cachorro-depois-do-passeio
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-limpar-as-patas-do-cachorro-depois-do-passeio
 - REPROVADO | como-limpar-caixa-de-areia-do-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -220,6 +217,8 @@
 - REPROVADO | como-saber-se-o-cachorro-esta-acima-do-peso-ideal
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem
+    - [aviso] título com 83 caracteres (ideal até 70)
 - REPROVADO | como-socializar-filhote-de-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -232,6 +231,11 @@
 - REPROVADO | como-trocar-a-racao-do-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | como-um-pet-pacifica-o-casal-e-a-casa-os-bem-aventurados-pacificadores-animal-de-estimacao-bem-estar-e-convivencia-do-casal
+    - [aviso] curto (785 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [bloqueante] links internos insuficientes: 1 (mínimo 2)
+    - [aviso] menos de 4 seções H2
+    - [aviso] título com 142 caracteres (ideal até 70)
 - ok | cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [aviso] título com 81 caracteres (ideal até 70)
@@ -245,6 +249,8 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 77 caracteres (ideal até 70)
+- ok | feiras-e-ongs-de-adocao-em-sao-paulo-como-funcionam-e-como-participar
+    - [aviso] título com 84 caracteres (ideal até 70)
 - REPROVADO | galgo-italiano-temperamento-e-cuidados-da-raca-do-plinio-cachorro-da-anitta
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -257,6 +263,9 @@
 - REPROVADO | melhor-areia-para-gato-como-escolher
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+    - [aviso] parágrafo acima de 130 palavras
+- ok | melhor-fonte-de-agua-para-gato-vale-a-pena
+    - [aviso] curto (794 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] parágrafo acima de 130 palavras
 - REPROVADO | melhores-brinquedos-interativos-para-caes-ansiosos-sozinhos
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
