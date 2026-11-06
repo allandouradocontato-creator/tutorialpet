@@ -1054,9 +1054,10 @@ temas:
   data: '2026-11-05'
 - termo: 'devolver um animal adotado: por que acontece, como evitar e o que fazer'
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção. Gancho: Causas de devolução, preparação, alternativas à devolução;
     tom sem julgamento'
+  data: '2026-11-06'
 - termo: quanto custa um cachorro de raça e quanto custa adotar em 10 anos
   pilar: adocao
   status: pendente
@@ -1367,4 +1368,7 @@ temas:
   status: pendente
 - termo: como escolher a coleira peitoral ideal para cães que puxam muito
   pilar: produtos_compras
+  status: pendente
+- termo: sinais de dor articular em caes idosos que parecem apenas preguica
+  pilar: cuidados_diarios
   status: pendente

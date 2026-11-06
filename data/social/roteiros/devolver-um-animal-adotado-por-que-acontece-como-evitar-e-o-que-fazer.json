@@ -1,0 +1,47 @@
+{
+  "titulo_video": "Entenda a devolução de pets adotados",
+  "gancho_3s": "Se a adaptação difícil continua com você, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Se a adaptação difícil continua com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro adotado chora à noite?"
+    },
+    {
+      "narracao": "[thoughtful] A chegada de um cachorro traz expectativas, mas os dias iniciais podem revelar desafios inesperados.",
+      "visual_busca_banco_livre": "sad dog looking out window",
+      "texto_na_tela": "Expectativa x Realidade"
+    },
+    {
+      "narracao": "[thoughtful] Choro na madrugada, xixi fora do lugar ou estranhamento esgotam a paciência rapidinho.",
+      "visual_busca_banco_livre": "dog crying whining indoor",
+      "texto_na_tela": "Desafios de adaptação"
+    },
+    {
+      "narracao": "[short pause] Evitar surpresas exige alinhar expectativas e entender que a transição pede calma e estratégia.",
+      "visual_busca_banco_livre": "calm dog resting on floor",
+      "texto_na_tela": "Paciência e preparo"
+    },
+    {
+      "narracao": "[thoughtful] Se a convivência ficar insustentável, devolver não é um fracasso, mas uma escolha responsável.",
+      "visual_busca_banco_livre": "cat hiding under furniture",
+      "texto_na_tela": "Decisão responsável"
+    },
+    {
+      "narracao": "[warmly] O caminho certo é falar direto com a ONG de origem pra garantir a segurança dele.",
+      "visual_busca_banco_livre": "shelter dog waiting behind bars",
+      "texto_na_tela": "Contate a ONG"
+    }
+  ],
+  "chamada_final": "[smiling] Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#adocaoresponsavel",
+    "#petadotado",
+    "#comportamentopet",
+    "#guiapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nPor que a devolução de um pet adotado acontece?\n\n📖 Artigo completo: https://tutorialpet.com.br/devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer\n\n#adocaoresponsavel #petadotado #comportamentopet #guiapet",
+  "slug": "devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 4
+}

@@ -1,0 +1,40 @@
+{
+  "titulo_video": "Entenda a devolução de pets adotados",
+  "gancho_3s": "Por que a devolução de um pet adotado acontece?",
+  "cenas": [
+    {
+      "narracao": "A chegada de um pet traz expectativas, mas os primeiros dias podem revelar desafios inesperados.",
+      "visual_busca_banco_livre": "sad dog looking out window",
+      "texto_na_tela": "Expectativa x Realidade"
+    },
+    {
+      "narracao": "Choro na madrugada, xixi fora do lugar ou estranhamento esgotam a paciência rapidamente.",
+      "visual_busca_banco_livre": "dog crying whining indoor",
+      "texto_na_tela": "Desafios de adaptação"
+    },
+    {
+      "narracao": "Evitar surpresas exige alinhar expectativas e entender que a transição pede paciência e estratégia.",
+      "visual_busca_banco_livre": "calm dog resting on floor",
+      "texto_na_tela": "Paciência e preparo"
+    },
+    {
+      "narracao": "Se a convivência se tornar insustentável, a devolução não é um fracasso, mas uma decisão responsável.",
+      "visual_busca_banco_livre": "cat hiding under furniture",
+      "texto_na_tela": "Decisão responsável"
+    },
+    {
+      "narracao": "O caminho correto é contatar imediatamente a ONG ou abrigo de origem para garantir a segurança do pet.",
+      "visual_busca_banco_livre": "shelter dog waiting behind bars",
+      "texto_na_tela": "Contate a ONG"
+    }
+  ],
+  "chamada_final": "Consulte um veterinário em caso de problemas de saúde e leia o artigo completo.",
+  "hashtags": [
+    "#adocaoresponsavel",
+    "#petadotado",
+    "#comportamentopet",
+    "#guiapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nPor que a devolução de um pet adotado acontece?\n\n📖 Artigo completo: https://tutorialpet.com.br/devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer\n\n#adocaoresponsavel #petadotado #comportamentopet #guiapet",
+  "slug": "devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer"
+}
