@@ -66,3 +66,4 @@
 2026-11-06 | 19:25 ronda: 17 rotinas ok, fábrica/publicar_blog verdes (último 5 h), blog 2/1, AdSense 0 FALHA, Zernio 0 falha nova; TikTok 1 hoje/1 em 24 h -> sem novo disparo (negado 3x, E210 aberta, Operador 07/11 07:41) | nada novo | conferir 07/11 07:19 | mantém
 2026-11-07 | 07:30 ronda: 17 rotinas ok, fabrica cron 06:00 nao disparou -> dispatch (run 42363579635); blog 0/1 -> promovido 1 aprovado (adocao); TikTok 1/24h -> Operador 07:41 sozinho (E210/E211) | conferir 11:19 run verde e artigo no ar | mantem
 2026-11-07 | 11:20 ronda: 17 rotinas ok, fábrica/publicar_blog verdes, blog 1/1, AdSense 0 FALHA, Zernio 0 falha nova; TikTok 1 hoje -> fire_trigger Operador negado (4ª) -> ficha E214 | conferir 15:19 | mantém
+2026-11-07 | 12:00 ordem do Allan: executar TikTok -> 1 post agendado no Buffer (14:20 F), 2º e fire_trigger negados pelo classificador -> E216 | conferir 15:19 se o das 14:20 saiu | mantém
