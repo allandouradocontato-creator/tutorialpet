@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Devolver um animal adotado: por que acontece, como evitar e o que fazer: guia prático",
+    "description": "Devolver um animal adotado: por que acontece, como evitar e o que fazer: guia prático. Sabe aquela sensação de organizar a casa inteira, comprar...",
+    "datePublished": "2026-11-06",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer"
+    },
+    "image": "https://tutorialpet.com.br/imagens/devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Devolver um animal adotado significa que sou uma pessoa ruim?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De forma alguma. Significa que houve uma incompatibilidade real de expectativas ou rotinas, e reconhecer isso com responsabilidade é muito melhor do que manter o pet em um ambiente estressante.  * **A ONG é obrigada a receber o animal de volta?** A grande maioria das instituições sérias possui em contrato a exigência de que o pet retorne exclusivamente para eles caso a adoção não dê certo.  * **Quanto tempo dura a fase mais difícil da adaptação?** Em média, as primeiras semanas são as mais intensas. A famosa regra dos três dias, três semanas e três meses ajuda a visualizar o tempo que o pet leva para relaxar de verdade.  * **Posso doar o pet para outra pessoa por conta própria?** Não é recomendado. Repassar o animal sem checar o histórico e a intenção de quem vai receber pode colocá-lo em situação de vulnerabilidade; o ideal é sempre envolver a ONG original."
+        }
+      }
+    ]
+  }
+}
