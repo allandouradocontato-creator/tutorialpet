@@ -16,3 +16,11 @@ Já funciona: só o artigo do Plínio/Anitta traz impressão (69) → replicar a
 ## PROPOSTA R$ 17 (04/11/2026, Diretor de Operação, E188) — NÃO APLICAR sem ok escrito do Allan e leitura Kiwify
 Gatilho: campanha 28/10-03/11 com R$ 209,97 gastos, 274 visitas à landing, 44 checkouts iniciados e 0 compras no pixel. Só vale se a Kiwify confirmar 0 pedidos pagos.
 Proposta: entrada R$ 17 (âncora R$ 97, pagamento único, nunca "por dia/mês"); upsell R$ 47 igual; janela de 3 dias com tráfego orgânico; leitura em 24 h. Nada foi editado na Kiwify.
+
+## CHECKLIST DE FUNIL (06/11/2026, Diretor de Operação, E209) — NÃO EDITAR Kiwify nem preço sem ok escrito do Allan
+Gargalo: checkout (45 inícios, 0 compras no pixel; Auditor de Anúncios: Pix não vem pré-selecionado).
+1. Pix primeiro: na Kiwify, Pix como método padrão/primeiro na lista; cartão e boleto depois.
+2. Garantia de 14 dias visível acima do botão de compra (a landing já cita 14 dias; repetir no checkout).
+3. Cartão da Dra. Natasha (vetnatasha) na página de compra, só com ok escrito do Allan e da Natasha.
+4. Âncora R$ 97 > R$ 27, pagamento único, nunca "por dia/mês"; upsell R$ 47 igual.
+Como ler a Kiwify quando o PC voltar (E186/E189): painel de Vendas > filtrar 28/10 até hoje > separar "Pix gerado" x "Pix pago" e "abandonado"; Pix gerado sem pago = falha de pagamento; nenhum Pix gerado com 45 inícios = falha antes do pagamento (carregamento/entrada). Gravar na ficha do dia e em 05 Decisões.

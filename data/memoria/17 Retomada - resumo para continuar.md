@@ -186,3 +186,6 @@ Operador de Audiência (diário 07:41, config/prompts/operador_audiencia.md) pub
 
 ## 05/11/2026 — VSLs "Sozinho em Casa" com a voz da Dra. Natasha (linha de montagem VSL1..VSL6)
 Índice e arquivos: data/vsl/natasha/README.md. VSL1 = v11 aprovada (44,4 s; fecho "Eu sou a doutora Natasha." → "Vem fazer seu amiguinho ficar tranquilo, sozinho em casa!" → "Clique no botão agora!"; sem "Tutorial Pet!" antes do CTA). Card animado do produto na 1ª menção de "Sozinho em Casa" (14 s), em "Manual e aplicativo" e no fecho (regra 61). Tom da voz: meio-termo, tag [cheerful] aprovada. Vozes dos corpos C1,C2,C3,C5,C6 + fecho em data/vsl/natasha/vozes/completos/; vídeos VSL2..VSL6 montados com scripts em /tmp (run_camp.py → copiar para data/vsl/natasha/scripts/). Pendente: mais benefícios/resultado nas VSLs; C3 e C5 passam de 50 s. Memória: /areas/vsl-natasha-linha-de-montagem.md (Claude memory).
+
+## Decisões — Operação 06/11/2026 21:42 (Fortaleza)
+Contagem: decididas abertas dentro do prazo 4 (E197, E204, E208, E211) / feitas hoje 5 (E201, E203, E199, E207, E209) / atrasadas novas 0 (antigas nominais seguem no topo do livro) / só Allan/PC 8 (E186, E189, E193, E194, E198, E205, E206, E210). Blog: Giselle/Sonza no ar (curl 200). Painel de Decisões sem texto lido.

@@ -21,3 +21,13 @@ Molde: vídeo do banho (994 views). 1 problema, resposta em 5 s, 12-20 s.
 - sabonete para cachorro
 - quantas vezes o pinscher tem que comer
 Obs.: a aba Inspiration > Trending do Studio é global e não é de pet (só notícia/tendência geral); não serve de fonte de tema.
+
+## DECISÃO DO TUTOR (E199/E207, gravado 06/11/2026 21:42 pela Operação) — 5x a mediana de views (castração 551, cama 549)
+Formato: série numerada "Parte 1/2", resposta nos 5 s, 15-20 s, CTA falado e escrito "segue o @tutorialpetbr". Nacional (sem Fortaleza), sem alegação médica; tema de saúde só com "converse com seu veterinário" e @vetnatasha. Cortar temas burocráticos (cartório, documento, taxa).
+1 quando castrar: o que o tutor deve perguntar ao veterinário conforme o porte (decisão, não diagnóstico)
+2 que cama comprar por porte (mini, médio, grande, gigante): medida e material
+3 quando levar o filhote para a primeira vacina: o que perguntar ao veterinário
+4 quanto passeio por idade (filhote, adulto, idoso): rotina, não prescrição
+5 ração A ou B: como comparar rótulo (proteína, ingredientes), sem indicar marca nem tratar doença
+6 gaiola ou caixa de transporte: qual escolher por porte e para que uso
+Uso: 2 por dia, na ordem acima; medir tempo médio em 24 h no painel (E208).
