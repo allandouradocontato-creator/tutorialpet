@@ -1,13 +1,13 @@
-Dados até 2026-11-07 07:30 (Fortaleza) | CORRIGI: 2 | PRECISO DO ALLAN: 0
-Número do dia: rotinas falhando/suspensas = 0 (de 18 ativas; 11 desligadas por decisão de 22/10 e 02/11).
+Dados até 2026-11-07 11:20 (Fortaleza) | CORRIGI: 0 | PRECISO DO ALLAN: 1
+Número do dia: rotinas falhando/suspensas = 0 (17 ativas, todas SUCCEEDED, nenhuma com next_run vencido; Vigia desta rodada PENDING = eu mesmo).
 | rotina | estado | último run | problema | correção |
 |---|---|---|---|---|
-| 17 rotinas ativas (Diária 1+1, Diretores, Operador, Agendador, Medidor, Auditor, Estrategista, Segurança, reservas) | ok | todas SUCCEEDED, nenhuma com next_run vencido | - | - |
-| Vigia (esta rodada) | rodando | 07:19 | - | - |
-| fabrica.yml | verde, mas cron das 06:00 não disparou hoje (último verde 06/11 13:53 F, 17 h) | 06/11 16:53Z | blog 0/1 hoje às 07:30 | dispatch REST feito 07:21 F, run 42363579635 |
-| publicar_blog.yml | verde | 06/11 17:33Z | - | - |
-| Blog | 0/1 hoje (ontem 2/1); AdSense 0 FALHA, 121 artigos | último artigo no ar 06/11 14:41 F | piso do dia ainda aberto | promovido 'devolver-um-animal-adotado...' em blog_aprovados.txt (push dispara publicar_blog) |
-| FB/IG (Zernio) | ok | 06/11 11:01 F | 8 falhas antigas de mídia (sem novas); 10 agendados | retry proibido (E151) |
-| TikTok (Buffer) | ALERTA V2.3 | 06/11 10:21 F | 1 vídeo em 24 h; hoje só fujão 10:20 F; atum 08/11 com erro (E200) | fire_trigger do Operador negado 3x (E210); Operador roda sozinho 07:41 F e a ficha E211 manda completar os 3 vídeos; conferir 11:19 |
+| 17 rotinas ativas (Diária 1+1, Diretores, Operador, Agendador, Medidor, Auditor, Estrategista, Segurança, reservas) | ok | idade do último resultado: Agendador 11:15 F, Operador 07:41 F, Diretor Audiência 09:17 F | - | - |
+| fabrica.yml | verde | 07/11 07:21 F (dispatch 42363579635), 4 h | - | - |
+| publicar_blog.yml | verde | 07/11 07:21 F (push) | - | - |
+| Blog | 1/1 hoje (ontem 2/1); AdSense 0 FALHA, 122 artigos | artigo no ar 07/11 07:52 F (3,5 h) | - | conferido, piso fechado |
+| FB/IG (Zernio) | ok | FB 10:04 F, IG 10:01 F (fujão) | 8 falhas antigas de mídia (sem novas); 8 agendados | retry proibido (E151) |
+| TikTok (Buffer) | ALERTA V2.3 | 07/11 10:21 F | 1 vídeo hoje (<3); atum 08/11 10:20 F em erro; agendados: protetor 08/11 14:20 F, adoção 09/11 10:20 F | fire_trigger Operador NEGADO (4ª vez); ficha E214; Agendador 12:15 F e Operador 08/11 07:41 F (E213) |
+| Painel de audiência | ok | data/audiencia/painel.md com linha do dia | TikTok sem retenção (E208) | Operador E213 |
 | Issues falhou/nao publicou | 21 abertas, última 02/11 | - | histórico | fechar na revisão |
 Créditos ElevenLabs: sem saída recente do workflow (não medido).
