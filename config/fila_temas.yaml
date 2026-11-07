@@ -1109,9 +1109,10 @@ temas:
   data: '2026-11-05'
 - termo: 'pet em condomínio e aluguel: o que o síndico e o proprietário podem exigir'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'pesquisar STJ e Código Civil com link. Gancho: Código Civil; jurisprudência
     do STJ; convenção de condomínio'
+  data: '2026-11-07'
 - termo: 'pet no transporte público, uber e avião: regras oficiais'
   pilar: utilidade_publica
   status: pendente
@@ -1371,4 +1372,10 @@ temas:
   status: pendente
 - termo: sinais de dor articular em caes idosos que parecem apenas preguica
   pilar: cuidados_diarios
+  status: pendente
+- termo: como adaptar cachorro resgatado em casa com criancas
+  pilar: adocao
+  status: pendente
+- termo: como escolher tela de protecao para gatos em apartamento
+  pilar: produtos_compras
   status: pendente

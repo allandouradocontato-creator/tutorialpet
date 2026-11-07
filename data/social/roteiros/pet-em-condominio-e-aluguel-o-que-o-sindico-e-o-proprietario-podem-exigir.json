@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Regras para Pet em Condomínio e Aluguel",
+  "gancho_3s": "O condomínio pode proibir seu cachorro ou exigir que leve no colo?",
+  "cenas": [
+    {
+      "narracao": "O condomínio pode proibir seu cachorro ou exigir que leve no colo?",
+      "visual_busca_banco_livre": "golden retriever sitting looking attentive",
+      "texto_na_tela": "Pet em condomínio: o que a lei diz?"
+    },
+    {
+      "narracao": "A lei não permite proibir animais por porte e nem obrigar a carregar bicho pesado no colo.",
+      "visual_busca_banco_livre": "large dog walking calmly on floor",
+      "texto_na_tela": "Proibir por porte é ilegal!"
+    },
+    {
+      "narracao": "O prédio também não pode proibir totalmente o elevador, apenas direcionar para o de serviço.",
+      "visual_busca_banco_livre": "cute dog looking at camera indoor",
+      "texto_na_tela": "Uso do elevador é direito"
+    },
+    {
+      "narracao": "Mas atenção: o condomínio pode sim exigir guia nas áreas comuns e vacinação em dia.",
+      "visual_busca_banco_livre": "dog wearing collar sitting indoors",
+      "texto_na_tela": "Exigências permitidas: guia e vacinas"
+    },
+    {
+      "narracao": "Já no imóvel alugado, o proprietário pode proibir pets em contrato, mas não pode cobrar caução extra.",
+      "visual_busca_banco_livre": "cat looking out apartment window",
+      "texto_na_tela": "No aluguel: contrato vale, caução extra não!"
+    },
+    {
+      "narracao": "Conheça seus direitos e deveres para viver em perfeita harmonia no seu prédio!",
+      "visual_busca_banco_livre": "happy dog panting closeup",
+      "texto_na_tela": "Harmonia e respeito às regras"
+    }
+  ],
+  "chamada_final": "Salve para consultar as regras sempre que precisar!",
+  "hashtags": [
+    "#pets",
+    "#condominio",
+    "#leispet",
+    "#cachorro",
+    "#direitodosanimais"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nO condomínio pode proibir seu cachorro ou exigir que leve no colo?\n\n📖 Artigo completo: https://tutorialpet.com.br/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir\n\n#pets #condominio #leispet #cachorro #direitodosanimais",
+  "slug": "pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir"
+}
