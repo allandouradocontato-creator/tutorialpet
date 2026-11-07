@@ -1060,9 +1060,10 @@ temas:
   data: '2026-11-06'
 - termo: quanto custa um cachorro de raça e quanto custa adotar em 10 anos
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção; usar faixas e fontes. Gancho: Comparativo de custos totais
     em faixas ''em média''; sem preços inventados'
+  data: '2026-11-07'
 - termo: 'castração gratuita e vacina pública para pets: como achar na sua cidade'
   pilar: adocao
   status: pendente
@@ -1378,4 +1379,10 @@ temas:
   status: pendente
 - termo: como escolher tela de protecao para gatos em apartamento
   pilar: produtos_compras
+  status: pendente
+- termo: como evitar que o cachorro roube a comida do gato
+  pilar: comportamento
+  status: pendente
+- termo: como escolher a melhor racao senior para caes e gatos
+  pilar: alimentacao
   status: pendente

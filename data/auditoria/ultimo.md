@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-11-07 10:42 UTC
+# Auditoria do processo — 2026-11-07 15:51 UTC
 
-Pacote: `devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer` — 1 aviso(s)
+Pacote: `quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos` — 1 aviso(s)
 
-- **OK ** duração 46 s (padrão: 15 a 60 s)
+- **OK ** duração 48 s (padrão: 15 a 60 s)
 - **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 10 palavras (padrão: até ~12)
+- **OK ** gancho com 9 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer` 
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~628 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~650 (saldo do plano: ver painel)
