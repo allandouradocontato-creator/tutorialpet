@@ -237,3 +237,7 @@ Sem mudança: gasto total segue R$ 210,01 (45 inícios, 0 compras no pixel); 04/
 ## 06/11/2026 09:36 — Auditor (Windsor facebook, 28/10 a 06/11)
 Sozinho em Casa: sem mudança. Total final R$ 210,01 · 45 inícios (R$ 4,67) · 0 compras no pixel; 04/11 e 05/11 sem entrega. O EXTRA de perfil (31/10) já está registrado em 01-04/11; não repeti (nenhum dado novo de perfil para cortar). Eventos de vídeo do pixel e venda Kiwify: Unknown.
 Novo na conta, NÃO é Tutorial Pet: campanha "[2015 Yamaha Fazer] Classificado do Marketplace turbinado em 05/11/2026", ACTIVE, R$ 1,43 em 06/11 (519 impressões, 13 cliques), fim programado 10/11 02:42 UTC. Parece impulsionamento manual do Allan; tem data de término, sem ALERTA. Verba (orçamento) não veio no Windsor: Unknown.
+
+## 07/11/2026 12:35 — Auditor (Windsor facebook, 28/10 a 07/11)
+Sozinho em Casa: sem mudança. R$ 210,01 · 45 inícios (R$ 4,67) · 0 compras no pixel; 04/11-07/11 sem entrega. EXTRA de perfil (pedido de 31/10, 'Perfil que clica') já registrado em 01-04/11; sem dado novo de perfil, não repeti. Recomendação segue a de 04/11 (sem executar): Reels, mulher 25-34, só SP, sem Feed FB e sem 65+. Vendas Kiwify e eventos de vídeo do pixel: Unknown.
+Marketplace Yamaha (não é Tutorial Pet): ACTIVE, R$ 5,44 (06/11) + R$ 1,01 (07/11), termina 10/11; verba diária Unknown.
