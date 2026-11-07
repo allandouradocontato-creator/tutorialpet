@@ -21,3 +21,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-04 | não aplicada (sem anúncio de audiência; campanha encerrada 03/11, Operação cuida) | n=0 | mantém
 2026-11-05 | não aplicada (campanha encerrada 03/11; gasto 04-05/11 = R$ 0) | n=0 | mantém
 2026-11-06 | não aplicada (campanha encerrada 03/11; sem anúncio ativo) | n=0 | mantém
+2026-11-07 | sem anúncio pago na rodada (foco orgânico) | n=0 | mantém

@@ -34,3 +34,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-11-04 | decisão por skill (sem pesquisa nova); CTA de seguir e T0 curto | FB 13, IG 4, TikTok sem dado | mantém
 2026-11-05 | plataforma TikTok: dúvida real com decisão do tutor retém e é curtida (51 curtidas na castração) | n=2 acima de 500 | mantém
 2026-11-06 | retenção > view: Para-Você testa e pula vídeo com <2 s médio | n=9 | mantém (E208 testa 15-20 s)
+2026-11-07 | plataforma_tiktok_organico: retenção antes de volume; 15-20 s, resposta nos 5 s | n=3 | altera (E213)

@@ -33,3 +33,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-11-04 | regra 5/6 (T0 ≤6 palavras + CTA seguir antes do link): posts de artigo com 'Confira o artigo' = 0 seguidor; FB +3 coincide com post com 'Segue a gente' | n=11 TikTok, FB +3, comentário 0 | mantém (E191 confirma)
 2026-11-05 | regra 5/6 (gancho T0 <=6 palavras + CTA seguir) + corte 24 h: temas de decisão do tutor 550/549 views vs ~100 burocráticos | n=6 TikTok, FB 13, IG 4 parados, comentário 0 | mantém; altera tema (decisão do tutor)
 2026-11-06 | regra 5/6 (gancho T0 <=6 palavras + CTA seguir) + corte 24 h: views 550 mas tempo médio 1,7 s; gancho abriu o clique, o miolo não segura | n=9 TikTok, FB 14 (+1), IG 4, comentário 0 | altera (vídeo curto 15-20 s, E208)
+2026-11-07 | regra 5/6 (gancho T0 + CTA seguir) + corte 24 h: 3 TikToks em 1,6-1,9 s de tempo médio, qualquer tema | n=3 TikTok, FB 14, IG 5, comentário 0 | altera (recorte 15-20 s, E213)

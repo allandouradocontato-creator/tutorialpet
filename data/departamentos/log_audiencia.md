@@ -61,3 +61,9 @@
 1. **"Resposta em 5 segundos" (série ≤15 s)** — pergunta do tutor, resposta no primeiro 5 s, sem introdução. Atrai: retenção alta e seguir pela sequência. Risco: baixo (saúde com @vetnatasha, "procure um veterinário"). Custo: baixo.
 2. **"Certo ou errado?" (enquete de mito, TikTok/FB)** — 1 mito de tutor (ex.: "cachorro come osso?") e resposta no fim; quem quer saber assiste até o fim. Risco: médio (saúde: sem dose, sem diagnóstico). Custo: baixo.
 3. **Carrossel "Cartão do porte" (salvável FB/IG)** — cama, castração e passeio por porte (pequeno/médio/grande) em 5 cartões; extensão dos 2 campeões de views. Atrai: salvamento e marcação. Risco: baixo. Custo: baixo (template).
+| 2026-11-07 09:25 | Diretor de Audiência | FB 14, IG 5 (+1, +3 na semana), TikTok sem leitura de seguidores (21 em 24/10 = 2,1%); Buffer: castração 124, caramelo 94, vacina 8 views, tempo médio 1,6-1,9 s em todos; comentário 0, DM 0; ficha 2026-11-07_audiencia_rodada.md; E213 (recorte 15-20 s de pacotes aprovados); E212/E198/E206 abertas; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 07/11/2026
+1. **"Parte 2 do campeão" (série TikTok)** — recorte curto de castração/cama com "Parte 2/2". Atrai: sequência = seguir. Risco: baixo (saúde com @vetnatasha). Custo: baixo (reuso).
+2. **"Dois jeitos de..." (carrossel FB/IG)** — 2 opções lado a lado (cama alta x baixa), "qual o seu?". Atrai: comentário e salvamento. Risco: baixo. Custo: baixo (template).
+3. **"Adoção: 1 pergunta por dia" (série nacional)** — pergunta do adotante, resposta em 1 frase; liga ao campeão de adoção (536 views). Risco: baixo (sem animal triste, regra 29). Custo: baixo.

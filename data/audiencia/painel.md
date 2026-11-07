@@ -14,6 +14,7 @@ Meta (Allan, 04/11/2026): TikTok 1.000 seguidores e IG 500 em 30 dias (até 04/1
 | 04/11 | 13 | 4 | 21 (24/10) | linha de base | 0 (plano começa hoje) | — |
 | 05/11 | 13 | 4 | SEM DADO (Buffer só views) | 0/0/? | TikTok 10:20 atum, 14:20 banho, 20:20 castração gratuita (extra); FB 19:00 e IG 20:00 castração (extra) | dúvida real (castração 550 views, cama grande 549) |
 | 06/11 | 14 | 4 | SEM DADO (Buffer só views) | +1/0/? | TikTok 10:20 vacina 3 meses (Agendador); 07/11 10:20 fujão e 08/11 10:20 petisco gato na fila. Extras: 0 (sem insumo, ver execucao.md) | sem leitura 24 h fechada (banho e castração de 05/11 ainda <24 h) |
+| 07/11 | 14 | 5 | SEM DADO (Buffer só views) | 0/+1/? | fila: fujão 07/11, petisco 08/11, protetor 08/11, adoção 09/11; extras 0 (E212) | tempo médio 1,6-1,9 s nos 3 mais recentes (E213) |
 
 ## Views 24 h (Buffer, leitura 05/11 07:43; TikTok)
 | vídeo | postado | views | curtidas | comentários |
