@@ -61,6 +61,7 @@ for s,e,t in A:
     if s>=81.0: continue
     t2=t.rstrip(',.!?'); p=t[len(t2):]
     if t2=='torre': t2='Thor'
+    if t2.lower() in ('pirrasa','pirraça','pirrasa'): t2='pirraça'
     words.append([s,e,t2+p])
 def add(b,off,fix):
     for s,e,t in fix(W[b]): words.append([s+off,e+off,t])
