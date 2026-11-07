@@ -25,3 +25,4 @@ Cota: 2 de 3 com PROVA numérica (67%: N2, N3) + 1 teste (N1); abaixo de 70% por
 
 ## 06/11 — tema para fila_temas (só proposta)
 - Dúvidas do tipo 'serviço gratuito/preço/idade certa' (castração 550, cama porte grande 549 views) lideram no TikTok: sugerir temas vizinhos (vacina gratuita, microchip/registro, tamanho de caixa de transporte).
+- 07/11 tema para fila_temas (proposta): quando castrar conforme o porte (o que perguntar ao veterinário); que cama comprar por porte (medida e material). Fonte: decisão do tutor, castração 550 e cama 549 views.

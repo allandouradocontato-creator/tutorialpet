@@ -39,3 +39,14 @@ Posts em erro no Zernio (8, todos antigos): IG/FB 'Sozinho em Casa' x2, gatinho 
 Teto Buffer: 3 agendados no TikTok (limite 10), folga.
 TikTok: SEM DADO de seguidores (Buffer só views; E184 aberta).
 Zernio 06/11: FB 14 (+1 em 1 dia, +4 desde 03/11), IG 4 (0; +1 desde 03/11). IG: 112 posts. Fila Zernio: 14 agendados FB/IG. Posts em erro: os mesmos 8 antigos (mídia inacessível), não reenviados.
+
+## Rodada 07/11 07:45 (Operador de Audiência, nuvem)
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (+1 em 06/11; +4 desde 03/11) |
+| Instagram | 5 | +1 (115 posts; 0 até 30/10, 5 em 07/11) |
+| TikTok | SEM DADO (Buffer só views; E184/E206 abertas, ler no TikTok Studio via PC) | ? |
+Meta: IG 5/500 = 1%; FB 14.
+Views TikTok (Buffer, última sincronização 06/11 14:24): banho 131 | castração gratuita 124 | caramelo 94 | vacina 8 (1 h). Nenhum ≥200: sem replicar; tempo médio 1,6-2,0 s em todos (retenção é o gargalo, E208).
+Fila TikTok (Buffer, 3 de 10): fujão 07/11 10:20, petisco gato 08/11 10:20, protetor 08/11 14:20. Extras de hoje: 0 (sem insumo, ver execucao.md E212).
+Zernio: 10 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.

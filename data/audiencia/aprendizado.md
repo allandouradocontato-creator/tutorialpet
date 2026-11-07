@@ -6,3 +6,7 @@
 06/11/2026 | TikTok | dúvida real (gato cospe remédio) | "Seu gato cospe o remédio?" | 169 (≈ 2 dias) | <200: não repetir o gancho
 06/11/2026 | TikTok | dúvida real (piscina e cloro) | "Seu cachorro nada na piscina? O cloro estraga o pelo" | 131 (≈ 3 dias) | <200: não repetir o gancho; amostra pequena, direção: tema de saúde/risco rende menos que castração (550) e cama grande (549)
 06/11/2026 | TikTok | dúvida real (banho cheiro; castração gratuita) | — | ainda <24 h, métrica não sincronizada | leitura em 07/11
+07/11/2026 | TikTok | dúvida real (banho cheiro) | "Seu cachorro sai do banho cheirosinho e horas depois..." | 131 (≈ 21 h, sync 06/11 14:24) | <200: não repetir o gancho
+07/11/2026 | TikTok | dúvida real (castração gratuita) | "Castração gratuita existe e muita gente não sabe" | 124 (≈ 15 h, tempo médio 1,63 s) | <200: não repetir; amostra pequena, direção: burocrático/gratuito < decisão do tutor (castração idade 550)
+07/11/2026 | TikTok | humor (caramelo chique) | "O caramelo mais chique do Brasil" | 94 (≈ 16 h, 7 curtidas) | <200: não repetir
+06/11/2026 | TikTok | dúvida real (vacina 3 meses, Agendador) | "Seu cachorro vai tomar vacina? A partir de 3 meses" | 8 (≈ 1 h, ainda cedo) | releitura 08/11
