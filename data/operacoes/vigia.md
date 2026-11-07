@@ -1,13 +1,13 @@
-Dados até 2026-11-06 19:25 (Fortaleza)
-Número do dia: rotinas falhando ou suspensas por erro = 0. CORRIGI: 0 novas (AdSense 0 FALHA: reforco das 11:24 confirmado, commit 858fc1f) | PRECISO DO ALLAN: 1 (E210: fire_trigger do Operador negado 3ª vez; TikTok abaixo de 3/dia)
-| 17 rotinas ativas (1+1, Diretores, Medidor, Auditor Anúncios, Operador, Agendador 16:15 F ok, Segurança, Estrategista, lembretes, Vigia) | ok | todas SUCCEEDED, next_run futuro (Vigia PENDING = esta sessão) | <=24 h | - | - |
-|---|---|---|---|---|---|
-| 17 rotinas ativas (1+1, Diretores, Medidor, Auditor Anúncios, Operador, Agendador, Segurança, Estrategista, lembretes, Vigia) | ok | todas SUCCEEDED, next_run futuro (Vigia PENDING = esta sessão) | <=24 h (Agendador 12:15 F ok) | - | - |
-| Desligadas por decisão (Executor, Virais, Pesquisadores, Humorista, Utilidade, Conferente, Removedor, Publicador etc.) | off | - | - | não é falha | - |
-| fabrica.yml | verde | #42256626265 06/11 13:53 F (schedule) | ~5,5 h | - | - |
-| publicar_blog.yml | verde | #42262791327 06/11 14:33 F (dispatch) | ~5 h | - | - |
-| Blog hoje | 2/1 | pinscher-giselle 07:27 F; outro artigo 14:41 F (8598786) | ~5 h | - | - |
-| AdSense | 0 FALHA | auditoria local 06/11 15:2x F | - | pinscher agora com Fontes (reforco 858fc1f) | E34 ok: auditoria PASSA tudo |
-| FB/IG (Zernio) | ok | FB 06/11 10:58 F, IG 11:01 F; vacina IG 11:01 | ~4 h | 8 falhas antigas (mídia), 0 novas | retry proibido (E151) |
-| TikTok (Buffer) | ALERTA V2.3 | vacina enviada 06/11 10:21 F (13:21Z) | ~9 h | hoje 1 vídeo; próx. 24 h: só fujão 07/11 10:20 F; atum 08/11 em erro (E200) | fire_trigger Operador já negado 3x (E210); Operador roda sozinho 07/11 07:41 F |
-| Issues falhou/nao publicou | 21 abertas, última 02/11 | - | - | histórico, runs verdes desde então | fechar na revisão |
+Dados até 2026-11-07 07:30 (Fortaleza) | CORRIGI: 2 | PRECISO DO ALLAN: 0
+Número do dia: rotinas falhando/suspensas = 0 (de 18 ativas; 11 desligadas por decisão de 22/10 e 02/11).
+| rotina | estado | último run | problema | correção |
+|---|---|---|---|---|
+| 17 rotinas ativas (Diária 1+1, Diretores, Operador, Agendador, Medidor, Auditor, Estrategista, Segurança, reservas) | ok | todas SUCCEEDED, nenhuma com next_run vencido | - | - |
+| Vigia (esta rodada) | rodando | 07:19 | - | - |
+| fabrica.yml | verde, mas cron das 06:00 não disparou hoje (último verde 06/11 13:53 F, 17 h) | 06/11 16:53Z | blog 0/1 hoje às 07:30 | dispatch REST feito 07:21 F, run 42363579635 |
+| publicar_blog.yml | verde | 06/11 17:33Z | - | - |
+| Blog | 0/1 hoje (ontem 2/1); AdSense 0 FALHA, 121 artigos | último artigo no ar 06/11 14:41 F | piso do dia ainda aberto | promovido 'devolver-um-animal-adotado...' em blog_aprovados.txt (push dispara publicar_blog) |
+| FB/IG (Zernio) | ok | 06/11 11:01 F | 8 falhas antigas de mídia (sem novas); 10 agendados | retry proibido (E151) |
+| TikTok (Buffer) | ALERTA V2.3 | 06/11 10:21 F | 1 vídeo em 24 h; hoje só fujão 10:20 F; atum 08/11 com erro (E200) | fire_trigger do Operador negado 3x (E210); Operador roda sozinho 07:41 F e a ficha E211 manda completar os 3 vídeos; conferir 11:19 |
+| Issues falhou/nao publicou | 21 abertas, última 02/11 | - | histórico | fechar na revisão |
+Créditos ElevenLabs: sem saída recente do workflow (não medido).
