@@ -147,9 +147,49 @@ def build(name,items):
     for i,p in enumerate(P):
         if p['kind']=='L' and vs[i]<BL1 and ve[i]>BL0: hide+=f"*not(between(t,{t+max(0,BL0-vs[i]):.3f},{t+min(ve[i],BL1)-vs[i]:.3f}))"
         t+=ve[i]-vs[i]
-    fv.append(f"[c][{N}:v]overlay=x=(W-w)/2:y=1100:enable='1{hide}':eof_action=pass,format=yuv420p[o]")
+    nb=W+f'{name}_nb.mp4'
+    sh(['ffmpeg','-y','-hide_banner','-loglevel','error']+inp+['-filter_complex',';'.join(fv),'-map','[c]','-t',f'{adur:.3f}','-an','-r','30','-c:v','libx264','-preset','veryfast','-crf','16','-pix_fmt','yuv420p',nb])
+    # ---- botão desvia dos personagens (YOLO 5 fps, 3 alturas dentro da zona segura)
+    CY=[1100,1250,1400]; FPS=5
+    fr=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i',nb,'-vf',f'fps={FPS},scale=360:640','-f','rawvideo','-pix_fmt','bgr24','-'],capture_output=True).stdout,np.uint8).reshape(-1,640,360,3)
+    res=ym(list(fr),imgsz=480,conf=0.2,classes=[0,16],verbose=False)
+    sc=[]
+    for r in res:
+        o=[0,0,0]
+        for x0,y0,x1,y1,cf,c in r.boxes.data.cpu().numpy():
+            for k,y in enumerate(CY):
+                by0,by1,bx0,bx1=y/3,(y+140)/3,80/3,1000/3
+                ix=max(0,min(x1,bx1)-max(x0,bx0)); iy=max(0,min(y1,by1)-max(y0,by0)); o[k]+=ix*iy/((bx1-bx0)*(by1-by0))
+        sc.append(o)
+    sc=np.array(sc); nf=len(sc)
+    # cortes de cena (diferença entre quadros amostrados)
+    g=fr.mean(axis=3)[:,::4,::4]; df=np.abs(np.diff(g,axis=0)).mean(axis=(1,2)); cuts=[0]+[i+1 for i,d in enumerate(df) if d>18]+[nf]
+    cuts=sorted(set(cuts)); seg=[]; prev=0
+    for a,b in zip(cuts[:-1],cuts[1:]):
+        m=sc[a:b].mean(axis=0)+0.5*sc[a:b].max(axis=0)
+        k=int(np.argmin(m)); 
+        if m[0]<=m[k]+0.08: k=0
+        if prev is not None and m[prev]<=m[k]+0.08: k=prev
+        seg.append((a/FPS,b/FPS,k)); prev=k
+    # junta segmentos vizinhos com mesma altura
+    mg=[]
+    for a,b,k in seg:
+        if mg and mg[-1][2]==k: mg[-1]=(mg[-1][0],b,k)
+        else: mg.append((a,b,k))
+    hidx=hide
+    # filtro: uma entrada do botão por altura
+    ks=sorted({kk for a,b,kk in mg}); inpb=[]; parts=[]; cur='[0:v]'
+    for j,k in enumerate(ks):
+        iv=[(a,b) for a,b,kk in mg if kk==k]
+        en='+'.join(f"between(t,{a:.2f},{b+0.03:.2f})" for a,b in iv)
+        parts.append(f"{cur}[{j+1}:v]overlay=x=(W-w)/2:y={CY[k]}:enable='({en}){hidx}':eof_action=pass[o{j}]"); cur=f'[o{j}]'
+    parts.append(f"{cur}format=yuv420p[o]")
+    cmd=['ffmpeg','-y','-hide_banner','-loglevel','error','-i',nb]
+    for k in ks: cmd+=['-stream_loop','-1','-i','/tmp/p11/orange.mov']
     vid=W+f'{name}_v.mp4'
-    sh(['ffmpeg','-y','-hide_banner','-loglevel','error']+inp+['-stream_loop','-1','-i','/tmp/p11/orange.mov','-filter_complex',';'.join(fv),'-map','[o]','-t',f'{adur:.3f}','-an','-r','30','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p',vid])
+    sh(cmd+['-filter_complex',';'.join(parts),'-map','[o]','-t',f'{adur:.3f}','-an','-r','30','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p',vid])
+    print('BOTAO',[(round(a,2),round(b,2),CY[k]) for a,b,k in mg],flush=True)
+    json.dump([(a,b,CY[k]) for a,b,k in mg],open(W+f'{name}_botao.json','w'))
     out=f'{OUT}/porta18_{name}.mp4'; I,PK,tp=normalize_mux(vid,wav,out)
     sh(['ffmpeg','-y','-loglevel','error','-i',out,'-vf','scale=-2:640','-c:v','libx264','-crf','30','-preset','veryfast','-c:a','aac','-b:a','96k',out.replace('.mp4','_leve.mp4')])
     dv=dur(out); tj=[];c=0
