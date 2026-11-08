@@ -10,3 +10,11 @@
 07/11/2026 | TikTok | dúvida real (castração gratuita) | "Castração gratuita existe e muita gente não sabe" | 124 (≈ 15 h, tempo médio 1,63 s) | <200: não repetir; amostra pequena, direção: burocrático/gratuito < decisão do tutor (castração idade 550)
 07/11/2026 | TikTok | humor (caramelo chique) | "O caramelo mais chique do Brasil" | 94 (≈ 16 h, 7 curtidas) | <200: não repetir
 06/11/2026 | TikTok | dúvida real (vacina 3 meses, Agendador) | "Seu cachorro vai tomar vacina? A partir de 3 meses" | 8 (≈ 1 h, ainda cedo) | releitura 08/11
+
+08/11/2026 | TikTok | humor/repost (caramelo casamento) | "Caramelo abençoou o casamento" | 209 (≈ 4 dias, tempo médio 2,88 s) | 200-999: repetir 1x com ajuste, mas sem insumo de imagem hoje (E212)
+08/11/2026 | TikTok | dúvida real (gato cospe remédio) | "Seu gato cospe o remédio?" | 182 final (≈ 4 dias, tempo médio 8,89 s: maior retenção da conta) | <200: não repetir o gancho; direção: retenção sobe com cena de ação contínua, não com views
+08/11/2026 | TikTok | dúvida real (vacina 3 meses, Agendador) | "Seu cachorro vai tomar vacina? A partir de 3 meses" | 174 (≈ 2 dias, tempo médio 1,35 s) | <200: não repetir
+08/11/2026 | TikTok | dúvida real (castração gratuita) | "Castração gratuita existe..." | 168 (≈ 3 dias, 1,92 s) | <200: não repetir
+08/11/2026 | TikTok | humor (caramelo chique) | "O caramelo mais chique do Brasil" | 174 (≈ 3 dias, 2,1 s) | <200: não repetir
+08/11/2026 | TikTok | dúvida real (banho cheiro) | "Seu cachorro sai do banho cheirosinho..." | 166 (≈ 3 dias, 1,99 s) | <200: não repetir
+08/11/2026 | TikTok | dúvida real (fujão / adoção 30 dias / idoso) | fujão 07/11 10:20; adoção 07/11 17:20; idoso-deficiência 07/11 20:20 | 0 (Buffer só sincroniza ~1x/dia, última 07/11 13:23; <24 h) | releitura 09/11

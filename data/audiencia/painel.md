@@ -51,3 +51,14 @@ Meta: IG 5/500 = 1%; FB 14.
 Views TikTok (Buffer, última sincronização 06/11 14:24): banho 131 | castração gratuita 124 | caramelo 94 | vacina 8 (1 h). Nenhum ≥200: sem replicar; tempo médio 1,6-2,0 s em todos (retenção é o gargalo, E208).
 Fila TikTok (Buffer, 3 de 10): fujão 07/11 10:20, petisco gato 08/11 10:20, protetor 08/11 14:20. Extras de hoje: 0 (sem insumo, ver execucao.md E212).
 Zernio: 10 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 08/11 07:45 (Operador de Audiência, nuvem)
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (+9 desde 14/10; 5 em 14/10) |
+| Instagram | 5 | 0 (117 posts; 0 até 30/10, 5 em 07/11) |
+| TikTok | SEM DADO (Buffer só views; E184/E206 abertas, ler no TikTok Studio via PC) | ? |
+Meta: IG 5/500 = 1%; TikTok sem leitura (último valor 21 em 24/10).
+Views TikTok (Buffer, última sincronização 07/11 13:23): vacina 174 | castração gratuita 168 | caramelo chique 174 | banho 166 | caramelo casamento 209 | gato remédio 182 (tempo médio 8,89 s, maior da conta). Nenhum ≥1.000; só caramelo casamento ≥200 (repost, sem insumo para repetir). Fujão, adoção e idoso (07/11) ainda sem sync (<24 h).
+Fila TikTok (Buffer, 3 de 10): petisco gato 08/11 10:20, protetor 08/11 14:20, adoção-adaptação 09/11 10:20. 20:20 de hoje: vazio (sem extra). Total hoje: 2 de 3 vídeos.
+Zernio: 8 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.
