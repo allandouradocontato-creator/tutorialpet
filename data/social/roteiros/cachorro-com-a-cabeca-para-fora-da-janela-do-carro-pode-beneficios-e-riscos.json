@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Cachorro com a cabeça na janela do carro é perigoso?",
+  "gancho_3s": "Seu cachorro adora colocar a cabeça na janela do carro? Cuidado com isso!",
+  "cenas": [
+    {
+      "narracao": "Muita gente acha que o cachorro está apenas curtindo o vento no rosto.",
+      "visual_busca_banco_livre": "dog looking out car window close up",
+      "texto_na_tela": "Vento no rosto"
+    },
+    {
+      "narracao": "Mas o vento traz poeira, pedras e fuligem que podem atingir os olhos do pet.",
+      "visual_busca_banco_livre": "dog face wind blowing close up",
+      "texto_na_tela": "Riscos para os olhos"
+    },
+    {
+      "narracao": "Em uma freada brusca ou batida, o animal pode ser lançado para fora do veículo.",
+      "visual_busca_banco_livre": "dog sitting inside car backseat",
+      "texto_na_tela": "Perigo de acidente"
+    },
+    {
+      "narracao": "Além disso, o Código de Trânsito Brasileiro proíbe animais soltos ou com partes do corpo para fora.",
+      "visual_busca_banco_livre": "dog looking sad inside car",
+      "texto_na_tela": "Infração de trânsito"
+    },
+    {
+      "narracao": "Use sempre cinto de segurança pet no banco de trás ou caixa de transporte adequada.",
+      "visual_busca_banco_livre": "dog wearing pet seatbelt in car",
+      "texto_na_tela": "Viagem segura"
+    },
+    {
+      "narracao": "Notou qualquer vermelhidão nos olhos do pet após o passeio? Consulte o médico-veterinário imediatamente.",
+      "visual_busca_banco_livre": "dog resting inside car",
+      "texto_na_tela": "Procure o veterinário"
+    }
+  ],
+  "chamada_final": "Garantir a segurança do seu pet no carro é essencial para um passeio tranquilo!",
+  "hashtags": [
+    "#cachorro",
+    "#segurancapet",
+    "#carro",
+    "#pet",
+    "#cuidadoscompets"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro adora colocar a cabeça na janela do carro? Cuidado com isso!\n\n📖 Artigo completo: https://tutorialpet.com.br/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos\n\n#cachorro #segurancapet #carro #pet #cuidadoscompets",
+  "slug": "cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos"
+}

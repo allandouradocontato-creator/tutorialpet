@@ -39,11 +39,12 @@ temas:
     "cao", sem citar Fortaleza
 - termo: cachorro com a cabeca para fora da janela do carro pode? beneficios e riscos
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
   nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do shih-tzu na janela
     do carro (@clarinhashitzu0); responder beneficios (estimulo dos cheiros) e riscos
     (poeira, insetos, pedras, queda em freada), cinto/guia/caixa de transporte, janela
     entreaberta, paradas na viagem; sem alegacao medica, aviso de procurar veterinario
+  data: '2026-11-08'
 - termo: cachorro grande e cachorro pequeno podem comer no mesmo pote? como alimentar
     dois cachorros de portes diferentes
   pilar: alimentacao
@@ -1384,5 +1385,11 @@ temas:
   pilar: comportamento
   status: pendente
 - termo: como escolher a melhor racao senior para caes e gatos
+  pilar: alimentacao
+  status: pendente
+- termo: como criar um espaco seguro para pets idosos com baixa visao
+  pilar: utilidade_publica
+  status: pendente
+- termo: como incluir petiscos naturais na rotina alimentar de caes adultos
   pilar: alimentacao
   status: pendente
