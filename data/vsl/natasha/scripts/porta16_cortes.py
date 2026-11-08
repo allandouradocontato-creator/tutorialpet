@@ -21,7 +21,7 @@ def energy_end(f,a,b):
     for i in range(int(a*100),min(n,int(b*100))):
         if r[i]<thr: return i*0.01+0.05
     return b
-SPEC={'P1f':(0,None),'P3full':(0,None),'P3':(0,'short'),'P4':(0,None),'P5':(0,None),'P5s':(0,None)}
+SPEC={'P1f':(0,None),'P2':(0,None),'P3full':(0,None),'P3':(0,'short'),'P4':(0,None),'P5':(0,None),'P5s':(0,None)}
 BASE={'P1':'P1','P1f':'P1','P2':'P2','P3full':'P3','P3':'P3','P4':'P4','P5':'P5','P5s':'P5s'}
 def mkvoice(name):
     bn=BASE[name]; lead=0.0 if name=='P1f' else 0.10
@@ -82,7 +82,7 @@ for n,b in BR.items():
     print(n,'vídeo',round(b['dur'],2),'voz L',round(L,2))
 # bed (música) para pontes: trecho só-música do bed da longa (2–8 s) + sfx
 def bridge_bed(name,Lneed,out):
-    fl=['[0:a]atrim=2.0:%.3f,asetpts=PTS-STARTPTS[m]'%(2.0+Lneed)]; ins=['-i','/tmp/p11/bed.wav']; lab='[m]'; k=1
+    fl=['[0:a]atrim=2.0:%.3f,asetpts=PTS-STARTPTS[m]'%(2.0+Lneed)]; ins=['-i','/tmp/p11/bed2.wav']; lab='[m]'; k=1
     sf={'P1':[(0.0,'sfx_bass_hit',-1)],'P1f':[(0.0,'sfx_bass_hit',-1)],'P2':[(2.3,'sfx_chimes_vitoria',-6)],'P5':[(1.5,'sfx_chimes_vitoria',-6)],'P5s':[(0.1,'sfx_chimes_vitoria',-6)]}.get(name,[])
     for t,n,db in sf:
         ins+=['-i',SFX+n+'.mp3']; fl.append(f'[{k}:a]aresample=44100,aformat=channel_layouts=stereo,volume={db}dB,adelay={int(t*1000)}|{int(t*1000)}[s{k}]'); lab+=f'[s{k}]'; k+=1
@@ -103,6 +103,7 @@ def plan(items):
         else: P.append(dict(kind='L',a=A,b=B,sa=sa,ea=ea,sb=sb,eb=eb))
     return P
 CUT={'corte1_susto':[('L',0,11.63),('L',71.72,84.06),('B','P5'),('B','P3full'),('L',152.04,153.24),('L',155.30,157.34),('L',160.10,163.14),('L',168.14,175.80),('L',184.24,END)],
+'corte2_vizinho':[('B','P1f'),('L',50.80,54.29),('B','P2'),('B','P3'),('L',135.88,151.62),('L',152.04,157.34),('L',160.10,163.14),('L',168.14,175.80),('L',184.24,END)],
 'corte3_dicas':[('B','P1f'),('B','P4'),('L',91.34,101.03),('L',104.48,109.33),('B','P5s'),('L',112.48,125.88),('B','P3'),('L',147.58,151.62),('L',152.04,153.24),('L',155.30,157.34),('L',184.24,END)]}
 def build(name,items):
     P=plan(items)
@@ -122,7 +123,7 @@ def build(name,items):
         if p['kind']=='L':
             vf=W+f'{name}_v{i}.wav'; bf=W+f'{name}_b{i}.wav'
             sh(['ffmpeg','-y','-loglevel','error','-i','/tmp/p11/voz14.wav','-af',f"atrim={p['a']:.4f}:{p['b']:.4f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono",'-ar','44100',vf])
-            sh(['ffmpeg','-y','-loglevel','error','-i','/tmp/p11/bed.wav','-af',f"atrim={max(0,p['a']-h):.4f}:{p['b']+t:.4f},asetpts=PTS-STARTPTS,aformat=channel_layouts=stereo",'-ar','44100',bf])
+            sh(['ffmpeg','-y','-loglevel','error','-i','/tmp/p11/bed2.wav','-af',f"atrim={max(0,p['a']-h):.4f}:{p['b']+t:.4f},asetpts=PTS-STARTPTS,aformat=channel_layouts=stereo",'-ar','44100',bf])
             p['pre']=p['a']-max(0,p['a']-h)
         else:
             b=BR[p['name']]; vf=b['voice']; bf=W+f'{name}_b{i}.wav'; bridge_bed(p['name'],b['L']+h+t,bf); p['pre']=0

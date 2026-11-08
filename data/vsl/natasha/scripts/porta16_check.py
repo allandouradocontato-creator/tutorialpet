@@ -5,7 +5,7 @@ O='/mnt/user-data/outputs/porta16/porta16_%s.mp4'
 CAPS=json.load(open('/tmp/p11/caps.json'))
 SB={'P1f':'Seu cachorro late ou destrói tudo quando você sai?','P1':'Seu cachorro late ou destrói tudo quando você sai?','P2':'A Carol quase doou o Thor. Até descobrir o Sozinho em Casa.','P3':'Catorze dias depois,','P3full':'Catorze dias depois, ela abriu a porta.','P4':'A Carol tentou de tudo pelo Thor.','P5':'Ela pesquisou. E achou o Sozinho em Casa.','P5s':'E achou o Sozinho em Casa.'}
 res={}
-for n in ['corte1_susto','corte3_dicas']:
+for n in ['corte1_susto','corte2_vizinho','corte3_dicas']:
     R=json.load(open(f'/tmp/p11/c16/{n}.json'));tj=R['juncoes'];P=R['parts'];vs=R['vs'];ve=R['ve']
     y=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i',O%n,'-ac','1','-ar','16000','-f','f32le','-'],capture_output=True).stdout,np.float32)
     db=lambda a,b:float(20*np.log10(np.sqrt((y[int(a*16000):int(b*16000)]**2).mean())+1e-7))
