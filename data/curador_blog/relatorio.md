@@ -1,10 +1,9 @@
-# Relatório do Curador do Blog — 08/11/2026 14:35
+# Relatório do Curador do Blog — 08/11/2026 15:31
 
-136 artigos auditados, 67 com problema bloqueante.
+136 artigos auditados, 66 com problema bloqueante.
 
-- REPROVADO | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
-    - [aviso] título com 92 caracteres (ideal até 70)
+- ok | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
+    - [aviso] título com 78 caracteres (ideal até 70)
 - ok | adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce
     - [aviso] título com 84 caracteres (ideal até 70)
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir

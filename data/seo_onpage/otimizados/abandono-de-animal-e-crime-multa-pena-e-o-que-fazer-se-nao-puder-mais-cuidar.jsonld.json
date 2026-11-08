@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar: guia prático",
-    "description": "Abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar: guia prático. Quem nunca olhou para o próprio cachorrinho enrolado no...",
+    "headline": "Abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar",
+    "description": "Abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar. Deixar um cachorrinho ou um gatinho na rua não é apenas um ato de...",
     "datePublished": "2026-11-01",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar"
-    },
-    "image": "https://tutorialpet.com.br/imagens/abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "O que caracteriza legalmente o abandono de um animal?",
+        "name": "Abandonar filhotes recém-nascidos também é considerado crime?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Deixar o pet sozinho em imóvel desocupado, solto em vias públicas, praças, estradas ou recusar-se a prestar assistência veterinária básica necessária configura crime ambiental de abandono e maus-tratos.  - **Qual é o valor da multa aplicada por abandono de animais?**   O valor da multa varia conforme a legislação estadual e municipal aplicável, além da gravidade estipulada pelo juiz no processo penal com base na Lei de Crimes Ambientais, podendo somar penalidades administrativas pesadas.  - **Quero doar meu pet porque mudei de cidade, posso deixá-lo em uma clínica veterinária?**   Não. Clínicas veterinárias e pet shops não têm obrigação legal nem estrutura de abrigo para receber animais indesejados. Deixar o pet nesses locais sem consentimento também pode configurar abandono.  - **O que fazer se eu testemunhar um caso de abandono na minha rua?**   Anote a placa do veículo, tire fotos ou faça vídeos se possível sem se colocar em risco, salve o endereço exato e registre um Boletim de Ocorrência na Delegacia Eletrônica ou denuncie diretamente ao Ministério Público."
+          "text": "Sim, o abandono de qualquer faixa etária, incluindo filhotes recém-nascidos, é crime de maus-tratos com agravante pela vulnerabilidade dos animais.  * **Posso deixar o pet solto na rua se ele souber voltar para casa?** Sim, deixar animais soltos sem supervisão em vias públicas coloca a vida deles e de motoristas em risco, configurando infração e potencial negligência.  * **O que acontece com o animal após o resgate pelo poder público?** O animal é encaminhado para centros de zoonoses ou ONGs parceiras, onde recebe atendimento veterinário e é preparado para feiras de adoção.  * **Quais provas são aceitas para comprovar o crime de abandono?** Vídeos de câmeras de segurança, fotos com data e hora, testemunhas oculares e registros de áudio são amplamente aceitos em processos judiciais."
         }
       }
     ]
