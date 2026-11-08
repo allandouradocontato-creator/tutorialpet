@@ -3,7 +3,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Como escovar os dentes do cachorro",
-    "description": "Aprenda como escovar os dentes do cachorro sem estresse. Guia prático com passo a passo para manter o hálito do seu cachorro fresco.",
+    "description": "Aprenda como escovar os dentes do cachorro em casa com passos simples, pasta segura e paciência para proteger a saúde e o hálito do seu pet.",
     "datePublished": "2026-09-15",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/como-escovar-os-dentes-do-cachorro"
-    },
-    "image": "https://tutorialpet.com.br/imagens/como-escovar-os-dentes-do-cachorro.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,10 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Posso usar bicarbonato de sódio para limpar os dentes do meu cachorro?",
+        "name": "Posso usar bicarbonato de sódio ou pasta humana para limpar os dentes do cachorro?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não. O bicarbonato é abrasivo demais para o esmalte dos dentes caninos e pode causar irritações graves no estômago se engolido.  * **Com que frequência devo escovar os dentes do meu cachorro?** O ideal é fazer a escovação diariamente. Em média, os veterinários recomendam pelo menos três vezes por semana para manter o tártaro afastado, mas consulte sempre o profissional que acompanha seu pet.  * **O que fazer se o meu cachorro não aceitar a escova de jeito nenhum?** Tenha paciência e volte etapas no treinamento. Se persistir a resistência, existem no mercado enxágues bucais próprios para água e petiscos funcionais que ajudam na limpeza, mas converse com o veterinário sobre alternativas.  * **Cachorros filhotes também precisam de escovação?** Sim, começar nos primeiros meses, logo após os cuidados iniciais como [vacinas para filhote de cachorro](/vacinas-para-filhote-de-cachorro), ajuda o animal a achar a rotina algo totalmente natural na vida adulta."
+          "text": "Não. O bicarbonato e as pastas humanas contêm ingredientes tóxicos para o sistema digestivo dos animais e fazem espuma que eles não conseguem cuspir.  * **Com qual idade devo começar a escovação dos dentes?** O ideal é iniciar ainda na fase de filhote, logo após a chegada em casa, para que o hábito se torne natural na vida adulta.  * **O cachorro precisa escovar todos os dentes por dentro?** Não é necessário. A língua e a saliva ajudam a limpar a parte interna dos dentes, por isso a escovação foca quase sempre na face externa (bochecha).  * **Petiscos e ossinhos substituem a escovação com escova?** Eles ajudam a reduzir o acúmulo superficial de placa mecânica, mas nenhum petisco substitui a ação de fricção da escova com pasta veterinária."
         }
       }
     ]

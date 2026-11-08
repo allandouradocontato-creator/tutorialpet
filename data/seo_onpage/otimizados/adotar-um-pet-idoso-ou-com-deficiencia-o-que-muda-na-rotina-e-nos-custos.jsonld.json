@@ -2,8 +2,8 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos: guia prático",
-    "description": "Adotar um pet idoso ou com deficiência: o que muda na rotina e nos custos: guia prático. Quem decide colocar um tapete antiderrapante na sala inteira...",
+    "headline": "Adotar pet idoso ou com deficiência: o que muda na rotina e nos custos",
+    "description": "Adotar pet idoso ou com deficiência: o que muda na rotina e nos custos. Adotar um cachorro ou gato idoso ou com alguma deficiência física transforma a...",
     "datePublished": "2026-11-05",
     "inLanguage": "pt-BR",
     "author": {
@@ -14,8 +14,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://tutorialpet.com.br/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos"
-    },
-    "image": "https://tutorialpet.com.br/imagens/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos.jpg"
+    }
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,10 +22,34 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Pet idoso dá mais trabalho que filhote?",
+        "name": "Qual é a maior vantagem de adotar um pet idoso ou com deficiência?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Não necessariamente. Eles exigem mais cuidados de saúde e adaptação física da casa, mas costumam ser muito mais calmos, limpos e previsíveis na rotina diária.  * **Preciso reformar a casa inteira para um pet com deficiência?**   Não. Pequenos ajustes, como rampas portáteis, remoção de tapetes soltos e potes de comida elevados, já resolvem a maior parte dos desafios do dia a dia.  * **Quanto custa em média o tratamento de um pet idoso?**   O valor varia conforme a região e as condições de saúde individuais, mas é prudente reservar uma verba mensal para consultas de rotina e exames preventivos, conversando sempre com o veterinário para planejar os custos.  * **Como saber se o pet está sentindo dor?**   Sinais sutis como hesitar antes de subir no sofá, lamber insistente uma pata, alteração no sono ou perda de apetite exigem avaliação veterinária imediata."
+          "text": "Eles costumam ser animais extremamente calmos, já com a personalidade formada, que demonstram uma gratidão profunda e se adaptam rapidamente ao ritmo tranquilo de uma nova casa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Animais com deficiência dão muito mais trabalho no dia a dia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Eles exigem adaptação inicial na rotina e na casa, mas, após o período de ajustes, o cuidado se torna automático e natural para a família."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Com que frequência devo levar o pet idoso ao veterinário?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média a cada seis meses, ou conforme a recomendação do médico-veterinário do pet, para realizar exames de sangue preventivos e acompanhar a saúde geral."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O custo com medicamentos pesa muito no orçamento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do diagnóstico, mas animais seniores ou especiais costumam ter gastos fixos mensais com remédios ou suplementos que devem ser previstos antes da adoção."
         }
       }
     ]

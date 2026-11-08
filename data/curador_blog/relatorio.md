@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 06/11/2026 15:29
+# Relatório do Curador do Blog — 08/11/2026 14:35
 
-132 artigos auditados, 69 com problema bloqueante.
+136 artigos auditados, 67 com problema bloqueante.
 
 - REPROVADO | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -9,8 +9,6 @@
     - [aviso] título com 84 caracteres (ideal até 70)
 - ok | adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir
 - ok | adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos
-    - [aviso] curto (856 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
-    - [aviso] título com 87 caracteres (ideal até 70)
 - ok | alimentos-proibidos-para-cachorro
     - [aviso] poucas fontes citadas com link (2): artigo precisa de mais fontes (meta: 3 ou mais)
 - REPROVADO | ansiedade-de-separacao-em-caes
@@ -26,6 +24,8 @@
     - [aviso] poucas fontes citadas com link (1): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | cachorro-chorando-quando-fico-sozinho-o-que-fazer
+- ok | cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos
+    - [aviso] título com 90 caracteres (ideal até 70)
 - REPROVADO | cachorro-latindo-muito-o-que-fazer
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -134,9 +134,7 @@
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 81 caracteres (ideal até 70)
-- REPROVADO | como-escovar-os-dentes-do-cachorro
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-escovar-os-dentes-do-cachorro
 - REPROVADO | como-escovar-pelo-de-gato-que-nao-gosta-de-escova
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -192,9 +190,7 @@
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | como-manter-a-pelagem-de-caes-senior-livre-de-nos-sem-estresse
     - [aviso] título com 81 caracteres (ideal até 70)
-- REPROVADO | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | como-misturar-racao-seca-e-umida-para-cachorro-corretamente
     - [aviso] título com 73 caracteres (ideal até 70)
 - ok | como-montar-um-cronograma-de-enriquecimento-ambiental-para-caes-sozinhos
     - [aviso] título com 77 caracteres (ideal até 70)
@@ -242,6 +238,8 @@
 - REPROVADO | cuidados-essenciais-com-as-patas-de-caes-no-inverno
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer
+    - [aviso] título com 85 caracteres (ideal até 70)
 - REPROVADO | enxoval-para-filhote-de-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -285,6 +283,8 @@
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
     - [aviso] título com 80 caracteres (ideal até 70)
     - [aviso] parágrafo acima de 130 palavras
+- ok | pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir
+    - [aviso] título com 88 caracteres (ideal até 70)
 - ok | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | plantas-toxicas-para-gatos
@@ -330,15 +330,18 @@
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quantas-vezes-por-dia-o-cachorro-precisa-passear
     - [aviso] curto (833 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+- REPROVADO | quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos
+    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
+    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+    - [aviso] título com 79 caracteres (ideal até 70)
 - ok | quanto-de-racao-dar-para-gato-adulto-por-dia
 - REPROVADO | quanto-tempo-um-cachorro-pode-ficar-sozinho
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quantos-dias-o-gato-pode-ficar-sozinho-em-casa
 - ok | racao-para-filhote-de-cachorro
-- REPROVADO | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos
+    - [aviso] curto (839 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca
 - ok | vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando
