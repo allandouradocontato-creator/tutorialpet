@@ -21,8 +21,8 @@ def energy_end(f,a,b):
     for i in range(int(a*100),min(n,int(b*100))):
         if r[i]<thr: return i*0.01+0.05
     return b
-SPEC={'P1f':(0,None),'P4':(0,None),'P5':(0,None),'P3':(0,'short'),'P3full':(0,None),'P5s':(0,None)}
-BASE={'P1':'P1','P1f':'P1','P2':'P2','P3full':'P3','P3':'P3','P4':'P4','P5':'P5','P5s':'P5s'}
+SPEC={'P1f':(0,None),'P4':(0,None),'P5':(0,None),'P3':(0,'short'),'P3full':(0,None),'P5s':(0,None),'P6':(0,None)}
+BASE={'P1':'P1','P1f':'P1','P2':'P2','P3full':'P3','P3':'P3','P4':'P4','P5':'P5','P5s':'P5s','P6':'P6'}
 def mkvoice(name):
     bn=BASE[name]; lead=0.0 if name=='P1f' else 0.10
     src=V+bn+'.mp3'; w=json.load(open(V+f'w_{bn}.json'))
@@ -51,6 +51,11 @@ def vid(name):
         clean(69.02,2.3,W+'a.mp4'); z=0.10; clip('/home/claude/allandouradocontato-creator/tutorialpet/data/vsl/natasha/scripts/produto_anim2.mp4',0,Lf-2.3,f"scale=1080:1920:flags=lanczos,setsar=1,fps=30,scale=w='1080*(1+{z}*t/{Lf-2.3:.3f})':h=-2:eval=frame,crop=1080:1920,setsar=1",W+'b.mp4'); cat([W+'a.mp4',W+'b.mp4'],o)
     elif name.startswith('P3'): clip('/tmp/p11/clips/f_h3_corredor_abrindo.mp4',0.6,Lf,f"{base(0,0)},{EQ}",o)
     elif name=='P4': clean(87.10,Lf,o)
+    elif name=='P6':
+        s1=3.65; s2=2.0; s3=round((Lf-s1-s2)*30)/30
+        clip('/home/claude/allandouradocontato-creator/tutorialpet/data/vsl/natasha/scripts/produto_anim2.mp4',0,s1,f"scale=1080:1920:flags=lanczos,setsar=1,fps=30,scale=w='1080*(1+0.08*t/{s1:.3f})':h=-2:eval=frame,crop=1080:1920,setsar=1",W+'a6.mp4')
+        clean(173.11,s2,W+'b6.mp4')
+        clean(119.0,s3,W+'c6.mp4'); cat([W+'a6.mp4',W+'b6.mp4',W+'c6.mp4'],o)
     elif name=='P5s': clip('/home/claude/allandouradocontato-creator/tutorialpet/data/vsl/natasha/scripts/produto_anim2.mp4',0,Lf,f"scale=1080:1920:flags=lanczos,setsar=1,fps=30,scale=w='1080*(1+0.10*t/{Lf:.3f})':h=-2:eval=frame,crop=1080:1920,setsar=1",o)
     elif name=='P5':
         clean(101.0,1.3,W+'a.mp4'); z=0.10; clip('/home/claude/allandouradocontato-creator/tutorialpet/data/vsl/natasha/scripts/produto_anim2.mp4',0,Lf-1.3,f"scale=1080:1920:flags=lanczos,setsar=1,fps=30,scale=w='1080*(1+{z}*t/{Lf-1.3:.3f})':h=-2:eval=frame,crop=1080:1920,setsar=1",W+'b.mp4'); cat([W+'a.mp4',W+'b.mp4'],o)
@@ -69,7 +74,7 @@ def zone(f,a,e):
         for k,y in (('T',YT),('B',YB)): sc[k]+=m[int(y/3):int((y+160)/3),int(0.06*360):int(0.94*360)].mean()
     return 'T' if sc['T']<=sc['B'] else 'B'
 _cp=[(0,3.6,['Seu cachorro late ou destrói','tudo quando você sai?'])]
-CAPB={'P1':_cp,'P1f':_cp,'P2':[(0,2.3,['A Carol quase doou o Thor.']),(2.54,4.9,['Até descobrir','o Sozinho em Casa.'])],
+CAPB={'P6':[(0,1.55,['Dez minutos por dia,']),(1.7,3.62,['com o manual','e o aplicativo.']),(3.95,6.3,['E a Carol voltou a','trabalhar tranquila…']),(6.45,BR['P6']['L'],['e a dormir','a noite inteira.'])],'P1':_cp,'P1f':_cp,'P2':[(0,2.3,['A Carol quase doou o Thor.']),(2.54,4.9,['Até descobrir','o Sozinho em Casa.'])],
 'P3':[(0,BR['P3']['L'],['Catorze dias depois,'])],'P3full':[(0,BR['P3full']['L'],['Catorze dias depois,','ela abriu a porta.'])],'P4':[(0,BR['P4']['L'],['A Carol tentou de tudo','pelo Thor.'])],'P5s':[(0,BR['P5s']['L'],['E achou','o Sozinho em Casa.'])],'P5':[(0,1.3,['Ela pesquisou.']),(1.46,BR['P5']['L'],['E achou','o Sozinho em Casa.'])]}
 for n,b in BR.items():
     L=b['L']; dts=[]
@@ -102,7 +107,7 @@ def plan(items):
         if P and P[-1]['kind']=='L' and 0<=A-P[-1]['b']<0.35: P[-1]['b']=B;P[-1]['sb']=sb;P[-1]['eb']=eb
         else: P.append(dict(kind='L',a=A,b=B,sa=sa,ea=ea,sb=sb,eb=eb))
     return P
-CUT={'corte_resumo':[('B','P1f'),('B','P4'),('L',91.34,95.86),('L',67.08,70.69),('L',71.72,79.78),('L',104.48,109.33),('B','P5'),('B','P3'),('L',147.58,153.24),('L',155.30,157.34),('L',170.85,175.80),('L',184.24,END)]}
+CUT={'corte_resumo':[('B','P1f'),('L',2.92,5.75),('L',87.10,91.32),('L',92.92,95.86),('L',74.34,79.78),('L',104.48,109.33),('B','P5'),('B','P3'),('L',147.58,153.24),('L',155.30,157.34),('B','P6'),('L',184.24,END)]}
 def build(name,items):
     P=plan(items)
     for p in P:

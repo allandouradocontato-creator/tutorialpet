@@ -3,7 +3,7 @@ import json,subprocess,numpy as np,sys
 from PIL import Image,ImageDraw
 O='/mnt/user-data/outputs/porta18/porta18_%s.mp4'
 CAPS=json.load(open('/tmp/p11/caps.json'))
-SB={'P1f':'Seu cachorro late ou destrói tudo quando você sai?','P1':'Seu cachorro late ou destrói tudo quando você sai?','P2':'A Carol quase doou o Thor. Até descobrir o Sozinho em Casa.','P3':'Catorze dias depois,','P3full':'Catorze dias depois, ela abriu a porta.','P4':'A Carol tentou de tudo pelo Thor.','P5':'Ela pesquisou. E achou o Sozinho em Casa.','P5s':'E achou o Sozinho em Casa.'}
+SB={'P1f':'Seu cachorro late ou destrói tudo quando você sai?','P1':'Seu cachorro late ou destrói tudo quando você sai?','P2':'A Carol quase doou o Thor. Até descobrir o Sozinho em Casa.','P3':'Catorze dias depois,','P3full':'Catorze dias depois, ela abriu a porta.','P4':'A Carol tentou de tudo pelo Thor.','P5':'Ela pesquisou. E achou o Sozinho em Casa.','P5s':'E achou o Sozinho em Casa.','P6':'Dez minutos por dia, com o manual e o aplicativo. E a Carol voltou a trabalhar tranquila… e a dormir a noite inteira.'}
 res={}
 for n in ['corte_resumo']:
     R=json.load(open(f'/tmp/p11/c18/{n}.json'));tj=R['juncoes'];P=R['parts'];vs=R['vs'];ve=R['ve']
