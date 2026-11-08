@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar: guia prático",
+    "description": "Abandono de animal é crime: multa, pena e o que fazer se não puder mais cuidar: guia prático. Quem nunca olhou para o próprio cachorrinho enrolado no...",
+    "datePublished": "2026-11-01",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar"
+    },
+    "image": "https://tutorialpet.com.br/imagens/abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O que caracteriza legalmente o abandono de um animal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Deixar o pet sozinho em imóvel desocupado, solto em vias públicas, praças, estradas ou recusar-se a prestar assistência veterinária básica necessária configura crime ambiental de abandono e maus-tratos.  - **Qual é o valor da multa aplicada por abandono de animais?**   O valor da multa varia conforme a legislação estadual e municipal aplicável, além da gravidade estipulada pelo juiz no processo penal com base na Lei de Crimes Ambientais, podendo somar penalidades administrativas pesadas.  - **Quero doar meu pet porque mudei de cidade, posso deixá-lo em uma clínica veterinária?**   Não. Clínicas veterinárias e pet shops não têm obrigação legal nem estrutura de abrigo para receber animais indesejados. Deixar o pet nesses locais sem consentimento também pode configurar abandono.  - **O que fazer se eu testemunhar um caso de abandono na minha rua?**   Anote a placa do veículo, tire fotos ou faça vídeos se possível sem se colocar em risco, salve o endereço exato e registre um Boletim de Ocorrência na Delegacia Eletrônica ou denuncie diretamente ao Ministério Público."
+        }
+      }
+    ]
+  }
+}
