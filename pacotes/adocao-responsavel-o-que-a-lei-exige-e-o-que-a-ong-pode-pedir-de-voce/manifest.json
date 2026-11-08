@@ -1,6 +1,6 @@
 {
   "slug": "adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-11-03T17:24:27+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce",
   "voz": {
@@ -26,5 +26,14 @@
     ],
     "em": "2026-11-03T17:25:44+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado": {
+    "em": "2026-11-08T12:23-03:00",
+    "zernio_facebook": "6af093e814d8819b823fc851",
+    "zernio_instagram": "6af093e9c9ad79b6941fc772",
+    "buffer_tiktok": "6af093eb229bf05dafbcb263",
+    "facebook": "2026-11-10T10:00-03:00",
+    "tiktok": "2026-11-10T10:20-03:00",
+    "instagram": "2026-11-10T11:00-03:00"
+  }
 }
