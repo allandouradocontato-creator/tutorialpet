@@ -20,11 +20,11 @@
 | sem capa proibida (agressiva) | PASSA | [] |
 | todos com capa | PASSA | [] |
 | artigos de saude citam veterinario | PASSA | [] |
-| TODOS os artigos com secao Fontes e referencias (>=2 links) | FALHA | 1 sem fonte: ['abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar'] |
+| TODOS os artigos com secao Fontes e referencias (>=2 links) | PASSA | 0 sem fonte: [] |
 | sem texto de modelo visivel | PASSA |  |
 | autor nomeado (pessoa) nos artigos | PASSA | byline ainda 'Equipe Tutorial Pet' |
 | Sobre tem secao de equipe/autor | PASSA |  |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (1)
-- **TODOS os artigos com secao Fontes e referencias (>=2 links)**: 1 sem fonte: ['abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar'] -> pesquisar fontes reais e inserir antes do fechamento
+## Corrigir (0)
+- nada
