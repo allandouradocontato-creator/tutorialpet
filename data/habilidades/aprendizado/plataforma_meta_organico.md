@@ -43,3 +43,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-11-04 | decisão por skill (sem pesquisa nova); CTA de seguir e T0 curto | FB 13, IG 4, TikTok sem dado | mantém
 2026-11-05 | FB: parado em 13 após o salto de 04/11; sem comentário de terceiro | n=1 salto | mantém CTA de seguir
 2026-11-07 | plataforma_meta_organico: pergunta + CTA seguir; IG 4->5 (+3 na semana) sem causa clara | n=7 dias Zernio | mantém
+2026-11-08 | plataforma_meta_organico: pergunta + CTA seguir; FB 14 e IG 5 parados nas últimas 24 h | n=8 dias Zernio, +4 FB, +3 IG | mantém

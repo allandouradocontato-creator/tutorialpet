@@ -67,3 +67,9 @@
 1. **"Parte 2 do campeão" (série TikTok)** — recorte curto de castração/cama com "Parte 2/2". Atrai: sequência = seguir. Risco: baixo (saúde com @vetnatasha). Custo: baixo (reuso).
 2. **"Dois jeitos de..." (carrossel FB/IG)** — 2 opções lado a lado (cama alta x baixa), "qual o seu?". Atrai: comentário e salvamento. Risco: baixo. Custo: baixo (template).
 3. **"Adoção: 1 pergunta por dia" (série nacional)** — pergunta do adotante, resposta em 1 frase; liga ao campeão de adoção (536 views). Risco: baixo (sem animal triste, regra 29). Custo: baixo.
+| 2026-11-08 09:30 | Diretor de Audiência | FB 14 (parado), IG 5 (parado, +3/semana), TikTok sem leitura de seguidores (21 em 24/10 = 2,1%); Buffer: 3 últimos TikToks sem sync (<24 h) = NEUTRO, fila hoje atum+abandono+cidade; comentário 0, DM 0; E213 travou (fetch da media estoura) -> E218 clone parcial; ficha 2026-11-08_audiencia_rodada.md; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 08/11/2026
+1. **"2 leis que ninguém te conta" para cada tema de adoção/tutela** — vídeo ≤20 s, 2 fatos nacionais (sem lei de cidade) e "segue pra parte 2". Atrai: curiosidade + sequência = seguir. Risco: baixo (sem animal triste, regra 29; sem jurídico categórico, "procure orientação"). Custo: baixo (reuso do artigo do dia).
+2. **"Domingo de pergunta" (FB/IG, 1 enquete por semana)** — "cama alta ou baixa?" com 2 fotos de banco livre. Atrai: comentário fácil de terceiro (hoje 0). Risco: baixo. Custo: baixo (template).
+3. **Bastidor "o que o tutor perguntou esta semana" (carrossel salvável)** — 3 dúvidas reais da fila_duvidas_reais.md com resposta em 1 frase. Atrai: salvamento e identificação. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.
