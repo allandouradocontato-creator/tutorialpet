@@ -241,3 +241,7 @@ Novo na conta, NÃO é Tutorial Pet: campanha "[2015 Yamaha Fazer] Classificado 
 ## 07/11/2026 12:35 — Auditor (Windsor facebook, 28/10 a 07/11)
 Sozinho em Casa: sem mudança. R$ 210,01 · 45 inícios (R$ 4,67) · 0 compras no pixel; 04/11-07/11 sem entrega. EXTRA de perfil (pedido de 31/10, 'Perfil que clica') já registrado em 01-04/11; sem dado novo de perfil, não repeti. Recomendação segue a de 04/11 (sem executar): Reels, mulher 25-34, só SP, sem Feed FB e sem 65+. Vendas Kiwify e eventos de vídeo do pixel: Unknown.
 Marketplace Yamaha (não é Tutorial Pet): ACTIVE, R$ 5,44 (06/11) + R$ 1,01 (07/11), termina 10/11; verba diária Unknown.
+
+## 08/11/2026 09:34 — Auditor (Windsor facebook, 28/10 a 08/11)
+Sozinho em Casa: sem mudança. R$ 210,01 · 45 inícios (R$ 4,67) · 0 compras no pixel; 04/11-08/11 sem entrega. O EXTRA de perfil (pedido de 31/10, valia para 01/11) já está registrado em 01-04/11; hoje não há dia novo com entrega, então não repeti os cortes de perfil (nem puxei região/eventos de vídeo). Recomendação segue a de 04/11 (sem executar): Reels FB, mulher 25-34, só SP, sem Feed FB e sem 65+; amostra pequena, é direção. Vendas Kiwify e eventos de vídeo do pixel: Unknown (sem Chrome na nuvem).
+Marketplace Yamaha (não é Tutorial Pet): ACTIVE, R$ 5,47 (06/11) + 6,49 (07/11) + 1,41 (08/11, parcial) = R$ 13,37 / 195 cliques; termina 10/11; verba diária Unknown. Sem ALERTA.
