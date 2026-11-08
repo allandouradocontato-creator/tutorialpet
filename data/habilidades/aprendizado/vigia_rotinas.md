@@ -70,3 +70,4 @@
 2026-11-07 | 12:05 TikTok 1->3 hoje (2 agendados no Buffer), atum reenviado; fire_trigger Operador e 3º post de 08/11 negados pelo classificador | conferir 15:19 (14:20 saiu?) e 08/11 10:21 (atum) | mantém
 2026-11-07 15:25 | ronda sem problema (TikTok 3/3 hoje, erro de 08/11 sumiu) | 0 | mantém
 2026-11-07 19:25 | ronda sem problema (rotinas ok, fabrica/blog verdes, Zernio 0 falha nova, TikTok 3/3 hoje) | 0 | mantém
+2026-11-08 07:25 | ronda: rotinas ok, fábrica/blog verdes, blog 0/1 -> promovido abandono-de-animal; TikTok 2/3 hoje (3º sem agendar), atum com erro antigo | conferir 11:19 (página 200, atum 10:20 saiu?) | mantém
