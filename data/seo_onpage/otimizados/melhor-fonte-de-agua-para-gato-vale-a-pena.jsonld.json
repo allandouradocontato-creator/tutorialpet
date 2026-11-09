@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Melhor fonte de agua para gato vale a pena: guia prático",
+    "description": "Descubra se a melhor fonte de agua para gato vale a pena. Guia prático com critérios de escolha, benefícios para a saúde e dicas reais.",
+    "datePublished": "2026-11-06",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/melhor-fonte-de-agua-para-gato-vale-a-pena",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/melhor-fonte-de-agua-para-gato-vale-a-pena"
+    },
+    "image": "https://tutorialpet.com.br/imagens/melhor-fonte-de-agua-para-gato-vale-a-pena.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A água da fonte precisa ser filtrada antes de abastecer o aparelho?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, usar água filtrada da sua própria casa aumenta a durabilidade do refil e garante maior pureza para o seu pet. * **Gatos podem tomar choque com esses aparelhos ligados na tomada?** Os modelos modernos operam com baixa voltagem através de fontes bivolt seguras, mas sempre compre produtos certificados pelo Inmetro. * **O motor fica ligado o dia todo ou preciso desligar à noite?** O ideal é manter o aparelho ligado ininterruptamente para garantir água fresca a qualquer hora e preservar a vida útil da bombinha. * **Quanto tempo duram os refis de carvão ativado?** Em média, os fabricantes recomendam a troca a cada trinta dias, mas isso pode variar conforme a quantidade de animais que usam o aparelho."
+        }
+      }
+    ]
+  }
+}
