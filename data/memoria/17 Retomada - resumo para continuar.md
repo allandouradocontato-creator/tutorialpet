@@ -189,3 +189,6 @@ Operador de Audiência (diário 07:41, config/prompts/operador_audiencia.md) pub
 
 ## Decisões — Operação 06/11/2026 21:42 (Fortaleza)
 Contagem: decididas abertas dentro do prazo 4 (E197, E204, E208, E211) / feitas hoje 5 (E201, E203, E199, E207, E209) / atrasadas novas 0 (antigas nominais seguem no topo do livro) / só Allan/PC 8 (E186, E189, E193, E194, E198, E205, E206, E210). Blog: Giselle/Sonza no ar (curl 200). Painel de Decisões sem texto lido.
+
+## Decisões — Operação 08/11/2026 21:42 (Fortaleza)
+Contagem: decididas abertas dentro do prazo 3 (E204, E218, E219) / feitas hoje 0 / vencidas marcadas bloqueadas 5 (E190, E197, E208, E211, E217) / atrasadas novas 0 / só Allan/PC 10 (E186, E189, E193, E194, E198, E205, E206, E210, E212, E214, E216, E215 ok de SEO). Blog: 1 artigo em 24 h (curl 200), sem alerta. Painel de Decisões rev 16, sem decisão nova.
