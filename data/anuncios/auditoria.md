@@ -1,11 +1,10 @@
-# Auditoria de anúncios - 08/11/2026 09:34 (Fortaleza). Dados até 08/11 (sem mudança vs 07/11; Yamaha Marketplace R$ 13,37 acumulado, termina 10/11). Anterior: 07/11 12:35. Dados até 07/11 (Windsor facebook, conta 1213984913380523, cache diário)
-Campanha Sozinho em Casa - VSL v12 - SP apartamento encerrada em 03/11 23:59; 04/11, 05/11, 06/11 e 07/11 sem entrega (sem mudança). Fora do Tutorial Pet: impulsionamento Marketplace "[2015 Yamaha Fazer]" ACTIVE, R$ 5,44 em 06/11 (68 cliques) e R$ 1,01 em 07/11 (20 cliques), termina 10/11; só aviso, sem ALERTA (valor do 06/11 subiu em relação à leitura anterior, R$ 1,43, por cache). Detalhe/perfil em campanha_vsl_v12_sp.md.
-- Número do departamento: R$ 4,67 por checkout iniciado (45 inícios) · gasto total 28/10-03/11 R$ 210,01 (inalterado desde 04/11) · 0 compras no pixel. Vendas na Kiwify: UNKNOWN (sem Chrome na nuvem).
-- Por conjunto (inalterado): landing R$ 175,04 / 20 inícios = R$ 8,75 · DIRETO CHECKOUT B R$ 34,97 / 25 inícios = R$ 1,40 (início = abrir checkout; só vale se virar venda).
-- Perfil/posicionamento/região: sem dado novo (sem entrega desde 04/11). Valem os cortes de 04/11 (só mulher 25-34, FB Reels, só SP, Feed FB e 65+ fora).
-- Criativos: v3 A segue ACTIVE no cadastro (R$ 0 em 04/11); conjunto acabou, então não gasta. Se prorrogarem a campanha, pausar v3 antes.
-- Compliance: sem Audience Network; rótulo de IA: Unknown; nenhum rascunho novo para publicar.
-- Dados faltando: venda real (Kiwify 31/10-04/11), eventos de vídeo do pixel (Gerenciador de Eventos), conjunto DIRETO sem registro em 05 Decisões.
-- REPLICAR: FB Reels + anúncio C v13; checkout direto converte ~50% clique→início (vs 6-8% pela landing), se houver venda.
-- DECISÃO ÚNICA (Allan, dinheiro): mesma de 04/11, ainda em aberto: conferir a Kiwify; se houver venda do DIRETO, reabrir só ele (R$ 30/dia, 2 dias); sem venda, o gargalo é oferta/checkout (Pix não pré-selecionado), não público.
-- Habilidade que falta: cruzar venda Kiwify x anúncio sem Chrome. Teste grátis: e-mail de venda da Kiwify lido por rotina ou CSV semanal.
+# Auditoria de anúncios - 09/11/2026 09:36 (Fortaleza). Dados até 09/11 (Windsor facebook, conta 1213984913380523, cache diário). Anterior: 08/11 09:34.
+Sozinho em Casa v12/v13 (encerrada 03/11): sem mudança, R$ 210,01 · 45 inícios (R$ 4,67) · 0 compras no pixel. Vendas Kiwify: UNKNOWN (sem Chrome na nuvem).
+- NOVA, autorizada pelo Allan (porta17, 08/11): "SeC · Filme v10 · SP apto" ACTIVE, R$ 30/dia sem fim, 1 anúncio (Thor na porta, 198 s), landing. 08/11: R$ 12,70 · 41 cliques no link (R$ 0,31) · 0 inícios · 0 compras; 09/11 parcial R$ 0,10. Teto OK (R$ 30/dia). Corte Resumo v5: pausada, sem gasto.
+- Perfil (n=1 dia): mulher 45-54 lidera cliques; FB Feed = 61% do gasto (R$ 7,71); Reels FB R$ 2,37. Feed foi o pior posicionamento na campanha anterior (R$ 16,20/início): candidato a corte se continuar sem início. Sem Audience Network. 65+ sem entrega.
+- Fora do Tutorial Pet: Marketplace Yamaha ACTIVE, R$ 6,80 (08/11), termina 10/11; sem ALERTA.
+- Compliance: sem Audience Network; rótulo de IA aplicado pela Meta (Unknown); texto sem alegação médica (cita a Dra. Natasha, CRMV 6174, autorizado).
+- Número do departamento: R$ 4,67/início (histórico); campanha nova ainda sem início. Gasto da semana (03-09/11): R$ 12,80 Tutorial Pet.
+- REPLICAR: FB Reels + checkout enxuto; Filme v10 só vale se gerar início em 24-48 h.
+- DECISÃO ÚNICA (Allan): nenhuma agora; ler 17h/48 h. Se 0 inícios com R$ 30-40 gastos, tirar Feed FB (concentrar em Reels).
+- Habilidade que falta: venda Kiwify x anúncio sem Chrome. Teste grátis: e-mail de venda ou CSV semanal da Kiwify.
