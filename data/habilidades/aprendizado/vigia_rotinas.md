@@ -75,3 +75,4 @@
 2026-11-08 15:30 | ronda: tudo verde; AdSense 0 FALHA (reforço 12:31 F resolveu a de 11:25); TikTok 3/3 | nenhuma ação nova | sim (E34 ok) | mantém
 2026-11-08 19:30 | ronda: 14 rotinas ok, fábrica/blog verdes, AdSense 0 FALHA, blog 1/1, TikTok 3/3 sent, Zernio 0 falha nova (8 antigas), 6 agendados | nenhuma ação necessária | n/a | mantém
 2026-11-09 07:25 | AdSense 1 FALHA (ritmo: sem artigo novo desde 06/11 no build) + blog 0/1 hoje | promovi melhor-fonte-de-agua-para-gato (blog_aprovados.txt, commit db07b8c) | conferir 11:19 (E34) | mantém
+2026-11-09 11:35 | ronda: 14 rotinas ok, fábrica/blog verdes, blog 1/1 no ar, AdSense 1 FALHA 'ritmo' falsa (E215: datePublished = data do rascunho 06/11); TikTok 3/3; estoque FB/IG 1 dia | não alterei data de SEO (E215 aguarda ok do Allan); ficha V09 Agendador | conferir 15:19 (E34) | mantém
