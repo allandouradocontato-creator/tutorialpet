@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como achar castração e vacina gratuita para pets",
+  "gancho_3s": "Quer castrar e vacinar seu pet de graça pela prefeitura?",
+  "cenas": [
+    {
+      "narracao": "A busca começa nos canais oficiais do seu município, como o site da prefeitura.",
+      "visual_busca_banco_livre": "cat sitting looking around close up",
+      "texto_na_tela": "Acesse o site da prefeitura"
+    },
+    {
+      "narracao": "Procure por termos como Centro de Controle de Zoonoses ou Bem-Estar Animal.",
+      "visual_busca_banco_livre": "dog looking up curious",
+      "texto_na_tela": "Busque CCZ ou Bem-Estar"
+    },
+    {
+      "narracao": "Para a vacina antirrábica, fique de olho nas campanhas anuais em postos e praças.",
+      "visual_busca_banco_livre": "dog panting happy close up",
+      "texto_na_tela": "Vacina antirrábica anual"
+    },
+    {
+      "narracao": "Separe identidade, CPF, comprovante de residência e a carteirinha do pet.",
+      "visual_busca_banco_livre": "cat lying down resting",
+      "texto_na_tela": "Separe seus documentos"
+    },
+    {
+      "narracao": "Consulte um médico-veterinário e aproveite os programas públicos da sua região.",
+      "visual_busca_banco_livre": "dog sitting outdoors alert",
+      "texto_na_tela": "Procure um veterinário"
+    }
+  ],
+  "chamada_final": "Consulte os órgãos oficiais da sua cidade e mantenha a saúde do seu pet em dia!",
+  "hashtags": [
+    "#castracaogratuita",
+    "#vacinaantirrabica",
+    "#saudepet",
+    "#gatos",
+    "#cachorros"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer castrar e vacinar seu pet de graça pela prefeitura?\n\n📖 Artigo completo: https://tutorialpet.com.br/castracao-gratuita-e-vacina-publica-para-pets-como-achar-na-sua-cidade\n\n#castracaogratuita #vacinaantirrabica #saudepet #gatos #cachorros",
+  "slug": "castracao-gratuita-e-vacina-publica-para-pets-como-achar-na-sua-cidade"
+}

@@ -1067,9 +1067,10 @@ temas:
   data: '2026-11-07'
 - termo: 'castração gratuita e vacina pública para pets: como achar na sua cidade'
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
   nota: 'série Adoção; fonte oficial; rodapé jurídico. Gancho: Passo a passo nacional
     + exemplo São Paulo; liga com a série Utilidade Pública'
+  data: '2026-11-09'
 - termo: 'maus-tratos a cachorros e gatos: o que diz a lei, a pena e como denunciar'
   pilar: utilidade_publica
   status: rascunho_pronto
@@ -1392,4 +1393,7 @@ temas:
   status: pendente
 - termo: como incluir petiscos naturais na rotina alimentar de caes adultos
   pilar: alimentacao
+  status: pendente
+- termo: o que fazer quando o gato rejeita a nova caixa de areia
+  pilar: primeiros_passos_filhotes
   status: pendente
