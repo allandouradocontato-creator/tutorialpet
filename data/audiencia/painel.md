@@ -62,3 +62,14 @@ Meta: IG 5/500 = 1%; TikTok sem leitura (último valor 21 em 24/10).
 Views TikTok (Buffer, última sincronização 07/11 13:23): vacina 174 | castração gratuita 168 | caramelo chique 174 | banho 166 | caramelo casamento 209 | gato remédio 182 (tempo médio 8,89 s, maior da conta). Nenhum ≥1.000; só caramelo casamento ≥200 (repost, sem insumo para repetir). Fujão, adoção e idoso (07/11) ainda sem sync (<24 h).
 Fila TikTok (Buffer, 3 de 10): petisco gato 08/11 10:20, protetor 08/11 14:20, adoção-adaptação 09/11 10:20. 20:20 de hoje: vazio (sem extra). Total hoje: 2 de 3 vídeos.
 Zernio: 8 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 09/11 07:41 (Operador de Audiência, nuvem)
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 |
+| Instagram | 5 (120 posts) | 0 (+1 em 07/11) |
+| TikTok | SEM DADO (Buffer só views; E184/E206 abertas, ler no TikTok Studio via PC) | ? |
+Meta: IG 5/500 = 1%; FB 14.
+Views TikTok (Buffer, sync 08/11 12:24): fujão 304 (tempo médio 2,34 s, 18 curtidas) | banho 191 | caramelo chique 185 | vacina 174 | castração gratuita 168 | adoção 30 dias 159 | idoso 102. Os 3 de 08/11 (petisco gato, 2 leis abandono, cidade) mostram 0 views (sync antigo; E223).
+Fila TikTok hoje: adaptação 10:20 (Agendador) + EXTRAS do Operador: 14:20 castração Parte 1/2 (14,5 s, post 6af1a4c3202a9ae79214d6f6) e 20:20 cama grande Parte 2/2 (17 s, post 6af1a4c372554a06de3d81ab). Total hoje: 3 de 3. Amanhã: burocracia adoção 10:20.
+Zernio: 6 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.

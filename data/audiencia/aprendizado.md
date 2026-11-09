@@ -18,3 +18,7 @@
 08/11/2026 | TikTok | humor (caramelo chique) | "O caramelo mais chique do Brasil" | 174 (≈ 3 dias, 2,1 s) | <200: não repetir
 08/11/2026 | TikTok | dúvida real (banho cheiro) | "Seu cachorro sai do banho cheirosinho..." | 166 (≈ 3 dias, 1,99 s) | <200: não repetir
 08/11/2026 | TikTok | dúvida real (fujão / adoção 30 dias / idoso) | fujão 07/11 10:20; adoção 07/11 17:20; idoso-deficiência 07/11 20:20 | 0 (Buffer só sincroniza ~1x/dia, última 07/11 13:23; <24 h) | releitura 09/11
+
+09/11/2026 | TikTok | dúvida real (fujão) | "Seu cachorro vira um fujão..." | 304 (≈ 2 dias, 2,34 s) | 200-999: repetir 1x com ajuste; sem clipe novo hoje, ajuste de gancho fica para a próxima fila
+09/11/2026 | TikTok | adoção 30 dias / idoso | "Acabou de adotar um pet?..." / "Pet idoso..." | 159 / 102 (≈ 2 dias, 1,8-2,1 s) | <200: não repetir; direção: tema de decisão de compra/saúde > adoção
+09/11/2026 | TikTok | decisão do tutor (recorte 15-20 s dos campeões castração e cama) | produzido hoje, 14:20 e 20:20 | leitura 10/11 | amostra pequena; medir tempo médio 24 h (E208)
