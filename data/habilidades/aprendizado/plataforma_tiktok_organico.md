@@ -36,3 +36,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-11-06 | retenção > view: Para-Você testa e pula vídeo com <2 s médio | n=9 | mantém (E208 testa 15-20 s)
 2026-11-07 | plataforma_tiktok_organico: retenção antes de volume; 15-20 s, resposta nos 5 s | n=3 | altera (E213)
 2026-11-08 | plataforma_tiktok_organico: retenção antes de volume; curto 15-20 s | n=0 (bloqueio de método, não de tema) | mantém (E218 clone parcial)
+2026-11-09 | gancho com resposta cedo; espaçamento 4 h (E221) | n=3 TikTok 08/11: 2,95/1,47/1,99 s; meta >= 4 s não atingida | altera: T2 gato (E226)

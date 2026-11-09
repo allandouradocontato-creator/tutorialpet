@@ -44,3 +44,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-11-05 | FB: parado em 13 após o salto de 04/11; sem comentário de terceiro | n=1 salto | mantém CTA de seguir
 2026-11-07 | plataforma_meta_organico: pergunta + CTA seguir; IG 4->5 (+3 na semana) sem causa clara | n=7 dias Zernio | mantém
 2026-11-08 | plataforma_meta_organico: pergunta + CTA seguir; FB 14 e IG 5 parados nas últimas 24 h | n=8 dias Zernio, +4 FB, +3 IG | mantém
+2026-11-09 | meme ≤15 s fora do FB (E220); IG leitura skip/alcance | n=17 FB mediana 58 views; IG 08/11 0-64 views, 1,5-3,4 s | mantém

@@ -19,3 +19,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-11-06 | regra de leitura 24 h: campeão passa a exigir views E tempo médio >= 5 s (castração 1,68; cama 2,11; adoção 2,22; gato remédio 9,42 s) | n=9 vídeos, n<3 por formato = NEUTRO | altera (critério de campeão inclui retenção)
 2026-11-07 | critério views E tempo médio >= 5 s | n=3 com métrica, nenhum >= 5 s | mantém; produção vai para curtos
 2026-11-08 | critério views E tempo médio >= 5 s | n=0 novos com sync | mantém; NEUTRO
+2026-11-09 | uma variável por teste; leitura só com 24 h | n=3 sync (08/11): 227/320/537 views; recortes de hoje NEUTRO (<24 h) | mantém

@@ -35,3 +35,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-11-06 | regra 5/6 (gancho T0 <=6 palavras + CTA seguir) + corte 24 h: views 550 mas tempo médio 1,7 s; gancho abriu o clique, o miolo não segura | n=9 TikTok, FB 14 (+1), IG 4, comentário 0 | altera (vídeo curto 15-20 s, E208)
 2026-11-07 | regra 5/6 (gancho T0 + CTA seguir) + corte 24 h: 3 TikToks em 1,6-1,9 s de tempo médio, qualquer tema | n=3 TikTok, FB 14, IG 5, comentário 0 | altera (recorte 15-20 s, E213)
 2026-11-08 | regra 5/6 (gancho T0 + CTA seguir) + corte 24 h: sem métrica nova (3 TikToks <24 h); recorte 15-20 s ainda não foi ao ar | n=0 com métrica, FB 14, IG 5, comentário 0 | mantém (E218)
+2026-11-09 | J1 gancho que promete resposta ('Se você é gateiro...') + leitura 24 h | n=1: atum gato 537 views, 2,95 s (vs 1,5-2,0 s dos demais) | mantém; repetir em 1 vídeo de gato (E226)
