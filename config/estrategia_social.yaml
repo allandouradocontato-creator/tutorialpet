@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 23
-atualizado_em: "2026-11-01 07:10 Fortaleza"
+versao: 24
+atualizado_em: "2026-11-09 07:10 Fortaleza"
+versao_anterior_atualizado_em_23: "2026-11-01 07:10"
 versao_anterior_atualizado_em_22: "2026-10-31 07:07"
 versao_anterior_atualizado_em_21: "2026-10-30 07:40"
 versao_anterior_atualizado_em_20: "2026-10-29 07:35"
@@ -472,3 +473,17 @@ perguntas_lote_2026_11_01:   # binarias ou numeradas; sem tema de saude; link so
 
 # META Nº 1 (decisão do Allan, 01/11/2026): seguidores TikTok até 1.000 (destrava afiliado TikTok Shop). Detalhe: data/tiktok/meta_1000_seguidores.md
 meta_prioritaria_tiktok: {seguidores_alvo: 1000, largada: 21, largada_data: "2026-10-24", producao_diaria: 3, formatos: ["produto_ou_duda_dubla", "duvida_real_serie_numerada", "ia_engracado"], react_humor_terceiros: "pausado_ate_novo_ok_do_allan", corte_horas: 24, aviso_ao_bater: "avisar o Allan na hora"}
+
+rodada_2026_11_09:
+  gatilho: "DISPAROU: FB tempo 4,4 s; TikTok tempo 2,1 s e mediana 182. IG acima do limite (skip 62,7%, mediana 108)."
+  regras_teste:
+    - "Meme/video <=15 s: nao no Facebook (mediana 58, n17); so IG/TikTok."
+    - "TikTok: minimo 4 h entre posts; nunca dois no mesmo minuto."
+    - "T1 artigo 18-22 s, resposta nos 5 s; criterio 24-48 h: IG skip <55% e tempo >=5 s; TikTok tempo >=3 s."
+    - "T2 gancho de comportamento de gato (905 views em 29/10): 2 variacoes; criterio >=400 views em 24 h."
+  horarios_base_09_11: "FB 10h 224 (n16), 19h 225 (n10); IG 11h 104, 20h 115, 15h 58 (pior); TikTok 10h 174, 14h 191, 20h 157 (sem diferenca). Grade mantida."
+  seguidores: {facebook: 14, instagram: 5, tiktok: "sem leitura (21 em 28/10)"}
+perguntas_lote_2026_11_09:
+  gato: ["Seu gato dorme mais de 12 horas por dia? Conta aqui.", "Seu gato prefere caixa ou cama? Responde nos comentários.", "Seu gato mia pedindo comida de madrugada? Sim ou não?", "Qual é o cantinho favorito do seu gato?", "Seu gato aceita pegar remédio fácil? Conta como faz."]
+  cachorro: ["Seu cachorro foge quando o portão abre? Sim ou não?", "Seu cachorro dorme na sua cama? Conta aqui.", "Qual é o petisco favorito do seu cachorro?", "Seu cachorro fica ansioso quando você sai? Responde nos comentários.", "Passeio de manhã ou de noite com o seu cachorro?"]
+  adocao: ["Você adotou ou comprou o seu pet? Conta aqui.", "Qual foi a maior dificuldade nos primeiros 30 dias?", "Você adotaria um pet idoso? Sim ou não?", "Seu pet adotado já se adaptou? Conta como foi.", "Qual dúvida sobre adoção você queria ver respondida?"]
