@@ -1118,9 +1118,10 @@ temas:
   data: '2026-11-07'
 - termo: 'pet no transporte público, uber e avião: regras oficiais'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'pesquisar fontes oficiais. Gancho: ANAC, ANTT, SPTrans/Metrô; caixa de transporte;
     só regras confirmadas'
+  data: '2026-11-09'
 - termo: 'cachorro ou gato atropelado ou achado na rua: o que a lei diz e quem chamar'
   pilar: utilidade_publica
   status: pendente
@@ -1396,4 +1397,7 @@ temas:
   status: pendente
 - termo: o que fazer quando o gato rejeita a nova caixa de areia
   pilar: primeiros_passos_filhotes
+  status: pendente
+- termo: quais os direitos do tutor em condominios pet friendly no brasil
+  pilar: utilidade_publica
   status: pendente

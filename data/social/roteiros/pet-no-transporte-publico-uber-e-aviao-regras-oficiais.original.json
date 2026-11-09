@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Regras oficiais para transportar seu pet",
+  "gancho_3s": "Vai viajar ou passear com seu pet e não sabe as regras?",
+  "cenas": [
+    {
+      "narracao": "Não existe uma regra nacional única. Tudo depende do tipo de transporte e do município.",
+      "visual_busca_banco_livre": "cat looking out window travel carrier",
+      "texto_na_tela": "Regras mudam por cidade"
+    },
+    {
+      "narracao": "No transporte público municipal, em alguns locais pets até 10 kg em caixa de transporte podem embarcar.",
+      "visual_busca_banco_livre": "dog inside transport box close up",
+      "texto_na_tela": "Ônibus: até 10kg em caixa"
+    },
+    {
+      "narracao": "Em carros de aplicativo, a decisão final de aceitar o animal é sempre do motorista parceiro.",
+      "visual_busca_banco_livre": "dog looking out car window backseat",
+      "texto_na_tela": "Uber: motorista decide"
+    },
+    {
+      "narracao": "Em aviões, cada companhia aérea tem normas próprias baseadas na ANAC, limitando o peso na cabine.",
+      "visual_busca_banco_livre": "dog in airplane carrier bag",
+      "texto_na_tela": "Avião: normas da ANAC"
+    },
+    {
+      "narracao": "Tenha sempre a carteira de vacinação atualizada e consulte um médico-veterinário sobre a saúde do pet.",
+      "visual_busca_banco_livre": "cat sitting on floor healthy",
+      "texto_na_tela": "Vacinas em dia e consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Planeje cada detalhe antes de sair!",
+  "hashtags": [
+    "transporteDePet",
+    "viajarComPet",
+    "dicasPet",
+    "regrasDeTransporte",
+    "petNaEstrada"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai viajar ou passear com seu pet e não sabe as regras?\n\n📖 Artigo completo: https://tutorialpet.com.br/pet-no-transporte-publico-uber-e-aviao-regras-oficiais\n\n#transporteDePet #viajarComPet #dicasPet #regrasDeTransporte #petNaEstrada",
+  "slug": "pet-no-transporte-publico-uber-e-aviao-regras-oficiais"
+}
