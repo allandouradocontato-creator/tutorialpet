@@ -1,14 +1,14 @@
-Dados até 2026-11-09 19:30 (Fortaleza) | CORRIGI: 0 | PRECISO DO ALLAN: 2 (E215; V09 fire_trigger do Agendador negado 2x) | sem rotina caída
-Número do dia: rotinas falhando/suspensas = 0 (meta zero). Ativas todas SUCCEEDED (Vigia desta rodada PENDING = eu). add_repo indisponível na sessão; clone local já em main (5e490b8).
+Dados até 2026-11-10 07:30 (Fortaleza) | CORRIGI: 1 (blog do dia promovido) | PRECISO DO ALLAN: 1 (E215) | sem rotina caída
+Número do dia: rotinas falhando/suspensas = 0 (meta zero). Vigia desta rodada PENDING = eu. add_repo indisponível na sessão; clone já no escopo, main atualizada (reset a origin/main, que teve force-update).
 | rotina | estado | último run | idade do último resultado | problema | correção |
 |---|---|---|---|---|---|
-| rotinas ativas (14) | ok | Agendador 16:15 F; Rotina 1+1 12:21 F; Dir. Audiência 09:23 F; Operador 07:41 F; Auditor Anúncios 09:34 F | <12 h | - | - |
-| desligadas por decisão | ok | Executor, Virais, Humorista etc. | - | enabled=false desde 22/10-02/11 | decisão já tomada |
-| fabrica.yml | verde | run 42688511391 09/11 16:58 F (schedule) | ~2,5 h | - | - |
-| publicar_blog.yml | verde | run 42600296941 09/11 07:21 F (push) | ~12 h | - | - |
-| Blog | 1/1 hoje (site 200) | melhor-fonte-de-agua-para-gato 07:26 F | 12 h | AdSense 1 FALHA 'ritmo' falsa (E215: datePublished = data do rascunho 06/11) | E215 aguarda ok do Allan |
-| FB/IG (Zernio) | ok | FB 10:05 e IG 11:02 F (devolução/escova) | ~8 h | 8 erros antigos de mídia, nenhum novo | retry proibido (E151) |
-| Estoque FB/IG | 1 dia | agendado: FB+IG 10/11 10:00 F (adoção); IG vet x3 (14/11+) | - | FB só 1 agendado; 11/11 e 12/11 vazios; Agendador 16:15 F não cobriu (V09) | fire_trigger Agendador NEGADO pelo classificador (2ª vez); roda sozinho 08:15 F de 10/11; V09 segue aberta |
-| TikTok (Buffer) | 3/3 hoje | castração 14:21 F sent; cama P2 20:20 F agendada; 10/11 10:20 adoção | - | sem erro; views ainda zeradas/baixas (E223) | conferir 10/11 |
-| Issues falhou/nao publicou | 30 abertas, histórico (última 02/11) | - | 7 dias | blog verde desde 03/11 | fechar na revisão |
-Créditos ElevenLabs: creditos_eleven.yml última saída 28/10 (stale, não medido).
+| rotinas ativas | ok | Diretor Operação 21:41 F; Medidor 21:11 F; Rotina 1+1 12:21 F (09/11); Operador 07:41 F hoje às 07:41; Dir. Audiência 09:17 hoje | <20 h | - | - |
+| desligadas por decisão | ok | Executor, Virais, Humorista etc. | - | enabled=false | decisão já tomada |
+| fabrica.yml | verde | 42688511391 09/11 16:58 F | ~14 h | - | - |
+| publicar_blog.yml | rodando | disparado 07:26 F por push b2ee377 | 0 h | blog 0/1 às 07:20 | promovi castracao-gratuita-e-vacina-publica-para-pets-como-achar-na-sua-cidade; conferir 11:19 (E34) |
+| Blog | 0/1 às 07:20 | último datePublished 06/11 (AdSense 'ritmo' 4 dias) | 4 d (data SEO) | E215: datePublished = data do rascunho | E215 aguarda ok do Allan |
+| FB/IG (Zernio) | ok | FB/IG 09/11 | ~17 h | 8 erros antigos de mídia, nenhum novo | retry proibido (E151) |
+| Estoque FB/IG | ~1 dia | agendado FB+IG 10/11 10:00 F (adoção); IG vet x3 | - | 11/11 e 12/11 vazios (V09) | Agendador roda 08:15 F; conferir 11:19 |
+| TikTok (Buffer) | 1/3 hoje | 09/11 3/3 sent; hoje só 10:20 adoção agendado | - | faltam 2 (E228) | Agendador 08:15/12:15 deve agendar 14:20 e 20:20; conferir 11:19 |
+| Issues falhou/nao publicou | 30 abertas, histórico (última 02/11) | - | 8 d | fábrica e blog verdes | fechar na revisão |
+AdSense: 1 FALHA (ritmo 4 dias, E215), resto PASSA. Créditos ElevenLabs: creditos_eleven.yml stale (28/10), não medido.
