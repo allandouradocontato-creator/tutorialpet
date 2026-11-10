@@ -22,3 +22,9 @@
 09/11/2026 | TikTok | dúvida real (fujão) | "Seu cachorro vira um fujão..." | 304 (≈ 2 dias, 2,34 s) | 200-999: repetir 1x com ajuste; sem clipe novo hoje, ajuste de gancho fica para a próxima fila
 09/11/2026 | TikTok | adoção 30 dias / idoso | "Acabou de adotar um pet?..." / "Pet idoso..." | 159 / 102 (≈ 2 dias, 1,8-2,1 s) | <200: não repetir; direção: tema de decisão de compra/saúde > adoção
 09/11/2026 | TikTok | decisão do tutor (recorte 15-20 s dos campeões castração e cama) | produzido hoje, 14:20 e 20:20 | leitura 10/11 | amostra pequena; medir tempo médio 24 h (E208)
+
+10/11/2026 | TikTok | decisão do tutor (castração P1/2, recorte 14,5 s) | "Parte 1/2: quando castrar o filhote?" | 545 (≈14 h, tempo médio 1,96 s) | 200-999: repetir 1x com ajuste; mas tempo < 2 s (critério ≥ 5 s não batido): ajuste = resposta antes dos 5 s (E224); leitura final 11/11
+10/11/2026 | TikTok | decisão do tutor (cama grande P2/2, recorte 17 s) | "Parte 2/2: que cama comprar para porte grande?" | 267 (≈11 h, 1,65 s) | 200-999 parcial; Parte 2 rende menos que Parte 1 (≈-50%); série em 2 partes não retém; leitura final 11/11
+10/11/2026 | TikTok | adaptação do adotado (Agendador, 46 s) | "Se a adaptação difícil continua com você..." | 519 (≈20 h, 1,31 s) | 200-999: repetir 1x com ajuste; views boas, retenção a pior da semana (1,3 s): ajuste de gancho, não de tema
+10/11/2026 | TikTok | protetor / regra da cidade (45 s) | "Você já parou pra pensar que cada cidade tem regras diferentes..." | 297 (≈2 dias, 2,10 s) | 200-999: repetir 1x com ajuste; burocrático segue abaixo de decisão do tutor
+10/11/2026 | TikTok | T2 gato (comportamento): exercícios mentais gato idoso 14:20 e fonte de água gato com medo 20:20 | "Seu gato idoso só quer saber de dormir?" / "Seu gato foge da fonte de água...?" | agendado hoje | critério do Estrategista: ≥ 400 views e tempo ≥ 3 s em 24 h; amostra pequena (n=2), direção não causa

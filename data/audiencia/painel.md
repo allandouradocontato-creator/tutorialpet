@@ -73,3 +73,15 @@ Meta: IG 5/500 = 1%; FB 14.
 Views TikTok (Buffer, sync 08/11 12:24): fujão 304 (tempo médio 2,34 s, 18 curtidas) | banho 191 | caramelo chique 185 | vacina 174 | castração gratuita 168 | adoção 30 dias 159 | idoso 102. Os 3 de 08/11 (petisco gato, 2 leis abandono, cidade) mostram 0 views (sync antigo; E223).
 Fila TikTok hoje: adaptação 10:20 (Agendador) + EXTRAS do Operador: 14:20 castração Parte 1/2 (14,5 s, post 6af1a4c3202a9ae79214d6f6) e 20:20 cama grande Parte 2/2 (17 s, post 6af1a4c372554a06de3d81ab). Total hoje: 3 de 3. Amanhã: burocracia adoção 10:20.
 Zernio: 6 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 10/11 07:41 (Operador de Audiência, nuvem)
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (parado desde 06/11) |
+| Instagram | 5 (122 posts) | 0 (parado desde 07/11) |
+| TikTok | SEM DADO (Buffer só views; E184/E206/E225 abertas, ler no TikTok Studio via PC) | ? |
+Meta: IG 5/500 = 1%; FB 14.
+Views TikTok (Buffer, sync 10/11 07:26 Fortaleza): castração P1/2 545 (≈14 h, 48 curtidas, tempo médio 1,96 s) | adaptação 519 (≈20 h, 31 curtidas, 1,31 s) | cidade/protetor 297 (≈2 dias, 2,10 s) | cama P2/2 267 (≈11 h, 30 curtidas, 1,65 s). Recortes de decisão do tutor: views acima da mediana (~180), mas tempo médio < 2 s, longe do critério ≥ 5 s (E224); leitura final de 24 h amanhã.
+IG/FB (Buffer): artigo devolução 09/11 FB 218 impressões | IG 49 views (3,0 s); escova 09/11 IG 64 views (4,3 s); 0 seguidor novo.
+Fila TikTok hoje (Buffer, 3 de 10, conferida em saída real): burocracia adoção 10:20 (Agendador) + EXTRAS do Operador (T2 gato): 14:20 exercícios mentais para gato idoso (post 6af2f64e9d7b7e63872e246a, 44 s) e 20:20 fonte de água para gato com medo (post 6af2f64f17d2b2f30c012892, 53 s). Total hoje: 3 de 3. Espaçamento 4 h ok (E221).
+Zernio: 5 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.

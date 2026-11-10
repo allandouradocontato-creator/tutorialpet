@@ -29,3 +29,4 @@ Cota: 2 de 3 com PROVA numérica (67%: N2, N3) + 1 teste (N1); abaixo de 70% por
 
 - 08/11 tema para fila_temas (proposta): "o que fazer se não puder mais cuidar do pet" já virou artigo hoje; vídeo vizinho: "adoção responsável: perguntas antes de levar" (série adoção rende 536-551 views).
 - 09/11 tema para fila_temas (proposta): quanto passeio por idade (filhote, adulto, idoso) — próximo da série decisão do tutor (item 4).
+- 10/11 tema para fila_temas (proposta): "como fazer o gato brincar sozinho/enriquecimento ambiental em apartamento" — vizinho dos gatos idosos (exercícios mentais) e da série T2 de comportamento felino. Fonte: T2 do plano 09/11, atum 537 views.
