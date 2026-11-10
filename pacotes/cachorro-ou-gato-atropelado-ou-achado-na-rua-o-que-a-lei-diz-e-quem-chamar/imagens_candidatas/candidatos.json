@@ -1,0 +1,41 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 19963958,
+    "url_download": "https://images.pexels.com/photos/19963958/pexels-photo-19963958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-head-in-black-and-white-19963958/",
+    "fotografo": "Ekam Juneja",
+    "fotografo_url": "https://www.pexels.com/@ekam-juneja-61080223",
+    "largura": 4000,
+    "altura": 2667,
+    "query": "stray dog alone street",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 19618319,
+    "url_download": "https://images.pexels.com/photos/19618319/pexels-photo-19618319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-on-a-path-by-the-village-19618319/",
+    "fotografo": "Duy Nod",
+    "fotografo_url": "https://www.pexels.com/@duynod",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "stray dog alone street",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29342837,
+    "url_download": "https://images.pexels.com/photos/29342837/pexels-photo-29342837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/street-cat-sitting-in-izmir-turkiye-outdoors-29342837/",
+    "fotografo": "Doğan Alpaslan  Demir",
+    "fotografo_url": "https://www.pexels.com/@izafi",
+    "largura": 7728,
+    "altura": 5152,
+    "query": "stray cat alone outdoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar/2.jpg"
+  }
+]
