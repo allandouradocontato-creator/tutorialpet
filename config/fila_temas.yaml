@@ -48,11 +48,12 @@ temas:
 - termo: cachorro grande e cachorro pequeno podem comer no mesmo pote? como alimentar
     dois cachorros de portes diferentes
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
   nota: PRIORIDADE (pedido do Allan 01/11/2026), nasce do repost do pitbull e pinscher
     no mesmo pote (@furryhousefinds); porte, idade e ritmo pedem porcao/racao diferente,
     potes e cantinhos separados, supervisao no comeco, convivencia pacifica entre
     portes distintos; quem define racao e quantidade e o veterinario
+  data: '2026-11-10'
 - termo: como fazer o gato se exercitar dentro de casa e evitar sedentarismo e obesidade
   pilar: cuidados_diarios
   status: pendente
@@ -1399,5 +1400,8 @@ temas:
   pilar: primeiros_passos_filhotes
   status: pendente
 - termo: quais os direitos do tutor em condominios pet friendly no brasil
+  pilar: utilidade_publica
+  status: pendente
+- termo: como planejar espacos verticais seguros para gatos idosos com artrose
   pilar: utilidade_publica
   status: pendente
