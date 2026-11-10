@@ -1,0 +1,31 @@
+{
+  "slug": "cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes",
+  "status": "aprovado",
+  "criado_em": "2026-11-10T13:15:40+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (alex-morgan-upbeat-591314.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_pensar)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 6/6 quadros conferem [cf]"
+    ],
+    "em": "2026-11-10T13:19:17+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)"
+}
