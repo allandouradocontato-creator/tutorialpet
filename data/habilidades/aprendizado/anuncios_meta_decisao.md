@@ -25,3 +25,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-08 | passo 6 (manter, sem dado novo) | n=45 inícios, 0 compras no pixel, R$ 210,01 inalterado desde 04/11; Kiwify Unknown | mantém
 2026-11-09 | não aplicada (sem verba, sem rodada de anúncio hoje) | n=0 | mantém
 2026-11-10 | não aplicável hoje (sem anúncio pago na rodada de audiência; regra 70 Reels-only vigente) | n=0 | mantém
+2026-11-10 | conferir conta de anúncios liberada antes de ler (Windsor perdeu a 1213984913380523) | n=0, UNKNOWN | mantém
