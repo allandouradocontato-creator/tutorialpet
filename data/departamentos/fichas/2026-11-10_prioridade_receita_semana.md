@@ -1,0 +1,16 @@
+# FICHA — Prioridade de receita da semana (10/11 a 13/11) — revisão da ficha de 06/11
+- Departamento / Diretor / data-hora: Produto e Receita / Diretor de Produto e Receita / 10/11/2026 12:32 (Fortaleza)
+- Assunto e objetivo: 1ª venda real do Sozinho em Casa (R$ 27, âncora R$ 97, pagamento único) até 13/11; upsell Adestramento Básico R$ 47 só no obrigado.
+- Público: tutor adulto de cachorro que deixa o pet sozinho.
+- Oferta: R$ 27 + Kit Rotina Pré-Saída mantidos; preço NÃO muda. Esteira nova congelada. Isca Semáforo segue como entrada, sem concorrer com o checkout; ao vivo só com ok do Allan.
+- Caminho de venda (1): landing sozinho.tutorialpet.com.br -> checkout Kiwify, com tráfego orgânico "sozinho" e, MUDANÇA desde 06/11, anúncios que o Allan parece ter religado fora do repo (ver abaixo).
+- Métrica única: compras confirmadas na Kiwify (meta 1). Apoio: cliques/inícios de checkout no Windsor.
+- Estado real (Auditor 10/11 09:35): o Windsor só lê a conta 1956794111415592. Campanha "SeC · Corte Resumo v5 · pixel certo": 09/11 R$ 9,15, 13 cliques, 0 inícios, 0 compras; 10/11 ACTIVE com R$ 0,13. "Filme v10" (08/11) ilegível, estava na conta 1213984913380523. Nenhuma das duas consta em 05 Decisões nem em campanha_vsl. Kiwify: sem leitura (PC ausente). Último dado confiável: 45 inícios, 0 compras no pixel.
+- Pareceres: Auditor de Anúncios: não consegue ler a conta original, pede ao Allan reconectar ou confirmar migração e dizer se Corte Resumo v5 é dele; teto R$ 30/dia não excedido no que se vê. Sem parecer novo de: Diretor de Audiência, Editor de Afiliados, Criativo de Venda, Fábrica de Produtos, Pesquisador de Mercado, Revisão de Renda.
+- Divergências e quem tinha razão: ficha 06/11 dizia "anúncio parado"; o Auditor mostra anúncio ACTIVE com gasto de R$ 9,15. Vale o dado do Auditor; o Diretor não mexe em anúncio, só registra.
+- DECISÃO: (a) janela 07-10/11 = NEUTRO (Kiwify sem leitura, visitas medidas <100); (b) R$ 27 mantido, desvio R$ 17 segue armado só com Kiwify lida + ok do Allan; (c) não toco em campanha nem checkout; (d) prioridade da semana = fechar a leitura: Allan confirma a origem das campanhas e a conta Windsor, e a Kiwify é lida quando o PC voltar; (e) "Pix primeiro" (E209) aguarda aplicação pelo Allan/PC.
+- Textos aprovados: nenhum novo.
+- Métrica e gatilhos (11-13/11): GANHOU = >= 1 compra Kiwify; NEUTRO = Kiwify sem leitura ou < 100 visitas; PERDEU = Kiwify confirma 0 pedidos com >= 100 visitas -> R$ 17 (pedido ao Allan).
+- Ações: E231 (nuvem, 11/11: cruzar auditoria com Windsor e registrar gasto/cliques/inícios da conta liberada; sem mexer em anúncio). E232 (Allan/PC: ver pedido).
+- Pedido ao Allan (consolidado): (1) a campanha Corte Resumo v5 / Filme v10 é sua? reconectar o Windsor à conta 1213984913380523 ou confirmar migração; (2) PC/Chrome ligado para ler a Kiwify (E186/E189) e verificação de identidade (E61); (3) ok para R$ 17 só se a Kiwify confirmar 0 pedidos.
+- Status: aprovada pelo Diretor
