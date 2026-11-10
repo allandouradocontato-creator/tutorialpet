@@ -79,3 +79,4 @@
 2026-11-09 15:35 | ronda: 14 rotinas ok, fábrica/blog verdes, blog 1/1, TikTok 3/3, Zernio 0 falha nova; V09 estoque FB/IG 1 dia | fire_trigger Agendador negado (classificador); nada forçado | conferir 19:19 (E34) | mantém
 2026-11-09 19:30 | ronda: 14 rotinas ok, fábrica 16:58 F e blog verdes, blog 1/1, TikTok 3/3, Zernio 0 falha nova; V09 estoque FB 1 dia | fire_trigger Agendador negado de novo (classificador); nada forçado; Agendador roda 08:15 F | conferir 07:19 F (E34) | mantém
 2026-11-10 07:30 | blog 0/1 às 07:20 (AdSense ritmo 4 d) | promovi castracao-gratuita-e-vacina-publica... (blog_aprovados.txt, b2ee377); publicar_blog disparou | conferir 11:19 (E34) | mantém
+2026-11-10 11:40 | publicar_blog falhou 07:26 F (capa sem candidata boa, Gemini 503); blog 0/1 | re-promovi cachorro-grande-e-cachorro-pequeno... (ede818b), run 42834023371 disparado | conferir 15:19 (E34) | mantém
