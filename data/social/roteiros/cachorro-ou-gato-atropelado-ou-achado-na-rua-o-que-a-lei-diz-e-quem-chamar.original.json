@@ -1,0 +1,41 @@
+{
+  "titulo_video": "O que fazer ao encontrar um pet na rua",
+  "gancho_3s": "Encontrou um cachorro ou gato machucado ou perdido na rua? Saiba o que fazer!",
+  "cenas": [
+    {
+      "narracao": "Se encontrar um pet ferido, sinalize o local e aproxime-se com cautela extrema.",
+      "visual_busca_banco_livre": "injured stray dog on street",
+      "texto_na_tela": "Aproxime-se com cautela"
+    },
+    {
+      "narracao": "Cubra o animal com uma manta e use uma superfície rígida para movê-lo como maca.",
+      "visual_busca_banco_livre": "cat wrapped in blanket close up",
+      "texto_na_tela": "Use manta e maca"
+    },
+    {
+      "narracao": "Ligue 156 para a Zoonoses do seu município ou 190 para emergências imediatas.",
+      "visual_busca_banco_livre": "smartphone on table close up",
+      "texto_na_tela": "Ligue 156 ou 190"
+    },
+    {
+      "narracao": "Se o pet estiver perdido, verifique coleiras, plaquetas ou procure clínicas para ler o microchip.",
+      "visual_busca_banco_livre": "dog wearing collar close up",
+      "texto_na_tela": "Verifique a identificação"
+    },
+    {
+      "narracao": "Lembre-se: abandonar ou omitir socorro a animais é crime ambiental previsto em lei.",
+      "visual_busca_banco_livre": "abandoned cat sitting alone",
+      "texto_na_tela": "Omitir socorro é crime"
+    }
+  ],
+  "chamada_final": "Procure orientação veterinária e os órgãos oficiais para ajudar com segurança.",
+  "hashtags": [
+    "pets",
+    "direitosdosanimais",
+    "resgateanimal",
+    "cachorro",
+    "gato"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nEncontrou um cachorro ou gato machucado ou perdido na rua? Saiba o que fazer!\n\n📖 Artigo completo: https://tutorialpet.com.br/cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar\n\n#pets #direitosdosanimais #resgateanimal #cachorro #gato",
+  "slug": "cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar"
+}

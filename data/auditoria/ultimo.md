@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-11-10 13:16 UTC
+# Auditoria do processo — 2026-11-10 17:09 UTC
 
-Pacote: `cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes` — 1 aviso(s)
+Pacote: `cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar` — 1 aviso(s)
 
-- **OK ** duração 49 s (padrão: 15 a 60 s)
+- **OK ** duração 40 s (padrão: 15 a 60 s)
 - **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 12 palavras (padrão: até ~12)
+- **OK ** gancho com 7 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'softly', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alime
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~647 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~506 (saldo do plano: ver painel)

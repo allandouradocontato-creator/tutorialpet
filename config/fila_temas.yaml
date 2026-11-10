@@ -1125,10 +1125,11 @@ temas:
   data: '2026-11-09'
 - termo: 'cachorro ou gato atropelado ou achado na rua: o que a lei diz e quem chamar'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'pesquisar fonte oficial; saúde: publicar sem esperar a Natasha (cautela padrão,
     sem alegação médica categórica); selo só se ela revisar depois. Gancho: Resgate,
     zoonoses, quando levar ao veterinário; telefones oficiais SP'
+  data: '2026-11-10'
 - termo: direitos do consumidor em pet shop e clínica veterinária e como reclamar
   pilar: utilidade_publica
   status: pendente
@@ -1403,5 +1404,14 @@ temas:
   pilar: utilidade_publica
   status: pendente
 - termo: como planejar espacos verticais seguros para gatos idosos com artrose
+  pilar: utilidade_publica
+  status: pendente
+- termo: como criar espacos separados para caes e gatos em casas pequenas
+  pilar: comportamento
+  status: pendente
+- termo: como preparar petiscos naturais caseiros para caes com sensibilidade
+  pilar: alimentacao
+  status: pendente
+- termo: como identificar e reduzir estresse ambiental em gatos seniores
   pilar: utilidade_publica
   status: pendente
