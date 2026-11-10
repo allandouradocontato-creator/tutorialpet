@@ -79,3 +79,9 @@
 1. **"Gateiro, assiste isso" (série de gato ≤20 s)** — um erro de tutor de gato por vídeo (petisco, caixa de areia, arranhador) com resposta nos 5 s. Atrai: gato é o nicho que retém (atum 2,95 s; remédio 8,89 s) e tem tutor engajado em comentário. Risco: médio se vier saúde (sem dose, sem diagnóstico, @vetnatasha). Custo: baixo (pacotes de gato existentes).
 2. **"Mito ou verdade do gato" (enquete FB/IG)** — 1 mito por semana ("gato pode tomar leite?") com 2 opções nos comentários. Atrai: comentário fácil de terceiro (hoje 0). Risco: médio (saúde: sem dose, procurar veterinário). Custo: baixo (template).
 3. **"Antes e depois da rotina" (carrossel salvável, dono + pet)** — rotina de manhã do tutor com pet em 5 cartões, foto de banco livre. Atrai: salvamento e marcação de amigo. Risco: baixo (sem animal triste, regra 29). Custo: baixo.
+| 2026-11-10 09:35 | Diretor de Audiência | FB 14 (parado), IG 5 (parado, +2/semana), TikTok sem leitura de seguidores (21 em 24/10 = 2,1%); Buffer 24 h: recorte castração 545 views/1,96 s e cama 267/1,65 s = PERDEU (<2 s), atum gato segue campeão (2,95 s); T2 gato hoje 14:20/20:20 sem leitura; comentário 0, DM 0; ficha 2026-11-10_audiencia_rodada.md; E230; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 10/11/2026
+1. **"Resposta nos 5 s" (série cartão de texto, TikTok)** — pergunta do tutor e resposta curta já no 1º quadro, detalhe depois. Atrai: retenção (hoje 1,3-2 s) e quem quer a resposta segue. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo (cartão, zero crédito).
+2. **"Gateiro, escolhe" (enquete FB/IG)** — 2 opções de caixa de areia/petisco, "qual o seu?". Atrai: comentário fácil de terceiro (hoje 0). Risco: baixo. Custo: baixo.
+3. **"Cartão salvável do porte" (carrossel IG)** — quando castrar/que cama por porte em 5 cartões; reaproveita os 2 temas de 545/267 views. Atrai: salvamento. Risco: médio (saúde: sem dose, veterinário). Custo: baixo.

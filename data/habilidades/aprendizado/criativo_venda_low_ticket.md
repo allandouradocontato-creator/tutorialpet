@@ -16,3 +16,4 @@ Skill: biblioteca/habilidades/criativo_venda_low_ticket.md (v2, 22/10/2026). Uma
 2026-11-06 | não aplicada (receita é do Diretor de Produto); react de produto: carrinho 117 views/1,26 s, toca 0 | n=5, NEUTRO | mantém cota 1/semana
 2026-11-07 | funil orgânico sem CTA de venda nos curtos; checkout é gargalo de outra frente (E209) | n=0 vendas | mantém
 2026-11-09 | J1 pergunta/promessa específica no gancho de produto-nicho | n=1 (atum 2,95 s); sem venda atribuída | mantém
+2026-11-10 | não aplicável hoje (sem criativo de venda na rodada) | n=0 | mantém

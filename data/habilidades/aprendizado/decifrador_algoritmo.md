@@ -20,3 +20,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-11-07 | critério views E tempo médio >= 5 s | n=3 com métrica, nenhum >= 5 s | mantém; produção vai para curtos
 2026-11-08 | critério views E tempo médio >= 5 s | n=0 novos com sync | mantém; NEUTRO
 2026-11-09 | uma variável por teste; leitura só com 24 h | n=3 sync (08/11): 227/320/537 views; recortes de hoje NEUTRO (<24 h) | mantém
+2026-11-10 | leitura só com 24 h | n=4 TikToks sync 10/11 (267-545 views, 1,3-1,96 s) | mantém; atum gato segue único > 2,5 s
