@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cachorro grande e cachorro pequeno podem comer no mesmo pote? como alimentar dois cachorros de portes diferentes: guia prático",
+    "description": "Cachorro grande e cachorro pequeno podem comer no mesmo pote? como alimentar dois cachorros de portes diferentes: guia prático. Dividir a casa com dois...",
+    "datePublished": "2026-11-10",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes"
+    },
+    "image": "https://tutorialpet.com.br/imagens/cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro menor pode comer a ração do cachorro grande?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não é recomendado, pois a fórmula para portes grandes costuma ter níveis de nutrientes e tamanhos de grãos inadequados para a mandíbula e o metabolismo do pet pequeno.  * **E se o cachorro grande roubar a comida do pequeno escondido?** Isso pode causar ganho de peso indesejado no maior e deficiência nutricional no menor. A supervisão e a separação física durante as refeições resolvem esse problema.  * **Posso dar a mesma quantidade de petiscos para os dois?** Não. Os petiscos devem ser proporcionais ao peso e ao gasto energético de cada um, evitando sobrepeso.  * **Preciso dar comida em horários separados se eles se dão super bem?** Mesmo que sejam melhores amigos, a biologia e a instabilidade na hora da fome podem gerar disputas inesperadas. O ideal é manter comedouros distintos e distantes."
+        }
+      }
+    ]
+  }
+}
