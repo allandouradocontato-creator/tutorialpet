@@ -1,5 +1,5 @@
 # VSL9 "E se fosse você?" — roteiro (personagem genérica, voz Dra. Natasha)
-Status 11/11/2026 17h13: virada opção A escolhida pelo Allan; falta "aprovado" final antes de voz/card. ~148 palavras, ~56 s. Legenda = fala. Regras 72 e 73.
+Status 11/11/2026 17h14: roteiro APROVADO pelo Allan (virada opção A). Voz liberada. Card: vsl9_card_sonnet.md. ~148 palavras, ~56 s. Legenda = fala. Regras 72 e 73.
 
 | # | Fala | Imagem / som |
 |---|---|---|
