@@ -181,3 +181,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 05/11/2026 | VSL v4 pôs benefício específico (silêncio, bilhete) antes de dizer o que é o produto; e clipe banido (cachorro molhado no chuveiro, 10914654, + cachorro_01) voltou na montagem porque o run_camp herdado não lia biblioteca/clipes_banidos.md | Regra: 63, 64; filtro de banidos no run_camp_v5 e conferência antes de exportar
 - 2026-11-05 | Reprovação 3x por 'autor_preenchido' (campo preenchido pelo editor) bloqueou a série Pet Celebridade por 7 dias | verificar o motivo da reprovação, não só o contador | E202
 - 2026-11-05 | Artigo bom reprovado 3x só por autor_preenchido (Giselle, 11 rascunhos em 30/10) | causa: reescrita/edição deixava autor 'Equipe Tutorial Pet'; correção: reescrever_reprovados.py força autor vazio (1a795f3); vira regra só se repetir.
+
+- 2026-11-11 | TikTok (Buffer, canal 6ace46c3778b240e2ff83589) falhou com "TikTok account being banned" em 10/11 20:20 e 11/11 10:20; agendador 16:15 avisou o Allan. Pendente: apelar/reconectar a conta; post de 12/11 no TikTok tende a falhar igual.
