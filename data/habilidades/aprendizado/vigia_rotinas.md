@@ -85,3 +85,4 @@
 2026-11-11 07:30 | blog 0/1; TikTok 20:20 de 10/11 com erro 'conta banida' | promovi atropelado-ou-achado-na-rua (blog_aprovados.txt); ficha V29 ao Allan | conferir 11:19 (E34) | mantém
 2026-11-11 11:59 | blog 0/1; 2 promoções (atropelado, janela-do-carro) reprovadas por capa (Gemini 503 + candidatas já usadas) | promovi quanto-custa-um-cachorro-de-raca com capa índice 5 escolhida a mão (fbf50d9); rodada 43041634861 verde | conferir 15:19 (E34); se capa travar de novo, ficha V30 | altera: ao promover, ver as candidatas e passar índice bom
 2026-11-11 15:25 | ronda 15:19: tudo verde exceto TikTok banido (já com o Allan) | fechei issues 45/46/47 (2 rodadas verdes da fábrica e blog 1/1) | conferir 19:19 (E34) | mantém
+2026-11-11 19:25 | ronda sem falha nova; só conferência (E34) | 0 correções, 1 pendência Allan (TikTok banido) | n/a | mantém
