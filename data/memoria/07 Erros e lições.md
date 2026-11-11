@@ -183,3 +183,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 2026-11-05 | Artigo bom reprovado 3x só por autor_preenchido (Giselle, 11 rascunhos em 30/10) | causa: reescrita/edição deixava autor 'Equipe Tutorial Pet'; correção: reescrever_reprovados.py força autor vazio (1a795f3); vira regra só se repetir.
 
 - 2026-11-11 | TikTok (Buffer, canal 6ace46c3778b240e2ff83589) falhou com "TikTok account being banned" em 10/11 20:20 e 11/11 10:20; agendador 16:15 avisou o Allan. Pendente: apelar/reconectar a conta; post de 12/11 no TikTok tende a falhar igual.
+- 2026-11-11 | VSL8 v1 reprovada: cenas de outra VSL reaproveitadas não batiam com a fala (vizinho no corredor no lugar da tela dividida; Carol presente na câmera) | regra 73: imagem conta exatamente a fala, gerar cena nova se faltar; e N3 do v2 foi confundida com o corredor (Allan corrigiu 16h57). Personagem fixa gasta crédito: regra 72.
