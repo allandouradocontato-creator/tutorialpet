@@ -1151,7 +1151,8 @@ temas:
   status: pendente
 - termo: quais sao os documentos necessarios para adotar um pet
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-11'
 - termo: como planejar viagem de carro com cachorro e gato juntos
   pilar: cuidados_diarios
   status: pendente
@@ -1414,4 +1415,7 @@ temas:
   status: pendente
 - termo: como identificar e reduzir estresse ambiental em gatos seniores
   pilar: utilidade_publica
+  status: pendente
+- termo: como evitar que gatos idosos saltem de lugares altos
+  pilar: comportamento
   status: pendente
