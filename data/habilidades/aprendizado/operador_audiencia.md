@@ -1,0 +1,1 @@
+- 11/11/2026 Operador de Audiência: TikTok banido segundo o Buffer; Operador não agenda mais TikTok até liberar; conferir status da conta antes de produzir (E234).

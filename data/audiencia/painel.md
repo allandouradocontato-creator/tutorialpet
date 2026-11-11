@@ -85,3 +85,14 @@ Views TikTok (Buffer, sync 10/11 07:26 Fortaleza): castração P1/2 545 (≈14 h
 IG/FB (Buffer): artigo devolução 09/11 FB 218 impressões | IG 49 views (3,0 s); escova 09/11 IG 64 views (4,3 s); 0 seguidor novo.
 Fila TikTok hoje (Buffer, 3 de 10, conferida em saída real): burocracia adoção 10:20 (Agendador) + EXTRAS do Operador (T2 gato): 14:20 exercícios mentais para gato idoso (post 6af2f64e9d7b7e63872e246a, 44 s) e 20:20 fonte de água para gato com medo (post 6af2f64f17d2b2f30c012892, 53 s). Total hoje: 3 de 3. Espaçamento 4 h ok (E221).
 Zernio: 5 agendados FB/IG; 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 11/11 07:41 (Operador de Audiência, nuvem)
+ALERTA TOPO: TikTok @tutorialpetbr BANIDO segundo o Buffer. Post 20:20 de 10/11 (fonte de água gato, 6af2f64f17d2b2f30c012892) em erro: "TikTok is not allowing this post to publish due to the TikTok account being banned". Fila no Buffer: banho 11/11 10:20 e gato/água 12/11 10:20 tendem a falhar. Nada novo agendado no TikTok (E234).
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (parado desde 06/11) |
+| Instagram | 5 (124 posts) | 0 (parado desde 07/11) |
+| TikTok | SEM DADO (Buffer só views; E184/E206/E225 abertas) | ? |
+Meta: IG 5/500 = 1%; FB 14.
+Views TikTok (Buffer, sync 11/11 06:27 Fortaleza): castração P1/2 546 (≈38 h, 1,96 s) | atum gato 543 (2,94 s) | adaptação 522 (1,34 s) | burocracia adoção 539 (≈18 h, 1,70 s) | abandono 2 leis 502 (1,87 s) | gato idoso exercícios 498 (≈13 h, 2,52 s) | cama P2/2 493 (1,94 s) | protetor 422 (1,88 s) | primeiros 30 dias 279 | pet idoso 177.
+Zernio: 6 agendados FB/IG (banho 11/11, gato/água 12/11, 2 IG antigos); 8 posts em erro antigos (mídia inacessível), não reenviados. FB/IG saudáveis (health ok).

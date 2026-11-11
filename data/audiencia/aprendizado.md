@@ -28,3 +28,10 @@
 10/11/2026 | TikTok | adaptação do adotado (Agendador, 46 s) | "Se a adaptação difícil continua com você..." | 519 (≈20 h, 1,31 s) | 200-999: repetir 1x com ajuste; views boas, retenção a pior da semana (1,3 s): ajuste de gancho, não de tema
 10/11/2026 | TikTok | protetor / regra da cidade (45 s) | "Você já parou pra pensar que cada cidade tem regras diferentes..." | 297 (≈2 dias, 2,10 s) | 200-999: repetir 1x com ajuste; burocrático segue abaixo de decisão do tutor
 10/11/2026 | TikTok | T2 gato (comportamento): exercícios mentais gato idoso 14:20 e fonte de água gato com medo 20:20 | "Seu gato idoso só quer saber de dormir?" / "Seu gato foge da fonte de água...?" | agendado hoje | critério do Estrategista: ≥ 400 views e tempo ≥ 3 s em 24 h; amostra pequena (n=2), direção não causa
+
+11/11/2026 | TikTok | decisão do tutor (castração P1/2, recorte 14,5 s) | "Parte 1/2: quando castrar o filhote?" | 546 (≈38 h, 1,96 s) | leitura final: 200-999, mas tempo <2 s; não fazer novos recortes com legenda queimada (E230)
+11/11/2026 | TikTok | decisão do tutor (cama P2/2, 17 s) | "Parte 2/2: que cama comprar..." | 493 (≈35 h, 1,94 s) | 200-999; série em 2 partes não retém
+11/11/2026 | TikTok | adaptação do adotado (Agendador) | "Se a adaptação difícil continua com você..." | 522 (≈2 dias, 1,34 s) | 200-999; views boas, retenção ruim
+11/11/2026 | TikTok | T2 gato (exercícios mentais gato idoso) | "Seu gato idoso só quer saber de dormir?" | 498 (≈13 h, 2,52 s, 34 curtidas) | parcial: ≥400 views, tempo <3 s (critério não batido); leitura final 12/11
+11/11/2026 | TikTok | T2 gato (fonte de água) | "Seu gato foge da fonte de água...?" | NÃO PUBLICOU: conta TikTok banida segundo Buffer | sem leitura; ficha E234
+11/11/2026 | TODOS | decisão do dia | sem novos agendamentos no TikTok até a conta liberar; FB/IG seguem com a fila do Agendador | n=0 
