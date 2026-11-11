@@ -1,6 +1,6 @@
-# Relatório do Curador do Blog — 08/11/2026 15:31
+# Relatório do Curador do Blog — 11/11/2026 16:25
 
-136 artigos auditados, 66 com problema bloqueante.
+140 artigos auditados, 67 com problema bloqueante.
 
 - ok | abandono-de-animal-e-crime-multa-pena-e-o-que-fazer-se-nao-puder-mais-cuidar
     - [aviso] título com 78 caracteres (ideal até 70)
@@ -25,15 +25,24 @@
 - ok | cachorro-chorando-quando-fico-sozinho-o-que-fazer
 - ok | cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos
     - [aviso] título com 90 caracteres (ideal até 70)
+- ok | cachorro-grande-e-cachorro-pequeno-podem-comer-no-mesmo-pote-como-alimentar-dois-cachorros-de-portes-diferentes
+    - [aviso] curto (820 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [aviso] título com 126 caracteres (ideal até 70)
 - REPROVADO | cachorro-latindo-muito-o-que-fazer
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- REPROVADO | cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar
+    - [aviso] curto (851 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [bloqueante] tema de saúde sem orientar a procurar o médico-veterinário
+    - [aviso] título com 89 caracteres (ideal até 70)
 - ok | cachorro-pode-comer-banana
 - REPROVADO | caixa-de-transporte-para-gato
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | castracao-gratuita-de-cachorro-e-gato-como-conseguir
     - [aviso] parágrafo acima de 130 palavras
+- ok | castracao-gratuita-e-vacina-publica-para-pets-como-achar-na-sua-cidade
+    - [aviso] título com 85 caracteres (ideal até 70)
 - REPROVADO | coleira-ou-peitoral-para-cachorro
     - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
@@ -284,6 +293,9 @@
     - [aviso] parágrafo acima de 130 palavras
 - ok | pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir
     - [aviso] título com 88 caracteres (ideal até 70)
+- REPROVADO | pet-no-transporte-publico-uber-e-aviao-regras-oficiais
+    - [aviso] curto (760 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
+    - [bloqueante] links internos insuficientes: 0 (mínimo 2)
 - ok | pinscher-temperamento-e-cuidados-da-raca-da-giselle-pet-da-luisa-sonza
     - [aviso] título com 75 caracteres (ideal até 70)
 - ok | plantas-toxicas-para-gatos
@@ -329,9 +341,8 @@
     - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
 - ok | quantas-vezes-por-dia-o-cachorro-precisa-passear
     - [aviso] curto (833 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
-- REPROVADO | quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos
-    - [aviso] poucas fontes citadas com link (0): artigo precisa de mais fontes (meta: 3 ou mais)
-    - [bloqueante] secao 'Fontes e referencias' ausente ou com menos de 2 links externos https reais (use paginas institucionais: cfmv.gov.br, msdvetmanual.com, aaha.org, etc.)
+- ok | quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos
+    - [aviso] curto (774 palavras): confira se o tema foi respondido por completo (o Google não define tamanho mínimo)
     - [aviso] título com 79 caracteres (ideal até 70)
 - ok | quanto-de-racao-dar-para-gato-adulto-por-dia
 - REPROVADO | quanto-tempo-um-cachorro-pode-ficar-sozinho
