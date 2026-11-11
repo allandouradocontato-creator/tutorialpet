@@ -1,11 +1,11 @@
-# Auditoria de anúncios - 10/11/2026 12:35 UTC (09:35 Fortaleza). Dados até 10/11 (Windsor facebook). Anterior: 09/11 09:36.
-SEM DADO da conta 1213984913380523: o Windsor devolveu "Account not available"; só a conta 1956794111415592 (CA 01 - Allan Dourado) está liberada. Registrado em 06 Pendências.
-- Lido na conta liberada (28/10-10/11): campanha "SeC · Corte Resumo v5 · pixel certo", conjunto "SP apto 25-55 · Facebook": 09/11 R$ 9,15 · 13 cliques no link · 0 inícios · 0 compras (status PAUSED na linha); 10/11 ACTIVE, R$ 0,13 · 0 cliques. Teto de R$ 30/dia não excedido; o que dá para ver não aparece como gasto sem controle.
-- NÃO consegui ler "SeC · Filme v10 · SP apto" (08/11, porta17) nem a leitura de 24/48 h agendada: estava na conta 1213984913380523. Não estimo: UNKNOWN.
-- Nova campanha Corte Resumo v5 não está no repo (sem autorização nem registro em 05 Decisões/campanha_vsl): se não foi o Allan, pausar; conferir.
-- Perfil (EXTRA 31/10): já registrado em 01-04/11 e 08/11; sem dado de perfil novo legível hoje (conta indisponível; n=0 inícios na conta liberada). Não repeti.
-- Compliance: sem Audience Network visível; texto não verificável hoje.
-- Número do departamento: histórico R$ 4,67/início (45 inícios, 0 compras no pixel); semana sem leitura confiável.
-- REPLICAR: Reels FB + checkout enxuto (inalterado); Feed FB segue candidato a corte.
-- DECISÃO ÚNICA (Allan): reconectar o Windsor à conta 1213984913380523 (ou confirmar que a conta migrou para 1956794111415592) e dizer se Corte Resumo v5 é dele.
-- Habilidade que falta: venda Kiwify x anúncio (sem Chrome). Teste grátis: CSV semanal da Kiwify.
+# Auditoria de anúncios - 11/11/2026 09:40 Fortaleza (12:40 UTC). Dados até 11/11 (Windsor facebook, conta 1956794111415592). Anterior: 10/11.
+Dados até 2026-11-11 09:40 (Fortaleza). Conta original 1213984913380523 SEGUE indisponível no Windsor ("not available"): Filme v10 e histórico dela = UNKNOWN. Pendência já aberta (E232), não repeti.
+- Conta liberada, campanha "SeC · Corte Resumo v5 · pixel certo" (ACTIVE; conjunto "SP apto 25-55 · Facebook", teto R$ 30/dia): 09/11 R$ 9,37 / 14 cliques / 0 inícios · 10/11 R$ 13,45 / 20 cliques / 2 inícios (anúncio novo "Thor na porta — Cópia") · 11/11 parcial R$ 2,70 / 2 cliques. Total 09-11/11: R$ 25,52 · 36 cliques · 2 inícios (R$ 12,76/início) · 0 compras no pixel. n=2: só direção.
+- ALERTA DE REGRA (não de gasto): posicionamentos NÃO são só Reels, contra a decisão do Allan de 31/10 (regra 70). 09-11/11: FB Reels R$ 18,41 (72%, 26 cliques, 2 inícios) · FB Feed R$ 4,41 (7 cliques, 0) · FB Stories R$ 2,52 (3 cliques, 0) · FB in-stream R$ 0,10. Fora de Reels = R$ 7,03 (28%) sem nenhum início. IG e Audience Network: sem entrega visível.
+- Perfil (3 dias, direção): mulheres 25-54 = 83% dos cliques úteis; mulher 25-34 R$ 5,01 / 1 início, mulher 35-44 R$ 2,84 / 1 início, mulher 45-54 R$ 6,83 / 12 cliques / 0 início; homens R$ 10,09 / 10 cliques / 0 início; 55+ residual. Região só SP (alvo).
+- Teto: R$ 30/dia não excedido (máx. R$ 13,45/dia). Sem gasto sem controle. Campanha ainda sem registro em 05 Decisões (E231).
+- Número do departamento: R$ 12,76 por checkout iniciado na conta liberada (n=2); histórico antigo R$ 4,67 (45 inícios, 0 compras). Gasto 7 dias: R$ 25,52 só na conta liberada; conta original UNKNOWN.
+- Vendas Kiwify: UNKNOWN (sem Chrome na nuvem). Eventos de vídeo do pixel: UNKNOWN. Compliance: sem Audience Network; texto não verificado hoje.
+- REPLICAR: Reels FB (72% do gasto e 100% dos inícios) + checkout enxuto; o resto é custo sem retorno.
+- DECISÃO ÚNICA (pedir ao Allan): (1) conferir no Gerenciador e tirar Feed/Stories/in-stream do conjunto "SP apto 25-55 · Facebook" (deixar só Reels) — executo só se ele mandar; (2) reconectar Windsor à conta 1213984913380523 e dizer se Corte Resumo v5 é dele.
+- Habilidade que falta: venda Kiwify x anúncio. Teste grátis: CSV semanal da Kiwify.

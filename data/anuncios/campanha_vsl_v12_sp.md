@@ -255,3 +255,10 @@ Marketplace Yamaha (não é Tutorial Pet): R$ 6,80 (08/11) + 1,15 (09/11 parcial
 
 ## Perfil que clica - 10/11 (Auditor, rodada agendada 10/11 09:35 Fortaleza)
 SEM DADO: conta 1213984913380523 indisponível no Windsor (liberada só 1956794111415592). O EXTRA de perfil (31/10) já está em 01-04/11; hoje não há corte novo legível. Na conta liberada: Corte Resumo v5 · SP apto 25-55 · Facebook, 09/11 R$ 9,15 / 13 cliques / 0 inícios; 10/11 R$ 0,13. Filme v10 e Kiwify: Unknown. Recomendação inalterada (sem executar, direção, n minúsculo): Reels FB, mulher 25-34, só SP, sem Feed FB e sem 65+.
+
+## Perfil que clica - 11/11 (Auditor, rodada agendada 11/11 09:40 Fortaleza; Windsor facebook, só conta 1956794111415592; 09-11/11)
+O EXTRA do Allan (31/10) valia para 01/11 e já está em 01-04/11; hoje só atualizei com o que o Windsor lê. Conta original 1213984913380523 indisponível: Filme v10 UNKNOWN. n=2 inícios: DIREÇÃO, não veredito.
+Corte Resumo v5 (conjunto SP apto 25-55 · Facebook): R$ 25,52 · 36 cliques no link · 2 inícios (R$ 12,76) · 0 compras.
+Posicionamento: FB Reels R$ 18,41 / 26 cliques / 2 inícios · FB Feed 4,41 / 7 / 0 · FB Stories 2,52 / 3 / 0 · in-stream 0,10. 28% do gasto fora de Reels, contra a decisão de 31/10 (Reels-only).
+Idade x sexo: mulher 25-34 R$ 5,01 / 6 cliques / 1 início · 35-44 2,84 / 6 / 1 · 45-54 6,83 / 12 / 0 · homens 10,09 / 10 / 0 · 55+ residual. Região só SP. Por anúncio: original 9/11 R$ 9,37 / 14 / 0; "— Cópia" 10-11/11 R$ 16,15 / 22 / 2.
+Recomendação (sem executar): tirar Feed/Stories/in-stream (Allan decide); manter Reels; foco em mulheres 25-54 já é o que o Meta entrega; homens e 55+ sem início, observar mais antes de cortar.
