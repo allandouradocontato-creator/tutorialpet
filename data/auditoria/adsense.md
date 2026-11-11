@@ -9,9 +9,9 @@
 | ads.txt com pub-id | PASSA |  |
 | robots.txt nao bloqueia Mediapartners/Google | PASSA |  |
 | sitemap.xml | PASSA |  |
-| volume >= 30 artigos | PASSA | 125 artigos |
+| volume >= 30 artigos | PASSA | 126 artigos |
 | ultimo artigo <= 2 dias | PASSA | ultimo em 2026-11-10 (1 dias) |
-| sem buracos > 3 dias nos ultimos 30 dias | FALHA | buracos: [('2026-11-06', '2026-11-10')] |
+| sem buracos > 3 dias nos ultimos 30 dias | PASSA | buracos: [] |
 | artigos >= 900 palavras | PASSA | 0 curtos: [] |
 | estrutura com >= 3 subtitulos | PASSA | [] |
 | meta description em todos | PASSA | [] |
@@ -26,5 +26,5 @@
 | Sobre tem secao de equipe/autor | PASSA |  |
 | privacidade cita Google/AdSense e cookies | PASSA |  |
 
-## Corrigir (1)
-- **sem buracos > 3 dias nos ultimos 30 dias**: buracos: [('2026-11-06', '2026-11-10')] -> manter 1+ artigo/dia
+## Corrigir (0)
+- nada
