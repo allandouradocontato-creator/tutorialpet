@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quanto custa um cachorro de raça e quanto custa adotar em 10 anos: guia prático",
+    "description": "Quanto custa um cachorro de raça e quanto custa adotar em 10 anos: guia prático. Planejar a chegada de um pet exige olhar muito além do primeiro mês. A...",
+    "datePublished": "2026-11-07",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual a principal diferença de gastos entre um cachorro adotado e um comprado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A diferença mais expressiva está na taxa inicial de aquisição e nos custos de tosa profissional e predisposição genética de certas raças puras. No cotidiano de alimentação e vacinação, os gastos de manutenção são praticamente equivalentes para o mesmo porte."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Um cachorro sem raça definida (vira-lata) fica menos doente?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Eles contam com maior variabilidade genética, o que reduz o risco de doenças hereditárias específicas de certas linhagens. No entanto, continuam vulneráveis a infecções, problemas articulares na velhice, parasitas e acidentes, necessitando de acompanhamento veterinário idêntico."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto devo guardar por mês para a saúde do meu cachorro?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Recomenda-se manter uma reserva de emergência reservando em média de R$ 80 a R$ 150 por mês, ou contratar um plano de saúde pet, garantindo cobertura para consultas especializadas, exames de imagem e internações sem desestabilizar o orçamento doméstico."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O porte do animal influencia mais no custo do que a raça?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. O peso do pet determina diretamente o consumo mensal de ração e as doses de medicamentos, anestésicos, vacinas e antipulgas. Manter um cachorro de 35 kg custa significativamente mais caro do que manter um de 6 kg, independentemente de ter pedigree ou ser adotado.  ---"
+        }
+      }
+    ]
+  }
+}

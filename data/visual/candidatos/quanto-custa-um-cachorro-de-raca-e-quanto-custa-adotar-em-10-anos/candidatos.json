@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 20028681,
+    "url_download": "https://images.pexels.com/photos/20028681/pexels-photo-20028681.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-puppy-dog-20028681/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy alone isolated white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16299046,
+    "url_download": "https://images.pexels.com/photos/16299046/pexels-photo-16299046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-puppy-on-the-ground-16299046/",
+    "fotografo": "Sudhir Sangwan",
+    "fotografo_url": "https://www.pexels.com/@sudhirsangwan",
+    "largura": 5328,
+    "altura": 4000,
+    "query": "cute puppy alone isolated white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9460365,
+    "url_download": "https://images.pexels.com/photos/9460365/pexels-photo-9460365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-black-puppy-9460365/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 4032,
+    "altura": 2688,
+    "query": "cute puppy alone isolated white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20028648,
+    "url_download": "https://images.pexels.com/photos/20028648/pexels-photo-20028648.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-puppy-dog-in-snow-20028648/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy alone isolated white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14626088,
+    "url_download": "https://images.pexels.com/photos/14626088/pexels-photo-14626088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/ridgeback-jabari-dog-in-close-up-photography-14626088/",
+    "fotografo": "Sven Svensson",
+    "fotografo_url": "https://www.pexels.com/@sven-svensson-3515288",
+    "largura": 5180,
+    "altura": 3454,
+    "query": "dog sitting alone portrait studio background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17589407,
+    "url_download": "https://images.pexels.com/photos/17589407/pexels-photo-17589407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/bichon-frise-in-scarf-17589407/",
+    "fotografo": "Pet foto",
+    "fotografo_url": "https://www.pexels.com/@pet-foto-644780685",
+    "largura": 4709,
+    "altura": 3139,
+    "query": "dog sitting alone portrait studio background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos/5.jpg"
+  }
+]
