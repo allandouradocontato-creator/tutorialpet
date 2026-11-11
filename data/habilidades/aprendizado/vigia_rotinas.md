@@ -83,3 +83,4 @@
 2026-11-10 15:30 | blog 1/1 (ok após re-promoção), issue 43 fechada, 10 reprovados 3x (issue 44) | ficha V28 ao Dir. Conteúdo | conferir 19:19 (E34) | mantém
 2026-11-10 19:35 | ronda: 14 rotinas ok, fábrica/blog verdes, blog 1/1, TikTok agendado, Zernio 0 falha nova | nenhuma ação necessária | conferir 07:19 F (E34) | mantém
 2026-11-11 07:30 | blog 0/1; TikTok 20:20 de 10/11 com erro 'conta banida' | promovi atropelado-ou-achado-na-rua (blog_aprovados.txt); ficha V29 ao Allan | conferir 11:19 (E34) | mantém
+2026-11-11 11:59 | blog 0/1; 2 promoções (atropelado, janela-do-carro) reprovadas por capa (Gemini 503 + candidatas já usadas) | promovi quanto-custa-um-cachorro-de-raca com capa índice 5 escolhida a mão (fbf50d9); rodada 43041634861 verde | conferir 15:19 (E34); se capa travar de novo, ficha V30 | altera: ao promover, ver as candidatas e passar índice bom
