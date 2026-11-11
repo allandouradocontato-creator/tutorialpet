@@ -37,3 +37,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-11-08 | regra 5/6 (gancho T0 + CTA seguir) + corte 24 h: sem métrica nova (3 TikToks <24 h); recorte 15-20 s ainda não foi ao ar | n=0 com métrica, FB 14, IG 5, comentário 0 | mantém (E218)
 2026-11-09 | J1 gancho que promete resposta ('Se você é gateiro...') + leitura 24 h | n=1: atum gato 537 views, 2,95 s (vs 1,5-2,0 s dos demais) | mantém; repetir em 1 vídeo de gato (E226)
 2026-11-10 | regra: gancho/resposta cedo (recorte com legenda queimada responde aos ~12-14 s) | n=2 recortes 24 h: 545/1,96 s e 267/1,65 s -> PERDEU | altera: sem novos recortes de legenda queimada
+2026-11-11 | regra 5/6 (gancho que promete resposta) + corte 24 h: T2 gato exercícios mentais | n=1 post lido: 498 views, 2,52 s (NEUTRO, n<3); 2º post sem leitura (conta banida) | mantém; migrar o formato para IG/FB (E235)

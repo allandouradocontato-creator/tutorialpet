@@ -85,3 +85,9 @@
 1. **"Resposta nos 5 s" (série cartão de texto, TikTok)** — pergunta do tutor e resposta curta já no 1º quadro, detalhe depois. Atrai: retenção (hoje 1,3-2 s) e quem quer a resposta segue. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo (cartão, zero crédito).
 2. **"Gateiro, escolhe" (enquete FB/IG)** — 2 opções de caixa de areia/petisco, "qual o seu?". Atrai: comentário fácil de terceiro (hoje 0). Risco: baixo. Custo: baixo.
 3. **"Cartão salvável do porte" (carrossel IG)** — quando castrar/que cama por porte em 5 cartões; reaproveita os 2 temas de 545/267 views. Atrai: salvamento. Risco: médio (saúde: sem dose, veterinário). Custo: baixo.
+| 2026-11-11 09:35 | Diretor de Audiência | TikTok BANIDO (Buffer, post 20:20 de 10/11 em erro; meta nº 1 pausada, último 21 = 2,1%); FB 14, IG 5 (+1 cada em 7 dias); T2 gato 14:20: 498 views/2,52 s = NEUTRO (n=1); comentário de terceiro 0 confirmado, DM 0; ficha 2026-11-11_audiencia_rodada.md; E235 (esforço de vídeo curto para IG/FB); recurso do banimento é do Allan (E234); add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 11/11/2026
+1. **"Gateiro, assiste isso" no IG Reels (série ≤20 s)** — um erro de tutor de gato por vídeo com resposta nos 5 s; usa o formato que deu 2,52-2,95 s no TikTok. Atrai: retenção e seguir. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo (pacotes existentes).
+2. **"Qual o seu? Cama alta ou baixa" (enquete FB/IG)** — 2 fotos de banco livre; comentário fácil de terceiro. Risco: baixo. Custo: baixo.
+3. **"Pergunta do tutor da semana" (carrossel salvável)** — 3 dúvidas reais de fila_duvidas_reais.md, 1 frase cada. Atrai: salvamento. Risco: médio se vier saúde. Custo: baixo.
