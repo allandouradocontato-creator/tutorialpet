@@ -1,0 +1,58 @@
+name: VSL8 sfx (ElevenLabs Sound Effects)
+# Gera a sonoplastia da VSL8 v2 em data/vsl/natasha/sfx/ e mostra o saldo antes/depois.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sfx:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar efeitos
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          from pathlib import Path
+          k = os.environ["ELEVENLABS_API_KEY"].strip()
+          def saldo():
+              r = urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription", headers={"xi-api-key": k})
+              d = json.load(urllib.request.urlopen(r, timeout=30)); return d["character_limit"] - d["character_count"]
+          a = saldo(); print("SALDO_ANTES", a)
+          E = {
+           "sfx_porta_batendo": ("A heavy apartment front door slamming shut, wooden thud with a short echo in a hallway, no music", 1.5),
+           "sfx_bass_hit": ("Deep cinematic bass hit impact, single low boom with short tail, no music", 2.0),
+           "sfx_brass_strings_suspense": ("Tense cinematic suspense sting, low brass and tremolo strings rising, thriller trailer style, no voices", 3.0),
+           "sfx_horror_drum": ("Low horror drum hit, deep ominous timpani thump with reverb, no music", 2.0),
+           "sfx_cachorro_choro": ("A small dog whining and howling sadly alone behind a closed door inside an apartment", 3.0),
+           "sfx_cachorro_latindo": ("A dog barking nonstop inside an apartment, repeated loud barks, slight room echo", 3.0),
+           "sfx_telefone_toque": ("A smartphone ringing with a classic ringtone, two rings, close", 2.0),
+           "sfx_notificacao_celular": ("A single smartphone notification ding, clean and short", 1.0),
+           "sfx_heartbeat_impact": ("Two strong heartbeat thumps with a low impact, tense, cinematic", 2.0),
+           "sfx_suspense_swell": ("Rising tension swell, strings and low synth building up to a peak, thriller riser, no voices", 4.0),
+           "sfx_whoosh_passos": ("Quick whoosh with fast running footsteps on tile floor, urgent", 2.0),
+           "sfx_chimes_vitoria": ("Bright magical victory chimes, short uplifting sparkle, no voices", 2.0),
+           "sfx_conquista": ("Short achievement success jingle, happy and rewarding, no voices", 2.0),
+           "sfx_moeda_win": ("Coins dropping with a happy cash register ding, short win sound", 1.5),
+           "sfx_click_botao": ("A crisp button click tap sound, short UI click", 0.5),
+          }
+          Path("data/vsl/natasha/sfx").mkdir(parents=True, exist_ok=True)
+          for n, (p, d) in E.items():
+              body = json.dumps({"text": p, "duration_seconds": d, "prompt_influence": 0.6}).encode()
+              req = urllib.request.Request("https://api.elevenlabs.io/v1/sound-generation", data=body, headers={"xi-api-key": k, "Content-Type": "application/json"})
+              try:
+                  out = urllib.request.urlopen(req, timeout=90).read()
+                  Path(f"data/vsl/natasha/sfx/{n}.mp3").write_bytes(out); print("ok", n, len(out))
+              except Exception as e:
+                  print("falhou", n, str(e)[:200])
+          b = saldo(); print("SALDO_DEPOIS", b, "gasto", a - b, "pct_do_saldo_antes", round(100*(a-b)/a, 2))
+          PY
+      - name: Guardar mp3
+        run: |
+          git config user.name "voz-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/vsl/natasha/sfx
+          git commit -m "VSL8 v2: sonoplastia (ElevenLabs Sound Effects)" || exit 0
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
