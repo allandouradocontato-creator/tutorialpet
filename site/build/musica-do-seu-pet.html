@@ -343,7 +343,7 @@ header.site nav { flex: 1 1 auto; }
     var d=new FormData(f);
     var corpo={nomePet:d.get('nomePet'),especie:d.get('especie'),raca:d.get('raca'),manias:[d.get('m1'),d.get('m2'),d.get('m3')],
       tutor:d.get('tutor'),historia:d.get('historia'),estilo:d.get('estilo'),estilo2:d.get('estilo2'),voz:d.get('voz'),clima:d.get('clima'),
-      whatsapp:d.get('whatsapp'),email:d.get('email'),site:d.get('site')};
+      whatsapp:d.get('whatsapp'),email:d.get('email'),site:d.get('site'),convite:(new URLSearchParams(location.search).get('convite')||'')};
     fetch('/api/musica/pedido',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(corpo)})
       .then(function(r){return r.json()}).then(function(j){
         if(j.ok&&j.checkoutUrl){window.location.href=j.checkoutUrl;return}

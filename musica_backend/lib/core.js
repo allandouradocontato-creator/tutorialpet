@@ -68,6 +68,17 @@ export async function criarPedido(env, body, ctx) {
     await salvar(env, p);
     return { ok: true, id: p.id, checkoutUrl: `/musica-do-seu-pet/entrega/${p.id}`, demo: true };
   }
+  const conv = String(body.convite || "").trim().toUpperCase().slice(0, 40);
+  if (conv) {
+    // CONVITE DE TESTE (amigos): link com ?convite=CODIGO. Cada pedido gasta 1 crédito do saldo do código e pula a Kiwify.
+    const r = await usarCreditoConvite(env, conv);
+    if (!r.ok) { p.estado = "cancelado"; await salvar(env, p); return { ok: false, erro: r.erro, campo: "geral" }; }
+    p.versoes = [novaVersao(1, p.form.estilo), novaVersao(2, p.form.estilo2 && p.form.estilo2 !== p.form.estilo ? p.form.estilo2 : PROXIMO_ESTILO[p.form.estilo] || "pop alegre")];
+    p.bump = true; p.teste = { convite: conv, restantes: r.restantes };
+    p.estado = "letra";
+    await salvar(env, p);
+    return { ok: true, id: p.id, checkoutUrl: `/musica-do-seu-pet/entrega/${p.id}`, teste: true, creditosRestantes: r.restantes };
+  }
   const base = env.KIWIFY_CHECKOUT_URL;
   if (!base) return { ok: false, erro: "Checkout indisponível no momento.", campo: "geral" };
   const u = new URL(base);
@@ -75,6 +86,19 @@ export async function criarPedido(env, body, ctx) {
   u.searchParams.set("sck", p.id);
   u.searchParams.set("email", v.form.email);
   return { ok: true, id: p.id, checkoutUrl: u.toString() };
+}
+
+// Códigos de convite de teste: env.CONVITES_TESTE = "AMIGOS10:10,OUTRO:5" (código:créditos). O saldo vive no KV (chave cv:<CODIGO>).
+async function usarCreditoConvite(env, codigo) {
+  const mapa = {};
+  String(env.CONVITES_TESTE || "").split(",").forEach((t) => { const [c, n] = t.split(":"); if (c && c.trim()) mapa[c.trim().toUpperCase()] = Math.max(0, parseInt(n, 10) || 0); });
+  if (!(codigo in mapa)) return { ok: false, erro: "Convite inválido." };
+  const chave = "cv:" + codigo;
+  const atual = await env.PEDIDOS.get(chave);
+  const saldo = atual === null ? mapa[codigo] : parseInt(atual, 10) || 0;
+  if (saldo <= 0) return { ok: false, erro: "Os créditos de teste deste convite acabaram. Obrigado por testar!" };
+  await env.PEDIDOS.put(chave, String(saldo - 1));
+  return { ok: true, restantes: saldo - 1 };
 }
 
 // ---------- webhook da Kiwify ----------
