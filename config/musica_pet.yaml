@@ -14,7 +14,7 @@ amostras:   # só aparece quem tem arquivo em site/musica_assets/ (o Thor entra 
     arquivo: "amostra-mel.mp3"
   - id: thor
     nome: "Thor"
-    legenda: "Thor, o cachorrinho mais arteiro da casa"
+    legenda: "Thor, meu raio de sol"
     arquivo: "amostra-thor.mp3"
 passos:
   - ["1", "Conte sobre o seu pet", "Nome, 3 manias e o estilo que combina com ele."]
