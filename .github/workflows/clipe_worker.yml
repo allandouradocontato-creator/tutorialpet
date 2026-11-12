@@ -1,0 +1,49 @@
+name: Clipe do Pet - worker (anima as fotos e monta o clipe)
+
+# A cada ~5 min vê a fila do site (/api/clipe/fila); se houver pedido, anima cada foto (Wan 2.2 grátis no Hugging Face via HF_TOKEN,
+# com fal.ai como reserva se existir FAL_KEY), monta o clipe com o motor (clipe/motor) e envia o MP4 para o site.
+# Também é disparado na hora pelo servidor (se existir GH_DISPATCH_TOKEN no Cloudflare) assim que o cliente termina o envio.
+# Segredos do repositório: MUSICA_TICK_SECRET (o mesmo TICK_SECRET do Cloudflare), HF_TOKEN (obrigatório p/ animar de graça), FAL_KEY (opcional).
+on:
+  schedule:
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: clipe-worker
+  cancel-in-progress: false
+
+jobs:
+  worker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      CLIPE_BASE: https://tutorialpet.com.br
+      CLIPE_SEGREDO: ${{ secrets.MUSICA_TICK_SECRET }}
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      FAL_KEY: ${{ secrets.FAL_KEY }}
+    steps:
+      - name: Ver a fila (barato; sai se estiver vazia)
+        id: fila
+        run: |
+          if [ -z "$CLIPE_SEGREDO" ]; then echo "::warning::MUSICA_TICK_SECRET ausente: worker desligado"; echo "n=0" >> "$GITHUB_OUTPUT"; exit 0; fi
+          resp=$(curl -sS -m 60 "$CLIPE_BASE/api/clipe/fila" -H "authorization: Bearer $CLIPE_SEGREDO") || { echo "n=0" >> "$GITHUB_OUTPUT"; exit 0; }
+          n=$(python3 -c "import json,sys;print(len(json.loads(sys.argv[1]).get('pedidos',[])))" "$resp" 2>/dev/null || echo 0)
+          echo "pedidos na fila: $n"; echo "n=$n" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.fila.outputs.n != '0'
+      - uses: actions/setup-python@v5
+        if: steps.fila.outputs.n != '0'
+        with:
+          python-version: "3.11"
+      - name: Dependências
+        if: steps.fila.outputs.n != '0'
+        run: |
+          pip install --quiet pillow gradio_client
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Processar pedidos
+        if: steps.fila.outputs.n != '0'
+        run: python3 clipe/motor/processar_pedido.py
