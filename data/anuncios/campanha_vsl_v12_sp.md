@@ -262,3 +262,12 @@ Corte Resumo v5 (conjunto SP apto 25-55 · Facebook): R$ 25,52 · 36 cliques no 
 Posicionamento: FB Reels R$ 18,41 / 26 cliques / 2 inícios · FB Feed 4,41 / 7 / 0 · FB Stories 2,52 / 3 / 0 · in-stream 0,10. 28% do gasto fora de Reels, contra a decisão de 31/10 (Reels-only).
 Idade x sexo: mulher 25-34 R$ 5,01 / 6 cliques / 1 início · 35-44 2,84 / 6 / 1 · 45-54 6,83 / 12 / 0 · homens 10,09 / 10 / 0 · 55+ residual. Região só SP. Por anúncio: original 9/11 R$ 9,37 / 14 / 0; "— Cópia" 10-11/11 R$ 16,15 / 22 / 2.
 Recomendação (sem executar): tirar Feed/Stories/in-stream (Allan decide); manter Reels; foco em mulheres 25-54 já é o que o Meta entrega; homens e 55+ sem início, observar mais antes de cortar.
+
+## Perfil que clica - 12/11 (Auditor, rodada agendada 12/11 09:36 Fortaleza; Windsor facebook, conta 1956794111415592; 09-12/11)
+O EXTRA de 31/10 (valia para 01/11) segue em 01-04/11; aqui só a atualização do que o Windsor lê. Filme v10 (conta original): UNKNOWN. n=8 inícios: DIREÇÃO, não veredito.
+Corte Resumo v5 (SP apto 25-55 · Facebook): R$ 82,67 · 118 cliques · 8 inícios (R$ 10,33) · 0 compras.
+Posicionamento: Feed/Stories/in-stream só em 09/11 (R$ 9,37, 0 início); 10-12/11 100% FB Reels: R$ 73,30 · 104 cliques · 8 inícios (R$ 9,16). Feed cortado: regra 70 cumprida.
+Idade x sexo: mulher 25-34 R$ 13,72/18/2 · 35-44 10,44/14/1 · 45-54 20,62/36/1 · 55-64 3,31/5/0 · homem 25-34 13,04/10/1 · 35-44 8,90/9/1 · 45-54 11,40/25/2 · 55-64 1,09/1/0. Mulheres 4 inícios (R$ 12,02), homens 4 (R$ 8,61): a leitura de 11/11 (homens sem início) caiu.
+Por anúncio: "Thor na porta" original só 09/11 (R$ 9,37/14/0); "— Cópia" 10-12/11 R$ 73,30/104/8.
+Recomendação (sem executar): manter Reels-only e teto; não cortar homens ainda; 55+ sem início (R$ 4,40), candidato a corte se continuar zerado.
+
