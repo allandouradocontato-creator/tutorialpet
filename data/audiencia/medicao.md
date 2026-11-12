@@ -200,3 +200,6 @@ Formato que ganhou (n pequeno): humor curto no FB, 563 e 690 views contra 177-23
 Testes de hoje (uma variável por vez, régua 1,5x mediana FB 215 = 323, mín. 5 posts por braço; abaixo é PARCIAL): N1 (pet cobra a hora, teste sem prova numérica) 72 h a 05/11; N2 (B2, calor) 72 h a 07/11, régua IG skip ≤ 65%; N3 (B9, Natal) 72 h a 09/11. X2 CTA a binária (FB) x b aberta (IG), mesma arte, vale para as 3. S1 e S3 de 31/10 não foram ao ar (PERDEU): sem dado.
 
 Atualização 08/11 09:30 (Diretor de Audiência): Zernio FB 14, IG 5 (117 posts), TikTok sem leitura (último 21 em 24/10). Buffer: 3 últimos TikToks sem sync; fila hoje atum (erro antigo), abandono 10:20, cidade 14:20. Comentário 0, DM 0, contatos ManyChat 0. Isca = NEUTRO.
+
+## 12/11/2026 (Criador de Audiência, foco TikTok)
+Dados até 12/11 16:50. Comentários por post: ~0 de terceiros (TikTok 5 em 81 posts). Compartilhamentos: 11 em ~81 posts. Seguidores TikTok: 36 (print do Allan, 12/11; último 21 em 28/10). Cliques no blog: sem dado. Vendas: sem dado. Meta 14 dias: mediana 300 views, tempo ≥3 s, 1 share a cada 4 posts, 1.000 seguidores (4% hoje). Formato campeão: dúvida real com número no gancho (cachorro sozinho 7,46 s; gato dorme 905 views). Bloqueio: Buffer recusa TikTok (account being banned) desde 10/11; perfil ativo. Ver ideias.md §0.
