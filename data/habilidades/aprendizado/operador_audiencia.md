@@ -1,1 +1,2 @@
 - 11/11/2026 Operador de Audiência: TikTok banido segundo o Buffer; Operador não agenda mais TikTok até liberar; conferir status da conta antes de produzir (E234).
+- 12/11/2026 | operador_audiencia | TikTok banido persiste; FB/IG recebem o gato idoso (E235); regra: com a rede principal caída, o volume migra para Reels/FB do mesmo arquivo, sem mexer nos agendados do TikTok.

@@ -35,3 +35,10 @@
 11/11/2026 | TikTok | T2 gato (exercícios mentais gato idoso) | "Seu gato idoso só quer saber de dormir?" | 498 (≈13 h, 2,52 s, 34 curtidas) | parcial: ≥400 views, tempo <3 s (critério não batido); leitura final 12/11
 11/11/2026 | TikTok | T2 gato (fonte de água) | "Seu gato foge da fonte de água...?" | NÃO PUBLICOU: conta TikTok banida segundo Buffer | sem leitura; ficha E234
 11/11/2026 | TODOS | decisão do dia | sem novos agendamentos no TikTok até a conta liberar; FB/IG seguem com a fila do Agendador | n=0 
+
+12/11/2026 | TikTok | decisão do tutor (castração P1/2) | "Parte 1/2: quando castrar o filhote?" | 546 final (tempo 1,96 s) | 200-999; sem novos recortes com legenda queimada
+12/11/2026 | TikTok | decisão do tutor (cama P2/2) | "Parte 2/2: que cama comprar..." | 493 final (2,02 s) | 200-999; série em 2 partes não retém
+12/11/2026 | TikTok | adoção (burocracia, Agendador) | "Se a burocracia na adoção continua com você..." | 540 (≈2 dias, 1,7 s) | 200-999; retenção ruim
+12/11/2026 | TikTok | T2 gato (exercícios mentais gato idoso) | "Seu gato idoso só quer saber de dormir?" | 506 (≈2 dias, 2,51 s, 34 curtidas) | 200-999; tempo <3 s (critério não batido); n=1: NEUTRO, repetir 1x em FB/IG
+12/11/2026 | TikTok | T2 gato (fonte de água) e banho (Agendador) | — | NÃO PUBLICOU (conta banida) | sem leitura; E234 aberta
+12/11/2026 | FB/IG | reaproveita o gato idoso (44 s) | mesmo gancho | agendado FB 14:00 / IG 15:00 | leitura 13/11
