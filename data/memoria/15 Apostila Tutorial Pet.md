@@ -90,3 +90,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 12/11 15:54 VSL8 v2e: Allan pediu mais sonoplastia pontuando momentos-chave e musica bem baixinha (party-music) entrando so em "Calma" (o2-0,4 s), ducking sob a voz; comeco so efeitos.
 
 - 12/11 16:02 VSL8 v2f: Allan pediu musica de SUSPENSE na abertura (ate o "Calma"), depois party-music animada; efeitos continuam pontuando. Suspense sintetizado (drone+tremolo+batida) pois bancos nao baixam pelo shell.
+
+- 12/11 16:10 VSL8 v2g: Allan mandou pesquisar faixa de suspense real (a sintetizada nao serviu). Mixkit (licenca livre) baixa do shell via assets.mixkit.co/active_storage/sfx/<id>/<id>-preview.mp3 (id pegando no JS da pagina pelo navegador embutido); usada "Suspense mystery bass" (id 685), salva em biblioteca/musica. Outras boas: 681 synth suspense (3:33), 688 action suspense, 2510 ambience.
