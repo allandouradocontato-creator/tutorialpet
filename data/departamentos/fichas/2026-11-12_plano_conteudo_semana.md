@@ -8,3 +8,9 @@
 - Ações: E238 (limpar reprovados no ar e reenfileirar), E239 (Pet Celebridade 19/11 com fonte legível).
 - Pedido ao Allan: nenhum.
 - Status: aprovada pelo Diretor
+
+## Adendo 12/11 12:30 — pedido do Allan (artigo beleza x adoção)
+- Rascunho: data/content_writer/rascunhos/voce-adotaria-um-cachorro-feio-a-beleza-que-nao-aparece-na-foto.md (pilar adocao, ~1400 palavras, tom poético, paralelo explícito com adoção de crianças e adolescentes, sem caso individual nem menor identificado). Tema em fila_temas.yaml (rascunho_pronto).
+- Fontes lidas: pesquisa Opinion Box/GoldeN/IMVC 30/06/2026 (percentuais são de instituições, dito no texto); CNJ só por manchete (página bloqueou leitura), por isso o texto não traz número de criança, só a afirmação das manchetes. Conferente: reler as 2 páginas do CNJ antes de aprovar.
+- Foto: a foto do "cachorro feio" citada pelo Allan não foi localizada no repo. Capa e fotos do corpo: cachorro sem raça definida, alegre e bem cuidado (regra 29), foto_ilustrativa: true; nada de cachorro triste/de abrigo.
+- Não publiquei nem aprovei em blog_aprovados.txt: aguarda Conferente/Curador. Sem alegação veterinária.
