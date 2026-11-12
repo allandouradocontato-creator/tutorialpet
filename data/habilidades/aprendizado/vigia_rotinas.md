@@ -87,3 +87,5 @@
 2026-11-11 15:25 | ronda 15:19: tudo verde exceto TikTok banido (já com o Allan) | fechei issues 45/46/47 (2 rodadas verdes da fábrica e blog 1/1) | conferir 19:19 (E34) | mantém
 2026-11-11 19:25 | ronda sem falha nova; só conferência (E34) | 0 correções, 1 pendência Allan (TikTok banido) | n/a | mantém
 2026-11-12 07:35 | blog 0/1 às 07:20; TikTok banido segue | promovi quais-sao-os-documentos-necessarios-para-adotar-um-pet (9a66394), run 43199653503 em andamento | conferir 11:19 (E34) | mantém
+
+2026-11-12 11:25 | ronda 11:19: blog 1/1 (promoção das 07:19 virou artigo, run 43199653503 verde); tudo verde exceto TikTok banido | 0 correções, 1 pendência Allan já notificada | sim | mantém
