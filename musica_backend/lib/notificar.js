@@ -54,4 +54,22 @@ export async function enviarEmailEntrega(env, p) {
   if (!r.ok) return { ok: false, motivo: `brevo ${r.status}: ${(await r.text()).slice(0, 160)}` };
   return { ok: true };
 }
+export async function enviarEmailLetra(env, p) {
+  if (!env.BREVO_API_KEY) return { ok: false, motivo: "BREVO_API_KEY ausente" };
+  const link = linkEntrega(env, p.id);
+  const nome = p.form.nomePet;
+  const html = `<div style="font-family:Arial,sans-serif;max-width:520px;margin:auto;color:#222">
+<h2 style="color:#e8590c">Pagamento confirmado! 🐾</h2>
+<p>Agora é a hora de criar a letra da música do ${esc(nome)}. Você pode gerar a letra, pedir ajustes ou editar o texto <b>quantas vezes quiser</b>, até ficar do seu jeito. Quando aprovar, a gente transforma em música.</p>
+<p style="text-align:center;margin:28px 0"><a href="${link}" style="background:#e8590c;color:#fff;padding:14px 26px;border-radius:10px;text-decoration:none;font-weight:bold">Criar a letra do ${esc(nome)}</a></p>
+<p style="font-size:13px;color:#666">Se o botão não abrir, copie este link: ${link}</p></div>`;
+  const r = await fetch("https://api.brevo.com/v3/smtp/email", {
+    method: "POST",
+    headers: { "api-key": env.BREVO_API_KEY, "content-type": "application/json", accept: "application/json" },
+    body: JSON.stringify({ sender: { name: "Tutorial Pet", email: env.BREVO_SENDER_EMAIL || "contato@tutorialpet.com.br" }, to: [{ email: p.form.email, name: p.form.tutor || undefined }],
+      subject: `Pagamento confirmado: crie a letra da música do ${nome} 🎶`, htmlContent: html, tags: ["musica-do-seu-pet", "letra"] }),
+  });
+  if (!r.ok) return { ok: false, motivo: `brevo ${r.status}: ${(await r.text()).slice(0, 160)}` };
+  return { ok: true };
+}
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));

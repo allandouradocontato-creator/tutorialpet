@@ -1,5 +1,6 @@
 // Teste simulado do motor (sem chaves reais): KV em memória + fetch falso de fal/Mureka/Brevo/ntfy.
 // Prova a máquina de estados: formulário -> webhook Kiwify assinado -> geração -> conversão -> entrega, e o fallback entre provedores.
+import { onRequestPost as letraPost } from "../../functions/api/musica/letra.js";
 import { onRequestPost as pedidoPost } from "../../functions/api/musica/pedido.js";
 import { onRequestPost as kiwifyPost } from "../../functions/api/musica/kiwify.js";
 import { onRequestGet as entregaGet } from "../../functions/api/musica/entrega.js";
@@ -56,7 +57,21 @@ async function fluxo(nome, bump) {
   assert.equal(ok.status, 200); await esperar();
   const dup = await (await kiwifyPost({ request: post("https://x/api/musica/kiwify?signature=" + sig, raw), env, waitUntil })).json();
   assert.ok(dup.ignorado, "reenvio do mesmo pedido é ignorado");
+  await aprovarLetra(env, r.id, waitUntil); await esperar();
   return r.id;
+}
+// Depois do pagamento o pedido fica em "letra": o cliente gera, ajusta e aprova a letra; só então a música é criada.
+async function aprovarLetra(envX, id, wu) {
+  const ve = await (await entregaGet({ request: new Request("https://x/api/musica/entrega?id=" + id), env: envX })).json();
+  assert.equal(ve.estado, "letra", "após o pagamento o pedido espera a letra");
+  const g = await (await letraPost({ request: post("https://x/api/musica/letra", { id, acao: "gerar" }), env: envX, waitUntil: wu })).json();
+  assert.ok(g.ok && g.letra, "letra gerada");
+  const g2 = await (await letraPost({ request: post("https://x/api/musica/letra", { id, acao: "gerar", ajuste: "fale da bolinha" }), env: envX, waitUntil: wu })).json();
+  assert.ok(g2.ok, "pode pedir ajuste quantas vezes quiser");
+  const ap = await (await letraPost({ request: post("https://x/api/musica/letra", { id, acao: "aprovar", letra: g2.letra, titulo: g2.titulo }), env: envX, waitUntil: wu })).json();
+  assert.ok(ap.ok, "letra aprovada: " + JSON.stringify(ap));
+  const de = await (await letraPost({ request: post("https://x/api/musica/letra", { id, acao: "gerar" }), env: envX, waitUntil: wu })).json();
+  assert.equal(de.ok, false, "depois de aprovada não gera mais");
 }
 const ver = async (id) => (await (await entregaGet({ request: new Request("https://x/api/musica/entrega?id=" + id), env })).json());
 
@@ -125,6 +140,7 @@ assert.equal(h2.ok, true); console.log("OK 7: história com perda/doença/reenco
   const r = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Thor", especie: "cachorro", manias: ["pula no sofá"], estilo: "pop alegre", voz: "masculina", clima: "animada", email: "t@exemplo.com", whatsapp: "85999990000" }), env: envDemo, waitUntil: wu })).json();
   assert.equal(r.ok, true); assert.match(r.checkoutUrl, /^\/musica-do-seu-pet\/entrega\//);
   while (pd.length) await pd.shift();
+  await aprovarLetra(envDemo, r.id, wu); while (pd.length) await pd.shift();
   const v8 = await (await entregaGet({ request: new Request("https://x/api/musica/entrega?id=" + r.id), env: envDemo })).json();
   assert.equal(v8.estado, "entregue", JSON.stringify(v8).slice(0, 300));
   const d8 = await mp3Get({ request: new Request(`https://x/api/musica/mp3?id=${r.id}&n=1`), env: envDemo });

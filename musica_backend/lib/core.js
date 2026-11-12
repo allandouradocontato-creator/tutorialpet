@@ -1,12 +1,12 @@
-// Pedido e entrega. Estados: aguardando_pagamento -> pago -> gerando -> entregue | falhou.
+// Pedido e entrega. Estados: aguardando_pagamento -> letra (pago; cliente gera/ajusta/aprova a letra) -> pago -> gerando -> entregue | falhou.
 // Cada pedido tem 1 ou 2 "versões" (a 2ª é o order bump: outro estilo). O avanço é idempotente e pode ser chamado por
 // webhook da Kiwify, webhook do fal, página de entrega (consulta) ou tick agendado (GitHub Actions).
 import { novoId, limpar, slugArquivo, hmacHex, iguais, linkEntrega, baseUrl } from "./util.js";
 import { proibidoNoCampo } from "./filtro.js";
 import { ESTILOS, CLIMAS, VOZES, lista } from "./estilos.js";
-import { gerarLetra } from "./letra.js";
+import { gerarLetra, validarLetraEditada } from "./letra.js";
 import { PROVEDORES, cadeia, pedidoPadrao } from "./provedores/index.js";
-import { alertar, enviarEmailEntrega, mensagemWhatsApp } from "./notificar.js";
+import { alertar, enviarEmailEntrega, enviarEmailLetra, mensagemWhatsApp } from "./notificar.js";
 
 const MIN = 60 * 1000;
 export const LIMITES = { tempoProvedor: 7 * MIN, tempoConversao: 15 * MIN, esperaRetry: 10 * MIN, rodadasMax: 3 };
@@ -24,7 +24,8 @@ export async function salvar(env, p) {
 const chaveMp3 = (id, n) => `mp3:${id}:${n}`;
 
 // ---------- criação do pedido (formulário) ----------
-export function validarFormulario(b) {
+export function validarFormulario(b, opts = {}) {
+  const exigirContato = opts.contato !== false;
   const erro = (campo, msg) => ({ ok: false, campo, erro: msg });
   const nomePet = limpar(b.nomePet, 30);
   if (nomePet.length < 2) return erro("nomePet", "Conte o nome de quem vai ganhar a música.");
@@ -43,9 +44,9 @@ export function validarFormulario(b) {
   const clima = String(b.clima || "");
   if (!CLIMAS[clima]) return erro("clima", "Escolha o clima.");
   const email = limpar(b.email, 120).toLowerCase();
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return erro("email", "Informe um e-mail válido para receber a música.");
+  if (exigirContato && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return erro("email", "Informe um e-mail válido para receber a música.");
   const whatsapp = String(b.whatsapp || "").replace(/\D/g, "");
-  if (whatsapp.length < 10 || whatsapp.length > 13) return erro("whatsapp", "Informe seu WhatsApp com DDD.");
+  if (exigirContato && (whatsapp.length < 10 || whatsapp.length > 13)) return erro("whatsapp", "Informe seu WhatsApp com DDD.");
   const form = { nomePet, especie, raca: limpar(b.raca, 40), manias, historia, tutor: limpar(b.tutor, 30), estilo, estilo2, voz, clima, email, whatsapp };
   for (const t of [nomePet, form.raca, form.tutor, historia, ...manias]) {
     if (t && proibidoNoCampo(t)) return erro("manias", "Use palavras carinhosas ou divertidas (sem nomes de artistas ou termos ofensivos).");
@@ -63,10 +64,8 @@ export async function criarPedido(env, body, ctx) {
   if (String(env.MUSICA_DEMO || "") === "1") {
     // MODO DEMONSTRAÇÃO (só prévia): pula a Kiwify, marca como pago e já gera (música de amostra) para ver o fluxo inteiro.
     p.versoes = [novaVersao(1, p.form.estilo)];
-    p.estado = "pago"; p.demo = true;
+    p.estado = "letra"; p.demo = true;
     await salvar(env, p);
-    const tarefa = avancar(env, p.id, ctx);
-    if (ctx?.waitUntil) ctx.waitUntil(tarefa); else await tarefa;
     return { ok: true, id: p.id, checkoutUrl: `/musica-do-seu-pet/entrega/${p.id}`, demo: true };
   }
   const base = env.KIWIFY_CHECKOUT_URL;
@@ -115,11 +114,10 @@ export async function aplicarPagamento(env, payload, ctx) {
   const e1 = p.form.estilo;
   p.versoes = [novaVersao(1, e1)];
   if (p.bump) p.versoes.push(novaVersao(2, p.form.estilo2 && p.form.estilo2 !== e1 ? p.form.estilo2 : PROXIMO_ESTILO[e1] || "pop alegre"));
-  p.estado = "pago";
+  p.estado = "letra"; // pago: o cliente agora gera/ajusta/aprova a letra e só então a música é criada
   await salvar(env, p);
   if (orderId) await env.PEDIDOS.put("k:" + orderId, p.id, { expirationTtl: 60 * 60 * 24 * 90 });
-  const tarefa = avancar(env, p.id, ctx);
-  if (ctx?.waitUntil) ctx.waitUntil(tarefa); else await tarefa;
+  await avisarLetra(env, p);
   return { ok: true, id: p.id };
 }
 
@@ -150,6 +148,9 @@ async function avancarVersao(env, p, v, ctx) {
   if (v.estado === "pendente") {
     if (!provs.length) { v.estado = "falhou"; v.tentativas.push("nenhum provedor com chave configurada"); return; }
     const pad = pedidoPadrao(p.form, v.estilo);
+    if (!v.letra && p.letraAprovada) {
+      v.letra = p.letraAprovada.letra; v.titulo = p.letraAprovada.titulo; v.origemLetra = "aprovada-pelo-cliente";
+    }
     if (!v.letra) {
       const l = await gerarLetra(pad, env);
       v.letra = l.letra; v.titulo = l.titulo; v.origemLetra = l.origem;
@@ -299,6 +300,7 @@ export async function visaoPublica(env, id) {
   const nome = p.form.nomePet;
   return {
     id: p.id, estado: p.estado, nomePet: nome,
+    rascunho: p.estado === "letra" ? p.rascunho : undefined,
     versoes: p.versoes.map((v) => ({
       n: v.n, estilo: v.estilo, estado: v.estado, titulo: v.titulo || `A música do ${nome}`, letra: v.estado === "entregue" ? v.letra : undefined,
       mp3Url: v.estado === "entregue" ? `/api/musica/mp3?id=${p.id}&n=${v.n}` : undefined,
@@ -328,4 +330,46 @@ export async function entregarMp3(env, request, id, n, baixarArq) {
     return new Response(buf.slice(ini, fim + 1), { status: 206, headers: { ...h, "content-range": `bytes ${ini}-${fim}/${buf.byteLength}`, "content-length": String(fim - ini + 1) } });
   }
   return new Response(buf, { headers: { ...h, "content-length": String(buf.byteLength) } });
+}
+
+
+// ---------- letra depois do pagamento (decisão do Allan, 12/11/2026) ----------
+// O cliente paga primeiro (compra imediata). Depois ele gera a letra, pede ajustes ou edita à mão quantas vezes quiser e só
+// então aprova; a música é gerada em cima da letra aprovada. Isso é a garantia que dá segurança para pagar.
+async function avisarLetra(env, p) {
+  let r; try { r = await enviarEmailLetra(env, p); } catch (e) { r = { ok: false, motivo: e.message }; }
+  if (!r.ok) await alertar(env, "Música do Pet: e-mail da letra não enviado", `Pedido ${p.id}: ${r.motivo}. Link: ${linkEntrega(env, p.id)}`);
+}
+export const LIMITE_LETRAS_POR_PEDIDO = 40;
+
+export async function gerarLetraPedido(env, id, body) {
+  const p = await getPedido(env, id);
+  if (!p) return { ok: false, erro: "Pedido não encontrado." };
+  if (p.estado !== "letra") return { ok: false, erro: p.estado === "aguardando_pagamento" ? "O pagamento ainda não foi confirmado." : "A letra deste pedido já foi aprovada." };
+  p.letrasGeradas = p.letrasGeradas || 0;
+  if (p.letrasGeradas >= LIMITE_LETRAS_POR_PEDIDO) return { ok: false, erro: "Chegamos ao limite de versões da letra deste pedido. Edite o texto direto ou fale com a gente no WhatsApp." };
+  const ajuste = limpar(body?.ajuste, 400);
+  if (ajuste && proibidoNoCampo(ajuste)) return { ok: false, erro: "Use palavras carinhosas ou divertidas no pedido de ajuste." };
+  const anterior = body?.anterior ? String(body.anterior).replace(/\r/g, "").slice(0, 3800) : (p.rascunho?.letra || "");
+  p.letrasGeradas++;
+  await salvar(env, p);
+  const l = await gerarLetra(pedidoPadrao(p.form, p.form.estilo), env, { ajuste, anterior: ajuste ? anterior : "" });
+  const q = await getPedido(env, id);
+  q.rascunho = { titulo: l.titulo, letra: l.letra };
+  await salvar(env, q);
+  return { ok: true, titulo: l.titulo, letra: l.letra, restantes: Math.max(0, LIMITE_LETRAS_POR_PEDIDO - q.letrasGeradas) };
+}
+
+export async function aprovarLetraPedido(env, id, body, ctx) {
+  const p = await getPedido(env, id);
+  if (!p) return { ok: false, erro: "Pedido não encontrado." };
+  if (p.estado !== "letra") return { ok: false, erro: "A letra deste pedido já foi aprovada." };
+  const le = validarLetraEditada(body?.letra);
+  if (!le.ok) return le;
+  p.letraAprovada = { letra: le.letra, titulo: limpar(body?.titulo, 80) || p.rascunho?.titulo || `A música do ${p.form.nomePet}` };
+  p.estado = "pago";
+  await salvar(env, p);
+  const tarefa = avancar(env, p.id, ctx);
+  if (ctx?.waitUntil) ctx.waitUntil(tarefa); else await tarefa;
+  return { ok: true };
 }

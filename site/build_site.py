@@ -825,6 +825,7 @@ MUSICA_ENTREGA_JS = r"""
       });
       box.innerHTML=h; return true;
     }
+    if(j.estado==='letra'){ return desenharLetra(j); }
     if(j.estado==='falhou'){
       box.innerHTML='<h1>Estamos finalizando a música do '+esc(j.nomePet)+'</h1><p>Ela está sendo refeita automaticamente e chega aqui e no seu e-mail em instantes. Pode deixar esta página aberta.</p>'+
         '<div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span></div>'; return false;
@@ -836,10 +837,44 @@ MUSICA_ENTREGA_JS = r"""
     box.innerHTML='<h1>Estamos criando a música do '+esc(j.nomePet)+' 🎶</h1><p>Leva só alguns minutinhos. Esta página atualiza sozinha quando ficar pronta.</p>'+
       '<div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span></div>'; return false;
   }
+  var tit='', travado=false;
+  function desenharLetra(j){
+    if(document.getElementById('letraEd')){return 'espera'}
+    box.innerHTML='<h1>Pagamento confirmado! 🎉 Vamos criar a letra do '+esc(j.nomePet)+'</h1>'+
+      '<p>Leia a letra, edite o que quiser direto no texto ou peça uma nova versão. <b>Você pode modificar a letra quantas vezes quiser</b>. Quando ela estiver do seu jeito, é só aprovar e a gente transforma em música.</p>'+
+      '<textarea id="letraEd" rows="16" maxlength="3800" style="width:100%" placeholder="Escrevendo a letra..."></textarea>'+
+      '<label for="ajuste" style="display:block;margin-top:14px">Quer mudar alguma coisa? <small>(opcional)</small></label>'+
+      '<input id="ajuste" type="text" maxlength="400" style="width:100%" placeholder="Ex.: fale que ele adora a bolinha, deixe mais divertida, cite meus filhos">'+
+      '<div class="acoes" style="margin-top:14px"><button class="btn" id="refazer" type="button" style="background:rgba(255,255,255,.12);box-shadow:none">🔁 Refazer a letra</button>'+
+      '<button class="btn" id="aprovar" type="button">✅ Amei! Criar a minha música</button></div><div id="msgL" role="alert"></div>';
+    var ed=document.getElementById('letraEd'),aj=document.getElementById('ajuste'),rf=document.getElementById('refazer'),ap=document.getElementById('aprovar'),mg=document.getElementById('msgL');
+    function trava(on){rf.disabled=ap.disabled=on;ed.disabled=on}
+    function gerar(ajuste){
+      trava(true); mg.textContent=''; var rot=rf.textContent; rf.textContent='Escrevendo a letra...';
+      fetch('/api/musica/letra',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({id:id,acao:'gerar',ajuste:ajuste||'',anterior:ed.value})})
+        .then(function(r){return r.json()}).then(function(r){rf.textContent=rot;trava(false);
+          if(!r.ok){mg.textContent=r.erro||'Não foi possível gerar. Tente de novo.';return}
+          tit=r.titulo||''; ed.value=r.letra; aj.value='';
+        }).catch(function(){rf.textContent=rot;trava(false);mg.textContent='Sem conexão. Tente de novo.'});
+    }
+    if(j.rascunho&&j.rascunho.letra){ed.value=j.rascunho.letra;tit=j.rascunho.titulo||''}else{gerar('')}
+    rf.addEventListener('click',function(){gerar(aj.value)});
+    ap.addEventListener('click',function(){
+      if(ed.value.trim().length<120){mg.textContent='A letra está muito curta.';return}
+      trava(true); ap.textContent='Criando a sua música...';
+      fetch('/api/musica/letra',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({id:id,acao:'aprovar',letra:ed.value,titulo:tit})})
+        .then(function(r){return r.json()}).then(function(r){
+          if(!r.ok){trava(false);ap.textContent='✅ Amei! Criar a minha música';mg.textContent=r.erro||'Não foi possível continuar.';return}
+          tentativas=0; box.innerHTML='<h1>Estamos criando a música do '+esc(j.nomePet)+' 🎶</h1><p>Leva só alguns minutinhos. Esta página atualiza sozinha quando ficar pronta.</p><div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span></div>';
+          setTimeout(checar,4000);
+        }).catch(function(){trava(false);ap.textContent='✅ Amei! Criar a minha música';mg.textContent='Sem conexão. Tente de novo.'});
+    });
+    return 'espera';
+  }
   function checar(){
     fetch('/api/musica/entrega?id='+encodeURIComponent(id),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
       if(j.ok===false){box.innerHTML='<h1>Não encontramos este pedido</h1><p>Confira o link que chegou no seu e-mail.</p>';return}
-      if(!desenhar(j)&&tentativas++<240) setTimeout(checar,5000);
+      var d=desenhar(j); if(d==='espera')return; if(!d&&tentativas++<240) setTimeout(checar,5000);
     }).catch(function(){ if(tentativas++<240) setTimeout(checar,8000)});
   }
   checar();
@@ -882,7 +917,6 @@ def build_musica_page(site: dict, pilares: dict) -> str:
 <label>Estilo da música</label><div class="chips">{estilos_chip}</div>
 <label>Voz</label><div class="chips"><label class="chip"><input type="radio" name="voz" value="feminina" checked><span>Feminina</span></label><label class="chip"><input type="radio" name="voz" value="masculina"><span>Masculina</span></label></div>
 <label>Clima</label><div class="chips"><label class="chip"><input type="radio" name="clima" value="animada" checked><span>Animada</span></label><label class="chip"><input type="radio" name="clima" value="emocionante"><span>Emocionante</span></label><label class="chip"><input type="radio" name="clima" value="homenagem"><span>Homenagem</span></label></div>
-<label for="estilo2">Estilo da 2ª versão <small>(se você adicionar no pagamento)</small></label><select id="estilo2" name="estilo2">{_opcoes_estilo(esc, "", "Escolho um para mim")}</select>
 <div class="campo"><div><label for="whatsapp">Seu WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" required placeholder="(85) 90000-0000"></div>
 <div><label for="email">Seu e-mail <small>(a música chega aqui)</small></label><input id="email" name="email" type="email" required placeholder="voce@email.com"></div></div>
 <div class="hp" aria-hidden="true"><label>Não preencha <input name="site" type="text" tabindex="-1" autocomplete="off"></label></div>
