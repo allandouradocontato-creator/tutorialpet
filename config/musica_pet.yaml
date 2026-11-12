@@ -3,7 +3,7 @@
 # O link do checkout NÃO fica aqui: é a variável de ambiente KIWIFY_CHECKOUT_URL no Cloudflare Pages (o formulário recebe o link do servidor).
 preco: "R$ 29,90"
 titulo: "A música do seu pet, com o nome dele no refrão"
-subtitulo: "Conte as manias do seu melhor amigo e receba, em poucos minutos, uma música feita só para ele. Para ouvir, baixar em MP3 e compartilhar com quem ama o seu amiguinho."
+subtitulo: "Conte a sua história, a gente canta pra você. Receba, em poucos minutos, uma música feita só para o seu melhor amigo (ou para quem você ama), com o nome dele no refrão. Para ouvir, baixar em MP3 e compartilhar."
 meta_description: "Uma música personalizada com o nome e as manias do seu pet, pronta em poucos minutos e entregue em MP3. Preencha o formulário e ouça a do seu amiguinho."
 botao_topo: "Quero a música do meu pet"
 botao_form: "Ir para o pagamento seguro"
