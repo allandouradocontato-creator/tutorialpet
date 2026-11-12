@@ -145,7 +145,7 @@ sh(f'ffmpeg -v error -y -i {W}/voz9.wav -i {O}/vsl9_sfx_SEM_voz.wav -i {W}/music
 m=sh(f'ffmpeg -hide_banner -i {W}/mix9_raw.wav -af loudnorm=I=-14:TP=-1.5:LRA=7:print_format=json -f null - 2>&1')
 mj=json.loads(m[m.rindex('{'):m.rindex('}')+1])
 sh(f'ffmpeg -v error -y -i {W}/mix9_raw.wav -af "loudnorm=I=-14:TP=-1.5:LRA=7:measured_I={mj["input_i"]}:measured_TP={mj["input_tp"]}:measured_LRA={mj["input_lra"]}:measured_thresh={mj["input_thresh"]}:offset={mj["target_offset"]}:linear=true" -ar 44100 {W}/mix9.wav')
-cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v3_1080.mp4'
+cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v4_1080.mp4'
 sh(cmd)
-sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v3_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v3_leve.mp4')
+sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v4_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v4_leve.mp4')
 print('ok')

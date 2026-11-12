@@ -32,3 +32,6 @@ Scripts: data/vsl/natasha/scripts/vsl9_build.py e vsl9_final.py.
 - Fala F9 agora "…e ele está tranquilo." (só a frase final regravada no ElevenLabs e emendada no bloco 2; original guardado como _ORIGINAL_dormindo). Imagem mantida (dorme tranquilo e acorda feliz).
 - Música: suspense Mixkit (a mesma da VSL8) do início até "Mas olha de novo a câmera" (22,5 s); party-music gr0za do produto ao fim, com sidechain sob a voz.
 - Sonoplastia extra: whoosh nas trocas de cena (4,45 / 8,45 / 22,55 / B2 / 4 cortes do F8 / F9 / entrada da Natasha), notificação do celular no "é o vizinho", sinos quando ele acorda feliz. Total 59,6 s, −14,5 LUFS.
+
+## v4 (12/11 20h50)
+- F4 tela dividida: cena de cima trocada (homem relaxado bebendo drink -> vizinho incomodado/preocupado ao celular, Pexels 6930959, trecho 0-2,85 s sem a parte em que ele bebe café). Cena de baixo mantida. Resto igual à v3.
