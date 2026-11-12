@@ -1,7 +1,8 @@
 # Rádio Tutorial Pet — músicas das raças (letras v1, aguardando aprovação do Allan)
+Regra do Allan (12/11/2026): o ESTILO segue o temperamento da raça (ex.: Rottweiler = rock, Shih Tzu = pop diva; variar entre pop, rock e MPB). Nos prompts da ferramenta de música NÃO citar artistas.
 Regra do Allan (12/11/2026): poesia que pega 2-3 características marcantes de cada raça; nada descritivo/científico. Sem a palavra "cão".
 
-## 1. Poodle — pop elegante
+## 1. Poodle — pop sofisticado e teatral (temperamento: esperto, vaidoso, showman)
 [Verse 1]
 Cada cacho é um pompom de nuvem
 Pisa leve como quem dança
@@ -18,7 +19,7 @@ Se eu finjo que esqueci, ele finge que crê
 Cabeça de gênio, laço de princesa
 Um showzinho de patas só pra mim ver
 
-## 2. Shih Tzu — pop delicado
+## 2. Shih Tzu — pop dançante de diva, estilo eletropop teatral (temperamento: realeza mimada, dramático)
 [Verse 1]
 Dizem que morava em palácio de seda
 Que o imperador o escolhia primeiro
@@ -35,7 +36,7 @@ Cochila em cima do meu pé
 Nunca rugiu, mas governa inteiro
 O reino que cabe no meu coração
 
-## 3. Doberman — rock
+## 3. Doberman — rock elegante e tenso (temperamento: atlético, sentinela, sensível por dentro)
 [Verse 1]
 Silhueta de veludo na porta da noite
 Olhar que escuta até o silêncio
@@ -52,7 +53,7 @@ Quer colo grande, quer cobertor
 Pensa que é gigante de bolso
 Cabe todo no meu amor
 
-## 4. Pastor Alemão — sertanejo
+## 4. Pastor Alemão — sertanejo raiz/viola (temperamento: leal, trabalhador, companheiro de lida)
 [Verse 1]
 Orelha em pé, ouvindo o que o vento disse
 Olho firme no portão
@@ -69,7 +70,7 @@ Trabalha sério, mas brinca também
 Quando o dia acaba, deita aos meus pés
 E o mundo inteiro fica bem
 
-## 5. Husky Siberiano — folk eletrônico
+## 5. Husky Siberiano — rock alternativo/indie com guitarras abertas (temperamento: livre, fugitivo, cantor de uivo)
 [Verse 1]
 Olhos de gelo, coração de fogueira
 Uiva pra lua como quem canta
@@ -86,7 +87,7 @@ Discute, reclama, vira cantor
 O trenó é a sala, a estrada é o corredor
 E a neve é só saudade que ele guardou
 
-## 6. Pequinês — bossa nova
+## 6. Pequinês — bossa nova (temperamento: nobre, lento, altivo)
 [Verse 1]
 Pequeno imperador de passo lento
 Caminha como quem pisa em tapete vermelho
@@ -103,7 +104,7 @@ Quem entra na sala pede licença
 Sonha com palácios, dorme em almofadas
 E acorda sendo a minha doce sentença
 
-## 7. Boxer — forró
+## 7. Boxer — forró animado (temperamento: palhaço, energia, festa)
 [Verse 1]
 Chegou rebolando, o corpo todo balança
 Patas de luva, soco de carinho
@@ -120,7 +121,7 @@ Faz careta e vira meu astro
 A vida com ele é festa de santo
 E o rabinho curto bate o compasso
 
-## 8. Rottweiler — MPB com pegada
+## 8. Rottweiler — rock pesado com refrão forte (temperamento: força, peso, guardião)
 [Verse 1]
 Gigante de peito largo e passo firme
 Mas se esconde atrás de um travesseiro
@@ -137,7 +138,7 @@ Tem medo de aspirador e de trovão
 Toda a coragem do mundo ele guarda
 Pra quem ele ama de coração
 
-## 9. Spitz Alemão (Lulu da Pomerânia) — pop infantil
+## 9. Spitz Alemão (Lulu da Pomerânia) — pop fofo e saltitante (temperamento: bolinha de pelo, corajoso, agitado)
 [Verse 1]
 Bolinha de nuvem com cara de raposa
 Sai pulando, parece que voa
@@ -154,7 +155,7 @@ Passeia na rua como celebridade
 Se alguém chega perto, já vem avisando
 Que o dono dele é a sua felicidade
 
-## 10. Golden Retriever — MPB solar
+## 10. Golden Retriever — MPB solar com violão (temperamento: doce, amigo de todos, alegre)
 [Verse 1]
 Sorriso de sol entrando pela porta
 Traz a bolinha como quem traz um presente
