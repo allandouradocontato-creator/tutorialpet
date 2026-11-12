@@ -1,0 +1,43 @@
+# Página /musica-do-seu-pet (MVP "Música do Seu Pet"). Copy aprovada pelo Allan antes de publicar: toda frase empurra para a compra.
+# Regras da marca: nunca a palavra "cão"; pet fofo e alegre; nenhuma frase que crie objeção.
+# O link do checkout NÃO fica aqui: é a variável de ambiente KIWIFY_CHECKOUT_URL no Cloudflare Pages (o formulário recebe o link do servidor).
+preco: "R$ 19,90"
+titulo: "A música do seu pet, com o nome dele no refrão"
+subtitulo: "Por R$ 19,90 você leva DUAS versões: uma música feita só para o seu melhor amigo (ou para quem você ama), com o nome dele no refrão, e uma segunda versão se quiser outro estilo. Para ouvir, baixar em MP3 e compartilhar."
+meta_description: "Uma música personalizada com o nome e as manias do seu pet, pronta em poucos minutos e entregue em MP3. Preencha o formulário e ouça a do seu amiguinho."
+botao_topo: "Quero a música do meu pet"
+botao_form: "Ir para o pagamento seguro"
+amostras:   # só aparece quem tem arquivo em site/musica_assets/ (o Thor entra assim que o motor gerar a amostra)
+  - id: mel
+    nome: "Mel"
+    legenda: "Mel, a cachorrinha que não para de pular"
+    arquivo: "amostra-mel.mp3"
+  - id: thor
+    nome: "Thor"
+    legenda: "Thor, meu raio de sol"
+    arquivo: "amostra-thor.mp3"
+clipes:   # vídeos de exemplo (arquivo + capa em site/musica_assets/)
+  - id: shih-tzu
+    legenda: "Shih Tzu, pequeno leão de pelúcia"
+    arquivo: "clipe-shih-tzu.mp4"
+    capa: "clipe-shih-tzu.jpg"
+passos:
+  - ["1", "Conte sobre o seu pet", "Nome, 3 manias e o estilo que combina com ele."]
+  - ["2", "Faça o pagamento seguro", "Pix ou cartão, em poucos cliques."]
+  - ["3", "Aprove a letra e receba a música", "Gere a letra e modifique quantas vezes quiser. Aprovou? Em poucos minutos o MP3 chega no seu e-mail e na página."]
+beneficios:
+  - "Duas versões da sua música pelo mesmo preço: escolha a sua favorita"
+  - "O nome do seu pet cantado no refrão"
+  - "As manias dele viram versos divertidos"
+  - "Seis estilos: pop alegre, sertanejo, forró, MPB, rock e infantil"
+  - "MP3 para baixar, enviar no WhatsApp e postar nas redes"
+  - "Letra sob medida: modifique quantas vezes quiser até ficar perfeita"
+  - "Letra completa para cantar junto"
+faq:
+  - ["Em quanto tempo a música chega?", "Em poucos minutos depois de você aprovar a letra. Você recebe o link no e-mail e a música também aparece na página de entrega."]
+  - ["Em que formato eu recebo?", "Em MP3, pronto para baixar, enviar no WhatsApp e postar nas redes. A letra vem junto."]
+  - ["Posso fazer para outro bichinho ou para uma pessoa?", "Pode! Cachorrinho, gatinho, outro bichinho ou até aquela pessoa especial: é só contar o nome e as manias de quem vai ganhar a música."]
+  - ["Posso mudar a letra quantas vezes quiser?", "Pode, e sem pagar a mais! Depois do pagamento você gera a letra, pede ajustes ou edita direto no texto, quantas vezes quiser. Só quando aprovar é que a gente cria a música."]
+  - ["E se eu não gostar da música?", "Sem problema: o seu pedido já inclui uma segunda versão, no estilo que você quiser, e você escolhe a favorita."]
+  - ["Dá para ter um clipe com a foto do meu pet?", "Dá! O clipe animado com a foto do seu pet é um extra, feito junto com a sua música. Fale com a gente depois da compra e combinamos."]
+selo: "🔒 Compra 100% segura · pagamento processado pela Kiwify · 🛡️ Garantia de 14 dias"
