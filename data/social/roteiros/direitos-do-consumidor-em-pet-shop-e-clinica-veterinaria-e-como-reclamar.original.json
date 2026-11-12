@@ -1,0 +1,40 @@
+{
+  "titulo_video": "Seu pet sofreu lesão no pet shop? Conheça seus direitos!",
+  "gancho_3s": "Problemas no pet shop ou clínica veterinária? Saiba o que diz a lei!",
+  "cenas": [
+    {
+      "narracao": "A relação com pet shops e clínicas é regida pelo Código de Defesa do Consumidor.",
+      "visual_busca_banco_livre": "dog grooming salon close up",
+      "texto_na_tela": "Direitos do Consumidor Pet"
+    },
+    {
+      "narracao": "Se o animal sofre uma lesão no banho ou falha médica, o estabelecimento deve reparar o prejuízo.",
+      "visual_busca_banco_livre": "injured dog resting veterinary",
+      "texto_na_tela": "Dever de reparar o dano"
+    },
+    {
+      "narracao": "Guarde notas fiscais, mensagens, fotos e laudos para comprovar o problema.",
+      "visual_busca_banco_livre": "dog looking confused close up",
+      "texto_na_tela": "Guarde todas as provas"
+    },
+    {
+      "narracao": "Em caso de problemas de saúde, procure sempre um médico-veterinário de confiança.",
+      "visual_busca_banco_livre": "dog at vet clinic examination",
+      "texto_na_tela": "Procure um veterinário"
+    },
+    {
+      "narracao": "Tente a via amigável ou recorra a órgãos oficiais como Procon e Consumidor.gov.",
+      "visual_busca_banco_livre": "sad dog waiting indoors",
+      "texto_na_tela": "Canais oficiais de reclamação"
+    }
+  ],
+  "chamada_final": "Conheça seus direitos e proteja seu melhor amigo!",
+  "hashtags": [
+    "#direitosdoconsumidor",
+    "#petshop",
+    "#medicinaveterinaria",
+    "#cuidadoscompets"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nProblemas no pet shop ou clínica veterinária? Saiba o que diz a lei!\n\n📖 Artigo completo: https://tutorialpet.com.br/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar\n\n#direitosdoconsumidor #petshop #medicinaveterinaria #cuidadoscompets",
+  "slug": "direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar"
+}
