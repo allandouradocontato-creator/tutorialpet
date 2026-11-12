@@ -194,3 +194,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 2026-11-12 | VSL8 v2: legenda ficou em cima do rosto do caramelo e da Carol | posicao so olhava caixas YOLO com faixa y 330-930 e sem conferir o resultado | variar a legenda (alto/baixo, ate y~1500), caixas de rosto/cabeca, e CONFERIR no contact sheet; Natasha entregue como foto parada em vez de falando
 
 - 2026-11-12 | HeyGen: novo rascunho abre em paisagem; antes de gerar, escolher Retrato + Preencher + Turbo 1080p. Upload de audio no HeyGen nao passa por file_upload (bloqueado): o Allan escolhe o arquivo na janela do Windows (caminho relativo a Downloads).
+
+- 2026-11-12 | Anuncio VSL8: pedi ao Allan para escolher o arquivo de 53 MB na janela do Windows, sem esgotar alternativas | seletor nativo pertence ao Chrome (tier read) e a extensao so envia ate 3,8 MB; devolvi a tarefa de primeira, contra a regra "nao me de tarefa" | antes de pedir qualquer acao ao Allan, esgotar alternativas (outra ferramenta, API, enviar em partes, outro caminho de upload) e so entao dizer o minimo que falta, com opcoes
