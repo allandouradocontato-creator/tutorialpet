@@ -15,3 +15,8 @@
 - Clipes de 2 s: tocar para frente e para trás (ping-pong) dá 4 s. Motor passou a aceitar 2 mídias (antes exigia 3) e a legenda ganhou faixa escura mais forte.
 - O seletor de arquivos do Windows e o file_upload do Chrome não são alcançáveis pelo Claude; baixar pelo Chrome cai na raiz de Downloads (precisa de acesso liberado a essa pasta).
 - fal.ai (conta do Allan já logada, saldo US$ 0,00 em 12/11/2026): Wan 2.2 A14B imagem-para-vídeo, rótulo "Commercial use", US$ 0,08 por segundo em 720p (US$ 0,04 em 480p); clipe de 5 s ≈ US$ 0,40. Aceita foto como arquivo ou link e quadro final opcional. A página avisa que o modelo sai do ar em 04/01/2027 (migrar para H3 Max Image to Video ou similar), então o backend deve poder trocar de modelo.
+
+## 12/11/2026 — Limites das rotas gratuitas de foto animada
+- Upsampler (Wan 2.2): cota diária grátis acabou após ~2 clipes de 2 s no modelo 14B; o 5B também bloqueou ("try again tomorrow"). Reinicia no dia seguinte.
+- Hugging Face ZeroGPU: Space zerogpu-aoti/wan2-2-fp8da-aoti = erro de execução ("No GPU available after 60s / ZeroGPU quota exceeded"); Space linoyts/wan2-2-i2v-rCM abre e aceita a foto (use a URL direta linoyts-wan2-2-i2v-rcm.hf.space, o iframe não aceita o arraste), mas retornou "Erro" 2x ao gerar (cota anônima/GPU).
+- Conclusão: grátis serve para demonstração (2 clipes/dia), não para produção. Produção = pago por clipe (fal.ai Wan 2.2 ~US$0,40 por 5 s, licença comercial) ou Pika Starter US$10/mês.
