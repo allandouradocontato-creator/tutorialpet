@@ -190,3 +190,7 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 12/11/2026: cena de câmera parada (Thor latindo sentado, treino) cai no portão de movimento (<2,5): aplicar punch-in em rampa (scale com t) nesses cortes; loudnorm de 1 passada ficou em -15 LUFS: usar 2 passadas com TP -1,5.
 
 - 2026-11-12 VSL8 v2 entregue sem a Dra. aparecer e sem o rosto do caramelo olhando pra camera: ANTES de entregar, conferir o contact sheet contra o VSL anterior (apresentadora + selo) e contra os takes que o Allan elogiou.
+
+- 2026-11-12 | VSL8 v2: legenda ficou em cima do rosto do caramelo e da Carol | posicao so olhava caixas YOLO com faixa y 330-930 e sem conferir o resultado | variar a legenda (alto/baixo, ate y~1500), caixas de rosto/cabeca, e CONFERIR no contact sheet; Natasha entregue como foto parada em vez de falando
+
+- 2026-11-12 | HeyGen: novo rascunho abre em paisagem; antes de gerar, escolher Retrato + Preencher + Turbo 1080p. Upload de audio no HeyGen nao passa por file_upload (bloqueado): o Allan escolhe o arquivo na janela do Windows (caminho relativo a Downloads).

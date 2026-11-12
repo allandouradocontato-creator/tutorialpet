@@ -80,3 +80,7 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - VSL8 v2 (12/11/2026): montagem em 2 etapas (`vsl8_build_v2_base.py` = cenas na linha do tempo de saída com pausa C3 de 0,7 s; `vsl8_build_v2_overlays.py` = legendas, REC, cartões, Natasha, botão, sonoplastia sem música, loudnorm 2 passadas). Resultado: 59,0 s, -14,6 LUFS, TP -1,4, movimento e congelamento ok.
 
 - 2026-11-12 13:01 Allan (VSL8 v2): faltou Dra. Natasha aparecendo falando (como VSL1) e o caramelo chorando olhando pra camera (esta no 1o video de 10 s, N1, ~4.3-5.2 s e ~8.5-9.2 s) -> v2b: N1 nesses trechos em 3 cortes + Natasha tela cheia no fecho + selo (foto/carimbo/CRMV) o video todo.
+
+- 2026-11-12 13:58 Allan (regra fixa, VSL): a legenda SEMPRE sai de cima do centro da ação (rosto de Thor/Carol/vizinho); variar posição alto/baixo por corte e conferir no contact sheet antes de entregar. Natasha tem que aparecer FALANDO (lip-sync), nao foto parada.
+
+- 2026-11-12 15:50 VSL8 v2c entregue: Natasha FALANDO (HeyGen Avatar Turbo 1080p vertical, voz do fecho 7 s, lip-sync ok, deslocamento 20 ms) em tela cheia no fecho (52,1-59 s), selo desce para o tronco nesse trecho (nao cobre o rosto); caramelo olhando pra camera (N1 ~4,3 e ~8,4 s) em 3 cortes; legendas variam alto/baixo fora dos rostos. 59,0 s, -14,5 LUFS, TP -1,4, sem trecho parado. Aguardando aprovacao do Allan antes de criar o anuncio (saldo R$ 239,21, conta antiga, so Reels).

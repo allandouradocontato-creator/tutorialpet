@@ -1,4 +1,4 @@
-import subprocess, json, sys
+import subprocess, json, sys, os
 sys.path.insert(0,'/home/claude/tutorialpet/data/vsl/natasha/scripts')
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
@@ -53,20 +53,29 @@ def add_png(path,x,y,t0,t1,extra='',float_=False):
     flt.append(f"{last}[{idx}:v]overlay={x}:{yy}:enable='between(t,{t0:.3f},{t1:.3f})'{extra}[v{idx}]"); last=f'[v{idx}]'
 CAPY=340; caphs=[]
 NT0=o3+7.3; NL=T-NT0
-sh(f'ffmpeg -v error -y -stream_loop 3 -i {SC}/natasha_full.mp4 -t {NL+0.2:.2f} -an -vf "scale=w=\'1080*(1+0.36*t/{NL:.2f})\':h=\'1920*(1+0.36*t/{NL:.2f})\':eval=frame,crop=1080:1920,fps=30,format=yuv420p" -c:v libx264 -crf 18 {W}/nat_pres.mp4')
+HG='/home/claude/vsl8/heygen/natasha_fala_heygen.mp4'
+if os.path.exists(HG):
+    # Natasha FALANDO (HeyGen Avatar, voz do fecho). O clipe comeca 0,15 s antes de NT0.
+    sh(f'ffmpeg -v error -y -i {HG} -an -vf "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p" -c:v libx264 -crf 18 {W}/nat_pres.mp4')
+    NTS=NT0-0.15
+else:
+    sh(f'ffmpeg -v error -y -stream_loop 3 -i {SC}/natasha_full.mp4 -t {NL+0.2:.2f} -an -vf "scale=w=\'1080*(1+0.36*t/{NL:.2f})\':h=\'1920*(1+0.36*t/{NL:.2f})\':eval=frame,crop=1080:1920,fps=30,format=yuv420p" -c:v libx264 -crf 18 {W}/nat_pres.mp4')
+    NTS=NT0
 inputs.append(f'-i {W}/nat_pres.mp4'); _pi=n; n+=1
-flt.append(f"[{_pi}:v]setpts=PTS+{NT0:.3f}/TB[nps]"); flt.append(f"{last}[nps]overlay=0:0:enable='gte(t,{NT0:.3f})'[vnp]"); last='[vnp]'
+flt.append(f"[{_pi}:v]setpts=PTS+{NTS:.3f}/TB[nps]"); flt.append(f"{last}[nps]overlay=0:0:enable='gte(t,{NTS:.3f})'[vnp]"); last='[vnp]'
 # selo da Dra. (como no VSL1): foto redonda + carimbo + nome/CRMV, no topo esquerdo, o video todo
 sh(f'ffmpeg -v error -y -i {SC}/natasha_full.mp4 -frames:v 1 -vf "crop=520:520:280:390,scale=220:220" {W}/nat_c.png')
 _ph=Image.open(W+'/nat_c.png').convert('RGBA'); _m=Image.new('L',(220,220),0); ImageDraw.Draw(_m).ellipse((0,0,219,219),fill=255); _ph.putalpha(_m)
 ImageDraw.Draw(_ph).ellipse((2,2,217,217),outline=(255,255,255,255),width=6); _ph.save(W+'/nat_circ.png')
 _f=ImageFont.truetype(FONT,30); _t="Dra. Natasha Braga · CRMV 6174"; _w=int(_f.getlength(_t))+36
 _lb=Image.new('RGBA',(_w,62),(0,0,0,0)); _d=ImageDraw.Draw(_lb); _d.rounded_rectangle((0,0,_w-1,61),radius=18,fill=(20,20,20,150)); _d.text((18,9),_t,font=_f,fill=(255,255,255,255)); _lb.save(W+'/nat_lab.png')
-add_png(W+'/nat_circ.png',50,150,0,T)
-add_png('/home/claude/tutorialpet/assets/carimbo_tutorialpet.png',290,165,0,T,extra='') if False else None
+add_png(W+'/nat_circ.png',50,150,0,NTS)
 inputs.append('-i /home/claude/tutorialpet/assets/carimbo_tutorialpet.png'); _ci=n; n+=1
-flt.append(f"[{_ci}:v]scale=300:-1[carm]"); flt.append(f"{last}[carm]overlay=290:165[vcar]"); last='[vcar]'
-add_png(W+'/nat_lab.png',290,253,0,T)
+flt.append(f"[{_ci}:v]scale=300:-1,split=2[carm][carm2]"); flt.append(f"{last}[carm]overlay=290:165:enable='lt(t,{NTS:.3f})'[vcar]"); last='[vcar]'
+add_png(W+'/nat_lab.png',290,253,0,NTS)
+# no trecho da apresentadora o selo desce (fora do rosto): carimbo + nome/CRMV centralizados na faixa do tronco
+flt.append(f"{last}[carm2]overlay=(W-w)/2:1120:enable='gte(t,{NTS:.3f})'[vcar2]"); last='[vcar2]'
+add_png(W+'/nat_lab.png',(1080-_w)//2,1230,NTS,T)
 from ultralytics import YOLO
 import glob, os
 YM=YOLO('yolov8n.pt')
@@ -74,21 +83,23 @@ def boxes_at(ts):
     bx=[]
     for t in ts:
         fp=f'{W}/yf.jpg'; sh(f'ffmpeg -v error -y -ss {t:.2f} -i {W}/base_v2.mp4 -frames:v 1 {fp}')
-        r=YM(fp,verbose=False)[0]
+        r=YM(fp,verbose=False,conf=0.15)[0]
         for b,c in zip(r.boxes.xyxy.tolist(),r.boxes.cls.tolist()):
-            if int(c)==16: bx.append(b)
-            if int(c)==0: bx.append([b[0],b[1],b[2],b[1]+0.28*(b[3]-b[1])])  # só a cabeça
+            if int(c)==16: bx.append([b[0],b[1],b[2],b[1]+0.55*(b[3]-b[1])])  # cabeca/tronco do cachorro
+            if int(c)==0: bx.append([b[0],b[1],b[2],b[1]+0.35*(b[3]-b[1])])  # rosto da pessoa
     return bx
 def best_y(a,b,h):
     if a>=o3+7.3: return 1500,0
-    ts=[a+(b-a)*k for k in (0.1,0.35,0.6,0.85)]
+    ts=[a+(b-a)*k for k in (0.05,0.25,0.5,0.75,0.95)]
     bx=boxes_at(ts); best=None
-    for y in range(330,931-h,20):
+    # zona alta (apos o selo) e zona baixa (acima da interface do Reels, ~1500)
+    for y in range(330,1500-h,20):
         ov=0
         for x0,y0,x1,y1 in bx:
-            ox=max(0,min(1080,x1)-max(0,x0)); oy=max(0,min(y+h,y1)-max(y,y0)); ov+=ox*oy
-        if best is None or ov<best[1]: best=(y,ov)
-    return best
+            ox=max(0,min(1080,x1)-max(0,x0)); oy=max(0,min(y+h+20,y1+20)-max(y-20,y0)); ov+=ox*oy
+        pen=ov*10+abs(y-1250)*0.02
+        if best is None or pen<best[2]: best=(y,ov,pen)
+    return best[0],best[1]
 
 for i,(a,b,t) in enumerate(caps):
     p=f'{W}/cap_{i:02d}.png'; h=caption_png(t,p); caphs.append((a,b,h))
