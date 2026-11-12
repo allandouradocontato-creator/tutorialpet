@@ -712,45 +712,84 @@ def build_achados_page(site: dict, pilares: dict) -> str:
 
 # ---- Música do Seu Pet (12/11/2026): página de venda + página de entrega (config/musica_pet.yaml) ----
 MUSICA_CSS = """
-.musica{max-width:760px;margin:0 auto;padding:8px 18px 56px}
-.musica h1{font-family:var(--font-heading);font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.12;margin:18px 0 10px;color:var(--color-primary)}
-.musica .sub{font-size:1.1rem;color:var(--color-text-muted);margin:0 0 18px}
-.musica .preco{display:inline-block;background:var(--color-sun);color:#3a2a00;font-weight:800;border-radius:999px;padding:6px 16px;margin-bottom:16px}
-.musica .btn{font-size:1.1rem;padding:14px 26px;border:0;cursor:pointer;font-weight:800;border-radius:12px}
-.musica .amostras{display:grid;gap:14px;margin:22px 0}
-.musica .amostra{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow-card)}
-.musica .amostra strong{display:block;margin-bottom:6px}
-.musica audio{width:100%}
-.musica h2{font-family:var(--font-heading);color:var(--color-primary);margin:34px 0 10px}
-.musica form{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow-card)}
-.musica label{display:block;font-weight:700;margin:14px 0 4px}
-.musica label small{font-weight:400;color:var(--color-text-muted)}
-.musica input[type=text],.musica input[type=email],.musica input[type=tel],.musica select{width:100%;padding:12px;border:1px solid #d9cfba;border-radius:10px;font-size:1rem;background:#fff;box-sizing:border-box}
-.musica .opcoes{display:flex;gap:10px;flex-wrap:wrap}
-.musica .opcoes label{display:flex;align-items:center;gap:6px;margin:0;font-weight:600;border:1px solid #d9cfba;border-radius:999px;padding:9px 16px;cursor:pointer}
-.musica .opcoes input{accent-color:var(--color-accent)}
-.musica .passos{display:grid;gap:12px;margin:12px 0}
-.musica .passo{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:12px 14px}
-.musica .passo b.n{background:var(--color-accent);color:#fff;border-radius:50%;min-width:34px;height:34px;display:flex;align-items:center;justify-content:center}
-.musica ul.bene{padding-left:0;list-style:none;margin:8px 0}
-.musica ul.bene li{padding:7px 0 7px 30px;position:relative}
-.musica ul.bene li:before{content:"🐾";position:absolute;left:0}
-.musica .selo{text-align:center;font-size:.9rem;color:var(--color-text-muted);margin:12px 0 0}
-.musica #msg{color:#b42318;font-weight:700;margin-top:10px;min-height:1.2em}
-.musica details{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-sm);padding:12px 14px;margin:8px 0}
-.musica summary{font-weight:700;cursor:pointer}
+.musica{max-width:none;margin:0;padding:0;color:#f3edff;background:radial-gradient(900px 520px at 12% -5%,rgba(255,122,24,.30),transparent 60%),radial-gradient(800px 560px at 95% 8%,rgba(168,85,247,.34),transparent 60%),radial-gradient(700px 500px at 50% 62%,rgba(255,61,129,.14),transparent 65%),#0a0612;overflow:hidden}
+.musica .in{max-width:1040px;margin:0 auto;padding:34px 20px 70px}
+.musica a{color:#ffb27a}
+.musica .eyebrow{display:inline-flex;gap:8px;align-items:center;font-weight:700;font-size:.9rem;letter-spacing:.02em;padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.06);backdrop-filter:blur(8px);color:#ffd9bd}
+.musica h1{font-family:var(--font-heading);font-size:clamp(2.3rem,7.4vw,4.6rem);line-height:1.02;letter-spacing:-.025em;margin:18px 0 16px;color:#fff;font-weight:900}
+.musica h1 .gr{background:linear-gradient(100deg,#ffb04a 0%,#ff6a3d 38%,#ff3d81 70%,#c084fc 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.musica .sub{font-size:clamp(1.05rem,2.4vw,1.3rem);color:#cdbfe6;margin:0 0 22px;max-width:680px;line-height:1.5}
+.musica .hero{text-align:left;padding:10px 0 6px}
+.musica .eq{display:flex;align-items:flex-end;gap:5px;height:56px;margin:6px 0 22px}
+.musica .eq i{display:block;width:7px;border-radius:6px;background:linear-gradient(180deg,#ff9a3d,#ff3d81 70%,#a855f7);animation:eq 1.15s ease-in-out infinite alternate;box-shadow:0 0 16px rgba(255,90,90,.45)}
+@keyframes eq{from{height:12%}to{height:100%}}
+.musica .prompt{background:linear-gradient(180deg,rgba(255,255,255,.10),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:14px;box-shadow:0 22px 70px rgba(0,0,0,.45),0 0 0 1px rgba(255,255,255,.03) inset;backdrop-filter:blur(14px);max-width:760px}
+.musica .prompt textarea{width:100%;min-height:92px;resize:vertical;background:transparent;border:0;outline:0;color:#fff;font:inherit;font-size:1.08rem;line-height:1.5;padding:8px 10px;box-sizing:border-box}
+.musica .prompt textarea::placeholder{color:#a898c4}
+.musica .prompt .linha{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:6px 6px 2px}
+.musica .tag{font-size:.85rem;color:#bfaedc}
+.musica .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:1.08rem;padding:15px 28px;border:0;cursor:pointer;font-weight:800;border-radius:14px;color:#fff;text-decoration:none;background:linear-gradient(120deg,#ff8a1f,#ff3d81 60%,#b45cf6);box-shadow:0 12px 36px rgba(255,80,90,.45);transition:transform .15s,box-shadow .15s}
+.musica .btn:hover{transform:translateY(-2px);box-shadow:0 16px 44px rgba(255,80,90,.6)}
+.musica .btn[disabled]{opacity:.6;cursor:wait}
+.musica .preco{display:inline-block;background:rgba(255,200,87,.16);border:1px solid rgba(255,200,87,.45);color:#ffd36b;font-weight:800;border-radius:999px;padding:7px 16px;margin:0 0 18px}
+.musica h2{font-family:var(--font-heading);font-size:clamp(1.6rem,4.4vw,2.4rem);letter-spacing:-.02em;color:#fff;margin:64px 0 6px;font-weight:900}
+.musica .kick{color:#b8a7d6;margin:0 0 22px}
+.musica .amostras{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin:30px 0 0}
+.musica .amostra{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:16px;backdrop-filter:blur(10px)}
+.musica .amostra .capa{width:64px;height:64px;border-radius:16px;flex:none;display:flex;align-items:center;justify-content:center;font-size:1.9rem;background:linear-gradient(135deg,#ff8a1f,#ff3d81 60%,#8b5cf6);box-shadow:0 10px 28px rgba(255,80,110,.4)}
+.musica .amostra strong{display:block;font-size:1.05rem;color:#fff}
+.musica .amostra small{color:#b8a7d6}
+.musica .amostra .tx{flex:1;min-width:180px}
+.musica audio{width:100%;margin-top:10px;color-scheme:dark;border-radius:12px}
+.musica .passos{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.musica .passo{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:20px;position:relative}
+.musica .passo b.n{display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:14px;margin-bottom:12px;font-size:1.15rem;color:#fff;background:linear-gradient(135deg,#ff8a1f,#ff3d81)}
+.musica .passo strong{color:#fff;font-size:1.08rem}
+.musica .passo div{color:#cdbfe6;line-height:1.5}
+.musica ul.bene{padding:0;list-style:none;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.musica ul.bene li{padding:16px 16px 16px 48px;position:relative;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;color:#e6dcf7}
+.musica ul.bene li:before{content:"🐾";position:absolute;left:16px;top:14px;font-size:1.2rem}
+.musica .estudio{margin-top:26px;background:linear-gradient(170deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.16);border-radius:28px;padding:clamp(18px,4vw,34px);box-shadow:0 30px 90px rgba(0,0,0,.5);backdrop-filter:blur(16px)}
+.musica form label{display:block;font-weight:700;margin:20px 0 8px;color:#fff}
+.musica form label small{font-weight:400;color:#b8a7d6}
+.musica form .campo{display:grid;gap:14px;grid-template-columns:1fr 1fr}
+@media(max-width:700px){.musica form .campo{grid-template-columns:1fr}}
+.musica input[type=text],.musica input[type=email],.musica input[type=tel],.musica select,.musica form textarea{width:100%;padding:14px;border:1px solid rgba(255,255,255,.18);border-radius:14px;font-size:1rem;background:rgba(10,6,18,.55);color:#fff;box-sizing:border-box;font-family:inherit;outline:0}
+.musica input:focus,.musica select:focus,.musica form textarea:focus{border-color:#ff8a4a;box-shadow:0 0 0 3px rgba(255,138,74,.25)}
+.musica select option{color:#111}
+.musica input::placeholder,.musica form textarea::placeholder{color:#8f80ab}
+.musica .historia-t{font-size:clamp(1.3rem,3.4vw,1.8rem);font-weight:900;margin:26px 0 4px;background:linear-gradient(100deg,#ffb04a,#ff6a3d 45%,#ff3d81);-webkit-background-clip:text;background-clip:text;color:transparent;display:block}
+.musica .chips{display:flex;gap:10px;flex-wrap:wrap}
+.musica label.chip{position:relative;display:block;margin:0;font-weight:700;cursor:pointer}
+.musica .chip input{position:absolute;opacity:0;inset:0;width:100%;height:100%;cursor:pointer;margin:0}
+.musica .chip span{display:block;padding:11px 18px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:#e9defa;transition:all .15s}
+.musica .chip:hover span{border-color:rgba(255,255,255,.4)}
+.musica .chip input:checked+span{background:linear-gradient(120deg,#ff8a1f,#ff3d81);border-color:transparent;color:#fff;box-shadow:0 8px 26px rgba(255,80,100,.45)}
+.musica .chip input:focus-visible+span{outline:2px solid #fff;outline-offset:2px}
+.musica .selo{text-align:center;font-size:.9rem;color:#b8a7d6;margin:14px 0 0}
+.musica #msg{color:#ff9a9a;font-weight:700;margin-top:12px;min-height:1.2em}
+.musica details{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:14px 18px;margin:10px 0;color:#dccff2}
+.musica summary{font-weight:700;cursor:pointer;color:#fff}
 .musica .hp{position:absolute;left:-9999px;height:0;overflow:hidden}
-.entrega .letra{white-space:pre-wrap;background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:16px;line-height:1.6}
-.entrega .acoes{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
-.entrega .carregando{text-align:center;padding:30px 10px}
-.entrega .bolinha{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--color-accent);animation:pulo 1s infinite alternate;margin:0 3px}
+.musica .fim{text-align:center;margin-top:46px}
+.entrega .letra{white-space:pre-wrap;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:20px;line-height:1.7;color:#f3edff}
+.entrega h3{color:#fff;margin:22px 0 8px}
+.entrega h2{margin-top:30px}
+.entrega section{margin-top:24px;padding:22px;border-radius:24px;background:linear-gradient(170deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14)}
+.entrega .acoes{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+.entrega .carregando{text-align:center;padding:40px 10px;color:#cdbfe6}
+.entrega .bolinha{display:inline-block;width:14px;height:14px;border-radius:50%;background:linear-gradient(135deg,#ff8a1f,#ff3d81);animation:pulo 1s infinite alternate;margin:0 3px}
 .entrega .bolinha:nth-child(2){animation-delay:.2s}.entrega .bolinha:nth-child(3){animation-delay:.4s}
 @keyframes pulo{from{transform:translateY(0)}to{transform:translateY(-12px)}}
+@media(prefers-reduced-motion:reduce){.musica .eq i,.entrega .bolinha{animation:none}}
 """
 
 MUSICA_FORM_JS = r"""
 <script>
 (function(){
+  var q=document.getElementById('rapido'),qb=document.getElementById('rapidoGo');
+  if(q&&qb){qb.addEventListener('click',function(){var h=document.getElementById('historia'),n=document.getElementById('nomePet');
+    if(h&&q.value)h.value=q.value; var alvo=document.getElementById('quero'); if(alvo)alvo.scrollIntoView({behavior:'smooth'}); setTimeout(function(){if(n)n.focus({preventScroll:true})},600);});}
   var f=document.getElementById('fm'),msg=document.getElementById('msg'),b=document.getElementById('enviar');
   if(!f)return;
   f.addEventListener('submit',function(e){
@@ -821,48 +860,58 @@ def build_musica_page(site: dict, pilares: dict) -> str:
     dominio = site["dominio"].rstrip("/")
     esc = html_lib.escape
     amostras = "".join(
-        f'<div class="amostra"><strong>🎧 {esc(a["legenda"])}</strong><audio controls preload="none" src="/musica/{esc(a["arquivo"])}"></audio></div>'
+        f'<div class="amostra"><div class="capa">🐾</div><div class="tx"><strong>{esc(a["legenda"])}</strong><small>Música feita para um pet de verdade</small></div><audio controls preload="none" src="/musica/{esc(a["arquivo"])}"></audio></div>'
         for a in (cfg.get("amostras") or []) if (ROOT / "site" / "musica_assets" / a["arquivo"]).exists())
     passos = "".join(f'<div class="passo"><b class="n">{esc(n)}</b><div><strong>{esc(t)}</strong><br>{esc(d)}</div></div>' for n, t, d in cfg.get("passos", []))
     bene = "".join(f"<li>{esc(b)}</li>" for b in cfg.get("beneficios", []))
     faq = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in cfg.get("faq", []))
     preco = esc(cfg.get("preco", "R$ 29,90"))
+    estilos_chip = "".join(
+        f'<label class="chip"><input type="radio" name="estilo" value="{e.lower()}"{" checked" if e == "pop alegre" else ""}><span>{esc(e if e == "MPB" else e.capitalize())}</span></label>'
+        for e in ["pop alegre", "sertanejo", "forró", "MPB", "rock", "infantil"])
     form = f"""<form id="fm" autocomplete="on" novalidate>
-<label for="nomePet">Nome de quem vai ganhar a música</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor">
-<label for="especie">A música é para...</label><select id="especie" name="especie"><option value="cachorro" selected>Meu cachorrinho</option><option value="gato">Meu gatinho</option><option value="outro-pet">Outro bichinho</option><option value="pessoa">Uma pessoa especial (namorada, amigo, família...)</option><option value="outro">Outro / uma brincadeira</option></select>
+<div class="campo"><div><label for="nomePet">Nome de quem vai ganhar a música</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor"></div>
+<div><label for="especie">A música é para...</label><select id="especie" name="especie"><option value="cachorro" selected>Meu cachorrinho</option><option value="gato">Meu gatinho</option><option value="outro-pet">Outro bichinho</option><option value="pessoa">Uma pessoa especial (namorada, amigo, família...)</option><option value="outro">Outro / uma brincadeira</option></select></div></div>
 <label for="raca">Raça ou detalhe <small>(opcional)</small></label><input id="raca" name="raca" type="text" maxlength="40" placeholder="Ex.: Golden Retriever">
+<label for="historia" class="historia-t">📖 Conte a sua história, a gente canta pra você</label><div class="kick" style="margin:0 0 10px">Como chegou em casa, aquela vez que sumiu e voltou, uma superação, uma história engraçada… tudo vira música. <small>(opcional)</small></div><textarea id="historia" name="historia" maxlength="1200" rows="6" placeholder="Como ele chegou em casa, aquela vez que se perdeu e voltou, uma superação, uma história engraçada, um momento especial..."></textarea>
 <label>3 manias ou características <small>(frases curtas)</small></label>
 <input name="m1" type="text" maxlength="60" placeholder="Ex.: rouba meias e sai correndo">
-<input name="m2" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: late para o carteiro">
-<input name="m3" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: dorme de barriga para cima">
-<label for="historia" style="display:block;font-size:1.25rem;font-weight:800;color:#c2410c;margin:18px 0 4px">📖 Conte a sua história, a gente canta pra você</label><div style="color:#6b5e45;font-size:.95rem;margin-bottom:8px">Como chegou em casa, aquela vez que sumiu e voltou, uma superação, uma história engraçada… tudo vira música. <small>(opcional)</small></div><textarea id="historia" name="historia" maxlength="1200" rows="6" placeholder="Como ele chegou em casa, aquela vez que se perdeu e voltou, uma superação, uma história engraçada, um momento especial..." style="width:100%;padding:12px;border:1px solid #d9cfba;border-radius:10px;font-size:1rem;box-sizing:border-box;font-family:inherit"></textarea>
+<input name="m2" type="text" maxlength="60" style="margin-top:10px" placeholder="Ex.: late para o carteiro">
+<input name="m3" type="text" maxlength="60" style="margin-top:10px" placeholder="Ex.: dorme de barriga para cima">
 <label for="tutor">Seu nome <small>(opcional, para citar na música)</small></label><input id="tutor" name="tutor" type="text" maxlength="30">
-<label for="estilo">Estilo da música</label><select id="estilo" name="estilo" required>{_opcoes_estilo(esc, "pop alegre")}</select>
-<label>Voz</label><div class="opcoes"><label><input type="radio" name="voz" value="feminina" checked> Feminina</label><label><input type="radio" name="voz" value="masculina"> Masculina</label></div>
-<label>Clima</label><div class="opcoes"><label><input type="radio" name="clima" value="animada" checked> Animada</label><label><input type="radio" name="clima" value="emocionante"> Emocionante</label><label><input type="radio" name="clima" value="homenagem"> Homenagem</label></div>
+<label>Estilo da música</label><div class="chips">{estilos_chip}</div>
+<label>Voz</label><div class="chips"><label class="chip"><input type="radio" name="voz" value="feminina" checked><span>Feminina</span></label><label class="chip"><input type="radio" name="voz" value="masculina"><span>Masculina</span></label></div>
+<label>Clima</label><div class="chips"><label class="chip"><input type="radio" name="clima" value="animada" checked><span>Animada</span></label><label class="chip"><input type="radio" name="clima" value="emocionante"><span>Emocionante</span></label><label class="chip"><input type="radio" name="clima" value="homenagem"><span>Homenagem</span></label></div>
 <label for="estilo2">Estilo da 2ª versão <small>(se você adicionar no pagamento)</small></label><select id="estilo2" name="estilo2">{_opcoes_estilo(esc, "", "Escolho um para mim")}</select>
-<label for="whatsapp">Seu WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" required placeholder="(85) 90000-0000">
-<label for="email">Seu e-mail <small>(a música chega aqui)</small></label><input id="email" name="email" type="email" required placeholder="voce@email.com">
+<div class="campo"><div><label for="whatsapp">Seu WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" required placeholder="(85) 90000-0000"></div>
+<div><label for="email">Seu e-mail <small>(a música chega aqui)</small></label><input id="email" name="email" type="email" required placeholder="voce@email.com"></div></div>
 <div class="hp" aria-hidden="true"><label>Não preencha <input name="site" type="text" tabindex="-1" autocomplete="off"></label></div>
-<p style="margin:20px 0 0"><button class="btn" id="enviar" type="submit" style="width:100%">{esc(cfg.get("botao_form", "Ir para o pagamento seguro"))} · {preco}</button></p>
+<p style="margin:26px 0 0"><button class="btn" id="enviar" type="submit" style="width:100%">{esc(cfg.get("botao_form", "Ir para o pagamento seguro"))} · {preco}</button></p>
 <div id="msg" role="alert"></div>
 <p class="selo">{esc(cfg.get("selo", ""))}</p>
 </form>"""
+    barras = "".join(f'<i style="animation-delay:{(k*0.13)%1.1:.2f}s;animation-duration:{0.8+((k*37)%9)/10:.2f}s"></i>' for k in range(34))
     main = f"""{render_header(site["nome"], pilares)}
-<main class="musica">
-<h1>{esc(cfg.get("titulo", ""))}</h1>
+<main class="musica"><div class="in">
+<section class="hero">
+<span class="eyebrow">🐾 Música feita para o seu pet · por inteligência artificial</span>
+<h1>Conte a sua história,<br><span class="gr">a gente canta pra você</span></h1>
 <p class="sub">{esc(cfg.get("subtitulo", ""))}</p>
-<span class="preco">{preco} · pagamento único</span>
-<p><a class="btn" href="#quero">{esc(cfg.get("botao_topo", "Quero a música do meu pet"))}</a></p>
+<div class="eq" aria-hidden="true">{barras}</div>
+<div class="prompt"><textarea id="rapido" rows="3" maxlength="600" placeholder="Ex.: O Thor chegou pequenininho, rouba meias e sai correndo, se perdeu uma vez e voltou pra casa. Quero uma música animada com o nome dele no refrão…"></textarea>
+<div class="linha"><span class="tag">✨ Você ajusta estilo e voz no próximo passo</span><button class="btn" id="rapidoGo" type="button">{esc(cfg.get("botao_topo", "Criar a minha música"))}</button></div></div>
+<p style="margin:18px 0 0"><span class="preco">{preco} · pagamento único</span></p>
+</section>
+<h2>Ouça como fica</h2><p class="kick">Músicas feitas com o nome do pet no refrão.</p>
 <div class="amostras">{amostras}</div>
-<h2>Como funciona</h2><div class="passos">{passos}</div>
-<h2>O que você recebe</h2><ul class="bene">{bene}</ul>
-<h2 id="quero">Monte a música do seu pet</h2>
-{form}
+<h2>Como funciona</h2><p class="kick">Do formulário ao seu MP3 em poucos minutos.</p><div class="passos">{passos}</div>
+<h2>O que você recebe</h2><p class="kick">Tudo pronto para ouvir, baixar e compartilhar.</p><ul class="bene">{bene}</ul>
+<h2 id="quero">Monte a sua música</h2><p class="kick">Quanto mais detalhes, mais a música fica a cara dele.</p>
+<div class="estudio">{form}</div>
 <h2>Perguntas rápidas</h2>{faq}
-<p style="text-align:center;margin-top:30px"><a class="btn" href="#quero">{esc(cfg.get("botao_topo", "Quero a música do meu pet"))}</a></p>
+<p class="fim"><a class="btn" href="#quero">{esc(cfg.get("botao_topo", "Quero a música do meu pet"))}</a></p>
 <p class="selo">Letra e música feitas com a ajuda de inteligência artificial, sob medida para o seu pet.</p>
-</main>
+</div></main>
 {render_footer()}
 {MUSICA_FORM_JS}"""
     return page_shell(f'{cfg.get("titulo", "Música do seu pet")} | Tutorial Pet', cfg.get("meta_description", ""),
@@ -873,7 +922,7 @@ def build_musica_entrega_page(site: dict, pilares: dict) -> str:
     """Modelo único da página de entrega: /musica-do-seu-pet/entrega/<id> é reescrito (200) para esta página; o JS lê o id da URL."""
     dominio = site["dominio"].rstrip("/")
     main = f"""{render_header(site["nome"], pilares)}
-<main class="musica entrega"><div id="conteudo"><div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span><p>Carregando a sua música...</p></div></div></main>
+<main class="musica entrega"><div class="in"><div id="conteudo"><div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span><p>Carregando a sua música...</p></div></div></div></main>
 {render_footer()}
 {MUSICA_ENTREGA_JS}"""
     return page_shell("A sua música | Tutorial Pet", "Ouça e baixe a música do seu pet.", f"{dominio}/musica-do-seu-pet",
