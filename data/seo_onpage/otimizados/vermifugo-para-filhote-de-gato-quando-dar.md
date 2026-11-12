@@ -40,10 +40,10 @@ sugestoes_links_internos:
 dados_estruturados_arquivo: data/seo_onpage/otimizados/vermifugo-para-filhote-de-gato-quando-dar.jsonld.json
 imagem_capa: imagens/vermifugo-para-filhote-de-gato-quando-dar.jpg
 imagem_fonte: pexels
-imagem_fotografo: Nothing Ahead
-imagem_fotografo_url: https://www.pexels.com/@ian-panelo
-imagem_url_pagina: https://www.pexels.com/photo/adorable-calico-kitten-peeking-over-wooden-surface-35968047/
-imagem_selecionada_em: '2026-11-02T16:23:31+00:00'
+imagem_fotografo: gusat silviu
+imagem_fotografo_url: https://www.pexels.com/@modus-vivendi
+imagem_url_pagina: https://www.pexels.com/photo/a-white-and-black-cat-while-standing-14005287/
+imagem_selecionada_em: '2026-11-12T22:34:51+00:00'
 ---
 
 # Vermífugo para filhote de gato quando dar: guia prático
