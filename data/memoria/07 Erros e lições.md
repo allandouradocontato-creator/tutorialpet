@@ -209,3 +209,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 
 - 12/11: VSL9 v1 só com cachorro calmo/triste no produto -> Allan pediu feliz (boca aberta, rabo). Lição: conferir humor do cachorro em TODA cena pós-problema antes de entregar (regra 76).
 - 2026-11-12 | Agendador e eu tratamos 'account being banned' do Buffer como conta banida; o Allan mostrou o perfil ativo (36 seg.), com 1 vídeo 'Community Guidelines violation' | eu repeti o texto do erro sem checar o perfil | erro de API dessa família costuma ser bloqueio de publicação por API (hipótese, postpeer.dev); checar status da conta no app e não insistir pelo Buffer; dizer 'erro do Buffer', não 'conta banida'.
+
+- 12/11: VSL9 v2 saiu sem música de suspense/pouca sonoplastia (só SFX curtos). Lição: VSL de problema leva a música de suspense contínua (Mixkit cinematic action suspense) até a virada e party-music depois; roteiro dizia "suspense para em olha de novo".

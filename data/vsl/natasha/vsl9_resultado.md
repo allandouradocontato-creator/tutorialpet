@@ -27,3 +27,8 @@ Scripts: data/vsl/natasha/scripts/vsl9_build.py e vsl9_final.py.
 - Duração 59,57 s (<60), −14,6 LUFS, sem congelamento. Whisper confirma: "…Devolvemos tudo. Garanta agora… Clique no botão".
 - Ponto p/ Allan: F9 diz "e ele está dormindo" mas o cachorro acorda feliz no fim → opção: regravar essa frase como "e ele está feliz" (~1% ElevenLabs).
 - Custos: Flow 2 clipes (20 de ~30 créditos → sobra ~10); Pexels grátis; voz sem custo extra.
+
+## v3 (12/11 20h20) — pedido do Allan 20h13
+- Fala F9 agora "…e ele está tranquilo." (só a frase final regravada no ElevenLabs e emendada no bloco 2; original guardado como _ORIGINAL_dormindo). Imagem mantida (dorme tranquilo e acorda feliz).
+- Música: suspense Mixkit (a mesma da VSL8) do início até "Mas olha de novo a câmera" (22,5 s); party-music gr0za do produto ao fim, com sidechain sob a voz.
+- Sonoplastia extra: whoosh nas trocas de cena (4,45 / 8,45 / 22,55 / B2 / 4 cortes do F8 / F9 / entrada da Natasha), notificação do celular no "é o vizinho", sinos quando ele acorda feliz. Total 59,6 s, −14,5 LUFS.

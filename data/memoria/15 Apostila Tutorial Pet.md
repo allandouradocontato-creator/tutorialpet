@@ -108,3 +108,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 2026-11-12 19h58 (Allan, VSL9 v1): (1) cachorro triste no problema, FELIZ (boca aberta, rabo balancando) em produto/resultado: regra 76; (2) fecho: Natasha falando, mesmo clipe HeyGen da VSL8 (vsl8/heygen/natasha_fala_heygen.mp4, 7,06 s, fala propria: "Garanta agora o sozinho em casa, tranquilidade para o seu melhor amigo e paz com os vizinhos. Clique no botao!").
 
 - 2026-11-12 20h: VSL9 v2 entregue (cachorro feliz do produto ao resultado; Natasha falando no fim; 59,57 s). Flow: baixar via ícone download > 720p; Pexels: Free download ~(1287,77).
+
+- 2026-11-12 20h20: VSL9 v3 (fala "tranquilo", suspense Mixkit + party-music, mais sonoplastia). Regravar só a frase e emendar no bloco custa ~0% do saldo (receita: cortar bloco em 11,62 s + 0,12 s de silêncio + frase nova com volume casado).

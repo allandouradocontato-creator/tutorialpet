@@ -38,7 +38,7 @@ caps=[(0.0,4.3,"E se você pudesse ver o que o seu cachorro faz quando você fec
 
 (B2+3.82,B2+5.4,"dez minutos por dia."),(B2+5.58,B2+8.3,"E o aplicativo diz o que fazer a cada dia."),
 (B2+8.44,B2+11.6,"Filhote, idoso, vira-lata ou de raça."),
-(B2+11.78,B2+14.4,"Catorze dias depois, você abre a câmera…"),(B2+14.5,B2+16.2,"e ele está dormindo."),
+(B2+11.78,B2+14.4,"Catorze dias depois, você abre a câmera…"),(B2+14.5,B2+16.2,"e ele está tranquilo."),
 (B3+0.0,B3+2.7,"De noventa e sete por vinte e sete reais."),(B3+3.0,B3+4.7,"Catorze dias de garantia:"),(B3+4.8,B3+6.45,"não gostou? Devolvemos tudo.")]
 inputs=[]; flt=[]; n=1; last='[0:v]'
 def add_png(path,x,y,t0,t1,float_=False):
@@ -122,6 +122,10 @@ cues=[('sfx_bass_hit',0.0,1.0,-4),('sfx_brass_strings_suspense',0.4,3.9,-19),
  ('sfx_heartbeat_impact',17.0,1.2,-5),('sfx_suspense_swell',17.6,4.6,-13),
  ('sfx_horror_drum',25.88,1.3,-12),('sfx_bass_hit',25.88,0.9,-10),
  ('sfx_chimes_vitoria',B2,2.0,-12),('sfx_conquista',B2+15.1,2.0,-12),
+ ('sfx_whoosh_passos',4.45,0.8,-15),('sfx_whoosh_passos',8.45,0.8,-15),('sfx_whoosh_passos',22.55,0.9,-13),
+ ('sfx_notificacao_celular',16.0,1.0,-13),('sfx_whoosh_passos',B2-0.05,0.9,-13),
+ ('sfx_whoosh_passos',B2+8.3,0.6,-14),('sfx_whoosh_passos',B2+9.15,0.6,-14),('sfx_whoosh_passos',B2+9.85,0.6,-14),('sfx_whoosh_passos',B2+10.65,0.6,-14),
+ ('sfx_whoosh_passos',B2+11.65,0.8,-14),('sfx_chimes_vitoria',B2+13.9,1.6,-13),('sfx_whoosh_passos',NT0-0.1,0.9,-13),
  ('sfx_moeda_win',B3,1.2,-10),('sfx_click_botao',B3+3.0,0.5,-12),('sfx_click_botao',NT0+6.0,0.5,-8)]
 ins='';fc='';labs=''
 for k,(f,t0,d,db) in enumerate(cues):
@@ -129,11 +133,19 @@ for k,(f,t0,d,db) in enumerate(cues):
     fc+=f'[{k}:a]atrim=0:{d},asetpts=PTS-STARTPTS,volume={db}dB,afade=t=out:st={max(d-0.15,0.01):.2f}:d=0.15,aresample=44100,aformat=channel_layouts=mono,adelay={int(t0*1000)}:all=1[c{k}];'
     labs+=f'[c{k}]'
 sh(f'ffmpeg -v error -y{ins} -filter_complex "{fc}{labs}amix=inputs={len(cues)}:duration=longest:normalize=0,apad=whole_dur={T:.3f},atrim=0:{T:.3f}[o]" -map "[o]" {O}/vsl9_sfx_SEM_voz.wav')
-sh(f'ffmpeg -v error -y -i {W}/voz9.wav -i {O}/vsl9_sfx_SEM_voz.wav -filter_complex "[0:a]aformat=channel_layouts=mono[v];[1:a]aformat=channel_layouts=mono[s];[v][s]amix=inputs=2:duration=first:normalize=0[o]" -map "[o]" -t {T:.3f} {W}/mix9_raw.wav')
+# --- musica: SUSPENSE (mesma da VSL8, Mixkit) no problema ate "Mas olha de novo a camera"; depois party-music (gr0za, mesma das VSLs) ate o fim
+SUSP='/home/claude/vsl8/mus/mixkit_cinematic_action_suspense.mp3'
+MUSP='/home/claude/tutorialpet/biblioteca/musica/gr0za-party-party-music-569750.mp3'
+SE=22.55
+sh(f'ffmpeg -v error -y -i {SUSP} -stream_loop -1 -i {SF}/sfx_heartbeat_impact.mp3 -filter_complex "[0:a]atrim=6:{6+SE:.3f},asetpts=PTS-STARTPTS,highpass=f=90,aformat=channel_layouts=mono,aresample=44100,volume=3dB[s];[1:a]aformat=channel_layouts=mono,aresample=44100,atrim=0:1.2,apad=whole_dur=1.2,aloop=loop=-1:size=60000,volume=-14dB,atrim=0:{SE:.3f}[h];[s][h]amix=inputs=2:normalize=0,afade=t=in:st=0:d=0.4,afade=t=out:st={SE-0.9:.2f}:d=0.9[o]" -map "[o]" {W}/susp9.wav')
+MU0=B2-0.4
+sh(f'ffmpeg -v error -y -i {MUSP} -af "atrim=8:{8+T-MU0+1:.2f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono,aresample=44100,volume=-8dB,afade=t=in:st=0:d=1.2,afade=t=out:st={T-MU0-1.0:.2f}:d=1.0" -t {T-MU0:.3f} {W}/party9.wav')
+sh(f'ffmpeg -v error -y -f lavfi -i anullsrc=r=44100:cl=mono -i {W}/susp9.wav -i {W}/party9.wav -filter_complex "[1:a]apad=whole_dur={MU0:.3f},atrim=0:{MU0:.3f}[sp];[sp][2:a]concat=n=2:v=0:a=1,atrim=0:{T:.3f}[m]" -map "[m]" {W}/musica9.wav')
+sh(f'ffmpeg -v error -y -i {W}/voz9.wav -i {O}/vsl9_sfx_SEM_voz.wav -i {W}/musica9.wav -filter_complex "[0:a]apad=whole_dur={T:.3f},aformat=channel_layouts=mono,asplit=2[v][vk];[1:a]aformat=channel_layouts=mono[s];[2:a]aformat=channel_layouts=mono[m0];[m0][vk]sidechaincompress=threshold=0.03:ratio=2:attack=20:release=300[m];[v][s][m]amix=inputs=3:duration=first:normalize=0[o]" -map "[o]" -t {T:.3f} {W}/mix9_raw.wav')
 m=sh(f'ffmpeg -hide_banner -i {W}/mix9_raw.wav -af loudnorm=I=-14:TP=-1.5:LRA=7:print_format=json -f null - 2>&1')
 mj=json.loads(m[m.rindex('{'):m.rindex('}')+1])
 sh(f'ffmpeg -v error -y -i {W}/mix9_raw.wav -af "loudnorm=I=-14:TP=-1.5:LRA=7:measured_I={mj["input_i"]}:measured_TP={mj["input_tp"]}:measured_LRA={mj["input_lra"]}:measured_thresh={mj["input_thresh"]}:offset={mj["target_offset"]}:linear=true" -ar 44100 {W}/mix9.wav')
-cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v2_1080.mp4'
+cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v3_1080.mp4'
 sh(cmd)
-sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v2_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v2_leve.mp4')
+sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v3_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v3_leve.mp4')
 print('ok')
