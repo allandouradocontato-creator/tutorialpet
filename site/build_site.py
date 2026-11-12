@@ -281,7 +281,7 @@ def render_leia_tambem(fm: dict, n_mesmo: int = 3, n_outro: int = 1) -> str:
 
 
 def render_header(site_nome: str, pilares: dict[str, str]) -> str:
-    links = "".join(f'<a href="{cat_url(key)}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a><a href="/tv">TV</a>'
+    links = "".join(f'<a href="{cat_url(key)}">{html_lib.escape(nome)}</a>' for key, nome in pilares.items()) + f'<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a><a href="/tv">TV</a><a href="/musica-do-seu-pet">Música do seu pet</a>'
     return f"""<header class="site">
 <a href="/" class="brand">{html_lib.escape(site_nome)}</a>
 <nav>{links}</nav>
@@ -292,7 +292,7 @@ def render_header(site_nome: str, pilares: dict[str, str]) -> str:
 def render_footer(pilares: dict | None = None) -> str:
     pilares = pilares or _PILARES_GLOBAL
     cats = "".join(f'<a href="{cat_url(k)}">{html_lib.escape(n)}</a>' for k, n in pilares.items())
-    cats = f'<nav class="footer-cats" aria-label="Categorias">{cats}<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a></nav>' if cats else ""
+    cats = f'<nav class="footer-cats" aria-label="Categorias">{cats}<a href="{cat_url("pet-celebridade")}">Pet Celebridade</a><a href="{cat_url(COLUNA_VET)}">Pergunte à veterinária</a><a href="/musica-do-seu-pet">Música do seu pet</a></nav>' if cats else ""
     links = "".join(
         f'<a href="/{slug}">{LEGAL_PAGES_TITULOS[slug]}</a>' for slug in LEGAL_PAGES_ORDER
     )
@@ -710,6 +710,175 @@ def build_achados_page(site: dict, pilares: dict) -> str:
                       f"{dominio}/achados", "website", main, extra_head='<meta name="robots" content="noindex">')
 
 
+# ---- Música do Seu Pet (12/11/2026): página de venda + página de entrega (config/musica_pet.yaml) ----
+MUSICA_CSS = """
+.musica{max-width:760px;margin:0 auto;padding:8px 18px 56px}
+.musica h1{font-family:var(--font-heading);font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.12;margin:18px 0 10px;color:var(--color-primary)}
+.musica .sub{font-size:1.1rem;color:var(--color-text-muted);margin:0 0 18px}
+.musica .preco{display:inline-block;background:var(--color-sun);color:#3a2a00;font-weight:800;border-radius:999px;padding:6px 16px;margin-bottom:16px}
+.musica .btn{font-size:1.1rem;padding:14px 26px;border:0;cursor:pointer;font-weight:800;border-radius:12px}
+.musica .amostras{display:grid;gap:14px;margin:22px 0}
+.musica .amostra{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow-card)}
+.musica .amostra strong{display:block;margin-bottom:6px}
+.musica audio{width:100%}
+.musica h2{font-family:var(--font-heading);color:var(--color-primary);margin:34px 0 10px}
+.musica form{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow-card)}
+.musica label{display:block;font-weight:700;margin:14px 0 4px}
+.musica label small{font-weight:400;color:var(--color-text-muted)}
+.musica input[type=text],.musica input[type=email],.musica input[type=tel],.musica select{width:100%;padding:12px;border:1px solid #d9cfba;border-radius:10px;font-size:1rem;background:#fff;box-sizing:border-box}
+.musica .opcoes{display:flex;gap:10px;flex-wrap:wrap}
+.musica .opcoes label{display:flex;align-items:center;gap:6px;margin:0;font-weight:600;border:1px solid #d9cfba;border-radius:999px;padding:9px 16px;cursor:pointer}
+.musica .opcoes input{accent-color:var(--color-accent)}
+.musica .passos{display:grid;gap:12px;margin:12px 0}
+.musica .passo{display:flex;gap:12px;align-items:flex-start;background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:12px 14px}
+.musica .passo b.n{background:var(--color-accent);color:#fff;border-radius:50%;min-width:34px;height:34px;display:flex;align-items:center;justify-content:center}
+.musica ul.bene{padding-left:0;list-style:none;margin:8px 0}
+.musica ul.bene li{padding:7px 0 7px 30px;position:relative}
+.musica ul.bene li:before{content:"🐾";position:absolute;left:0}
+.musica .selo{text-align:center;font-size:.9rem;color:var(--color-text-muted);margin:12px 0 0}
+.musica #msg{color:#b42318;font-weight:700;margin-top:10px;min-height:1.2em}
+.musica details{background:#fff;border:1px solid var(--color-border);border-radius:var(--radius-sm);padding:12px 14px;margin:8px 0}
+.musica summary{font-weight:700;cursor:pointer}
+.musica .hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.entrega .letra{white-space:pre-wrap;background:#fff;border:1px solid var(--color-border);border-radius:var(--radius);padding:16px;line-height:1.6}
+.entrega .acoes{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0}
+.entrega .carregando{text-align:center;padding:30px 10px}
+.entrega .bolinha{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--color-accent);animation:pulo 1s infinite alternate;margin:0 3px}
+.entrega .bolinha:nth-child(2){animation-delay:.2s}.entrega .bolinha:nth-child(3){animation-delay:.4s}
+@keyframes pulo{from{transform:translateY(0)}to{transform:translateY(-12px)}}
+"""
+
+MUSICA_FORM_JS = r"""
+<script>
+(function(){
+  var f=document.getElementById('fm'),msg=document.getElementById('msg'),b=document.getElementById('enviar');
+  if(!f)return;
+  f.addEventListener('submit',function(e){
+    e.preventDefault(); msg.textContent=''; b.disabled=true; var t=b.textContent; b.textContent='Preparando seu pagamento...';
+    var d=new FormData(f);
+    var corpo={nomePet:d.get('nomePet'),especie:d.get('especie'),raca:d.get('raca'),manias:[d.get('m1'),d.get('m2'),d.get('m3')],
+      tutor:d.get('tutor'),estilo:d.get('estilo'),estilo2:d.get('estilo2'),voz:d.get('voz'),clima:d.get('clima'),
+      whatsapp:d.get('whatsapp'),email:d.get('email'),site:d.get('site')};
+    fetch('/api/musica/pedido',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(corpo)})
+      .then(function(r){return r.json()}).then(function(j){
+        if(j.ok&&j.checkoutUrl){window.location.href=j.checkoutUrl;return}
+        msg.textContent=j.erro||'Não foi possível continuar. Tente de novo.'; b.disabled=false; b.textContent=t;
+      }).catch(function(){msg.textContent='Sem conexão. Tente de novo.'; b.disabled=false; b.textContent=t;});
+  });
+})();
+</script>
+"""
+
+MUSICA_ENTREGA_JS = r"""
+<script>
+(function(){
+  var id=location.pathname.split('/').filter(Boolean).pop(), box=document.getElementById('conteudo'), tentativas=0;
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function desenhar(j){
+    if(j.estado==='entregue'){
+      var h='<h1>A música do '+esc(j.nomePet)+' ficou pronta! 🎶</h1>';
+      j.versoes.forEach(function(v){
+        h+='<section><h2>'+esc(v.titulo)+(j.versoes.length>1?' <small>(versão '+v.n+' · '+esc(v.estilo)+')</small>':'')+'</h2>'+
+          '<audio controls preload="metadata" src="'+v.mp3Url+'"></audio>'+
+          '<div class="acoes"><a class="btn" href="'+v.mp3Url+'&baixar=1" download="'+esc(v.arquivo)+'">Baixar o MP3</a>'+
+          '<a class="btn" style="background:#128c4a" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent(j.whatsappMsg||'')+'">Enviar no WhatsApp</a></div>'+
+          '<h3>Letra</h3><div class="letra">'+esc(v.letra||'')+'</div></section>';
+      });
+      box.innerHTML=h; return true;
+    }
+    if(j.estado==='falhou'){
+      box.innerHTML='<h1>Estamos finalizando a música do '+esc(j.nomePet)+'</h1><p>Ela está sendo refeita automaticamente e chega aqui e no seu e-mail em instantes. Pode deixar esta página aberta.</p>'+
+        '<div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span></div>'; return false;
+    }
+    if(j.estado==='aguardando_pagamento'){
+      box.innerHTML='<h1>Quase lá!</h1><p>Assim que o pagamento for confirmado, a música do '+esc(j.nomePet)+' começa a ser criada aqui mesmo.</p>'+
+        '<div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span></div>'; return false;
+    }
+    box.innerHTML='<h1>Estamos criando a música do '+esc(j.nomePet)+' 🎶</h1><p>Leva só alguns minutinhos. Esta página atualiza sozinha quando ficar pronta.</p>'+
+      '<div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span></div>'; return false;
+  }
+  function checar(){
+    fetch('/api/musica/entrega?id='+encodeURIComponent(id),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
+      if(j.ok===false){box.innerHTML='<h1>Não encontramos este pedido</h1><p>Confira o link que chegou no seu e-mail.</p>';return}
+      if(!desenhar(j)&&tentativas++<240) setTimeout(checar,5000);
+    }).catch(function(){ if(tentativas++<240) setTimeout(checar,8000)});
+  }
+  checar();
+})();
+</script>
+"""
+
+
+def _opcoes_estilo(esc, selecionado="", vazio=""):
+    estilos = ["pop alegre", "sertanejo", "forró", "MPB", "rock", "infantil"]
+    ops = (f'<option value="">{esc(vazio)}</option>' if vazio else "")
+    return ops + "".join(f'<option value="{e.lower()}"{" selected" if e.lower() == selecionado else ""}>{esc(e if e == "MPB" else e.capitalize())}</option>' for e in estilos)
+
+
+def build_musica_page(site: dict, pilares: dict) -> str:
+    """/musica-do-seu-pet: página de venda (pagar primeiro, gerar depois). Fora da lista de artigos do blog."""
+    cfg = load_yaml(ROOT / "config" / "musica_pet.yaml") or {}
+    dominio = site["dominio"].rstrip("/")
+    esc = html_lib.escape
+    amostras = "".join(
+        f'<div class="amostra"><strong>🎧 {esc(a["legenda"])}</strong><audio controls preload="none" src="/musica/{esc(a["arquivo"])}"></audio></div>'
+        for a in (cfg.get("amostras") or []) if (ROOT / "site" / "musica_assets" / a["arquivo"]).exists())
+    passos = "".join(f'<div class="passo"><b class="n">{esc(n)}</b><div><strong>{esc(t)}</strong><br>{esc(d)}</div></div>' for n, t, d in cfg.get("passos", []))
+    bene = "".join(f"<li>{esc(b)}</li>" for b in cfg.get("beneficios", []))
+    faq = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in cfg.get("faq", []))
+    preco = esc(cfg.get("preco", "R$ 29,90"))
+    form = f"""<form id="fm" autocomplete="on" novalidate>
+<label for="nomePet">Nome do seu pet</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor">
+<label>É um...</label><div class="opcoes"><label><input type="radio" name="especie" value="cachorro" checked> Cachorrinho</label><label><input type="radio" name="especie" value="gato"> Gatinho</label></div>
+<label for="raca">Raça <small>(opcional)</small></label><input id="raca" name="raca" type="text" maxlength="40" placeholder="Ex.: Golden Retriever">
+<label>3 manias ou características do seu amiguinho <small>(frases curtas)</small></label>
+<input name="m1" type="text" maxlength="60" required placeholder="Ex.: rouba meias e sai correndo">
+<input name="m2" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: late para o carteiro">
+<input name="m3" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: dorme de barriga para cima">
+<label for="tutor">Seu nome <small>(opcional, para citar na música)</small></label><input id="tutor" name="tutor" type="text" maxlength="30">
+<label for="estilo">Estilo da música</label><select id="estilo" name="estilo" required>{_opcoes_estilo(esc, "pop alegre")}</select>
+<label>Voz</label><div class="opcoes"><label><input type="radio" name="voz" value="feminina" checked> Feminina</label><label><input type="radio" name="voz" value="masculina"> Masculina</label></div>
+<label>Clima</label><div class="opcoes"><label><input type="radio" name="clima" value="animada" checked> Animada</label><label><input type="radio" name="clima" value="emocionante"> Emocionante</label><label><input type="radio" name="clima" value="homenagem"> Homenagem</label></div>
+<label for="estilo2">Estilo da 2ª versão <small>(se você adicionar no pagamento)</small></label><select id="estilo2" name="estilo2">{_opcoes_estilo(esc, "", "Escolho um para mim")}</select>
+<label for="whatsapp">Seu WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" required placeholder="(85) 90000-0000">
+<label for="email">Seu e-mail <small>(a música chega aqui)</small></label><input id="email" name="email" type="email" required placeholder="voce@email.com">
+<div class="hp" aria-hidden="true"><label>Não preencha <input name="site" type="text" tabindex="-1" autocomplete="off"></label></div>
+<p style="margin:20px 0 0"><button class="btn" id="enviar" type="submit" style="width:100%">{esc(cfg.get("botao_form", "Ir para o pagamento seguro"))} · {preco}</button></p>
+<div id="msg" role="alert"></div>
+<p class="selo">{esc(cfg.get("selo", ""))}</p>
+</form>"""
+    main = f"""{render_header(site["nome"], pilares)}
+<main class="musica">
+<h1>{esc(cfg.get("titulo", ""))}</h1>
+<p class="sub">{esc(cfg.get("subtitulo", ""))}</p>
+<span class="preco">{preco} · pagamento único</span>
+<p><a class="btn" href="#quero">{esc(cfg.get("botao_topo", "Quero a música do meu pet"))}</a></p>
+<div class="amostras">{amostras}</div>
+<h2>Como funciona</h2><div class="passos">{passos}</div>
+<h2>O que você recebe</h2><ul class="bene">{bene}</ul>
+<h2 id="quero">Monte a música do seu pet</h2>
+{form}
+<h2>Perguntas rápidas</h2>{faq}
+<p style="text-align:center;margin-top:30px"><a class="btn" href="#quero">{esc(cfg.get("botao_topo", "Quero a música do meu pet"))}</a></p>
+<p class="selo">Letra e música feitas com a ajuda de inteligência artificial, sob medida para o seu pet.</p>
+</main>
+{render_footer()}
+{MUSICA_FORM_JS}"""
+    return page_shell(f'{cfg.get("titulo", "Música do seu pet")} | Tutorial Pet', cfg.get("meta_description", ""),
+                      f"{dominio}/musica-do-seu-pet", "website", main, extra_head=f"<style>{MUSICA_CSS}</style>")
+
+
+def build_musica_entrega_page(site: dict, pilares: dict) -> str:
+    """Modelo único da página de entrega: /musica-do-seu-pet/entrega/<id> é reescrito (200) para esta página; o JS lê o id da URL."""
+    dominio = site["dominio"].rstrip("/")
+    main = f"""{render_header(site["nome"], pilares)}
+<main class="musica entrega"><div id="conteudo"><div class="carregando"><span class="bolinha"></span><span class="bolinha"></span><span class="bolinha"></span><p>Carregando a sua música...</p></div></div></main>
+{render_footer()}
+{MUSICA_ENTREGA_JS}"""
+    return page_shell("A sua música | Tutorial Pet", "Ouça e baixe a música do seu pet.", f"{dominio}/musica-do-seu-pet",
+                      "website", main, extra_head=f'<meta name="robots" content="noindex,nofollow"><style>{MUSICA_CSS}</style>')
+
+
 # ---- Ícones de seguir (15/10/2026): redes do Tutorial Pet, com clique direto ----
 ICONE_REDE = {
     "Instagram": '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/></svg>',
@@ -1022,7 +1191,7 @@ def build_sitemap(site: dict, artigos: list[dict], tv: bool = False, categorias:
     dominio = site["dominio"].rstrip("/")
     urls = [f"{dominio}/"] + [f"{dominio}/{slug}" for slug in LEGAL_PAGES_ORDER] + \
            [f"{dominio}{cat_url(k)}" for k in (categorias or [])] + \
-           [f"{dominio}/{fm['slug']}" for fm in artigos] + ([f"{dominio}/tv"] if tv else [])
+           [f"{dominio}/{fm['slug']}" for fm in artigos] + ([f"{dominio}/tv"] if tv else []) + ([f"{dominio}/musica-do-seu-pet"] if (ROOT / "config" / "musica_pet.yaml").exists() else [])
     _lm = {f"{dominio}/{fm['slug']}": str(fm.get("data_atualizacao") or fm.get("data") or "")[:10] for fm in artigos}
     entries = "\n".join(f"  <url>\n    <loc>{u}</loc>\n" + (f"    <lastmod>{_lm[u]}</lastmod>\n" if _lm.get(u) else "") + "  </url>" for u in urls)
     return (
@@ -1170,6 +1339,17 @@ def run(site_id: str) -> dict:
         (BUILD_DIR / "adocao").mkdir(exist_ok=True)
         (BUILD_DIR / "adocao" / "enviar.html").write_text(build_adocao_enviar_page(site, pilares), encoding="utf-8")
 
+    # Música do Seu Pet (12/11/2026): página de venda, modelo da página de entrega e amostras tocáveis
+    if (ROOT / "config" / "musica_pet.yaml").exists():
+        (BUILD_DIR / "musica-do-seu-pet.html").write_text(build_musica_page(site, pilares), encoding="utf-8")
+        (BUILD_DIR / "musica-do-seu-pet-entrega.html").write_text(build_musica_entrega_page(site, pilares), encoding="utf-8")
+        _ma = ROOT / "site" / "musica_assets"
+        if _ma.exists():
+            import shutil as _sh
+            (BUILD_DIR / "musica").mkdir(exist_ok=True)
+            for _f in _ma.glob("*.mp3"):
+                _sh.copyfile(_f, BUILD_DIR / "musica" / _f.name)
+
     # Página /achados (02/11/2026): destino do "link na bio" (Instagram/TikTok); noindex e fora do sitemap
     if (ROOT / "config" / "achados.yaml").exists():
         (BUILD_DIR / "achados.html").write_text(build_achados_page(site, pilares), encoding="utf-8")
@@ -1201,7 +1381,7 @@ def run(site_id: str) -> dict:
     if tv:
         (BUILD_DIR / "tv.html").write_text(build_tv_page(site, pilares, tv), encoding="utf-8")
     (BUILD_DIR / "index.html").write_text(build_home_page(site, pilares, artigos_por_pilar, tv), encoding="utf-8")
-    (BUILD_DIR / "_redirects").write_text("/alimentos-proi /alimentos-proibidos-para-cachorro 301\n/br / 301\n/cac / 301\n", encoding="utf-8")
+    (BUILD_DIR / "_redirects").write_text("/alimentos-proi /alimentos-proibidos-para-cachorro 301\n/br / 301\n/cac / 301\n/musica-do-seu-pet/entrega/* /musica-do-seu-pet-entrega 200\n", encoding="utf-8")
     (BUILD_DIR / "sitemap.xml").write_text(build_sitemap(site, [fm for fm, _, _ in artigos], bool(tv), cats_geradas), encoding="utf-8")
     (BUILD_DIR / "robots.txt").write_text(build_robots(site), encoding="utf-8")
 

@@ -1,0 +1,34 @@
+# Página /musica-do-seu-pet (MVP "Música do Seu Pet"). Copy aprovada pelo Allan antes de publicar: toda frase empurra para a compra.
+# Regras da marca: nunca a palavra "cão"; pet fofo e alegre; nenhuma frase que crie objeção.
+# O link do checkout NÃO fica aqui: é a variável de ambiente KIWIFY_CHECKOUT_URL no Cloudflare Pages (o formulário recebe o link do servidor).
+preco: "R$ 29,90"
+titulo: "A música do seu pet, com o nome dele no refrão"
+subtitulo: "Conte as manias do seu melhor amigo e receba, em poucos minutos, uma música feita só para ele. Para ouvir, baixar em MP3 e compartilhar com quem ama o seu amiguinho."
+meta_description: "Uma música personalizada com o nome e as manias do seu pet, pronta em poucos minutos e entregue em MP3. Preencha o formulário e ouça a do seu amiguinho."
+botao_topo: "Quero a música do meu pet"
+botao_form: "Ir para o pagamento seguro"
+amostras:   # só aparece quem tem arquivo em site/musica_assets/ (o Thor entra assim que o motor gerar a amostra)
+  - id: mel
+    nome: "Mel"
+    legenda: "Mel, a cachorrinha que não para de pular"
+    arquivo: "amostra-mel.mp3"
+  - id: thor
+    nome: "Thor"
+    legenda: "Thor, o cachorrinho mais arteiro da casa"
+    arquivo: "amostra-thor.mp3"
+passos:
+  - ["1", "Conte sobre o seu pet", "Nome, 3 manias e o estilo que combina com ele."]
+  - ["2", "Faça o pagamento seguro", "Pix ou cartão, em poucos cliques."]
+  - ["3", "Receba a música", "Em poucos minutos o MP3 chega no seu e-mail e na página, com a letra."]
+beneficios:
+  - "O nome do seu pet cantado no refrão"
+  - "As manias dele viram versos divertidos"
+  - "Seis estilos: pop alegre, sertanejo, forró, MPB, rock e infantil"
+  - "MP3 para baixar, enviar no WhatsApp e postar nas redes"
+  - "Letra completa para cantar junto"
+faq:
+  - ["Em quanto tempo a música chega?", "Em poucos minutos depois do pagamento. Você recebe o link no e-mail e a música também aparece na página de entrega."]
+  - ["Em que formato eu recebo?", "Em MP3, pronto para baixar, enviar no WhatsApp e postar nas redes. A letra vem junto."]
+  - ["Posso pedir para o meu gato também?", "Pode! A música é para cachorrinhos e gatinhos, com o nome e as manias do seu amiguinho."]
+  - ["Posso levar uma segunda versão?", "Pode: na hora do pagamento você adiciona a 2ª versão em outro estilo por um valor especial."]
+selo: "🔒 Compra 100% segura · pagamento processado pela Kiwify · 🛡️ Garantia de 14 dias"

@@ -1,0 +1,47 @@
+name: Música do Pet - tick (retentativas e conversão para MP3)
+
+# A cada ~5 min: empurra pedidos parados, refaz os que falharam (nova rodada após 10 min) e converte para MP3 os arquivos
+# que o fal.ai entrega em FLAC/WAV (ffmpeg), enviando o MP3 pronto para /api/musica/mp3-upload.
+# Segredos do repositório: MUSICA_TICK_SECRET (igual à variável TICK_SECRET no Cloudflare Pages). Sem o segredo, o job só avisa e sai.
+on:
+  schedule:
+    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: musica-tick
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BASE: https://tutorialpet.com.br
+      SEGREDO: ${{ secrets.MUSICA_TICK_SECRET }}
+    steps:
+      - name: Tick
+        run: |
+          if [ -z "$SEGREDO" ]; then echo "::warning::MUSICA_TICK_SECRET ausente: tick desligado"; exit 0; fi
+          resp=$(curl -sS -m 90 -X POST "$BASE/api/musica/tick" -H "authorization: Bearer $SEGREDO") || { echo "::warning::tick sem resposta"; exit 0; }
+          echo "$resp" | head -c 600
+          echo "$resp" > tick.json
+      - name: Converter para MP3
+        run: |
+          [ -f tick.json ] || exit 0
+          n=$(python3 -c "import json;print(len(json.load(open('tick.json')).get('converter',[])))" 2>/dev/null || echo 0)
+          [ "$n" = "0" ] && exit 0
+          python3 - <<'PY'
+          import json, subprocess, os, urllib.request
+          base, seg = os.environ["BASE"], os.environ["SEGREDO"]
+          for c in json.load(open("tick.json"))["converter"]:
+              src, dst = f"/tmp/in_{c['id']}_{c['n']}.{c['ext']}", f"/tmp/out_{c['id']}_{c['n']}.mp3"
+              urllib.request.urlretrieve(c["url"], src)
+              subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-codec:a", "libmp3lame", "-b:a", "192k", dst], check=True)
+              req = urllib.request.Request(f"{base}/api/musica/mp3-upload?id={c['id']}&n={c['n']}", data=open(dst, "rb").read(),
+                                           headers={"authorization": f"Bearer {seg}", "content-type": "audio/mpeg"}, method="POST")
+              print(c["id"], c["n"], urllib.request.urlopen(req, timeout=60).read()[:80])
+          PY

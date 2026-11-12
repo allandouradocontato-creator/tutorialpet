@@ -1,0 +1,33 @@
+name: Música do Pet - converter para MP3 (disparo imediato)
+
+# Disparado pelo servidor (se existir GH_DISPATCH_TOKEN no Cloudflare) assim que o fal.ai entrega FLAC/WAV.
+on:
+  workflow_dispatch:
+    inputs:
+      id: { required: true, description: "id do pedido" }
+      n: { required: true, description: "numero da versao" }
+      url: { required: true, description: "URL do audio" }
+      ext: { required: false, default: "wav", description: "extensao original" }
+
+permissions:
+  contents: read
+
+jobs:
+  converter:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      BASE: https://tutorialpet.com.br
+      SEGREDO: ${{ secrets.MUSICA_TICK_SECRET }}
+      ID: ${{ inputs.id }}
+      N: ${{ inputs.n }}
+      URL: ${{ inputs.url }}
+      EXT: ${{ inputs.ext }}
+    steps:
+      - name: Converter e enviar
+        run: |
+          [ -n "$SEGREDO" ] || { echo "::warning::MUSICA_TICK_SECRET ausente"; exit 0; }
+          case "$URL" in https://*) ;; *) echo "URL invalida"; exit 1;; esac
+          curl -sSL -m 120 -o "/tmp/in.$EXT" "$URL"
+          ffmpeg -y -loglevel error -i "/tmp/in.$EXT" -codec:a libmp3lame -b:a 192k /tmp/out.mp3
+          curl -sS -m 90 -X POST "$BASE/api/musica/mp3-upload?id=$ID&n=$N" -H "authorization: Bearer $SEGREDO" -H "content-type: audio/mpeg" --data-binary @/tmp/out.mp3
