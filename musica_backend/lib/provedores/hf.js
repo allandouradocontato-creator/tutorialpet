@@ -9,26 +9,29 @@ const BASE = (env) => String(env.HF_ACESTEP_URL || "https://ace-step-ace-step-v1
 const H = (env) => ({ authorization: `Bearer ${env.HF_TOKEN}`, "content-type": "application/json" });
 
 // Protocolo de fila do Gradio (devolve a mensagem de erro real, ex.: cota ZeroGPU).
-const DEFAULTS = "[\"acestep-v15-xl-turbo\", \"custom\", null, \"unknown\", null, null, 0, \"\", \"\", \"unknown\", 8, 7.0, true, \"-1\", null, -1, 2, null, null, 0.0, -1, \"Fill the audio semantic mask based on the given conditions:\", 1.0, \"text2music\", false, 0.0, 1.0, 3.0, \"ode\", \"\", \"mp3\", 0.85, true, 2.0, 0, 0.9, \"NO USER INPUT\", true, true, true, false, true, false, false, 0.5, 8, null, [], false]"; // parâmetros padrão de /generation_wrapper (49)
-let _fn = null;
-async function fnIndex(env) {
-  if (_fn !== null) return _fn;
+let _cfg = null;
+// Lê o /config do Space: id da função "generation_wrapper" e os valores padrão dos 54 componentes de entrada (inclui os "state").
+async function carregarCfg(env) {
+  if (_cfg) return _cfg;
   const r = await fetch(`${BASE(env)}/config`, { headers: H(env) });
   if (!r.ok) throw new Error(`hf config ${r.status}`);
   const c = await r.json();
-  const d = (c.dependencies || []).find((x) => x.api_name === "generation_wrapper");
-  if (!d) throw new Error("hf: endpoint generation_wrapper não encontrado");
-  _fn = d.id;
-  return _fn;
+  const dep = (c.dependencies || []).find((x) => x.api_name === "generation_wrapper");
+  if (!dep) throw new Error("hf: endpoint generation_wrapper não encontrado");
+  const comps = new Map((c.components || []).map((x) => [x.id, x]));
+  const padrao = dep.inputs.map((id) => { const v = comps.get(id)?.props?.value; return v === undefined ? null : v; });
+  _cfg = { id: dep.id, padrao };
+  return _cfg;
 }
 
 export async function enviar(pedido, letra, env) {
   const dur = Math.min(60, Math.max(30, Number(env.HF_DURACAO || 50)));
-  const data = JSON.parse(DEFAULTS);
+  const cfg = await carregarCfg(env);
+  const data = cfg.padrao.slice();
   data[3] = "pt"; data[4] = descricaoEstilo(pedido, 500); data[5] = String(letra).slice(0, 3000);
   data[9] = "pt"; data[15] = dur; data[16] = 1; // 1 amostra só
   const sh = Math.random().toString(36).slice(2, 12);
-  const r = await fetch(`${BASE(env)}/gradio_api/queue/join`, { method: "POST", headers: H(env), body: JSON.stringify({ data, fn_index: await fnIndex(env), session_hash: sh }) });
+  const r = await fetch(`${BASE(env)}/gradio_api/queue/join`, { method: "POST", headers: H(env), body: JSON.stringify({ data, fn_index: cfg.id, session_hash: sh }) });
   const t = await r.text();
   if (!r.ok) throw new Error(`hf enviar ${r.status}: ${t.slice(0, 200)}`);
   const j = JSON.parse(t);
