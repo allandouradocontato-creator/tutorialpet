@@ -171,13 +171,13 @@ for k,(f,t0,d,db) in enumerate(cues):
     labs+=f'[c{k}]'
 sh(f'ffmpeg -v error -y{ins} -filter_complex "{fc}{labs}amix=inputs={len(cues)}:duration=longest:normalize=0,apad=whole_dur={T:.3f},atrim=0:{T:.3f}[o]" -map "[o]" {O}/vsl8_sfx_SEM_voz.wav')
 MU0=o2-0.4
-sh(f'ffmpeg -v error -y -i {MUS} -af "atrim=8:{8+T-MU0+1:.2f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono,aresample=44100,volume=-15dB,afade=t=in:st=0:d=1.2,afade=t=out:st={T-MU0-1.8:.2f}:d=1.8" -t {T-MU0:.3f} {W}/musica_raw.wav')
+sh(f'ffmpeg -v error -y -i {MUS} -af "atrim=8:{8+T-MU0+1:.2f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono,aresample=44100,volume=-8dB,afade=t=in:st=0:d=1.2,afade=t=out:st={T-MU0-1.8:.2f}:d=1.8" -t {T-MU0:.3f} {W}/musica_raw.wav')
 # v2f (12/11 16:02): abertura com musica de SUSPENSE (drone grave + tremolo + batida) ate o "Calma"; depois a party-music
 ST=MU0+1.2
 SUSP='/home/claude/vsl8/mus/mixkit_suspense_mystery_bass.mp3'  # Mixkit (licenca livre) "Suspense mystery bass"
-sh(f'ffmpeg -v error -y -i {SUSP} -stream_loop -1 -i {SF}/sfx_heartbeat_impact.mp3 -filter_complex "[0:a]atrim=0:{ST:.3f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono,aresample=44100,volume=-6dB[s];[1:a]aformat=channel_layouts=mono,aresample=44100,atrim=0:1.2,apad=whole_dur=1.2,aloop=loop=-1:size=60000,volume=-23dB,atrim=0:{ST:.3f}[h];[s][h]amix=inputs=2:normalize=0,afade=t=in:st=0:d=0.6,afade=t=out:st={ST-1.5:.2f}:d=1.5[o]" -map "[o]" {W}/suspense_v2.wav')
+sh(f'ffmpeg -v error -y -i {SUSP} -stream_loop -1 -i {SF}/sfx_heartbeat_impact.mp3 -filter_complex "[0:a]atrim=0:{ST:.3f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono,aresample=44100,volume=4dB[s];[1:a]aformat=channel_layouts=mono,aresample=44100,atrim=0:1.2,apad=whole_dur=1.2,aloop=loop=-1:size=60000,volume=-14dB,atrim=0:{ST:.3f}[h];[s][h]amix=inputs=2:normalize=0,afade=t=in:st=0:d=0.6,afade=t=out:st={ST-1.5:.2f}:d=1.5[o]" -map "[o]" {W}/suspense_v2.wav')
 sh(f'ffmpeg -v error -y -f lavfi -i anullsrc=r=44100:cl=mono -i {W}/musica_raw.wav -i {W}/suspense_v2.wav -filter_complex "[0:a]atrim=0:{MU0:.3f}[z];[z][1:a]concat=n=2:v=0:a=1,atrim=0:{T:.3f}[m];[m][2:a]amix=inputs=2:duration=first:normalize=0,atrim=0:{T:.3f}[o]" -map "[o]" {W}/musica_v2.wav')
-sh(f'ffmpeg -v error -y -i {W}/voz_v2.wav -i {O}/vsl8_sfx_SEM_voz.wav -i {W}/musica_v2.wav -filter_complex "[0:a]apad=whole_dur={T:.3f},aformat=channel_layouts=mono,asplit=2[v][vk];[1:a]aformat=channel_layouts=mono[s];[2:a]aformat=channel_layouts=mono[m0];[m0][vk]sidechaincompress=threshold=0.02:ratio=4:attack=20:release=300[m];[v][s][m]amix=inputs=3:duration=first:normalize=0[o]" -map "[o]" -t {T:.3f} {W}/mix_raw_v2.wav')
+sh(f'ffmpeg -v error -y -i {W}/voz_v2.wav -i {O}/vsl8_sfx_SEM_voz.wav -i {W}/musica_v2.wav -filter_complex "[0:a]apad=whole_dur={T:.3f},aformat=channel_layouts=mono,asplit=2[v][vk];[1:a]aformat=channel_layouts=mono[s];[2:a]aformat=channel_layouts=mono[m0];[m0][vk]sidechaincompress=threshold=0.03:ratio=2:attack=20:release=300[m];[v][s][m]amix=inputs=3:duration=first:normalize=0[o]" -map "[o]" -t {T:.3f} {W}/mix_raw_v2.wav')
 import re
 m=sh(f'ffmpeg -hide_banner -i {W}/mix_raw_v2.wav -af loudnorm=I=-14:TP=-1.5:LRA=7:print_format=json -f null - 2>&1')
 mj=json.loads(m[m.rindex('{'):m.rindex('}')+1])

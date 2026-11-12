@@ -92,3 +92,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 12/11 16:02 VSL8 v2f: Allan pediu musica de SUSPENSE na abertura (ate o "Calma"), depois party-music animada; efeitos continuam pontuando. Suspense sintetizado (drone+tremolo+batida) pois bancos nao baixam pelo shell.
 
 - 12/11 16:10 VSL8 v2g: Allan mandou pesquisar faixa de suspense real (a sintetizada nao serviu). Mixkit (licenca livre) baixa do shell via assets.mixkit.co/active_storage/sfx/<id>/<id>-preview.mp3 (id pegando no JS da pagina pelo navegador embutido); usada "Suspense mystery bass" (id 685), salva em biblioteca/musica. Outras boas: 681 synth suspense (3:33), 688 action suspense, 2510 ambience.
+
+- 12/11 16:09 VSL8 v2h: Allan nao ouviu a musica (v2g muito baixa); subi suspense +10 dB e party +7 dB e suavizei o ducking (ratio 2). Regra: musica de fundo tem que ser AUDIVEL no celular, nao so presente no arquivo.
