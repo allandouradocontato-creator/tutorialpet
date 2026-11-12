@@ -196,3 +196,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 2026-11-12 | HeyGen: novo rascunho abre em paisagem; antes de gerar, escolher Retrato + Preencher + Turbo 1080p. Upload de audio no HeyGen nao passa por file_upload (bloqueado): o Allan escolhe o arquivo na janela do Windows (caminho relativo a Downloads).
 
 - 2026-11-12 | Anuncio VSL8: pedi ao Allan para escolher o arquivo de 53 MB na janela do Windows, sem esgotar alternativas | seletor nativo pertence ao Chrome (tier read) e a extensao so envia ate 3,8 MB; devolvi a tarefa de primeira, contra a regra "nao me de tarefa" | antes de pedir qualquer acao ao Allan, esgotar alternativas (outra ferramenta, API, enviar em partes, outro caminho de upload) e so entao dizer o minimo que falta, com opcoes
+
+- 2026-11-12 | Upload de video grande no Ads Manager | file_upload so 3,8 MB e seletor nativo nao operavel | usar "URL do video" com link raw do GitHub (branch temporaria, apagar depois)
