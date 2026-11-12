@@ -86,3 +86,4 @@
 2026-11-11 11:59 | blog 0/1; 2 promoções (atropelado, janela-do-carro) reprovadas por capa (Gemini 503 + candidatas já usadas) | promovi quanto-custa-um-cachorro-de-raca com capa índice 5 escolhida a mão (fbf50d9); rodada 43041634861 verde | conferir 15:19 (E34); se capa travar de novo, ficha V30 | altera: ao promover, ver as candidatas e passar índice bom
 2026-11-11 15:25 | ronda 15:19: tudo verde exceto TikTok banido (já com o Allan) | fechei issues 45/46/47 (2 rodadas verdes da fábrica e blog 1/1) | conferir 19:19 (E34) | mantém
 2026-11-11 19:25 | ronda sem falha nova; só conferência (E34) | 0 correções, 1 pendência Allan (TikTok banido) | n/a | mantém
+2026-11-12 07:35 | blog 0/1 às 07:20; TikTok banido segue | promovi quais-sao-os-documentos-necessarios-para-adotar-um-pet (9a66394), run 43199653503 em andamento | conferir 11:19 (E34) | mantém
