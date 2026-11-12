@@ -105,10 +105,10 @@ footer a{color:var(--tx);text-decoration:none;border-bottom:1px solid var(--bd)}
   <h2>Escolha o estilo do seu clipe</h2>
   <p class="lead">Quatro estilos prontos. Cada um tem roteiro, legendas e trilha própria. Você só manda as fotos.</p>
   <div class="exs">
-    <article class="ex"><video src="videos/exemplo_homenagem.mp4" poster="img/poster_homenagem.jpg" controls playsinline preload="none"></video><div class="c"><h3>Homenagem</h3><p>Para celebrar a vida de um pet que já partiu, com carinho e gratidão.</p></div></article>
-    <article class="ex"><video src="videos/exemplo_aniversario.mp4" poster="img/poster_aniversario.jpg" controls playsinline preload="none"></video><div class="c"><h3>Aniversário do pet</h3><p>Uma festa em vídeo para o aniversário do seu melhor amigo.</p></div></article>
-    <article class="ex"><video src="videos/exemplo_retrospectiva.mp4" poster="img/poster_retrospectiva.jpg" controls playsinline preload="none"></video><div class="c"><h3>Nossa história</h3><p>A trajetória de vocês, do primeiro dia até hoje.</p></div></article>
-    <article class="ex"><video src="videos/exemplo_um_dia.mp4" poster="img/poster_um_dia.jpg" controls playsinline preload="none"></video><div class="c"><h3>Um dia com meu pet</h3><p>A rotina de vocês do amanhecer ao boa noite.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_homenagem.mp4" poster="img/poster_homenagem.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Homenagem</h3><p>Para celebrar a vida de um pet que já partiu, com carinho e gratidão.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_aniversario.mp4" poster="img/poster_aniversario.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Aniversário do pet</h3><p>Uma festa em vídeo para o aniversário do seu melhor amigo.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_retrospectiva.mp4" poster="img/poster_retrospectiva.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Nossa história</h3><p>A trajetória de vocês, do primeiro dia até hoje.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_um_dia.mp4" poster="img/poster_um_dia.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Um dia com meu pet</h3><p>A rotina de vocês do amanhecer ao boa noite.</p></div></article>
   </div>
 </section>
 
@@ -187,6 +187,9 @@ footer a{color:var(--tx);text-decoration:none;border-bottom:1px solid var(--bd)}
     else if(fs.length>20)estado(fs.length+' selecionados. O máximo é 20: vamos usar os 20 primeiros.','erro');
     else estado(fs.length+' arquivos prontos.','ok');
   });
+  // exemplos tocam sozinhos (mudos, em loop) quando aparecem na tela
+  var vs=document.querySelectorAll('.ex video');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(){})}else{v.pause()}})},{threshold:.5});vs.forEach(function(v){io.observe(v)})}
   document.getElementById('pagar').addEventListener('click',function(){
     if(!arq.files||arq.files.length<3){estado('Escolha pelo menos 3 fotos ou vídeos para continuar.','erro');arq.focus();return}
     msg.style.display='block';msg.scrollIntoView({behavior:'smooth',block:'center'});

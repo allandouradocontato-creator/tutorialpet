@@ -16,3 +16,5 @@ Só arquivos novos, nenhum arquivo da Música do Pet, menu, estilo geral ou paga
 2. Preço aprovado + checkout (Kiwify segue em espera) + recebimento dos arquivos + fila que roda o motor e entrega o link.
 3. Ligar a Música do Pet do cliente como trilha (`--musica`).
 4. Conferir as trilhas de cada molde de ouvido (escolhidas por andamento e volume, não ouvidas).
+
+- Exemplos da página: gerados com 12 clipes de vídeo de banco gratuito (data/video_explicativo/clipes_pets, na ordem 01 a 12) como mídia de entrada, para mostrar movimento real; fotos paradas dão só zoom lento.
