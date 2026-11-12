@@ -801,7 +801,7 @@ MUSICA_FORM_JS = r"""
       whatsapp:d.get('whatsapp'),email:d.get('email'),site:d.get('site'),convite:(new URLSearchParams(location.search).get('convite')||'')};
     fetch('/api/musica/pedido',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(corpo)})
       .then(function(r){return r.json()}).then(function(j){
-        if(j.ok&&j.checkoutUrl){window.location.href=j.checkoutUrl;return}
+        if(j.ok&&j.checkoutUrl){try{localStorage.setItem('tp_pedido',j.id)}catch(e){}window.location.href=j.checkoutUrl;return}
         msg.textContent=j.erro||'Não foi possível continuar. Tente de novo.'; b.disabled=false; b.textContent=t;
       }).catch(function(){msg.textContent='Sem conexão. Tente de novo.'; b.disabled=false; b.textContent=t;});
   });
@@ -813,6 +813,9 @@ MUSICA_ENTREGA_JS = r"""
 <script>
 (function(){
   var id=location.pathname.split('/').filter(Boolean).pop(), box=document.getElementById('conteudo'), tentativas=0;
+  if(id==='entrega'){try{id=localStorage.getItem('tp_pedido')||''}catch(e){id=''}}
+  if(!id){box.innerHTML='<h1>Não encontramos o seu pedido neste aparelho</h1><p>Abra o link do seu pedido que enviamos por e-mail ou WhatsApp, ou faça um novo pedido em <a href="/musica-do-seu-pet/">Música do Seu Pet</a>.</p>';return}
+  try{localStorage.setItem('tp_pedido',id)}catch(e){}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
   function desenhar(j){
     if(j.estado==='entregue'){

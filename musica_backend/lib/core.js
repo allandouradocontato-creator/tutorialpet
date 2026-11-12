@@ -133,11 +133,11 @@ export async function aplicarPagamento(env, payload, ctx) {
   }
   if (p.estado !== "aguardando_pagamento") return { ok: true, ignorado: "pedido já pago" };
   const texto = JSON.stringify(payload);
-  p.bump = /2[ªa]\s*vers[ãa]o/i.test(texto);
+  p.bump = true; // oferta única R$ 19,90 = duas versões (o bump antigo foi desativado)
   p.kiwify = { orderId, pagoEm: Date.now() };
   const e1 = p.form.estilo;
   p.versoes = [novaVersao(1, e1)];
-  if (p.bump) p.versoes.push(novaVersao(2, p.form.estilo2 && p.form.estilo2 !== e1 ? p.form.estilo2 : PROXIMO_ESTILO[e1] || "pop alegre"));
+  p.versoes.push(novaVersao(2, p.form.estilo2 && p.form.estilo2 !== e1 ? p.form.estilo2 : PROXIMO_ESTILO[e1] || "pop alegre"));
   p.estado = "letra"; // pago: o cliente agora gera/ajusta/aprova a letra e só então a música é criada
   await salvar(env, p);
   if (orderId) await env.PEDIDOS.put("k:" + orderId, p.id, { expirationTtl: 60 * 60 * 24 * 90 });
