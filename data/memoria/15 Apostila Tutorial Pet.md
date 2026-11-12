@@ -88,3 +88,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 2026-11-12 15:47 Allan (regra, tela da Dra. Natasha): fecho LIMPO, so o botao, o carimbo Tutorial Pet e "Dra. Natasha Braga · CRMV 6174"; sem moldura de produto, sem legenda por cima, sem poluicao (a da VSL1 estava "suja"). VSL8 v2d aplicada: selo+nome abaixo do botao, fora do rosto e do bordado da roupa.
 
 - 12/11 15:54 VSL8 v2e: Allan pediu mais sonoplastia pontuando momentos-chave e musica bem baixinha (party-music) entrando so em "Calma" (o2-0,4 s), ducking sob a voz; comeco so efeitos.
+
+- 12/11 16:02 VSL8 v2f: Allan pediu musica de SUSPENSE na abertura (ate o "Calma"), depois party-music animada; efeitos continuam pontuando. Suspense sintetizado (drone+tremolo+batida) pois bancos nao baixam pelo shell.
