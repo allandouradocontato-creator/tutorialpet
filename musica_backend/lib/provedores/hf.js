@@ -1,33 +1,32 @@
-// Adaptador GRATUITO: Space ACE-Step (Apache-2.0) no Hugging Face, via API HTTP do Gradio.
+// Adaptador GRATUITO: Space ACE-Step 1.5 XL turbo (licença MIT) no Hugging Face, via API HTTP do Gradio.
 // Precisa só de um token de LEITURA gratuito (env HF_TOKEN) para ter a cota ZeroGPU da conta.
 // Assíncrono: enviar() abre a chamada e guarda o event_id; consultar() lê o fluxo SSE por poucos segundos por vez.
 import { descricaoEstilo } from "../estilos.js";
 
 export const nome = "hf";
 export const disponivel = (env) => !!env.HF_TOKEN;
-const BASE = (env) => String(env.HF_ACESTEP_URL || "https://ace-step-ace-step.hf.space").replace(/\/$/, "");
+const BASE = (env) => String(env.HF_ACESTEP_URL || "https://ace-step-ace-step-v1-5.hf.space").replace(/\/$/, "");
 const H = (env) => ({ authorization: `Bearer ${env.HF_TOKEN}`, "content-type": "application/json" });
 
 // Protocolo de fila do Gradio (devolve a mensagem de erro real, ex.: cota ZeroGPU).
+const DEFAULTS = "[\"acestep-v15-xl-turbo\", \"custom\", null, \"unknown\", null, null, 0, \"\", \"\", \"unknown\", 8, 7.0, true, \"-1\", null, -1, 2, null, null, 0.0, -1, \"Fill the audio semantic mask based on the given conditions:\", 1.0, \"text2music\", false, 0.0, 1.0, 3.0, \"ode\", \"\", \"mp3\", 0.85, true, 2.0, 0, 0.9, \"NO USER INPUT\", true, true, true, false, true, false, false, 0.5, 8, null, [], false]"; // parâmetros padrão de /generation_wrapper (49)
 let _fn = null;
 async function fnIndex(env) {
   if (_fn !== null) return _fn;
   const r = await fetch(`${BASE(env)}/config`, { headers: H(env) });
   if (!r.ok) throw new Error(`hf config ${r.status}`);
   const c = await r.json();
-  const d = (c.dependencies || []).find((x) => x.api_name === "__call__");
-  if (!d) throw new Error("hf: endpoint __call__ não encontrado");
+  const d = (c.dependencies || []).find((x) => x.api_name === "generation_wrapper");
+  if (!d) throw new Error("hf: endpoint generation_wrapper não encontrado");
   _fn = d.id;
   return _fn;
 }
 
 export async function enviar(pedido, letra, env) {
   const dur = Math.min(60, Math.max(30, Number(env.HF_DURACAO || 50)));
-  const data = [
-    dur, descricaoEstilo(pedido, 500), String(letra).slice(0, 3000),
-    60, 15.0, "euler", "apg", 10.0, null, 0.5, 0.0, 3.0, true, false, true, null, 0.0, 0.0,
-    false, 0.5, null, "none",
-  ];
+  const data = JSON.parse(DEFAULTS);
+  data[3] = "pt"; data[4] = descricaoEstilo(pedido, 500); data[5] = String(letra).slice(0, 3000);
+  data[9] = "pt"; data[15] = dur; data[16] = 1; // 1 amostra só
   const sh = Math.random().toString(36).slice(2, 12);
   const r = await fetch(`${BASE(env)}/gradio_api/queue/join`, { method: "POST", headers: H(env), body: JSON.stringify({ data, fn_index: await fnIndex(env), session_hash: sh }) });
   const t = await r.text();
