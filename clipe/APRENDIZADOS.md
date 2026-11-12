@@ -27,3 +27,7 @@
 - Teste real (servidor local + Chrome headless celular + Hugging Face real): 2 fotos, 116 s do clique ao vídeo; 2/2 animadas; MP4 leve de ~430 KB. Scripts: `clipe_backend/teste/` (servidor_local.mjs, cliente_simulado.py, pagina_playwright.py).
 - Pegadinhas: KV do Cloudflare não tem `list` barato → fila usa `list({prefix:"clp:"})`; chaves do clipe `clp:/clf:/clv:` (a música usa `p:` e `cv:` para créditos); `job.result(timeout=300)` evita travar na fila da GPU grátis; no teste, o botão de rádio invisível cobre o rótulo (usar check(force=True)).
 - Para ligar no ar: segredos do GitHub `HF_TOKEN` (+ `MUSICA_TICK_SECRET` já usado pela música); workflow precisa estar na main; página copiada para site/build/clipe-do-pet/.
+
+## Publicado na main (12/11/2026)
+- Commit 92d2df2: pagina em /clipe-do-pet/ (200), atalho /amigoclipe -> convite AMIGOPET, /api/clipe/* no ar (fila responde 401 sem segredo).
+- Falta confirmar o segredo MUSICA_TICK_SECRET (GitHub) = TICK_SECRET (Cloudflare); sem ele o worker nao processa. Cota ZeroGPU e compartilhada com a musica.
