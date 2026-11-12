@@ -71,3 +71,9 @@ Em 31/10 o Allan decidiu cortar o feed e anunciar só em Reels (feed deu R$ 16,2
 
 ## Aprendizado 12/11/2026 – Corte Resumo v5 vs Filme v10: o gancho melhorou, a retenção do meio não
 Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acumulado, só Reels): o v5 segura mais no gancho (41% do alcance passam de 3 s; v10: 34%) e em todas as faixas (25%: 12,2% contra 6,8%; até o fim: 2,9% contra 1,0%), com mais interação (24 contra 6, 4 compartilhamentos) e 5 inícios de compra (v10: 0). PERDAS que continuam: 70% de quem passa de 3 s sai antes de 25% do vídeo; clique no link custa R$ 0,91 (v10: R$ 0,32) e só 7% dos cliques viram início de compra; vendas reais 0 (amostra pequena). O que causou a melhora do gancho ainda NÃO está provado (hipótese do Allan: câmera "REC" de monitoramento). Próximo: abrir a curva segundo a segundo, comparar v5 x v10 cena a cena, levar o gancho que funcionou e a correção do trecho logo após ele para a VSL 2 "A Câmera".
+
+## Aprendizado 12/11/2026 – cenas da VSL 2 "A Câmera" (Gemini/Flow)
+- Thor na porta (N1) = cena que mais gera retenção (feedback do Allan); repetir o padrão: pet de frente/costas para a porta, close, luz de tarde.
+- Troca de mão do celular na cena do vizinho (N3) gera dois celulares e fica feia: usar só o trecho em que o celular fica numa mão (5–10 s) e conferir o trecho em contact sheet antes de cortar.
+- Cena de câmera REC com o pet destruindo o sofá (N4) precisa de mais duração: pedir tomada longa/2 ângulos (N4b).
+- Gemini Vídeos: cota ~3/dia (volta 12:31 Fortaleza); N2 foi feita no Flow (Veo 3.1 Lite, 8 s, referência do Thor) para não gastar cota do Gemini; baixar do Flow pelo ícone de download no editor > 720p (tamanho original, sem gastar crédito de upscale).
