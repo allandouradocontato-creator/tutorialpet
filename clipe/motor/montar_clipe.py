@@ -79,7 +79,7 @@ def camada_texto(W, H, titulo, subtitulo, cor, destino, grande=False, escurecer=
     gd = ImageDraw.Draw(grad)
     n = grad.size[1]
     for y in range(n):
-        a = int(150 * math.sin(math.pi * y / n) ** 0.6)
+        a = int(190 * math.sin(math.pi * y / n) ** 0.6)
         gd.line([(0, y), (W, y)], fill=(0, 0, 0, a))
     im.alpha_composite(grad, (0, faixa[1]))
     y = topo
@@ -163,8 +163,8 @@ def montar(molde_id, midias_dir, nome, frase, saida, leve=False, musica=None, ma
     molde = json.loads((MOLDES / f"{molde_id}.json").read_text(encoding="utf-8"))
     W, H, crf = (540, 960, 30) if leve else (1080, 1920, 23)
     arqs = sorted(p for p in Path(midias_dir).iterdir() if tipo(p))
-    if len(arqs) < 3:
-        raise SystemExit("Mande pelo menos 3 fotos ou vídeos.")
+    if len(arqs) < 2:
+        raise SystemExit("Mande pelo menos 2 fotos ou vídeos.")
     arqs = arqs[:20]
     seg = molde["seg_dur"]
     # quantas cenas cabem em max_seg: abertura + N fotos + final (com crossfade)
