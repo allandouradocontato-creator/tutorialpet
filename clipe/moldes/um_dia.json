@@ -1,0 +1,28 @@
+{
+  "id": "um_dia",
+  "nome": "Um dia com meu pet",
+  "descricao": "A rotina de vocês do amanhecer ao fim do dia, em horários.",
+  "cor": "#34c3a0",
+  "musica": "velariomusic-happy-vibes-591803.mp3",
+  "musica_inicio": 0,
+  "seg_dur": 2.0,
+  "abertura": {
+    "titulo": "Um dia com {nome}",
+    "subtitulo": "Do amanhecer ao boa noite"
+  },
+  "legendas": [
+    "07h · Bom dia!",
+    "09h · Hora de aventura",
+    "11h · Brincadeira liberada",
+    "13h · Almoço e carinho",
+    "15h · Energia lá em cima",
+    "17h · Passeio e cheirinhos",
+    "19h · Jantar servido",
+    "21h · Colinho garantido",
+    "22h · Boa noite, melhor amigo"
+  ],
+  "final": {
+    "titulo": "Todo dia é melhor com você",
+    "subtitulo": "{nome}"
+  }
+}
