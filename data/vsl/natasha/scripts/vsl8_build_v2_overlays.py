@@ -158,14 +158,22 @@ cues=[('sfx_bass_hit',0.0,1.0,-4),('sfx_bass_hit',0.42,1.0,-7),('sfx_porta_baten
  ('sfx_cachorro_choro',7.3,2.0,-10),('sfx_cachorro_latindo',9.4,2.6,-9),('sfx_telefone_toque',12.0,1.7,-11),
  ('sfx_suspense_swell',13.6,2.8,-12),('sfx_notificacao_celular',16.4,1.0,-9),('sfx_whoosh_passos',17.7,2.0,-10),
  ('sfx_brass_strings_suspense',20.0,6.0,-19),('sfx_chimes_vitoria',o2,2.0,-12),('sfx_conquista',o2+14.9,2.0,-12),
- ('sfx_moeda_win',o3,1.2,-10),('sfx_click_botao',T-1.2,0.5,-8)]
+ ('sfx_moeda_win',o3,1.2,-10),('sfx_click_botao',T-1.2,0.5,-8),
+ # v2e (12/11 15:54): mais sonoplastia pontuando momentos-chave
+ ('sfx_whoosh_passos',2.98,1.0,-14),('sfx_horror_drum',13.78,1.3,-13),('sfx_bass_hit',S(11.76),0.8,-13),
+ ('sfx_whoosh_passos',S(19.42),1.2,-15),('sfx_bass_hit',S(21.12),0.8,-12),('sfx_suspense_swell',S(23.18),3.0,-14),
+ ('sfx_whoosh_passos',o2+4.94,1.0,-14),('sfx_chimes_vitoria',o2+6.62,1.5,-16),('sfx_whoosh_passos',o2+12.0,1.0,-14),
+ ('sfx_chimes_vitoria',o3+3.2,1.5,-14),('sfx_click_botao',o3+6.0,0.5,-11),('sfx_click_botao',o3+7.3,0.5,-9)]
 ins=''; fc=''; labs=''
 for k,(f,t0,d,db) in enumerate(cues):
     ins+=f' -i {SF}/{f}.mp3'
     fc+=f'[{k}:a]atrim=0:{d},asetpts=PTS-STARTPTS,volume={db}dB,afade=t=out:st={max(d-0.15,0.01):.2f}:d=0.15,aresample=44100,aformat=channel_layouts=mono,adelay={int(t0*1000)}:all=1[c{k}];'
     labs+=f'[c{k}]'
 sh(f'ffmpeg -v error -y{ins} -filter_complex "{fc}{labs}amix=inputs={len(cues)}:duration=longest:normalize=0,apad=whole_dur={T:.3f},atrim=0:{T:.3f}[o]" -map "[o]" {O}/vsl8_sfx_SEM_voz.wav')
-sh(f'ffmpeg -v error -y -i {W}/voz_v2.wav -i {O}/vsl8_sfx_SEM_voz.wav -filter_complex "[0:a]apad=whole_dur={T:.3f},aformat=channel_layouts=mono[v];[1:a]aformat=channel_layouts=mono[s];[v][s]amix=inputs=2:duration=first:normalize=0[o]" -map "[o]" -t {T:.3f} {W}/mix_raw_v2.wav')
+MU0=o2-0.4
+sh(f'ffmpeg -v error -y -i {MUS} -af "atrim=8:{8+T-MU0+1:.2f},asetpts=PTS-STARTPTS,aformat=channel_layouts=mono,aresample=44100,volume=-15dB,afade=t=in:st=0:d=1.2,afade=t=out:st={T-MU0-1.8:.2f}:d=1.8" -t {T-MU0:.3f} {W}/musica_raw.wav')
+sh(f'ffmpeg -v error -y -f lavfi -i anullsrc=r=44100:cl=mono -i {W}/musica_raw.wav -filter_complex "[0:a]atrim=0:{MU0:.3f}[z];[z][1:a]concat=n=2:v=0:a=1,atrim=0:{T:.3f}[o]" -map "[o]" {W}/musica_v2.wav')
+sh(f'ffmpeg -v error -y -i {W}/voz_v2.wav -i {O}/vsl8_sfx_SEM_voz.wav -i {W}/musica_v2.wav -filter_complex "[0:a]apad=whole_dur={T:.3f},aformat=channel_layouts=mono,asplit=2[v][vk];[1:a]aformat=channel_layouts=mono[s];[2:a]aformat=channel_layouts=mono[m0];[m0][vk]sidechaincompress=threshold=0.02:ratio=4:attack=20:release=300[m];[v][s][m]amix=inputs=3:duration=first:normalize=0[o]" -map "[o]" -t {T:.3f} {W}/mix_raw_v2.wav')
 import re
 m=sh(f'ffmpeg -hide_banner -i {W}/mix_raw_v2.wav -af loudnorm=I=-14:TP=-1.5:LRA=7:print_format=json -f null - 2>&1')
 mj=json.loads(m[m.rindex('{'):m.rindex('}')+1])
