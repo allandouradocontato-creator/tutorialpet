@@ -9,6 +9,7 @@ import { PROVEDORES, cadeia, pedidoPadrao } from "./provedores/index.js";
 import { alertar, enviarEmailEntrega, enviarEmailLetra, mensagemWhatsApp } from "./notificar.js";
 
 const MIN = 60 * 1000;
+const PACOTES_VALIDOS = ["1", "2", "3", "5", "mais"];
 export const LIMITES = { tempoProvedor: 7 * MIN, tempoConversao: 15 * MIN, esperaRetry: 10 * MIN, rodadasMax: 3 };
 
 // ---------- armazenamento (Cloudflare KV, binding PEDIDOS) ----------
@@ -58,7 +59,8 @@ export async function criarPedido(env, body, ctx) {
   if (body.site) return { ok: true, id: novoId(), checkoutUrl: "/", fantasma: true }; // honeypot: bot recebe resposta "normal" e nada é salvo
   const v = validarFormulario(body);
   if (!v.ok) return v;
-  const p = { id: novoId(), criadoEm: Date.now(), estado: "aguardando_pagamento", form: v.form, versoes: [], bump: false, log: [] };
+  const pacote = PACOTES_VALIDOS.includes(String(body.pacote)) ? String(body.pacote) : "1"; // "1" avulsa, "2"/"3"/"5" pacotes, "mais" = música extra a R$ 14,90
+  const p = { id: novoId(), criadoEm: Date.now(), estado: "aguardando_pagamento", form: v.form, versoes: [], bump: false, log: [], pacote };
   await salvar(env, p);
   await env.PEDIDOS.put("e:" + v.form.email, p.id, { expirationTtl: 60 * 60 * 24 * 30 });
   if (String(env.MUSICA_DEMO || "") === "1") {
@@ -74,12 +76,13 @@ export async function criarPedido(env, body, ctx) {
     const r = await usarCreditoConvite(env, conv);
     if (!r.ok) { p.estado = "cancelado"; await salvar(env, p); return { ok: false, erro: r.erro, campo: "geral" }; }
     p.versoes = [novaVersao(1, p.form.estilo), novaVersao(2, p.form.estilo2 && p.form.estilo2 !== p.form.estilo ? p.form.estilo2 : PROXIMO_ESTILO[p.form.estilo] || "pop alegre")];
-    p.bump = true; p.teste = { convite: conv, restantes: r.restantes };
+    p.bump = true;
+    if (r.pacote) p.pacoteUso = { codigo: conv, restantes: r.restantes }; else p.teste = { convite: conv, restantes: r.restantes };
     p.estado = "letra";
     await salvar(env, p);
     return { ok: true, id: p.id, checkoutUrl: `/musica-do-seu-pet/entrega/${p.id}`, teste: true, creditosRestantes: r.restantes };
   }
-  const base = env.KIWIFY_CHECKOUT_URL;
+  const base = pacote === "1" ? env.KIWIFY_CHECKOUT_URL : env["KIWIFY_CHECKOUT_URL_" + pacote.toUpperCase()];
   if (!base) return { ok: false, erro: "Checkout indisponível no momento.", campo: "geral" };
   const u = new URL(base);
   u.searchParams.set("src", p.id);
@@ -92,7 +95,15 @@ export async function criarPedido(env, body, ctx) {
 async function usarCreditoConvite(env, codigo) {
   const mapa = {};
   String(env.CONVITES_TESTE || "").split(",").forEach((t) => { const [c, n] = t.split(":"); if (c && c.trim()) mapa[c.trim().toUpperCase()] = Math.max(0, parseInt(n, 10) || 0); });
-  if (!(codigo in mapa)) return { ok: false, erro: "Convite inválido." };
+  if (!(codigo in mapa)) {
+    // código de PACOTE (comprado): saldo no KV (pk:<CODIGO>), criado quando o pagamento do pacote é aprovado
+    const pk = /^MP[A-Z0-9]{6,10}$/.test(codigo) ? await env.PEDIDOS.get("pk:" + codigo) : null;
+    if (pk === null) return { ok: false, erro: "Código inválido." };
+    const n = parseInt(pk, 10) || 0;
+    if (n <= 0) return { ok: false, erro: "As músicas deste código já foram usadas." };
+    await env.PEDIDOS.put("pk:" + codigo, String(n - 1), { expirationTtl: 60 * 60 * 24 * 365 });
+    return { ok: true, restantes: n - 1, pacote: true };
+  }
   const chave = "cv:" + codigo;
   const atual = await env.PEDIDOS.get(chave);
   const saldo = atual === null ? mapa[codigo] : parseInt(atual, 10) || 0;
@@ -137,6 +148,14 @@ export async function aplicarPagamento(env, payload, ctx) {
   p.kiwify = { orderId, pagoEm: Date.now() };
   const e1 = p.form.estilo;
   p.versoes = [novaVersao(1, e1)];
+  // Pacote: o tamanho vem do NOME do produto pago ("Pacote de N músicas"), não do pedido, para ninguém ganhar crédito pagando o produto menor.
+  const mp = /pacote\s+de\s+(\d)\s+m[úu]sicas/i.exec(texto);
+  const qtd = mp ? Math.min(5, Math.max(1, parseInt(mp[1], 10))) : 1;
+  if (qtd > 1) {
+    const codigo = "MP" + novoId().slice(0, 7).toUpperCase();
+    await env.PEDIDOS.put("pk:" + codigo, String(qtd - 1), { expirationTtl: 60 * 60 * 24 * 365 });
+    p.pacoteCodigo = codigo; p.pacoteTotal = qtd;
+  }
   p.versoes.push(novaVersao(2, p.form.estilo2 && p.form.estilo2 !== e1 ? p.form.estilo2 : PROXIMO_ESTILO[e1] || "pop alegre"));
   p.estado = "letra"; // pago: o cliente agora gera/ajusta/aprova a letra e só então a música é criada
   await salvar(env, p);
@@ -332,6 +351,7 @@ export async function visaoPublica(env, id) {
       diagnostico: p.teste && v.estado === "falhou" ? (v.tentativas || []).slice(-3) : undefined, // só pedidos de teste (convite)
     })),
     whatsappMsg: p.estado === "entregue" ? mensagemWhatsApp(env, p) : undefined,
+    pacote: p.pacoteCodigo ? { codigo: p.pacoteCodigo, restantes: parseInt((await env.PEDIDOS.get("pk:" + p.pacoteCodigo)) || "0", 10) || 0 } : undefined,
   };
 }
 

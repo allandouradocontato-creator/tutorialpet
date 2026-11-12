@@ -294,7 +294,22 @@ header.site nav { flex: 1 1 auto; }
 <script>
 (function(){
   var id=location.pathname.split('/').filter(Boolean).pop(), box=document.getElementById('conteudo'), tentativas=0;
+  if(id==='entrega'){try{id=localStorage.getItem('tp_pedido')||''}catch(e){id=''}}
+  if(!id){box.innerHTML='<h1>Não encontramos o seu pedido neste aparelho</h1><p>Abra o link do seu pedido que enviamos por e-mail ou WhatsApp, ou faça um novo pedido em <a href="/musica-do-seu-pet/">Música do Seu Pet</a>.</p>';return}
+  try{localStorage.setItem('tp_pedido',id)}catch(e){}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function extras(j){
+    var h='';
+    if(j.pacote){
+      var link=location.origin+'/musica-do-seu-pet/?convite='+encodeURIComponent(j.pacote.codigo);
+      h+='<section><h2>Suas músicas do pacote 🎁</h2>'+(j.pacote.restantes>0
+        ?'<p>Você ainda tem <b>'+j.pacote.restantes+' música'+(j.pacote.restantes>1?'s':'')+'</b> para criar. Use você mesmo ou presenteie alguém: quem abrir o link abaixo preenche o próprio formulário, sem pagar.</p>'
+         +'<p><b>Código:</b> '+esc(j.pacote.codigo)+'</p><p><a class="btn" href="'+link+'">Criar outra música</a> <a class="btn" style="background:#128c4a" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent('Ganhei uma música personalizada para você! Crie a sua aqui: '+link)+'">Presentear no WhatsApp</a></p>'
+        :'<p>Você já usou todas as músicas deste pacote. Obrigado!</p>')+'</section>';
+    }
+    h+='<section><h2>Quer mais uma música? 🎶</h2><p>Para um amigo, um parente ou outro pet: <b>R$ 14,90</b>, também com 2 versões.</p><p><a class="btn" href="/musica-do-seu-pet/?pacote=mais#quero">Criar mais uma por R$ 14,90</a></p></section>';
+    return h;
+  }
   function desenhar(j){
     if(j.estado==='entregue'){
       var h='<h1>A música do '+esc(j.nomePet)+' ficou pronta! 🎶</h1>';
@@ -305,7 +320,7 @@ header.site nav { flex: 1 1 auto; }
           '<a class="btn" style="background:#128c4a" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent(j.whatsappMsg||'')+'">Enviar no WhatsApp</a></div>'+
           '<h3>Letra</h3><div class="letra">'+esc(v.letra||'')+'</div></section>';
       });
-      box.innerHTML=h; return true;
+      box.innerHTML=h+extras(j); return true;
     }
     if(j.estado==='letra'){ return desenharLetra(j); }
     if(j.estado==='falhou'){

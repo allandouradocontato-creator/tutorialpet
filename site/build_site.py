@@ -793,12 +793,15 @@ MUSICA_FORM_JS = r"""
     if(h&&q.value)h.value=q.value; var alvo=document.getElementById('quero'); if(alvo)alvo.scrollIntoView({behavior:'smooth'}); setTimeout(function(){if(n)n.focus({preventScroll:true})},600);});}
   var f=document.getElementById('fm'),msg=document.getElementById('msg'),b=document.getElementById('enviar');
   if(!f)return;
+  try{var pq=new URLSearchParams(location.search).get('pacote');
+    if(pq==='mais'){var cm=document.getElementById('chipMais');if(cm){cm.hidden=false;var rm=cm.querySelector('input');if(rm)rm.checked=true;}}
+    if(new URLSearchParams(location.search).get('convite')){var pc=document.getElementById('pacotes');if(pc){pc.hidden=true;var lb=pc.previousElementSibling;if(lb)lb.hidden=true;}}}catch(e){}
   f.addEventListener('submit',function(e){
     e.preventDefault(); msg.textContent=''; b.disabled=true; var t=b.textContent; b.textContent='Preparando seu pagamento...';
     var d=new FormData(f);
     var corpo={nomePet:d.get('nomePet'),especie:d.get('especie'),raca:d.get('raca'),manias:[d.get('m1'),d.get('m2'),d.get('m3')],
       tutor:d.get('tutor'),historia:d.get('historia'),estilo:d.get('estilo'),estilo2:d.get('estilo2'),voz:d.get('voz'),clima:d.get('clima'),
-      whatsapp:d.get('whatsapp'),email:d.get('email'),site:d.get('site'),convite:(new URLSearchParams(location.search).get('convite')||'')};
+      whatsapp:d.get('whatsapp'),email:d.get('email'),site:d.get('site'),convite:(new URLSearchParams(location.search).get('convite')||''),pacote:d.get('pacote')||'1'};
     fetch('/api/musica/pedido',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(corpo)})
       .then(function(r){return r.json()}).then(function(j){
         if(j.ok&&j.checkoutUrl){try{localStorage.setItem('tp_pedido',j.id)}catch(e){}window.location.href=j.checkoutUrl;return}
@@ -817,6 +820,18 @@ MUSICA_ENTREGA_JS = r"""
   if(!id){box.innerHTML='<h1>Não encontramos o seu pedido neste aparelho</h1><p>Abra o link do seu pedido que enviamos por e-mail ou WhatsApp, ou faça um novo pedido em <a href="/musica-do-seu-pet/">Música do Seu Pet</a>.</p>';return}
   try{localStorage.setItem('tp_pedido',id)}catch(e){}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function extras(j){
+    var h='';
+    if(j.pacote){
+      var link=location.origin+'/musica-do-seu-pet/?convite='+encodeURIComponent(j.pacote.codigo);
+      h+='<section><h2>Suas músicas do pacote 🎁</h2>'+(j.pacote.restantes>0
+        ?'<p>Você ainda tem <b>'+j.pacote.restantes+' música'+(j.pacote.restantes>1?'s':'')+'</b> para criar. Use você mesmo ou presenteie alguém: quem abrir o link abaixo preenche o próprio formulário, sem pagar.</p>'
+         +'<p><b>Código:</b> '+esc(j.pacote.codigo)+'</p><p><a class="btn" href="'+link+'">Criar outra música</a> <a class="btn" style="background:#128c4a" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent('Ganhei uma música personalizada para você! Crie a sua aqui: '+link)+'">Presentear no WhatsApp</a></p>'
+        :'<p>Você já usou todas as músicas deste pacote. Obrigado!</p>')+'</section>';
+    }
+    h+='<section><h2>Quer mais uma música? 🎶</h2><p>Para um amigo, um parente ou outro pet: <b>R$ 14,90</b>, também com 2 versões.</p><p><a class="btn" href="/musica-do-seu-pet/?pacote=mais#quero">Criar mais uma por R$ 14,90</a></p></section>';
+    return h;
+  }
   function desenhar(j){
     if(j.estado==='entregue'){
       var h='<h1>A música do '+esc(j.nomePet)+' ficou pronta! 🎶</h1>';
@@ -827,7 +842,7 @@ MUSICA_ENTREGA_JS = r"""
           '<a class="btn" style="background:#128c4a" target="_blank" rel="noopener" href="https://wa.me/?text='+encodeURIComponent(j.whatsappMsg||'')+'">Enviar no WhatsApp</a></div>'+
           '<h3>Letra</h3><div class="letra">'+esc(v.letra||'')+'</div></section>';
       });
-      box.innerHTML=h; return true;
+      box.innerHTML=h+extras(j); return true;
     }
     if(j.estado==='letra'){ return desenharLetra(j); }
     if(j.estado==='falhou'){
@@ -925,6 +940,8 @@ def build_musica_page(site: dict, pilares: dict) -> str:
 <label>Estilo da música</label><div class="chips">{estilos_chip}</div>
 <label>Voz</label><div class="chips"><label class="chip"><input type="radio" name="voz" value="feminina" checked><span>Feminina</span></label><label class="chip"><input type="radio" name="voz" value="masculina"><span>Masculina</span></label></div>
 <label>Clima</label><div class="chips"><label class="chip"><input type="radio" name="clima" value="animada" checked><span>Animada</span></label><label class="chip"><input type="radio" name="clima" value="emocionante"><span>Emocionante</span></label><label class="chip"><input type="radio" name="clima" value="homenagem"><span>Homenagem</span></label></div>
+<label>Quantas músicas? <small>(cada uma com 2 versões; os pacotes dão um código para você usar ou presentear)</small></label>
+<div class="chips" id="pacotes"><label class="chip"><input type="radio" name="pacote" value="1" checked><span>1 música · R$ 19,90</span></label><label class="chip"><input type="radio" name="pacote" value="2"><span>2 músicas · R$ 34,80</span></label><label class="chip"><input type="radio" name="pacote" value="3"><span>3 músicas · R$ 48,70</span></label><label class="chip"><input type="radio" name="pacote" value="5"><span>5 músicas · R$ 72,50 <small>(melhor preço)</small></span></label><label class="chip" id="chipMais" hidden><input type="radio" name="pacote" value="mais"><span>Mais uma música · R$ 14,90</span></label></div>
 <div class="campo"><div><label for="whatsapp">Seu WhatsApp</label><input id="whatsapp" name="whatsapp" type="tel" inputmode="tel" required placeholder="(85) 90000-0000"></div>
 <div><label for="email">Seu e-mail <small>(a música chega aqui)</small></label><input id="email" name="email" type="email" required placeholder="voce@email.com"></div></div>
 <div class="hp" aria-hidden="true"><label>Não preencha <input name="site" type="text" tabindex="-1" autocomplete="off"></label></div>
