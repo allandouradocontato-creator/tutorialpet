@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Como Ensinar Comandos a um Cachorro Adulto Adotado",
+  "gancho_3s": "3 coisas que ninguém te conta sobre cachorro adulto.",
+  "cenas": [
+    {
+      "narracao": "3 coisas que ninguém te conta sobre cachorro adulto.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Adotou um adulto que não obedece?"
+    },
+    {
+      "narracao": "[smiling] Seu cachorro adulto adotado aprende super bem, viu? O segredo é ganhar a confiança dele.",
+      "visual_busca_banco_livre": "adult dog sitting calmly looking at camera",
+      "texto_na_tela": "Cachorros adultos aprendem!"
+    },
+    {
+      "narracao": "[warmly] Aposte no reforço positivo: troque a bronca por petiscos e carinho na hora certa.",
+      "visual_busca_banco_livre": "dog eating treat from hand close up",
+      "texto_na_tela": "Reforço positivo"
+    },
+    {
+      "narracao": "[short pause] Tente sessões curtas de cinco a dez minutinhos, duas vezes por dia, num lugar calmo.",
+      "visual_busca_banco_livre": "dog waiting for command indoors",
+      "texto_na_tela": "Sessões curtas"
+    },
+    {
+      "narracao": "Mantenha a consistência usando sempre a mesma palavra e respeitando o tempo do seu bichinho.",
+      "visual_busca_banco_livre": "dog looking attentively close up",
+      "texto_na_tela": "Seja consistente"
+    },
+    {
+      "narracao": "[thoughtful] Se notar muito medo ou agressividade, vale a pena pedir ajuda de um veterinário.",
+      "visual_busca_banco_livre": "dog looking nervous or cautious",
+      "texto_na_tela": "Busque veterinário"
+    }
+  ],
+  "chamada_final": "Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorro",
+    "#adocaocanina",
+    "#adestramentopositivo",
+    "#petresgatado",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nCachorros adultos adotados também aprendem comandos básicos?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados\n\n#cachorro #adocaocanina #adestramentopositivo #petresgatado #dicapet",
+  "slug": "como-ensinar-comandos-basicos-para-adotados-adultos-resgatados",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 3
+}
