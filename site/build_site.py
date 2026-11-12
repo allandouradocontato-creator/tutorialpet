@@ -894,7 +894,7 @@ def build_musica_page(site: dict, pilares: dict) -> str:
     main = f"""{render_header(site["nome"], pilares)}
 <main class="musica"><div class="in">
 <section class="hero">
-<span class="eyebrow">🐾 Música feita para o seu pet · por inteligência artificial</span>
+<span class="eyebrow">🐾 A primeira plataforma de música para pets do Brasil</span>
 <h1>Conte a sua história,<br><span class="gr">a gente canta pra você</span></h1>
 <p class="sub">{esc(cfg.get("subtitulo", ""))}</p>
 <div class="eq" aria-hidden="true">{barras}</div>
