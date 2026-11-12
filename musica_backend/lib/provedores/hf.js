@@ -66,8 +66,10 @@ export async function consultar(jobId, env) {
   }
   if (!fim) return { estado: "processando" };
   if (!fim.success) return { estado: "falhou", motivo: `hf: ${String(fim.output?.error || "erro sem mensagem").slice(0, 220)}` };
-  const f = fim.output?.data?.[0];
-  const url = f && (f.url || (f.path ? `${BASE(env)}/gradio_api/file=${f.path}` : ""));
-  if (!url) return { estado: "falhou", motivo: "hf: resposta sem áudio" };
-  return { estado: "pronto", audioUrl: url, contentType: f.mime_type || "", duracao: job.d };
+  const dados = fim.output?.data || [];
+  const f = dados[0] || (Array.isArray(dados[8]) ? dados[8][0] : null); // amostra 1; senão 1º arquivo da lista
+  const arq = f && (f.value || f); // alguns retornos vêm embrulhados em {value:{...}}
+  const url = arq && (arq.url || (arq.path ? `${BASE(env)}/gradio_api/file=${arq.path}` : ""));
+  if (!url) return { estado: "falhou", motivo: `hf: resposta sem áudio (${String(dados[10] ?? "sem status").slice(0, 160)}; tipos: ${dados.slice(0, 3).map((x) => (x === null ? "null" : typeof x)).join(",")})` };
+  return { estado: "pronto", audioUrl: url, contentType: arq.mime_type || "", duracao: job.d };
 }
