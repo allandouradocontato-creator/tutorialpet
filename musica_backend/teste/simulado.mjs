@@ -114,3 +114,5 @@ console.log("OK 5: formulário aceita pessoa/brincadeira/outro bichinho");
 
 const h = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Lia", especie: "pessoa", manias: [], historia: "A gente se conheceu num show de forró e ela pisou no meu pé dançando.", estilo: "forró", voz: "feminina", clima: "emocionante", email: "l@exemplo.com", whatsapp: "85999990000" }), env })).json();
 assert.equal(h.ok, true); console.log("OK 6: só com história (sem manias) passa");
+const h2 = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Bolt", especie: "cachorro", manias: [], historia: "Eu sempre quis um filhotinho. O Bolt chegou pequenininho, se perdeu na rua, ficou doente e quase não resistiu, mas voltou pra casa e hoje é o rei do sofá.", estilo: "mpb", voz: "feminina", clima: "emocionante", email: "b@exemplo.com", whatsapp: "85999990000" }), env })).json();
+assert.equal(h2.ok, true); console.log("OK 7: história com perda/doença/reencontro passa no filtro");

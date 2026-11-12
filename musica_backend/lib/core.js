@@ -32,7 +32,7 @@ export function validarFormulario(b) {
   const especie = String(b.especie || "outro").toLowerCase();
   if (!["cachorro", "gato", "outro-pet", "pessoa", "outro"].includes(especie)) return erro("especie", "Escolha para quem é a música.");
   const manias = (Array.isArray(b.manias) ? b.manias : []).map((m) => limpar(m, 60)).filter(Boolean).slice(0, 3);
-  const historia = limpar(b.historia, 600); // campo livre (12/11/2026, Allan): "conte a sua história que a gente canta para você"
+  const historia = limpar(b.historia, 1200); // campo livre (12/11/2026, Allan): "conte a sua história que a gente canta para você"
   if (manias.length < 1 && historia.length < 20) return erro("manias", "Conte pelo menos uma mania ou um pouquinho da história.");
   const estilo = String(b.estilo || "");
   if (!ESTILOS[estilo]) return erro("estilo", "Escolha o estilo da música.");

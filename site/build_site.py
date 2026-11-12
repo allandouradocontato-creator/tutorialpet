@@ -835,7 +835,7 @@ def build_musica_page(site: dict, pilares: dict) -> str:
 <input name="m1" type="text" maxlength="60" placeholder="Ex.: rouba meias e sai correndo">
 <input name="m2" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: late para o carteiro">
 <input name="m3" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: dorme de barriga para cima">
-<label for="historia">Conte a sua história e a gente canta para você <small>(opcional)</small></label><textarea id="historia" name="historia" maxlength="600" rows="4" placeholder="Como vocês se conheceram, uma história engraçada, um momento especial..." style="width:100%;padding:12px;border:1px solid #d9cfba;border-radius:10px;font-size:1rem;box-sizing:border-box;font-family:inherit"></textarea>
+<label for="historia">Conte a sua história e a gente canta para você <small>(opcional)</small></label><textarea id="historia" name="historia" maxlength="1200" rows="6" placeholder="Como ele chegou em casa, aquela vez que se perdeu e voltou, uma superação, uma história engraçada, um momento especial..." style="width:100%;padding:12px;border:1px solid #d9cfba;border-radius:10px;font-size:1rem;box-sizing:border-box;font-family:inherit"></textarea>
 <label for="tutor">Seu nome <small>(opcional, para citar na música)</small></label><input id="tutor" name="tutor" type="text" maxlength="30">
 <label for="estilo">Estilo da música</label><select id="estilo" name="estilo" required>{_opcoes_estilo(esc, "pop alegre")}</select>
 <label>Voz</label><div class="opcoes"><label><input type="radio" name="voz" value="feminina" checked> Feminina</label><label><input type="radio" name="voz" value="masculina"> Masculina</label></div>

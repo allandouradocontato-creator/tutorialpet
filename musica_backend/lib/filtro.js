@@ -19,8 +19,7 @@ const TITULOS = [
 ];
 const OFENSIVAS = [
   "porra", "caralho", "merda", "puta", "putaria", "foda", "foder", "buceta", "cu", "viado", "bicha", "cacete", "arrombado",
-  "desgraca", "otario", "idiota", "imbecil", "vagabund", "retardad", "nazi", "estupr", "suicid", "matar", "morrer",
-  "droga", "cocaina", "maconha", "sexo", "sexual", "pornô", "porno", "negro sujo", "macaco",
+  "otario", "idiota", "imbecil", "vagabund", "retardad", "nazi", "estupr", "suicid", "droga", "cocaina", "maconha", "sexo", "sexual", "pornô", "porno", "negro sujo", "macaco",
 ];
 
 const norm = (s) => ` ${semAcento(s).toLowerCase().replace(/[^a-z0-9&]+/g, " ").trim()} `;
