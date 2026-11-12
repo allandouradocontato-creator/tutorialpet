@@ -53,13 +53,22 @@ export function validarFormulario(b) {
   return { ok: true, form };
 }
 
-export async function criarPedido(env, body) {
+export async function criarPedido(env, body, ctx) {
   if (body.site) return { ok: true, id: novoId(), checkoutUrl: "/", fantasma: true }; // honeypot: bot recebe resposta "normal" e nada é salvo
   const v = validarFormulario(body);
   if (!v.ok) return v;
   const p = { id: novoId(), criadoEm: Date.now(), estado: "aguardando_pagamento", form: v.form, versoes: [], bump: false, log: [] };
   await salvar(env, p);
   await env.PEDIDOS.put("e:" + v.form.email, p.id, { expirationTtl: 60 * 60 * 24 * 30 });
+  if (String(env.MUSICA_DEMO || "") === "1") {
+    // MODO DEMONSTRAÇÃO (só prévia): pula a Kiwify, marca como pago e já gera (música de amostra) para ver o fluxo inteiro.
+    p.versoes = [novaVersao(1, p.form.estilo)];
+    p.estado = "pago"; p.demo = true;
+    await salvar(env, p);
+    const tarefa = avancar(env, p.id, ctx);
+    if (ctx?.waitUntil) ctx.waitUntil(tarefa); else await tarefa;
+    return { ok: true, id: p.id, checkoutUrl: `/musica-do-seu-pet/entrega/${p.id}`, demo: true };
+  }
   const base = env.KIWIFY_CHECKOUT_URL;
   if (!base) return { ok: false, erro: "Checkout indisponível no momento.", campo: "geral" };
   const u = new URL(base);

@@ -3,10 +3,11 @@
 import * as fal from "./fal.js";
 import * as mureka from "./mureka.js";
 import * as elevenlabs from "./elevenlabs.js";
+import * as demo from "./demo.js";
 import { gerarLetra } from "../letra.js";
 import { sleep } from "../util.js";
 
-export const PROVEDORES = { fal, mureka, elevenlabs };
+export const PROVEDORES = { fal, mureka, elevenlabs, demo };
 
 export function cadeia(env) {
   const nomes = String(env.MUSIC_PROVIDERS || "fal,mureka,elevenlabs").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);

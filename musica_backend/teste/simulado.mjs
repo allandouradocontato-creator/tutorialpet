@@ -116,3 +116,18 @@ const h = await (await pedidoPost({ request: post("https://x/api/musica/pedido",
 assert.equal(h.ok, true); console.log("OK 6: só com história (sem manias) passa");
 const h2 = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Bolt", especie: "cachorro", manias: [], historia: "Eu sempre quis um filhotinho. O Bolt chegou pequenininho, se perdeu na rua, ficou doente e quase não resistiu, mas voltou pra casa e hoje é o rei do sofá.", estilo: "mpb", voz: "feminina", clima: "emocionante", email: "b@exemplo.com", whatsapp: "85999990000" }), env })).json();
 assert.equal(h2.ok, true); console.log("OK 7: história com perda/doença/reencontro passa no filtro");
+
+// 8) modo demonstração (prévia): pula a Kiwify, gera com a amostra e entrega
+{
+  const envDemo = { PEDIDOS: new KV(), MUSICA_DEMO: "1", MUSIC_PROVIDERS: "demo", PUBLIC_BASE_URL: "https://prev.exemplo.dev",
+    ASSETS: { fetch: async () => new Response(mp3Falso, { headers: { "content-type": "audio/mpeg" } }) } };
+  const pd = []; const wu = (p) => pd.push(p);
+  const r = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Thor", especie: "cachorro", manias: ["pula no sofá"], estilo: "pop alegre", voz: "masculina", clima: "animada", email: "t@exemplo.com", whatsapp: "85999990000" }), env: envDemo, waitUntil: wu })).json();
+  assert.equal(r.ok, true); assert.match(r.checkoutUrl, /^\/musica-do-seu-pet\/entrega\//);
+  while (pd.length) await pd.shift();
+  const v8 = await (await entregaGet({ request: new Request("https://x/api/musica/entrega?id=" + r.id), env: envDemo })).json();
+  assert.equal(v8.estado, "entregue", JSON.stringify(v8).slice(0, 300));
+  const d8 = await mp3Get({ request: new Request(`https://x/api/musica/mp3?id=${r.id}&n=1`), env: envDemo });
+  assert.equal(d8.status, 200);
+  console.log("OK 8: modo demonstração entrega a amostra sem Kiwify nem provedor pago");
+}
