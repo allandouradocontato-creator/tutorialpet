@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quais sao os documentos necessarios para adotar um pet: guia prático",
+    "description": "Quais sao os documentos necessarios para adotar um pet: guia prático. Eu sei bem como é aquele friozinho na barriga quando a gente decide que chegou a...",
+    "datePublished": "2026-11-11",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/quais-sao-os-documentos-necessarios-para-adotar-um-pet",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/quais-sao-os-documentos-necessarios-para-adotar-um-pet"
+    },
+    "image": "https://tutorialpet.com.br/imagens/quais-sao-os-documentos-necessarios-para-adotar-um-pet.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Preciso ter comprovante de renda para adotar um pet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, a maioria das ONGs não exige holerite ou comprovação formal de renda, mas você precisa demonstrar condições financeiras de arcar com ração de qualidade, vacinas e consultas veterinárias.  * **Aluguel impede a adoção de animais?**   Não necessariamente. O essencial é apresentar o contrato de locação ou uma declaração por escrito do proprietário do imóvel autorizando a presença de animais de estimação.  * **Menores de idade podem adotar sozinhos?**   Não. Por exigência legal, o adotante precisa ter pelo menos dezoito anos e assumir total responsabilidade civil pelo animal.  * **Quais documentos são exigidos em feiras presenciais?**   Geralmente os mesmos: RG, CPF e comprovante de residência. Alguns locais já aceitam fotos da casa impressas ou no celular para agilizar a liberação."
+        }
+      }
+    ]
+  }
+}
