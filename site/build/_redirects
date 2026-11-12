@@ -3,3 +3,5 @@
 /cac / 301
 /musica-do-seu-pet/entrega/* /musica-do-seu-pet-entrega 200
 /amigopet /musica-do-seu-pet/?convite=AMIGOPET 302
+
+/amigoclipe /clipe-do-pet/?convite=AMIGOPET 302

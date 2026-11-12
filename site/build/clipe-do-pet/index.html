@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><!-- PRÉVIA: remover esta linha na publicação -->
+<title>Clipe do seu pet | Tutorial Pet</title>
+<meta name="description" content="Escolha o estilo, envie as fotos do seu pet e receba um clipe com as fotos ganhando vida, música e legenda, para guardar e compartilhar.">
+<style>
+:root{--bg:#0d0e12;--card:#171922;--card2:#1e2130;--tx:#f4f5f8;--mut:#a4a9bb;--ac:#ff9a5a;--ac2:#ff6f8e;--ok:#34c3a0;--bd:#2a2e40}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.previa{background:#3a2a10;color:#ffd9a0;font-size:13px;text-align:center;padding:8px 12px;border-bottom:1px solid #5b4118}
+header.top{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;letter-spacing:-.01em}
+.brand span.pata{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--ac);color:#1a1006;font-size:18px}
+.top a.voltar{font-size:14px;color:var(--mut);text-decoration:none}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:28px 0 46px}
+.tag{display:inline-block;background:rgba(255,154,90,.14);color:var(--ac);border:1px solid rgba(255,154,90,.35);border-radius:99px;padding:5px 13px;font-size:13px;font-weight:700;margin-bottom:16px}
+h1{font-size:clamp(34px,5.4vw,58px);line-height:1.04;letter-spacing:-.03em;font-weight:800}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:19px;color:var(--mut);margin:18px 0 26px;max-width:520px}
+.btn{display:inline-block;border:0;cursor:pointer;background:linear-gradient(90deg,var(--ac),var(--ac2));color:#1a0d06;font:800 17px Inter,system-ui,sans-serif;padding:16px 28px;border-radius:14px;text-decoration:none;box-shadow:0 10px 30px rgba(255,111,142,.25)}
+.btn:hover{filter:brightness(1.06)}
+.hero .mini{margin-top:14px;font-size:14px;color:var(--mut)}
+.pv{position:relative;justify-self:center;width:min(300px,78vw);aspect-ratio:9/16;border-radius:26px;overflow:hidden;border:1px solid var(--bd);box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.pv video{width:100%;height:100%;object-fit:cover;display:block;background:#000}
+h2{font-size:clamp(26px,3.6vw,38px);letter-spacing:-.02em;line-height:1.1;font-weight:800;margin-bottom:10px}
+.lead{color:var(--mut);max-width:640px;margin-bottom:26px}
+section{padding:40px 0}
+.exs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.ex{background:var(--card);border:1px solid var(--bd);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.ex video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;display:block}
+.ex .c{padding:14px 16px 18px}
+.ex h3{font-size:17px;font-weight:800}
+.ex p{font-size:14px;color:var(--mut);margin-top:4px}
+.passos{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;counter-reset:p}
+.passo{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:22px}
+.passo::before{counter-increment:p;content:counter(p);display:grid;place-items:center;width:38px;height:38px;border-radius:12px;background:var(--ac);color:#1a0d06;font-weight:800;margin-bottom:12px}
+.passo h3{font-size:18px;font-weight:800;margin-bottom:6px}
+.passo p{color:var(--mut);font-size:15px}
+.form{background:var(--card);border:1px solid var(--bd);border-radius:24px;padding:26px}
+.form h3{font-size:18px;font-weight:800;margin:0 0 12px}
+.moldes{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:24px}
+.molde{position:relative}
+.molde input{position:absolute;opacity:0;inset:0;cursor:pointer}
+.molde label{display:block;background:var(--card2);border:2px solid var(--bd);border-radius:16px;padding:14px 16px;cursor:pointer;height:100%}
+.molde label b{display:block;font-size:16px}
+.molde label small{color:var(--mut);font-size:13px;line-height:1.35;display:block;margin-top:2px}
+.molde input:checked+label{border-color:var(--ac);background:rgba(255,154,90,.1)}
+.molde input:focus-visible+label{outline:2px solid #fff}
+.campo{margin-bottom:18px}
+.campo>label{display:block;font-weight:700;font-size:14px;margin-bottom:6px}
+.campo input[type=text],.campo input[type=email]{width:100%;background:var(--card2);border:1px solid var(--bd);border-radius:12px;color:var(--tx);padding:13px 14px;font:inherit}
+.campo input::placeholder{color:#6f748a}
+.up{border:2px dashed #3a3f57;border-radius:16px;padding:22px;text-align:center;background:var(--card2);cursor:pointer;display:block}
+.up strong{display:block}
+.up small{color:var(--mut)}
+.up input{display:none}
+.miniaturas{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.miniaturas img{width:54px;height:54px;object-fit:cover;border-radius:8px;border:1px solid var(--bd)}
+.estado{font-size:14px;margin-top:8px;color:var(--mut)}
+.estado.erro{color:#ff8a8a}
+.estado.ok{color:var(--ok)}
+.preco{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:6px;padding-top:20px;border-top:1px solid var(--bd)}
+.preco .v{font-size:15px;color:var(--mut)}
+.preco .v b{color:var(--tx);font-size:22px}
+.garantias{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.garantias div{font-size:13.5px;color:var(--mut);background:var(--card2);border-radius:12px;padding:12px 14px}
+.garantias b{color:var(--tx);display:block}
+.barra{height:10px;border-radius:99px;background:var(--card2);overflow:hidden;margin-top:6px}.barra i{display:block;height:100%;width:6%;background:linear-gradient(90deg,var(--ac),var(--ac2));transition:width .6s}
+.msg{display:none;margin-top:14px;background:#2a2010;border:1px solid #5b4118;color:#ffd9a0;border-radius:12px;padding:12px 14px;font-size:14px}
+.faq details{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:700}
+.faq p{color:var(--mut);margin-top:8px;font-size:15px}
+footer{border-top:1px solid var(--bd);padding:30px 0 50px;color:var(--mut);font-size:14px;text-align:center}
+footer .redes{display:flex;gap:14px;justify-content:center;margin-bottom:12px;flex-wrap:wrap}
+footer a{color:var(--tx);text-decoration:none;border-bottom:1px solid var(--bd)}
+@media(max-width:860px){.hero{grid-template-columns:1fr;padding-top:8px}.pv{order:-1}.exs{grid-template-columns:repeat(2,1fr)}.passos{grid-template-columns:1fr}.garantias{grid-template-columns:1fr}}
+@media(max-width:520px){.moldes{grid-template-columns:1fr}.exs{grid-template-columns:1fr 1fr;gap:12px}.form{padding:18px}.btn{width:100%;text-align:center}}
+</style>
+</head>
+<body>
+<div class="previa">VERSÃO DE TESTE PARA CONVIDADOS: o clipe é feito de verdade com créditos grátis do convite. Preço e pagamento ainda não estão ligados.</div>
+<div class="wrap">
+<header class="top">
+  <a class="brand" href="/"><span class="pata">🐾</span>Tutorial Pet</a>
+  <a class="voltar" href="/">← Voltar ao site</a>
+</header>
+
+<div class="hero">
+  <div>
+    <span class="tag">Novo no Tutorial Pet</span>
+    <h1>As fotos do seu pet viram um <em>clipe pronto</em></h1>
+    <p class="sub">Escolha o estilo, envie as fotos e a inteligência artificial faz cada uma ganhar vida: o clipe sai vertical, com música e legenda, pronto para guardar, postar e compartilhar com a família.</p>
+    <a class="btn" href="#criar">Criar o clipe do meu pet</a>
+    <p class="mini">Até 50 segundos · formato para Reels, TikTok e Stories · você escolhe o estilo</p>
+  </div>
+  <div class="pv"><video src="videos/exemplo_aniversario.mp4" poster="img/poster_aniversario.jpg" autoplay muted loop playsinline controls preload="metadata"></video></div>
+</div>
+
+<section id="exemplos">
+  <h2>Escolha o estilo do seu clipe</h2>
+  <p class="lead">Quatro estilos prontos. Cada um tem roteiro, legendas e trilha própria. Você só manda as fotos.</p>
+  <div class="exs">
+    <article class="ex"><video src="videos/exemplo_homenagem.mp4" poster="img/poster_homenagem.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Homenagem</h3><p>Para celebrar a vida de um pet que já partiu, com carinho e gratidão.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_aniversario.mp4" poster="img/poster_aniversario.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Aniversário do pet</h3><p>Uma festa em vídeo para o aniversário do seu melhor amigo.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_retrospectiva.mp4" poster="img/poster_retrospectiva.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Nossa história</h3><p>A trajetória de vocês, do primeiro dia até hoje.</p></div></article>
+    <article class="ex"><video src="videos/exemplo_um_dia.mp4" poster="img/poster_um_dia.jpg" muted loop playsinline preload="metadata" controls></video><div class="c"><h3>Um dia com meu pet</h3><p>A rotina de vocês do amanhecer ao boa noite.</p></div></article>
+  </div>
+</section>
+
+<section>
+  <h2>Como funciona</h2>
+  <p class="lead">Sem aplicativo para instalar e sem edição. A gente monta tudo por você.</p>
+  <div class="passos">
+    <div class="passo"><h3>Escolha o estilo</h3><p>Homenagem, aniversário, nossa história ou um dia com seu pet.</p></div>
+    <div class="passo"><h3>Envie suas fotos</h3><p>De 2 a 6 fotos, na ordem que quiser contar a história. Quanto mais nítido o rosto do seu pet, melhor a animação.</p></div>
+    <div class="passo"><h3>Receba o seu clipe</h3><p>Legenda grande, música e o nome do seu pet no início e no fim. Se não gostar da primeira versão, a gente gera uma segunda e você baixa a que preferir.</p></div>
+  </div>
+</section>
+
+<section id="criar">
+  <h2>Monte o clipe do seu pet</h2>
+  <p class="lead">Escolha o estilo, mande as fotos e conte o nome do seu pet. A animação leva alguns minutos.</p>
+  <form class="form" id="f" onsubmit="return false">
+    <h3>1. Estilo do clipe</h3>
+    <div class="moldes">
+      <div class="molde"><input type="radio" name="molde" id="m1" value="homenagem" checked><label for="m1"><b>Homenagem</b><small>Carinho, gratidão e saudade boa</small></label></div>
+      <div class="molde"><input type="radio" name="molde" id="m2" value="aniversario"><label for="m2"><b>Aniversário do pet</b><small>Festa, alegria e parabéns</small></label></div>
+      <div class="molde"><input type="radio" name="molde" id="m3" value="retrospectiva"><label for="m3"><b>Nossa história</b><small>Do primeiro dia até hoje</small></label></div>
+      <div class="molde"><input type="radio" name="molde" id="m4" value="um_dia"><label for="m4"><b>Um dia com meu pet</b><small>Da manhã à noite, hora a hora</small></label></div>
+    </div>
+    <h3>2. Fotos</h3>
+    <div class="campo">
+      <label class="up" for="arq"><strong>Toque para escolher de 2 a 6 fotos</strong><small>A ordem é a ordem do clipe. Cada foto vira uma cena animada. Fotos com o rosto do pet bem visível funcionam melhor.</small>
+      <input id="arq" type="file" accept="image/*" multiple></label>
+      <div class="miniaturas" id="mini"></div>
+      <div class="estado" id="est"></div>
+    </div>
+    <h3>3. Detalhes</h3>
+    <div class="campo"><label for="nome">Nome do seu pet</label><input id="nome" type="text" maxlength="30" placeholder="Ex.: Thor"></div>
+    <div class="campo"><label for="frase">Frase final (opcional)</label><input id="frase" type="text" maxlength="60" placeholder="Ex.: Te amamos para sempre"></div>
+    <div class="campo" id="campoConvite"><label for="convite">Código do convite</label><input id="convite" type="text" maxlength="40" placeholder="Ex.: AMIGOPET" autocapitalize="characters"></div>
+    <div class="preco">
+      <div class="v">Teste grátis com convite<br><b>1 crédito por clipe</b></div>
+      <button class="btn" id="pagar" type="button">Criar meu clipe</button>
+    </div>
+    <div class="msg" id="msg"></div>
+    <div class="garantias">
+      <div><b>Animação de verdade</b>Cada foto ganha movimento: o pet e as pessoas sorriem, se mexem e interagem.</div>
+      <div><b>Guarde o link</b>Você pode fechar a página: o clipe fica no link desta tela quando ficar pronto.</div>
+      <div><b>Suas fotos são suas</b>Apagamos as fotos assim que o clipe fica pronto.</div>
+    </div>
+  </form>
+  <div class="form" id="andamento" style="display:none">
+    <h3 id="aTitulo">Criando o clipe de <span id="aNome"></span></h3>
+    <div class="barra"><i id="aBarra"></i></div>
+    <p class="estado" id="aEtapa" style="font-size:16px;color:var(--tx);margin-top:12px"></p>
+    <p class="estado" id="aMsg"></p>
+    <div id="aPronto" style="display:none">
+      <video id="aVideo" controls playsinline preload="metadata" style="width:min(320px,100%);aspect-ratio:9/16;border-radius:18px;background:#000;display:block;margin:12px auto"></video>
+      <div style="text-align:center;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+        <a class="btn" id="aBaixar" href="#">Baixar o clipe</a>
+        <button class="btn" id="aCopiar" type="button" style="background:var(--card2);color:var(--tx);border:1px solid var(--bd)">Copiar link do clipe</button>
+      </div>
+      <p class="estado" id="aNota" style="text-align:center;margin-top:12px"></p>
+    </div>
+    <div class="estado erro" id="aErro" style="display:none"></div>
+  </div>
+</section>
+
+<section class="faq">
+  <h2>Perguntas frequentes</h2>
+  <details><summary>Que tipo de foto posso enviar?</summary><p>Fotos do seu celular, de preferência na vertical, com o pet (e quem quiser aparecer) bem visível e iluminado. Envie de 2 a 6 fotos.</p></details>
+  <details><summary>Qual o tamanho do clipe?</summary><p>Até 50 segundos, no formato vertical usado no Reels, TikTok, Stories e Status do WhatsApp.</p></details>
+  <details><summary>Posso fazer uma homenagem para um pet que já partiu?</summary><p>Pode. O estilo Homenagem foi pensado para celebrar a vida do seu amigo, com legendas de carinho e gratidão e uma música tranquila.</p></details>
+  <details><summary>Posso escolher a música?</summary><p>Cada estilo vem com uma trilha livre de direitos autorais, então você pode postar o clipe sem preocupação.</p></details>
+  <details><summary>E se eu não gostar do resultado?</summary><p>Você pode pedir uma segunda versão e baixar a que preferir.</p></details>
+</section>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="redes"><a href="https://www.instagram.com/tutorialpetbr/" target="_blank" rel="noopener">Instagram @tutorialpetbr</a><a href="https://www.tiktok.com/@tutorialpetbr" target="_blank" rel="noopener">TikTok @tutorialpetbr</a><a href="https://www.facebook.com/TutorialPet" target="_blank" rel="noopener">Facebook Tutorial Pet</a></div>
+    <p>Dúvidas? <a href="mailto:contato@tutorialpet.com.br">contato@tutorialpet.com.br</a> · <a href="/politica-de-privacidade.html">Política de privacidade</a></p>
+    <p style="margin-top:8px">© Tutorial Pet</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var $=function(i){return document.getElementById(i)};
+  var arq=$('arq'),mini=$('mini'),est=$('est'),msg=$('msg'),btn=$('pagar');
+  var MIN=2,MAX=6,LADO=1280;
+  function estado(t,c){est.textContent=t;est.className='estado'+(c?' '+c:'')}
+  function aviso(t){msg.textContent=t;msg.style.display=t?'block':'none'}
+  var q=new URLSearchParams(location.search);
+  if(q.get('convite')){$('convite').value=q.get('convite').toUpperCase()}
+  arq.addEventListener('change',function(){
+    mini.innerHTML='';var fs=Array.prototype.slice.call(arq.files||[]);
+    if(!fs.length){estado('');return}
+    fs.slice(0,MAX).forEach(function(f){var i=document.createElement('img');i.alt='';i.src=URL.createObjectURL(f);mini.appendChild(i)});
+    if(fs.length<MIN)estado(fs.length+' selecionada. Escolha pelo menos '+MIN+'.','erro');
+    else if(fs.length>MAX)estado(fs.length+' selecionadas. O máximo é '+MAX+': vamos usar as '+MAX+' primeiras.','erro');
+    else estado(fs.length+' fotos prontas.','ok');
+  });
+  var vs=document.querySelectorAll('.ex video');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(){})}else{v.pause()}})},{threshold:.5});vs.forEach(function(v){io.observe(v)})}
+
+  // redimensiona no aparelho (lado maior 1280, JPEG) para o envio ser rápido e caber no limite
+  function comprimir(file){
+    return (window.createImageBitmap?createImageBitmap(file,{imageOrientation:'from-image'}):Promise.reject()).then(function(bm){return bm,bm},function(){
+      return new Promise(function(ok,err){var im=new Image();im.onload=function(){ok(im)};im.onerror=err;im.src=URL.createObjectURL(file)});
+    }).then(function(img){
+      var w=img.width,h=img.height,k=Math.min(1,LADO/Math.max(w,h));
+      var c=document.createElement('canvas');c.width=Math.round(w*k);c.height=Math.round(h*k);
+      c.getContext('2d').drawImage(img,0,0,c.width,c.height);
+      return new Promise(function(ok,err){
+        var tenta=function(qual){c.toBlob(function(b){if(!b)return err();if(b.size>1400000&&qual>.5)return tenta(qual-.15);ok(b)},'image/jpeg',qual)};
+        tenta(.86);
+      });
+    });
+  }
+  function post(url,corpo,tipo){return fetch(url,{method:'POST',headers:tipo?{'content-type':tipo}:{},body:corpo}).then(function(r){return r.json().catch(function(){return{ok:false,erro:'Resposta inválida'}})})}
+
+  btn.addEventListener('click',function(){
+    aviso('');
+    var fs=Array.prototype.slice.call(arq.files||[]).slice(0,MAX);
+    if(fs.length<MIN){estado('Escolha pelo menos '+MIN+' fotos para continuar.','erro');arq.focus();return}
+    var nome=$('nome').value.trim();if(nome.length<2){aviso('Conte o nome do seu pet.');$('nome').focus();return}
+    var molde=(document.querySelector('input[name=molde]:checked')||{}).value;
+    btn.disabled=true;btn.textContent='Enviando...';
+    post('/api/clipe/pedido',JSON.stringify({molde:molde,nome:nome,frase:$('frase').value.trim(),fotos:fs.length,convite:$('convite').value.trim()}),'application/json').then(function(r){
+      if(!r.ok)throw new Error(r.erro||'Não foi possível criar o pedido.');
+      var seq=Promise.resolve();
+      fs.forEach(function(f,i){seq=seq.then(function(){
+        estado('Enviando a foto '+(i+1)+' de '+fs.length+'...');
+        return comprimir(f).then(function(b){return post('/api/clipe/foto?id='+r.id+'&token='+r.token+'&n='+(i+1),b,'image/jpeg')}).then(function(x){if(!x.ok)throw new Error(x.erro||'Falha ao enviar a foto '+(i+1)+'.')});
+      })});
+      return seq.then(function(){return post('/api/clipe/enviar?id='+r.id+'&token='+r.token,'')}).then(function(x){
+        if(!x.ok)throw new Error(x.erro||'Falha ao finalizar o envio.');
+        try{localStorage.setItem('clipe_pedido',r.id)}catch(e){}
+        history.replaceState(null,'','?pedido='+r.id);acompanhar(r.id,nome);
+      });
+    }).catch(function(e){aviso(e.message||'Algo deu errado. Tente de novo.');btn.disabled=false;btn.textContent='Criar meu clipe';estado('')});
+  });
+
+  var ETAPAS={recebendo:8,na_fila:14,processando:40,entregue:100};
+  function acompanhar(id,nome){
+    $('f').style.display='none';$('andamento').style.display='block';$('aNome').textContent=nome||'seu pet';
+    $('andamento').scrollIntoView({behavior:'smooth',block:'start'});
+    var t0=Date.now(),falhas=0;
+    (function volta(){
+      fetch('/api/clipe/status?id='+id,{cache:'no-store'}).then(function(r){return r.json()}).then(function(s){
+        if(!s.ok)throw new Error(s.erro||'Pedido não encontrado.');
+        falhas=0;$('aNome').textContent=s.nome||nome||'seu pet';
+        var m=/Animando a foto (\d+) de (\d+)/.exec(s.etapa||'');
+        var pct=ETAPAS[s.estado]||10;if(m)pct=18+Math.round(60*(+m[1]-1)/(+m[2]));if(s.etapa==='Montando o seu clipe')pct=88;
+        $('aBarra').style.width=pct+'%';
+        $('aEtapa').textContent=s.estado==='na_fila'&&s.posicao?('Na fila: você é o '+s.posicao+'º'):(s.etapa||'');
+        $('aMsg').textContent=s.msg||(s.estado==='na_fila'?'Assim que chegar a sua vez, começamos a animar. Você pode fechar a página e voltar neste link.':'');
+        if(s.estado==='entregue'){
+          $('aTitulo').textContent='O clipe de '+(s.nome||'seu pet')+' está pronto!';$('aEtapa').textContent='';$('aMsg').textContent='';
+          $('aVideo').src=s.video;$('aBaixar').href=s.video+'&download=1';$('aPronto').style.display='block';
+          $('aNota').textContent=(s.animadas!=null&&s.animadas<s.fotos)?('Atenção: '+s.animadas+' de '+s.fotos+' fotos foram animadas; as outras ficaram com zoom suave.'):'Guarde o link desta página para rever o clipe quando quiser (fica disponível por 30 dias).';
+          $('aCopiar').onclick=function(){var u=location.href;(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){$('aCopiar').textContent='Link copiado!'},function(){prompt('Copie o link:',u)})};
+          return;
+        }
+        if(s.estado==='falhou'){$('aErro').style.display='block';$('aErro').textContent='Não foi possível criar o clipe agora ('+(s.erro||'erro inesperado')+'). Seu crédito foi devolvido: tente de novo em alguns minutos.';$('aBarra').style.width='100%';$('aBarra').style.background='#b44';return}
+        setTimeout(volta,Math.min(8000,3000+(Date.now()-t0)/20000*1000));
+      }).catch(function(e){if(++falhas>8){$('aErro').style.display='block';$('aErro').textContent=e.message||'Conexão perdida. Recarregue a página.';return}setTimeout(volta,5000)});
+    })();
+  }
+  var pid=q.get('pedido');if(pid)acompanhar(pid,'');
+})();
+</script>
+</body>
+</html>
