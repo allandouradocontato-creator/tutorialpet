@@ -111,3 +111,6 @@ for (const esp of ["pessoa", "outro", "outro-pet"]) {
   assert.equal(r.ok, true, "destinatário " + esp);
 }
 console.log("OK 5: formulário aceita pessoa/brincadeira/outro bichinho");
+
+const h = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Lia", especie: "pessoa", manias: [], historia: "A gente se conheceu num show de forró e ela pisou no meu pé dançando.", estilo: "forró", voz: "feminina", clima: "emocionante", email: "l@exemplo.com", whatsapp: "85999990000" }), env })).json();
+assert.equal(h.ok, true); console.log("OK 6: só com história (sem manias) passa");

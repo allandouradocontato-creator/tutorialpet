@@ -15,7 +15,7 @@ export function cadeia(env) {
 
 export function pedidoPadrao(form, estilo) {
   return {
-    nomePet: form.nomePet, especie: form.especie, raca: form.raca || "", manias: form.manias, tutor: form.tutor || "",
+    nomePet: form.nomePet, especie: form.especie, raca: form.raca || "", manias: form.manias, historia: form.historia || "", tutor: form.tutor || "",
     estilo: estilo || form.estilo, voz: form.voz, clima: form.clima, idioma: "pt-BR", duracaoAlvo: 150,
   };
 }

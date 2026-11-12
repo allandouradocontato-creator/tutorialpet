@@ -32,7 +32,8 @@ export function validarFormulario(b) {
   const especie = String(b.especie || "outro").toLowerCase();
   if (!["cachorro", "gato", "outro-pet", "pessoa", "outro"].includes(especie)) return erro("especie", "Escolha para quem é a música.");
   const manias = (Array.isArray(b.manias) ? b.manias : []).map((m) => limpar(m, 60)).filter(Boolean).slice(0, 3);
-  if (manias.length < 1) return erro("manias", "Conte pelo menos uma mania ou característica.");
+  const historia = limpar(b.historia, 600); // campo livre (12/11/2026, Allan): "conte a sua história que a gente canta para você"
+  if (manias.length < 1 && historia.length < 20) return erro("manias", "Conte pelo menos uma mania ou um pouquinho da história.");
   const estilo = String(b.estilo || "");
   if (!ESTILOS[estilo]) return erro("estilo", "Escolha o estilo da música.");
   const estilo2 = b.estilo2 ? String(b.estilo2) : "";
@@ -45,8 +46,8 @@ export function validarFormulario(b) {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return erro("email", "Informe um e-mail válido para receber a música.");
   const whatsapp = String(b.whatsapp || "").replace(/\D/g, "");
   if (whatsapp.length < 10 || whatsapp.length > 13) return erro("whatsapp", "Informe seu WhatsApp com DDD.");
-  const form = { nomePet, especie, raca: limpar(b.raca, 40), manias, tutor: limpar(b.tutor, 30), estilo, estilo2, voz, clima, email, whatsapp };
-  for (const t of [nomePet, form.raca, form.tutor, ...manias]) {
+  const form = { nomePet, especie, raca: limpar(b.raca, 40), manias, historia, tutor: limpar(b.tutor, 30), estilo, estilo2, voz, clima, email, whatsapp };
+  for (const t of [nomePet, form.raca, form.tutor, historia, ...manias]) {
     if (t && proibidoNoCampo(t)) return erro("manias", "Use palavras carinhosas ou divertidas (sem nomes de artistas ou termos ofensivos).");
   }
   return { ok: true, form };
