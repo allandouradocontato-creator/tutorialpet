@@ -13,7 +13,7 @@ def sh(c):
     r=subprocess.run(c,shell=True,capture_output=True,text=True)
     if r.returncode: print(r.stderr[-2500:]); raise SystemExit(1)
     return r.stdout
-M=json.load(open(W+'/meta.json')); B2,B3,T,NT0=M['B2'],M['B3'],M['T'],M['NT0']
+M=json.load(open(W+'/meta.json')); B2,B3,T,NT0=M['B2'],M['B3'],M['T'],M['NT0']; NL=T-NT0
 def caption_png(text,path,size=72):
     f=ImageFont.truetype(FONT,size); W_=940
     lines=[];cur=""
@@ -39,7 +39,7 @@ caps=[(0.0,4.3,"E se você pudesse ver o que o seu cachorro faz quando você fec
 (B2+3.82,B2+5.4,"dez minutos por dia."),(B2+5.58,B2+8.3,"E o aplicativo diz o que fazer a cada dia."),
 (B2+8.44,B2+11.6,"Filhote, idoso, vira-lata ou de raça."),
 (B2+11.78,B2+14.4,"Catorze dias depois, você abre a câmera…"),(B2+14.5,B2+16.2,"e ele está dormindo."),
-(B3+0.0,B3+2.7,"De noventa e sete por vinte e sete reais."),(B3+3.0,B3+4.7,"Catorze dias de garantia:"),(B3+4.8,B3+6.6,"não gostou? Devolvemos tudo.")]
+(B3+0.0,B3+2.7,"De noventa e sete por vinte e sete reais."),(B3+3.0,B3+4.7,"Catorze dias de garantia:"),(B3+4.8,B3+6.45,"não gostou? Devolvemos tudo.")]
 inputs=[]; flt=[]; n=1; last='[0:v]'
 def add_png(path,x,y,t0,t1,float_=False):
     global n,last
@@ -51,7 +51,7 @@ flt.append(f"{last}eq=brightness=-0.22:enable='between(t,{B3:.3f},{NT0:.3f})'[vd
 # --- carimbo (todo o video; na Natasha desce p/ faixa do tronco)
 inputs.append(f'-i {CAR}'); ci=n; n+=1
 flt.append(f"[{ci}:v]scale=300:-1,split=2[carm][carm2]")
-flt.append(f"{last}[carm]overlay=560:150:enable='lt(t,{NT0:.3f})'[vcar]"); last='[vcar]'
+flt.append(f"{last}[carm]overlay=500:150:enable='lt(t,{NT0:.3f})'[vcar]"); last='[vcar]'
 flt.append(f"{last}[carm2]overlay=(W-w)/2:1545:enable='gte(t,{NT0:.3f})'[vcar2]"); last='[vcar2]'
 add_png(V8W+'/nat_lab.png',(1080-int(Image.open(V8W+'/nat_lab.png').width))//2,1655,NT0,T)
 # --- viewfinder REC da F9 (camera: "ele esta dormindo")
@@ -59,7 +59,7 @@ im=Image.new('RGBA',(1080,1920),(0,0,0,0)); d=ImageDraw.Draw(im); f=ImageFont.tr
 for (x,y,dx,dy) in ((50,330,1,1),(1030,330,-1,1),(50,1500,1,-1),(1030,1500,-1,-1)):
     d.line((x,y,x+dx*110,y),fill=(255,255,255,235),width=7); d.line((x,y,x,y+dy*110),fill=(255,255,255,235),width=7)
 d.ellipse((66,70,102,106),fill=(230,20,20,255)); d.text((116,64),"REC  00:14:32",font=f,fill=(255,255,255,255),stroke_width=4,stroke_fill=(0,0,0,255))
-im.save(W+'/f9_rec.png'); add_png(W+'/f9_rec.png',0,0,B2+11.7,B3)
+im.save(W+'/f9_rec.png')  # v2: F9 ja traz REC embutido (clipe da camera) - sem overlay
 # --- card do produto (F7): traz a propria fala (legenda = fala)
 cw,chh=920,410
 im=Image.new('RGBA',(cw,chh),(0,0,0,0)); d=ImageDraw.Draw(im)
@@ -70,11 +70,11 @@ t1="SOZINHO EM CASA"; d.text(((cw-f1.getlength(t1))/2,66),t1,font=f1,fill=(232,9
 d.line((150,162,cw-150,162),fill=(232,93,4,255),width=5)
 for i,t in enumerate(("monta um treino personalizado","pro seu amiguinho:")):
     d.text(((cw-f2.getlength(t))/2,186+i*72),t,font=f2,fill=(36,36,62,255))
-im.save(W+'/card_produto.png'); CARDBOX=(80,1130,1000,1130+chh)
-add_png(W+'/card_produto.png',80,1130,B2+0.1,B2+3.85,float_=True)
+im.save(W+'/card_produto.png'); CARDBOX=(80,1215,1000,1215+chh)
+add_png(W+'/card_produto.png',80,1215,B2+0.1,B2+3.85,float_=True)
 # --- cards preco / garantia (F10)
 add_png(V8W+'/card_preco.png',90,300,B3,B3+3.0,float_=True)
-add_png(V8W+'/card_gar.png',90,300,B3+3.0,B3+6.8,float_=True)
+add_png(V8W+'/card_gar.png',90,300,B3+3.0,NT0,float_=True)
 # --- legendas (posicao: fora de rosto/cachorro via YOLO)
 from ultralytics import YOLO
 YM=YOLO('yolov8n.pt')
@@ -114,14 +114,15 @@ json.dump(LOG,open(W+'/caps_log.json','w'),ensure_ascii=False)
 # ---------------- AUDIO: voz + sonoplastia, SEM musica ----------------
 def norm(k): sh(f'ffmpeg -v error -y -i {V}/vsl9_voz_natasha_{k}.mp3 -af "loudnorm=I=-16:TP=-2,aresample=44100,aformat=channel_layouts=mono" {W}/vn_{k}.wav')
 for k in ('F01-F06','F07-F09','F10-F11'): norm(k)
-sh(f'ffmpeg -v error -y -i {W}/vn_F01-F06.wav -f lavfi -t 0.25 -i anullsrc=r=44100:cl=mono -i {W}/vn_F07-F09.wav -f lavfi -t 0.25 -i anullsrc=r=44100:cl=mono -i {W}/vn_F10-F11.wav -filter_complex "[0][1][2][3][4]concat=n=5:v=0:a=1,apad=whole_dur={T:.3f},atrim=0:{T:.3f}[o]" -map "[o]" {W}/voz9.wav')
+sh(f'ffmpeg -v error -y -ss 0.12 -t {NL:.3f} -i /home/claude/vsl8/heygen/natasha_fala_heygen.mp4 -vn -af "loudnorm=I=-16:TP=-2,aresample=44100,aformat=channel_layouts=mono" {W}/vn_nat.wav')
+sh(f'ffmpeg -v error -y -i {W}/vn_F01-F06.wav -f lavfi -t 0.10 -i anullsrc=r=44100:cl=mono -i {W}/vn_F07-F09.wav -f lavfi -t 0.10 -i anullsrc=r=44100:cl=mono -i {W}/vn_F10-F11.wav -i {W}/vn_nat.wav -filter_complex "[0][1][2][3]concat=n=4:v=0:a=1[a];[4]atrim=0:{NT0-B3:.3f},afade=t=out:st={NT0-B3-0.05:.3f}:d=0.05[b];[a][b]concat=n=2:v=0:a=1,apad=whole_dur={T:.3f}[c];[5]adelay={int(NT0*1000)}:all=1[n];[c][n]amix=inputs=2:duration=longest:normalize=0,atrim=0:{T:.3f}[o]" -map "[o]" {W}/voz9.wav')
 cues=[('sfx_bass_hit',0.0,1.0,-4),('sfx_brass_strings_suspense',0.4,3.9,-19),
  ('sfx_porta_batendo',5.0,1.0,-9),('sfx_cachorro_choro',7.0,2.0,-10),
  ('sfx_cachorro_latindo',11.3,2.7,-9),('sfx_telefone_toque',14.2,1.7,-11),
  ('sfx_heartbeat_impact',17.0,1.2,-5),('sfx_suspense_swell',17.6,4.6,-13),
  ('sfx_horror_drum',25.88,1.3,-12),('sfx_bass_hit',25.88,0.9,-10),
  ('sfx_chimes_vitoria',B2,2.0,-12),('sfx_conquista',B2+15.1,2.0,-12),
- ('sfx_moeda_win',B3,1.2,-10),('sfx_click_botao',B3+3.0,0.5,-12),('sfx_click_botao',T-1.2,0.5,-8)]
+ ('sfx_moeda_win',B3,1.2,-10),('sfx_click_botao',B3+3.0,0.5,-12),('sfx_click_botao',NT0+6.0,0.5,-8)]
 ins='';fc='';labs=''
 for k,(f,t0,d,db) in enumerate(cues):
     ins+=f' -i {SF}/{f}.mp3'
@@ -132,7 +133,7 @@ sh(f'ffmpeg -v error -y -i {W}/voz9.wav -i {O}/vsl9_sfx_SEM_voz.wav -filter_comp
 m=sh(f'ffmpeg -hide_banner -i {W}/mix9_raw.wav -af loudnorm=I=-14:TP=-1.5:LRA=7:print_format=json -f null - 2>&1')
 mj=json.loads(m[m.rindex('{'):m.rindex('}')+1])
 sh(f'ffmpeg -v error -y -i {W}/mix9_raw.wav -af "loudnorm=I=-14:TP=-1.5:LRA=7:measured_I={mj["input_i"]}:measured_TP={mj["input_tp"]}:measured_LRA={mj["input_lra"]}:measured_thresh={mj["input_thresh"]}:offset={mj["target_offset"]}:linear=true" -ar 44100 {W}/mix9.wav')
-cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v1_1080.mp4'
+cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v2_1080.mp4'
 sh(cmd)
-sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v1_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v1_leve.mp4')
+sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v2_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v2_leve.mp4')
 print('ok')

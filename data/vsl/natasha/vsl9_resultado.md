@@ -20,3 +20,10 @@ Conferências: Whisper = roteiro (ok); sem congelamento; movimento >= 0,4/s em t
 Pontos para o Allan avaliar: (1) F4 pessoa "no trabalho" é banco de estúdio (mulher de cabelo cacheado ao telefone fixo), não escritório; (2) F8 usa "vira-lata" = caramelo da própria VSL9; (3) F11 usa a Natasha parada (natasha_full), sem lábios sincronizados.
 Gasto: voz ElevenLabs ~1,3% do saldo restante; Gemini: 4 vídeos (limite diário atingido, volta 22h31); Flow: 1 vídeo (10 de 40 créditos = 25% do saldo restante).
 Scripts: data/vsl/natasha/scripts/vsl9_build.py e vsl9_final.py.
+
+## v2 (12/11 20h) — feedback do Allan 19h58
+- Cachorro: triste só em F1–F6 (problema). Feliz (boca aberta, língua de fora, rabo) em F7 produto (labradora + mulher, Flow), F8 (filhote bola, golden, vira-lata branco, cachorro sorrindo — Pexels), F9 (câmera REC: dorme relaxado e acorda feliz, Flow), F10 fundo (labradora feliz).
+- Fecho: Dra. Natasha FALANDO (clipe HeyGen da VSL8, áudio próprio) a partir de B3+6,5 s; voz ElevenLabs bloco 3 cortada em "Devolvemos tudo."; GAP entre blocos 0,10 s.
+- Duração 59,57 s (<60), −14,6 LUFS, sem congelamento. Whisper confirma: "…Devolvemos tudo. Garanta agora… Clique no botão".
+- Ponto p/ Allan: F9 diz "e ele está dormindo" mas o cachorro acorda feliz no fim → opção: regravar essa frase como "e ele está feliz" (~1% ElevenLabs).
+- Custos: Flow 2 clipes (20 de ~30 créditos → sobra ~10); Pexels grátis; voz sem custo extra.
