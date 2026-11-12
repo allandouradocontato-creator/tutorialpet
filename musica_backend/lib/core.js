@@ -329,6 +329,7 @@ export async function visaoPublica(env, id) {
       n: v.n, estilo: v.estilo, estado: v.estado, titulo: v.titulo || `A música do ${nome}`, letra: v.estado === "entregue" ? v.letra : undefined,
       mp3Url: v.estado === "entregue" ? `/api/musica/mp3?id=${p.id}&n=${v.n}` : undefined,
       arquivo: v.estado === "entregue" ? nomeArquivo(p, v) : undefined,
+      diagnostico: p.teste && v.estado === "falhou" ? (v.tentativas || []).slice(-3) : undefined, // só pedidos de teste (convite)
     })),
     whatsappMsg: p.estado === "entregue" ? mensagemWhatsApp(env, p) : undefined,
   };
