@@ -5,12 +5,14 @@ import { semAcento } from "./util.js";
 
 const MODELO_CF = "@cf/meta/llama-3.3-70b-instruct-fp8-fast";
 
+const QUEM = { cachorro: "um cachorrinho", gato: "um gatinho", "outro-pet": "um bichinho de estimação", pessoa: "uma pessoa querida", outro: "alguém especial" };
+
 function promptLetra(p, tentativa) {
-  const bicho = p.especie === "gato" ? "gatinho" : "cachorrinho";
+  const quem = QUEM[p.especie] || QUEM.outro;
   return [
-    "Você é um compositor brasileiro de músicas carinhosas e divertidas sobre pets.",
-    `Escreva a letra de uma música em português do Brasil sobre um ${bicho} chamado ${p.nomePet}.`,
-    p.raca ? `Raça: ${p.raca}.` : "",
+    "Você é um compositor brasileiro de músicas carinhosas e divertidas, feitas sob medida para alguém especial.",
+    `Escreva a letra de uma música em português do Brasil sobre ${quem} chamado(a) ${p.nomePet}.`,
+    p.raca ? `Detalhe extra: ${p.raca}.` : "",
     `Características e manias (use nos versos, com carinho): ${p.manias.map((m, i) => `${i + 1}) ${m}`).join("; ")}.`,
     p.tutor ? `O tutor se chama ${p.tutor} (cite no máximo uma vez, de forma carinhosa).` : "",
     `Estilo musical: ${p.estilo}. Clima: ${p.clima}.`,
@@ -18,7 +20,7 @@ function promptLetra(p, tentativa) {
     `- O nome ${p.nomePet} deve aparecer no refrão (pelo menos 2 vezes no refrão).`,
     "- Estrutura com rótulos entre colchetes: [Verse 1], [Chorus], [Verse 2], [Chorus], [Bridge], [Chorus].",
     "- Rimas simples, frases curtas e fáceis de cantar, 28 a 40 linhas no total.",
-    "- Nunca use a palavra 'cão' nem 'cães'. Use 'seu pet', 'cachorrinho', 'gatinho', 'amiguinho', 'melhor amigo'.",
+    "- Nunca use a palavra 'cão' nem 'cães' (para cachorros use 'cachorrinho', 'amiguinho', 'melhor amigo'). Não suponha o gênero de quem recebe a música: evite pronomes quando possível.",
     "- Não cite nomes de artistas, bandas, marcas nem títulos de músicas existentes.",
     "- Nada de tristeza pesada, violência, política ou conteúdo ofensivo.",
     p.clima === "homenagem" ? "- Tom de homenagem carinhosa e grata, celebrando os momentos juntos." : "- Tom leve, alegre e afetuoso.",
@@ -69,19 +71,19 @@ export function validarLetra(letra, p) {
 
 export function letraModelo(p) {
   const n = p.nomePet;
-  const bicho = p.especie === "gato" ? "gatinho" : "cachorrinho";
+  const bicho = { cachorro: "cachorrinho", gato: "gatinho", "outro-pet": "bichinho", pessoa: "alguém", outro: "alguém" }[p.especie] || "alguém";
   const [m1, m2, m3] = [p.manias[0], p.manias[1] || p.manias[0], p.manias[2] || p.manias[1] || p.manias[0]];
   const alegre = p.clima !== "homenagem";
   const refrao = alegre
-    ? [`${n}, ${n}, que alegria é ter você,`, `${n}, ${n}, meu melhor amigo, meu bem,`, `Cada dia é uma festa quando você vem,`, `${n}, ${n}, o amor da casa é você!`]
-    : [`${n}, ${n}, obrigado por ficar,`, `${n}, ${n}, meu melhor amigo, meu lar,`, `Cada momento ao seu lado vale ouro,`, `${n}, ${n}, o amor da casa é você!`];
+    ? [`${n}, ${n}, que alegria é ter você,`, `${n}, ${n}, meu xodó, meu bem,`, `Cada dia é uma festa quando você vem,`, `${n}, ${n}, é um barato ter você!`]
+    : [`${n}, ${n}, obrigado por ficar,`, `${n}, ${n}, meu xodó, meu lar,`, `Cada momento ao seu lado vale ouro,`, `${n}, ${n}, é um barato ter você!`];
   const tutor = p.tutor ? `${p.tutor} te olha e sorri sem parar,` : "Todo mundo em casa começa a sorrir,";
   const linhas = [
     "[Verse 1]",
     `Quando ${n} chega, o dia fica bom,`,
-    `Esse ${bicho} tem um jeito que é só dele, um dom,`,
+    `Esse jeito de ${n} é só seu, um dom,`,
     `${m1},`,
-    "É assim que ele conquista o lugar,",
+    "É assim que conquista o seu lugar,",
     tutor,
     "Qualquer tristeza vai embora de lá.",
     "",
@@ -96,10 +98,10 @@ export function letraModelo(p) {
     "",
     "[Chorus]", ...refrao, "",
     "[Bridge]",
-    `Se o mundo gira, o ${n} está aqui,`,
+    `Se o mundo gira, ${n} está aqui,`,
     "Sempre perto, sempre ali,",
-    "Um amiguinho pra vida inteira,",
-    `E o ${n} é de todos a alegria primeira!`,
+    "Um amor pra vida inteira,",
+    `E ${n} é de todos a alegria primeira!`,
     "",
     "[Chorus]", ...refrao,
   ];

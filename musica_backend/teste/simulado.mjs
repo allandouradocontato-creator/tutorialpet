@@ -104,3 +104,10 @@ console.log("OK 3: alerta + nova tentativa automática");
 const bad = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Rex", especie: "cachorro", manias: ["canta igual Anitta"], estilo: "rock", voz: "masculina", clima: "animada", email: "a@b.co", whatsapp: "85999990000" }), env })).json();
 assert.equal(bad.ok, false); console.log("OK 4: filtro de campos:", bad.erro);
 console.log("TODOS OS TESTES SIMULADOS PASSARAM");
+
+// 5) destinatário aberto: pessoa, piada e outro bichinho passam (12/11/2026)
+for (const esp of ["pessoa", "outro", "outro-pet"]) {
+  const r = await (await pedidoPost({ request: post("https://x/api/musica/pedido", { nomePet: "Pedro", especie: esp, manias: ["fala dormindo", "esquece as chaves"], estilo: "forró", voz: "masculina", clima: "animada", email: "p@exemplo.com", whatsapp: "85999990000" }), env })).json();
+  assert.equal(r.ok, true, "destinatário " + esp);
+}
+console.log("OK 5: formulário aceita pessoa/brincadeira/outro bichinho");

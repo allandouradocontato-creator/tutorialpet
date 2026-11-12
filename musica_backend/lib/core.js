@@ -27,9 +27,10 @@ const chaveMp3 = (id, n) => `mp3:${id}:${n}`;
 export function validarFormulario(b) {
   const erro = (campo, msg) => ({ ok: false, campo, erro: msg });
   const nomePet = limpar(b.nomePet, 30);
-  if (nomePet.length < 2) return erro("nomePet", "Conte o nome do seu pet.");
-  const especie = String(b.especie || "").toLowerCase();
-  if (!["cachorro", "gato"].includes(especie)) return erro("especie", "Escolha cachorro ou gato.");
+  if (nomePet.length < 2) return erro("nomePet", "Conte o nome de quem vai ganhar a música.");
+  // Destinatário aberto (12/11/2026, Allan): pet, namorada(o), amigo, família, piada... O foco é o nicho pet, mas o formulário não restringe.
+  const especie = String(b.especie || "outro").toLowerCase();
+  if (!["cachorro", "gato", "outro-pet", "pessoa", "outro"].includes(especie)) return erro("especie", "Escolha para quem é a música.");
   const manias = (Array.isArray(b.manias) ? b.manias : []).map((m) => limpar(m, 60)).filter(Boolean).slice(0, 3);
   if (manias.length < 1) return erro("manias", "Conte pelo menos uma mania ou característica.");
   const estilo = String(b.estilo || "");
@@ -46,7 +47,7 @@ export function validarFormulario(b) {
   if (whatsapp.length < 10 || whatsapp.length > 13) return erro("whatsapp", "Informe seu WhatsApp com DDD.");
   const form = { nomePet, especie, raca: limpar(b.raca, 40), manias, tutor: limpar(b.tutor, 30), estilo, estilo2, voz, clima, email, whatsapp };
   for (const t of [nomePet, form.raca, form.tutor, ...manias]) {
-    if (t && proibidoNoCampo(t)) return erro("manias", "Use só palavras carinhosas sobre o seu pet (sem nomes de artistas ou termos ofensivos).");
+    if (t && proibidoNoCampo(t)) return erro("manias", "Use palavras carinhosas ou divertidas (sem nomes de artistas ou termos ofensivos).");
   }
   return { ok: true, form };
 }

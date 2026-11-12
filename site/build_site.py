@@ -828,10 +828,10 @@ def build_musica_page(site: dict, pilares: dict) -> str:
     faq = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in cfg.get("faq", []))
     preco = esc(cfg.get("preco", "R$ 29,90"))
     form = f"""<form id="fm" autocomplete="on" novalidate>
-<label for="nomePet">Nome do seu pet</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor">
-<label>É um...</label><div class="opcoes"><label><input type="radio" name="especie" value="cachorro" checked> Cachorrinho</label><label><input type="radio" name="especie" value="gato"> Gatinho</label></div>
-<label for="raca">Raça <small>(opcional)</small></label><input id="raca" name="raca" type="text" maxlength="40" placeholder="Ex.: Golden Retriever">
-<label>3 manias ou características do seu amiguinho <small>(frases curtas)</small></label>
+<label for="nomePet">Nome de quem vai ganhar a música</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor">
+<label for="especie">A música é para...</label><select id="especie" name="especie"><option value="cachorro" selected>Meu cachorrinho</option><option value="gato">Meu gatinho</option><option value="outro-pet">Outro bichinho</option><option value="pessoa">Uma pessoa especial (namorada, amigo, família...)</option><option value="outro">Outro / uma brincadeira</option></select>
+<label for="raca">Raça ou detalhe <small>(opcional)</small></label><input id="raca" name="raca" type="text" maxlength="40" placeholder="Ex.: Golden Retriever">
+<label>3 manias ou características <small>(frases curtas)</small></label>
 <input name="m1" type="text" maxlength="60" required placeholder="Ex.: rouba meias e sai correndo">
 <input name="m2" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: late para o carteiro">
 <input name="m3" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: dorme de barriga para cima">

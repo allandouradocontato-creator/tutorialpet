@@ -262,10 +262,10 @@ header.site nav { flex: 1 1 auto; }
 <h2>O que você recebe</h2><ul class="bene"><li>O nome do seu pet cantado no refrão</li><li>As manias dele viram versos divertidos</li><li>Seis estilos: pop alegre, sertanejo, forró, MPB, rock e infantil</li><li>MP3 para baixar, enviar no WhatsApp e postar nas redes</li><li>Letra completa para cantar junto</li></ul>
 <h2 id="quero">Monte a música do seu pet</h2>
 <form id="fm" autocomplete="on" novalidate>
-<label for="nomePet">Nome do seu pet</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor">
-<label>É um...</label><div class="opcoes"><label><input type="radio" name="especie" value="cachorro" checked> Cachorrinho</label><label><input type="radio" name="especie" value="gato"> Gatinho</label></div>
-<label for="raca">Raça <small>(opcional)</small></label><input id="raca" name="raca" type="text" maxlength="40" placeholder="Ex.: Golden Retriever">
-<label>3 manias ou características do seu amiguinho <small>(frases curtas)</small></label>
+<label for="nomePet">Nome de quem vai ganhar a música</label><input id="nomePet" name="nomePet" type="text" maxlength="30" required placeholder="Ex.: Thor">
+<label for="especie">A música é para...</label><select id="especie" name="especie"><option value="cachorro" selected>Meu cachorrinho</option><option value="gato">Meu gatinho</option><option value="outro-pet">Outro bichinho</option><option value="pessoa">Uma pessoa especial (namorada, amigo, família...)</option><option value="outro">Outro / uma brincadeira</option></select>
+<label for="raca">Raça ou detalhe <small>(opcional)</small></label><input id="raca" name="raca" type="text" maxlength="40" placeholder="Ex.: Golden Retriever">
+<label>3 manias ou características <small>(frases curtas)</small></label>
 <input name="m1" type="text" maxlength="60" required placeholder="Ex.: rouba meias e sai correndo">
 <input name="m2" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: late para o carteiro">
 <input name="m3" type="text" maxlength="60" style="margin-top:8px" placeholder="Ex.: dorme de barriga para cima">
@@ -281,7 +281,7 @@ header.site nav { flex: 1 1 auto; }
 <div id="msg" role="alert"></div>
 <p class="selo">🔒 Compra 100% segura · pagamento processado pela Kiwify · 🛡️ Garantia de 14 dias</p>
 </form>
-<h2>Perguntas rápidas</h2><details><summary>Em quanto tempo a música chega?</summary><p>Em poucos minutos depois do pagamento. Você recebe o link no e-mail e a música também aparece na página de entrega.</p></details><details><summary>Em que formato eu recebo?</summary><p>Em MP3, pronto para baixar, enviar no WhatsApp e postar nas redes. A letra vem junto.</p></details><details><summary>Posso pedir para o meu gato também?</summary><p>Pode! A música é para cachorrinhos e gatinhos, com o nome e as manias do seu amiguinho.</p></details><details><summary>Posso levar uma segunda versão?</summary><p>Pode: na hora do pagamento você adiciona a 2ª versão em outro estilo por um valor especial.</p></details>
+<h2>Perguntas rápidas</h2><details><summary>Em quanto tempo a música chega?</summary><p>Em poucos minutos depois do pagamento. Você recebe o link no e-mail e a música também aparece na página de entrega.</p></details><details><summary>Em que formato eu recebo?</summary><p>Em MP3, pronto para baixar, enviar no WhatsApp e postar nas redes. A letra vem junto.</p></details><details><summary>Posso fazer para outro bichinho ou para uma pessoa?</summary><p>Pode! Cachorrinho, gatinho, outro bichinho ou até aquela pessoa especial: é só contar o nome e as manias de quem vai ganhar a música.</p></details><details><summary>Posso levar uma segunda versão?</summary><p>Pode: na hora do pagamento você adiciona a 2ª versão em outro estilo por um valor especial.</p></details>
 <p style="text-align:center;margin-top:30px"><a class="btn" href="#quero">Quero a música do meu pet</a></p>
 <p class="selo">Letra e música feitas com a ajuda de inteligência artificial, sob medida para o seu pet.</p>
 </main>
