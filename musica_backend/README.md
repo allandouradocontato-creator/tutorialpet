@@ -19,6 +19,6 @@ Teste sem chaves: `node musica_backend/teste/simulado.mjs`. Teste real por prove
 | `BREVO_API_KEY`, `BREVO_SENDER_EMAIL` | e-mail transacional |
 | `NTFY_TOPIC` (ou `TELEGRAM_BOT_TOKEN`+`TELEGRAM_CHAT_ID`) | alerta ao Allan fora do Gmail |
 | `TICK_SECRET` | igual ao segredo `MUSICA_TICK_SECRET` do GitHub |
-| `CONVITES_TESTE` | convites de teste (amigos), formato `CODIGO:creditos`, ex.: `TESTEPET:10`; link `/musica-do-seu-pet/?convite=TESTEPET`; saldo no KV |
+| `CONVITES_TESTE` | convites de teste (amigos), formato `CODIGO:creditos`, ex.: `AMIGOPET:10`; link `/musica-do-seu-pet/?convite=AMIGOPET`; saldo no KV |
 | `GEMINI_API_KEY` (opcional) | letra, se o binding `AI` não estiver ligado |
 Bindings: KV `PEDIDOS`; Workers AI `AI` (letra grátis).
