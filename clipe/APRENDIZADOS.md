@@ -31,3 +31,4 @@
 ## Publicado na main (12/11/2026)
 - Commit 92d2df2: pagina em /clipe-do-pet/ (200), atalho /amigoclipe -> convite AMIGOPET, /api/clipe/* no ar (fila responde 401 sem segredo).
 - Falta confirmar o segredo MUSICA_TICK_SECRET (GitHub) = TICK_SECRET (Cloudflare); sem ele o worker nao processa. Cota ZeroGPU e compartilhada com a musica.
+- 12/11/2026 20:55: segredos criados pelo Chrome do Allan (com OK dele): Cloudflare Pages TICK_SECRET (segredo, producao) e GitHub MUSICA_TICK_SECRET, mesmo valor. A sessao da musica NAO deve recriar com outro valor. Cloudflare so aplica na proxima publicacao (este commit dispara). So testar com credito depois de Deployments = Success.
