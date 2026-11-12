@@ -52,6 +52,21 @@ def add_png(path,x,y,t0,t1,extra='',float_=False):
     yy=f"'{y}+28*sin(2*PI*t*1.3)'" if float_ else y
     flt.append(f"{last}[{idx}:v]overlay={x}:{yy}:enable='between(t,{t0:.3f},{t1:.3f})'{extra}[v{idx}]"); last=f'[v{idx}]'
 CAPY=340; caphs=[]
+NT0=o3+7.3; NL=T-NT0
+sh(f'ffmpeg -v error -y -stream_loop 3 -i {SC}/natasha_full.mp4 -t {NL+0.2:.2f} -an -vf "scale=w=\'1080*(1+0.36*t/{NL:.2f})\':h=\'1920*(1+0.36*t/{NL:.2f})\':eval=frame,crop=1080:1920,fps=30,format=yuv420p" -c:v libx264 -crf 18 {W}/nat_pres.mp4')
+inputs.append(f'-i {W}/nat_pres.mp4'); _pi=n; n+=1
+flt.append(f"[{_pi}:v]setpts=PTS+{NT0:.3f}/TB[nps]"); flt.append(f"{last}[nps]overlay=0:0:enable='gte(t,{NT0:.3f})'[vnp]"); last='[vnp]'
+# selo da Dra. (como no VSL1): foto redonda + carimbo + nome/CRMV, no topo esquerdo, o video todo
+sh(f'ffmpeg -v error -y -i {SC}/natasha_full.mp4 -frames:v 1 -vf "crop=520:520:280:390,scale=220:220" {W}/nat_c.png')
+_ph=Image.open(W+'/nat_c.png').convert('RGBA'); _m=Image.new('L',(220,220),0); ImageDraw.Draw(_m).ellipse((0,0,219,219),fill=255); _ph.putalpha(_m)
+ImageDraw.Draw(_ph).ellipse((2,2,217,217),outline=(255,255,255,255),width=6); _ph.save(W+'/nat_circ.png')
+_f=ImageFont.truetype(FONT,30); _t="Dra. Natasha Braga · CRMV 6174"; _w=int(_f.getlength(_t))+36
+_lb=Image.new('RGBA',(_w,62),(0,0,0,0)); _d=ImageDraw.Draw(_lb); _d.rounded_rectangle((0,0,_w-1,61),radius=18,fill=(20,20,20,150)); _d.text((18,9),_t,font=_f,fill=(255,255,255,255)); _lb.save(W+'/nat_lab.png')
+add_png(W+'/nat_circ.png',50,150,0,T)
+add_png('/home/claude/tutorialpet/assets/carimbo_tutorialpet.png',290,165,0,T,extra='') if False else None
+inputs.append('-i /home/claude/tutorialpet/assets/carimbo_tutorialpet.png'); _ci=n; n+=1
+flt.append(f"[{_ci}:v]scale=300:-1[carm]"); flt.append(f"{last}[carm]overlay=290:165[vcar]"); last='[vcar]'
+add_png(W+'/nat_lab.png',290,253,0,T)
 from ultralytics import YOLO
 import glob, os
 YM=YOLO('yolov8n.pt')
@@ -65,7 +80,7 @@ def boxes_at(ts):
             if int(c)==0: bx.append([b[0],b[1],b[2],b[1]+0.28*(b[3]-b[1])])  # só a cabeça
     return bx
 def best_y(a,b,h):
-    if a>=o3+7.3: return CAPY,0
+    if a>=o3+7.3: return 1500,0
     ts=[a+(b-a)*k for k in (0.1,0.35,0.6,0.85)]
     bx=boxes_at(ts); best=None
     for y in range(330,931-h,20):
@@ -117,15 +132,6 @@ print(cards)
 add_png(W+'/card_preco.png',90,760,o3,o3+3.2,float_=True)
 add_png(W+'/card_gar.png',90,760,o3+3.2,o3+6.0,float_=True)
 add_png(W+'/card_prova.png',90,760,o3+6.0,o3+7.3,float_=True)
-# Natasha (recorte do rosto, círculo) no fecho
-sh(f'ffmpeg -v error -y -stream_loop 3 -i {SC}/natasha_full.mp4 -vf "crop=520:520:280:390,scale=300:300" -t 8 -an -c:v libx264 -crf 18 {W}/nat_face.mp4')
-ring=Image.new('RGBA',(300,300),(0,0,0,0)); ImageDraw.Draw(ring).ellipse((2,2,297,297),outline=(255,255,255,255),width=8); ring.save(W+'/ring.png')
-cm=Image.new('L',(300,300),0); ImageDraw.Draw(cm).ellipse((0,0,299,299),fill=255); cm.save(W+'/circ.png')
-inputs.append(f'-i {W}/nat_face.mp4'); ni=n; n+=1
-inputs.append(f'-loop 1 -i {W}/circ.png'); nc=n; n+=1
-flt.append(f"[{ni}:v][{nc}:v]alphamerge[nf]")
-flt.append(f"{last}[nf]overlay=700:1010:enable='gte(t,{o3+7.3:.3f})':shortest=0[vn]"); last='[vn]'
-add_png(W+'/ring.png',700,1010,o3+7.3,T)
 # botão piscando y=1400
 for nm,par in (('btn_a',0),('btn_b',1)):
     inputs.append(f'-i {CARDS}/{nm}.png'); idx=n; n+=1

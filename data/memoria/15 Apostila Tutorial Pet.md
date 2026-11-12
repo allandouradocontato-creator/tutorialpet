@@ -78,3 +78,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - Cena de câmera REC com o pet destruindo o sofá (N4) precisa de mais duração: pedir tomada longa/2 ângulos (N4b).
 - Gemini Vídeos: cota ~3/dia (volta 12:31 Fortaleza); N2 foi feita no Flow (Veo 3.1 Lite, 8 s, referência do Thor) para não gastar cota do Gemini; baixar do Flow pelo ícone de download no editor > 720p (tamanho original, sem gastar crédito de upscale).
 - VSL8 v2 (12/11/2026): montagem em 2 etapas (`vsl8_build_v2_base.py` = cenas na linha do tempo de saída com pausa C3 de 0,7 s; `vsl8_build_v2_overlays.py` = legendas, REC, cartões, Natasha, botão, sonoplastia sem música, loudnorm 2 passadas). Resultado: 59,0 s, -14,6 LUFS, TP -1,4, movimento e congelamento ok.
+
+- 2026-11-12 13:01 Allan (VSL8 v2): faltou Dra. Natasha aparecendo falando (como VSL1) e o caramelo chorando olhando pra camera (esta no 1o video de 10 s, N1, ~4.3-5.2 s e ~8.5-9.2 s) -> v2b: N1 nesses trechos em 3 cortes + Natasha tela cheia no fecho + selo (foto/carimbo/CRMV) o video todo.

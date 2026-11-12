@@ -188,3 +188,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 2026-11-12 | VSL8 v2: no Gemini colei a imagem de referência por JS com base64 escrito de memória; funcionou, mas a regra é copiar o base64 do arquivo (base64 -w0), nunca digitar.
 - 12/11/2026: faster_whisper quebrava com o PyAV novo (decode_audio, `metadata_errors`): passar o áudio como array numpy (ffmpeg -f f32le -ar 16000) em vez do caminho do arquivo.
 - 12/11/2026: cena de câmera parada (Thor latindo sentado, treino) cai no portão de movimento (<2,5): aplicar punch-in em rampa (scale com t) nesses cortes; loudnorm de 1 passada ficou em -15 LUFS: usar 2 passadas com TP -1,5.
+
+- 2026-11-12 VSL8 v2 entregue sem a Dra. aparecer e sem o rosto do caramelo olhando pra camera: ANTES de entregar, conferir o contact sheet contra o VSL anterior (apresentadora + selo) e contra os takes que o Allan elogiou.
