@@ -1,7 +1,7 @@
 # Página /musica-do-seu-pet (MVP "Música do Seu Pet"). Copy aprovada pelo Allan antes de publicar: toda frase empurra para a compra.
 # Regras da marca: nunca a palavra "cão"; pet fofo e alegre; nenhuma frase que crie objeção.
 # O link do checkout NÃO fica aqui: é a variável de ambiente KIWIFY_CHECKOUT_URL no Cloudflare Pages (o formulário recebe o link do servidor).
-preco: "R$ 29,90"
+preco: "R$ 19,90"
 titulo: "A música do seu pet, com o nome dele no refrão"
 subtitulo: "Receba, em poucos minutos, uma música feita só para o seu melhor amigo (ou para quem você ama), com o nome dele no refrão. Para ouvir, baixar em MP3 e compartilhar."
 meta_description: "Uma música personalizada com o nome e as manias do seu pet, pronta em poucos minutos e entregue em MP3. Preencha o formulário e ouça a do seu amiguinho."

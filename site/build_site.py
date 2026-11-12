@@ -865,7 +865,7 @@ def build_musica_page(site: dict, pilares: dict) -> str:
     passos = "".join(f'<div class="passo"><b class="n">{esc(n)}</b><div><strong>{esc(t)}</strong><br>{esc(d)}</div></div>' for n, t, d in cfg.get("passos", []))
     bene = "".join(f"<li>{esc(b)}</li>" for b in cfg.get("beneficios", []))
     faq = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in cfg.get("faq", []))
-    preco = esc(cfg.get("preco", "R$ 29,90"))
+    preco = esc(cfg.get("preco", "R$ 19,90"))
     estilos_chip = "".join(
         f'<label class="chip"><input type="radio" name="estilo" value="{e.lower()}"{" checked" if e == "pop alegre" else ""}><span>{esc(e if e == "MPB" else e.capitalize())}</span></label>'
         for e in ["pop alegre", "sertanejo", "forró", "MPB", "rock", "infantil"])
