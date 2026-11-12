@@ -1,0 +1,22 @@
+{
+  "id": "homenagem",
+  "nome": "Homenagem",
+  "descricao": "Para celebrar a vida de um pet que já partiu: carinho, gratidão e saudade boa.",
+  "cor": "#f4b860",
+  "musica": "goldensoundlabs-cubs-puppies-and-kittens-223658.mp3",
+  "musica_inicio": 0,
+  "seg_dur": 2.8,
+  "abertura": {"titulo": "{nome}", "subtitulo": "Uma vida cheia de amor"},
+  "legendas": [
+    "Você chegou e a casa ficou mais feliz",
+    "Cada dia ao seu lado era uma festa",
+    "Obrigado por cada abraço sem palavras",
+    "Você ensinou o que é amar de verdade",
+    "Seu jeitinho vive em cada lembrança",
+    "Nossa melhor companhia",
+    "Os dias mais simples ficaram especiais",
+    "Seu amor deixou saudade boa",
+    "Você foi o melhor amigo que alguém poderia ter"
+  ],
+  "final": {"titulo": "Para sempre no nosso coração", "subtitulo": "{nome}"}
+}

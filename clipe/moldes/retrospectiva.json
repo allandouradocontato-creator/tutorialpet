@@ -1,0 +1,28 @@
+{
+  "id": "retrospectiva",
+  "nome": "Retrospectiva (nossa história)",
+  "descricao": "A história de vocês, do primeiro dia até hoje, em ordem.",
+  "cor": "#7c9cff",
+  "musica": "starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3",
+  "musica_inicio": 0,
+  "seg_dur": 2.3,
+  "abertura": {
+    "titulo": "A nossa história",
+    "subtitulo": "{nome}, desde o primeiro dia"
+  },
+  "legendas": [
+    "Chegando em casa",
+    "As primeiras bagunças",
+    "Descobrindo a rotina juntos",
+    "Os passeios favoritos",
+    "As travessuras que viraram risada",
+    "Crescendo ao nosso lado",
+    "Cada fase, mais amor",
+    "Nossos melhores momentos",
+    "E a história continua"
+  ],
+  "final": {
+    "titulo": "E o melhor ainda vem",
+    "subtitulo": "{nome}"
+  }
+}

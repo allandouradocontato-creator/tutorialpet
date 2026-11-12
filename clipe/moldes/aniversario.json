@@ -1,0 +1,22 @@
+{
+  "id": "aniversario",
+  "nome": "Aniversário do pet",
+  "descricao": "Uma festa em vídeo para o aniversário do seu melhor amigo.",
+  "cor": "#ff7a45",
+  "musica": "lnplusmusic-happy-happy-music-611028.mp3",
+  "musica_inicio": 0,
+  "seg_dur": 1.9,
+  "abertura": {"titulo": "Parabéns, {nome}!", "subtitulo": "Hoje o dia é todo seu"},
+  "legendas": [
+    "Mais um ano de alegria",
+    "Quem é o aniversariante mais fofo?",
+    "Hora de festa!",
+    "Cada ano você fica mais especial",
+    "Quanta bagunça boa você fez",
+    "Você merece um mundo de petiscos",
+    "Melhor presente é ter você",
+    "Que venham muitos anos de brincadeira",
+    "Todo mundo te ama demais"
+  ],
+  "final": {"titulo": "Feliz aniversário!", "subtitulo": "{nome}"}
+}
