@@ -16,6 +16,11 @@ amostras:   # só aparece quem tem arquivo em site/musica_assets/ (o Thor entra 
     nome: "Thor"
     legenda: "Thor, meu raio de sol"
     arquivo: "amostra-thor.mp3"
+clipes:   # vídeos de exemplo (arquivo + capa em site/musica_assets/)
+  - id: shih-tzu
+    legenda: "Shih Tzu, pequeno leão de pelúcia"
+    arquivo: "clipe-shih-tzu.mp4"
+    capa: "clipe-shih-tzu.jpg"
 passos:
   - ["1", "Conte sobre o seu pet", "Nome, 3 manias e o estilo que combina com ele."]
   - ["2", "Faça o pagamento seguro", "Pix ou cartão, em poucos cliques."]

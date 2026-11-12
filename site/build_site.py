@@ -737,6 +737,7 @@ MUSICA_CSS = """
 .musica .amostras{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));margin:30px 0 0}
 .musica .amostra{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:16px;backdrop-filter:blur(10px)}
 .musica .amostra .capa{width:64px;height:64px;border-radius:16px;flex:none;display:flex;align-items:center;justify-content:center;font-size:1.9rem;background:linear-gradient(135deg,#ff8a1f,#ff3d81 60%,#8b5cf6);box-shadow:0 10px 28px rgba(255,80,110,.4)}
+.musica .clipes{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;margin:26px 0 0}.musica .clipe{max-width:300px;text-align:center}.musica .clipe video{width:100%;border-radius:20px;border:1px solid rgba(255,255,255,.18);box-shadow:0 14px 34px rgba(255,80,110,.35);background:#000}.musica .clipe strong{display:block;margin-top:10px;color:#fff}.musica .clipe small{color:#b8a7d6}
 .musica .amostra strong{display:block;font-size:1.05rem;color:#fff}
 .musica .amostra small{color:#b8a7d6}
 .musica .amostra .tx{flex:1;min-width:180px}
@@ -897,6 +898,10 @@ def build_musica_page(site: dict, pilares: dict) -> str:
     amostras = "".join(
         f'<div class="amostra"><div class="capa">🐾</div><div class="tx"><strong>{esc(a["legenda"])}</strong><small>Música feita para um pet de verdade</small></div><audio controls preload="none" src="/musica/{esc(a["arquivo"])}"></audio></div>'
         for a in (cfg.get("amostras") or []) if (ROOT / "site" / "musica_assets" / a["arquivo"]).exists())
+    clipes = "".join(
+        f'<div class="clipe"><video controls playsinline preload="none" poster="/musica/{esc(c["capa"])}" src="/musica/{esc(c["arquivo"])}"></video><strong>{esc(c["legenda"])}</strong><small>Música + clipe animado do seu pet</small></div>'
+        for c in (cfg.get("clipes") or []) if (ROOT / "site" / "musica_assets" / c["arquivo"]).exists())
+    bloco_clipes = (f'<h2>Veja a música virar clipe</h2><p class="kick">O seu pet em desenho animado, cantando a música dele. Mostre para todo mundo!</p><div class="clipes">{clipes}</div>' if clipes else "")
     passos = "".join(f'<div class="passo"><b class="n">{esc(n)}</b><div><strong>{esc(t)}</strong><br>{esc(d)}</div></div>' for n, t, d in cfg.get("passos", []))
     bene = "".join(f"<li>{esc(b)}</li>" for b in cfg.get("beneficios", []))
     faq = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in cfg.get("faq", []))
@@ -938,6 +943,7 @@ def build_musica_page(site: dict, pilares: dict) -> str:
 </section>
 <h2>Ouça como fica</h2><p class="kick">Músicas feitas com o nome do pet no refrão.</p>
 <div class="amostras">{amostras}</div>
+{bloco_clipes}
 <h2>Como funciona</h2><p class="kick">Do formulário ao seu MP3 em poucos minutos.</p><div class="passos">{passos}</div>
 <h2>O que você recebe</h2><p class="kick">Tudo pronto para ouvir, baixar e compartilhar.</p><ul class="bene">{bene}</ul>
 <h2 id="quero">Monte a sua música</h2><p class="kick">Quanto mais detalhes, mais a música fica a cara dele.</p>
@@ -1431,7 +1437,7 @@ def run(site_id: str) -> dict:
         if _ma.exists():
             import shutil as _sh
             (BUILD_DIR / "musica").mkdir(exist_ok=True)
-            for _f in _ma.glob("*.mp3"):
+            for _f in [*_ma.glob("*.mp3"), *_ma.glob("*.mp4"), *_ma.glob("*.jpg")]:
                 _sh.copyfile(_f, BUILD_DIR / "musica" / _f.name)
 
     # Página /achados (02/11/2026): destino do "link na bio" (Instagram/TikTok); noindex e fora do sitemap
