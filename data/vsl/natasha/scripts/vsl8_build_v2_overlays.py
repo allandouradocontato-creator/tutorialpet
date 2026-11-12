@@ -42,8 +42,7 @@ caps=[(0,2.98,"O que o seu cachorro faz quando você fecha a porta?"),
 (o2+15.0,o3,"e sente a satisfação dessa conquista."),
 (o3,o3+3.2,"De noventa e sete por vinte e sete reais."),
 (o3+3.2,o3+7.2,"Catorze dias de garantia: não gostou, devolvemos tudo."),
-(o3+7.3,o3+13.0,"Garanta agora o Sozinho em Casa: tranquilidade pro seu melhor amigo e paz com os vizinhos."),
-(o3+13.05,T,"Clique no botão!")]
+] # fecho da Dra.: tela limpa (so carimbo, nome/CRMV e botao), a pedido do Allan 12/11
 inputs=[]; flt=[]; n=1; last='[0:v]'
 def add_png(path,x,y,t0,t1,extra='',float_=False):
     global n,last
@@ -74,8 +73,8 @@ inputs.append('-i /home/claude/tutorialpet/assets/carimbo_tutorialpet.png'); _ci
 flt.append(f"[{_ci}:v]scale=300:-1,split=2[carm][carm2]"); flt.append(f"{last}[carm]overlay=290:165:enable='lt(t,{NTS:.3f})'[vcar]"); last='[vcar]'
 add_png(W+'/nat_lab.png',290,253,0,NTS)
 # no trecho da apresentadora o selo desce (fora do rosto): carimbo + nome/CRMV centralizados na faixa do tronco
-flt.append(f"{last}[carm2]overlay=(W-w)/2:1120:enable='gte(t,{NTS:.3f})'[vcar2]"); last='[vcar2]'
-add_png(W+'/nat_lab.png',(1080-_w)//2,1230,NTS,T)
+flt.append(f"{last}[carm2]overlay=(W-w)/2:1545:enable='gte(t,{NTS:.3f})'[vcar2]"); last='[vcar2]'
+add_png(W+'/nat_lab.png',(1080-_w)//2,1655,NTS,T)
 from ultralytics import YOLO
 import glob, os
 YM=YOLO('yolov8n.pt')

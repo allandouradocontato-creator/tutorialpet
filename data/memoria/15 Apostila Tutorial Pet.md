@@ -84,3 +84,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 2026-11-12 13:58 Allan (regra fixa, VSL): a legenda SEMPRE sai de cima do centro da ação (rosto de Thor/Carol/vizinho); variar posição alto/baixo por corte e conferir no contact sheet antes de entregar. Natasha tem que aparecer FALANDO (lip-sync), nao foto parada.
 
 - 2026-11-12 15:50 VSL8 v2c entregue: Natasha FALANDO (HeyGen Avatar Turbo 1080p vertical, voz do fecho 7 s, lip-sync ok, deslocamento 20 ms) em tela cheia no fecho (52,1-59 s), selo desce para o tronco nesse trecho (nao cobre o rosto); caramelo olhando pra camera (N1 ~4,3 e ~8,4 s) em 3 cortes; legendas variam alto/baixo fora dos rostos. 59,0 s, -14,5 LUFS, TP -1,4, sem trecho parado. Aguardando aprovacao do Allan antes de criar o anuncio (saldo R$ 239,21, conta antiga, so Reels).
+
+- 2026-11-12 15:47 Allan (regra, tela da Dra. Natasha): fecho LIMPO, so o botao, o carimbo Tutorial Pet e "Dra. Natasha Braga · CRMV 6174"; sem moldura de produto, sem legenda por cima, sem poluicao (a da VSL1 estava "suja"). VSL8 v2d aplicada: selo+nome abaixo do botao, fora do rosto e do bordado da roupa.
