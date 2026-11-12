@@ -12,6 +12,8 @@ titulo: 'Você adotaria um cachorro "feio"? A beleza que não aparece na foto'
 meta_description: Pet preterido por aparência, idade ou cor espera mais por um lar. Um texto sobre beleza, afeto e adoção, de cachorros e também de crianças.
 autor: ''
 coluna: Adoção
+capa_tipo: cachorro bonito, alegre, bem cuidado (SRD ou raça), para o clique
+foto_meio: filhote de abrigo 'feinho' enviado pelo Allan (12/11), provocação no meio do texto; arquivo ainda não recebido
 voz: poetica_reflexiva
 ---
 
@@ -28,6 +30,11 @@ Todo mundo já passou pela cena: alguém rola a tela, vê um filhote de olhos en
 A palavra "feio" costuma servir de atalho para outras coisas: pelagem diferente, corpo fora do padrão, uma cicatriz, a idade avançada, um focinho grisalho. Mas o que chamamos de feio é, quase sempre, apenas o que não conhecemos ainda. Um cachorro que ninguém olhou direito é um cachorro que ninguém conheceu.
 
 E há uma coisa curiosa: a beleza que dura numa convivência não é a do pelo, é a do jeito. É o cachorro que encosta a cabeça no seu joelho enquanto você trabalha. É a gata que escolhe o seu colo justo quando o dia foi ruim. É o hábito de esperar você chegar. Ninguém se apaixona por um pet pela raça. Apaixona-se pela rotina que os dois constroem.
+
+<!-- FOTO DO MEIO (pedido do Allan 12/11): filhote de abrigo "feinho", em destaque, largura total, legenda abaixo. Capa do artigo = cachorro bonito. -->
+
+> **Se esta fosse a capa, você teria clicado?**
+> Foi de propósito que a foto do início mostrou um cachorro bonito. Este filhote, do abrigo, talvez você tivesse deixado passar. Olhe de novo: ele também espera por alguém.
 
 ## O que as ONGs dizem sobre quem fica para trás
 
