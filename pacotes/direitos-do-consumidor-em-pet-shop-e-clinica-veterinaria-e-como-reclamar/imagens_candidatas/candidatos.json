@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 16621438,
+    "url_download": "https://images.pexels.com/photos/16621438/pexels-photo-16621438.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-a-puppy-on-a-black-background-16621438/",
+    "fotografo": "Anya  Juárez Tenorio",
+    "fotografo_url": "https://www.pexels.com/@anyajuarez",
+    "largura": 4000,
+    "altura": 3094,
+    "query": "dog alone portrait studio background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11380175,
+    "url_download": "https://images.pexels.com/photos/11380175/pexels-photo-11380175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-brown-pomeranian-puppy-11380175/",
+    "fotografo": "Anna Bondarenko",
+    "fotografo_url": "https://www.pexels.com/@aaa333",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog alone portrait studio background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17892805,
+    "url_download": "https://images.pexels.com/photos/17892805/pexels-photo-17892805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/husky-lies-in-studio-17892805/",
+    "fotografo": "Pet foto",
+    "fotografo_url": "https://www.pexels.com/@pet-foto-644780685",
+    "largura": 4709,
+    "altura": 3139,
+    "query": "dog alone portrait studio background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 765575,
+    "url_download": "https://images.pexels.com/photos/765575/pexels-photo-765575.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photography-of-adult-short-coated-dog-765575/",
+    "fotografo": "Akshar Dave🌻",
+    "fotografo_url": "https://www.pexels.com/@akshar-dave",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog alone portrait studio background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7790677,
+    "url_download": "https://images.pexels.com/photos/7790677/pexels-photo-7790677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-cat-on-yellow-background-7790677/",
+    "fotografo": "Ivan Babydov",
+    "fotografo_url": "https://www.pexels.com/@babydov",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cat close up isolated background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7254591,
+    "url_download": "https://images.pexels.com/photos/7254591/pexels-photo-7254591.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-tabby-cat-7254591/",
+    "fotografo": "dio arapogiannis",
+    "fotografo_url": "https://www.pexels.com/@dio-arapogiannis-40036220",
+    "largura": 2528,
+    "altura": 1688,
+    "query": "cat close up isolated background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/direitos-do-consumidor-em-pet-shop-e-clinica-veterinaria-e-como-reclamar/5.jpg"
+  }
+]
