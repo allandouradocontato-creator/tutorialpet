@@ -77,3 +77,4 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - Troca de mão do celular na cena do vizinho (N3) gera dois celulares e fica feia: usar só o trecho em que o celular fica numa mão (5–10 s) e conferir o trecho em contact sheet antes de cortar.
 - Cena de câmera REC com o pet destruindo o sofá (N4) precisa de mais duração: pedir tomada longa/2 ângulos (N4b).
 - Gemini Vídeos: cota ~3/dia (volta 12:31 Fortaleza); N2 foi feita no Flow (Veo 3.1 Lite, 8 s, referência do Thor) para não gastar cota do Gemini; baixar do Flow pelo ícone de download no editor > 720p (tamanho original, sem gastar crédito de upscale).
+- VSL8 v2 (12/11/2026): montagem em 2 etapas (`vsl8_build_v2_base.py` = cenas na linha do tempo de saída com pausa C3 de 0,7 s; `vsl8_build_v2_overlays.py` = legendas, REC, cartões, Natasha, botão, sonoplastia sem música, loudnorm 2 passadas). Resultado: 59,0 s, -14,6 LUFS, TP -1,4, movimento e congelamento ok.
