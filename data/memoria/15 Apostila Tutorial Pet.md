@@ -96,3 +96,5 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 12/11 16:09 VSL8 v2h: Allan nao ouviu a musica (v2g muito baixa); subi suspense +10 dB e party +7 dB e suavizei o ducking (ratio 2). Regra: musica de fundo tem que ser AUDIVEL no celular, nao so presente no arquivo.
 
 - 12/11 16:24 VSL8 v2i: musica "baixa" era porque Suspense mystery bass tinha 96% da energia abaixo de 200 Hz (celular nao reproduz). Trocada por Mixkit "Cinematic action suspense" (54% medios), entrando aos 6 s da faixa. REGRA: checar espectro da musica de fundo (precisa de medios 200-4000 Hz), nao so o nivel em dB.
+
+- 12/11 18:33 DECISAO: Allan APROVOU a VSL8 "A Câmera" v2i; substitui o VSL no ar (Corte Resumo v5) na conta antiga 1213984913380523 com o saldo novo R$ 239,21. Regras: só Reels, 3 textos + 3 títulos nossos, provar pixel antes de ligar.
