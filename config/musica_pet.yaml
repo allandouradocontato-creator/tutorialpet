@@ -3,7 +3,7 @@
 # O link do checkout NÃO fica aqui: é a variável de ambiente KIWIFY_CHECKOUT_URL no Cloudflare Pages (o formulário recebe o link do servidor).
 preco: "R$ 19,90"
 titulo: "A música do seu pet, com o nome dele no refrão"
-subtitulo: "Receba, em poucos minutos, uma música feita só para o seu melhor amigo (ou para quem você ama), com o nome dele no refrão. Para ouvir, baixar em MP3 e compartilhar."
+subtitulo: "Por R$ 19,90 você leva DUAS versões: uma música feita só para o seu melhor amigo (ou para quem você ama), com o nome dele no refrão, e uma segunda versão se quiser outro estilo. Para ouvir, baixar em MP3 e compartilhar."
 meta_description: "Uma música personalizada com o nome e as manias do seu pet, pronta em poucos minutos e entregue em MP3. Preencha o formulário e ouça a do seu amiguinho."
 botao_topo: "Quero a música do meu pet"
 botao_form: "Ir para o pagamento seguro"
@@ -26,6 +26,7 @@ passos:
   - ["2", "Faça o pagamento seguro", "Pix ou cartão, em poucos cliques."]
   - ["3", "Aprove a letra e receba a música", "Gere a letra e modifique quantas vezes quiser. Aprovou? Em poucos minutos o MP3 chega no seu e-mail e na página."]
 beneficios:
+  - "Duas versões da sua música pelo mesmo preço: escolha a sua favorita"
   - "O nome do seu pet cantado no refrão"
   - "As manias dele viram versos divertidos"
   - "Seis estilos: pop alegre, sertanejo, forró, MPB, rock e infantil"
@@ -37,5 +38,6 @@ faq:
   - ["Em que formato eu recebo?", "Em MP3, pronto para baixar, enviar no WhatsApp e postar nas redes. A letra vem junto."]
   - ["Posso fazer para outro bichinho ou para uma pessoa?", "Pode! Cachorrinho, gatinho, outro bichinho ou até aquela pessoa especial: é só contar o nome e as manias de quem vai ganhar a música."]
   - ["Posso mudar a letra quantas vezes quiser?", "Pode, e sem pagar a mais! Depois do pagamento você gera a letra, pede ajustes ou edita direto no texto, quantas vezes quiser. Só quando aprovar é que a gente cria a música."]
-  - ["E se eu não gostar da música?", "Sem problema: você pode gerar uma segunda versão e escolher a melhor para baixar."]
+  - ["E se eu não gostar da música?", "Sem problema: o seu pedido já inclui uma segunda versão, no estilo que você quiser, e você escolhe a favorita."]
+  - ["Dá para ter um clipe com a foto do meu pet?", "Dá! O clipe animado com a foto do seu pet é um extra, feito junto com a sua música. Fale com a gente depois da compra e combinamos."]
 selo: "🔒 Compra 100% segura · pagamento processado pela Kiwify · 🛡️ Garantia de 14 dias"
