@@ -42,3 +42,10 @@
 12/11/2026 | TikTok | T2 gato (exercícios mentais gato idoso) | "Seu gato idoso só quer saber de dormir?" | 506 (≈2 dias, 2,51 s, 34 curtidas) | 200-999; tempo <3 s (critério não batido); n=1: NEUTRO, repetir 1x em FB/IG
 12/11/2026 | TikTok | T2 gato (fonte de água) e banho (Agendador) | — | NÃO PUBLICOU (conta banida) | sem leitura; E234 aberta
 12/11/2026 | FB/IG | reaproveita o gato idoso (44 s) | mesmo gancho | agendado FB 14:00 / IG 15:00 | leitura 13/11
+
+13/11/2026 | FB/IG | reaproveita gato idoso (44 s) | "Seu gato idoso só quer saber de dormir?" | FB 330 impr. (5,2 s) / IG 121 views (6,4 s, 8 curtidas) | 200-999 no FB: reaproveitar mais 1x em outro tema de gato; retenção FB/IG (5-6 s) > TikTok (2,5 s); n=1, direção não causa
+13/11/2026 | FB/IG | tigela de água gato (52 s) | "Seu gato ignora a tigela de água?" | FB 283 / IG 92 (skip 74%) | <200 no IG: não repetir gancho no IG; FB ok
+13/11/2026 | FB/IG | banho (43 s) 11/11 | "Banho toda semana ou só quando já está com cheiro?" | FB 237 / IG 46 | FB 200+, IG <200: priorizar FB para dúvida de cachorro; amostra pequena
+13/11/2026 | IG | collab Natasha (imagem) | "Por que medir a pressão do seu pet?" | 3 views (≈13 h) | <200: não repetir imagem estática; collab só em Reel
+13/11/2026 | TikTok | todos | conta banida | sem leitura nova | E234/E237 abertas
+13/11/2026 | FB/IG | decisão do tutor (recortes 14,5/17 s) | castração P1/2 IG 15:00; cama P2/2 FB 19:00 + IG 20:00 | agendado hoje | leitura 14/11; primeiro teste dos recortes fora do TikTok (n=3)

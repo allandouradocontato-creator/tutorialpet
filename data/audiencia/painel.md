@@ -108,3 +108,16 @@ Meta: IG 5/500 = 1%; FB 14.
 Views TikTok final (Buffer): castração P1/2 546 (1,96 s) | cama P2/2 493 (2,02 s) | burocracia adoção 540 (1,7 s) | gato idoso exercícios 506 (2,51 s, 34 curtidas, 1 compart.).
 Hoje (E235, FB/IG por Zernio, mesmo arquivo do TikTok de maior retenção): FB 14:00 e IG 15:00 gato idoso exercícios mentais (44 s; posts 6af5984f4624e6644c1c391c / 6af598503537ce32c3bcba5d; URL 200 conferida). Já na fila Zernio: gato/tigela de água e pote compartilhado (Agendador). Total de vídeos hoje: FB/IG ≥2 cada; TikTok 0 (banido).
 Zernio: 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 13/11 07:41 (Operador de Audiência, nuvem)
+ALERTA TOPO: TikTok @tutorialpetbr segue BANIDO (Buffer: posts 10/11 20:20, 11/11 e 12/11 10:20 em erro "account being banned"). Agendado 13/11 10:20 (pote grande/pequeno, 6af5a1482a482cc6407ab723) tende a falhar; não mexi.
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (parado desde 06/11) |
+| Instagram | 8 (128 posts) | +3 (5 → 8 em 13/11; maior alta da série) |
+| TikTok | SEM DADO (conta banida; Buffer só views; E184/E206/E234/E237) | ? |
+Meta: IG 8/500 = 1,6%; FB 14.
+Views 24 h+ FB/IG (Zernio): gato idoso 12/11 FB 330 impr. (tempo 5,2 s) | IG 121 (6,4 s, skip 44,5%); tigela água FB 283 | IG 92 (skip 74%); banho 11/11 FB 237 | IG 46; Natasha pressão IG 3 views.
+Views TikTok final (Buffer): castração P1 547 (1,99 s) | burocracia 540 (1,7 s) | gato idoso 506 (2,51 s).
+Hoje (E235/E237, Zernio, URL 200 conferida): FB 10:00 pote (Agendador) | IG 11:00 pote (Agendador) | IG 15:00 castração P1/2 (6af6ea3b57a983f1708ba2ff) | FB 19:00 cama P2/2 (6af6ea3ce676ab9b939f7b06) | IG 20:00 cama P2/2 (6af6ea3be676ab9b939f7aff). FB 2 de 3 (sem estoque além do recorte de 17 s; P1 de 14,5 s fora do FB por E220); IG 3 de 3; TikTok 0 (banido).
+Zernio: 8 posts em erro antigos (mídia inacessível), não reenviados.

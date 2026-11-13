@@ -32,3 +32,6 @@ T-dur: mesmo roteiro de C1 em 20 s x 40 s (P6). T-gancho: C2 com número x sem n
 Ver o status da conta no app (item 0) e dizer se há aviso. Isso decide se o "ir com tudo" é por Buffer, à mão, ou depois de recurso.
 ## 6. Tema para fila_temas (só proposta)
 "Quantos banhos/passeios por semana para cachorro" e "quantas caixas de areia por gato" (conferir se já existem antes de a fábrica produzir).
+
+## 13/11 — tema para fila_temas (só proposta)
+"Quantas vezes por dia dar água/comida ao gato" e "gato idoso: quanto dorme é normal" (conferir se já existem antes da fábrica produzir).
