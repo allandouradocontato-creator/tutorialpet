@@ -36,3 +36,5 @@ Transformam o compêndio `biblioteca/regras_plataformas/` em procedimento execut
 | `trafego_meta_ads.md` | Ciclo do anúncio Meta antes e em volta da checagem (elegibilidade, criativo, conformidade, UTM, revisão 24 h); complementa `anuncios_meta_decisao.md` | Agente de Tráfego, Guardião de Gasto, Executor de Decisões (Auditor segue com anuncios_meta_decisao.md) |
 | `trafego_tiktok_ads.md` | TikTok Ads/Spark Ads: escolha do vídeo, política de animais, rótulo IA, regras diárias | Agente de Tráfego, Especialista TikTok, Guardião de Gasto, Executor de Decisões |
 - blog_adsense_4_semanas.md (v1 22/10): operar as 4 semanas até o AdSense: ritmo 3/4 por dia, variedade de temas/formatos, enquetes, tráfego e SEO; dono Diretor de Conteúdo; molde depois.
+- dica_salvavel_alerta_utilidade.md (v1 13/11, rascunho até prova): reel de dica salvável com gancho de alerta em tela, legenda e CTA único; espelhado do perfil Islam Sousa; dono Criador/Operador de Audiência.
+- serie_comandos_foto_pet_ia.md (v1 13/11, rascunho até prova): série '4-5 ideias de IA para a foto do seu pet'; testar antes de gravar; dono Criador/Operador de Audiência.
