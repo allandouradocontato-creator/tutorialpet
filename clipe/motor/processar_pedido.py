@@ -8,6 +8,7 @@ Variáveis: CLIPE_BASE (padrão https://tutorialpet.com.br), CLIPE_SEGREDO (= TI
 Contrato com o site (functions/api/clipe/*):
   GET  /api/clipe/fila                       -> {pedidos:[{id, molde, nome, frase, fotos}]}
   GET  /api/clipe/foto?id=&n=                -> JPEG da foto n (1..fotos)
+  GET  /api/clipe/midia-video?id=&n=         -> vídeo n enviado pelo cliente (1..videos)
   POST /api/clipe/andamento?id=&estado=&etapa=&msg=  -> atualiza o acompanhamento (estado: processando | falhou)
   POST /api/clipe/video-upload?id=&animadas=&total=  -> corpo = MP4 final (estado vira "entregue")
 """
@@ -43,26 +44,47 @@ def andamento(pid, estado, etapa="", msg=""):
         log("aviso: não consegui atualizar andamento:", e)
 
 
+def molde_anima(molde_id):
+    """Molde com "animar_fotos": false (ex.: diversao) não gasta GPU: as fotos entram como foto (zoom suave) e os vídeos são cortados."""
+    try:
+        m = json.loads((AQUI.parent / "moldes" / f"{molde_id}.json").read_text(encoding="utf-8"))
+    except Exception:
+        return True
+    return bool(m.get("animar_fotos", True))
+
+
 def processar(p):
     pid, n = p["id"], int(p["fotos"])
-    log(f"pedido {pid}: molde={p['molde']} fotos={n}")
+    nv = int(p.get("videos", 0))
+    ordem = p.get("ordem") or "f" * n
+    log(f"pedido {pid}: molde={p['molde']} fotos={n} videos={nv} ordem={ordem}")
+    anima = molde_anima(p["molde"]) and os.environ.get("CLIPE_SEM_ANIMACAO") != "1"
     with tempfile.TemporaryDirectory() as td:
         td = Path(td)
-        fotos, midias = td / "fotos", td / "midias"
-        fotos.mkdir(), midias.mkdir()
-        andamento(pid, "processando", "Recebendo suas fotos", "Preparando tudo para a animação")
+        fotos, videos, midias = td / "fotos", td / "videos", td / "midias"
+        fotos.mkdir(), videos.mkdir(), midias.mkdir()
+        andamento(pid, "processando", "Recebendo suas fotos e vídeos", "Preparando tudo")
         for i in range(1, n + 1):
             (fotos / f"{i:02d}.jpg").write_bytes(http("GET", f"/api/clipe/foto?id={pid}&n={i}"))
-        animadas = 0
-        for i in range(1, n + 1):
-            andamento(pid, "processando", f"Animando a foto {i} de {n}", "A inteligência artificial está dando vida à sua foto")
-            f, saida = fotos / f"{i:02d}.jpg", midias / f"{i:02d}.mp4"
-            if animar(str(f), str(saida)):
-                animadas += 1
-            else:
-                log(f"foto {i}: sem animação, usando zoom lento")
-                (midias / f"{i:02d}.jpg").write_bytes(f.read_bytes())
-        andamento(pid, "processando", "Montando o seu clipe", "Legendas, música e carimbo")
+        for i in range(1, nv + 1):
+            (videos / f"{i:02d}.mp4").write_bytes(http("GET", f"/api/clipe/midia-video?id={pid}&n={i}", timeout=180))
+        animadas, fi, vi = 0, 0, 0
+        for pos, tipo_m in enumerate(ordem, 1):
+            if tipo_m == "v":
+                vi += 1
+                (midias / f"{pos:02d}.mp4").write_bytes((videos / f"{vi:02d}.mp4").read_bytes())
+                continue
+            fi += 1
+            f = fotos / f"{fi:02d}.jpg"
+            if anima:
+                andamento(pid, "processando", f"Animando a foto {fi} de {n}", "A inteligência artificial está dando vida à sua foto")
+                saida = midias / f"{pos:02d}_anim.mp4"
+                if animar(str(f), str(saida)):
+                    animadas += 1
+                    continue
+                log(f"foto {fi}: sem animação, usando zoom lento")
+            (midias / f"{pos:02d}.jpg").write_bytes(f.read_bytes())
+        andamento(pid, "processando", "Montando o seu clipe", "Cortes, legendas, música e carimbo")
         final = td / "clipe.mp4"
         cmd = [sys.executable, str(AQUI / "montar_clipe.py"), "--molde", p["molde"], "--midias", str(midias),
                "--nome", p.get("nome", ""), "--frase", p.get("frase", ""), "--saida", str(final)]
@@ -71,11 +93,12 @@ def processar(p):
         r = subprocess.run(cmd, capture_output=True, text=True)
         if r.returncode != 0 or not final.exists():
             raise RuntimeError("motor falhou: " + (r.stderr or r.stdout)[-300:])
+        log("motor:", (r.stderr or "").strip().splitlines()[-1][:300] if (r.stderr or "").strip() else "ok")
         tam = final.stat().st_size
         if tam > 24 * 1024 * 1024:
             raise RuntimeError(f"clipe grande demais para entrega ({tam} bytes)")
         http("POST", f"/api/clipe/video-upload?id={pid}&animadas={animadas}&total={n}", final.read_bytes(), "video/mp4", timeout=180)
-        log(f"pedido {pid}: entregue ({tam // 1024} KB, {animadas}/{n} animadas)")
+        log(f"pedido {pid}: entregue ({tam // 1024} KB, {animadas}/{n} animadas, {nv} vídeo(s) do cliente)")
 
 
 def main():

@@ -1,0 +1,28 @@
+{
+  "id": "diversao",
+  "nome": "Diversão",
+  "descricao": "Cortes rápidos no ritmo da música, fotos e vídeos misturados, para rir e compartilhar.",
+  "cor": "#ffd23f",
+  "musica": "lnplusmusic-happy-happy-music-611028.mp3",
+  "musica_inicio": 0,
+  "seg_dur": 1.7,
+  "animar_fotos": false,
+  "mistura": true,
+  "max_trechos": 3,
+  "xfade": 0.1,
+  "legenda_a_cada": 2,
+  "batida": {"bpm": 108.02, "primeira": 0.279, "abertura": 4, "foto": 2, "video": 3, "final": 4},
+  "abertura": {"titulo": "{nome} chegou!", "subtitulo": "Prepare-se para a fofura"},
+  "legendas": [
+    "Modo festa ligado",
+    "Fofura em alta",
+    "Bora brincar?",
+    "Alegria pura",
+    "Zero tédio",
+    "Energia de sobra",
+    "Melhor parte do dia",
+    "Isso sim é vida",
+    "Quem resiste?"
+  ],
+  "final": {"titulo": "Que fofura!", "subtitulo": "{nome}"}
+}

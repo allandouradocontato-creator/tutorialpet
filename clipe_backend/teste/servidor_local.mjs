@@ -18,7 +18,7 @@ const kv = {
 const env = { PEDIDOS: kv, TICK_SECRET: process.env.TICK_SECRET || "segredo-teste", CONVITES_TESTE: process.env.CONVITES_TESTE || "AMIGOPET:10" };
 
 const rotas = {};
-for (const n of ["pedido", "foto", "enviar", "fila", "andamento", "video-upload", "status", "video"]) rotas[n] = await import(pathToFileURL(path.join(raiz, "functions/api/clipe", n + ".js")));
+for (const n of ["pedido", "foto", "midia-video", "enviar", "fila", "andamento", "video-upload", "status", "video"]) rotas[n] = await import(pathToFileURL(path.join(raiz, "functions/api/clipe", n + ".js")));
 
 http.createServer(async (req, res) => {
   try {

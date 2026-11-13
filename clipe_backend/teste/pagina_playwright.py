@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Teste do cliente no navegador (Chromium headless): abre a página, escolhe fotos, envia e acompanha até o vídeo aparecer.
-Uso: pagina_playwright.py BASE foto1 foto2 [...]   (o worker precisa estar rodando em paralelo)"""
+Uso: pagina_playwright.py BASE MOLDE midia1 midia2 [...]   (fotos e/ou vídeos; molde = homenagem|aniversario|retrospectiva|um_dia|diversao; o worker precisa estar rodando em paralelo)"""
 import sys, time
 from playwright.sync_api import sync_playwright
-base, *fotos = sys.argv[1:]
+base, molde, *fotos = sys.argv[1:]
+IDS = {'homenagem': 'm1', 'aniversario': 'm2', 'retrospectiva': 'm3', 'um_dia': 'm4', 'diversao': 'm5'}
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path="/usr/bin/google-chrome", args=["--no-sandbox"])
     pg = b.new_page(viewport={"width": 390, "height": 844})
@@ -12,8 +13,9 @@ with sync_playwright() as p:
     pg.goto(base + "/?convite=AMIGOPET")
     assert pg.input_value("#convite") == "AMIGOPET"
     pg.set_input_files("#arq", fotos)
+    print("estado da seleção:", pg.inner_text("#est"))
     pg.fill("#nome", "Thor"); pg.fill("#frase", "Te amamos para sempre")
-    pg.check("#m1", force=True)
+    pg.check("#" + IDS[molde], force=True)
     pg.click("#pagar")
     pg.wait_for_selector("#andamento", state="visible", timeout=60000)
     print("pedido enviado, url:", pg.url)
