@@ -1,0 +1,12 @@
+# FICHA — Campanha de audiência da semana (rodada 13/11 09:20 Fortaleza)
+- Departamento / Diretor: Audiência e Redes / Diretor de Audiência / 2026-11-13 09:20
+- Objetivo: audiência real. Meta nº 1 (TikTok 1.000) PAUSADA: conta banida desde 10/11 (E234/E237/E243, recurso é do Allan). Último valor: 21 (24/10).
+- Estado real (Zernio 13/11 07:40Z): FB 14 (parado há 8 dias); IG 8 (era 5 desde 07/11: +3 em 24 h, único salto da semana). Comentário de terceiro: sem confirmação (comentários nos Reels de 11-12/11 são 1 por post, a conferir pelo Atendente); DM 0; contatos ManyChat 0. Zernio: mesmos 8 posts antigos em erro (mídia inacessível), não reenviados.
+- Medição 24 h (IG Reels): gato idoso 12/11 15:00 (43 s, CTA "Segue o @tutorialpetbr e comenta GUIA"): 121 views, 8 curtidas, engajamento 6,61%, tempo médio 6,39 s, skip 44,5% = MELHOR leitura do IG. Água 12/11 11:03 (52 s): 92 views, skip 74,2%. Banho 11/11: 46 views, skip 54,5%. FB: gato idoso 330 views, água 283, banho 237 (tempo médio 3,5-5,2 s). Salto de +3 seguidores coincide com o Reel de CTA "seguir"; n=1 = NEUTRO (hipótese, não prova).
+- Pareceres: Operador: E235 cumprido, E242 (estoque de vídeo FB/IG acabou). Vigia: 8 erros antigos de mídia. Estrategista: plano vigente. Decifrador: skip menor no vídeo com gancho de comportamento + CTA explícito, n=1. Sem parecer de Especialista TikTok (banido).
+- Divergências: nenhuma. Quem tinha razão: Estrategista (gancho de comportamento + resposta cedo), com ressalva n=1.
+- DECISÃO: (1) Repetir o molde "gato idoso" (CTA seguir + comentar GUIA, pergunta de comportamento) em 1 Reel IG novo por dia nos próximos 2 dias; critério: IG >= +1 seguidor/dia em 2 de 3 dias OU engajamento >= 5% em 2 de 3 posts = mantém; senão muda de caminho em 24 h (regra_mudanca_rapida). (2) Nada novo no TikTok, nada ao vivo no ManyChat; "comenta GUIA" só como CTA de comentário (nenhum fluxo automático ligado). (3) Estoque (E242) é da nuvem; sem Allan.
+- Textos: nenhum texto novo ao público aprovado hoje além do molde já publicado em 12/11. Sem Fortaleza (regra 33), sem alegação médica, saúde com @vetnatasha.
+- Métrica/gatilho: IG seguidores 8 (base), FB 14; gatilho FB >= +2/dia segue perdido.
+- Ações: E244 (nuvem/Operador 14/11). Pedido ao Allan (único, sem mudança): recurso do banimento do TikTok (E243).
+- Status: aprovada.

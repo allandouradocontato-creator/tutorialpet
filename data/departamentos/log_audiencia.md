@@ -97,3 +97,9 @@
 1. **"Gateiro, assiste isso" em Reels IG/FB (série ≤20 s)** — 1 erro de tutor de gato por vídeo, resposta nos 5 s; já em teste com o gato idoso de hoje. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.
 2. **"Qual o seu? Cama alta ou baixa" (enquete FB/IG)** — comentário fácil de terceiro (hoje 0). Risco: baixo. Custo: baixo.
 3. **"Pergunta do tutor da semana" (carrossel salvável)** — 3 dúvidas de fila_duvidas_reais.md, 1 frase cada. Risco: médio se vier saúde. Custo: baixo.
+| 2026-11-13 09:20 | Diretor de Audiência | MUDANÇA: IG 5→8 (+3 em 24 h), FB 14 parado há 8 dias, TikTok banido (recurso é do Allan, E243); Reel gato idoso com CTA seguir/GUIA = 121 views, 6,61% eng, skip 44,5% (melhor do IG, n=1 NEUTRO); comentário de terceiro 0 confirmado, DM 0; ficha 2026-11-13_audiencia_rodada.md; E244 (repetir molde 14-15/11); add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 13/11/2026
+1. **"Gateiro, assiste isso" em Reels IG (série ≤45 s, CTA seguir)** — repetir o molde que deu +3 seguidores; resposta nos 5 s. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.
+2. **"Comenta GUIA" como enquete de tema** — o seguidor comenta GUIA e escolhe gato ou cachorro; comentário fácil de terceiro, sem automação. Risco: baixo. Custo: baixo.
+3. **"Antes e depois da rotina" (carrossel salvável)** — 4 cartões de rotina do pet idoso; reaproveita o tema vencedor. Risco: médio se vier saúde. Custo: baixo.
