@@ -50,3 +50,6 @@ Visualizações = número da grade do perfil (comprovado, n público). Curtidas/
 ## Lacunas / 2ª rodada
 - Faltam 100 reels (do 21º ao 120º por views) e qualquer leitura de áudio/duração.
 - Skills derivadas: biblioteca/habilidades/dica_salvavel_alerta_utilidade.md e biblioteca/habilidades/serie_comandos_foto_pet_ia.md.
+
+## Atualização 13/11/2026 — o que ele FALA
+As falas dos reels de tecnologia foram transcritas: ver data/audiencia/referencias/islam_sousa_falas_transcritas.md (lista de ferramentas e técnicas). Os reels de comandos de IA (#4, #6, #8, #15) têm os comandos ditos em voz; o reel #3 usa áudio de terceiros.
