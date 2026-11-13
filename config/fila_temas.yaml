@@ -436,7 +436,8 @@ temas:
   status: pendente
 - termo: como dar banho em cachorro filhote pela primeira vez
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-13'
 - termo: quanto tempo gato filhote pode ficar sozinho
   pilar: primeiros_passos_filhotes
   status: pendente
@@ -1436,4 +1437,7 @@ temas:
     à adoção de crianças. Rascunho em data/content_writer/rascunhos/voce-adotaria-um-cachorro-feio-a-beleza-que-nao-aparece-na-foto.md'
 - termo: como evitar que o gato destrua as plantas da sala
   pilar: comportamento
+  status: pendente
+- termo: regras de condominio para animais de estimacao direitos e deveres
+  pilar: utilidade_publica
   status: pendente
