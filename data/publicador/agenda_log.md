@@ -1,1 +1,2 @@
 2026-10-30 14:00 | como-escolher-carrinho-de-passeio-para-cachorro-idoso | FB 31/10 14:00 6ae47e175ee788b7fc74209a; IG 31/10 15:00 6ae47e195ee788b7fc7420ab; TikTok 31/10 20:20 6ae47e1be972705505576cde (novo, nao evergreen)
+2026-11-13 08:25 (Fortaleza) | como-ensinar-comandos-basicos-para-adotados-adultos-resgatados | FB 14/11 10:00 Zernio 6af6f32d1776395f29857b1d; IG 14/11 11:00 Zernio 6af6f32dcdd5615a9e9b63d1; TikTok NAO agendado (Buffer: conta TikTok banida desde 10/11) (video fixado no commit 70545be)
