@@ -110,3 +110,8 @@ Pedido do Allan: registrar o que ganhamos para ampliar. Dados (conta antiga, acu
 - 2026-11-12 20h: VSL9 v2 entregue (cachorro feliz do produto ao resultado; Natasha falando no fim; 59,57 s). Flow: baixar via ícone download > 720p; Pexels: Free download ~(1287,77).
 
 - 2026-11-12 20h20: VSL9 v3 (fala "tranquilo", suspense Mixkit + party-music, mais sonoplastia). Regravar só a frase e emendar no bloco custa ~0% do saldo (receita: cortar bloco em 11,62 s + 0,12 s de silêncio + frase nova com volume casado).
+
+## Fila de VSL no Meta (12/11)
+- Decisão do Allan: VSL9 "E se fosse você?" v5 aprovada → fica DESLIGADA no conjunto "SP apto 25-55" como reserva; se a VSL8 (A Câmera) não performar, liga a VSL9.
+- Anúncio fila: "VSL9 E se fosse você v5 (fila)" id 120253654349290134 (OFF). Textos neutros (sem Thor/Carol). Cópia da VSL8 "— Cópia" id 120253654349280134 publicada ON para destravar "Preparando" (original 120253653024590134 segue em Preparando; só pausar quando a cópia entregar). Corte Resumo v5 (120253574006200134) segue ativo.
+- Método: vídeo >3,8 MB entra no Meta via Mídia > URL do vídeo (raw GitHub). Branch temporária `tmp-ad-video` não pôde ser apagada pelo proxy (git/gh bloqueados) → apagar pelo site do GitHub.
