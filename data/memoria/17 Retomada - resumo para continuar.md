@@ -192,3 +192,6 @@ Contagem: decididas abertas dentro do prazo 4 (E197, E204, E208, E211) / feitas 
 
 ## Decisões — Operação 08/11/2026 21:42 (Fortaleza)
 Contagem: decididas abertas dentro do prazo 3 (E204, E218, E219) / feitas hoje 0 / vencidas marcadas bloqueadas 5 (E190, E197, E208, E211, E217) / atrasadas novas 0 / só Allan/PC 10 (E186, E189, E193, E194, E198, E205, E206, E210, E212, E214, E216, E215 ok de SEO). Blog: 1 artigo em 24 h (curl 200), sem alerta. Painel de Decisões rev 16, sem decisão nova.
+
+## Decisões — Operação 12/11/2026 21:41 (Fortaleza)
+Contagem: decididas abertas dentro do prazo 4 (E235, E238 parcial, E240, E241) / feitas hoje 0 (E238 parcial: 4 slugs fora de blog_reprovados) / bloqueadas hoje 1 (E236) / atrasadas novas 1 (E236) / só Allan 3 (E232 até 13/11, E234/E237 TikTok banido). Blog: 1 artigo em 24 h (curl -L 200); Publicar Blog #106 failure de capa, artigo gravado e capa refeita (#28 success). Painel de Decisões rev 16, sem decisão nova.

@@ -1,12 +1,8 @@
 # slugs reprovados pelo editor de qualidade (04). Formato: <slug> <tentativas de reescrita automática>.
 # Regra (22/10/2026): reprovado NUNCA volta para blog_aprovados.txt sem passar pela reescrita; 3 tentativas e vira pendência humana.
 como-escolher-a-melhor-guia-e-peitoral-para-cachorro 3
-cachorro-chorando-quando-fico-sozinho-o-que-fazer 3
-quantas-vezes-por-dia-o-cachorro-precisa-passear 3
-quantos-dias-o-gato-pode-ficar-sozinho-em-casa 3
 ate-que-ponto-e-saudavel-vestir-cachorro-e-gato 3
 como-acalmar-cachorro-idoso-assustado-com-fogos-de-artificio 3
 como-estimular-o-olfato-de-caes-idosos-dentro-de-casa 3
 como-enriquecer-o-ambiente-para-caes-idosos-com-mobilidade-reduzida 3
-como-saber-se-o-asfalto-esta-quente-para-passear 3
 como-acostumar-gato-filhote-a-usar-a-escova-de-dentes 3
