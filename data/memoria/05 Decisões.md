@@ -90,3 +90,5 @@
 - 13/11/2026: serviço separado de edição automática NÃO vira produto agora (sem referência longeva); segue dentro do Clipe do Pet. Gancho validado: homenagem em vídeo a partir de foto (Studio Alma).
 - 13/11/2026 (Allan): PROCEDIMENTO FIXO: sem solucao caseira, tentar de todas as formas e buscar ferramenta externa ja na 1a rodada (testar no gratis), em vez de insistir no mesmo caminho. Caso-modelo: WayinVideo transcreve a fala de reels do Facebook (regra 79 em biblioteca/regras_de_ouro.md).
 - 13/11/2026 (Allan): PROCEDIMENTO FIXO 2: usar o maximo das ferramentas gratuitas em rodizio (esgota os creditos gratis de uma, vai para a outra, ate acabar os creditos gratis do dia) antes de pagar (regra 80 em biblioteca/regras_de_ouro.md).
+
+- 2026-11-13: Allan mandou focar nas dicas de TECNOLOGIA do perfil Islam Sousa; falas transcritas em data/audiencia/referencias/islam_sousa_falas_transcritas.md; reel de react pulado.
