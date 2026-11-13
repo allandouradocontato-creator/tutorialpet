@@ -33,3 +33,8 @@
 - Falta confirmar o segredo MUSICA_TICK_SECRET (GitHub) = TICK_SECRET (Cloudflare); sem ele o worker nao processa. Cota ZeroGPU e compartilhada com a musica.
 - 12/11/2026 20:55: segredos criados pelo Chrome do Allan (com OK dele): Cloudflare Pages TICK_SECRET (segredo, producao) e GitHub MUSICA_TICK_SECRET, mesmo valor. A sessao da musica NAO deve recriar com outro valor. Cloudflare so aplica na proxima publicacao (este commit dispara). So testar com credito depois de Deployments = Success.
 - 12/11/2026 LICAO: o Cloudflare devolve 403 para o User-Agent padrao do Python (urllib) em tutorialpet.com.br; curl passa. Todo cliente Python que chama a API do site (worker, testes) precisa mandar user-agent proprio. O step de curl do workflow mostrava "pedidos na fila: 1" mas o python dava 403: conferir o log do step, nao so o status verde.
+
+## 13/11/2026 — Causa real do animadas=0 (confirmada no log, run 43337570399 do clipe_worker.yml)
+- O passo Processar pedidos mostrou: `hf: falhou (AppError: You have exceeded your free ZeroGPU quota (68s requested vs. 64s left))` nas 2 tentativas; o fal não rodou (FAL_KEY vazio) e o motor caiu no zoom. Não era bug do worker: era a cota diária do Hugging Face.
+- Cada foto animada pede ~68 s de ZeroGPU; a conta grátis rende só ~3 animações por dia e a cota é DIVIDIDA com a música. Teste da música (19:20) e teste do clipe (22:00) no mesmo dia competem pela mesma cota.
+- Logo após a falha o log mostrava "Try again in 21:23" (renovação perto de 18:55 em Fortaleza).
