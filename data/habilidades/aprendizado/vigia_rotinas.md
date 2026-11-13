@@ -90,3 +90,4 @@
 
 2026-11-12 11:25 | ronda 11:19: blog 1/1 (promoção das 07:19 virou artigo, run 43199653503 verde); tudo verde exceto TikTok banido | 0 correções, 1 pendência Allan já notificada | sim | mantém2026-11-12 15:30 | ronda 15:19: tudo verde (14 rotinas, fábrica, blog 1/1, FB/IG ok); TikTok banido segue | 0 correções, 1 pendência Allan já notificada | sim | mantém
 2026-11-12 | publicar_blog falhou por capa (direitos-do-consumidor) | slug em capas_refazer.txt (já em capas_pendentes) | conferir na ronda 07:19 | mantém
+2026-11-13 07:30 | ronda 07:19: blog 0/1 às 07:25 (último artigo 12/11) | promovi como-ensinar-comandos-basicos-para-adotados-adultos-resgatados 0 (publicar_blog dispara no push); direitos-do-consumidor segue em capas_pendentes | conferir 11:19 (E34) | mantém
