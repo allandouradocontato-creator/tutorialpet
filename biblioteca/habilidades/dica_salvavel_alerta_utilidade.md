@@ -1,6 +1,6 @@
 ---
 criado: 2026-11-13
-versao: v1 — 13/11/2026
+versao: v2 — 13/11/2026 (inclui o que ele FALA)
 status: rascunho até prova (régua 7)
 origem: estudo do perfil Islam Sousa (@islam.sousa, 1,5 mi seguidores, Facebook Reels). Ficha completa: data/audiencia/referencias/islam_sousa_reels.md (21 reels lidos, 13/11/2026).
 base_interna: audiencia_ganchos_e_cadencia.md, plataforma_meta_organico.md, analise_referencia_viral.md, config/prompts/utilidade_publica.md
@@ -13,6 +13,16 @@ base_interna: audiencia_ganchos_e_cadencia.md, plataforma_meta_organico.md, anal
 - Legenda: 🚨 + frase-gancho + 1-2 linhas do que a pessoa ganha + 1 CTA + 3-4 hashtags.
 - CTA de audiência: "salva" (quase todos), "manda pra quem…" (utilidade), "me segue" (IA).
 - Visual fixo (mesma pessoa, mesmo fundo) com a prova na tela do celular na metade de baixo.
+
+## Estrutura FALADA do reel de utilidade (observada em ~35 falas transcritas; padrão, sem copiar texto)
+1. Frase 1 = promessa ou medo + prazo/benefício ("você tem direito e não aproveita", "antes que seja tarde").
+2. Acesso simples e sem link: "vai no Google, pesquise por <nome> e clique no primeiro resultado" (qualquer pessoa repete; nós só podemos dizer isso se o resultado oficial for o 1º: conferir).
+3. Passo a passo em 3 a 6 toques, falando o que aparece na tela ("clique em X, depois em Y"), uma ação por frase.
+4. Fecho curto: "me segue" ou "manda pra quem precisa". Duração do texto falado ≈ 45 a 60 s.
+Adaptação pet: o "Google, pesquise por…" vira o caminho oficial de um serviço de utilidade para quem tem cachorro (ex.: vacinas, registro, legislação), SEMPRE com fonte oficial conferida por nós.
+
+## Temas de utilidade que ele usa (ideia de mecanismo, NÃO fato: cada um precisa de checagem na fonte oficial antes de qualquer uso)
+Proteção de CPF (BC Protege Mais), celular roubado (Celular Seguro, Ministério da Justiça), cursos gratuitos com certificado (Escola Nacional de Defesa do Consumidor/UnB, Moodle IFRS, agregador de cursos), Tela Brasil, Meu SUS Digital, recuperação de senha/conta Google. Nada disso é do nicho pet: serve só como molde de mecanismo.
 
 ## Procedimento (executável)
 1. **Entrada**: 1 medo real ou dúvida real do dono de cachorro, em 1 frase, vinda de data/audiencia/ideias.md, comentários ou das 10-15 perguntas do blog. Sem a frase = unknown, não gravar.
@@ -44,4 +54,4 @@ base_interna: audiencia_ganchos_e_cadencia.md, plataforma_meta_organico.md, anal
 config/prompts/criador_audiencia.md, operador_audiencia.md, criativo_venda.md, pesquisador_formato.md.
 
 ## Origem de cada dica (links)
-Alcance e gancho de alerta: /reel/3609347942562694, /reel/1680393273023732, /reel/1763930941184480, /reel/1525124782633611, /reel/1442163884735239, /reel/2843058576056560. Segredo/grátis: /reel/1721746115579820, /reel/1709326391203629, /reel/2125250431531662, /reel/1103625312105908. CTA "salva": /reel/1103625312105908, /reel/1709326391203629, /reel/2843058576056560. Todos em https://www.facebook.com/reel/<id>. Dica "comprovada" = só o alcance em views; o resto é observação.
+Rodada 2 (falas): /reel/1103625312105908, /reel/2225230258264588, /reel/1610448887125871, /reel/4328022664194675, /reel/1777783240032020, /reel/2248895585901971. Alcance e gancho de alerta: /reel/3609347942562694, /reel/1680393273023732, /reel/1763930941184480, /reel/1525124782633611, /reel/1442163884735239, /reel/2843058576056560. Segredo/grátis: /reel/1721746115579820, /reel/1709326391203629, /reel/2125250431531662, /reel/1103625312105908. CTA "salva": /reel/1103625312105908, /reel/1709326391203629, /reel/2843058576056560. Todos em https://www.facebook.com/reel/<id>. Dica "comprovada" = só o alcance em views; o resto é observação.

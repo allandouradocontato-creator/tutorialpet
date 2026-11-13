@@ -92,3 +92,4 @@
 - 13/11/2026 (Allan): PROCEDIMENTO FIXO 2: usar o maximo das ferramentas gratuitas em rodizio (esgota os creditos gratis de uma, vai para a outra, ate acabar os creditos gratis do dia) antes de pagar (regra 80 em biblioteca/regras_de_ouro.md).
 
 - 2026-11-13: Allan mandou focar nas dicas de TECNOLOGIA do perfil Islam Sousa; falas transcritas em data/audiencia/referencias/islam_sousa_falas_transcritas.md; reel de react pulado.
+- 13/11/2026: skills dica_salvavel_alerta_utilidade e serie_comandos_foto_pet_ia atualizadas para v2 com o que ele FALA (estrutura falada, banco de comandos); comandos que usam foto de pessoa ou rosto de celebridade EXCLUÍDOS da série pet. Tudo "sem teste nosso" até testarmos.
