@@ -28,3 +28,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-10 | conferir conta de anúncios liberada antes de ler (Windsor perdeu a 1213984913380523) | n=0, UNKNOWN | mantém
 2026-11-11 | passo 4 (gasto/tráfego) + regra Reels-only 31/10 | n=36 cliques, 2 inícios, R$ 12,76/início; 28% do gasto fora de Reels sem início; decisão: pedir ao Allan tirar Feed/Stories | mantém
 2026-11-12 | passo 4 (gasto/tráfego) + regra Reels-only 31/10 conferida | n=118 cliques, 8 inícios, R$ 10,33/início; Feed corrigido (100% Reels desde 10/11); homens também iniciam; decisão: manter | mantém
+2026-11-13 | passo 4 (gasto/tráfego) + regra '≥10 inícios pós-correção e 0 vendas' de 12/11 | n=13 inícios, R$ 8,52/início em Reels-only, 0 compras no pixel; regra atingida: gargalo é oferta/checkout, não anúncio; decisão: manter, não subir verba, cruzar Kiwify | mantém

@@ -271,3 +271,8 @@ Idade x sexo: mulher 25-34 R$ 13,72/18/2 · 35-44 10,44/14/1 · 45-54 20,62/36/1
 Por anúncio: "Thor na porta" original só 09/11 (R$ 9,37/14/0); "— Cópia" 10-12/11 R$ 73,30/104/8.
 Recomendação (sem executar): manter Reels-only e teto; não cortar homens ainda; 55+ sem início (R$ 4,40), candidato a corte se continuar zerado.
 
+
+## Perfil que clica - 13/11 (Auditor, rodada 13/11 09:36 Fortaleza; Windsor facebook, conta 1956794111415592)
+O EXTRA do Allan (31/10) valia para a leitura de 01/11; não repeti os cortes de idade/sexo/região. Só atualizei o que o Windsor lê.
+Corte Resumo v5 (09-13/11): R$ 120,14 · 13 inícios (R$ 9,24) · 0 compras. 10-13/11 100% FB Reels: R$ 110,77 / 13 inícios (R$ 8,52). 12/11: R$ 40,85 / 69 cliques no link / 6 inícios (R$ 6,81). Por anúncio: só "— Cópia" tem início.
+Recomendação (sem executar, n=13, direção): manter Reels e teto; não subir verba; 13 inícios com 0 vendas aponta oferta/checkout, conferir vendas na Kiwify.
