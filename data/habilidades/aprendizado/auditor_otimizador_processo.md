@@ -1,2 +1,3 @@
 data | jogada | resultado n/metrica | mantem/altera/descarta
 13/11/2026 | estudo do perfil Islam Sousa (21 reels lidos de 120) virou 2 skills (dica_salvavel_alerta_utilidade, serie_comandos_foto_pet_ia) | alcance dos alertas 3-6x maior que o de comandos de IA (views públicas); sem prova de venda; 100 reels ficam p/ 2ª rodada | mantém
+13/11/2026 | regra 79: sem solucao caseira, buscar ferramenta externa na hora | ERRO do processo: 4 tentativas caseiras (legenda automatica do Facebook, quadros, JS na pagina, yt-dlp) antes de buscar na web; a busca resolveu na 1a tentativa (WayinVideo, transcricao em PT com tempo, gratis, sem login) | mantem: apos 1 tentativa caseira que falhar, buscar ferramenta externa
