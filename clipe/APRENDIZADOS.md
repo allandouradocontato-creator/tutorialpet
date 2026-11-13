@@ -48,3 +48,4 @@
 - Foto animada vira `NN_anim.mp4` e entra inteira; vídeo do cliente (`NN.mp4`) passa pelo seletor. Molde com `"animar_fotos": false` não gasta GPU.
 - ERRO ANTIGO ACHADO: o AAC estourava o pico (+2,0 a +2,3 dBFS no arquivo final, nos 5 moldes), embora o `alimiter` desse -1 dB antes do AAC (a medição "-1,0 dBFS" de 12/11 foi antes de codificar). Correção: o motor mede o pico real do arquivo (ebur128) e baixa o teto do limiter até ficar ≤ -1 dBFS. Custo: loudness ~-15,3 LUFS em vez de -14. Regra: medir pico/LUFS SEMPRE no arquivo final.
 - Este teste não tocou na cota do HF (teste do clipe animado 19:05, música 19:20).
+- 13/11/2026 (Frente B): Biblioteca de Anúncios — referência longeva só para 'foto → vídeo de homenagem' (Studio Alma, 15+ anúncios, até 105 dias, venda por WhatsApp). Edição automática estilo UGC/diversão: sem anúncio longevo, não vira produto separado ainda. Detalhes: data/garimpo/edicao_automatica_referencias_2026-11-13.md
