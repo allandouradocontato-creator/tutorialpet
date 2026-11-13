@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 17589407,
+    "url_download": "https://images.pexels.com/photos/17589407/pexels-photo-17589407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/bichon-frise-in-scarf-17589407/",
+    "fotografo": "Pet foto",
+    "fotografo_url": "https://www.pexels.com/@pet-foto-644780685",
+    "largura": 4709,
+    "altura": 3139,
+    "query": "dog sitting alone studio background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17880521,
+    "url_download": "https://images.pexels.com/photos/17880521/pexels-photo-17880521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-sitting-on-a-wooden-box-17880521/",
+    "fotografo": "Pet foto",
+    "fotografo_url": "https://www.pexels.com/@pet-foto-644780685",
+    "largura": 4709,
+    "altura": 3139,
+    "query": "dog sitting alone studio background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 765575,
+    "url_download": "https://images.pexels.com/photos/765575/pexels-photo-765575.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photography-of-adult-short-coated-dog-765575/",
+    "fotografo": "Akshar Dave🌻",
+    "fotografo_url": "https://www.pexels.com/@akshar-dave",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog sitting alone studio background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6342157,
+    "url_download": "https://images.pexels.com/photos/6342157/pexels-photo-6342157.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-photo-of-cute-short-coated-dog-6342157/",
+    "fotografo": "ROMAN ODINTSOV",
+    "fotografo_url": "https://www.pexels.com/@roman-odintsov",
+    "largura": 5372,
+    "altura": 3581,
+    "query": "rescue dog portrait looking at camera",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32838180,
+    "url_download": "https://images.pexels.com/photos/32838180/pexels-photo-32838180.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/happy-border-collie-indoors-in-sao-carlos-brazil-32838180/",
+    "fotografo": "Isabela Pirola",
+    "fotografo_url": "https://www.pexels.com/@isabela-pirola-2153454327",
+    "largura": 6658,
+    "altura": 4672,
+    "query": "rescue dog portrait looking at camera",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30556362,
+    "url_download": "https://images.pexels.com/photos/30556362/pexels-photo-30556362.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adoptable-mix-breed-pothound-dog-in-trinidad-30556362/",
+    "fotografo": "Dominik Gryzbon",
+    "fotografo_url": "https://www.pexels.com/@gryziu",
+    "largura": 5114,
+    "altura": 3548,
+    "query": "rescue dog portrait looking at camera",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-ensinar-comandos-basicos-para-adotados-adultos-resgatados/5.jpg"
+  }
+]
