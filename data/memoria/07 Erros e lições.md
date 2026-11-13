@@ -215,3 +215,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 12/11 20h50: VSL9 v4: Allan achou o vizinho de cima (relaxado bebendo) incoerente com "é o vizinho". Lição: personagem que liga reclamando tem que estar incomodado; conferir o trecho inteiro do clipe (o novo também bebe café aos 3 s, usei só 0-2,85 s).
 
 - 12/11 21h: VSL9 v3/v4 cortava a última sílaba de "tudo" (corte fixo na hora que o Whisper marcava o fim da palavra). Lição: ao emendar/cortar voz, medir a energia real (RMS) e cortar no silêncio seguinte, nunca no timestamp do Whisper; conferir com Whisper o fim das palavras de corte.
+- 2026-11-12 (Clipe do Pet) Worker do clipe verde no GitHub mas nao processou: Cloudflare bloqueia o User-Agent padrao do Python (403) | REGRA: clientes Python da API do site mandam user-agent proprio; ler o log do passo, nao so o status verde; testar 1 pedido real em producao antes de dizer que esta pronto.

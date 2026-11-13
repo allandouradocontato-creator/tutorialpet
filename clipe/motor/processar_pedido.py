@@ -30,7 +30,7 @@ def log(*a):
 
 def http(metodo, caminho, dados=None, tipo=None, timeout=120):
     req = urllib.request.Request(BASE + caminho, data=dados, method=metodo,
-                                 headers={"authorization": f"Bearer {SEGREDO}", **({"content-type": tipo} if tipo else {})})
+                                 headers={"user-agent": "Mozilla/5.0 (clipe-worker)", "authorization": f"Bearer {SEGREDO}", **({"content-type": tipo} if tipo else {})})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
 
