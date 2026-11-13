@@ -22,7 +22,7 @@ dur=lambda p: float(sh(f'ffprobe -v error -show_entries format=duration -of csv=
 GAP=0.10
 D1,D2,D3=[dur(f'{V}/vsl9_voz_natasha_{k}.mp3') for k in ('F01-F06','F07-F09','F10-F11')]
 B1=0.0; B2=D1+GAP; B3=B2+D2+GAP
-NT0=B3+6.5; NL=6.78   # fecho: Dra. Natasha falando (clipe HeyGen da VSL8, com audio proprio; fala comeca 0.26s -> corto 0.12s)
+NT0=B3+6.72; NL=6.72   # fecho: Dra. Natasha falando (clipe HeyGen da VSL8, com audio proprio; fala comeca 0.26s -> corto 0.12s)
 T=round(NT0+NL,3)
 print('B2',B2,'B3',B3,'NT0',NT0,'T',T)
 # ---------------- fontes de cena (todas novas) ----------------
@@ -80,7 +80,7 @@ if __name__=='__main__':
     # ---------- F10..F11 (bloco 3) ----------
     seg('f10','treino',B3,NT0,ss=0.5,z=0.10)                             # fundo p/ cards de preco/garantia (escurecido depois) - labradora feliz
     # F11: Natasha (natasha_full.mp4 em loop com zoom suave)
-    sh(f'ffmpeg -v error -y -ss 0.12 -t {NL:.3f} -i /home/claude/vsl8/work/nat_pres.mp4 -an -vf "tpad=stop_mode=clone:stop_duration=1,fps=30,format=yuv420p" -t {NL:.3f} -c:v libx264 -preset veryfast -crf 18 {W}/s_f11.mp4')
+    sh(f'ffmpeg -v error -y -ss 0.16 -t {NL:.3f} -i /home/claude/vsl8/work/nat_pres.mp4 -an -vf "tpad=stop_mode=clone:stop_duration=1,fps=30,format=yuv420p" -t {NL:.3f} -c:v libx264 -preset veryfast -crf 18 {W}/s_f11.mp4')
     SEGS.append((NT0,W+'/s_f11.mp4'))
     # concat
     SEGS.sort()

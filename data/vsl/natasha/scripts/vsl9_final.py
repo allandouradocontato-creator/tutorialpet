@@ -39,7 +39,7 @@ caps=[(0.0,4.3,"E se você pudesse ver o que o seu cachorro faz quando você fec
 (B2+3.82,B2+5.4,"dez minutos por dia."),(B2+5.58,B2+8.3,"E o aplicativo diz o que fazer a cada dia."),
 (B2+8.44,B2+11.6,"Filhote, idoso, vira-lata ou de raça."),
 (B2+11.78,B2+14.4,"Catorze dias depois, você abre a câmera…"),(B2+14.5,B2+16.2,"e ele está tranquilo."),
-(B3+0.0,B3+2.7,"De noventa e sete por vinte e sete reais."),(B3+3.0,B3+4.7,"Catorze dias de garantia:"),(B3+4.8,B3+6.45,"não gostou? Devolvemos tudo.")]
+(B3+0.0,B3+2.7,"De noventa e sete por vinte e sete reais."),(B3+3.0,B3+4.7,"Catorze dias de garantia:"),(B3+4.8,B3+6.7,"não gostou? Devolvemos tudo.")]
 inputs=[]; flt=[]; n=1; last='[0:v]'
 def add_png(path,x,y,t0,t1,float_=False):
     global n,last
@@ -114,7 +114,7 @@ json.dump(LOG,open(W+'/caps_log.json','w'),ensure_ascii=False)
 # ---------------- AUDIO: voz + sonoplastia, SEM musica ----------------
 def norm(k): sh(f'ffmpeg -v error -y -i {V}/vsl9_voz_natasha_{k}.mp3 -af "loudnorm=I=-16:TP=-2,aresample=44100,aformat=channel_layouts=mono" {W}/vn_{k}.wav')
 for k in ('F01-F06','F07-F09','F10-F11'): norm(k)
-sh(f'ffmpeg -v error -y -ss 0.12 -t {NL:.3f} -i /home/claude/vsl8/heygen/natasha_fala_heygen.mp4 -vn -af "loudnorm=I=-16:TP=-2,aresample=44100,aformat=channel_layouts=mono" {W}/vn_nat.wav')
+sh(f'ffmpeg -v error -y -ss 0.16 -t {NL:.3f} -i /home/claude/vsl8/heygen/natasha_fala_heygen.mp4 -vn -af "loudnorm=I=-16:TP=-2,aresample=44100,aformat=channel_layouts=mono" {W}/vn_nat.wav')
 sh(f'ffmpeg -v error -y -i {W}/vn_F01-F06.wav -f lavfi -t 0.10 -i anullsrc=r=44100:cl=mono -i {W}/vn_F07-F09.wav -f lavfi -t 0.10 -i anullsrc=r=44100:cl=mono -i {W}/vn_F10-F11.wav -i {W}/vn_nat.wav -filter_complex "[0][1][2][3]concat=n=4:v=0:a=1[a];[4]atrim=0:{NT0-B3:.3f},afade=t=out:st={NT0-B3-0.05:.3f}:d=0.05[b];[a][b]concat=n=2:v=0:a=1,apad=whole_dur={T:.3f}[c];[5]adelay={int(NT0*1000)}:all=1[n];[c][n]amix=inputs=2:duration=longest:normalize=0,atrim=0:{T:.3f}[o]" -map "[o]" {W}/voz9.wav')
 cues=[('sfx_bass_hit',0.0,1.0,-4),('sfx_brass_strings_suspense',0.4,3.9,-19),
  ('sfx_porta_batendo',5.0,1.0,-9),('sfx_cachorro_choro',7.0,2.0,-10),
@@ -145,7 +145,7 @@ sh(f'ffmpeg -v error -y -i {W}/voz9.wav -i {O}/vsl9_sfx_SEM_voz.wav -i {W}/music
 m=sh(f'ffmpeg -hide_banner -i {W}/mix9_raw.wav -af loudnorm=I=-14:TP=-1.5:LRA=7:print_format=json -f null - 2>&1')
 mj=json.loads(m[m.rindex('{'):m.rindex('}')+1])
 sh(f'ffmpeg -v error -y -i {W}/mix9_raw.wav -af "loudnorm=I=-14:TP=-1.5:LRA=7:measured_I={mj["input_i"]}:measured_TP={mj["input_tp"]}:measured_LRA={mj["input_lra"]}:measured_thresh={mj["input_thresh"]}:offset={mj["target_offset"]}:linear=true" -ar 44100 {W}/mix9.wav')
-cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v4_1080.mp4'
+cmd=f'ffmpeg -v error -y -i {W}/base.mp4 {" ".join(inputs)} -i {W}/mix9.wav -filter_complex_script {W}/flt9.txt -map "[vout]" -map {n}:a -t {T:.3f} -c:v libx264 -preset veryfast -crf 20 -c:a aac -b:a 160k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v5_1080.mp4'
 sh(cmd)
-sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v4_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v4_leve.mp4')
+sh(f'ffmpeg -v error -y -i {O}/vsl9_e_se_fosse_voce_v5_1080.mp4 -vf scale=540:960 -c:v libx264 -preset veryfast -crf 29 -c:a aac -b:a 96k -movflags +faststart {O}/vsl9_e_se_fosse_voce_v5_leve.mp4')
 print('ok')

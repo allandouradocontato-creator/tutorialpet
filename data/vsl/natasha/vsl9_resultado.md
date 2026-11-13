@@ -35,3 +35,6 @@ Scripts: data/vsl/natasha/scripts/vsl9_build.py e vsl9_final.py.
 
 ## v4 (12/11 20h50)
 - F4 tela dividida: cena de cima trocada (homem relaxado bebendo drink -> vizinho incomodado/preocupado ao celular, Pexels 6930959, trecho 0-2,85 s sem a parte em que ele bebe café). Cena de baixo mantida. Resto igual à v3.
+
+## v5 (12/11 21h)
+- Corrigido "Devolvemos tudo" cortado: corte da voz TTS movido de 6,5 para 6,72 s do bloco 3 (a cauda de "tudo" vai até ~6,65 s); clipe da Natasha começa em 0,16 s. Duração 59,77 s (<60), -14,5 LUFS. Whisper: "Devolvemos tudo!" 51,9-52,74, "Garanta" 53,04.

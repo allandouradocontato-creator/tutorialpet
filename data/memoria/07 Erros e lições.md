@@ -213,3 +213,5 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 12/11: VSL9 v2 saiu sem música de suspense/pouca sonoplastia (só SFX curtos). Lição: VSL de problema leva a música de suspense contínua (Mixkit cinematic action suspense) até a virada e party-music depois; roteiro dizia "suspense para em olha de novo".
 
 - 12/11 20h50: VSL9 v4: Allan achou o vizinho de cima (relaxado bebendo) incoerente com "é o vizinho". Lição: personagem que liga reclamando tem que estar incomodado; conferir o trecho inteiro do clipe (o novo também bebe café aos 3 s, usei só 0-2,85 s).
+
+- 12/11 21h: VSL9 v3/v4 cortava a última sílaba de "tudo" (corte fixo na hora que o Whisper marcava o fim da palavra). Lição: ao emendar/cortar voz, medir a energia real (RMS) e cortar no silêncio seguinte, nunca no timestamp do Whisper; conferir com Whisper o fim das palavras de corte.
