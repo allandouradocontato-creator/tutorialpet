@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como adaptar cachorro adotado medroso a nova rotina: guia prático",
+    "description": "Como adaptar cachorro adotado medroso a nova rotina: guia prático. Receber um cachorro que traz marcas de medo ou de um passado incerto exige paciência...",
+    "datePublished": "2026-11-14",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-adaptar-cachorro-adotado-medroso-a-nova-rotina",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-adaptar-cachorro-adotado-medroso-a-nova-rotina"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-adaptar-cachorro-adotado-medroso-a-nova-rotina.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto tempo leva para um cachorro medroso se adaptar à nova rotina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em média, o processo inicial leva de duas a quatro semanas, mas a adaptação completa pode exigir vários meses, dependendo do histórico do animal.  * **Devo ignorar o cachorro quando ele estiver acuado?** Sim. Dar atenção excessiva, abraçar ou fazer carinho excessivo enquanto ele treme pode reforçar a ideia de que há realmente algo perigoso acontecendo. Mantenha a calma e aja com naturalidade.  * **O que fazer se o pet não quiser comer nos primeiros dias?** É comum que o estresse cause perda temporária de apetite. Ofereça alimentos levemente mornos ou adicione um pouco de caldo de ossos sem tempero para estimular o interesse, mas consulte o médico-veterinário caso o jejum ultrapasse vinte e quatro horas.  * **Posso receber visitas em casa logo na primeira semana?** Evite receber visitas nas primeiras semanas. Cada pessoa nova representa um gatilho de estresse que atrasa a sensação de segurança do adotado."
+        }
+      }
+    ]
+  }
+}
