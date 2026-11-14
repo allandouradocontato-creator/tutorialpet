@@ -93,3 +93,4 @@
 2026-11-13 07:30 | ronda 07:19: blog 0/1 às 07:25 (último artigo 12/11) | promovi como-ensinar-comandos-basicos-para-adotados-adultos-resgatados 0 (publicar_blog dispara no push); direitos-do-consumidor segue em capas_pendentes | conferir 11:19 (E34) | mantém
 2026-11-13 15:30 | ronda 15:19: tudo verde (fábrica 1 h, blog 1/1, FB/IG agendados); TikTok parado (E243 do Allan) | 0 correções; auditoria AdSense 0 FALHA | conferir 19:19 | mantém
 2026-11-13 19:25 | ronda 19:19: rotinas todas verdes, fábrica 5 h, blog 1/1, FB/IG ok; TikTok parado (E243) | fechei issue 48; 0 FALHA AdSense | conferir 07:19 | mantém
+2026-11-14 | ronda 07:19: blog 0/1 às 07:25; tudo verde, TikTok parado (E243) | promovi voce-adotaria-um-cachorro-feio (E246) + fechei D02/D08/D09/D10/E09 | conferir 11:19 (E34) | mantém
