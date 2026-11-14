@@ -297,8 +297,8 @@ def render_footer(pilares: dict | None = None) -> str:
         f'<a href="/{slug}">{LEGAL_PAGES_TITULOS[slug]}</a>' for slug in LEGAL_PAGES_ORDER
     )
     ano = datetime.now(timezone.utc).year
-    return (f'<footer class="site">{render_redes()}{cats}{links}<p>© {ano} Tutorial Pet — conteúdo informativo, '
-            f'não substitui orientação veterinária profissional.</p></footer>')
+    return (f'<footer class="site">{render_redes()}{cats}{links}<p>© {ano} Tutorial Pet · CNPJ 65.211.970/0001-81 — conteúdo informativo, '
+            f'não substitui orientação veterinária profissional.<br><small>Dourado Falcão Educação Corporativa LTDA</small></p></footer>')
 
 
 def page_shell(title: str, meta_description: str, canonical: str, og_type: str, body_html: str,
