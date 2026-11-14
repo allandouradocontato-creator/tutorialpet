@@ -276,3 +276,6 @@ Recomendação (sem executar): manter Reels-only e teto; não cortar homens aind
 O EXTRA do Allan (31/10) valia para a leitura de 01/11; não repeti os cortes de idade/sexo/região. Só atualizei o que o Windsor lê.
 Corte Resumo v5 (09-13/11): R$ 120,14 · 13 inícios (R$ 9,24) · 0 compras. 10-13/11 100% FB Reels: R$ 110,77 / 13 inícios (R$ 8,52). 12/11: R$ 40,85 / 69 cliques no link / 6 inícios (R$ 6,81). Por anúncio: só "— Cópia" tem início.
 Recomendação (sem executar, n=13, direção): manter Reels e teto; não subir verba; 13 inícios com 0 vendas aponta oferta/checkout, conferir vendas na Kiwify.
+
+## Perfil que clica - 14/11 (Auditor, rodada 14/11 09:35 Fortaleza; Windsor facebook, conta 1956794111415592)
+O EXTRA do Allan (31/10) valia para 01/11; não refiz idade/sexo/região. 09-13/11: R$ 137,93 · 13 inícios (R$ 10,61) · 0 compras. 13/11: R$ 27,25 · 53 cliques no link · 1 início, 100% FB Reels. Só "— Cópia" tem início. 14/11 sem linha ainda. Recomendação (sem executar, n=13, direção): manter Reels e teto; não subir verba; conferir vendas na Kiwify.
