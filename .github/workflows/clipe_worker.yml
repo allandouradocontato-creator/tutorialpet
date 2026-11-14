@@ -24,6 +24,7 @@ jobs:
       CLIPE_BASE: https://tutorialpet.com.br
       CLIPE_SEGREDO: ${{ secrets.MUSICA_TICK_SECRET }}
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      MAGICHOUR_API_KEY: ${{ secrets.MAGICHOUR_API_KEY }}
       FAL_KEY: ${{ secrets.FAL_KEY }}
     steps:
       - name: Ver a fila (barato; sai se estiver vazia)
@@ -42,7 +43,7 @@ jobs:
       - name: Dependências
         if: steps.fila.outputs.n != '0'
         run: |
-          pip install --quiet pillow numpy gradio_client
+          pip install --quiet pillow numpy gradio_client magic-hour
           command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
       - name: Processar pedidos
         if: steps.fila.outputs.n != '0'

@@ -3,7 +3,8 @@
 
 Cadeia (a primeira que responder vence):
   1. hf   — Wan 2.2 14B no Hugging Face (ZeroGPU), GRÁTIS com HF_TOKEN da conta (cota diária por conta).
-  2. fal  — Wan 2.2 no fal.ai, PAGO por clipe (~US$0,40/5 s), só se existir FAL_KEY. Licença comercial.
+  2. magichour — Wan 2.2 no Magic Hour, créditos grátis de cadastro (MAGICHOUR_API_KEY), 480p.
+  3. fal  — Wan 2.2 no fal.ai, PAGO por clipe (~US$0,40/5 s), só se existir FAL_KEY. Licença comercial.
   (se nenhum animar, sai com código 3 e o orquestrador usa a foto parada com zoom lento, avisando no log.)
 
 Uso: python3 animar_foto.py foto.jpg saida.mp4 [--prompt "..."] [--segundos 3.5] [--provedores hf,fal]
@@ -63,10 +64,33 @@ def via_fal(foto, saida, prompt, segundos):
     raise RuntimeError("fal: tempo esgotado")
 
 
-PROVEDORES = {"hf": via_hf, "fal": via_fal}
+def via_magichour(foto, saida, prompt, segundos):
+    """Wan 2.2 no Magic Hour (API, créditos grátis de cadastro; 480p). Precisa de MAGICHOUR_API_KEY e do pacote magic-hour."""
+    chave = os.environ.get("MAGICHOUR_API_KEY")
+    if not chave:
+        raise RuntimeError("MAGICHOUR_API_KEY ausente")
+    from magic_hour import Client
+    c = Client(token=chave)
+    r = c.v1.image_to_video.create(assets={"image_file_path": str(foto)}, end_seconds=float(min(max(segundos, 3), 5)),
+                                   model="wan-2.2", resolution="480p")
+    fim = time.time() + 420
+    while time.time() < fim:
+        time.sleep(8)
+        p = c.v1.video_projects.get(id=r.id)
+        if p.status == "complete" and p.downloads:
+            rq = urllib.request.Request(p.downloads[0].url, headers={"user-agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(rq, timeout=120) as resp, open(saida, "wb") as f:
+                shutil.copyfileobj(resp, f)
+            return
+        if p.status in ("error", "canceled"):
+            raise RuntimeError(f"magichour falhou: {p.status} {p.error}")
+    raise RuntimeError("magichour: tempo esgotado")
 
 
-def animar(foto, saida, prompt=PROMPT_PADRAO, segundos=3.5, provedores=("hf", "fal"), tentativas_hf=2):
+PROVEDORES = {"hf": via_hf, "magichour": via_magichour, "fal": via_fal}
+
+
+def animar(foto, saida, prompt=PROMPT_PADRAO, segundos=3.5, provedores=("hf", "magichour", "fal"), tentativas_hf=2):
     """Retorna o nome do provedor que animou, ou None."""
     for nome in provedores:
         n = tentativas_hf if nome == "hf" else 1
@@ -94,7 +118,7 @@ def main():
     ap.add_argument("saida")
     ap.add_argument("--prompt", default=PROMPT_PADRAO)
     ap.add_argument("--segundos", type=float, default=3.5)
-    ap.add_argument("--provedores", default="hf,fal")
+    ap.add_argument("--provedores", default="hf,magichour,fal")
     a = ap.parse_args()
     p = animar(a.foto, a.saida, a.prompt, a.segundos, tuple(x for x in a.provedores.split(",") if x in PROVEDORES))
     print(p or "")
