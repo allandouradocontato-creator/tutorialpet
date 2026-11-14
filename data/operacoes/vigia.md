@@ -1,13 +1,11 @@
-Dados até 2026-11-14 11:30 (Fortaleza) | CORRIGI: 2 (promovi pet-em-condominio-e-aluguel; cachorro-feio em capas_refazer) | PRECISO DO ALLAN: 1 (TikTok, E243/E247)
-Número do dia: rotinas falhando/suspensas = 0 (meta zero). Repo já clonado (main), add_repo indisponível; escrita via git.
+Dados até 2026-11-14 15:25 (Fortaleza) | CORRIGI: 0 | PRECISO DO ALLAN: 1 (TikTok, E243/E247) | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
 | rotina | estado | último run | idade do último resultado | problema | correção |
 |---|---|---|---|---|---|
-| Rotinas ativas | ok | todas SUCCEEDED; Vigia atual PENDING (esta rodada) | <24 h | nenhuma FAILED/suspensa/vencida | - |
-| fabrica.yml | verde | 14/11 07:42 F dispatch (run 43586577392) | ~4 h | - | - |
-| publicar_blog.yml | VERMELHO 07:26 | run 108 falhou: capa do cachorro-feio (sem foto válida) | 4 h | blog 0/1 às 11:20 (erro do vigia 07:35 deu cachorro-feio como promovido) | promovi pet-em-condominio (f0567ad); conferir 15:19 (E34); cachorro-feio em capas_refazer; E248 |
-| Blog | 0/1 hoje | último artigo 13/11 07:43 F | ~28 h (<30 h) | piso do dia | ver acima |
-| FB/IG (Zernio) | ok | publicados 14/11 (FB 10:04, IG 11:04); 7 agendados | <2 h | 8 erros antigos de mídia, nenhum novo | retry proibido (E151) |
-| TikTok (Buffer) | PARADO | último publicado 10/11 14:21 | 4 dias | 'account being banned' | E243/E247 com o Allan |
-| Issues | 49 nova (blog 14/11) + antigas | - | - | 49 liga ao run 108 | fecho quando o blog subir |
-| AdSense (auditoria) | 0 FALHA | script 14/11 11:2x | - | - | - |
+| Rotinas ativas (17) | ok | todas SUCCEEDED; Vigia atual PENDING (esta rodada); Música do Pet 19h20 agendada p/ 19:20 Fortaleza | <24 h | nenhuma FAILED/suspensa/vencida; desligadas = decisão antiga do Allan (22/10, 02/11) | - |
+| fabrica.yml | verde | 14/11 13:00 F (run 43613171933) | ~2 h | - | - |
+| publicar_blog.yml | verde | 14/11 14:13 F dispatch (43619907813) | ~1 h | run 07:26 falhou por capa (já tratado 11:19) | E34 conferida: artigo no ar 14:19 F (bd4a35c) |
+| Blog | 1/1 hoje | artigo 14/11 14:19 F | ~1 h | - | issue 49 pode fechar; AdSense 0 FALHA |
+| FB/IG (Zernio) | ok | FB 10:01 e IG 11:04 de 14/11 | <5 h | 8 erros antigos de mídia (10-12/11), nenhum novo; 5 agendados | retry proibido (E151) |
+| TikTok (Buffer) | PARADO | último publicado 10/11 14:21; Studio publicou teste 14/11 12:49 | 4 dias | Buffer: 'account being banned' (13/11); nada agendado | decisão do Allan: 1 post/dia via Buffer como prova (E243/E247) |
+| Issues | 49 + antigas | - | - | 49 liga ao run 07:26 (resolvido) | fechar na próxima |
 Créditos ElevenLabs: sem saída recente, não medido.
