@@ -9,3 +9,4 @@
 2026-10-31 08:25 (Fortaleza) | quais-legumes-cachorro-pode-comer-cozidos-sem-tempero | FB 01/11 19:00 6ae5cf3982d0d990f63527eb; IG 01/11 20:00 6ae5cf3c82d0d990f63527fb; TikTok 01/11 20:20 Buffer 6ae5cf3eb84259308bd270a6 (video fixado no commit dc4aff0)
 2026-11-10 08:25 (Fortaleza) | com-que-frequencia-dar-banho-em-cachorro | FB 11/11 10:00 6af2fee12366f32741545ce7; IG 11/11 11:00 6af2fee22366f32741545cf8; TikTok 11/11 10:20 Buffer 6af2fee3e6a19650c987f2de (video fixado no commit 3a99f9e)
 2026-11-10 08:25 | como-fazer-o-gato-beber-mais-agua | FB 12/11 10:00 6af2fef0cc68aa72bdc13f4a; IG 12/11 11:00 6af2fef10fec82497ab6c563; TikTok 12/11 10:20 Buffer 6af2fef250a13ff958d8f420 (video fixado no commit 3a99f9e)
+2026-11-14 08:25 (Fortaleza) | sinais-de-envelhecimento-em-gatos-senior-que-passam-despercebidos | FB 15/11 14:00 Zernio 6af845126a2508ad7929e65d (completa o IG 15/11 15:00 6af83bb9b4c091a0ee7915d6; legenda nova)
