@@ -55,3 +55,6 @@
 - Provedor gratuito integrado: `via_magichour` em `animar_foto.py` (Wan 2.2, 480p, secret `MAGICHOUR_API_KEY`, pacote `magic-hour`). Cadeia padrão: hf → magichour → fal.
 - Teste isolado: 3 s, 480x848, funcionou, mas levou ~11 min (fila do plano grátis). Timeout do provedor: 420 s, então em hora de fila pode cair no fallback (zoom lento). Ainda falta confirmar em produção com `animadas: 2`.
 - Saldo do convite fica na chave KV `cv:AMIGOPET` (a variável CONVITES_TESTE só dá o valor inicial); para repor, editar a chave no KV.
+- 13/11 noite: dois erros da integração Magic Hour achados no log do worker: (1) `create` exige foto já enviada (`c.v1.files.upload_file`), caminho local dá 422; (2) wan-2.2 só aceita segundos inteiros (3,4,5...), 3.5 dá 422. Corrigidos. Molde `diversao` não anima de propósito (zero GPU), então teste de animação tem que usar `homenagem`.
+- Fotos agora animam em paralelo (até 3) e o Magic Hour espera até 20 min.
+- Saldo AMIGOPET reposto para 10 (KV `cv:AMIGOPET`), 2 testes gastaram 2 créditos.
