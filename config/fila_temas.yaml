@@ -1140,9 +1140,10 @@ temas:
 - termo: 'utilidade pública para pets em São Paulo: castração, denúncia, cadastro
     e ração'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'data/utilidade_publica/sao-paulo-capital-e-estado.md. Gancho: Guia por estado,
     SP primeiro; só fonte oficial'
+  data: '2026-11-14'
 - termo: 'utilidade pública para pets no Rio de Janeiro: castração, denúncia e cadastro'
   pilar: utilidade_publica
   status: pendente
@@ -1440,4 +1441,7 @@ temas:
   status: pendente
 - termo: regras de condominio para animais de estimacao direitos e deveres
   pilar: utilidade_publica
+  status: pendente
+- termo: como escolher comedouros automaticos para casas com multiplos pets
+  pilar: produtos_compras
   status: pendente

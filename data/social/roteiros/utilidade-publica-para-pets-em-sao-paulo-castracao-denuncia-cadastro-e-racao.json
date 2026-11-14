@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Guia prático de serviços para pets em São Paulo",
+  "gancho_3s": "Procurando castração gratuita ou cadastro para seu pet em São Paulo?",
+  "cenas": [
+    {
+      "narracao": "Em São Paulo, o programa municipal da COSAP oferece castração gratuita para cães e gatos, dependendo de vagas.",
+      "visual_busca_banco_livre": "dog resting indoors close up",
+      "texto_na_tela": "Castração gratuita COSAP SP"
+    },
+    {
+      "narracao": "Para garantir a identidade do seu companheiro, você pode usar o sistema Sinpatinhas de forma totalmente digital e gratuita.",
+      "visual_busca_banco_livre": "cat looking out window curious",
+      "texto_na_tela": "Cadastro Sinpatinhas SP"
+    },
+    {
+      "narracao": "Viu alguma situação de crueldade? Reúne provas consistentes e denuncie online através da DEPA da Polícia Civil.",
+      "visual_busca_banco_livre": "serious stray dog looking at camera",
+      "texto_na_tela": "Denúncia de maus-tratos DEPA"
+    },
+    {
+      "narracao": "Lembre-se que não existe um programa universal de distribuição gratuita de ração, mas ações pontuais podem existir.",
+      "visual_busca_banco_livre": "dog eating from bowl close up",
+      "texto_na_tela": "Dúvidas sobre ração gratuita"
+    },
+    {
+      "narracao": "Sempre consulte os canais oficiais do governo para verificar os critérios e orientações atualizadas.",
+      "visual_busca_banco_livre": "cute puppy resting head on paws",
+      "texto_na_tela": "Consulte os canais oficiais"
+    }
+  ],
+  "chamada_final": "Consulte um médico veterinário para orientações de saúde e acesse o artigo completo para ver o guia prático.",
+  "hashtags": [
+    "#petssp",
+    "#castracaogratuita",
+    "#protecaoanimalsp",
+    "#cachorrossp",
+    "#gatossp"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nProcurando castração gratuita ou cadastro para seu pet em São Paulo?\n\n📖 Artigo completo: https://tutorialpet.com.br/utilidade-publica-para-pets-em-sao-paulo-castracao-denuncia-cadastro-e-racao\n\n#petssp #castracaogratuita #protecaoanimalsp #cachorrossp #gatossp",
+  "slug": "utilidade-publica-para-pets-em-sao-paulo-castracao-denuncia-cadastro-e-racao"
+}
