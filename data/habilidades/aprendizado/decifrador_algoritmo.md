@@ -22,3 +22,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-11-09 | uma variável por teste; leitura só com 24 h | n=3 sync (08/11): 227/320/537 views; recortes de hoje NEUTRO (<24 h) | mantém
 2026-11-10 | leitura só com 24 h | n=4 TikToks sync 10/11 (267-545 views, 1,3-1,96 s) | mantém; atum gato segue único > 2,5 s
 2026-11-11 | leitura 24 h do Buffer (corte do dia) | n=4 TikToks lidos: 493-539 views, 1,7-2,52 s; TikTok banido interrompe a série | mantém critério GANHOU >= 3 s e >= 300 views; pausa até recurso
+2026-11-14 | decifrador: skip/seguidor por formato (gato idoso + CTA seguir) | IG +3 só em 13/11, 0 em 14/11; n=1 salto = NEUTRO | mantém molde, mede de novo 15/11

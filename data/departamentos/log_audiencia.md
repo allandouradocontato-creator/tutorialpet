@@ -103,3 +103,9 @@
 1. **"Gateiro, assiste isso" em Reels IG (série ≤45 s, CTA seguir)** — repetir o molde que deu +3 seguidores; resposta nos 5 s. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.
 2. **"Comenta GUIA" como enquete de tema** — o seguidor comenta GUIA e escolhe gato ou cachorro; comentário fácil de terceiro, sem automação. Risco: baixo. Custo: baixo.
 3. **"Antes e depois da rotina" (carrossel salvável)** — 4 cartões de rotina do pet idoso; reaproveita o tema vencedor. Risco: médio se vier saúde. Custo: baixo.
+| 2026-11-14 09:20 | Diretor de Audiência | SEM MUDANÇA vs ficha 2026-11-13: FB 14 (parado há 9 dias), IG 8 (estável desde 13/11), TikTok banido (recurso é do Allan, E243/E247); Operador já agendou/publicou série "Parte 1/2 e 2/2" (castração/cama) no IG 13/11 (3-4 curtidas, 0 comentário de terceiro; o "1" por post é o nosso link); janela E244 (14-15/11) vigente, corte 15/11; DM 0; ficha 13/11 segue; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 14/11/2026
+1. **"Parte 1/2 → Parte 2/2" em Reels IG (série numerada)** — já rodando (castração/cama); o CTA "segue pra parte 2" dá motivo para seguir. Risco: médio se vier saúde (sem dose, veterinário). Custo: baixo.
+2. **"Qual o tamanho do seu cachorro? Conta aqui" como enquete fixa no FB** — pergunta de resposta de 1 palavra para destravar comentário de terceiro (hoje 0). Risco: baixo. Custo: baixo.
+3. **"Foto do seu pet dormindo" (UGC no FB, sem prêmio)** — tutor posta foto nos comentários e a página responde com o nome do pet; atrai comentário e marcação. Risco: baixo (sem dado de menor, só pet). Custo: baixo.
