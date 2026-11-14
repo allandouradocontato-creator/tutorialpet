@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 4386125,
+    "url_download": "https://images.pexels.com/photos/4386125/pexels-photo-4386125.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-fluffy-cat-on-white-background-4386125/",
+    "fotografo": "Mathias Reding",
+    "fotografo_url": "https://www.pexels.com/@matreding",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "isolated cat on white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16761421,
+    "url_download": "https://images.pexels.com/photos/16761421/pexels-photo-16761421.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-bengal-cat-16761421/",
+    "fotografo": "jerry 杰",
+    "fotografo_url": "https://www.pexels.com/@jerry-2334361",
+    "largura": 3999,
+    "altura": 2775,
+    "query": "isolated cat on white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7875593,
+    "url_download": "https://images.pexels.com/photos/7875593/pexels-photo-7875593.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-with-black-and-brown-fur-7875593/",
+    "fotografo": "Elizabeth Iris",
+    "fotografo_url": "https://www.pexels.com/@outandaboutwithliz",
+    "largura": 6291,
+    "altura": 4194,
+    "query": "isolated cat on white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1331821,
+    "url_download": "https://images.pexels.com/photos/1331821/cat-eyes-angry-suspicious-1331821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/closeup-photo-of-gray-cat-1331821/",
+    "fotografo": "ClickerHappy",
+    "fotografo_url": "https://www.pexels.com/@clickerhappy",
+    "largura": 4750,
+    "altura": 3171,
+    "query": "isolated cat on white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5738934,
+    "url_download": "https://images.pexels.com/photos/5738934/pexels-photo-5738934.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/orange-tabby-cat-lying-on-the-table-5738934/",
+    "fotografo": "Eugene Shirokov",
+    "fotografo_url": "https://www.pexels.com/@eugenetribune",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "isolated cat on white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32476519,
+    "url_download": "https://images.pexels.com/photos/32476519/pexels-photo-32476519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-in-studio-portrait-32476519/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "isolated dog on white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir/5.jpg"
+  }
+]

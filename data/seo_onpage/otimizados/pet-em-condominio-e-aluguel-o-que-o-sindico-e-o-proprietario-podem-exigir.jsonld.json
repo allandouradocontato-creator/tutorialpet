@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Pet em condomínio e aluguel: o que o síndico e o proprietário podem exigir: guia prático",
+    "description": "Pet em condomínio e aluguel: o que o síndico e o proprietário podem exigir: guia prático. Quem nunca entrou no elevador com o cachorro e sentiu aquele...",
+    "datePublished": "2026-11-07",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir"
+    },
+    "image": "https://tutorialpet.com.br/imagens/pet-em-condominio-e-aluguel-o-que-o-sindico-e-o-proprietario-podem-exigir.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O síndico pode multar direto sem aviso prévio por causa de latidos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em geral, não. A aplicação de penalidades deve seguir o regimento interno do condomínio e respeitar o direito de ampla defesa (artigo 1.336 e 1.337 do Código Civil). Costuma ser necessária uma notificação prévia para que o morador possa se manifestar ou corrigir o problema, exceto em casos reincidentes já documentados."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso passear com meu pet no jardim comum do condomínio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende do regulamento interno. Embora o condomínio não possa proibir a passagem de saída e entrada, ele pode restringir a permanência prolongada ou brincadeiras em certas áreas, como playground infantil, piscinas e gramados ornamentais, por motivos de higiene e segurança coletiva."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O contrato de aluguel pode proibir animais se a convenção do prédio permite?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. A convenção do condomínio dita as regras do edifício, mas o contrato de locação estabelece o acordo privado entre proprietário e inquilino. Se o proprietário inseriu cláusula proibindo animais e o inquilino assinou voluntariamente, a restrição entre locador e locatário prevalece."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que fazer se o síndico insistir em regras ilegais?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Notifique o síndico formalmente por escrito (por carta com aviso de recebimento ou e-mail institucional), citando o entendimento do STJ (REsp 1.783.076/DF). Se os abusos ou ameaças de sanções continuarem, procure auxílio de um advogado especialista em direito imobiliário ou da Defensoria Pública.  ---"
+        }
+      }
+    ]
+  }
+}
