@@ -71,7 +71,7 @@ def via_magichour(foto, saida, prompt, segundos):
         raise RuntimeError("MAGICHOUR_API_KEY ausente")
     from magic_hour import Client
     c = Client(token=chave)
-    r = c.v1.image_to_video.create(assets={"image_file_path": c.v1.files.upload_file(file=str(foto))}, end_seconds=float(min(max(segundos, 3), 5)),
+    r = c.v1.image_to_video.create(assets={"image_file_path": c.v1.files.upload_file(file=str(foto))}, end_seconds=int(min(max(round(segundos), 3), 5)),
                                    model="wan-2.2", resolution="480p")
     fim = time.time() + 1200
     while time.time() < fim:
