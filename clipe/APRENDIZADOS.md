@@ -50,3 +50,8 @@
 - Este teste não tocou na cota do HF (teste do clipe animado 19:05, música 19:20).
 - 13/11/2026 (Frente B): Biblioteca de Anúncios — referência longeva só para 'foto → vídeo de homenagem' (Studio Alma, 15+ anúncios, até 105 dias, venda por WhatsApp). Edição automática estilo UGC/diversão: sem anúncio longevo, não vira produto separado ainda. Detalhes: data/garimpo/edicao_automatica_referencias_2026-11-13.md
 - 13/11/2026 22:30: segundo teste em producao (pedido 8kvgpfquwfc4) tambem animadas=0. Causa CONFIRMADA rodando o animador com o HF_TOKEN: "You have exceeded your ZeroGPU runs limit" (AppError). A conta gratis do HF nao sustenta musica + clipe no mesmo dia; o worker cai no zoom (fallback). Fluxo todo (pedido, fila, worker, entrega, video leve) funciona; so falta capacidade de GPU. AMIGOPET: creditosRestantes 0 depois deste teste.
+
+## Magic Hour (13/11)
+- Provedor gratuito integrado: `via_magichour` em `animar_foto.py` (Wan 2.2, 480p, secret `MAGICHOUR_API_KEY`, pacote `magic-hour`). Cadeia padrão: hf → magichour → fal.
+- Teste isolado: 3 s, 480x848, funcionou, mas levou ~11 min (fila do plano grátis). Timeout do provedor: 420 s, então em hora de fila pode cair no fallback (zoom lento). Ainda falta confirmar em produção com `animadas: 2`.
+- Saldo do convite fica na chave KV `cv:AMIGOPET` (a variável CONVITES_TESTE só dá o valor inicial); para repor, editar a chave no KV.
