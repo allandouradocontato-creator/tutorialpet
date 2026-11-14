@@ -58,3 +58,5 @@
 - 13/11 noite: dois erros da integração Magic Hour achados no log do worker: (1) `create` exige foto já enviada (`c.v1.files.upload_file`), caminho local dá 422; (2) wan-2.2 só aceita segundos inteiros (3,4,5...), 3.5 dá 422. Corrigidos. Molde `diversao` não anima de propósito (zero GPU), então teste de animação tem que usar `homenagem`.
 - Fotos agora animam em paralelo (até 3) e o Magic Hour espera até 20 min.
 - Saldo AMIGOPET reposto para 10 (KV `cv:AMIGOPET`), 2 testes gastaram 2 créditos.
+- 14/11 00:01: TESTE OK EM PRODUÇÃO: pedido homenagem, 2 fotos, `animadas: 2` via Magic Hour (Wan 2.2), ~4 min do worker, vídeo 540x960 8,5 s. Fluxo grátis completo validado.
+- Achado: `/api/clipe/enviar` devolveu 400 logo depois do upload das fotos (KV com leitura atrasada); repetir após alguns segundos funciona. O status também pisca "recebendo". Pendente: a página do cliente deve repetir o "enviar" 2-3 vezes antes de mostrar erro. Também: nunca cortar a saída do cliente_simulado com `head` (mata o envio e deixa o pedido preso em "recebendo", gastando crédito).
