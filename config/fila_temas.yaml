@@ -1275,7 +1275,8 @@ temas:
   status: pendente
 - termo: como adaptar cachorro adotado medroso a nova rotina
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-14'
 - termo: como descongelar comida natural para cachorro com seguranca
   pilar: alimentacao
   status: pendente
@@ -1444,4 +1445,10 @@ temas:
   status: pendente
 - termo: como escolher comedouros automaticos para casas com multiplos pets
   pilar: produtos_compras
+  status: pendente
+- termo: como evitar estresse em caes durante reformas na casa
+  pilar: comportamento
+  status: pendente
+- termo: como adaptar a rotina de caes e gatos idosos no mesmo ambiente
+  pilar: utilidade_publica
   status: pendente

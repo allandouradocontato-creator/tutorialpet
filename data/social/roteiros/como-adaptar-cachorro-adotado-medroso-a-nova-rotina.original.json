@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como adaptar cachorro adotado medroso à nova rotina",
+  "gancho_3s": "Adotou um cachorro medroso? Evite este erro no primeiro dia!",
+  "cenas": [
+    {
+      "narracao": "Diferente de um filhote, o pet assustado enxerga a casa nova como um campo desconhecido. Dar acesso livre a todos os cômodos gera muita vulnerabilidade.",
+      "visual_busca_banco_livre": "scared dog hiding corner indoor",
+      "texto_na_tela": "Menos espaço no início"
+    },
+    {
+      "narracao": "Instale uma caminha ou caixa de transporte em um canto tranquilo. Esse é o refúgio dele. Nunca puxe o pet de lá à força; deixe que saia sozinho.",
+      "visual_busca_banco_livre": "dog crate open quiet room",
+      "texto_na_tela": "Crie um cantinho de refúgio"
+    },
+    {
+      "narracao": "A imprevisibilidade alimenta o medo. Defina horários fixos para alimentação, descanso e eliminação para os níveis de cortisol caírem.",
+      "visual_busca_banco_livre": "dog eating from bowl indoor",
+      "texto_na_tela": "Rotina previsível"
+    },
+    {
+      "narracao": "Fale em tom baixo e evite movimentos bruscos. Olhar fixamente nos olhos pode ser ameaça. Sente-se de perfil e deixe o pet cheirar sua mão no ritmo dele.",
+      "visual_busca_banco_livre": "dog sniffing hand cautious",
+      "texto_na_tela": "Linguagem corporal calma"
+    },
+    {
+      "narracao": "Nos passeios, o foco inicial não é caminhar longas distâncias, mas criar associações positivas com a coleira e com o mundo exterior de forma gradual.",
+      "visual_busca_banco_livre": "dog looking outside window cautious",
+      "texto_na_tela": "Desensibilização gradual"
+    },
+    {
+      "narracao": "Se o pet se acuar, aja com naturalidade e evite o carinho excessivo, que pode reforçar o medo. Em caso de dúvidas sobre a saúde, consulte um médico-veterinário.",
+      "visual_busca_banco_livre": "dog resting calmly on floor",
+      "texto_na_tela": "Respeite o tempo dele"
+    }
+  ],
+  "chamada_final": "Respeite o tempo interno do seu pet e garanta uma transição segura.",
+  "hashtags": [
+    "cachorroadotado",
+    "cachorromedroso",
+    "comportamentocanino",
+    "adocaocanina",
+    "petresgatado"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nAdotou um cachorro medroso? Evite este erro no primeiro dia!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-adaptar-cachorro-adotado-medroso-a-nova-rotina\n\n#cachorroadotado #cachorromedroso #comportamentocanino #adocaocanina #petresgatado",
+  "slug": "como-adaptar-cachorro-adotado-medroso-a-nova-rotina"
+}
