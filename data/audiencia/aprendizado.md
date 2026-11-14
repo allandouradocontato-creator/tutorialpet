@@ -49,3 +49,9 @@
 13/11/2026 | IG | collab Natasha (imagem) | "Por que medir a pressão do seu pet?" | 3 views (≈13 h) | <200: não repetir imagem estática; collab só em Reel
 13/11/2026 | TikTok | todos | conta banida | sem leitura nova | E234/E237 abertas
 13/11/2026 | FB/IG | decisão do tutor (recortes 14,5/17 s) | castração P1/2 IG 15:00; cama P2/2 FB 19:00 + IG 20:00 | agendado hoje | leitura 14/11; primeiro teste dos recortes fora do TikTok (n=3)
+
+14/11/2026 | FB/IG | decisão do tutor (cama P2/2 recorte 17 s) | "Parte 2/2: que cama comprar..." | IG 73 (7,5 s) / FB 205 (4,9 s) | <200 no IG: não repetir recorte curto no IG; FB no limite
+14/11/2026 | IG | decisão do tutor (castração P1/2, 14,5 s) | "Parte 1/2: quando castrar o filhote?" | IG 118 (4,1 s, skip 65%) | <200: não repetir; recortes curtos rendem menos que vídeos de 40-50 s em FB/IG (n=3, direção)
+14/11/2026 | FB/IG | pote grande/pequeno (Agendador, 49 s) | "Cachorro grande e pequeno podem comer no mesmo pote?" | FB 198 (5,4 s) / IG 108 (6,6 s) | <200: não repetir gancho; FB/IG seguem em ~100-330 views
+14/11/2026 | FB/IG | gato (remédio 14:00/15:00; fonte com medo 19:00/20:00) | "Seu gato cospe o remédio?" / "Seu gato foge da fonte de água...?" | agendado hoje | leitura 15/11; gato = melhor retenção em FB/IG (5-6 s); n=2
+14/11/2026 | TikTok | todos | conta banida | sem leitura nova | E243 aberta
