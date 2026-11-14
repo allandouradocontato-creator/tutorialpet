@@ -258,7 +258,7 @@ footer a{color:var(--tx);text-decoration:none;border-bottom:1px solid var(--bd)}
         estado('Enviando a foto '+n+' de '+cf.fotos+'...');
         return comprimir(f).then(function(b){return post('/api/clipe/foto?id='+r.id+'&token='+r.token+'&n='+n,b,'image/jpeg')}).then(function(x){if(!x.ok)throw new Error(x.erro||'Falha ao enviar a foto '+n+'.')});
       })});
-      return seq.then(function(){return post('/api/clipe/enviar?id='+r.id+'&token='+r.token,'')}).then(function(x){
+      return seq.then(function(){var url='/api/clipe/enviar?id='+r.id+'&token='+r.token;function tenta(n){return post(url,'').then(function(x){if(!x.ok&&n<4)return new Promise(function(ok){setTimeout(ok,2500)}).then(function(){return tenta(n+1)});return x})}return tenta(0)}).then(function(x){
         if(!x.ok)throw new Error(x.erro||'Falha ao finalizar o envio.');
         try{localStorage.setItem('clipe_pedido',r.id)}catch(e){}
         history.replaceState(null,'','?pedido='+r.id);acompanhar(r.id,nome);
