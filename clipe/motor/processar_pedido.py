@@ -68,6 +68,21 @@ def processar(p):
             (fotos / f"{i:02d}.jpg").write_bytes(http("GET", f"/api/clipe/foto?id={pid}&n={i}"))
         for i in range(1, nv + 1):
             (videos / f"{i:02d}.mp4").write_bytes(http("GET", f"/api/clipe/midia-video?id={pid}&n={i}", timeout=180))
+        # fotos animadas em paralelo (provedores grátis têm fila lenta; assim o tempo é o da mais lenta, não a soma)
+        resultados = {}
+        if anima:
+            from concurrent.futures import ThreadPoolExecutor
+            andamento(pid, "processando", f"Animando suas {n} fotos", "A inteligência artificial está dando vida às suas fotos")
+            tarefas, k = [], 0
+            for pos, tipo_m in enumerate(ordem, 1):
+                if tipo_m == "f":
+                    k += 1
+                    tarefas.append((pos, k))
+            def _anim(t):
+                pos, k = t
+                return pos, animar(str(fotos / f"{k:02d}.jpg"), str(midias / f"{pos:02d}_anim.mp4"))
+            with ThreadPoolExecutor(max_workers=min(3, max(1, len(tarefas)))) as ex:
+                resultados = dict(ex.map(_anim, tarefas))
         animadas, fi, vi = 0, 0, 0
         for pos, tipo_m in enumerate(ordem, 1):
             if tipo_m == "v":
@@ -77,9 +92,7 @@ def processar(p):
             fi += 1
             f = fotos / f"{fi:02d}.jpg"
             if anima:
-                andamento(pid, "processando", f"Animando a foto {fi} de {n}", "A inteligência artificial está dando vida à sua foto")
-                saida = midias / f"{pos:02d}_anim.mp4"
-                if animar(str(f), str(saida)):
+                if resultados.get(pos):
                     animadas += 1
                     continue
                 log(f"foto {fi}: sem animação, usando zoom lento")

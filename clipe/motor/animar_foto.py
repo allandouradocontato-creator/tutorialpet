@@ -73,7 +73,7 @@ def via_magichour(foto, saida, prompt, segundos):
     c = Client(token=chave)
     r = c.v1.image_to_video.create(assets={"image_file_path": str(foto)}, end_seconds=float(min(max(segundos, 3), 5)),
                                    model="wan-2.2", resolution="480p")
-    fim = time.time() + 420
+    fim = time.time() + 1200
     while time.time() < fim:
         time.sleep(8)
         p = c.v1.video_projects.get(id=r.id)
