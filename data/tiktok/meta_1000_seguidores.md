@@ -26,4 +26,4 @@ Regras de todos: gancho de dor ≤ 6 palavras no frame 0 (portao_gancho.py), cen
 - 08/11/2026 | TikTok N/1000: SEM DADO de seguidores (último 21 = 2,1%) | na fila hoje: atum, abandono, cidade | campeão: nenhum novo (sem sync) | cortar: nada; E218 recorte 15-20 s
 - 09/11/2026 | TikTok N/1000: SEM DADO de seguidores (último 21 = 2,1%) | postados 08/11: atum 537 views/2,95 s, abandono 320, cidade 227 | campeão: atum gato | cortar: nada; T2 gato (E226)
 
-- 15/11/2026 | TikTok N/1000: 36 (print do Allan 12/11) = 3,6
+- 15/11/2026 | TikTok N/1000: 36 (print do Allan 12/11) = 3,6% | CONTA BANIDA desde 10/11, meta pausada, recurso é do Allan (E243/E247) | campeão: nenhum | cortado: nada novo
