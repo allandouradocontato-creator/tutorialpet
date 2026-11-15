@@ -1,0 +1,1 @@
+CLIPES 54 slots ['s1a', 's1b', 's2a', 's2b', 's3a', 's3b', 's4a', 's4b', 's5a', 's5b', 's6a', 's6b', 's7a', 's7b', 's8a', 's8b', 's9a', 's9b'] pexels_vivo True

@@ -1,0 +1,542 @@
+[
+ {
+  "slot": "s1a",
+  "arq": "s1a_0.mp4",
+  "busca": "dog sitting at dining table happy",
+  "fonte": "pexels",
+  "id": 5961889,
+  "pagina": "https://www.pexels.com/video/a-senior-woman-sitting-at-the-table-petting-her-dog-5961889/",
+  "autor": "cottonbro studio",
+  "retrato": true
+ },
+ {
+  "slot": "s1a",
+  "arq": "s1a_1.mp4",
+  "busca": "dog sitting at dining table happy",
+  "fonte": "pexels",
+  "id": 9509227,
+  "pagina": "https://www.pexels.com/video/a-woman-sitting-at-a-table-with-a-dog-9509227/",
+  "autor": "Ron Lach",
+  "retrato": true
+ },
+ {
+  "slot": "s1a",
+  "arq": "s1a_2.mp4",
+  "busca": "dog sitting at dining table happy",
+  "fonte": "pexels",
+  "id": 5962131,
+  "pagina": "https://www.pexels.com/video/a-group-of-friends-having-a-dinner-party-5962131/",
+  "autor": "cottonbro studio",
+  "retrato": true
+ },
+ {
+  "slot": "s1b",
+  "arq": "s1b_0.mp4",
+  "busca": "hand giving food to dog",
+  "fonte": "pexels",
+  "id": 6568965,
+  "pagina": "https://www.pexels.com/video/a-dog-eating-from-a-doggy-bowl-6568965/",
+  "autor": "cottonbro studio",
+  "retrato": true
+ },
+ {
+  "slot": "s1b",
+  "arq": "s1b_1.mp4",
+  "busca": "hand giving food to dog",
+  "fonte": "pexels",
+  "id": 7197985,
+  "pagina": "https://www.pexels.com/video/person-hand-feeding-dogs-7197985/",
+  "autor": "Blue Bird",
+  "retrato": true
+ },
+ {
+  "slot": "s1b",
+  "arq": "s1b_2.mp4",
+  "busca": "hand giving food to dog",
+  "fonte": "pexels",
+  "id": 28896834,
+  "pagina": "https://www.pexels.com/video/maltese-dog-enjoying-nutritious-meal-28896834/",
+  "autor": "Doğan Alpaslan  Demir",
+  "retrato": true
+ },
+ {
+  "slot": "s2a",
+  "arq": "s2a_0.mp4",
+  "busca": "family dinner table food plate",
+  "fonte": "pexels",
+  "id": 5727553,
+  "pagina": "https://www.pexels.com/video/a-girl-sitting-at-the-table-5727553/",
+  "autor": "Any Lane",
+  "retrato": true
+ },
+ {
+  "slot": "s2a",
+  "arq": "s2a_1.mp4",
+  "busca": "family dinner table food plate",
+  "fonte": "pexels",
+  "id": 7491832,
+  "pagina": "https://www.pexels.com/video/children-eating-their-meal-7491832/",
+  "autor": "Kampus Production",
+  "retrato": true
+ },
+ {
+  "slot": "s2a",
+  "arq": "s2a_2.mp4",
+  "busca": "family dinner table food plate",
+  "fonte": "pexels",
+  "id": 5590818,
+  "pagina": "https://www.pexels.com/video/grandmother-serving-thanksgiving-dinner-5590818/",
+  "autor": "Tima Miroshnichenko",
+  "retrato": true
+ },
+ {
+  "slot": "s2b",
+  "arq": "s2b_0.mp4",
+  "busca": "curious dog looking at food",
+  "fonte": "pexels",
+  "id": 35637293,
+  "pagina": "https://www.pexels.com/video/adorable-dog-enjoying-a-tasty-treat-outdoors-35637293/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s2b",
+  "arq": "s2b_1.mp4",
+  "busca": "curious dog looking at food",
+  "fonte": "pexels",
+  "id": 9631979,
+  "pagina": "https://www.pexels.com/video/a-footage-of-a-siberian-husky-looking-at-the-pizza-9631979/",
+  "autor": "Yaroslav Shuraev",
+  "retrato": true
+ },
+ {
+  "slot": "s2b",
+  "arq": "s2b_2.mp4",
+  "busca": "curious dog looking at food",
+  "fonte": "pexels",
+  "id": 39021967,
+  "pagina": "https://www.pexels.com/video/brown-dog-on-sunny-day-outdoors-39021967/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s3a",
+  "arq": "s3a_0.mp4",
+  "busca": "chocolate bar",
+  "fonte": "pexels",
+  "id": 29353832,
+  "pagina": "https://www.pexels.com/video/artisan-chocolate-bar-with-pistachio-filling-29353832/",
+  "autor": "Karolina Markova",
+  "retrato": true
+ },
+ {
+  "slot": "s3a",
+  "arq": "s3a_1.mp4",
+  "busca": "chocolate bar",
+  "fonte": "pexels",
+  "id": 40373965,
+  "pagina": "https://www.pexels.com/video/pastry-chef-decorating-gourmet-chocolate-bar-40373965/",
+  "autor": "Smitha Nittur",
+  "retrato": true
+ },
+ {
+  "slot": "s3a",
+  "arq": "s3a_2.mp4",
+  "busca": "chocolate bar",
+  "fonte": "pexels",
+  "id": 11043544,
+  "pagina": "https://www.pexels.com/video/a-barista-pouring-hot-chocolate-into-a-glass-11043544/",
+  "autor": "Radu Daniel ( MRD )",
+  "retrato": true
+ },
+ {
+  "slot": "s3b",
+  "arq": "s3b_0.mp4",
+  "busca": "golden retriever sitting happy",
+  "fonte": "pexels",
+  "id": 7515875,
+  "pagina": "https://www.pexels.com/video/retriever-dog-is-sitting-on-the-grass-in-the-park-7515875/",
+  "autor": "RDNE Stock project",
+  "retrato": true
+ },
+ {
+  "slot": "s3b",
+  "arq": "s3b_1.mp4",
+  "busca": "golden retriever sitting happy",
+  "fonte": "pexels",
+  "id": 39995025,
+  "pagina": "https://www.pexels.com/video/adorable-golden-retriever-puppy-indoors-39995025/",
+  "autor": "SOO CHUL PARK",
+  "retrato": true
+ },
+ {
+  "slot": "s3b",
+  "arq": "s3b_2.mp4",
+  "busca": "golden retriever sitting happy",
+  "fonte": "pexels",
+  "id": 7199263,
+  "pagina": "https://www.pexels.com/video/woman-petting-a-dog-7199263/",
+  "autor": "Blue Bird",
+  "retrato": true
+ },
+ {
+  "slot": "s4a",
+  "arq": "s4a_0.mp4",
+  "busca": "grapes bowl",
+  "fonte": "pexels",
+  "id": 7889565,
+  "pagina": "https://www.pexels.com/video/video-of-a-grape-fruit-7889565/",
+  "autor": "MART  PRODUCTION",
+  "retrato": true
+ },
+ {
+  "slot": "s4a",
+  "arq": "s4a_1.mp4",
+  "busca": "grapes bowl",
+  "fonte": "pexels",
+  "id": 6353414,
+  "pagina": "https://www.pexels.com/video/person-holding-fruits-6353414/",
+  "autor": "Anete Lusina",
+  "retrato": true
+ },
+ {
+  "slot": "s4a",
+  "arq": "s4a_2.mp4",
+  "busca": "grapes bowl",
+  "fonte": "pexels",
+  "id": 7889641,
+  "pagina": "https://www.pexels.com/video/grapes-in-a-bowl-7889641/",
+  "autor": "MART  PRODUCTION",
+  "retrato": true
+ },
+ {
+  "slot": "s4b",
+  "arq": "s4b_0.mp4",
+  "busca": "happy dog smiling",
+  "fonte": "pexels",
+  "id": 39804544,
+  "pagina": "https://www.pexels.com/video/happy-dog-sitting-on-pavement-outdoors-39804544/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s4b",
+  "arq": "s4b_1.mp4",
+  "busca": "happy dog smiling",
+  "fonte": "pexels",
+  "id": 38978554,
+  "pagina": "https://www.pexels.com/video/joyful-dog-enjoying-sunny-day-outdoors-38978554/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s4b",
+  "arq": "s4b_2.mp4",
+  "busca": "happy dog smiling",
+  "fonte": "pexels",
+  "id": 39804569,
+  "pagina": "https://www.pexels.com/video/playful-dog-outdoors-licking-its-face-39804569/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s5a",
+  "arq": "s5a_0.mp4",
+  "busca": "onion garlic kitchen",
+  "fonte": "pexels",
+  "id": 37836408,
+  "pagina": "https://www.pexels.com/video/precision-chopping-in-home-kitchen-setup-37836408/",
+  "autor": "Ardina Setiorini",
+  "retrato": true
+ },
+ {
+  "slot": "s5a",
+  "arq": "s5a_1.mp4",
+  "busca": "onion garlic kitchen",
+  "fonte": "pexels",
+  "id": 7601423,
+  "pagina": "https://www.pexels.com/video/person-chopping-garlic-7601423/",
+  "autor": "Los Muertos Crew",
+  "retrato": true
+ },
+ {
+  "slot": "s5a",
+  "arq": "s5a_2.mp4",
+  "busca": "onion garlic kitchen",
+  "fonte": "pexels",
+  "id": 33601353,
+  "pagina": "https://www.pexels.com/video/outdoor-cooking-with-shallots-and-garlic-33601353/",
+  "autor": "setengah lima sore",
+  "retrato": true
+ },
+ {
+  "slot": "s5b",
+  "arq": "s5b_0.mp4",
+  "busca": "labrador smiling happy",
+  "fonte": "pexels",
+  "id": 8746929,
+  "pagina": "https://www.pexels.com/video/close-up-footage-of-a-labrador-retriever-8746929/",
+  "autor": "ROMAN ODINTSOV",
+  "retrato": true
+ },
+ {
+  "slot": "s5b",
+  "arq": "s5b_1.mp4",
+  "busca": "labrador smiling happy",
+  "fonte": "pexels",
+  "id": 8746927,
+  "pagina": "https://www.pexels.com/video/dog-inside-the-house-8746927/",
+  "autor": "ROMAN ODINTSOV",
+  "retrato": true
+ },
+ {
+  "slot": "s5b",
+  "arq": "s5b_2.mp4",
+  "busca": "labrador smiling happy",
+  "fonte": "pexels",
+  "id": 20218500,
+  "pagina": "https://www.pexels.com/video/a-man-hugging-a-dog-with-a-white-shirt-20218500/",
+  "autor": "K",
+  "retrato": true
+ },
+ {
+  "slot": "s6a",
+  "arq": "s6a_0.mp4",
+  "busca": "roast chicken plate",
+  "fonte": "pexels",
+  "id": 6162070,
+  "pagina": "https://www.pexels.com/video/roast-chicken-close-up-6162070/",
+  "autor": "Maksim Goncharenok",
+  "retrato": true
+ },
+ {
+  "slot": "s6a",
+  "arq": "s6a_1.mp4",
+  "busca": "roast chicken plate",
+  "fonte": "pexels",
+  "id": 29966864,
+  "pagina": "https://www.pexels.com/video/delicious-creamy-chicken-dish-with-vegetables-29966864/",
+  "autor": "khezez  | خزاز",
+  "retrato": true
+ },
+ {
+  "slot": "s6a",
+  "arq": "s6a_2.mp4",
+  "busca": "roast chicken plate",
+  "fonte": "pexels",
+  "id": 34453032,
+  "pagina": "https://www.pexels.com/video/delicious-roast-chicken-with-fresh-vegetables-34453032/",
+  "autor": "Evgenij Mikhailov",
+  "retrato": true
+ },
+ {
+  "slot": "s6b",
+  "arq": "s6b_0.mp4",
+  "busca": "cute puppy happy",
+  "fonte": "pexels",
+  "id": 39995025,
+  "pagina": "https://www.pexels.com/video/adorable-golden-retriever-puppy-indoors-39995025/",
+  "autor": "SOO CHUL PARK",
+  "retrato": true
+ },
+ {
+  "slot": "s6b",
+  "arq": "s6b_1.mp4",
+  "busca": "cute puppy happy",
+  "fonte": "pexels",
+  "id": 29337111,
+  "pagina": "https://www.pexels.com/video/playful-brown-puppies-resting-outdoors-29337111/",
+  "autor": "Shubham Jana",
+  "retrato": true
+ },
+ {
+  "slot": "s6b",
+  "arq": "s6b_2.mp4",
+  "busca": "cute puppy happy",
+  "fonte": "pexels",
+  "id": 20485427,
+  "pagina": "https://www.pexels.com/video/a-small-brown-dog-sitting-on-a-bench-20485427/",
+  "autor": "Rin Gakusho",
+  "retrato": true
+ },
+ {
+  "slot": "s7a",
+  "arq": "s7a_0.mp4",
+  "busca": "cupcakes sweets",
+  "fonte": "pexels",
+  "id": 9095572,
+  "pagina": "https://www.pexels.com/video/putting-toppers-on-cupcakes-9095572/",
+  "autor": "Polina ⠀",
+  "retrato": true
+ },
+ {
+  "slot": "s7a",
+  "arq": "s7a_1.mp4",
+  "busca": "cupcakes sweets",
+  "fonte": "pexels",
+  "id": 6781041,
+  "pagina": "https://www.pexels.com/video/colorful-cupcakes-on-a-cake-stand-6781041/",
+  "autor": "alleksana",
+  "retrato": true
+ },
+ {
+  "slot": "s7a",
+  "arq": "s7a_2.mp4",
+  "busca": "cupcakes sweets",
+  "fonte": "pexels",
+  "id": 7525485,
+  "pagina": "https://www.pexels.com/video/a-person-putting-filling-on-a-cupcake-7525485/",
+  "autor": "SHVETS production",
+  "retrato": true
+ },
+ {
+  "slot": "s7b",
+  "arq": "s7b_0.mp4",
+  "busca": "poodle happy",
+  "fonte": "pexels",
+  "id": 11440671,
+  "pagina": "https://www.pexels.com/video/dogs-playing-on-snow-11440671/",
+  "autor": "Anna Bondarenko",
+  "retrato": true
+ },
+ {
+  "slot": "s7b",
+  "arq": "s7b_1.mp4",
+  "busca": "poodle happy",
+  "fonte": "pexels",
+  "id": 10841170,
+  "pagina": "https://www.pexels.com/video/dog-by-gate-in-garden-10841170/",
+  "autor": "Anna Bondarenko",
+  "retrato": true
+ },
+ {
+  "slot": "s7b",
+  "arq": "s7b_2.mp4",
+  "busca": "poodle happy",
+  "fonte": "pexels",
+  "id": 11920146,
+  "pagina": "https://www.pexels.com/video/dogs-playing-together-11920146/",
+  "autor": "Anna Bondarenko",
+  "retrato": true
+ },
+ {
+  "slot": "s8a",
+  "arq": "s8a_0.mp4",
+  "busca": "woman phone call",
+  "fonte": "pexels",
+  "id": 8120676,
+  "pagina": "https://www.pexels.com/video/a-woman-having-a-phone-call-8120676/",
+  "autor": "MART  PRODUCTION",
+  "retrato": true
+ },
+ {
+  "slot": "s8a",
+  "arq": "s8a_1.mp4",
+  "busca": "woman phone call",
+  "fonte": "pexels",
+  "id": 10040737,
+  "pagina": "https://www.pexels.com/video/businesswoman-making-phone-call-in-city-10040737/",
+  "autor": "Los Muertos Crew",
+  "retrato": true
+ },
+ {
+  "slot": "s8a",
+  "arq": "s8a_2.mp4",
+  "busca": "woman phone call",
+  "fonte": "pexels",
+  "id": 7058606,
+  "pagina": "https://www.pexels.com/video/person-talking-on-cellphone-7058606/",
+  "autor": "Laura Tancredi",
+  "retrato": true
+ },
+ {
+  "slot": "s8b",
+  "arq": "s8b_0.mp4",
+  "busca": "woman hugging dog",
+  "fonte": "pexels",
+  "id": 6568510,
+  "pagina": "https://www.pexels.com/video/woman-hugging-a-dog-6568510/",
+  "autor": "cottonbro studio",
+  "retrato": true
+ },
+ {
+  "slot": "s8b",
+  "arq": "s8b_1.mp4",
+  "busca": "woman hugging dog",
+  "fonte": "pexels",
+  "id": 7189605,
+  "pagina": "https://www.pexels.com/video/a-woman-hugging-her-dog-7189605/",
+  "autor": "Blue Bird",
+  "retrato": true
+ },
+ {
+  "slot": "s8b",
+  "arq": "s8b_2.mp4",
+  "busca": "woman hugging dog",
+  "fonte": "pexels",
+  "id": 5540233,
+  "pagina": "https://www.pexels.com/video/young-woman-and-dog-in-park-5540233/",
+  "autor": "Polina Tankilevitch",
+  "retrato": true
+ },
+ {
+  "slot": "s9a",
+  "arq": "s9a_0.mp4",
+  "busca": "dog tongue out happy",
+  "fonte": "pexels",
+  "id": 39804570,
+  "pagina": "https://www.pexels.com/video/happy-dog-outdoors-licking-nose-39804570/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s9a",
+  "arq": "s9a_1.mp4",
+  "busca": "dog tongue out happy",
+  "fonte": "pexels",
+  "id": 7199249,
+  "pagina": "https://www.pexels.com/video/close-up-video-of-a-dog-on-the-grass-7199249/",
+  "autor": "Blue Bird",
+  "retrato": true
+ },
+ {
+  "slot": "s9a",
+  "arq": "s9a_2.mp4",
+  "busca": "dog tongue out happy",
+  "fonte": "pexels",
+  "id": 27946272,
+  "pagina": "https://www.pexels.com/video/a-black-dog-with-its-tongue-out-in-the-grass-27946272/",
+  "autor": "iddea photo",
+  "retrato": true
+ },
+ {
+  "slot": "s9b",
+  "arq": "s9b_0.mp4",
+  "busca": "dog wagging tail happy",
+  "fonte": "pexels",
+  "id": 35381052,
+  "pagina": "https://www.pexels.com/video/playful-dog-wagging-tail-indoors-35381052/",
+  "autor": "Ivan Tabachko",
+  "retrato": true
+ },
+ {
+  "slot": "s9b",
+  "arq": "s9b_1.mp4",
+  "busca": "dog wagging tail happy",
+  "fonte": "pexels",
+  "id": 34739863,
+  "pagina": "https://www.pexels.com/video/playful-dog-outdoors-in-sunny-landscape-34739863/",
+  "autor": "celal keser",
+  "retrato": true
+ },
+ {
+  "slot": "s9b",
+  "arq": "s9b_2.mp4",
+  "busca": "dog wagging tail happy",
+  "fonte": "pexels",
+  "id": 30346566,
+  "pagina": "https://www.pexels.com/video/playful-white-puppy-interacts-with-owner-outdoors-30346566/",
+  "autor": "Karen Ella Gonzaga",
+  "retrato": true
+ }
+]
