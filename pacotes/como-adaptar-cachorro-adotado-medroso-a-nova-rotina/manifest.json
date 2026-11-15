@@ -1,6 +1,6 @@
 {
   "slug": "como-adaptar-cachorro-adotado-medroso-a-nova-rotina",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-11-14T15:59:49+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-adaptar-cachorro-adotado-medroso-a-nova-rotina",
   "voz": {
@@ -27,5 +27,12 @@
     ],
     "em": "2026-11-14T16:01:37+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-11-15T08:20-03:00",
+  "agendado_para": "2026-11-16",
+  "agendadores": {
+    "facebook_zernio": "6af995a5e486947f81279c08",
+    "instagram_zernio": "6af995a5ae889b2355da8db3",
+    "tiktok_buffer": "6af995a776c23bf1c7760e16"
+  }
 }

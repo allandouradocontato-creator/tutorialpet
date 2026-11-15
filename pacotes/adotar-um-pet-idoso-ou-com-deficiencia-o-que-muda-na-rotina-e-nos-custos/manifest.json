@@ -1,6 +1,6 @@
 {
   "slug": "adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos",
-  "status": "aprovado",
+  "status": "agendado",
   "criado_em": "2026-11-05T17:30:48+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/adotar-um-pet-idoso-ou-com-deficiencia-o-que-muda-na-rotina-e-nos-custos",
   "voz": {
@@ -27,5 +27,12 @@
     ],
     "em": "2026-11-05T17:32:58+00:00"
   },
-  "aprovado_por": "auto (Guardiao ok)"
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-11-15T08:20-03:00",
+  "agendado_para": "2026-11-17",
+  "agendadores": {
+    "facebook_zernio": "6af995c0e486947f81279d25",
+    "instagram_zernio": "6af995c2ae889b2355da8e47",
+    "tiktok_buffer": "6af995c3e86a5789a6075aa4"
+  }
 }
