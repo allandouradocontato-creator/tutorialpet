@@ -1,0 +1,46 @@
+name: VSL8 troca de fala (voz da Natasha, ElevenLabs)
+# Gera 2 takes de cada uma das 2 falas novas da VSL8 e devolve na branch vsl8-voz-temp (apagar depois). Mostra o saldo antes/depois.
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  voz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar falas
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, urllib.request
+          from pathlib import Path
+          EK = os.environ["ELEVENLABS_API_KEY"].strip()
+          ped = json.load(open("data/vsl/natasha/vsl8_troca_fala/pedido.json", encoding="utf-8"))
+          def eleven(path, body=None, method="GET"):
+              req = urllib.request.Request("https://api.elevenlabs.io" + path, data=body, method=method, headers={"xi-api-key": EK, "Content-Type": "application/json"})
+              return json.load(urllib.request.urlopen(req, timeout=120))
+          def saldo():
+              d = eleven("/v1/user/subscription"); return d["character_limit"] - d["character_count"]
+          a = saldo(); print("SALDO_ANTES", a)
+          voz = [v for v in eleven("/v1/voices")["voices"] if ped["voz_nome_contem"] in v["name"].lower()]
+          print("VOZES", [(v["name"], v["voice_id"]) for v in voz]); vid = voz[0]["voice_id"]
+          out = Path("out"); out.mkdir()
+          for k, t in ped["falas"].items():
+              for n in range(1, ped["takes"] + 1):
+                  body = json.dumps({"text": t, "model_id": ped["modelo"], "voice_settings": {"stability": ped["stability"], "similarity_boost": ped["similarity_boost"], "style": 0.0, "use_speaker_boost": True}}).encode()
+                  d = eleven(f"/v1/text-to-speech/{vid}/with-timestamps", body, "POST")
+                  (out / f"fala{k}_take{n}.mp3").write_bytes(base64.b64decode(d["audio_base64"]))
+                  json.dump(d["alignment"], open(out / f"fala{k}_take{n}_align.json", "w"))
+                  print("ok", k, n)
+          b = saldo(); print("SALDO_DEPOIS", b, "gasto", a - b, "pct_do_saldo_antes", round(100 * (a - b) / a, 3))
+          PY
+      - name: Guardar na branch temporaria
+        run: |
+          git config user.name "voz-bot"; git config user.email "bot@users.noreply.github.com"
+          git switch --orphan vsl8-voz-temp
+          git rm -rf . -q 2>/dev/null || true
+          mkdir -p troca && cp out/* troca/
+          git add troca; git commit -q -m "vsl8 troca de fala: takes"; git push -f origin vsl8-voz-temp
