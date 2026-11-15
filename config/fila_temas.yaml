@@ -1309,7 +1309,8 @@ temas:
   status: pendente
 - termo: como preparar um espaco seguro para adocao de caes adultos resgatados
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-15'
 - termo: como identificar ingredientes seguros em petiscos naturais para caes e gatos
   pilar: alimentacao
   status: pendente
@@ -1465,5 +1466,14 @@ temas:
   pilar: alimentacao
   status: pendente
 - termo: como adaptar a alimentacao de gatos senior que perderam dentes
+  pilar: alimentacao
+  status: pendente
+- termo: como evitar disputa por brinquedos entre cachorros
+  pilar: comportamento
+  status: pendente
+- termo: como cadastrar microchip de cachorro no banco de dados
+  pilar: utilidade_publica
+  status: pendente
+- termo: como fazer a transição gradual entre marcas de ração
   pilar: alimentacao
   status: pendente
