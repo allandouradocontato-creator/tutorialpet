@@ -100,3 +100,4 @@
 2026-11-15 07:30 | ronda 07:19: tudo verde, blog 0/1; fábrica 06h não disparou (saude ok); cachorro-feio sem capa; TikTok parado (E243) | promovi banho-filhote (pilar filhotes) + E251 | conferir 11:19 (E34) | mantém
 2026-11-15 11:35 | ronda 11:19: tudo verde, blog 1/1 (07:36), fábrica/blog verdes, FB/IG ok, TikTok com 2 agendados (16 e 17/11); 0 FALHA AdSense | fechei issue 49 | conferir 15:19 (E34) | mantém
 2026-11-15 15:30 | ronda 19:19 UTC (15:19 F): fábrica/blog verdes, blog 1/1, FB/IG ok, TikTok 0 hoje; publicar_blog dispatch 14:16 F falhou por capa do shampoo | slug em capas_refazer + fechei issue 50 | conferir 19:19 F (E34) | mantém
+2026-11-15 19:25 | ronda 19:19 F: conferi shampoo (E34): capas_refazer+capas_coerentes não resolveu; TikTok 0 hoje -> fire Operador | ficha E253 + fire_trigger | conferir 16/11 07:19 | altera: capa travada por 2 dias precisa de foto do Allan ou capa IA, não repetir capas_refazer
