@@ -18,6 +18,7 @@ jobs:
         env:
           ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: python3 scripts/collab_video_assets.py data/collab_natasha/pedido_01.json out 2>&1 | tee out_log.txt
       - name: Guardar na branch collab-media
         run: |

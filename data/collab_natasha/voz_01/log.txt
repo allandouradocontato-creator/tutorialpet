@@ -1,0 +1,23 @@
+SALDO_ANTES 59203 plano creator
+VOZES_ENCONTRADAS [('Dra Natasha Braga - Tutorial Pet (clone autorizado)', 'uowvvw1vZJoukPdhxqmb')]
+SALDO_DEPOIS 59203 gasto_caracteres 0 pct_do_saldo_antes 0.0
+VOZ_ID uowvvw1vZJoukPdhxqmb palavras 62 fim_s 30.56
+pexels falhou s1a HTTP Error 403: Forbidden
+pexels falhou s1b HTTP Error 403: Forbidden
+pexels falhou s2a HTTP Error 403: Forbidden
+pexels falhou s2b HTTP Error 403: Forbidden
+pexels falhou s3a HTTP Error 403: Forbidden
+pexels falhou s3b HTTP Error 403: Forbidden
+pexels falhou s4a HTTP Error 403: Forbidden
+pexels falhou s4b HTTP Error 403: Forbidden
+pexels falhou s5a HTTP Error 403: Forbidden
+pexels falhou s5b HTTP Error 403: Forbidden
+pexels falhou s6a HTTP Error 403: Forbidden
+pexels falhou s6b HTTP Error 403: Forbidden
+pexels falhou s7a HTTP Error 403: Forbidden
+pexels falhou s7b HTTP Error 403: Forbidden
+pexels falhou s8a HTTP Error 403: Forbidden
+pexels falhou s8b HTTP Error 403: Forbidden
+pexels falhou s9a HTTP Error 403: Forbidden
+pexels falhou s9b HTTP Error 403: Forbidden
+CLIPES 0 slots []
