@@ -69,3 +69,4 @@ igual este arquivo nasceu de uma falha registrada.
 - 2026-11-08 | Operação (ambiente) | add_repo continua ausente na sessão do Diretor de Operação (2ª vez); repo já clonado, segui com git fetch na main | sem impacto | considerar tirar add_repo do gatilho
 - 2026-11-11 | Operação (ambiente) | add_repo continua ausente na sessão do Diretor de Operação (3ª vez); repo já clonado, segui com git fetch na main | sem impacto | tirar add_repo do gatilho
 - 2026-11-11 | Vigia | E233 item 3 (fechar 10 linhas antigas) e E220 não executados no Vigia de 11/11 07:19 (CORRIGI=0 em rodadas seguidas); E220 feita pela Operação | causa: Vigia lê o livro mas só registra, não escreve config | correção: E236
+- 2026-11-14 | Operação (ambiente) | add_repo ausente na sessão do Diretor de Operação (4ª vez) e main local divergente; reset para origin/main, sem impacto | correção: tirar add_repo do gatilho (trig_013rtiqM6yBsdgbvB4y4XtuR)
