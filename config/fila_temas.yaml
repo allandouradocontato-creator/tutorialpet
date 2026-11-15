@@ -1148,9 +1148,10 @@ temas:
   data: '2026-11-14'
 - termo: 'utilidade pública para pets no Rio de Janeiro: castração, denúncia e cadastro'
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
   nota: 'pesquisar fonte oficial por estado. Gancho: Guia por estado, RJ; depois MG,
     RS, PR, BA, PE'
+  data: '2026-11-15'
 - termo: melhores caminhas ortopedicas para caes e gatos idosos
   pilar: produtos_compras
   status: pendente
@@ -1461,5 +1462,8 @@ temas:
   pilar: utilidade_publica
   status: pendente
 - termo: como introduzir petiscos naturais na alimentacao diaria de caes e gatos
+  pilar: alimentacao
+  status: pendente
+- termo: como adaptar a alimentacao de gatos senior que perderam dentes
   pilar: alimentacao
   status: pendente
