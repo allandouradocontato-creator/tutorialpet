@@ -444,7 +444,8 @@ temas:
   status: pendente
 - termo: como escolher shampoo para cachorro de pele sensivel
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-15'
 - termo: gato pode comer atum
   pilar: alimentacao
   status: rascunho_pronto
@@ -1458,4 +1459,7 @@ temas:
   status: pendente
 - termo: quais cuidados ter ao viajar de onibus com caes e gatos
   pilar: utilidade_publica
+  status: pendente
+- termo: como introduzir petiscos naturais na alimentacao diaria de caes e gatos
+  pilar: alimentacao
   status: pendente
