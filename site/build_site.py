@@ -783,6 +783,62 @@ MUSICA_CSS = """
 .entrega .bolinha:nth-child(2){animation-delay:.2s}.entrega .bolinha:nth-child(3){animation-delay:.4s}
 @keyframes pulo{from{transform:translateY(0)}to{transform:translateY(-12px)}}
 @media(prefers-reduced-motion:reduce){.musica .eq i,.entrega .bolinha{animation:none}}
+.musica .voz-linha{display:flex;align-items:center;gap:10px;margin:8px 0 4px;flex-wrap:wrap}
+.musica .voz-btn{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:999px;padding:9px 16px;font:inherit;font-size:.92rem;font-weight:700;cursor:pointer;transition:background .15s}
+.musica .voz-btn:hover{background:rgba(255,255,255,.18)}
+.musica .voz-btn.ouvindo{background:linear-gradient(135deg,#ff8a1f,#ff3d81);border-color:transparent;animation:vozpulse 1.1s infinite alternate}
+.musica .voz-st{font-size:.85rem;color:#cdbfe6}
+@keyframes vozpulse{from{box-shadow:0 0 0 0 rgba(255,61,129,.55)}to{box-shadow:0 0 0 9px rgba(255,61,129,0)}}
+@media(prefers-reduced-motion:reduce){.musica .voz-btn.ouvindo{animation:none}}
+"""
+
+MUSICA_VOZ_JS = r"""
+<script>
+(function(){
+  var SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(!SR)return;
+  var ativo=null;
+  function msgErro(c){
+    if(c==='not-allowed'||c==='service-not-allowed')return 'Permita o microfone no navegador para falar.';
+    if(c==='no-speech')return 'Não ouvi nada. Toque e fale de novo.';
+    if(c==='network')return 'Sem internet para reconhecer a voz.';
+    if(c==='audio-capture')return 'Não encontrei o microfone.';
+    return 'Não deu para usar a voz agora. Pode digitar.';
+  }
+  ['rapido','historia','nomePet'].forEach(function(id){
+    var el=document.getElementById(id); if(!el)return;
+    var multi=el.tagName==='TEXTAREA';
+    var btn=document.createElement('button'); btn.type='button'; btn.className='voz-btn'; btn.setAttribute('aria-pressed','false');
+    btn.innerHTML='<span aria-hidden="true">🎤</span><span class="voz-tx">Falar em vez de digitar</span>';
+    var st=document.createElement('span'); st.className='voz-st'; st.setAttribute('aria-live','polite');
+    var linha=document.createElement('div'); linha.className='voz-linha'; linha.appendChild(btn); linha.appendChild(st);
+    el.parentNode.insertBefore(linha,el.nextSibling);
+    var tx=btn.querySelector('.voz-tx');
+    function ui(on){btn.classList.toggle('ouvindo',on);btn.setAttribute('aria-pressed',on?'true':'false');tx.textContent=on?'Ouvindo... toque para parar':'Falar em vez de digitar';}
+    btn.addEventListener('click',function(){
+      if(ativo){var mesmo=ativo.el===el;try{ativo.rec.stop()}catch(e){} if(mesmo)return;}
+      var rec=new SR(); rec.lang='pt-BR'; rec.interimResults=true; rec.continuous=multi; rec.maxAlternatives=1;
+      var base=multi?el.value:''; if(base&&!/\s$/.test(base))base+=' ';
+      var fin='',max=+el.getAttribute('maxlength')||0;
+      function por(t){
+        var v=base+t;
+        if(!multi){v=v.replace(/[.!?,\s]+$/,'');v=v.charAt(0).toUpperCase()+v.slice(1);}
+        if(max&&v.length>max)v=v.slice(0,max);
+        el.value=v; el.dispatchEvent(new Event('input',{bubbles:true}));
+      }
+      rec.onresult=function(ev){
+        var it='';
+        for(var i=ev.resultIndex;i<ev.results.length;i++){var r=ev.results[i];if(r.isFinal)fin+=r[0].transcript+(multi?' ':'');else it+=r[0].transcript;}
+        por(fin+it);
+      };
+      rec.onerror=function(ev){st.textContent=msgErro(ev&&ev.error);};
+      rec.onend=function(){ui(false);if(ativo&&ativo.rec===rec)ativo=null;if(fin&&!st.textContent)st.textContent='Pronto! Pode corrigir o texto se quiser.';};
+      ativo={rec:rec,el:el}; st.textContent=''; ui(true);
+      try{rec.start();}catch(e){ui(false);ativo=null;st.textContent=msgErro('x');}
+    });
+  });
+})();
+</script>
 """
 
 MUSICA_FORM_JS = r"""
@@ -973,6 +1029,7 @@ def build_musica_page(site: dict, pilares: dict) -> str:
 <p class="selo">Letra e música feitas com a ajuda de inteligência artificial, sob medida para o seu pet.</p>
 </div></main>
 {render_footer()}
+{MUSICA_VOZ_JS}
 {MUSICA_FORM_JS}"""
     return page_shell(f'{cfg.get("titulo", "Música do seu pet")} | Tutorial Pet', cfg.get("meta_description", ""),
                       f"{dominio}/musica-do-seu-pet", "website", main, extra_head=f"<style>{MUSICA_CSS}</style>")
