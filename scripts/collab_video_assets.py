@@ -43,6 +43,16 @@ if not ped.get('pular_voz'):
     depois, _ = saldo(); print("SALDO_DEPOIS", depois, "gasto_caracteres", antes - depois, "pct_do_saldo_antes", round(100 * (antes - depois) / antes, 3))
     print("VOZ_ID", vid, "palavras", len(pal), "fim_s", pal[-1][1])
 
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+def curl_json(url, header=None):
+    cmd = ["curl", "-sS", "-L", "-m", "40", "-A", UA] + (["-H", header] if header else []) + [url]
+    r = subprocess.run(cmd, capture_output=True, text=True)
+    return json.loads(r.stdout)
+
+def curl_baixar(url, destino):
+    subprocess.run(["curl", "-sS", "-L", "-m", "120", "-A", UA, "-o", str(destino), url], check=True)
+    if Path(destino).stat().st_size < 10000: raise RuntimeError("arquivo pequeno demais")
+
 PK = os.environ.get("PEXELS_API_KEY", "").strip(); XK = os.environ.get("PIXABAY_API_KEY", "").strip(); info = []
 RUIM = re.compile(r"sad|shelter|stray|sick|abandon|cage|injur|vet-clinic|dying|dirty", re.I)
 pexels_vivo = bool(PK)
@@ -52,7 +62,7 @@ def candidatos(busca):
     if pexels_vivo:
         url = "https://api.pexels.com/videos/search?" + urllib.parse.urlencode({"query": busca, "orientation": "portrait", "per_page": 15})
         try:
-            lista = json.load(urllib.request.urlopen(urllib.request.Request(url, headers={"Authorization": PK}), timeout=40)).get("videos", [])
+            lista = curl_json(url, "Authorization: " + PK).get("videos", [])
             res = []
             for v in lista:
                 fs = [f for f in v.get("video_files", []) if f.get("file_type") == "video/mp4" and (f.get("height") or 0) >= 1080]
@@ -65,7 +75,7 @@ def candidatos(busca):
     if XK:
         url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode({"key": XK, "q": busca, "per_page": 20, "safesearch": "true"})
         try:
-            hits = json.load(urllib.request.urlopen(url, timeout=40)).get("hits", [])
+            hits = curl_json(url).get("hits", [])
         except Exception as e:
             print("pixabay falhou", busca, str(e)[:60]); return []
         res = []
@@ -84,7 +94,7 @@ for slot, busca in ped["cenas"].items():
         if k >= 3: break
         bruto = out / "clips" / f"{slot}_{k}_raw.mp4"
         try:
-            urllib.request.urlretrieve(c["link"], bruto)
+            curl_baixar(c["link"], bruto)
             dest = out / "clips" / f"{slot}_{k}.mp4"
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(bruto), "-t", "2.5", "-an", "-vf",
                             "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30",
