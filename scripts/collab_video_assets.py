@@ -24,6 +24,7 @@ body = json.dumps({"text": ped["texto"], "model_id": ped["modelo"],
                    "voice_settings": {"stability": ped["stability"], "similarity_boost": ped["similarity_boost"], "style": 0.0, "use_speaker_boost": True}}).encode()
 d = eleven(f"/v1/text-to-speech/{vid}/with-timestamps", body, "POST")
 bruto = out / "voz_bruta.mp3"; bruto.write_bytes(base64.b64decode(d["audio_base64"]))
+json.dump(d["alignment"], open(out / "alinhamento_bruto.json", "w"))  # guarda ANTES de qualquer outra etapa (evita pagar duas vezes)
 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(bruto), "-af", "loudnorm=I=-14:TP=-1.5:LRA=7", "-ar", "44100", "-b:a", "192k", str(out / "voz.mp3")], check=True)
 al = d["alignment"]; pal, cur, ini, fim, dentro = [], "", None, None, False
 for c, a, b in zip(al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]):
