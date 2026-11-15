@@ -133,3 +133,15 @@ Meta: IG 8/500 = 1,6%; FB 14.
 Views 24 h+ FB/IG (Zernio): cama P2/2 IG 73 (7,5 s) | cama FB 205 (4,9 s) | castração P1/2 IG 118 (4,1 s, skip 65%) | pote IG 108 (6,6 s) / FB 198 (5,4 s). Recortes curtos (14-17 s) não passam de 205 em FB/IG.
 Hoje (Zernio, URL 200 conferida, horários Fortaleza): FB 10:00 + IG 11:00 comandos adotado (Agendador) | FB 14:00 e IG 15:00 gato cospe remédio (maior retenção do TikTok, 8,9 s) | FB 19:00 e IG 20:00 fonte de água gato com medo. FB 3 de 3, IG 3 de 3. Amanhã 15/11: IG 15:00 sinais de envelhecimento gato (E244).
 Zernio: 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 15/11 07:41 (Operador de Audiência, nuvem)
+ALERTA TOPO: TikTok @tutorialpetbr segue BANIDO (Buffer recusa desde 10/11; E243/E247 aguardam Allan/PC: recurso no TikTok Studio). Nada agendado no TikTok.
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (parado desde 06/11) |
+| Instagram | 8 (131 posts) | 0 (+3 em 13/11) |
+| TikTok | SEM DADO (conta banida; Allan leu 36 em 12/11) | ? |
+Meta: IG 8/500 = 1,6%; FB 14.
+Views 24 h (Zernio, sync 15/11 04:09 Fortaleza): gato remédio FB 210 (4,5 s) / IG 114 (5,0 s, skip 68%) | fonte de água FB 223 (4,2 s) / IG 114 (3,8 s, skip 65%) | comandos adotado FB 219 (6,3 s) / IG 106 (6,8 s, skip 51,5%).
+Hoje (Zernio): FB 14:00 e IG 15:00 sinais de envelhecimento gato (Agendador/E244) + EXTRAS do Operador: FB 19:01 (6af98dbb5314a56a4a77048f) e IG 20:01 (6af98dbc3daafd32d657971b) adotar gato adulto (pacote aprovado, URL 200). FB 10:00/IG 11:00: a cargo do Agendador 08:15 (E250). Total previsto: FB 3, IG 3; TikTok 0.
+Zernio: 8 posts em erro antigos (mídia inacessível), não reenviados.

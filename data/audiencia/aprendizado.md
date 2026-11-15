@@ -55,3 +55,9 @@
 14/11/2026 | FB/IG | pote grande/pequeno (Agendador, 49 s) | "Cachorro grande e pequeno podem comer no mesmo pote?" | FB 198 (5,4 s) / IG 108 (6,6 s) | <200: não repetir gancho; FB/IG seguem em ~100-330 views
 14/11/2026 | FB/IG | gato (remédio 14:00/15:00; fonte com medo 19:00/20:00) | "Seu gato cospe o remédio?" / "Seu gato foge da fonte de água...?" | agendado hoje | leitura 15/11; gato = melhor retenção em FB/IG (5-6 s); n=2
 14/11/2026 | TikTok | todos | conta banida | sem leitura nova | E243 aberta
+
+15/11/2026 | FB/IG | gato remédio (46 s) | "Seu gato cospe o remédio?" | FB 210 (4,5 s) / IG 114 (5,0 s, skip 68%) | 200-999 no FB: repetir 1x com ajuste (novo tema de gato); IG <200: não repetir gancho no IG
+15/11/2026 | FB/IG | gato fonte de água com medo (52 s) | "Seu gato foge da fonte de água...?" | FB 223 (4,2 s) / IG 114 (3,8 s, skip 65%) | FB 200+, IG <200; gato rende ~200 no FB, ~110 no IG; nenhum ≥1.000 (n=2, direção)
+15/11/2026 | FB/IG | comandos adotado (48 s, Agendador) | "Cachorro adulto adotado também aprende comandos básicos?" | FB 219 (6,3 s) / IG 106 (6,8 s, skip 51,5%) | FB 200+; melhor retenção da semana (6-7 s); ajuste: manter vídeos 45-50 s com utilidade prática
+15/11/2026 | FB/IG | adoção de gato adulto (extra, pacote aprovado) | "Se adotar filhote trabalhoso continua acontecendo com você, começa por aqui." | agendado FB 19:01 / IG 20:01 | leitura 16/11
+15/11/2026 | TikTok | todos | conta banida | sem leitura nova | E243/E247 abertas

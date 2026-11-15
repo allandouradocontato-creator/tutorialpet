@@ -203,3 +203,6 @@ Atualização 08/11 09:30 (Diretor de Audiência): Zernio FB 14, IG 5 (117 posts
 
 ## 12/11/2026 (Criador de Audiência, foco TikTok)
 Dados até 12/11 16:50. Comentários por post: ~0 de terceiros (TikTok 5 em 81 posts). Compartilhamentos: 11 em ~81 posts. Seguidores TikTok: 36 (print do Allan, 12/11; último 21 em 28/10). Cliques no blog: sem dado. Vendas: sem dado. Meta 14 dias: mediana 300 views, tempo ≥3 s, 1 share a cada 4 posts, 1.000 seguidores (4% hoje). Formato campeão: dúvida real com número no gancho (cachorro sozinho 7,46 s; gato dorme 905 views). Bloqueio: Buffer recusa TikTok (account being banned) desde 10/11; perfil ativo. Ver ideias.md §0.
+
+## 15/11/2026 (Operador de Audiência; fecha E244/E250 parte IG)
+Seguidores IG antes/depois do Reel do dia 14/11: 8 (13/11) → 8 (14/11) → 8 (15/11 07:44): sem ganho no Reel de 14/11. FB 14 parado desde 06/11. Reels FB/IG de 14/11: FB 210-223 views, IG 106-114; 0 seguidor novo atribuível.
