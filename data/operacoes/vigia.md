@@ -1,11 +1,11 @@
-Dados até 2026-11-14 19:25 (Fortaleza) | CORRIGI: 0 | PRECISO DO ALLAN: 1 (TikTok, E243/E247, já avisado) | Número do dia: rotinas falhando/suspensas = 0 (meta zero)
+Dados até 2026-11-15 07:25 (Fortaleza) | CORRIGI: 1 (blog 1/1 promovido) | PRECISO DO ALLAN: 2 (capa do cachorro-feio, TikTok E243/E247) | Número do dia: rotinas falhando/suspensas = 0 (meta zero; 'Vigia de comentários' desligada por device_absent é proposital: teste termina 16/11)
 | rotina | estado | último run | idade do último resultado | problema | correção |
 |---|---|---|---|---|---|
-| Rotinas ativas | ok | todas SUCCEEDED (Agendador 16:15 ok, Música do Pet 19:20 agendada); Vigia atual PENDING (esta rodada) | <24 h | nenhuma FAILED/suspensa/vencida | - |
-| fabrica.yml | verde | 14/11 13:00 F (run 43613171933) | ~6 h | - | - |
-| publicar_blog.yml | verde | 14/11 14:13 F dispatch (43619907813) | ~1 h | run 07:26 falhou por capa (já tratado 11:19) | E34 conferida: artigo no ar 14:19 F (bd4a35c) |
-| Blog | 1/1 hoje | artigo 14/11 14:19 F | ~1 h | - | issue 49 pode fechar; AdSense 0 FALHA |
-| FB/IG (Zernio) | ok | FB/IG publicados 14/11; 2 agendados (gato idoso) | <12 h | 8 erros antigos de mídia (10-12/11), nenhum novo | retry proibido (E151) |
-| TikTok (Buffer) | PARADO | último publicado 10/11 14:21; Studio publicou teste 14/11 12:49 | 4 dias | Buffer: 'account being banned' (13/11); nada agendado | decisão do Allan: 1 post/dia via Buffer como prova (E243/E247) |
-| Issues | 49 + antigas | - | - | 49 liga ao run 07:26 (resolvido) | fechar na próxima |
-Créditos ElevenLabs: sem saída recente, não medido.
+| Rotinas ativas (14) | ok | todas SUCCEEDED; Vigia atual PENDING (esta rodada) | <24 h | nenhuma FAILED/vencida | - |
+| fabrica.yml | verde | 14/11 13:00 F (run 43613171933) | ~18 h | crons 06:07/06:37 de hoje não dispararam (GitHub); saude.yml 06:34 ok | blog coberto pela promoção abaixo; 1+1 12:17 garante |
+| publicar_blog.yml | verde | 14/11 14:13 F dispatch (43619907813) | ~17 h | - | promovi como-dar-banho-em-cachorro-filhote-pela-primeira-vez (pilar filhotes; ontem adoção) |
+| Blog | 0/1 às 07:25 | último artigo 14/11 14:19 F | ~17 h | cachorro-feio (pedido do Allan) segue sem capa válida (6 'dog close up' banidas/usadas) | E251: Allan manda foto de SRD feliz ou aceita capa IA |
+| FB/IG (Zernio) | ok | FB/IG publicados 14/11 (fonte-água 19:00/20:00) | <12 h | 2 agendados (gato idoso); 8 erros antigos de mídia, nenhum novo | retry proibido (E151); Agendador 08:15 fecha E242 |
+| TikTok (Buffer) | PARADO | último publicado 10/11; teste Studio 14/11 ok | 5 dias | nada agendado | Operador 07:41 (hoje, não disparei duas vezes); E243/E247 com o Allan |
+| Issues | 49 + antigas | 44 caiu de 10 para 6 reprovados | - | 49 resolvida (artigo no ar 14:19) | fechar na próxima |
+AdSense: 0 FALHA (auditoria_adsense.py). Créditos ElevenLabs: sem saída recente, não medido.
