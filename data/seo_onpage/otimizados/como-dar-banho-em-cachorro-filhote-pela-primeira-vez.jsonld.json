@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como dar banho em cachorro filhote pela primeira vez: guia prático",
+    "description": "Aprenda como dar banho em cachorro filhote pela primeira vez sem estresse. Guia prático com passo a passo simples para aplicar hoje mesmo.",
+    "datePublished": "2026-11-13",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-dar-banho-em-cachorro-filhote-pela-primeira-vez",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-dar-banho-em-cachorro-filhote-pela-primeira-vez"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-dar-banho-em-cachorro-filhote-pela-primeira-vez.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Com quantos meses o filhote pode tomar o primeiro banho em casa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Geralmente, o ideal é aguardar o término do protocolo de imunização recomendado, mas consulte sempre o médico-veterinário para avaliar a liberação exata do seu pet.  - **Posso usar secador de cabelo quente no filhote?** Não. O calor excessivo pode queimar a pele sensível do animal; use sempre a opção morna ou fria e em velocidade baixa.  - **Como evitar que entre água no ouvido do cachorro?** Coloque chumaços de algodão hidrofóbico (em formato de bolinha maior, nunca pequenos que possam sumir no canal auditivo) de leve nos ouvidos durante o banho.  - **O que fazer se o filhote ficar muito assustado?** Interrompa a água, fale com voz calma, faça carinho e ofereça um petisco. Nunca force o animal ao ponto de pânico extremo."
+        }
+      }
+    ]
+  }
+}
