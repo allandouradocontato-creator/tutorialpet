@@ -109,3 +109,9 @@
 1. **"Parte 1/2 → Parte 2/2" em Reels IG (série numerada)** — já rodando (castração/cama); o CTA "segue pra parte 2" dá motivo para seguir. Risco: médio se vier saúde (sem dose, veterinário). Custo: baixo.
 2. **"Qual o tamanho do seu cachorro? Conta aqui" como enquete fixa no FB** — pergunta de resposta de 1 palavra para destravar comentário de terceiro (hoje 0). Risco: baixo. Custo: baixo.
 3. **"Foto do seu pet dormindo" (UGC no FB, sem prêmio)** — tutor posta foto nos comentários e a página responde com o nome do pet; atrai comentário e marcação. Risco: baixo (sem dado de menor, só pet). Custo: baixo.
+| 2026-11-15 09:25 | Diretor de Audiência | MUDANÇA: molde gato idoso+CTA seguir PERDEU no corte (IG 8→8→8, +3 só em 13/11 = ruído n=1); FB 14 (parado há 9 dias), IG 8, TikTok banido (36 em 12/11 = 3,6%, recurso é do Allan, E243/E247); comentário de terceiro 0, DM 0; novo caminho: pergunta de 1 palavra FB/IG 16-18/11 (corte 48 h); ficha 2026-11-15_audiencia_rodada.md; E252; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 15/11/2026
+1. **"Pergunta de 1 palavra" diária (FB/IG)** — porte, caixa de areia, onde dorme; resposta fácil destrava comentário de terceiro (hoje 0). Risco: baixo. Custo: baixo.
+2. **"Mural dos pets" (UGC sem prêmio)** — tutor comenta o nome e o porte do pet e a página responde com uma dica; vira lista de seguidores engajados. Risco: baixo (só pet, sem dado de menor). Custo: baixo.
+3. **"Mito ou verdade do tutor" (carrossel salvável, 4 cartões)** — mito comum de rotina com resposta no cartão 2; salvamento. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.

@@ -1,0 +1,16 @@
+# FICHA — Campanha de audiência da semana (rodada 15/11 09:25 Fortaleza)
+- Departamento / Diretor: Audiência e Redes / Diretor de Audiência / 2026-11-15 09:25
+- Objetivo: audiência real. Meta nº 1 (TikTok 1.000) PAUSADA: conta banida desde 10/11, recurso é do Allan (E243/E247, abertos). Último valor lido: 36 (print do Allan, 12/11) = 3,6%.
+- Estado real (Zernio, dados até 14/11 06:51Z + medição do Operador 15/11 07:44): FB 14 (parado há 9 dias), IG 8 (parado desde 13/11). Comentário de terceiro 0, DM 0, contatos ManyChat 0. Reels IG 14/11: 106-114 views, 0 seguidor atribuível; FB 14/11: 210-223 views.
+- Corte do molde "gato idoso + CTA seguir/GUIA" (janela 13-15/11): IG +1/dia em 2 de 3 dias? NÃO (+3 só em 13/11, 0 e 0 depois). Engajamento >= 5% em 2 de 3? NÃO (só o 1º). = PERDEU; o salto de 13/11 foi pontual (n=1). Pela regra de mudança rápida, muda de caminho hoje.
+- Pareceres: Operador: E244 cumprido, IG 8→8→8. Decifrador: sem repetição do salto, n=1 vira ruído. Estrategista: plano vigente, comentário de terceiro é o gargalo (0 em ~120 posts). Vigia: sem novidade. Sem parecer de Especialista TikTok (banido).
+- Divergências: nenhuma. Quem tinha razão: Decifrador (n=1 NEUTRO, não repetir como verdade).
+- DECISÃO: (1) Reels já agendados (15-17/11) seguem, mas sem aumentar a cota do molde. (2) Novo caminho 16-18/11: gargalo é comentário de terceiro, então testar PERGUNTA DE 1 PALAVRA no FB e IG (imagem de banco livre, 1 post por dia, resposta da página em até 2 h pelo Atendente). Critério (48 h): >= 1 comentário de terceiro em 2 dos 3 posts = GANHOU (vira série fixa); 0 em 3 posts = PERDEU, corta e muda para carrossel salvável de dúvida real. (3) TikTok: nada novo; ManyChat: nada ao vivo ("comenta GUIA" só como CTA, nenhum fluxo ligado).
+- Textos aprovados (sem Fortaleza, sem alegação médica):
+  - Dia 1 (16/11, FB 19:00 e IG 19:10): "Qual o tamanho do seu cachorro? 🐶 Responde com 1 palavra: pequeno, médio ou grande. A gente responde cada um com a dica de cama e passeio pro porte!"
+  - Dia 2 (17/11): "Seu gato prefere caixa de areia coberta ou aberta? 🐱 Responde: coberta ou aberta!"
+  - Dia 3 (18/11): "Seu pet dorme onde? 🛏️ Responde: cama dele, sofá ou na sua cama!"
+  - Resposta da página a cada comentário: o nome/porte + 1 frase útil; saúde = "consulte o veterinário" / @vetnatasha.
+- Métrica/gatilho: comentário de terceiro (meta >= 1 a cada 5 posts), seguidores FB 14 / IG 8 (base), DM. Gatilho: FB >= +2/dia segue perdido.
+- Ações: E252 (nuvem/Operador, 16/11). Pedido ao Allan (único, sem mudança): recurso do banimento do TikTok (E243/E247).
+- Status: aprovada.

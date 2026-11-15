@@ -206,3 +206,6 @@ Dados até 12/11 16:50. Comentários por post: ~0 de terceiros (TikTok 5 em 81 p
 
 ## 15/11/2026 (Operador de Audiência; fecha E244/E250 parte IG)
 Seguidores IG antes/depois do Reel do dia 14/11: 8 (13/11) → 8 (14/11) → 8 (15/11 07:44): sem ganho no Reel de 14/11. FB 14 parado desde 06/11. Reels FB/IG de 14/11: FB 210-223 views, IG 106-114; 0 seguidor novo atribuível.
+
+## 15/11/2026 09:25 (Diretor de Audiência)
+Seguidores (Zernio até 14/11): FB 14, IG 8; TikTok 36 (12/11, banido). Molde gato idoso+CTA = PERDEU no corte (IG 8→8→8). Comentário de terceiro 0, DM 0. Novo teste 16-18/11: pergunta de 1 palavra (E252).

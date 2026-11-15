@@ -39,3 +39,4 @@ Skill: biblioteca/habilidades/audiencia_ganchos_e_cadencia.md (v2, 22/10/2026). 
 2026-11-10 | regra: gancho/resposta cedo (recorte com legenda queimada responde aos ~12-14 s) | n=2 recortes 24 h: 545/1,96 s e 267/1,65 s -> PERDEU | altera: sem novos recortes de legenda queimada
 2026-11-11 | regra 5/6 (gancho que promete resposta) + corte 24 h: T2 gato exercícios mentais | n=1 post lido: 498 views, 2,52 s (NEUTRO, n<3); 2º post sem leitura (conta banida) | mantém; migrar o formato para IG/FB (E235)
 2026-11-14 | regra 5/6 e cadência (série numerada Parte 1/2 e 2/2 com CTA seguir, IG) | n=2 Reels de 13/11: 3-4 curtidas, 0 comentário de terceiro, IG 8->8 em 24 h = NEUTRO (n<3) | mantém até o corte de 15/11
+2026-11-15 | regra 5/6 e cadência (molde gato idoso + CTA seguir/GUIA, IG 1 Reel/dia) | n=3 dias: IG 8→8→8, 0 comentário de terceiro = PERDEU no corte | altera (pergunta de 1 palavra FB/IG, E252)

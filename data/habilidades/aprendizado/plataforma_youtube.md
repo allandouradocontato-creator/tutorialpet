@@ -10,3 +10,4 @@ Formato: data | hipótese | resultado (n, métrica) | mantém/altera regra
 2026-11-04 | decisão por skill (sem pesquisa nova); CTA de seguir e T0 curto | FB 13, IG 4, TikTok sem dado | mantém
 2026-11-07 | sem YouTube nesta rodada | n=0 | mantém
 2026-11-09 | não aplicável (canal YouTube não aberto) | n=0 | mantém reserva
+2026-11-15 | skill lida (comentário de terceiro >= 1 a cada 5 posts; TikTok banido; YouTube sem canal ativo) | n=0 novos além da ficha | mantém

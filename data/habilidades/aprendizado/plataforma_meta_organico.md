@@ -47,3 +47,4 @@ Skill: biblioteca/habilidades/plataforma_meta_organico.md (v1.0, 22/10/2026). Um
 2026-11-09 | meme ≤15 s fora do FB (E220); IG leitura skip/alcance | n=17 FB mediana 58 views; IG 08/11 0-64 views, 1,5-3,4 s | mantém
 2026-11-10 | reuso evergreen com legenda de pergunta nova (banho, agua) para cobrir 11 e 12/11 sem pacote novo | n=2 reusos agendados, resultado so com 72 h | mantem
 2026-11-13 | plataforma_meta_organico: CTA 'seguir + comenta GUIA' em Reel de comportamento (gato idoso) | n=1, IG +3 seguidores em 24 h, 6,61% eng, skip 44,5% | mantém (repetir 2x antes de julgar)
+2026-11-15 | skill lida (comentário de terceiro >= 1 a cada 5 posts; TikTok banido; YouTube sem canal ativo) | n=0 novos além da ficha | mantém
