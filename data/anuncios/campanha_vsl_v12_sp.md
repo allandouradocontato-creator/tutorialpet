@@ -279,3 +279,13 @@ Recomendação (sem executar, n=13, direção): manter Reels e teto; não subir 
 
 ## Perfil que clica - 14/11 (Auditor, rodada 14/11 09:35 Fortaleza; Windsor facebook, conta 1956794111415592)
 O EXTRA do Allan (31/10) valia para 01/11; não refiz idade/sexo/região. 09-13/11: R$ 137,93 · 13 inícios (R$ 10,61) · 0 compras. 13/11: R$ 27,25 · 53 cliques no link · 1 início, 100% FB Reels. Só "— Cópia" tem início. 14/11 sem linha ainda. Recomendação (sem executar, n=13, direção): manter Reels e teto; não subir verba; conferir vendas na Kiwify.
+
+## Perfil que clica - 15/11 (Auditor, rodada 15/11 09:35 Fortaleza; Windsor facebook, só conta 1956794111415592; 09-15/11)
+O EXTRA do Allan (31/10) valia para 01/11 e já está em 01-04/11; aqui o corte atualizado do que o Windsor lê. Conta original 1213984913380523 segue fora do Windsor (28/10-08/11 e Filme v10 = UNKNOWN); comparação dia 01/11 x 31/10 não refeita (já registrada acima). n=14 inícios: DIREÇÃO, não veredito.
+**STATUS: campanha "SeC · Corte Resumo v5 · pixel certo" está PAUSED (conjunto ACTIVE). Último gasto 13/11 (R$ 27,31); 14/11 R$ 0,00, 15/11 sem linha. Nada registrado em 05 Decisões/06 Pendências sobre a pausa: origem UNKNOWN (Allan ou Meta?). Sem risco de gasto.**
+Total 09-13/11: R$ 137,99 · 223 cliques no link · 199 visualizações da landing (89%) · 14 inícios (R$ 9,86; 1 deles lançado em 14/11 sem gasto) · 0 compras no pixel.
+Posicionamento: FB Reels R$ 130,96 · 213 cliques · 14 inícios (R$ 9,36), todos mobile app. Feed/Stories/in-stream só em 09/11: R$ 7,03 · 10 cliques · 0 inícios. Região: só São Paulo (estado).
+Idade x sexo: mulher 25-34 R$ 23,35/36 cliques/5 inícios (R$ 4,67) · 35-44 17,85/35/1 · 45-54 36,24/56/2 (R$ 18,12) · 55-64 4,91/7/0 · homem 25-34 20,85/20/3 (R$ 6,95) · 35-44 12,83/19/1 · 45-54 19,40/47/2 · 55-64 2,22/3/0. 25-34 (ambos os sexos) = 8 dos 14 inícios com 32% do gasto (R$ 5,53/início); 45-54 = 4 inícios com 40% do gasto (R$ 13,91). Mulheres 8 inícios (R$ 10,29), homens 6 (R$ 9,22): sexo não separa; idade sim, ainda com n pequeno. 65+ sem entrega.
+Por anúncio: só "— Cópia" tem início (14/14); original 09/11 R$ 9,37/14 cliques/0.
+Eventos do vídeo explicativo (Explicativo_Play/Som/25/50/75/100): UNKNOWN; o Windsor só devolve o total de eventos personalizados do pixel (0) e visualizações de vídeo (2.688 no período), sem quebra por nome.
+**Recomendação (sem executar, direção, n=14)**: cortar feed do Facebook, Stories e in-stream já está cumprido (Reels 100% desde 10/11); 65+ já sem entrega; mulher 25-34 é o melhor custo, mas homem 25-34 também (R$ 6,95), então concentrar em 25-34 e testar tirar 45-54 (R$ 13,91) em vez de só "mulheres". Se religar: mesmo teto R$ 30/dia, sem subir verba. Antes disso, o Allan confirma se a pausa foi dele.

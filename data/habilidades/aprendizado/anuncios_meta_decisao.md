@@ -31,3 +31,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-13 | passo 4 (gasto/tráfego) + regra '≥10 inícios pós-correção e 0 vendas' de 12/11 | n=13 inícios, R$ 8,52/início em Reels-only, 0 compras no pixel; regra atingida: gargalo é oferta/checkout, não anúncio; decisão: manter, não subir verba, cruzar Kiwify | mantém
 2026-11-14 | passo 4 (gasto/tráfego) + regra de teto 3 dias > R$ 40 | n=13 inícios acumulados, R$ 10,61/início; 13/11 = 1 início em 53 cliques (R$ 27,25); sem 3 dias seguidos > R$ 40; decisão: manter, não subir verba, cruzar Kiwify | mantém
 2026-11-15 | não aplicável hoje (sem decisão de anúncio na rodada de audiência) | n=0 | mantém
+2026-11-15 | passo 4 (gasto/tráfego) + perfil | n=14 inícios, R$ 9,86/início; campanha PAUSED desde 14/11 (origem UNKNOWN); 25-34 = 8/14 inícios com 32% do gasto; decisão: pedir ao Allan confirmar a pausa, manter teto se religar | mantém
