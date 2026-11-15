@@ -37,3 +37,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-11-07 | plataforma_tiktok_organico: retenção antes de volume; 15-20 s, resposta nos 5 s | n=3 | altera (E213)
 2026-11-08 | plataforma_tiktok_organico: retenção antes de volume; curto 15-20 s | n=0 (bloqueio de método, não de tema) | mantém (E218 clone parcial)
 2026-11-09 | gancho com resposta cedo; espaçamento 4 h (E221) | n=3 TikTok 08/11: 2,95/1,47/1,99 s; meta >= 4 s não atingida | altera: T2 gato (E226)
+2026-11-15 | Agendador 08:15: estoque 2 dias a frente (16 e 17/11) FB/IG/TikTok; TikTok teve erro 'conta banida' em 12/11 (Buffer), sem sent depois | n=1 rodada; TikTok sem publicação confirmada desde 12/11 | mantém; Allan precisa checar conta TikTok; pacote direitos-do-consumidor e atropelado aguardam artigo (404)
