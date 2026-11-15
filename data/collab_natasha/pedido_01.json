@@ -1,0 +1,28 @@
+{
+ "id": "collab01_alimentos_proibidos",
+ "voz_nome_contem": "natasha",
+ "modelo": "eleven_v4",
+ "stability": 0.20,
+ "similarity_boost": 0.75,
+ "texto": "[cheerful] Você divide comida com seu cachorro? ... Cinco alimentos parecem inofensivos, mas não são. ... Chocolate: a teobromina sobrecarrega o coração dele. ... Uva e passas: podem causar problema nos rins. ... Cebola e alho: destroem glóbulos vermelhos. ... Osso cozido: lasca e fere por dentro. ... Xilitol, um adoçante de alguns doces: é emergência. ... Comeu? Não espere sintoma, ligue pro veterinário. ... Salva esse vídeo pra não esquecer!",
+ "cenas": {
+  "s1a": "dog sitting at dining table happy",
+  "s1b": "hand giving food to dog",
+  "s2a": "family dinner table food plate",
+  "s2b": "curious dog looking at food",
+  "s3a": "chocolate bar",
+  "s3b": "golden retriever sitting happy",
+  "s4a": "grapes bowl",
+  "s4b": "happy dog smiling",
+  "s5a": "onion garlic kitchen",
+  "s5b": "labrador smiling happy",
+  "s6a": "roast chicken plate",
+  "s6b": "cute puppy happy",
+  "s7a": "cupcakes sweets",
+  "s7b": "poodle happy",
+  "s8a": "woman phone call",
+  "s8b": "woman hugging dog",
+  "s9a": "dog tongue out happy",
+  "s9b": "dog wagging tail happy"
+ }
+}

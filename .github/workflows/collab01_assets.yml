@@ -1,0 +1,29 @@
+name: Collab 01 - voz da Natasha + clipes (devolve na branch collab-media)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['data/collab_natasha/pedido_01.json']
+permissions:
+  contents: write
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Voz e clipes
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.TUTORIALPETELEVENLABS || secrets.ELEVENLABS_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python3 scripts/collab_video_assets.py data/collab_natasha/pedido_01.json out 2>&1 | tee out_log.txt
+      - name: Guardar na branch collab-media
+        run: |
+          cp out_log.txt out/log.txt
+          git config user.name "voz-bot"; git config user.email "bot@users.noreply.github.com"
+          git switch --orphan collab-media
+          git rm -rf . -q 2>/dev/null || true
+          mkdir -p collab01 && cp -r out/* collab01/
+          git add collab01
+          git commit -q -m "collab01: voz + clipes"
+          git push -f origin collab-media
