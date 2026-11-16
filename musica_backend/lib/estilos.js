@@ -1,6 +1,6 @@
 // Mapeamento dos campos fechados do formulário para o pedido de estilo musical (tags em inglês funcionam melhor nos modelos).
 export const ESTILOS = {
-  "pop alegre": "upbeat brazilian pop, happy, catchy hook, bright synths, handclaps, danceable",
+  "pop alegre": "Upbeat Brazilian pop, cute and cheerful feel, lively lead vocal with bright and playful delivery, driving acoustic guitar strumming, bouncy ukulele, crisp drum kit with warm handclaps, melodic bassline, sparkling synth plucks, joyful and hook-heavy chorus, sunny, radio-friendly production",
   "sertanejo": "sertanejo universitario, acoustic guitar, viola caipira, accordion, warm, feel-good",
   "forró": "forro pe de serra, accordion, zabumba, triangle, joyful, danceable, brazilian northeast",
   "mpb": "mpb, brazilian acoustic, nylon guitar, soft percussion, warm, gentle, melodic",
