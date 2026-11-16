@@ -1168,7 +1168,8 @@ temas:
   status: pendente
 - termo: o que fazer quando o pet come lixo na rua
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-16'
 - termo: 'plantas de natal toxicas para cachorro e gato: quais evitar em casa'
   pilar: cuidados_diarios
   status: pendente
@@ -1477,4 +1478,10 @@ temas:
   status: pendente
 - termo: como fazer a transição gradual entre marcas de ração
   pilar: alimentacao
+  status: pendente
+- termo: por que gatos misturam urina com fezes fora da caixa
+  pilar: comportamento
+  status: pendente
+- termo: quais regras de convivencia ensinar para criancas e caes adotados
+  pilar: adocao
   status: pendente
