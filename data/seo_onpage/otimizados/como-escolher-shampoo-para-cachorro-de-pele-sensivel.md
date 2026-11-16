@@ -50,9 +50,9 @@ sugestoes_links_internos:
   aplicar_somente_se: o artigo de destino já estiver publicado no site
 dados_estruturados_arquivo: data/seo_onpage/otimizados/como-escolher-shampoo-para-cachorro-de-pele-sensivel.jsonld.json
 imagem_capa: imagens/como-escolher-shampoo-para-cachorro-de-pele-sensivel.jpg
-imagem_fonte: pexels
-imagem_fotografo: Suvan Chowdhury
-imagem_fotografo_url: https://www.pexels.com/@suvan-chowdhury-37305
+imagem_fonte: ia-flux
+imagem_fotografo: Tutorial Pet (imagem gerada por IA)
+imagem_fotografo_url: https://www.tutorialpet.com.br
 imagem_url_pagina: https://www.pexels.com/photo/white-medium-coat-medium-dog-144608/
 imagem_selecionada_em: '2026-11-16T10:56:07+00:00'
 imagens_corpo:
