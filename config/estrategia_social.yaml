@@ -1,7 +1,8 @@
 # Estratégia social (Estrategista de Redes Sociais, 16/10/2026 11:29). Só recomendação: nada aqui publica ou agenda sozinho.
 # Fontes: Zernio (FB, IG) e Buffer (TikTok). Metricool descontinuado em 13/10. Plano de mudança: data/social/plano_de_mudanca_16_10.md
-versao: 24
-atualizado_em: "2026-11-09 07:10 Fortaleza"
+versao: 25
+atualizado_em: "2026-11-16 07:10 Fortaleza"
+versao_anterior_atualizado_em_24: "2026-11-09 07:10"
 versao_anterior_atualizado_em_23: "2026-11-01 07:10"
 versao_anterior_atualizado_em_22: "2026-10-31 07:07"
 versao_anterior_atualizado_em_21: "2026-10-30 07:40"
@@ -487,3 +488,49 @@ perguntas_lote_2026_11_09:
   gato: ["Seu gato dorme mais de 12 horas por dia? Conta aqui.", "Seu gato prefere caixa ou cama? Responde nos comentários.", "Seu gato mia pedindo comida de madrugada? Sim ou não?", "Qual é o cantinho favorito do seu gato?", "Seu gato aceita pegar remédio fácil? Conta como faz."]
   cachorro: ["Seu cachorro foge quando o portão abre? Sim ou não?", "Seu cachorro dorme na sua cama? Conta aqui.", "Qual é o petisco favorito do seu cachorro?", "Seu cachorro fica ansioso quando você sai? Responde nos comentários.", "Passeio de manhã ou de noite com o seu cachorro?"]
   adocao: ["Você adotou ou comprou o seu pet? Conta aqui.", "Qual foi a maior dificuldade nos primeiros 30 dias?", "Você adotaria um pet idoso? Sim ou não?", "Seu pet adotado já se adaptou? Conta como foi.", "Qual dúvida sobre adoção você queria ver respondida?"]
+
+rodada_2026_11_16:   # Estrategista 16/11 07:10; so recomendacao. Dados: Zernio FB n13/IG n14 (09-15/11), Buffer 31 d (TikTok banido desde 10/11)
+  horarios:
+    facebook: ["10:00", "19:00"]   # extra 14:00 (mediana 244, n4); sem diferenca entre faixas
+    instagram: ["15:00", "20:00"]  # 11:00 mediana 79 (n6) contra 116-118; mantido ate 19/11, sai se repetir <90
+    tiktok: ["10:20", "20:20"]     # pausado: conta banida, recurso so o Allan
+    regra: "nunca duas redes no mesmo horario; FB 10/14/19, IG 11/15/20"
+  hashtags:
+    quantidade: {instagram: "ate 5 (limite do Instagram, Tecnoblog)", tiktok: "3-5", facebook: "0-3"}
+    gato: ["#gatos", "#cuidadoscomgatos", "#comportamentofelino", "#dicaspet", "#tutorialpet"]
+    cachorro: ["#cachorros", "#cuidadospet", "#adestramentopositivo", "#dicaspet", "#tutorialpet"]
+    adocao: ["#adocaoresponsavel", "#petadotado", "#adotenaocompre", "#tutorialpet"]
+  cta_artigo: "Confira o artigo completo em tutorialpet.com.br (busque: {tema})"   # link clicavel so no primeiro comentario
+  cta_proibido: ["comenta GUIA"]   # sem fluxo ManyChat ligado; 0 comentarios em 6 posts
+  modelos_legenda:
+    facebook:
+      - "{gancho_pergunta} {valor_1_linha} {pergunta_1_palavra}? Confira o artigo completo em tutorialpet.com.br (busque: {tema})"
+      - "Seu gato (ou cachorro) {dor}? {valor_1_linha} Manda para quem tem um. Confira o artigo completo em tutorialpet.com.br (busque: {tema})"
+      - "Parte 1/2: {gancho}. {valor_1_linha} A parte 2 sai amanha. Confira o artigo completo em tutorialpet.com.br (busque: {tema})"
+    instagram:
+      - "{gancho_pergunta} {valor_1_linha} Responde so com uma palavra: {pergunta_1_palavra}? Confira o artigo completo em tutorialpet.com.br (busque: {tema}) {hashtags_ate_5}"
+      - "{dor}? {valor_1_linha} Salva para lembrar. Confira o artigo completo em tutorialpet.com.br (busque: {tema}) {hashtags_ate_5}"
+      - "Parte 2/2: {gancho}. {valor_1_linha} Segue @tutorialpetbr para a proxima serie. Confira o artigo completo em tutorialpet.com.br (busque: {tema}) {hashtags_ate_5}"
+    tiktok:   # pausado
+      - "{gancho_pergunta} {valor_1_linha} Confira o artigo completo em tutorialpet.com.br {hashtags_3_5}"
+      - "{dor}? Resposta nos 5 s. Confira o artigo completo em tutorialpet.com.br {hashtags_3_5}"
+      - "Parte 1/2: {gancho}. Amanha tem a parte 2. Confira o artigo completo em tutorialpet.com.br {hashtags_3_5}"
+  perguntas_interacao:   # 5 por tema, resposta de 1 palavra, sem alegacao medica
+    gato:
+      - "Seu gato bebe agua do pote ou da torneira?"
+      - "Seu gato dorme na sua cama: sim ou nao?"
+      - "Seu gato usa o arranhador ou o sofa?"
+      - "Qual o petisco favorito do seu gato?"
+      - "Seu gato e de colo ou de longe?"
+    cachorro:
+      - "Seu cachorro dorme na cama ou na caminha?"
+      - "Seu cachorro puxa ou anda do lado na guia?"
+      - "Qual o brinquedo favorito do seu cachorro?"
+      - "Seu cachorro fica bem sozinho ou estranha?"
+      - "Banho: seu cachorro ama ou foge?"
+  regras_teste:
+    max_dias: 3
+    leitura: "24 h; nao decidir com <5 posts por variacao nem post <72 h; agir com hipotese"
+    gatilho: {facebook_tempo_s: 6, instagram_skip_pct: 70, tiktok_tempo_s: 4, share_por_posts_tiktok: 4}
+    testes: ["T1 tema gato 2/3 do dia", "T2 duracao 15-20 s", "T3 serie parte 1/2 e 2/2"]
+    estado_gatilho: "FB disparou (4,5 s; mediana 223); IG nao; TikTok sem leitura (banido)"
