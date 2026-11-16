@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Cachorro com a cabeca para fora da janela do carro pode? beneficios e riscos: guia prático",
+    "description": "Cachorro com a cabeca para fora da janela do carro pode? beneficios e riscos: guia prático. Sabe aquela cena clássica do cachorrinhoficando com a...",
+    "datePublished": "2026-11-08",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos"
+    },
+    "image": "https://tutorialpet.com.br/imagens/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Cachorro pode ficar com a cabeça na janela se o carro estiver devagar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Mesmo em baixa velocidade ou ruas de bairro, freadas inesperadas ou o impacto de pequenos detritos ainda representam riscos reais de acidentes e lesões.  * **Qual é a forma correta de prender o cachorro no carro?** O animal deve viajar sempre no banco de trás, preso por um cinto de segurança específico para pets conectado a um peitoral resistente, ou acomodado com segurança em uma caixa de transporte adequada ao seu tamanho.  * **Existe multa por deixar o cachorro com a cabeça para fora da janela?** Sim. Transportar animais à solta, do lado esquerdo ou nas partes externas do veículo é considerado infração de trânsito, passível de multa e pontos na CNH do motorista.  * **Como refrescar o cachorro no carro sem abrir a janela?** Utilize o ar-condicionado do veículo em temperatura moderada, faça paradas regulares na sombra para o pet esticar as pernas e ofereça água fresca durante o trajeto."
+        }
+      }
+    ]
+  }
+}
