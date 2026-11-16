@@ -12,6 +12,16 @@ sys.path.insert(0, str(ROOT / "scripts"))
 import gerar_foto_ia as g  # noqa: E402
 
 CENAS = {  # slug -> 3 prompts em ingles (so animal e objeto, sem pessoa)
+    "como-escolher-shampoo-para-cachorro-de-pele-sensivel": [
+        "Professional photograph of a happy clean fluffy white dog sitting on a bathroom mat after a bath, wrapped in a soft towel, a plain unlabeled pet shampoo bottle beside it, soft daylight",
+        "Professional photograph of a cheerful golden retriever in a bathtub with soft white foam on its back, calm happy face, bright clean bathroom, no people",
+        "Professional photograph of a well cared for small dog with a shiny clean coat sitting next to an unlabeled shampoo bottle and a folded towel, warm natural light",
+    ],
+    "voce-adotaria-um-cachorro-feio-a-beleza-que-nao-aparece-na-foto": [
+        "Professional photograph of a happy scruffy mixed breed dog with a cute crooked smile and tongue out, sitting on green grass in a sunny backyard, well cared for, warm light",
+        "Professional photograph of a joyful mutt dog with mismatched ears looking at the camera with bright friendly eyes, clean coat, cozy living room, soft daylight",
+        "Professional photograph of a cheerful quirky looking small dog wearing a colorful collar, playing in a park, wagging tail, golden hour light, well cared for",
+    ],
     "como-escolher-comedouro-duplo-elevado-para-gatos-idosos": [
         "Professional photograph of an elderly tabby cat eating from a raised double pet bowl stand, one bowl food one bowl water, cozy home kitchen, soft daylight",
         "Professional photograph of a senior gray cat standing at an elevated double cat feeder, eating kibble, warm indoor light, shallow depth of field",
