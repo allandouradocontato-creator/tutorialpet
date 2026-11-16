@@ -33,3 +33,4 @@ Skill: biblioteca/habilidades/anuncios_meta_decisao.md (v2, 22/10/2026). Uma lin
 2026-11-15 | não aplicável hoje (sem decisão de anúncio na rodada de audiência) | n=0 | mantém
 2026-11-15 | passo 4 (gasto/tráfego) + perfil | n=14 inícios, R$ 9,86/início; campanha PAUSED desde 14/11 (origem UNKNOWN); 25-34 = 8/14 inícios com 32% do gasto; decisão: pedir ao Allan confirmar a pausa, manter teto se religar | mantém
 2026-11-16 | não aplicável (sem anúncio pago; só orgânico) | n=0 | mantém
+2026-11-16 | passo 4 (gasto/tráfego) | n=14 inícios, R$ 9,86/início; campanha segue PAUSED, sem gasto desde 13/11, sem dado novo no Windsor (grátis, último dia 14/11); decisão: pedir ao Allan confirmar a pausa, manter teto se religar | mantém
