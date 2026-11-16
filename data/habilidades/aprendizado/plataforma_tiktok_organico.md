@@ -39,3 +39,4 @@ Skill: biblioteca/habilidades/plataforma_tiktok_organico.md (v1.0, 22/10/2026). 
 2026-11-09 | gancho com resposta cedo; espaçamento 4 h (E221) | n=3 TikTok 08/11: 2,95/1,47/1,99 s; meta >= 4 s não atingida | altera: T2 gato (E226)
 2026-11-15 | Agendador 08:15: estoque 2 dias a frente (16 e 17/11) FB/IG/TikTok; TikTok teve erro 'conta banida' em 12/11 (Buffer), sem sent depois | n=1 rodada; TikTok sem publicação confirmada desde 12/11 | mantém; Allan precisa checar conta TikTok; pacote direitos-do-consumidor e atropelado aguardam artigo (404)
 2026-11-15 | skill lida (comentário de terceiro >= 1 a cada 5 posts; TikTok banido; YouTube sem canal ativo) | n=0 novos além da ficha | mantém
+2026-11-16 12:20 | agendador rodada B: hoje FB/IG/TikTok publicados; 17/11 completo; 18/11 FB+IG ok, TikTok faltava | agendei TikTok shampoo 18/11 10:20 (Buffer 6afb1e8d); TikTok 11/13 deu 'conta banida' mas 16/11 saiu sent | n=1 | mantém; vigiar erro do TikTok 17/11
