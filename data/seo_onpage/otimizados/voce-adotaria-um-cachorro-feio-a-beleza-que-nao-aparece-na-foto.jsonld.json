@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Você adotaria um cachorro \"feio\"? A beleza que não aparece na foto",
+    "description": "Você adotaria um cachorro \"feio\"? A beleza que não aparece na foto. Imagine uma foto de abrigo. Um cachorro de orelhas desencontradas, pelo ralo em...",
+    "datePublished": "2026-11-12",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/voce-adotaria-um-cachorro-feio-a-beleza-que-nao-aparece-na-foto",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/voce-adotaria-um-cachorro-feio-a-beleza-que-nao-aparece-na-foto"
+    },
+    "image": "https://tutorialpet.com.br/imagens/voce-adotaria-um-cachorro-feio-a-beleza-que-nao-aparece-na-foto.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Pet sem raça definida tem mais problema de comportamento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não existe regra que ligue a aparência ao comportamento. O temperamento depende de cada animal, da história dele e do ambiente. Conversar com quem cuida dele no abrigo é a melhor forma de conhecer o jeito dele antes de adotar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Por que os animais pretos demoram mais para serem adotados?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Segundo as instituições ouvidas na pesquisa citada, a pelagem escura é uma das barreiras mais relatadas. A cor do pelo não diz nada sobre o caráter do animal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vale a pena adotar um pet adulto ou idoso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vale, desde que você esteja preparado para o compromisso e para os cuidados próprios da idade. A vantagem é conhecer o temperamento já formado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso adotar se moro em apartamento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode, desde que o porte e a energia do animal combinem com o seu espaço e a sua rotina. Converse com a ONG sobre isso."
+        }
+      }
+    ]
+  }
+}

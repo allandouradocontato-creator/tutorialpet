@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como escolher shampoo para cachorro de pele sensivel: guia prático",
+    "description": "Como escolher shampoo para cachorro de pele sensivel: guia prático. Quem convive com um pet que se coça o tempo todo sabe que a hora do banho exige...",
+    "datePublished": "2026-11-15",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-escolher-shampoo-para-cachorro-de-pele-sensivel",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-escolher-shampoo-para-cachorro-de-pele-sensivel"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-escolher-shampoo-para-cachorro-de-pele-sensivel.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso usar shampoo humano ou de bebê no cachorro de pele sensível?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. O pH da pele humana e a dos pets são completamente diferentes. Usar produtos de uso humano desequilibra a barreira cutânea do cachorro, piorando a sensibilidade e abrindo portas para infecções.  - **Como saber se o shampoo deu alergia no meu cachorro?** Fique atento a sinais como vermelhidão na pele, coceira intensa logo após o banho, descamação (caspa), pequenas bolinhas ou o hábito constante de o pet se lamber e morder as patas.  - **Shampoo natural é sempre melhor para pele sensível?** Nem sempre. Produtos caseiros ou fitoterápicos sem registro podem conter óleos essenciais tóxicos para animais. Prefira sempre marcas especializadas com comprovação de segurança e recomendação profissional.  - **Quando devo procurar um médico-veterinário por causa da coceira?** Se mesmo trocando o shampoo o seu cachorro continuar se coçando a ponto de ferir a pele, perder pelos ou apresentar mau cheiro persistente, procure ajuda profissional imediatamente para investigar alergias alimentares ou parasitas."
+        }
+      }
+    ]
+  }
+}

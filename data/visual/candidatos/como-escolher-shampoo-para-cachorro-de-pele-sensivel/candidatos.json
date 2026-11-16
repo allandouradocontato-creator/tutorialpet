@@ -53,13 +53,13 @@
   },
   {
     "fonte": "pexels",
-    "id": 5420744,
-    "url_download": "https://images.pexels.com/photos/5420744/pexels-photo-5420744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    "url_pagina": "https://www.pexels.com/photo/nose-of-dog-5420744/",
-    "fotografo": "https://kaboompics.com/",
-    "fotografo_url": "https://www.pexels.com/@karola-g",
-    "largura": 6720,
-    "altura": 4480,
+    "id": 30210734,
+    "url_download": "https://images.pexels.com/photos/30210734/pexels-photo-30210734.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-dog-s-nose-macrophotography-30210734/",
+    "fotografo": "Beth Fitzpatrick",
+    "fotografo_url": "https://www.pexels.com/@beth-fitzpatrick-742222899",
+    "largura": 6000,
+    "altura": 4000,
     "query": "dog close up",
     "indice": 4,
     "arquivo": "data/visual/candidatos/como-escolher-shampoo-para-cachorro-de-pele-sensivel/4.jpg"
@@ -76,38 +76,5 @@
     "query": "dog resting indoors",
     "indice": 5,
     "arquivo": "data/visual/candidatos/como-escolher-shampoo-para-cachorro-de-pele-sensivel/5.jpg"
-  },
-  {
-    "fonte": "ia-flux",
-    "id": "ia0",
-    "url_download": "",
-    "url_pagina": "https://www.tutorialpet.com.br",
-    "fotografo": "Tutorial Pet (imagem gerada por IA)",
-    "fotografo_url": "https://www.tutorialpet.com.br",
-    "query": "Professional photograph of a happy clean fluffy white dog sitting on a bathroom ",
-    "indice": 6,
-    "arquivo": "data/visual/candidatos/como-escolher-shampoo-para-cachorro-de-pele-sensivel/6.jpg"
-  },
-  {
-    "fonte": "ia-flux",
-    "id": "ia1",
-    "url_download": "",
-    "url_pagina": "https://www.tutorialpet.com.br",
-    "fotografo": "Tutorial Pet (imagem gerada por IA)",
-    "fotografo_url": "https://www.tutorialpet.com.br",
-    "query": "Professional photograph of a cheerful golden retriever in a bathtub with soft wh",
-    "indice": 7,
-    "arquivo": "data/visual/candidatos/como-escolher-shampoo-para-cachorro-de-pele-sensivel/7.jpg"
-  },
-  {
-    "fonte": "ia-flux",
-    "id": "ia2",
-    "url_download": "",
-    "url_pagina": "https://www.tutorialpet.com.br",
-    "fotografo": "Tutorial Pet (imagem gerada por IA)",
-    "fotografo_url": "https://www.tutorialpet.com.br",
-    "query": "Professional photograph of a well cared for small dog with a shiny clean coat si",
-    "indice": 8,
-    "arquivo": "data/visual/candidatos/como-escolher-shampoo-para-cachorro-de-pele-sensivel/8.jpg"
   }
 ]
