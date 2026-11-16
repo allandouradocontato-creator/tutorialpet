@@ -240,3 +240,4 @@ Formato: data | erro | causa | como evitar. Consultar antes de repetir um proces
 - 2026-11-15: Operação 26ª rodada: add_repo indisponível nas ferramentas (5ª vez); o clone local existia, fetch de origin/main resolveu. Falha de processo: capa sem candidata válida segura o blog quando depende de foto do Allan; solução = capa IA automática (E254).
 
 - 16/11/2026: foto do Instagram não aparecia porque o Instagram web do Chrome estava na conta @vetnatasha. Antes de mexer em perfil: conferir a conta ativa (Mais > Trocar de conta). Upload de arquivo por file_upload é bloqueado; funciona upload_image com captura de tela da imagem preenchendo o viewport (fundo da cor da imagem, sem faixas). acemusic.ai pausou novas chaves de API (não serve de motor).
+- 16/11 E259 lição: capa publicada pode ser foto proibida quando candidatos.json perde as entradas IA (indice não achado cai em candidatos[0]); auditoria_adsense pega, conferir md5 da capa nova.
