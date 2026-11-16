@@ -61,3 +61,8 @@
 15/11/2026 | FB/IG | comandos adotado (48 s, Agendador) | "Cachorro adulto adotado também aprende comandos básicos?" | FB 219 (6,3 s) / IG 106 (6,8 s, skip 51,5%) | FB 200+; melhor retenção da semana (6-7 s); ajuste: manter vídeos 45-50 s com utilidade prática
 15/11/2026 | FB/IG | adoção de gato adulto (extra, pacote aprovado) | "Se adotar filhote trabalhoso continua acontecendo com você, começa por aqui." | agendado FB 19:01 / IG 20:01 | leitura 16/11
 15/11/2026 | TikTok | todos | conta banida | sem leitura nova | E243/E247 abertas
+
+16/11/2026 | FB/IG | adotar gato adulto (extra, 47 s) | "Adotar um gato adulto é mais fácil do que parece?" | FB 406 (5,8 s, 16 curtidas) / IG 118 (7,3 s, skip 58%) | FB 200-999 (maior do mês): repetir 1x com ajuste (outro tema de adoção de gato); IG <200: não repetir gancho no IG; n=1, direção não causa
+16/11/2026 | FB/IG | sinais de envelhecimento gato (Agendador, 56 s) | "Seu gato idoso mudou e você não sabe se é normal?" | FB 245 (6,2 s) / IG 111 (7,3 s, skip 66%) | FB 200-999: ok; IG <200: não repetir; gato em FB segue ~210-400, IG ~110
+16/11/2026 | FB/IG | regra 3-3-3 pet adotado (extra, cachorro, 44 s) | "Seu cachorro adotado não para de chorar?" | agendado FB 14:00 / IG 15:00 | leitura 17/11
+16/11/2026 | TikTok | todos | conta banida | sem leitura nova | E243/E247 abertas

@@ -37,3 +37,5 @@ Ver o status da conta no app (item 0) e dizer se há aviso. Isso decide se o "ir
 "Quantas vezes por dia dar água/comida ao gato" e "gato idoso: quanto dorme é normal" (conferir se já existem antes da fábrica produzir).
 
 15/11/2026 | tema para fila_temas (proposta; só a fábrica edita) | "Gato adulto ou filhote: qual combina com sua rotina?" (reaproveita retenção do tema adoção + gato)
+
+16/11/2026 tema para fila_temas (só proposta): "o que fazer no dia 1 de um gato adulto adotado" e "gato adulto com caixa de areia: como acertar na adaptação" (adoção de gato adulto fez FB 406, maior do mês).

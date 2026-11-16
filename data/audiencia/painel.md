@@ -145,3 +145,15 @@ Meta: IG 8/500 = 1,6%; FB 14.
 Views 24 h (Zernio, sync 15/11 04:09 Fortaleza): gato remédio FB 210 (4,5 s) / IG 114 (5,0 s, skip 68%) | fonte de água FB 223 (4,2 s) / IG 114 (3,8 s, skip 65%) | comandos adotado FB 219 (6,3 s) / IG 106 (6,8 s, skip 51,5%).
 Hoje (Zernio): FB 14:00 e IG 15:00 sinais de envelhecimento gato (Agendador/E244) + EXTRAS do Operador: FB 19:01 (6af98dbb5314a56a4a77048f) e IG 20:01 (6af98dbc3daafd32d657971b) adotar gato adulto (pacote aprovado, URL 200). FB 10:00/IG 11:00: a cargo do Agendador 08:15 (E250). Total previsto: FB 3, IG 3; TikTok 0.
 Zernio: 8 posts em erro antigos (mídia inacessível), não reenviados.
+
+## Rodada 16/11 07:41 (Operador de Audiência, nuvem)
+ALERTA TOPO: TikTok @tutorialpetbr segue BANIDO (E243/E247 aguardam Allan/PC). Buffer ainda tem 2 TikTok agendados (16/11 10:20, 67 s; 17/11 10:20) que tendem a falhar; não mexi (são do Agendador, plano do Estrategista manda trocar).
+| rede | seguidores | ganho do dia |
+|---|---|---|
+| Facebook | 14 | 0 (parado desde 06/11) |
+| Instagram | 9 (137 posts) | +1 (8 → 9; 5 → 9 em 7 dias) |
+| TikTok | SEM DADO (conta banida; Buffer só views) | ? |
+Meta: IG 9/500 = 1,8%; FB 14.
+Views 24 h (Zernio, sync 16/11): gato idoso sinais FB 245 (6,2 s) / IG 111 (7,3 s, skip 66%) | adotar gato adulto FB 406 (5,8 s, 16 curtidas, 26 replays; maior do mês no FB) / IG 118 (7,3 s, skip 58%).
+Hoje (Zernio, URL 200): FB 10:00 + IG 11:00 cachorro medroso (Agendador) | EXTRA FB 14:00 (6afade98315c98ee2d87b70b) e IG 15:00 (6afade9a51bb39241c42b3a5) regra 3-3-3 do pet adotado (cachorro, 44 s). FB 19:00/IG 20:00 vazios: sem estoque aprovado de gato (E258). Total: FB 2 de 3, IG 2 de 3; TikTok 0.
+Zernio: 8 posts em erro antigos (mídia inacessível), não reenviados.
