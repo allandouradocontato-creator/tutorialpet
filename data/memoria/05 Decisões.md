@@ -95,3 +95,6 @@
 - 13/11/2026: skills dica_salvavel_alerta_utilidade e serie_comandos_foto_pet_ia atualizadas para v2 com o que ele FALA (estrutura falada, banco de comandos); comandos que usam foto de pessoa ou rosto de celebridade EXCLUÍDOS da série pet. Tudo "sem teste nosso" até testarmos.
 - 2026-11-13: teste da Música do Pet falhou só por cota HF; reagendado para 14/11 19h20 (Fortaleza). Rosana NÃO recebeu o link. Recomendado para vender: fal.ai com US$ 10.
 - 15/11/2026: Allan quis que a pessoa possa FALAR em vez de digitar na Música do Seu Pet; escolheu a opção 1 (microfone nos campos, grátis, Web Speech API do navegador, sem servidor). Campos: texto rápido do topo, nome do pet e história. Se muitos clientes usarem iPhone, avaliar opção 2 (Whisper no Workers AI). Compra dos US$ 10 da fal.ai segue parada: Nubank recusou 3 cartões (5491, 1128, 0683) em 15/11.
+
+- 16/11/2026: motor da Música do Pet passou para o deAPI (ACE-Step 1.5 XL Turbo INT8, US$ 5 grátis sem cartão): provedor musica_backend/lib/provedores/deapi.js, segredo DEAPI_KEY no Cloudflare, MUSIC_PROVIDERS=deapi,hf. Teste AMIGOPET (Thor, Shih Tzu, pop alegre, feminina, pedido j2w7rsdhxj53) entregue em segundos, MP3 de 150 s. Link da Rosana só depois de o Allan ouvir.
+- 16/11/2026: Instagram @tutorialpetbr ganhou foto de perfil (logo laranja) pela web; o Chrome estava logado como @vetnatasha.
