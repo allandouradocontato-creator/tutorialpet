@@ -1,0 +1,47 @@
+{
+  "titulo_video": "O que fazer quando o pet come lixo na rua",
+  "gancho_3s": "Se você é tutor e quer proteger seu cachorro, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "Se você é tutor e quer proteger seu cachorro, assiste isso.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro comeu lixo na rua?"
+    },
+    {
+      "narracao": "[thoughtful] Se o seu cachorro pegou algo na rua, respira fundo e veja o que ele engoliu.",
+      "visual_busca_banco_livre": "dog sniffing ground street outdoor",
+      "texto_na_tela": "Mantenha a calma"
+    },
+    {
+      "narracao": "[short pause] Se ele ainda estiver mastigando, abre a boca com cuidado e tira pela lateral.",
+      "visual_busca_banco_livre": "dog opening mouth close up",
+      "texto_na_tela": "Remova com cuidado"
+    },
+    {
+      "narracao": "[softly] Nunca puxe nada que já esteja descendo, tá? Pra não machucar ele.",
+      "visual_busca_banco_livre": "dog panting close up",
+      "texto_na_tela": "Nunca puxe"
+    },
+    {
+      "narracao": "[thoughtful] Se engoliu plástico, vidro ou restos com tempero, corre pro veterinário.",
+      "visual_busca_banco_livre": "dog looking sad close up",
+      "texto_na_tela": "Procure veterinário"
+    },
+    {
+      "narracao": "[thoughtful] E nunca tente provocar o vômito em casa, isso pode ser perigoso.",
+      "visual_busca_banco_livre": "dog sitting confused close up",
+      "texto_na_tela": "Evite receitas caseiras"
+    }
+  ],
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#cachorro",
+    "#cuidadoscompets",
+    "#dicapet",
+    "#passeioseguro"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu pet comeu lixo na rua? Veja o que fazer agora!\n\n📖 Artigo completo: https://tutorialpet.com.br/o-que-fazer-quando-o-pet-come-lixo-na-rua\n\n#cachorro #cuidadoscompets #dicapet #passeioseguro",
+  "slug": "o-que-fazer-quando-o-pet-come-lixo-na-rua",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 2
+}
