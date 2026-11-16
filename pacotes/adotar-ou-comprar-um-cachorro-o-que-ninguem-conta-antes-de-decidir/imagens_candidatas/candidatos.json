@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32476519,
+    "url_download": "https://images.pexels.com/photos/32476519/pexels-photo-32476519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-in-studio-portrait-32476519/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog isolated white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5731875,
+    "url_download": "https://images.pexels.com/photos/5731875/pexels-photo-5731875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-dogs-looking-in-different-directions-on-white-background-5731875/",
+    "fotografo": "Sam Lion",
+    "fotografo_url": "https://www.pexels.com/@sam-lion",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog isolated white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16948018,
+    "url_download": "https://images.pexels.com/photos/16948018/pexels-photo-16948018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-black-dog-with-brown-eyes-16948018/",
+    "fotografo": "Marlon Costa",
+    "fotografo_url": "https://www.pexels.com/@marlon-costa-275585828",
+    "largura": 4114,
+    "altura": 2743,
+    "query": "dog isolated white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7186218,
+    "url_download": "https://images.pexels.com/photos/7186218/pexels-photo-7186218.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-on-black-background-7186218/",
+    "fotografo": "Ylanite Koppens",
+    "fotografo_url": "https://www.pexels.com/@nietjuhart",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog isolated white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16574089,
+    "url_download": "https://images.pexels.com/photos/16574089/pexels-photo-16574089.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-sitting-in-snow-in-black-and-white-16574089/",
+    "fotografo": "Christian A.",
+    "fotografo_url": "https://www.pexels.com/@christian-a-229131930",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog isolated white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33334460,
+    "url_download": "https://images.pexels.com/photos/33334460/pexels-photo-33334460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-cream-chihuahua-puppy-studio-portrait-33334460/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy studio shot",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/adotar-ou-comprar-um-cachorro-o-que-ninguem-conta-antes-de-decidir/5.jpg"
+  }
+]

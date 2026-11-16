@@ -1,0 +1,28 @@
+{
+  "slug": "como-escolher-coleira-com-rastreador-gps-para-cachorro",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-23T18:06:49+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-coleira-com-rastreador-gps-para-cachorro",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "agendamento": {
+    "dia": "2026-10-28",
+    "turno": "A",
+    "zernio_facebook": "6add0546d36d8c3350ade5f5",
+    "zernio_instagram": "6add05483a369dc3b8c4f3db",
+    "tiktok": {
+      "buffer_id": "6adde63c3d5b27036bcc9077",
+      "quando": "2026-10-28T10:20:00-03:00"
+    }
+  },
+  "rehook": {
+    "gancho_antigo": "Seu cachorro fugiria pelo portão?",
+    "gancho_novo": "Seu cachorro fugiria pelo portão?"
+  }
+}

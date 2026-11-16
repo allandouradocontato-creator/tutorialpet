@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 18839095,
+    "url_download": "https://images.pexels.com/photos/18839095/pexels-photo-18839095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-the-dog-face-18839095/",
+    "fotografo": "Prakash wildlife",
+    "fotografo_url": "https://www.pexels.com/@prakash-wildlife-285173477",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute stray dog portrait closeup",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37739680,
+    "url_download": "https://images.pexels.com/photos/37739680/pexels-photo-37739680.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/profile-portrait-of-a-relaxed-indian-street-dog-37739680/",
+    "fotografo": "Soham Kundu",
+    "fotografo_url": "https://www.pexels.com/@sk8805",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute stray dog portrait closeup",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16260832,
+    "url_download": "https://images.pexels.com/photos/16260832/pexels-photo-16260832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/ginger-dog-lying-on-pavement-16260832/",
+    "fotografo": "Diana ✨",
+    "fotografo_url": "https://www.pexels.com/@didsss",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute stray dog portrait closeup",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33641709,
+    "url_download": "https://images.pexels.com/photos/33641709/pexels-photo-33641709.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-black-and-white-kitten-portrait-33641709/",
+    "fotografo": "Brett Jordan",
+    "fotografo_url": "https://www.pexels.com/@brettjordan",
+    "largura": 5184,
+    "altura": 3888,
+    "query": "rescued cat sitting alone indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33641707,
+    "url_download": "https://images.pexels.com/photos/33641707/pexels-photo-33641707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-relaxed-calico-cat-indoors-33641707/",
+    "fotografo": "Brett Jordan",
+    "fotografo_url": "https://www.pexels.com/@brettjordan",
+    "largura": 4653,
+    "altura": 3753,
+    "query": "rescued cat sitting alone indoor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33641715,
+    "url_download": "https://images.pexels.com/photos/33641715/pexels-photo-33641715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calico-cat-resting-on-colorful-patterned-rug-33641715/",
+    "fotografo": "Brett Jordan",
+    "fotografo_url": "https://www.pexels.com/@brettjordan",
+    "largura": 5048,
+    "altura": 3999,
+    "query": "rescued cat sitting alone indoor",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-se-cadastrar-como-protetor-de-animais-e-quais-beneficios-existem/5.jpg"
+  }
+]

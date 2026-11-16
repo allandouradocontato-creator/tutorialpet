@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 34617020,
+    "url_download": "https://images.pexels.com/photos/34617020/pexels-photo-34617020.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-cat-sleeping-peacefully-on-blanket-34617020/",
+    "fotografo": "Nguyen Truong Khang",
+    "fotografo_url": "https://www.pexels.com/@mazic",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute cat sleeping alone at home",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 22300650,
+    "url_download": "https://images.pexels.com/photos/22300650/pexels-photo-22300650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/young-cat-sleeping-on-its-paw-22300650/",
+    "fotografo": "WEI WU",
+    "fotografo_url": "https://www.pexels.com/@wei-wu-413073151",
+    "largura": 5933,
+    "altura": 3847,
+    "query": "cute cat sleeping alone at home",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40354031,
+    "url_download": "https://images.pexels.com/photos/40354031/pexels-photo-40354031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-sleeping-tabby-cat-indoors-40354031/",
+    "fotografo": "Charlie  Seidowsky",
+    "fotografo_url": "https://www.pexels.com/@charlie-seidowsky-2154710744",
+    "largura": 4080,
+    "altura": 2296,
+    "query": "cute cat sleeping alone at home",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34163085,
+    "url_download": "https://images.pexels.com/photos/34163085/pexels-photo-34163085.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sleeping-cat-on-sunlit-carpet-34163085/",
+    "fotografo": "Khalid",
+    "fotografo_url": "https://www.pexels.com/@khalid",
+    "largura": 4000,
+    "altura": 3000,
+    "query": "cute cat sleeping alone at home",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1265624,
+    "url_download": "https://images.pexels.com/photos/1265624/pexels-photo-1265624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/silver-tabby-cat-lying-on-teal-padded-chair-1265624/",
+    "fotografo": "FOX ^.ᆽ.^= ∫",
+    "fotografo_url": "https://www.pexels.com/@fox-58267",
+    "largura": 5601,
+    "altura": 3734,
+    "query": "cute cat sleeping alone at home",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39647620,
+    "url_download": "https://images.pexels.com/photos/39647620/pexels-photo-39647620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-cat-at-cozy-indoor-cafe-39647620/",
+    "fotografo": "Titus  Hunter",
+    "fotografo_url": "https://www.pexels.com/@titus-hunter-692810",
+    "largura": 3024,
+    "altura": 2005,
+    "query": "lonely cat indoors minimalist composition",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quantos-dias-o-gato-pode-ficar-sozinho-em-casa/5.jpg"
+  }
+]

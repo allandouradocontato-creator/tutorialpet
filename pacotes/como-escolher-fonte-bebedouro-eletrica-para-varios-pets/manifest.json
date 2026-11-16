@@ -1,0 +1,31 @@
+{
+  "slug": "como-escolher-fonte-bebedouro-eletrica-para-varios-pets",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-26T14:43:11+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-fonte-bebedouro-eletrica-para-varios-pets",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "coerência espécie cachorro: espécie errada (esperado cachorro) nos quadros [1, 2, 5, 6] [cf]"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "14 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (alex-morgan-upbeat-591314.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_pergunta_numero)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-10-26T14:45:51+00:00"
+  }
+}

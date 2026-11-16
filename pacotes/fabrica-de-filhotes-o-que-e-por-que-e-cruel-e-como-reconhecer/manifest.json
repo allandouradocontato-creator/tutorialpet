@@ -1,0 +1,30 @@
+{
+  "slug": "fabrica-de-filhotes-o-que-e-por-que-e-cruel-e-como-reconhecer",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-29T11:38:16+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/fabrica-de-filhotes-o-que-e-por-que-e-cruel-e-como-reconhecer",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "3 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025, pexels:10050402, pexels:28829625)",
+      "CTA igual ao de um dos últimos vídeos (o CTA deve variar)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "música alternada (gr0za-happy-happy-music-569345.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "gancho diferente dos últimos vídeos (abertura_pensar)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-10-29T11:39:44+00:00"
+  }
+}

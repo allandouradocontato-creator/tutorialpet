@@ -1,0 +1,42 @@
+{
+  "brand_id": 7123441,
+  "timezone": "America/Fortaleza",
+  "turno": "A",
+  "posts": [
+    {
+      "rede": "facebook",
+      "agendar_para": "2026-10-30T10:00:00",
+      "legenda": "Seu cachorro idoso ainda quer passear, mas as juntas já cansaram?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#cachorroidoso #carrinhoparapet #idosopet",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-carrinho-de-passeio-para-cachorro-idoso",
+      "facebookData": {
+        "type": "REEL",
+        "title": "Como escolher o carrinho ideal para cachorro idoso"
+      }
+    },
+    {
+      "rede": "instagram",
+      "agendar_para": "2026-10-30T11:00:00",
+      "legenda": "Seu cachorro idoso ainda quer passear, mas as juntas já cansaram?\n\n📖 Confira o artigo completo em tutorialpet.com.br (link no primeiro comentário)\n\n#cachorroidoso #carrinhoparapet #idosopet",
+      "primeiro_comentario": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-carrinho-de-passeio-para-cachorro-idoso",
+      "instagramData": {
+        "type": "REEL",
+        "showReelOnFeed": true,
+        "isAiGenerated": true
+      }
+    },
+    {
+      "rede": "tiktok",
+      "agendar_para": "2026-10-30T10:20:00",
+      "legenda": "Se dor nas juntas continua acontecendo com você, começa por aqui. Confira o artigo completo em tutorialpet.com.br. #cachorroidoso #carrinhoparapet #idosopet #tutorialpet",
+      "primeiro_comentario": "",
+      "tiktokData": {
+        "privacyOption": "PUBLIC_TO_EVERYONE",
+        "title": "Como escolher o carrinho ideal para cachorro idoso",
+        "isAigc": true
+      }
+    }
+  ],
+  "video_url_publica": "https://raw.githubusercontent.com/allandouradocontato-creator/tutorialpet/media/pacotes/como-escolher-carrinho-de-passeio-para-cachorro-idoso/video.mp4",
+  "slug": "como-escolher-carrinho-de-passeio-para-cachorro-idoso",
+  "regra": "2 vídeos/dia escalonados por rede; links do produto (landing) e do artigo vão no PRIMEIRO COMENTÁRIO (Instagram/Facebook), nunca no texto; TikTok sem link, com rótulo de IA e 'Sua marca'; criar UM post por rede, cada um no seu horário"
+}

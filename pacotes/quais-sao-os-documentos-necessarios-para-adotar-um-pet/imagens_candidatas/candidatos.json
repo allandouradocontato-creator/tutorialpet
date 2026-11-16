@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32476519,
+    "url_download": "https://images.pexels.com/photos/32476519/pexels-photo-32476519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-in-studio-portrait-32476519/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog isolated on white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quais-sao-os-documentos-necessarios-para-adotar-um-pet/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1713541,
+    "url_download": "https://images.pexels.com/photos/1713541/pexels-photo-1713541.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-on-snow-field-1713541/",
+    "fotografo": "TimSon Foox",
+    "fotografo_url": "https://www.pexels.com/@timson-foox-776012",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog isolated on white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quais-sao-os-documentos-necessarios-para-adotar-um-pet/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5731875,
+    "url_download": "https://images.pexels.com/photos/5731875/pexels-photo-5731875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-dogs-looking-in-different-directions-on-white-background-5731875/",
+    "fotografo": "Sam Lion",
+    "fotografo_url": "https://www.pexels.com/@sam-lion",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog isolated on white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quais-sao-os-documentos-necessarios-para-adotar-um-pet/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16948018,
+    "url_download": "https://images.pexels.com/photos/16948018/pexels-photo-16948018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-black-dog-with-brown-eyes-16948018/",
+    "fotografo": "Marlon Costa",
+    "fotografo_url": "https://www.pexels.com/@marlon-costa-275585828",
+    "largura": 4114,
+    "altura": 2743,
+    "query": "dog isolated on white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quais-sao-os-documentos-necessarios-para-adotar-um-pet/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7186218,
+    "url_download": "https://images.pexels.com/photos/7186218/pexels-photo-7186218.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-on-black-background-7186218/",
+    "fotografo": "Ylanite Koppens",
+    "fotografo_url": "https://www.pexels.com/@nietjuhart",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog isolated on white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quais-sao-os-documentos-necessarios-para-adotar-um-pet/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2194416,
+    "url_download": "https://images.pexels.com/photos/2194416/pexels-photo-2194416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-tabby-kitten-on-a-white-surface-2194416/",
+    "fotografo": "Tranmautritam",
+    "fotografo_url": "https://www.pexels.com/@tranmautritam",
+    "largura": 5149,
+    "altura": 3005,
+    "query": "cat isolated on white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quais-sao-os-documentos-necessarios-para-adotar-um-pet/5.jpg"
+  }
+]

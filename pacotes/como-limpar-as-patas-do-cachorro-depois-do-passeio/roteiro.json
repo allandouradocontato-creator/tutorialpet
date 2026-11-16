@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como limpar as patas do cachorro do jeito certo",
+  "gancho_3s": "Patas sujas depois do passeio?",
+  "cenas": [
+    {
+      "narracao": "[smiling] Patas sujas depois do passeio?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Patas sujas depois do passeio?"
+    },
+    {
+      "narracao": "Deixar a sujeira acumular nas patinhas pode causar problemas de pele.",
+      "visual_busca_banco_livre": "dog muddy paws close up",
+      "texto_na_tela": "Sujeira acumula nas patas!"
+    },
+    {
+      "narracao": "Usar sabonete humano ou qualquer lenço umedecido é um erro, porque a pele deles é muito sensível.",
+      "visual_busca_banco_livre": "dog paws close up",
+      "texto_na_tela": "Cuidado com o sabonete humano"
+    },
+    {
+      "narracao": "[short pause] Água corrente e sabonete específico são a melhor escolha para limpar direitinho.",
+      "visual_busca_banco_livre": "dog washing paws water",
+      "texto_na_tela": "Use água e sabonete pet"
+    },
+    {
+      "narracao": "Lave cada pata com cuidado e aproveite para checar se tem algum corte ou espinho.",
+      "visual_busca_banco_livre": "dog paw inspection close up",
+      "texto_na_tela": "Inspecione entre os dedos"
+    },
+    {
+      "narracao": "[thoughtful] Depois, seque bem com uma toalha entre os dedos, pra evitar fungos e bactérias.",
+      "visual_busca_banco_livre": "dog drying paws with towel",
+      "texto_na_tela": "Seque muito bem"
+    },
+    {
+      "narracao": "[softly] Se notar algum ferimento, lave com água limpa e procure o médico-veterinário.",
+      "visual_busca_banco_livre": "dog resting healthy paw",
+      "texto_na_tela": "Achou corte? Procure o veterinário"
+    }
+  ],
+  "chamada_final": "Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. [smiling] Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#cachorro",
+    "#cuidadospet",
+    "#dicapet",
+    "#doglovers",
+    "#higieneanimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nCansado de ver marcas de patas pela casa toda?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-limpar-as-patas-do-cachorro-depois-do-passeio\n\n#cachorro #cuidadospet #dicapet #doglovers #higieneanimal",
+  "slug": "como-limpar-as-patas-do-cachorro-depois-do-passeio",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 7
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-22T18:16:46+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-ensinar-filhote-a-fazer-xixi-no-tapete-higienico",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "agendamento": {
+    "dia": "2026-10-27",
+    "turno": "B",
+    "zernio_facebook": "6add053d3a369dc3b8c4f356",
+    "zernio_instagram": "6add053f3a369dc3b8c4f377",
+    "tiktok": "6add0562bd33ce99c33bd386"
+  },
+  "rehook": {
+    "gancho_antigo": "Filhote faz xixi fora do tapete?",
+    "gancho_novo": "Filhote faz xixi fora do tapete?"
+  }
+}

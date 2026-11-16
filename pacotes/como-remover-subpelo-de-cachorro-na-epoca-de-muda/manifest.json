@@ -1,0 +1,31 @@
+{
+  "slug": "como-remover-subpelo-de-cachorro-na-epoca-de-muda",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-10-30T18:43:09+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-remover-subpelo-de-cachorro-na-epoca-de-muda",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "4 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025, pexels:7516712, pexels:10050402, pexels:28829625)",
+      "gancho repetido de um dos últimos 5 vídeos (abertura_problema_pet)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 6/6 quadros conferem [cf]"
+    ],
+    "em": "2026-10-30T18:44:36+00:00"
+  }
+}

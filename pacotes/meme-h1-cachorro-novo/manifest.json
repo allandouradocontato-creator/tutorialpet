@@ -1,0 +1,17 @@
+{
+ "slug": "meme-h1-cachorro-novo",
+ "status": "extra_pronto",
+ "formato": "meme_identificacao",
+ "tipo": "extra_audiencia",
+ "criado_em": "2026-10-16T14:27:25+00:00",
+ "artigo_url_futura": "https://tutorialpet.com.br/primeiros-dias-do-filhote-em-casa",
+ "guardiao": {
+  "status": "ok",
+  "ok": [
+   "animal do clipe: gato (busca 'annoyed cat staring at camera', filtro de estilo Pexels)",
+   "sem voz; texto original; carimbo aplicado"
+  ],
+  "em": "2026-10-16T14:27:25+00:00"
+ },
+ "aprovado_por": "Criador de Audiência: classe liberada (regra do Allan, 15/10/2026)"
+}

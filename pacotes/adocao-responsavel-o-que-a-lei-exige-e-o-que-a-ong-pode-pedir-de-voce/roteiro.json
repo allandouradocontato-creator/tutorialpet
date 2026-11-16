@@ -1,0 +1,48 @@
+{
+  "titulo_video": "O que a lei e as ONGs exigem na adoção de pets?",
+  "gancho_3s": "Se a burocracia na adoção continua com você, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Se a burocracia na adoção continua com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Adotar um gato é tão difícil?"
+    },
+    {
+      "narracao": "[thoughtful] A lei não pede antecedentes, mas o termo da ONG tem valor legal contra maus-tratos.",
+      "visual_busca_banco_livre": "dog looking through window close up",
+      "texto_na_tela": "Termo de adoção tem valor legal"
+    },
+    {
+      "narracao": "[short pause] É normal pedirem comprovante de residência, fotos e entrevista sobre a sua rotina.",
+      "visual_busca_banco_livre": "cat sitting on sofa relaxed",
+      "texto_na_tela": "Exigências reais das ONGs"
+    },
+    {
+      "narracao": "[softly] Telas nas janelas são fundamentais para evitar quedas e fugas seguras do gato.",
+      "visual_busca_banco_livre": "cat looking out window curious",
+      "texto_na_tela": "Segurança e telas nas janelas"
+    },
+    {
+      "narracao": "Taxas de adoção são legítimas quando cobrem castração, vacinas e exames veterinários.",
+      "visual_busca_banco_livre": "puppy playing with toy indoor",
+      "texto_na_tela": "Taxa de adoção cobre custos"
+    },
+    {
+      "narracao": "[thoughtful] Desconfie de exigências abusivas, como visitas sem aviso ou perguntas muito invasivas.",
+      "visual_busca_banco_livre": "dog resting head on floor",
+      "texto_na_tela": "Fique atento a exageros"
+    }
+  ],
+  "chamada_final": "[warmly] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "adocaoresponsavel",
+    "adotaretudodebom",
+    "cuidadoscompets",
+    "direitosdosanimais",
+    "petfeliz"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer adotar um pet mas acha que a burocracia é excessiva?\n\n📖 Artigo completo: https://tutorialpet.com.br/adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce\n\n#adocaoresponsavel #adotaretudodebom #cuidadoscompets #direitosdosanimais #petfeliz",
+  "slug": "adocao-responsavel-o-que-a-lei-exige-e-o-que-a-ong-pode-pedir-de-voce",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 6
+}

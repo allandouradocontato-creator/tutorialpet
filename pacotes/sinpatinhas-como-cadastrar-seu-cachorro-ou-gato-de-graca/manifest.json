@@ -1,0 +1,45 @@
+{
+  "slug": "sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca",
+  "status": "agendado",
+  "criado_em": "2026-10-31T15:21:00+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/sinpatinhas-como-cadastrar-seu-cachorro-ou-gato-de-graca",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "16 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_chamada_direta)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-10-31T15:22:22+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado": {
+    "em": "2026-10-31T16:18:00-03:00",
+    "facebook": {
+      "zernio": "6ae63efc0b26f3997e09d734",
+      "para": "2026-11-02T19:00-03:00"
+    },
+    "instagram": {
+      "zernio": "6ae63eff90f7e037c9cd33bd",
+      "para": "2026-11-02T20:00-03:00"
+    },
+    "tiktok": {
+      "buffer": "6ae63f01f0984eef33282a7d",
+      "para": "2026-11-02T20:20-03:00"
+    }
+  }
+}

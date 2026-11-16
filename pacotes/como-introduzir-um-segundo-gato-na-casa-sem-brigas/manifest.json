@@ -1,0 +1,40 @@
+{
+  "slug": "como-introduzir-um-segundo-gato-na-casa-sem-brigas",
+  "status": "agendado",
+  "criado_em": "2026-10-20T11:29:46+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-introduzir-um-segundo-gato-na-casa-sem-brigas",
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "14 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_erro)",
+      "voz da Duda no padrão (eleven_v4, estabilidade 0.26)",
+      "coerência espécie gato: coerência não verificada (visão indisponível: GEMINI_API_KEY ausente)"
+    ],
+    "em": "2026-10-20T11:30:59+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-21T08:30-03:00",
+  "agendamento": {
+    "facebook": {
+      "id": "6ad8a161d2e5e717e79228a7",
+      "agendar_para": "2026-10-22T10:00-03:00",
+      "agendador": "zernio"
+    },
+    "instagram": {
+      "id": "6ad8a166d2e5e717e79228d2",
+      "agendar_para": "2026-10-22T11:00-03:00",
+      "agendador": "zernio"
+    },
+    "tiktok": {
+      "id": "6ad8a1729c5d256f6598ceac",
+      "agendar_para": "2026-10-22T14:20-03:00",
+      "agendador": "buffer"
+    }
+  }
+}

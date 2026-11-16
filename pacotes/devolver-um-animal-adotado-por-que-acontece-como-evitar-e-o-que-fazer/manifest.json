@@ -1,0 +1,36 @@
+{
+  "slug": "devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer",
+  "status": "agendado",
+  "criado_em": "2026-11-06T16:56:10+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/devolver-um-animal-adotado-por-que-acontece-como-evitar-e-o-que-fazer",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "14 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_dor)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-11-06T16:56:59+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendamento": {
+    "agendado_em": "2026-11-07T08:21:00-03:00",
+    "facebook": {"quando": "2026-11-09T10:00:00-03:00", "zernio_id": "6aef099e80ed9aeb64b29262"},
+    "instagram": {"quando": "2026-11-09T11:00:00-03:00", "zernio_id": "6aef099f94fa0008d88256fe"},
+    "tiktok": {"quando": "2026-11-09T10:20:00-03:00", "buffer_id": "6aef09a0d6bbae6fa1819476"}
+  }
+}

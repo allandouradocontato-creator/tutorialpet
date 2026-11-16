@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Quanto custa um cachorro em 10 anos?",
+  "gancho_3s": "6 coisas que ninguém te conta sobre ter cachorro.",
+  "cenas": [
+    {
+      "narracao": "6 coisas que ninguém te conta sobre ter cachorro.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Quanto custa manter seu cachorro?"
+    },
+    {
+      "narracao": "Comprar um filhote de raça custa caro, enquanto adotar costuma ter só uma taxa simbólica.",
+      "visual_busca_banco_livre": "golden retriever puppy sitting alone on floor",
+      "texto_na_tela": "Compra vs Adoção"
+    },
+    {
+      "narracao": "O enxoval com caminha, comedouro e guia sai praticamente igual nos dois casos.",
+      "visual_busca_banco_livre": "puppy playing with chew toy indoors",
+      "texto_na_tela": "Enxoval inicial"
+    },
+    {
+      "narracao": "[thoughtful] Mas em dez anos, vacinas, exames e antiparasitários somam de doze a vinte e cinco mil reais.",
+      "visual_busca_banco_livre": "dog looking attentively at camera close up",
+      "texto_na_tela": "R$ 12.000 a R$ 25.000 em prevenção"
+    },
+    {
+      "narracao": "Cachorros de raça pura podem exigir mais gastos por questões genéticas.",
+      "visual_busca_banco_livre": "french bulldog lying on floor looking tired",
+      "texto_na_tela": "Predisposições genéticas"
+    },
+    {
+      "narracao": "E os vira-latas também adoecem na velhice e precisam de suporte financeiro.",
+      "visual_busca_banco_livre": "senior mixed breed dog resting outside",
+      "texto_na_tela": "Cuidados na velhice"
+    },
+    {
+      "narracao": "[short pause] Tenha uma reserva pra emergências e consulte sempre o veterinário na rotina preventiva.",
+      "visual_busca_banco_livre": "happy dog running in green park",
+      "texto_na_tela": "Consulte o médico veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cuidadoscomcachorro",
+    "#planejamentofinanceiro",
+    "#adocaoresponsavel",
+    "#caesderaça",
+    "#saudeanimal"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVocê sabe quanto custa um cachorro em 10 anos?\n\n📖 Artigo completo: https://tutorialpet.com.br/quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos\n\n#cuidadoscomcachorro #planejamentofinanceiro #adocaoresponsavel #caesderaça #saudeanimal",
+  "slug": "quanto-custa-um-cachorro-de-raca-e-quanto-custa-adotar-em-10-anos",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 5
+}

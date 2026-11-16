@@ -1,0 +1,31 @@
+{
+  "slug": "utilidade-publica-para-pets-no-rio-de-janeiro-castracao-denuncia-e-cadastro",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-11-15T16:35:22+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/utilidade-publica-para-pets-no-rio-de-janeiro-castracao-denuncia-e-cadastro",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "2 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025, pexels:10050402)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "música alternada (alex-morgan-upbeat-591314.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_pergunta_numero)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 2/2 quadros conferem [cf]"
+    ],
+    "em": "2026-11-15T16:37:28+00:00"
+  }
+}

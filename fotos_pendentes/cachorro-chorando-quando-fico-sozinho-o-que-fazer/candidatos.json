@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35099696,
+    "url_download": "https://images.pexels.com/photos/35099696/pexels-photo-35099696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-portrait-of-dog-looking-out-window-35099696/",
+    "fotografo": "Alexander Tisko",
+    "fotografo_url": "https://www.pexels.com/@alexander-tisko-2156743736",
+    "largura": 6192,
+    "altura": 4128,
+    "query": "sad dog alone indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 18065206,
+    "url_download": "https://images.pexels.com/photos/18065206/pexels-photo-18065206.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-behind-pane-18065206/",
+    "fotografo": "Diana ✨",
+    "fotografo_url": "https://www.pexels.com/@didsss",
+    "largura": 5864,
+    "altura": 3909,
+    "query": "sad dog alone indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10326329,
+    "url_download": "https://images.pexels.com/photos/10326329/pexels-photo-10326329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-yorkshire-terrier-behind-a-glass-window-10326329/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "lonely dog looking out window",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11892013,
+    "url_download": "https://images.pexels.com/photos/11892013/pexels-photo-11892013.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-looking-through-a-window-with-white-bars-11892013/",
+    "fotografo": "Tahir Osman",
+    "fotografo_url": "https://www.pexels.com/@tahir-osman-109306362",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "lonely dog looking out window",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16622818,
+    "url_download": "https://images.pexels.com/photos/16622818/pexels-photo-16622818.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-near-window-16622818/",
+    "fotografo": "Miguel González",
+    "fotografo_url": "https://www.pexels.com/@mikegles",
+    "largura": 4548,
+    "altura": 3032,
+    "query": "lonely dog looking out window",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6468223,
+    "url_download": "https://images.pexels.com/photos/6468223/pexels-photo-6468223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-looking-out-the-window-with-a-collar-on-it-s-neck-6468223/",
+    "fotografo": "Tony Began",
+    "fotografo_url": "https://www.pexels.com/@tony-began-3126738",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "lonely dog looking out window",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/cachorro-chorando-quando-fico-sozinho-o-que-fazer/5.jpg"
+  }
+]

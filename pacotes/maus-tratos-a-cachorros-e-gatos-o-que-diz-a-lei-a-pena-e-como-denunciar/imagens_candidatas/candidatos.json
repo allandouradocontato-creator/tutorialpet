@@ -1,0 +1,54 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 30646480,
+    "url_download": "https://images.pexels.com/photos/30646480/pexels-photo-30646480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-and-tabby-cat-behind-bars-close-up-30646480/",
+    "fotografo": "Şevval Çadır",
+    "fotografo_url": "https://www.pexels.com/@sevval-cadir-1252545108",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "sad cat behind bars",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36052022,
+    "url_download": "https://images.pexels.com/photos/36052022/pexels-photo-36052022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-cat-behind-bars-36052022/",
+    "fotografo": "emre varışlı",
+    "fotografo_url": "https://www.pexels.com/@emre-varisli-506660537",
+    "largura": 4416,
+    "altura": 2944,
+    "query": "sad cat behind bars",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34712006,
+    "url_download": "https://images.pexels.com/photos/34712006/pexels-photo-34712006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/ginger-cat-behind-metal-bars-outdoors-34712006/",
+    "fotografo": "Ender Acun",
+    "fotografo_url": "https://www.pexels.com/@ender-acun-2152999735",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "sad cat behind bars",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33240795,
+    "url_download": "https://images.pexels.com/photos/33240795/pexels-photo-33240795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/tabby-cat-behind-wrought-iron-fence-33240795/",
+    "fotografo": "Василь Власов",
+    "fotografo_url": "https://www.pexels.com/@2147899400",
+    "largura": 3648,
+    "altura": 2736,
+    "query": "sad cat behind bars",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/maus-tratos-a-cachorros-e-gatos-o-que-diz-a-lei-a-pena-e-como-denunciar/3.jpg"
+  }
+]

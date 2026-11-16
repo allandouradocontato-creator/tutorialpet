@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 5483457,
+    "url_download": "https://images.pexels.com/photos/5483457/pexels-photo-5483457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/man-in-black-shirt-playing-with-his-dog-5483457/",
+    "fotografo": "Bethany Ferr",
+    "fotografo_url": "https://www.pexels.com/@bethany-ferr",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "wet dog swimming pool close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1844899,
+    "url_download": "https://images.pexels.com/photos/1844899/pexels-photo-1844899.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/short-coated-black-dog-on-pool-1844899/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "wet dog swimming pool close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9308417,
+    "url_download": "https://images.pexels.com/photos/9308417/pexels-photo-9308417.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-black-dog-in-the-water-9308417/",
+    "fotografo": "Mia Vargas",
+    "fotografo_url": "https://www.pexels.com/@mia-vargas-32248139",
+    "largura": 3330,
+    "altura": 2232,
+    "query": "wet dog swimming pool close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5482877,
+    "url_download": "https://images.pexels.com/photos/5482877/pexels-photo-5482877.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-swimming-in-the-swimming-pool-5482877/",
+    "fotografo": "Bethany Ferr",
+    "fotografo_url": "https://www.pexels.com/@bethany-ferr",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "wet dog swimming pool close up",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5483450,
+    "url_download": "https://images.pexels.com/photos/5483450/pexels-photo-5483450.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dalmatian-dog-swimming-in-the-pool-5483450/",
+    "fotografo": "Bethany Ferr",
+    "fotografo_url": "https://www.pexels.com/@bethany-ferr",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "wet dog swimming pool close up",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36688830,
+    "url_download": "https://images.pexels.com/photos/36688830/pexels-photo-36688830.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/golden-retriever-playing-on-kolobrzeg-beach-36688830/",
+    "fotografo": "Michał Robak",
+    "fotografo_url": "https://www.pexels.com/@michalrobak",
+    "largura": 7008,
+    "altura": 4672,
+    "query": "dog shaking off water outdoors",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/cuidados-diarios-com-o-pelo-de-caes-que-nadam-muito-na-piscina/5.jpg"
+  }
+]

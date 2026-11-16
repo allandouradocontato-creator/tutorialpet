@@ -1,0 +1,31 @@
+{
+  "slug": "socializar-cachorros-de-racas-e-portes-diferentes-no-mesmo-ambiente-como-evitar-brigas-e-acidentes",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-11-14T16:13:46+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/socializar-cachorros-de-racas-e-portes-diferentes-no-mesmo-ambiente-como-evitar-brigas-e-acidentes",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 8,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "2 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025, pexels:10050402)"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "música alternada (lnplusmusic-happy-happy-music-611028.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_pensar)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 8 cenas ElevenLabs, 0 voz grátis",
+      "coerência espécie cachorro: 6/6 quadros conferem [cf]"
+    ],
+    "em": "2026-11-14T16:15:21+00:00"
+  }
+}

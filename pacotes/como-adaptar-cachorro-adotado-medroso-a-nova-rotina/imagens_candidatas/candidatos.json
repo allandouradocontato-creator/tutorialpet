@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 18948630,
+    "url_download": "https://images.pexels.com/photos/18948630/pexels-photo-18948630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-under-sofa-18948630/",
+    "fotografo": "Sidde",
+    "fotografo_url": "https://www.pexels.com/@sidde-62197501",
+    "largura": 4920,
+    "altura": 3280,
+    "query": "scared rescue dog hiding",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-adotado-medroso-a-nova-rotina/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34212447,
+    "url_download": "https://images.pexels.com/photos/34212447/pexels-photo-34212447.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-puppies-peeking-out-brick-window-34212447/",
+    "fotografo": "Rejuan Anik",
+    "fotografo_url": "https://www.pexels.com/@rejuan-anik-2156447105",
+    "largura": 2092,
+    "altura": 2010,
+    "query": "scared rescue dog hiding",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-adotado-medroso-a-nova-rotina/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4468046,
+    "url_download": "https://images.pexels.com/photos/4468046/pexels-photo-4468046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photo-of-a-dog-lying-on-floor-4468046/",
+    "fotografo": "ricardo rojas",
+    "fotografo_url": "https://www.pexels.com/@rrojasfoto",
+    "largura": 7125,
+    "altura": 4755,
+    "query": "scared rescue dog hiding",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-adotado-medroso-a-nova-rotina/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "shy dog alone indoor floor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-adotado-medroso-a-nova-rotina/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7114115,
+    "url_download": "https://images.pexels.com/photos/7114115/pexels-photo-7114115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-on-wood-floor-7114115/",
+    "fotografo": "cottonbro studio",
+    "fotografo_url": "https://www.pexels.com/@cottonbro",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "shy dog alone indoor floor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-adotado-medroso-a-nova-rotina/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 32468378,
+    "url_download": "https://images.pexels.com/photos/32468378/pexels-photo-32468378.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/golden-retriever-lying-on-wooden-floor-indoors-32468378/",
+    "fotografo": "Julissa Pires",
+    "fotografo_url": "https://www.pexels.com/@julissapires",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "shy dog alone indoor floor",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-adotado-medroso-a-nova-rotina/5.jpg"
+  }
+]

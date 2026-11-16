@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 2532358,
+    "url_download": "https://images.pexels.com/photos/2532358/pexels-photo-2532358.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-an-orange-kitten-2532358/",
+    "fotografo": "Samer Daboul",
+    "fotografo_url": "https://www.pexels.com/@samerdaboul",
+    "largura": 4547,
+    "altura": 2784,
+    "query": "kitten playing with adult dog",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39705288,
+    "url_download": "https://images.pexels.com/photos/39705288/pexels-photo-39705288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-tabby-kitten-jumping-indoors-39705288/",
+    "fotografo": "Dmytro Koplyk",
+    "fotografo_url": "https://www.pexels.com/@dmytkopl",
+    "largura": 7720,
+    "altura": 5147,
+    "query": "kitten playing with adult dog",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40346031,
+    "url_download": "https://images.pexels.com/photos/40346031/pexels-photo-40346031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-encounter-between-cat-and-puppy-in-vietnamese-garden-40346031/",
+    "fotografo": "nhavantuonglai",
+    "fotografo_url": "https://www.pexels.com/@nhavan",
+    "largura": 4000,
+    "altura": 2251,
+    "query": "kitten playing with adult dog",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2532357,
+    "url_download": "https://images.pexels.com/photos/2532357/pexels-photo-2532357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-tabby-kitten-on-floor-2532357/",
+    "fotografo": "Samer Daboul",
+    "fotografo_url": "https://www.pexels.com/@samerdaboul",
+    "largura": 5184,
+    "altura": 2560,
+    "query": "kitten playing with adult dog",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9952105,
+    "url_download": "https://images.pexels.com/photos/9952105/pexels-photo-9952105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-cat-and-dog-9952105/",
+    "fotografo": "Foden Nguyen",
+    "fotografo_url": "https://www.pexels.com/@foden-nguyen-81016607",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "kitten playing with adult dog",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31175704,
+    "url_download": "https://images.pexels.com/photos/31175704/pexels-photo-31175704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-orange-kitten-relaxing-on-soft-white-blanket-31175704/",
+    "fotografo": "Esmanur M.",
+    "fotografo_url": "https://www.pexels.com/@esmanur-m-280716932",
+    "largura": 3456,
+    "altura": 2304,
+    "query": "small kitten and big dog friendly",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-ensinar-filhote-de-gato-a-interagir-com-caes-adultos/5.jpg"
+  }
+]

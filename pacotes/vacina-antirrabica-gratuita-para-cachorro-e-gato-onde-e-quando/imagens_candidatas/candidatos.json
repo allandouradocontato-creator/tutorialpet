@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32476519,
+    "url_download": "https://images.pexels.com/photos/32476519/pexels-photo-32476519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-in-studio-portrait-32476519/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "cute dog isolated on white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14626089,
+    "url_download": "https://images.pexels.com/photos/14626089/pexels-photo-14626089.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-brown-rhodesian-ridgeback-dog-on-purple-pillow-14626089/",
+    "fotografo": "Sven Svensson",
+    "fotografo_url": "https://www.pexels.com/@sven-svensson-3515288",
+    "largura": 5332,
+    "altura": 3555,
+    "query": "cute dog isolated on white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5731875,
+    "url_download": "https://images.pexels.com/photos/5731875/pexels-photo-5731875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-dogs-looking-in-different-directions-on-white-background-5731875/",
+    "fotografo": "Sam Lion",
+    "fotografo_url": "https://www.pexels.com/@sam-lion",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute dog isolated on white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16948018,
+    "url_download": "https://images.pexels.com/photos/16948018/pexels-photo-16948018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-black-dog-with-brown-eyes-16948018/",
+    "fotografo": "Marlon Costa",
+    "fotografo_url": "https://www.pexels.com/@marlon-costa-275585828",
+    "largura": 4114,
+    "altura": 2743,
+    "query": "cute dog isolated on white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34341031,
+    "url_download": "https://images.pexels.com/photos/34341031/pexels-photo-34341031.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-cocker-spaniel-resting-on-white-surface-34341031/",
+    "fotografo": "Christopher Welsch Leveroni",
+    "fotografo_url": "https://www.pexels.com/@christopher-welsch-leveroni-2150186467",
+    "largura": 5658,
+    "altura": 3765,
+    "query": "cute dog isolated on white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4386125,
+    "url_download": "https://images.pexels.com/photos/4386125/pexels-photo-4386125.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-fluffy-cat-on-white-background-4386125/",
+    "fotografo": "Mathias Reding",
+    "fotografo_url": "https://www.pexels.com/@matreding",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "cute cat isolated on white background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/vacina-antirrabica-gratuita-para-cachorro-e-gato-onde-e-quando/5.jpg"
+  }
+]

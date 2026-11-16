@@ -1,0 +1,31 @@
+{
+  "slug": "como-um-pet-pacifica-o-casal-e-a-casa-os-bem-aventurados-pacificadores-animal-de-estimacao-bem-estar-e-convivencia-do-casal",
+  "status": "aguardando_revisao",
+  "criado_em": "2026-11-04T14:33:42+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-um-pet-pacifica-o-casal-e-a-casa-os-bem-aventurados-pacificadores-animal-de-estimacao-bem-estar-e-convivencia-do-casal",
+  "voz": {
+    "motor": "elevenlabs",
+    "cenas_elevenlabs": 7,
+    "cenas_edge_tts": 0,
+    "voice_id": "iScHbNW8K33gNo3lGgbo",
+    "modelo": "eleven_v4",
+    "stability": 0.26
+  },
+  "guardiao": {
+    "status": "revisar",
+    "problemas": [
+      "coerência espécie cachorro: espécie errada (esperado cachorro) nos quadros [2, 4] [cf]"
+    ],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "14 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (alex-morgan-upbeat-591314.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_lista_ninguem_conta)",
+      "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
+      "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis"
+    ],
+    "em": "2026-11-04T14:40:22+00:00"
+  }
+}

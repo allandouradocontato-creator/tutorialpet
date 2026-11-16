@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Exercícios mentais para gatos idosos",
+  "gancho_3s": "Você já parou pra pensar que seu gato dorme demais?",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Você já parou pra pensar que seu gato dorme demais?",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Seu gato idoso dorme demais?"
+    },
+    {
+      "narracao": "[thoughtful] Gatos idosos precisam de estímulo mental para manter o cérebro afiado, sem gastar com brinquedos caros.",
+      "visual_busca_banco_livre": "senior cat looking around curious",
+      "texto_na_tela": "Gatos idosos precisam de estímulo mental!"
+    },
+    {
+      "narracao": "[short pause] Mexer com o olfato é o melhor jeito de despertar o sênior sem exigir esforço físico.",
+      "visual_busca_banco_livre": "cat sniffing floor close up",
+      "texto_na_tela": "Ative o olfato"
+    },
+    {
+      "narracao": "Esconda petiscos em locais fáceis, como no sofá ou almofadas, sem precisar de saltos.",
+      "visual_busca_banco_livre": "cat searching food on sofa",
+      "texto_na_tela": "Petiscos fáceis sem saltos"
+    },
+    {
+      "narracao": "Divida os estímulos em blocos curtos no dia, aproveitando quando ele estiver acordado.",
+      "visual_busca_banco_livre": "senior cat resting alert",
+      "texto_na_tela": "Blocos curtos diários"
+    },
+    {
+      "narracao": "[warmly] Use tabuleiros de raciocínio no chão e tapetes antiderrapantes para evitar dores articulares.",
+      "visual_busca_banco_livre": "cat playing interactive feeder floor",
+      "texto_na_tela": "Segurança no chão"
+    }
+  ],
+  "chamada_final": "[smiling] Manda pra aquele amigo que acabou de ganhar um pet. Ele vai agradecer! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#gatosidosos",
+    "#comportamentofelino",
+    "#enriquecimentoambiental",
+    "#saudefelina"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato idoso só quer saber de dormir? Cuidado, isso é um mito!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-criar-rotina-de-exercicios-mentais-para-gatos-idosos\n\n#gatos #gatosidosos #comportamentofelino #enriquecimentoambiental #saudefelina",
+  "slug": "como-criar-rotina-de-exercicios-mentais-para-gatos-idosos",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 5
+}

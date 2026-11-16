@@ -1,0 +1,48 @@
+{
+  "titulo_video": "O que fazer ao encontrar um pet na rua",
+  "gancho_3s": "Seu cachorro foi achado perdido na rua?",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro foi achado perdido na rua?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Achei um cachorro perdido na rua"
+    },
+    {
+      "narracao": "[thoughtful] Se achar um cachorro ferido, sinalize o local e vá com bastante calma.",
+      "visual_busca_banco_livre": "injured stray dog on street",
+      "texto_na_tela": "Aproxime-se com cautela"
+    },
+    {
+      "narracao": "[softly] Cubra o bichinho com uma manta e use uma base dura como maca para mover ele.",
+      "visual_busca_banco_livre": "cat wrapped in blanket close up",
+      "texto_na_tela": "Use manta e maca"
+    },
+    {
+      "narracao": "[thoughtful] Ligue 156 pra Zoonoses da sua cidade ou 190 se for uma emergência.",
+      "visual_busca_banco_livre": "smartphone on table close up",
+      "texto_na_tela": "Ligue 156 ou 190"
+    },
+    {
+      "narracao": "[short pause] Se ele estiver perdido, olhe a coleira, plaquetas ou leve num veterinário pra ver o microchip.",
+      "visual_busca_banco_livre": "dog wearing collar close up",
+      "texto_na_tela": "Verifique a identificação"
+    },
+    {
+      "narracao": "[thoughtful] Vale lembrar que abandonar ou não socorrer bichinhos é crime ambiental.",
+      "visual_busca_banco_livre": "abandoned cat sitting alone",
+      "texto_na_tela": "Omitir socorro é crime"
+    }
+  ],
+  "chamada_final": "[smiling] Segue o Tutorial Pet pra mais dicas assim, todo dia. Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "pets",
+    "direitosdosanimais",
+    "resgateanimal",
+    "cachorro",
+    "gato"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nEncontrou um cachorro ou gato machucado ou perdido na rua? Saiba o que fazer!\n\n📖 Artigo completo: https://tutorialpet.com.br/cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar\n\n#pets #direitosdosanimais #resgateanimal #cachorro #gato",
+  "slug": "cachorro-ou-gato-atropelado-ou-achado-na-rua-o-que-a-lei-diz-e-quem-chamar",
+  "molde_gancho": "abertura_problema_pet",
+  "cta_indice": 0
+}

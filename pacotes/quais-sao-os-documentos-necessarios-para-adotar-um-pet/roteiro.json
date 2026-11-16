@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Documentos para adotar um pet",
+  "gancho_3s": "Seu cachorro vai ser adotado? 3 documentos essenciais para liberar.",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro vai ser adotado? 3 documentos essenciais para liberar.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Perdido com a burocracia da adoção?"
+    },
+    {
+      "narracao": "O processo de adoção é simples e foca na segurança do animal.",
+      "visual_busca_banco_livre": "cute puppy looking up close up",
+      "texto_na_tela": "Adote com segurança"
+    },
+    {
+      "narracao": "[short pause] Primeiro, você precisa de um documento de identidade com foto, como RG ou CNH, para comprovar a maioridade.",
+      "visual_busca_banco_livre": "cat sitting on desk close up",
+      "texto_na_tela": "RG ou CNH"
+    },
+    {
+      "narracao": "Também é exigido um comprovante de residência recente, dos últimos noventa dias.",
+      "visual_busca_banco_livre": "dog looking out window apartment",
+      "texto_na_tela": "Comprovante de residência"
+    },
+    {
+      "narracao": "Quase todas as ONGs usam um formulário para conhecer sua rotina e a segurança da sua casa.",
+      "visual_busca_banco_livre": "cat playing with window screen",
+      "texto_na_tela": "Formulário e entrevista"
+    },
+    {
+      "narracao": "O documento final é o termo de adoção, um compromisso com a alimentação, vacinação e bem-estar do cachorro.",
+      "visual_busca_banco_livre": "dog resting head on floor close up",
+      "texto_na_tela": "Termo de adoção responsável"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! [smiling] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#adocaoresponsavel",
+    "#adotepet",
+    "#gatos",
+    "#caes",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer adotar um pet mas tem medo da burocracia?\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-sao-os-documentos-necessarios-para-adotar-um-pet\n\n#adocaoresponsavel #adotepet #gatos #caes #dicapet",
+  "slug": "quais-sao-os-documentos-necessarios-para-adotar-um-pet",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 1
+}

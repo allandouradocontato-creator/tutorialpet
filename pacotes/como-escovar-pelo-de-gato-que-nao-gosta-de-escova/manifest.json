@@ -1,0 +1,40 @@
+{
+  "slug": "como-escovar-pelo-de-gato-que-nao-gosta-de-escova",
+  "status": "agendado",
+  "criado_em": "2026-10-19T16:11:14+00:00",
+  "artigo_url_futura": "https://tutorialpet.com.br/como-escovar-pelo-de-gato-que-nao-gosta-de-escova",
+  "guardiao": {
+    "status": "ok",
+    "problemas": [],
+    "ok": [
+      "sem cenas repetidas no vídeo",
+      "14 clipes, todos inéditos nos últimos 20 vídeos",
+      "música alternada (alex-morgan-upbeat-591314.mp3)",
+      "carimbo da marca disponível e aplicado pela montagem",
+      "CTA diferente dos últimos vídeos",
+      "gancho diferente dos últimos vídeos (abertura_dor)",
+      "voz da Duda no padrão (eleven_v4, estabilidade 0.26)",
+      "coerência espécie gato: coerência não verificada (visão indisponível: GEMINI_API_KEY ausente)"
+    ],
+    "em": "2026-10-19T16:12:05+00:00"
+  },
+  "aprovado_por": "auto (Guardiao ok)",
+  "agendado_em": "2026-10-21T08:30-03:00",
+  "agendamento": {
+    "facebook": {
+      "id": "6ad8a168d2e5e717e79228da",
+      "agendar_para": "2026-10-22T14:00-03:00",
+      "agendador": "zernio"
+    },
+    "instagram": {
+      "id": "6ad8a16b99b504ebed0694de",
+      "agendar_para": "2026-10-22T15:00-03:00",
+      "agendador": "zernio"
+    },
+    "tiktok": {
+      "id": "6ad8a174befea41f139d8264",
+      "agendar_para": "2026-10-22T20:20-03:00",
+      "agendador": "buffer"
+    }
+  }
+}

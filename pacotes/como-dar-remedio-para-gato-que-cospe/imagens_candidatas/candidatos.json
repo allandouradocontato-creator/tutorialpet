@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7551642,
+    "url_download": "https://images.pexels.com/photos/7551642/pexels-photo-7551642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-person-holding-medicine-pills-7551642/",
+    "fotografo": "Kampus Production",
+    "fotografo_url": "https://www.pexels.com/@kampus",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "cat spitting pill",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7033658,
+    "url_download": "https://images.pexels.com/photos/7033658/pexels-photo-7033658.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/colorful-round-pills-on-white-surface-7033658/",
+    "fotografo": "Tima Miroshnichenko",
+    "fotografo_url": "https://www.pexels.com/@tima-miroshnichenko",
+    "largura": 3840,
+    "altura": 2160,
+    "query": "cat spitting pill",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7083682,
+    "url_download": "https://images.pexels.com/photos/7083682/pexels-photo-7083682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-white-pills-on-black-surface-7083682/",
+    "fotografo": "David  Peterson",
+    "fotografo_url": "https://www.pexels.com/@davidpeterson",
+    "largura": 4068,
+    "altura": 3318,
+    "query": "cat spitting pill",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16597606,
+    "url_download": "https://images.pexels.com/photos/16597606/pexels-photo-16597606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-cute-cat-having-big-yawn-showing-sharp-teeth-and-tongue-with-mouth-open-wide-16597606/",
+    "fotografo": "Pitipat Usanakornkul",
+    "fotografo_url": "https://www.pexels.com/@pitipat-usanakornkul-542797332",
+    "largura": 6048,
+    "altura": 4024,
+    "query": "angry cat taking medicine isolated",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7224649,
+    "url_download": "https://images.pexels.com/photos/7224649/pexels-photo-7224649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grey-and-white-cat-in-close-up-photography-7224649/",
+    "fotografo": "Karin Chantanaprayura",
+    "fotografo_url": "https://www.pexels.com/@karin-chantanaprayura-35125407",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "angry cat taking medicine isolated",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 693785,
+    "url_download": "https://images.pexels.com/photos/693785/pexels-photo-693785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-scale-photo-of-cat-showing-mouth-693785/",
+    "fotografo": "Frans van Heerden",
+    "fotografo_url": "https://www.pexels.com/@frans-van-heerden-201846",
+    "largura": 4256,
+    "altura": 2832,
+    "query": "angry cat taking medicine isolated",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-dar-remedio-para-gato-que-cospe/5.jpg"
+  }
+]

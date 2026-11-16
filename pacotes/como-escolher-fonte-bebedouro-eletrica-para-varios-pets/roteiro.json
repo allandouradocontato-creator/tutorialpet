@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Como escolher fonte bebedouro elétrica para vários pets",
+  "gancho_3s": "Seu cachorro briga por água? Dois a três litros resolvem.",
+  "cenas": [
+    {
+      "narracao": "Seu cachorro briga por água? Dois a três litros resolvem.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Falta água para os pets?"
+    },
+    {
+      "narracao": "[thoughtful] Com mais de um animal em casa, a disputa pela água é comum e o tamanho do reservatório importa muito.",
+      "visual_busca_banco_livre": "multiple cats drinking water together",
+      "texto_na_tela": "Vários pets, muita sede!"
+    },
+    {
+      "narracao": "[short pause] Para dois pets, procure fontes de dois a três litros. Com três ou mais, o ideal são quatro litros ou mais.",
+      "visual_busca_banco_livre": "dog drinking from water fountain close up",
+      "texto_na_tela": "Capacidade certa"
+    },
+    {
+      "narracao": "O material da cuba também conta bastante. Inox e cerâmica evitam bactérias e facilitam a limpeza.",
+      "visual_busca_banco_livre": "ceramic pet water fountain",
+      "texto_na_tela": "Inox ou cerâmica"
+    },
+    {
+      "narracao": "Prefira modelos com várias quedas ou formato circular para evitar brigas e filas pelo espaço.",
+      "visual_busca_banco_livre": "cat drinking running water fountain",
+      "texto_na_tela": "Sem filas para beber"
+    },
+    {
+      "narracao": "[softly] E lembre de confirmar com o veterinário se a quantidade de água atende às necessidades dos seus bichinhos.",
+      "visual_busca_banco_livre": "cute dog and cat together",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#pets",
+    "#gatos",
+    "#caes",
+    "#hidratacao",
+    "#bemestarpet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nTem vários pets e a água acaba rápido? Veja como escolher a fonte ideal!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-escolher-fonte-bebedouro-eletrica-para-varios-pets\n\n#pets #gatos #caes #hidratacao #bemestarpet",
+  "slug": "como-escolher-fonte-bebedouro-eletrica-para-varios-pets",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 7
+}
