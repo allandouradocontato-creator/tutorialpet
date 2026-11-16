@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 36876693,
+    "url_download": "https://images.pexels.com/photos/36876693/pexels-photo-36876693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-ginger-cat-lounging-in-cat-themed-basket-36876693/",
+    "fotografo": "Vickie Bellefontaine",
+    "fotografo_url": "https://www.pexels.com/@vickie-bellefontaine-208346377",
+    "largura": 4000,
+    "altura": 3000,
+    "query": "fat cat indoor lazy",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9278453,
+    "url_download": "https://images.pexels.com/photos/9278453/pexels-photo-9278453.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cat-lying-down-on-the-floor-9278453/",
+    "fotografo": "Houssem Bou",
+    "fotografo_url": "https://www.pexels.com/@houssem-bou-97165215",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "fat cat indoor lazy",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17487104,
+    "url_download": "https://images.pexels.com/photos/17487104/pexels-photo-17487104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-lying-down-17487104/",
+    "fotografo": "Alexandre Anchling",
+    "fotografo_url": "https://www.pexels.com/@alexandre-anchling-265554543",
+    "largura": 7728,
+    "altura": 4872,
+    "query": "fat cat indoor lazy",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12583027,
+    "url_download": "https://images.pexels.com/photos/12583027/pexels-photo-12583027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-cat-on-a-white-textile-12583027/",
+    "fotografo": "Alina Vilchenko",
+    "fotografo_url": "https://www.pexels.com/@monstera",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "fat cat indoor lazy",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 11869103,
+    "url_download": "https://images.pexels.com/photos/11869103/pexels-photo-11869103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-scottish-fold-11869103/",
+    "fotografo": "Bade Saba",
+    "fotografo_url": "https://www.pexels.com/@badesaba",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "fat cat indoor lazy",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20211114,
+    "url_download": "https://images.pexels.com/photos/20211114/pexels-photo-20211114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-fluffy-kitten-20211114/",
+    "fotografo": "Helena Jankovičová Kováčová",
+    "fotografo_url": "https://www.pexels.com/@helen1",
+    "largura": 5571,
+    "altura": 3714,
+    "query": "playing cat running indoor",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/5.jpg"
+  }
+]
