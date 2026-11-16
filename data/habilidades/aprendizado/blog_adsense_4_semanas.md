@@ -5,3 +5,4 @@
 2026-10-29 | ritmo + Pet Celebridade (J1/J3) | 0/3 no ar às 11:55, 3 aprovados sem página por capa (V22), rascunho Giselle pronto | altera: capa de banco na 2ª tentativa (E144); 2ª semana com capa como gargalo = propor edição da skill
 2026-11-02 | ritmo + Pet Celebridade (J1/J3) | 2/1 no ar; Pet Celebridade 11 dias sem edição; 1 sem capa, 2 sem Fontes | altera: aprovar Giselle (E181) e reforço de fontes (E182)
 2026-11-05 | J1/J2 ritmo e pilares | 1/1 artigos no ar, 0 sem página; Pet Celebridade atrasada 14 d | altera: reescrever à mão em vez de reaprovar após 3 reprovações
+2026-11-16 | série semanal só com candidato de fonte legível e sem menores; checar data da matéria antes de listar | n=2 descartados (matéria de 2021; cita menores) | mantém

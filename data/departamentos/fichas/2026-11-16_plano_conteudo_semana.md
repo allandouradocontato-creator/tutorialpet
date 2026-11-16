@@ -1,0 +1,10 @@
+# FICHA — Plano de conteúdo da semana — Diretor de Conteúdo e Blog / 2026-11-16 11:50 (Fortaleza)
+- Assunto e objetivo: blog saudável para AdSense; manter 3/dia; lote vet semanal; preparar Pet Celebridade de quinta 19/11 (E239).
+- Pareceres: SEO (seo.md, sem relatório novo); Operação (E257-E259 de 16/11); sem parecer de Conferente, Revisor de Coerência, Humorista, Utilidade Pública e Editor de Afiliados.
+- Anti-gap: (a) 3 publicações hoje (4a16757 10:57Z, 759692b 11:02Z, 006b689 11:09Z); 24 h: 3; 72 h: 3 (sábado e domingo sem artigo novo, ritmo do fim de semana). (b) 86 linhas em blog_aprovados.txt (formato "slug N"), 0 sem página em site/build. (c) 152 rascunhos; 267 temas pendentes em fila_temas. SEM ALERTA de gap.
+- Pet Celebridade: última edição 05/11 (Giselle), atrasada há 11 dias; 12/11 ficou sem rascunho. Rodada de segunda = preparar: Marina/dálmata DESCARTADO (matéria da Purepeople é de 11/05/2021, cachorro surdo sem nome definido, não é fato novo); Bruna Biancardi/dachshund DESCARTADO (Band B 07/09/2026 cita 2 menores; regra da série). Entram 2 candidatos novos sem leitura (Ana Castela/filhote da estrada, Midiamax; Zezé Di Camargo/pet resgatado, BNews; ambos bloqueados ao WebFetch, precisam 2ª fonte aberta). Fila com candidatos ativos: Sonza/gatas, Marina/gato João (sensível), Ana Castela, Zezé; Latino segue com decisão do Allan (2 opções: não promover macaco como pet e fazer artigo "por que macaco não é pet", ou pular a série). Quinta 19/11: se nenhum tiver 2 fontes legíveis, sai tema de raça (dálmata) sem celebridade e a dívida segue marcada.
+- Lote vet 4 gravado: data/pergunte_veterinaria/lote_revisao_2026-11-16.md (5 artigos de saúde/calor, revisão opcional, sem prazo; sem selo novo).
+- Prioridade da semana: dúvidas de decisão do tutor; calor do verão brasileiro (choque térmico, asfalto, petiscos congelados); plantas de Natal tóxicas até 10/12. Conflito SEO x humor x utilidade pública: nenhum.
+- Ações: E239 já cobre quinta 19/11 (ampliada na linha E260).
+- Pedido ao Allan: nenhum novo (Latino/macaco já aberto).
+- Status: aprovada pelo Diretor

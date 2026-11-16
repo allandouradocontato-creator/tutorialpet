@@ -67,6 +67,7 @@ serie:
     pet: a confirmar (cachorro dálmata adotado)
     raca: dálmata
     fonte: https://www.purepeople.com.br/noticia/marina-ruy-barbos-exibe-novo-cachorro-apos-adocao-e-entrega-detalhe-curioso_a317454/1
+    status: descartado_16_11   # a matéria da Purepeople é de 11/05/2021 (cachorro sem nome definido, surdo); não é fato novo
     observacao: "Candidato novo 29/10: conferir nome do pet, data e 2ª fonte antes de escrever; ligar a adoção + energia de raça grande."
 
   - ordem: 8
@@ -75,4 +76,23 @@ serie:
     raca: a confirmar
     fonte: https://www.metropoles.com/colunas/pipocando/anitta-adota-novo-caozinho-com-ajuda-de-luisa-mell-conheca-petruquio
     observacao: "Candidato novo 05/11: encaixa na série Adoção; conferir data, raça e 2ª fonte antes de escrever; sem foto da artista."
+  - ordem: 9
+    artista: Bruna Biancardi
+    pet: filhote dachshund arlequim (nome ainda indefinido na matéria)
+    raca: dachshund (salsicha)
+    status: descartado_16_11   # matéria cita 2 menores (nome e sugestões de nome); regra da série: sem menores
+    fonte: https://www.bandab.com.br/variedades/famosos/bruna-biancardi-apresenta-novo-salsicha-da-familia-com-neymar-e-revela-confusao-para-escolher-o-nome/
+    observacao: "Candidato visto 16/11 (Band B, 07/09/2026). Só serve se achar fonte sem os menores; senão, tema de raça sem celebridade."
+  - ordem: 10
+    artista: Ana Castela
+    pet: filhote resgatado na estrada (nome a confirmar)
+    raca: sem raça definida (a confirmar)
+    fonte: https://midiamax.com.br/midiamais/famosos/2026/iam-passar-cima-ana-castela-adota-filhote-abandonado-estrada/
+    observacao: "Candidato novo 16/11 (Midiamax; página bloqueou leitura): conferir data, nome e 2ª fonte (g1/Quem/Instagram oficial) antes de escrever; encaixa em Adoção."
+  - ordem: 11
+    artista: Zezé Di Camargo
+    pet: pet resgatado (a confirmar)
+    raca: a confirmar
+    fonte: https://www.bnews.com.br/noticias/bnews-pet/de-pet-resgatado-por-zeze-di-camargo-gata-de-r-540-milhoes-de-taylor-swift-conheca-os-animais-de-estimacao-adotados-por-celebridades.html
+    observacao: "Candidato novo 16/11 (BNews; página bloqueou leitura): conferir nome, data e 2ª fonte antes de escrever."
   ligacao_com_produto: "cada edição aponta para o artigo do blog da raça/tema e para o produto do catálogo (config/catalogo_tema_produto.yaml)"
