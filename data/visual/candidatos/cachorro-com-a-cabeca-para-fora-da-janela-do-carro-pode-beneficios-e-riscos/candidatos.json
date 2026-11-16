@@ -76,5 +76,38 @@
     "query": "dog resting indoors",
     "indice": 5,
     "arquivo": "data/visual/candidatos/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos/5.jpg"
+  },
+  {
+    "fonte": "ia-flux",
+    "id": "ia0",
+    "url_download": "",
+    "url_pagina": "https://www.tutorialpet.com.br",
+    "fotografo": "Tutorial Pet (imagem gerada por IA)",
+    "fotografo_url": "https://www.tutorialpet.com.br",
+    "query": "Professional photograph of a happy, healthy, well cared for dog, scene illustrat",
+    "indice": 6,
+    "arquivo": "data/visual/candidatos/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos/6.jpg"
+  },
+  {
+    "fonte": "ia-flux",
+    "id": "ia1",
+    "url_download": "",
+    "url_pagina": "https://www.tutorialpet.com.br",
+    "fotografo": "Tutorial Pet (imagem gerada por IA)",
+    "fotografo_url": "https://www.tutorialpet.com.br",
+    "query": "Professional photograph of a happy, healthy, well cared for dog, scene illustrat",
+    "indice": 7,
+    "arquivo": "data/visual/candidatos/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos/7.jpg"
+  },
+  {
+    "fonte": "ia-flux",
+    "id": "ia2",
+    "url_download": "",
+    "url_pagina": "https://www.tutorialpet.com.br",
+    "fotografo": "Tutorial Pet (imagem gerada por IA)",
+    "fotografo_url": "https://www.tutorialpet.com.br",
+    "query": "Professional photograph of a happy, healthy, well cared for dog, scene illustrat",
+    "indice": 8,
+    "arquivo": "data/visual/candidatos/cachorro-com-a-cabeca-para-fora-da-janela-do-carro-pode-beneficios-e-riscos/8.jpg"
   }
 ]
