@@ -1,12 +1,12 @@
-# Guardião de Marca e Variedade — como-preparar-um-espaco-seguro-para-adocao-de-caes-adultos-resgatados
-Parecer: **REVISAR**
+# Guardião de Marca e Variedade — como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade
+Parecer: **OK**
 
-- ATENÇÃO: 2 clipe(s) reaproveitado(s) de vídeos recentes (pexels:39995025, pexels:10050402)
-- ATENÇÃO: coerência espécie cachorro: espécie errada (esperado cachorro) nos quadros [4] [cf]
 - ok: sem cenas repetidas no vídeo
-- ok: música alternada (starostin-pets-music-dog-cat-puppy-kitty-shelter-background-intro-theme-259661.mp3)
+- ok: 14 clipes, todos inéditos nos últimos 20 vídeos
+- ok: música alternada (lnplusmusic-happy-happy-music-611028.mp3)
 - ok: carimbo da marca disponível e aplicado pela montagem
 - ok: CTA diferente dos últimos vídeos
-- ok: gancho diferente dos últimos vídeos (abertura_dor)
+- ok: gancho diferente dos últimos vídeos (abertura_lista_ninguem_conta)
 - ok: configuração da voz no padrão (eleven_v4, estabilidade 0.26)
 - ok: voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis
+- ok: coerência espécie gato: 5/5 quadros conferem [cf]
