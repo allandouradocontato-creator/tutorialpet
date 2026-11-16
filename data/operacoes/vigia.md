@@ -1,12 +1,12 @@
-Dados até 2026-11-16 15:25 (Fortaleza) | CORRIGI: 1 (issues antigas obsoletas fechadas) | PRECISO DO ALLAN: 0 | TUDO OK | Número do dia: rotinas falhando/suspensas = 0
+Dados até 2026-11-16 19:30 (Fortaleza) | CORRIGI: 0 | PRECISO DO ALLAN: 0 | TUDO OK | Número do dia: rotinas falhando/suspensas = 0
 | rotina | estado | último run | idade do último resultado | problema | correção |
 |---|---|---|---|---|---|
-| Rotinas ativas (14) | ok | todas SUCCEEDED; Vigia = esta rodada | <24 h | nenhuma FAILED/vencida/suspensa | - |
-| fabrica.yml | verde | 15/11 13:32 F (43735997586) | ~18 h | - | - |
-| publicar_blog.yml | verde | 16/11 08:08 F (43854860692) | <1 h | era falha 15/11 14:16 F (shampoo/feio) | CORRIGI: capa_ia.py sem cenas p/ esses slugs; cenas + fallback genérico (fdb7032, 06aa0a9); capas IA; promovidos |
-| Blog | 1/1 hoje | cachorro-janela-do-carro (capa IA 8), shampoo e cachorro-feio no ar | 0 h | shampoo estava no ar com capa PROIBIDA (cachorro rosnando) | CORRIGI: capa IA, crédito IA (e208801); AdSense 0 FALHA |
-| FB/IG (Zernio) | ok | último post 15/11 19:01 F; 4 agendados (adoção idoso, cachorro medroso) | <24 h | 8 falhas antigas de mídia | retry proibido (E151) |
-| TikTok (Buffer) | ok | enviado 16/11 10:21 F (cachorro medroso, sem erro); 1 agendado 17/11 10:20 F | <2 h | só 1 vídeo/dia (meta audiência 3) | Operador de Audiência cuida; reconferir ban E243 |
-| Issues | ok | 31 issues antigas (14-44, out/nov) fechadas: fabrica 43863614985 e publicar_blog 43854860692 SUCCESS | - | obsoletas | CORRIGI (E34) |
+| Rotinas ativas (14) | ok | todas SUCCEEDED; Vigia = esta rodada (PENDING até fechar) | <24 h | nenhuma FAILED/vencida/suspensa | - |
+| fabrica.yml | verde | 16/11 16:47 F (43943006209) | ~3 h | - | - |
+| publicar_blog.yml | verde | 16/11 08:07 F (43854860692) | ~11 h | run 43853805794 (08:00) falhou por capa, já resolvido pela de 08:07 | - |
+| saude.yml | verde | 16/11 17:32 F (43950857907) | 2 h | issue 52 (alerta): gato-se-exercitar aprovado, ainda fora do ar; 6 reprovados com 3 tentativas (pendência antiga E101) | publicar_blog processa 1/dia; gato entra na próxima rodada |
+| Blog | 1/1 hoje | janela-do-carro (08:09 F) | ~11 h | saude diz 0 novos (contagem diferente); site/build tem commit de hoje | conferir 17/11 07:19 |
+| FB/IG (Zernio) | ok | FB 16/11 10:05, IG 16/11 11:04 F; 2 agendados cada (shampoo, adoção idoso) | <12 h | - | - |
+| TikTok (Buffer) | ok | enviado 16/11 10:21 F; agendados 17/11 e 18/11 10:20 F | <12 h | só 1 vídeo/dia (meta audiência 3) | Operador de Audiência cuida |
 AdSense: 0 FALHA. Créditos ElevenLabs: não medido (creditos_eleven.yml sem saída desde 28/10).
-E34 15:20 F: 14 rotinas ativas SUCCEEDED (Vigia = esta rodada); blog 1/1 (publicado 08:09 F); FB/IG 2 agendados cada (17-18/11); TikTok enviou hoje, 1 agendado 18/11 10:20 F; AdSense 0 FALHA. Próxima ronda 19:19 F.
+E34 19:30 F: nenhum item para corrigir; conferir 17/11 07:19 F (gato-se-exercitar no ar? issue 52).
