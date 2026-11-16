@@ -1,6 +1,6 @@
 // Adaptador deAPI (US$ 5 grátis, sem cartão): ACE-Step 1.5 via POST /txt2music + GET /request-status/{id}.
 // Chave no segredo DEAPI_KEY (Cloudflare). Modelo padrão XL Turbo INT8; troque com DEAPI_MODEL (ex.: AceStep_1_5_Turbo).
-import { descricaoEstilo } from "../estilos.js";
+import { ESTILOS, VOZES } from "../estilos.js";
 
 export const nome = "deapi";
 export const disponivel = (env) => !!env.DEAPI_KEY;
@@ -10,7 +10,8 @@ const H = (env) => ({ authorization: `Bearer ${env.DEAPI_KEY}`, accept: "applica
 export async function enviar(pedido, letra, env, ctx = {}) {
   const fd = new FormData();
   fd.append("model", env.DEAPI_MODEL || "AceStep_1_5_XL_Turbo_INT8");
-  fd.append("caption", descricaoEstilo(pedido, 500));
+  // deAPI limita o caption a 300 caracteres: estilo + voz + idioma, nessa ordem de prioridade.
+  fd.append("caption", [ESTILOS[pedido.estilo] || ESTILOS["pop alegre"], VOZES[pedido.voz] || "", "Brazilian Portuguese vocals"].filter(Boolean).join(", ").slice(0, 300));
   fd.append("lyrics", String(letra || "").slice(0, 4000) || "[Instrumental]");
   fd.append("duration", String(Math.min(180, Math.max(30, Math.round(pedido.duracaoAlvo || 150)))));
   fd.append("inference_steps", "8");
