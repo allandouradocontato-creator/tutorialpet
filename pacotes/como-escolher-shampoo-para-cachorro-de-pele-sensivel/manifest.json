@@ -1,6 +1,6 @@
 {
   "slug": "como-escolher-shampoo-para-cachorro-de-pele-sensivel",
-  "status": "agendado_parcial",
+  "status": "agendado",
   "criado_em": "2026-11-15T12:06:58+00:00",
   "artigo_url_futura": "https://tutorialpet.com.br/como-escolher-shampoo-para-cachorro-de-pele-sensivel",
   "voz": {
@@ -37,6 +37,9 @@
       "zernio_id": "6afae65537654806a1ae46c7",
       "para": "2026-11-18T11:00-03:00"
     },
-    "tiktok": "NAO agendado: conta TikTok banida (Buffer)"
+    "tiktok": {
+      "buffer_id": "6afb1e8d68127944d4df82b5",
+      "para": "2026-11-18T10:20-03:00"
+    }
   }
 }
