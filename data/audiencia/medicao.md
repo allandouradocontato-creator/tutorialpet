@@ -209,3 +209,6 @@ Seguidores IG antes/depois do Reel do dia 14/11: 8 (13/11) → 8 (14/11) → 8 (
 
 ## 15/11/2026 09:25 (Diretor de Audiência)
 Seguidores (Zernio até 14/11): FB 14, IG 8; TikTok 36 (12/11, banido). Molde gato idoso+CTA = PERDEU no corte (IG 8→8→8). Comentário de terceiro 0, DM 0. Novo teste 16-18/11: pergunta de 1 palavra (E252).
+
+## 16/11/2026 09:17 (Diretor de Audiência)
+Seguidores (Zernio 16/11 07:37Z): FB 14 (parado desde 06/11), IG 9 (+1 desde 14/11, n=1 NEUTRO). Comentário de terceiro 0, DM 0, contatos ManyChat 0. TikTok 36 (12/11, banido). Teste da pergunta de 1 palavra segue até 18/11 (E256/E259).

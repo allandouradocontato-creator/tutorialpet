@@ -18,3 +18,4 @@ Skill: biblioteca/habilidades/criativo_venda_low_ticket.md (v2, 22/10/2026). Uma
 2026-11-09 | J1 pergunta/promessa específica no gancho de produto-nicho | n=1 (atum 2,95 s); sem venda atribuída | mantém
 2026-11-10 | não aplicável hoje (sem criativo de venda na rodada) | n=0 | mantém
 2026-11-15 | não aplicável hoje (sem criativo de venda na rodada) | n=0 | mantém
+2026-11-16 | não aplicável hoje (sem venda; audiência primeiro) | n=0 | mantém

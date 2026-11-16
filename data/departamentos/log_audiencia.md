@@ -115,3 +115,9 @@
 1. **"Pergunta de 1 palavra" diária (FB/IG)** — porte, caixa de areia, onde dorme; resposta fácil destrava comentário de terceiro (hoje 0). Risco: baixo. Custo: baixo.
 2. **"Mural dos pets" (UGC sem prêmio)** — tutor comenta o nome e o porte do pet e a página responde com uma dica; vira lista de seguidores engajados. Risco: baixo (só pet, sem dado de menor). Custo: baixo.
 3. **"Mito ou verdade do tutor" (carrossel salvável, 4 cartões)** — mito comum de rotina com resposta no cartão 2; salvamento. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.
+| 2026-11-16 09:30 | Diretor de Audiência | SEM MUDANÇA DE CAMINHO: FB 14 (parado desde 06/11), IG 9 (+1, n=1 NEUTRO), TikTok banido (36 em 12/11; recurso é do Allan, E243/E247); comentário de terceiro 0, DM 0; pergunta de 1 palavra segue como fecho de Reel (E256 substitui E252), corte 18/11 (E259); gargalo = estoque de vídeo (E258); ficha 2026-11-16_audiencia_rodada.md; add_repo indisponível, repo já clonado (main = origin/main) |
+
+## Ideias novas (regra 36) — 16/11/2026
+1. **"Gato ou cachorro: quem manda na casa?" (enquete de 1 palavra, Reel)** — dilema leve que cada tutor responde em 1 palavra. Risco: baixo. Custo: baixo.
+2. **"Dúvida do tutor da semana" (série numerada, 3 Reels)** — pergunta real de comentário/grupo respondida em série; motivo para seguir. Risco: médio se vier saúde (sem dose, @vetnatasha). Custo: baixo.
+3. **"Nome do pet na legenda" (UGC sem prêmio)** — tutor comenta o nome e a página responde com 1 dica; vira lista de engajados. Risco: baixo (só pet, sem dado de menor). Custo: baixo.

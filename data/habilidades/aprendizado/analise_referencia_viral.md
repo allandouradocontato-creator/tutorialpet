@@ -19,3 +19,4 @@ Skill: biblioteca/habilidades/analise_referencia_viral.md (v2, 22/10/2026). Uma 
 2026-11-09 | não aplicada (skill em RESERVA, sem referência viral com número) | n=0 | mantém reserva
 2026-11-10 | referência = atum gato (2,95 s) como molde de T2 | n=2 T2 gato agendados, sem leitura | mantém; NEUTRO
 2026-11-15 | não aplicável hoje (sem referência viral nova; TikTok banido) | n=0 | mantém
+2026-11-16 | não aplicável hoje (sem referência viral nova; TikTok banido) | n=0 | mantém

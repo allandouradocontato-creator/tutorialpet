@@ -1,0 +1,11 @@
+# FICHA — Campanha de audiência da semana (rodada 16/11 09:17 Fortaleza)
+- Departamento / Diretor / data-hora: Audiência e Redes / Diretor de Audiência / 2026-11-16 09:17
+- Objetivo: audiência real. Meta nº 1 TikTok 1.000 segue PAUSADA (banido desde 10/11; 36 = 3,6% em 12/11; recurso é do Allan, E243/E247).
+- Estado real (Zernio 16/11 07:37Z): FB 14 (parado desde 06/11), IG 9 (+1 vs 14/11; n=1 = NEUTRO, sem Reel nem comentário atribuível). Comentário de terceiro 0, DM 0, contatos ManyChat 0.
+- Pareceres: Operador: sem leitura nova desde 15/11. Estrategista: E256 (Reel em vez de imagem: imagens tiveram 0-4 views) e E257 (gato x cachorro, veredito 19/11) vigentes. Decifrador: +1 IG é ruído. Fábrica: estoque de pacotes livres quase zero (E258), FB 19:00/IG 20:00 de 16/11 ficaram vazios. Sem parecer de Especialista TikTok (banido).
+- Divergências: E252 (imagem de banco livre) x E256 (Reel). Quem tinha razão: Estrategista (E256); imagem = 3-4 views em 3 posts, regra de vídeo vale. Pergunta de 1 palavra vira FECHO do Reel, não post de imagem.
+- DECISÃO: (1) Teste da pergunta de 1 palavra mantido 16-18/11 como fecho de Reel (E256), textos da ficha 15/11 seguem aprovados. (2) Sem nova mudança hoje: corte 18/11 (>= 1 comentário de terceiro em 2 de 3 Reels = GANHOU; 0 em 3 = PERDEU e muda para carrossel salvável de dúvida real). (3) Gargalo real hoje é ESTOQUE de vídeo (E258), não estratégia: Fábrica prioriza 3-4 pacotes de gato (adoção/comportamento, sem dose de remédio). (4) ManyChat: nada ao vivo; "comenta GUIA" fora das legendas (E255).
+- Métrica/gatilhos: comentário de terceiro (meta >= 1 a cada 5 posts), seguidores FB 14 / IG 9, DM. Gatilho: FB e IG sem +2/dia até 18/11 = PERDEU.
+- Ações: E259 (Operador, 18/11, medição do corte). Existentes: E256, E257, E258. 
+- Pedido ao Allan (único, sem mudança): recurso do banimento do TikTok (E243/E247).
+- Status: aprovada.

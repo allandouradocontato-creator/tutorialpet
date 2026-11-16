@@ -24,3 +24,4 @@ Skill: biblioteca/habilidades/decifrador_algoritmo.md (v2, 22/10/2026). Uma linh
 2026-11-11 | leitura 24 h do Buffer (corte do dia) | n=4 TikToks lidos: 493-539 views, 1,7-2,52 s; TikTok banido interrompe a série | mantém critério GANHOU >= 3 s e >= 300 views; pausa até recurso
 2026-11-14 | decifrador: skip/seguidor por formato (gato idoso + CTA seguir) | IG +3 só em 13/11, 0 em 14/11; n=1 salto = NEUTRO | mantém molde, mede de novo 15/11
 2026-11-15 | decifrador: seguidor por formato (corte 24 h) | salto de 13/11 não repetiu em 14-15/11; n=1 = ruído | altera: não tratar o molde como campeão
+2026-11-16 | decifrador: seguidor por formato | IG +1 em 16/11 sem Reel atribuível, n=1 = ruído | mantém: não declarar campeão
