@@ -36,9 +36,20 @@ CENAS = {  # slug -> 3 prompts em ingles (so animal e objeto, sem pessoa)
 SUFIXO = " Sharp focus, realistic fur detail, anatomically correct, no people, no hands, no text, no logo."
 
 
+def cenas_genericas(slug: str) -> list[str]:
+    """Fallback (Vigia 16/11/2026): slug sem cenas manuais gera 3 prompts a partir do tema (so animal feliz e bem cuidado, sem pessoa)."""
+    tema = slug.replace("-", " ")[:120]
+    gato = any(w in slug.split("-") for w in ("gato", "gatos", "gatinho", "filhote-de-gato"))
+    animal = "cat" if gato and "cachorro" not in slug else "dog"
+    base = f"Professional photograph of a happy, healthy, well cared for {animal}, scene illustrating the topic (in Portuguese): {tema}."
+    return [base + " Bright cozy home, soft daylight.",
+            base + " Outdoor, warm natural light, shallow depth of field.",
+            base + " Calm relaxed mood, clean background, closeup of the animal looking at the camera."]
+
+
 def main() -> int:
     slug = sys.argv[1]
-    cenas = CENAS.get(slug)
+    cenas = CENAS.get(slug) or cenas_genericas(slug)
     if not cenas:
         print("sem cenas IA para", slug)
         return 1
