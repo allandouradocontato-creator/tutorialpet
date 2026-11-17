@@ -195,3 +195,6 @@ Contagem: decididas abertas dentro do prazo 3 (E204, E218, E219) / feitas hoje 0
 
 ## Decisões — Operação 12/11/2026 21:41 (Fortaleza)
 Contagem: decididas abertas dentro do prazo 4 (E235, E238 parcial, E240, E241) / feitas hoje 0 (E238 parcial: 4 slugs fora de blog_reprovados) / bloqueadas hoje 1 (E236) / atrasadas novas 1 (E236) / só Allan 3 (E232 até 13/11, E234/E237 TikTok banido). Blog: 1 artigo em 24 h (curl -L 200); Publicar Blog #106 failure de capa, artigo gravado e capa refeita (#28 success). Painel de Decisões rev 16, sem decisão nova.
+
+## Decisões — Operação 16/11/2026 21:42 (Fortaleza)
+Contagem: decididas abertas dentro do prazo 6 (E255, E258, E259, E257, E239, E260) / feitas hoje 1 (E256) / canceladas 1 (E252) / atrasadas novas 0 (E242 e E245 seguem atrasadas, recobradas em E261/E250) / só Allan 3 (E232, TikTok banido E234/E237/E243). Blog: 3 artigos em 24 h, Publicar Blog sem falha pendente; Fábrica success; 0 rotina FAILED.
