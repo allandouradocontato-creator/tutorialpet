@@ -1393,7 +1393,8 @@ temas:
   status: pendente
 - termo: como adaptar cachorro resgatado em casa com criancas
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-17'
 - termo: como escolher tela de protecao para gatos em apartamento
   pilar: produtos_compras
   status: pendente
@@ -1484,4 +1485,10 @@ temas:
   status: pendente
 - termo: quais regras de convivencia ensinar para criancas e caes adotados
   pilar: adocao
+  status: pendente
+- termo: como resfriar cachorro no calor intenso sem ar condicionado
+  pilar: cuidados_diarios
+  status: pendente
+- termo: por que gato mia alto portas fechadas de madrugada
+  pilar: comportamento
   status: pendente

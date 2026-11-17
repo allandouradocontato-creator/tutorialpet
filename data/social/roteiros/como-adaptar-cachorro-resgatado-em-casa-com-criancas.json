@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como adaptar cachorro resgatado com crianças",
+  "gancho_3s": "Você já parou pra pensar que adotar um cachorro muda tudo?",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Você já parou pra pensar que adotar um cachorro muda tudo?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Filhos e cachorro novo combinam?"
+    },
+    {
+      "narracao": "[softly] O primeiro contato pede menos festa e mais calma. Deixa ele explorar o espaço no tempo dele.",
+      "visual_busca_banco_livre": "rescue dog sniffing new house corner",
+      "texto_na_tela": "Menos festa, mais respeito"
+    },
+    {
+      "narracao": "Cria um cantinho seguro onde as crianças não podem ir de jeito nenhum.",
+      "visual_busca_banco_livre": "dog resting in safe corner bed",
+      "texto_na_tela": "Crie zonas de refúgio"
+    },
+    {
+      "narracao": "Para dar petisco, ensina a mão aberta igualzinho a um prato de padaria, com os dedos para baixo.",
+      "visual_busca_banco_livre": "dog eating treat gently from floor",
+      "texto_na_tela": "Mão aberta como prato"
+    },
+    {
+      "narracao": "[short pause] Eles precisam gastar energia. Divide os passeios e as brincadeiras com cuidado.",
+      "visual_busca_banco_livre": "dog walking on leash outdoors",
+      "texto_na_tela": "Gaste a energia do pet"
+    },
+    {
+      "narracao": "Nunca brigue se ele rosnar. É só o aviso de que ele quer espaço. Afasta a criança de boa.",
+      "visual_busca_banco_livre": "dog looking alert close up",
+      "texto_na_tela": "Respeite o rosnado"
+    },
+    {
+      "narracao": "[warmly] E nos primeiros meses, nada de deixar crianças e o cachorro sozinhos no mesmo cômodo.",
+      "visual_busca_banco_livre": "dog sitting calmly indoors",
+      "texto_na_tela": "Supervisão constante"
+    }
+  ],
+  "chamada_final": "[smiling] Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorroresgatado",
+    "#adocaoresponsavel",
+    "#caesecriancas",
+    "#comportamentocanino",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai adotar um cachorro e tem crianças em casa? Calma!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-adaptar-cachorro-resgatado-em-casa-com-criancas\n\n#cachorroresgatado #adocaoresponsavel #caesecriancas #comportamentocanino #dicaspet",
+  "slug": "como-adaptar-cachorro-resgatado-em-casa-com-criancas",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 3
+}
