@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como fazer o gato se exercitar dentro de casa e evitar sedentarismo e obesidade: guia prático",
+    "description": "Como fazer o gato se exercitar dentro de casa e evitar sedentarismo e obesidade: guia prático. Manter seu pet ativo dentro de casa exige estratégia e...",
+    "datePublished": "2026-11-16",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Meu gato tem preguiça e não quer brincar, o que fazer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "O segredo é mudar o estímulo. Tente trocar o brinquedo, usar catnip (erva do gato) ou arrastar um cadarço no chão de forma bem sutil. Inicie com sessões ultra curtas de dois minutos. *   **Como saber se meu gato está obeso?**     Passe as mãos nas costelas dele: você deve senti-las facilmente sem precisar apertar. Visto de cima, o corpo precisa ter uma cintura perceptível logo após as costelas. Na dúvida, confirme com o médico-veterinário do pet. *   **Brinquedos laser são seguros para gatos?**     Eles estimulam a corrida, mas podem gerar frustração crônica porque o gato nunca pega a luz física. Se usar o laser, finalize sempre jogando um brinquedo físico palpável para ele morder e concluir o ciclo de caça. *   **Quanto tempo de exercício diário o gato precisa?**     Em média, de 15 a 20 minutos divididos em duas ou três sessões curtas ao longo do dia são suficientes para manter a forma e a mente ativa."
+        }
+      }
+    ]
+  }
+}

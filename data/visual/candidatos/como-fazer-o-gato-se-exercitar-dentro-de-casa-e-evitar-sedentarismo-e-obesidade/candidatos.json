@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 10790434,
+    "url_download": "https://images.pexels.com/photos/10790434/pexels-photo-10790434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-cat-10790434/",
+    "fotografo": "Alberta Studios",
+    "fotografo_url": "https://www.pexels.com/@iamabdullahsheik",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "fat cat resting indoors",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39604091,
+    "url_download": "https://images.pexels.com/photos/39604091/pexels-photo-39604091.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cozy-black-and-white-cat-relaxing-in-bed-39604091/",
+    "fotografo": "Jelena Kazak",
+    "fotografo_url": "https://www.pexels.com/@selena1965",
+    "largura": 3900,
+    "altura": 2600,
+    "query": "fat cat resting indoors",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2973642,
+    "url_download": "https://images.pexels.com/photos/2973642/pexels-photo-2973642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-cat-sleeping-on-ground-2973642/",
+    "fotografo": "Oleg_bf Oleg Borisov",
+    "fotografo_url": "https://www.pexels.com/@olegbf",
+    "largura": 4912,
+    "altura": 2760,
+    "query": "fat cat resting indoors",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40186835,
+    "url_download": "https://images.pexels.com/photos/40186835/pexels-photo-40186835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-ragdoll-cat-on-beige-rug-indoors-40186835/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "fat cat resting indoors",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 41012633,
+    "url_download": "https://images.pexels.com/photos/41012633/pexels-photo-41012633.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yawning-domestic-cat-relaxing-indoors-41012633/",
+    "fotografo": "winrood lee",
+    "fotografo_url": "https://www.pexels.com/@laole",
+    "largura": 5489,
+    "altura": 3652,
+    "query": "fat cat resting indoors",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 20211114,
+    "url_download": "https://images.pexels.com/photos/20211114/pexels-photo-20211114.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-fluffy-kitten-20211114/",
+    "fotografo": "Helena Jankovičová Kováčová",
+    "fotografo_url": "https://www.pexels.com/@helen1",
+    "largura": 5571,
+    "altura": 3714,
+    "query": "playing cat chasing toy alone",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-o-gato-se-exercitar-dentro-de-casa-e-evitar-sedentarismo-e-obesidade/5.jpg"
+  }
+]
