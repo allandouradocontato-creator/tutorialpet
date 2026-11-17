@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Guia prático para alugar apartamento pet friendly",
+  "gancho_3s": "Vai alugar apê com pet? Cuidado para não cair em cilada!",
+  "cenas": [
+    {
+      "narracao": "Antes de assinar, peça a convenção do condomínio. O anúncio dizer pet friendly não basta.",
+      "visual_busca_banco_livre": "cat sitting on floor looking around",
+      "texto_na_tela": "Leia a convenção do condomínio"
+    },
+    {
+      "narracao": "Confira regras de porte, limite de animais e circulação nas áreas comuns do prédio.",
+      "visual_busca_banco_livre": "dog walking indoor hallway",
+      "texto_na_tela": "Regras de circulação"
+    },
+    {
+      "narracao": "Verifique a segurança de janelas e sacadas com telas de proteção firmes e instaladas.",
+      "visual_busca_banco_livre": "cat looking out window close up",
+      "texto_na_tela": "Telas nas janelas"
+    },
+    {
+      "narracao": "Avalie o piso do imóvel. Materiais resistentes evitam desgastes e riscos com as unhas.",
+      "visual_busca_banco_livre": "dog lying on wooden floor",
+      "texto_na_tela": "Atenção ao piso"
+    },
+    {
+      "narracao": "Para dúvidas de saúde e bem-estar do seu pet, consulte sempre um médico veterinário.",
+      "visual_busca_banco_livre": "dog looking healthy close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Salve este vídeo para não errar na mudança!",
+  "hashtags": [
+    "#petfriendly",
+    "#aluguel",
+    "#cachorro",
+    "#gato",
+    "#morarbem"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai alugar apê com pet? Cuidado para não cair em cilada!\n\n📖 Artigo completo: https://tutorialpet.com.br/o-que-verificar-ao-alugar-um-apartamento-pet-friendly-na-cidade\n\n#petfriendly #aluguel #cachorro #gato #morarbem",
+  "slug": "o-que-verificar-ao-alugar-um-apartamento-pet-friendly-na-cidade"
+}

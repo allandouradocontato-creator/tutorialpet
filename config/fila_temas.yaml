@@ -1259,7 +1259,8 @@ temas:
   data: '2026-11-12'
 - termo: o que verificar ao alugar um apartamento pet friendly na cidade
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-17'
 - termo: como viajar de carro com gato sem estresse
   pilar: cuidados_diarios
   status: pendente
@@ -1491,4 +1492,10 @@ temas:
   status: pendente
 - termo: por que gato mia alto portas fechadas de madrugada
   pilar: comportamento
+  status: pendente
+- termo: como evitar que gatos idosos ganhem peso apos a castracao
+  pilar: comportamento
+  status: pendente
+- termo: como identificar sinais de estresse em gatos em casas com muitos pets
+  pilar: utilidade_publica
   status: pendente
