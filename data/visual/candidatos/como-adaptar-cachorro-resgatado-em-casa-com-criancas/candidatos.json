@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 4254053,
+    "url_download": "https://images.pexels.com/photos/4254053/pexels-photo-4254053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-little-purebred-dog-in-robe-looking-out-window-at-home-4254053/",
+    "fotografo": "André Fernandes",
+    "fotografo_url": "https://www.pexels.com/@andre-fernandes-2701637",
+    "largura": 5102,
+    "altura": 3401,
+    "query": "cachorro sozinho em ambiente domestico",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-resgatado-em-casa-com-criancas/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39849148,
+    "url_download": "https://images.pexels.com/photos/39849148/pexels-photo-39849148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/charming-dog-gazing-through-sunlit-window-indoors-39849148/",
+    "fotografo": "Diseño Eli",
+    "fotografo_url": "https://www.pexels.com/@diseno-eli-58496217",
+    "largura": 3008,
+    "altura": 2000,
+    "query": "cachorro sozinho em ambiente domestico",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-resgatado-em-casa-com-criancas/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33919350,
+    "url_download": "https://images.pexels.com/photos/33919350/pexels-photo-33919350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/artistic-portrait-of-two-models-in-black-t-shirts-33919350/",
+    "fotografo": "Marcio Skull",
+    "fotografo_url": "https://www.pexels.com/@marcioskull",
+    "largura": 6333,
+    "altura": 3562,
+    "query": "cachorro sozinho em ambiente domestico",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-resgatado-em-casa-com-criancas/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29209881,
+    "url_download": "https://images.pexels.com/photos/29209881/pexels-photo-29209881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calm-dog-resting-in-an-indoor-sports-arena-29209881/",
+    "fotografo": "Bruno Galvão",
+    "fotografo_url": "https://www.pexels.com/@bruno-galvao-1654572933",
+    "largura": 4618,
+    "altura": 3464,
+    "query": "cachorro sozinho em ambiente domestico",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-resgatado-em-casa-com-criancas/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31220357,
+    "url_download": "https://images.pexels.com/photos/31220357/pexels-photo-31220357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calm-labrador-resting-indoors-in-brazil-31220357/",
+    "fotografo": "Marcio Ribeiro",
+    "fotografo_url": "https://www.pexels.com/@marcio-ribeiro-608242116",
+    "largura": 3936,
+    "altura": 2624,
+    "query": "cachorro sozinho em ambiente domestico",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-resgatado-em-casa-com-criancas/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4453095,
+    "url_download": "https://images.pexels.com/photos/4453095/pexels-photo-4453095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-long-coated-small-dog-on-brown-wooden-floor-4453095/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 4374,
+    "altura": 2916,
+    "query": "cachorro sentado em chao de madeira",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-adaptar-cachorro-resgatado-em-casa-com-criancas/5.jpg"
+  }
+]

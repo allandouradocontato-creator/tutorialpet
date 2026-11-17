@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 33061399,
+    "url_download": "https://images.pexels.com/photos/33061399/pexels-photo-33061399.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/curious-beagle-peering-into-bag-pov-33061399/",
+    "fotografo": "JESHOOTS.com",
+    "fotografo_url": "https://www.pexels.com/@jeshoots-com-147458",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog eating garbage street close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/o-que-fazer-quando-o-pet-come-lixo-na-rua/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9810820,
+    "url_download": "https://images.pexels.com/photos/9810820/pexels-photo-9810820.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-black-and-brown-dog-on-a-wooden-surface-9810820/",
+    "fotografo": "Plato Terentev",
+    "fotografo_url": "https://www.pexels.com/@plato-terentev-3804555",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "curious dog sniffing street trash",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/o-que-fazer-quando-o-pet-come-lixo-na-rua/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17868758,
+    "url_download": "https://images.pexels.com/photos/17868758/pexels-photo-17868758.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/little-dog-on-a-street-17868758/",
+    "fotografo": "Tibor Szabo",
+    "fotografo_url": "https://www.pexels.com/@tibszabo",
+    "largura": 7952,
+    "altura": 4473,
+    "query": "curious dog sniffing street trash",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/o-que-fazer-quando-o-pet-come-lixo-na-rua/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10918045,
+    "url_download": "https://images.pexels.com/photos/10918045/pexels-photo-10918045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-going-through-a-hole-on-a-concrete-wall-10918045/",
+    "fotografo": "lewei Wang",
+    "fotografo_url": "https://www.pexels.com/@lewei-wang-64458750",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "curious dog sniffing street trash",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/o-que-fazer-quando-o-pet-come-lixo-na-rua/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34182718,
+    "url_download": "https://images.pexels.com/photos/34182718/pexels-photo-34182718.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/curious-brown-dog-sniffing-ground-outdoors-34182718/",
+    "fotografo": "Meaw  Zara",
+    "fotografo_url": "https://www.pexels.com/@elizara",
+    "largura": 4928,
+    "altura": 3264,
+    "query": "curious dog sniffing street trash",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/o-que-fazer-quando-o-pet-come-lixo-na-rua/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17133581,
+    "url_download": "https://images.pexels.com/photos/17133581/pexels-photo-17133581.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-in-a-town-17133581/",
+    "fotografo": "Tuğçe Açıkyürek",
+    "fotografo_url": "https://www.pexels.com/@tugce-acikyurek-3099881",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "curious dog sniffing street trash",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/o-que-fazer-quando-o-pet-come-lixo-na-rua/5.jpg"
+  }
+]

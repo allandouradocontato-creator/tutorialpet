@@ -1,0 +1,58 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "O que fazer quando o pet come lixo na rua: guia prático",
+    "description": "O que fazer quando o pet come lixo na rua: guia prático. Se eu te contar que já passei pela situação de ver meu cachorrinho dar o bote em um resto de...",
+    "datePublished": "2026-11-16",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/o-que-fazer-quando-o-pet-come-lixo-na-rua",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/o-que-fazer-quando-o-pet-come-lixo-na-rua"
+    },
+    "image": "https://tutorialpet.com.br/imagens/o-que-fazer-quando-o-pet-come-lixo-na-rua.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O pet pode ter diarreia depois de comer lixo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, o consumo de restos estragados costuma causar distúrbios gastrointestinais leves, mas que exigem monitoramento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo deixar o pet em jejum se ele comer lixo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não altere a dieta sem recomendação veterinária; o jejum prolongado pode piorar o mal-estar estomacal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Como saber se houve obstrução intestinal?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sinais como falta de apetite, abdômen rígido e dor ao toque aparecem em média de horas a dias após a ingestão."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Existe exame para confirmar intoxicação?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, o médico-veterinário pode solicitar exames de sangue e imagem para avaliar a gravidade do caso."
+        }
+      }
+    ]
+  }
+}

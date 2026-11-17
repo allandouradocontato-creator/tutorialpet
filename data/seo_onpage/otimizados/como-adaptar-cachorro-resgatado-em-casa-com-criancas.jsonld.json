@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como adaptar cachorro resgatado em casa com criancas: guia prático",
+    "description": "Como adaptar cachorro resgatado em casa com criancas: guia prático. Adotar um cachorro resgatado e colocá-lo na mesma casa onde pequenos seres humanos...",
+    "datePublished": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-adaptar-cachorro-resgatado-em-casa-com-criancas",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-adaptar-cachorro-resgatado-em-casa-com-criancas"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-adaptar-cachorro-resgatado-em-casa-com-criancas.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro resgatado pode estranhar o tamanho ou a voz das crianças?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, especialmente se ele sofreu maus-tratos no passado com algum perfil específico de pessoa. Apresentações devem ser graduais, sempre com o cachorro no controle da aproximação.  - **O que fazer se o cachorro rosnar para uma criança?** Nunca puna o rosnado, pois ele é o aviso prévio de que o animal está desconfortável. Afaste a criança calmamente e dê espaço ao pet, avaliando o que gerou o gatilho.  - **Devo deixar as crianças sozinhas com o novo cachorro no mesmo cômodo?** Jamais, principalmente nos primeiros meses. Mesmo o cachorro mais dócil do mundo pode se assustar com uma dedada no olho ou um puxão de rabo inesperado.  - **Como saber se a adaptação está funcionando?** O cachorro começa a relaxar pela casa, deita de barriga para cima em áreas comuns e busca a proximidade da família de forma espontânea, sem sinais de rigidez corporal."
+        }
+      }
+    ]
+  }
+}
