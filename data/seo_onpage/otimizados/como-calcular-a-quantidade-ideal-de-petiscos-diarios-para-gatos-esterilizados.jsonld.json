@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como calcular a quantidade ideal de petiscos diarios para gatos esterilizados: guia prático",
+    "description": "Como calcular a quantidade ideal de petiscos diarios para gatos esterilizados: guia prático. Quem nunca balançou aquele pacotinho barulhento só para...",
+    "datePublished": "2026-11-18",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Posso dar petisco todos os dias para o gato castrado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, desde que a quantidade esteja dentro do limite de dez por cento das calorias diárias e seja descontada da ração principal.  * **O que fazer se o gato estiver ganhando peso mesmo comendo pouco?** O ideal é agendar uma avaliação com o médico-veterinário do pet para recalcular a taxa metabólica e ajustar a dieta completa.  * **Petiscos naturais engordam menos que os industrializados?** Algumas opções como pedacinhos de peito de frango cozido sem tempero têm menos calorias, mas o excesso de qualquer alimento ainda gera ganho de peso.  * **Como saber quantas calorias tem o petisco caseiro?** É difícil precisar com exatidão sem uma balança de precisão e tabelas nutricionais, por isso o segredo é oferecer porções bem miúdas e esporádicas."
+        }
+      }
+    ]
+  }
+}

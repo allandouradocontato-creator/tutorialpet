@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 39269451,
+    "url_download": "https://images.pexels.com/photos/39269451/pexels-photo-39269451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cat-enjoying-a-treat-with-owner-indoors-39269451/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "cute cat eating healthy treat",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5779348,
+    "url_download": "https://images.pexels.com/photos/5779348/pexels-photo-5779348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cat-having-a-treat-5779348/",
+    "fotografo": "Anjie Qiu",
+    "fotografo_url": "https://www.pexels.com/@anjie-qiu-3417659",
+    "largura": 6821,
+    "altura": 5304,
+    "query": "cute cat eating healthy treat",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39501005,
+    "url_download": "https://images.pexels.com/photos/39501005/pexels-photo-39501005.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/fluffy-persian-cat-relaxing-indoors-39501005/",
+    "fotografo": "大 董",
+    "fotografo_url": "https://www.pexels.com/@724211268",
+    "largura": 6016,
+    "altura": 4016,
+    "query": "chubby cat sitting on floor indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 10402133,
+    "url_download": "https://images.pexels.com/photos/10402133/pexels-photo-10402133.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-tabby-cat-sitting-10402133/",
+    "fotografo": "Koma Tang",
+    "fotografo_url": "https://www.pexels.com/@koma-tang-10472205",
+    "largura": 8256,
+    "altura": 6192,
+    "query": "chubby cat sitting on floor indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7889540,
+    "url_download": "https://images.pexels.com/photos/7889540/pexels-photo-7889540.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-cat-lying-on-the-floor-7889540/",
+    "fotografo": "AG ZN",
+    "fotografo_url": "https://www.pexels.com/@agzn",
+    "largura": 6721,
+    "altura": 4486,
+    "query": "chubby cat sitting on floor indoor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37911509,
+    "url_download": "https://images.pexels.com/photos/37911509/pexels-photo-37911509.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-british-shorthair-cat-relaxing-indoors-37911509/",
+    "fotografo": "Nuri Askerhan",
+    "fotografo_url": "https://www.pexels.com/@nuri-askerhan-2158943795",
+    "largura": 3840,
+    "altura": 2560,
+    "query": "chubby cat sitting on floor indoor",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados/5.jpg"
+  }
+]
