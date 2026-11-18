@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "O que verificar ao alugar um apartamento pet friendly na cidade: guia prático",
+    "description": "O que verificar ao alugar um apartamento pet friendly na cidade: guia prático. Alugar um imóvel aceitando animais exige atenção a detalhes que vão...",
+    "datePublished": "2026-11-17",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/o-que-verificar-ao-alugar-um-apartamento-pet-friendly-na-cidade",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/o-que-verificar-ao-alugar-um-apartamento-pet-friendly-na-cidade"
+    },
+    "image": "https://tutorialpet.com.br/imagens/o-que-verificar-ao-alugar-um-apartamento-pet-friendly-na-cidade.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O proprietário pode proibir animais em apartamento alugado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A jurisprudência brasileira entende que a proibição genérica e total de animais em condomínios é ilegal, desde que o pet não ofereça riscos à segurança, à saúde ou ao sossego dos demais moradores.  - **Posso ser multado pelo síndico se o cachorro latir?**   Sim, caso o barulho ultrapasse os limites da razoabilidade e perturbe o sossego alheio, o síndico pode aplicar advertências e multas previstas no regimento interno do condomínio.  - **O que fazer se o condomínio cobrar taxa para o pet?**   A cobrança de taxas de mudança ou de permanência exclusivas para animais é considerada abusiva pelos tribunais, pois não há prestação de serviço correspondente.  - **Preciso registrar o pet na administração do prédio?**   A maioria dos condomínios exige o cadastro do animal com apresentação de carteira de vacinação atualizada para controle de acesso e segurança sanitária das áreas comuns."
+        }
+      }
+    ]
+  }
+}
