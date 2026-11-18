@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 4178730,
+    "url_download": "https://images.pexels.com/photos/4178730/pexels-photo-4178730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/fluffy-cat-lying-on-concrete-floor-4178730/",
+    "fotografo": "Tom Fisk",
+    "fotografo_url": "https://www.pexels.com/@tomfisk",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "old cat sleeping alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/por-que-gatos-idosos-dormem-mais-do-que-o-normal/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39182459,
+    "url_download": "https://images.pexels.com/photos/39182459/pexels-photo-39182459.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sleeping-ginger-cat-on-urban-street-corner-39182459/",
+    "fotografo": "İdil Ceren Çelikler",
+    "fotografo_url": "https://www.pexels.com/@idilcelikler",
+    "largura": 5364,
+    "altura": 3576,
+    "query": "old cat sleeping alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/por-que-gatos-idosos-dormem-mais-do-que-o-normal/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5836032,
+    "url_download": "https://images.pexels.com/photos/5836032/pexels-photo-5836032.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-tabby-cat-sleeping-on-concrete-floor-5836032/",
+    "fotografo": "ROMAN ODINTSOV",
+    "fotografo_url": "https://www.pexels.com/@roman-odintsov",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "old cat sleeping alone",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/por-que-gatos-idosos-dormem-mais-do-que-o-normal/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8858881,
+    "url_download": "https://images.pexels.com/photos/8858881/pexels-photo-8858881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-tabby-cat-sleeping-8858881/",
+    "fotografo": "Yvon Gallant",
+    "fotografo_url": "https://www.pexels.com/@yvon-gallant-81432586",
+    "largura": 4128,
+    "altura": 2582,
+    "query": "old cat sleeping alone",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/por-que-gatos-idosos-dormem-mais-do-que-o-normal/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 37223286,
+    "url_download": "https://images.pexels.com/photos/37223286/pexels-photo-37223286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sleeping-cat-on-vintage-stone-steps-outdoors-37223286/",
+    "fotografo": "Tahir Xəlfəquliyev",
+    "fotografo_url": "https://www.pexels.com/@tahir",
+    "largura": 6572,
+    "altura": 4381,
+    "query": "old cat sleeping alone",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/por-que-gatos-idosos-dormem-mais-do-que-o-normal/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30144556,
+    "url_download": "https://images.pexels.com/photos/30144556/pexels-photo-30144556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-sleeping-tabby-cat-in-sunlight-30144556/",
+    "fotografo": "Nadejda Bostanova",
+    "fotografo_url": "https://www.pexels.com/@farfalina",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "senior cat resting close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/por-que-gatos-idosos-dormem-mais-do-que-o-normal/5.jpg"
+  }
+]
