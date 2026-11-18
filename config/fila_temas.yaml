@@ -1276,7 +1276,8 @@ temas:
   status: pendente
 - termo: por que gatos idosos dormem mais do que o normal
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-18'
 - termo: como escolher a melhor raao umida para gatos adultos
   pilar: alimentacao
   status: pendente
@@ -1499,4 +1500,7 @@ temas:
   status: pendente
 - termo: como identificar sinais de estresse em gatos em casas com muitos pets
   pilar: utilidade_publica
+  status: pendente
+- termo: como fazer transicao de racao seca para natural comseguranca
+  pilar: alimentacao
   status: pendente

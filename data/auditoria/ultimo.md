@@ -1,9 +1,9 @@
-# Auditoria do processo — 2026-11-18 13:47 UTC
+# Auditoria do processo — 2026-11-18 18:11 UTC
 
-Pacote: `como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esterilizados` — 1 aviso(s)
+Pacote: `por-que-gatos-idosos-dormem-mais-do-que-o-normal` — 1 aviso(s)
 
-- **OK ** duração 46 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.4 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 41 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.7 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
 - **OK ** gancho com 9 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
@@ -15,4 +15,4 @@ Pacote: `como-calcular-a-quantidade-ideal-de-petiscos-diarios-para-gatos-esteril
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~609 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~518 (saldo do plano: ver painel)

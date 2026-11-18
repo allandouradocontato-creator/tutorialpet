@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Por que gatos idosos dormem tanto?",
+  "gancho_3s": "Seu gato idoso passa o dia inteiro dormindo? Cuidado, isso pode ser mais do que preguiça.",
+  "cenas": [
+    {
+      "narracao": "Gatos idosos podem dormir de 14 a 18 horas por dia. O metabolismo desacelera e as articulações pedem trégua.",
+      "visual_busca_banco_livre": "old cat sleeping cozy bed close up",
+      "texto_na_tela": "14 a 18 horas de sono"
+    },
+    {
+      "narracao": "Se ele acorda para comer, usa a caixa de areia e interage, está tudo bem com o seu velhinho.",
+      "visual_busca_banco_livre": "senior cat eating from bowl",
+      "texto_na_tela": "Comportamento normal"
+    },
+    {
+      "narracao": "Mas atenção: se ele passa o dia prostrado e não reage ao sachê, o sinal amarelo acende.",
+      "visual_busca_banco_livre": "tired old cat lying on floor",
+      "texto_na_tela": "Apatia suspeita"
+    },
+    {
+      "narracao": "Dores crônicas como a osteoartrite fazem o pet evitar movimentos para não sofrer.",
+      "visual_busca_banco_livre": "cat looking sad near window close up",
+      "texto_na_tela": "Dor crônica e osteoartrite"
+    },
+    {
+      "narracao": "Consulte sempre o médico-veterinário para um check-up geriátrico e garanta o conforto dele.",
+      "visual_busca_banco_livre": "old cat resting peacefully cute",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Respeite o descanso e confira o artigo completo no blog!",
+  "hashtags": [
+    "#gatos",
+    "#gatosidosos",
+    "#gatoseriore",
+    "#saudefelina",
+    "#amogatos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato idoso passa o dia inteiro dormindo? Cuidado, isso pode ser mais do que preguiça.\n\n📖 Artigo completo: https://tutorialpet.com.br/por-que-gatos-idosos-dormem-mais-do-que-o-normal\n\n#gatos #gatosidosos #gatoseriore #saudefelina #amogatos",
+  "slug": "por-que-gatos-idosos-dormem-mais-do-que-o-normal"
+}
