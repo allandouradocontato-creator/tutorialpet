@@ -1293,7 +1293,8 @@ temas:
   status: pendente
 - termo: como viajar de onibus interestadual com cachorro
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-19'
 - termo: como evitar que o gato derrube a agua da fonte
   pilar: comportamento
   status: pendente
@@ -1510,4 +1511,7 @@ temas:
   status: pendente
 - termo: como funciona tapete gelado para cachorro no calor
   pilar: produtos_compras
+  status: pendente
+- termo: como evitar que gatos idosos briguem por territorio na mudanca
+  pilar: comportamento
   status: pendente

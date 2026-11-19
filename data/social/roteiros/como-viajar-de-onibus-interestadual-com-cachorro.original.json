@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como viajar de ônibus com cachorro",
+  "gancho_3s": "Vai viajar de ônibus com seu cachorro? Veja as regras essenciais!",
+  "cenas": [
+    {
+      "narracao": "Pensando em viajar de ônibus interestadual com o seu cachorro?",
+      "visual_busca_banco_livre": "small dog sitting looking attentive",
+      "texto_na_tela": "Viagem de ônibus com pet"
+    },
+    {
+      "narracao": "Primeiro, consulte a viação para conferir o limite de peso e as regras de assento.",
+      "visual_busca_banco_livre": "dog looking around alert",
+      "texto_na_tela": "Consulte a viação antes"
+    },
+    {
+      "narracao": "Visite o médico-veterinário para emitir o atestado de saúde e atualizar a vacina antirrábica.",
+      "visual_busca_banco_livre": "healthy dog resting on blanket",
+      "texto_na_tela": "Atestado e vacina em dia"
+    },
+    {
+      "narracao": "A caixa de transporte deve ser rígida e ventilada. Acostume o pet nela com petiscos.",
+      "visual_busca_banco_livre": "dog entering pet carrier box",
+      "texto_na_tela": "Caixa rígida e segura"
+    },
+    {
+      "narracao": "No dia, alimente o cão três horas antes do embarque para prevenir enjoos na estrada.",
+      "visual_busca_banco_livre": "dog waiting patiently sitting",
+      "texto_na_tela": "Alimente 3h antes"
+    },
+    {
+      "narracao": "Por segurança, o cachorro deve permanecer dentro da caixa durante todo o percurso.",
+      "visual_busca_banco_livre": "small dog lying inside transport crate",
+      "texto_na_tela": "Sempre dentro da caixa"
+    }
+  ],
+  "chamada_final": "Consulte seu médico-veterinário antes do embarque e salve este vídeo para a próxima viagem!",
+  "hashtags": [
+    "#viagemcompet",
+    "#cachorro",
+    "#dicaspet",
+    "#cuidadoscomcães",
+    "#viagemcomcachorro"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai viajar de ônibus com seu cachorro? Veja as regras essenciais!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-viajar-de-onibus-interestadual-com-cachorro\n\n#viagemcompet #cachorro #dicaspet #cuidadoscomcães #viagemcomcachorro",
+  "slug": "como-viajar-de-onibus-interestadual-com-cachorro"
+}
