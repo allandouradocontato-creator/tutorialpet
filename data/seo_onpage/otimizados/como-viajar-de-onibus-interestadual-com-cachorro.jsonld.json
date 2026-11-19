@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Como viajar de onibus interestadual com cachorro: guia prático",
+    "description": "Como viajar de ônibus interestadual com cachorro? Veja o passo a passo prático, regras de transporte e documentos exigidos por lei.",
+    "datePublished": "2026-11-19",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/como-viajar-de-onibus-interestadual-com-cachorro",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/como-viajar-de-onibus-interestadual-com-cachorro"
+    },
+    "image": "https://tutorialpet.com.br/imagens/como-viajar-de-onibus-interestadual-com-cachorro.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "O cachorro pode ir solto no meu colo durante a viagem interestadual?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não. Por questões de segurança das normas rodoviárias e da própria viação, o animal deve permanecer acomodado dentro da caixa de transporte durante todo o percurso.  - **Preciso pagar passagem extra para o cachorro?** Depende da viação. Algumas empresas cobram o valor equivalente a uma poltrona extra quando o animal vai no assento ao lado, enquanto outras cobram uma taxa de embarque específica para pets.  - **Qualquer raça de cachorro pode viajar no ônibus?** A maioria das empresas aceita pets de pequeno e médio porte na cabine, desde que pesem dentro do limite estipulado (geralmente até 10 kg com a caixa). Cachorros maiores costumam ter regras restritas ou não são permitidos no salão de passageiros.  - **O que fazer se o cachorro vomitar no meio da viagem?** Mantenha a calma, abra a caixa com cuidado se for seguro, limpe a sujeira com o papel toalha e use os lenços umedecidos. Mantenha o animal calmo e ofereça água fresca assim que o ônibus parar."
+        }
+      }
+    ]
+  }
+}
