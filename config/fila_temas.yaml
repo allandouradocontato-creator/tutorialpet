@@ -442,7 +442,8 @@ temas:
   data: '2026-11-13'
 - termo: quanto tempo gato filhote pode ficar sozinho
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-19'
 - termo: como escolher shampoo para cachorro de pele sensivel
   pilar: produtos_compras
   status: rascunho_pronto
@@ -1514,4 +1515,7 @@ temas:
   status: pendente
 - termo: como evitar que gatos idosos briguem por territorio na mudanca
   pilar: comportamento
+  status: pendente
+- termo: como identificar fontes de agua seguras em areas pet friendly publicas
+  pilar: utilidade_publica
   status: pendente
