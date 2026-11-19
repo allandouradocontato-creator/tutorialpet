@@ -1488,7 +1488,8 @@ temas:
   status: pendente
 - termo: quais regras de convivencia ensinar para criancas e caes adotados
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-19'
 - termo: como resfriar cachorro no calor intenso sem ar condicionado
   pilar: cuidados_diarios
   status: pendente
@@ -1503,4 +1504,10 @@ temas:
   status: pendente
 - termo: como fazer transicao de racao seca para natural comseguranca
   pilar: alimentacao
+  status: pendente
+- termo: como fazer adaptacao de cachorro recem adotado em casa
+  pilar: adocao
+  status: pendente
+- termo: como funciona tapete gelado para cachorro no calor
+  pilar: produtos_compras
   status: pendente
