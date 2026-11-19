@@ -1,0 +1,34 @@
+{
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Por que gatos idosos dormem mais do que o normal: guia prático",
+    "description": "Descubra por que gatos idosos dormem mais do que o normal, quando isso faz parte da idade e os cuidados essenciais que você deve tomar.",
+    "datePublished": "2026-11-18",
+    "inLanguage": "pt-BR",
+    "author": {
+      "@type": "Organization",
+      "name": "Equipe Tutorial Pet"
+    },
+    "url": "https://tutorialpet.com.br/por-que-gatos-idosos-dormem-mais-do-que-o-normal",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://tutorialpet.com.br/por-que-gatos-idosos-dormem-mais-do-que-o-normal"
+    },
+    "image": "https://tutorialpet.com.br/imagens/por-que-gatos-idosos-dormem-mais-do-que-o-normal.jpg"
+  },
+  "faq": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "É normal o gato idoso dormir quase o dia todo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, em média eles dormem de 14 a 18 horas diárias, pois o metabolismo desacelera com a idade.  * **Como saber se o meu gato está dormindo por dor ou velhice?** Se ele demonstra rigidez ao levantar, evita pular em lugares altos ou mia ao ser tocado, pode ser dor. O médico-veterinário deve avaliar.  * **Devo acordar o gato idoso para comer ou interagir?** Não é recomendado. Deixe-o descansar, mas certifique-se de que ele está se alimentando e usando a caixa de areia nos momentos em que acorda.  * **O que muda na alimentação do gato sênior?** Eles costumam precisar de rações específicas para a idade, que protegem os rins e as articulações."
+        }
+      }
+    ]
+  }
+}
