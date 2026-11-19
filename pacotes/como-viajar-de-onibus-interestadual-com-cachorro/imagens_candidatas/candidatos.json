@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 10326329,
+    "url_download": "https://images.pexels.com/photos/10326329/pexels-photo-10326329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-a-yorkshire-terrier-behind-a-glass-window-10326329/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog looking out bus window",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-viajar-de-onibus-interestadual-com-cachorro/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 19169170,
+    "url_download": "https://images.pexels.com/photos/19169170/pexels-photo-19169170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-near-window-19169170/",
+    "fotografo": "ela dalgın",
+    "fotografo_url": "https://www.pexels.com/@ela-dalgin-401529281",
+    "largura": 4032,
+    "altura": 3024,
+    "query": "dog looking out bus window",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-viajar-de-onibus-interestadual-com-cachorro/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15532129,
+    "url_download": "https://images.pexels.com/photos/15532129/pexels-photo-15532129.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-sitting-in-a-car-15532129/",
+    "fotografo": "Tom Van Dyck",
+    "fotografo_url": "https://www.pexels.com/@tom-van-dyck-423949093",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog looking out bus window",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-viajar-de-onibus-interestadual-com-cachorro/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16550770,
+    "url_download": "https://images.pexels.com/photos/16550770/pexels-photo-16550770.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-sitting-in-car-16550770/",
+    "fotografo": "Mohan Nannapaneni",
+    "fotografo_url": "https://www.pexels.com/@mnannapaneni",
+    "largura": 7383,
+    "altura": 4925,
+    "query": "dog looking out bus window",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-viajar-de-onibus-interestadual-com-cachorro/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39572423,
+    "url_download": "https://images.pexels.com/photos/39572423/pexels-photo-39572423.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dachshunds-peering-out-van-window-on-a-sunny-day-39572423/",
+    "fotografo": "Natalie Buchanan",
+    "fotografo_url": "https://www.pexels.com/@natalie-buchanan-2146418306",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "dog looking out bus window",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-viajar-de-onibus-interestadual-com-cachorro/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 13661393,
+    "url_download": "https://images.pexels.com/photos/13661393/pexels-photo-13661393.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/elderly-woman-riding-a-bus-13661393/",
+    "fotografo": "Rüveyda",
+    "fotografo_url": "https://www.pexels.com/@ruveyda-140435227",
+    "largura": 4898,
+    "altura": 3265,
+    "query": "dog sitting on bus seat alone",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-viajar-de-onibus-interestadual-com-cachorro/5.jpg"
+  }
+]
