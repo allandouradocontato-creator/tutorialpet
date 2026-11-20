@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 20680840,
+    "url_download": "https://images.pexels.com/photos/20680840/pexels-photo-20680840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-puppy-dog-20680840/",
+    "fotografo": "Tokuo Nobuhiro",
+    "fotografo_url": "https://www.pexels.com/@tokuo-nobuhiro-79378678",
+    "largura": 9528,
+    "altura": 6328,
+    "query": "cute dog sitting alone indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cute dog sitting alone indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 545024,
+    "url_download": "https://images.pexels.com/photos/545024/pexels-photo-545024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adult-fawn-pug-near-white-wooden-framed-window-545024/",
+    "fotografo": "Burst",
+    "fotografo_url": "https://www.pexels.com/@burst",
+    "largura": 4460,
+    "altura": 2973,
+    "query": "cute dog sitting alone indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9102177,
+    "url_download": "https://images.pexels.com/photos/9102177/pexels-photo-9102177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-cute-dog-9102177/",
+    "fotografo": "Viktorya  Sergeeva 🫂",
+    "fotografo_url": "https://www.pexels.com/@johndetochka",
+    "largura": 4608,
+    "altura": 3456,
+    "query": "happy puppy lying on floor portrait",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9269488,
+    "url_download": "https://images.pexels.com/photos/9269488/pexels-photo-9269488.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-brown-dachshund-lying-on-a-carpet-9269488/",
+    "fotografo": "Vinícius Cezário",
+    "fotografo_url": "https://www.pexels.com/@vinicius-cezario-87687338",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "happy puppy lying on floor portrait",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7990291,
+    "url_download": "https://images.pexels.com/photos/7990291/pexels-photo-7990291.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-brown-dog-sitting-on-concrete-floor-7990291/",
+    "fotografo": "Bich Tran",
+    "fotografo_url": "https://www.pexels.com/@thngocbich",
+    "largura": 4096,
+    "altura": 2300,
+    "query": "happy puppy lying on floor portrait",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/5.jpg"
+  }
+]
