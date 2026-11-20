@@ -1511,7 +1511,8 @@ temas:
   status: pendente
 - termo: como fazer adaptacao de cachorro recem adotado em casa
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-20'
 - termo: como funciona tapete gelado para cachorro no calor
   pilar: produtos_compras
   status: pendente
@@ -1525,5 +1526,11 @@ temas:
   pilar: comportamento
   status: pendente
 - termo: como organizar o espaco para caes e gatos em casas pequenas
+  pilar: utilidade_publica
+  status: pendente
+- termo: como evitar que gatos idosos percam interesse pela comida umida
+  pilar: alimentacao
+  status: pendente
+- termo: quais espacos da casa precisam de protecao extra para gatos curiosos
   pilar: utilidade_publica
   status: pendente
