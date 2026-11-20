@@ -1,0 +1,41 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 14610314,
+    "url_download": "https://images.pexels.com/photos/14610314/pexels-photo-14610314.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-in-meadow-in-the-evening-14610314/",
+    "fotografo": "Ioan-Dan Plesa",
+    "fotografo_url": "https://www.pexels.com/@ioan-dan-plesa-75309815",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog eating grass isolated background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6662720,
+    "url_download": "https://images.pexels.com/photos/6662720/pexels-photo-6662720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-dog-biting-grass-6662720/",
+    "fotografo": "Anastasiya Vragova",
+    "fotografo_url": "https://www.pexels.com/@anastasiya-vragova-22991246",
+    "largura": 4512,
+    "altura": 3008,
+    "query": "dog eating grass close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1261686,
+    "url_download": "https://images.pexels.com/photos/1261686/pexels-photo-1261686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-tibetan-spaniel-puppy-laying-down-on-grass-1261686/",
+    "fotografo": "Jean-Daniel Francoeur",
+    "fotografo_url": "https://www.pexels.com/@jean-daniel",
+    "largura": 5527,
+    "altura": 3685,
+    "query": "dog eating grass close up",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/2.jpg"
+  }
+]
