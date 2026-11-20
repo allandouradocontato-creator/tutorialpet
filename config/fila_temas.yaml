@@ -432,7 +432,8 @@ temas:
   data: '2026-11-06'
 - termo: por que o cachorro come grama
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-20'
 - termo: gato miando de madrugada o que fazer
   pilar: comportamento
   status: pendente
@@ -1518,4 +1519,7 @@ temas:
   status: pendente
 - termo: como identificar fontes de agua seguras em areas pet friendly publicas
   pilar: utilidade_publica
+  status: pendente
+- termo: como evitar que caes e gatos disputem brinquedos no mesmo ambiente
+  pilar: comportamento
   status: pendente

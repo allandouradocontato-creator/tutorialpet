@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Por que o cachorro come grama?",
+  "gancho_3s": "Seu cachorro come grama? Descubra o verdadeiro motivo!",
+  "cenas": [
+    {
+      "narracao": "Ver o cachorro mastigando folhas verdes no jardim gera muitas dúvidas nos tutores.",
+      "visual_busca_banco_livre": "dog eating grass close up",
+      "texto_na_tela": "Cachorro comendo grama"
+    },
+    {
+      "narracao": "A crendice diz que é para vomitar toxinas ou limpar o organismo, mas isso é mito!",
+      "visual_busca_banco_livre": "dog looking up curious",
+      "texto_na_tela": "Mito ou verdade?"
+    },
+    {
+      "narracao": "A maioria faz isso por puro hábito, preferência alimentar ou tédio quando fica sozinho.",
+      "visual_busca_banco_livre": "dog biting grass in garden",
+      "texto_na_tela": "Pode ser tédio"
+    },
+    {
+      "narracao": "O grande perigo real não é a grama, mas sim pesticidas, herbicidas e fertilizantes tóxicos.",
+      "visual_busca_banco_livre": "green grass lawn texture close up",
+      "texto_na_tela": "Cuidado com produtos químicos"
+    },
+    {
+      "narracao": "Se o hábito for compulsivo ou vier acompanhado de apatia, procure o médico-veterinário.",
+      "visual_busca_banco_livre": "dog sitting sad outdoors",
+      "texto_na_tela": "Procure o veterinário"
+    }
+  ],
+  "chamada_final": "Garantir estímulos mentais e segurança no jardim evita riscos para a saúde do seu pet.",
+  "hashtags": [
+    "#cachorro",
+    "#comportamentocanino",
+    "#pets",
+    "#cuidadoscompets",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro come grama? Descubra o verdadeiro motivo!\n\n📖 Artigo completo: https://tutorialpet.com.br/por-que-o-cachorro-come-grama\n\n#cachorro #comportamentocanino #pets #cuidadoscompets #dicaspet",
+  "slug": "por-que-o-cachorro-come-grama"
+}

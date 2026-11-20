@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Por que o cachorro come grama?",
+  "gancho_3s": "Você já parou pra pensar que seu cachorro come grama?",
+  "cenas": [
+    {
+      "narracao": "[thoughtful] Você já parou pra pensar que seu cachorro come grama?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro vive comendo grama?"
+    },
+    {
+      "narracao": "[warmly] Ver o cachorro mastigando folhas verdes no jardim gera dúvidas.",
+      "visual_busca_banco_livre": "dog eating grass close up",
+      "texto_na_tela": "Cachorro comendo grama"
+    },
+    {
+      "narracao": "[thoughtful] A crendice diz que é para vomitar, mas isso é mito!",
+      "visual_busca_banco_livre": "dog looking up curious",
+      "texto_na_tela": "Mito ou verdade?"
+    },
+    {
+      "narracao": "[smiling] A maioria faz isso por puro hábito ou tédio quando fica sozinha.",
+      "visual_busca_banco_livre": "dog biting grass in garden",
+      "texto_na_tela": "Pode ser tédio"
+    },
+    {
+      "narracao": "[softly] O perigo real não é a grama, mas sim pesticidas e fertilizantes tóxicos.",
+      "visual_busca_banco_livre": "green grass lawn texture close up",
+      "texto_na_tela": "Cuidado com produtos químicos"
+    },
+    {
+      "narracao": "[thoughtful] [short pause] Se o hábito for compulsivo, procure um médico-veterinário.",
+      "visual_busca_banco_livre": "dog sitting sad outdoors",
+      "texto_na_tela": "Procure o veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorro",
+    "#comportamentocanino",
+    "#pets",
+    "#cuidadoscompets",
+    "#dicaspet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro come grama? Descubra o verdadeiro motivo!\n\n📖 Artigo completo: https://tutorialpet.com.br/por-que-o-cachorro-come-grama\n\n#cachorro #comportamentocanino #pets #cuidadoscompets #dicaspet",
+  "slug": "por-que-o-cachorro-come-grama",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 1
+}
