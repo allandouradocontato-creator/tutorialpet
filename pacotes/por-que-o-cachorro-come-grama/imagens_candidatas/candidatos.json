@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 6662720,
+    "url_download": "https://images.pexels.com/photos/6662720/pexels-photo-6662720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-dog-biting-grass-6662720/",
+    "fotografo": "Anastasiya Vragova",
+    "fotografo_url": "https://www.pexels.com/@anastasiya-vragova-22991246",
+    "largura": 4512,
+    "altura": 3008,
+    "query": "dog eating grass close up",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 1261686,
+    "url_download": "https://images.pexels.com/photos/1261686/pexels-photo-1261686.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-tibetan-spaniel-puppy-laying-down-on-grass-1261686/",
+    "fotografo": "Jean-Daniel Francoeur",
+    "fotografo_url": "https://www.pexels.com/@jean-daniel",
+    "largura": 5527,
+    "altura": 3685,
+    "query": "dog eating grass close up",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4027982,
+    "url_download": "https://images.pexels.com/photos/4027982/pexels-photo-4027982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/brown-short-coated-dog-lying-on-green-grass-4027982/",
+    "fotografo": "Alexander Nadrilyanski",
+    "fotografo_url": "https://www.pexels.com/@aleksandar069",
+    "largura": 3359,
+    "altura": 2235,
+    "query": "dog eating grass outdoors green lawn",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33763808,
+    "url_download": "https://images.pexels.com/photos/33763808/pexels-photo-33763808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-french-bulldog-on-green-grass-lawn-33763808/",
+    "fotografo": "Writchid Snipes",
+    "fotografo_url": "https://www.pexels.com/@writchid-snipes-1112447913",
+    "largura": 4176,
+    "altura": 2784,
+    "query": "dog eating grass outdoors green lawn",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4495797,
+    "url_download": "https://images.pexels.com/photos/4495797/pexels-photo-4495797.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/paws-of-small-dog-on-green-grass-4495797/",
+    "fotografo": "kaboompics",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "dog eating grass outdoors green lawn",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8545347,
+    "url_download": "https://images.pexels.com/photos/8545347/pexels-photo-8545347.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-beagle-lying-on-the-grass-8545347/",
+    "fotografo": "Nastya Korenkova",
+    "fotografo_url": "https://www.pexels.com/@nastya-korenkova-72937441",
+    "largura": 2492,
+    "altura": 1994,
+    "query": "dog eating grass outdoors green lawn",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/por-que-o-cachorro-come-grama/5.jpg"
+  }
+]
