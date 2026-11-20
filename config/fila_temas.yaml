@@ -1311,7 +1311,8 @@ temas:
   status: pendente
 - termo: como preparar um espaco seguro para o pet idoso durante reformas
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-20'
 - termo: como planejar a rotina de exercicios para caes adultos ativos
   pilar: cuidados_diarios
   status: pendente
@@ -1522,4 +1523,7 @@ temas:
   status: pendente
 - termo: como evitar que caes e gatos disputem brinquedos no mesmo ambiente
   pilar: comportamento
+  status: pendente
+- termo: como organizar o espaco para caes e gatos em casas pequenas
+  pilar: utilidade_publica
   status: pendente
