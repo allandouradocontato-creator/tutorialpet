@@ -1,0 +1,28 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7980622,
+    "url_download": "https://images.pexels.com/photos/7980622/pexels-photo-7980622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cat-licking-a-woman-s-finger-7980622/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cat eating from puzzle feeder",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-interativo-lento-para-gatos-com-ansiedade/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7874938,
+    "url_download": "https://images.pexels.com/photos/7874938/pexels-photo-7874938.png?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cats-sitting-on-a-platform-7874938/",
+    "fotografo": "Halil  Yetkin",
+    "fotografo_url": "https://www.pexels.com/@halibrhm",
+    "largura": 5184,
+    "altura": 3386,
+    "query": "calm cat slow feeder bowl",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-interativo-lento-para-gatos-com-ansiedade/1.jpg"
+  }
+]
