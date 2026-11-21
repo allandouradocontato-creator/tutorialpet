@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cute puppy alone indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282278,
+    "url_download": "https://images.pexels.com/photos/7282278/pexels-photo-7282278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-puppy-in-cozy-room-7282278/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy alone indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4254053,
+    "url_download": "https://images.pexels.com/photos/4254053/pexels-photo-4254053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-little-purebred-dog-in-robe-looking-out-window-at-home-4254053/",
+    "fotografo": "André Fernandes",
+    "fotografo_url": "https://www.pexels.com/@andre-fernandes-2701637",
+    "largura": 5102,
+    "altura": 3401,
+    "query": "cute puppy alone indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9460365,
+    "url_download": "https://images.pexels.com/photos/9460365/pexels-photo-9460365.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-close-up-shot-of-a-black-puppy-9460365/",
+    "fotografo": "Alexey Demidov",
+    "fotografo_url": "https://www.pexels.com/@alexeydemidov",
+    "largura": 4032,
+    "altura": 2688,
+    "query": "cute puppy alone indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36198590,
+    "url_download": "https://images.pexels.com/photos/36198590/pexels-photo-36198590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sleeping-dog-on-bed-with-relaxing-atmosphere-36198590/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog lying on cozy pet bed",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5993649,
+    "url_download": "https://images.pexels.com/photos/5993649/pexels-photo-5993649.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-in-a-bed-and-looking-at-the-camera-5993649/",
+    "fotografo": "kaboompics",
+    "fotografo_url": "https://www.pexels.com/@karola-g",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "dog lying on cozy pet bed",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-adaptacao-de-cachorro-recem-adotado-em-casa/5.jpg"
+  }
+]
