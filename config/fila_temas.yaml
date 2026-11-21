@@ -1329,7 +1329,8 @@ temas:
   status: pendente
 - termo: quais documentos levar para viajar de onibus com caes e gatos
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-21'
 - termo: como evitar que gatos idosos tenham ciumes de filhotes novos
   pilar: comportamento
   status: pendente
@@ -1537,4 +1538,13 @@ temas:
   status: pendente
 - termo: sinais de estresse em cães senior que moram com filhotes
   pilar: comportamento
+  status: pendente
+- termo: quais petiscos naturais congelados refrescam caes nos dias quentes
+  pilar: utilidade_publica
+  status: pendente
+- termo: como acostumar dois gatos adultos a dividirem o mesmo arranhador
+  pilar: comportamento
+  status: pendente
+- termo: como escolher os melhores brinquedos de inteligencia para gatos idosos
+  pilar: produtos_compras
   status: pendente

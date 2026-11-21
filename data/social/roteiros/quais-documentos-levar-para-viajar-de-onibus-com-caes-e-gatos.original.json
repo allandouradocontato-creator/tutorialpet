@@ -1,0 +1,41 @@
+{
+  "titulo_video": "O que levar para viajar de ônibus com cães e gatos",
+  "gancho_3s": "Vai viajar de ônibus com seu pet e tem medo de ser barrado na rodoviária?",
+  "cenas": [
+    {
+      "narracao": "Para viagens interestaduais, é obrigatório apresentar atestado sanitário emitido por médico-veterinário.",
+      "visual_busca_banco_livre": "dog looking out window close up",
+      "texto_na_tela": "Atestado veterinário obrigatório"
+    },
+    {
+      "narracao": "A carteira de vacinação precisa estar atualizada, com destaque para a dose da vacina antirrábica.",
+      "visual_busca_banco_livre": "cat looking at camera close up",
+      "texto_na_tela": "Vacina antirrábica em dia"
+    },
+    {
+      "narracao": "O animal deve viajar acomodado dentro de uma caixa de transporte rígida, limpa e bem ventilada.",
+      "visual_busca_banco_livre": "dog inside travel carrier",
+      "texto_na_tela": "Caixa de transporte adequada"
+    },
+    {
+      "narracao": "A caixa precisa caber embaixo da poltrona ou no espaço designado, sem circular solto pelo ônibus.",
+      "visual_busca_banco_livre": "cat resting inside carrier",
+      "texto_na_tela": "Proibido solto no corredor"
+    },
+    {
+      "narracao": "Consulte a viação com antecedência para confirmar limites de peso e normas sobre passagem extra.",
+      "visual_busca_banco_livre": "dog waiting patiently",
+      "texto_na_tela": "Confirme regras da viação"
+    }
+  ],
+  "chamada_final": "Consulte sempre um veterinário para a saúde do seu pet e verifique as regras oficiais antes de viajar.",
+  "hashtags": [
+    "#viagemcompet",
+    "#cachorrodeonibus",
+    "#gato",
+    "#viagemdeonibus",
+    "#petlovers"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai viajar de ônibus com seu pet e tem medo de ser barrado na rodoviária?\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-documentos-levar-para-viajar-de-onibus-com-caes-e-gatos\n\n#viagemcompet #cachorrodeonibus #gato #viagemdeonibus #petlovers",
+  "slug": "quais-documentos-levar-para-viajar-de-onibus-com-caes-e-gatos"
+}
