@@ -471,7 +471,8 @@ temas:
   status: pendente
 - termo: como escolher comedouro interativo lento para gatos com ansiedade
   pilar: produtos_compras
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-21'
 - termo: como montar um espaco vertical seguro para gatos idosos com artrose
   pilar: cuidados_diarios
   status: pendente
@@ -1533,4 +1534,7 @@ temas:
   status: pendente
 - termo: quais espacos da casa precisam de protecao extra para gatos curiosos
   pilar: utilidade_publica
+  status: pendente
+- termo: sinais de estresse em cães senior que moram com filhotes
+  pilar: comportamento
   status: pendente
