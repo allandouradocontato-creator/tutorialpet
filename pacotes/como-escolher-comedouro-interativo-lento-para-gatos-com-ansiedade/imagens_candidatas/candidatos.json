@@ -1,0 +1,41 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 7980622,
+    "url_download": "https://images.pexels.com/photos/7980622/pexels-photo-7980622.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cat-licking-a-woman-s-finger-7980622/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cat eating slow feeder bowl",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-interativo-lento-para-gatos-com-ansiedade/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 39354385,
+    "url_download": "https://images.pexels.com/photos/39354385/pexels-photo-39354385.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-curious-domestic-cat-39354385/",
+    "fotografo": "Tuğba",
+    "fotografo_url": "https://www.pexels.com/@tugba",
+    "largura": 5443,
+    "altura": 4000,
+    "query": "anxious cat looking at puzzle feeder",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-interativo-lento-para-gatos-com-ansiedade/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15372059,
+    "url_download": "https://images.pexels.com/photos/15372059/pexels-photo-15372059.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-cat-15372059/",
+    "fotografo": "Nick Dubé",
+    "fotografo_url": "https://www.pexels.com/@nick-dube-223568528",
+    "largura": 3888,
+    "altura": 2592,
+    "query": "anxious cat looking at puzzle feeder",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-escolher-comedouro-interativo-lento-para-gatos-com-ansiedade/2.jpg"
+  }
+]
