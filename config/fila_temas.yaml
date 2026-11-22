@@ -455,7 +455,8 @@ temas:
   data: '2026-11-01'
 - termo: como tirar pelo de cachorro do sofa e da roupa
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-22'
 - termo: quais cuidados diarios com caes senior de pelo curto
   pilar: cuidados_diarios
   status: pendente
@@ -1547,4 +1548,16 @@ temas:
   status: pendente
 - termo: como escolher os melhores brinquedos de inteligencia para gatos idosos
   pilar: produtos_compras
+  status: pendente
+- termo: como receber cachorro adotado medroso nos primeiros dias
+  pilar: adocao
+  status: pendente
+- termo: como evitar que o gato acorde os donos de madrugada
+  pilar: comportamento
+  status: pendente
+- termo: como oferecer ovo cozido para cachorro de forma segura
+  pilar: alimentacao
+  status: pendente
+- termo: regras para ter cachorro em condominio segundo a lei
+  pilar: utilidade_publica
   status: pendente

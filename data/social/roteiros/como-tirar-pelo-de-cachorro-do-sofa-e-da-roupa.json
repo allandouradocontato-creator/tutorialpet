@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como tirar pelo de cachorro do sofá e da roupa",
+  "gancho_3s": "Se você é tutor e quer limpar pelos, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "Se você é tutor e quer limpar pelos, assiste isso.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Cansada de pelo na roupa preta?"
+    },
+    {
+      "narracao": "[thoughtful] Para tirar pelos da roupa rapidinho, usa uma luva de borracha levemente umedecida.",
+      "visual_busca_banco_livre": "dog sitting on sofa close up",
+      "texto_na_tela": "Luva de borracha úmida"
+    },
+    {
+      "narracao": "[short pause] Passa a mão espalmada no tecido para formar rolinhos fáceis de descartar.",
+      "visual_busca_banco_livre": "puppy playing indoor",
+      "texto_na_tela": "Eletricidade estática"
+    },
+    {
+      "narracao": "No sofá, mistura água e amaciante num borrifador e aplica de leve no tecido.",
+      "visual_busca_banco_livre": "dog resting on floor",
+      "texto_na_tela": "Água e amaciante"
+    },
+    {
+      "narracao": "[smiling] Passa um pano de microfibra para remover tufos de pelo de uma vez só.",
+      "visual_busca_banco_livre": "cute dog portrait",
+      "texto_na_tela": "Pano de microfibra"
+    },
+    {
+      "narracao": "Escovar o cachorro todo dia segura os fios soltos na escova e não na mobília.",
+      "visual_busca_banco_livre": "dog brushing fur close up",
+      "texto_na_tela": "Escovação diária"
+    },
+    {
+      "narracao": "[thoughtful] Se notar queda excessiva de pelos ou falhas na pele, procura um veterinário.",
+      "visual_busca_banco_livre": "healthy dog looking camera",
+      "texto_na_tela": "Procure um veterinário"
+    }
+  ],
+  "chamada_final": "[warmly] Quer aprender mais? Tem muito conteúdo no tutorialpet.com.br, vem com a gente. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#pets",
+    "#cachorros",
+    "#limpeza",
+    "#dicas",
+    "#dicapet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nCansado de ver sua roupa preta cheia de pelos?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa\n\n#pets #cachorros #limpeza #dicas #dicapet",
+  "slug": "como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 6
+}
