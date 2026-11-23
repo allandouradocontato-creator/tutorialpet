@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 4254053,
+    "url_download": "https://images.pexels.com/photos/4254053/pexels-photo-4254053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-little-purebred-dog-in-robe-looking-out-window-at-home-4254053/",
+    "fotografo": "André Fernandes",
+    "fotografo_url": "https://www.pexels.com/@andre-fernandes-2701637",
+    "largura": 5102,
+    "altura": 3401,
+    "query": "dog sitting on sofa alone",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282333,
+    "url_download": "https://images.pexels.com/photos/7282333/pexels-photo-7282333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-loyal-dog-resting-on-sofa-at-home-7282333/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog sitting on sofa alone",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7788650,
+    "url_download": "https://images.pexels.com/photos/7788650/pexels-photo-7788650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/obedient-domestic-brown-dog-at-home-7788650/",
+    "fotografo": "Ivan Babydov",
+    "fotografo_url": "https://www.pexels.com/@babydov",
+    "largura": 5760,
+    "altura": 3840,
+    "query": "dog sitting on sofa alone",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40108329,
+    "url_download": "https://images.pexels.com/photos/40108329/pexels-photo-40108329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-dog-on-comfortable-sofa-indoors-40108329/",
+    "fotografo": "Andreas Ebner",
+    "fotografo_url": "https://www.pexels.com/@andreasebnerfotografie",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog sitting on sofa alone",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 31347233,
+    "url_download": "https://images.pexels.com/photos/31347233/pexels-photo-31347233.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/relaxed-dog-resting-on-a-sofa-in-black-and-white-31347233/",
+    "fotografo": "Peter Jochim",
+    "fotografo_url": "https://www.pexels.com/@peterjochim-fotografie",
+    "largura": 5616,
+    "altura": 3744,
+    "query": "dog sitting on sofa alone",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30810890,
+    "url_download": "https://images.pexels.com/photos/30810890/pexels-photo-30810890.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-a-golden-retriever-in-nature-30810890/",
+    "fotografo": "Masood Aslami",
+    "fotografo_url": "https://www.pexels.com/@masoodaslami",
+    "largura": 6636,
+    "altura": 4424,
+    "query": "dog shedding fur close up",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-tirar-pelo-de-cachorro-do-sofa-e-da-roupa/5.jpg"
+  }
+]
