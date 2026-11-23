@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 5779348,
+    "url_download": "https://images.pexels.com/photos/5779348/pexels-photo-5779348.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cat-having-a-treat-5779348/",
+    "fotografo": "Anjie Qiu",
+    "fotografo_url": "https://www.pexels.com/@anjie-qiu-3417659",
+    "largura": 6821,
+    "altura": 5304,
+    "query": "cat eating ice treat white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-fazer-picole-de-sache-para-gatos-no-calor/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8778139,
+    "url_download": "https://images.pexels.com/photos/8778139/pexels-photo-8778139.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-and-black-cat-in-close-up-photography-8778139/",
+    "fotografo": "Kafeel Ahmed",
+    "fotografo_url": "https://www.pexels.com/@aksbykas",
+    "largura": 5568,
+    "altura": 3712,
+    "query": "cute cat closeup isolated background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-fazer-picole-de-sache-para-gatos-no-calor/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6982643,
+    "url_download": "https://images.pexels.com/photos/6982643/pexels-photo-6982643.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/orange-tabby-cat-on-white-table-6982643/",
+    "fotografo": "Karina Badura",
+    "fotografo_url": "https://www.pexels.com/@karina-badura-3100400",
+    "largura": 3872,
+    "altura": 2592,
+    "query": "cute cat closeup isolated background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-fazer-picole-de-sache-para-gatos-no-calor/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 34839891,
+    "url_download": "https://images.pexels.com/photos/34839891/pexels-photo-34839891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-green-eyed-cat-outdoors-34839891/",
+    "fotografo": "H",
+    "fotografo_url": "https://www.pexels.com/@h-512756904",
+    "largura": 3777,
+    "altura": 2518,
+    "query": "cute cat closeup isolated background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-fazer-picole-de-sache-para-gatos-no-calor/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7017625,
+    "url_download": "https://images.pexels.com/photos/7017625/pexels-photo-7017625.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-shot-of-a-calico-cat-7017625/",
+    "fotografo": "Béa LaSauce",
+    "fotografo_url": "https://www.pexels.com/@bealasauce",
+    "largura": 4928,
+    "altura": 3264,
+    "query": "cute cat closeup isolated background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-fazer-picole-de-sache-para-gatos-no-calor/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40216856,
+    "url_download": "https://images.pexels.com/photos/40216856/pexels-photo-40216856.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-portrait-of-relaxed-cat-outdoors-40216856/",
+    "fotografo": "Aadesh Padave",
+    "fotografo_url": "https://www.pexels.com/@aadesh19",
+    "largura": 4080,
+    "altura": 3072,
+    "query": "cute cat closeup isolated background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-fazer-picole-de-sache-para-gatos-no-calor/5.jpg"
+  }
+]

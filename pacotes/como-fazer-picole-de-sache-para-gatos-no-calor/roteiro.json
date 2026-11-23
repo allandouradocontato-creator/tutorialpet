@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Como fazer picolé de sachê para hidratar o gato no calor",
+  "gancho_3s": "Seu gato sofre com o calor? Apenas 2 colheres de água salvam.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Seu gato sofre com o calor? Apenas 2 colheres de água salvam.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Seu gato sofre com o calor?"
+    },
+    {
+      "narracao": "[warmly] Quando o calor aperta, manter o gato fresco é fundamental.",
+      "visual_busca_banco_livre": "cute cat panting hot summer close up",
+      "texto_na_tela": "Calor e gatos"
+    },
+    {
+      "narracao": "[short pause] Misture uma colher de sachê com duas colheres de água.",
+      "visual_busca_banco_livre": "cat wet food bowl close up",
+      "texto_na_tela": "Sachê e água"
+    },
+    {
+      "narracao": "Dá pra colocar pedacinhos de pepino bem aos pouquinhos.",
+      "visual_busca_banco_livre": "cat looking at vegetables close up",
+      "texto_na_tela": "Ingredientes saudáveis"
+    },
+    {
+      "narracao": "Depois é só colocar nas forminhas e levar pro congelador.",
+      "visual_busca_banco_livre": "ice cube tray close up",
+      "texto_na_tela": "Congele tudo"
+    },
+    {
+      "narracao": "Sirve bem geladinho como um lanche super saboroso.",
+      "visual_busca_banco_livre": "cute cat eating close up",
+      "texto_na_tela": "Picolé pronto!"
+    },
+    {
+      "narracao": "[thoughtful] E sempre vale falar com o veterinário sobre novos alimentos.",
+      "visual_busca_banco_livre": "cat sitting looking around close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#calor",
+    "#hidratação",
+    "#petiscos",
+    "#gatoaudacios"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato sofre com o calor? Faça um picolé refrescante!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-fazer-picole-de-sache-para-gatos-no-calor\n\n#gatos #calor #hidratação #petiscos #gatoaudacios",
+  "slug": "como-fazer-picole-de-sache-para-gatos-no-calor",
+  "molde_gancho": "abertura_pergunta_numero",
+  "cta_indice": 1
+}
