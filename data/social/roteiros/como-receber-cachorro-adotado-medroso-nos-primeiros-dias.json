@@ -1,0 +1,48 @@
+{
+  "titulo_video": "Como receber um cachorro adotado medroso",
+  "gancho_3s": "Você já parou pra pensar que seu cachorro adotado precisa de paz?",
+  "cenas": [
+    {
+      "narracao": "Você já parou pra pensar que seu cachorro adotado precisa de paz?",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Seu cachorro adotado está com medo?"
+    },
+    {
+      "narracao": "[thoughtful] Evite mostrar a casa inteira de uma vez. Escolha só um cômodo tranquilo e monte um cantinho com cama e água.",
+      "visual_busca_banco_livre": "scared dog hiding corner indoor",
+      "texto_na_tela": "Escolha apenas um cômodo"
+    },
+    {
+      "narracao": "[short pause] Deixe a caixa aberta com uma manta e espere ele decidir sair, sem puxar.",
+      "visual_busca_banco_livre": "dog hiding in crate blanket",
+      "texto_na_tela": "Não force a saída"
+    },
+    {
+      "narracao": "Fale baixinho, chegue devagar e evite encarar ele nos olhos pra não assustar.",
+      "visual_busca_banco_livre": "dog shivering nervous floor",
+      "texto_na_tela": "Silêncio e movimentos lentos"
+    },
+    {
+      "narracao": "[thoughtful] Recusar comida no começo é normal. Se passar de quarenta e oito horas, fale com o veterinário.",
+      "visual_busca_banco_livre": "dog refusing food bowl close up",
+      "texto_na_tela": "Recusa de comida é normal"
+    },
+    {
+      "narracao": "[warmly] Se ele errar o xixi, limpe sem brigar pra não quebrar a confiança que vocês estão construindo.",
+      "visual_busca_banco_livre": "sad dog looking down indoor",
+      "texto_na_tela": "Zero punições"
+    }
+  ],
+  "chamada_final": "Conta nos comentários: qual a sua maior dúvida com o seu pet? A gente responde. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#cachorroadotado",
+    "#cachorromedroso",
+    "#adocaocanina",
+    "#comportamentocanino",
+    "#pets"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu cachorro adotado chegou medroso e encolhido? Não faça isso!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-receber-cachorro-adotado-medroso-nos-primeiros-dias\n\n#cachorroadotado #cachorromedroso #adocaocanina #comportamentocanino #pets",
+  "slug": "como-receber-cachorro-adotado-medroso-nos-primeiros-dias",
+  "molde_gancho": "abertura_pensar",
+  "cta_indice": 7
+}

@@ -1551,7 +1551,8 @@ temas:
   status: pendente
 - termo: como receber cachorro adotado medroso nos primeiros dias
   pilar: adocao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-23'
 - termo: como evitar que o gato acorde os donos de madrugada
   pilar: comportamento
   status: pendente
