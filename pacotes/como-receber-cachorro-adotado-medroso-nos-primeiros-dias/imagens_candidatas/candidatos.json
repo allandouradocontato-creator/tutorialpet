@@ -1,0 +1,67 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 18948630,
+    "url_download": "https://images.pexels.com/photos/18948630/pexels-photo-18948630.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-under-sofa-18948630/",
+    "fotografo": "Sidde",
+    "fotografo_url": "https://www.pexels.com/@sidde-62197501",
+    "largura": 4920,
+    "altura": 3280,
+    "query": "hiding nervous dog indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 27616906,
+    "url_download": "https://images.pexels.com/photos/27616906/pexels-photo-27616906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/bulldog-peeking-behind-doorway-27616906/",
+    "fotografo": "Ольга А",
+    "fotografo_url": "https://www.pexels.com/@1572811165",
+    "largura": 5722,
+    "altura": 3738,
+    "query": "hiding nervous dog indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7114115,
+    "url_download": "https://images.pexels.com/photos/7114115/pexels-photo-7114115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-lying-on-wood-floor-7114115/",
+    "fotografo": "cottonbro studio",
+    "fotografo_url": "https://www.pexels.com/@cottonbro",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "hiding nervous dog indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4468046,
+    "url_download": "https://images.pexels.com/photos/4468046/pexels-photo-4468046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photo-of-a-dog-lying-on-floor-4468046/",
+    "fotografo": "ricardo rojas",
+    "fotografo_url": "https://www.pexels.com/@rrojasfoto",
+    "largura": 7125,
+    "altura": 4755,
+    "query": "hiding nervous dog indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36431323,
+    "url_download": "https://images.pexels.com/photos/36431323/pexels-photo-36431323.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/shiba-inu-relaxing-underneath-a-table-at-home-36431323/",
+    "fotografo": "mingche lee",
+    "fotografo_url": "https://www.pexels.com/@mingche-lee-2072368",
+    "largura": 3648,
+    "altura": 2432,
+    "query": "hiding nervous dog indoor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/4.jpg"
+  }
+]
