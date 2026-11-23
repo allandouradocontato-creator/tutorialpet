@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32812824,
+    "url_download": "https://images.pexels.com/photos/32812824/pexels-photo-32812824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/happy-cocker-spaniel-dog-in-a-garden-32812824/",
+    "fotografo": "Germán Latasa",
+    "fotografo_url": "https://www.pexels.com/@german-latasa-814203747",
+    "largura": 6734,
+    "altura": 4489,
+    "query": "dog in a garden",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-montar-um-jardim-pet-friendly-com-plantas-seguras/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35285315,
+    "url_download": "https://images.pexels.com/photos/35285315/pexels-photo-35285315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-a-border-collie-in-a-garden-35285315/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog in a garden",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-montar-um-jardim-pet-friendly-com-plantas-seguras/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35285295,
+    "url_download": "https://images.pexels.com/photos/35285295/pexels-photo-35285295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-border-collie-in-garden-setting-35285295/",
+    "fotografo": "Magda Ehlers",
+    "fotografo_url": "https://www.pexels.com/@magda-ehlers-pexels",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog in a garden",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-montar-um-jardim-pet-friendly-com-plantas-seguras/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9435112,
+    "url_download": "https://images.pexels.com/photos/9435112/pexels-photo-9435112.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/selective-focus-photo-of-a-labrador-retriever-lying-on-green-grass-9435112/",
+    "fotografo": "Graham Ellis",
+    "fotografo_url": "https://www.pexels.com/@graham-ellis-102497213",
+    "largura": 5460,
+    "altura": 3734,
+    "query": "dog in a garden",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-montar-um-jardim-pet-friendly-com-plantas-seguras/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 38682628,
+    "url_download": "https://images.pexels.com/photos/38682628/pexels-photo-38682628.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/no-dogs-allowed-sign-in-lush-greenery-38682628/",
+    "fotografo": "Bohdan Hyrovych",
+    "fotografo_url": "https://www.pexels.com/@bohdan-hyrovych-796614725",
+    "largura": 6240,
+    "altura": 4160,
+    "query": "dog in a garden",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-montar-um-jardim-pet-friendly-com-plantas-seguras/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12390066,
+    "url_download": "https://images.pexels.com/photos/12390066/pexels-photo-12390066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-cat-smelling-flowers-12390066/",
+    "fotografo": "stayhereforu",
+    "fotografo_url": "https://www.pexels.com/@stayhereforu-216201233",
+    "largura": 3566,
+    "altura": 2397,
+    "query": "cat smelling flowers",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-montar-um-jardim-pet-friendly-com-plantas-seguras/5.jpg"
+  }
+]
