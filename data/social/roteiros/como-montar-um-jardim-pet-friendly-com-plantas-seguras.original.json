@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Como montar um jardim seguro para pets",
+  "gancho_3s": "Quer ter plantas em casa sem colocar seu pet em risco?",
+  "cenas": [
+    {
+      "narracao": "Primeiro, elimine as vilãs silenciosas como a Comigo-ninguém-pode e a Espada-de-são-jorge.",
+      "visual_busca_banco_livre": "toxic houseplant close up leaves",
+      "texto_na_tela": "Tire plantas tóxicas"
+    },
+    {
+      "narracao": "Retire essas espécies perigosas ou isole elas em prateleiras bem altas e inacessíveis.",
+      "visual_busca_banco_livre": "cat looking up at shelf",
+      "texto_na_tela": "Isole em prateleiras"
+    },
+    {
+      "narracao": "Agora, escolha espécies amigas do seu pet, como a Maranta, Peperômia e a graminha.",
+      "visual_busca_banco_livre": "green houseplants indoor",
+      "texto_na_tela": "Use plantas seguras"
+    },
+    {
+      "narracao": "Você também pode plantar catnip em um cantinho específico para distrair os gatinhos.",
+      "visual_busca_banco_livre": "catnip plant close up",
+      "texto_na_tela": "Aposte no catnip"
+    },
+    {
+      "narracao": "Para evitar que o cachorro cave, coloque pedras grandes de rio por cima da terra dos vasos.",
+      "visual_busca_banco_livre": "dog sniffing potted plant",
+      "texto_na_tela": "Proteja com pedras"
+    },
+    {
+      "narracao": "Evite adubos químicos e use apenas fertilizantes orgânicos e naturais no seu jardim.",
+      "visual_busca_banco_livre": "gardening soil and leaves",
+      "texto_na_tela": "Adubo só orgânico"
+    }
+  ],
+  "chamada_final": "Em caso de ingestão de planta tóxica, procure um médico-veterinário imediatamente.",
+  "hashtags": [
+    "#jardimpetfriendly",
+    "#plantasegura",
+    "#cachorros",
+    "#gatos",
+    "#petfriendly"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer ter plantas em casa sem colocar seu pet em risco?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-montar-um-jardim-pet-friendly-com-plantas-seguras\n\n#jardimpetfriendly #plantasegura #cachorros #gatos #petfriendly",
+  "slug": "como-montar-um-jardim-pet-friendly-com-plantas-seguras"
+}
