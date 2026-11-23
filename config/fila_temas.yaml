@@ -485,7 +485,8 @@ temas:
   status: pendente
 - termo: como fazer picole de sache para gatos no calor
   pilar: alimentacao
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-23'
 - termo: por que nao pode tosar cachorro de pelagem dupla
   pilar: cuidados_diarios
   status: pendente
@@ -1562,4 +1563,7 @@ temas:
   status: pendente
 - termo: regras para ter cachorro em condominio segundo a lei
   pilar: utilidade_publica
+  status: pendente
+- termo: sinais de estresse em gatos que vivem com caes agitados
+  pilar: comportamento
   status: pendente
