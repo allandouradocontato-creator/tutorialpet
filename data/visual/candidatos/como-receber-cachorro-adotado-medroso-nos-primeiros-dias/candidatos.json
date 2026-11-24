@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 39849148,
+    "url_download": "https://images.pexels.com/photos/39849148/pexels-photo-39849148.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/charming-dog-gazing-through-sunlit-window-indoors-39849148/",
+    "fotografo": "Diseño Eli",
+    "fotografo_url": "https://www.pexels.com/@diseno-eli-58496217",
+    "largura": 3008,
+    "altura": 2000,
+    "query": "cachorro sozinho em ambiente calmo",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 28277654,
+    "url_download": "https://images.pexels.com/photos/28277654/pexels-photo-28277654.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-laying-on-a-rug-in-front-of-a-teepee-28277654/",
+    "fotografo": "Mimo´s Photography (Helyin Bermúdez)",
+    "fotografo_url": "https://www.pexels.com/@mimo-s-photography-helyin-bermudez-498271736",
+    "largura": 3936,
+    "altura": 2624,
+    "query": "cachorro sozinho em ambiente calmo",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17291248,
+    "url_download": "https://images.pexels.com/photos/17291248/pexels-photo-17291248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/waves-on-sea-shore-17291248/",
+    "fotografo": "Francesco Gasparro",
+    "fotografo_url": "https://www.pexels.com/@francesco-gasparro-601313503",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "cachorro sozinho em ambiente calmo",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29209881,
+    "url_download": "https://images.pexels.com/photos/29209881/pexels-photo-29209881.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/calm-dog-resting-in-an-indoor-sports-arena-29209881/",
+    "fotografo": "Bruno Galvão",
+    "fotografo_url": "https://www.pexels.com/@bruno-galvao-1654572933",
+    "largura": 4618,
+    "altura": 3464,
+    "query": "cachorro sozinho em ambiente calmo",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 35541050,
+    "url_download": "https://images.pexels.com/photos/35541050/pexels-photo-35541050.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/family-enjoying-a-day-at-the-beach-35541050/",
+    "fotografo": "Anderson Portella",
+    "fotografo_url": "https://www.pexels.com/@andersonportella",
+    "largura": 3532,
+    "altura": 2383,
+    "query": "cachorro sozinho em ambiente calmo",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9901515,
+    "url_download": "https://images.pexels.com/photos/9901515/pexels-photo-9901515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-in-house-9901515/",
+    "fotografo": "Erik Mclean",
+    "fotografo_url": "https://www.pexels.com/@introspectivedsgn",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cachorro medroso em canto de quarto",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-receber-cachorro-adotado-medroso-nos-primeiros-dias/5.jpg"
+  }
+]
