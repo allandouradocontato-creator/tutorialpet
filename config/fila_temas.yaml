@@ -462,7 +462,8 @@ temas:
   status: pendente
 - termo: como preparar a casa para a chegada de um filhote de gato
   pilar: primeiros_passos_filhotes
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-24'
 - termo: como calcular a quantidade ideal de petiscos diarios para gatos esterilizados
   pilar: alimentacao
   status: rascunho_pronto
@@ -1566,4 +1567,7 @@ temas:
   status: pendente
 - termo: sinais de estresse em gatos que vivem com caes agitados
   pilar: comportamento
+  status: pendente
+- termo: qual a melhor rotina de alimentacao natural para caes adultos castrados
+  pilar: alimentacao
   status: pendente

@@ -1,0 +1,41 @@
+{
+  "titulo_video": "Como preparar a casa para a chegada de um filhote de gato",
+  "gancho_3s": "Vai adotar um gatinho? Veja como preparar a casa antes dele chegar!",
+  "cenas": [
+    {
+      "narracao": "Antes de soltar o gatinho pela casa toda, monte uma base em um cômodo menor nos primeiros dias.",
+      "visual_busca_banco_livre": "kitten in a small room",
+      "texto_na_tela": "Quartinho de transição"
+    },
+    {
+      "narracao": "Abaixe-se na altura do chão para esconder fios elétricos e afastar plantas tóxicas da curiosidade dele.",
+      "visual_busca_banco_livre": "kitten sniffing floor",
+      "texto_na_tela": "Proteja fios e plantas"
+    },
+    {
+      "narracao": "Tenha potes rasos e uma caixa de areia proporcional, mantendo o banheiro longe da comida.",
+      "visual_busca_banco_livre": "kitten eating from bowl",
+      "texto_na_tela": "Acessórios essenciais"
+    },
+    {
+      "narracao": "Instale arranhadores firmes para evitar que ele escolha o seu sofá novo para afiar as unhas.",
+      "visual_busca_banco_livre": "kitten scratching post",
+      "texto_na_tela": "Arranhador estratégico"
+    },
+    {
+      "narracao": "Em caso de dúvidas sobre a alimentação ou saúde do pet, consulte sempre um médico-veterinário.",
+      "visual_busca_banco_livre": "cute kitten looking up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Gostou das dicas? Leia o artigo completo no blog para saber mais!",
+  "hashtags": [
+    "gatos",
+    "filhotedegato",
+    "gatonovo",
+    "amigofelino",
+    "cuidadoscomgatos"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai adotar um gatinho? Veja como preparar a casa antes dele chegar!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-preparar-a-casa-para-a-chegada-de-um-filhote-de-gato\n\n#gatos #filhotedegato #gatonovo #amigofelino #cuidadoscomgatos",
+  "slug": "como-preparar-a-casa-para-a-chegada-de-um-filhote-de-gato"
+}
