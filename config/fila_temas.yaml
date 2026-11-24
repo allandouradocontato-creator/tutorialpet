@@ -1364,7 +1364,8 @@ temas:
   status: pendente
 - termo: guia para transporte seguro de pets em transporte publico
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-24'
 - termo: como criar um espaco seguro para gatos em varanda de apartamento
   pilar: utilidade_publica
   status: pendente

@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Guia para transporte público com pets",
+  "gancho_3s": "Se multa no transporte com cachorro continua acontecendo com você, começa por aqui.",
+  "cenas": [
+    {
+      "narracao": "Se multa no transporte com cachorro continua acontecendo com você, começa por aqui.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Perdido com as regras do transporte?"
+    },
+    {
+      "narracao": "[thoughtful] Levar seu cachorro no transporte público exige planejamento e ver na prefeitura as leis da sua cidade.",
+      "visual_busca_banco_livre": "dog sitting near a travel crate",
+      "texto_na_tela": "Verifique a lei da sua cidade"
+    },
+    {
+      "narracao": "A caixa de transporte precisa ser resistente, ventilada e impermeável.",
+      "visual_busca_banco_livre": "cat inside a pet carrier",
+      "texto_na_tela": "Use caixa de transporte adequada"
+    },
+    {
+      "narracao": "O limite comum é de até 10kg, então confira o peso e a tranca.",
+      "visual_busca_banco_livre": "small dog looking out of a carrier",
+      "texto_na_tela": "Limite de peso (geralmente 10kg)"
+    },
+    {
+      "narracao": "[short pause] Vale treinar em casa com petiscos para ele ficar seguro na caixa.",
+      "visual_busca_banco_livre": "dog eating treats inside a crate",
+      "texto_na_tela": "Treine em casa primeiro"
+    },
+    {
+      "narracao": "Evite horários de pico pra fugir do barulho e mantenha a calma.",
+      "visual_busca_banco_livre": "dog looking calm in a crate",
+      "texto_na_tela": "Evite horários de pico"
+    },
+    {
+      "narracao": "[softly] Antes de sair, confirme se a saúde e as vacinas estão em dia.",
+      "visual_busca_banco_livre": "dog looking healthy",
+      "texto_na_tela": "Consulte um veterinário"
+    }
+  ],
+  "chamada_final": "Compartilha com quem tem um pet em casa, vai ajudar muito. [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#transporteanimal",
+    "#petlovers",
+    "#dicaspet",
+    "#bemestaranimal",
+    "#viagemcompet"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai levar seu pet no transporte público? Cuidado, existem regras!\n\n📖 Artigo completo: https://tutorialpet.com.br/guia-para-transporte-seguro-de-pets-em-transporte-publico\n\n#transporteanimal #petlovers #dicaspet #bemestaranimal #viagemcompet",
+  "slug": "guia-para-transporte-seguro-de-pets-em-transporte-publico",
+  "molde_gancho": "abertura_dor",
+  "cta_indice": 2
+}
