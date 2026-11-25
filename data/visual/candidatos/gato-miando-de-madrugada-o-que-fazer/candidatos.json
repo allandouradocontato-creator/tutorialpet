@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 29850284,
+    "url_download": "https://images.pexels.com/photos/29850284/pexels-photo-29850284.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/howling-white-wolf-in-black-and-white-29850284/",
+    "fotografo": "Kinosfinds",
+    "fotografo_url": "https://www.pexels.com/@kinosfinds-1117958843",
+    "largura": 4096,
+    "altura": 2605,
+    "query": "cat howling night dark",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30700507,
+    "url_download": "https://images.pexels.com/photos/30700507/pexels-photo-30700507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/moody-portrait-of-a-black-cat-in-darkness-30700507/",
+    "fotografo": "Fernando Capetillo",
+    "fotografo_url": "https://www.pexels.com/@fernando-capetillo-94107723",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cat howling night dark",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40934631,
+    "url_download": "https://images.pexels.com/photos/40934631/pexels-photo-40934631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/mysterious-black-cat-on-foggy-night-street-40934631/",
+    "fotografo": "Kamil Čičila",
+    "fotografo_url": "https://www.pexels.com/@cicosvk",
+    "largura": 4080,
+    "altura": 3072,
+    "query": "cat howling night dark",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 8360521,
+    "url_download": "https://images.pexels.com/photos/8360521/pexels-photo-8360521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/man-and-a-cat-in-an-alley-8360521/",
+    "fotografo": "Daniil Ustinov",
+    "fotografo_url": "https://www.pexels.com/@idzzzed",
+    "largura": 5579,
+    "altura": 3138,
+    "query": "cat howling night dark",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 6435914,
+    "url_download": "https://images.pexels.com/photos/6435914/pexels-photo-6435914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-ginger-cat-in-wicker-basket-6435914/",
+    "fotografo": "Jan Kopřiva",
+    "fotografo_url": "https://www.pexels.com/@koprivakart",
+    "largura": 3699,
+    "altura": 2461,
+    "query": "crying cat alone dark room",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 14807964,
+    "url_download": "https://images.pexels.com/photos/14807964/pexels-photo-14807964.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/side-view-of-a-cat-14807964/",
+    "fotografo": "Simone Lunghi",
+    "fotografo_url": "https://www.pexels.com/@simone-lunghi-168233370",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "crying cat alone dark room",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/5.jpg"
+  }
+]
