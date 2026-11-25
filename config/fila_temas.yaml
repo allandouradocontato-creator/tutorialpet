@@ -436,7 +436,8 @@ temas:
   data: '2026-11-20'
 - termo: gato miando de madrugada o que fazer
   pilar: comportamento
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-25'
 - termo: como dar banho em cachorro filhote pela primeira vez
   pilar: primeiros_passos_filhotes
   status: rascunho_pronto
@@ -1571,4 +1572,7 @@ temas:
   status: pendente
 - termo: qual a melhor rotina de alimentacao natural para caes adultos castrados
   pilar: alimentacao
+  status: pendente
+- termo: como registrar cachorro em cartorio para comprovar a posse
+  pilar: utilidade_publica
   status: pendente

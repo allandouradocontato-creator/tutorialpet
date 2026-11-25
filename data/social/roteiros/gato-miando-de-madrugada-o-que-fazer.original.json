@@ -1,0 +1,46 @@
+{
+  "titulo_video": "Por que seu gato mia de madrugada?",
+  "gancho_3s": "Seu gato mia muito de madrugada? Descubra o motivo!",
+  "cenas": [
+    {
+      "narracao": "Embora seja natural que os gatos sejam mais ativos à noite, o miado excessivo pode indicar que algo está errado.",
+      "visual_busca_banco_livre": "cat awake dark room close up",
+      "texto_na_tela": "Miado noturno excessivo"
+    },
+    {
+      "narracao": "Algumas razões incluem fome, sede, necessidade de atenção, dor, desconforto, estresse ou ansiedade.",
+      "visual_busca_banco_livre": "cat meowing close up",
+      "texto_na_tela": "O que pode ser?"
+    },
+    {
+      "narracao": "Certifique-se de que o seu gato esteja bem alimentado e hidratado antes de dormir.",
+      "visual_busca_banco_livre": "cat eating food from bowl",
+      "texto_na_tela": "Fome ou sede"
+    },
+    {
+      "narracao": "Forneça atenção e carinho durante o dia para que ele se sinta satisfeito.",
+      "visual_busca_banco_livre": "cat stretching relaxing indoor",
+      "texto_na_tela": "Atenção durante o dia"
+    },
+    {
+      "narracao": "Verifique se o seu gato está confortável, sem dor, e crie um ambiente tranquilo.",
+      "visual_busca_banco_livre": "cat resting cozy bed",
+      "texto_na_tela": "Ambiente tranquilo"
+    },
+    {
+      "narracao": "Se tiver dúvidas sobre a saúde do seu pet, consulte sempre um médico veterinário.",
+      "visual_busca_banco_livre": "cat looking out window curious",
+      "texto_na_tela": "Consulte um veterinário"
+    }
+  ],
+  "chamada_final": "Gostou das dicas? Compartilhe com outros tutores!",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#saúdeanimal",
+    "#gatochiando",
+    "#pets"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato mia muito de madrugada? Descubra o motivo!\n\n📖 Artigo completo: https://tutorialpet.com.br/gato-miando-de-madrugada-o-que-fazer\n\n#gatos #comportamentofelino #saúdeanimal #gatochiando #pets",
+  "slug": "gato-miando-de-madrugada-o-que-fazer"
+}
