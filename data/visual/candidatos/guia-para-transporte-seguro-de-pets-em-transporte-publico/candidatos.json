@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 35230227,
+    "url_download": "https://images.pexels.com/photos/35230227/pexels-photo-35230227.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dog-wearing-sunglasses-in-bicycle-basket-outdoors-35230227/",
+    "fotografo": "Helmut Retsch",
+    "fotografo_url": "https://www.pexels.com/@omron2003",
+    "largura": 4000,
+    "altura": 2252,
+    "query": "dog in pet carrier no people",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/guia-para-transporte-seguro-de-pets-em-transporte-publico/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30655024,
+    "url_download": "https://images.pexels.com/photos/30655024/pexels-photo-30655024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dog-in-stroller-on-urban-pathway-30655024/",
+    "fotografo": "Ibiyaya Support",
+    "fotografo_url": "https://www.pexels.com/@ibiyaya-support-2149510283",
+    "largura": 7008,
+    "altura": 4672,
+    "query": "dog in pet carrier no people",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/guia-para-transporte-seguro-de-pets-em-transporte-publico/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2135383,
+    "url_download": "https://images.pexels.com/photos/2135383/pexels-photo-2135383.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-tan-smooth-chihuahua-in-blue-and-white-plastic-basket-2135383/",
+    "fotografo": "Quang Nguyen Vinh",
+    "fotografo_url": "https://www.pexels.com/@quang-nguyen-vinh-222549",
+    "largura": 4334,
+    "altura": 2889,
+    "query": "dog in pet carrier no people",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/guia-para-transporte-seguro-de-pets-em-transporte-publico/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 18735033,
+    "url_download": "https://images.pexels.com/photos/18735033/pexels-photo-18735033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dogs-in-basket-18735033/",
+    "fotografo": "Antonio Lorenzana Bermejo",
+    "fotografo_url": "https://www.pexels.com/@antonio-lorenzana-bermejo-353570724",
+    "largura": 4337,
+    "altura": 3082,
+    "query": "dog in pet carrier no people",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/guia-para-transporte-seguro-de-pets-em-transporte-publico/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 2194416,
+    "url_download": "https://images.pexels.com/photos/2194416/pexels-photo-2194416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/gray-tabby-kitten-on-a-white-surface-2194416/",
+    "fotografo": "Tranmautritam",
+    "fotografo_url": "https://www.pexels.com/@tranmautritam",
+    "largura": 5149,
+    "altura": 3005,
+    "query": "cat in travel bag isolated background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/guia-para-transporte-seguro-de-pets-em-transporte-publico/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5044088,
+    "url_download": "https://images.pexels.com/photos/5044088/pexels-photo-5044088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-cute-cat-on-the-table-5044088/",
+    "fotografo": "Tranmautritam",
+    "fotografo_url": "https://www.pexels.com/@tranmautritam",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cat in travel bag isolated background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/guia-para-transporte-seguro-de-pets-em-transporte-publico/5.jpg"
+  }
+]
