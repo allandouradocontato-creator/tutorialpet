@@ -1,0 +1,52 @@
+{
+  "titulo_video": "Como criar uma varanda segura para gatos no apartamento",
+  "gancho_3s": "Se você é tutora e quer segurança, assiste isso.",
+  "cenas": [
+    {
+      "narracao": "[smiling] Se você é tutora e quer segurança, assiste isso.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Medo do gato cair da varanda?"
+    },
+    {
+      "narracao": "[thoughtful] A segurança começa instalando redes de polietileno com malhas de até cinco centímetros.",
+      "visual_busca_banco_livre": "cat looking through balcony window close up",
+      "texto_na_tela": "Rede de proteção UV"
+    },
+    {
+      "narracao": "Para filhotes, use malhas menores de três centímetros e cheque bem a rigidez.",
+      "visual_busca_banco_livre": "cute kitten looking up curious",
+      "texto_na_tela": "Malha ideal para filhotes"
+    },
+    {
+      "narracao": "[short pause] Tire do piso produtos de limpeza e plantas que façam mal para ele.",
+      "visual_busca_banco_livre": "cat smelling floor balcony",
+      "texto_na_tela": "Cuidado com o piso"
+    },
+    {
+      "narracao": "Se o chão esquentar muito, coloque tapetes ou grama sintética para proteger as patinhas.",
+      "visual_busca_banco_livre": "cat walking on green artificial grass close up",
+      "texto_na_tela": "Proteja as patinhas"
+    },
+    {
+      "narracao": "Coloque prateleiras firmes na sol da manhã, mas deixe sempre um cantinho com sombra.",
+      "visual_busca_banco_livre": "cat sleeping in sunbeam indoor",
+      "texto_na_tela": "Sol e sombra"
+    },
+    {
+      "narracao": "[warmly] Fique de olho nos primeiros dias para ele se acostumar com os barulhos da rua.",
+      "visual_busca_banco_livre": "cat ears twitching listening sounds",
+      "texto_na_tela": "Supervisione o pet"
+    }
+  ],
+  "chamada_final": "[smiling] Salva esse vídeo pra não esquecer, e segue a gente pra não perder o próximo. Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#varandasegura",
+    "#gatosdepartamento",
+    "#petseguro"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nQuer deixar seu gato aproveitar a varanda com segurança?\n\n📖 Artigo completo: https://tutorialpet.com.br/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento\n\n#gatos #varandasegura #gatosdepartamento #petseguro",
+  "slug": "como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento",
+  "molde_gancho": "abertura_chamada_direta",
+  "cta_indice": 4
+}

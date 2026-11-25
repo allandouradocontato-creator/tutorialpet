@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 9025715,
+    "url_download": "https://images.pexels.com/photos/9025715/pexels-photo-9025715.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-tabby-cat-looking-at-camera-9025715/",
+    "fotografo": "Paulo Cypriano",
+    "fotografo_url": "https://www.pexels.com/@paulo-cypriano-81431480",
+    "largura": 4912,
+    "altura": 2760,
+    "query": "cat on apartment balcony safety netting",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 26346920,
+    "url_download": "https://images.pexels.com/photos/26346920/pexels-photo-26346920.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sky-clouds-pet-cute-26346920/",
+    "fotografo": "Abdullah Öğük",
+    "fotografo_url": "https://www.pexels.com/@abdullahoguk",
+    "largura": 2882,
+    "altura": 2227,
+    "query": "cat on apartment balcony safety netting",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7441531,
+    "url_download": "https://images.pexels.com/photos/7441531/pexels-photo-7441531.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-cat-in-close-up-photography-7441531/",
+    "fotografo": "Anastasiya Pavlova",
+    "fotografo_url": "https://www.pexels.com/@anastasiya-pavlova-17630119",
+    "largura": 4288,
+    "altura": 2848,
+    "query": "cat on apartment balcony safety netting",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16539095,
+    "url_download": "https://images.pexels.com/photos/16539095/pexels-photo-16539095.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/woman-taking-a-photo-of-cat-16539095/",
+    "fotografo": "Jessika Arraes",
+    "fotografo_url": "https://www.pexels.com/@jessikaarraes",
+    "largura": 5461,
+    "altura": 3646,
+    "query": "cat on apartment balcony safety netting",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40688841,
+    "url_download": "https://images.pexels.com/photos/40688841/pexels-photo-40688841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/apartment-building-facade-with-construction-sign-40688841/",
+    "fotografo": "3B",
+    "fotografo_url": "https://www.pexels.com/@3b-2152161509",
+    "largura": 5784,
+    "altura": 4338,
+    "query": "cat on apartment balcony safety netting",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5962177,
+    "url_download": "https://images.pexels.com/photos/5962177/pexels-photo-5962177.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/black-and-white-long-fur-cat-sitting-on-gray-concrete-floor-5962177/",
+    "fotografo": "Liz Lauren",
+    "fotografo_url": "https://www.pexels.com/@liz-lauren-1472737",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cute cat sitting on enclosed balcony",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento/5.jpg"
+  }
+]
