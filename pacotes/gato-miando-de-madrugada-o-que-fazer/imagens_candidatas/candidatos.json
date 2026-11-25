@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 9212989,
+    "url_download": "https://images.pexels.com/photos/9212989/pexels-photo-9212989.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/orange-tabby-kitten-on-black-background-9212989/",
+    "fotografo": "Sami  Aksu",
+    "fotografo_url": "https://www.pexels.com/@sami-aksu-48867324",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cat meowing in the dark",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 41233958,
+    "url_download": "https://images.pexels.com/photos/41233958/pexels-photo-41233958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/playful-cat-in-urban-alleyway-41233958/",
+    "fotografo": "Da Na",
+    "fotografo_url": "https://www.pexels.com/@da-na-461418424",
+    "largura": 6192,
+    "altura": 3480,
+    "query": "cat meowing in the dark",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 18175561,
+    "url_download": "https://images.pexels.com/photos/18175561/pexels-photo-18175561.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/fluffy-white-and-ginger-cat-meowing-18175561/",
+    "fotografo": "Zeynel KAVURT",
+    "fotografo_url": "https://www.pexels.com/@zzeynelk",
+    "largura": 2541,
+    "altura": 2244,
+    "query": "cat meowing in the dark",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 36279710,
+    "url_download": "https://images.pexels.com/photos/36279710/pexels-photo-36279710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/tabby-cat-meowing-on-wooden-floor-36279710/",
+    "fotografo": "Natalia Sevruk",
+    "fotografo_url": "https://www.pexels.com/@natalia-sevruk-636238602",
+    "largura": 5184,
+    "altura": 3456,
+    "query": "cat meowing in the dark",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4492140,
+    "url_download": "https://images.pexels.com/photos/4492140/pexels-photo-4492140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-brown-and-black-angry-cat-4492140/",
+    "fotografo": "Aleksandr Nadyojin",
+    "fotografo_url": "https://www.pexels.com/@aleksandr-nadyojin-2954845",
+    "largura": 5984,
+    "altura": 3990,
+    "query": "cat meowing in the dark",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 12968845,
+    "url_download": "https://images.pexels.com/photos/12968845/pexels-photo-12968845.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-cat-on-black-background-12968845/",
+    "fotografo": "Qamar Rehman",
+    "fotografo_url": "https://www.pexels.com/@qamar-rehman-94539242",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "lonely cat at night",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/gato-miando-de-madrugada-o-que-fazer/5.jpg"
+  }
+]

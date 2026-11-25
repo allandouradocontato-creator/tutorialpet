@@ -1,0 +1,53 @@
+{
+  "titulo_video": "Por que seu gato mia de madrugada?",
+  "gancho_3s": "4 coisas que ninguém te conta sobre gato miando de madrugada.",
+  "cenas": [
+    {
+      "narracao": "4 coisas que ninguém te conta sobre gato miando de madrugada.",
+      "visual_busca_banco_livre": "cute kitten looking at camera",
+      "texto_na_tela": "Seu gato mia a noite inteira?"
+    },
+    {
+      "narracao": "[thoughtful] Os gatos costumam ser mais ativos de noite, mas miar demais pode ser sinal de que algo não vai bem.",
+      "visual_busca_banco_livre": "cat awake dark room close up",
+      "texto_na_tela": "Miado noturno excessivo"
+    },
+    {
+      "narracao": "Alguns motivos comuns são fome, sede, tédio, estresse ou até alguma dorzinha.",
+      "visual_busca_banco_livre": "cat meowing close up",
+      "texto_na_tela": "O que pode ser?"
+    },
+    {
+      "narracao": "[short pause] Deixe comida e água fresca à disposição antes de ir dormir.",
+      "visual_busca_banco_livre": "cat eating food from bowl",
+      "texto_na_tela": "Fome ou sede"
+    },
+    {
+      "narracao": "Dê bastante atenção e carinho para ele durante o dia.",
+      "visual_busca_banco_livre": "cat stretching relaxing indoor",
+      "texto_na_tela": "Atenção durante o dia"
+    },
+    {
+      "narracao": "Garanta um cantinho confortável, seguro e bem tranquilo para o seu descanso.",
+      "visual_busca_banco_livre": "cat resting cozy bed",
+      "texto_na_tela": "Ambiente tranquilo"
+    },
+    {
+      "narracao": "Se notar algo diferente na saúde dele, vale a pena conversar com um veterinário.",
+      "visual_busca_banco_livre": "cat looking out window curious",
+      "texto_na_tela": "Consulte um veterinário"
+    }
+  ],
+  "chamada_final": "[smiling] Você sabia que a gente também tem um blog só sobre pets e sobre como crescer e aprender com eles? É só entrar em tutorialpet.com.br. [warmly] Aqui é a Duda, do Tutorial Pet.",
+  "hashtags": [
+    "#gatos",
+    "#comportamentofelino",
+    "#saúdeanimal",
+    "#gatochiando",
+    "#pets"
+  ],
+  "legenda": "🐾 Tem cachorro em casa e ele sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nSeu gato mia muito de madrugada? Descubra o motivo!\n\n📖 Artigo completo: https://tutorialpet.com.br/gato-miando-de-madrugada-o-que-fazer\n\n#gatos #comportamentofelino #saúdeanimal #gatochiando #pets",
+  "slug": "gato-miando-de-madrugada-o-que-fazer",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 3
+}
