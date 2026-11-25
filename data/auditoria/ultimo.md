@@ -1,11 +1,11 @@
-# Auditoria do processo — 2026-11-25 14:58 UTC
+# Auditoria do processo — 2026-11-25 19:20 UTC
 
-Pacote: `gato-miando-de-madrugada-o-que-fazer` — 1 aviso(s)
+Pacote: `como-criar-um-espaco-seguro-para-gatos-em-varanda-de-apartamento` — 1 aviso(s)
 
-- **OK ** duração 52 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.6 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 46 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.5 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 11 palavras (padrão: até ~12)
+- **OK ** gancho com 9 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
 - **OK ** tags usadas: ['short pause', 'smiling', 'thoughtful', 'warmly']
@@ -15,4 +15,4 @@ Pacote: `gato-miando-de-madrugada-o-que-fazer` — 1 aviso(s)
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~676 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~643 (saldo do plano: ver painel)

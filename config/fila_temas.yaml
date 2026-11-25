@@ -1369,7 +1369,8 @@ temas:
   data: '2026-11-24'
 - termo: como criar um espaco seguro para gatos em varanda de apartamento
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-25'
 - termo: por que gatos idosos dormem tanto e quando devo me preocupar
   pilar: comportamento
   status: pendente
@@ -1575,4 +1576,7 @@ temas:
   status: pendente
 - termo: como registrar cachorro em cartorio para comprovar a posse
   pilar: utilidade_publica
+  status: pendente
+- termo: quais produtos essenciais para montar um enxoval de gatinho filhote
+  pilar: produtos_compras
   status: pendente
