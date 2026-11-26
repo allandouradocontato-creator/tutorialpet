@@ -1377,7 +1377,8 @@ temas:
   status: pendente
 - termo: como planejar as ferias levando cachorro e gato juntos
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-26'
 - termo: como identificar e prevenir comportamentos destrutivos em caes adolescentes
   pilar: comportamento
   status: pendente
@@ -1580,4 +1581,10 @@ temas:
   status: pendente
 - termo: quais produtos essenciais para montar um enxoval de gatinho filhote
   pilar: produtos_compras
+  status: pendente
+- termo: como adaptar a rotina alimentar de caes adultos no verao
+  pilar: alimentacao
+  status: pendente
+- termo: quais cuidados essenciais ao adotar um cachorro adulto resgatado
+  pilar: adocao
   status: pendente

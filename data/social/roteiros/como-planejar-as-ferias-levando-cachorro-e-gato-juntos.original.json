@@ -1,0 +1,40 @@
+{
+  "titulo_video": "Como viajar de férias com cachorro e gato juntos",
+  "gancho_3s": "Vai viajar e levar o cachorro e o gato juntos? Veja como organizar!",
+  "cenas": [
+    {
+      "narracao": "Antes de viajar, garanta a carteira de vacinação atualizada e os vermífugos em dia de ambos.",
+      "visual_busca_banco_livre": "dog and cat medical examination close up",
+      "texto_na_tela": "Saúde em dia!"
+    },
+    {
+      "narracao": "Para o transporte, use cinto de segurança adequado para o cão e uma caixa firme para o gato.",
+      "visual_busca_banco_livre": "dog sitting in car back seat safety harness",
+      "texto_na_tela": "Transporte seguro"
+    },
+    {
+      "narracao": "No destino, leve os utensílios de casa para que eles sintam cheiros familiares.",
+      "visual_busca_banco_livre": "cat eating from bowl close up",
+      "texto_na_tela": "Cheiro familiar"
+    },
+    {
+      "narracao": "Monte comedouros em um cantinho calmo e não esqueça a caixa de areia habitual do felino.",
+      "visual_busca_banco_livre": "cat litter box close up",
+      "texto_na_tela": "Rotina preservada"
+    },
+    {
+      "narracao": "Nunca dê calmantes sem conversar com o médico-veterinário, pois a dosagem errada é perigosa.",
+      "visual_busca_banco_livre": "dog looking healthy close up",
+      "texto_na_tela": "Consulte o veterinário"
+    }
+  ],
+  "chamada_final": "Curtiu as dicas? Compartilhe com quem vai viajar com pets!",
+  "hashtags": [
+    "#viagemcomapet",
+    "#cachorroegato",
+    "#feriaspet",
+    "#cuidadoscompets"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nVai viajar e levar o cachorro e o gato juntos? Veja como organizar!\n\n📖 Artigo completo: https://tutorialpet.com.br/como-planejar-as-ferias-levando-cachorro-e-gato-juntos\n\n#viagemcomapet #cachorroegato #feriaspet #cuidadoscompets",
+  "slug": "como-planejar-as-ferias-levando-cachorro-e-gato-juntos"
+}
