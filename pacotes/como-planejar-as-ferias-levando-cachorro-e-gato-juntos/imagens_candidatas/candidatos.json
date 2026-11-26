@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 32476519,
+    "url_download": "https://images.pexels.com/photos/32476519/pexels-photo-32476519.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-yorkshire-terrier-puppy-in-studio-portrait-32476519/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8192,
+    "altura": 5464,
+    "query": "dog and cat isolated white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-planejar-as-ferias-levando-cachorro-e-gato-juntos/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9952105,
+    "url_download": "https://images.pexels.com/photos/9952105/pexels-photo-9952105.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photo-of-cat-and-dog-9952105/",
+    "fotografo": "Foden Nguyen",
+    "fotografo_url": "https://www.pexels.com/@foden-nguyen-81016607",
+    "largura": 7952,
+    "altura": 5304,
+    "query": "dog and cat isolated white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-planejar-as-ferias-levando-cachorro-e-gato-juntos/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5731875,
+    "url_download": "https://images.pexels.com/photos/5731875/pexels-photo-5731875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/yorkshire-terrier-dogs-looking-in-different-directions-on-white-background-5731875/",
+    "fotografo": "Sam Lion",
+    "fotografo_url": "https://www.pexels.com/@sam-lion",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog and cat isolated white background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-planejar-as-ferias-levando-cachorro-e-gato-juntos/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 29357039,
+    "url_download": "https://images.pexels.com/photos/29357039/pexels-photo-29357039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-and-cat-in-natural-setting-portrait-29357039/",
+    "fotografo": "Alex Jaison",
+    "fotografo_url": "https://www.pexels.com/@alex-jaison-1690209427",
+    "largura": 6960,
+    "altura": 4640,
+    "query": "dog and cat isolated white background",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-planejar-as-ferias-levando-cachorro-e-gato-juntos/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16395150,
+    "url_download": "https://images.pexels.com/photos/16395150/pexels-photo-16395150.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/dog-and-cat-sitting-together-16395150/",
+    "fotografo": "Helena Jankovičová Kováčová",
+    "fotografo_url": "https://www.pexels.com/@helen1",
+    "largura": 4106,
+    "altura": 2732,
+    "query": "dog and cat isolated white background",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-planejar-as-ferias-levando-cachorro-e-gato-juntos/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33334460,
+    "url_download": "https://images.pexels.com/photos/33334460/pexels-photo-33334460.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adorable-cream-chihuahua-puppy-studio-portrait-33334460/",
+    "fotografo": "Clarissa   Roley",
+    "fotografo_url": "https://www.pexels.com/@clarissa-roley-139936449",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute puppy and kitten studio shot",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-planejar-as-ferias-levando-cachorro-e-gato-juntos/5.jpg"
+  }
+]
