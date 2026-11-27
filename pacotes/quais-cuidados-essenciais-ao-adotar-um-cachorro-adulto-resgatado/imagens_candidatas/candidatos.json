@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 16622866,
+    "url_download": "https://images.pexels.com/photos/16622866/pexels-photo-16622866.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-dog-on-yellow-background-16622866/",
+    "fotografo": "Miguel González",
+    "fotografo_url": "https://www.pexels.com/@mikegles",
+    "largura": 4455,
+    "altura": 2970,
+    "query": "rescue dog isolated white background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15141564,
+    "url_download": "https://images.pexels.com/photos/15141564/pexels-photo-15141564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/sitting-dog-in-winter-15141564/",
+    "fotografo": "Михаил Крамор",
+    "fotografo_url": "https://www.pexels.com/@vantik93",
+    "largura": 5232,
+    "altura": 3488,
+    "query": "rescue dog isolated white background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 9678223,
+    "url_download": "https://images.pexels.com/photos/9678223/pexels-photo-9678223.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-photo-of-a-brown-dog-9678223/",
+    "fotografo": "Victor Candiani",
+    "fotografo_url": "https://www.pexels.com/@victorcandiani",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "adopted dog alone portrait studio",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15175665,
+    "url_download": "https://images.pexels.com/photos/15175665/pexels-photo-15175665.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/photograph-of-a-black-puppy-15175665/",
+    "fotografo": "Sharon  Snider",
+    "fotografo_url": "https://www.pexels.com/@sharon-snider-2339082",
+    "largura": 6043,
+    "altura": 4029,
+    "query": "adopted dog alone portrait studio",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 16622288,
+    "url_download": "https://images.pexels.com/photos/16622288/pexels-photo-16622288.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/portrait-of-a-black-dog-on-yellow-background-16622288/",
+    "fotografo": "Anya  Juárez Tenorio",
+    "fotografo_url": "https://www.pexels.com/@anyajuarez",
+    "largura": 4000,
+    "altura": 2667,
+    "query": "adopted dog alone portrait studio",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 30556362,
+    "url_download": "https://images.pexels.com/photos/30556362/pexels-photo-30556362.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/adoptable-mix-breed-pothound-dog-in-trinidad-30556362/",
+    "fotografo": "Dominik Gryzbon",
+    "fotografo_url": "https://www.pexels.com/@gryziu",
+    "largura": 5114,
+    "altura": 3548,
+    "query": "adopted dog alone portrait studio",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/5.jpg"
+  }
+]
