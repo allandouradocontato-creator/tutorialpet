@@ -1,18 +1,18 @@
-# Auditoria do processo — 2026-11-26 19:12 UTC
+# Auditoria do processo — 2026-11-27 11:19 UTC
 
-Pacote: `como-planejar-as-ferias-levando-cachorro-e-gato-juntos` — 1 aviso(s)
+Pacote: `quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado` — 1 aviso(s)
 
-- **OK ** duração 44 s (padrão: 15 a 60 s)
-- **OK ** volume geral -14.3 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
+- **OK ** duração 37 s (padrão: 15 a 60 s)
+- **OK ** volume geral -14.7 LUFS (padrão: -17 a -12; abaixo disso o vídeo soa fraco)
 - **OK ** gancho é FALADO na 1ª cena (não só texto na tela)
-- **OK ** gancho com 7 palavras (padrão: até ~12)
+- **OK ** gancho com 9 palavras (padrão: até ~12)
 - **OK ** gancho sem promessa de resultado/prazo
 - **OK ** nenhuma tag de emoção aparece na tela
-- **OK ** tags usadas: ['short pause', 'smiling', 'thoughtful', 'warmly']
+- **OK ** tags usadas: ['smiling', 'softly', 'thoughtful', 'warmly']
 - **OK ** sem risada e no máximo um [excited]
 - **OK ** narração tem tags de emoção (a Duda sorri pela tag)
 - **OK ** CTA presente (seguir, comentar, compartilhar, salvar ou blog)
 - **OK ** CTA com a assinatura da Duda
 - **OK ** legenda com o link do artigo
 - **AVISO** legenda com o link do produto (landing)
-- **INFO** créditos ElevenLabs estimados nesta rodada: ~602 (saldo do plano: ver painel)
+- **INFO** créditos ElevenLabs estimados nesta rodada: ~487 (saldo do plano: ver painel)
