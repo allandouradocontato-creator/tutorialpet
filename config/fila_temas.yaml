@@ -1424,7 +1424,8 @@ temas:
   status: pendente
 - termo: como criar um espaco seguro para pets idosos com baixa visao
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-27'
 - termo: como incluir petiscos naturais na rotina alimentar de caes adultos
   pilar: alimentacao
   status: pendente
@@ -1589,3 +1590,6 @@ temas:
   pilar: adocao
   status: rascunho_pronto
   data: '2026-11-27'
+- termo: como planejar espaco seguro para caes e gatos em casas alugadas
+  pilar: utilidade_publica
+  status: pendente
