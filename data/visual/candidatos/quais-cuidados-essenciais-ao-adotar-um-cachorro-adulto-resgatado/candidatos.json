@@ -1,0 +1,41 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 17589407,
+    "url_download": "https://images.pexels.com/photos/17589407/pexels-photo-17589407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/bichon-frise-in-scarf-17589407/",
+    "fotografo": "Pet foto",
+    "fotografo_url": "https://www.pexels.com/@pet-foto-644780685",
+    "largura": 4709,
+    "altura": 3139,
+    "query": "dog sitting alone studio background",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 17880521,
+    "url_download": "https://images.pexels.com/photos/17880521/pexels-photo-17880521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/white-dog-sitting-on-a-wooden-box-17880521/",
+    "fotografo": "Pet foto",
+    "fotografo_url": "https://www.pexels.com/@pet-foto-644780685",
+    "largura": 4709,
+    "altura": 3139,
+    "query": "dog sitting alone studio background",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 765575,
+    "url_download": "https://images.pexels.com/photos/765575/pexels-photo-765575.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/grayscale-photography-of-adult-short-coated-dog-765575/",
+    "fotografo": "Akshar Dave🌻",
+    "fotografo_url": "https://www.pexels.com/@akshar-dave",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "dog sitting alone studio background",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quais-cuidados-essenciais-ao-adotar-um-cachorro-adulto-resgatado/2.jpg"
+  }
+]
