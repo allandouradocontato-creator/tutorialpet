@@ -460,7 +460,8 @@ temas:
   data: '2026-11-22'
 - termo: quais cuidados diarios com caes senior de pelo curto
   pilar: cuidados_diarios
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-28'
 - termo: como preparar a casa para a chegada de um filhote de gato
   pilar: primeiros_passos_filhotes
   status: rascunho_pronto
