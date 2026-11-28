@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 3763312,
+    "url_download": "https://images.pexels.com/photos/3763312/pexels-photo-3763312.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-dalmatian-dog-sitting-on-floor-in-room-3763312/",
+    "fotografo": "Helena Lopes",
+    "fotografo_url": "https://www.pexels.com/@helenalopes",
+    "largura": 5472,
+    "altura": 3648,
+    "query": "cute dog alone indoor",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282278,
+    "url_download": "https://images.pexels.com/photos/7282278/pexels-photo-7282278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-puppy-in-cozy-room-7282278/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute dog alone indoor",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 4254053,
+    "url_download": "https://images.pexels.com/photos/4254053/pexels-photo-4254053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-little-purebred-dog-in-robe-looking-out-window-at-home-4254053/",
+    "fotografo": "André Fernandes",
+    "fotografo_url": "https://www.pexels.com/@andre-fernandes-2701637",
+    "largura": 5102,
+    "altura": 3401,
+    "query": "cute dog alone indoor",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7282333,
+    "url_download": "https://images.pexels.com/photos/7282333/pexels-photo-7282333.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cute-loyal-dog-resting-on-sofa-at-home-7282333/",
+    "fotografo": "Sarah  Chai",
+    "fotografo_url": "https://www.pexels.com/@sarah-chai",
+    "largura": 6000,
+    "altura": 4000,
+    "query": "cute dog alone indoor",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 5801444,
+    "url_download": "https://images.pexels.com/photos/5801444/pexels-photo-5801444.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/a-dog-looking-through-a-window-5801444/",
+    "fotografo": "Val Burger",
+    "fotografo_url": "https://www.pexels.com/@val-burger-3898035",
+    "largura": 4000,
+    "altura": 3451,
+    "query": "cute dog alone indoor",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 15395807,
+    "url_download": "https://images.pexels.com/photos/15395807/pexels-photo-15395807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-of-cat-15395807/",
+    "fotografo": "Felipe Balduino",
+    "fotografo_url": "https://www.pexels.com/@felipebalduino",
+    "largura": 5456,
+    "altura": 3632,
+    "query": "cat sitting on floor isolated background",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil/5.jpg"
+  }
+]
