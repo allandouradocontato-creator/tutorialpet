@@ -1,0 +1,80 @@
+[
+  {
+    "fonte": "pexels",
+    "id": 38783979,
+    "url_download": "https://images.pexels.com/photos/38783979/pexels-photo-38783979.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/close-up-portrait-of-a-senior-chihuahua-resting-38783979/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 6198,
+    "altura": 4132,
+    "query": "blind old dog indoor portrait",
+    "indice": 0,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-pets-idosos-com-baixa-visao/0.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 28653981,
+    "url_download": "https://images.pexels.com/photos/28653981/pexels-photo-28653981.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/profile-of-a-blind-dog-at-an-indian-beach-28653981/",
+    "fotografo": "Niraj Yadav",
+    "fotografo_url": "https://www.pexels.com/@niraj-yadav-712204538",
+    "largura": 5184,
+    "altura": 3888,
+    "query": "blind old dog indoor portrait",
+    "indice": 1,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-pets-idosos-com-baixa-visao/1.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 40515121,
+    "url_download": "https://images.pexels.com/photos/40515121/pexels-photo-40515121.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/40515121/",
+    "fotografo": "Erwin Bosman",
+    "fotografo_url": "https://www.pexels.com/@erwin-bosman-118283",
+    "largura": 8031,
+    "altura": 5357,
+    "query": "blind old dog indoor portrait",
+    "indice": 2,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-pets-idosos-com-baixa-visao/2.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 7098038,
+    "url_download": "https://images.pexels.com/photos/7098038/pexels-photo-7098038.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/small-furry-dog-on-black-surface-in-studio-7098038/",
+    "fotografo": "SILVI ARANDA",
+    "fotografo_url": "https://www.pexels.com/@silvi",
+    "largura": 5216,
+    "altura": 3477,
+    "query": "blind old dog indoor portrait",
+    "indice": 3,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-pets-idosos-com-baixa-visao/3.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 33249045,
+    "url_download": "https://images.pexels.com/photos/33249045/pexels-photo-33249045.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/rustic-corridor-with-dog-and-laundry-33249045/",
+    "fotografo": "levan simonshvili",
+    "fotografo_url": "https://www.pexels.com/@levsi",
+    "largura": 4256,
+    "altura": 2832,
+    "query": "blind old dog indoor portrait",
+    "indice": 4,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-pets-idosos-com-baixa-visao/4.jpg"
+  },
+  {
+    "fonte": "pexels",
+    "id": 41108991,
+    "url_download": "https://images.pexels.com/photos/41108991/pexels-photo-41108991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "url_pagina": "https://www.pexels.com/photo/cozy-cat-playing-with-toy-on-fluffy-rug-41108991/",
+    "fotografo": "Helena Jankovičová Kováčová",
+    "fotografo_url": "https://www.pexels.com/@helen1",
+    "largura": 6720,
+    "altura": 4480,
+    "query": "senior cat resting alone cozy room",
+    "indice": 5,
+    "arquivo": "data/visual/candidatos/como-criar-um-espaco-seguro-para-pets-idosos-com-baixa-visao/5.jpg"
+  }
+]
