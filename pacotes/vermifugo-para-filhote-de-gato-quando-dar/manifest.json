@@ -24,9 +24,9 @@
       "CTA diferente dos últimos vídeos",
       "configuração da voz no padrão (eleven_v4, estabilidade 0.26)",
       "voz conferida no manifesto: Duda/Marianne (eleven_v4), 7 cenas ElevenLabs, 0 voz grátis",
-      "coerência espécie gato: coerência não verificada (visão indisponível: HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"mes / cf: HTTP Error 410: Gone)"
+      "coerência espécie gato: coerência não verificada (visão indisponível: HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"mes / cf: HTTP Error 410: Gone)"
     ],
-    "em": "2026-11-24T11:30:51+00:00"
+    "em": "2026-11-28T11:21:28+00:00"
   },
   "aprovado_por": "auto (Guardiao ok)"
 }
