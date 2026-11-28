@@ -1435,7 +1435,8 @@ temas:
   status: pendente
 - termo: quais os direitos do tutor em condominios pet friendly no brasil
   pilar: utilidade_publica
-  status: pendente
+  status: rascunho_pronto
+  data: '2026-11-28'
 - termo: como planejar espacos verticais seguros para gatos idosos com artrose
   pilar: utilidade_publica
   status: pendente
@@ -1592,5 +1593,8 @@ temas:
   status: rascunho_pronto
   data: '2026-11-27'
 - termo: como planejar espaco seguro para caes e gatos em casas alugadas
+  pilar: utilidade_publica
+  status: pendente
+- termo: regras de convivencia em condominio pet friendly para multianimais
   pilar: utilidade_publica
   status: pendente

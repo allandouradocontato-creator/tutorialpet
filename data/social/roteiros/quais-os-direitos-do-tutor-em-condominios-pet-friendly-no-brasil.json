@@ -1,0 +1,47 @@
+{
+  "titulo_video": "Seus direitos com pets em condomínio",
+  "gancho_3s": "3 coisas que ninguém te conta sobre condomínio.",
+  "cenas": [
+    {
+      "narracao": "3 coisas que ninguém te conta sobre condomínio.",
+      "visual_busca_banco_livre": "cute puppy looking at camera",
+      "texto_na_tela": "Recebeu notificação por causa do cachorro?"
+    },
+    {
+      "narracao": "O Supremo Tribunal Federal é claro: condomínio não pode proibir animais de forma genérica no apartamento.",
+      "visual_busca_banco_livre": "dog sitting on apartment floor looking out window",
+      "texto_na_tela": "Proibir pet é proibido!"
+    },
+    {
+      "narracao": "[thoughtful] Se o seu animal é pacífico e não causa perturbação extrema, a proibição do síndico não tem valor legal.",
+      "visual_busca_banco_livre": "calm dog resting indoor close up",
+      "texto_na_tela": "Regra abusiva não vale"
+    },
+    {
+      "narracao": "[short pause] O prédio pode exigir guia curta ou que circule no colo, mas regras exageradas são consideradas abusivas.",
+      "visual_busca_banco_livre": "dog wearing collar indoors close up",
+      "texto_na_tela": "O que pode e não pode"
+    },
+    {
+      "narracao": "Exigir focinheira para qualquer raça ou atestados veterinários trimestrais sem justificativa não tem respaldo legal.",
+      "visual_busca_banco_livre": "healthy dog breathing calmly close up",
+      "texto_na_tela": "Chega de exigências ilegais"
+    },
+    {
+      "narracao": "Recebeu multa indevida? Toda penalidade precisa de provas reais e direito de defesa, e não de fofocas.",
+      "visual_busca_banco_livre": "dog looking curious close up",
+      "texto_na_tela": "Como recorrer de multas"
+    }
+  ],
+  "chamada_final": "Comenta aqui embaixo: o seu pet também faz isso? Eu quero saber! Aqui é a Duda, do Tutorial Pet. [warmly]",
+  "hashtags": [
+    "#petfriendly",
+    "#direitosdosanimais",
+    "#moraremcondominio",
+    "#cachorros"
+  ],
+  "legenda": "🐾 Seu cachorro sofre quando fica sozinho? Conheça o app Sozinho em Casa — protocolo de 14 dias, de R$ 97 por R$ 27 (pagamento único). → https://sozinho.tutorialpet.com.br/?utm_source=tutorialpet&utm_medium=conteudo\n\nRecebeu notificação por causa do seu pet no condomínio? A lei está do seu lado!\n\n📖 Artigo completo: https://tutorialpet.com.br/quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil\n\n#petfriendly #direitosdosanimais #moraremcondominio #cachorros",
+  "slug": "quais-os-direitos-do-tutor-em-condominios-pet-friendly-no-brasil",
+  "molde_gancho": "abertura_lista_ninguem_conta",
+  "cta_indice": 1
+}
